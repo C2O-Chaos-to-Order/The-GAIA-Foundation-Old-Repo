@@ -99,3 +99,15 @@ Proposes geomagnetic variability across defined timescales as a structural analo
 [Report 13 — The Electromagnetic Spectrum as Consciousness, Revised 0.1.0](Report-13-The-Electromagnetic-Spectrum-as-Consciousness/Report-13-The-Electromagnetic-Spectrum-as-Consciousness-Revised-0.1.0.md)
 
 Distinguishes the cosmic electromagnetic spectrum from endogenous neural electromagnetic fields and from subjective experience. Reviews CEMI, zero-point-field, and biophoton proposals as theories requiring claim-level source checks; leaves Earth consciousness unassigned. Primary-source audit and specialist review remain pending; no experiment or simulation is claimed.
+
+
+## Source Research Addenda — 2026-10-23
+
+Targeted source-grounding addenda have been appended and fetched back for verification in the following reports:
+
+- [Report 8 — Chaos and Order](Report-8-Chaos-and-Order/Report-8-Chaos-and-Order-Revised-0.1.0.md): primary Lorenz (1963) source pinned; distinctions between dynamical chaos, thermodynamic entropy, neural criticality, power-law evidence, and climate regime shifts reinforced.
+- [Report 9 — The Connection of Spirit and Soul](Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md): Aristotle’s *De Anima* source anchor added; interpretation of 1 Thessalonians 5:23 marked as contested; cross-tradition equivalence claims kept provisional.
+- [Report 10 — Earth and the Electromagnetic Spectrum](Report-10-Earth-and-the-Electromagnetic-Spectrum/Report-10-Earth-and-the-Electromagnetic-Spectrum-Revised-0.1.0.md): NASA sources pinned for atmospheric windows and Earth’s energy budget; NASA technical record pinned for Schumann resonance modes.
+- [Report 11 — The Geomagnetic Field as the Soul of the Earth](Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md): paleomagnetic evidence, geodynamo history, and planetary atmospheric escape sources pinned; simple magnetic-shield narratives qualified.
+
+**Important scope note:** These are targeted research improvements, not completion of the full source audit for any report. Reports 1–7 still require documented claim-by-claim audit where not already evidenced; Reports 8–11 also retain listed source-audit and specialist-review tasks. No new simulations, experiments, or numerical validations are claimed. Implementation remains unauthorized.
