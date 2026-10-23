@@ -118,3 +118,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Testable failure cases:** an unverified boundary count; a causal link inferred from co-occurrence; uncertainty lost when multiple Earth systems are summarized.
 
 **Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical/spectral validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: Life as the Soul of the Earth; the Core as Its Heart
+
+Maintain a strict distinction between measurable Earth-system processes (including biosphere interdependence, geophysical processes, and coupled planetary-boundary variables) and spiritual or metaphorical language such as “Earth’s soul” and “core-heart.” Metaphor can carry philosophical meaning, but it must not be used as a causal mechanism or as a substitute for geoscientific evidence.
+
+Cross-domain synthesis must preserve dependencies, uncertainties, scale differences, and evidence quality. Planetary boundaries should not be treated as independent checkboxes; any aggregate measure requires a defined method and sensitivity analysis. The invariant framework requires provenance, external source audit, and independent challenge. No new simulation, numerical result, or empirical validation is claimed.
