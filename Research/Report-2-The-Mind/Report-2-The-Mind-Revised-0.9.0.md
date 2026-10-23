@@ -149,3 +149,16 @@ v8.0.0 distinguishes self-reference, metacognition, recurrence, agency, and phen
 - Libretti & Puckett, *Physiology, Homeostasis* (StatPearls/NCBI Bookshelf), https://pubmed.ncbi.nlm.nih.gov/32644564/, for dynamic regulation as a physiological baseline.
 
 **Evidence status:** general distinctions are supported by established research practice; this addendum does not independently validate the report's custom agent model. Formal replication, ablation studies, sensitivity analysis, and human generalization remain pending. No new simulation was run.
+
+
+## Targeted source-audit checkpoint — 2026-10-23
+
+**Scope of this pass:** interoception, embodied self-awareness, and active inference as theoretical framing.
+
+- Wang & Chang, “The Coding Logic of Interoception,” *Annual Review of Physiology* 86 (2024), 301–327, DOI https://doi.org/10.1146/annurev-physiol-042222-023455, describes interoception as distributed sensing of internal bodily signals and emphasizes links with homeostasis, motivation, autonomic function, cognition, and behavior. The review also notes unresolved questions about system-level signal coding.
+- “Interoception, network physiology and the emergence of bodily self-awareness,” *Neuroscience & Biobehavioral Reviews* 165 (2024), article 105864, DOI https://doi.org/10.1016/j.neubiorev.2024.105864, supports treating bodily self-awareness as involving interacting interoceptive and broader physiological networks, rather than a single isolated signal.
+- Pezzulo, Parr & Friston, “Active inference as a theory of sentient behavior,” *Biological Psychology* (2024), DOI https://doi.org/10.1016/j.biopsycho.2023.108741, is a theoretical review of active inference. It supplies a modeling framework, not by itself proof that any particular system is sentient.
+
+**Correction boundary:** distinguish measurable interoceptive physiology, cognitive/behavioral models, and phenomenal consciousness. A successful model of regulation or action does not establish subjective experience. Any custom agent or arbitration model in this report needs explicit variables, comparison baselines, ablations, sensitivity analysis, and replication before it can be treated as validated.
+
+**Remaining:** full claim-by-claim source audit, model specification review, and independent neuroscience/cognitive-science review. No new simulation was run. Status remains OPEN.
