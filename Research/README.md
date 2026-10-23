@@ -61,3 +61,10 @@ The [v8.0.0 specification](Transformative-Intelligence-Five-Phase-Meta-Architect
 [Report 8 — Chaos and Order, Revised 0.1.0](Report-8-Chaos-and-Order/Report-8-Chaos-and-Order-Revised-0.1.0.md)
 
 This report distinguishes deterministic dynamical chaos from thermodynamic entropy and metaphorical uses of “chaos”; treats edge-of-chaos/criticality claims as contested; and records cross-report relationships to the Body, Mind, Soul, Spirit, Consciousness, Earth, and ethics. Source verification and specialist review remain pending. No simulation or numerical validation is claimed, and implementation is not authorized.
+
+
+## Report 9 — The Connection of Spirit and Soul
+
+[Report 9 — The Connection of Spirit and Soul, Revised 0.1.0](Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md)
+
+A conceptual synthesis of Soul as inward self-relation and Spirit as outward world-relation, connected through reciprocal processes of identity, attention, breath, relationship, and revision. Cross-tradition source validation and independent review remain pending. The report explicitly separates philosophical/theological interpretation from physical quantum claims.
