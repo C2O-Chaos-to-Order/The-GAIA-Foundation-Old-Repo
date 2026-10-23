@@ -202,3 +202,20 @@ Report 10 adds Earth’s electromagnetic and radiative coupling as a concrete ph
 - Meta-wisdom means acknowledging the limits of sensing and instrumentation, distinguishing observations from inferences, and revising conclusions when better measurements appear.
 
 See [Report 10 — Earth and the Electromagnetic Spectrum](../Report-10-Earth-and-the-Electromagnetic-Spectrum/Report-10-Earth-and-the-Electromagnetic-Spectrum-Revised-0.1.0.md). Source audit and independent disciplinary review remain pending; no model run or experiment is claimed.
+
+
+---
+
+## Report 11 Integration — Metaphor, Planetary Identity, and Evidence Boundaries
+
+Report 11 offers a structural analogy: the geomagnetic field can represent planetary persistence and boundary, while the electromagnetic spectrum can represent exchange and connection. This is an interpretive mapping, not a claim that Earth is a person, that the field is literally a soul, or that the field and spectrum form a quantum-entangled state.
+
+**Framework constraints:**
+- Preserve distinctions among physical mechanisms, philosophical interpretation, theology, and poetic language.
+- Treat geodynamo persistence as continuity of a dynamical system through change, not as an unchanged field configuration.
+- Do not reduce Earth’s habitability or Mars’s atmospheric evolution to one variable.
+- Distinguish the solar energy driving climate and photosynthesis from the internal energy and compositional buoyancy driving the geodynamo.
+- Require source-pinned evidence and uncertainty for claims about the age of the early geomagnetic field, reversals, particle shielding, and atmospheric escape.
+- Meta-wisdom includes recognizing when an analogy is useful and when its literalization would exceed the evidence.
+
+See [Report 11 — The Geomagnetic Field as the Soul of the Earth](../Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md). Source audit and independent specialist review remain pending; no simulation is claimed.
