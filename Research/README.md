@@ -231,3 +231,10 @@ The current repository inventory contains Reports 1–17 and Report 19, but no R
 [Foundational Seven Claim and Technical Audit — 2026-10-23](FOUNDATIONAL-SEVEN-CLAIM-AND-TECHNICAL-AUDIT-2026-10-23.md)
 
 Report-by-report review of principal sources and claims in Reports 1–7, source publication status, evidence boundaries, cross-report consistency, and unresolved release blockers. This is a targeted audit, not an exhaustive sentence-by-sentence source certification. The global gate remains open and new report intake remains paused.
+
+
+## Transformative Intelligence — revision lineage audit
+
+[Transformative Intelligence Revision Lineage Audit — 2026-10-23](TRANSFORMATIVE-INTELLIGENCE-REVISION-LINEAGE-AUDIT-2026-10-23.md)
+
+Tracks the located v3.0.0, v4.0.0, v5.0.0, v7.0.0, and v8.0.0 editions, their conceptual dependencies, missing v6.0.0 slot, and validation limits. The lineage audit remains open; no formal proof or simulation is claimed.
