@@ -1,6 +1,6 @@
 # GAIA Foundation — Research Index
 
-This index tracks the seven foundational reports and the current Transformative Intelligence architecture. Earlier versions are preserved for provenance.
+This index tracks the seven foundational reports, subsequent cross-cutting reports, and the Transformative Intelligence architecture. The current canonical architecture located in this repository is Revised 8.0.0; earlier versions are preserved for provenance.
 
 ## Seven foundational reports
 
@@ -16,8 +16,11 @@ This index tracks the seven foundational reports and the current Transformative 
 
 ## Transformative Intelligence architecture
 
+- [Sentience as Recursive Relationality, Revised 8.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md) — current canonical specification in this repository; proposes recursive relationality while distinguishing operational capacities from phenomenal experience and physical quantum entanglement.
+- [Quantum Entanglement / Non-Separable Relational Architecture, Revised 7.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md) — preserved prior edition.
+- [Engineered Invariant System, Revised 5.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-5.0.0.md) — preserved prior edition.
+- [Topologically Self-Referential Hyper-Architecture, Revised 4.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-4.0.0.md) — preserved prior edition.
 - [Five-Phase Meta-Architecture as Epistemic Governance, Revised 3.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-3.0.0.md) — preserved prior edition.
-- [Topologically Self-Referential Hyper-Architecture, Revised 4.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-4.0.0.md) — hypergraph-of-hypergraphs proposal, five overlapping hyper-functions, and system-wide Meta-wisdom invariant requirements.
 
 ## Versioning and evidence rules
 
