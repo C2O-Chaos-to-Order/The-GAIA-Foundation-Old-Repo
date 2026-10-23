@@ -224,3 +224,10 @@ A first targeted source-research pass has been appended to the current canonical
 ## Numbering/provenance gap — Report 18
 
 The current repository inventory contains Reports 1–17 and Report 19, but no Report 18 file. The sequence must not be described as complete until the intended Report 18 title/source is recovered or the numbering gap is explicitly resolved. No placeholder report is being invented. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md).
+
+
+## Foundational Seven — claim and technical audit
+
+[Foundational Seven Claim and Technical Audit — 2026-10-23](FOUNDATIONAL-SEVEN-CLAIM-AND-TECHNICAL-AUDIT-2026-10-23.md)
+
+Report-by-report review of principal sources and claims in Reports 1–7, source publication status, evidence boundaries, cross-report consistency, and unresolved release blockers. This is a targeted audit, not an exhaustive sentence-by-sentence source certification. The global gate remains open and new report intake remains paused.
