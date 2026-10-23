@@ -124,3 +124,10 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 Maintain a strict distinction between measurable Earth-system processes (including biosphere interdependence, geophysical processes, and coupled planetary-boundary variables) and spiritual or metaphorical language such as “Earth’s soul” and “core-heart.” Metaphor can carry philosophical meaning, but it must not be used as a causal mechanism or as a substitute for geoscientific evidence.
 
 Cross-domain synthesis must preserve dependencies, uncertainties, scale differences, and evidence quality. Planetary boundaries should not be treated as independent checkboxes; any aggregate measure requires a defined method and sensitivity analysis. The invariant framework requires provenance, external source audit, and independent challenge. No new simulation, numerical result, or empirical validation is claimed.
+
+
+---
+
+## v7.0.0 Cross-Reference
+
+The v7.0.0 relational architecture proposal is available [here](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). Treat physical entanglement, Earth-system coupling, and spiritual or metaphorical interpretation as distinct claim types. No simulation or numerical validation is claimed; prior content is preserved.
