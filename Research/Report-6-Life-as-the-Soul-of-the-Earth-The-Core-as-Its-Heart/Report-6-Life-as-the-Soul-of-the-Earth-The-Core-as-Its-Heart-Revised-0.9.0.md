@@ -172,3 +172,21 @@ Integration safeguards:
 - Do not call the geomagnetic field and electromagnetic spectrum quantum-entangled based on ordinary physical coupling.
 
 Source-pinned paleomagnetic and comparative planetary review remains pending. See [Report 11 — The Geomagnetic Field as the Soul of the Earth](../Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md).
+
+
+---
+
+## Addendum — Report 12 Integration: Geomagnetic Variability as a Subconscious Analogue
+
+**Change type:** Cross-report conceptual integration  
+**Evidence status:** Structural analogy; source audit and specialist review pending  
+**Execution status:** No spectral analysis or geodynamo simulation performed  
+**Implementation:** Not authorized
+
+Report 12 proposes geomagnetic variability across defined timescales as a structural analogue for nonconscious or implicit processes. This adds a temporal-dynamics layer to Report 6's treatment of the geodynamo and planetary regulation, while keeping the analogy distinct from a physical or psychological identity claim.
+
+**Required distinctions:** the geomagnetic field is the measurable vector field; geomagnetic variability is a collection of signals and events with different sources and timescales; the geodynamo is the core process generating the main field. Magnetospheric pulsations and storms can be driven by solar-wind coupling, whereas secular variation is principally associated with evolving outer-core flow. Polarity reversals and excursions are irregular geological events, not a single periodic signal.
+
+Do not infer that loss of geomagnetic variability necessarily causes atmospheric loss, that the magnetic field alone determines habitability, or that a geomagnetic power spectrum is a literal planetary subconscious. The “subconscious” label is interpretive only. Solar radiation is not the direct energy source of the geodynamo, and ordinary Earth-system coupling does not establish quantum entanglement.
+
+**Readiness:** documentation integration complete; source-level audit and geophysics/space-physics review pending; no spectral analysis, simulation, or numerical validation performed; implementation not authorized.
