@@ -100,7 +100,7 @@ The following are **governance requirements**, not mathematical or natural laws:
 |---|---|---|
 | Claim-level traceability for R1–R7 | Claim ID, exact report section, source identity/version, evidence passage, limitations, rival explanation, disposition | Partial seed/audit only |
 | R8–R19 content-level dependency map | Read current canonical files; extract actual definitions and claims; validate each proposed edge | Title-level hypotheses only in this map |
-| Report 18 | Author-confirmed title/version or explicit gap disposition with provenance search record | Not located in current Research tree; no replacement invented |
+| Report 18 | Author-confirmed crosswalk between current Research sequence and historical GAIA-Documentation document sequence | Historical Original-AI-Body and Original-AI-Mind source records recovered; equivalence to current R18/R19 numbering remains unproven |
 | TI v6 | Exact historical file or explicit unused-version record | Not located; contents unknown |
 | TI complete revision diff | Retained/modified/removed/new claims with version hashes | Partial lineage narrative only |
 | Archive/cycle evidence | Original ZIP bytes, SHA-256 manifests, file inventory, pass/test IDs, execution logs and outputs | Exact named ZIPs not found in the accessible Library ZIP inventory during this pass; no matching files in current conversation attachments |
