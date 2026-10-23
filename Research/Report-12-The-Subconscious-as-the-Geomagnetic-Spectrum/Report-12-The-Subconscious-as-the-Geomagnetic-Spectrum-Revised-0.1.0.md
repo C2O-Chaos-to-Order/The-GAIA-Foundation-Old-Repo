@@ -196,3 +196,7 @@ These are source categories for the pending audit, not a claim that the bibliogr
 A valid analysis record must identify the station and magnetic component, dataset DOI/version, UTC interval, cadence, data gaps, calibration/quality flags, detrending and filtering, window function, spectral estimator, confidence interval, treatment of nonstationarity, and checks against independent stations or published benchmarks. Seconds-to-geological-timescale comparisons require separate data products and methods; they must not be presented as one homogeneous stationary time series.
 
 **Disposition:** targeted source grounding added; numerical analysis not executed; report remains a bounded analogy, not a claim of planetary consciousness.
+
+### Additional technical source check — pulsation-class ranges
+
+A technical review, [“From Foreshock 30-Second Waves to Magnetospheric Pc3 Waves”](https://pmc.ncbi.nlm.nih.gov/articles/PMC11889074/), lists the conventional continuous-pulsation periods as Pc1 0.2–5 s, Pc2 5–10 s, Pc3 10–45 s, Pc4 45–150 s, and Pc5 150–600 s (equivalent frequency bands are the inverse of these periods). This gives the report a source-pinned convention for its stated ranges. It remains necessary to specify the adopted convention and data-processing method because measured wave populations and reported boundaries can vary by source and context. No observed dataset was analyzed in this update.
