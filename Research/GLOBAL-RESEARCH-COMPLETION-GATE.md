@@ -119,3 +119,23 @@ Statuses below are initial triage, not final judgments. Each row remains **OPEN*
 ## Change log
 
 - 2026-10-23 — Opened research-wide completion gate after Report 19; captured initial recursive-tree inventory, known numbering/path issues, and report-by-report audit scope. This entry does not claim any full report audit is complete.
+
+
+## Progress log — targeted source checkpoints (2026-10-23)
+
+The first targeted research pass has now appended report-specific source checkpoints to the current canonical files for Reports **1–17 and 19**. These are discrete improvements, not final audit approvals.
+
+- **Reports 1–2:** interoception, embodied self-awareness, whole-cell modeling, active inference, data provenance, and the distinction between operational modeling and sentience.
+- **Report 3:** historical variation in ancient Greek soul theories; limits on applying likelihood-ratio language to unquantified metaphysical claims.
+- **Report 4:** 2025 and 2026 reviews of neuroscience of spiritual/religious practices; tradition-specific scope and neural-correlate versus theological-claim boundary.
+- **Report 5:** 2026 *Neuron* critique of grand theories; need for theory-specific predictions and validated measures; no claim that one critique settles the consciousness debate.
+- **Report 6:** 2025 critiques of Darwinized Gaia, 2026 ecological-feedback review, and planetary-boundaries version/date caution.
+- **Report 7:** synthesis guardrails against treating repeated claims as independent confirmation; simulation/model reproducibility criteria.
+- **Reports 8–9:** distinction among dynamical chaos, entropy, criticality, metaphor; philosophical diversity in soul concepts.
+- **Reports 10–14:** NASA energy-budget and Schumann-resonance records, USGS geodynamo explanation, and a 2024 cryptochrome radical-pair study; no inference from molecular magnetosensitivity to planetary quantum entanglement or human subconscious claims.
+- **Report 15:** Empedocles source anchor and explicit distinction among Greek roots, Indian elements, Chinese wǔxíng/phases, Buddhist analysis, and the modern GAIA symbolic mapping.
+- **Report 16:** CERN/ALICE’s measured lead-to-gold nuclear transmutation, bounded to the actual nuclear process; it does not validate the separate Marathon Fusion claim.
+- **Report 17:** 2026 smartphone PCB composition study and 2021 smartphone-component study; device-boundary and mass-abundance caveats.
+- **Report 19:** USGS geodynamo, NASA energy budget, and 2026 ecological-feedback review; these support physical Earth-system coupling, not literal planetary quantum entanglement. Source S01 remains unresolved.
+
+**Verified scope of this checkpoint:** selected sources were located and the above findings appended to report files. This does not certify all sources cited in any report, all claims in those reports, or any simulation. Every report remains OPEN until the complete claim register and its applicable gates are reviewed. Report 18 remains a numbering/provenance blocker because no Report 18 file is present in the current tree.
