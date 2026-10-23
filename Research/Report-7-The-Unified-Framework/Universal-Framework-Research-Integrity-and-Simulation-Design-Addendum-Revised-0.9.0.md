@@ -206,3 +206,10 @@ All twelve specifications remain **design proposals**, not executed simulations.
 - **Repository changes:** this addendum only; no previous file was overwritten, moved, or deleted.
 
 The governing conclusion is restrained but constructive: the Universal Framework is more testable when it explicitly separates empirical findings, model-dependent predictions, philosophical arguments, and spiritual interpretations. The next step is not to claim twelve successful simulations, but to verify remaining source records and convert each proposed simulation into a versioned, executable, preregistered protocol with independent validation criteria.
+
+
+## Execution record — synthetic smoke tests (2026-10-23)
+
+A separate reproducibility artifact now records five executed **synthetic smoke tests**: Lorenz initial-condition sensitivity (12 perturbations), a toy homeostatic controller (12 seeds), a reinforcement-learning foraging proxy (12 seeds per condition), a blackbody radiative-balance toy (12 albedo scenarios), and an FFT pipeline test on 12 generated noisy sinusoidal signals. The results and interpretation limits are in [Research/Validation/Universal-Framework-Synthetic-Simulation-Smoke-Tests-2026-10-23.md](../Validation/Universal-Framework-Synthetic-Simulation-Smoke-Tests-2026-10-23.md), with a runnable script at [universal_framework_synthetic_smoke_tests.py](../Validation/universal_framework_synthetic_smoke_tests.py).
+
+These runs verify only that the specified toy calculations execute and behave as described under synthetic assumptions. They are **not** the twelve substantive Report 7 simulation studies, do not use observational data, do not validate any consciousness theory or metaphysical claim, and do not count as independent reproduction. The twelve full designs remain unexecuted until each has a scientifically defensible operational model, source-pinned parameters/data, baseline, ablations, sensitivity analysis, outputs, failure logs, and reproduction instructions. This boundary is explicit to prevent a smoke test from being misreported as research validation.
