@@ -43,6 +43,8 @@ These hashes identify the fetched versions; they are not hashes of the missing Z
 
 ## 3. Seven-report completion matrix
 
+A targeted principal-claim/source and technical audit has now been added at [FOUNDATIONAL-SEVEN-CLAIM-AND-TECHNICAL-AUDIT-2026-10-23.md](FOUNDATIONAL-SEVEN-CLAIM-AND-TECHNICAL-AUDIT-2026-10-23.md). It checks principal claims and key sources report by report, corrects the current IWAI source links in Reports 1–2, and records cross-report consistency findings. It is not exhaustive sentence-by-sentence source certification; the remaining limitations are itemized in that audit.
+
 Statuses distinguish document presence from scientific validation. “Research pass” is not synonymous with independent source verification; “simulation design” is not an executed simulation.
 
 | Report | Canonical file verified | Research/source status | Full report-specific simulation status | Independent review | Overall |
