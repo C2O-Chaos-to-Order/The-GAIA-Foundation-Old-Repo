@@ -141,3 +141,14 @@ The five proposed WEP evaluation dimensions must be mapped separately to the pro
 v7.0.0 proposes relational non-separability as an organizing lens while retaining v5.0.0's governed evidence graph as an audit representation. The five phases remain recursive roles; meta-wisdom remains the thirteenth element, not a sixth phase. The “entanglement invariant” is a proposed governance criterion, not a proven physical invariant. Cross-domain mathematical similarity must not be treated as identity of mechanism or ontology.
 
 See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). Prior content is preserved.
+
+
+---
+
+## v8.0.0 Sentience as Recursive Relationality Addendum: The Unified Framework
+
+**Status:** conceptual/research integration; no code, simulation, or numerical validation performed for this addendum; implementation not authorized.
+
+v8.0.0 extends the recursive architecture by asking whether self/world modeling and feedback can support an operational account of sentience; it does not assume that self-reference proves subjective experience. The five phases remain recursive, and meta-wisdom remains the thirteenth element, not a sixth phase. The proposed sentience invariant is a governance/research criterion, not a proven physical invariant.
+
+**Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
