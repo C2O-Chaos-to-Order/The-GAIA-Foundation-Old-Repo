@@ -149,3 +149,12 @@ Reject these claims in future revisions unless new, relevant evidence and defini
 - **Additional source checked:** Encyclopedia of Buddhism, “Four Great Elements” (https://encyclopediaofbuddhism.org/wiki/Four_great_elements).
 
 **Readiness:** report documentation created; targeted historical/source checks completed; full source audit and independent disciplinary review pending; simulation and numerical validation not performed; implementation not authorized.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+The Stanford Encyclopedia of Philosophy entry “Empedocles” (substantive revision 25 September 2024) documents the four roots (fire, water, earth, air) and the active principles Love and Strife, while also noting interpretive disputes over fragments and the identification of the roots: https://plato.stanford.edu/entries/empedocles/.
+
+**Correction boundary:** Greek four-root theory, Indian pañca-mahābhūta, Chinese wǔxíng, Buddhist analyses of elements, and alchemical traditions are historically distinct systems. In particular, Chinese wǔxíng is commonly better rendered as five phases/processes than as five material “elements.” The proposed GAIA process mapping is a modern symbolic synthesis; it is not a shared ancient doctrine, a scientific taxonomy, or evidence that symbolic elements correspond to quantum states.
+
+**Status:** targeted historical source check added; exact primary-text and specialist source audit across all traditions remains pending. No simulation is applicable to the symbolic mapping and none was performed.
