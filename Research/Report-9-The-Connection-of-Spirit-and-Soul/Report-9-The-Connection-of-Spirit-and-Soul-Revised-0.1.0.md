@@ -181,3 +181,12 @@ The connection of Soul and Spirit can be understood as a reciprocal movement bet
 - Keep practical breathing and reflection suggestions distinct from claims about metaphysical truth or clinical efficacy.
 
 **Status:** Targeted source improvements added; full comparative bibliography audit and independent specialist review remain pending.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+The Stanford Encyclopedia of Philosophy, “Ancient Theories of Soul” (substantive revision 15 May 2024), documents substantial disagreement even among ancient Greek accounts: Homeric usage, Plato’s arguments, Aristotle’s hylomorphic account, and Hellenistic theories differ in what soul denotes and how it relates to life, cognition, and body. Reference: https://plato.stanford.edu/entries/ancient-soul/.
+
+**Correction boundary:** the report’s “soul as inward self-relation / spirit as outward world-relation” pairing is a project-level interpretive synthesis, not a universal definition shared by all religions or philosophical traditions. Its structural, dynamic, and lived “connections” are distinct claim types; any cross-cultural extension requires text-, period-, and tradition-specific evidence. The use of “non-separability” here remains philosophical and must not be recast as physical quantum entanglement.
+
+**Status:** a relevant philosophy reference checked; full primary-text and cross-tradition source audit remains pending. No simulation is applicable to the present conceptual claim and none was performed.
