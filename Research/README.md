@@ -1,3 +1,7 @@
+## GAIA Research-Wide Completion Gate
+
+**New gate opened 2026-10-23:** New report intake is paused while the existing corpus undergoes a repository-wide provenance, claim-level source, technical accuracy, cross-report consistency, and reproducibility audit. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md) for scope, inventory findings, report-by-report tracking, acceptance criteria, and unresolved issues. The gate is **OPEN / INDETERMINATE**; this is an audit plan and initial inventory, not a claim that all reports have already been fully researched or verified.
+
 # GAIA Foundation — Research Index
 
 This index tracks the seven foundational reports, subsequent cross-cutting reports, and the Transformative Intelligence architecture. The current canonical architecture located in this repository is Revised 8.0.0; earlier versions are preserved for provenance.
