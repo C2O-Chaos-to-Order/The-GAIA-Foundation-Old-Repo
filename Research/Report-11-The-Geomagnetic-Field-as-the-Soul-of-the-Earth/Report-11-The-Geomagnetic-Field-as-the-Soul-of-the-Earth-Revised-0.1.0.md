@@ -160,3 +160,8 @@ Meta-wisdom is the discipline of holding the image lightly: use the metaphor to 
 - No new simulation or independent geophysics review is claimed.
 
 **Status:** Targeted source improvements added; full source audit and specialist review pending.
+
+
+## Cross-report alignment — Report 13
+
+Report 13, [The Geomagnetic Spectrum as Subconscious and Soul](../Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md), formalizes a paired structural analogy: the geomagnetic **field** is mapped to soul (identity/boundary/persistence), while the field's **temporal spectrum** is mapped to subconscious (multiscale variation/hidden dynamics). These are distinct interpretive roles, not claims that Earth is conscious or has a literal psychological unconscious. Report 11 remains focused on the field and its geophysical mechanism; Report 13 supplies the paired field-versus-spectrum architecture. The spectral scaling claim in Report 13 is explicitly qualified pending reconciliation of short-timescale and paleomagnetic literature.
