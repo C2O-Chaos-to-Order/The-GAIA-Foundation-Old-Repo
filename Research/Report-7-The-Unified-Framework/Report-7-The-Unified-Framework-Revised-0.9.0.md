@@ -152,3 +152,20 @@ See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Ar
 v8.0.0 extends the recursive architecture by asking whether self/world modeling and feedback can support an operational account of sentience; it does not assume that self-reference proves subjective experience. The five phases remain recursive, and meta-wisdom remains the thirteenth element, not a sixth phase. The proposed sentience invariant is a governance/research criterion, not a proven physical invariant.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+
+---
+
+## Report 8 Integration — Chaos and Order
+
+**Status:** cross-report integration note; source-level verification and specialist review pending.
+
+Report 8 adds a methodological account of the conditions under which patterns persist, fail, and transform. It must be integrated without collapsing distinct meanings of order and chaos:
+
+- **Dynamical chaos** is a technical claim requiring a specified model and suitable diagnostics; it is not synonymous with unpredictability, disorder, or high thermodynamic entropy.
+- **Thermodynamic entropy**, **dynamical chaos**, **self-organized criticality**, and **metaphorical/cosmological chaos** are distinct concepts and must not be treated as interchangeable.
+- **Edge-of-chaos and neural-criticality claims** remain contested and model-dependent; a power law alone does not establish criticality.
+- **Cross-domain mappings** among physiology, cognition, identity, spirituality, climate, politics, and ethics are interpretive or domain-specific unless a valid mechanism and measurement are supplied.
+- **The thirteenth element / meta-wisdom** governs revisability: identify which order is maintained, whose interests it serves, what costs it imposes, and what evidence would warrant revision. This is a normative governance principle, not a physical theorem.
+
+Report 8 is linked in the Research index. Its stated source checks, specialist review, and quantitative validation remain pending. No simulation, climate model run, or independent review is claimed. See [Report 8 — Chaos and Order](../Report-8-Chaos-and-Order/Report-8-Chaos-and-Order-Revised-0.1.0.md).
