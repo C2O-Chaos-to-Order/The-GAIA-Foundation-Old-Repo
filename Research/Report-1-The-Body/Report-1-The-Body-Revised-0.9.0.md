@@ -160,3 +160,12 @@ Treat sentience-related claims as questions about physiological and multiscale o
 **Correction boundary:** biological embodiment and homeostasis are empirically grounded; any extrapolation from whole-cell modeling to a complete human organism, mind, or GAIA architecture remains a research proposal and needs its own validation. No simulation or biological experiment was run in this pass.
 
 **Remaining:** full claim-by-claim source audit; review of all anatomical/physiological assertions; source-to-claim mapping; specialist review. Status remains OPEN.
+
+
+## Follow-up primary-source check — whole-cell model and IWAI study (2026-10-23)
+
+The whole-cell model cited in this report is verified: Thornburg et al., “Bringing the genetically minimal cell to life on a computer in 4D,” *Cell* 189(9) (2026), 2582–2597.e27, DOI https://doi.org/10.1016/j.cell.2026.02.009. It models the approximately 100-minute cell cycle of the genetically minimal bacterium JCVI-syn3A, including genetic information processes, metabolism, growth, and division. The paper compares outputs with experimental measurements and provides code/data access. Its scope is one minimal bacterium, not a human body or a complete theory of embodiment. It also relies on transferred/estimated parameters where comprehensive experimental measurements are unavailable, a limitation that should remain explicit.
+
+The “Two Routes to Interoceptive Prioritisation” work by Grimbly et al. is located at the author’s project page and is listed as accepted for oral presentation at IWAI 2026. The page states that the arXiv preprint will be linked once announced: https://stjohngrimbly.com/iwai2026/. The described gridworld results include a 72-layout test that did not establish the predicted preference-reweighting benefit on difficult layouts. Until a full preprint/proceedings record is available and checked, classify it as a workshop presentation/project page rather than an independently peer-reviewed journal result.
+
+**Status correction:** the whole-cell paper’s primary bibliographic record is verified; the IWAI source is located but its full preprint/proceedings record remains pending. No new model was rerun. Status remains OPEN.
