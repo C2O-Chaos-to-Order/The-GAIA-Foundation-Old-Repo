@@ -242,3 +242,8 @@ Report-by-report review of principal sources and claims in Reports 1–7, source
 [Transformative Intelligence Revision Lineage Audit — 2026-10-23](TRANSFORMATIVE-INTELLIGENCE-REVISION-LINEAGE-AUDIT-2026-10-23.md)
 
 Tracks the located v3.0.0, v4.0.0, v5.0.0, v7.0.0, and v8.0.0 editions, their conceptual dependencies, missing v6.0.0 slot, and validation limits. The lineage audit remains open; no formal proof or simulation is claimed.
+
+
+## Research-cycle archive reconciliation and typed dependency map
+
+The current integration work now includes the [typed dependency map and TI lineage reconciliation](GAIA-RESEARCH-TYPED-DEPENDENCY-MAP-AND-TI-LINEAGE-RECONCILIATION-2026-10-23.md), which distinguishes verified core-report interfaces from title-level dependency hypotheses in Reports 8–19 and records the missing Report 18 and TI v6 slots without inventing content. The [research/simulation archive reconciliation](RESEARCH-AND-SIMULATION-CYCLE-ARCHIVE-RECONCILIATION-2026-10-23.md) documents recovery checks for the historical 3/6/9/12-cycle packages and keeps the reported 84 + 84 totals unverified until original archive evidence is recovered. The five synthetic smoke-test functions have been rerun with headline outcomes matching the existing record; the twelve full Report 7 studies remain unexecuted.
