@@ -143,4 +143,4 @@ The first targeted research pass has now appended report-specific source checkpo
 
 ## Source-to-claim register opened — 2026-10-23
 
-Created [SOURCE-CLAIM-TRACEABILITY-REGISTER.md](SOURCE-CLAIM-TRACEABILITY-REGISTER.md) with 25 seed entries covering selected high-impact claims across Reports 1–19. Entries record source identity/type, what the source supports, what it does not support, current verification state, and next action. This is a starter ledger, not a completed claim-by-claim bibliography. Expansion to every material claim and all Transformative Intelligence revisions remains required.
+Created [SOURCE-CLAIM-TRACEABILITY-REGISTER.md](SOURCE-CLAIM-TRACEABILITY-REGISTER.md) with 29 seed entries covering selected high-impact claims across Reports 1–19 and the v8.0.0 architecture. Entries record source identity/type, what the source supports, what it does not support, current verification state, and next action. This is a starter ledger, not a completed claim-by-claim bibliography. Expansion to every material claim and all Transformative Intelligence revisions remains required.
