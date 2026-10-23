@@ -183,3 +183,10 @@ A targeted, report-by-report source and technical audit has been added at [FOUND
 Two canonical references in Reports 1 and 2 were updated to link the located Grimbly et al. preprint (arXiv:2610.18617) alongside the IWAI project/presentation context. The audit also checks the 2026 spiritual-practices review against its published correction, distinguishes COGITATE results from the 2026 *Neuron* perspective, and classifies the Aubert, Dumberry, and Rubin Earth-system papers by their actual model/theory scope.
 
 **This is a substantive targeted audit, not a full completion claim.** Exhaustive claim-to-source mapping, complete methods/supplementary-material review, independent reproduction, specialist review, recovery of the prior cycle ZIPs, full execution of the twelve Report 7 designs, Report 18 provenance, and revision-by-revision Transformative Intelligence lineage remain open. The gate remains **OPEN / INDETERMINATE** and new report intake remains closed.
+
+
+## Transformative Intelligence revision-lineage audit checkpoint — 2026-10-23
+
+Added [TRANSFORMATIVE-INTELLIGENCE-REVISION-LINEAGE-AUDIT-2026-10-23.md](TRANSFORMATIVE-INTELLIGENCE-REVISION-LINEAGE-AUDIT-2026-10-23.md), covering the located v3.0.0, v4.0.0, v5.0.0, v7.0.0, and v8.0.0 files. It records their conceptual roles, validation status, dependency direction, explicit safeguards against confusing quantum-like models with physical entanglement, and the missing v6.0.0 slot in the located sequence. It does not infer the contents of an absent revision or claim formal proof.
+
+The audit confirms that the architecture revisions themselves state that simulations/formal validation remain unexecuted or pending. The revision lineage, v5-to-v7 change map, shared vocabulary, and report-to-architecture dependency graph remain open. Overall gate remains **OPEN / INDETERMINATE**; intake remains paused.
