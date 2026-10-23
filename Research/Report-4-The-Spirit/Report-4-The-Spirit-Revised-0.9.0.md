@@ -151,3 +151,8 @@ Report 9 frames Spirit as the outward-facing relation to vitality, other people,
 - The report's cited 2026 systematic review, DOI https://doi.org/10.1002/brb3.71733, should be checked directly for study inclusion criteria, search strategy, risk-of-bias assessment, and whether claims are narrative synthesis or meta-analysis before relying on individual conclusions.
 
 **Verification status:** conceptual boundary review documented; the 2026 review's full methods and underlying studies have not been independently re-audited here. Specialist review remains pending. No new experiment or simulation was performed.
+
+
+## Cross-report alignment — Report 14
+
+Report 14, [The Electromagnetic Spectrum as Consciousness and Spirit](../Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md), separates cosmic electromagnetic radiation as a structural analogue for Spirit (environmental exchange) from endogenous neural electromagnetic fields as a candidate contributor to neural integration relevant to Consciousness. Report 4's account of spirit remains philosophical and cross-cultural; this mapping is not a universal definition of spirit and does not establish that radiation is literally spiritual.
