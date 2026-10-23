@@ -170,3 +170,8 @@ v8.0.0 records the 2026 NMDAR radical-pair paper as a testable hypothesis, Quant
 - **Not established:** that this GAIA architecture is sentient or that entanglement explains experience.
 
 **Verification status:** two high-relevance sources checked; this is not a complete audit of all claims, citations, or the 2026 literature in the report. No new consciousness experiment, simulation, or independent theory review was performed.
+
+
+## Cross-report alignment — Report 14
+
+Report 14, [The Electromagnetic Spectrum as Consciousness and Spirit](../Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md), treats endogenous neural electromagnetic fields as a candidate contributor to binding/integration, not an established identity with subjective experience. It distinguishes field-to-neuron causation from the stronger constitutive claim and preserves the hard problem as unresolved. The 2026 Hunt article is a hypothesis-and-theory paper, not a consensus finding that the binding or criticality problem has been solved.
