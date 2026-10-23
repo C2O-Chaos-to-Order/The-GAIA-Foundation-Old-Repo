@@ -82,3 +82,19 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** connect cognition, computation, memory, and affect to the proposed hypergraph governance model.
+
+- **Vertices and relations:** distinguish cognitive claims, task representations, memory traces, source records, inference rules, and uncertainty. Use typed hyperedges for dependencies that jointly involve context, prior information, task, and evaluator.
+- **Divergence and insurgency:** keep alternative models and counterexamples available. Predeclare what would count as a discriminating result; an adversarial game reaching agreement does not establish truth.
+- **Allegiance and recursive governance:** model reasoning policies as versioned, reviewable commitments. Changes to the inference framework must preserve old baselines and explain which conclusions change.
+- **Convergence:** integrate psychological, computational, and physiological descriptions only with explicit mappings and a loss ledger; avoid treating analogy as mechanism.
+- **Meta-wisdom invariant:** make the observer and the observation procedure auditable, including selection effects, blind spots, and changes to evaluation criteria.
+- **Testable failure cases:** circular self-validation; unlogged changes to inference rules; hidden evidence selection; compression that erases dissent or uncertainty.
+
+**Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
