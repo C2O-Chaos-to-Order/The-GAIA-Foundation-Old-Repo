@@ -95,3 +95,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Testable failure cases:** experience and interpretation merged into one claim; disagreement erased by synthesis; one domain silently given veto power over all others.
 
 **Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: The Spirit
+
+Represent spiritual practice, ethical orientation, meaning, values, and metaphysical interpretation with explicit epistemic labels. Do not present spiritual or metaphorical statements as empirical findings unless independently supported by appropriate evidence. Keep normative commitments and empirical claims linked where useful but distinguish their standards of evaluation.
+
+Meta-wisdom may identify conflicts among commitments, but it cannot become an unaccountable override. Any exception to a governance invariant must be scoped, time-bounded, authorized, logged, and reviewed afterward. Preserve dissent and uncertainty rather than manufacturing consensus. This addendum defines research and governance requirements only; no proof, simulation, or implementation is claimed.
