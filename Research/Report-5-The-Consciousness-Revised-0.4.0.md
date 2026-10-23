@@ -191,7 +191,7 @@ The 2025 Cogitate Consortium adversarial collaboration tested preregistered pred
 
 ### Follow-up analysis of 246 connectivity measures
 
-Bryant and Whyte's 2026 study compared 246 functional-connectivity measures using the Cogitate MEG dataset and developed theory-guided neural mass models. Their results found that both GNWT-based and IIT-based models captured observed patterns, with tentative support for GNWT under the particular visual-perception dataset and modeling choices. This is a scoped follow-up, not a general verdict on consciousness theory. A correction was published on 15 October 2026, correcting the online equation and supplementary-data material; the corrected version must be used for reproduction. [S45; S46]
+Bryant and Whyte's 2026 study compared 246 functional-connectivity measures using the Cogitate MEG dataset and developed theory-guided neural mass models. Their results found that both GNWT-based and IIT-based models captured observed patterns, with tentative support for GNWT under the particular visual-perception dataset and modeling choices. This is a scoped follow-up, not a general verdict on consciousness theory. A correction was published on 15 October 2026, correcting the online equation and supplementary-data material; the corrected version must be used for reproduction. [S51; S52]
 
 ### Proposed prediction ledger (not yet executed)
 
@@ -202,7 +202,7 @@ The proposed “From Adversarial Tests to Prediction Ledgers” reference (S48) 
 ### Sources added
 
 - **S44:** Stewart, A. (2026). “Conceded in Advance: How Cogitate Disabled Its Own Verdict.” Zenodo preprint. https://doi.org/10.5281/zenodo.20031607 . Critical methodological analysis; not consensus.
-- **S45:** Bryant, A. G., & Whyte, C. J. (2026). “A data-driven approach to identifying and evaluating connectivity-based neural correlates of conscious visual perception.” *Neuroscience of Consciousness*, 2026(1), niag029. https://doi.org/10.1093/nc/niag029 .
-- **S46:** Bryant, A. G., & Whyte, C. J. (2026). Correction to the preceding article, *Neuroscience of Consciousness*, 2026(1), niag071. https://doi.org/10.1093/nc/niag071 . Published 15 October 2026.
+- **S51:** Bryant, A. G., & Whyte, C. J. (2026). “A data-driven approach to identifying and evaluating connectivity-based neural correlates of conscious visual perception.” *Neuroscience of Consciousness*, 2026(1), niag029. https://doi.org/10.1093/nc/niag029 .
+- **S52:** Bryant, A. G., & Whyte, C. J. (2026). Correction to the preceding article, *Neuroscience of Consciousness*, 2026(1), niag071. https://doi.org/10.1093/nc/niag071 . Published 15 October 2026.
 
 **Updated status:** theory-contested; neither a decisive Cogitate verdict nor proof of subjective experience from functional performance is established. No new consciousness experiment or simulation was performed for this revision.
