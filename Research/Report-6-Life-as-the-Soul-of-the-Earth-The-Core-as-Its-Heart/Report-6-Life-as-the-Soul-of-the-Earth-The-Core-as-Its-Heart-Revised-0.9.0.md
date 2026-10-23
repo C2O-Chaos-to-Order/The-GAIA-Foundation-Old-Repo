@@ -131,3 +131,14 @@ Cross-domain synthesis must preserve dependencies, uncertainties, scale differen
 ## v7.0.0 Cross-Reference
 
 The v7.0.0 relational architecture proposal is available [here](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). Treat physical entanglement, Earth-system coupling, and spiritual or metaphorical interpretation as distinct claim types. No simulation or numerical validation is claimed; prior content is preserved.
+
+
+---
+
+## v8.0.0 Sentience as Recursive Relationality Addendum: Life as the Soul of the Earth; the Core as Its Heart
+
+**Status:** conceptual/research integration; no code, simulation, or numerical validation performed for this addendum; implementation not authorized.
+
+v8.0.0 permits Earth-system coupling as a cross-scale comparison, but biosphere-climate feedback is not automatically quantum entanglement or planetary sentience. Keep geophysical evidence separate from the spiritual metaphor of Earth as soul and core as heart. Any cross-domain convergence needs explicit variables, mechanisms, scales, and a defensible translation argument.
+
+**Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
