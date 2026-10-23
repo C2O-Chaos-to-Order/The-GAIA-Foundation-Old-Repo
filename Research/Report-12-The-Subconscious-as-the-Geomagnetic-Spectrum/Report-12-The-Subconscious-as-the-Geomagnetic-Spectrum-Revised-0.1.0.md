@@ -169,3 +169,30 @@ These are source categories for the pending audit, not a claim that the bibliogr
 - Reject “the Earth has a subconscious” as an established scientific finding.
 - Reject “ordinary Earth-system coupling proves quantum entanglement.”
 - Reject assigning Earth a mind or consciousness solely from the proposed structural analogies.
+
+
+## Targeted primary-source audit addendum — 2026-10-23
+
+**Change type:** Source grounding and claim-boundary correction  
+**Evidence status:** Targeted source check completed; exhaustive claim-by-claim audit and specialist review remain open  
+**Execution status:** No geomagnetic time-series downloaded or analyzed; no spectral computation or simulation performed
+
+### Source anchors checked
+
+1. **Geomagnetic observatory data:** [INTERMAGNET data downloads and Reference Data Set information](https://intermagnet.org/data_download.html) documents definitive observatory datasets and the need to use observatory-quality records. This supports a feasible route to data acquisition; it does not itself support a claim about any specific spectrum or a universal geomagnetic frequency distribution.
+2. **Geomagnetic field and planetary coupling:** the review by Ramstad and Barabash, [“The Solar Wind Interaction with Mars and Venus”/magnetized versus unmagnetized planetary atmosphere context](https://doi.org/10.1007/s11214-021-00791-1), and Gronoff et al., [“Atmospheric Escape Processes and Planetary Atmospheric Evolution”](https://doi.org/10.1029/2019JA027639), provide context for multi-mechanism atmospheric escape. These sources do not establish that the geomagnetic field alone determines habitability or atmospheric retention.
+3. **Earth energy budget:** [NASA, Earth’s Radiation Budget](https://science.nasa.gov/ems/13_radiationbudget/) describes incoming solar radiation, reflection, absorption, and outgoing thermal radiation. It supports separating solar radiative forcing from the internal geodynamo energy budget; it does not establish a literal planetary subconscious.
+4. **Geodynamo evidence:** Tarduno et al., [paleomagnetic evidence for an ancient geodynamo](https://doi.org/10.1126/science.1183445), and the review [“The Geodynamo and Earth’s Magnetic Field”](https://doi.org/10.1146/annurev-earth-032320-102418) are relevant anchors for the internal field-generation mechanism and its history. Age and continuity claims must retain uncertainty and remain tied to the specific methods and samples in the cited studies.
+
+### Claim-level disposition
+
+- **Supported as a methodological statement:** spectral estimates require specified data, sampling interval, sample rate, preprocessing, estimator, uncertainty, and source-separation assumptions.
+- **Supported as a conceptual distinction:** geomagnetic field, geomagnetic variability, electromagnetic radiation, and solar-wind/magnetospheric coupling are not interchangeable terms.
+- **Not supported as an empirical result:** that geomagnetic variability is a measured “subconscious,” that geomagnetic spectra encode human thoughts, or that Earth possesses a psychological unconscious. These remain explicitly marked structural metaphors and are not treated as scientific findings.
+- **Not yet audited to completion:** every Pc1–Pc5 frequency boundary, station-specific instrument response, each source cited in the report body, and all proposed psychological correspondences. INTERMAGNET provides a route to appropriate data, but this pass did not download or process any dataset.
+
+### Reproducibility gate for any later spectrum
+
+A valid analysis record must identify the station and magnetic component, dataset DOI/version, UTC interval, cadence, data gaps, calibration/quality flags, detrending and filtering, window function, spectral estimator, confidence interval, treatment of nonstationarity, and checks against independent stations or published benchmarks. Seconds-to-geological-timescale comparisons require separate data products and methods; they must not be presented as one homogeneous stationary time series.
+
+**Disposition:** targeted source grounding added; numerical analysis not executed; report remains a bounded analogy, not a claim of planetary consciousness.
