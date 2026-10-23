@@ -259,3 +259,7 @@ A historical provenance lead has been recovered from [GAIA-Documentation](https:
 Foundational Seven citation inventory
 
 The [Foundational Seven Citation Inventory and Claim-Traceability Worklist](FOUNDATIONAL-SEVEN-CITATION-INVENTORY-AND-CLAIM-TRACEABILITY-WORKLIST-2026-10-23.md) mechanically extracts 62 report-local URL entries across the seven canonical Revised 0.9.0 reports (36 unique URL strings across the corpus) with nearby section/context to make the remaining claim-by-claim source audit systematic. This is an inventory, not source verification; every material claim still needs direct support, limits, and counterevidence.
+
+Independent specialist review readiness
+
+The [Independent Specialist Review Package](INDEPENDENT-SPECIALIST-REVIEW-PACKAGE-2026-10-23.md) prepares bounded questions and required evidence for consciousness/cognitive neuroscience, computational modeling/control, geophysics/Earth-system science, formal methods/quantum foundations, and philosophy/history/theology. It is a handoff package only: no external reviewer has yet completed or endorsed the work.
