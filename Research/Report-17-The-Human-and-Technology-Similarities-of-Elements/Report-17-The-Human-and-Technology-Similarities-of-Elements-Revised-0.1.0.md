@@ -204,3 +204,14 @@ Reject or qualify the following claims unless claim-matched evidence is supplied
 - **S10 — “Metallic resources in smartphones,” Resources Policy (2020), 101750.** https://doi.org/10.1016/j.resourpol.2020.101750.
 
 **Readiness:** draft revised and source-grounded at a targeted level; full source recovery and specialist review pending; no simulation or numerical similarity validation performed; implementation not authorized.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+Jandric et al., “Material composition trends in printed circuit boards of mobile phones,” *Resources, Conservation & Recycling* 227 (2026), article 108741, DOI https://doi.org/10.1016/j.resconrec.2025.108741, analyzes 45 phones manufactured between 1998 and 2021. It reports that copper, nickel, and tin can constitute up to 65 mass percent of smartphone printed-circuit boards in the sampled set, while each other analyzed element contributed less than one percent of the median PCB mass. This finding is specifically about PCBs, not the entire phone, battery, screen, or every device model.
+
+A 2021 smartphone-component study, “Temporal evolution of metallic element composition and environmental impact in consumer electronic devices,” DOI https://doi.org/10.1016/j.resconrec.2021.105886, found that the highest-concentration metals in three analyzed components were Cu, Ni, Sn, Zn, and Fe, while rare-earth elements and platinum-group metals together accounted for a small fraction of total recoverable element mass in that sample. Functional importance must not be conflated with mass abundance.
+
+**Correction boundary:** comparisons between human and technology elemental composition require matched boundaries, denominators, sampling methods, and metrics. “Shared periodic grammar” is a chemical constraint/analogy, not evidence that humans and devices are compositionally identical or quantum-entangled. The device-specific study cannot support a universal statement about all technology.
+
+**Status:** targeted materials-science source check added; exact source recovery for remaining supplied references and any formal overlap metric remain pending. No similarity score or simulation was performed.
