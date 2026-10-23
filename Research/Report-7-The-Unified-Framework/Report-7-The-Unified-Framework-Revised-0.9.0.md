@@ -280,3 +280,12 @@ Report 15 introduces the classical elements as a **symbolic overlay**, not a new
 **Cross-report safeguards:** (1) Report 14's cosmic electromagnetic spectrum remains a physical referent used as a structural analogy for Spirit; (2) Report 13's geomagnetic field and geomagnetic variability remain distinct from cosmic radiation; (3) the Report 15 mapping is not a scientific taxonomy or a historical consensus; and (4) “quantum entanglement” must be reserved for a formally specified physical claim, not used as a synonym for symbolic non-separability.
 
 **Evidence status:** targeted historical anchors were checked for Report 15; primary-text audits across traditions, exact recovery of several supplied references, and independent disciplinary review remain pending. No simulation or numerical validation is claimed.
+
+
+## Report 16 integration note — Periodic Table and Modern Alchemy
+
+Report 16 adds the periodic table as an empirical map of chemical elements and recurring chemical relationships. Nuclear transmutation is a real class of physical processes, but its existence does not validate the symbolic or spiritual interpretation of alchemy. The periodic table is a classification and representation, not itself a transmutation mechanism or the complete substrate of every physical system.
+
+**Cross-report safeguards:** Report 15's classical elements remain a symbolic grammar, not chemical elements or states of matter. The proposed archetypal periodic-table mapping remains speculative pending clear operational definitions, peer-review status checks, preregistered predictions, controls, and independent replication. Marathon Fusion's October 2026 transmutation statement is treated as a company-reported claim; the mercury isotope pathway, yield, and claimed comparison with CERN require primary technical evidence and independent validation. “Quantum entanglement” must not be used as a synonym for symbolic complementarity.
+
+**Evidence status:** targeted chemistry and philosophy sources checked; full primary-source audit and specialist review pending. No numerical simulation, isotope-yield calculation, or independent experiment is claimed.
