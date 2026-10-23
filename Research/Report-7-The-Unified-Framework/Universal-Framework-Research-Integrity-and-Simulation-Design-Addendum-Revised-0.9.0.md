@@ -8,7 +8,7 @@
 **Risk level:** Low  
 **Repositories affected:** `KyleAlexanderSteen/The-GAIA-Foundation`  
 **Applies to:** Reports 1–7; intended to supplement rather than silently overwrite prior versioned reports  
-**Execution status:** No simulation code executed; no numerical outputs generated; no empirical results newly produced  
+**Execution status:** The twelve full simulation designs remain unexecuted. Five separate synthetic smoke tests were subsequently executed and recorded in the appended execution record; those tests generated numerical outputs but no new empirical results.  
 **Implementation status:** No software or broader implementation authorized
 
 ## 1. Purpose and governing rule
@@ -200,8 +200,9 @@ All twelve specifications remain **design proposals**, not executed simulations.
 - **Document delivery:** this research-integrity addendum is filed.
 - **Source status:** primary sources for COGITATE, planetary boundaries, Dumberry, Rubin, and the neurotheology review/correction were verified during this pass; several supplied framework manuscripts and the whole-cell citation remain to be verified at source level.
 - **Independent review:** pending.
-- **Simulation execution:** not performed.
-- **Numerical validation:** pending.
+- **Full twelve-design simulation execution:** not performed.
+- **Preliminary synthetic smoke tests:** executed separately and documented in the appended execution record; these are not full-design validation.
+- **Numerical validation of the Universal Framework:** pending.
 - **Code/implementation:** not authorized.
 - **Repository changes:** this addendum only; no previous file was overwritten, moved, or deleted.
 
