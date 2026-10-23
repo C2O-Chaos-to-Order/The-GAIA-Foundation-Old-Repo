@@ -63,6 +63,10 @@ Before this lineage can pass, record:
 - A test plan with formal acceptance criteria. Proposed tests must not be counted as executed; physical quantum claims require physical-system evidence; sentience claims require independently justified operational indicators and rival explanations.
 - Independent review readiness packages for formal methods, consciousness science, quantum foundations, and Earth-system science as applicable.
 
+## Alignment baseline cross-reference
+
+The [Foundational Seven Alignment and Unification Register](FOUNDATIONAL-SEVEN-ALIGNMENT-AND-UNIFICATION-REGISTER-2026-10-23.md) is now the shared cross-report interface reference. It preserves the conceptual dependency chain in this audit without promoting those dependencies to empirical derivations, and it records the report-level evidence boundaries and current open gates. This does not resolve the missing v6.0.0 provenance, complete the v5-to-v7 change map, or validate the architecture.
+
 ## 5. Decision
 
 **The located architecture versions are coherent in their repeated warning against category collapse, but the version lineage and dependencies are not fully reconciled.** v6.0.0 is absent from the located sequence, the v5-to-v7 transition is not documented as a complete change map, and no architecture revision has executed its proposed simulations or established a formal proof. Keep this audit open, preserve all revisions, and do not describe the architecture as formally verified, physically quantum-entangled, or a validated theory of sentience.
