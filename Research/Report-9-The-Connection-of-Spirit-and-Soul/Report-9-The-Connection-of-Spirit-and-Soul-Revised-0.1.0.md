@@ -147,3 +147,37 @@ The connection of Soul and Spirit can be understood as a reciprocal movement bet
 - **S06 — Quantum entanglement.** Any physical use must be grounded in a defined quantum state, subsystem decomposition, observables, and appropriate empirical tests. This report uses the terms “self-entanglement” and “world-entanglement” only as labelled architectural analogies unless a separate operational model is supplied.
 
 **Readiness states:** draft delivered and filed; source-level validation pending; independent review pending; simulation not applicable to the present conceptual draft and not performed; implementation not authorized.
+
+
+## Research and source audit addendum — 2026-10-23
+
+**Change type:** Comparative-source grounding and interpretive qualification  
+**Evidence status:** Targeted source check completed for selected Hebrew-biblical and Aristotelian claims; cross-tradition audit remains incomplete  
+**Execution status:** No empirical study or simulation is claimed
+
+### Source-level findings
+
+1. **The breath/soul/spirit relationship is not a single cross-cultural doctrine.** Genesis 2:7 can support discussion of breath and living-being language in its own textual context, but it should not be treated as proving that all traditions share one Soul–Spirit ontology. The Hebrew terms *nephesh* and *ruach* have context-dependent semantic ranges; translation choices should be checked against the passage and a scholarly lexicon rather than reduced to one-word equivalents.
+
+2. **Aristotle is a useful counterexample to a universal dual-substance reading.** The *Stanford Encyclopedia of Philosophy* entry “Aristotle’s Psychology” explains Aristotle’s account of soul as the form/first actuality of a natural organic body (*De Anima* II.1, 412a–b). This differs from views that treat the soul as an independent immaterial substance. Source: https://plato.stanford.edu/archives/spr2020/entries/aristotle-psychology/.
+
+3. **1 Thessalonians 5:23 does not settle the anthropology debate by itself.** The verse lists spirit, soul, and body, but interpreters differ on whether it establishes three ontologically distinct components or expresses the wholeness of the person. The report should present this as a contested exegetical question, not as definitive proof for either trichotomy or the report’s relational thesis.
+
+4. **Indian and Daoist comparisons remain a verification queue.** *Ātman*, *prāṇa*, *shén*, and *hún* must be treated in their specific textual, historical, and doctrinal contexts. Do not assert that these terms are equivalent to Soul and Spirit in this framework, and do not flatten traditions into a universal breath doctrine.
+
+5. **Quantum terminology remains analogical here.** No formal physical model, quantum state decomposition, or empirical test is provided that would establish Soul and Spirit as quantum-entangled subsystems. “Relationality” and “non-separability” in this report are philosophical terms unless a technical model is explicitly supplied.
+
+### Source anchors checked
+
+- Aristotle, *De Anima*, Book II, chapter 1, 412a20–412b6; accessible scholarly explanation: “Aristotle’s Psychology,” *Stanford Encyclopedia of Philosophy*, https://plato.stanford.edu/archives/spr2020/entries/aristotle-psychology/.
+- 1 Thessalonians 5:23, primary textual reference. Interpretive diversity should be checked against academic commentaries and the Greek text rather than relying on one confessional commentary.
+- Genesis 2:7, primary textual reference. The specific Hebrew terms and translation decisions require a scholarly Hebrew lexicon and context-sensitive exegesis.
+
+### Remaining source work
+
+- Add a named scholarly Hebrew lexicon and at least two academic commentaries for *nephesh* and *ruach* in Genesis 2:7 and related passages.
+- Add primary-text editions and peer-reviewed scholarship for the specific Indian and Daoist traditions discussed; identify school, period, and translation for each claim.
+- Add academic commentaries representing more than one interpretation of 1 Thessalonians 5:23.
+- Keep practical breathing and reflection suggestions distinct from claims about metaphysical truth or clinical efficacy.
+
+**Status:** Targeted source improvements added; full comparative bibliography audit and independent specialist review remain pending.
