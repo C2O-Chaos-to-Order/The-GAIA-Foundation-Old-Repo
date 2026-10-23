@@ -1,5 +1,5 @@
 # Report 7 — The Unified Framework
-## Revised Version 0.3.0 — Research, Integration, and Source-Integrity Update
+## Revised Version 0.4.0 — Research, Integration, and Source-Integrity Update
 
 **Framework:** Seven-Report Foundational Framework / Consciousness Framework  
 **Revision date:** 2026-10-23  
@@ -362,22 +362,22 @@ Each preregistered row must contain: theory; claim role (content, access, report
 
 **Failure criteria:** no reproducible phase-dependent modulation; no predicted change after the specified ablation; or effects appear only under implausible parameter values. A positive result would show that the model's assumptions can generate the target pattern, not that interoception completely explains affect, consciousness, or spiritual experience.
 
-### F. Source integrity and added sources (S40–S49)
+### F. Source integrity and added sources (S40–S53)
 
 - **S40 — Mendes, H. (2026).** “The exceptionality of enactivism within 4E cognition.” *Phenomenology and the Cognitive Sciences*. https://doi.org/10.1007/s11097-025-10131-1 . Critical conceptual analysis; version of record published 13 February 2026.
 - **S41 — Monti, A., & Aglioti, S. M. (2026).** “The Mind From Within: Visceral Roots of Human Cognition.” *Advanced Science*, e24184. https://doi.org/10.1002/advs.202524184 . Review, first published 27 August 2026.
 - **S42 — Stilwell, P. (2026).** “From Mind to Soul — 40.” PhilArchive manuscript record. https://philarchive.org/rec/STIFMT . Uploaded 18 May 2026; philosophical argument, not peer-review certification.
-- **S43 — Husain, M., et al. (2026).** “The Neuroscience of Religious and Spiritual Practices: A Systematic Review of Neurotheological Evidence.” *Brain and Behavior*, 16(9), e71733. https://doi.org/10.1002/brb3.71733 . Review of 105 studies; consult erratum record for fine-grained claims. PubMed: https://pubmed.ncbi.nlm.nih.gov/42670176/ .
+- **S43 — Husain, M., et al. (2026).** “The Neuroscience of Religious and Spiritual Practices: A Systematic Review of Neurotheological Evidence.” *Brain and Behavior*, 16(9), e71733. https://doi.org/10.1002/brb3.71733 . Review of 105 studies; consult the erratum record for fine-grained claims. PubMed: https://pubmed.ncbi.nlm.nih.gov/42670176/ .
 - **S44 — Stewart, A. (2026).** “Conceded in Advance: How Cogitate Disabled Its Own Verdict.” Zenodo preprint. https://doi.org/10.5281/zenodo.20031607 . Critical methodological analysis, not consensus.
-- **S51 — Bryant, A. G., & Whyte, C. J. (2026).** “A data-driven approach to identifying and evaluating connectivity-based neural correlates of conscious visual perception.” *Neuroscience of Consciousness*, 2026(1), niag029. https://doi.org/10.1093/nc/niag029 . Compares 246 functional-connectivity measures; conclusions are dataset- and model-scoped.
-- **S52 — Bryant, A. G., & Whyte, C. J. (2026).** Correction to S45. *Neuroscience of Consciousness*, 2026(1), niag071. https://doi.org/10.1093/nc/niag071 . Published 15 October 2026.
 - **S45 — Aubert, J. (2026).** “Geodynamo simulations spanning millennia in the physical conditions of Earth's core.” *Journal of Studies of Earth's Deep Interior*, 2, article 3. https://doi.org/10.46298/jsedi.17790 . Near 1,700 years of physical simulation; model-based validation.
 - **S46 — Zhang, H., & Dumberry, M. (2026).** “Gravitational torque drives multidecadal variations in length of day.” *Nature*, 658, 119–124. https://doi.org/10.1038/s41586-026-10999-2 . Model-based inference on angular-momentum exchange.
+- **S47 — Lenton, T. M., & Dutreuil, S. (2026).** “Disentangling Gaia and the Earth System.” *Tellus*, 79(1), 160–172. https://doi.org/10.16993/tellus.4132 . Conceptual and historical analysis distinguishing Gaia from Earth-system science.
+- **S48 — Unverified source proposal.** “From Adversarial Tests to Prediction Ledgers” (claimed Zenodo, May 2026). This exact record could not be independently located in this pass. The prediction-ledger method is documented here as a project proposal; do not cite this proposed source as verified.
 - **S49 — Allen, M., Levy, A., Parr, T., & Friston, K. J. (2022).** “In the Body's Eye: The computational anatomy of interoceptive inference.” *PLOS Computational Biology*, 18(9), e1010490. https://doi.org/10.1371/journal.pcbi.1010490 . Formal computational model; not a 2026 paper.
-
-**S53 — Zhang, X., & Wen, L. (2026).** “Episodic Change, Quiescence, and Recovery of Earth's Inner Core Surface.” *Journal of Geophysical Research: Solid Earth*, 131, e2026JB034595. https://doi.org/10.1029/2026JB034595. **S47 — Lenton, T. M., & Dutreuil, S. (2026).** “Disentangling Gaia and the Earth System.” *Tellus*, 79(1), 160–172. https://doi.org/10.16993/tellus.4132 .
-
-**S48 — Unverified source proposal:** “From Adversarial Tests to Prediction Ledgers” (claimed Zenodo, May 2026) could not be independently located during this pass. The prediction-ledger method is documented here as a project proposal; do not cite S48 for it. The Routledge dualism volume and PDC AI-ensoulment article also remain unresolved and are not relied upon.
+- **S50 — COEM (Long-term Co-evolutionary Biosphere and Geosphere Models).** PIK Potsdam project document, archived PDF. https://www.pik-potsdam.de/~bloh/franck/coem99.pdf . Conceptual model program covering biosphere–geosphere co-evolution and ecosphere self-stabilization; older conceptual source, not a 2026 result.
+- **S51 — Bryant, A. G., & Whyte, C. J. (2026).** “A data-driven approach to identifying and evaluating connectivity-based neural correlates of conscious visual perception.” *Neuroscience of Consciousness*, 2026(1), niag029. https://doi.org/10.1093/nc/niag029 . Compares 246 functional-connectivity measures; conclusions are dataset- and model-scoped.
+- **S52 — Bryant, A. G., & Whyte, C. J. (2026).** Correction to S51. *Neuroscience of Consciousness*, 2026(1), niag071. https://doi.org/10.1093/nc/niag071 . Published 15 October 2026.
+- **S53 — Zhang, X., & Wen, L. (2026).** “Episodic Change, Quiescence, and Recovery of Earth's Inner Core Surface.” *Journal of Geophysical Research: Solid Earth*, 131, e2026JB034595. https://doi.org/10.1029/2026JB034595 . Competing interpretation of inner-core seismic changes.
 
 ### G. Regression cases added to the existing suite
 
