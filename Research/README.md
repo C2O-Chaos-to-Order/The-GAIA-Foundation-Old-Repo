@@ -30,3 +30,9 @@ This index tracks the seven foundational reports and the current Transformative 
 - Implementation remains unauthorized unless explicitly approved.
 
 **Current readiness:** v4.0.0 documented; source verification partial; independent disciplinary validation pending; simulation execution and numerical/spectral validation pending; implementation not authorized.
+
+## v5.0.0 Research Integration — Engineered Invariant System
+
+The canonical meta-architecture specification is [Transformative Intelligence: Engineered Invariant System, Revised 5.0.0](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-5.0.0.md). It formalizes a governed hypergraph, Global/Scoped governance, seven core invariant obligations, adversarial mutation handling, five WEP evaluation dimensions mapped separately to eight project domains, source-audit requirements, and verification gates.
+
+The seven foundational reports are cross-referenced as connected but distinct research areas. v5.0.0 is a specification proposal: formal proof, simulations, numerical validation, independent review, implementation, and authorization are not claimed. Preserve prior revisions. Use Pass/Fail/Indeterminate gates; Indeterminate is not Pass. See the v5.0.0 acceptance checklist before making stronger readiness claims.
