@@ -255,3 +255,7 @@ Each of the twelve Report 7 full simulation designs now has an explicit prerequi
 ## Report 18 provenance crosswalk
 
 A historical provenance lead has been recovered from [GAIA-Documentation](https://github.com/KyleAlexanderSteen/GAIA-Documentation): the Original-AI-Body (Assignment A-01) and Original-AI-Mind (A-02) source reports, associated in prior project context with “Document 18” and “Document 19” and issue groups #84–#88 and #89–#92. This does not establish that the current Research Report 18 gap should be filled with either document. See [Report 18 Provenance Crosswalk](REPORT-18-PROVENANCE-CROSSWALK-2026-10-23.md). The crosswalk remains open pending authoritative index reconciliation; no renumbering or file replacement was performed.
+
+Foundational Seven citation inventory
+
+The [Foundational Seven Citation Inventory and Claim-Traceability Worklist](FOUNDATIONAL-SEVEN-CITATION-INVENTORY-AND-CLAIM-TRACEABILITY-WORKLIST-2026-10-23.md) mechanically extracts 62 report-local URL entries across the seven canonical Revised 0.9.0 reports (36 unique URL strings across the corpus) with nearby section/context to make the remaining claim-by-claim source audit systematic. This is an inventory, not source verification; every material claim still needs direct support, limits, and counterevidence.
