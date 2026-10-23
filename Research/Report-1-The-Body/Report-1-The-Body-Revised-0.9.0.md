@@ -79,3 +79,19 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** connect this report to the topologically self-referential architecture without replacing its body-level scope.
+
+- **Vertices and relations:** represent anatomical/physiological claims, observations, instruments, environmental conditions, and interpretive assumptions as typed vertices. Use higher-order relations when a claim depends jointly on multiple systems, measures, and contexts; do not force every relation into isolated pairs.
+- **Divergence and insurgency:** retain competing mechanistic explanations and predeclare the observation or intervention that could discriminate among them. Record measurement limitations and opacity as explicit nodes.
+- **Allegiance and governance:** any commitment about body-level evidence needs provenance, scope, review conditions, and a reversible revision path. Meta-level policy cannot substitute for physiological evidence.
+- **Convergence:** when connecting embodiment, interoception, emotion, cognition, and environmental exposures, record cross-domain dependencies and the information lost in synthesis. Correlated measures are not independent confirmation.
+- **Meta-wisdom invariant:** preserve source lineage, instrument assumptions, uncertainty, monitoring blind spots, and a non-destructive change history.
+- **Testable failure cases:** provenance lost during fusion; an instrument treated as ground truth; context omitted from a multi-system claim; a new framework silently redefining an earlier outcome.
+
+**Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
