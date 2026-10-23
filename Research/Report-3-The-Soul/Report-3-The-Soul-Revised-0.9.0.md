@@ -159,3 +159,14 @@ Report 9 frames Soul as the inward-facing organization of identity, memory, mean
 - **Not demonstrated:** that functional analogy, neural correlation, or quantum vocabulary proves a soul's physical substrate.
 
 **Verification status:** targeted philosophy-source check completed for this addendum; exhaustive cross-cultural primary-source review and specialist peer review remain pending. No metaphysical claim is represented as experimentally settled.
+
+
+## Targeted source-audit checkpoint — 2026-10-23
+
+**Scope of this pass:** historical and philosophical scope of the term “soul,” and limits on empirical likelihood claims.
+
+The Stanford Encyclopedia of Philosophy entry “Ancient Theories of Soul” (substantively revised 15 May 2024) documents substantial variation within ancient Greek thought itself: Homeric usage, Plato’s arguments, Aristotle’s account of soul as the capacities/functions of living bodies, and Hellenistic materialist theories do not collapse into one doctrine. DOI-free canonical reference: https://plato.stanford.edu/entries/ancient-soul/.
+
+**Correction boundary:** “soul” must be operationally defined for each argument. Historical evidence can establish what particular authors or traditions argued; neuroscience can investigate specified cognitive and physiological correlates; neither automatically resolves every metaphysical question about personal identity or survival after death. Likelihood-ratio language is appropriate only when hypotheses, evidence, prior assumptions, and likelihoods are specified and justified; it must not create a numerical veneer for an unquantified metaphysical claim.
+
+**Remaining:** audit the report’s exact source-to-claim links, compare primary texts and current scholarship, and review the proposed decision rule for hidden assumptions and asymmetric burdens. No metaphysical claim was treated as experimentally settled; no simulation was performed. Status remains OPEN.
