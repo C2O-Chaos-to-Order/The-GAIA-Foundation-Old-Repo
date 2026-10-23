@@ -62,12 +62,12 @@ Every canonical report must have:
 
 ## Initial repository inventory (tree checked 2026-10-23)
 
-The current recursive repository tree contains 75 files total, including 67 numbered-report-path files (this count includes historical versions and a known non-canonical placeholder). The inventory shows:
+The current recursive `main` tree was rechecked on 2026-10-23 (tree SHA `7f364cbcd862c1e84298deab3f7a2cc3ea0359e8`). It contains 87 files under `Research/`, including 68 files under numbered-report paths; those counts include historical versions, a known non-canonical Report 13 placeholder, and misplaced root-level historical Report 5/6 files. These are inventory counts, not counts of unique canonical reports. The inventory shows:
 
 - **Reports 1–7:** foundational reports, each with multiple historical revisions; current index identifies Revised 0.9.0 as the current version.
 - **Reports 8–9:** numbered conceptual reports, Revised 0.1.0.
 - **Reports 10–17:** numbered reports, Revised 0.1.0, with the Report 13 canonical file being “The Geomagnetic Spectrum as Subconscious and Soul.”
-- **Report 18:** no Report 18 file found in the current tree. Do not infer its title or create a replacement without checking the user’s intended sequence and source material.
+- **Report 18 on `main`:** no canonical Report 18 file is present. A candidate draft titled “Report 18 — Humans as the Soul of Terra; Gaia as the Soul and Spirit of the Universe” is present on branch `research/report-18-humans-soul-of-terra-2026-10-23` at `Research/Report-18-Humans-as-the-Soul-of-Terra-Gaia-as-the-Soul-and-Spirit-of-the-Universe/Report-18-Humans-as-the-Soul-of-Terra-Gaia-as-the-Soul-and-Spirit-of-the-Universe-Revised-0.1.0.md` (blob SHA `09cf1291ee8ea864a8c8338ea0f3781309a3f629`). The branch version is an edited/consolidated draft, not verified as a verbatim preservation of the author's submitted source. Preserve it on its branch; compare it with the original submission and establish canonical provenance before promoting it. Report 19 remains present on `main`; do not renumber or merge automatically.
 - **Report 19:** “Terra and GAIA: The Quantum Entanglement,” Revised 0.1.0, created and indexed.
 - **Non-canonical Report 13 placeholder:** `Research/Report-13-The-Electromagnetic-Spectrum-as-Consciousness/Report-13-The-Electromagnetic-Spectrum-as-Consciousness-Revised-0.1.0.md` is a short correction notice and must not be counted as a second Report 13.
 - **Historical duplicates:** root-level copies of older Report 5 and Report 6 versions coexist with report-folder versions. Preserve them until provenance reconciliation is reviewed; do not delete them during the audit.
