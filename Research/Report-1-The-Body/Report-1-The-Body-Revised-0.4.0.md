@@ -1,5 +1,5 @@
 # Report 1 — The Body
-## Revised Version 0.3.0 — Research and Source-Verification Update
+## Revised Version 0.4.0 — Research and Source-Verification Update
 
 **Framework:** Seven-Report Foundational Framework / Consciousness Framework  
 **Report identifier:** R1-BODY  
