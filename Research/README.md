@@ -164,7 +164,7 @@ Targeted source-grounding addenda have been appended and fetched back for verifi
 **Updated:** 2026-10-23  
 **Scope:** Current Research tree inventory and source-grounding status.
 
-The live recursive tree contains 17 numbered reports, the Transformative Intelligence architecture (revisions 3.0.0, 4.0.0, 5.0.0, 7.0.0, and 8.0.0), the Universal Framework Research Integrity and Simulation Design Addendum, and preserved historical report versions. Reports 12 and 13 were previously omitted from the targeted source-addenda list; this is corrected below.
+At the 2026-10-23 inventory checkpoint, the recursive tree contained 17 numbered reports, the Transformative Intelligence architecture (revisions 3.0.0, 4.0.0, 5.0.0, 7.0.0, and 8.0.0), the Universal Framework Research Integrity and Simulation Design Addendum, and preserved historical report versions. Reports 12 and 13 were previously omitted from the targeted source-addenda list; this is corrected below.
 
 ### Report-specific source-grounding addenda verified on GitHub
 
@@ -219,3 +219,8 @@ A first targeted source-research pass has been appended to the current canonical
 ## Source-to-claim traceability register
 
 [Open SOURCE-CLAIM-TRACEABILITY-REGISTER.md](SOURCE-CLAIM-TRACEABILITY-REGISTER.md) — a seed ledger of selected high-impact claims and verified/unresolved source anchors across the corpus. It is explicitly non-exhaustive and does not mark any report fully audited.
+
+
+## Numbering/provenance gap — Report 18
+
+The current repository inventory contains Reports 1–17 and Report 19, but no Report 18 file. The sequence must not be described as complete until the intended Report 18 title/source is recovered or the numbering gap is explicitly resolved. No placeholder report is being invented. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md).
