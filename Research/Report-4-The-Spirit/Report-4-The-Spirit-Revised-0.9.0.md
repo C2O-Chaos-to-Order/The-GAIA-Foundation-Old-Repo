@@ -130,3 +130,24 @@ v8.0.0 frames Spirit as the interpretive world-relational pole: connection, vita
 ## Report 9 Integration — Spirit as the Outward Pole
 
 Report 9 frames Spirit as the outward-facing relation to vitality, other people, the living world, ultimate concerns, or the divine, depending on context. It does not claim that these descriptions are identical across traditions. Breath language is simultaneously physiological and culturally/theologically meaningful; those levels must remain distinct. Connection must not be equated with self-erasure or loss of boundaries. The quantum terms “world-entanglement” and “self-entanglement” remain labelled architectural analogies unless a separately operationalized physical model supplies evidence. See [Report 9 — The Connection of Spirit and Soul](../Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md).
+
+---
+
+## Source-Audit Addendum — Spiritual Practice and Evidence Boundaries (2026-10-23)
+
+### Findings and corrections
+
+1. **Neural correlates do not adjudicate theology.** Neuroimaging or physiological changes during prayer, meditation, chanting, ritual, or communal practice can test effects associated with particular tasks and populations. They cannot by themselves establish that a transcendent referent exists, nor disprove it.
+
+2. **Avoid a universal “spiritual brain” claim.** Practice, tradition, expectation, breathing, attention, affect, movement, social setting, and study design vary. Findings from one task or sample should not be generalized into a unique neural signature for Spirit. Narrative synthesis across heterogeneous studies is not equivalent to a quantitative meta-analysis.
+
+3. **Keep phenomenology and interpretation distinct.** Reports of unity, awe, presence, vitality, or connection are data about experience when collected systematically. Their explanation may remain psychological, social, physiological, theological, or plural. A person's experience can be meaningful without a scientific report deciding its ultimate metaphysical interpretation.
+
+4. **Breath is a useful bridge but not proof of equivalence.** Respiration is measurable physiology; terms translated as spirit, breath, wind, or life-force have tradition-specific histories. Translation should preserve those contexts instead of treating all traditions as asserting one doctrine.
+
+### Source anchor and audit limitation
+
+- “Ancient Theories of Soul,” Stanford Encyclopedia of Philosophy, revised 2024, illustrates how concepts of soul and life vary across philosophical traditions: https://plato.stanford.edu/entries/ancient-soul/. It is contextual philosophical evidence, not a neuroscience review.
+- The report's cited 2026 systematic review, DOI https://doi.org/10.1002/brb3.71733, should be checked directly for study inclusion criteria, search strategy, risk-of-bias assessment, and whether claims are narrative synthesis or meta-analysis before relying on individual conclusions.
+
+**Verification status:** conceptual boundary review documented; the 2026 review's full methods and underlying studies have not been independently re-audited here. Specialist review remains pending. No new experiment or simulation was performed.
