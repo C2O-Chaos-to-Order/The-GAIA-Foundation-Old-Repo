@@ -75,3 +75,10 @@ A conceptual synthesis of Soul as inward self-relation and Spirit as outward wor
 [Report 10 — Earth and the Electromagnetic Spectrum, Revised 0.1.0](Report-10-Earth-and-the-Electromagnetic-Spectrum/Report-10-Earth-and-the-Electromagnetic-Spectrum-Revised-0.1.0.md)
 
 Covers atmospheric spectral transmission, the planetary energy budget, Earth’s electromagnetic environment, and biological interactions including photosynthesis, circadian rhythms, and proposed magnetoreception mechanisms. Historical figures and incomplete source references are explicitly flagged for audit; no simulation or experiment is claimed.
+
+
+## Report 11 — The Geomagnetic Field as the Soul of the Earth
+
+[Report 11 — The Geomagnetic Field as the Soul of the Earth, Revised 0.1.0](Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md)
+
+A geophysics-grounded structural metaphor for planetary persistence, boundary, and exchange. The report explicitly distinguishes the geomagnetic field from a literal or scientifically established planetary soul, corrects single-cause claims about habitability and atmospheric loss, and separates geodynamo energy sources from solar radiation. Source audit and specialist review remain pending.
