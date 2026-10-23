@@ -247,3 +247,7 @@ Tracks the located v3.0.0, v4.0.0, v5.0.0, v7.0.0, and v8.0.0 editions, their co
 ## Research-cycle archive reconciliation and typed dependency map
 
 The current integration work now includes the [typed dependency map and TI lineage reconciliation](GAIA-RESEARCH-TYPED-DEPENDENCY-MAP-AND-TI-LINEAGE-RECONCILIATION-2026-10-23.md), which distinguishes verified core-report interfaces from title-level dependency hypotheses in Reports 8–19 and records the missing Report 18 and TI v6 slots without inventing content. The [research/simulation archive reconciliation](RESEARCH-AND-SIMULATION-CYCLE-ARCHIVE-RECONCILIATION-2026-10-23.md) documents recovery checks for the historical 3/6/9/12-cycle packages and keeps the reported 84 + 84 totals unverified until original archive evidence is recovered. The five synthetic smoke-test functions have been rerun with headline outcomes matching the existing record; the twelve full Report 7 studies remain unexecuted.
+
+## Report 7 simulation execution readiness
+
+Each of the twelve Report 7 full simulation designs now has an explicit prerequisite and blocker record in [Report 7 — Twelve Simulation Designs: Execution Readiness and Blocking Inputs](Report-7-The-Unified-Framework/REPORT-7-TWELVE-SIMULATION-EXECUTION-READINESS-2026-10-23.md). None is marked executed because its source/data/model/operationalization/acceptance criteria are not all ready. The separate five-test synthetic smoke-test suite has been rerun with matching headline results and its report updated. The global gate remains open.
