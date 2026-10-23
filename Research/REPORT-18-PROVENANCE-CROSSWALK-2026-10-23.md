@@ -7,7 +7,7 @@
 
 ## 1. Why the gap was reopened
 
-The current `The-GAIA-Foundation/Research` tree contains Report 17, no Report 18 file, and Report 19. Earlier audit language correctly said not to invent Report 18. A search of prior project context and the original documentation repository has now recovered a potentially relevant historical lead: a prior review summary refers to **Document 18 — Original-AI-Body** and **Document 19 — Original-AI-Mind**, with issue groups #84–#88 and #89–#92 respectively.
+The current `main` branch of `The-GAIA-Foundation/Research` contains Report 17 and Report 19 but no canonical Report 18 file. A separate branch, `research/report-18-humans-soul-of-terra-2026-10-23`, now has a candidate draft titled “Report 18 — Humans as the Soul of Terra; Gaia as the Soul and Spirit of the Universe” (blob SHA `09cf1291ee8ea864a8c8338ea0f3781309a3f629`). That branch version is edited/consolidated and has not been verified as a verbatim preservation of the user's submitted text; it must not be silently treated as the canonical original. Separately, a search of prior project context and the original documentation repository recovered a potentially relevant historical lead: a prior review summary refers to **Document 18 — Original-AI-Body** and **Document 19 — Original-AI-Mind**, with issue groups #84–#88 and #89–#92 respectively.
 
 This is a real provenance lead, but it does **not yet prove** that those document ordinals are the same numbering series as the current Research/Report-17-to-Report-19 sequence. The documents identify themselves as the AI Body and AI Mind reports in the GAIA Human and AI Four-Dimensional Research Program, with assignment references A-01 and A-02. The current Research corpus uses distinct report titles and a different topical sequence. A crosswalk is required before any renumbering or canonical replacement.
 
@@ -35,7 +35,7 @@ The source files themselves establish the report titles and assignments. The ass
 - [#91 — AI cognitive failure and bias registry](https://github.com/KyleAlexanderSteen/GAIA-Documentation/issues/91)
 - [#92 — AI Mind robustness and continual-learning evaluation gates](https://github.com/KyleAlexanderSteen/GAIA-Documentation/issues/92)
 
-The issue records explicitly name the source reports and preserve their intended implementation scope. They do not state that the documents are the missing numbered Report 18 in `The-GAIA-Foundation/Research`.
+The issue records explicitly name the source reports and preserve their intended implementation scope. They do not establish that the GAIA-Documentation documents are the current Research Report 18 or 19. The candidate user-submitted Report 18 draft is a separate record and must be reconciled on its own provenance.
 
 ## 4. Crosswalk decision
 
@@ -44,8 +44,8 @@ The issue records explicitly name the source reports and preserve their intended
 | Does an Original-AI-Body source report exist? | **Yes.** Canonical source located in GAIA-Documentation. |
 | Does an Original-AI-Mind source report exist? | **Yes.** Canonical source located in GAIA-Documentation. |
 | Is there a prior-project lead associating them with Document 18 and Document 19? | **Yes.** Historical context associates Document 18 with Original-AI-Body/issues #84–#88 and Document 19 with Original-AI-Mind/issues #89–#92. |
-| Does that establish that current Research Report 18 should be AI Body? | **No—not yet.** The numbering systems may differ; current Report 19 is titled “Terra and GAIA: The Quantum Entanglement.” |
-| Should the current Research Report 18 be created, renumbered, or replaced now? | **No.** Preserve current files and numbering until the author confirms the intended crosswalk or an authoritative index/manuscript establishes it. |
+| Does that establish that current Research Report 18 should be AI Body? | **No.** The numbering systems may differ; current Report 19 on `main` is titled “Terra and GAIA: The Quantum Entanglement,” and a separate candidate Report 18 draft exists on a non-main branch. |
+| Should the branch draft be promoted or Report 19 renumbered now? | **No.** Preserve all current files and numbering. First compare the draft against the user's original submitted source and verify intended canonical placement. |
 | What is resolved? | The AI Body and AI Mind source-document provenance is recovered. |
 | What remains open? | The relationship between the historical “Document 18/19” sequence and current numbered Research Reports 1–19. |
 
@@ -61,4 +61,4 @@ Only if an authoritative mapping explicitly connects the sequences should a repo
 
 ## 6. Change record
 
-- **2026-10-23:** Recovered the Original-AI-Body and Original-AI-Mind source reports and their issue groups. Reclassified the Report 18 finding from “no lead located” to “historical lead recovered; crosswalk unresolved.” No existing numbered report was modified or renumbered.
+- **2026-10-23:** Recovered the Original-AI-Body and Original-AI-Mind source reports and their issue groups; separately located the candidate user-submitted Report 18 draft on a non-main branch. The candidate draft is not yet verified as verbatim or canonical. No existing numbered report was renumbered, and Report 19 remains unchanged.
