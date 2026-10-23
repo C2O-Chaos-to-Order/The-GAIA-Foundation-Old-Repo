@@ -68,3 +68,10 @@ This report distinguishes deterministic dynamical chaos from thermodynamic entro
 [Report 9 — The Connection of Spirit and Soul, Revised 0.1.0](Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md)
 
 A conceptual synthesis of Soul as inward self-relation and Spirit as outward world-relation, connected through reciprocal processes of identity, attention, breath, relationship, and revision. Cross-tradition source validation and independent review remain pending. The report explicitly separates philosophical/theological interpretation from physical quantum claims.
+
+
+## Report 10 — Earth and the Electromagnetic Spectrum
+
+[Report 10 — Earth and the Electromagnetic Spectrum, Revised 0.1.0](Report-10-Earth-and-the-Electromagnetic-Spectrum/Report-10-Earth-and-the-Electromagnetic-Spectrum-Revised-0.1.0.md)
+
+Covers atmospheric spectral transmission, the planetary energy budget, Earth’s electromagnetic environment, and biological interactions including photosynthesis, circadian rhythms, and proposed magnetoreception mechanisms. Historical figures and incomplete source references are explicitly flagged for audit; no simulation or experiment is claimed.
