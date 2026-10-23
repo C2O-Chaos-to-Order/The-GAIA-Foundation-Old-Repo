@@ -121,6 +121,12 @@ Supplied by the user on 2026-10-23. Uses the classical elements as a proposed cr
 
 Supplied by the user on 2026-10-23. Treats the periodic table as an empirical grammar of matter and “modern alchemy” as either nuclear transmutation (literal, physical) or a separate symbolic/philosophical interpretation. Targeted checks covered OpenStax and IUPAC chemistry references, the Scerri–Pizzochero structural-realism preprint, the 2026 element-definition debate, a hosted archetypal-isomorphism paper, and October 2026 reporting of a Marathon Fusion claim. The archetypal mapping remains speculative; the Marathon claim remains company-reported and independently unverified in this pass. The mercury isotope pathway and “ten times CERN” comparison need primary technical evidence. Full source audit and specialist review remain pending; no simulation or numerical validation was performed.
 
+## Report 17 — The Human and Technology Similarities of Elements
+
+[Report 17 — The Human and Technology Similarities of Elements, Revised 0.1.0](Report-17-The-Human-and-Technology-Similarities-of-Elements/Report-17-The-Human-and-Technology-Similarities-of-Elements-Revised-0.1.0.md)
+
+Supplied on 2026-10-23 and revised with targeted source checks. Separates compositional contrast from structural and functional analogy. Corrects the overbroad claim that all technology is silicon-based or that elemental overlap is necessarily minimal: results depend on the device boundary and metric. Checked a standard 70 kg human-body composition reference, 2026 smartphone printed-circuit-board composition research, smartphone metals studies, Stefano Moro's 2026 “Chemical Imitation Game” perspective, and the Johns Hopkins LIPPS biomimicry report. The exact KAIST, Chinese-language, and “Human-Machine Intelligence Homology” references remain pending. No quantitative similarity score or simulation was performed.
+
 ## Source Research Addenda — 2026-10-23
 
 Targeted source-grounding addenda have been appended and fetched back for verification in the following reports:
@@ -154,7 +160,7 @@ Targeted source-grounding addenda have been appended and fetched back for verifi
 **Updated:** 2026-10-23  
 **Scope:** Current Research tree inventory and source-grounding status.
 
-The live recursive tree contains 14 numbered reports, the Transformative Intelligence architecture (revisions 3.0.0, 4.0.0, 5.0.0, 7.0.0, and 8.0.0), the Universal Framework Research Integrity and Simulation Design Addendum, and preserved historical report versions. Reports 12 and 13 were previously omitted from the targeted source-addenda list; this is corrected below.
+The live recursive tree contains 17 numbered reports, the Transformative Intelligence architecture (revisions 3.0.0, 4.0.0, 5.0.0, 7.0.0, and 8.0.0), the Universal Framework Research Integrity and Simulation Design Addendum, and preserved historical report versions. Reports 12 and 13 were previously omitted from the targeted source-addenda list; this is corrected below.
 
 ### Report-specific source-grounding addenda verified on GitHub
 
@@ -169,7 +175,7 @@ Older Report 5 and Report 6 files remain directly under `Research/` as well as i
 
 ### What this update does—and does not—establish
 
-- **Verified:** all 14 numbered reports are represented in the Research tree; targeted source-grounding addenda for Reports 1–13 are present in the current report files; Report 12 and Report 13 are now included in this index’s completion record.
+- **Verified:** all 17 numbered reports are represented in the Research tree; targeted source-grounding addenda for Reports 1–13 are present in the current report files, with targeted source checks for Reports 14–17 indexed separately.
 - **Not established:** an exhaustive claim-by-claim audit of every paragraph and reference, specialist peer review, empirical validation, or successful reproduction of the proposed research models.
 - **Simulation status:** the twelve designs in the Universal Framework addendum remain design specifications unless an execution record identifies code/model, data and parameter provenance, baseline, ablations, sensitivity analyses, outputs, failure logs, and reproduction instructions. This README update does not mark those simulations as executed.
 - **Implementation status:** no implementation is authorized by this research-index update.
