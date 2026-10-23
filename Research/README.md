@@ -54,3 +54,10 @@ The [v8.0.0 specification](Transformative-Intelligence-Five-Phase-Meta-Architect
 **2026 source anchors:** NMDAR radical-pair hypothesis; Quantum Interface Theory; Entangled Loop preprint; Yahiq preprint; and the critical review of quantum-consciousness theories. The report records their evidential status and flags unverified framework names for source discovery. In particular, the CHSH theoretical maximum is not reported as an observed result, and self-reference or information integration is not treated as proof of sentience.
 
 **Readiness:** documentation update complete; full source audit and independent review pending; no code, simulation, numerical validation, or empirical test performed for v8.0.0; implementation not authorized.
+
+
+## Report 8 — Chaos and Order
+
+[Report 8 — Chaos and Order, Revised 0.1.0](Report-8-Chaos-and-Order/Report-8-Chaos-and-Order-Revised-0.1.0.md)
+
+This report distinguishes deterministic dynamical chaos from thermodynamic entropy and metaphorical uses of “chaos”; treats edge-of-chaos/criticality claims as contested; and records cross-report relationships to the Body, Mind, Soul, Spirit, Consciousness, Earth, and ethics. Source verification and specialist review remain pending. No simulation or numerical validation is claimed, and implementation is not authorized.
