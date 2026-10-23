@@ -136,3 +136,26 @@ v8.0.0 frames Soul as the interpretive self-relational pole: identity and contin
 ## Report 9 Integration — Soul as the Inward Pole
 
 Report 9 frames Soul as the inward-facing organization of identity, memory, meaning, and character, in reciprocal relation with outward-facing world-relation. This is a functional and interpretive model, not a proof that Soul is or is not a separate metaphysical substance. Preserve traditions that disagree with the model. The report explicitly distinguishes analogy from empirical claims and rejects treating “self-entanglement” as a demonstrated quantum mechanism. See [Report 9 — The Connection of Spirit and Soul](../Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md).
+
+---
+
+## Source-Audit Addendum — Comparative Philosophy and Metaphysical Claims (2026-10-23)
+
+### Findings and corrections
+
+1. **“Soul” is historically plural, not one cross-cultural technical term.** In ancient Greek philosophy, *psychē* spans meanings associated with life, perception, thought, desire, and moral character; different philosophers offer materially different accounts. The Stanford Encyclopedia of Philosophy's “Ancient Theories of Soul” (revised 2024) surveys these distinctions: https://plato.stanford.edu/entries/ancient-soul/.
+
+2. **Aristotle is a counterexample to a simple substance-dualism summary.** His hylomorphic account treats soul as the form/actuality of a living body and links psychic capacities to an organism's life-functions; interpretation of intellect and separability remains contested. See “Aristotle’s Psychology,” Stanford Encyclopedia of Philosophy: https://plato.stanford.edu/archives/spr2023/entries/aristotle-psychology/. Do not present Aristotle as straightforward evidence for either modern materialism or a detachable immortal soul.
+
+3. **Brain dependence and metaphysical identity are different questions.** Evidence that memory, personality, perception, and agency depend strongly on brain organization constrains claims of independent operation. It does not logically settle every theological or metaphysical account, especially views that posit a soul whose observable functions are mediated by the brain.
+
+4. **Likelihood ratios require actual specified likelihoods.** The expression Λ = P(O|H_S)/P(O|H_B) is a comparison framework, not a result until hypotheses, data, sampling, measurement error, priors where relevant, and likelihood models are specified. Avoid implying that a numerical soul-likelihood has been calculated.
+
+### Evidence classification
+
+- **Documented:** historical and philosophical disagreement about what “soul” means.
+- **Empirical constraint:** many observable cognitive capacities depend on brain function.
+- **Unresolved:** metaphysical separability, post-mortem persistence, and theological claims.
+- **Not demonstrated:** that functional analogy, neural correlation, or quantum vocabulary proves a soul's physical substrate.
+
+**Verification status:** targeted philosophy-source check completed for this addendum; exhaustive cross-cultural primary-source review and specialist peer review remain pending. No metaphysical claim is represented as experimentally settled.
