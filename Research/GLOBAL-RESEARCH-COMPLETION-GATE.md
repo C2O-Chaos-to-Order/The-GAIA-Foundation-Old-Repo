@@ -158,3 +158,16 @@ The current Transformative Intelligence v8.0.0 specification now includes a sour
 The source-to-claim register now contains 29 seed entries. It remains non-exhaustive and must be expanded to all source claims across Reports 1–19 and Transformative Intelligence revisions 3.0.0–8.0.0.
 
 **Report 18 remains unresolved.** The repository tree has no Report 18 file, and the prior-context search did not establish an intended title or canonical source. No report will be invented to fill the gap. Resolve the numbering/provenance issue before declaring the report sequence complete.
+
+
+## Reconciliation checkpoint — foundational seven and prior cycle claims (2026-10-23)
+
+The new [Foundational Seven-Report Reconciliation Matrix](FOUNDATIONAL-SEVEN-REPORT-RECONCILIATION.md) compares the seven canonical Revised 0.9.0 files with the prior package/cycle claims and repository validation artifacts.
+
+**Finding:** the repository contains five executed synthetic smoke tests, each with limited model-specific cases. The smoke-test report explicitly says these are not the twelve full Report 7 simulation designs and are not empirical validation. The Report 7 addendum likewise states that the twelve full simulation designs remain unexecuted.
+
+Prior conversation context records a later twelvefold ZIP claim of 84 research-pass records and 84 simulation/test records, with outputs reportedly recomputed and matching. The actual ZIP contents, manifest, checksums, and execution logs have not yet been inspected in this session; the archive is not available in the active working directory and exact-name Library search did not surface it. This is **unreconciled**, not proof that the archive never existed or proof that its claims are false. The distinction between simulation designs, toy tests, and full report-specific executions must be resolved from the original artifacts before accepting the claimed counts.
+
+The matrix confirms that Reports 1–7 exist as canonical Revised 0.9.0 files, but all remain OPEN for claim-level/source and independent review. Reports 3 and 4 require interpretive/theological claims to be assessed by appropriate methods rather than assigning numerical simulations where they do not apply. The Report 18 gap and Transformative Intelligence revision lineage remain blockers.
+
+**Decision:** intake remains paused. Do not treat the current repository checkpoint as evidence that all twelve simulation designs ran, that all 84 report-level tests ran, or that the seven-report corpus is fully validated. No implementation is authorized.
