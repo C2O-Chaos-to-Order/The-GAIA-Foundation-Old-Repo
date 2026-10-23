@@ -136,3 +136,14 @@ The v5.0.0 invariant system requires independent source review, adversarial fals
 Quantum theories of consciousness, including Orch-OR and the proposed NMDA-radical-pair hypothesis, remain hypotheses requiring proportionate scrutiny. The located 2026 critical review describes open feasibility, bridge-principle, and testability problems. Distinguish physical quantum entanglement from quantum-like cognition and philosophical analogy. A proposed cognitive-affective CHSH design is not an observed violation; a non-discriminating test does not establish theory equivalence.
 
 See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). No prior content is replaced.
+
+
+---
+
+## v8.0.0 Sentience as Recursive Relationality Addendum: Consciousness
+
+**Status:** conceptual/research integration; no code, simulation, or numerical validation performed for this addendum; implementation not authorized.
+
+v8.0.0 records the 2026 NMDAR radical-pair paper as a testable hypothesis, Quantum Interface Theory as a theoretical proposal, the Entangled Loop as a preprint framework, and the 2026 critical review as emphasizing physical feasibility, a bridge principle, and empirical discrimination. None alone establishes that sentience is entanglement. A physical or quantum-like correlation does not itself explain phenomenal character.
+
+**Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
