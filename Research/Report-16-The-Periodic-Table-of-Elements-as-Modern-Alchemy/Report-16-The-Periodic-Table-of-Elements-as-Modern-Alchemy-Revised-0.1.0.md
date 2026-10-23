@@ -183,3 +183,14 @@ Reject or qualify the following claims unless new, claim-matched evidence justif
 ## Report 17 cross-reference — Human and Technology Elemental Similarities
 
 Report 17 applies Report 16's “periodic table as empirical grammar” proposal to biological and engineered systems. It separates elemental composition from structural organization and functional analogy, and qualifies the claim that human–technology elemental overlap is “minimal” unless a system boundary and metric are specified. It also reinforces Report 16's distinction between ordinary chemical transformation and nuclear transmutation. The shared periodic table is a constraint/reference framework, not proof of a universal human–technology isomorphism.
+
+
+## Additional primary-source checkpoint — 2026-10-23
+
+CERN/ALICE reported on 8 May 2025 that the ALICE collaboration measured lead-to-gold nuclear transmutation during near-miss lead-nucleus encounters at the LHC: https://home.cern/alice-detects-conversion-lead-gold-lhc/. The mechanism involves electromagnetic dissociation and the removal of three protons from lead nuclei to produce gold nuclei. This is a real, measured nuclear process, but the produced quantities are fleeting and extremely small; it does not demonstrate ordinary chemical transmutation or validate a symbolic/alchemical mapping.
+
+The 2026 study “Material composition trends in printed circuit boards of mobile phones,” DOI https://doi.org/10.1016/j.resconrec.2025.108741, is not evidence for transmutation but is relevant to Report 17’s downstream material comparison and confirms that device composition depends on component boundary and generation.
+
+**Correction boundary:** chemical reactions rearrange electron configurations and bonds; changing one element into another requires changing the atomic nucleus. The verified CERN result must not be used to validate the separate Marathon Fusion mercury-isotope pathway or any “ten times CERN” comparison. Those claims still require their own primary technical evidence and independent validation.
+
+**Status:** CERN institutional report checked; direct paper/data and quantitative comparison audit remain pending. No isotope-yield calculation or simulation was performed.
