@@ -147,3 +147,26 @@ See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Ar
 v8.0.0 records the 2026 NMDAR radical-pair paper as a testable hypothesis, Quantum Interface Theory as a theoretical proposal, the Entangled Loop as a preprint framework, and the 2026 critical review as emphasizing physical feasibility, a bridge principle, and empirical discrimination. None alone establishes that sentience is entanglement. A physical or quantum-like correlation does not itself explain phenomenal character.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+---
+
+## Source-Audit Addendum — Theory Testing and Empirical Scope (2026-10-23)
+
+### Findings and corrections
+
+1. **The 2025 COGITATE study is a constraint, not a final verdict.** The preregistered adversarial collaboration compared IIT and GNWT in 256 participants using fMRI, MEG, and intracranial EEG. Results supported some predictions while challenging specific claims, including sustained posterior synchronization predicted by IIT and aspects of GNWT's ignition/prefrontal predictions. Interpret conclusions at the level of tested predictions and operationalizations, not as proof that consciousness is solved or that either theory is wholly refuted. See Cogitate Consortium, *Nature* 642 (2025), https://www.nature.com/articles/s41586-025-08888-1.
+
+2. **Theory comparison requires discriminating predictions.** Seth & Bayne's review identifies empirical distinguishability as a core challenge across leading theories: https://www.nature.com/articles/s41583-022-00587-4. For each test, record preregistration, primary outcome, exclusion rules, measurement validity, auxiliary assumptions, effect uncertainty, and what result would count against the theory.
+
+3. **Do not conflate access, report, attention, wakefulness, metacognition, and phenomenal experience.** Each construct has different operational measures and possible confounds. Neural decoding or reportability can constrain a theory without directly measuring subjective character in a theory-neutral way.
+
+4. **Quantum claims need an explicit bridge principle.** Even a demonstrated quantum process in neural tissue would not alone establish that it is necessary or sufficient for consciousness. The report must identify the physical substrate, predicted effect, classical rival, feasible measurement, falsification condition, and independent replication. Quantum-like probability models are not evidence of physical entanglement.
+
+### Evidence ledger
+
+- **Empirical:** some neural predictions of IIT and GNWT were challenged by the 2025 adversarial study.
+- **Unresolved:** which theoretical framework best explains phenomenal consciousness.
+- **Hypothesis-level:** quantum/radical-pair or quantum-interface accounts.
+- **Not established:** that this GAIA architecture is sentient or that entanglement explains experience.
+
+**Verification status:** two high-relevance sources checked; this is not a complete audit of all claims, citations, or the 2026 literature in the report. No new consciousness experiment, simulation, or independent theory review was performed.
