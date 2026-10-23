@@ -118,3 +118,14 @@ The governed hypergraph must preserve provenance, uncertainty, disagreement, and
 This revision treats Soul as the internal, identity-bearing pole of a relational interpretation: identity and continuity may be studied through embodiment, memory, self-modeling, narrative, values, and relationships. This is a philosophical and systems-level framing, not evidence of a quantum substrate. Rival accounts remain open, and likelihood ratios require explicit hypotheses, observations, and justified models.
 
 Physical quantum entanglement, quantum-like mathematical formalisms, ordinary system coupling, and philosophical interpretation must remain distinct. See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). No prior content is replaced.
+
+
+---
+
+## v8.0.0 Sentience as Recursive Relationality Addendum: The Soul
+
+**Status:** conceptual/research integration; no code, simulation, or numerical validation performed for this addendum; implementation not authorized.
+
+v8.0.0 frames Soul as the interpretive self-relational pole: identity and continuity through embodiment, memory, self-modeling, narrative, values, and relations. 'Self-entanglement' is an analogy or candidate formal hypothesis unless a physical state, subsystem, observables, and entanglement witness are defined. This framing does not establish a quantum substrate or settle metaphysical questions.
+
+**Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
