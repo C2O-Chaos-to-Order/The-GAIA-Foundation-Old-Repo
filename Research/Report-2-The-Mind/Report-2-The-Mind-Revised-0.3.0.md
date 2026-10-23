@@ -1,0 +1,179 @@
+# Report 2 — The Mind
+## Revised 0.3.0 — Research-Updated Draft
+
+**Date:** 2026-10-23  
+**Status:** Research-updated draft; not expert-reviewed  
+**Change type:** Evidence update; source verification; conceptual clarification; operationalization  
+**Risk level:** Low  
+**Scope:** General conceptual and research framework; not a clinical assessment, diagnostic instrument, or complete theory of intelligence  
+**Research note:** Sources S01–S24 and the original report's S25–S26 are cited in the supplied draft but their complete bibliographic mappings were not supplied with this report. They are therefore not silently reconstructed. New sources begin at S27.
+
+---
+
+## 1. Definition and boundaries
+
+**Mind** denotes a family of capacities and processes involved in perception, attention, learning, memory, language, reasoning, planning, imagination, emotion, motivation, decision-making, and self-understanding. It is a functional and experiential category, not a separate anatomical organ. The term does not imply that these capacities form one unified mechanism or that each maps to a single brain region.
+
+Mind is not interchangeable with **consciousness**. Some processes can influence perception, choice, emotion, and action without being reportable or accessible to awareness; conscious experience, in turn, raises questions about what it is like for a subject to experience something. Researchers must specify whether “consciousness” means wakefulness, access to information for reasoning and report, phenomenal experience, or another operationally defined construct. These meanings overlap but should not be treated as identical.
+
+Mind is also not synonymous with **intelligence**. Intelligence can refer to particular abilities, a measured construct, or a family of adaptive capacities. Performance on one task does not establish global intelligence, practical wisdom, moral worth, or metaphysical insight. **Wisdom** is a further normative and practical construct involving judgment under uncertainty, context sensitivity, consideration of consequences, and the ability to revise beliefs; it should not be inferred from raw task performance alone.
+
+Personal identity has multiple meanings:
+- **Autobiographical identity:** the story and memories through which a person understands their life.
+- **Social identity:** roles, relationships, group memberships, and socially situated self-understanding.
+- **Psychological continuity:** persistence of memories, dispositions, intentions, values, and other psychological connections over time.
+- **Numerical identity:** whether a person at one time is literally the same individual at another time.
+- **Metaphysical persistence:** claims about what, if anything, persists beyond bodily death.
+
+These questions overlap but are not equivalent. Evidence about memory or personality can inform psychological continuity without by itself resolving numerical identity or metaphysical persistence.
+
+## 2. Evidence and current research
+
+### 2.1 Cognitive capacities are distinguishable but interdependent
+
+Memory is commonly analyzed through encoding, retention or storage, and retrieval. Declarative memory is often distinguished into episodic memory (remembering personally experienced events) and semantic memory (knowledge of facts, meanings, and concepts); procedural memory concerns learned skills and habits. These categories are useful research distinctions, not claims that memory is stored in isolated, independent compartments. Retrieval depends on cues, context, attention, prior learning, and interference. Memory is reconstructive and can be incomplete or mistaken; subjective vividness and confidence are not guarantees of accuracy. [S27–S29]
+
+Perception is likewise not a simple passive copy of the outside world. Sensory input is processed in relation to attention, prior learning, context, expectations, bodily state, and action. The contribution of each factor varies by modality and task. A report should distinguish direct observation, participant self-report, behavioral performance, physiological measures, and researchers' theoretical interpretation.
+
+Emotion and motivation influence what is attended to, remembered, avoided, pursued, or judged important. They can provide useful information about needs and appraisals, but a feeling does not independently establish that the belief associated with it is factually correct. Reasoning is affected by cognitive resources, prior beliefs, goals, and context; it should not be described as either wholly rational or wholly controlled by emotion.
+
+### 2.2 4E cognition: four related but non-identical claims
+
+The 4E family commonly refers to cognition as **embodied, embedded, enacted, and extended**. A 2025 conceptual analysis argues that 4E is best understood as a family of overlapping approaches rather than a single doctrine with one universally accepted defining feature. A 2026 analysis further argues that the different E-theories vary in how strongly they challenge traditional computational and representational models. [S30–S31]
+
+- **Embodied:** bodily structure, action capacities, sensorimotor systems, and physiological state can shape cognitive processes.
+- **Embedded:** cognition occurs in an environment that provides information, constraints, affordances, and resources.
+- **Enactive:** some theories emphasize that perception and cognition arise through an organism's active engagement with its environment. The strength and meaning of this claim vary among enactivist approaches.
+- **Extended:** some theories argue that external resources can, under specified conditions, function as parts of a cognitive process rather than merely helping it from outside.
+
+These are not automatically interchangeable. An external notebook may support memory without necessarily being part of the person's cognitive system in the strongest theoretical sense. A body state may causally influence a decision without proving that the body is constitutive of every aspect of cognition. The distinction between **causal influence**, **reliable functional support**, and **constitutive part of a cognitive process** should be stated whenever the claim matters.
+
+The 4E perspective does not make neural explanation irrelevant. Rather, it asks which explanatory level is appropriate for the question and whether brain-only descriptions omit task-relevant bodily, social, technological, or environmental relations. It remains a theoretical and methodological landscape with live disagreements, not proof that cognition is non-neural or that the mind is literally a computer, an external field, or a supernatural substance. [S30–S32]
+
+### 2.3 Methods and measurement
+
+A sound cognitive claim must name the construct and its operational measure. For example:
+- **Recall:** what information can be retrieved under specified conditions.
+- **Recognition:** whether a previously encountered item is identified as familiar or previously presented.
+- **Attention:** performance on a defined selection, detection, or sustained-focus task.
+- **Inference:** conclusions drawn from stated evidence or premises.
+- **Learning:** change in knowledge, behavior, or ability after experience or practice.
+- **Self-report:** a participant's account of their own experience, confidence, or state.
+- **Metacognition:** monitoring or evaluation of one's own cognitive performance, assessed using a defined method.
+
+No single measure fully captures a broad construct. Reliability (consistency of measurement) and validity (whether evidence supports the intended interpretation) must be assessed separately. A test may be reliable while measuring only a narrow part of the capacity its label suggests. Preregistered hypotheses, clear inclusion criteria, adequate sample planning, transparent exclusion rules, relevant comparison conditions, and reporting of uncertainty can reduce—but not eliminate—bias and overinterpretation.
+
+## 3. Perspectives and explanatory levels
+
+Cognitive psychology studies behavior and mental processes using tasks, experiments, observation, and validated measures. Neuroscience investigates neural systems and their relation to cognition and behavior. Computational and formal approaches describe information processing, learning, inference, or control in explicit models. Phenomenology examines the structure and character of lived experience. Social and cultural approaches study how language, institutions, norms, relationships, and shared practices shape cognitive activity. These perspectives can inform one another but answer different questions.
+
+A computational model can explain a process without showing that a human mind is literally ordinary software. Similar behavior does not establish identical mechanisms, and the use of language or self-description does not independently establish subjective experience.
+
+Physicalist, dualist, and other metaphysical accounts of mind remain philosophical positions with different arguments and burdens of proof. Indian philosophical traditions include theories of an enduring self, theories that characterize self and mind in different ways, and Buddhist analyses that reject an independent, enduring self. The existence of these positions establishes a history of conceptual disagreement; it does not establish equal empirical support for every metaphysical claim. Buddhist accounts of mind, in particular, should not be flattened into a single universal doctrine. [S33]
+
+## 4. Relationships to the other foundational reports
+
+### Mind–Body
+Cognition is realized and constrained through biological functioning, including sensory systems, neural activity, movement, sleep, arousal, and other bodily conditions. The exact relationship varies across capacities and theoretical frameworks. Body-focused findings constrain cognitive theories, but do not by themselves settle every philosophical question about mind.
+
+### Mind–Consciousness
+Mind includes processes that may not be consciously accessible. Consciousness research should specify whether the target is wakefulness, access for report and control, or subjective experience. Reports of experience are important evidence about what a person says they experience; they are not, by themselves, a complete explanation of the experience's mechanism.
+
+### Mind–Soul
+Psychological processes, autobiographical identity, and moral character can be studied without assuming that an independently existing soul has been demonstrated. Whether a soul exists, what it means, and whether it persists independently of the body are philosophical or religious questions that require their own explicit premises and evidence standards.
+
+### Mind–Spirit
+People may interpret experiences of transcendence, unity, sacredness, or spiritual significance through personal concepts, cultural frameworks, expectations, memory, and community. Psychological explanations can investigate reported experiences without deciding in advance that their spiritual interpretation is true or false. Neither the intensity of an experience nor a person's certainty independently proves a supernatural explanation.
+
+### Mind–Earth and environment
+Cognition develops and operates in physical, ecological, social, and technological environments. Environmental cues and tools can support attention, memory, learning, and collective decision-making. Ecological knowledge can inform practical judgment and planetary stewardship, but cognitive capacity alone does not guarantee sound ecological choices or ethical action.
+
+### Mind–AI
+Memory-like storage, planning, language use, and self-description are functional capabilities; they are not individually sufficient evidence of human-like subjective experience. Claims about AI consciousness require a clearly defined target, explicit criteria, and evidence that distinguishes competing explanations. This report does not assess or establish consciousness in any particular AI system.
+
+## 5. Uncertainty and safeguards against overclaiming
+
+1. **Neural correlation is not a complete explanation.** Finding neural activity associated with a task does not automatically explain subjective experience or settle metaphysical questions.
+2. **Self-report has a defined evidential role.** It is valuable evidence about reported experience, but not an independent test of every explanation a person gives for it.
+3. **Task performance is construct-limited.** Success on one measure should not be relabeled as general intelligence, wisdom, moral superiority, or spiritual attainment without separate justification.
+4. **The 4E label is not a single settled theory.** The specific version, claim strength, and evidence should be stated.
+5. **Philosophical disagreement is not empirical equivalence.** Multiple traditions may be described respectfully while evaluating empirical claims according to relevant evidence.
+6. **This report is not diagnostic.** It cannot diagnose a person, determine their identity, or infer a mental-health condition.
+7. **No AI-consciousness conclusion is drawn.** Functional descriptions are not sufficient on their own to establish or rule out subjective experience.
+8. **The missing source map remains an audit limitation.** Original references S01–S26 require reconciliation against the original bibliography before they can all be treated as independently verified citations.
+
+## 6. Claim-level cognitive map
+
+| Capacity / construct | Operational question | Suitable evidence (examples) | Key alternatives or confounds | Connection to other reports |
+|---|---|---|---|---|
+| Perception | What stimulus or event is detected or discriminated? | Accuracy, response time, psychophysics, structured report | Sensory limitations, expectation, attention, response bias | Body, consciousness, environment |
+| Attention | What information is selected or sustained? | Defined attention tasks, eye movements where appropriate, performance over time | Fatigue, motivation, task familiarity, speed–accuracy trade-off | Body, emotion, environment |
+| Memory | What is encoded, retained, and retrieved? | Recall/recognition, delayed tests, error patterns, confidence calibration | Cue mismatch, interference, reconstruction, prior knowledge | Body, identity, consciousness |
+| Learning | What changes after experience or practice? | Pre/post performance, transfer tests, retention after delay | Practice effects, coaching, selection effects | Body, environment, Transformative Intelligence |
+| Reasoning / inference | Does the conclusion follow from the stated evidence or premises? | Predefined problems, explanation coding, calibration | Ambiguous instructions, prior beliefs, language skill | Emotion, the Good, Transformative Intelligence |
+| Emotion / motivation | What appraisal, feeling, goal, or action tendency is reported or observed? | Validated scales, behavior, physiological measures where appropriate | Social desirability, context, overlapping constructs | Body, Love, Emotion framework |
+| Self-understanding / identity | How does a person describe continuity, values, and life history? | Structured interviews, longitudinal measures, autobiographical reports | Memory distortion, cultural expectations, changing narratives | Soul, consciousness, relationships |
+| Metacognition | How well does confidence track performance? | Confidence ratings compared with accuracy; calibration metrics | Scale use, overconfidence, task difficulty | Transformative Intelligence, the Good |
+| Environmental scaffolding | Which tools or environmental features alter performance? | Within-person comparisons, controlled manipulation, ecological observation | Novelty, accessibility, social effects, unequal resources | Body, Earth, environment, AI |
+
+This map is a research-planning aid, not a validated instrument. Measures should be selected and justified for the specific research question rather than used as a universal scorecard.
+
+## 7. Verification and research status
+
+**Completed in this revision**
+- Clarified boundaries between mind, consciousness, intelligence, wisdom, identity, and soul.
+- Expanded the 4E section to distinguish the four approaches and clarify causal influence versus constitution.
+- Added an operational map connecting constructs to candidate measures, confounds, and related reports.
+- Added source entries S27–S33 below and distinguished peer-reviewed conceptual work from general professional guidance and philosophical reference material.
+- Preserved the limits of the evidence and the distinction between research findings and metaphysical interpretation.
+
+**Not completed**
+- No new cognitive experiment, participant testing, clinical evaluation, systematic review, preregistration, or independent replication was performed.
+- No independent psychologist, neuroscientist, or philosopher review was performed.
+- The original S01–S26 bibliography was not included in the submitted text and has not been fully reconciled.
+- The proposed claim-level map has not been validated as a measurement instrument.
+
+**Recommended next verification steps**
+1. Reconcile S01–S26 with the source bibliography and check every in-text citation against its exact claim.
+2. Obtain independent review by a cognitive psychologist and neuroscientist; seek philosophical review for identity, consciousness, and metaphysical distinctions.
+3. For any empirical follow-up, preregister the research question, construct definitions, hypotheses, analysis plan, confounders, and stopping rules.
+4. Keep results, interpretations, assumptions, and open questions in separate fields.
+5. Replicate important results independently before treating them as robust.
+6. Record provenance and version history for all changes.
+
+## 8. Conclusions
+
+The evidence supports studying mind as a set of interrelated capacities operating through biological systems and in interaction with bodily, social, ecological, and technological environments. Contemporary 4E scholarship strengthens the case for examining those interactions while emphasizing that the framework contains distinct and sometimes competing theories. It does not remove the importance of neural explanations or resolve the mind–body problem.
+
+Mind, intelligence, wisdom, selfhood, consciousness, soul, and spirit should not be collapsed into one term. Claims should be proportionate to the evidence, measurements should match the construct, and metaphysical interpretations should remain distinguishable from empirical findings.
+
+**Next step:** develop the claim-level cognitive map into a source-pinned evidence register, then integrate it with the Body report only after both reports' citations and scope boundaries are reconciled.
+
+---
+
+## 9. Sources added in this revision
+
+**S27.** American Psychological Association. “Learning and Memory.” Professional psychology reference page. Defines learning and memory in terms of acquisition, retention, and retrieval.  
+https://www.apa.org/topics/learning-memory
+
+**S28.** American Psychological Association. “Episodic Memory.” *APA Dictionary of Psychology*. Defines episodic memory as remembering personally experienced events and distinguishes it from semantic memory.  
+https://dictionary.apa.org/episodic-memory
+
+**S29.** American Psychological Association. “Semantic Memory.” *APA Dictionary of Psychology*. Reference for memory of general facts, meanings, and concepts.  
+https://dictionary.apa.org/semantic-memory
+
+**S30.** “What is 4E cognitive science?” *Phenomenology and the Cognitive Sciences*. Published 21 January 2025. Open-access conceptual analysis; proposes understanding 4E as a family of related approaches rather than a doctrine with one simple essence.  
+https://doi.org/10.1007/s11097-025-10055-w
+
+**S31.** Mendes, H. “The exceptionality of enactivism within 4E cognition.” *Phenomenology and the Cognitive Sciences*. Published online 13 February 2026. A theoretical analysis arguing that 4E approaches differ in their commitments and that stronger claims about enactivism require qualification.  
+https://doi.org/10.1007/s11097-025-10131-1
+
+**S32.** “Toward a unified vocabulary for embodiment research challenges and solutions.” *npj Science of Learning*. 2026. Discusses terminology variation across embodiment-related research and the need for more consistent vocabulary.  
+https://www.nature.com/articles/s41539-026-00413-x
+
+**S33.** Ganeri, J. “Mind in Indian Buddhist Philosophy.” *The Stanford Encyclopedia of Philosophy*. Background reference on Buddhist accounts of mind and not-self; the article emphasizes diversity and historical development within the tradition.  
+https://plato.stanford.edu/entries/mind-indian-buddhism/
+
+---
+
+**Evidence and provenance note:** Sources S27–S33 were located and checked for title, publisher/reference context, and relevance to the claims above. They support the bounded claims for which they are cited; they do not independently validate every theoretical position discussed. S01–S26 remain pending full bibliography reconciliation. No claim of experiment, expert review, or independent replication is made.
