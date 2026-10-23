@@ -190,3 +190,28 @@ Report 12 proposes geomagnetic variability across defined timescales as a struct
 Do not infer that loss of geomagnetic variability necessarily causes atmospheric loss, that the magnetic field alone determines habitability, or that a geomagnetic power spectrum is a literal planetary subconscious. The “subconscious” label is interpretive only. Solar radiation is not the direct energy source of the geodynamo, and ordinary Earth-system coupling does not establish quantum entanglement.
 
 **Readiness:** documentation integration complete; source-level audit and geophysics/space-physics review pending; no spectral analysis, simulation, or numerical validation performed; implementation not authorized.
+
+---
+
+## Source-Audit Addendum — Core Dynamics, Magnetic Field, and Habitability (2026-10-23)
+
+### Findings and corrections
+
+1. **The geodynamo is a physical mechanism; “heart” is a metaphor.** Motion of electrically conducting liquid iron alloy in the outer core sustains Earth's main magnetic field. The field is dynamic, changes over time, and has undergone reversals. These facts support a functional analogy about persistence and planetary organization, not evidence that Earth is a living organism or has subjective experience.
+
+2. **The ancient-field timeline carries uncertainty.** Tarduno et al. reported evidence consistent with a geodynamo at about 3.4–3.45 billion years ago, but paleomagnetic interpretation is vulnerable to later alteration and resetting. Treat a specific age as evidence with methodological uncertainty, not a timeless settled point. See https://doi.org/10.1126/science.1183445 and the review https://doi.org/10.1146/annurev-earth-032320-102418.
+
+3. **Magnetic fields do not unconditionally protect atmospheres.** Atmospheric escape depends on solar-wind interaction, ionospheric conditions, atmospheric composition, gravity, stellar activity, and multiple escape channels. A global dipole can redirect energy and plasma but is not a guarantee of atmospheric retention. See Gronoff et al. (2020), https://doi.org/10.1029/2019JA027639, and Ramstad & Barabash (2021), https://doi.org/10.1007/s11214-021-00791-1.
+
+4. **Separate the energy systems.** Solar radiation drives much of the climate and surface biosphere; internal heat, compositional buoyancy, secular cooling, latent heat, and inner-core processes contribute to core dynamics. The Sun is not the direct energy source of the geodynamo. Core–mantle coupling is a research topic and should be distinguished from established mechanism, numerical-model output, and speculation.
+
+5. **Do not translate “planetary regulation” into “planetary consciousness.”** Earth-system feedback and geophysical self-organization can be described without claiming a literal planetary mind, soul, or intention.
+
+### Evidence classification
+
+- **Established mechanism:** geodynamo and time-varying geomagnetic field.
+- **Active scientific questions:** detailed energy budget, ancient-field chronology, core–mantle coupling, and atmosphere–magnetosphere interaction.
+- **Interpretive analogy:** soul/heart language and Earth consciousness.
+- **Not performed:** no new geodynamo model, atmospheric-escape simulation, or spectral analysis.
+
+**Verification status:** targeted geophysics and planetary-atmosphere source check documented; full source-by-source audit and specialist review remain pending.
