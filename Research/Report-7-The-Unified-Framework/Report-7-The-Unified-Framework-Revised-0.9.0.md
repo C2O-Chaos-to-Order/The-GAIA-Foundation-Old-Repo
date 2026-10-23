@@ -298,3 +298,14 @@ Report 17 extends the Report 16 periodic-table framework by comparing biological
 **Cross-report safeguards:** (1) keep elemental composition, structural organization, and functional analogy separate; (2) distinguish ordinary biochemical/manufacturing transformations from nuclear transmutation; (3) treat biomimicry as a specific, case-dependent analogy rather than proof of general human–technology isomorphism; (4) retain the archetypal periodic-table mapping as speculative; and (5) do not use “quantum entanglement” as a synonym for symbolic correspondence.
 
 **Evidence status:** targeted checks cover a human-body composition reference, smartphone PCB/material studies, the 2026 Chemical Imitation Game perspective, and the Johns Hopkins LIPPS biomimicry report. Several supplied source records remain incomplete. No quantitative similarity score or simulation is claimed.
+
+
+## Report 19 integration note — Terra–GAIA non-separability
+
+Report 19 distinguishes Terra as the physical Earth system from GAIA as a hypothesis/model family concerning biotic–abiotic feedback and habitability. Their relationship can be described as **structurally or explanatorily non-separable**: a regulatory model must be specified against the physical system it seeks to explain. This is not evidence that Terra and GAIA are literally quantum-entangled, nor does it establish GAIA as a conscious entity.
+
+The 2026 *Tellus* article by Lenton and Dutreuil supports distinguishing Gaia from the Earth system. Rubin et al. (2026) provide a proof-of-concept active-inference model of a simplified biosphere–climate system, not an empirical demonstration of planetary consciousness or quantum coherence. A Markov blanket is a statistical boundary in a model, not a “decoherence surface” by default. The supplied planetary-Hamiltonian source remains unresolved and must not be treated as verified evidence.
+
+**Cross-report safeguards:** (1) preserve the difference between physical system, explanatory hypothesis, and symbolic analogy; (2) do not use quantum entanglement as a synonym for feedback or non-separability; (3) keep the soul–spirit/Terra–GAIA parallel explicitly philosophical; and (4) do not claim simulations, numerical validation, or independent review that have not occurred.
+
+**Evidence status:** Report 19 includes targeted source checks and an uncertainty register. Full claim-by-claim audit, specialist review, and resolution of S01 remain pending. No simulation or numerical validation was performed for Report 19.
