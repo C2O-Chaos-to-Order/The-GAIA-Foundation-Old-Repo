@@ -112,3 +112,36 @@ This is the eighth report, and it is not a coincidence that it closes the set: *
 - Reject "health equals regularity."
 - Reject "the edge-of-chaos hypothesis is established fact."
 - Reject "a chaotic system is a system without rules."
+
+
+## Research and source audit addendum — 2026-10-23
+
+**Change type:** Source-grounding and claim-qualification addendum  
+**Evidence status:** Targeted external source check completed for selected core claims; full bibliography audit and specialist review remain pending  
+**Execution status:** No new dynamical simulation or numerical analysis performed
+
+### Source-level findings
+
+1. **Lorenz’s foundational result is now pinned to the primary article.** Edward N. Lorenz, “Deterministic Nonperiodic Flow,” *Journal of the Atmospheric Sciences* 20(2), 130–141 (1963), DOI: https://doi.org/10.1175/1520-0469(1963)020%3C0130:DNF%3E2.0.CO;2. Lorenz studies finite deterministic nonlinear differential equations and shows that bounded nonperiodic solutions can be unstable to small initial-state changes. This supports sensitive dependence in the specific model class; it does not mean every irregular or unpredictable process is chaotic.
+
+2. **The report’s chaos/entropy distinction remains essential.** The Lorenz paper supports deterministic sensitivity, not an equivalence between dynamical chaos and thermodynamic entropy. Keep these as different constructs, with separate definitions and operational measures.
+
+3. **Neural criticality and the “edge of chaos” need narrower language.** A power-law distribution alone does not establish criticality, and evidence from one neural preparation or analysis method cannot justify the universal statement that brains operate at criticality. The original report appropriately flags this as contested; that qualification must remain visible in summaries and downstream integrations.
+
+4. **Climate regime shifts are not automatically chaos.** A tipping point or transition between stable regimes is not, by itself, evidence of deterministic chaos. Any future quantitative Earth-system claim should identify the system, state variables, timescale, model/observations, and diagnostic used.
+
+### Source anchors checked
+
+- Lorenz, E. N. (1963). “Deterministic Nonperiodic Flow.” *Journal of the Atmospheric Sciences*, 20(2), 130–141. DOI above; primary research article.
+- Strogatz, S. H. *Nonlinear Dynamics and Chaos* (textbook). Retain as a secondary teaching source, not as a substitute for primary claims where those matter.
+- Beggs, J. M., & Plenz, D. (2003). “Neuronal Avalanches in Neocortical Circuits.” *Journal of Neuroscience*, 23(35), 11167–11177. DOI: https://doi.org/10.1523/JNEUROSCI.23-35-11167.2003. Use for the specific observed preparation and method; do not generalize it into proof of universal brain criticality.
+- Gronoff, G. et al. (2020). “Atmospheric Escape Processes and Planetary Atmospheric Evolution.” *Journal of Geophysical Research: Space Physics*. DOI: https://doi.org/10.1029/2019JA027639. This source is relevant to the planetary-atmosphere discussion but does not itself establish a universal dynamical-chaos claim.
+
+### Required corrections and remaining work
+
+- Do not describe positive Lyapunov exponents as a universal operational test for every finite, noisy, observed system without discussing estimation and model assumptions.
+- Do not call a power law a unique signature of self-organized criticality.
+- Treat “healthy variability” as domain-specific; cardiac and neural examples require their own clinical/experimental sources and must not imply that more irregularity is always healthier.
+- The original S01–S15 list still contains generic source descriptions rather than complete bibliographic entries for several claims. Exact editions, page references, and claim-to-source mapping remain pending.
+
+**Status:** Targeted source improvements added; complete source audit, specialist review, and numerical/simulation work remain pending.
