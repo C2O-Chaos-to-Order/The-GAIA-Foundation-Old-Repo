@@ -139,3 +139,8 @@ The first targeted research pass has now appended report-specific source checkpo
 - **Report 19:** USGS geodynamo, NASA energy budget, and 2026 ecological-feedback review; these support physical Earth-system coupling, not literal planetary quantum entanglement. Source S01 remains unresolved.
 
 **Verified scope of this checkpoint:** selected sources were located and the above findings appended to report files. This does not certify all sources cited in any report, all claims in those reports, or any simulation. Every report remains OPEN until the complete claim register and its applicable gates are reviewed. Report 18 remains a numbering/provenance blocker because no Report 18 file is present in the current tree.
+
+
+## Source-to-claim register opened — 2026-10-23
+
+Created [SOURCE-CLAIM-TRACEABILITY-REGISTER.md](SOURCE-CLAIM-TRACEABILITY-REGISTER.md) with 25 seed entries covering selected high-impact claims across Reports 1–19. Entries record source identity/type, what the source supports, what it does not support, current verification state, and next action. This is a starter ledger, not a completed claim-by-claim bibliography. Expansion to every material claim and all Transformative Intelligence revisions remains required.
