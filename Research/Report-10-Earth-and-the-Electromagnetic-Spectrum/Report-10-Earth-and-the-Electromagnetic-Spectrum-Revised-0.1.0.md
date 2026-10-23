@@ -133,3 +133,23 @@ Meta-wisdom here means recognizing that the spectrum we observe is not the whole
 - Reject “the spectrum humans see is the whole spectrum.”
 - Reject presenting a historical energy-imbalance estimate as current.
 - Reject treating a symbolic analogy about light as a physical mechanism.
+
+
+---
+
+## Addendum — Report 12 Integration: Distinguishing Radiation from Geomagnetic Variability
+
+**Change type:** Cross-report clarification  
+**Evidence status:** Conceptual clarification; source audit pending  
+**Execution status:** No spectral analysis or model run performed  
+**Implementation:** Not authorized
+
+Report 12 adds “geomagnetic spectrum” as shorthand for geomagnetic variation across selected frequencies and timescales. To prevent confusion with Report 10, retain this distinction:
+
+- **Electromagnetic spectrum:** electromagnetic radiation organized by frequency/wavelength; it transports energy and can carry information.
+- **Geomagnetic field and its variations:** magnetic-field measurements and time-dependent signals arising from multiple sources, including the core, crust, ionosphere, magnetosphere, and induced currents.
+- **Solar wind:** a plasma flow that couples to the magnetosphere; it is not itself synonymous with electromagnetic radiation.
+
+A geomagnetic power spectrum depends on location, sampling, time interval, preprocessing, and source separation. Pc1–Pc5 classes have distinct conventional frequency ranges; secular variation, storms, excursions, and reversals require methods suited to their different temporal scales. The Sun’s radiation is central to climate and photosynthesis, but the geodynamo is driven primarily by internal core processes. These relationships do not establish a quantum-entanglement claim.
+
+The “Spirit” and “Subconscious” labels remain declared structural metaphors, not physical properties of radiation or magnetic signals. Source audit and specialist review remain pending; no analysis or simulation is claimed.
