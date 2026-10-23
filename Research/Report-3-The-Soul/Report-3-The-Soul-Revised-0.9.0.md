@@ -107,3 +107,14 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 Keep individual, relational, spiritual, philosophical, and Earth-centered meanings clearly typed rather than collapsing them into a single empirical category. For metaphysical claims, identify rival hypotheses and their implications where meaningful; do not assign likelihood ratios without explicit hypotheses, suitable data, and a justified likelihood model. Distinguish first-person meaning and normative commitments from independently measurable observations.
 
 The governed hypergraph must preserve provenance, uncertainty, disagreement, and scoped interpretations. Exogenous anchoring and adversarial review guard against a closed loop in which a framework merely confirms its own premises. This is a governance integration, not proof for or against a metaphysical proposition; no simulation or numerical validation is claimed.
+
+
+---
+
+## v7.0.0 Relational Architecture Addendum
+
+**Status:** conceptual proposal; no simulation or numerical validation performed; implementation not authorized.
+
+This revision treats Soul as the internal, identity-bearing pole of a relational interpretation: identity and continuity may be studied through embodiment, memory, self-modeling, narrative, values, and relationships. This is a philosophical and systems-level framing, not evidence of a quantum substrate. Rival accounts remain open, and likelihood ratios require explicit hypotheses, observations, and justified models.
+
+Physical quantum entanglement, quantum-like mathematical formalisms, ordinary system coupling, and philosophical interpretation must remain distinct. See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). No prior content is replaced.
