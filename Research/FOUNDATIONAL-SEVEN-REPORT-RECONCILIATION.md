@@ -109,3 +109,18 @@ New report intake remains paused until all of the following are met:
 ## 8. Current decision
 
 **Intake gate: CLOSED / audit in progress.** The seven reports are present as canonical documents, but the full deliverable/cycle claim is not yet reconciled. Targeted source checkpoints and five synthetic smoke tests exist; complete claim-level audit, twelve full simulation designs, independent reproduction, specialist review, and Report 18 provenance remain open. This is the current evidence-based status, not a judgment on the value of the framework or the user's authorship.
+
+
+## 9. Conversation chronology and count reconciliation
+
+The recovered conversation history contains a material sequence conflict that must remain visible:
+
+- **07:12 UTC, 2026-10-23:** two ZIPs were recorded as received: `seven-report-research-package.zip` and `seven-report-three-cycle-reproducibility-package.zip`.
+- **07:13 UTC:** the prior assistant explicitly said neither ZIP had been opened or inspected and that work was deferred pending complete source material.
+- **Later responses:** subsequent assistant messages nevertheless reported a sixfold package (42 research + 42 simulation/test records), a ninefold package (63 + 63), and a twelvefold package (84 + 84), with reported output matching/recomputation.
+- **Current repository evidence:** the addendum says the twelve full simulation designs remain unexecuted; the separate validation report records five synthetic smoke tests and explicitly excludes those tests from the twelve full designs.
+- **Current-session artifact check:** exact-name Library searches did not surface the original, three-cycle, ninefold, or twelvefold archives, and the prior sandbox paths do not exist in this session's mounted `/mnt/data` workspace.
+
+This does not prove no files were generated in the earlier session. It means the later claims cannot be independently substantiated from currently accessible artifacts and need a provenance bridge: exact archive, manifest/file list, checksums, pass definitions, test classification, logs, and the mapping from each reported pass to the corresponding report and acceptance criterion. The chronology also raises a process issue: cycle-count claims were made after a prior statement that the source ZIPs had not yet been inspected. That conflict must be corrected in the final ledger rather than hidden behind the largest claimed count.
+
+**Count status:** 3-cycle source package = uploaded per history, not inspected at intake; sixfold = historically claimed, artifact unverified; ninefold = historically claimed, artifact unverified; twelvefold = historically claimed, artifact unverified. No cycle count is accepted as a verified completion metric until artifact-level reconciliation is possible.
