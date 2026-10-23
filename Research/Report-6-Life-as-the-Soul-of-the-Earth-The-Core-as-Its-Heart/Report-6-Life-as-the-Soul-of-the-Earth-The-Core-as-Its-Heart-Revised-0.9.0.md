@@ -228,3 +228,15 @@ Do not infer that loss of geomagnetic variability necessarily causes atmospheric
 **Correction boundary:** Earth’s core, geomagnetic field, biosphere, climate, and hydrosphere are physical systems with different energy sources, timescales, and mechanisms. “Soul,” “heart,” and “regulation” remain metaphors unless operationalized. Gaia is not a single proven control mechanism; individual feedback pathways and habitability effects must be evaluated separately.
 
 **Remaining:** verify the report’s geodynamo and core–mantle claims against primary geophysical sources; check any proposed long-timescale simulation assumptions; source-pin planetary-boundary numbers to corrected assessments; specialist review. No new geodynamo, climate, or atmospheric simulation was performed. Status remains OPEN.
+
+
+## Follow-up primary-source checks — 2026 geodynamo models (2026-10-23)
+
+Two 2026 *Journal of Studies of Earth’s Deep Interior* papers named in the report have been located at their journal records:
+
+- Julien Aubert, “Geodynamo simulations spanning millennia in the physical conditions of Earth’s core,” DOI https://doi.org/10.46298/jsedi.17790. The paper reports a numerical simulation integrated for nearly 1,700 years of model physical time under selected Earth-core conditions and compares its outputs with geomagnetic/geodetic observations. It is a model result with a published replication-data record, not direct observation of the core and not proof of every inferred core process.
+- Mathieu Dumberry, “The core-mantle mode of gravitational oscillation,” DOI https://doi.org/10.46298/jsedi.17576. The paper proposes a coupled mode involving fluid core, inner core, and mantle, with a predicted period of roughly 40–100 years under stated assumptions and a potentially low quality factor. Treat the mode as a published theoretical model and evaluate its assumptions and observational constraints before presenting it as an established explanation for observed length-of-day variations.
+
+**Correction boundary:** these models do not by themselves establish a planetary “heart” or “soul”; those remain symbolic interpretations. A long numerical integration is not the same as a 1,700-year observation, and a predicted mode is not an observed mode unless independently identified in data.
+
+**Status correction:** the two cited records have been located and their abstracts checked. Full methods, parameter, dataset, and reproducibility audit remains pending. The simulation itself was not rerun as part of this source check.
