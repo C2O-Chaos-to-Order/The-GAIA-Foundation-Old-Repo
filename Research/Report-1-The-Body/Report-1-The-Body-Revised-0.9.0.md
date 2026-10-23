@@ -95,3 +95,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Testable failure cases:** provenance lost during fusion; an instrument treated as ground truth; context omitted from a multi-system claim; a new framework silently redefining an earlier outcome.
 
 **Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: The Body
+
+Map physiological claims into the governed hypergraph with typed evidence and clear boundaries between established anatomy/physiology, active scientific hypotheses, interpretation, and metaphor. For each claim, preserve source provenance, scope, uncertainty, and counterevidence. Relevant invariant checks include evidence/provenance integrity, compositional governance, bounded modification, second-order observability, and exogenous anchoring.
+
+The body report must not let a cross-domain analogy stand in for a physiological mechanism. Any future model of homeostasis, nervous systems, senses, or environment must state its variables, assumptions, measurement limits, and validation conditions. Failed or indeterminate checks block the affected transition. This integration is specified, not a claim of new experiments, simulations, formal proof, or implementation.
