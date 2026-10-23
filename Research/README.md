@@ -103,6 +103,12 @@ This is the canonical Report 13 supplied by the user on 2026-10-23. It proposes 
 The earlier path `Report-13-The-Electromagnetic-Spectrum-as-Consciousness/` was created prematurely by the assistant before the user supplied Report 13. It is now a correction notice, is non-canonical, and must not be counted as a separate report.
 
 
+## Report 14 — The Electromagnetic Spectrum as Consciousness and Spirit
+
+[Report 14 — The Electromagnetic Spectrum as Consciousness and Spirit, Revised 0.1.0](Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md)
+
+Supplied by the user on 2026-10-23. Distinguishes cosmic electromagnetic radiation as a structural analogue for Spirit (environmental exchange) from endogenous neural electromagnetic fields as a candidate contributor to neural integration relevant to Consciousness. The source audit corrects Earth energy-budget wording, qualifies atmospheric-window ranges, identifies Hunt (2026) as a hypothesis-and-theory article rather than consensus validation, and separates neural field effects from the claim that a field constitutes subjective experience. Exact records for the supplied Zenodo sources S07–S08 and some atmospheric-window sources remain unverified; no new simulation or experimental analysis was performed.
+
 ## Source Research Addenda — 2026-10-23
 
 Targeted source-grounding addenda have been appended and fetched back for verification in the following reports:
@@ -173,3 +179,4 @@ Five bounded synthetic tests were executed: Lorenz initial-condition sensitivity
 
 - Report 12 now cites a technical review for conventional Pc1–Pc5 period ranges and explicitly records that no observed geomagnetic time series has been analyzed.
 - Report 13’s canonical source check covers Courtillot & Le Mouël (1988), Pelletier (1999), Wang et al. (2019), Gunell et al. (2018), Ramstad & Barabash (2021), and the McCraty–Schafer (2016) chapter. It flags the Swinburne quotation and the S06 wording for exact primary-source verification. No geomagnetic dataset was analyzed.
+- Report 14’s targeted source check covers NASA’s Earth energy budget, Hunt (2026), and Pospíšil & Prasad (2026). It flags incomplete S04/S05 citations and unlocated Zenodo records S07/S08; no neural-field simulation or experiment was performed.
