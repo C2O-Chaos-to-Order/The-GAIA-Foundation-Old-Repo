@@ -79,3 +79,19 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** integrate spiritual experience and practice without collapsing lived meaning into a single empirical or metaphysical category.
+
+- **Typed vertices:** distinguish reported experience, practice, cultural/theological interpretation, psychological account, physiological observation, and normative commitment.
+- **Hyper-Divergence:** preserve multiple interpretations and document opacity or limits of reportability. An experience can be meaningful without its interpretation being independently established as a universal fact.
+- **Hyper-Insurgence:** challenge interpretations respectfully using predeclared criteria while keeping the first-person report distinct from claims made about its cause or ontology.
+- **Hyper-Convergence:** record which bridges across experiential, psychological, social, and spiritual domains are supported, analogical, or unresolved; include a loss ledger.
+- **Meta-wisdom invariant:** protect interpretive pluralism, consent, provenance, and the distinction between personal meaning and public evidence.
+- **Testable failure cases:** experience and interpretation merged into one claim; disagreement erased by synthesis; one domain silently given veto power over all others.
+
+**Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
