@@ -215,3 +215,16 @@ Do not infer that loss of geomagnetic variability necessarily causes atmospheric
 - **Not performed:** no new geodynamo model, atmospheric-escape simulation, or spectral analysis.
 
 **Verification status:** targeted geophysics and planetary-atmosphere source check documented; full source-by-source audit and specialist review remain pending.
+
+
+## Targeted source-audit checkpoint — 2026-10-23
+
+**Scope of this pass:** Gaia, Earth-system feedbacks, planetary boundaries, and the distinction between symbolic planetary-organism language and empirical Earth-system processes.
+
+- Murphy & Williams, “Ecological Feedbacks in the Earth System,” *Earth’s Future* 14(2) (first published 21 February 2026), DOI https://doi.org/10.1029/2025EF006478, reviews ecological feedbacks across spatial and temporal scales and emphasizes that their effects on Earth-system functioning remain incompletely understood. This supports modeling specific feedbacks; it does not establish a single globally homeostatic planetary controller.
+- “Overlapping attempts to falsify and Darwinize the Gaia hypothesis,” *Philosophical Transactions of the Royal Society B* 380 (2025), article 20240087, DOI https://doi.org/10.1098/rstb.2024.0087, argues that life–environment coevolution is compelling but may be interpreted without assuming planetary-scale homeostatic regulation. A related 2025 critique, “Function, chance and purpose in the biosphere: a critical examination of the Darwinized Gaia hypothesis,” DOI https://doi.org/10.1098/rstb.2024.0088, argues that the Darwinized Gaia hypothesis does not overcome important evolutionary objections. These are substantive critiques and must be represented fairly.
+- The Planetary Boundaries review in *Nature Reviews Earth & Environment* (2024), DOI https://doi.org/10.1038/s43017-024-00597-z, describes the framework as a way to characterize safe operating space and notes that six of nine boundaries had been transgressed in the assessment it reviews; a 2025 correction exists (DOI https://doi.org/10.1038/s43017-025-00696-5). Any numerical claim must cite the corrected source/version and specify assessment date and metric.
+
+**Correction boundary:** Earth’s core, geomagnetic field, biosphere, climate, and hydrosphere are physical systems with different energy sources, timescales, and mechanisms. “Soul,” “heart,” and “regulation” remain metaphors unless operationalized. Gaia is not a single proven control mechanism; individual feedback pathways and habitability effects must be evaluated separately.
+
+**Remaining:** verify the report’s geodynamo and core–mantle claims against primary geophysical sources; check any proposed long-timescale simulation assumptions; source-pin planetary-boundary numbers to corrected assessments; specialist review. No new geodynamo, climate, or atmospheric simulation was performed. Status remains OPEN.
