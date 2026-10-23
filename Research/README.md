@@ -127,3 +127,31 @@ Targeted source-grounding addenda have been appended and fetched back for verifi
 - **Research integrity rule:** a targeted addendum, a file fetch-back, or a framework integration is not equivalent to complete research, external peer review, or successful simulation. Implementation remains unauthorized unless separately approved.
 
 **Completion claim:** the repository has improved targeted source documentation for Reports 1–11; the overall research-and-simulation completion gate remains **open**.
+
+
+## Completion-gate update — Reports 12–13 source grounding and inventory correction
+
+**Updated:** 2026-10-23  
+**Scope:** Current Research tree inventory and source-grounding status.
+
+The live recursive tree contains 13 numbered reports, the Transformative Intelligence architecture (revisions 3.0.0, 4.0.0, 5.0.0, 7.0.0, and 8.0.0), the Universal Framework Research Integrity and Simulation Design Addendum, and preserved historical report versions. Reports 12 and 13 were previously omitted from the targeted source-addenda list; this is corrected below.
+
+### Report-specific source-grounding addenda verified on GitHub
+
+- Reports 1–7: targeted addenda are appended to their current Revised 0.9.0 files.
+- Reports 8–11: targeted addenda are appended to their Revised 0.1.0 files.
+- [Report 12 — The Subconscious as the Geomagnetic Spectrum](Report-12-The-Subconscious-as-the-Geomagnetic-Spectrum/Report-12-The-Subconscious-as-the-Geomagnetic-Spectrum-Revised-0.1.0.md): INTERMAGNET data route, NASA radiation-budget reference, and geodynamo/atmospheric-escape source anchors added; no geomagnetic dataset was downloaded or analyzed.
+- [Report 13 — The Electromagnetic Spectrum as Consciousness](Report-13-The-Electromagnetic-Spectrum-as-Consciousness/Report-13-The-Electromagnetic-Spectrum-as-Consciousness-Revised-0.1.0.md): McFadden’s CEMI theory article, the 2025 COGITATE adversarial study, a 2026 theory review, and NASA’s radiation-budget reference added with claim-level boundaries; no neural-field experiment was performed.
+
+### Canonical-file and provenance warning
+
+Older Report 5 and Report 6 files remain directly under `Research/` as well as in their report folders. They are preserved historical copies, not separate canonical reports. The current report-folder files and this index should be used as the navigation path; do not delete or silently overwrite historical files. The duplicated root-level copies should be reconciled only through a separately reviewed provenance change.
+
+### What this update does—and does not—establish
+
+- **Verified:** all 13 numbered reports are represented in the Research tree; targeted source-grounding addenda for Reports 1–13 are present in the current report files; Report 12 and Report 13 are now included in this index’s completion record.
+- **Not established:** an exhaustive claim-by-claim audit of every paragraph and reference, specialist peer review, empirical validation, or successful reproduction of the proposed research models.
+- **Simulation status:** the twelve designs in the Universal Framework addendum remain design specifications unless an execution record identifies code/model, data and parameter provenance, baseline, ablations, sensitivity analyses, outputs, failure logs, and reproduction instructions. This README update does not mark those simulations as executed.
+- **Implementation status:** no implementation is authorized by this research-index update.
+
+The completion gate remains open until source-to-claim traceability and each applicable validation gate are documented. Where a claim is metaphysical or interpretive rather than empirically testable, the proper completion criterion is explicit scope, fair representation of competing positions, and protection against category errors—not a fabricated numerical simulation.
