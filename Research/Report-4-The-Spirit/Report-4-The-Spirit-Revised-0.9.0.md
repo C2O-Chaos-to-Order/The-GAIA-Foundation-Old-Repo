@@ -156,3 +156,16 @@ Report 9 frames Spirit as the outward-facing relation to vitality, other people,
 ## Cross-report alignment — Report 14
 
 Report 14, [The Electromagnetic Spectrum as Consciousness and Spirit](../Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md), separates cosmic electromagnetic radiation as a structural analogue for Spirit (environmental exchange) from endogenous neural electromagnetic fields as a candidate contributor to neural integration relevant to Consciousness. Report 4's account of spirit remains philosophical and cross-cultural; this mapping is not a universal definition of spirit and does not establish that radiation is literally spiritual.
+
+
+## Targeted source-audit checkpoint — 2026-10-23
+
+**Scope of this pass:** empirical neuroscience of religious and spiritual practices and the boundary between neural correlates and metaphysical interpretation.
+
+- Jedlicka & Havenith, “Religious and spiritual experiences from a neuroscientific and complex systems perspective,” *Neuroscience & Biobehavioral Reviews* 177 (October 2025), article 106319, DOI https://doi.org/10.1016/j.neubiorev.2025.106319, reviews meditation, prayer, near-death experiences, ecstatic epilepsy, psychedelics, and methodological challenges. It presents an integrative framework, not a demonstration that one neural mechanism explains all spiritual experience.
+- Haverkamp et al., “The convergent neuroscience of Christian prayer and attachment relationships in the context of mental health: a systematic review,” *Frontiers in Psychology* 16 (2025), 1569514, DOI https://doi.org/10.3389/fpsyg.2025.1569514, synthesizes 44 records focused on Christian prayer and attachment. Its scope is tradition-specific and its findings concern convergence of neural/cognitive correlates, not the truth or falsity of theological claims.
+- Husain, “The Neuroscience of Religious and Spiritual Practices: A Systematic Review of Neurotheological Evidence,” *Brain and Behavior* (2026), DOI https://doi.org/10.1002/brb3.71733, reports a narrative synthesis of 105 studies across varied practices and traditions, with substantial heterogeneity. Its broad synthesis should be read alongside that heterogeneity and not as proof of uniform neural signatures across traditions.
+
+**Correction boundary:** observed neural activity, reported subjective experience, therapeutic outcomes, and claims about a transcendent or supernatural referent are different evidential categories. Neural correlates neither independently validate nor disprove theological interpretation. Avoid universalizing findings from Christian prayer or meditation studies to all religions and spiritual practices.
+
+**Remaining:** verify all source records already cited in the report, inspect methods and limitations of the systematic reviews, and obtain specialist review. No new experiment or simulation was performed. Status remains OPEN.
