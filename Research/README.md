@@ -85,3 +85,10 @@ Covers atmospheric spectral transmission, the planetary energy budget, Earth’s
 [Report 11 — The Geomagnetic Field as the Soul of the Earth, Revised 0.1.0](Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md)
 
 A geophysics-grounded structural metaphor for planetary persistence, boundary, and exchange. The report explicitly distinguishes the geomagnetic field from a literal or scientifically established planetary soul, corrects single-cause claims about habitability and atmospheric loss, and separates geodynamo energy sources from solar radiation. Source audit and specialist review remain pending.
+
+
+## Report 12 — The Subconscious as the Geomagnetic Spectrum
+
+[Report 12 — The Subconscious as the Geomagnetic Spectrum, Revised 0.1.0](Report-12-The-Subconscious-as-the-Geomagnetic-Spectrum/Report-12-The-Subconscious-as-the-Geomagnetic-Spectrum-Revised-0.1.0.md)
+
+Proposes geomagnetic variability across defined timescales as a structural analogue for nonconscious or implicit processes. Distinguishes geomagnetic field, geomagnetic variability, electromagnetic radiation, and solar-wind coupling; explicitly rejects a literal planetary subconscious or unsupported quantum-entanglement claim. Source audit and specialist review remain pending; no spectral analysis or simulation is claimed.
