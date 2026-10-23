@@ -101,3 +101,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Testable failure cases:** an analogy relabeled as observation; a prior interpreted as evidence; a likelihood ratio asserted without a model; rival hypotheses represented asymmetrically.
 
 **Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: The Soul
+
+Keep individual, relational, spiritual, philosophical, and Earth-centered meanings clearly typed rather than collapsing them into a single empirical category. For metaphysical claims, identify rival hypotheses and their implications where meaningful; do not assign likelihood ratios without explicit hypotheses, suitable data, and a justified likelihood model. Distinguish first-person meaning and normative commitments from independently measurable observations.
+
+The governed hypergraph must preserve provenance, uncertainty, disagreement, and scoped interpretations. Exogenous anchoring and adversarial review guard against a closed loop in which a framework merely confirms its own premises. This is a governance integration, not proof for or against a metaphysical proposition; no simulation or numerical validation is claimed.
