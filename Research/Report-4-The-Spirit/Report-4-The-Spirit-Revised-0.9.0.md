@@ -123,3 +123,10 @@ Physical quantum entanglement, quantum-like formalism, ordinary system coupling,
 v8.0.0 frames Spirit as the interpretive world-relational pole: connection, vitality, meaning, practice, community, environment, and transcendent interpretation. 'World-entanglement' is not established physical non-locality. Keep theological, phenomenological, ethical, and empirical claims distinct; biological coherence or neural findings do not independently prove a universal field or theological doctrine.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+
+---
+
+## Report 9 Integration — Spirit as the Outward Pole
+
+Report 9 frames Spirit as the outward-facing relation to vitality, other people, the living world, ultimate concerns, or the divine, depending on context. It does not claim that these descriptions are identical across traditions. Breath language is simultaneously physiological and culturally/theologically meaningful; those levels must remain distinct. Connection must not be equated with self-erasure or loss of boundaries. The quantum terms “world-entanglement” and “self-entanglement” remain labelled architectural analogies unless a separately operationalized physical model supplies evidence. See [Report 9 — The Connection of Spirit and Soul](../Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md).
