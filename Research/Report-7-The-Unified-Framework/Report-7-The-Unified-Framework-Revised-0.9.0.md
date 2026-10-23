@@ -263,3 +263,11 @@ The mapping must preserve the unassigned Earth slots for Mind and Consciousness:
 - Gronoff et al., “Atmospheric Escape Processes and Planetary Atmospheric Evolution,” *JGR Space Physics* (2020): https://doi.org/10.1029/2019JA027639.
 
 **Completion gate:** this addendum improves cross-report evidence governance but does not certify all citations in Reports 1–6. Full claim-by-claim source audit, specialist review, and each planned simulation remain pending until individually performed and recorded.
+
+
+## Cross-report alignment — Reports 13–14
+
+- [Report 13 — The Geomagnetic Spectrum as Subconscious and Soul](../Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md) maps the geomagnetic field to soul and its temporal spectrum to subconscious strictly as structural analogues.
+- [Report 14 — The Electromagnetic Spectrum as Consciousness and Spirit](../Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md) maps cosmic radiation to Spirit as environmental exchange and endogenous neural fields to a candidate contributor to integration relevant to consciousness. It does not claim that either field is proven to be consciousness.
+
+The two mappings are not interchangeable. A cosmic radiation spectrum, a geomagnetic field, a geomagnetic time series, and an endogenous neural field are distinct physical referents. Interpretive analogies must not be promoted to physical identities without discriminating evidence.
