@@ -125,3 +125,14 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 Represent theories, experimental findings, measurement protocols, and philosophical interpretations as distinct claim types. A test that does not discriminate between competing theories is non-discriminating; it does not establish that the theories are equivalent. Record the tested prediction, methods, evidence, limitations, and alternative explanations for each theory comparison.
 
 The v5.0.0 invariant system requires independent source review, adversarial falsification, provenance, and careful separation of test results from theoretical interpretation. Claims about recursive self-observation must not imply complete introspective access. No new experiment, simulation, numerical/spectral validation, or formal proof is claimed by this addendum.
+
+
+---
+
+## v7.0.0 Relational Architecture Addendum
+
+**Status:** conceptual proposal; no simulation or numerical validation performed; implementation not authorized.
+
+Quantum theories of consciousness, including Orch-OR and the proposed NMDA-radical-pair hypothesis, remain hypotheses requiring proportionate scrutiny. The located 2026 critical review describes open feasibility, bridge-principle, and testability problems. Distinguish physical quantum entanglement from quantum-like cognition and philosophical analogy. A proposed cognitive-affective CHSH design is not an observed violation; a non-discriminating test does not establish theory equivalence.
+
+See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). No prior content is replaced.
