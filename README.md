@@ -7,6 +7,7 @@ This repository holds the foundational research corpus for GAIA. All primary mat
 ## Current Status (as of 2026-10-23)
 
 - **Global Research Completion Gate:** OPEN / INDETERMINATE. See [`Research/GLOBAL-RESEARCH-COMPLETION-GATE.md`](Research/GLOBAL-RESEARCH-COMPLETION-GATE.md).
+- **Albedo Alignment Checkpoint:** Attempt opened to move past Nigredo inventory into explicit purification and claim-boundary clarification. See [`Research/ALBEDO-ALIGNMENT-CHECKPOINT-2026-10-23.md`](Research/ALBEDO-ALIGNMENT-CHECKPOINT-2026-10-23.md). Status remains OPEN / INDETERMINATE; does not close any gate.
 - Report intake is paused pending audit clearance. Targeted source checkpoints and structural inventory exist; full claim-level source audits, independent specialist review, and full simulation executions remain open.
 - **Report 18:** Not present on `main`. A draft exists on branch `research/report-18-humans-soul-of-terra-2026-10-23`. Provenance resolution required before promotion.
 - Simulations: Limited synthetic smoke tests executed and recorded under [`Research/Validation/`](Research/Validation/). Full Report 7 simulation designs remain unexecuted. Prior multi-cycle package claims (including 84+84 records) are unreconciled pending original archive recovery. See reconciliation documents in `Research/`.
@@ -29,7 +30,7 @@ This repository holds the foundational research corpus for GAIA. All primary mat
 - No simulation or numerical result is claimed without execution record, parameters, outputs, and reproducibility materials.
 - Do not invent sources, data, or completed validations.
 
-For detailed inventory, readiness matrices, and next actions, start with the Research index and the Global Completion Gate document.
+For detailed inventory, readiness matrices, and next actions, start with the Research index, the Global Completion Gate, and the Albedo Alignment Checkpoint.
 
 ---
 *This overview was generated from the existing repository contents and audit records on 2026-10-23. It does not claim completion of any open audit gate.*
