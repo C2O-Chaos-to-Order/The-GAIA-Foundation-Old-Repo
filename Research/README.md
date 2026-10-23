@@ -94,11 +94,13 @@ A geophysics-grounded structural metaphor for planetary persistence, boundary, a
 Proposes geomagnetic variability across defined timescales as a structural analogue for nonconscious or implicit processes. Distinguishes geomagnetic field, geomagnetic variability, electromagnetic radiation, and solar-wind coupling; explicitly rejects a literal planetary subconscious or unsupported quantum-entanglement claim. Source audit and specialist review remain pending; no spectral analysis or simulation is claimed.
 
 
-## Report 13 — The Electromagnetic Spectrum as Consciousness
+## Report 13 — The Geomagnetic Spectrum as Subconscious and Soul
 
-[Report 13 — The Electromagnetic Spectrum as Consciousness, Revised 0.1.0](Report-13-The-Electromagnetic-Spectrum-as-Consciousness/Report-13-The-Electromagnetic-Spectrum-as-Consciousness-Revised-0.1.0.md)
+[Report 13 — The Geomagnetic Spectrum as Subconscious and Soul, Revised 0.1.0](Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md)
 
-Distinguishes the cosmic electromagnetic spectrum from endogenous neural electromagnetic fields and from subjective experience. Reviews CEMI, zero-point-field, and biophoton proposals as theories requiring claim-level source checks; leaves Earth consciousness unassigned. Primary-source audit and specialist review remain pending; no experiment or simulation is claimed.
+This is the canonical Report 13 supplied by the user on 2026-10-23. It proposes a structural analogy between the geomagnetic field and soul, and between geomagnetic temporal variation and subconscious processes. Its source-verification addendum qualifies spectral scaling, separates measured fields from inferred core dynamics, limits planetary-shielding claims, and treats human magnetoreception evidence narrowly. No geomagnetic dataset or numerical spectrum was analyzed in this pass. Full source audit and independent specialist review remain pending.
+
+The earlier path `Report-13-The-Electromagnetic-Spectrum-as-Consciousness/` was created prematurely by the assistant before the user supplied Report 13. It is now a correction notice, is non-canonical, and must not be counted as a separate report.
 
 
 ## Source Research Addenda — 2026-10-23
@@ -141,7 +143,7 @@ The live recursive tree contains 13 numbered reports, the Transformative Intelli
 - Reports 1–7: targeted addenda are appended to their current Revised 0.9.0 files.
 - Reports 8–11: targeted addenda are appended to their Revised 0.1.0 files.
 - [Report 12 — The Subconscious as the Geomagnetic Spectrum](Report-12-The-Subconscious-as-the-Geomagnetic-Spectrum/Report-12-The-Subconscious-as-the-Geomagnetic-Spectrum-Revised-0.1.0.md): INTERMAGNET data route, NASA radiation-budget reference, and geodynamo/atmospheric-escape source anchors added; no geomagnetic dataset was downloaded or analyzed.
-- [Report 13 — The Electromagnetic Spectrum as Consciousness](Report-13-The-Electromagnetic-Spectrum-as-Consciousness/Report-13-The-Electromagnetic-Spectrum-as-Consciousness-Revised-0.1.0.md): McFadden’s CEMI theory article, the 2025 COGITATE adversarial study, a 2026 theory review, and NASA’s radiation-budget reference added with claim-level boundaries; no neural-field experiment was performed.
+- [Report 13 — The Geomagnetic Spectrum as Subconscious and Soul](Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md): user-supplied conceptual report recorded as canonical; selected sources checked and claims qualified in a research addendum; no geomagnetic data analysis or simulation performed. The premature electromagnetic-spectrum placeholder is now a correction notice.
 
 ### Canonical-file and provenance warning
 
@@ -170,4 +172,4 @@ Five bounded synthetic tests were executed: Lorenz initial-condition sensitivity
 ### Follow-up technical checks for Reports 12–13 — 2026-10-23
 
 - Report 12 now cites a technical review for conventional Pc1–Pc5 period ranges and explicitly records that no observed geomagnetic time series has been analyzed.
-- Report 13 now cites Keppler’s 2021/2024 ZPF-consciousness proposals as published theory-level work, and a July 2026 *Journal of Physical Chemistry Letters* study that raises serious measurement and attribution concerns about extracranial “brain biophoton” claims. These sources sharpen source provenance and evidential boundaries; they do not validate ZPF consciousness or a cognition-sufficient photonic code.
+- Report 13’s canonical source check covers Courtillot & Le Mouël (1988), Pelletier (1999), Wang et al. (2019), Gunell et al. (2018), Ramstad & Barabash (2021), and the McCraty–Schafer (2016) chapter. It flags the Swinburne quotation and the S06 wording for exact primary-source verification. No geomagnetic dataset was analyzed.
