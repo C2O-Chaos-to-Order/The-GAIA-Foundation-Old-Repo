@@ -204,3 +204,12 @@ A technical review, [“From Foreshock 30-Second Waves to Magnetospheric Pc3 Wav
 ## Cross-report alignment — Report 13
 
 Report 13, [The Geomagnetic Spectrum as Subconscious and Soul](../Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md), preserves Report 12's focus on the spectrum as a structural analogue for subconscious processes while adding a distinct paired assignment for the geomagnetic **field** as a structural analogue for soul. The field/spectrum distinction is conceptual and measurement-based; it does not establish a literal planetary unconscious, human decoding of geomagnetic spectra, or quantum entanglement. Report 12 remains independently scoped to spectrum/data and timescale questions; Report 13 is the cross-domain synthesis.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+The USGS “Introduction to Geomagnetism” describes the geodynamo as the source of Earth’s main magnetic field and notes both its self-sustaining dynamics and unresolved questions in dynamo theory: https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism. This reinforces the need to distinguish the field itself, temporal variation in field measurements, and inferences about processes in the inaccessible outer core.
+
+**Correction boundary:** a temporal spectrum is an analysis of a specified time series; it is not a free-standing entity and is not equivalent to cosmic electromagnetic radiation. “Subconscious” is a human psychological construct used here as an analogy for indirect inference and multiscale hidden dynamics, not a literal property of the Earth. Any quantitative spectral statement requires a named station/dataset, interval, sampling rate, preprocessing, spectral estimator, uncertainty, and reproducible code.
+
+**Status:** definitions and analogy boundary reaffirmed; no geomagnetic dataset or spectrum was computed. Full source audit and geomagnetist/psychologist review remain pending.
