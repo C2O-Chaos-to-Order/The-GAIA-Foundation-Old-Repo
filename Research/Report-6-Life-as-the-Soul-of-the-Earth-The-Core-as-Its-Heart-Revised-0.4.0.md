@@ -190,11 +190,11 @@ Aubert's 2026 geodynamo simulation was integrated for nearly 1,700 years of phys
 
 Zhang and Dumberry's September 2026 *Nature* article argues that gravitational torque associated with the inner core is the primary driver of multidecadal length-of-day variations in their reconstruction, resisted by electromagnetic and topographic torques. These are inference results from physical modeling and reconstructed core dynamics; they do not constitute a direct measurement of every torque term independently. [S46]
 
-Zhang and Wen's September 2026 *Journal of Geophysical Research: Solid Earth* paper argues that localized, episodic inner-core surface changes can explain a set of seismic observations without differential rotation. This is a published competing interpretation and keeps the inner-core differential-rotation question open. Report the tension directly: the geodynamo mechanism is strongly supported, while specific torque partitions and inner-core kinematic interpretations remain contested. [S47]
+Zhang and Wen's September 2026 *Journal of Geophysical Research: Solid Earth* paper argues that localized, episodic inner-core surface changes can explain a set of seismic observations without differential rotation. This is a published competing interpretation and keeps the inner-core differential-rotation question open. Report the tension directly: the geodynamo mechanism is strongly supported, while specific torque partitions and inner-core kinematic interpretations remain contested. [S53]
 
 ### Gaia and Earth-system science
 
-Lenton and Dutreuil's 2026 *Tellus* analysis argues that Gaia and Earth-system science are distinct frameworks with different questions and practices. This supports the report's distinction between measured Earth-system processes and the attributed interpretation “life as Earth's soul.” The metaphor may organize ethical or spiritual meaning; it must not be used as evidence for a planetary mind, intention, or literal biological heart. [S48]
+Lenton and Dutreuil's 2026 *Tellus* analysis argues that Gaia and Earth-system science are distinct frameworks with different questions and practices. This supports the report's distinction between measured Earth-system processes and the attributed interpretation “life as Earth's soul.” The metaphor may organize ethical or spiritual meaning; it must not be used as evidence for a planetary mind, intention, or literal biological heart. [S47]
 
 ### Simulation 1 — Geodynamo/length-of-day toy model (design only)
 
@@ -204,7 +204,7 @@ The proposed angular-momentum balance is a useful starting point, but it is not 
 
 - **S45:** Aubert, J. (2026). “Geodynamo simulations spanning millennia in the physical conditions of Earth's core.” *Journal of Studies of Earth's Deep Interior*, 2, article 3. https://doi.org/10.46298/jsedi.17790 .
 - **S46:** Zhang, H., & Dumberry, M. (2026). “Gravitational torque drives multidecadal variations in length of day.” *Nature*, 658, 119–124. https://doi.org/10.1038/s41586-026-10999-2 .
-- **S47:** Zhang, X., & Wen, L. (2026). “Episodic Change, Quiescence, and Recovery of Earth's Inner Core Surface.” *Journal of Geophysical Research: Solid Earth*, 131, e2026JB034595. https://doi.org/10.1029/2026JB034595 .
-- **S48:** Lenton, T. M., & Dutreuil, S. (2026). “Disentangling Gaia and the Earth System.” *Tellus*, 79(1), 160–172. https://doi.org/10.16993/tellus.4132 .
+- **S53:** Zhang, X., & Wen, L. (2026). “Episodic Change, Quiescence, and Recovery of Earth's Inner Core Surface.” *Journal of Geophysical Research: Solid Earth*, 131, e2026JB034595. https://doi.org/10.1029/2026JB034595 .
+- **S47:** Lenton, T. M., & Dutreuil, S. (2026). “Disentangling Gaia and the Earth System.” *Tellus*, 79(1), 160–172. https://doi.org/10.16993/tellus.4132 .
 
 **Updated status:** strong model-supported geodynamo mechanism; inner-core rotation and torque partition remain contested; planetary metaphors remain interpretive. No geophysical simulation was executed in this revision.
