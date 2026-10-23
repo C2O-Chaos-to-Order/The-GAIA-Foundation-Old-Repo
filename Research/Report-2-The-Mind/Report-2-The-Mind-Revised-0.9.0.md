@@ -128,3 +128,24 @@ Distinguish physical quantum entanglement, quantum-like formalism, empirical non
 v8.0.0 distinguishes self-reference, metacognition, recurrence, agency, and phenomenal sentience. Quantum-like models of cognition or affect do not by themselves demonstrate physical quantum processing or subjective experience. Any CHSH claim requires a defined protocol, data, uncertainty, assumptions, classical alternatives, and replication; 2√2 is the standard theoretical maximum, not an observed result for this architecture.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+---
+
+## Source-Audit Addendum — Cognitive Models and Inference (2026-10-23)
+
+### Findings and corrections
+
+1. **Predictive processing, active inference, reinforcement learning, and Hebbian plasticity are not synonyms.** Predictive-processing accounts emphasize prediction and error minimization; active-inference formulations add a particular account of action and preferred outcomes; reinforcement learning studies value-guided policy updating; Hebbian rules describe activity-dependent changes in connections. A combined architecture must identify which formal mechanism generates each prediction rather than using the labels interchangeably.
+
+2. **Distinguish model demonstration from human evidence.** The report's interoceptive-prioritisation gridworld results are evidence about the specified simulated agent, assumptions, reward structure, and layout distribution. They do not establish that the same intervention improves human survival, cognition, or health. Generalization requires preregistered human or animal tests and comparison against simpler baselines.
+
+3. **Metacognition is not equivalent to consciousness.** Confidence judgments, error monitoring, self-models, reportability, and subjective experience overlap but are separable constructs. Measures should state whether they test behavioral calibration, access to information, or phenomenal experience.
+
+4. **Causal alternatives matter.** Correlation among body state, neural activity, and behavior may reflect feedback, common inputs, learning history, or measurement artefacts. Causal claims require interventions, temporal predictions, controls, and robustness checks.
+
+### Source anchors
+
+- Seth & Bayne, “Theories of consciousness,” *Nature Reviews Neuroscience* 23 (2022), https://www.nature.com/articles/s41583-022-00587-4. This review emphasizes that prominent theories differ in their commitments and that empirical discriminability is a central requirement.
+- Libretti & Puckett, *Physiology, Homeostasis* (StatPearls/NCBI Bookshelf), https://pubmed.ncbi.nlm.nih.gov/32644564/, for dynamic regulation as a physiological baseline.
+
+**Evidence status:** general distinctions are supported by established research practice; this addendum does not independently validate the report's custom agent model. Formal replication, ablation studies, sensitivity analysis, and human generalization remain pending. No new simulation was run.
