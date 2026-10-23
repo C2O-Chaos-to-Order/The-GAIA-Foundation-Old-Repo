@@ -2,7 +2,7 @@
 **Revision:** 0.1.0  
 **Opened:** 2026-10-23  
 **Scope:** All canonical numbered reports, the Unified Framework, Transformative Intelligence architecture revisions, and existing validation artifacts in this repository.  
-**State:** OPEN — audit and remediation in progress  
+**State:** OPEN — audit and remediation in progress; report intake reopened by user direction on 2026-10-23, with validation clearance still pending  
 **Rule:** Do not treat this register, a source search, a file fetch-back, or a conceptual integration as completion of scientific validation.
 
 ## Purpose
@@ -233,3 +233,16 @@ The [Independent Specialist Review Package](INDEPENDENT-SPECIALIST-REVIEW-PACKAG
 | TI v6.0.0 provenance | **Not located; open** | No matching file in current directory, branch search, file search, or commit search; no contents inferred |
 | Specialist review readiness | **Package prepared; external review pending** | Domain-specific questions and review template are ready; no outside reviewer has responded |
 | Global completion gate / intake | **OPEN / intake CLOSED** | The above documentation and limited rerun do not clear claim-level audit, full simulation, archive, provenance, or independent review gates |
+
+## Intake disposition update — 2026-10-23
+
+**User direction:** Resume intake so the next reports can be received and reconciled. This update supersedes earlier statements in this document that intake must remain paused/closed; those statements remain valid as the audit's historical decision at the time they were written, but no longer govern whether new material may be submitted.
+
+**Current operational decision:**
+- **Report intake: OPEN** for receiving, preserving, cataloging, and provenance-tracking user-supplied reports.
+- **Integration: CONDITIONAL.** New material may be mapped against the foundational seven and Transformative Intelligence lineage, with dependencies, contradictions, unsupported claims, and open questions recorded. Do not silently merge claims into canonical reports or overwrite earlier versions.
+- **Validation/release gate: OPEN / INDETERMINATE.** Reopening intake is not a claim that Reports 1–7 are fully validated, that Report 18 provenance is resolved, that the 84 + 84 historical cycle counts are verified, or that the twelve Report 7 full simulation designs were executed.
+- **Evidence handling:** preserve the submitted wording and source identity; label any edited/consolidated draft as such; separate design, smoke test, execution, reproduction, independent review, and approval.
+- **No destructive or external action:** this intake decision does not authorize deleting/moving files, merging pull requests, changing visibility, deployments, or implementation.
+
+**Next intake checkpoint:** For each incoming report, record its exact supplied title and version, source/provenance, relation to the seven foundational reports and TI lineage, material claims and evidence class, dependencies/contradictions, and required research or simulation work. Continue to accept further reports without falsely declaring the corpus complete.
