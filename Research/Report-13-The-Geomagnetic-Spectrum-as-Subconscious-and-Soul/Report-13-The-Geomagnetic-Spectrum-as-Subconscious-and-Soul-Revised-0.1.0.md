@@ -154,3 +154,14 @@ Reject the following in future revisions:
 - **Not completed:** exhaustive audit of every cited work and every claim; verification of the exact Swinburne quotation and S06 wording; a full systematic review; analysis of real geomagnetic time series; independent specialist review.
 - **No simulation claimed:** no observational geomagnetic data were downloaded or analyzed, and no numerical spectral result was produced in this pass.
 - **Completion criterion:** any future quantitative spectral claim must provide data source and version, geomagnetic component, station/satellite, time interval, cadence, quality control, preprocessing, spectral estimator, uncertainty, stationarity assessment, and an independent comparison. Metaphorical claims must remain explicitly separate from physical findings.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+A 2024 *Nature Communications* study, “Magnetosensitivity of tightly bound radical pairs in cryptochrome is enabled by the quantum Zeno effect,” DOI https://doi.org/10.1038/s41467-024-55124-x, reports a theoretical/chemical result that a specific tightly bound FAD–superoxide radical pair in cryptochrome can respond to Earth-strength magnetic fields under a strongly asymmetric recombination scenario. This is relevant to candidate magnetosensory mechanisms, but it is not by itself proof of a complete, functioning human magnetic sense or of a geomagnetic influence on human subconscious processes.
+
+The USGS institutional overview of the geodynamo (https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism) supports the physical account of the geomagnetic field while emphasizing unresolved aspects of dynamo theory.
+
+**Correction boundary:** field, field variability, spectrum estimated from a selected time series, inferred core dynamics, and human magnetoreception are separate variables/claims. The report’s “soul” and “subconscious” slots remain symbolic analogies. Quantum mechanisms proposed at molecular scale cannot be generalized to planet-scale quantum entanglement without a separate physical model and evidence.
+
+**Status:** targeted source check added; exact support for every inherited citation and any human-magnetoreception claim remains to be audited. No field data or spectral computation was performed. Specialist review pending.
