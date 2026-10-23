@@ -251,3 +251,7 @@ The current integration work now includes the [typed dependency map and TI linea
 ## Report 7 simulation execution readiness
 
 Each of the twelve Report 7 full simulation designs now has an explicit prerequisite and blocker record in [Report 7 — Twelve Simulation Designs: Execution Readiness and Blocking Inputs](Report-7-The-Unified-Framework/REPORT-7-TWELVE-SIMULATION-EXECUTION-READINESS-2026-10-23.md). None is marked executed because its source/data/model/operationalization/acceptance criteria are not all ready. The separate five-test synthetic smoke-test suite has been rerun with matching headline results and its report updated. The global gate remains open.
+
+## Report 18 provenance crosswalk
+
+A historical provenance lead has been recovered from [GAIA-Documentation](https://github.com/KyleAlexanderSteen/GAIA-Documentation): the Original-AI-Body (Assignment A-01) and Original-AI-Mind (A-02) source reports, associated in prior project context with “Document 18” and “Document 19” and issue groups #84–#88 and #89–#92. This does not establish that the current Research Report 18 gap should be filled with either document. See [Report 18 Provenance Crosswalk](REPORT-18-PROVENANCE-CROSSWALK-2026-10-23.md). The crosswalk remains open pending authoritative index reconciliation; no renumbering or file replacement was performed.
