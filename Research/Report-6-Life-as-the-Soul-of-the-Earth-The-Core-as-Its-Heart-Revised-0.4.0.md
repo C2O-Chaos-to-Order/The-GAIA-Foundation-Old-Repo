@@ -1,5 +1,5 @@
 # Report 6 — Life as the Soul of the Earth; the Core as Its Heart
-## Revised Version 0.3.0 — Research and Source-Verification Update
+## Revised Version 0.4.0 — Research and Source-Verification Update
 
 **Framework:** Seven-Report Foundational Framework / Consciousness Framework  
 **Revision date:** 2026-10-23  
