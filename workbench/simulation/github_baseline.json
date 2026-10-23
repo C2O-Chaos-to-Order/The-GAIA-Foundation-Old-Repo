@@ -1,0 +1,24 @@
+{
+  "owner": "KyleAlexanderSteen",
+  "repository": "The-GAIA-Foundation",
+  "commit": "eb44265efc9145ca9f0de49be21d9d8fc760ad92",
+  "path": "Research/GAIA-PRELIM-2026-10-23-v0.1.0",
+  "inspection": "Pinned directory listing, not a full repository content audit",
+  "entries": [
+    {"name": "BUILD_RECORD.md", "bytes": 470, "type": "file"},
+    {"name": "GAIA_Archive_Integrity.txt", "bytes": 353, "type": "file"},
+    {"name": "MANIFEST.sha256", "bytes": 4222, "type": "file"},
+    {"name": "PACKAGE_INDEX.md", "bytes": 1514, "type": "file"},
+    {"name": "README.md", "bytes": 1333, "type": "file"},
+    {"name": "RELEASE_CHECK.json", "bytes": 579, "type": "file"},
+    {"name": "SOURCE_INVENTORY.md", "bytes": 5542, "type": "file"},
+    {"name": "foundational_principles.json", "bytes": 463, "type": "file"},
+    {"name": "higher_order_transformation.md", "bytes": 3081, "type": "file"},
+    {"name": "requirements_traceability.csv", "bytes": 1915, "type": "file"},
+    {"name": "virtue_inventory_40.csv", "bytes": 3500, "type": "file"}
+  ],
+  "subdirectories_returned": 0,
+  "original_release_status": "INCOMPLETE_AT_INSPECTED_PATH",
+  "original_zip_attached_this_turn": false,
+  "github_writes_performed": false
+}
