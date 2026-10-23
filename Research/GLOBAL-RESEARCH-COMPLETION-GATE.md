@@ -216,3 +216,20 @@ The [Foundational Seven Citation Inventory and Claim-Traceability Worklist](FOUN
 ## Independent specialist review package prepared
 
 The [Independent Specialist Review Package](INDEPENDENT-SPECIALIST-REVIEW-PACKAGE-2026-10-23.md) now contains domain-specific review questions, known limitations, source anchors, and a reviewer findings template. This clears the documentation-preparation task only; external specialist review remains pending and must not be represented as completed.
+
+## Current completion matrix after reconciliation pass — 2026-10-23
+
+| Workstream | Status | Evidence / next gate |
+|---|---|---|
+| Canonical Reports 1–7 identity and blob inventory | **Pass — inventory only** | Seven current Revised 0.9.0 files and paths checked; this does not certify every claim |
+| Cross-report alignment baseline | **Documented** | Alignment and Unification Register linked from index, reconciliation matrix, gate, source register, and TI lineage audit |
+| Citation inventory | **Extracted** | 62 report-local URL entries / 36 unique URL strings; exact claim support and source quality still require review |
+| Principal claim/technical audit | **Partial; open** | Targeted audit covers high-impact claims and boundaries; not exhaustive sentence-by-sentence certification |
+| Five synthetic smoke tests | **Bounded logic-level rerun completed** | Headline results match report under Python 3.13.5 / NumPy 2.3.5 / SciPy 1.17.0; not external independent reproduction |
+| Twelve Report 7 full simulations | **Not cleared; design-only** | Each design has an individual blocker/prerequisite matrix; no full study is represented as executed |
+| Historical 3/6/9/12-cycle package claims and 84+84 counts | **Unverified** | Exact named ZIPs not found in current conversation attachments or accessible Library ZIP inventory; original manifests/logs unavailable |
+| Typed cross-report/TI dependency map | **Initial graph documented; validation open** | Core R1–R7 interfaces and TI v3/v4/v5/v7/v8 lineage mapped; Reports 8–19 have title-level hypotheses pending content audit |
+| Report 18 provenance | **Lead recovered; numbering crosswalk open** | Original-AI-Body/A-01 and Original-AI-Mind/A-02 found in GAIA-Documentation; equivalence to current R18/R19 series not established |
+| TI v6.0.0 provenance | **Not located; open** | No matching file in current directory, branch search, file search, or commit search; no contents inferred |
+| Specialist review readiness | **Package prepared; external review pending** | Domain-specific questions and review template are ready; no outside reviewer has responded |
+| Global completion gate / intake | **OPEN / intake CLOSED** | The above documentation and limited rerun do not clear claim-level audit, full simulation, archive, provenance, or independent review gates |
