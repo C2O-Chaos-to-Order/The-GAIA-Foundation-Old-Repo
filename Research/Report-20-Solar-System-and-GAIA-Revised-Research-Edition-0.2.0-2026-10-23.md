@@ -237,3 +237,8 @@ The revised framework preserves the report's integrative ambition while enforcin
 
 ---
 **Audit integrity note:** This is an improved research draft plus a bounded conceptual simulation. It is not a claim of completed heliophysics modeling, independent review, quantum-entanglement validation, or final approval.
+
+
+## 9. Associated execution record
+
+The executed parameter sweep, tabulated outputs, and bounded test outcomes are recorded separately in [Report 20 — Bounded Simulation Run Record (2026-10-23)](Report-20-Bounded-Simulation-Run-Record-2026-10-23.md). This record is a companion artifact; it does not upgrade the report's research gate or imply independent reproduction.
