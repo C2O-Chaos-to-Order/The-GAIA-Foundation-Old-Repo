@@ -111,3 +111,19 @@ Targeted source-grounding addenda have been appended and fetched back for verifi
 - [Report 11 — The Geomagnetic Field as the Soul of the Earth](Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md): paleomagnetic evidence, geodynamo history, and planetary atmospheric escape sources pinned; simple magnetic-shield narratives qualified.
 
 **Important scope note:** These are targeted research improvements, not completion of the full source audit for any report. Reports 1–7 still require documented claim-by-claim audit where not already evidenced; Reports 8–11 also retain listed source-audit and specialist-review tasks. No new simulations, experiments, or numerical validations are claimed. Implementation remains unauthorized.
+
+---
+
+## Completion-Gate Correction — Targeted Source Addenda
+
+**Updated:** 2026-10-23  
+**Status:** Targeted source-audit addenda appended to the current Revised 0.9.0 files for Reports 1–7 and fetched back from GitHub for presence verification. Earlier targeted addenda remain recorded for Reports 8–11. This supersedes the earlier statement that Reports 1–7 had no documented source-audit addenda, but it does **not** certify that their complete source audits are finished.
+
+### Current completion boundary
+
+- **Documented:** targeted, report-specific source checks and evidence-boundary corrections have been appended to Reports 1–11.
+- **Not yet complete:** exhaustive claim-by-claim citation audit across every report; validation of every source's bibliographic details and direct support; independent disciplinary review; execution of the twelve Report 7 simulation designs; numerical validation; and reproducible replication of model results.
+- **Simulation gate:** Report 7 explicitly marks the twelve simulations as design-only. Do not report any of them as executed or verified until code/model, data and parameter provenance, seeds where applicable, baselines, ablations, sensitivity analyses, outputs, failure logs, and reproduction instructions are recorded.
+- **Research integrity rule:** a targeted addendum, a file fetch-back, or a framework integration is not equivalent to complete research, external peer review, or successful simulation. Implementation remains unauthorized unless separately approved.
+
+**Completion claim:** the repository has improved targeted source documentation for Reports 1–11; the overall research-and-simulation completion gate remains **open**.
