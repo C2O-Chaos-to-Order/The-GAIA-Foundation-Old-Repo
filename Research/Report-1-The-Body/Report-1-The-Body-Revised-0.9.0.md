@@ -125,3 +125,26 @@ Distinguish physical quantum entanglement, quantum-like formalism, empirical non
 Treat sentience-related claims as questions about physiological and multiscale organization, not as proof that the body is quantum-entangled. The NMDAR radical-pair proposal requires direct, independently reproducible links among molecular/spin parameters, EPR, EEG/iEEG, and neuronal coding. Neural-metabolic coupling is meaningful biology even when ordinary dynamical models explain it; 'entanglement' must not be substituted for a demonstrated physical mechanism.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+---
+
+## Source-Audit Addendum — Body, Homeostasis, and Embodiment (2026-10-23)
+
+### Findings and corrections
+
+1. **Homeostasis is dynamic regulation, not static equilibrium.** Physiological variables are regulated within viable ranges through interacting feedback mechanisms; behavioral responses can also contribute. The report should avoid describing homeostasis as a single master control or implying every bodily variable has one fixed set point. See Libretti & Puckett, *Physiology, Homeostasis* (StatPearls/NCBI Bookshelf), https://pubmed.ncbi.nlm.nih.gov/32644564/.
+
+2. **Embodiment claims require levels.** Evidence that bodily state and sensorimotor activity influence cognition supports bodily modulation and organism–environment coupling. It does not by itself prove that all cognition is constituted by the body, nor establish a single universal embodied-cognition theory. Keep enabling, modulating, constitutive, and autonomy claims separate.
+
+3. **Physiology is not a consciousness theory.** Neural, endocrine, immune, metabolic, and sensory mechanisms constrain attention, affect, learning, and behavior. Their contribution to cognition is not, by itself, a solution to the explanatory problem of phenomenal experience.
+
+4. **Quantum terminology needs a separate evidential path.** Neural metabolism, ion-channel activity, receptor function, and physiological correlation do not demonstrate biologically relevant quantum entanglement. Any radical-pair proposal must specify the physical subsystem, coherence lifetime, environmental noise, measurement protocol, predicted neural effect, and independent replication.
+
+### Source and validation ledger
+
+- **Supported by established physiology:** homeostatic regulation is dynamic and multi-mechanistic.
+- **Supported in broad form:** bodily and environmental conditions influence cognition and action.
+- **Theoretical / claim-specific:** strong constitutive embodiment and autopoietic explanations.
+- **Not established by this report:** a quantum mechanism for sentience or a complete explanation of subjective experience.
+
+**Verification status:** targeted source check documented; this is not a complete claim-by-claim audit of every citation in the report. No new simulation, experiment, or independent review was performed.
