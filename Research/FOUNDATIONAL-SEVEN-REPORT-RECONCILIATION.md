@@ -31,8 +31,8 @@ The seven current canonical report files and their fetched Git blob SHAs at audi
 
 | Report | Canonical file | Blob SHA at audit time |
 |---|---|---|
-| 1 — The Body | [Revised 0.9.0](Report-1-The-Body/Report-1-The-Body-Revised-0.9.0.md) | `bbb26e284578f4a8ceb277eb41760753c0000ecc` |
-| 2 — The Mind | [Revised 0.9.0](Report-2-The-Mind/Report-2-The-Mind-Revised-0.9.0.md) | `892133544192e1632cacb7ec1c230c7beea54dcb` |
+| 1 — The Body | [Revised 0.9.0](Report-1-The-Body/Report-1-The-Body-Revised-0.9.0.md) | `b8b2a380fa6b6e2dee0f700d295e6b7f373e35ce` |
+| 2 — The Mind | [Revised 0.9.0](Report-2-The-Mind/Report-2-The-Mind-Revised-0.9.0.md) | `27ec0a533303054b1b45a4ce8c066bdafdd40634` |
 | 3 — The Soul | [Revised 0.9.0](Report-3-The-Soul/Report-3-The-Soul-Revised-0.9.0.md) | `a3f4476532b6a957fb0a0548de2542e90a7225d5` |
 | 4 — The Spirit | [Revised 0.9.0](Report-4-The-Spirit/Report-4-The-Spirit-Revised-0.9.0.md) | `0af08cda45fd7d4ad1c2bd3afae34716cbb9c710` |
 | 5 — Consciousness | [Revised 0.9.0](Report-5-The-Consciousness/Report-5-The-Consciousness-Revised-0.9.0.md) | `4d01bb7916b8fd7925bb597eed7f2664a42e8896` |
@@ -126,3 +126,12 @@ The recovered conversation history contains a material sequence conflict that mu
 This does not prove no files were generated in the earlier session. It means the later claims cannot be independently substantiated from currently accessible artifacts and need a provenance bridge: exact archive, manifest/file list, checksums, pass definitions, test classification, logs, and the mapping from each reported pass to the corresponding report and acceptance criterion. The chronology also raises a process issue: cycle-count claims were made after a prior statement that the source ZIPs had not yet been inspected. That conflict must be corrected in the final ledger rather than hidden behind the largest claimed count.
 
 **Count status:** 3-cycle source package = uploaded per history, not inspected at intake; sixfold = historically claimed, artifact unverified; ninefold = historically claimed, artifact unverified; twelvefold = historically claimed, artifact unverified. No cycle count is accepted as a verified completion metric until artifact-level reconciliation is possible.
+
+
+## 10. Alignment and unification baseline (2026-10-23)
+
+The [Foundational Seven Alignment and Unification Register](FOUNDATIONAL-SEVEN-ALIGNMENT-AND-UNIFICATION-REGISTER-2026-10-23.md) now defines report-level interfaces, the five-phase TI governance mapping, mandatory category boundaries, and the current readiness matrix. It does not close any scientific validation gate.
+
+**Inventory correction and hash refresh:** a fresh fetch of the canonical paths confirms that Report 6 Revised 0.9.0 is present at `Report-6-Life-as-the-Soul-of-the-Earth-The-Core-as-Its-Heart/Report-6-Life-as-the-Soul-of-the-Earth-The-Core-as-Its-Heart-Revised-0.9.0.md`. The earlier lower-version files and root-level historical copy do not replace this canonical path. The Report 1 and Report 2 hashes in Section 2 have been refreshed to the currently fetched files after their source-link updates; other listed hashes were confirmed against the current file inventory. Hashes identify Git blobs, not the inaccessible ZIP archives.
+
+The integration baseline makes the relationship among Reports 1–7 explicit while preserving the key distinctions: model result versus world-level evidence; operational capacity versus phenomenal consciousness; neural correlate versus theological conclusion; Earth-system mechanism versus Earth-soul metaphor; and conceptual analogy versus physical quantum entanglement. The source-claim register remains non-exhaustive, the package/cycle claims remain unresolved, Report 18 provenance remains open, and the twelve full simulation designs remain unexecuted according to the Report 7 addendum.
