@@ -103,3 +103,19 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** represent theory comparison as a higher-order structure connecting theoretical cores, imported assumptions, predictions, measures, instruments, and observations.
+
+- **Import–core distinction:** encode each theory's central commitments separately from auxiliary assumptions and measurement choices. A study's failure to discriminate under a specified operationalization should be labeled “non-discriminating under that operationalization,” not generalized into a permanent verdict on the theories.
+- **Adversarial falsification:** every challenge names the targeted hyperedge, the predicted discriminating observation, the predeclared success/failure rule, and the judge's basis. Debate convergence is not truth.
+- **Cross-domain evaluation:** compare IIT, GNWT, DOM, and Predictive Processing using theory-specific predictions and justified measures. Report uncertainty, dependence among evidence sources, and where dimensions are incommensurable.
+- **Framework-level adaptation:** if the measurement framework changes, preserve the original preregistered comparison and explain how the new framework changes the inference.
+- **Meta-wisdom invariant:** keep measures and evaluation rules auditable; do not allow a centrality score or aggregate coherence to erase failed predictions.
+- **Source status:** any claim about COGITATE, HAD, Transcendence, or other named 2026 anchors requires primary-source claim-level verification before being treated as established.
+
+**Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical/spectral validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
