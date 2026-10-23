@@ -101,3 +101,16 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 Map physiological claims into the governed hypergraph with typed evidence and clear boundaries between established anatomy/physiology, active scientific hypotheses, interpretation, and metaphor. For each claim, preserve source provenance, scope, uncertainty, and counterevidence. Relevant invariant checks include evidence/provenance integrity, compositional governance, bounded modification, second-order observability, and exogenous anchoring.
 
 The body report must not let a cross-domain analogy stand in for a physiological mechanism. Any future model of homeostasis, nervous systems, senses, or environment must state its variables, assumptions, measurement limits, and validation conditions. Failed or indeterminate checks block the affected transition. This integration is specified, not a claim of new experiments, simulations, formal proof, or implementation.
+
+
+---
+
+## Addendum — v7.0.0 Quantum Entanglement Upgrade: The Body
+
+**Change type:** Cross-report research integration; **risk:** high epistemic risk if quantum terminology is conflated with physical evidence; **execution:** no code or simulation executed; **implementation:** not authorized.
+
+Treat bodily systems as coupled, multiscale physiological processes. Cross-system dependence and feedback are meaningful without being quantum entanglement. Any physical-quantum claim requires a defined substrate, observable, state model, and independent evidence; quantum-like mathematical notation alone does not establish a quantum mechanism. Preserve distinctions among established physiology, hypothesis, and metaphor.
+
+Distinguish physical quantum entanglement, quantum-like formalism, empirical non-quantum coupling, philosophical interpretation, normative commitment, theology, and metaphor. Do not infer physical entanglement from relational language or correlation alone. Preserve provenance, uncertainty, counterevidence, and domain-specific definitions. Full specification: [v7.0.0](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md).
+
+**Readiness:** documentation integration only; source audit, formal validation, simulation, empirical replication, and independent review remain pending. Prior content preserved.
