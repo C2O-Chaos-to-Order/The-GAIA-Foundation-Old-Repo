@@ -129,3 +129,10 @@ Physical quantum entanglement, quantum-like mathematical formalisms, ordinary sy
 v8.0.0 frames Soul as the interpretive self-relational pole: identity and continuity through embodiment, memory, self-modeling, narrative, values, and relations. 'Self-entanglement' is an analogy or candidate formal hypothesis unless a physical state, subsystem, observables, and entanglement witness are defined. This framing does not establish a quantum substrate or settle metaphysical questions.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+
+---
+
+## Report 9 Integration — Soul as the Inward Pole
+
+Report 9 frames Soul as the inward-facing organization of identity, memory, meaning, and character, in reciprocal relation with outward-facing world-relation. This is a functional and interpretive model, not a proof that Soul is or is not a separate metaphysical substance. Preserve traditions that disagree with the model. The report explicitly distinguishes analogy from empirical claims and rejects treating “self-entanglement” as a demonstrated quantum mechanism. See [Report 9 — The Connection of Spirit and Soul](../Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md).
