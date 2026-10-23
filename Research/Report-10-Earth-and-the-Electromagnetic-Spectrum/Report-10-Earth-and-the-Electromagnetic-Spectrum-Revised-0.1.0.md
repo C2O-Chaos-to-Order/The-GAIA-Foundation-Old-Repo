@@ -185,3 +185,14 @@ The “Spirit” and “Subconscious” labels remain declared structural metaph
 - Recheck all numerical values against dated datasets before describing them as current.
 
 **Status:** Targeted source improvements added; complete bibliography audit, specialist review, and simulation/experiment remain pending.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+NASA’s “Climate and Earth’s Energy Budget” explains the planetary radiative budget as incoming solar energy and outgoing energy, with Earth emitting primarily thermal infrared radiation. It gives approximate flux fractions and explicitly notes that estimates have uncertainty and can differ as measurements and models improve: https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/.
+
+NASA’s Technical Reports Server record “Observation of Schumann Resonances in the Earth’s Ionosphere” describes Schumann resonances as electromagnetic modes of the surface–ionosphere cavity excited by broadband sources such as lightning, and reports satellite observations of resonance signatures above the cavity: https://ntrs.nasa.gov/citations/20120000051.
+
+**Correction boundary:** the electromagnetic spectrum is physical radiation across frequency/wavelength ranges; geomagnetic-field variation is a different physical quantity and must not be called an electromagnetic “spectrum” without specifying the measured variable and analysis. The project’s “Spirit” mapping is symbolic, not a physical property of radiation. Energy-budget percentages should always be tied to a dated source/version and not presented as exact constants.
+
+**Status:** targeted institutional source check completed; exhaustive numerical/source audit and specialist review remain pending. No new energy-budget or spectral calculation was performed.
