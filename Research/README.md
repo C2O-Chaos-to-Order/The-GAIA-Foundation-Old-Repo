@@ -115,6 +115,12 @@ Supplied by the user on 2026-10-23. Distinguishes cosmic electromagnetic radiati
 
 Supplied by the user on 2026-10-23. Uses the classical elements as a proposed cross-cutting symbolic grammar for differentiation, change, conditioning, propagation, and continuity. It distinguishes Greek, Indian, Chinese, Buddhist, and alchemical traditions rather than treating them as one universal doctrine; it marks the GAIA slot mapping as analogy, not identity; and it rejects unsupported physical or quantum-entanglement readings. Selected sources checked include the Stanford Encyclopedia of Philosophy entries on Empedocles and Aristotle, Plato's *Timaeus*, a scholarly repository article on pañca-mahābhūta, and a secondary Buddhist reference. Full primary-text audit and specialist review remain pending; no simulation or numerical validation was performed.
 
+## Report 16 — The Periodic Table of Elements as Modern Alchemy
+
+[Report 16 — The Periodic Table of Elements as Modern Alchemy, Revised 0.1.0](Report-16-The-Periodic-Table-of-Elements-as-Modern-Alchemy/Report-16-The-Periodic-Table-of-Elements-as-Modern-Alchemy-Revised-0.1.0.md)
+
+Supplied by the user on 2026-10-23. Treats the periodic table as an empirical grammar of matter and “modern alchemy” as either nuclear transmutation (literal, physical) or a separate symbolic/philosophical interpretation. Targeted checks covered OpenStax and IUPAC chemistry references, the Scerri–Pizzochero structural-realism preprint, the 2026 element-definition debate, a hosted archetypal-isomorphism paper, and October 2026 reporting of a Marathon Fusion claim. The archetypal mapping remains speculative; the Marathon claim remains company-reported and independently unverified in this pass. The mercury isotope pathway and “ten times CERN” comparison need primary technical evidence. Full source audit and specialist review remain pending; no simulation or numerical validation was performed.
+
 ## Source Research Addenda — 2026-10-23
 
 Targeted source-grounding addenda have been appended and fetched back for verification in the following reports:
