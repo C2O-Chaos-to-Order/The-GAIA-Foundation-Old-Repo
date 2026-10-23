@@ -194,3 +194,14 @@ The 2026 study “Material composition trends in printed circuit boards of mobil
 **Correction boundary:** chemical reactions rearrange electron configurations and bonds; changing one element into another requires changing the atomic nucleus. The verified CERN result must not be used to validate the separate Marathon Fusion mercury-isotope pathway or any “ten times CERN” comparison. Those claims still require their own primary technical evidence and independent validation.
 
 **Status:** CERN institutional report checked; direct paper/data and quantitative comparison audit remain pending. No isotope-yield calculation or simulation was performed.
+
+
+## Follow-up source audit — Marathon Fusion claim and element definition (2026-10-23)
+
+The current claim is traceable to Marathon Fusion’s public post dated 21 October 2026, and contemporaneous coverage reports that the company says it produced stable gold from mercury using fusion neutrons. The reviewed reports state that the company has not disclosed a gold yield, purity, complete experimental methods, or an independently verified dataset. They also report that its “10× CERN” comparison does not define whether it compares peak production rate, total output, or a comparable measurement window. See the 22 October report from TokenPost (https://www.tokenpost.com/news/technology/38276) and the 23 October AP-syndicated reporting in Euronews (https://www.euronews.com/2026/10/23/could-lab-made-gold-crash-prices-diamonds-us-start-up-says-it-turned-mercury-into-gol).
+
+CERN’s own 8 May 2025 report confirms that ALICE measured lead-to-gold nuclear transmutation in near-miss lead-nucleus encounters at the LHC: https://home.cern/alice-detects-conversion-lead-gold-lhc/. That established result does not independently validate Marathon’s distinct neutron-irradiation claim. The IUPAC Gold Book defines a chemical element by the number of protons in the atomic nucleus (https://goldbook.iupac.org/terms/view/C01022.html), which supports the distinction between chemical reactions and nuclear transmutation.
+
+**Current evidential status:** CERN/ALICE transmutation is an experimentally reported, peer-reviewed result; Marathon’s October 2026 result remains a company-reported claim without publicly located independent verification in this pass. Do not present the “10×” comparison as established, and do not infer commercial viability from a claimed isotope signature without yield, purity, recovery, uncertainty, and independent replication.
+
+**Remaining:** obtain the company’s primary experimental protocol/data, verify isotope pathways and gamma-spectrum assignments with nuclear-data references, assess independent expert replication, and normalize the CERN/Marathon comparison metric. No independent experiment or yield calculation was performed.
