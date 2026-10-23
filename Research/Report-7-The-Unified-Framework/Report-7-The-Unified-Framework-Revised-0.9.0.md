@@ -124,3 +124,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Research gate:** verify named literature from primary sources, define a formal state-transition model, design adversarial counterexamples, and independently review before any simulation or implementation is authorized.
 
 **Evidence status:** conceptual integration only. Source verification remains partial; independent disciplinary review, simulation execution, and numerical validation are pending; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: The Unified Framework
+
+Integrate the seven reports through a governed hypergraph while preserving each report’s domain-specific evidence, assumptions, uncertainty, and disagreements. The five phases—Divergence, Insurgence, Allegiance, Convergence, Ascendence—remain recursive roles. Meta-wisdom remains the thirteenth element, responsible for inspecting invariant interactions rather than acting as an unaccountable sixth phase.
+
+The five proposed WEP evaluation dimensions must be mapped separately to the project’s eight domains. No domain may silently dominate synthesis; no aggregate score should be invented where measures are undefined. Formal stability, alignment preservation, non-corruptibility, and compositional modularity remain goals until bounded assumptions and proof/test obligations are specified. This addendum is a documented design integration, not formal verification, completed simulation, implementation, or deployment authorization.
