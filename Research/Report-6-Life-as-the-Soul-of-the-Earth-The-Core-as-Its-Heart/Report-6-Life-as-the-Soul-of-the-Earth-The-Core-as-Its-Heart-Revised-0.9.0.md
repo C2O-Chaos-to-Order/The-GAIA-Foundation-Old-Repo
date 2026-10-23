@@ -142,3 +142,17 @@ The v7.0.0 relational architecture proposal is available [here](../Transformativ
 v8.0.0 permits Earth-system coupling as a cross-scale comparison, but biosphere-climate feedback is not automatically quantum entanglement or planetary sentience. Keep geophysical evidence separate from the spiritual metaphor of Earth as soul and core as heart. Any cross-domain convergence needs explicit variables, mechanisms, scales, and a defensible translation argument.
 
 **Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
+
+
+---
+
+## Report 10 Integration — Earth’s Electromagnetic Coupling
+
+Report 10 adds a physically grounded account of Earth’s radiative energy exchange, atmospheric spectral filtering, and coupled ionosphere–magnetosphere environment. Integrate these mechanisms without treating them as evidence that Earth has human-like consciousness or a literal spiritual body.
+
+- Distinguish solar radiative input, outgoing terrestrial infrared, atmospheric absorption, the ionosphere, magnetosphere, and biospheric responses.
+- Treat Schumann resonances, field-aligned currents, geomagnetic storms, and biological magnetoreception as different phenomena with distinct evidence bases.
+- Do not present the supplied historical 2000–2005 energy-imbalance estimate as current; a dated, uncertainty-aware source is required.
+- Keep the “Earth as living system” or “soul of the Earth” language interpretive unless a claim is operationally defined and supported by appropriate evidence.
+
+Source-level validation and specialist review remain pending. See [Report 10 — Earth and the Electromagnetic Spectrum](../Report-10-Earth-and-the-Electromagnetic-Spectrum/Report-10-Earth-and-the-Electromagnetic-Spectrum-Revised-0.1.0.md).
