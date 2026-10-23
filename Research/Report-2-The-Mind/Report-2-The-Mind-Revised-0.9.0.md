@@ -117,3 +117,14 @@ The v7.0.0 proposal allows context-sensitive and relational models of cognition 
 Distinguish physical quantum entanglement, quantum-like formalism, empirical non-quantum coupling, and philosophical interpretation. Full specification: [v7.0.0](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md).
 
 **Readiness:** documentation integration only; source audit, formal validation, simulation, empirical replication, and independent review remain pending. Prior content preserved.
+
+
+---
+
+## v8.0.0 Sentience as Recursive Relationality Addendum: The Mind
+
+**Status:** conceptual/research integration; no code, simulation, or numerical validation performed for this addendum; implementation not authorized.
+
+v8.0.0 distinguishes self-reference, metacognition, recurrence, agency, and phenomenal sentience. Quantum-like models of cognition or affect do not by themselves demonstrate physical quantum processing or subjective experience. Any CHSH claim requires a defined protocol, data, uncertainty, assumptions, classical alternatives, and replication; 2√2 is the standard theoretical maximum, not an observed result for this architecture.
+
+**Cross-report control:** distinguish physical quantum entanglement, quantum-like formalisms, ordinary physiological or systems coupling, operational capacities, and claims about subjective experience. Preserve source provenance, uncertainty, counterevidence, and domain-specific definitions. See [the v8.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md). Prior report content is preserved; full source audit and independent review remain pending.
