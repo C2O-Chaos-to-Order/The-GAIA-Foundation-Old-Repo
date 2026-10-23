@@ -153,3 +153,10 @@ No prior file was deleted. No repository visibility, branch protection, deployme
 - Aubert (2026), *Journal of Studies of Earth's Deep Interior*, https://doi.org/10.46298/jsedi.17790
 - Dumberry (2026), *Journal of Studies of Earth's Deep Interior*, https://doi.org/10.46298/jsedi.17576
 - Rubin et al. (2026), *Scientific Reports*, https://doi.org/10.1038/s41598-026-61878-9
+
+
+## Supplemental rerun and reconciliation update — 2026-10-23
+
+The five synthetic smoke-test functions were re-executed in this audit pass using the fetched repository source logic. Python 3.13.5, NumPy 2.3.5, and SciPy 1.17.0 were used. The headline outcomes matched the existing smoke-test report: all 12 Lorenz integrations succeeded with finite outputs; homeostasis mean absolute deviation 0.201208; RL proxy mean final-window reward 0.758807 (penalty 0.00) versus 0.744848 (penalty 0.15); radiative toy effective temperature 249.905–263.220 K across the specified albedo range; and synthetic-spectrum mean/max peak errors 0.000549/0.001113 Hz. This is a bounded logic-level rerun, not external independent reproduction and not validation of the underlying biological, climate, geophysical, consciousness, or metaphysical claims. The full twelve Report 7 studies remain unexecuted. See [smoke-test record](Validation/Universal-Framework-Synthetic-Simulation-Smoke-Tests-2026-10-23.md).
+
+The typed cross-report/TI dependency scaffold is now documented in [GAIA Research Typed Dependency Map and TI Lineage Reconciliation](GAIA-RESEARCH-TYPED-DEPENDENCY-MAP-AND-TI-LINEAGE-RECONCILIATION-2026-10-23.md). The historical 3/6/9/12-cycle and 84+84 aggregate claims remain unverified because the named original ZIP packages and their manifests/logs were not found in currently accessible locations checked; see [Archive Reconciliation](RESEARCH-AND-SIMULATION-CYCLE-ARCHIVE-RECONCILIATION-2026-10-23.md).
