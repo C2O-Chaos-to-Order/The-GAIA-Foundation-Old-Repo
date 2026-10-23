@@ -145,3 +145,14 @@ This is the eighth report, and it is not a coincidence that it closes the set: *
 - The original S01–S15 list still contains generic source descriptions rather than complete bibliographic entries for several claims. Exact editions, page references, and claim-to-source mapping remain pending.
 
 **Status:** Targeted source improvements added; complete source audit, specialist review, and numerical/simulation work remain pending.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+**Scope:** preserve distinctions among deterministic dynamical chaos, thermodynamic entropy, criticality, and metaphorical “chaos.”
+
+The existing primary-source anchor to Lorenz’s 1963 work should remain the basis for the limited technical meaning of deterministic chaos. The current report already records that neural criticality and “edge-of-chaos” interpretations are contested; this pass preserves that boundary. A system’s sensitivity to initial conditions is not interchangeable with randomness, disorder, high entropy, or a spiritual state. Likewise, a planetary regime shift is not automatically a chaotic transition: the dynamical mechanism and diagnostics must be specified.
+
+**Audit requirement:** for each proposed use of “chaos,” record the state variables, dynamics, time series or model, evidence for sensitivity/attractor structure, null model, and uncertainty. Cultural cosmogonies should be cited to named texts/translations and not collapsed into a universal theory of chaos.
+
+**Status:** conceptual boundary reaffirmed; full source audit, specialist review, and numerical analysis remain pending. No new simulation was performed.
