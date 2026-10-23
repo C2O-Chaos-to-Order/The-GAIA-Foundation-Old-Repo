@@ -175,3 +175,14 @@ v8.0.0 records the 2026 NMDAR radical-pair paper as a testable hypothesis, Quant
 ## Cross-report alignment — Report 14
 
 Report 14, [The Electromagnetic Spectrum as Consciousness and Spirit](../Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md), treats endogenous neural electromagnetic fields as a candidate contributor to binding/integration, not an established identity with subjective experience. It distinguishes field-to-neuron causation from the stronger constitutive claim and preserves the hard problem as unresolved. The 2026 Hunt article is a hypothesis-and-theory paper, not a consensus finding that the binding or criticality problem has been solved.
+
+
+## Targeted source-audit checkpoint — 2026-10-23
+
+**Scope of this pass:** contemporary theory evaluation and the distinction between theory-level proposals and empirical evidence.
+
+Owen & Goodale, “Have grand theories of consciousness earned their keep?”, *Neuron* (available online 6 October 2026; in-press corrected proof), DOI https://doi.org/10.1016/j.neuron.2026.08.020, argues that major advances in consciousness science have been driven by rigorous empirical research and urges reassessment of the scientific value of broad theoretical frameworks. This is a critical perspective, not a consensus verdict that all theories are useless. It supports requiring explicit predictions, measures, and data rather than treating theoretical elegance as confirmation.
+
+**Correction boundary:** distinguish (1) phenomenological reports, (2) behavioral and neural measures, (3) theory-specific predictions, (4) model fit, and (5) metaphysical interpretations. Evidence challenging one formulation of IIT or GNWT does not automatically falsify every version of that theory or establish a competing theory. Likewise, an information measure or computational capacity is not, by itself, a validated measure of phenomenal experience. The report’s proposed “Measure Centrality Index” must be treated as a custom methodological proposal until its construction, reliability, validity, and predictive utility are demonstrated.
+
+**Remaining:** full primary-source audit of the COGITATE collaboration and all theory-specific predictions; verify exact versions of the theories tested; audit the proposed measures and simulation designs; specialist review. No new consciousness experiment or simulation was performed. Status remains OPEN.
