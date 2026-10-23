@@ -104,3 +104,16 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 Map claims about cognition, learning, memory, reasoning, and agency as typed nodes linked to primary evidence, assumptions, competing explanations, and counterevidence. Distinguish empirical cognitive science from normative models, computational metaphors, and speculative claims. Recursive self-evaluation cannot be treated as complete access to the mind or as independent evidence for its own conclusions.
 
 The invariant contract requires scope discipline, provenance, adversarial challenge, and exogenous review. A metric such as the proposed Measure Centrality Index must have a defined construct, formula, data requirements, and validity/sensitivity analysis before numerical results are reported. This addendum records design requirements only; no cognitive simulation, numerical result, proof, or implementation is claimed.
+
+
+---
+
+## Addendum — v7.0.0 Quantum Entanglement Upgrade: The Mind
+
+**Change type:** Cross-report research integration; **risk:** high epistemic risk if quantum terminology is conflated with physical evidence; **execution:** no code or simulation executed; **implementation:** not authorized.
+
+The v7.0.0 proposal allows context-sensitive and relational models of cognition and affect, including quantum-like formalisms where justified. The 2026 cognitive-affective CHSH article describes a proposed empirical design; do not report |S| = 2√2 as observed without completed data and reproducible analysis. A likelihood ratio compares explicit hypotheses and is not an entanglement-strength metric by definition. Compare classical dependence and common-cause alternatives.
+
+Distinguish physical quantum entanglement, quantum-like formalism, empirical non-quantum coupling, and philosophical interpretation. Full specification: [v7.0.0](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md).
+
+**Readiness:** documentation integration only; source audit, formal validation, simulation, empirical replication, and independent review remain pending. Prior content preserved.
