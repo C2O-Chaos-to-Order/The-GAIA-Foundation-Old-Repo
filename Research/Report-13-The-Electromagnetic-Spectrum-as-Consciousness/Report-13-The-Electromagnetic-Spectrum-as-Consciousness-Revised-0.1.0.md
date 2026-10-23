@@ -179,3 +179,31 @@ The source list above includes audit targets, not a completed bibliography. The 
 - **Implementation:** not authorized.
 
 The electromagnetic spectrum is not consciousness. Endogenous neural electromagnetic fields remain a candidate topic in the science of neural integration, and stronger claims about their relation to subjective experience require discriminating evidence. Leaving Earth-consciousness unassigned is not a gap to be filled by analogy; it is an explicit epistemic boundary.
+
+
+## Targeted primary-source audit addendum — 2026-10-23
+
+**Change type:** Source grounding and evidence calibration  
+**Evidence status:** Selected primary sources checked; full claim-by-claim audit and specialist review remain open  
+**Execution status:** No neural-field experiment, numerical model, or consciousness simulation performed
+
+### Sources checked against the claims
+
+1. **CEMI primary theory article:** McFadden, [“Integrating information in the brain’s EM field: the cemi field theory of consciousness,” *Neuroscience of Consciousness* (2020)](https://doi.org/10.1093/nc/niaa016), available via [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC7507405/). The article explicitly presents CEMI as a theory and argues for a causal, integrative role of endogenous brain electromagnetic fields. It is evidence of the proposal and its rationale, not independent proof that the field is identical to subjective experience. Its own framing must be distinguished from independent validation.
+2. **Direct theory comparison:** the COGITATE Consortium, [“Adversarial testing of global neuronal workspace and integrated information theories of consciousness,” *Nature* 642 (2025)](https://www.nature.com/articles/s41586-025-08888-1), reports tests of specified predictions from IIT and GNWT. It does not directly test or settle CEMI, zero-point-field accounts, or the metaphysical identity of consciousness with the cosmic electromagnetic spectrum. It is useful here as a model of adversarial, prediction-level testing rather than as a universal verdict on consciousness.
+3. **Contemporary theory overview:** the 2026 review [“Consciousness in the Brain: An Integrative Review of Contemporary Theories”](https://doi.org/10.3390/brainsci16070745) surveys multiple theories and states that a comprehensive account of conscious experience has not emerged. As a review, it is secondary literature; individual empirical claims still require their underlying primary sources.
+4. **Physics boundary:** NASA’s [Earth’s Radiation Budget](https://science.nasa.gov/ems/13_radiationbudget/) describes electromagnetic radiation as energy entering, being reflected/absorbed by, and leaving the Earth system. This grounds the distinction between the physical spectrum and a conscious subject; it is not evidence about brain consciousness and is not cited for that purpose.
+
+### Claim-level disposition
+
+- **Established physical claim:** neural activity generates measurable electromagnetic fields; field generation alone does not establish phenomenal experience.
+- **Plausible but scope-limited empirical claim:** endogenous fields can influence neuronal activity under some conditions. The magnitude, generality, and explanatory importance of such effects require mechanism-specific evidence and comparison with synaptic, cellular, and network explanations.
+- **Theory, not settled finding:** CEMI proposes that the brain’s electromagnetic field is causally active and constitutive of consciousness. The 2020 article is the theory’s own exposition, not an independent adjudication.
+- **Unestablished stronger claim:** that the field is identical with subjective experience, that the cosmic electromagnetic spectrum itself is conscious, or that Earth has consciousness because it has electromagnetic phenomena.
+- **Unverified/unfinished source items:** the report’s supplied ZPF, “Functional Consciousness,” “Unified Coherence Field Theory,” and biophoton-cognition references still require exact record, author/version, methods, and claim-level checks. The present source pass does not validate those sources or their stronger conclusions.
+
+### Minimum discriminating test for a field-constitutive account
+
+A defensible study must preregister a prediction that differs from a specified conventional neural-network account; quantify the endogenous field and the intervention; control for direct cellular, synaptic, thermal, sensory, and stimulation artifacts; use sham and dose-response conditions where applicable; define a conscious-content measure independently of the field measure; and report null results and uncertainty. Evidence that a field modulates neural firing would support causal influence under the tested conditions, but would not alone establish identity with experience or solve the hard problem.
+
+**Disposition:** selected source grounding added; no experiment or simulation executed; the cosmic spectrum is not treated as consciousness; stronger field-identity claims remain unestablished.
