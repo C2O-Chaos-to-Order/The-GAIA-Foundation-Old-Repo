@@ -126,3 +126,37 @@ Meta-wisdom is the discipline of holding the image lightly: use the metaphor to 
 - Reject “geomagnetic field and electromagnetic spectrum are technically quantum-entangled” without a valid physical model and evidence.
 - Reject “a polarity reversal means the dynamo stopped.”
 - Reject presenting a structural metaphor as a scientific finding.
+
+
+## Research and source audit addendum — 2026-10-23
+
+**Change type:** Primary-source grounding and correction of planetary-habitability claims  
+**Evidence status:** Targeted geophysics and planetary-atmosphere sources checked; complete audit and specialist review pending  
+**Execution status:** No geodynamo or atmospheric-escape simulation performed
+
+### Source-level findings
+
+1. **An ancient geodynamo is supported, but its earliest history is debated.** Tarduno et al. reported paleointensity evidence for a geodynamo about 3.4–3.45 billion years ago: “Geodynamo, solar wind, and magnetopause 3.4 to 3.45 billion years ago,” *Science* (2010), DOI: https://doi.org/10.1126/science.1183445; PubMed record: https://pubmed.ncbi.nlm.nih.gov/20203044/. However, the broader review “Dynamos in the Inner Solar System,” *Annual Review of Earth and Planetary Sciences* (2021), notes that evidence for an earlier onset is debated because ancient magnetizations can be altered or reset. Therefore, use “evidence supports a geodynamo by at least about 3.4–3.45 billion years ago,” and do not imply an uncontested precise start date or directly observed uninterrupted field.
+
+2. **A planetary magnetic field is not an unconditional atmospheric shield.** Gronoff et al., “Atmospheric Escape Processes and Planetary Atmospheric Evolution,” *Journal of Geophysical Research: Space Physics* (2020), DOI: https://doi.org/10.1029/2019JA027639, reviews multiple escape mechanisms and their dependence on stellar and planetary conditions. Ramstad & Barabash, “Do Intrinsic Magnetic Fields Protect Planetary Atmospheres from Stellar Winds?” *Space Science Reviews* 217, 36 (2021), DOI: https://doi.org/10.1007/s11214-021-00791-1, concludes that an intrinsic dipole is not required to prevent stellar-wind-driven escape and may increase some ion-escape pathways. This materially qualifies any simple “field present = atmosphere protected; field absent = atmosphere lost” narrative.
+
+3. **Mars is not a one-variable experiment.** NASA’s Mars Global Surveyor magnetic-field results document an extinct global dynamo and strong crustal remanent fields: https://mgs-mager.gsfc.nasa.gov/. The atmospheric evolution comparison must also account for gravity, neutral escape, solar EUV history, atmospheric chemistry, and other processes. Avoid attributing Mars’s atmospheric evolution solely to dynamo cessation.
+
+4. **The structural Soul analogy is interpretive, not an empirical result.** Geophysics supports persistence of a generating system and a dynamic magnetosphere. It does not measure a planetary soul, consciousness, intention, or metaphysical identity. Likewise, the pairing with the electromagnetic spectrum is not technical quantum entanglement without a formal quantum model and evidence.
+
+### Source anchors checked
+
+- Tarduno, J. A. et al. (2010). “Geodynamo, solar wind, and magnetopause 3.4 to 3.45 billion years ago.” *Science*. DOI: https://doi.org/10.1126/science.1183445.
+- “Dynamos in the Inner Solar System.” *Annual Review of Earth and Planetary Sciences* (2021). DOI: https://doi.org/10.1146/annurev-earth-032320-102418.
+- Gronoff, G. et al. (2020). “Atmospheric Escape Processes and Planetary Atmospheric Evolution.” *Journal of Geophysical Research: Space Physics*. DOI: https://doi.org/10.1029/2019JA027639.
+- Ramstad, R., & Barabash, S. (2021). “Do Intrinsic Magnetic Fields Protect Planetary Atmospheres from Stellar Winds?” *Space Science Reviews*, 217, 36. DOI: https://doi.org/10.1007/s11214-021-00791-1.
+- NASA Mars Global Surveyor Magnetic Field Investigation. https://mgs-mager.gsfc.nasa.gov/.
+
+### Remaining source work
+
+- Audit each paleomagnetic claim against the original study and its uncertainty, including whether the measured remanence is primary or overprinted.
+- Add full bibliographic details and claim-level citations for core convection, reversal frequency, radiation environments, and magnetospheric processes.
+- Keep atmospheric protection claims conditional and mechanism-specific; do not state that the field alone is the condition of habitability.
+- No new simulation or independent geophysics review is claimed.
+
+**Status:** Targeted source improvements added; full source audit and specialist review pending.
