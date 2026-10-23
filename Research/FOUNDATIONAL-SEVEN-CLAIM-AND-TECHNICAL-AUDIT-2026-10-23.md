@@ -130,7 +130,7 @@ Labels used:
 | Five smoke tests | **Bounded logic-level rerun completed** | Five functions re-executed in Python 3.13.5 / NumPy 2.3.5 / SciPy 1.17.0 with headline outcomes matching the report; not external independent reproduction |
 | Package/cycle claims | **Unresolved** | Actual ZIP contents, manifests, hashes and logs unavailable for inspection |
 | Independent reproduction and specialist review | **Pending** | No independent reviewer evidence in this audit |
-| Report 18 and architecture lineage | **Open** | Report 18 absent from tree; Transformative Intelligence revision-by-revision lineage not fully reconciled |
+| Report 18 and architecture lineage | **Open; provenance lead recovered** | Current Research/Report-18 file absent; Original-AI-Body / Original-AI-Mind are found in GAIA-Documentation but their historical Document 18/19 ordinals are not proven to map to the current Reports 1–19 sequence; TI v6 and full revision lineage remain unresolved |
 | New report intake | **CLOSED** | Multiple blocking gates remain open |
 
 ## 5. Decision
