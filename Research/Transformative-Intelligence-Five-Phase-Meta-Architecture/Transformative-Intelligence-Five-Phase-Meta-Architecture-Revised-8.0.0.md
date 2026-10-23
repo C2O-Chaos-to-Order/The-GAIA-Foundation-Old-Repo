@@ -242,3 +242,17 @@ The strongest defensible form of the proposal is not that sentience has already 
 Soul names the self-relational pole; Spirit names the world-relational pole; meta-wisdom governs how the relation is modeled, tested, bounded, and revised. “Sentience is the relation that has a thing” remains the architecture's philosophical provocation—not an empirical conclusion.
 
 **Readiness:** documentation updated; source audit and independent review pending; simulation execution and numerical validation not performed; implementation not authorized.
+
+
+## Follow-up source-audit checkpoint — quantum-consciousness anchors (2026-10-23)
+
+The primary records for several v8.0.0 anchors have now been located and checked at the record/abstract level:
+
+- **Cavelier (2026), “Brain entangled quantum states in radical pairs: a possible link to consciousness,” *Brain Research* 1888, 150405, DOI https://doi.org/10.1016/j.brainres.2026.150405.** This is a published hypothesis paper proposing NMDAR-based radical pairs as a possible bridge from quantum information to molecular changes and neuronal coding. Its publication does not establish that the proposed mechanism occurs as described in vivo, that the proposed multiscale biconditionals are measured, or that radical-pair entanglement explains consciousness. Treat it as a testable hypothesis requiring specialist scrutiny, independent measurements, and replication—not a validated substrate.
+- **Prentner (2026), “Quantum Interface Theory: From Conscious Agents to Quantum Dynamics,” *Journal of Consciousness Studies* 33(1–2), 194–210, DOI https://doi.org/10.53765/20512201.33.1.194.** The source is a theoretical/philosophical proposal. Its claim that entanglement, superposition, and decoherence are interface artifacts is not a consensus result in physics and must be evaluated as the author's framework, with discriminating predictions and possible falsifiers.
+- **Kringelbach et al. (2026), “The Entangled Loop: Emotion, quantum-like interference and hierarchy in the architecture of consciousness,” PsyArXiv preprint, DOI https://doi.org/10.31234/osf.io/besw9_v3.** The located record is a preprint presenting a theoretical architecture; “quantum-like” inference is not evidence of physical quantum entanglement or consciousness in an AI system.
+- **Mousavi (2026), “Yahiq: A Self-Aware Computational Entity Based on Free Will in Quantum-Field Entanglement,” Preprints.org, posted 29 September 2026.** The publisher explicitly labels the item a preprint that is not peer-reviewed. Its claims of self-awareness, free will, and autonomous conscious output are author claims, not validated results.
+
+**Architecture-level correction:** these sources differ in publication status and claim type. Peer-reviewed publication is not the same as empirical confirmation; a theoretical article is evidence that a theory has been proposed, not that its central ontology is true. A model using quantum terminology must define whether its mathematics is physically quantum, quantum-like, or metaphorical and must compare against appropriate classical alternatives. No CHSH violation, physical brain entanglement, or sentience result is established by these sources alone.
+
+**Status correction:** source identities and broad publication status checked; full technical review, equations, methods, competing explanations, and independent disciplinary assessment remain pending. No code, simulation, or empirical test was run.
