@@ -55,7 +55,7 @@ The repository contains reports beyond the foundational seven. The table below r
 | R15 | Classical Elements as Symbolic Grammar | candidate interpretive/symbolic link to R3/R4 | Keep symbolic grammar separate from modern chemistry or causal physics |
 | R16 | Periodic Table of Elements as Modern Alchemy | candidate historical/symbolic link to chemistry and R15 | Verify chemistry and history; distinguish analogy from alchemical continuity |
 | R17 | Human and Technology Similarities of Elements | candidate analogy across human/technology/chemistry domains | Define mapping and evidence; prevent elemental similarity from implying functional or ontological identity |
-| R18 | **No file located in current Research tree; historical crosswalk lead recovered** | A separate GAIA-Documentation sequence has Original-AI-Body (Assignment A-01) and Original-AI-Mind (A-02), historically associated with “Document 18” and “Document 19”; this does not prove either is the current numbered R18 | Compare authoritative indexes and resolve numbering namespaces; see [Report 18 Provenance Crosswalk](REPORT-18-PROVENANCE-CROSSWALK-2026-10-23.md) |
+| R18 | **Candidate user-submitted topic found on a non-main branch; not canonical on `main`** | Draft titled “Humans as the Soul of Terra; Gaia as the Soul and Spirit of the Universe” exists on `research/report-18-humans-soul-of-terra-2026-10-23` (blob SHA `09cf1291ee8ea864a8c8338ea0f3781309a3f629`); it is edited/consolidated and not verified as verbatim. Separate GAIA-Documentation “Document 18/19” labels remain a different numbering namespace unless an authoritative crosswalk proves otherwise | Preserve the branch draft, compare to the original submitted text, and reconcile the two numbering namespaces without renumbering R19; see [Report 18 Provenance Crosswalk](REPORT-18-PROVENANCE-CROSSWALK-2026-10-23.md) |
 | R19 | Terra and GAIA: The Quantum Entanglement | candidate link to R6/R10–R14 and TI v7/v8 | Audit physical entanglement terminology and sources; ordinary coupling and metaphor are not physical entanglement |
 
 **Important:** This wider-corpus table is an inventory and dependency hypothesis, not a certification that Reports 8–19 have been read or source-audited in full. It is intentionally explicit about the difference.
@@ -100,7 +100,7 @@ The following are **governance requirements**, not mathematical or natural laws:
 |---|---|---|
 | Claim-level traceability for R1–R7 | Claim ID, exact report section, source identity/version, evidence passage, limitations, rival explanation, disposition | Partial seed/audit only |
 | R8–R19 content-level dependency map | Read current canonical files; extract actual definitions and claims; validate each proposed edge | Title-level hypotheses only in this map |
-| Report 18 | Author-confirmed crosswalk between current Research sequence and historical GAIA-Documentation document sequence | Historical Original-AI-Body and Original-AI-Mind source records recovered; equivalence to current R18/R19 numbering remains unproven |
+| Report 18 | Compare the user-submitted Report 18 source with the candidate branch draft; author-confirm the intended current-report numbering while keeping the GAIA-Documentation document sequence distinct | Candidate Report 18 draft located on non-main branch; not verbatim-verified or canonical on `main`; historical Original-AI-Body/AI-Mind numbering equivalence remains unproven |
 | TI v6 | Exact historical file or explicit unused-version record | Not located; contents unknown |
 | TI complete revision diff | Retained/modified/removed/new claims with version hashes | Partial lineage narrative only |
 | Archive/cycle evidence | Original ZIP bytes, SHA-256 manifests, file inventory, pass/test IDs, execution logs and outputs | Exact named ZIPs not found in the accessible Library ZIP inventory during this pass; no matching files in current conversation attachments |
@@ -115,4 +115,4 @@ The global gate remains open. New numbered-report intake remains paused. Prior v
 
 ## 8. Change record
 
-- **2026-10-23:** Created from the current Research tree, foundational seven alignment register, targeted claim/technical audit, and TI revision-lineage audit. Report 18 and TI v6 are recorded as gaps because no corresponding files were located in the inventoried paths; no titles or contents were invented.
+- **2026-10-23:** Created from the current Research tree, foundational seven alignment register, targeted claim/technical audit, and TI revision-lineage audit. Initial inventory recorded Report 18 as missing from `main`; subsequent branch inspection located a candidate draft, now recorded as non-canonical pending source-preservation and numbering reconciliation. TI v6 remains unlocated; no contents are invented.
