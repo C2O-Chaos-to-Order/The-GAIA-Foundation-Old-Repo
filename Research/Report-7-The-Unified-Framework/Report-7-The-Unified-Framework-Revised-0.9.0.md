@@ -109,3 +109,18 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** establish the seven-report system as an evolving hypergraph and define Meta-wisdom as a cross-cutting viability requirement.
+
+- **Shared structure:** the seven reports initialize report-level subgraphs; the twelvefold Good/Love/Emotion foundations are cross-cutting relation families; the eight-domain evaluation frame remains separately enumerated and must not be conflated with the five WEP dimensions.
+- **Five hyper-functions:** Divergence generates alternatives; Insurgence challenges targeted relations; Allegiance governs revisable commitments; Convergence integrates while logging loss; Ascendence revises framework-level rules. These functions may overlap or recur rather than form a mandatory sequence.
+- **Thirteenth element:** Meta-wisdom is an intended invariant family spanning provenance/topology integrity, recursive governance integrity, second-order observability, cross-domain plural coherence, and non-destructive revisability. These are design requirements, not proven mathematical invariants.
+- **Formal caution:** hypergraph spectra depend on the chosen hypergraph and Laplacian definition. No spectral integrity result can be asserted until the representation, baseline, metric, and failure threshold are predeclared and tested.
+- **Research gate:** verify named literature from primary sources, define a formal state-transition model, design adversarial counterexamples, and independently review before any simulation or implementation is authorized.
+
+**Evidence status:** conceptual integration only. Source verification remains partial; independent disciplinary review, simulation execution, and numerical validation are pending; implementation is not authorized. Prior report content is preserved.
