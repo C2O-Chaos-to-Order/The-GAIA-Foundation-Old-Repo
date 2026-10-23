@@ -148,3 +148,15 @@ Treat sentience-related claims as questions about physiological and multiscale o
 - **Not established by this report:** a quantum mechanism for sentience or a complete explanation of subjective experience.
 
 **Verification status:** targeted source check documented; this is not a complete claim-by-claim audit of every citation in the report. No new simulation, experiment, or independent review was performed.
+
+
+## Targeted source-audit checkpoint — 2026-10-23
+
+**Scope of this pass:** interoception and whole-cell modeling as support for the report’s embodiment and biological-constraint framing. This is a targeted check, not a full audit of every inherited citation.
+
+- Wang & Chang, “The Coding Logic of Interoception,” *Annual Review of Physiology* 86 (2024), 301–327, DOI https://doi.org/10.1146/annurev-physiol-042222-023455, supports describing interoception as sensing diverse internal mechanical, chemical, hormonal, and pathological cues, with roles in homeostasis, motivation, autonomic regulation, cognition, and behavior. It also explicitly notes that system-level coding remains incompletely understood. Avoid presenting a single unified interoceptive code as settled.
+- Georgouli et al., “Multi-scale models of whole cells: progress and challenges,” *Frontiers in Cell and Developmental Biology* 11 (2023), DOI https://doi.org/10.3389/fcell.2023.1260507, and Tummler & Klipp, “Data integration strategies for whole-cell modeling,” *FEMS Yeast Research* 24 (2024), DOI https://doi.org/10.1093/femsyr/foae011, support treating whole-cell models as difficult, data-intensive, hybrid models whose reproducibility depends on experimental context, parameter provenance, model choices, and explicit validation. They do not establish a complete predictive model of the human body.
+
+**Correction boundary:** biological embodiment and homeostasis are empirically grounded; any extrapolation from whole-cell modeling to a complete human organism, mind, or GAIA architecture remains a research proposal and needs its own validation. No simulation or biological experiment was run in this pass.
+
+**Remaining:** full claim-by-claim source audit; review of all anatomical/physiological assertions; source-to-claim mapping; specialist review. Status remains OPEN.
