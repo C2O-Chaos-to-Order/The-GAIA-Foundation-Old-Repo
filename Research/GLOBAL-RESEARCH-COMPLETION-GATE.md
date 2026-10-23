@@ -174,3 +174,12 @@ The matrix confirms that Reports 1–7 exist as canonical Revised 0.9.0 files, b
 
 
 **Conversation chronology discrepancy:** prior history records that the original research ZIP and three-cycle reproducibility ZIP were received, but the assistant explicitly stated at intake that neither had been opened or inspected. Later messages then claimed sixfold (42 + 42), ninefold (63 + 63), and twelvefold (84 + 84) cycle packages. The actual archive contents are not currently accessible for inspection. The sequence is recorded in the [reconciliation matrix](FOUNDATIONAL-SEVEN-REPORT-RECONCILIATION.md); no cycle-count claim is accepted as verified until the exact artifacts, manifests, checksums, definitions, and execution logs are reconciled.
+
+
+## Foundational seven claim/technical audit checkpoint — 2026-10-23
+
+A targeted, report-by-report source and technical audit has been added at [FOUNDATIONAL-SEVEN-CLAIM-AND-TECHNICAL-AUDIT-2026-10-23.md](FOUNDATIONAL-SEVEN-CLAIM-AND-TECHNICAL-AUDIT-2026-10-23.md). It records principal source checks and limits for Reports 1–7, including source identity, source type, evidence boundaries, concrete follow-up work, and a cross-report consistency assessment.
+
+Two canonical references in Reports 1 and 2 were updated to link the located Grimbly et al. preprint (arXiv:2610.18617) alongside the IWAI project/presentation context. The audit also checks the 2026 spiritual-practices review against its published correction, distinguishes COGITATE results from the 2026 *Neuron* perspective, and classifies the Aubert, Dumberry, and Rubin Earth-system papers by their actual model/theory scope.
+
+**This is a substantive targeted audit, not a full completion claim.** Exhaustive claim-to-source mapping, complete methods/supplementary-material review, independent reproduction, specialist review, recovery of the prior cycle ZIPs, full execution of the twelve Report 7 designs, Report 18 provenance, and revision-by-revision Transformative Intelligence lineage remain open. The gate remains **OPEN / INDETERMINATE** and new report intake remains closed.
