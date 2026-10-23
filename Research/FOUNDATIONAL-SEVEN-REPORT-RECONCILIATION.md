@@ -88,7 +88,7 @@ Important: a sandbox path reported in an earlier conversation does not guarantee
 
 - Reports 1–7 have current canonical Revised 0.9.0 files and multiple historical revisions. Preserve earlier versions.
 - Reports 8–17 and Report 19 are present as later research topics, with targeted source checkpoints; this is not a complete source audit.
-- Report 18 is absent from the current repository tree. Do not invent its title or create a replacement without recovering provenance.
+- No current Research/Report-18 file is present. A separate historical lead has now been recovered: Original-AI-Body (A-01) and Original-AI-Mind (A-02) in GAIA-Documentation were previously associated with “Document 18” and “Document 19,” but the numbering crosswalk is not established. See [Report 18 Provenance Crosswalk](REPORT-18-PROVENANCE-CROSSWALK-2026-10-23.md). Do not create, replace, or renumber a current report until an authoritative index confirms the relationship.
 - Report 13 has a canonical file titled “The Geomagnetic Spectrum as Subconscious and Soul” and a separate short non-canonical correction notice under an alternative Report 13 path. Do not count the notice as a second canonical report.
 - Historical root-level copies of older Report 5 and Report 6 revisions coexist with report-folder files. Preserve until their provenance is reconciled.
 - Transformative Intelligence revisions 3.0.0, 4.0.0, 5.0.0, 7.0.0, and 8.0.0 exist. Their source lineage and dependencies need a revision-by-revision audit against the corrected numbered reports.
