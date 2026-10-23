@@ -165,3 +165,9 @@ A reproducibility record and Python script are now present:
 - [Runnable Python script](Validation/universal_framework_synthetic_smoke_tests.py)
 
 Five bounded synthetic tests were executed: Lorenz initial-condition sensitivity; a toy homeostatic feedback controller; a reinforcement-learning foraging proxy; a blackbody radiative-balance toy; and a synthetic single-tone spectrum pipeline. Each uses twelve cases/seeds where specified. These are smoke tests, not empirical validation, and they do not count as the twelve full simulation designs listed in the Report 7 addendum. Real geomagnetic, biological, climate, and consciousness-theory tests require their own valid data, operational definitions, and comparison baselines.
+
+
+### Follow-up technical checks for Reports 12–13 — 2026-10-23
+
+- Report 12 now cites a technical review for conventional Pc1–Pc5 period ranges and explicitly records that no observed geomagnetic time series has been analyzed.
+- Report 13 now cites Keppler’s 2021/2024 ZPF-consciousness proposals as published theory-level work, and a July 2026 *Journal of Physical Chemistry Letters* study that raises serious measurement and attribution concerns about extracranial “brain biophoton” claims. These sources sharpen source provenance and evidential boundaries; they do not validate ZPF consciousness or a cognition-sufficient photonic code.
