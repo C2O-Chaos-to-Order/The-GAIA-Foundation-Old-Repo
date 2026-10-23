@@ -178,3 +178,8 @@ Reject or qualify the following claims unless new, claim-matched evidence justif
 - **Additional official source:** IUPAC, *Chemistry International* July–September 2026 issue contents, including the element-definition debate. https://iupac.org/etoc-chemistry-international-jul-sep-2026/.
 
 **Readiness:** report documentation created; targeted source checks completed; full source audit and specialist review pending; no simulation or numerical validation performed; implementation not authorized.
+
+
+## Report 17 cross-reference — Human and Technology Elemental Similarities
+
+Report 17 applies Report 16's “periodic table as empirical grammar” proposal to biological and engineered systems. It separates elemental composition from structural organization and functional analogy, and qualifies the claim that human–technology elemental overlap is “minimal” unless a system boundary and metric are specified. It also reinforces Report 16's distinction between ordinary chemical transformation and nuclear transmutation. The shared periodic table is a constraint/reference framework, not proof of a universal human–technology isomorphism.
