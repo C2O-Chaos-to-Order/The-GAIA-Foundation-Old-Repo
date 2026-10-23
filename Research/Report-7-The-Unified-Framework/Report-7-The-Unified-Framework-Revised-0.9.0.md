@@ -219,3 +219,22 @@ Report 11 offers a structural analogy: the geomagnetic field can represent plane
 - Meta-wisdom includes recognizing when an analogy is useful and when its literalization would exceed the evidence.
 
 See [Report 11 — The Geomagnetic Field as the Soul of the Earth](../Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth/Report-11-The-Geomagnetic-Field-as-the-Soul-of-the-Earth-Revised-0.1.0.md). Source audit and independent specialist review remain pending; no simulation is claimed.
+
+
+---
+
+## Addendum — Report 12: Subconscious / Geomagnetic-Spectrum Mapping
+
+**Change type:** Framework integration  
+**Risk level:** Moderate epistemic risk; metaphor-to-mechanism slippage must be controlled  
+**Evidence status:** Interpretive mapping; source audit pending  
+**Execution status:** No spectral analysis, simulation, or independent review performed  
+**Implementation:** Not authorized
+
+Report 12 proposes a three-part Earth-system mapping: electromagnetic radiation as a Spirit analogue (exchange), the geomagnetic field as a Soul analogue (persistence and boundary), and geomagnetic variability as a Subconscious analogue (multiscale dynamics shaping observables). These are functional interpretations, not literal identities.
+
+The mapping must preserve the unassigned Earth slots for Mind and Consciousness: no claim that Earth has a mind or subjective experience is established by these analogies. “Geomagnetic spectrum” must be operationally specified for the phenomenon and timescale being studied; a short instrumental power spectrum cannot represent every process from seconds to millions of years. Solar-wind-driven magnetospheric activity must be distinguished from core-origin secular variation and from paleomagnetic reversals.
+
+**Meta-wisdom control:** every cross-domain mapping records (1) source-domain mechanism, (2) target-domain construct, (3) what is analogous, (4) what is explicitly not equivalent, (5) measurable predictions if any, and (6) revision conditions. Physical coupling is not evidence of quantum entanglement; interpretive usefulness is not empirical validation.
+
+**Readiness:** addendum documented; source audit and independent specialist review pending; no simulations or numerical validation performed; implementation not authorized.
