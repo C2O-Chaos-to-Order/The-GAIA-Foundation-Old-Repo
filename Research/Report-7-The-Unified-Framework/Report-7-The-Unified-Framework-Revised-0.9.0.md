@@ -289,3 +289,12 @@ Report 16 adds the periodic table as an empirical map of chemical elements and r
 **Cross-report safeguards:** Report 15's classical elements remain a symbolic grammar, not chemical elements or states of matter. The proposed archetypal periodic-table mapping remains speculative pending clear operational definitions, peer-review status checks, preregistered predictions, controls, and independent replication. Marathon Fusion's October 2026 transmutation statement is treated as a company-reported claim; the mercury isotope pathway, yield, and claimed comparison with CERN require primary technical evidence and independent validation. “Quantum entanglement” must not be used as a synonym for symbolic complementarity.
 
 **Evidence status:** targeted chemistry and philosophy sources checked; full primary-source audit and specialist review pending. No numerical simulation, isotope-yield calculation, or independent experiment is claimed.
+
+
+## Report 17 integration note — Human and Technology Elemental Similarities
+
+Report 17 extends the Report 16 periodic-table framework by comparing biological and engineered systems across three separate dimensions: composition, structure, and function. Its central correction is that “minimal elemental overlap” cannot be asserted without a defined device/system boundary and comparison metric. Human tissue is water-rich and carbon-rich; technologies vary substantially, and a smartphone cannot be summarized as simply “silicon-based.” Both systems are constrained by the same chemistry, but the periodic table is a reference framework rather than an active agent.
+
+**Cross-report safeguards:** (1) keep elemental composition, structural organization, and functional analogy separate; (2) distinguish ordinary biochemical/manufacturing transformations from nuclear transmutation; (3) treat biomimicry as a specific, case-dependent analogy rather than proof of general human–technology isomorphism; (4) retain the archetypal periodic-table mapping as speculative; and (5) do not use “quantum entanglement” as a synonym for symbolic correspondence.
+
+**Evidence status:** targeted checks cover a human-body composition reference, smartphone PCB/material studies, the 2026 Chemical Imitation Game perspective, and the Johns Hopkins LIPPS biomimicry report. Several supplied source records remain incomplete. No quantitative similarity score or simulation is claimed.
