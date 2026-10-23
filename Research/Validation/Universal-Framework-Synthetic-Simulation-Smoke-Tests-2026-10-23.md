@@ -23,3 +23,22 @@ The runs used explicit seeds 0–11. The Lorenz integration used SciPy `solve_iv
 **Not established:** biological validity; any theory of subjective experience; metaphysical claims; real geomagnetic spectra; geodynamo or atmospheric-escape dynamics; climate projections; or independent reproduction.
 
 These checks must not be counted as the twelve full simulation designs in the Report 7 addendum. Those studies require operational specifications, real data where appropriate, baselines, ablations, sensitivity analysis, output logs, and independent reproduction instructions. A synthetic signal is not a substitute for INTERMAGNET data, and a toy energy-balance equation is not a climate model.
+
+
+## Independent rerun record — 2026-10-23 (supplemental)
+
+**Purpose:** independently re-execute the five bounded synthetic smoke-test functions during the repository reconciliation pass, and distinguish that result from the twelve full Report 7 study designs.
+
+**Source inspected:** `Research/Validation/universal_framework_synthetic_smoke_tests.py`, Git blob `82ab6c29abcddd02540df42107bd691d0b71f708`. The function logic was re-executed in an isolated Python analysis environment from the fetched source content; the exact repository file was not downloaded as a local file byte-for-byte, so this is a logic-level rerun rather than a verified checksum of a local executable copy.
+
+**Runtime:** Python 3.13.5; NumPy 2.3.5; SciPy 1.17.0.
+
+| Test | Rerun outcome | Interpretation |
+|---|---|---|
+| Lorenz initial-condition sensitivity | 12/12 solver runs reported success; all state values finite | Execution sanity only; no Lyapunov exponent or general chaos claim established |
+| Homeostatic feedback controller | Mean absolute deviation across 12 seeds = 0.20120802797751702 | The toy controller remains bounded for the tested settings; no physiological inference |
+| Reinforcement-learning foraging proxy | Mean final-window reward: penalty 0.00 = 0.7588066666666667; penalty 0.15 = 0.7448475000000002 | Difference is specific to the defined synthetic reward and update rules; no human learning inference |
+| Planetary radiative-balance toy | Effective-radiating temperature range = 249.90499601146894–263.2201280492291 K across albedo 0.35–0.20 | Direction matches the model equation; not a climate projection and excludes greenhouse/transport/feedback processes |
+| Synthetic spectrum pipeline | Mean absolute peak error = 0.0005485026041666582 Hz; maximum = 0.0011132812499999867 Hz across 12 seeded signals | FFT pipeline recovers the dominant frequency of these generated signals; no real geomagnetic-data claim |
+
+**Disposition:** the bounded smoke-test logic reproduced the recorded headline outcomes. This improves confidence in the limited computational record, but it does not establish that the repository's exact file bytes were run in place, that an independent third party reproduced the tests, or that the twelve full Report 7 simulations have been executed. The RL comparison is exploratory and should not be interpreted as a causal result beyond this synthetic setup. No new empirical data were used.
