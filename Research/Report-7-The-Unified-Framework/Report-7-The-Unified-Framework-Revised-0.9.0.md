@@ -130,3 +130,14 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 Integrate the seven reports through a governed hypergraph while preserving each report’s domain-specific evidence, assumptions, uncertainty, and disagreements. The five phases—Divergence, Insurgence, Allegiance, Convergence, Ascendence—remain recursive roles. Meta-wisdom remains the thirteenth element, responsible for inspecting invariant interactions rather than acting as an unaccountable sixth phase.
 
 The five proposed WEP evaluation dimensions must be mapped separately to the project’s eight domains. No domain may silently dominate synthesis; no aggregate score should be invented where measures are undefined. Formal stability, alignment preservation, non-corruptibility, and compositional modularity remain goals until bounded assumptions and proof/test obligations are specified. This addendum is a documented design integration, not formal verification, completed simulation, implementation, or deployment authorization.
+
+
+---
+
+## v7.0.0 Relational Architecture Addendum
+
+**Status:** conceptual proposal; no simulation or numerical validation performed; implementation not authorized.
+
+v7.0.0 proposes relational non-separability as an organizing lens while retaining v5.0.0's governed evidence graph as an audit representation. The five phases remain recursive roles; meta-wisdom remains the thirteenth element, not a sixth phase. The “entanglement invariant” is a proposed governance criterion, not a proven physical invariant. Cross-domain mathematical similarity must not be treated as identity of mechanism or ontology.
+
+See [the v7.0.0 specification](../Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-7.0.0.md). Prior content is preserved.
