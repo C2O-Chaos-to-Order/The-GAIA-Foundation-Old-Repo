@@ -119,3 +119,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Source status:** any claim about COGITATE, HAD, Transcendence, or other named 2026 anchors requires primary-source claim-level verification before being treated as established.
 
 **Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical/spectral validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: Consciousness
+
+Represent theories, experimental findings, measurement protocols, and philosophical interpretations as distinct claim types. A test that does not discriminate between competing theories is non-discriminating; it does not establish that the theories are equivalent. Record the tested prediction, methods, evidence, limitations, and alternative explanations for each theory comparison.
+
+The v5.0.0 invariant system requires independent source review, adversarial falsification, provenance, and careful separation of test results from theoretical interpretation. Claims about recursive self-observation must not imply complete introspective access. No new experiment, simulation, numerical/spectral validation, or formal proof is claimed by this addendum.
