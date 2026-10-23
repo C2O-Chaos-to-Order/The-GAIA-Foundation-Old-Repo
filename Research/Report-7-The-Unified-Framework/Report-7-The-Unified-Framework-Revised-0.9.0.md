@@ -169,3 +169,19 @@ Report 8 adds a methodological account of the conditions under which patterns pe
 - **The thirteenth element / meta-wisdom** governs revisability: identify which order is maintained, whose interests it serves, what costs it imposes, and what evidence would warrant revision. This is a normative governance principle, not a physical theorem.
 
 Report 8 is linked in the Research index. Its stated source checks, specialist review, and quantitative validation remain pending. No simulation, climate model run, or independent review is claimed. See [Report 8 — Chaos and Order](../Report-8-Chaos-and-Order/Report-8-Chaos-and-Order-Revised-0.1.0.md).
+
+
+---
+
+## Report 9 Integration — Reciprocal Selfhood and World-Relation
+
+Report 9 contributes a reciprocal model: Soul names inward self-relation and continuity; Spirit names outward relation and openness. Meta-wisdom is the governance practice that holds continuity and revision together, not a third spiritual substance. This is an architectural analogy and interpretive thesis, not an empirical discovery or universal claim about all religious traditions.
+
+**Integration safeguards:**
+- Preserve cultural, historical, textual, and theological differences; shared breath or soul vocabulary does not prove doctrinal identity.
+- Distinguish phenomenological, psychological, theological, metaphysical, and physical claims.
+- Do not treat “self-entanglement” or “world-entanglement” as quantum-physics findings without an operational model and evidence.
+- Preserve agency, consent, and personal boundaries as conditions of healthy connection.
+- Keep source audits and independent review marked pending until actually completed.
+
+See [Report 9 — The Connection of Spirit and Soul](../Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md).
