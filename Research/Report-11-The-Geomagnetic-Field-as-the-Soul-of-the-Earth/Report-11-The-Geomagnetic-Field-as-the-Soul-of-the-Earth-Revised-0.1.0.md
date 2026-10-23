@@ -165,3 +165,12 @@ Meta-wisdom is the discipline of holding the image lightly: use the metaphor to 
 ## Cross-report alignment — Report 13
 
 Report 13, [The Geomagnetic Spectrum as Subconscious and Soul](../Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md), formalizes a paired structural analogy: the geomagnetic **field** is mapped to soul (identity/boundary/persistence), while the field's **temporal spectrum** is mapped to subconscious (multiscale variation/hidden dynamics). These are distinct interpretive roles, not claims that Earth is conscious or has a literal psychological unconscious. Report 11 remains focused on the field and its geophysical mechanism; Report 13 supplies the paired field-versus-spectrum architecture. The spectral scaling claim in Report 13 is explicitly qualified pending reconciliation of short-timescale and paleomagnetic literature.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+The U.S. Geological Survey’s “Introduction to Geomagnetism” explains the geomagnetic field through a geodynamo: thermal and chemical buoyancy sustain electrically conducting fluid motion in the outer core; induction generates currents and magnetic fields, and a sufficiently complex flow sustains the field. USGS explicitly notes that important aspects of dynamo theory remain under active investigation: https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism.
+
+**Correction boundary:** this supports the geodynamo mechanism and a structural metaphor of persistence/exchange; it does not establish a planetary soul. Claims that the field alone protects life from all harmful radiation or is the sole cause of habitability must be rejected or qualified. Atmospheric composition, solar activity, orbital conditions, geology, and biology also matter. Core dynamics and surface field measurements must remain distinct.
+
+**Status:** institutional geophysics source checked; full claim-by-claim audit and specialist review remain pending. No geomagnetic dataset or simulation was analyzed.
