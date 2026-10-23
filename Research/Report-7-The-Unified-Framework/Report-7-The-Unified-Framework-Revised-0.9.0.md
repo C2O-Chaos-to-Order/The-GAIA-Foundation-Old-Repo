@@ -309,3 +309,18 @@ The 2026 *Tellus* article by Lenton and Dutreuil supports distinguishing Gaia fr
 **Cross-report safeguards:** (1) preserve the difference between physical system, explanatory hypothesis, and symbolic analogy; (2) do not use quantum entanglement as a synonym for feedback or non-separability; (3) keep the soul–spirit/Terra–GAIA parallel explicitly philosophical; and (4) do not claim simulations, numerical validation, or independent review that have not occurred.
 
 **Evidence status:** Report 19 includes targeted source checks and an uncertainty register. Full claim-by-claim audit, specialist review, and resolution of S01 remain pending. No simulation or numerical validation was performed for Report 19.
+
+
+## Research-wide integration checkpoint — 2026-10-23
+
+The initial research-wide audit has confirmed that the Unified Framework must act as a governed synthesis, not as an evidence multiplier: a claim does not become stronger merely because several reports reuse it or because it fits the architecture.
+
+**Source-grounded constraints added by the current audit:**
+- Whole-cell modeling literature emphasizes data provenance, comparable experimental conditions, model-choice transparency, and reproducibility; this supports requiring a complete execution record before any simulation claim is accepted (Tummler & Klipp 2024, https://doi.org/10.1093/femsyr/foae011; Georgouli et al. 2023, https://doi.org/10.3389/fcell.2023.1260507).
+- The 2026 planetary active-inference study is a proof-of-concept model of simplified biosphere–climate regulation, not proof of actual planetary agency or consciousness (Rubin et al. 2026, https://doi.org/10.1038/s41598-026-61878-9).
+- Recent Gaia literature includes substantive critiques of the claim that life has evolved planetary-scale homeostatic control (Royal Society discussion papers, 2025, https://doi.org/10.1098/rstb.2024.0087 and https://doi.org/10.1098/rstb.2024.0088). The synthesis must preserve these counterarguments rather than treating GAIA regulation as established.
+- Owen & Goodale’s 2026 *Neuron* perspective (https://doi.org/10.1016/j.neuron.2026.08.020) reinforces that consciousness theories require empirical predictions and rigorous tests; architecture-level coherence is not evidence of consciousness.
+
+**Required integration rule:** classify each claim as empirical observation, established theory, contested hypothesis, formal model, philosophical interpretation, theological claim, or symbolic analogy. Cross-report repetition is not independent confirmation. Physical quantum entanglement must remain distinct from feedback, active inference, correlation, information-theoretic dependence, and metaphorical non-separability.
+
+**Status:** this checkpoint improves evidence governance and records relevant counterevidence; it does not certify all inherited sources, execute the twelve proposed simulations, or complete the cross-report audit. Full claim-level traceability, specialist review, and reproducible validation remain pending. No simulation was performed in this pass.
