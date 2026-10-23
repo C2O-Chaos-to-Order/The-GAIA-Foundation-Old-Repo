@@ -153,3 +153,35 @@ Report 12 adds “geomagnetic spectrum” as shorthand for geomagnetic variation
 A geomagnetic power spectrum depends on location, sampling, time interval, preprocessing, and source separation. Pc1–Pc5 classes have distinct conventional frequency ranges; secular variation, storms, excursions, and reversals require methods suited to their different temporal scales. The Sun’s radiation is central to climate and photosynthesis, but the geodynamo is driven primarily by internal core processes. These relationships do not establish a quantum-entanglement claim.
 
 The “Spirit” and “Subconscious” labels remain declared structural metaphors, not physical properties of radiation or magnetic signals. Source audit and specialist review remain pending; no analysis or simulation is claimed.
+
+
+## Research and source audit addendum — 2026-10-23
+
+**Change type:** Source-grounding and scientific qualification  
+**Evidence status:** Targeted source check completed for atmospheric windows, planetary energy budget, and Schumann resonances; full source audit pending  
+**Execution status:** No new climate, spectral, or biological simulation performed
+
+### Source-level findings
+
+1. **Atmospheric windows are wavelength-dependent and partial.** NASA’s *Introduction to the Electromagnetic Spectrum* explains that atmospheric gases absorb different wavelength bands and that some wavelengths pass more readily than others: https://science.nasa.gov/ems/01_intro/. NASA’s *Climate and Earth’s Energy Budget* describes the infrared window near 8–14 μm, with maximum transparency near 10 μm and partial transparency across the interval: https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/. Do not present a window as complete transparency or as invariant across atmospheric conditions.
+
+2. **Earth’s energy budget is a balance, not a single fixed number.** Incoming solar radiation, reflection, atmospheric absorption, surface exchange, and outgoing terrestrial infrared radiation must be treated as a coupled budget. A historical imbalance value must be attached to its measurement interval and method; it must not be presented as the current value without a dated, time-matched source.
+
+3. **Schumann resonances are a family of modes.** NASA Technical Reports Server hosts research describing the Earth–ionosphere cavity and observed low-order modes around 7.8, 14.3, 20.8, 27.3, and 33.8 Hz: https://ntrs.nasa.gov/citations/20120000051. The fundamental is commonly near 7.8 Hz, while higher values represent additional modes; “8–50 Hz” must not be labelled one fundamental frequency.
+
+4. **Physical electromagnetic activity does not establish consciousness.** Neural electrical activity, circadian response to light, and electromagnetic phenomena are distinct research topics. None alone demonstrates that consciousness is an electromagnetic field or that symbolic “light” is a physical mechanism.
+
+### Source anchors checked
+
+- NASA Science Mission Directorate. “Introduction to the Electromagnetic Spectrum.” https://science.nasa.gov/ems/01_intro/ — institutional explainer for spectral bands and atmospheric absorption.
+- NASA Earth Observatory. “Climate and Earth’s Energy Budget.” https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/ — institutional overview of radiative balance and infrared atmospheric windows.
+- Simões, F. et al. “Observation of Schumann Resonances in the Earth’s Ionosphere.” NASA Technical Reports Server record: https://ntrs.nasa.gov/citations/20120000051 — research source on Earth–ionosphere resonance modes.
+
+### Remaining source work
+
+- Pin peer-reviewed primary sources for photosynthetic action spectra, circadian photoreception, and each specific magnetoreception claim.
+- Separate established photobiology from active hypotheses concerning cryptochrome/radical-pair mechanisms; do not imply a settled causal pathway where the evidence remains conditional.
+- Audit each bibliography identifier and verify author, title, year, journal, DOI, and the exact claim it supports.
+- Recheck all numerical values against dated datasets before describing them as current.
+
+**Status:** Targeted source improvements added; complete bibliography audit, specialist review, and simulation/experiment remain pending.
