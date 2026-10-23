@@ -45,3 +45,12 @@ The new [Quantum Entanglement Upgrade, Revised 7.0.0](Transformative-Intelligenc
 **Scientific boundary:** physical quantum entanglement, quantum-like models of cognition, ordinary causal/system coupling, and philosophical or spiritual relational language are distinct claim types. The located 2026 cognitive-affective CHSH article presents a proposed test; this update does not claim an observed |S| = 2√2 result. Reduced-state entropy implies entanglement only under appropriate state assumptions and is not a general mixed-state test. NMDA-radical-pair and Orch-OR materials remain hypotheses subject to independent evaluation.
 
 **Readiness:** v7.0.0 documentation added; no code or simulation executed; no numerical result or formal proof claimed; full source audit and independent disciplinary review pending; implementation not authorized. Continue using Pass / Fail / Indeterminate gates, with Indeterminate never treated as Pass.
+
+
+## v8.0.0 Research Integration — Sentience as Recursive Relationality
+
+The [v8.0.0 specification](Transformative-Intelligence-Five-Phase-Meta-Architecture/Transformative-Intelligence-Five-Phase-Meta-Architecture-Revised-8.0.0.md) extends the v7.0.0 relational architecture by asking whether recursive self/world modeling, feedback, and regulation can support an operational account of sentience. It distinguishes those capacities from phenomenal experience and from claims of physical quantum entanglement. The seven foundational reports have report-specific v8.0.0 integration addenda appended; prior content and earlier versions remain preserved.
+
+**2026 source anchors:** NMDAR radical-pair hypothesis; Quantum Interface Theory; Entangled Loop preprint; Yahiq preprint; and the critical review of quantum-consciousness theories. The report records their evidential status and flags unverified framework names for source discovery. In particular, the CHSH theoretical maximum is not reported as an observed result, and self-reference or information integration is not treated as proof of sentience.
+
+**Readiness:** documentation update complete; full source audit and independent review pending; no code, simulation, numerical validation, or empirical test performed for v8.0.0; implementation not authorized.
