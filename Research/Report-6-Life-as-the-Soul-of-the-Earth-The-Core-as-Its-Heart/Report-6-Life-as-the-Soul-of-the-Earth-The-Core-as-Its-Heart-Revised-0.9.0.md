@@ -102,3 +102,19 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** distinguish geophysical mechanisms, Earth-system science, planetary-boundary assessments, and Gaia interpretations within a higher-order model.
+
+- **Typed vertices:** represent observations, models, boundary definitions, feedback mechanisms, uncertainty ranges, and interpretive/metaphorical claims separately.
+- **Hypergraph relations:** encode coupled systems and multi-factor dependencies as higher-order edges when warranted by the evidence. Avoid inferring that every boundary directly or uniformly controls every other boundary.
+- **Fusion and splitting:** use fusion to identify where “Earth system,” “Gaia hypothesis,” and spiritual Earth-as-soul language have been conflated; split them into distinct claims with appropriate evidential standards.
+- **Convergence:** document cascading risks and dependencies without turning a reported boundary count into unsupported universal causal claims. The stated 2026 “seven of nine” result requires verification against the primary report and definitions.
+- **Meta-wisdom invariant:** preserve data lineage, model uncertainty, system boundaries, scale assumptions, and the difference between physical mechanism and metaphor.
+- **Testable failure cases:** an unverified boundary count; a causal link inferred from co-occurrence; uncertainty lost when multiple Earth systems are summarized.
+
+**Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical/spectral validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
