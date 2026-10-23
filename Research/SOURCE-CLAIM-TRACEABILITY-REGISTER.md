@@ -2,6 +2,7 @@
 **Revision:** 0.1.0  
 **Opened:** 2026-10-23  
 **Relationship:** Companion to [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md)  
+**Integration reference:** [Foundational Seven Alignment and Unification Register](FOUNDATIONAL-SEVEN-ALIGNMENT-AND-UNIFICATION-REGISTER-2026-10-23.md)  
 **Status:** SEED REGISTER — NOT EXHAUSTIVE
 
 ## Purpose and rules
