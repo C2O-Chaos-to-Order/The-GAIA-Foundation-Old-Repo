@@ -98,3 +98,9 @@ The prior 0.8.0 report is preserved. This addendum does not claim the five-phase
 - **Testable failure cases:** circular self-validation; unlogged changes to inference rules; hidden evidence selection; compression that erases dissent or uncertainty.
 
 **Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
+
+## Addendum — v5.0.0 Engineered-Invariant Integration: The Mind
+
+Map claims about cognition, learning, memory, reasoning, and agency as typed nodes linked to primary evidence, assumptions, competing explanations, and counterevidence. Distinguish empirical cognitive science from normative models, computational metaphors, and speculative claims. Recursive self-evaluation cannot be treated as complete access to the mind or as independent evidence for its own conclusions.
+
+The invariant contract requires scope discipline, provenance, adversarial challenge, and exogenous review. A metric such as the proposed Measure Centrality Index must have a defined construct, formula, data requirements, and validity/sensitivity analysis before numerical results are reported. This addendum records design requirements only; no cognitive simulation, numerical result, proof, or implementation is claimed.
