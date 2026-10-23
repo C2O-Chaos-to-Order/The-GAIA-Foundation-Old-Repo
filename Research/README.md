@@ -155,3 +155,13 @@ Older Report 5 and Report 6 files remain directly under `Research/` as well as i
 - **Implementation status:** no implementation is authorized by this research-index update.
 
 The completion gate remains open until source-to-claim traceability and each applicable validation gate are documented. Where a claim is metaphysical or interpretive rather than empirically testable, the proper completion criterion is explicit scope, fair representation of competing positions, and protection against category errors—not a fabricated numerical simulation.
+
+
+## Executed computational smoke tests — 2026-10-23
+
+A reproducibility record and Python script are now present:
+
+- [Synthetic Simulation Smoke Tests](Validation/Universal-Framework-Synthetic-Simulation-Smoke-Tests-2026-10-23.md)
+- [Runnable Python script](Validation/universal_framework_synthetic_smoke_tests.py)
+
+Five bounded synthetic tests were executed: Lorenz initial-condition sensitivity; a toy homeostatic feedback controller; a reinforcement-learning foraging proxy; a blackbody radiative-balance toy; and a synthetic single-tone spectrum pipeline. Each uses twelve cases/seeds where specified. These are smoke tests, not empirical validation, and they do not count as the twelve full simulation designs listed in the Report 7 addendum. Real geomagnetic, biological, climate, and consciousness-theory tests require their own valid data, operational definitions, and comparison baselines.
