@@ -271,3 +271,12 @@ The mapping must preserve the unassigned Earth slots for Mind and Consciousness:
 - [Report 14 — The Electromagnetic Spectrum as Consciousness and Spirit](../Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit/Report-14-The-Electromagnetic-Spectrum-as-Consciousness-and-Spirit-Revised-0.1.0.md) maps cosmic radiation to Spirit as environmental exchange and endogenous neural fields to a candidate contributor to integration relevant to consciousness. It does not claim that either field is proven to be consciousness.
 
 The two mappings are not interchangeable. A cosmic radiation spectrum, a geomagnetic field, a geomagnetic time series, and an endogenous neural field are distinct physical referents. Interpretive analogies must not be promoted to physical identities without discriminating evidence.
+
+
+## Report 15 integration note — Classical Elements as Symbolic Grammar
+
+Report 15 introduces the classical elements as a **symbolic overlay**, not a new empirical layer. Its proposed process labels—Earth/differentiation, Water/change, Air/conditioning, Fire/propagation, and Spirit-Aether/continuity—must remain distinguishable from the historical meanings of Greek, Indian, Chinese, Buddhist, and alchemical systems. The overlay does not replace the physical definitions in Reports 1–14, and it does not establish that the fifth element is electromagnetic radiation, consciousness, a physical ether, or a quantum-entangled substrate.
+
+**Cross-report safeguards:** (1) Report 14's cosmic electromagnetic spectrum remains a physical referent used as a structural analogy for Spirit; (2) Report 13's geomagnetic field and geomagnetic variability remain distinct from cosmic radiation; (3) the Report 15 mapping is not a scientific taxonomy or a historical consensus; and (4) “quantum entanglement” must be reserved for a formally specified physical claim, not used as a synonym for symbolic non-separability.
+
+**Evidence status:** targeted historical anchors were checked for Report 15; primary-text audits across traditions, exact recovery of several supplied references, and independent disciplinary review remain pending. No simulation or numerical validation is claimed.
