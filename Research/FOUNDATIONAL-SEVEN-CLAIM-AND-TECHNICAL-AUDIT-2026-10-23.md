@@ -127,7 +127,7 @@ Labels used:
 | Technical/methods audit | **Open** | Full methods, supplements, parameter provenance and all equations not exhaustively reviewed |
 | Cross-report consistency | **Partial pass / open** | Major category boundaries checked; full dependency graph not yet audited |
 | Twelve full simulation designs | **Fail to clear** | Report 7 addendum states designs remain unexecuted |
-| Five smoke tests | **Repository-recorded only** | Script and report inspected; not independently rerun in this pass |
+| Five smoke tests | **Bounded logic-level rerun completed** | Five functions re-executed in Python 3.13.5 / NumPy 2.3.5 / SciPy 1.17.0 with headline outcomes matching the report; not external independent reproduction |
 | Package/cycle claims | **Unresolved** | Actual ZIP contents, manifests, hashes and logs unavailable for inspection |
 | Independent reproduction and specialist review | **Pending** | No independent reviewer evidence in this audit |
 | Report 18 and architecture lineage | **Open** | Report 18 absent from tree; Transformative Intelligence revision-by-revision lineage not fully reconciled |
