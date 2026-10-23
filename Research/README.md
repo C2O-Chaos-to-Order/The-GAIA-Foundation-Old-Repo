@@ -214,3 +214,8 @@ Examines Terra as the physical Earth system and GAIA as a hypothesis/model famil
 ## Research-wide audit checkpoint — 2026-10-23
 
 A first targeted source-research pass has been appended to the current canonical files for Reports 1–17 and 19. The pass adds verified source anchors and/or evidence-boundary corrections for interoception and whole-cell modeling; comparative soul concepts; neuroscience of spiritual practices; consciousness-theory testing; Gaia/Earth-system feedback; chaos and order; Earth’s energy budget and Schumann resonance; the geodynamo; cryptochrome magnetosensitivity; classical-element history; CERN/ALICE nuclear transmutation; smartphone materials; and Terra–GAIA non-separability. This is **not** a complete source audit: the global gate remains open, claim-level traceability and specialist review remain pending, and no new full simulation suite was executed. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md) for the audit matrix and the unresolved Report 18 inventory gap.
+
+
+## Source-to-claim traceability register
+
+[Open SOURCE-CLAIM-TRACEABILITY-REGISTER.md](SOURCE-CLAIM-TRACEABILITY-REGISTER.md) — a seed ledger of selected high-impact claims and verified/unresolved source anchors across the corpus. It is explicitly non-exhaustive and does not mark any report fully audited.
