@@ -238,3 +238,28 @@ The mapping must preserve the unassigned Earth slots for Mind and Consciousness:
 **Meta-wisdom control:** every cross-domain mapping records (1) source-domain mechanism, (2) target-domain construct, (3) what is analogous, (4) what is explicitly not equivalent, (5) measurable predictions if any, and (6) revision conditions. Physical coupling is not evidence of quantum entanglement; interpretive usefulness is not empirical validation.
 
 **Readiness:** addendum documented; source audit and independent specialist review pending; no simulations or numerical validation performed; implementation not authorized.
+
+---
+
+## Source-Audit Addendum — Cross-Report Evidence Governance (2026-10-23)
+
+### Cross-report controls
+
+1. **Do not collapse different evidence classes.** Reports 1–2 concern biological/cognitive mechanisms and bounded models; Reports 3–4 include philosophical, cultural, phenomenological, and theological interpretations; Report 5 concerns an unsettled empirical/theoretical problem; Report 6 combines geophysics with metaphor; Report 7 is a synthesis architecture. A cross-report analogy is not independent evidence for the target claim.
+
+2. **Use a claim-level ledger.** Every consequential claim should carry: exact wording; report and section; source type; publication and date; direct or indirect support; evidence quality; limitations; rival explanation; confidence; and revision trigger. Separate primary studies, systematic reviews, philosophical sources, preprints, models, and author interpretation.
+
+3. **Treat simulations as conditional demonstrations.** A model result supports a claim only under the implemented equations, parameters, initial/boundary conditions, data-generating assumptions, and tested distributions. Reproducibility requires code or full specification, seeds where applicable, dependencies, data provenance, sensitivity analysis, and a baseline. A design document or simulated scenario is not an executed simulation.
+
+4. **Do not infer across levels without a bridge.** Brain activity does not by itself establish metaphysical soul claims; physical coupling does not establish quantum entanglement; geomagnetic dynamics do not establish Earth consciousness; a useful analogy does not validate the mapped mechanism. Each cross-domain inference needs explicit premises and a falsifiable consequence if it is presented as empirical.
+
+5. **Verification states must remain separate.** “Documented,” “source-checked,” “formally tested,” “simulated,” “reproduced,” and “independently reviewed” are different statuses. A report may be updated while still awaiting full source audit or external peer review.
+
+### High-relevance source anchors
+
+- Seth & Bayne, “Theories of consciousness,” *Nature Reviews Neuroscience* 23 (2022): https://www.nature.com/articles/s41583-022-00587-4.
+- Cogitate Consortium, “Adversarial testing of global neuronal workspace and integrated information theories of consciousness,” *Nature* 642 (2025): https://www.nature.com/articles/s41586-025-08888-1.
+- Stanford Encyclopedia of Philosophy, “Ancient Theories of Soul” (revised 2024): https://plato.stanford.edu/entries/ancient-soul/.
+- Gronoff et al., “Atmospheric Escape Processes and Planetary Atmospheric Evolution,” *JGR Space Physics* (2020): https://doi.org/10.1029/2019JA027639.
+
+**Completion gate:** this addendum improves cross-report evidence governance but does not certify all citations in Reports 1–6. Full claim-by-claim source audit, specialist review, and each planned simulation remain pending until individually performed and recorded.
