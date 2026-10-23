@@ -217,7 +217,7 @@ Examines Terra as the physical Earth system and GAIA as a hypothesis/model famil
 
 ## Research-wide audit checkpoint — 2026-10-23
 
-A first targeted source-research pass has been appended to the current canonical files for Reports 1–17 and 19. The pass adds verified source anchors and/or evidence-boundary corrections for interoception and whole-cell modeling; comparative soul concepts; neuroscience of spiritual practices; consciousness-theory testing; Gaia/Earth-system feedback; chaos and order; Earth’s energy budget and Schumann resonance; the geodynamo; cryptochrome magnetosensitivity; classical-element history; CERN/ALICE nuclear transmutation; smartphone materials; and Terra–GAIA non-separability. This is **not** a complete source audit: the global gate remains open, claim-level traceability and specialist review remain pending, and no new full simulation suite was executed. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md) for the audit matrix and the unresolved Report 18 inventory gap.
+A first targeted source-research pass has been appended to the current canonical files for Reports 1–17 and 19. The pass adds verified source anchors and/or evidence-boundary corrections for interoception and whole-cell modeling; comparative soul concepts; neuroscience of spiritual practices; consciousness-theory testing; Gaia/Earth-system feedback; chaos and order; Earth’s energy budget and Schumann resonance; the geodynamo; cryptochrome magnetosensitivity; classical-element history; CERN/ALICE nuclear transmutation; smartphone materials; and Terra–GAIA non-separability. This is **not** a complete source audit: the global gate remains open, claim-level traceability and specialist review remain pending, and no new full simulation suite was executed. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md) for the audit matrix and the Report 18 candidate draft on a non-main branch; canonical provenance remains unresolved.
 
 
 ## Source-to-claim traceability register
@@ -227,7 +227,7 @@ A first targeted source-research pass has been appended to the current canonical
 
 ## Numbering/provenance gap — Report 18
 
-The current repository inventory contains Reports 1–17 and Report 19, but no Report 18 file. The sequence must not be described as complete until the intended Report 18 title/source is recovered or the numbering gap is explicitly resolved. No placeholder report is being invented. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md).
+The `main` branch contains Reports 1–17 and Report 19, but no canonical Report 18 file. A candidate draft titled “Report 18 — Humans as the Soul of Terra; Gaia as the Soul and Spirit of the Universe” exists on branch `research/report-18-humans-soul-of-terra-2026-10-23`; its current branch version is edited/consolidated and has not been verified as a verbatim preservation of the user's submitted source. Preserve the draft on its branch, compare it against the original submission, and establish provenance before promoting it. Do not renumber Report 19 or merge the draft automatically. See [GLOBAL-RESEARCH-COMPLETION-GATE.md](GLOBAL-RESEARCH-COMPLETION-GATE.md) and [Report 18 Provenance Crosswalk](REPORT-18-PROVENANCE-CROSSWALK-2026-10-23.md).
 
 
 ## Foundational Seven — claim and technical audit
@@ -246,7 +246,7 @@ Tracks the located v3.0.0, v4.0.0, v5.0.0, v7.0.0, and v8.0.0 editions, their co
 
 ## Research-cycle archive reconciliation and typed dependency map
 
-The current integration work now includes the [typed dependency map and TI lineage reconciliation](GAIA-RESEARCH-TYPED-DEPENDENCY-MAP-AND-TI-LINEAGE-RECONCILIATION-2026-10-23.md), which distinguishes verified core-report interfaces from title-level dependency hypotheses in Reports 8–19 and records the missing Report 18 and TI v6 slots without inventing content. The [research/simulation archive reconciliation](RESEARCH-AND-SIMULATION-CYCLE-ARCHIVE-RECONCILIATION-2026-10-23.md) documents recovery checks for the historical 3/6/9/12-cycle packages and keeps the reported 84 + 84 totals unverified until original archive evidence is recovered. The five synthetic smoke-test functions have been rerun with headline outcomes matching the existing record; the twelve full Report 7 studies remain unexecuted.
+The current integration work now includes the [typed dependency map and TI lineage reconciliation](GAIA-RESEARCH-TYPED-DEPENDENCY-MAP-AND-TI-LINEAGE-RECONCILIATION-2026-10-23.md), which distinguishes verified core-report interfaces from title-level dependency hypotheses in Reports 8–19 and records the Report 18 candidate draft/provenance boundary and missing TI v6 slot without inventing content. The [research/simulation archive reconciliation](RESEARCH-AND-SIMULATION-CYCLE-ARCHIVE-RECONCILIATION-2026-10-23.md) documents recovery checks for the historical 3/6/9/12-cycle packages and keeps the reported 84 + 84 totals unverified until original archive evidence is recovered. The five synthetic smoke-test functions have been rerun with headline outcomes matching the existing record; the twelve full Report 7 studies remain unexecuted.
 
 ## Report 7 simulation execution readiness
 
