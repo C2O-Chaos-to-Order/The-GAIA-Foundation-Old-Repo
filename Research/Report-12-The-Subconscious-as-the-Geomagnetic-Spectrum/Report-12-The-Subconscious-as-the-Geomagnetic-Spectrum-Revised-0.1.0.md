@@ -200,3 +200,7 @@ A valid analysis record must identify the station and magnetic component, datase
 ### Additional technical source check — pulsation-class ranges
 
 A technical review, [“From Foreshock 30-Second Waves to Magnetospheric Pc3 Waves”](https://pmc.ncbi.nlm.nih.gov/articles/PMC11889074/), lists the conventional continuous-pulsation periods as Pc1 0.2–5 s, Pc2 5–10 s, Pc3 10–45 s, Pc4 45–150 s, and Pc5 150–600 s (equivalent frequency bands are the inverse of these periods). This gives the report a source-pinned convention for its stated ranges. It remains necessary to specify the adopted convention and data-processing method because measured wave populations and reported boundaries can vary by source and context. No observed dataset was analyzed in this update.
+
+## Cross-report alignment — Report 13
+
+Report 13, [The Geomagnetic Spectrum as Subconscious and Soul](../Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul/Report-13-The-Geomagnetic-Spectrum-as-Subconscious-and-Soul-Revised-0.1.0.md), preserves Report 12's focus on the spectrum as a structural analogue for subconscious processes while adding a distinct paired assignment for the geomagnetic **field** as a structural analogue for soul. The field/spectrum distinction is conceptual and measurement-based; it does not establish a literal planetary unconscious, human decoding of geomagnetic spectra, or quantum entanglement. Report 12 remains independently scoped to spectrum/data and timescale questions; Report 13 is the cross-domain synthesis.
