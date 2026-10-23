@@ -142,3 +142,14 @@ Reject the following in future revisions:
 **Pending:** exact-source recovery and checking for S04, S05, S07, and S08; claim-by-claim tracing of the 0.74 mV/mm and propagation-speed figures to their primary experimental sources; systematic review; specialist review by a neuroscientist and philosopher of mind; and any empirical test designed to distinguish field contribution from field constitution of experience.
 
 **No simulation claimed:** no new neural-field simulation or experimental analysis was performed for this report.
+
+
+## Additional source-audit checkpoint — 2026-10-23
+
+NASA’s “Climate and Earth’s Energy Budget” provides an institutional reference for the distinction between incoming solar radiation (primarily visible and near-infrared) and Earth’s outgoing thermal-infrared radiation, and notes uncertainty in energy-flow estimates: https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/. The NASA Technical Reports Server’s Schumann-resonance record describes a physical surface–ionosphere cavity excited by sources such as lightning: https://ntrs.nasa.gov/citations/20120000051.
+
+The 2025 review by Jedlicka & Havenith, “Religious and spiritual experiences from a neuroscientific and complex systems perspective,” DOI https://doi.org/10.1016/j.neubiorev.2025.106319, supports a multiscale account of spiritual experience and discusses methodological limits; it does not establish that electromagnetic radiation constitutes consciousness.
+
+**Correction boundary:** neural electromagnetic fields are measurable physical phenomena, but the claim that an endogenous field constitutes subjective experience remains a distinct and contested hypothesis. A field’s presence, a causal contribution to neural processing, and constitution of phenomenal consciousness are three different propositions. Cosmic radiation used as an analogue for “Spirit” is symbolic, not an empirical identity.
+
+**Status:** targeted institutional/review sources checked; the report’s specific numerical field-strength and propagation claims still require tracing to primary experimental sources. No neural-field experiment or simulation was performed.
