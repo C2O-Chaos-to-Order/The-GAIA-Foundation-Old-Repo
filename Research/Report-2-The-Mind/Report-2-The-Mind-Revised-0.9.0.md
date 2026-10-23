@@ -162,3 +162,12 @@ v8.0.0 distinguishes self-reference, metacognition, recurrence, agency, and phen
 **Correction boundary:** distinguish measurable interoceptive physiology, cognitive/behavioral models, and phenomenal consciousness. A successful model of regulation or action does not establish subjective experience. Any custom agent or arbitration model in this report needs explicit variables, comparison baselines, ablations, sensitivity analysis, and replication before it can be treated as validated.
 
 **Remaining:** full claim-by-claim source audit, model specification review, and independent neuroscience/cognitive-science review. No new simulation was run. Status remains OPEN.
+
+
+## Follow-up primary-source check — interoceptive prioritisation (2026-10-23)
+
+The Grimbly et al. “Two Routes to Interoceptive Prioritisation: Dissociating Likelihood Precision and Preference Reweighting in Active Inference” page is located at https://stjohngrimbly.com/iwai2026/. It identifies the work as accepted for oral presentation at the International Workshop on Active Inference (IWAI 2026) and states that an arXiv preprint will be linked once announced. The reported gridworld comparison says precision improved survival, preference reweighting changed the visited bodily-state distribution, and the predicted preference benefit on 72 additional difficult layouts was not established; both interventions improved average survival and interacted positively.
+
+**Evidence classification:** this is a bounded computational result reported on a workshop/project page, not evidence that the same mechanism is established in human interoception. Keep its model assumptions, implementation, code/supplement, and later preprint/proceedings status in the source audit. The separate 2026 *Cell* whole-cell model of JCVI-syn3A is a strong example of integrated cell-scale modeling, but it is not a model of cognition or mind (Thornburg et al., DOI https://doi.org/10.1016/j.cell.2026.02.009).
+
+**Status correction:** source page located and claims checked at the abstract level; full preprint/proceedings review and independent reproduction remain pending. No new simulation was run. Status remains OPEN.
