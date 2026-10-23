@@ -185,3 +185,20 @@ Report 9 contributes a reciprocal model: Soul names inward self-relation and con
 - Keep source audits and independent review marked pending until actually completed.
 
 See [Report 9 — The Connection of Spirit and Soul](../Report-9-The-Connection-of-Spirit-and-Soul/Report-9-The-Connection-of-Spirit-and-Soul-Revised-0.1.0.md).
+
+
+---
+
+## Report 10 Integration — Earth and the Electromagnetic Spectrum
+
+Report 10 adds Earth’s electromagnetic and radiative coupling as a concrete physical domain within the unified framework. Its role is to ground cross-domain claims in mechanisms and scales rather than to make electromagnetic language a universal explanation.
+
+**Integration rules:**
+- Specify wavelength/frequency, spatial and temporal scale, interaction mechanism, measurement method, and uncertainty for quantitative claims.
+- Separate physical radiation and fields from symbolic meanings of light, and from philosophical or spiritual interpretations.
+- Do not infer that consciousness is electromagnetic merely because neural activity involves electrical signals.
+- Treat radical-pair magnetoreception as an influential, still-evolving research area; do not generalize condition-specific radiofrequency findings.
+- Flag source identifiers, old energy-budget estimates, and atmospheric-window boundaries for source-level verification.
+- Meta-wisdom means acknowledging the limits of sensing and instrumentation, distinguishing observations from inferences, and revising conclusions when better measurements appear.
+
+See [Report 10 — Earth and the Electromagnetic Spectrum](../Report-10-Earth-and-the-Electromagnetic-Spectrum/Report-10-Earth-and-the-Electromagnetic-Spectrum-Revised-0.1.0.md). Source audit and independent disciplinary review remain pending; no model run or experiment is claimed.
