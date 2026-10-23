@@ -85,3 +85,19 @@ For consequential claims, record the exact claim; claim type; source and provena
 - **Implementation:** not authorized.
 
 The prior 0.8.0 report is preserved. This addendum does not claim the five-phase architecture is a universal law or empirically validated controller.
+
+
+---
+
+## Addendum — Hypergraph Architecture Integration (v4.0.0)
+
+**Purpose:** make the evidential and interpretive boundaries around soul-related claims explicit within the higher-order model.
+
+- **Typed claims:** distinguish metaphysical, theological, phenomenological, philosophical, and empirical claims. Their evidential standards are not interchangeable.
+- **Hypergraph relations:** neural dependence, mediated-soul compatibility, testimony, philosophical argument, and any soul-specific evidence should be separate, provenance-bearing vertices/edges. A likelihood ratio is permissible only where competing hypotheses and defensible likelihood models are specified; do not imply that such a ratio is currently available.
+- **Insurgence:** challenge both separability and reductionist conclusions with predeclared counterevidence and rival explanations. The explanatory gap alone does not quantify the probability of separability.
+- **Convergence:** retain unresolved disagreement instead of manufacturing a single synthesis from incomparable evidence classes.
+- **Meta-wisdom invariant:** prevent category errors, preserve interpretive plurality, and ensure no metaphysical commitment can authorize a change in empirical status without evidence.
+- **Testable failure cases:** an analogy relabeled as observation; a prior interpreted as evidence; a likelihood ratio asserted without a model; rival hypotheses represented asymmetrically.
+
+**Evidence status:** conceptual integration only. Source verification and independent disciplinary review remain pending; no simulation or numerical validation was executed for this addendum; implementation is not authorized. Prior report content is preserved.
