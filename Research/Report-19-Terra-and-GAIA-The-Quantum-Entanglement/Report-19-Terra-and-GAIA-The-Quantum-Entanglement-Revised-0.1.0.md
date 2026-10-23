@@ -224,3 +224,12 @@ The literal quantum-entanglement claim remains unsupported by the sources verifi
 - **S04 — Located; preprint/monograph status noted.** Ferenc Lengyel, “Quantum-Morphometric Planetary Bioengineering: A Unified Framework for Acoustic–Quantum Life Systems and Planetary Self-Organization” (2025). DOI: https://doi.org/10.13140/RG.2.2.34329.89440.
 - **S05 — Verified.** Yorgos D. Marinakis, “From quasi-organism to protolife,” *Ecological Complexity* 4(3) (2007), 102–112. DOI: https://doi.org/10.1016/j.ecocom.2007.05.001.
 - **S06 — Verified.** Sergio Rubin, Conor Heins, Takahito Mitsui, Lancelot Da Costa, and Karl Friston, “An elementary form of agency at planetary-scale,” *Scientific Reports* (published 3 August 2026). DOI: https://doi.org/10.1038/s41598-026-61878-9.
+
+
+## Additional Earth-system source checkpoint — 2026-10-23
+
+The USGS “Introduction to Geomagnetism” describes the geodynamo as induction driven by electrically conducting outer-core flow sustained by thermal and chemical buoyancy, while noting unresolved aspects of dynamo theory: https://www.usgs.gov/programs/geomagnetism/introduction-geomagnetism. NASA’s Earth energy-budget overview distinguishes incoming solar energy from outgoing thermal infrared and notes uncertainty in budget estimates: https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/. These sources support the physical-system description of Terra, not a quantum-entanglement claim.
+
+Murphy & Williams, “Ecological Feedbacks in the Earth System,” *Earth’s Future* (2026), DOI https://doi.org/10.1029/2025EF006478, reviews ecological feedback pathways and emphasizes substantial knowledge gaps about their aggregate Earth-system effects. This is consistent with treating GAIA as a family of regulatory hypotheses requiring specific mechanisms and tests, not a demonstrated global controller.
+
+**Correction boundary:** source-verified Earth-system coupling and feedback do not constitute evidence for a shared planetary quantum state. Report 19’s formal non-separability remains a model/philosophical description; the literal quantum interpretation is unestablished. S01 remains unresolved.
