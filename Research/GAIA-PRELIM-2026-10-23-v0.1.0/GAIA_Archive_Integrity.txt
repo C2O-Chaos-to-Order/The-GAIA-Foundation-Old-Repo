@@ -1,8 +1,0 @@
-Package: GAIA-PRELIM-2026-10-23-v0.1.0
-ZIP bytes: 254130
-Archived files: 47
-ZIP SHA-256: 3fc9a959343fa44ad8fe478d80cc9c5faf6b156a7fd2a8a83aa337c4a89b9b15
-CRC test: PASS
-All 45 manifest data-file digests matched archive bytes.
-Simulation: one invocation, 30/30 implementation assertions passed.
-Checksums confirm file integrity, not scientific validity.
