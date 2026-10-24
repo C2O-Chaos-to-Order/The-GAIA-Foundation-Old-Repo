@@ -1,0 +1,26 @@
+being,lens,n_claims,E,P,PS,H,flag,claim_ids
+Body,Truth,3,2,1,0,0,populated,C0v2-R1-15;C2-R1-03;C2-R1-04
+Body,Integrity,7,5,2,0,0,populated,C0v2-R1-02;C0v2-R1-06;C0v2-R1-07;C0v2-R1-10;C0v2-R1-11;C0v2-R1-15;C1-R1-02
+Body,Love,0,0,0,0,0,EMPTY,
+Body,Justice,0,0,0,0,0,EMPTY,
+Body,Wisdom,2,2,0,0,0,UNDER-RESEARCHED (<3 claims),C1-R1-03;C2-R1-04
+Mind,Truth,14,9,5,0,0,populated,C0v2-R2-01;C0v2-R2-02;C0v2-R2-04;C0v2-R2-05;C0v2-R2-11;C0v2-R2-12;C0v2-R2-13;C1-R2-01;C1-R2-02;C1-R2-04;C1-R2-06;C1-R2-07;C2-R2-01;C2-R2-03
+Mind,Integrity,3,0,1,2,0,populated,C0v2-R2-05;C0v2-R2-08;C0v2-R2-09
+Mind,Love,1,0,1,0,0,UNDER-RESEARCHED (<3 claims),C1-R2-01
+Mind,Justice,0,0,0,0,0,EMPTY,
+Mind,Wisdom,3,1,2,0,0,populated,C0v2-R2-04;C0v2-R2-05;C1-R2-02
+Soul,Truth,3,3,0,0,0,populated,C1-R3-03;C2-R3-01;C2-R3-03
+Soul,Integrity,3,1,0,2,0,populated,C0v2-R3-07;C0v2-R3-13;C0v2-R3-18
+Soul,Love,2,2,0,0,0,UNDER-RESEARCHED (<3 claims),C0v2-R3-11;C0v2-R3-12
+Soul,Justice,3,3,0,0,0,populated,C0v2-R3-11;C0v2-R3-14;C1-R3-02
+Soul,Wisdom,3,1,0,2,0,populated,C0v2-R3-15;C0v2-R3-17;C1-R3-03
+Spirit,Truth,14,11,1,1,1,populated,C0v2-R4-11;C0v2-R4-12;C0v2-R4-13;C0v2-R4-14;C0v2-R4-15;C1-R4-01;C1-R4-02;C1-R4-07;C1-R4-08;C1-R4-09;C2-R4-01;C2-R4-03;C2-R4-04;C2-R4-05
+Spirit,Integrity,1,1,0,0,0,UNDER-RESEARCHED (<3 claims),C2-R4-01
+Spirit,Love,4,2,0,1,1,populated,C0v2-R4-07;C0v2-R4-14;C1-R4-03;C2-R4-01
+Spirit,Justice,1,0,0,1,0,UNDER-RESEARCHED (<3 claims),C0v2-R4-07
+Spirit,Wisdom,3,0,3,0,0,populated,C0v2-R4-08;C0v2-R4-10;C0v2-R4-11
+Consciousness,Truth,8,5,3,0,0,populated,C0v2-R5-08;C0v2-R5-10;C1-R5-02;C2-R5-01;C2-R5-02;C2-R5-03;C2-R5-04;C2-R5-05
+Consciousness,Integrity,4,3,0,1,0,populated,C0v2-R5-04;C0v2-R5-08;C2-R5-03;C2-R5-04
+Consciousness,Love,0,0,0,0,0,EMPTY,
+Consciousness,Justice,0,0,0,0,0,EMPTY,
+Consciousness,Wisdom,0,0,0,0,0,EMPTY,
