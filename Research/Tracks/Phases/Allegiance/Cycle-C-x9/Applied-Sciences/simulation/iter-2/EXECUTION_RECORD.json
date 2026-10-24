@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AL-APP-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:36.377508+00:00",
+ "finished_utc": "2026-10-24T19:31:36.830134+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "dd1da2aa753ea638b08c8f800be1bccb06d88011c3b7fbb548179186f50976f4",
+ "params_sha256": "d3d017a1406ae486f96622f61e5d5a213c2ba3c067efbba8778bd6716540fe4f",
+ "results_sha256": "60d92931fd1462a9562f3136c314c1893ccf0e96e7a1e6417ff5c60f4298f459",
+ "results": {
+  "P54_28wk": {
+   "power": {
+    "0.39": 0.41013186,
+    "0.6": 0.75967525
+   },
+   "printed": null
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "power at d = 0 equals alpha (within 1e-6)",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "power for d 0.6 >= 0.8",
+   "observed": {
+    "P54_28wk": {
+     "power": {
+      "0.39": 0.41013186,
+      "0.6": 0.75967525
+     },
+     "printed": null
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "power for d 0.39 below 0.5",
+   "observed": {
+    "P54_28wk": {
+     "power": {
+      "0.39": 0.41013186,
+      "0.6": 0.75967525
+     },
+     "printed": null
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "P54_28wk": {
+     "power": {
+      "0.39": 0.41013186,
+      "0.6": 0.75967525
+     },
+     "printed": null
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
