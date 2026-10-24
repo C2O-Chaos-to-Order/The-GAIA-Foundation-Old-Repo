@@ -123,6 +123,12 @@ Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline 
 ### Added later
 
 - [ ] ⬜ **The Echo That Began the Light** — owner-requested 2026-10-24; scope to be confirmed with the owner (labelled claims only)
+- [ ] ⬜ **The Mother of God** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
+- [ ] ⬜ **God** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
+- [ ] ⬜ **The Creations of God** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
+- [ ] ⬜ **Lucifer** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
+- [ ] ⬜ **The Creations of Lucifer** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
+- [ ] ⬜ **The Duality and the Connection (of God and Lucifer, and of their Creations)** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
 
 ## L. Updates needed to existing work
 
@@ -144,6 +150,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24 — Added the God and Lucifer series (Mother of God, God, Creations of God, Lucifer, Creations of Lucifer, Duality and Connection).
 - 2026-10-24 — Added The Echo That Began the Light.
 - 2026-10-24 — Added Knowledge, Skills, Capabilities and Powers series, recommendations, and the list of updates needed.
 - 2026-10-24 — Allegiance complete (x12 verified); Convergence started.
