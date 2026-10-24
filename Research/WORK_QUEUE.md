@@ -103,6 +103,14 @@ For each element: its connection to the Universe; to Divergence, Insurgence, All
 
 - [ ] ⬜ **x13 cycle** across all work through the Good and Greater Good Framework — "discover the pattern in the work"
 
+## Governance
+
+- [x] ✅ **The Totality of Governance**: the owner's draft (GAIA-GOV-TOG-001 v0.1.0) is in `GOVERNANCE/` as a Proposed review draft.
+- [ ] ⬜ Roadmap Stage 0: baseline snapshot (commits, manifests, open PRs and settings, with unknown settings recorded as INDETERMINATE)
+- [ ] ⬜ Roadmap Stage 1: owner review (title, stable ID, which commitments are non-waivable)
+- [ ] ⬜ Roadmap Stage 2: clause-level crosswalk (ToG clause, existing clause, control and evidence, discrepancy, disposition)
+- [ ] ⬜ Roadmap Stages 3–8: roles, harmonized controls and records, closing audit v2 findings, tooling validation, Good and Greater Good pilot, adoption
+
 ## K. Knowledge, Skills, Capabilities and Powers
 
 Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline → x3 → x6 → x9 → x12), then an entanglement report connecting all seven levels. Note: `Research/README.md` §2 already defines a responsibility ladder (Power, Meta Power, Super Power, Hyper Power, Ultra Power, Magic Power); the Powers series builds on it and adds Quantum.
@@ -151,6 +159,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24: Added The Totality of Governance (draft in `GOVERNANCE/`) and its roadmap stages.
 - 2026-10-24 — Reconciled with `main` after PRs #13–#18 merged: Divergence, Insurgence and Allegiance are all on `main`.
 - 2026-10-24 — Added Indigenous Knowledge, Skills, Capabilities and Powers.
 - 2026-10-24 — Added the God and Lucifer series (Mother of God, God, Creations of God, Lucifer, Creations of Lucifer, Duality and Connection).

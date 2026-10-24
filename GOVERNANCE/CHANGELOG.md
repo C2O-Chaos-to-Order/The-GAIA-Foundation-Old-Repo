@@ -1,5 +1,10 @@
 # GOVERNANCE — Change log
 
+## 2026-10-24 — Totality of Governance 0.1.0 (Proposed review draft)
+- **Added** `TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md` (GAIA-GOV-TOG-001, GAIA-GOV-TOG-MATRIX-001, templates and roadmap, rev 0.1.0), provided by the repository owner and preserved verbatim.
+- Status stays as the draft itself states: **Proposed — review draft; not adopted, not implemented, not independently reviewed.** No existing standard, gate, risk level or audit record was changed. The canonical names the draft proposes in its §19 (`TOTALITY_OF_GOVERNANCE.md`, `CONTROL_MATRIX.csv`, the registers and the templates) are **not** created until the owner approves them (Roadmap Stage 1).
+- Branch `research/governance-totality` from `main` @ `52f9099`. Commit authored as Grok Bot with a `Co-authored-by` line for the owner.
+
 ## 2026-10-24 — Universal Regulation 0.1.0 (Proposed) and audit v1
 - **Added** `UNIVERSAL_REGULATION.md` (GAIA-GOV-UR-001, rev 0.1.0, status Proposed): the owner's Universal Regulation Principle, seven universal laws, universality layers, five regulation domains (Epistemic, Scientific, Ethical, Technical, Operational) and absolute boundary, preserved verbatim; decision vocabulary and gate record; universal standards (Evidence, Provenance, Testing, Risk, Review, Authorization); domain-standard stubs UR-EPI/SCI/ETH/TEC/OPS with acceptance criteria; relationship to `Research/README.md` (responsibility ladder, gates) and `Research/RESEARCH_PLAN_EXTENSION.md`; adoption path.
 - **Added** `AUDIT_UNIVERSAL_REGULATION_v1.md` and `AUDIT_UNIVERSAL_REGULATION_v1.csv`: 45 items over all main content, Cycles 0-4, Master Report, Tracks A-D, Maps v1-v8 and tools; 20 PASS, 13 FAIL, 12 INDETERMINATE; overall gate INDETERMINATE. Records audit-trail findings: placeholder commit `53b6603` (replaced by `5ee8d0f`/`fd776a5`) and parallel-push slips (C4 b_003/b_004, b_006/b_007; Track A b001/b002).

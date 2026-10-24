@@ -9,6 +9,7 @@ Governance standards for The GAIA Foundation. **Owner and decision authority:** 
 | [`AUDIT_UNIVERSAL_REGULATION_v1.csv`](AUDIT_UNIVERSAL_REGULATION_v1.csv) | Audit v1 items | Data for v1 |
 | [`AUDIT_UNIVERSAL_REGULATION_v2.md`](AUDIT_UNIVERSAL_REGULATION_v2.md) | Re-audit after remediation (29 PASS / 3 FAIL / 13 INDETERMINATE) | Gate **INDETERMINATE** (self-audit; independent review pending) |
 | [`AUDIT_UNIVERSAL_REGULATION_v2.csv`](AUDIT_UNIVERSAL_REGULATION_v2.csv) | Audit v2 items, with v1 decision and change per item | Data for v2 |
+| [`TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md`](TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md) | GAIA Totality of Governance (GAIA-GOV-TOG-001, rev 0.1.0), provided by the owner and preserved verbatim: Charter, Control Matrix, Gates and Record Templates, Adoption Roadmap and Gap Register. Proposed umbrella over the existing standards; it supersedes none of them | **Proposed — review draft** (not adopted, not implemented, not independently reviewed) |
 | [`GATE_AUTHORITY.md`](GATE_AUTHORITY.md) | Who decides gates: the owner; agents never; INDETERMINATE is never PASS; merge is not a gate PASS; register of gate records | Proposed |
 | [`RISK_LEVELS.md`](RISK_LEVELS.md) | Risk tiers (the responsibility ladder) and overlays, applied to every product | Proposed |
 | [`PRODUCT_REGISTER.csv`](PRODUCT_REGISTER.csv) | 64 products: owner, decision authority, tier, overlays, effects, safeguards, gate | Generated |
