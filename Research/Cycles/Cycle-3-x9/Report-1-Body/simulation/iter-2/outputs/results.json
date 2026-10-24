@@ -1,0 +1,2478 @@
+{
+ "carried_from_prev": {},
+ "grid": [
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.8404848929,
+   "ha_days_lost": 13,
+   "ratio": 4.4966201979,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 21.7658221369,
+   "slow_share_after_decay": 0.9984694952,
+   "theta": [
+    0.6,
+    0.99,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0140990317,
+   "w_after_decay": 0.0045445707
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.3768345293,
+   "ha_days_lost": 12,
+   "ratio": 4.4611901421,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 15.0647009136,
+   "slow_share_after_decay": 0.9994152102,
+   "theta": [
+    0.6,
+    0.99,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0198198701,
+   "w_after_decay": 0.0104498911
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.353857541,
+   "ha_days_lost": 9,
+   "ratio": 4.547882259,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 10.7050669508,
+   "slow_share_after_decay": 0.999732985,
+   "theta": [
+    0.6,
+    0.99,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0274865237,
+   "w_after_decay": 0.0184286132
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.7301035586,
+   "ha_days_lost": 13,
+   "ratio": 4.5872024834,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 26.2851452746,
+   "slow_share_after_decay": 0.9969371968,
+   "theta": [
+    0.6,
+    0.99,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0197192737,
+   "w_after_decay": 0.0039001864
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.4394870077,
+   "ha_days_lost": 13,
+   "ratio": 4.5910111874,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 20.3817345189,
+   "slow_share_after_decay": 0.9988304413,
+   "theta": [
+    0.6,
+    0.99,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0240458562,
+   "w_after_decay": 0.0091006789
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.2555456906,
+   "ha_days_lost": 13,
+   "ratio": 4.6401729606,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 15.1062950856,
+   "slow_share_after_decay": 0.9994616264,
+   "theta": [
+    0.6,
+    0.99,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0299635858,
+   "w_after_decay": 0.0163068906
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.3309022312,
+   "ha_days_lost": 10,
+   "ratio": 14.0,
+   "reinduction_days_to_95pct": 1,
+   "reinduction_pct_per_day": 88.6326312371,
+   "slow_share_after_decay": 0.9940028461,
+   "theta": [
+    0.6,
+    0.99,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0272246196,
+   "w_after_decay": 0.0030947229
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.4028895548,
+   "ha_days_lost": 11,
+   "ratio": 6.951720331,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 37.559377164,
+   "slow_share_after_decay": 0.9976829682,
+   "theta": [
+    0.6,
+    0.99,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0299158574,
+   "w_after_decay": 0.0072873671
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.3269416666,
+   "ha_days_lost": 11,
+   "ratio": 6.789264113,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 29.3767497764,
+   "slow_share_after_decay": 0.9989132706,
+   "theta": [
+    0.6,
+    0.99,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0336977531,
+   "w_after_decay": 0.0132846034
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.6153688112,
+   "ha_days_lost": 13,
+   "ratio": 4.6163646362,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 21.3062253629,
+   "slow_share_after_decay": 0.9986248281,
+   "theta": [
+    0.6,
+    0.995,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0142550917,
+   "w_after_decay": 0.0050441409
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.0382146576,
+   "ha_days_lost": 12,
+   "ratio": 4.6666666667,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 14.1783350686,
+   "slow_share_after_decay": 0.9994764844,
+   "theta": [
+    0.6,
+    0.995,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0201685077,
+   "w_after_decay": 0.0115898319
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 1.9492310635,
+   "ha_days_lost": 8,
+   "ratio": 6.2872103089,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 12.2552256368,
+   "slow_share_after_decay": 0.9997626583,
+   "theta": [
+    0.6,
+    0.995,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0280706766,
+   "w_after_decay": 0.0204104037
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.5839105697,
+   "ha_days_lost": 13,
+   "ratio": 4.6447383407,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 25.9358035144,
+   "slow_share_after_decay": 0.9972477688,
+   "theta": [
+    0.6,
+    0.995,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.019837553,
+   "w_after_decay": 0.0043295959
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.1766070253,
+   "ha_days_lost": 13,
+   "ratio": 4.6666666667,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 19.4908327847,
+   "slow_share_after_decay": 0.9989526867,
+   "theta": [
+    0.6,
+    0.995,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0243150119,
+   "w_after_decay": 0.010097417
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.8998277173,
+   "ha_days_lost": 13,
+   "ratio": 6.4225622723,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 18.6243240932,
+   "slow_share_after_decay": 0.9995209985,
+   "theta": [
+    0.6,
+    0.995,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0304218427,
+   "w_after_decay": 0.0180713083
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.2434866323,
+   "ha_days_lost": 10,
+   "ratio": 14.0,
+   "reinduction_days_to_95pct": 1,
+   "reinduction_pct_per_day": 87.4088128522,
+   "slow_share_after_decay": 0.9946123496,
+   "theta": [
+    0.6,
+    0.995,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0273009652,
+   "w_after_decay": 0.0034375156
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.2219402796,
+   "ha_days_lost": 11,
+   "ratio": 6.9977418017,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 36.5417897806,
+   "slow_share_after_decay": 0.9979249233,
+   "theta": [
+    0.6,
+    0.995,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0300904982,
+   "w_after_decay": 0.0080921884
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.0469503258,
+   "ha_days_lost": 11,
+   "ratio": 6.9670274595,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 28.1952140471,
+   "slow_share_after_decay": 0.9990317826,
+   "theta": [
+    0.6,
+    0.995,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0340006384,
+   "w_after_decay": 0.0147367931
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.4203447654,
+   "ha_days_lost": 13,
+   "ratio": 4.6666666667,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 20.6282755718,
+   "slow_share_after_decay": 0.9987377088,
+   "theta": [
+    0.6,
+    0.999,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0143848796,
+   "w_after_decay": 0.0054828218
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.7471049661,
+   "ha_days_lost": 11,
+   "ratio": 6.3133862986,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 17.3435348538,
+   "slow_share_after_decay": 0.9995209398,
+   "theta": [
+    0.6,
+    0.999,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0204583071,
+   "w_after_decay": 0.0125901507
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 1.6029451604,
+   "ha_days_lost": 6,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 11.2206161231,
+   "slow_share_after_decay": 0.9997841395,
+   "theta": [
+    0.6,
+    0.999,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0285554819,
+   "w_after_decay": 0.0221472799
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.4564626595,
+   "ha_days_lost": 13,
+   "ratio": 4.6666666667,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 25.4634924112,
+   "slow_share_after_decay": 0.9974735114,
+   "theta": [
+    0.6,
+    0.999,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0199360277,
+   "w_after_decay": 0.004706801
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.9489721821,
+   "ha_days_lost": 13,
+   "ratio": 6.3984750508,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 25.2673999831,
+   "slow_share_after_decay": 0.9990413844,
+   "theta": [
+    0.6,
+    0.999,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0245390419,
+   "w_after_decay": 0.0109724828
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.5935033631,
+   "ha_days_lost": 12,
+   "ratio": 6.8618469817,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 17.7962232244,
+   "slow_share_after_decay": 0.9995639674,
+   "theta": [
+    0.6,
+    0.999,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0308030456,
+   "w_after_decay": 0.0196187533
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.1669055624,
+   "ha_days_lost": 10,
+   "ratio": 14.0,
+   "reinduction_days_to_95pct": 1,
+   "reinduction_pct_per_day": 86.3366778737,
+   "slow_share_after_decay": 0.9950553991,
+   "theta": [
+    0.6,
+    0.999,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0273645548,
+   "w_after_decay": 0.0037389073
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.064118114,
+   "ha_days_lost": 11,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 35.4488267983,
+   "slow_share_after_decay": 0.9981004763,
+   "theta": [
+    0.6,
+    0.999,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0302361208,
+   "w_after_decay": 0.0087994206
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.8039073244,
+   "ha_days_lost": 11,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 26.6273512706,
+   "slow_share_after_decay": 0.9991175867,
+   "theta": [
+    0.6,
+    0.999,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.034253016,
+   "w_after_decay": 0.0160116742
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.3693989327,
+   "ha_days_lost": 13,
+   "ratio": 4.6666666667,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 20.3905283525,
+   "slow_share_after_decay": 0.9987644565,
+   "theta": [
+    0.6,
+    1.0,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0144180332,
+   "w_after_decay": 0.0055982938
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.6713835423,
+   "ha_days_lost": 11,
+   "ratio": 6.4507234186,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 17.2323563763,
+   "slow_share_after_decay": 0.9995314634,
+   "theta": [
+    0.6,
+    1.0,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0205323241,
+   "w_after_decay": 0.0128533643
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 1.5131026275,
+   "ha_days_lost": 6,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 10.5917183928,
+   "slow_share_after_decay": 0.9997892164,
+   "theta": [
+    0.6,
+    1.0,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0286792709,
+   "w_after_decay": 0.0226040157
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.4230524651,
+   "ha_days_lost": 13,
+   "ratio": 6.551450434,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 35.5288594261,
+   "slow_share_after_decay": 0.9975270083,
+   "theta": [
+    0.6,
+    1.0,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0199611976,
+   "w_after_decay": 0.0048061106
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.8895225886,
+   "ha_days_lost": 13,
+   "ratio": 6.4385630424,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 25.0429363919,
+   "slow_share_after_decay": 0.9990623829,
+   "theta": [
+    0.6,
+    1.0,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0245962963,
+   "w_after_decay": 0.0112027973
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.513743411,
+   "ha_days_lost": 12,
+   "ratio": 6.9954941005,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 17.584877202,
+   "slow_share_after_decay": 0.9995741261,
+   "theta": [
+    0.6,
+    1.0,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0309003644,
+   "w_after_decay": 0.0200257821
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.1467739866,
+   "ha_days_lost": 10,
+   "ratio": 14.0,
+   "reinduction_days_to_95pct": 1,
+   "reinduction_pct_per_day": 86.0548358124,
+   "slow_share_after_decay": 0.9951603983,
+   "theta": [
+    0.6,
+    1.0,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0273807904,
+   "w_after_decay": 0.0038182962
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.022734571,
+   "ha_days_lost": 11,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 35.1591419971,
+   "slow_share_after_decay": 0.9981420363,
+   "theta": [
+    0.6,
+    1.0,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.030273373,
+   "w_after_decay": 0.0089856566
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.7403475053,
+   "ha_days_lost": 11,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 26.182432537,
+   "slow_share_after_decay": 0.9991378744,
+   "theta": [
+    0.6,
+    1.0,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0343175644,
+   "w_after_decay": 0.0163472181
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.4349374713,
+   "ha_days_lost": 13,
+   "ratio": 2.2415537257,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 12.1827043379,
+   "slow_share_after_decay": 0.8595815363,
+   "theta": [
+    0.8,
+    0.99,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.019929173,
+   "w_after_decay": 0.0047652397
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.2101774826,
+   "ha_days_lost": 13,
+   "ratio": 2.6455140149,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 11.1380835353,
+   "slow_share_after_decay": 0.9404935525,
+   "theta": [
+    0.8,
+    0.99,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0245860025,
+   "w_after_decay": 0.0100944017
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.1257956195,
+   "ha_days_lost": 11,
+   "ratio": 3.1589914121,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 9.8743615178,
+   "slow_share_after_decay": 0.9709516824,
+   "theta": [
+    0.8,
+    0.99,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0307973148,
+   "w_after_decay": 0.0173200591
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.0180986976,
+   "ha_days_lost": 13,
+   "ratio": 2.6657338266,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 16.0426492703,
+   "slow_share_after_decay": 0.7591301261,
+   "theta": [
+    0.8,
+    0.99,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0274538243,
+   "w_after_decay": 0.0043230489
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.1129862374,
+   "ha_days_lost": 13,
+   "ratio": 2.7276318963,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 13.9463443467,
+   "slow_share_after_decay": 0.8903105298,
+   "theta": [
+    0.8,
+    0.99,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0304337061,
+   "w_after_decay": 0.0086487092
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.0981203269,
+   "ha_days_lost": 13,
+   "ratio": 3.2956771117,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 13.5060813622,
+   "slow_share_after_decay": 0.9446461449,
+   "theta": [
+    0.8,
+    0.99,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0345067681,
+   "w_after_decay": 0.0147089638
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.3767521373,
+   "ha_days_lost": 13,
+   "ratio": 4.4950755528,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 28.6639826385,
+   "slow_share_after_decay": 0.621402349,
+   "theta": [
+    0.8,
+    0.99,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0352478518,
+   "w_after_decay": 0.0037804978
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.7970158368,
+   "ha_days_lost": 13,
+   "ratio": 4.4944156496,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 26.0541986981,
+   "slow_share_after_decay": 0.8074578187,
+   "theta": [
+    0.8,
+    0.99,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0367260172,
+   "w_after_decay": 0.0069198347
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.0281336638,
+   "ha_days_lost": 13,
+   "ratio": 4.4950646558,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 22.6017859169,
+   "slow_share_after_decay": 0.8968514238,
+   "theta": [
+    0.8,
+    0.99,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0388233162,
+   "w_after_decay": 0.0114940809
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.2845820747,
+   "ha_days_lost": 13,
+   "ratio": 2.280568599,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 12.0518519383,
+   "slow_share_after_decay": 0.8720906521,
+   "theta": [
+    0.8,
+    0.995,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0200648781,
+   "w_after_decay": 0.0052200488
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.9462032655,
+   "ha_days_lost": 12,
+   "ratio": 2.7479356011,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 10.8439124425,
+   "slow_share_after_decay": 0.9463743136,
+   "theta": [
+    0.8,
+    0.995,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0248908613,
+   "w_after_decay": 0.0111394456
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.775198516,
+   "ha_days_lost": 11,
+   "ratio": 3.3941804679,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 9.4195245975,
+   "slow_share_after_decay": 0.974026802,
+   "theta": [
+    0.8,
+    0.995,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.031306541,
+   "w_after_decay": 0.0191430797
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.9265171823,
+   "ha_days_lost": 13,
+   "ratio": 2.6831520279,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 15.9017465962,
+   "slow_share_after_decay": 0.7784539696,
+   "theta": [
+    0.8,
+    0.995,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0275459554,
+   "w_after_decay": 0.0046907345
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.9272913227,
+   "ha_days_lost": 13,
+   "ratio": 2.7691966179,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 13.6446384662,
+   "slow_share_after_decay": 0.9007025709,
+   "theta": [
+    0.8,
+    0.995,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0306428225,
+   "w_after_decay": 0.0095047666
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.8169579277,
+   "ha_days_lost": 13,
+   "ratio": 3.3987552891,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 12.972905945,
+   "slow_share_after_decay": 0.9503823351,
+   "theta": [
+    0.8,
+    0.995,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0348625871,
+   "w_after_decay": 0.0162329232
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.3237767434,
+   "ha_days_lost": 13,
+   "ratio": 4.5001476817,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 28.4579292514,
+   "slow_share_after_decay": 0.6469881916,
+   "theta": [
+    0.8,
+    0.995,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0352970763,
+   "w_after_decay": 0.0040475601
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.6788708611,
+   "ha_days_lost": 13,
+   "ratio": 4.5064190563,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 25.5913718669,
+   "slow_share_after_decay": 0.8243061259,
+   "theta": [
+    0.8,
+    0.995,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0368391916,
+   "w_after_decay": 0.00755049
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.828383187,
+   "ha_days_lost": 13,
+   "ratio": 4.5362101432,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 21.9025607879,
+   "slow_share_after_decay": 0.9070619531,
+   "theta": [
+    0.8,
+    0.995,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0390199506,
+   "w_after_decay": 0.0126434923
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.1534413441,
+   "ha_days_lost": 13,
+   "ratio": 2.6138238875,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 13.4701880879,
+   "slow_share_after_decay": 0.8814025295,
+   "theta": [
+    0.8,
+    0.999,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0201779429,
+   "w_after_decay": 0.0056199246
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.7176543246,
+   "ha_days_lost": 12,
+   "ratio": 3.1993018854,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.89389849,
+   "slow_share_after_decay": 0.9506852754,
+   "theta": [
+    0.8,
+    0.999,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0251447869,
+   "w_after_decay": 0.0120576393
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.4734176884,
+   "ha_days_lost": 10,
+   "ratio": 4.1291690657,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 10.2131598055,
+   "slow_share_after_decay": 0.9762651769,
+   "theta": [
+    0.8,
+    0.999,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0317302811,
+   "w_after_decay": 0.0207427677
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.8462072922,
+   "ha_days_lost": 13,
+   "ratio": 2.6999364065,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 15.7843879078,
+   "slow_share_after_decay": 0.7930975528,
+   "theta": [
+    0.8,
+    0.999,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0276229056,
+   "w_after_decay": 0.0050144131
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.7652846688,
+   "ha_days_lost": 13,
+   "ratio": 3.2868923511,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 15.6629777286,
+   "slow_share_after_decay": 0.9083858043,
+   "theta": [
+    0.8,
+    0.999,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0308174449,
+   "w_after_decay": 0.0102578992
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5729450423,
+   "ha_days_lost": 13,
+   "ratio": 3.5,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 12.5053076479,
+   "slow_share_after_decay": 0.9545766182,
+   "theta": [
+    0.8,
+    0.999,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0351590212,
+   "w_after_decay": 0.0175720461
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.277118185,
+   "ha_days_lost": 13,
+   "ratio": 4.5053266242,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 28.280467682,
+   "slow_share_after_decay": 0.6668785567,
+   "theta": [
+    0.8,
+    0.999,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0353383573,
+   "w_after_decay": 0.004283131
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.5751146024,
+   "ha_days_lost": 13,
+   "ratio": 4.5190063985,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 25.1939785608,
+   "slow_share_after_decay": 0.8369473182,
+   "theta": [
+    0.8,
+    0.999,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0369340656,
+   "w_after_decay": 0.0081064348
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.6536054582,
+   "ha_days_lost": 13,
+   "ratio": 4.5855257192,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 21.3392275156,
+   "slow_share_after_decay": 0.9145904457,
+   "theta": [
+    0.8,
+    0.999,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0391845721,
+   "w_after_decay": 0.0136556367
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.1190550583,
+   "ha_days_lost": 13,
+   "ratio": 2.624591067,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 13.4354261774,
+   "slow_share_after_decay": 0.8836370258,
+   "theta": [
+    0.8,
+    1.0,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0202068535,
+   "w_after_decay": 0.0057252541
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.657972853,
+   "ha_days_lost": 12,
+   "ratio": 3.2360551738,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.8374019766,
+   "slow_share_after_decay": 0.9517113386,
+   "theta": [
+    0.8,
+    1.0,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0252097055,
+   "w_after_decay": 0.0122994069
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.3948668965,
+   "ha_days_lost": 10,
+   "ratio": 4.2191732541,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 10.1043583569,
+   "slow_share_after_decay": 0.9767959061,
+   "theta": [
+    0.8,
+    1.0,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.031838562,
+   "w_after_decay": 0.0211636855
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.8250855613,
+   "ha_days_lost": 13,
+   "ratio": 2.7045896437,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 15.7544660827,
+   "slow_share_after_decay": 0.7966448279,
+   "theta": [
+    0.8,
+    1.0,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0276426091,
+   "w_after_decay": 0.0050997303
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.7227991657,
+   "ha_days_lost": 13,
+   "ratio": 3.2987324576,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 15.5792508985,
+   "slow_share_after_decay": 0.9102226548,
+   "theta": [
+    0.8,
+    1.0,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0308621515,
+   "w_after_decay": 0.0104563474
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5091404834,
+   "ha_days_lost": 13,
+   "ratio": 4.1997582527,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 14.737541705,
+   "slow_share_after_decay": 0.9555734339,
+   "theta": [
+    0.8,
+    1.0,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0352348226,
+   "w_after_decay": 0.0179246707
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 6.2648168001,
+   "ha_days_lost": 13,
+   "ratio": 4.5067962327,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 28.2342527528,
+   "slow_share_after_decay": 0.6717634371,
+   "theta": [
+    0.8,
+    1.0,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.035348951,
+   "w_after_decay": 0.0043452927
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.5478041709,
+   "ha_days_lost": 13,
+   "ratio": 4.522623096,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 25.0906272752,
+   "slow_share_after_decay": 0.8399929702,
+   "theta": [
+    0.8,
+    1.0,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0369584074,
+   "w_after_decay": 0.0082530865
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.6076960589,
+   "ha_days_lost": 13,
+   "ratio": 4.5993290272,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 21.1923102321,
+   "slow_share_after_decay": 0.9163874795,
+   "theta": [
+    0.8,
+    1.0,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0392267935,
+   "w_after_decay": 0.0139224736
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.7852471025,
+   "ha_days_lost": 13,
+   "ratio": 1.4968884842,
+   "reinduction_days_to_95pct": 9,
+   "reinduction_pct_per_day": 7.1629812817,
+   "slow_share_after_decay": 0.4166068375,
+   "theta": [
+    0.9,
+    0.99,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.026899957,
+   "w_after_decay": 0.0088787452
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.0299386419,
+   "ha_days_lost": 12,
+   "ratio": 1.846587287,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 7.4416334634,
+   "slow_share_after_decay": 0.6448929425,
+   "theta": [
+    0.9,
+    0.99,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0305427143,
+   "w_after_decay": 0.0133107772
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.2413875846,
+   "ha_days_lost": 11,
+   "ratio": 2.1528226228,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 6.9781325213,
+   "slow_share_after_decay": 0.7889148959,
+   "theta": [
+    0.9,
+    0.99,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0353345664,
+   "w_after_decay": 0.0192999429
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.1004302021,
+   "ha_days_lost": 13,
+   "ratio": 1.8703052274,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 9.5393612688,
+   "slow_share_after_decay": 0.2714159797,
+   "theta": [
+    0.9,
+    0.99,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0353273683,
+   "w_after_decay": 0.0101014996
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.5971021087,
+   "ha_days_lost": 13,
+   "ratio": 1.9190506446,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 8.8220717652,
+   "slow_share_after_decay": 0.4861411132,
+   "theta": [
+    0.9,
+    0.99,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0372002025,
+   "w_after_decay": 0.0132583644
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.9623725695,
+   "ha_days_lost": 13,
+   "ratio": 2.2353929295,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 8.8574596258,
+   "slow_share_after_decay": 0.6600307328,
+   "theta": [
+    0.9,
+    0.99,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0397245717,
+   "w_after_decay": 0.0176880742
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.2843872605,
+   "ha_days_lost": 13,
+   "ratio": 3.2869957678,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 17.3697585607,
+   "slow_share_after_decay": 0.1639157851,
+   "theta": [
+    0.9,
+    0.99,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0416571219,
+   "w_after_decay": 0.0108385909
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.9814513258,
+   "ha_days_lost": 13,
+   "ratio": 3.3216326113,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 16.5465511752,
+   "slow_share_after_decay": 0.3311995528,
+   "theta": [
+    0.9,
+    0.99,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0423735812,
+   "w_after_decay": 0.0128221107
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.5506617683,
+   "ha_days_lost": 13,
+   "ratio": 3.3874954362,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 15.4153459717,
+   "slow_share_after_decay": 0.5017512211,
+   "theta": [
+    0.9,
+    0.99,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0433954483,
+   "w_after_decay": 0.0157485273
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.6873668398,
+   "ha_days_lost": 13,
+   "ratio": 1.6344017214,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 7.6610404316,
+   "slow_share_after_decay": 0.4433193216,
+   "theta": [
+    0.9,
+    0.995,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0270198175,
+   "w_after_decay": 0.009288566
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.8386053935,
+   "ha_days_lost": 12,
+   "ratio": 1.9022958306,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 7.3021630353,
+   "slow_share_after_decay": 0.6698482948,
+   "theta": [
+    0.9,
+    0.995,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0308108323,
+   "w_after_decay": 0.0142529445
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.9617907549,
+   "ha_days_lost": 11,
+   "ratio": 2.2565840131,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 6.6835296677,
+   "slow_share_after_decay": 0.8072832053,
+   "theta": [
+    0.9,
+    0.995,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0357796572,
+   "w_after_decay": 0.0209435971
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.0429129261,
+   "ha_days_lost": 13,
+   "ratio": 1.8780265791,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 9.4707245112,
+   "slow_share_after_decay": 0.2940057153,
+   "theta": [
+    0.9,
+    0.995,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.035399021,
+   "w_after_decay": 0.0104070357
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.4720031562,
+   "ha_days_lost": 13,
+   "ratio": 2.1694847573,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 9.7019426819,
+   "slow_share_after_decay": 0.5144297943,
+   "theta": [
+    0.9,
+    0.995,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0373621238,
+   "w_after_decay": 0.0139704288
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.7572146595,
+   "ha_days_lost": 13,
+   "ratio": 2.5788073209,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 9.6891326701,
+   "slow_share_after_decay": 0.6856029972,
+   "theta": [
+    0.9,
+    0.995,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0399970984,
+   "w_after_decay": 0.0189582226
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.25160006,
+   "ha_days_lost": 13,
+   "ratio": 3.2891730951,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 17.2734216237,
+   "slow_share_after_decay": 0.1802202439,
+   "theta": [
+    0.9,
+    0.995,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0416883234,
+   "w_after_decay": 0.0110380672
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.9054943732,
+   "ha_days_lost": 13,
+   "ratio": 3.3317988319,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 16.3441204224,
+   "slow_share_after_decay": 0.3573417208,
+   "theta": [
+    0.9,
+    0.995,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0424454267,
+   "w_after_decay": 0.0132952144
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.4155162947,
+   "ha_days_lost": 13,
+   "ratio": 3.406363229,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 15.0408523435,
+   "slow_share_after_decay": 0.5312219846,
+   "theta": [
+    0.9,
+    0.995,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0435208734,
+   "w_after_decay": 0.0166174758
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.6012797877,
+   "ha_days_lost": 13,
+   "ratio": 1.6549904051,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 7.6150738999,
+   "slow_share_after_decay": 0.464931622,
+   "theta": [
+    0.9,
+    0.999,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0271198924,
+   "w_after_decay": 0.0096498226
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.6714179241,
+   "ha_days_lost": 12,
+   "ratio": 2.1185917936,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 7.7782358847,
+   "slow_share_after_decay": 0.6891692487,
+   "theta": [
+    0.9,
+    0.999,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.031034633,
+   "w_after_decay": 0.0150828779
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.7190201037,
+   "ha_days_lost": 10,
+   "ratio": 2.5826863829,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 7.0223761968,
+   "slow_share_after_decay": 0.8211202398,
+   "theta": [
+    0.9,
+    0.999,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0361503904,
+   "w_after_decay": 0.022389281
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.9920374671,
+   "ha_days_lost": 13,
+   "ratio": 1.8856370423,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 9.4131707643,
+   "slow_share_after_decay": 0.312840754,
+   "theta": [
+    0.9,
+    0.999,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0354591365,
+   "w_after_decay": 0.0106772692
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.3617917202,
+   "ha_days_lost": 13,
+   "ratio": 2.1917187772,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 9.5598208152,
+   "slow_share_after_decay": 0.5370211682,
+   "theta": [
+    0.9,
+    0.999,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0374978807,
+   "w_after_decay": 0.0145997683
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5773360557,
+   "ha_days_lost": 13,
+   "ratio": 2.6246063501,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 9.3890989283,
+   "slow_share_after_decay": 0.705341717,
+   "theta": [
+    0.9,
+    0.999,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0402249759,
+   "w_after_decay": 0.02007922
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.2224485288,
+   "ha_days_lost": 13,
+   "ratio": 3.291480825,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 17.189589192,
+   "slow_share_after_decay": 0.1941522573,
+   "theta": [
+    0.9,
+    0.999,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0417146997,
+   "w_after_decay": 0.0112152976
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.8381065535,
+   "ha_days_lost": 13,
+   "ratio": 3.3418290902,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 16.1681252219,
+   "slow_share_after_decay": 0.3789102298,
+   "theta": [
+    0.9,
+    0.999,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0425060004,
+   "w_after_decay": 0.0137152021
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.2959882465,
+   "ha_days_lost": 13,
+   "ratio": 4.2816624771,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 18.3939716771,
+   "slow_share_after_decay": 0.5547048665,
+   "theta": [
+    0.9,
+    0.999,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0436267393,
+   "w_after_decay": 0.017387945
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.578604695,
+   "ha_days_lost": 13,
+   "ratio": 1.660748238,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 7.6039096798,
+   "slow_share_after_decay": 0.4703579972,
+   "theta": [
+    0.9,
+    1.0,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.027145511,
+   "w_after_decay": 0.009745112
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.6275412766,
+   "ha_days_lost": 12,
+   "ratio": 2.1355546703,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 7.746812715,
+   "slow_share_after_decay": 0.6939037161,
+   "theta": [
+    0.9,
+    1.0,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0310919168,
+   "w_after_decay": 0.0153017072
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.6555315733,
+   "ha_days_lost": 10,
+   "ratio": 2.6186206824,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 6.9538299005,
+   "slow_share_after_decay": 0.8244608715,
+   "theta": [
+    0.9,
+    1.0,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0362452558,
+   "w_after_decay": 0.0227701969
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.9785946639,
+   "ha_days_lost": 13,
+   "ratio": 1.8877631238,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 9.3984074147,
+   "slow_share_after_decay": 0.3176504844,
+   "theta": [
+    0.9,
+    1.0,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0354745667,
+   "w_after_decay": 0.0107486783
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.3327348423,
+   "ha_days_lost": 13,
+   "ratio": 2.1979829714,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 9.523277403,
+   "slow_share_after_decay": 0.5426518373,
+   "theta": [
+    0.9,
+    1.0,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.037532638,
+   "w_after_decay": 0.0147659824
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.530041135,
+   "ha_days_lost": 13,
+   "ratio": 2.6377701092,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 9.3114369903,
+   "slow_share_after_decay": 0.7101695773,
+   "theta": [
+    0.9,
+    1.0,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0402834358,
+   "w_after_decay": 0.0203751298
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 5.2147237336,
+   "ha_days_lost": 13,
+   "ratio": 3.2921503523,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 17.1676545769,
+   "slow_share_after_decay": 0.1977600706,
+   "theta": [
+    0.9,
+    1.0,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.041721498,
+   "w_after_decay": 0.011262246
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.8202714186,
+   "ha_days_lost": 13,
+   "ratio": 3.3446384314,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 16.1220650363,
+   "slow_share_after_decay": 0.384384155,
+   "theta": [
+    0.9,
+    1.0,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0425216044,
+   "w_after_decay": 0.01382641
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 4.2644079321,
+   "ha_days_lost": 13,
+   "ratio": 4.2885018149,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 18.2879211561,
+   "slow_share_after_decay": 0.5605492397,
+   "theta": [
+    0.9,
+    1.0,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0436540033,
+   "w_after_decay": 0.0175918164
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.3335714084,
+   "ha_days_lost": 11,
+   "ratio": 1.581777161,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 5.2729671184,
+   "slow_share_after_decay": 0.1950376841,
+   "theta": [
+    0.95,
+    0.99,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0327841083,
+   "w_after_decay": 0.0174837651
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.9646733092,
+   "ha_days_lost": 10,
+   "ratio": 1.7682390657,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 5.2422511623,
+   "slow_share_after_decay": 0.3790999548,
+   "theta": [
+    0.95,
+    0.99,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0356784126,
+   "w_after_decay": 0.0208699353
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.5438241796,
+   "ha_days_lost": 10,
+   "ratio": 1.8577281403,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 4.7257337624,
+   "slow_share_after_decay": 0.5530248776,
+   "theta": [
+    0.95,
+    0.99,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0394085257,
+   "w_after_decay": 0.0253737552
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.4806592834,
+   "ha_days_lost": 12,
+   "ratio": 1.802562857,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 6.2741071422,
+   "slow_share_after_decay": 0.1113077071,
+   "theta": [
+    0.95,
+    0.99,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0413074391,
+   "w_after_decay": 0.0211786421
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.2499905957,
+   "ha_days_lost": 12,
+   "ratio": 1.8440961703,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 5.9932952109,
+   "slow_share_after_decay": 0.2397969522,
+   "theta": [
+    0.95,
+    0.99,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0424371497,
+   "w_after_decay": 0.0231283024
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.9413922007,
+   "ha_days_lost": 12,
+   "ratio": 2.1228538276,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 6.2441456917,
+   "slow_share_after_decay": 0.3896318086,
+   "theta": [
+    0.95,
+    0.99,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0439173759,
+   "w_after_decay": 0.0258324241
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5633402805,
+   "ha_days_lost": 13,
+   "ratio": 3.2232369654,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.4854901124,
+   "slow_share_after_decay": 0.0612202549,
+   "theta": [
+    0.95,
+    0.99,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0457059338,
+   "w_after_decay": 0.0229047225
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.4303796963,
+   "ha_days_lost": 13,
+   "ratio": 3.2667099046,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.2060553305,
+   "slow_share_after_decay": 0.1406757853,
+   "theta": [
+    0.95,
+    0.99,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0460263359,
+   "w_after_decay": 0.0239220428
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.2345476563,
+   "ha_days_lost": 13,
+   "ratio": 3.3296693488,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 10.7699741882,
+   "slow_share_after_decay": 0.2478574332,
+   "theta": [
+    0.95,
+    0.99,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0464883226,
+   "w_after_decay": 0.0254367053
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.2657273356,
+   "ha_days_lost": 10,
+   "ratio": 1.6022206292,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 5.2324157065,
+   "slow_share_after_decay": 0.2129577698,
+   "theta": [
+    0.95,
+    0.995,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0328931483,
+   "w_after_decay": 0.0178543408
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.823744688,
+   "ha_days_lost": 10,
+   "ratio": 1.815975533,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 5.1278512648,
+   "slow_share_after_decay": 0.4057547816,
+   "theta": [
+    0.95,
+    0.995,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0359213927,
+   "w_after_decay": 0.0217207949
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.3242562509,
+   "ha_days_lost": 9,
+   "ratio": 2.0870255278,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 4.8507821287,
+   "slow_share_after_decay": 0.5810660788,
+   "theta": [
+    0.95,
+    0.995,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0398081818,
+   "w_after_decay": 0.0268547636
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.4421425098,
+   "ha_days_lost": 12,
+   "ratio": 1.8088713435,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 6.2263929462,
+   "slow_share_after_decay": 0.1231446192,
+   "theta": [
+    0.95,
+    0.995,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0413652041,
+   "w_after_decay": 0.0214313142
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.1630915344,
+   "ha_days_lost": 12,
+   "ratio": 1.8583000642,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 5.8779732013,
+   "slow_share_after_decay": 0.2615459881,
+   "theta": [
+    0.95,
+    0.995,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0425665654,
+   "w_after_decay": 0.0237166934
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.7920847323,
+   "ha_days_lost": 12,
+   "ratio": 2.1490762836,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 6.00040308,
+   "slow_share_after_decay": 0.4180617011,
+   "theta": [
+    0.95,
+    0.995,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0441331474,
+   "w_after_decay": 0.0268818592
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5419124494,
+   "ha_days_lost": 13,
+   "ratio": 3.2260085162,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.4262397256,
+   "slow_share_after_decay": 0.0684559201,
+   "theta": [
+    0.95,
+    0.995,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0457268988,
+   "w_after_decay": 0.0230524047
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.379761017,
+   "ha_days_lost": 13,
+   "ratio": 3.2733366108,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.0630954725,
+   "slow_share_after_decay": 0.155865485,
+   "theta": [
+    0.95,
+    0.995,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0460744151,
+   "w_after_decay": 0.0242735434
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.141910199,
+   "ha_days_lost": 13,
+   "ratio": 4.1493345808,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 13.0368366382,
+   "slow_share_after_decay": 0.2712630055,
+   "theta": [
+    0.95,
+    0.995,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0465725809,
+   "w_after_decay": 0.0260868195
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.2054497584,
+   "ha_days_lost": 10,
+   "ratio": 1.6225089647,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 5.2008709688,
+   "slow_share_after_decay": 0.2281312071,
+   "theta": [
+    0.95,
+    0.999,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0329843579,
+   "w_after_decay": 0.0181821996
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.6992981147,
+   "ha_days_lost": 10,
+   "ratio": 1.8654913289,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 5.035517227,
+   "slow_share_after_decay": 0.427504482,
+   "theta": [
+    0.95,
+    0.999,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0361244204,
+   "w_after_decay": 0.0224729392
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.1316715987,
+   "ha_days_lost": 9,
+   "ratio": 2.3533550673,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 5.0165801587,
+   "slow_share_after_decay": 0.6031830707,
+   "theta": [
+    0.95,
+    0.999,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.0401418123,
+   "w_after_decay": 0.0281621297
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.407665812,
+   "ha_days_lost": 12,
+   "ratio": 1.8152049528,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 6.1856118595,
+   "slow_share_after_decay": 0.1333723046,
+   "theta": [
+    0.95,
+    0.999,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0414138946,
+   "w_after_decay": 0.0216564348
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.0855829926,
+   "ha_days_lost": 12,
+   "ratio": 2.0775269798,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 6.4103819158,
+   "slow_share_after_decay": 0.2798420573,
+   "theta": [
+    0.95,
+    0.999,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0426753107,
+   "w_after_decay": 0.0242403609
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.6595351798,
+   "ha_days_lost": 11,
+   "ratio": 2.4487923802,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 6.5126494831,
+   "slow_share_after_decay": 0.4412599428,
+   "theta": [
+    0.95,
+    0.999,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0443143142,
+   "w_after_decay": 0.0278145473
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5225892455,
+   "ha_days_lost": 13,
+   "ratio": 3.2288148057,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.3737883106,
+   "slow_share_after_decay": 0.0748013062,
+   "theta": [
+    0.95,
+    0.999,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0457447939,
+   "w_after_decay": 0.0231851772
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.3342075631,
+   "ha_days_lost": 13,
+   "ratio": 3.280078915,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 10.9364639261,
+   "slow_share_after_decay": 0.1689587244,
+   "theta": [
+    0.95,
+    0.999,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0461154268,
+   "w_after_decay": 0.0245892501
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.0587978783,
+   "ha_days_lost": 13,
+   "ratio": 4.1656773057,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 12.7419649045,
+   "slow_share_after_decay": 0.2909823015,
+   "theta": [
+    0.95,
+    0.999,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0466443592,
+   "w_after_decay": 0.0266697658
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.1894873261,
+   "ha_days_lost": 10,
+   "ratio": 1.628219744,
+   "reinduction_days_to_95pct": 8,
+   "reinduction_pct_per_day": 5.1931862374,
+   "slow_share_after_decay": 0.2320404487,
+   "theta": [
+    0.95,
+    1.0,
+    0.01,
+    0.001
+   ],
+   "w_acclimated": 0.0330077307,
+   "w_after_decay": 0.0182688473
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.6664546788,
+   "ha_days_lost": 9,
+   "ratio": 1.8797830169,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 5.0123562206,
+   "slow_share_after_decay": 0.4329909536,
+   "theta": [
+    0.95,
+    1.0,
+    0.01,
+    0.0025
+   ],
+   "w_acclimated": 0.0361764187,
+   "w_after_decay": 0.0226716294
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.0810336949,
+   "ha_days_lost": 9,
+   "ratio": 2.3827638617,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 4.9586118833,
+   "slow_share_after_decay": 0.6086574897,
+   "theta": [
+    0.95,
+    1.0,
+    0.01,
+    0.005
+   ],
+   "w_acclimated": 0.040227198,
+   "w_after_decay": 0.0285072164
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.3984987066,
+   "ha_days_lost": 12,
+   "ratio": 1.8169979232,
+   "reinduction_days_to_95pct": 7,
+   "reinduction_pct_per_day": 6.1750650919,
+   "slow_share_after_decay": 0.1360380802,
+   "theta": [
+    0.95,
+    1.0,
+    0.02,
+    0.001
+   ],
+   "w_acclimated": 0.0414264238,
+   "w_after_decay": 0.0217161531
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.0650147772,
+   "ha_days_lost": 12,
+   "ratio": 2.0820998897,
+   "reinduction_days_to_95pct": 6,
+   "reinduction_pct_per_day": 6.3816669294,
+   "slow_share_after_decay": 0.2845372182,
+   "theta": [
+    0.95,
+    1.0,
+    0.02,
+    0.0025
+   ],
+   "w_acclimated": 0.0427032909,
+   "w_after_decay": 0.0243792204
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 2.6244515394,
+   "ha_days_lost": 11,
+   "ratio": 2.4579368376,
+   "reinduction_days_to_95pct": 5,
+   "reinduction_pct_per_day": 6.4507361172,
+   "slow_share_after_decay": 0.4471106151,
+   "theta": [
+    0.95,
+    1.0,
+    0.02,
+    0.005
+   ],
+   "w_acclimated": 0.0443608134,
+   "w_after_decay": 0.0280616207
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.5174305788,
+   "ha_days_lost": 13,
+   "ratio": 3.2296107275,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 11.3599315308,
+   "slow_share_after_decay": 0.0764693148,
+   "theta": [
+    0.95,
+    1.0,
+    0.04,
+    0.001
+   ],
+   "w_acclimated": 0.0457494302,
+   "w_after_decay": 0.0232205679
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.3220600272,
+   "ha_days_lost": 13,
+   "ratio": 3.281985332,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 10.9029522811,
+   "slow_share_after_decay": 0.1723658431,
+   "theta": [
+    0.95,
+    1.0,
+    0.04,
+    0.0025
+   ],
+   "w_acclimated": 0.0461260486,
+   "w_after_decay": 0.0246733583
+  },
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 3.0366720123,
+   "ha_days_lost": 13,
+   "ratio": 4.1704027337,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 12.6641452616,
+   "slow_share_after_decay": 0.2960460204,
+   "theta": [
+    0.95,
+    1.0,
+    0.04,
+    0.005
+   ],
+   "w_acclimated": 0.0466629368,
+   "w_after_decay": 0.026824932
+  }
+ ],
+ "n_meeting_both": 0,
+ "n_settings": 144,
+ "selected": {
+  "cycle": 1,
+  "decay_pct_per_day": 1.6029451604,
+  "ha_days_lost": 6,
+  "ratio": 7.0,
+  "reinduction_days_to_95pct": 2,
+  "reinduction_pct_per_day": 11.2206161231,
+  "slow_share_after_decay": 0.9997841395,
+  "theta": [
+   0.6,
+   0.999,
+   0.01,
+   0.005
+  ],
+  "w_acclimated": 0.0285554819,
+  "w_after_decay": 0.0221472799
+ },
+ "selected_theta": [
+  0.6,
+  0.999,
+  0.01,
+  0.005
+ ]
+}
