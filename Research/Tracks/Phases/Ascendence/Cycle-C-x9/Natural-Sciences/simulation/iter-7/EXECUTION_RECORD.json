@@ -1,0 +1,408 @@
+{
+ "sim_id": "SIM-AS-NAT-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:13.540001+00:00",
+ "finished_utc": "2026-10-24T23:50:13.998497+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-7  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "2544ef6ec3333528bc76fe08237b5a063d2f17320b4dcf8db6f630d8a5183949",
+ "params_sha256": "6ca8f5588012dbd4ae5e5eb8b8ebea4c77f53db5e48cf0ae5110ebd01944a704",
+ "results_sha256": "9afc613c3b30c1952281df6659446447bd27eb9489d08c785ecf7df327284a95",
+ "results": {
+  "items": {
+   "T1_nSG_2": {
+    "value": 28.0,
+    "printed": 28,
+    "diff": 0.0
+   },
+   "T1_nSG_3": {
+    "value": 56.0,
+    "printed": 56,
+    "diff": 0.0
+   },
+   "T1_nSG_4": {
+    "value": 70.0,
+    "printed": 70,
+    "diff": 0.0
+   },
+   "T1_nSG_5": {
+    "value": 56.0,
+    "printed": 56,
+    "diff": 0.0
+   },
+   "T1_nSG_6": {
+    "value": 28.0,
+    "printed": 28,
+    "diff": 0.0
+   },
+   "T1_lethalonly_le_fact_2": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_lethalonly_le_fact_3": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_lethalonly_le_fact_4": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_lethalonly_le_fact_5": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_lethalonly_le_fact_6": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_mean_le_lethal_2": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_mean_le_lethal_3": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_mean_le_lethal_4": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_mean_le_lethal_5": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "T1_mean_le_lethal_6": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "half_of_70_no_path": {
+    "value": 35.0,
+    "printed": 35,
+    "diff": 0.0
+   },
+   "missing_genotypes": {
+    "value": 70.0,
+    "printed": 70,
+    "diff": 0.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P94 Table 1: subgraph counts equal C(8, n); lethal-only path counts do not exceed n!; mean accessible paths do not exceed the lethal-only counts",
+   "observed": {
+    "items": {
+     "T1_nSG_2": {
+      "value": 28.0,
+      "printed": 28,
+      "diff": 0.0
+     },
+     "T1_nSG_3": {
+      "value": 56.0,
+      "printed": 56,
+      "diff": 0.0
+     },
+     "T1_nSG_4": {
+      "value": 70.0,
+      "printed": 70,
+      "diff": 0.0
+     },
+     "T1_nSG_5": {
+      "value": 56.0,
+      "printed": 56,
+      "diff": 0.0
+     },
+     "T1_nSG_6": {
+      "value": 28.0,
+      "printed": 28,
+      "diff": 0.0
+     },
+     "T1_lethalonly_le_fact_2": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_3": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_4": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_5": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_6": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_2": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_3": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_4": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_5": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_6": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "half_of_70_no_path": {
+      "value": 35.0,
+      "printed": 35,
+      "diff": 0.0
+     },
+     "missing_genotypes": {
+      "value": 70.0,
+      "printed": 70,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "'70 missing' = 256 - 186 and 'half of the 70 subgraphs' matches P_none 0.50 at n 4",
+   "observed": {
+    "items": {
+     "T1_nSG_2": {
+      "value": 28.0,
+      "printed": 28,
+      "diff": 0.0
+     },
+     "T1_nSG_3": {
+      "value": 56.0,
+      "printed": 56,
+      "diff": 0.0
+     },
+     "T1_nSG_4": {
+      "value": 70.0,
+      "printed": 70,
+      "diff": 0.0
+     },
+     "T1_nSG_5": {
+      "value": 56.0,
+      "printed": 56,
+      "diff": 0.0
+     },
+     "T1_nSG_6": {
+      "value": 28.0,
+      "printed": 28,
+      "diff": 0.0
+     },
+     "T1_lethalonly_le_fact_2": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_3": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_4": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_5": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_6": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_2": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_3": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_4": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_5": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_6": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "half_of_70_no_path": {
+      "value": 35.0,
+      "printed": 35,
+      "diff": 0.0
+     },
+     "missing_genotypes": {
+      "value": 70.0,
+      "printed": 70,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "T1_nSG_2": {
+      "value": 28.0,
+      "printed": 28,
+      "diff": 0.0
+     },
+     "T1_nSG_3": {
+      "value": 56.0,
+      "printed": 56,
+      "diff": 0.0
+     },
+     "T1_nSG_4": {
+      "value": 70.0,
+      "printed": 70,
+      "diff": 0.0
+     },
+     "T1_nSG_5": {
+      "value": 56.0,
+      "printed": 56,
+      "diff": 0.0
+     },
+     "T1_nSG_6": {
+      "value": 28.0,
+      "printed": 28,
+      "diff": 0.0
+     },
+     "T1_lethalonly_le_fact_2": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_3": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_4": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_5": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_lethalonly_le_fact_6": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_2": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_3": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_4": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_5": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "T1_mean_le_lethal_6": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "half_of_70_no_path": {
+      "value": 35.0,
+      "printed": 35,
+      "diff": 0.0
+     },
+     "missing_genotypes": {
+      "value": 70.0,
+      "printed": 70,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
