@@ -1,0 +1,36 @@
+{
+ "L1_extended": 2.6,
+ "W01_table1_constrained": {
+  "L_establish": 0.51,
+  "L_max": 2.32,
+  "total_life": 1.223
+ },
+ "adapt": {
+  "R": 40.0,
+  "bound": [
+   5.0,
+   40.0
+  ],
+  "k": 0.1
+ },
+ "experiments": {},
+ "iteration": 6,
+ "model": {
+  "Ag": 0.5,
+  "L0": 0.5,
+  "L1": 1.7,
+  "S_over_sigma": 16800000000.0,
+  "albedo": [
+   0.25,
+   0.75
+  ],
+  "c": 0.3,
+  "dL": 0.004,
+  "iters": 100,
+  "q": 2064250000.0,
+  "r": 17.5,
+  "seed": 0.001
+ },
+ "prev": "../iter-5",
+ "sim_id": "SIM-R6-C4"
+}
