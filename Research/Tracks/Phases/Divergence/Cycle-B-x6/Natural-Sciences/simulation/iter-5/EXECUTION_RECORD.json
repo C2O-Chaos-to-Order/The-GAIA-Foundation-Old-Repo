@@ -1,0 +1,131 @@
+{
+ "sim_id": "SIM-DV-NAT-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:34:42.218835+00:00",
+ "finished_utc": "2026-10-24T08:34:42.446466+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-5  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "8a46ad8f3f9611076f659b0e8f7290e1b6c87462163bab33b1d83a6075d135e9",
+ "params_sha256": "c451ecae4d49476ba7df95eaab89526a481a5a6fb1f0afa4180d1fe9e2ba154d",
+ "results_sha256": "6844bfd0a7939d9c5844510f8b6e507046b08826809a37969a3a888643e542ca",
+ "results": {
+  "0.0": {
+   "fst_selected": 0.03401279,
+   "fst_selected_se": 0.00303561,
+   "fst_neutral": 0.02779613,
+   "fst_neutral_se": 0.001865
+  },
+  "0.005": {
+   "fst_selected": 0.04275324,
+   "fst_selected_se": 0.00417753,
+   "fst_neutral": 0.02879953,
+   "fst_neutral_se": 0.0020704
+  },
+  "0.01": {
+   "fst_selected": 0.07092933,
+   "fst_selected_se": 0.00547205,
+   "fst_neutral": 0.0283795,
+   "fst_neutral_se": 0.0018821
+  },
+  "0.02": {
+   "fst_selected": 0.15336551,
+   "fst_selected_se": 0.00761984,
+   "fst_neutral": 0.02758621,
+   "fst_neutral_se": 0.00200163
+  },
+  "0.05": {
+   "fst_selected": 0.45511536,
+   "fst_selected_se": 0.00769986,
+   "fst_neutral": 0.03158758,
+   "fst_neutral_se": 0.00229428
+  },
+  "0.1": {
+   "fst_selected": 0.67847766,
+   "fst_selected_se": 0.00541577,
+   "fst_neutral": 0.02870161,
+   "fst_neutral_se": 0.00203154
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "s = 0.0: selected-locus Fst equals neutral Fst within 4 combined standard errors (code check: selection switched off)",
+   "observed": [
+    0.00621666,
+    0.014251
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "s = 0.1, Nm = 2: selected-locus Fst > 0.5 while neutral Fst < 0.2 (an island of divergence)",
+   "observed": [
+    0.67847766,
+    0.02870161
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "selected-locus Fst is non-decreasing in s across the grid (tolerance 0.02)",
+   "observed": [
+    0.03401279,
+    0.04275324,
+    0.07092933,
+    0.15336551,
+    0.45511536,
+    0.67847766
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Fst by s (selected, neutral) and m",
+   "observed": {
+    "0.0": [
+     0.03401279,
+     0.02779613
+    ],
+    "0.005": [
+     0.04275324,
+     0.02879953
+    ],
+    "0.01": [
+     0.07092933,
+     0.0283795
+    ],
+    "0.02": [
+     0.15336551,
+     0.02758621
+    ],
+    "0.05": [
+     0.45511536,
+     0.03158758
+    ],
+    "0.1": [
+     0.67847766,
+     0.02870161
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
