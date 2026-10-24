@@ -1,5 +1,11 @@
 # gaia_tools change log
 
+## 0.5.0 — data model 1.4.0 (Soul/Spirit/Subconscious/Consciousness track, 2026-10-24)
+- New `gaia_tools.tracks`: loader, `validate` (E1–E9, W1–W2), `claimsource` (K-resolve, K-access, K-sim, K-phrase) and `rerun` for `Research/Tracks/<track>/Cycle-<L>-x<N>/`. Track SIM citations: `SIM-<TOPIC>-<L>/iter-k#check`.
+- New `gaia_tools.maps_all`: runs `maps.build` unchanged for the main cycles, then extends every artefact with the Master Report and all track cycles (claim map rows, matrix placement and the n_main/n_mr/n_track split, graph nodes MR + four topics with GAIA motherthread edges, typed track links TL-*, unlabelled structure edges, change log, simulation index).
+- New schemas `track_claim.schema.json` and `track_execution_record.schema.json` (track run layout: SPEC.md with params block + EXECUTION_RECORD.json with embedded results and spec/params/results hashes). Main-cycle schemas are unchanged.
+- Tests: `tests/test_tracks_v050.py` (versions, SIM-ref parsing, schema accept/reject, corpus schema conformance, validate 0 errors, claimsource no Fail, SPEC tampering detected (E8), unstated 'not supported' detected (E6), maps_all deterministic and complete). `test_units_v040.py`: exact-version assertion relaxed to ">= 0.4.0".
+
 ## 0.4.0 — data model 1.3.0 (Cycle 4, 2026-10-24)
 - Schemas: source and claim-source IDs allow the Cycle-4 prefix `Y` (Y01-Y08). No other schema change.
 - Tests: `tests/test_units_v040.py` (versions, Y ids, C4 SIM ids). The exact-version assertion in `test_units_v030.py` was relaxed to ">= 0.3.0", and the "Y01 is invalid" assertions in `test_units_v020.py` and `test_units_v030.py` were replaced by "Z01 is invalid", because both are intentionally changed in 0.4.0.
