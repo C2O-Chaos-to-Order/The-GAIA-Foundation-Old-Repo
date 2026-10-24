@@ -1,0 +1,54 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:15.830456+00:00",
+ "finished_utc": "2026-10-24T07:05:15.948895+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-5  (run from Spirit/simulation/)",
+ "spec_sha256": "808fa3b107d6ba1ed26ca6934b6f051a5be8017d2cc17690c2cde2ad188e6e76",
+ "params_sha256": "6e0c4e38617a1d7a0fc7766c9ea9d942f039cf66db486b733627adee1654ba84",
+ "results_sha256": "db1c9df6c73bd5fcb064b671bfd3c3bb667ccecf27bcca3ab8dbe15c934364c1",
+ "results": {
+  "power_spurious": 0.66154
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with e = 0, false-positive rate within 0.05 +/- 3 MC SE",
+   "observed": 0.05084,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with expectancy +/-3.5 points and no drug effect, P(p < .05) >= 0.5",
+   "observed": 0.66154,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "mean spurious difference; P(p<.05)",
+   "observed": [
+    -7.01786442,
+    0.66154
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
