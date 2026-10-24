@@ -1,0 +1,65 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:16.533382+00:00",
+ "finished_utc": "2026-10-24T07:05:16.541004+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-6  (run from Spirit/simulation/)",
+ "spec_sha256": "b0deada79cf7eb96a336cccf26dac9d372731628830bf5ea7df2dcb9bcf8add6",
+ "params_sha256": "cc584fd3e8b3f83223b8b9da6ede81e886d432101280e1fab58675661453c2f1",
+ "results_sha256": "7f40c89ec500b1b7fed15d40ab5880ab6387d01770a78ab10883e6e0c7246c3d",
+ "results": {
+  "tau": 0.55075409,
+  "pi": [
+   -0.51897986,
+   1.91897986
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a new true effect falls inside the prediction interval in >= 95% of draws",
+   "observed": 0.9728675,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the 95% prediction interval includes 0 (some settings may show no reduction)",
+   "observed": [
+    -0.51897986,
+    1.91897986
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "implied tau, typical within-study SE, prediction interval",
+   "observed": [
+    0.55075409,
+    0.10795567,
+    [
+     -0.51897986,
+     1.91897986
+    ]
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
