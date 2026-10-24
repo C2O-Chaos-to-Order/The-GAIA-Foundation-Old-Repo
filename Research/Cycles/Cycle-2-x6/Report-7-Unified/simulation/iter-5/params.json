@@ -1,0 +1,12 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "transition": {
+   "c1_dir": "../../../../Cycle-1-x3"
+  }
+ },
+ "input_register": "../../../../Cycle-1-x3/Report-7-Unified/maps/link_register.csv",
+ "iteration": 5,
+ "prev": "../iter-4",
+ "sim_id": "SIM-R7-C2"
+}

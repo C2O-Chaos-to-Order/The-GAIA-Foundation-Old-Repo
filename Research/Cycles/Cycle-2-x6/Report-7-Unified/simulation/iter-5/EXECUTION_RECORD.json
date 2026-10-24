@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R7-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:24:24.008543+00:00",
+ "finished_utc": "2026-10-24T02:24:24.012016+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-5",
+ "params_sha256": "4df5cc7b366286a94b332fe684fc76d4b8a1cec34b6ac12fbff3bfc1426a4d49",
+ "outputs": {
+  "outputs/results.json": "622d90a294b8bd482f89b3c1ea1dea8e5f0335e40cfb65240337dcfb0cccd864"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "T0",
+   "kind": "validation",
+   "expect": "no Cycle-1 claim is lost in the Cycle-2 ledger",
+   "observed": [],
+   "result": "Pass"
+  },
+  {
+   "id": "T1",
+   "kind": "hypothesis",
+   "expect": "diminishing-returns probe: Cycle 2 changes the label or status of <= 5% of carried claims",
+   "observed": [
+    0,
+    142,
+    0.0
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
