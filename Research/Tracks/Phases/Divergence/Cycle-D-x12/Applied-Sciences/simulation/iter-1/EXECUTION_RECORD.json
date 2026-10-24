@@ -1,0 +1,214 @@
+{
+ "sim_id": "SIM-DV-APP-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:11.779742+00:00",
+ "finished_utc": "2026-10-24T16:47:11.784709+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "6e685f61c0d04726ce976c3ae43e9190c0bfb168011cb5b3586b0d45061a2781",
+ "params_sha256": "8f1eee9926ec195b5c9aa1e00b291ceddd1bfe93e44feb3a59620c80c2c74e0d",
+ "results_sha256": "809c31ee0d80b902e15e5775e5916540c04387e09fa55c0ced82612bf857e33b",
+ "results": {
+  "50s": {
+   "sec": 50,
+   "computed": 12.0,
+   "printed": 12,
+   "diff": 0.0
+  },
+  "Sj1": {
+   "sec": 23,
+   "computed": 26.087,
+   "printed": 26,
+   "diff": 0.087
+  },
+  "Sj2": {
+   "sec": 48,
+   "computed": 12.5,
+   "printed": 12,
+   "diff": 0.5
+  },
+  "reverse": {
+   "responses": 15,
+   "computed_sec": 40.0,
+   "printed_sec": 40
+  },
+  "phases": {
+   "Sj1": {
+    "total": 23,
+    "exploration": 14,
+    "rest": 9
+   },
+   "Sj2": {
+    "total": 48,
+    "exploration": 10,
+    "rest": 38
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "arithmetic computed for every printed row",
+   "observed": {
+    "50s": {
+     "sec": 50,
+     "computed": 12.0,
+     "printed": 12,
+     "diff": 0.0
+    },
+    "Sj1": {
+     "sec": 23,
+     "computed": 26.087,
+     "printed": 26,
+     "diff": 0.087
+    },
+    "Sj2": {
+     "sec": 48,
+     "computed": 12.5,
+     "printed": 12,
+     "diff": 0.5
+    },
+    "reverse": {
+     "responses": 15,
+     "computed_sec": 40.0,
+     "printed_sec": 40
+    },
+    "phases": {
+     "Sj1": {
+      "total": 23,
+      "exploration": 14,
+      "rest": 9
+     },
+     "Sj2": {
+      "total": 48,
+      "exploration": 10,
+      "rest": 38
+     }
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "every printed fluency within 1 of 600/s",
+   "observed": {
+    "50s": {
+     "sec": 50,
+     "computed": 12.0,
+     "printed": 12,
+     "diff": 0.0
+    },
+    "Sj1": {
+     "sec": 23,
+     "computed": 26.087,
+     "printed": 26,
+     "diff": 0.087
+    },
+    "Sj2": {
+     "sec": 48,
+     "computed": 12.5,
+     "printed": 12,
+     "diff": 0.5
+    },
+    "reverse": {
+     "responses": 15,
+     "computed_sec": 40.0,
+     "printed_sec": 40
+    },
+    "phases": {
+     "Sj1": {
+      "total": 23,
+      "exploration": 14,
+      "rest": 9
+     },
+     "Sj2": {
+      "total": 48,
+      "exploration": 10,
+      "rest": 38
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "reverse conversion exact (600/responses = printed seconds)",
+   "observed": {
+    "responses": 15,
+    "computed_sec": 40.0,
+    "printed_sec": 40
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "fluency ranking reverses when only Exploration time is used",
+   "observed": [
+    "Sj1",
+    "Sj2"
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "50s": {
+     "sec": 50,
+     "computed": 12.0,
+     "printed": 12,
+     "diff": 0.0
+    },
+    "Sj1": {
+     "sec": 23,
+     "computed": 26.087,
+     "printed": 26,
+     "diff": 0.087
+    },
+    "Sj2": {
+     "sec": 48,
+     "computed": 12.5,
+     "printed": 12,
+     "diff": 0.5
+    },
+    "reverse": {
+     "responses": 15,
+     "computed_sec": 40.0,
+     "printed_sec": 40
+    },
+    "phases": {
+     "Sj1": {
+      "total": 23,
+      "exploration": 14,
+      "rest": 9
+     },
+     "Sj2": {
+      "total": 48,
+      "exploration": 10,
+      "rest": 38
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
