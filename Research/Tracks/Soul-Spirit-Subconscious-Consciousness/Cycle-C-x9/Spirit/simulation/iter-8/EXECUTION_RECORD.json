@@ -1,0 +1,52 @@
+{
+ "sim_id": "SIM-SPIRIT-C",
+ "iteration": 8,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:17.465248+00:00",
+ "finished_utc": "2026-10-24T06:11:26.889164+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-8  (run from Spirit/simulation/)",
+ "spec_sha256": "bb47d0efdcb576b67385c8d3ddfa9848dd3b244f5e7139fe13123be3ac6530e5",
+ "params_sha256": "76fc4344e39c65734ed5795931baf8a58bce690f0d0173bd00929f1e1eb4f49d",
+ "results_sha256": "5ccf455e9b08e5b1d8f0c24a4d481324122b5adc3fad6eaaf5645ee0eddda54d",
+ "results": {
+  "true_rise": 0.17647059,
+  "share_plateau_called": 0.5991
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Emax at ED50 equals half of Emax",
+   "observed": 0.5,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "true rise from 100 to 200 ug = 17.6%: a 12 vs 6 study comparison calls a 'plateau' in >= 50%",
+   "observed": 0.5991,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "true relative rise 100->200 ug",
+   "observed": 0.17647059,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
