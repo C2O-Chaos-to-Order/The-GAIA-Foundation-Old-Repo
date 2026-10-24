@@ -1,0 +1,83 @@
+{
+ "sim_id": "SIM-DV-PHI-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:38.355554+00:00",
+ "finished_utc": "2026-10-24T16:47:39.131475+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-7  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "461d2b256c6a2726e320d1be61afd6577270c3e478cd9248f36e2ee039293e86",
+ "params_sha256": "5fe8d89cd06585aa9b53f0400f7ef7392f7f99282534f8771f8e54a76ed2a678",
+ "results_sha256": "0829219e69dab8b6c5c7c39e2c4dc5d990366b8aedd2a00145dd3291b663faa5",
+ "results": {
+  "yule_mean": 20.405,
+  "yule_se": 0.44435089,
+  "yule_expected": 20.08553692,
+  "stationary_mean": 10.154,
+  "stationary_se": 0.07127189,
+  "exact_mean": 10.00045402,
+  "mean_field": 11.0,
+  "max_K": 22
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mu = 0 control: mean K(T=3.0) within 4 SE of e^(lam T) = 20.0855",
+   "observed": [
+    20.405,
+    0.44435089
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "mean K at T = 30.0 within 4 SE of the exact stationary mean x/(1-e^-x) = 10.0005",
+   "observed": [
+    10.154,
+    0.07127189
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mean-field 1 + 2 lam/mu = 11.000 within 10% of the simulated stationary mean",
+   "observed": [
+    11.0,
+    10.154
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "means",
+   "observed": {
+    "yule_mean": 20.405,
+    "yule_se": 0.44435089,
+    "yule_expected": 20.08553692,
+    "stationary_mean": 10.154,
+    "stationary_se": 0.07127189,
+    "exact_mean": 10.00045402,
+    "mean_field": 11.0,
+    "max_K": 22
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
