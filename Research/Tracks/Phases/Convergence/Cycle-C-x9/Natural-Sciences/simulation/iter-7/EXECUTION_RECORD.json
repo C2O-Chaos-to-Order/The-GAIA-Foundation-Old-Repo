@@ -1,0 +1,169 @@
+{
+ "sim_id": "SIM-CV-NAT-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:22:26.306205+00:00",
+ "finished_utc": "2026-10-24T21:22:28.857946+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-7  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "cdb87ff731d17fa9eccca26108a5810d98655afd5b063bbaa55cd4b4752ef172",
+ "params_sha256": "1cb13c8a0406928484e2649621b783ea3b315df5dc0edf40ccd05d9a20047500",
+ "results_sha256": "ec49fbe61aa74c51f0e217a6e4fb53f27df283203eea264db02208eecad36b7c",
+ "results": {
+  "grid": {
+   "a2.0944_n0.5": {
+    "R": 0.490149,
+    "gap": 2.075835,
+    "spread_co": 0.03239,
+    "spread_ch": 0.037972,
+    "two_cluster": false,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.6": {
+    "R": 0.410462,
+    "gap": 2.070604,
+    "spread_co": 0.202546,
+    "spread_ch": 0.244932,
+    "two_cluster": false,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.6180_n0.5": {
+    "R": 0.154134,
+    "gap": 2.673561,
+    "spread_co": 0.327517,
+    "spread_ch": 0.345144,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": true
+   },
+   "a2.6180_n0.6": {
+    "R": 0.020007,
+    "gap": 3.065222,
+    "spread_co": 0.788124,
+    "spread_ch": 0.890717,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": false
+   }
+  },
+  "V1_R_classical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "classical Kuramoto (all lags 0, identical frequencies, K > 0) synchronises from random phases: R > 0.99 at T",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "frequency sd 0.05: the two-cluster state persists exactly when n_ch < 1/(1 - cos alpha)",
+   "observed": {
+    "grid": {
+     "a2.0944_n0.5": {
+      "R": 0.490149,
+      "gap": 2.075835,
+      "spread_co": 0.03239,
+      "spread_ch": 0.037972,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.6": {
+      "R": 0.410462,
+      "gap": 2.070604,
+      "spread_co": 0.202546,
+      "spread_ch": 0.244932,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.6180_n0.5": {
+      "R": 0.154134,
+      "gap": 2.673561,
+      "spread_co": 0.327517,
+      "spread_ch": 0.345144,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.6": {
+      "R": 0.020007,
+      "gap": 3.065222,
+      "spread_co": 0.788124,
+      "spread_ch": 0.890717,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     }
+    },
+    "V1_R_classical": 1.0
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "grid": {
+     "a2.0944_n0.5": {
+      "R": 0.490149,
+      "gap": 2.075835,
+      "spread_co": 0.03239,
+      "spread_ch": 0.037972,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.6": {
+      "R": 0.410462,
+      "gap": 2.070604,
+      "spread_co": 0.202546,
+      "spread_ch": 0.244932,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.6180_n0.5": {
+      "R": 0.154134,
+      "gap": 2.673561,
+      "spread_co": 0.327517,
+      "spread_ch": 0.345144,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.6": {
+      "R": 0.020007,
+      "gap": 3.065222,
+      "spread_co": 0.788124,
+      "spread_ch": 0.890717,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     }
+    },
+    "V1_R_classical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
