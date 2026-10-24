@@ -1,0 +1,195 @@
+{
+ "sim_id": "SIM-AL-NAT-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:47:47.042777+00:00",
+ "finished_utc": "2026-10-24T19:47:47.050433+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-6  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "da769a211e1fef15a6301abc430e2177f6b5966dee78824db9694aa1fe118a87",
+ "params_sha256": "4dfa1e754fd42cbc3fd8809b2352f3bba633f4a4418ff8defcbacf511d708273",
+ "results_sha256": "3308c93cc46ba1167f0e3f02baaf1e38b362b212b2e7ee2d92baa48b28af3f64",
+ "results": {
+  "k0.9_128": {
+   "P50": 82.79421637,
+   "n_min": 0.3534761,
+   "n_max": 0.99977297,
+   "n_at_P50": 0.78994677,
+   "n_low": 0.99912937,
+   "n_high": 0.99977297
+  },
+  "k0.9_144": {
+   "P50": 92.89663868,
+   "n_min": 0.33717131,
+   "n_max": 0.99974416,
+   "n_at_P50": 0.78868347,
+   "n_low": 0.99912498,
+   "n_high": 0.99974416
+  },
+  "k1.5_128": {
+   "P50": 83.17637711,
+   "n_min": 0.43037114,
+   "n_max": 0.99977535,
+   "n_at_P50": 0.79558516,
+   "n_low": 0.99949285,
+   "n_high": 0.99977535
+  },
+  "k1.5_144": {
+   "P50": 93.54056741,
+   "n_min": 0.41178272,
+   "n_max": 0.99974653,
+   "n_at_P50": 0.79418235,
+   "n_low": 0.99948863,
+   "n_high": 0.99974653
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a single non-cooperative component has slope 1 everywhere (within 1e-3) and P50 = K (within 1%)",
+   "observed": {
+    "P50": 6.99841996,
+    "n_min": 1.0,
+    "n_max": 1.0,
+    "n_at_P50": 1.0,
+    "n_low": 1.0,
+    "n_high": 1.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no mixture has a Hill slope above 1 anywhere (heterogeneity cannot create cooperativity)",
+   "observed": {
+    "k0.9_128": {
+     "P50": 82.79421637,
+     "n_min": 0.3534761,
+     "n_max": 0.99977297,
+     "n_at_P50": 0.78994677,
+     "n_low": 0.99912937,
+     "n_high": 0.99977297
+    },
+    "k0.9_144": {
+     "P50": 92.89663868,
+     "n_min": 0.33717131,
+     "n_max": 0.99974416,
+     "n_at_P50": 0.78868347,
+     "n_low": 0.99912498,
+     "n_high": 0.99974416
+    },
+    "k1.5_128": {
+     "P50": 83.17637711,
+     "n_min": 0.43037114,
+     "n_max": 0.99977535,
+     "n_at_P50": 0.79558516,
+     "n_low": 0.99949285,
+     "n_high": 0.99977535
+    },
+    "k1.5_144": {
+     "P50": 93.54056741,
+     "n_min": 0.41178272,
+     "n_max": 0.99974653,
+     "n_at_P50": 0.79418235,
+     "n_low": 0.99948863,
+     "n_high": 0.99974653
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "all minima below 0.45",
+   "observed": {
+    "k0.9_128": {
+     "P50": 82.79421637,
+     "n_min": 0.3534761,
+     "n_max": 0.99977297,
+     "n_at_P50": 0.78994677,
+     "n_low": 0.99912937,
+     "n_high": 0.99977297
+    },
+    "k0.9_144": {
+     "P50": 92.89663868,
+     "n_min": 0.33717131,
+     "n_max": 0.99974416,
+     "n_at_P50": 0.78868347,
+     "n_low": 0.99912498,
+     "n_high": 0.99974416
+    },
+    "k1.5_128": {
+     "P50": 83.17637711,
+     "n_min": 0.43037114,
+     "n_max": 0.99977535,
+     "n_at_P50": 0.79558516,
+     "n_low": 0.99949285,
+     "n_high": 0.99977535
+    },
+    "k1.5_144": {
+     "P50": 93.54056741,
+     "n_min": 0.41178272,
+     "n_max": 0.99974653,
+     "n_at_P50": 0.79418235,
+     "n_low": 0.99948863,
+     "n_high": 0.99974653
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "k0.9_128": {
+     "P50": 82.79421637,
+     "n_min": 0.3534761,
+     "n_max": 0.99977297,
+     "n_at_P50": 0.78994677,
+     "n_low": 0.99912937,
+     "n_high": 0.99977297
+    },
+    "k0.9_144": {
+     "P50": 92.89663868,
+     "n_min": 0.33717131,
+     "n_max": 0.99974416,
+     "n_at_P50": 0.78868347,
+     "n_low": 0.99912498,
+     "n_high": 0.99974416
+    },
+    "k1.5_128": {
+     "P50": 83.17637711,
+     "n_min": 0.43037114,
+     "n_max": 0.99977535,
+     "n_at_P50": 0.79558516,
+     "n_low": 0.99949285,
+     "n_high": 0.99977535
+    },
+    "k1.5_144": {
+     "P50": 93.54056741,
+     "n_min": 0.41178272,
+     "n_max": 0.99974653,
+     "n_at_P50": 0.79418235,
+     "n_low": 0.99948863,
+     "n_high": 0.99974653
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
