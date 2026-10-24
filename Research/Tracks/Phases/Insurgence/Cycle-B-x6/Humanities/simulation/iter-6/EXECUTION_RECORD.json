@@ -1,0 +1,141 @@
+{
+ "sim_id": "SIM-IN-HUM-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:23:02.415412+00:00",
+ "finished_utc": "2026-10-24T17:23:05.023511+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-6  (run from Humanities/simulation/)",
+ "spec_sha256": "01b363d558a71ce959ff87bddbe7bb50d02f55aef903e8ca158329ce1156e613",
+ "params_sha256": "d923f7d0a690e314f56ea959f63e59928e0ea796c4fd2bb97547c3a4adab6748",
+ "results_sha256": "c06f9f3b5558199d4901e561279c556217d627903907c78e7307fe57fe4ce957",
+ "results": {
+  "gamma_c": 0.24882791,
+  "x_c": 0.08728256,
+  "runs": {
+   "-0.05": {
+    "T": null,
+    "stuck_at": 0.03914827
+   },
+   "-0.01": {
+    "T": null,
+    "stuck_at": 0.06326426
+   },
+   "0.001": {
+    "T": 142.87,
+    "stuck_at": null
+   },
+   "0.003": {
+    "T": 82.83,
+    "stuck_at": null
+   },
+   "0.01": {
+    "T": 45.72,
+    "stuck_at": null
+   },
+   "0.03": {
+    "T": 26.72,
+    "stuck_at": null
+   },
+   "0.1": {
+    "T": 15.03,
+    "stuck_at": null
+   }
+  },
+  "slope": -0.48943355
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "below threshold the deterministic system is stuck; above it reaches 0.99",
+   "observed": {
+    "-0.05": {
+     "T": null,
+     "stuck_at": 0.03914827
+    },
+    "-0.01": {
+     "T": null,
+     "stuck_at": 0.06326426
+    },
+    "0.001": {
+     "T": 142.87,
+     "stuck_at": null
+    },
+    "0.003": {
+     "T": 82.83,
+     "stuck_at": null
+    },
+    "0.01": {
+     "T": 45.72,
+     "stuck_at": null
+    },
+    "0.03": {
+     "T": 26.72,
+     "stuck_at": null
+    },
+    "0.1": {
+     "T": 15.03,
+     "stuck_at": null
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "transmission time diverges as delta -> 0+: log-log slope within 0.1 of -1/2 (saddle-node bottleneck)",
+   "observed": -0.48943355,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "-0.05": {
+     "T": null,
+     "stuck_at": 0.03914827
+    },
+    "-0.01": {
+     "T": null,
+     "stuck_at": 0.06326426
+    },
+    "0.001": {
+     "T": 142.87,
+     "stuck_at": null
+    },
+    "0.003": {
+     "T": 82.83,
+     "stuck_at": null
+    },
+    "0.01": {
+     "T": 45.72,
+     "stuck_at": null
+    },
+    "0.03": {
+     "T": 26.72,
+     "stuck_at": null
+    },
+    "0.1": {
+     "T": 15.03,
+     "stuck_at": null
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
