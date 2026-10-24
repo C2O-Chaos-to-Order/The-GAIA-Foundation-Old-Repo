@@ -1,0 +1,61 @@
+{
+ "sim_id": "SIM-R1-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:09:25.134792+00:00",
+ "finished_utc": "2026-10-24T02:09:25.140663+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-1",
+ "params_sha256": "0f3f305082b98a8640c117de3a36f8b72ee807aa5d67167dee9f4433ff495665",
+ "outputs": {
+  "outputs/results.json": "e69ca8df47c44caaea948fc1ff074ea44263d32edcddda15f21c961fb4933244"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no load, no cue: temperature stays at T0 (|dev| < 1e-12)",
+   "observed": [
+    0.0,
+    0.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "unsaturated P-control steady state equals analytic d/(a+Kp) (rel. error < 1e-6)",
+   "observed": [
+    0.5,
+    0.5
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "daily exposure for 14 days lowers peak core deviation by >= 30% (direction per W04)",
+   "observed": 0.80821747,
+   "result": "Supported"
+  },
+  {
+   "id": "H1b",
+   "kind": "reporting",
+   "expect": "report days to reach half of the final adaptation",
+   "observed": 3,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

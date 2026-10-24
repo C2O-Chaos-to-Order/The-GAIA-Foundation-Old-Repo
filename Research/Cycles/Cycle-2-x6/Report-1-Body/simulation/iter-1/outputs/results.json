@@ -1,0 +1,101 @@
+{
+ "acquisition": {
+  "daily": [
+   {
+    "day": 1,
+    "exposed": true,
+    "peak": 0.9315094517,
+    "w": 0.0070612833
+   },
+   {
+    "day": 2,
+    "exposed": true,
+    "peak": 0.6143539299,
+    "w": 0.0120276417
+   },
+   {
+    "day": 3,
+    "exposed": true,
+    "peak": 0.3997695371,
+    "w": 0.0157012711
+   },
+   {
+    "day": 4,
+    "exposed": true,
+    "peak": 0.3691559541,
+    "w": 0.0190589775
+   },
+   {
+    "day": 5,
+    "exposed": true,
+    "peak": 0.3411750628,
+    "w": 0.0221254181
+   },
+   {
+    "day": 6,
+    "exposed": true,
+    "peak": 0.3156213854,
+    "w": 0.0249232867
+   },
+   {
+    "day": 7,
+    "exposed": true,
+    "peak": 0.2923058066,
+    "w": 0.0274735085
+   },
+   {
+    "day": 8,
+    "exposed": true,
+    "peak": 0.2710539489,
+    "w": 0.0297954116
+   },
+   {
+    "day": 9,
+    "exposed": true,
+    "peak": 0.2517047467,
+    "w": 0.0319068766
+   },
+   {
+    "day": 10,
+    "exposed": true,
+    "peak": 0.2341091927,
+    "w": 0.0338244697
+   },
+   {
+    "day": 11,
+    "exposed": true,
+    "peak": 0.2181292368,
+    "w": 0.0355635584
+   },
+   {
+    "day": 12,
+    "exposed": true,
+    "peak": 0.2036368156,
+    "w": 0.0371384142
+   },
+   {
+    "day": 13,
+    "exposed": true,
+    "peak": 0.1905129997,
+    "w": 0.038562303
+   },
+   {
+    "day": 14,
+    "exposed": true,
+    "peak": 0.1786472394,
+    "w": 0.0398474437
+   }
+  ],
+  "peak_day1": 0.9315094517,
+  "peak_last": 0.1786472394,
+  "reduction": 0.80821747,
+  "w_final": 0.0398474437
+ },
+ "days_to_half_adaptation": 3,
+ "learning_used": {
+  "eta": 0.01,
+  "lam": 0.0,
+  "w_max": null
+ },
+ "w_acclimated": 0.0398474437
+}
