@@ -1,0 +1,135 @@
+{
+ "sim_id": "SIM-DV-FOR-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:56.280242+00:00",
+ "finished_utc": "2026-10-24T16:46:56.306768+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-12  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "18e3c4254d5588065dbe3a8bfceb647462bb59be7efcd31b9d008737ede48145",
+ "params_sha256": "8e4729f7193c24c75bffcbf1cabf0a582c334e6483f4090b9c8353b8eae146f8",
+ "results_sha256": "6315d467f99980961924b05b15c9f52dca2a9c115f8af4cdb19d29230832c9ac",
+ "results": {
+  "D": 13.44806446,
+  "by_n": {
+   "100": {
+    "eqA2_mean": 13.48344909,
+    "eqA2_abs_err": 0.03538463,
+    "lr_mean": 13.39870861,
+    "lr_se": 0.029973
+   },
+   "1000": {
+    "eqA2_mean": 13.45156427,
+    "eqA2_abs_err": 0.00349981,
+    "lr_mean": 13.43666881,
+    "lr_se": 0.00871958
+   },
+   "10000": {
+    "eqA2_mean": 13.45106848,
+    "eqA2_abs_err": 0.00300402,
+    "lr_mean": 13.44884793,
+    "lr_se": 0.00315252
+   },
+   "100000": {
+    "eqA2_mean": 13.44846392,
+    "eqA2_abs_err": 0.00039946,
+    "lr_mean": 13.44817143,
+    "lr_se": 0.00093948
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "likelihood-ratio rate (expectation exactly D) within 4 SE of D at every n",
+   "observed": [
+    [
+     13.39870861,
+     0.029973
+    ],
+    [
+     13.43666881,
+     0.00871958
+    ],
+    [
+     13.44884793,
+     0.00315252
+    ],
+    [
+     13.44817143,
+     0.00093948
+    ],
+    13.44806446
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P16 Eq. A2 estimate -(1/n) log L(c|q) within 0.01 nats of D at n = 100000",
+   "observed": 0.00039946,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Eq. A2 absolute error decreases with every increase in n",
+   "observed": [
+    0.03538463,
+    0.00349981,
+    0.00300402,
+    0.00039946
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "D and estimates by n",
+   "observed": {
+    "D": 13.44806446,
+    "by_n": {
+     "100": {
+      "eqA2_mean": 13.48344909,
+      "eqA2_abs_err": 0.03538463,
+      "lr_mean": 13.39870861,
+      "lr_se": 0.029973
+     },
+     "1000": {
+      "eqA2_mean": 13.45156427,
+      "eqA2_abs_err": 0.00349981,
+      "lr_mean": 13.43666881,
+      "lr_se": 0.00871958
+     },
+     "10000": {
+      "eqA2_mean": 13.45106848,
+      "eqA2_abs_err": 0.00300402,
+      "lr_mean": 13.44884793,
+      "lr_se": 0.00315252
+     },
+     "100000": {
+      "eqA2_mean": 13.44846392,
+      "eqA2_abs_err": 0.00039946,
+      "lr_mean": 13.44817143,
+      "lr_se": 0.00093948
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
