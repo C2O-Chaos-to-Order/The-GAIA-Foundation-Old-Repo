@@ -1,0 +1,59 @@
+{
+ "matrix": {
+  "body_justice": [],
+  "cells_with_c4_claims": {
+   "BodyxIntegrity": [
+    "C4-R1-01"
+   ],
+   "BodyxTruth": [
+    "C4-R1-01",
+    "C4-R1-02",
+    "C4-R1-03"
+   ],
+   "ConsciousnessxIntegrity": [
+    "C4-R5-02"
+   ],
+   "ConsciousnessxTruth": [
+    "C4-R5-03",
+    "C4-R5-05"
+   ],
+   "MindxLove": [
+    "C4-R2-01"
+   ],
+   "MindxTruth": [
+    "C4-R2-01",
+    "C4-R2-02",
+    "C4-R2-03"
+   ],
+   "MindxWisdom": [
+    "C4-R2-02"
+   ],
+   "SoulxTruth": [
+    "C4-R3-01"
+   ],
+   "SoulxWisdom": [
+    "C4-R3-01"
+   ],
+   "SpiritxTruth": [
+    "C4-R4-01",
+    "C4-R4-02",
+    "C4-R4-03",
+    "C4-R4-04"
+   ]
+  },
+  "still_empty": [
+   "BodyxJustice"
+  ],
+  "under_researched": [
+   "BodyxLove",
+   "BodyxWisdom",
+   "MindxJustice",
+   "SoulxLove",
+   "SpiritxIntegrity",
+   "SpiritxJustice",
+   "ConsciousnessxLove",
+   "ConsciousnessxJustice",
+   "ConsciousnessxWisdom"
+  ]
+ }
+}

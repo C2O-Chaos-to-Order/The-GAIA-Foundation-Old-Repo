@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:30.699973+00:00",
+ "finished_utc": "2026-10-24T04:22:30.710525+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-7",
+ "params_sha256": "d60a12e28399f2c4fb71507b31e673ae9c5519beca3bdc2bbed323695652eb91",
+ "outputs": {
+  "outputs/results.json": "7715b4d9d1c4ebc982680a23f6d9cf48a42ae352edcb7be02a6e7a399a06243d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "at least half of the new Cycle-4 claims (R1-R6) receive at least one lens under keyword rule v1.0.1",
+   "observed": [
+    0.75,
+    20
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
