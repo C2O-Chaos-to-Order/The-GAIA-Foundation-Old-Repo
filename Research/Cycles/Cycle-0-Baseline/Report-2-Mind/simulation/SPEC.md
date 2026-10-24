@@ -18,3 +18,6 @@
 
 ## Correction recorded after execution
 The E3 rationale "(consistent with S04's report that simple exponential decay fits poorly)" was written from memory before checking. A text search of the S04 snapshot did not locate such a statement; S04 compares several functions (power, power with 1-day boost, summed exponential, Memory Chain Model) by SSD/R²/AIC. The rationale is withdrawn. E3 itself (an expectation, not a citation) was executed unchanged.
+
+## Baseline v2 note (2026-10-24)
+Re-run fresh for Baseline v2 with unchanged model, parameters and seeds; no deviation. Outputs reproduce v1 (see Verification/VERIFICATION.md). The v1 deviations recorded above still apply.

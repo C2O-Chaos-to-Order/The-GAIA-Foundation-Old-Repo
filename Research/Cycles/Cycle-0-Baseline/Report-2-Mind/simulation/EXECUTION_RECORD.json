@@ -1,15 +1,15 @@
 {
   "sim_id": "SIM-R2-C0",
   "status": "executed",
-  "started_utc": "2026-10-23T23:49:42.754252+00:00",
-  "finished_utc": "2026-10-23T23:49:42.756028+00:00",
+  "started_utc": "2026-10-24T00:24:40.332024+00:00",
+  "finished_utc": "2026-10-24T00:24:40.333737+00:00",
   "environment": {
     "python": "3.13.5",
     "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
     "numpy": "2.5.4",
     "scipy": "1.18.1"
   },
-  "command": "sim_mind.py",
+  "command": "Report-2-Mind/simulation/sim_mind.py",
   "params": {
     "rw": {
       "alpha": 0.3,

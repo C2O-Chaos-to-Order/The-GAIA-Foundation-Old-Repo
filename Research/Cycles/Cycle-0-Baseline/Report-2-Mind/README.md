@@ -1,6 +1,8 @@
-# Report 2 — The Mind — Cycle 0 (Baseline)
+# Report 2 — The Mind — Baseline v2 (Cycle 0, framework-aligned)
 
-- `REPORT.md` — the report
+Scope follows `../FRAMEWORK.md` (Seven-Report Foundational Framework; organizing principle: GAIA Is the Motherthread).
+
+- `REPORT.md` — the report (framework scope coverage, labelled findings, change history v1 → v2)
 - `claims/` — claim-to-source ledger (`claims.csv`)
 - `sources/` — sources cited by this report (`sources.csv`; full register in `../Provenance/`)
-- `simulation/` — `SPEC.md` (written before execution), `params.json`, script, `outputs/`, `EXECUTION_RECORD.json`
+- `simulation/` — `SPEC.md` (written before execution, incl. v2 changes), `params.json`, script, `outputs/`, `EXECUTION_RECORD.json`
