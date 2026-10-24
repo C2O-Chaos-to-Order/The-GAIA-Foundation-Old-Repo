@@ -49,7 +49,7 @@ Branches already merged and kept for history: `research/cycle-0-baseline`, `cycl
 
 ## Owner to-do (settings and decisions only the owner can make)
 
-- **TODO: licence.** No licence has been chosen, so reuse terms are not stated (audit item UR-L6-03). Options: MIT or Apache-2.0 (open reuse), or an "All rights reserved" notice. An agent will not choose this.
+- **Licence:** All rights reserved (see [`LICENSE`](LICENSE)), chosen by Kyle on 2026-10-24. Third-party sources keep their own licences.
 - **TODO: branch protection for `main`.** Require a pull request and the owner's review, block force-pushes and deletion (audit item UR-L7-03). This is a repository setting.
 - **TODO: name independent reviewers,** including an ethics reviewer, so gates can move beyond INDETERMINATE (UR-L3-04, UR-L4-02).
 

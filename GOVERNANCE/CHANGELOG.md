@@ -43,3 +43,7 @@ Branch created from `research/governance-universal-regulation` @ `7dded25`. Comm
 ## 2026-10-24 — CI paused
 
 At Kyle's request, the `verify` workflow now runs only on manual dispatch. GitHub Actions jobs for this private repo were not being started (no runner, no steps; likely billing), and each run sent a failure alert. The same checks run locally before every agent push. UR-L3-08 stays INDETERMINATE.
+
+## 2026-10-24: Licence added
+
+Kyle chose "All rights reserved". `LICENSE` was added and the README TODO was replaced. Third-party sources keep their own licences. This closes audit item UR-L6-03 once merged to `main`.
