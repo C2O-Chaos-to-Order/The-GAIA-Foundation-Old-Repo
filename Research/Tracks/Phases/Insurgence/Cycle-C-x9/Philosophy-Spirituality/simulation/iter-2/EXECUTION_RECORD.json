@@ -1,0 +1,69 @@
+{
+ "sim_id": "SIM-IN-PHI-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:50:05.611242+00:00",
+ "finished_utc": "2026-10-24T17:50:05.622151+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-2  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "879c5d2bc95017bf4fedd28c15e75134de3be69569d0e6f5d4952a303b63ad1f",
+ "params_sha256": "2b8fd67ea76b3bd87e5bf195f3bd1c3cfaa37c0075c9bba14d1deceb55e2851b",
+ "results_sha256": "09cdca06c30038d4235f76c1d8b3866d803e0132d8790fb5c0eba1696f475b80",
+ "results": {
+  "a": 1.0,
+  "x_at_peak_utility": 0.99639751,
+  "x_when_utility_restored": 0.99999678,
+  "x_after_hold": 0.00064073
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "x stays in [0, 1]",
+   "observed": {
+    "a": 1.0,
+    "x_at_peak_utility": 0.99639751,
+    "x_when_utility_restored": 0.99999678,
+    "x_after_hold": 0.00064073
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "stance < 0.1 after the hold",
+   "observed": {
+    "a": 1.0,
+    "x_at_peak_utility": 0.99639751,
+    "x_when_utility_restored": 0.99999678,
+    "x_after_hold": 0.00064073
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "a": 1.0,
+    "x_at_peak_utility": 0.99639751,
+    "x_when_utility_restored": 0.99999678,
+    "x_after_hold": 0.00064073
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
