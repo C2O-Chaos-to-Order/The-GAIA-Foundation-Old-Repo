@@ -1,0 +1,176 @@
+{
+ "sim_id": "SIM-CV-FOR-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:12.727645+00:00",
+ "finished_utc": "2026-10-24T22:14:12.736799+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a3d671fc0e437ebb18f9a4c5f5f1b20b3af27110b62ec8904a1b2df4151f36a7",
+ "params_sha256": "3daf19ddb93d87ded2b88784d203cc40a7829a5dc973ee343ea70f3fc5b5ffa4",
+ "results_sha256": "854957afc256049bb42a6669b4ffb36014ec6c69205fe453ae125aed940afd8e",
+ "results": {
+  "chains": {
+   "cycle10": {
+    "n": 10,
+    "tmix": {
+     "0.25": 10
+    },
+    "lambda2": 0.9045085,
+    "t_rel": 10.4721,
+    "d_at": {}
+   },
+   "cycle20": {
+    "n": 20,
+    "tmix": {
+     "0.25": 38
+    },
+    "lambda2": 0.97552826,
+    "t_rel": 40.8635,
+    "d_at": {}
+   },
+   "cycle40": {
+    "n": 40,
+    "tmix": {
+     "0.25": 152
+    },
+    "lambda2": 0.99384417,
+    "t_rel": 162.4476,
+    "d_at": {}
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "even lazy cycles: t_mix(1/4) ratio per doubling in [3, 5]",
+   "observed": {
+    "chains": {
+     "cycle10": {
+      "n": 10,
+      "tmix": {
+       "0.25": 10
+      },
+      "lambda2": 0.9045085,
+      "t_rel": 10.4721,
+      "d_at": {}
+     },
+     "cycle20": {
+      "n": 20,
+      "tmix": {
+       "0.25": 38
+      },
+      "lambda2": 0.97552826,
+      "t_rel": 40.8635,
+      "d_at": {}
+     },
+     "cycle40": {
+      "n": 40,
+      "tmix": {
+       "0.25": 152
+      },
+      "lambda2": 0.99384417,
+      "t_rel": 162.4476,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "t_mix(1/4)/t_rel in [0.5, 2]",
+   "observed": {
+    "chains": {
+     "cycle10": {
+      "n": 10,
+      "tmix": {
+       "0.25": 10
+      },
+      "lambda2": 0.9045085,
+      "t_rel": 10.4721,
+      "d_at": {}
+     },
+     "cycle20": {
+      "n": 20,
+      "tmix": {
+       "0.25": 38
+      },
+      "lambda2": 0.97552826,
+      "t_rel": 40.8635,
+      "d_at": {}
+     },
+     "cycle40": {
+      "n": 40,
+      "tmix": {
+       "0.25": 152
+      },
+      "lambda2": 0.99384417,
+      "t_rel": 162.4476,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "cycle10": {
+      "n": 10,
+      "tmix": {
+       "0.25": 10
+      },
+      "lambda2": 0.9045085,
+      "t_rel": 10.4721,
+      "d_at": {}
+     },
+     "cycle20": {
+      "n": 20,
+      "tmix": {
+       "0.25": 38
+      },
+      "lambda2": 0.97552826,
+      "t_rel": 40.8635,
+      "d_at": {}
+     },
+     "cycle40": {
+      "n": 40,
+      "tmix": {
+       "0.25": 152
+      },
+      "lambda2": 0.99384417,
+      "t_rel": 162.4476,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
