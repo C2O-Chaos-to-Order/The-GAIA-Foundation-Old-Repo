@@ -1,0 +1,128 @@
+{
+ "sim_id": "SIM-CONS-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:18:27.724590+00:00",
+ "finished_utc": "2026-10-24T05:18:29.884294+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-3  (run from Consciousness/simulation/)",
+ "spec_sha256": "70d7a8be54c669af095140432f17c520940fd770a5fecb54447c254ebc0e5931",
+ "params_sha256": "feea3c7a1b0835c77e6435b1a34f674f0fcc21e0e153ec08b5d9bbcb40cce064",
+ "results_sha256": "b6e37d868a763bae83dc66e7cad47f47fbe0800a0bba996a6ef65d6ba781bc55",
+ "results": {
+  "by_lambda": {
+   "0.4": {
+    "parallel_counts": [
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12
+    ],
+    "share_exact": 1.0,
+    "var_explained_first_k": 0.28015066
+   },
+   "0.5": {
+    "parallel_counts": [
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12
+    ],
+    "share_exact": 1.0,
+    "var_explained_first_k": 0.35477834
+   },
+   "0.6": {
+    "parallel_counts": [
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12
+    ],
+    "share_exact": 1.0,
+    "var_explained_first_k": 0.44908347
+   },
+   "0.75": {
+    "parallel_counts": [
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12,
+     12
+    ],
+    "share_exact": 1.0,
+    "var_explained_first_k": 0.62184962
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "lambda = 0.75 (strong): parallel analysis recovers exactly k in >= 90% of replications",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at lambda = 0.6 parallel analysis recovers exactly k = 12 in >= 90% of replications",
+   "observed": 1.0,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "at lambda = 0.6 the first k components explain 0.44 +- 0.05 of item variance (K14 reports 44%)",
+   "observed": 0.44908347,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "variance explained by first k components, by lambda",
+   "observed": {
+    "0.4": 0.28,
+    "0.5": 0.355,
+    "0.6": 0.449,
+    "0.75": 0.622
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
