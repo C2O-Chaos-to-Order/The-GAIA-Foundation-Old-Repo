@@ -1,0 +1,68 @@
+{
+ "sim_id": "SIM-DV-HUM-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:33:28.948927+00:00",
+ "finished_utc": "2026-10-24T16:33:30.220091+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-9  (run from Humanities/simulation/)",
+ "spec_sha256": "4fad1cefd4c72d21381b5030d6e5b897720fb0316d6216db12c9d6982abe9291",
+ "params_sha256": "fed21c5880bee09d37428f6fdc5b4a8a5b68c3b07f3789d4c1cf9969ce68f707",
+ "results_sha256": "6fb5a736bce71983641b4e7c494a6dfc1b61f7589ca6423bc06fa9e272761411",
+ "results": {
+  "detection_rate": 0.73333333,
+  "mean_false_peaks": 0.0,
+  "reps": 20
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "detection rates in [0, 1] and computed for every replicate",
+   "observed": {
+    "detection_rate": 0.73333333,
+    "mean_false_peaks": 0.0,
+    "reps": 20
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mean detection rate of true change points >= 0.8",
+   "observed": 0.73333333,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "mean number of significant peaks away from true change points <= 1.0",
+   "observed": 0.0,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "rates",
+   "observed": {
+    "detection_rate": 0.73333333,
+    "mean_false_peaks": 0.0,
+    "reps": 20
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
