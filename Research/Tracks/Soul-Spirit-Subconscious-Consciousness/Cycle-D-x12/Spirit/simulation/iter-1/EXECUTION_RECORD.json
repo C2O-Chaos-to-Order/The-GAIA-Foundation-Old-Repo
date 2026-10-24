@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:13.342651+00:00",
+ "finished_utc": "2026-10-24T07:05:13.350625+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-1  (run from Spirit/simulation/)",
+ "spec_sha256": "2f55e8b81b3246a6a5d4d1363f693a4ac4a5d349662f93c947d2975b2c629a23",
+ "params_sha256": "d9e28f13f1f67601d3158904cd184f8a0866b6de87911d83d169eda4706f9f50",
+ "results_sha256": "2cd036d730af580132b9a446c63839cb8e554814819e188262a0bce483b80871",
+ "results": {
+  "hit": 0.95238095,
+  "fa": 0.14,
+  "pc": 0.90217391,
+  "kappa": 0.80471698,
+  "dprime": {
+   "plain": 2.74871053,
+   "loglinear": 2.6814227,
+   "1/(2N)_bounds": 2.74871053
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "hit, false-alarm and proportion correct reproduce the reported 0.95, 0.14 and 90.2% (rounded)",
+   "observed": [
+    0.95238095,
+    0.14,
+    0.90217391
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "simulated hit rate within 0.005 of TP/(TP+FN)",
+   "observed": [
+    0.95235476,
+    0.95238095
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no standard d' convention reproduces the reported d' = 3.464 within 0.1",
+   "observed": {
+    "plain": 2.74871053,
+    "loglinear": 2.6814227,
+    "1/(2N)_bounds": 2.74871053
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Cohen's kappa; d' by convention",
+   "observed": [
+    0.80471698,
+    {
+     "plain": 2.74871053,
+     "loglinear": 2.6814227,
+     "1/(2N)_bounds": 2.74871053
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
