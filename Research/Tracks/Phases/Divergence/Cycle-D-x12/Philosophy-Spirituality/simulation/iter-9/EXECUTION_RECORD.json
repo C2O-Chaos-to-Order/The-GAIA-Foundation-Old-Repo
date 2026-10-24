@@ -1,0 +1,86 @@
+{
+ "sim_id": "SIM-DV-PHI-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:39.676250+00:00",
+ "finished_utc": "2026-10-24T16:47:44.572781+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-9  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "bddf3a414b8b12b0bad93bc7c388da81fb2ed74dd0d82a6d01510d4194c64e8a",
+ "params_sha256": "7b6e478a19029cace6963a9139c7847e0a9df7fd8eddf454a9bb58ea6e0a1c4a",
+ "results_sha256": "3c5cb61a35633cf2ea618bc4c58bea71c4c3ce17786a62fca42fb29f48e02298",
+ "results": {
+  "5.0": {
+   "mean_K": 27.50666667,
+   "se_K": 0.26474334,
+   "expected_K": 27.03063779,
+   "mean_top_share": 0.30683
+  },
+  "10.0": {
+   "mean_K": 46.08,
+   "se_K": 0.34086388,
+   "expected_K": 46.6545789,
+   "mean_top_share": 0.19554667
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "for every alpha, mean number of branches within 4 Monte Carlo standard errors of the analytic sum alpha/(alpha+i)",
+   "observed": {
+    "5.0": [
+     27.50666667,
+     27.03063779,
+     0.26474334
+    ],
+    "10.0": [
+     46.08,
+     46.6545789,
+     0.34086388
+    ]
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "alpha 5.0: mean largest-branch share > 0.3 (one source stays dominant)",
+   "observed": 0.30683,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "results by alpha",
+   "observed": {
+    "5.0": {
+     "mean_K": 27.50666667,
+     "se_K": 0.26474334,
+     "expected_K": 27.03063779,
+     "mean_top_share": 0.30683
+    },
+    "10.0": {
+     "mean_K": 46.08,
+     "se_K": 0.34086388,
+     "expected_K": 46.6545789,
+     "mean_top_share": 0.19554667
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
