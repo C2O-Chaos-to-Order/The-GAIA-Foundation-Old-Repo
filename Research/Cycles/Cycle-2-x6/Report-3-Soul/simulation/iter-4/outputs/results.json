@@ -1,0 +1,21 @@
+{
+ "carried_from_prev": {},
+ "n_cells": 48,
+ "prevalence": {
+  "PABAK": 0.7916666667,
+  "bias_index": 0.0208333333,
+  "p1_a": 0.4375,
+  "p1_b": 0.4166666667,
+  "prevalence_index": 0.1458333333,
+  "table": [
+   [
+    18,
+    3
+   ],
+   [
+    2,
+    25
+   ]
+  ]
+ }
+}

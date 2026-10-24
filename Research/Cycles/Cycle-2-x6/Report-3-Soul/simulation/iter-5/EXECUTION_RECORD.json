@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R3-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:17:09.447411+00:00",
+ "finished_utc": "2026-10-24T02:17:09.938003+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-5",
+ "params_sha256": "ccd2f5c466badb265f056a6af21c3eafcbd67aff582077264b7c37d057cefb86",
+ "outputs": {
+  "outputs/results.json": "c78a9e37ad0d2bf1c5877bf344b6c4be6e3c38af4728a601a6f124ec59096bcd"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "the C1 typology survives substituting coder B on the sampled cells (ARI >= 0.8, the C1 robustness bar)",
+   "observed": 1.0,
+   "result": "Supported"
+  },
+  {
+   "id": "H5r",
+   "kind": "reporting",
+   "expect": "report the null distribution of ARI for the same number of random flips",
+   "observed": {
+    "median": 0.728358209,
+    "p05": 0.3566815698,
+    "p95": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
