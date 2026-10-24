@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:17.291703+00:00",
+ "finished_utc": "2026-10-24T04:06:17.331049+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-1",
+ "params_sha256": "bb76f262d95712bec5cfa16ef3e6d06f1a8b58d3670d1412c3586c32727aca16",
+ "outputs": {
+  "outputs/results.json": "6aa82d576766c3df627b74d3f82b90d1a2de127c78b87cc70c89941ed0e12819"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "stationary mean within 2% of h/(1-m) = 100",
+   "observed": 99.66031,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "full sampling: conventional estimate within 0.01 of m = 0.9",
+   "observed": 0.8987398166,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
