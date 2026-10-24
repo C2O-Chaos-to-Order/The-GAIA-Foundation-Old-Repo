@@ -1,0 +1,69 @@
+{
+ "sim_id": "SIM-SOUL-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:18:02.849998+00:00",
+ "finished_utc": "2026-10-24T05:18:02.911211+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-3  (run from Soul/simulation/)",
+ "spec_sha256": "09c3bb853257158a910831acaee33e79ca2941ea4251f6f92e7e61476a154867",
+ "params_sha256": "e9b0fce6562df7296b66beec3f4ef63b61da45ad2c70a5bb69a745e54f46063d",
+ "results_sha256": "6e9077e9be2e93c6ccf1709ae135fea8d31384160e6ddefbf3e7da5d5b657005",
+ "results": {
+  "implied_chance_agreement": 0.80952381,
+  "implied_prevalence": 0.1066021,
+  "implied_coder_error": 0.02354277,
+  "po_at_fit": 0.95402299,
+  "simulated_kappa_mean": 0.78927064,
+  "kappa_by_prevalence_same_coders": {
+   "0.05": 0.6523,
+   "0.1": 0.7805,
+   "0.2": 0.8634,
+   "0.3": 0.8924,
+   "0.5": 0.908
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "implied chance agreement (p_o - kappa)/(1 - kappa) computed",
+   "observed": 0.80952381,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "simulated kappa at the fitted prevalence and coder error within 0.02 of the reported kappa",
+   "observed": 0.78927064,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with the SAME coder error, kappa at prevalence 0.5 exceeds 0.90 (kappa depends on prevalence)",
+   "observed": 0.908,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "percent agreement implied by the two-coder symmetric-error model at the fit (reported 0.96)",
+   "observed": 0.95402299,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
