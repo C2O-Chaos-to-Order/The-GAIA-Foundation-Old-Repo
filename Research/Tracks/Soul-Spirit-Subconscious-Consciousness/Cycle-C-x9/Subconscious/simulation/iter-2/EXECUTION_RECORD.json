@@ -1,0 +1,53 @@
+{
+ "sim_id": "SIM-SUBC-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:28.554319+00:00",
+ "finished_utc": "2026-10-24T06:10:28.620542+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-2  (run from Subconscious/simulation/)",
+ "spec_sha256": "59a0b8ece53c8d41b8b42f2521007057b4f96d4fb5a6043235b652a435da0d38",
+ "params_sha256": "2a5e79577f084fdd457fa6a6a7d776d77ccd15cdf9357478c11e9a6206436069",
+ "results_sha256": "db279fd102bf412daff875d568989c4eee01daefe20d3ea5e64fdc9f3b4cdb8d",
+ "results": {
+  "mean_accuracy_at_calibrated": 0.70168949,
+  "share_acc_ge_060": 0.876,
+  "median_ratio_to_theta1": 3.18328342
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "analytic: accuracy at theta1 equals 0.5 + eps (to 1e-9)",
+   "observed": 0.525,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a standard 1-up-2-down staircase lands at an intensity with objective accuracy >= 0.60 (i.e. not subliminal) for >= 80% of observers",
+   "observed": 0.876,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "median calibrated intensity / true upper subliminal threshold",
+   "observed": 3.18328342,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
