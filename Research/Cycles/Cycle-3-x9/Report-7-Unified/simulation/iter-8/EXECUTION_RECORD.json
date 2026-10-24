@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:26.839608+00:00",
+ "finished_utc": "2026-10-24T03:26:26.841492+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-8",
+ "params_sha256": "4a66d2302b66f841fc47646e3ee80896f277ba64f499d7f3bb9a8927d028725b",
+ "outputs": {
+  "outputs/results.json": "ff34f065c07b143a95a52e3f898a41f1efa596a067b608221b08a059970d7c3d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "separability of science from the motherthread: no Established link rests on a Philosophical/Spiritual or Hypothetical claim",
+   "observed": [],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
