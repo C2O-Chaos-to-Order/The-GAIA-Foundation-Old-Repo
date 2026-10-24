@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-DV-APP-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:12.281066+00:00",
+ "finished_utc": "2026-10-24T16:47:12.387905+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-4  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "523fcccaeb46a20d4e94a45d01373214c6d1d49939ac0f36ba5540ea18c345bd",
+ "params_sha256": "7961b8b345eb3d0567edaa528baed12558d5006649f5934c8091a33b3c297e8b",
+ "results_sha256": "0a0fdd287d7a39c8ea45ff8d16c7cf4ddeee907f1b51e2885c33603ea1ba69fd",
+ "results": {
+  "corr_sum_fluency": 0.82318309,
+  "corr_avg_fluency": -0.01319672,
+  "corr_avg_mu": 0.84472122,
+  "corr_avg_mu_lowF": 0.81435415,
+  "corr_avg_mu_highF": 0.88583183,
+  "corr_mu_fluency": -0.00956427,
+  "se": [
+   0.00215085,
+   0.00835702,
+   0.00211655,
+   0.00306394,
+   0.00263922,
+   0.00693098
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "corr(average, fluency) within 4 SE of corr(mu, fluency)",
+   "observed": [
+    -0.01319672,
+    -0.00956427,
+    0.00835702
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "corr(summative, fluency) > 0.8",
+   "observed": 0.82318309,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "average score tracks true originality worse in the low-fluency half (difference > 4 SE)",
+   "observed": [
+    0.81435415,
+    0.88583183,
+    0.00417408
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "correlations",
+   "observed": {
+    "corr_sum_fluency": 0.82318309,
+    "corr_avg_fluency": -0.01319672,
+    "corr_avg_mu": 0.84472122,
+    "corr_avg_mu_lowF": 0.81435415,
+    "corr_avg_mu_highF": 0.88583183,
+    "corr_mu_fluency": -0.00956427,
+    "se": [
+     0.00215085,
+     0.00835702,
+     0.00211655,
+     0.00306394,
+     0.00263922,
+     0.00693098
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
