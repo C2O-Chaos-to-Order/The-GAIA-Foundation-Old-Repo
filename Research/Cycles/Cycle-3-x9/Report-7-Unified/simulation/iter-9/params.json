@@ -1,0 +1,12 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "diminishing": {
+   "c2_dir": "../../../../Cycle-2-x6"
+  }
+ },
+ "input_register": "../../maps/link_register_input.csv",
+ "iteration": 9,
+ "prev": "../iter-8",
+ "sim_id": "SIM-R7-C3"
+}
