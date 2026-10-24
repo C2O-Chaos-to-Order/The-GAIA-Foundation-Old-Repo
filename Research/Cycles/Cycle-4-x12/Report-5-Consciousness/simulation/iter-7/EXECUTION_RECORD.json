@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:20.811912+00:00",
+ "finished_utc": "2026-10-24T04:06:21.098504+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-7",
+ "params_sha256": "7e8e2d557ade8b8b18358cf0d842eb00bf931b39c392a76369757f31012e2873",
+ "outputs": {
+  "outputs/results.json": "916e9eb1c917c6fbb598aa7aa774080964c15ae7f6cce8d25a7df451630b9c7f"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "at the highest input the share of empty bins is < 1%, so avalanches are ill-defined, while MR still estimates m within 0.03",
+   "observed": {
+    "h": 10.0,
+    "zero_share": 0.0,
+    "n_aval": 0,
+    "mr": 0.9800002575
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
