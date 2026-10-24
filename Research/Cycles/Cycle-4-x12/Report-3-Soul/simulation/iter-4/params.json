@@ -1,0 +1,18 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "experiments": {
+  "ks": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ]
+ },
+ "iteration": 4,
+ "k": 4,
+ "prev": "../iter-3",
+ "sim_id": "SIM-R3-C4",
+ "windows": "../data/window_hits_c3.json"
+}

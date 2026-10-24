@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:14.300984+00:00",
+ "finished_utc": "2026-10-24T04:14:14.302944+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-5",
+ "params_sha256": "f4003682e41ff9175bd86e11596644f07da267703e06dcde1f4398eda726c472",
+ "outputs": {
+  "outputs/results.json": "2b86f615fc52f324cec020039c026aff1a912bb1c890cea8d614a014460100a3"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "other linkage methods (complete, single, weighted) give a similar partition (ARI >= 0.5 vs average linkage for each)",
+   "observed": {
+    "complete": 0.7926267281,
+    "single": 0.2621448213,
+    "weighted": 1.0
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
