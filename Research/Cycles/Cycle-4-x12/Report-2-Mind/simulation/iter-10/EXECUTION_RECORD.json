@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 10,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:16.086135+00:00",
+ "finished_utc": "2026-10-24T04:12:17.675770+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-10",
+ "params_sha256": "3063085c54234793760fbefa0f27baa4bd4ac88410ac0cab90e1d4d50353e7fd",
+ "outputs": {
+  "outputs/results.json": "8f9d8f1a771d72a3114d761ce37ea3c5c54cecaa507b6eeb6dfd3ef4bfe0b8c2"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H10",
+   "kind": "hypothesis",
+   "expect": "when PH associability may recover during the delay (generators rho in [0, 0.05], fitted with a rho grid), recovery is still >= 70% at noise 0.1",
+   "observed": {
+    "0.05": 0.95,
+    "0.1": 0.85,
+    "0.2": 0.7166666667
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
