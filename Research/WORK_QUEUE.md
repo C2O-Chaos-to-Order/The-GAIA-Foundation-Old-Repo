@@ -111,6 +111,22 @@ For each element: its connection to the Universe; to Divergence, Insurgence, All
 - [ ] ⬜ Roadmap Stage 2: clause-level crosswalk (ToG clause, existing clause, control and evidence, discrepancy, disposition)
 - [ ] ⬜ Roadmap Stages 3–8: roles, harmonized controls and records, closing audit v2 findings, tooling validation, Good and Greater Good pilot, adoption
 
+### Totality of Governance reports
+
+Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into the Maps & Matrix, and cites the draft clause by clause. Reports research and test the charter; they do not adopt it, and the charter's status stays Proposed until the owner decides.
+
+- [ ] ⬜ **ToG 1: Constitutional Commitments** (§4: dignity and life, integrity before intelligence, evidence, verification, safety, accountability, consent, least harm, truthful uncertainty, stewardship, non-exemption)
+- [ ] ⬜ **ToG 2: Hierarchy, Authority and Separation of Duties** (§5, §7: conflict rules, roles, decision records)
+- [ ] ⬜ **ToG 3: Governance Domains and the Control Matrix** (§6 and the Control Matrix: control-to-evidence map)
+- [ ] ⬜ **ToG 4: Decision States, Evidence and Risk** (§8–§9: PASS / FAIL / INDETERMINATE, claim labels, risk governance)
+- [ ] ⬜ **ToG 5: Good and Greater Good Governance and the Transformation of Harm** (§10–§11, with the Good and Greater Good Framework and its Transformative companion)
+- [ ] ⬜ **ToG 6: Lifecycle, Change Control, Security and Resilience** (§12–§14)
+- [ ] ⬜ **ToG 7: AI and Transformative-Intelligence Governance** (§15, including images and video)
+- [ ] ⬜ **ToG 8: Transparency, Appeal, Remedy, Incidents and Audit** (§16–§18, record templates)
+- [ ] ⬜ **ToG 9: Repository Architecture and Relationship to Current Standards** (§19–§21: crosswalk to Universal Regulation, gate authority, risk levels, NIST, UNESCO, OECD, UDHR)
+- [ ] ⬜ **ToG 10: Governance across the Seven Levels**: Base, Meta, Super, Hyper, Ultra, Magic, Quantum, entangled with the responsibility ladder and the six phases
+- [ ] ⬜ **The Totality of Governance: Synthesis**: all ten connected, with the gap register and the adoption roadmap
+
 ## K. Knowledge, Skills, Capabilities and Powers
 
 Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline → x3 → x6 → x9 → x12), then an entanglement report connecting all seven levels. Note: `Research/README.md` §2 already defines a responsibility ladder (Power, Meta Power, Super Power, Hyper Power, Ultra Power, Magic Power); the Powers series builds on it and adds Quantum.
@@ -159,6 +175,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24: Added the Totality of Governance report series (ToG 1–10 and Synthesis).
 - 2026-10-24: Added The Totality of Governance (draft in `GOVERNANCE/`) and its roadmap stages.
 - 2026-10-24 — Reconciled with `main` after PRs #13–#18 merged: Divergence, Insurgence and Allegiance are all on `main`.
 - 2026-10-24 — Added Indigenous Knowledge, Skills, Capabilities and Powers.
