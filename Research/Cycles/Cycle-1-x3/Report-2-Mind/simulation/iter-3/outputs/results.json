@@ -1,0 +1,46 @@
+{
+ "forgetting_cv": {
+  "dros": {
+   "best_AIC": "log",
+   "best_LOOCV": "log",
+   "bootstrap_AIC_wins": {
+    "exponential": 66,
+    "log": 171,
+    "power": 34
+   },
+   "exponential": {
+    "AIC": -37.279039902,
+    "LOOCV_MSE": 0.0064302845
+   },
+   "log": {
+    "AIC": -43.3854716659,
+    "LOOCV_MSE": 0.0021914259
+   },
+   "power": {
+    "AIC": -38.4413486654,
+    "LOOCV_MSE": 0.0038117468
+   }
+  },
+  "ebbinghaus": {
+   "best_AIC": "power",
+   "best_LOOCV": "power",
+   "bootstrap_AIC_wins": {
+    "exponential": 0,
+    "log": 51,
+    "power": 220
+   },
+   "exponential": {
+    "AIC": -29.5518586156,
+    "LOOCV_MSE": 0.0220923596
+   },
+   "log": {
+    "AIC": -45.0728005065,
+    "LOOCV_MSE": 0.0027151245
+   },
+   "power": {
+    "AIC": -50.6586509199,
+    "LOOCV_MSE": 0.0013791242
+   }
+  }
+ }
+}
