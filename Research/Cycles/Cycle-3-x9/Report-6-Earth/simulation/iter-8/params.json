@@ -1,0 +1,57 @@
+{
+ "W01_table1": {
+  "constrained_LL2000": {
+   "L_establish": 0.51,
+   "L_max": 2.32,
+   "total_life": 1.223
+  },
+  "neutral": {
+   "L_establish": 0.74,
+   "L_max": 1.11,
+   "total_life": 0.204
+  },
+  "original": {
+   "L_establish": 0.68,
+   "L_max": 1.5,
+   "total_life": 0.556
+  }
+ },
+ "experiments": {
+  "grid": {
+   "R": [
+    25.0,
+    40.0,
+    60.0
+   ],
+   "bound": [
+    5.0,
+    40.0
+   ],
+   "k": [
+    0.01,
+    0.03,
+    0.1,
+    0.3
+   ]
+  }
+ },
+ "iteration": 8,
+ "model": {
+  "Ag": 0.5,
+  "L0": 0.5,
+  "L1": 1.7,
+  "S_over_sigma": 16800000000.0,
+  "albedo": [
+   0.25,
+   0.75
+  ],
+  "c": 0.3,
+  "dL": 0.004,
+  "iters": 100,
+  "q": 2064250000.0,
+  "r": 17.5,
+  "seed": 0.001
+ },
+ "prev": "../iter-7",
+ "sim_id": "SIM-R6-C3"
+}
