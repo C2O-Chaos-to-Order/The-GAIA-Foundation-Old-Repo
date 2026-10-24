@@ -1,0 +1,43 @@
+{
+  "M": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      4,
+      7,
+      10,
+      13
+    ],
+    [
+      10,
+      19,
+      28,
+      37
+    ],
+    [
+      16,
+      31,
+      46,
+      61
+    ],
+    [
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "matches_readme_cells": 20,
+  "pattern_product": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "note": "Arithmetic only; semantics undefined"
+}

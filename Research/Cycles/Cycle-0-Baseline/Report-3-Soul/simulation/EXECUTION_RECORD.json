@@ -1,0 +1,59 @@
+{
+  "sim_id": "SIM-R3-C0",
+  "status": "executed",
+  "started_utc": "2026-10-24T00:24:40.702417+00:00",
+  "finished_utc": "2026-10-24T00:24:44.264972+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "Report-3-Soul/simulation/sim_soul.py",
+  "params": {
+    "coding_file": "coding.csv",
+    "metric": "jaccard",
+    "linkage": "average",
+    "k": 4,
+    "mc_draws": 20000,
+    "flip_prob": 0.5,
+    "seed": 20261024,
+    "robust_threshold": 0.5,
+    "pair_threshold": 0.8
+  },
+  "outputs": {
+    "outputs/results.json": "414d10e60665ea2da84742cc6c4c70d1eb94403b6a3eecf61d75dd9542996ad2",
+    "outputs/jaccard_similarity.csv": "7a3e70e9da86aa5e491a1a9f84e122a9e672a8f3322b3d3b473f505768e7ca42",
+    "outputs/coclustering_frequency.csv": "6f0d7c3d9b006d0ab35bea8a9e03895bff8554ed2461647b6c79626bf06e8263"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "14x12 matrix complete; every row has a source",
+      "observed": {
+        "shape": [
+          14,
+          12
+        ],
+        "all_sourced": true
+      },
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "robustness fraction and stable pairs reported (reporting check)",
+      "observed": {
+        "fraction": 0.0013,
+        "n_stable_pairs": 17
+      },
+      "result": "Pass"
+    },
+    {
+      "id": "E3",
+      "expect": "no attribute shared by all 14 conceptions (no universal 'soul' definition in this coding)",
+      "observed": 9,
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}

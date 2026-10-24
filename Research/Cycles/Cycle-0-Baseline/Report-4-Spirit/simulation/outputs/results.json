@@ -1,0 +1,31 @@
+{
+  "outcome_risk": 0.18162181018058873,
+  "rare": {
+    "RR_point": 0.67,
+    "E_point": 2.3499347233638845,
+    "E_CI": 2.1669246207231696
+  },
+  "common": {
+    "RR_point": 0.7579947863649273,
+    "RR_CI": 0.7889310908240944,
+    "E_point": 1.9682724485301843,
+    "E_CI": 1.8498730518579976
+  },
+  "analytic_B_at_E": 1.3192702878546743,
+  "RR_star_harm_scale": 1.3192702878546743,
+  "mc_at_E": {
+    "crude_RR_nonattend_vs_attend": 1.3162656344447086,
+    "crude_RR_attend_vs_nonattend": 0.7597250690373519,
+    "analytic_bias": 1.3192702878546743
+  },
+  "mc_below_E": {
+    "crude_RR_nonattend_vs_attend": 1.2319147892815803,
+    "crude_RR_attend_vs_nonattend": 0.8117444556235689,
+    "analytic_bias": 1.234035922490142
+  },
+  "mc_weak": {
+    "crude_RR_nonattend_vs_attend": 1.0240002670321382,
+    "crude_RR_attend_vs_nonattend": 0.9765622453383745,
+    "analytic_bias": 1.0285714285714287
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "sim_id": "SIM-R4-C0",
+  "status": "executed",
+  "started_utc": "2026-10-24T00:24:44.439032+00:00",
+  "finished_utc": "2026-10-24T00:24:44.649341+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "Report-4-Spirit/simulation/sim_spirit.py",
+  "params": {
+    "HR": 0.67,
+    "CI": [
+      0.62,
+      0.71
+    ],
+    "deaths": 13537,
+    "n_cohort": 74534,
+    "source": "S12 (Li et al. 2016); E-value formula S14 (VanderWeele & Ding 2017)",
+    "mc": {
+      "n": 2000000,
+      "p_exposed": 0.3,
+      "q_baseline": 0.1,
+      "weak": 1.2,
+      "below_E_factor": 0.9,
+      "tolerance": 0.02,
+      "seed": 20261024
+    }
+  },
+  "outputs": {
+    "outputs/results.json": "fb13b2a8a6fb9fa2f3aaed17131a4130f89f0525192fa507b2833424a438f1b4"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "E-values > 1 (rare and common-outcome scales)",
+      "observed": {
+        "rare_E": 2.35,
+        "common_E": 1.968,
+        "common_E_CI": 1.85
+      },
+      "result": "Pass"
+    },
+    {
+      "id": "E2a",
+      "expect": "analytic bounding factor B(E,E) equals observed harm-scale RR* = 1.3193 (|diff|<1e-9)",
+      "observed": 1.31927,
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "null causal effect + confounder at RR_EU=RR_UD=E reproduces observed RR 0.758 within \u00b10.02",
+      "observed": 0.7597,
+      "result": "Pass"
+    },
+    {
+      "id": "E2b",
+      "expect": "confounder at 0.9\u00d7E cannot reach observed RR: crude RR > 0.758+0.02",
+      "observed": 0.8117,
+      "result": "Pass"
+    },
+    {
+      "id": "E3",
+      "expect": "weak confounding (1.2,1.2) under null gives crude RR > 0.9",
+      "observed": 0.9766,
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}

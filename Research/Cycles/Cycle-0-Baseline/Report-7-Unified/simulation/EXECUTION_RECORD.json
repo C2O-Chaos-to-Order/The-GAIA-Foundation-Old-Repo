@@ -1,0 +1,283 @@
+{
+  "sim_id": "SIM-R7-C0",
+  "status": "executed",
+  "started_utc": "2026-10-24T00:32:07.720695+00:00",
+  "finished_utc": "2026-10-24T00:32:07.741895+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "Report-7-Unified/simulation/sim_unified.py",
+  "params": {
+    "axes": {
+      "Alchemy": [
+        "Body Alchemy",
+        "Mind Alchemy",
+        "Soul Alchemy",
+        "Spirit Alchemy",
+        "Consciousness Alchemy"
+      ],
+      "Being": [
+        "Body",
+        "Mind",
+        "Soul",
+        "Spirit",
+        "Consciousness"
+      ],
+      "Phase": [
+        "Divergence",
+        "Insurgence",
+        "Allegiance",
+        "Convergence",
+        "Ascendence"
+      ],
+      "Lens": [
+        "Truth",
+        "Integrity",
+        "Love",
+        "Justice",
+        "Wisdom"
+      ]
+    },
+    "matrix": {
+      "a": [
+        0,
+        1,
+        3,
+        5,
+        0
+      ],
+      "b": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "readme_table": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          4,
+          7,
+          10,
+          13
+        ],
+        [
+          10,
+          19,
+          28,
+          37
+        ],
+        [
+          16,
+          31,
+          46,
+          61
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    "pattern": {
+      "A": [
+        0,
+        1,
+        2,
+        3,
+        0
+      ],
+      "B": [
+        1,
+        3,
+        5,
+        7,
+        0
+      ],
+      "C": [
+        3,
+        6,
+        9,
+        12,
+        0
+      ],
+      "D": 1,
+      "E": 0
+    },
+    "classes": [
+      "Empirical",
+      "Mathematical/computational",
+      "Historical",
+      "Interpretive/philosophical",
+      "Spiritual/theological",
+      "Hypothesis/speculation"
+    ],
+    "statuses": [
+      "Supported",
+      "Mixed",
+      "Contested",
+      "Interpretive",
+      "Hypothetical",
+      "Indeterminate"
+    ],
+    "labels": [
+      "Established",
+      "Plausible",
+      "Philosophical/Spiritual",
+      "Hypothetical"
+    ],
+    "label_status_map": {
+      "Established": [
+        "Supported"
+      ],
+      "Plausible": [
+        "Mixed",
+        "Contested",
+        "Indeterminate"
+      ],
+      "Philosophical/Spiritual": [
+        "Interpretive",
+        "Contested",
+        "Indeterminate"
+      ],
+      "Hypothetical": [
+        "Hypothetical"
+      ]
+    },
+    "link_types": [
+      "relationship",
+      "distinction",
+      "dependency",
+      "feedback loop",
+      "competing interpretation",
+      "unresolved question",
+      "humans within Earth"
+    ],
+    "required_link_types": [
+      "relationship",
+      "distinction",
+      "dependency",
+      "feedback loop",
+      "competing interpretation",
+      "unresolved question",
+      "humans within Earth"
+    ]
+  },
+  "outputs": {
+    "outputs/matrix_checks.json": "f919a286daa01d78435d78aafcf422eb5fb90fad7bc8113ca7a0efef49cb30fd",
+    "outputs/consistency.json": "b6e212f43ad046faefcb1f95bd4823ad0e9d079471e08428413f24d7114e6e7f",
+    "../maps/intersections_625.csv": "6343d75faacaad8d0b247787820b7fb168e634b31780ce4284a1105639ff4713",
+    "../maps/triality_125.csv": "31fb7099ac71bebb5dc9b69552f0d552077e53ef8ce5a75497e047c8a746bf18",
+    "../maps/alchemy_x_being_25.csv": "721f7a244104b749999646f7d339977de928daddaad8d614a0eb99605af67913",
+    "../maps/alchemy_x_phase_25.csv": "2cf50b9d4b26f5c55d8d8b7eeb6c0b90410b6a539fe39dfdec0d48d710ed1d1c",
+    "../maps/link_register.csv": "f1cbaea9e72dbac5cac3fdf4c6c080896c9bba76f5c80d1f893d402f543765ce",
+    "../maps/cross_domain_map.csv": "7ab25feb0b09c42aa865a54336775c404ebc1c80194c9f5c2044aa273ffe9e6c"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "125/625 unique, decodable",
+      "observed": [
+        125,
+        625,
+        true
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "25+25 map rows",
+      "observed": [
+        25,
+        25
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E3",
+      "expect": "20/20 cells match README",
+      "observed": 20,
+      "result": "Pass"
+    },
+    {
+      "id": "E4",
+      "expect": "zero vector",
+      "observed": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E5",
+      "expect": "fields/vocab/label-status mapping/unique ok",
+      "observed": [
+        [],
+        [],
+        [],
+        0
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E6",
+      "expect": "all sources and SIM#check citations resolve",
+      "observed": [],
+      "result": "Pass"
+    },
+    {
+      "id": "E7",
+      "expect": "no Established claim cites a failed or unspecified SIM check",
+      "observed": [],
+      "result": "Pass"
+    },
+    {
+      "id": "E8",
+      "expect": "warning list (Established claims resting only on abstract/excerpt access)",
+      "observed": [
+        "C0v2-R1-09",
+        "C0v2-R2-04",
+        "C0v2-R2-12",
+        "C0v2-R4-10",
+        "C0v2-R5-02",
+        "C0v2-R5-06",
+        "C0v2-R6-01",
+        "C0v2-R6-02",
+        "C0v2-R6-04",
+        "C0v2-R6-05",
+        "C0v2-R6-13"
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E9",
+      "expect": "link register complete; all 7 link types; R1-R6 all linked",
+      "observed": {
+        "bad": [],
+        "types_missing": [],
+        "reports_missing": [],
+        "n": 24
+      },
+      "result": "Pass"
+    },
+    {
+      "id": "E10",
+      "expect": "no Established claim backed only by the framework/motherthread document",
+      "observed": [],
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}

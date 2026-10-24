@@ -1,0 +1,94 @@
+{
+  "sim_id": "SIM-R6-C0",
+  "status": "executed",
+  "started_utc": "2026-10-24T00:32:06.542305+00:00",
+  "finished_utc": "2026-10-24T00:32:07.645652+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "Report-6-Earth/simulation/sim_earth.py",
+  "params": {
+    "daisy": {
+      "gamma": 0.3,
+      "P": 1.0,
+      "S": 917.0,
+      "Ag": 0.5,
+      "Ab": 0.25,
+      "Aw": 0.75,
+      "q": 20.0,
+      "seed_area": 0.01,
+      "dt": 0.05,
+      "steps": 2000,
+      "L": [
+        0.5,
+        1.7,
+        0.01
+      ],
+      "sigma_SB": 5.670374419e-08
+    },
+    "geomag": {
+      "RE_m": 6371200.0,
+      "Rc_m": 3480000.0,
+      "mu0": 1.25663706212e-06,
+      "sigma_S_per_m": [
+        500000.0,
+        1000000.0,
+        1500000.0
+      ],
+      "paleo_min_yr": 3300000000.0,
+      "igrf_file": "inputs_igrf14coeffs.txt"
+    }
+  },
+  "outputs": {
+    "outputs/results.json": "e40aba5b6a7894b9124e4feca9e36d521fa4d5e26108edf3e0f8a8f39fa86556",
+    "outputs/daisy_up.csv": "06b4c1576c2efb2b95d67bae28934d55cb79a0e16d874908a533d55f3aeace8c",
+    "outputs/daisy_down.csv": "7bdf5c9881fbf0581accb4175f2d03dc16fe17e5a524a4f8d36ee77b2406af4b",
+    "outputs/lifeless.csv": "632d275f7a68b8bf9449aa71a27e199382def47341f719a0e1853561a778bcc1"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "life band width >= 3x lifeless",
+      "observed": [
+        0.82,
+        0.24
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "hysteresis: alive ranges differ up vs down",
+      "observed": [
+        [
+          0.72,
+          1.54
+        ],
+        [
+          0.63,
+          1.21
+        ]
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E3",
+      "expect": "dipole moment decreases 1900->latest",
+      "observed": -7.592,
+      "result": "Pass"
+    },
+    {
+      "id": "E4",
+      "expect": "tau <= 1e6 yr for all sigma",
+      "observed": {
+        "500000.0": 24431,
+        "1000000.0": 48861,
+        "1500000.0": 73292
+      },
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}

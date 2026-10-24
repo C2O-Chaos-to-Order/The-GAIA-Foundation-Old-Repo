@@ -1,0 +1,85 @@
+{
+  "sim_id": "SIM-R1-C0",
+  "status": "executed",
+  "started_utc": "2026-10-24T00:24:39.866164+00:00",
+  "finished_utc": "2026-10-24T00:24:40.014861+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "Report-1-Body/simulation/sim_homeostasis.py",
+  "params": {
+    "k_l": 0.1,
+    "k_p": 2.0,
+    "k_i": 1.0,
+    "u_max": 5.0,
+    "D": 1.0,
+    "D_sat": 6.0,
+    "t_d": 10.0,
+    "sigma": 0.02,
+    "dt": 0.01,
+    "T": 60.0,
+    "degrade": 0.1,
+    "seed": 20261023,
+    "ff": 0.8
+  },
+  "outputs": {
+    "outputs/summary.json": "ec592b1e5957c0781bcb40fdfc80abd56accc55eef1881226960a2340944fd70",
+    "outputs/trajectories.csv": "a023a573468180da4dd31e241978491239cc220a1dc248f3c4aebdd00e3bd005"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "no-control x(T) = analytic 9.933 (tends to 10.0)",
+      "observed": 9.9328,
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "P steady error 0.4762",
+      "observed": 0.4762,
+      "result": "Pass"
+    },
+    {
+      "id": "E3",
+      "expect": "|PI tail mean|<0.02",
+      "observed": 0.001,
+      "result": "Pass"
+    },
+    {
+      "id": "E4",
+      "expect": "degraded peak > intact peak and slower recovery",
+      "observed": [
+        1.790515460146184,
+        0.3600061867586858,
+        10.99,
+        4.49
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E6",
+      "expect": "PI+feedforward (anticipation, ff gain) peak < 0.5 x PI peak",
+      "observed": [
+        0.08640535319355025,
+        0.3600061867586858
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E7",
+      "expect": "feedforward-only (no feedback) x(T) = analytic 1.987: anticipation with estimation error cannot restore the set point alone",
+      "observed": 1.9866,
+      "result": "Pass"
+    },
+    {
+      "id": "E5",
+      "expect": "saturated PI final |x| > 0.05",
+      "observed": 9.9014,
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}

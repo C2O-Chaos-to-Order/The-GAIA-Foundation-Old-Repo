@@ -1,0 +1,133 @@
+{
+  "n_conceptions": 14,
+  "n_attributes": 12,
+  "uncertain_cells": 36,
+  "draws": 20000,
+  "base_partition": [
+    [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11"
+    ],
+    [
+      "C05",
+      "C14"
+    ],
+    [
+      "C07",
+      "C08",
+      "C09"
+    ],
+    [
+      "C12",
+      "C13"
+    ]
+  ],
+  "base_reproduced_fraction": 0.0013,
+  "stable_pairs_ge_threshold": [
+    [
+      "C01",
+      "C02",
+      0.98
+    ],
+    [
+      "C01",
+      "C03",
+      0.906
+    ],
+    [
+      "C01",
+      "C04",
+      0.973
+    ],
+    [
+      "C01",
+      "C06",
+      0.989
+    ],
+    [
+      "C01",
+      "C11",
+      0.925
+    ],
+    [
+      "C02",
+      "C03",
+      0.925
+    ],
+    [
+      "C02",
+      "C04",
+      0.99
+    ],
+    [
+      "C02",
+      "C06",
+      0.99
+    ],
+    [
+      "C02",
+      "C11",
+      0.939
+    ],
+    [
+      "C03",
+      "C04",
+      0.931
+    ],
+    [
+      "C03",
+      "C06",
+      0.916
+    ],
+    [
+      "C03",
+      "C11",
+      0.912
+    ],
+    [
+      "C04",
+      "C06",
+      0.983
+    ],
+    [
+      "C04",
+      "C11",
+      0.938
+    ],
+    [
+      "C05",
+      "C07",
+      0.827
+    ],
+    [
+      "C06",
+      "C11",
+      0.933
+    ],
+    [
+      "C08",
+      "C09",
+      0.927
+    ]
+  ],
+  "attribute_frequency": {
+    "A1_immaterial": 5,
+    "A2_independent_of_body_survives_death": 6,
+    "A3_principle_of_life_or_breath": 8,
+    "A4_seat_of_thought_or_identity": 7,
+    "A5_bearer_of_moral_character": 7,
+    "A6_oriented_to_purpose_or_final_end": 6,
+    "A7_enduring_unchanging_self": 3,
+    "A8_form_of_or_inseparable_from_body": 4,
+    "A9_enduring_self_denied": 1,
+    "A10_constituted_relationally_or_communally": 2,
+    "A11_identical_with_universal_ground": 2,
+    "A12_extends_to_non_human_beings": 9
+  },
+  "classification": "Philosophical/Spiritual \u2014 partition coding-sensitive (Indeterminate)"
+}
