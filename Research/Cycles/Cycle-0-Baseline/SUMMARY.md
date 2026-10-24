@@ -1,27 +1,18 @@
-# Cycle 0 (Baseline) — One-Page Summary
+# Cycle 0 — Baseline v2 (framework-aligned): one-page summary
 
-**Date:** 2026-10-23 · **Prepared by:** Grok Bot · **Gate:** **INDETERMINATE** (not Pass)
-Internal check only. No independent human or specialist review has been performed. Indeterminate is not Pass. Implementation is not authorized.
+**Date:** 2026-10-24 · **Scope:** `FRAMEWORK.md` (Seven-Report Foundational Framework; organizing principle **GAIA Is the Motherthread**, labelled Philosophical/Spiritual) · **Gate: INDETERMINATE** (internal checks only; no independent review).
+Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. Totals: 100 claims (65 E / 14 P / 19 PS / 2 H); 75 sources + 3 governing documents; 7/7 simulations executed, 36/36 pre-registered checks pass.
 
-**Scale:** 7 reports · 42 claims · 30 registered sources (28 external, 2 governing repo files) · 7 simulations executed, all rerun with byte-identical outputs.
+| Report | Key findings (label) | Simulation |
+|---|---|---|
+| **1 Body** | Body organization, CNS/PNS with somatic/autonomic/enteric divisions, sensory transduction and adaptation, homeostasis as multiple feedback loops plus feedforward, thermoregulatory coupling to the environment (E). Allostasis as primary regulation (P). Embodied constitution of cognition (PS). Explanation ends at subjective experience and the origin of life. | Feedback/feedforward toy: PI restores the set point; degraded or saturated effectors fail; anticipation cuts peak error 0.36 → 0.09 but cannot correct itself without feedback. 7/7 |
+| **2 Mind** | Forgetting curve, prediction-error learning, spacing, heuristics and biases, 36% replication (E). Predictive processing, emotion theories, interoception's role (P). Perception, personal identity, mind–body (PS). | RW blocking; forgetting-curve AIC comparison. 4/4 |
+| **3 Soul** | What Greek, Hebrew Bible (nefesh), Christian, Islamic, Hindu, Buddhist, Chinese, African and Indigenous sources say (E, as descriptions). Identity, purpose, independence from the body, and the soul's existence (PS). Nothing proven either way. | 14 × 12 coding: no attribute shared by all; clustering highly coding-sensitive (0.13% stable). 3/3; result Indeterminate |
+| **4 Spirit** | Spirit as breath/wind/vitality across texts (pneuma, rûaḥ, rūḥ, qi); inspiration as 'God-breathed' (E, as descriptions). Transcendence and connection (PS). Kept separate: attendance is associated with lower mortality (HR 0.67; meta-analysis 0.82 in healthy populations) (E association); mental-health benefit (P); causation (H). | E-value 1.97 (common outcome). **Corrected** confounding Monte Carlo reproduces the bound (0.760 vs 0.758); 0.9·E cannot explain the association. 5/5 (v1 E2 failure archived) |
+| **5 Consciousness** | Phenomenal vs access concepts, attention networks, PCI tracking the level of consciousness across sleep, anaesthesia and coma recovery, and an adversarial test that challenged both GNWT and IIT (E). Attention–consciousness relation, hot zone vs ignition (P). Entropic brain (H). Origin and nature unsolved (PS). | Toy ignition bistability (no bearing on experience). 3/3 |
+| **6 Earth** | **A:** life ≥ 3.4 Ga; ~8.7 M eukaryotic species; ~1 M threatened; microbial engines of element cycles; core planetary boundaries (E). Kirchner's critique of strong Gaia (P). 'Life as Earth's soul' (PS). **B:** solid inner and convecting outer core; heat engine driving plates and the dynamo; dipole −7.6% since 1900 (E). Dynamo onset, conductivities, mantle-convection driver (P). 'Core as heart' is a symbol only (PS). | Daisyworld widens the habitable range 0.24 → 0.82; dipole decline; free decay time ~10⁴ yr implies regeneration. 4/4 |
+| **7 Unified** | Organized by the GAIA motherthread (PS). Science kept separate: humans are drivers inside Earth systems (E). 24 typed links (10 E / 6 P / 6 PS / 2 H), each with a test, a rejection criterion and a GAIA trace. Unresolved questions recorded (L24). | Ledger/label/link-register consistency, 625-index, README matrix. 10/10 |
 
-| Report | Key findings (status) | Simulation | Checks |
-|---|---|---|---|
-| 1 — Body | Homeostasis as interacting feedback + feedforward loops: **Supported**. Body as constitutive of cognition: **Contested**. Disease as disrupted homeostasis (universal): **Indeterminate**. | Homeostasis feedback toy model, executed | 5/5 pass (one check corrected after first run; documented) |
-| 2 — Mind | Ebbinghaus forgetting curve replicated (single subject). 36% of 100 replicated psychology studies significant. Large parts of scope not yet researched. | Learning model reproduced "blocking"; power/log curves fit Ebbinghaus data better than exponential | 4/4 pass |
-| 3 — Soul | Traditions treated as documented beliefs. Dualism vs physicalism: **Contested**. Existence of a soul: **Indeterminate**. | Overlap analysis of 9 conceptions × 10 self-coded attributes; grouping held in only 22.8% of uncertainty variations → **Indeterminate** | Executed; result not robust |
-| 4 — Spirit | R/S and mental health: **Mixed**. Weekly+ attendance and lower mortality (HR 0.67): **Supported as association**, causation **Indeterminate**. Measuring "spirituality": **Contested**. | E-value 1.97 computed | **E2 Fail** (confounding model set up wrongly; preserved, not hidden) |
-| 5 — Consciousness | Several distinct concepts; leading theories **Contested**; a 2025 adversarial test challenged both. | Toy ignition model: all-or-none sustained activity only with strong recurrence. Says nothing about experience. | 3/3 pass |
-| 6 — Earth | Life documented by ~3.4 Ga; ~1M species threatened. Earth-as-self-regulator: **Contested**. Dipole fell 7.6% (1900–2025); free decay ~24–73 kyr vs 3.3+ Gyr record, so the field must be regenerated. "Soul of the Earth" / "core as heart": **metaphor**. | Daisyworld (1983) rebuild: temperature held over a luminosity band ~3.4× wider with life; IGRF dipole analysis | 4/4 pass |
-| 7 — Unified | 625 intersections, 125 trialities, two 25-entry maps generated and unique, **as categories only**. README number matrix reproduced 20/20. Singularity and Origin remain open. | Consistency/graph check over 42 claims | **E7 Fail** (Supported claim cites the Spirit sim; manually reviewed and accepted; Fail kept on record) |
+**Verification:** reruns byte-identical (7/7). Live claim–source re-verification: 55/55 Established literature claims and 92/92 passages found. Links: 59/78 HTTP 200; 16 PubMed bot walls and 2 private-repository URLs are Indeterminate, not broken. QC: Pass on scope, labels, sourcing, metaphor separation and reproducibility. **Indeterminate** on independent review, full support of claim wording, and ethics review.
 
-## Verification
-- Reproducibility: **Pass** (7/7 reruns identical). Reproducible is not the same as valid.
-- Claim–source re-checks: 8/8 passages found, but only 8 of 42 claims checked → **Indeterminate**.
-- Links: 28/30 live; the 2 governing GitHub files return 404 publicly only because the repo is private.
-- QC checklist: 10 Pass, 3 Indeterminate (claim re-verification, ethics review, "nothing beyond evidence").
-
-## Open items carried to Cycle 1 (x3)
-Coverage gaps in every report (see `Verification/VERIFICATION.md`), the Hebrew Bible conception of the soul, full claim re-verification, a dedicated ethics review, and refinement of the E7 rule. Files referenced in the top-level README (Global Research Completion Gate, Albedo checkpoint, `Research/Validation/`, Report-18 branch) were not found on any branch.
-
-Full details: each `Report-*/REPORT.md`, `Verification/VERIFICATION.md`, `Provenance/`. The Master Report plan is in `Research/Master-Report-Unconditional-and-Conditional-Love/PLAN.md`.
+**v1 → v2:** rebuilt against the framework; all v1 scope gaps closed; sources 30 → 78; R4 confounding model fixed (failure kept on record); R7 per-check citation rule; GAIA motherthread added. Next: Cycle 1 (×3), when the owner authorizes it.
