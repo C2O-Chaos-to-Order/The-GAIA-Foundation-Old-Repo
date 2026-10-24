@@ -1,15 +1,15 @@
 {
   "sim_id": "SIM-R5-C0",
   "status": "executed",
-  "started_utc": "2026-10-23T23:51:27.271294+00:00",
-  "finished_utc": "2026-10-23T23:51:27.578757+00:00",
+  "started_utc": "2026-10-24T00:24:44.720378+00:00",
+  "finished_utc": "2026-10-24T00:24:45.001227+00:00",
   "environment": {
     "python": "3.13.5",
     "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
     "numpy": "2.5.4",
     "scipy": "1.18.1"
   },
-  "command": "sim_ignition.py",
+  "command": "Report-5-Consciousness/simulation/sim_ignition.py",
   "params": {
     "tau": 10.0,
     "theta": 4.0,

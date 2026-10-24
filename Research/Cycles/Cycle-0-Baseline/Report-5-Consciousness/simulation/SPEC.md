@@ -11,3 +11,6 @@ Conditions: w = 8 (strong recurrence; bistable regime) vs w = 2 (weak recurrence
 - E2: w=2: no trial sustains late r>0.5 (no self-sustained state).
 - E3: w=8: the zero-stimulus condition does not spontaneously ignite in >10% of trials.
 **Failure criteria:** E1–E3 not met → Fail recorded.
+
+## Baseline v2 note (2026-10-24)
+Re-run fresh for Baseline v2 with unchanged model, parameters and seeds; no deviation. Outputs reproduce v1 (see Verification/VERIFICATION.md). The v1 deviations recorded above still apply.
