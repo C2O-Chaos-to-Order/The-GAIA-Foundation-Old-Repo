@@ -1,0 +1,50 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:26.485895+00:00",
+ "finished_utc": "2026-10-24T03:02:26.488247+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-3",
+ "params_sha256": "2d2ee2c28dbce88143524a12422a57203a054a3ca690f55c56c2ecda913e4c43",
+ "outputs": {
+  "outputs/results.json": "931c4138b431cd506f5ce96e5b09d24acf00aa418356c18a84553213d91120e5"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "context change between pre-exposure and conditioning attenuates LI by >= 50% in BOTH PH and KF (LI is context-specific in animals)",
+   "observed": {
+    "PH": {
+     "same": 0.1165149595,
+     "changed": 0.2727653831,
+     "attenuation": -1.3410331541
+    },
+    "KF": {
+     "same": 0.4194707246,
+     "changed": 0.0465847692,
+     "attenuation": 0.8889439322
+    },
+    "MK": {
+     "same": 0.0,
+     "changed": 0.0,
+     "attenuation": null
+    }
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
