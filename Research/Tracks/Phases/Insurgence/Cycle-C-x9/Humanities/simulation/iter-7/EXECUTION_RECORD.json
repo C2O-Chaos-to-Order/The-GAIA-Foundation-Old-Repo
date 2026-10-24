@@ -1,0 +1,111 @@
+{
+ "sim_id": "SIM-IN-HUM-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:49:32.645383+00:00",
+ "finished_utc": "2026-10-24T17:49:32.790085+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-7  (run from Humanities/simulation/)",
+ "spec_sha256": "8772960b14d8df555539c6d0a48dbe9a352ace517b5329eafec182cd34df4a64",
+ "params_sha256": "38816a9bc9f440daaffc049a1a9f4c531117529e9ca9e9e2ae766cf896415280",
+ "results_sha256": "5fd1406171fb61a00e89b436f27a95306075f7e4c699d73e9ab67fd672961dfd",
+ "results": {
+  "0.01,0.5": {
+   "G": 0.07896,
+   "se": 0.00069837,
+   "eq6": 0.07863651
+  },
+  "0.5,0.01": {
+   "G": 0.98952,
+   "se": 0.00036811,
+   "eq6": 0.99013136
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "G in [0, 1]",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07896,
+     "se": 0.00069837,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.98952,
+     "se": 0.00036811,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "simulated G within 4 SE (+0.005) of Eq. 6 for every (a, b)",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07896,
+     "se": 0.00069837,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.98952,
+     "se": 0.00036811,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "G < 0.2 for strong imitation and > 0.9 for strong push",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07896,
+     "se": 0.00069837,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.98952,
+     "se": 0.00036811,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07896,
+     "se": 0.00069837,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.98952,
+     "se": 0.00036811,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
