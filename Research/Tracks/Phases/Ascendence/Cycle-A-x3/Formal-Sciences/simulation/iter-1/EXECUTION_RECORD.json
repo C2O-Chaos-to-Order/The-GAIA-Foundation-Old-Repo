@@ -1,0 +1,578 @@
+{
+ "sim_id": "SIM-AS-FOR-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:07.306507+00:00",
+ "finished_utc": "2026-10-24T23:22:07.727347+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "3cc554cf29273855136c1bd802c975ac3766f907527e9a99f4659f254e3a53ff",
+ "params_sha256": "b759b19d6293f7a00f46c471e328c7f74d11fa1092475313fb79abc2a1f35fd9",
+ "results_sha256": "8b7e66f62ddd4ec70a5fe7ef75d52374efa8c487d4be9080a290b2d9b010f727",
+ "results": {
+  "results": {
+   "0.5": {
+    "[-1.5, 2.0]": {
+     "conv": true,
+     "steps": 2,
+     "err": 0.0,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": true,
+     "steps": 2,
+     "err": 0.0,
+     "diverged": false
+    },
+    "[0.0, 0.0]": {
+     "conv": true,
+     "steps": 2,
+     "err": 0.0,
+     "diverged": false
+    }
+   },
+   "0.9": {
+    "[-1.5, 2.0]": {
+     "conv": true,
+     "steps": 72,
+     "err": 9.7e-07,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": true,
+     "steps": 63,
+     "err": 9.8e-07,
+     "diverged": false
+    },
+    "[0.0, 0.0]": {
+     "conv": true,
+     "steps": 63,
+     "err": 8.1e-07,
+     "diverged": false
+    }
+   },
+   "1.0": {
+    "[-1.5, 2.0]": {
+     "conv": false,
+     "steps": null,
+     "err": 2.69,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": false,
+     "steps": null,
+     "err": 2.24,
+     "diverged": false
+    },
+    "[0.0, 0.0]": {
+     "conv": false,
+     "steps": null,
+     "err": 1.41,
+     "diverged": false
+    }
+   },
+   "1.1": {
+    "[-1.5, 2.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[2.0, -1.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[0.0, 0.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    }
+   },
+   "1.5": {
+    "[-1.5, 2.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[2.0, -1.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[0.0, 0.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Euler steps of P86's natural-gradient field converge from all three starts for dt 0.5 and 0.9",
+   "observed": {
+    "results": {
+     "0.5": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      }
+     },
+     "0.9": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 72,
+       "err": 9.7e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 9.8e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 8.1e-07,
+       "diverged": false
+      }
+     },
+     "1.0": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.69,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.24,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 1.41,
+       "diverged": false
+      }
+     },
+     "1.1": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     },
+     "1.5": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "for dt 1.5 (beyond the linear z-coordinate limit dt < 1) no start converges",
+   "observed": {
+    "results": {
+     "0.5": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      }
+     },
+     "0.9": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 72,
+       "err": 9.7e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 9.8e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 8.1e-07,
+       "diverged": false
+      }
+     },
+     "1.0": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.69,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.24,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 1.41,
+       "diverged": false
+      }
+     },
+     "1.1": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     },
+     "1.5": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "dt 1.1 converges from no start (the x-coordinate Euler map has the same dt < 1 limit as the z-coordinate one)",
+   "observed": {
+    "results": {
+     "0.5": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      }
+     },
+     "0.9": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 72,
+       "err": 9.7e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 9.8e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 8.1e-07,
+       "diverged": false
+      }
+     },
+     "1.0": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.69,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.24,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 1.41,
+       "diverged": false
+      }
+     },
+     "1.1": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     },
+     "1.5": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "0.5": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 2,
+       "err": 0.0,
+       "diverged": false
+      }
+     },
+     "0.9": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 72,
+       "err": 9.7e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 9.8e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 63,
+       "err": 8.1e-07,
+       "diverged": false
+      }
+     },
+     "1.0": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.69,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 2.24,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 1.41,
+       "diverged": false
+      }
+     },
+     "1.1": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     },
+     "1.5": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
