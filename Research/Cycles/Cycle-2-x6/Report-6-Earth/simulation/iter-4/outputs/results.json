@@ -1,0 +1,10 @@
+{
+ "carried_from_prev": {},
+ "damping": {
+  "bounded5_cost0.5_0.01": 2.6700096681,
+  "none": 2.9500727541,
+  "unbounded_0.01": 0.9399711894
+ },
+ "lifeless_width": 0.24,
+ "no_adaptation_width": 0.82
+}
