@@ -1,0 +1,39 @@
+# Divergence in the Humanities — Cycle-A-x3 (DVA)
+
+Phase report: Divergence (`../../README.md`). Definitions and competing definitions: `../DEFINITIONS.md`. Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA's Phase axis is a framework category (PS), kept separate from the findings.
+
+## Reading of this cycle
+x3 sources two humanities senses (lexicostatistics, P12; stemmatics, P13) and reproduces P12's numbers; one pre-registered reproduction failed by a single boundary grid point.
+
+## Claims (ledger: `claims/claims.csv`)
+- **DVA-HUM-01** [E] For the Andic branch of East Caucasian, geographic distances correlate with linguistic divergence across several alternative phylogenies, and qualitative classifications fit geography better than cognacy-based phylogenies. *Operationalization:* Divergence = genealogical distance between languages. *Sources:* P06. *Limits:* One small language group; correlation, not mechanism.
+- **DVA-HUM-03** [E] Historians disagree about the image of divergence in Darwin: some argue the Origin diagram has the structure not of a tree but of a coral, and P02 argues the sketches had a heuristic function and became more abstract diagrams over time. *Operationalization:* Divergence images: tree vs coral vs seaweed. *Sources:* P02. *Limits:* One historiographical article's survey.
+- **DVA-HUM-05** [E] Zhang and Gong derive a 'conventional' meaning-list size n = N U^2 p(1-p) / (N eps^2 + U^2 p(1-p)); for total vocabularies of 4,000-5,000 words and alpha, eps between 0.05 and 0.1 it lies in [67, 357], so both Swadesh lists (100 and 200 meanings) are statistically large enough to estimate relatedness, while 15-40-item lists are not. *Operationalization:* Divergence measured on a finite meaning list. *Sources:* P12. *Limits:* Assumes random (i.i.d.) sampling of words, justified by arbitrariness of form-meaning mappings; glosses over semantic ambiguity, as the authors say.
+- **DVA-HUM-07** [E] Lexicostatistics is a broader approach than glottochronology and does not assume a constant rate of word retention or loss; the constant-rate dating used in DV0's HUM simulation is the glottochronological special case. *Operationalization:* Competing methods for measuring lexical divergence. *Sources:* P12. *Limits:* Definitional; P12 does not evaluate glottochronological dating itself.
+- **DVA-HUM-08** [E] Tree diagrams of divergence in the humanities are older than Darwin's: the first recorded manuscript stemma was probably Collins and Schlyter's 1827 tree of medieval Swedish legal texts, and Schleicher published trees of languages from the 1850s onwards. *Operationalization:* Divergence = genealogical branching of texts and languages. *Sources:* P13. *Limits:* Reported in an essay that cites a review; primary documents not read.
+- **DVA-HUM-02** [P] The authors interpret the better geographic fit of qualitative classifications as possible implicit geographic bias, so that how linguistic divergence is measured (cognacy vs expert classification) can change what it appears to show. *Operationalization:* Measurement-dependence of 'divergence'. *Sources:* P06. *Limits:* An interpretation offered by the authors; not tested against an independent benchmark.
+- **DVA-HUM-04** [P] In a formal lexical-replacement model, a constant-rate shared-cognate estimate recovered a 3,000-year split without bias when rates were equal across meanings, but underestimated it by 16% when rates varied (gamma shape 1). *Operationalization:* Divergence time from shared cognates. *Sources:* SIM-DV-HUM-0/iter-1#V1;SIM-DV-HUM-0/iter-1#V2;SIM-DV-HUM-0/iter-1#H1. *Limits:* Formal check of a dating method; parameters illustrative; borrowing and chance resemblance ignored.
+- **DVA-HUM-06** [P] P12's binomial principle implies that the number of matching instances needed to call a sound correspondence recurrent must rise with the combined frequency of the segments involved; a fixed threshold of two would wrongly count /b/-zero and /f/-zero in English-Latin as recurrent. *Operationalization:* Separating inherited correspondences (divergence from a common ancestor) from chance. *Sources:* P12. *Limits:* Some linguists consider the binomial approach too rigorous (Greenberg, cited in P12); results depend on alpha and list size.
+- **DVA-HUM-09** [P] Phylogenetic programs applied to manuscript traditions generally agree with conventional scholarship and with blind analyses of artificial copying experiments; the main objection is contamination (a scribe copying from more than one exemplar), which parallels horizontal gene transfer. *Operationalization:* Divergence of texts by error-prone copying. *Sources:* P13. *Limits:* Essay by proponents; critics are cited but not summarised in detail.
+- **DVA-HUM-10** [P] P12's Table 1 values (356.750 and 66.526) and worked example (0.0032) were reproduced exactly. Sampling error alone gave a 100-meaning list a 95% range of 2.05-4.14 millennia for a true 3.0 (about +/-35%), so the pre-registered +/-25% was not supported. Alpha = 0.01 reproduced P12's k = 2 range exactly but placed p = 0.0043 in the k = 3 range where P12 writes [0.0015, 0.0043), so the pre-registered exact match was not supported by one grid point. *Operationalization:* Precision of lexical divergence measures. *Sources:* SIM-DV-HUM-A/iter-1#V1;SIM-DV-HUM-A/iter-1#V2;SIM-DV-HUM-A/iter-1#H1;SIM-DV-HUM-A/iter-2#V1;SIM-DV-HUM-A/iter-2#V2;SIM-DV-HUM-A/iter-2#H1. *Limits:* Rate r = 0.07 per millennium remains illustrative; P12 does not state alpha for its Figure 5 (0.01 was our reading).
+- **DVA-HUM-11** [P] In a toy manuscript tradition (8 surviving copies, 500 word positions, 2% change per copying), average-linkage reconstruction recovered every leaf triplet in 50 of 50 clean replicates, and contaminating 30% of positions in 2 copies lowered triplet accuracy to 0.90 (a drop of 0.099). *Operationalization:* Divergence of texts and the effect of contamination. *Sources:* SIM-DV-HUM-A/iter-3#V1;SIM-DV-HUM-A/iter-3#H1;SIM-DV-HUM-A/iter-3#H2. *Limits:* Balanced, clock-like tree with no lost exemplars, which favours the method; real traditions are messier.
+
+## Simulations (SIM-DV-HUM-A; 3 iteration(s), spec-first; validation 5/5, hypotheses supported 2/4)
+
+| iter | params | purpose | checks |
+|---|---|---|---|
+| 1 | `6b8b594c` | How much does the size of a meaning list limit cognate-based divergence estimates? Reproduce P12's list-size formula and simulate T_hat spread by list size. | V1 Pass; V2 Pass; H1 Not supported; R1 Reported |
+| 2 | `a4378ae6` | Reproduce P12's binomial threshold for a recurrent sound correspondence (worked example 0.0032) and check whether alpha = 0.01 reproduces its Figure 5 ranges. | V1 Pass; V2 Pass; H1 Not supported; R1 Reported |
+| 3 | `2065dd29` | Manuscript divergence: does tree reconstruction from copied texts recover the copying history, and how much does contamination (copying from two exemplars) degrade it? | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+
+Each `simulation/iter-k/SPEC.md` was written before execution and holds the parameters; `EXECUTION_RECORD.json` holds results, checks and hashes. 'Not supported' is a finding, not an error.
+
+## Research passes (3; details `research/PASSES.md`)
+- Pass 1: P12 replaces part of DV0's gap: list-size and recurrence-threshold principles for lexicostatistics, and the lexicostatistics/glottochronology distinction. It gives no retention rate, so the HUM rate stays illustrative.
+- Pass 2: P13 sources textual divergence (stemmatics), the pre-Darwinian history of tree diagrams and the contamination objection; basis for SIM-DV-HUM-A iter-3.
+- Pass 3: Added nothing: artistic divergence (styles, schools) was not searched; P14 (read under PHI) is cross-linked rather than re-counted here.
+
+## Unresolved
+- Retention rate still illustrative.
+- Artistic divergence uncovered.
+- P02 and P06 not yet re-read in full.
