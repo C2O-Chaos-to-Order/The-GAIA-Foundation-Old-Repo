@@ -1,0 +1,1 @@
+Track validation files (one set per track cycle). Main-cycle validation (C0-C4: schema validation, claim-source and rerun reports) is unchanged since v4 and is not duplicated: see `../../v4-cycles-0-4/validation/`.
