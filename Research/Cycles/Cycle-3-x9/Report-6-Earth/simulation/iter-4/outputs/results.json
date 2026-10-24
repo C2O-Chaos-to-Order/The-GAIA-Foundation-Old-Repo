@@ -1,0 +1,28 @@
+{
+ "seed_floor": {
+  "0.0001": {
+   "L_establish": 0.684,
+   "L_max": 1.5,
+   "frac_within_5C": 0.9658536585,
+   "slope_ratio": -0.018940671,
+   "total_life": 0.5528616996,
+   "width": 0.816
+  },
+  "0.001": {
+   "L_establish": 0.684,
+   "L_max": 1.496,
+   "frac_within_5C": 0.9754901961,
+   "slope_ratio": -0.0306573565,
+   "total_life": 0.5514755984,
+   "width": 0.812
+  },
+  "0.01": {
+   "L_establish": 0.684,
+   "L_max": 1.48,
+   "frac_within_5C": 0.97,
+   "slope_ratio": -0.0242565828,
+   "total_life": 0.5263462526,
+   "width": 0.796
+  }
+ }
+}

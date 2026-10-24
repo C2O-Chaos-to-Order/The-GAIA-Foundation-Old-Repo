@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:24.247773+00:00",
+ "finished_utc": "2026-10-24T03:10:27.431431+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-5",
+ "params_sha256": "af6b0d054ab4b6dba877406b2d60044bb267313ea660eb8eea81a700772d3743",
+ "outputs": {
+  "outputs/results.json": "54a5e70ddf492eeb5dae9b0dffd9500410c46ba1b2de955f637066b7e9baac51"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "unbounded adaptation of growth optima toward local temperature (R&R 1998 in W01's equations) weakens regulation at every rate: slope ratio rises by >= 0.3",
+   "observed": [
+    -0.0306573565,
+    [
+     [
+      0.01,
+      1.0786885112,
+      1.196
+     ],
+     [
+      0.03,
+      1.0759456081,
+      1.2
+     ],
+     [
+      0.1,
+      1.0590160101,
+      1.2
+     ],
+     [
+      0.3,
+      1.0249864299,
+      1.2
+     ]
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
