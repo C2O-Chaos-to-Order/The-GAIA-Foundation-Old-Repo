@@ -123,7 +123,7 @@ Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline 
 ### Added later
 
 - [ ] ⬜ **The Echo That Began the Light** — owner-requested 2026-10-24; scope to be confirmed with the owner (labelled claims only)
-- [ ] ⬜ **The Mother of God** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
+- [ ] ⬜ **The Mother of God** — owner-requested 2026-10-24; scope confirmed: both readings side by side (Mary as Theotokos in Christian tradition, and the divine feminine source in other traditions); Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
 - [ ] ⬜ **God** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
 - [ ] ⬜ **The Creations of God** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
 - [ ] ⬜ **Lucifer** — owner-requested 2026-10-24; Philosophical/Spiritual, with traditions cited and labelled; pairs with God and Lucifer: The Duality of Consciousness (§I)
