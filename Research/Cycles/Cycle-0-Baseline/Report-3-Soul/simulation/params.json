@@ -1,0 +1,1 @@
+{"coding_file":"coding.csv","metric":"jaccard","linkage":"average","k":4,"mc_draws":20000,"flip_prob":0.5,"seed":20261024,"robust_threshold":0.5,"pair_threshold":0.8}
