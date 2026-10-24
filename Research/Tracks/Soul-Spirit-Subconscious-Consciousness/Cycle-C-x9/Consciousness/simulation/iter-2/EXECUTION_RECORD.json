@@ -1,0 +1,63 @@
+{
+ "sim_id": "SIM-CONS-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:28.899117+00:00",
+ "finished_utc": "2026-10-24T06:11:31.058936+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-2  (run from Consciousness/simulation/)",
+ "spec_sha256": "667de178d1fccdadc8a56c010b82bc693df739d5ba955f08a77229525f28c939",
+ "params_sha256": "85de272682057737e42a2d9853a592f9af50fc8c3c0420eca9ac9804816b94e8",
+ "results_sha256": "c5d0b0603f03772d8633ddc7ec3c4a5a01b261b87ca729497317c3a923c26445",
+ "results": {
+  "power_by_N": {
+   "500": 0.074,
+   "2000": 0.2445,
+   "10000": 0.734
+  },
+  "expected_aware": 11.2
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "RR = 1: false-positive rate of the Fisher test <= 0.05 + 3 Monte Carlo SE = 0.0646 (the exact test is conservative)",
+   "observed": 0.0265,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N = 2000, recall 6%, awareness 0.5%: power to detect RR = 3.0 is < 0.5",
+   "observed": 0.2445,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "power by N; expected number of aware patients at the test N",
+   "observed": [
+    {
+     "500": 0.074,
+     "2000": 0.2445,
+     "10000": 0.734
+    },
+    11.2
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
