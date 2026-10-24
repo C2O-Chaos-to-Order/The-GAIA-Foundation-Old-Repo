@@ -1,0 +1,10 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "graph": {}
+ },
+ "input_register": "../../maps/link_register_input.csv",
+ "iteration": 5,
+ "prev": "../iter-4",
+ "sim_id": "SIM-R7-C3"
+}
