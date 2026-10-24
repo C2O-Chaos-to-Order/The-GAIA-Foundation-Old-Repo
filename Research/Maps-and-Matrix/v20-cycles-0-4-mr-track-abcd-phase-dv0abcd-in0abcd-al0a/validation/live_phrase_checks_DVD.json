@@ -1,0 +1,877 @@
+{
+ "cycle": "DVD",
+ "checked_utc": "2026-10-24T16:53:07+00:00",
+ "summary": {
+  "Pass": 124
+ },
+ "checks": [
+  {
+   "claim_id": "DVD-NAT-01",
+   "source_id": "P01",
+   "phrase": "genomic divergence increases with ecological and reproductive isolation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-02",
+   "source_id": "P01",
+   "phrase": "divergence may accumulate early in the speciation process",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-04",
+   "source_id": "P02",
+   "phrase": "Organized beings represent a tree irregularly branched",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-04",
+   "source_id": "P02",
+   "phrase": "principle of divergence of characteristics",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-05",
+   "source_id": "P10",
+   "phrase": "visual metaphor introduced in the mid-twentieth century to illustrate the genetic control of embryonic differentiation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-05",
+   "source_id": "P10",
+   "phrase": "a marble rolling down a rugged hillside",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-06",
+   "source_id": "P10",
+   "phrase": "one hardly knows nowadays what is and what is not considered to be epigenetic",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-09",
+   "source_id": "P01",
+   "phrase": "average = 0.519, 95 % CI = 0.507-0.531",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-09",
+   "source_id": "P01",
+   "phrase": "maximum average = 0.191",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-10",
+   "source_id": "P01",
+   "phrase": "decay of relative divergence occurring between 1-2 cM from the causative locus",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-10",
+   "source_id": "P01",
+   "phrase": "peaks of divergence should be interpreted with caution",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-11",
+   "source_id": "P02",
+   "phrase": "the wider the spacing, the greater the divergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-15",
+   "source_id": "P22",
+   "phrase": "where an equilibrium point splits into three",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-15",
+   "source_id": "P22",
+   "phrase": "Such a sudden jump in the system’s state is often called a catastrophe",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-15",
+   "source_id": "P22",
+   "phrase": "This is hysteresis",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-20",
+   "source_id": "P22",
+   "phrase": "=1-3x^{3}",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-NAT-20",
+   "source_id": "P22",
+   "phrase": "obtained from Eq \\ref{(8.10)}. Figure",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-01",
+   "source_id": "P09",
+   "phrase": "average rate of divergence of neighboring trajectories",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-01",
+   "source_id": "P09",
+   "phrase": "A function is chaotic if it has a positive global Lyapunov exponent",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-02",
+   "source_id": "P09",
+   "phrase": "There is no consensus regarding a precise definition of chaotic behavior",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-08",
+   "source_id": "P09",
+   "phrase": "definition is too broad to pick out only chaotic behaviors",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-08",
+   "source_id": "P09",
+   "phrase": "the map doesn’t exhibit chaotic behavior",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-09",
+   "source_id": "P09",
+   "phrase": "cause some trajectories to converge rapidly while causing others to diverge rapidly",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-09",
+   "source_id": "P09",
+   "phrase": "trivially false for finite uncertainties",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-09",
+   "source_id": "P09",
+   "phrase": "chaotic systems are unpredictable is a myth",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-10",
+   "source_id": "P16",
+   "phrase": "not symmetric in p and q",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-10",
+   "source_id": "P16",
+   "phrase": "diverges from the model",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-14",
+   "source_id": "P23",
+   "phrase": "Otherwise, we say the series diverges",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-14",
+   "source_id": "P23",
+   "phrase": "a series whose terms go to zero may either converge or diverge",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-14",
+   "source_id": "P23",
+   "phrase": "it is possible to have to two divergent series",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-17",
+   "source_id": "P23",
+   "phrase": "Otherwise, we say the series diverges",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-FOR-17",
+   "source_id": "P09",
+   "phrase": "myth",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-01",
+   "source_id": "P03",
+   "phrase": "Opinions fragment into two or more converging clusters",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-02",
+   "source_id": "P03",
+   "phrase": "persistent polarisation of opinions within populations exposed to stochastic events",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-04",
+   "source_id": "P11",
+   "phrase": "We find evidence of global value divergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-04",
+   "source_id": "P11",
+   "phrase": "Values emphasizing tolerance and self-expression have diverged most sharply",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-05",
+   "source_id": "P11",
+   "phrase": "values have diverged globally but converged regionally",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-06",
+   "source_id": "P11",
+   "phrase": "GDP per capita was the only variable that significantly predicted value distinctiveness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-06",
+   "source_id": "P11",
+   "phrase": "More research is necessary to determine the causal relationship, if any, between wealth and value change",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-12",
+   "source_id": "P19",
+   "phrase": "fell from .41 in 1870 to .27 in 1960 to only .11 in 1994",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-12",
+   "source_id": "P19",
+   "phrase": "is almost tautological",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-13",
+   "source_id": "P19",
+   "phrase": "from .51 in 1870 to .88 in 1960 to 1.06 by 1990",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-13",
+   "source_id": "P19",
+   "phrase": "the last 150 years have seen divergence, big time",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-13",
+   "source_id": "P19",
+   "phrase": "is the dominant feature of modern economic history",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-14",
+   "source_id": "P19",
+   "phrase": "there is no obvious reversal in divergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-17",
+   "source_id": "P19",
+   "phrase": "8.7 0.64 38.5 0.88 45.2 1.06",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-SOC-17",
+   "source_id": "P19",
+   "phrase": "grew about four-fold from 1870 to 1960",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-01",
+   "source_id": "P05",
+   "phrase": "a parental clone was branched into numerous subclones",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-02",
+   "source_id": "P05",
+   "phrase": "extensive intratumor heterogeneity could be generated by neutral evolution",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-02",
+   "source_id": "P04",
+   "phrase": "An alternative to gradualist models is punctuated",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-03",
+   "source_id": "P04",
+   "phrase": "parallel or branched evolution is common",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-07",
+   "source_id": "P04",
+   "phrase": "distinguishing among evolutionary modes requires careful consideration of evidentiary standards",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-07",
+   "source_id": "P04",
+   "phrase": "Unlike divergence, convergent evolution occurs",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-08",
+   "source_id": "P05",
+   "phrase": "Known driver alterations were observed frequently in the early-acquired alterations, but rarely in the late-acquired alterations",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-08",
+   "source_id": "P05",
+   "phrase": "progressor mutations rarely occurred in driver genes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-09",
+   "source_id": "P17",
+   "phrase": "the solution computed by forward Euler always grows",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-09",
+   "source_id": "P17",
+   "phrase": "the property of stability depends upon both the solver and the ODE itself",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-15",
+   "source_id": "P24",
+   "phrase": "Divergent Thinking (DT)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-15",
+   "source_id": "P24",
+   "phrase": "response rates decrease while response originality increases",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-16",
+   "source_id": "P24",
+   "phrase": "up to 50% of fluency’s variance represents only stimulus-specific factors",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-16",
+   "source_id": "P24",
+   "phrase": "fluency-originality inter-correlations often exceeding the 0.80 range",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-16",
+   "source_id": "P24",
+   "phrase": "Multi-Trial Creative Ideation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-17",
+   "source_id": "P24",
+   "phrase": "the equivalent fluency score for a 10 min DT-task would be 12",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-17",
+   "source_id": "P24",
+   "phrase": "has an average response time of 40 s",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-17",
+   "source_id": "P24",
+   "phrase": "All subjects and data presented in this work are fictive",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-17",
+   "source_id": "P24",
+   "phrase": "The MCTI framework would therefore consider Sj2 more fluent than Sj1",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-18",
+   "source_id": "P24",
+   "phrase": "those with lower fluency have less opportunities",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-20",
+   "source_id": "P24",
+   "phrase": "originality cost",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-APP-22",
+   "source_id": "P24",
+   "phrase": "DT involves a monitoring and selection of ideas",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-01",
+   "source_id": "P06",
+   "phrase": "geographic distances correlate with linguistic divergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-01",
+   "source_id": "P06",
+   "phrase": "0.088 for Koryakov, and as high as 0.116 for Filatov",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-02",
+   "source_id": "P06",
+   "phrase": "implicit geographic bias in qualitative classifications",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-03",
+   "source_id": "P02",
+   "phrase": "has the structure not of a tree \\(as often described\\) but of a coral",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-03",
+   "source_id": "P02",
+   "phrase": "the sketches had a heuristic function",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-05",
+   "source_id": "P12",
+   "phrase": "the conventional size of the vocabulary list for assembling potential cognates is within the range [67, 357]",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-05",
+   "source_id": "P12",
+   "phrase": "both Swadesh lists are statistically large enough to estimate language relatedness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-06",
+   "source_id": "P12",
+   "phrase": "The threshold value must increase dynamically along with increase in combined occurring frequency",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-07",
+   "source_id": "P12",
+   "phrase": "lexicostatistics is a broader approach than glottochronology without specific assumptions such as constant rate of word retention or loss",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-08",
+   "source_id": "P13",
+   "phrase": "The first recorded example of such a tree",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-08",
+   "source_id": "P13",
+   "phrase": "published trees of languages from the 1850s onwards",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-09",
+   "source_id": "P13",
+   "phrase": "In general, the conclusions drawn using phylogenetic programs are in agreement with those from conventional scholarship",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-09",
+   "source_id": "P13",
+   "phrase": "Contamination has clear parallels in biology",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-12",
+   "source_id": "P06",
+   "phrase": "the more assumedly precise the classification is",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-15",
+   "source_id": "P21",
+   "phrase": "three stylistic ‘revolutions’ around 1964, 1983 and 1991",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-15",
+   "source_id": "P21",
+   "phrase": "we find no evidence for the progressive homogenization of music in the charts",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-15",
+   "source_id": "P21",
+   "phrase": "the rate of musical change during these revolutions varied four- to six-fold",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-15",
+   "source_id": "P21",
+   "phrase": "The British did not start the American revolution of 1964",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-16",
+   "source_id": "P21",
+   "phrase": "one large, highly structured, metapopulation of songs",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-HUM-16",
+   "source_id": "P21",
+   "phrase": "the fourth, most divergent, cluster only contains the",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-01",
+   "source_id": "P08",
+   "phrase": "principle of divergence and differentiation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-01",
+   "source_id": "P08",
+   "phrase": "two great opposite tendencies, namely, instinct and intelligence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-02",
+   "source_id": "P07",
+   "phrase": "the so-called process of .emanation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-05",
+   "source_id": "P15",
+   "phrase": "religion consistently emerges as the cultural trait that exhibits the largest cross-country divergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-05",
+   "source_id": "P15",
+   "phrase": "personal emphasis on religion varies 5-10 times more across countries than emphasis on family, politics, or work effort",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-06",
+   "source_id": "P15",
+   "phrase": "around one-third of the observed diversity in religiosity can be attributed to differences between denominations",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-07",
+   "source_id": "P14",
+   "phrase": "the spread of major world religions might show relatively tree-like structure in their nested pattern of schisms",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-07",
+   "source_id": "P14",
+   "phrase": "Attempting to reconstruct the history of Christianity on an Indo-European language tree would thus make no sense",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-08",
+   "source_id": "P14",
+   "phrase": "cultural phylogenies should be treated as just one tool and one line of evidence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-08",
+   "source_id": "P14",
+   "phrase": "phylogenetic networks allow for hybrid nodes (nodes with two parents)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-12",
+   "source_id": "P14",
+   "phrase": "nested pattern of schisms",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-12",
+   "source_id": "P15",
+   "phrase": "cultural diversity of religion",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-13",
+   "source_id": "P07",
+   "phrase": "comprise a dialectical schema that runs through Plotinus",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-14",
+   "source_id": "P07",
+   "phrase": "love constitutes the main motive for the re-ascent to the Good",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-15",
+   "source_id": "P08",
+   "phrase": "from unity to multiplicity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-15",
+   "source_id": "P08",
+   "phrase": "But the reverse process is also virtual",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-15",
+   "source_id": "P08",
+   "phrase": "on whom he lectured many times",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-16",
+   "source_id": "P18",
+   "phrase": "Daoist creation involves a process of differentiation from unity to multiplicity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-16",
+   "source_id": "P18",
+   "phrase": "is essentially a logical relation into a cosmogonic event",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-16",
+   "source_id": "P18",
+   "phrase": "the notion of reversal",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-19",
+   "source_id": "P07",
+   "phrase": "love constitutes the main motive for the re-ascent to the Good",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-19",
+   "source_id": "P08",
+   "phrase": "But the reverse process is also virtual",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-19",
+   "source_id": "P18",
+   "phrase": "the notion of reversal",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-20",
+   "source_id": "P18",
+   "phrase": "different collections of sayings attributed to Laozi, overlapping to some extent",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-20",
+   "source_id": "P18",
+   "phrase": "The demand for textual uniformity rose",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-20",
+   "source_id": "P18",
+   "phrase": "eventually gave way to the received text",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-20",
+   "source_id": "P18",
+   "phrase": "the number had exceeded three thousand by his time",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-21",
+   "source_id": "P18",
+   "phrase": "significant divergence in the interpretation of the ethics",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-21",
+   "source_id": "P18",
+   "phrase": "the coming of the Dao to the world takes on a different form each time",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-21",
+   "source_id": "P18",
+   "phrase": "mutual production of being and nonbeing",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-22",
+   "source_id": "P18",
+   "phrase": "the Laozi therefore speaks of a",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-22",
+   "source_id": "P18",
+   "phrase": "the notion of reversal",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-22",
+   "source_id": "P18",
+   "phrase": "especially in conceptions of love, beauty",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-25",
+   "source_id": "P18",
+   "phrase": "eventually gave way to the received text",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "DVD-PHI-25",
+   "source_id": "P18",
+   "phrase": "the notion of reversal",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

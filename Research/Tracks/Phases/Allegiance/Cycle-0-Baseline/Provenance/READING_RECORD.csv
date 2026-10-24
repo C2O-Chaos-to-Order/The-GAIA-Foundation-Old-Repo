@@ -1,0 +1,7 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P46,yes,AL0,2195,dc408153ca21eb1decd1312197b4f927d5831c9224e43f4f65c597199bb3afcf,"Read end to end (whole page incl. equations, figure descriptions and exercises; site navigation skipped)."
+P47,yes,AL0,5604,8ab57186bfa10e055767804bcc8e297106d586894b780037ef9b370eae3bdde3,"Read end to end (PMC author manuscript body incl. Table 1 and figure legends; reference list and SOM not read). NCBI efetch returned only the abstract (P47.xml), so the PMC HTML was fetched and read."
+P48,yes,AL0,13353,35715a7dc91b0313e4d573e2e77b6d9afc9e4cc5cfbed96f8aae74656700aaae,Read end to end (abstract to conclusion; reference list not read).
+P49,yes,AL0,8594,ff6782248eb8c0686831dcb30dc07302637874d7a1e4102b8e7b58d2e767fee6,"Read end to end (abstract, methods, results incl. Table 1, discussion; reference list and supplement not read)."
+P50,yes,AL0,10609,0c610d873202918fc340a737c2496ed43c2674fe9867ef2cbde98420dd50ce69,"Read end to end (abstract to discussion, Table 1, figure captions; reference list and SI not read)."
+P51,yes,AL0,10543,087b547d641d908f92b721a9f86962a6a3d41d4220b29c70201c06bc013848fe,Read end to end (main text sections; bibliography and related entries not read).
