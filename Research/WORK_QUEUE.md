@@ -19,10 +19,10 @@ Owner's discovered pattern (Hypothetical): each phase corresponds to an upgrade 
 
 | Phase | Level | Status |
 |---|---|---|
-| Divergence | Base | ✅ Baseline–x12 complete (Baseline and x3 in `main`; x6–x12 on research branches) |
-| Insurgence | Meta (Metaphysical) | ✅ Baseline–x12 complete and verified (research branches) |
-| Allegiance | Super (Superphysical) | ✅ Baseline–x12 complete and verified (research branches) |
-| Convergence | Hyper (Hyperphysical) | 🔄 in progress |
+| Divergence | Base | ✅ Baseline–x12 complete and verified, merged to `main` (PRs #11, #13) |
+| Insurgence | Meta (Metaphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PR #14) |
+| Allegiance | Super (Superphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PRs #15, #16) |
+| Convergence | Hyper (Hyperphysical) | 🔄 in progress (Baseline on `research/phase-convergence-c0`, not yet in a PR) |
 | Ascendence | Ultra (Ultraphysical) | ⬜ |
 | Transcendence (new sixth phase) | Magic | ⬜ |
 
@@ -151,6 +151,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24 — Reconciled with `main` after PRs #13–#18 merged: Divergence, Insurgence and Allegiance are all on `main`.
 - 2026-10-24 — Added Indigenous Knowledge, Skills, Capabilities and Powers.
 - 2026-10-24 — Added the God and Lucifer series (Mother of God, God, Creations of God, Lucifer, Creations of Lucifer, Duality and Connection).
 - 2026-10-24 — Added The Echo That Began the Light.
