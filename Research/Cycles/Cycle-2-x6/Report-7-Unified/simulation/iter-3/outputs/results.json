@@ -1,0 +1,9 @@
+{
+ "carried_from_prev": {},
+ "parallel": {
+  "r1_bounded_peak_ratio": 1.0,
+  "r1_unbounded_peak_ratio": 1.5726417172,
+  "r6_constrained_ok_fraction": 1.0,
+  "r6_unbounded_best_width_ratio": 0.4268292683
+ }
+}
