@@ -21,15 +21,15 @@ Owner's discovered pattern (Hypothetical): each phase corresponds to an upgrade 
 |---|---|---|
 | Divergence | Base | ✅ Baseline–x12 complete (Baseline and x3 in `main`; x6–x12 on research branches) |
 | Insurgence | Meta (Metaphysical) | ✅ Baseline–x12 complete and verified (research branches) |
-| Allegiance | Super (Superphysical) | 🔄 in progress |
-| Convergence | Hyper (Hyperphysical) | ⬜ |
+| Allegiance | Super (Superphysical) | ✅ Baseline–x12 complete and verified (research branches) |
+| Convergence | Hyper (Hyperphysical) | 🔄 in progress |
 | Ascendence | Ultra (Ultraphysical) | ⬜ |
 | Transcendence (new sixth phase) | Magic | ⬜ |
 
 - [x] ✅ Divergence
 - [x] ✅ Insurgence
-- [ ] 🔄 Allegiance
-- [ ] ⬜ Convergence
+- [x] ✅ Allegiance
+- [ ] 🔄 Convergence
 - [ ] ⬜ Ascendence
 - [ ] ⬜ Transcendence — Baseline, x3, x6, x9, x12
 - [ ] ⬜ Six-phase synthesis
@@ -110,4 +110,5 @@ For each element: its connection to the Universe; to Divergence, Insurgence, All
 
 ## Change log
 
+- 2026-10-24 — Allegiance complete (x12 verified); Convergence started.
 - 2026-10-24 — Queue created from the owner's list (chat, 2026-10-24) and the DeepSeek history document.
