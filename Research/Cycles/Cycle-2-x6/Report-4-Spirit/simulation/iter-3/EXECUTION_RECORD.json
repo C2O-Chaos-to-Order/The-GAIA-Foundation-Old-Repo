@@ -1,0 +1,70 @@
+{
+ "sim_id": "SIM-R4-C2",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:12:20.835092+00:00",
+ "finished_utc": "2026-10-24T02:12:21.128425+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-3",
+ "params_sha256": "fd413b1aa9c349ad6ef595dbcc5419eb9a510fef56ebcdb8f8b318a0d4a4167a",
+ "outputs": {
+  "outputs/results.json": "9731a84c55c61a5309f45d3e4f6067f6ab94475c1f2a7f61949e8fa1015a430f"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "independent mediators: sum of single-mediator PMs equals the joint PM within 0.02",
+   "observed": [
+    0.4193402643,
+    0.4186423511
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V3b",
+   "kind": "validation",
+   "expect": "joint PM (difference method) within 0.02 of truth for every c12",
+   "observed": [
+    [
+     0.0,
+     0.4186423511,
+     0.4202898551
+    ],
+    [
+     0.3,
+     0.4542619908,
+     0.4557823129
+    ],
+    [
+     0.6,
+     0.4903280111,
+     0.4871794872
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "causally ordered mediators (M1 -> M2, c12 = 0.6): summing single-mediator PMs overstates the joint PM by >= 0.10",
+   "observed": [
+    0.7422045743,
+    0.4903280111
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
