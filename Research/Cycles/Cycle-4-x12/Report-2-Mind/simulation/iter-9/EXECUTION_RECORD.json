@@ -1,0 +1,52 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:15.521615+00:00",
+ "finished_utc": "2026-10-24T04:12:15.524221+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-9",
+ "params_sha256": "65f8723d172331768be93ebdd30394ae93fd413acd7e5d207b797e75f4cc56b9",
+ "outputs": {
+  "outputs/results.json": "48ec3a2f04010bdadd39232cbcb26f5e7411e983bafaaa484ed2c1f06aad2736"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "if PH associability recovers during the delay at rho = 0.01 per step, the PH delay drop stays < 50% (the signature still separates the models)",
+   "observed": {
+    "li0": 0.1165149595,
+    "li_delay": 0.0643208421,
+    "drop": 0.4479606536
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H9r",
+   "kind": "reporting",
+   "expect": "PH delay drop by rho, and KF drop",
+   "observed": [
+    {
+     "0.0": 0.0,
+     "0.01": 0.4479606536,
+     "0.05": 0.9439102216
+    },
+    0.8647491315
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
