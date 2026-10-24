@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:20.452565+00:00",
+ "finished_utc": "2026-10-24T04:06:20.511217+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-6",
+ "params_sha256": "1cd1d98a6c1d4faee462e77481e236fb0942cd6a7bb00b758da9b0eab2b86f02",
+ "outputs": {
+  "outputs/results.json": "730c3ed618ff2777486b9fa075b8b3f3d0cc55fe865b0b98c7f7790476653263"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "avalanche-size exponent estimate changes by > 0.2 under subsampling (Y02: subsampling distorts avalanche statistics)",
+   "observed": [
+    1.4583155833,
+    1.7391125797
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
