@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-CV-SOC-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:10.481862+00:00",
+ "finished_utc": "2026-10-24T22:15:10.524119+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-12  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "e48c157b23928c6d8aff1e5895a0e3ab572f74f236d3f740a2452c4c1fabb4e8",
+ "params_sha256": "5bce6a3dfad1c0bc9524fe64c77a946253e642f4e61a45353b4b699e44085fe6",
+ "results_sha256": "8a005ff9b72156fc3985e055622969886f8236efc4c15cffd033a90d2758e4dd",
+ "results": {
+  "Omega": {
+   "mu0.0_s1.0": 0.6762
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354,
+  "by_n": {
+   "2": 0.46645,
+   "3": 0.4811,
+   "4": 0.4984
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "unbiased-median context (mu 0, sigma 1): Omega > 0.5 already at n = 4",
+   "observed": {
+    "Omega": {
+     "mu0.0_s1.0": 0.6762
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "2": 0.46645,
+     "3": 0.4811,
+     "4": 0.4984
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu0.0_s1.0": 0.6762
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "2": 0.46645,
+     "3": 0.4811,
+     "4": 0.4984
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
