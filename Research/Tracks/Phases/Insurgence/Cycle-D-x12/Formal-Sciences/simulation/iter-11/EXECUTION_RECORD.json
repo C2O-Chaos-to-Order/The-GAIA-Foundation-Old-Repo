@@ -1,0 +1,93 @@
+{
+ "sim_id": "SIM-IN-FOR-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:05:04.574177+00:00",
+ "finished_utc": "2026-10-24T18:05:04.628502+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-11  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a4583727c418bb76a2b69a0eeb21fe59f1a97206093e657807cc6aace0cb5005",
+ "params_sha256": "1a4280094cf4b49a062628e6982b6a93387d6d6c4326e708afd3239e8e2e281f",
+ "results_sha256": "5840df3502d940388f9f6a794725a92352815cbf7cf729659908643430657918",
+ "results": {
+  "1.02": {
+   "share": 0.0374,
+   "se": 0.00268333,
+   "s": 0.03895768
+  },
+  "1.05": {
+   "share": 0.0916,
+   "se": 0.00407945,
+   "s": 0.09370184
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "share is a probability",
+   "observed": {
+    "1.02": {
+     "share": 0.0374,
+     "se": 0.00268333,
+     "s": 0.03895768
+    },
+    "1.05": {
+     "share": 0.0916,
+     "se": 0.00407945,
+     "s": 0.09370184
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "share reaching K within 4 SE (+0.01) of s = 1 - exp(-cs) for every c",
+   "observed": {
+    "1.02": {
+     "share": 0.0374,
+     "se": 0.00268333,
+     "s": 0.03895768
+    },
+    "1.05": {
+     "share": 0.0916,
+     "se": 0.00407945,
+     "s": 0.09370184
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "1.02": {
+     "share": 0.0374,
+     "se": 0.00268333,
+     "s": 0.03895768
+    },
+    "1.05": {
+     "share": 0.0916,
+     "se": 0.00407945,
+     "s": 0.09370184
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
