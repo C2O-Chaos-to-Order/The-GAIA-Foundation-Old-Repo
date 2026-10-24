@@ -1,0 +1,133 @@
+{
+ "evalues": [
+  {
+   "E_CI": 1.8498730519,
+   "E_point": 1.9682724485,
+   "RR": 0.7579947864,
+   "ci_upper": 0.71,
+   "est": 0.67,
+   "label": "Li2016_mortality_women",
+   "scale": "common-outcome RR",
+   "source": "S12"
+  },
+  {
+   "E_CI": 1.6666666667,
+   "E_point": 2.0404080424,
+   "RR": 0.74,
+   "ci_upper": 0.84,
+   "est": 0.74,
+   "label": "Chen2021_mortality_pooled",
+   "scale": "as reported",
+   "source": "V12"
+  },
+  {
+   "E_CI": 2.6071635489,
+   "E_point": 5.701941016,
+   "RR": 0.32,
+   "ci_upper": 0.62,
+   "est": 0.32,
+   "label": "Chen2020_despair_women",
+   "scale": "as reported",
+   "source": "V13"
+  },
+  {
+   "E_CI": 1.3244138024,
+   "E_point": 2.3499347234,
+   "RR": 0.67,
+   "ci_upper": 0.94,
+   "est": 0.67,
+   "label": "Chen2020_despair_men",
+   "scale": "as reported",
+   "source": "V13"
+  },
+  {
+   "E_CI": 1.5638564684,
+   "E_point": 1.7369074009,
+   "RR": 0.82,
+   "ci_upper": 0.87,
+   "est": 0.82,
+   "label": "Chida2009_healthy_pops_abstract",
+   "scale": "as reported",
+   "source": "T08"
+  }
+ ],
+ "pba": {
+  "prior": {
+   "log_mu": 0.0,
+   "log_sd": 0.5,
+   "note": "|N(mu,sd)| on log scale for RR_EU and RR_UD, independent"
+  },
+  "results": [
+   {
+    "RR": 0.7579947864,
+    "corrected_median": 0.8103309124,
+    "corrected_q05": 0.7604341721,
+    "corrected_q95": 1.0331922606,
+    "frac_corrected_ge_1": 0.0692,
+    "label": "Li2016_mortality_women"
+   },
+   {
+    "RR": 0.74,
+    "corrected_median": 0.7907993603,
+    "corrected_q05": 0.7423666355,
+    "corrected_q95": 1.0091614136,
+    "frac_corrected_ge_1": 0.05498,
+    "label": "Chen2021_mortality_pooled"
+   },
+   {
+    "RR": 0.32,
+    "corrected_median": 0.3420023571,
+    "corrected_q05": 0.3210057861,
+    "corrected_q95": 0.4362140168,
+    "frac_corrected_ge_1": 0.0,
+    "label": "Chen2020_despair_women"
+   },
+   {
+    "RR": 0.67,
+    "corrected_median": 0.7160440324,
+    "corrected_q05": 0.6721556566,
+    "corrected_q95": 0.9122730203,
+    "frac_corrected_ge_1": 0.01944,
+    "label": "Chen2020_despair_men"
+   },
+   {
+    "RR": 0.82,
+    "corrected_median": 0.8763690929,
+    "corrected_q05": 0.82259278,
+    "corrected_q95": 1.1164567713,
+    "frac_corrected_ge_1": 0.147015,
+    "label": "Chida2009_healthy_pops_abstract"
+   }
+  ],
+  "sweep_frac_explained_away": {
+   "0.25": {
+    "Chen2020_despair_men": 0.0,
+    "Chen2020_despair_women": 0.0,
+    "Chen2021_mortality_pooled": 5.5e-05,
+    "Chida2009_healthy_pops_abstract": 0.00235,
+    "Li2016_mortality_women": 0.000165
+   },
+   "0.5": {
+    "Chen2020_despair_men": 0.019435,
+    "Chen2020_despair_women": 5e-06,
+    "Chen2021_mortality_pooled": 0.054215,
+    "Chida2009_healthy_pops_abstract": 0.14737,
+    "Li2016_mortality_women": 0.068415
+   },
+   "0.75": {
+    "Chen2020_despair_men": 0.129275,
+    "Chen2020_despair_women": 0.00117,
+    "Chen2021_mortality_pooled": 0.21676,
+    "Chida2009_healthy_pops_abstract": 0.361125,
+    "Li2016_mortality_women": 0.24363
+   },
+   "1.0": {
+    "Chen2020_despair_men": 0.26796,
+    "Chen2020_despair_women": 0.0154,
+    "Chen2021_mortality_pooled": 0.370905,
+    "Chida2009_healthy_pops_abstract": 0.51566,
+    "Li2016_mortality_women": 0.401205
+   }
+  }
+ }
+}
