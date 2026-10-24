@@ -1,0 +1,10 @@
+{
+ "experiments": {
+  "g": 1.0,
+  "n": 10000,
+  "reps": 200
+ },
+ "iteration": 2,
+ "prev": "../iter-1",
+ "sim_id": "SIM-R4-C4"
+}

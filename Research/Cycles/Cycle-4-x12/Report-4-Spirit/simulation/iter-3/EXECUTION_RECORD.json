@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:15.998527+00:00",
+ "finished_utc": "2026-10-24T04:07:16.184577+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-3",
+ "params_sha256": "8819c65cf1bbc116940dfe0e65b7e45ee26d911f271b276ee7fffffad78538b3",
+ "outputs": {
+  "outputs/results.json": "58d94a6f00c11929a9c731905f18d8a5eee8d01a39fa260d0ac1dfd4e0ab8f12"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "no confounding, true protective effect: NCO false-flag rate within 2-8% (nominal 5%)",
+   "observed": 0.045,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
