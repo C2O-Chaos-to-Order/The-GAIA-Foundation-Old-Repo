@@ -1,0 +1,15 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "experiments": {
+  "flip_uncertain": {
+   "n": 1000,
+   "p": 0.5,
+   "seed": 6
+  }
+ },
+ "iteration": 6,
+ "k": 4,
+ "prev": "../iter-5",
+ "sim_id": "SIM-R3-C4",
+ "windows": "../data/window_hits_c3.json"
+}
