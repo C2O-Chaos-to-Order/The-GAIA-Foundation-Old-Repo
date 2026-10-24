@@ -1,0 +1,59 @@
+{
+ "sim_id": "SIM-CONS-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:45.026439+00:00",
+ "finished_utc": "2026-10-24T06:11:45.039872+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-9  (run from Consciousness/simulation/)",
+ "spec_sha256": "0fc59e535a968ec99c8e504cab10e155b19a24e3c4d832819fd329051a36728b",
+ "params_sha256": "c71b3d753742b14d34f340b09c91676e54bfcb338a81e3f41cbbfdae48e70baa",
+ "results_sha256": "19720cf3c8f52c7071bf866d882ddf133afa0f64348c1bb352e26bdba30bc251",
+ "results": {
+  "retention_24h": 0.56730769,
+  "clinical_if_immediate": 0.05288136,
+  "share_gap_explained": 0.0618415
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated delayed recall within 0.001 of immediate * retention",
+   "observed": [
+    0.059441,
+    0.059
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "assessment timing alone explains < 20% of the clinical-experimental gap",
+   "observed": 0.0618415,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "implied 24-h retention; clinical recall if all interviews were immediate",
+   "observed": [
+    0.56730769,
+    0.05288136
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
