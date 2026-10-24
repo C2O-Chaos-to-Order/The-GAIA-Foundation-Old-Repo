@@ -1,0 +1,56 @@
+{
+ "sim_id": "SIM-SUBC-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:45.470573+00:00",
+ "finished_utc": "2026-10-24T06:10:45.611875+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-9  (run from Subconscious/simulation/)",
+ "spec_sha256": "2b3ac4186453981d8ac15a3e63dfee60cbf2369aa861f04377c6438f5b9395a5",
+ "params_sha256": "2339062aba14eeabb23dcdfd378c4d1ab0ce9583c3fb4aad1c872afc231b60a4",
+ "results_sha256": "c8b8a531969d5aac4253bcd4489dfcb514f16dae7e0e407ff134938ec90682c9",
+ "results": {
+  "share_overestimate": 0.7835,
+  "share_exact": 0.199,
+  "mean_level_difference": 1.126
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "binomial sf sanity: P(X >= n/2 | p = .5) between 0.5 and 0.6 for n = n_per",
+   "observed": 0.53519305,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the naive 'not significantly above chance' rule overestimates the subliminal threshold for >= 50% of observers",
+   "observed": 0.7835,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share exact, mean level difference",
+   "observed": [
+    0.199,
+    1.126
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
