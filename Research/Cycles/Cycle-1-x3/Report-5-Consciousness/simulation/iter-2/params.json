@@ -1,0 +1,30 @@
+{
+ "experiments": {
+  "masking": {
+   "amps": [
+    2.0,
+    2.5,
+    3.0
+   ],
+   "mask": 1.5,
+   "mask_ms": 30,
+   "post_ms": 300,
+   "seed": 11,
+   "sigma": 0.3,
+   "stim_ms": [
+    20,
+    35,
+    50,
+    80
+   ],
+   "theta": 4.0,
+   "trials": 200,
+   "w_strong": 8.0,
+   "w_weak": 2.0
+  }
+ },
+ "iteration": 2,
+ "kappa": 0.5,
+ "prev": "../iter-1",
+ "sim_id": "SIM-R5-C1"
+}
