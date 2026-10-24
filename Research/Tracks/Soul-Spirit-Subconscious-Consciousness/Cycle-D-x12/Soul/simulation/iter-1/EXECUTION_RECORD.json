@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-SOUL-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:04.241667+00:00",
+ "finished_utc": "2026-10-24T07:05:04.275107+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-1  (run from Soul/simulation/)",
+ "spec_sha256": "7648a8133385f1ca4c64e077a789b6a511d2b17d23be207c08cc4fbf4c42def2",
+ "params_sha256": "da2e069b320e5a9365046b34fab1f32c7b80cba41abe272c57e887316dc04f4a",
+ "results_sha256": "0630b27624ba46643fa998d36f473464738b6fdbae5f8a23510a3b9e11c340bd",
+ "results": {
+  "independence_any": 0.91405055,
+  "independence_all": 0.00044444,
+  "two_class_all": 0.00526215,
+  "class_rates": [
+   0.26393443,
+   0.77704918
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated independence P(>=1) within 0.005 of the analytic value",
+   "observed": [
+    0.914838,
+    0.91405055
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "independence over-predicts the share judging >= 1 state to continue by >= 0.2 (responses cluster within persons)",
+   "observed": 0.30405055,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "a two-class model (cessation class + independent continuity class) still under-predicts 'all six continue' by a factor >= 2",
+   "observed": [
+    0.00526215,
+    0.02
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "independence P(any), P(all six); two-class P(all six)",
+   "observed": [
+    0.91405055,
+    0.00044444,
+    0.00526215
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
