@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:38.422996+00:00",
+ "finished_utc": "2026-10-24T03:00:40.440914+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-2",
+ "params_sha256": "2d81522298f2f01790e79bc14ba8cbd6971d932f9aa454776f4ddf50d7250b93",
+ "outputs": {
+  "outputs/results.json": "c24e58ac6b274fbe2f3b383a16530c6d5e00ced5eeacae88229aca60d07a4bdd"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "some two-state setting meets BOTH W05 anchors: ~7 of 14 HA days lost (+-1) AND re-induction 8-12x faster than decay",
+   "observed": [
+    0,
+    144
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2r",
+   "kind": "reporting",
+   "expect": "report the selected setting (meets the 1:2 anchor if possible; ratio closest to 10) and the range of ratios",
+   "observed": [
+    [
+     0.6,
+     0.999,
+     0.01,
+     0.005
+    ],
+    7.0,
+    6,
+    1.4968884842,
+    14.0
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
