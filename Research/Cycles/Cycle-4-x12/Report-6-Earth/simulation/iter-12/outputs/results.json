@@ -1,0 +1,73 @@
+{
+ "constrained_extended": {
+  "L_establish": 0.524,
+  "L_max": 1.768,
+  "at_range_edge": false,
+  "frac_within_5C": 0.6858974359,
+  "slope_ratio": 0.2313901176,
+  "total_life": 0.8542809605,
+  "width": 1.244
+ },
+ "summary": {
+  "iter-10": [
+   [
+    "H10",
+    "Not supported"
+   ]
+  ],
+  "iter-11": [
+   [
+    "H11",
+    "Supported"
+   ]
+  ],
+  "iter-2": [
+   [
+    "H2",
+    "Not supported"
+   ]
+  ],
+  "iter-3": [
+   [
+    "H3",
+    "Supported"
+   ]
+  ],
+  "iter-4": [
+   [
+    "H4",
+    "Supported"
+   ]
+  ],
+  "iter-5": [
+   [
+    "H5",
+    "Supported"
+   ]
+  ],
+  "iter-6": [
+   [
+    "H6",
+    "Not supported"
+   ]
+  ],
+  "iter-7": [
+   [
+    "H7",
+    "Not supported"
+   ]
+  ],
+  "iter-8": [
+   [
+    "H8",
+    "Supported"
+   ]
+  ],
+  "iter-9": [
+   [
+    "H9",
+    "Supported"
+   ]
+  ]
+ }
+}
