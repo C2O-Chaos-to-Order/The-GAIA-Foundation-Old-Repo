@@ -1,0 +1,732 @@
+{
+ "sim_id": "SIM-CV-APP-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:08:58.349196+00:00",
+ "finished_utc": "2026-10-24T20:08:58.376857+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "a954223dad7ae0c0d861b296f189993272945735e19793de9156f294c4a2f4b3",
+ "params_sha256": "e34177c42d56c6b085c0e7bb7507fbcde6ba9213f0ba75622a4ea79606471273",
+ "results_sha256": "3a2d81583978bfaa7a086b3ba2f6011e65a2db212fc8f123d0cc968e6f7f4def",
+ "results": {
+  "table": {
+   "trapezoid": {
+    "errors": {
+     "8": 0.00095852,
+     "16": 0.00023954,
+     "32": 5.988e-05
+    },
+    "orders": [
+     2.0006,
+     2.0001
+    ],
+    "n_for_target": 2478,
+    "evals_for_target": 2479
+   },
+   "simpson": {
+    "errors": {
+     "8": 1.99e-06,
+     "16": 1.2e-07,
+     "32": 1e-08
+    },
+    "orders": [
+     3.9955,
+     3.999
+    ],
+    "n_for_target": 32,
+    "evals_for_target": 33
+   },
+   "gauss2": {
+    "errors": {
+     "8": 8e-08,
+     "16": 1e-08,
+     "32": 0.0
+    },
+    "orders": [
+     3.9989,
+     3.9997
+    ],
+    "n_for_target": 14,
+    "evals_for_target": 28
+   }
+  },
+  "printed": {
+   "trapezoid": [
+    0.00213,
+    0.000533,
+    0.000133
+   ],
+   "simpson": [
+    1.47e-05,
+    9.2e-07,
+    6e-08
+   ],
+   "gauss2": [
+    8.92e-06,
+    5.6e-07,
+    3e-08
+   ],
+   "evals_1e8": {
+    "trapezoid": 256,
+    "simpson": 64
+   }
+  },
+  "eta": 0.400064,
+  "ahqs": {
+   "evals": 305,
+   "error": 0.0
+  },
+  "reductions_pct": {
+   "vsAS_f1": 25.0,
+   "vsAS_f2": 35.68,
+   "vsAS_f3": 31.9,
+   "vsAS_f4": 33.33,
+   "vsAS_f5": -32.29,
+   "vsGK_f1": 20.0,
+   "vsGK_f2": 21.59,
+   "vsGK_f3": 18.28,
+   "vsGK_f4": 28.89,
+   "vsGK_f5": 23.03
+  },
+  "exact": 0.74682413
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson and 2-point Gauss integrate x^3 - 2x + 1 on [0, 1] exactly (0.25)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "printed trapezoid error at n = 8 (2.13e-3) within 10% of computed",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "printed Simpson errors at n = 8, 16, 32 within 10% of computed",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "printed 2-point Gauss errors within 10% of computed",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "trapezoid reaches 1e-8 within P70's printed 256 evaluations",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "asymptotic eta within 0.01 of P70 Lemma 2.6's bound 2/5",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "Table 2 hybrid-vs-adaptive-Simpson reductions all lie in P70's claimed 40-62% range",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.00095852,
+       "16": 0.00023954,
+       "32": 5.988e-05
+      },
+      "orders": [
+       2.0006,
+       2.0001
+      ],
+      "n_for_target": 2478,
+      "evals_for_target": 2479
+     },
+     "simpson": {
+      "errors": {
+       "8": 1.99e-06,
+       "16": 1.2e-07,
+       "32": 1e-08
+      },
+      "orders": [
+       3.9955,
+       3.999
+      ],
+      "n_for_target": 32,
+      "evals_for_target": 33
+     },
+     "gauss2": {
+      "errors": {
+       "8": 8e-08,
+       "16": 1e-08,
+       "32": 0.0
+      },
+      "orders": [
+       3.9989,
+       3.9997
+      ],
+      "n_for_target": 14,
+      "evals_for_target": 28
+     }
+    },
+    "printed": {
+     "trapezoid": [
+      0.00213,
+      0.000533,
+      0.000133
+     ],
+     "simpson": [
+      1.47e-05,
+      9.2e-07,
+      6e-08
+     ],
+     "gauss2": [
+      8.92e-06,
+      5.6e-07,
+      3e-08
+     ],
+     "evals_1e8": {
+      "trapezoid": 256,
+      "simpson": 64
+     }
+    },
+    "eta": 0.400064,
+    "ahqs": {
+     "evals": 305,
+     "error": 0.0
+    },
+    "reductions_pct": {
+     "vsAS_f1": 25.0,
+     "vsAS_f2": 35.68,
+     "vsAS_f3": 31.9,
+     "vsAS_f4": 33.33,
+     "vsAS_f5": -32.29,
+     "vsGK_f1": 20.0,
+     "vsGK_f2": 21.59,
+     "vsGK_f3": 18.28,
+     "vsGK_f4": 28.89,
+     "vsGK_f5": 23.03
+    },
+    "exact": 0.74682413
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 8,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 6,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
