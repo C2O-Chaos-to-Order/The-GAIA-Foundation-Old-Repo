@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:18.055524+00:00",
+ "finished_utc": "2026-10-24T04:06:18.138186+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-3",
+ "params_sha256": "4bf5e931267473a42731a86f1618e5e731f1d486814cb13d137f84c0111a9aee",
+ "outputs": {
+  "outputs/results.json": "449195f6f092b0e06e6268ab412bec18704098439d0e875ae46059faf5d165ec"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "alpha 0.1, m 0.9: MR estimate within 0.02 of m",
+   "observed": 0.8981428243,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
