@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R1-C4",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:08:34.645213+00:00",
+ "finished_utc": "2026-10-24T04:08:34.674297+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-9",
+ "params_sha256": "a674debcfbb86428604dd4775ad97af0965d8478c427b03223ac8f21e3a1c85f",
+ "outputs": {
+  "outputs/results.json": "5f6d968cc0852fa753f6de6d981947f71031af55803d21f4059ae4fcc5502ac1"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "decay decelerates more for the two-state memory (per-day loss 40 d / 7 d lower by >= 0.1 than single exponential)",
+   "observed": [
+    0.2007318007,
+    0.6861364225
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
