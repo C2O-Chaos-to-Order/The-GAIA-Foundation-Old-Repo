@@ -1,0 +1,64 @@
+{
+ "sim_id": "SIM-SPIRIT-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:05.225020+00:00",
+ "finished_utc": "2026-10-24T05:43:05.225125+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-1  (run from Spirit/simulation/)",
+ "spec_sha256": "ed8b4807738634cb2bf5ee570cbf540b33496b932aac06e1876058221a491d95",
+ "params_sha256": "a5b0f3beb456aeeeba8c71ad2f4c210c205160193a35ca1e237538778e52f626",
+ "results_sha256": "48cbf2fc1080f2ad90b73995390bac2f5a7d9b87c52d48772e127675431e040a",
+ "results": {
+  "e_value_point": 1.56385647,
+  "e_value_ci": 1.42857143,
+  "bias_factor_at_e": 1.14942529,
+  "check_example": 7.26303434
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "formula reproduces the worked example RR 3.9 -> E-value 7.26",
+   "observed": 7.26303434,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "bias factor at RR_UD = RR_UY = E equals 1/RR within 1e-9",
+   "observed": [
+    1.14942529,
+    1.14942529
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the point E-value is below 2 (an unmeasured confounder associated with both exposure and outcome by RR < 2 could explain the association)",
+   "observed": 1.56385647,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "E-value for the confidence limit closest to 1",
+   "observed": 1.42857143,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
