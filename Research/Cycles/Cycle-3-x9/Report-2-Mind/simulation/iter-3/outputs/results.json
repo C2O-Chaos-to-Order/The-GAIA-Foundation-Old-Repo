@@ -1,0 +1,19 @@
+{
+ "context_change": {
+  "KF": {
+   "attenuation": 0.8889439322,
+   "changed": 0.0465847692,
+   "same": 0.4194707246
+  },
+  "MK": {
+   "attenuation": null,
+   "changed": 0.0,
+   "same": 0.0
+  },
+  "PH": {
+   "attenuation": -1.3410331541,
+   "changed": 0.2727653831,
+   "same": 0.1165149595
+  }
+ }
+}
