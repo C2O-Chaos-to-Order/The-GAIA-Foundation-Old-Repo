@@ -1,0 +1,1277 @@
+{
+ "reproducibility": {
+  "cycle": "C2",
+  "n_runs": 42,
+  "all_identical": true,
+  "runs": [
+   {
+    "sim_id": "SIM-R1-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R1-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R1-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R1-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R1-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R1-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R2-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R2-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R2-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R2-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R2-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R2-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R3-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R3-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R3-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R3-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R3-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R3-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R4-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R4-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R4-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R4-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R4-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R4-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R5-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R5-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R5-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R5-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R5-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R5-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R6-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R6-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R6-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R6-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R6-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R6-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R7-C2",
+    "iteration": 1,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R7-C2",
+    "iteration": 2,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R7-C2",
+    "iteration": 3,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R7-C2",
+    "iteration": 4,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R7-C2",
+    "iteration": 5,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   },
+   {
+    "sim_id": "SIM-R7-C2",
+    "iteration": 6,
+    "exit": 0,
+    "outputs_identical": true,
+    "checks_identical": true,
+    "params_identical": true
+   }
+  ]
+ },
+ "links": [
+  {
+   "source_id": "G01",
+   "url": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/7875b4e19061dc8ad0e7d9d5fbfecd34d4e459d8/Research/README.md",
+   "http": "not checked by HTTP (private repository)",
+   "result": "Checked via GitHub connector (see VERIFICATION.md)"
+  },
+  {
+   "source_id": "G02",
+   "url": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/7875b4e19061dc8ad0e7d9d5fbfecd34d4e459d8/Research/RESEARCH_PLAN_EXTENSION.md",
+   "http": "not checked by HTTP (private repository)",
+   "result": "Checked via GitHub connector (see VERIFICATION.md)"
+  },
+  {
+   "source_id": "G03",
+   "url": "Research/Cycles/Cycle-0-Baseline/FRAMEWORK.md",
+   "http": "n/a",
+   "result": "n/a"
+  },
+  {
+   "source_id": "S01",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076167/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S02",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4669363/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S03",
+   "url": "https://plato.stanford.edu/entries/embodied-cognition/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S04",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4492928/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S05",
+   "url": "https://www.reed.edu/psychology/scalp/assets/journal-articles/OSC_RP_2015_Science.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S06",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4862921/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S07",
+   "url": "https://plato.stanford.edu/entries/ancient-soul/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S08",
+   "url": "https://plato.stanford.edu/entries/dualism/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S11",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3671693/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S12",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503841/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S13",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18477877/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1097/NMD.0b013e31816ff796\"",
+   "alt_title": "Concerns about measuring \"spirituality\" in research.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "S14",
+   "url": "https://dash.harvard.edu/bitstreams/7312037e-0f45-6bd4-e053-0100007fdf3b/download",
+   "http": "429",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.7326/M16-2607\"",
+   "alt_title": "Sensitivity Analysis in Observational Research: Introducing the E-Value.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "S15",
+   "url": "https://plato.stanford.edu/entries/mysticism/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S16",
+   "url": "https://plato.stanford.edu/entries/consciousness/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S18",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12137136/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S19",
+   "url": "https://michaelpollan.com/wp-content/uploads/2026/02/SethBayne_NRN_accepted.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S20",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21521609/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1016/j.neuron.2011.03.018\"",
+   "alt_title": "Experimental and theoretical approaches to conscious processing.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "S21b",
+   "url": "https://b.tellusjournals.se/articles/1857/files/submission/proof/1857-1-15588-1-10-20221123.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S22",
+   "url": "https://courses.seas.harvard.edu/climate/eli/Courses/EPS281r/Sources/Gaia/more/Kirchner-2003.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S23",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/31435057/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1038/s41586-019-1436-4\"",
+   "alt_title": "Challenges in evidencing the earliest traces of life.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "S24",
+   "url": "https://files.ipbes.net/ipbes-web-prod-public-files/ipbes_global_assessment_report_summary_for_policymakers.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S25",
+   "url": "https://www.nature.com/articles/s41467-023-41725-5",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S26",
+   "url": "https://www.aps.org/apsnews/2023/08/seismologist-lehmann-earth-inner-core",
+   "http": "403",
+   "result": "Indeterminate"
+  },
+  {
+   "source_id": "S27",
+   "url": "https://www.ngdc.noaa.gov/IAGA/vmod/coeffs/igrf14coeffs.txt",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S28",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/26228145/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/science.aaa9114\"",
+   "alt_title": "PALEOMAGNETISM. A Hadean to Paleoarchean geodynamo recorded by single zircon crystals.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "S29",
+   "url": "https://arxiv.org/abs/1203.4970",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S31",
+   "url": "https://iep.utm.edu/advaita-vedanta/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "S32",
+   "url": "https://plato.stanford.edu/entries/mind-indian-buddhism/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T01",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21684297/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1016/j.physbeh.2011.06.004\"",
+   "alt_title": "Allostasis: a model of predictive regulation.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "T02",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6054486/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T03",
+   "url": "https://www.yorku.ca/ncepeda/publications/CPVWR2006.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T04",
+   "url": "https://www.psychologicalscience.org/journals/ampps/2515245918810225/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T05",
+   "url": "https://classics.mit.edu/Aristotle/soul.2.ii.html",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T06",
+   "url": "https://plato.stanford.edu/entries/physicalism/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T07",
+   "url": "https://www.sefaria.org/Genesis.2.7",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T07e",
+   "url": "https://www.sefaria.org/Genesis.2.7",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T08",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/19142047/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1159/000190791\"",
+   "alt_title": "Religiosity/spirituality and mortality. A systematic quantitative review.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "T10",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23946194/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/scitranslmed.3006294\"",
+   "alt_title": "A theoretically based index of consciousness independent of sensory processing and behavior.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "T11",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27094080/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1038/nrn.2016.22\"",
+   "alt_title": "Neural correlates of consciousness: progress and problems.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "T12",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/32284988/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/sciadv.aav9634\"",
+   "alt_title": "Reevaluating the evidence for a Hadean-Eoarchean dynamo.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "T13",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/18497287/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/science.1153213\"",
+   "alt_title": "The microbial engines that drive Earth's biogeochemical cycles.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "T14",
+   "url": "https://plato.stanford.edu/entries/reasoning-analogy/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T15",
+   "url": "https://plato.stanford.edu/entries/models-science/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T16",
+   "url": "https://plato.stanford.edu/entries/ethics-virtue/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "T17",
+   "url": "https://plato.stanford.edu/entries/chinese-mind/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U01",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U02",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK539861/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U03",
+   "url": "https://www.ncbi.nlm.nih.gov/books/NBK507838/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U04",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-2-structural-organization-of-the-human-body",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U05",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-1-sensory-perception",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U10",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/17835457/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/science.185.4157.1124\"",
+   "alt_title": "Judgment under Uncertainty: Heuristics and Biases.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "U11",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/23663408/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1017/S0140525X12000477\"",
+   "alt_title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "U12",
+   "url": "https://plato.stanford.edu/entries/emotion/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U13",
+   "url": "https://plato.stanford.edu/entries/identity-personal/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U14",
+   "url": "https://plato.stanford.edu/entries/mind-identity/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U15",
+   "url": "https://plato.stanford.edu/entries/perception-problem/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U20",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/22524787/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1146/annurev-neuro-062111-150525\"",
+   "alt_title": "The attention system of the human brain: 20 years after.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "U21",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/24550805/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.3389/fnhum.2014.00020\"",
+   "alt_title": "The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "U22",
+   "url": "https://plato.stanford.edu/entries/attention/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U23",
+   "url": "https://plato.stanford.edu/entries/self-consciousness/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U30",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21886479/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1371/journal.pbio.1001127\"",
+   "alt_title": "How many species are there on Earth and in the ocean?",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "U31",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/25592418/",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/science.1259855\"",
+   "alt_title": "Sustainability. Planetary boundaries: guiding human development on a changing planet.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "U32",
+   "url": "https://plato.stanford.edu/entries/ethics-environmental/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U34",
+   "url": "https://pubs.usgs.gov/gip/dynamic/understanding.html",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U35",
+   "url": "https://pubs.usgs.gov/gip/dynamic/unanswered.html",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U40",
+   "url": "https://www.newadvent.org/summa/1075.htm",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U41",
+   "url": "https://quran.com/17/85",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U43",
+   "url": "https://vedabase.io/en/library/bg/2/20/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U44",
+   "url": "https://plato.stanford.edu/entries/african-ethics/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U45",
+   "url": "https://iep.utm.edu/animism/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U46",
+   "url": "https://plato.stanford.edu/entries/life-meaning/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U47",
+   "url": "https://www.sefaria.org/Genesis.1.2",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U48",
+   "url": "https://bible-api.com/John%203:8",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U49",
+   "url": "https://bible-api.com/2%20Timothy%203:16",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "U50",
+   "url": "https://quran.com/15/29",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V01",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3413263/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V02",
+   "url": "https://europepmc.org/article/PMC/PMC3160336",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1371/journal.pbio.1001127\"",
+   "alt_title": "How many species are there on Earth and in the ocean?",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V03",
+   "url": "https://europepmc.org/article/PMC/PMC10499318",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1126/sciadv.adh2458\"",
+   "alt_title": "Earth beyond six of nine planetary boundaries.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V04",
+   "url": "https://sites.socsci.uci.edu/~bskyrms/bio/readings/tversky_k_heuristics_biases.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V05",
+   "url": "https://pure.uva.nl/ws/files/32817291/2515245918810225.pdf",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V06",
+   "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-6-energy-and-heat-balance",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V07",
+   "url": "https://europepmc.org/article/PMC/PMC5132045",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1002/ana.24779\"",
+   "alt_title": "Stratification of unresponsive patients by an independently validated index of brain complexity.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V08",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1073%2Fpnas.1718063115",
+   "http": "203",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1073/pnas.1718063115\"",
+   "alt_title": "SIMS analyses of the oldest known assemblage of microfossils document their taxon-correlated carbon isotope compositions.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V09",
+   "url": "https://arxiv.org/abs/1203.4970",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V11",
+   "url": "https://europepmc.org/article/PMC/PMC12164598",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1177/17456916251319045\"",
+   "alt_title": "The Theory of Constructed Emotion: More Than a Feeling.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V12",
+   "url": "https://europepmc.org/article/PMC/PMC7825951",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1093/ije/dyaa120\"",
+   "alt_title": "Religious-service attendance and subsequent health and well-being throughout adulthood: evidence from three prospective cohorts.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V13",
+   "url": "https://europepmc.org/article/PMC/PMC7203669",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST PMCID:PMC7203669",
+   "alt_title": "Religious Service Attendance and Deaths Related to Drugs, Alcohol, and Suicide Among US Health Care Professionals.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V14",
+   "url": "https://europepmc.org/article/PMC/PMC10458674",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1016/j.ssmph.2023.101492\"",
+   "alt_title": "Religious service attendance and mortality: A population-based prospective cohort study in southern Sweden.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V15",
+   "url": "https://europepmc.org/article/PMC/PMC8751781",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1093/aje/kwab134\"",
+   "alt_title": "Invited Commentary: Religious Service Attendance and Implications for Clinical Care, Community Participation, and Public Health.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V16",
+   "url": "https://doi.org/10.1093/aje/kwae289",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1093/aje/kwae289\"",
+   "alt_title": "Religious service attendance is protective against the diseases of despair: evidence from regression, sibling-fixed effects, and instrumental variables analyses.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V17",
+   "url": "https://www.nber.org/papers/w11377",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V18",
+   "url": "https://plato.stanford.edu/entries/consciousness-higher/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V19",
+   "url": "https://plato.stanford.edu/entries/consciousness-neuroscience/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V22",
+   "url": "https://doi.org/10.1073/pnas.0705414105",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1073/pnas.0705414105\"",
+   "alt_title": "Tipping elements in the Earth's climate system.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V23",
+   "url": "https://europepmc.org/article/PMC/PMC12329434",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1098/rstb.2024.0087\"",
+   "alt_title": "Overlapping attempts to falsify and Darwinize the Gaia hypothesis.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V24",
+   "url": "https://europepmc.org/article/PMC/PMC12329436",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1098/rstb.2024.0099\"",
+   "alt_title": "Function, chance and purpose in the biosphere: a critical examination of the Darwinized Gaia hypothesis.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V25",
+   "url": "https://europepmc.org/article/PMC/PMC12329432",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1098/rstb.2024.0089\"",
+   "alt_title": "Darwinizing Gaia: conceptual approaches.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V26",
+   "url": "https://arxiv.org/abs/1301.6674",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V27",
+   "url": "https://europepmc.org/article/PMC/PMC9944935",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1038/s41467-023-36074-2\"",
+   "alt_title": "Up-to-fivefold reverberating waves through the Earth's center and distinctly anisotropic innermost inner core.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V28",
+   "url": "https://europepmc.org/article/PMC/PMC12411617",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1038/s41467-025-62841-4\"",
+   "alt_title": "Constraining Earth's core composition from inner core nucleation.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V29",
+   "url": "https://europepmc.org/article/PMC/PMC10390560",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1038/s41467-023-40309-7\"",
+   "alt_title": "Late Cambrian geomagnetic instability after the onset of inner core nucleation.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V30",
+   "url": "https://doi.org/10.1038/nature18009",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V32",
+   "url": "https://europepmc.org/article/PMC/PMC12032139",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1038/s41467-025-59167-6\"",
+   "alt_title": "Microbial dormancy as an ecological and biogeochemical regulator on Earth.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V33",
+   "url": "https://plato.stanford.edu/entries/properties-emergent/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V34",
+   "url": "https://europepmc.org/article/PMC/PMC3132682",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.3389/fpsyg.2011.00147\"",
+   "alt_title": "The recognition heuristic: a review of theory and tests.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V35",
+   "url": "https://europepmc.org/article/PMC/PMC7378938",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1111/cogs.12867\"",
+   "alt_title": "Unification by Fiat: Arrested Development of Predictive Processing.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V36",
+   "url": "https://europepmc.org/article/PMC/PMC4991899",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1371/journal.pbio.1002533\"",
+   "alt_title": "Revised Estimates for the Number of Human and Bacteria Cells in the Body.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "V37",
+   "url": "https://doi.org/10.1038/s41562-018-0399-z",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V38",
+   "url": "https://doi.org/10.1038/nature15523",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V39",
+   "url": "https://doi.org/10.1016/j.tree.2018.05.006",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V40",
+   "url": "https://plato.stanford.edu/entries/jaina-philosophy/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "V41",
+   "url": "https://plato.stanford.edu/entries/death/",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "W01",
+   "url": "https://doi.org/10.3402/tellusb.v53i3.16597",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "W02",
+   "url": "https://doi.org/10.1006/jtbi.1998.0799",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "W03",
+   "url": "https://doi.org/10.1006/jtbi.2000.2105",
+   "http": "200",
+   "result": "Pass"
+  },
+  {
+   "source_id": "W04",
+   "url": "https://europepmc.org/article/PMC/PMC7662600",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.3390/ijerph17217795\"",
+   "alt_title": "Fundamental Concepts of Human Thermoregulation and Adaptation to Heat: A Review in the Context of Global Warming.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W05",
+   "url": "https://europepmc.org/article/PMC/PMC5775394",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1007/s40279-017-0808-x\"",
+   "alt_title": "Heat Acclimation Decay and Re-Induction: A Systematic Review and Meta-Analysis.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W06",
+   "url": "https://europepmc.org/article/PMC/PMC3858647",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.3389/fpsyg.2013.00907\"",
+   "alt_title": "Novelty or surprise?",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W07",
+   "url": "https://europepmc.org/article/PMC/PMC3900052",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST PMCID:PMC3900052",
+   "alt_title": "Interrater reliability: the kappa statistic.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W08",
+   "url": "https://europepmc.org/article/PMC/PMC4974794",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1186/s12874-016-0200-9\"",
+   "alt_title": "Measuring inter-rater reliability for nominal data - which coefficients and confidence intervals are appropriate?",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W09",
+   "url": "https://europepmc.org/article/PMC/PMC4402024",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1111/biom.12248\"",
+   "alt_title": "Causal mediation analysis with multiple mediators.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W10",
+   "url": "https://europepmc.org/article/PMC/PMC4383385",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1093/aje/kwu239\"",
+   "alt_title": "Mediation analysis with intermediate confounding: structural equation modeling viewed through the causal inference lens.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W11",
+   "url": "https://europepmc.org/article/PMC/PMC10941977",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1093/nc/niab023\"",
+   "alt_title": "Consciousness and complexity: a consilience of evidence.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W12",
+   "url": "https://europepmc.org/article/PMC/PMC9916582",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1371/journal.pone.0268577\"",
+   "alt_title": "An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W13",
+   "url": "https://europepmc.org/article/PMC/PMC4529106",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1371/journal.pone.0133532\"",
+   "alt_title": "Complexity of Multi-Dimensional Spontaneous EEG Decreases during Propofol Induced General Anaesthesia.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W14",
+   "url": "https://europepmc.org/article/PMC/PMC10847846",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1098/rsif.2023.0585\"",
+   "alt_title": "A synthetic microbial Daisyworld: planetary regulation in the test tube.",
+   "alt_title_matches_citation": true
+  },
+  {
+   "source_id": "W15",
+   "url": "https://europepmc.org/article/PMC/PMC6961988",
+   "http": "403",
+   "result": "Pass (resolved via Europe PMC; primary URL blocked)",
+   "alt_check": "Europe PMC REST DOI:\"10.1523/jneurosci.1910-19.2019\"",
+   "alt_title": "Level of Consciousness Is Dissociable from Electroencephalographic Measures of Cortical Connectivity, Slow Oscillations, and Complexity.",
+   "alt_title_matches_citation": true
+  }
+ ]
+}
