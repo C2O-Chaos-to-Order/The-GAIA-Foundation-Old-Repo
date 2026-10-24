@@ -1,1 +1,1 @@
-{"HR":0.67,"CI":[0.62,0.71],"deaths":13537,"n_cohort":74534,"source":"S12 (Li et al. 2016)","mc":{"n":200000,"pU":0.5,"p_attend_U0":0.2,"p_death_U0":0.15,"weak":1.2,"seed":20261023}}
+{"HR":0.67,"CI":[0.62,0.71],"deaths":13537,"n_cohort":74534,"source":"S12 (Li et al. 2016); E-value formula S14 (VanderWeele & Ding 2017)","mc":{"n":2000000,"p_exposed":0.3,"q_baseline":0.10,"weak":1.2,"below_E_factor":0.9,"tolerance":0.02,"seed":20261024}}

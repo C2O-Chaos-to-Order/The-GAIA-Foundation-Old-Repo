@@ -1,0 +1,59 @@
+{
+  "sim_id": "SIM-R4-C0",
+  "status": "executed",
+  "started_utc": "2026-10-23T23:50:58.977737+00:00",
+  "finished_utc": "2026-10-23T23:50:59.012288+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "sim_spirit.py",
+  "params": {
+    "HR": 0.67,
+    "CI": [
+      0.62,
+      0.71
+    ],
+    "deaths": 13537,
+    "n_cohort": 74534,
+    "source": "S12 (Li et al. 2016)",
+    "mc": {
+      "n": 200000,
+      "pU": 0.5,
+      "p_attend_U0": 0.2,
+      "p_death_U0": 0.15,
+      "weak": 1.2,
+      "seed": 20261023
+    }
+  },
+  "outputs": {
+    "outputs/results.json": "e2a350e34224a8ecf6914d9f925195c58933903996020b94e1cb731cef776398"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "E-values > 1",
+      "observed": {
+        "rare_E": 2.35,
+        "common_E": 1.968,
+        "common_E_CI": 1.85
+      },
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "crude RR at E <= 0.758+0.02",
+      "observed": 0.851,
+      "result": "Fail"
+    },
+    {
+      "id": "E3",
+      "expect": "weak confounding crude RR > 0.9",
+      "observed": 0.9787,
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": false
+}
