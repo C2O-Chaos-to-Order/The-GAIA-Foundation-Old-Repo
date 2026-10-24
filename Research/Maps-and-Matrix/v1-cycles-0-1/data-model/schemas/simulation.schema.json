@@ -1,0 +1,81 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/simulation.schema.json",
+ "title": "Simulation run index entry (data model 1.0.0)",
+ "description": "One executed simulation run, as indexed by gaia_tools.data.simulations(): where its SPEC, params, script and record live, and a summary of check results.",
+ "type": "object",
+ "required": [
+  "sim_id",
+  "cycle",
+  "report",
+  "iteration",
+  "archived",
+  "directory",
+  "script",
+  "spec",
+  "params",
+  "execution_record",
+  "params_sha256",
+  "n_checks",
+  "results"
+ ],
+ "properties": {
+  "sim_id": {
+   "type": "string",
+   "pattern": "^SIM-R[1-7]-C[0-9]+$"
+  },
+  "cycle": {
+   "type": "string",
+   "pattern": "^C[0-9]+$"
+  },
+  "report": {
+   "type": "string",
+   "pattern": "^R[1-7]$"
+  },
+  "iteration": {
+   "type": [
+    "integer",
+    "null"
+   ],
+   "minimum": 1
+  },
+  "archived": {
+   "type": "boolean"
+  },
+  "directory": {
+   "type": "string"
+  },
+  "script": {
+   "type": "string",
+   "pattern": "\\.py$"
+  },
+  "spec": {
+   "type": "string",
+   "pattern": "SPEC\\.md$"
+  },
+  "params": {
+   "type": "string",
+   "pattern": "params\\.json$"
+  },
+  "execution_record": {
+   "type": "string",
+   "pattern": "EXECUTION_RECORD\\.json$"
+  },
+  "params_sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "n_checks": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "results": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "integer",
+    "minimum": 0
+   }
+  }
+ },
+ "additionalProperties": false
+}
