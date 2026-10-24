@@ -1,0 +1,144 @@
+{
+ "sim_id": "SIM-AS-SOC-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:18.173195+00:00",
+ "finished_utc": "2026-10-24T23:22:18.178150+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "9bf690e51e101bc341e400744aca402f34909b1cfd52bed82ad2b2bb90c1f0e5",
+ "params_sha256": "6673274999bd82b235533a973573291b41fa7c135cab448d5d7e95bf8fae81f3",
+ "results_sha256": "7fefb44aa42123417b74f2e3e17a06b2b5fd56cece63110dea509518760ffb1b",
+ "results": {
+  "by_year": {
+   "2001": {
+    "x0.5": {
+     "pct_mobile": 68.101
+    },
+    "x1": {
+     "pct_mobile": 59.423
+    },
+    "x1.5": {
+     "pct_mobile": 51.265
+    },
+    "x2": {
+     "pct_mobile": 44.36
+    },
+    "independence": {
+     "pct_mobile": 76.402
+    },
+    "min_mobility_pct": 23.19
+   }
+  },
+  "max_margin_err": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "IPF reproduces both margins within 1e-9 in every fit",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "on 2001 margins, % mobile falls monotonically as inheritance is scaled 0, 0.5, 1, 1.5, 2",
+   "observed": {
+    "by_year": {
+     "2001": {
+      "x0.5": {
+       "pct_mobile": 68.101
+      },
+      "x1": {
+       "pct_mobile": 59.423
+      },
+      "x1.5": {
+       "pct_mobile": 51.265
+      },
+      "x2": {
+       "pct_mobile": 44.36
+      },
+      "independence": {
+       "pct_mobile": 76.402
+      },
+      "min_mobility_pct": 23.19
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "% mobile never falls below the dissimilarity-index minimum (structural lower bound)",
+   "observed": {
+    "by_year": {
+     "2001": {
+      "x0.5": {
+       "pct_mobile": 68.101
+      },
+      "x1": {
+       "pct_mobile": 59.423
+      },
+      "x1.5": {
+       "pct_mobile": 51.265
+      },
+      "x2": {
+       "pct_mobile": 44.36
+      },
+      "independence": {
+       "pct_mobile": 76.402
+      },
+      "min_mobility_pct": 23.19
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_year": {
+     "2001": {
+      "x0.5": {
+       "pct_mobile": 68.101
+      },
+      "x1": {
+       "pct_mobile": 59.423
+      },
+      "x1.5": {
+       "pct_mobile": 51.265
+      },
+      "x2": {
+       "pct_mobile": 44.36
+      },
+      "independence": {
+       "pct_mobile": 76.402
+      },
+      "min_mobility_pct": 23.19
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
