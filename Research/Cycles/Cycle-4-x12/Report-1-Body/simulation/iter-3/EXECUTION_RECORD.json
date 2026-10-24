@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R1-C4",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:08:29.529243+00:00",
+ "finished_utc": "2026-10-24T04:08:30.923041+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-3",
+ "params_sha256": "e4a0a88c8710ac5ed5b0e48b69f201fe164bd2afa786c8222f6e21d69e9efd64",
+ "outputs": {
+  "outputs/results.json": "37260812b5149ba0024afbdc0a5e61a046ae6957ad865fd7a4bbc4378127ba8a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "continuous metric, C3 fine grid (180): more than C3's 2 settings meet both anchors",
+   "observed": [
+    1,
+    180
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
