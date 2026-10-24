@@ -1,0 +1,216 @@
+{
+ "sim_id": "SIM-AL-FOR-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:37.227680+00:00",
+ "finished_utc": "2026-10-24T19:11:40.696573+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a6da89c7a2bd7e01343c349d4a8a1dddcf40eb525270695d03965ef5ac7d5a32",
+ "params_sha256": "e9d3d4ac9f773ea2053021d883770534ff70f6b6646918fb0ad50c8c827745e5",
+ "results_sha256": "ea7ceb0cbd488a96cb1b358dde59cc024b36c1b1dbe3084e3e850b7daea6c57e",
+ "results": {
+  "numeric": {
+   "kin": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "direct": [
+    1.11111111,
+    1.22222222,
+    1.33333333
+   ],
+   "indirect": [
+    2.0,
+    3.0,
+    4.0
+   ],
+   "network": [
+    4.0,
+    4.0,
+    4.0
+   ],
+   "group": [
+    1.5,
+    1.5,
+    1.5
+   ]
+  },
+  "printed": {
+   "kin": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "direct": [
+    1.11111111,
+    1.22222222,
+    1.33333333
+   ],
+   "indirect": [
+    2.0,
+    3.0,
+    4.0
+   ],
+   "network": [
+    4,
+    4,
+    4
+   ],
+   "group": [
+    1.5,
+    1.5,
+    1.5
+   ]
+  },
+  "max_rel_err": 0.0,
+  "rho": {
+   "1.15": 0.0009863,
+   "1.3": 0.00099743
+  },
+  "inv_N": 0.001,
+  "crossing_bc": null,
+  "AD_threshold": 1.33333333,
+  "sim": {
+   "N": 20,
+   "bc": 6.0,
+   "s": 0.0005,
+   "p_fix": 0.0548,
+   "se": 0.0016093,
+   "exact": 0.05304309
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "numerical thresholds equal P47's printed rules (relative error < 1e-6) for all five mechanisms",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "stochastic Moran fixation within 4 SE of the exact formula",
+   "observed": [
+    0.0548,
+    0.0016093,
+    0.05304309
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "1/3 rule: rho < 1/N below and > 1/N above the AD threshold (end points of the b/c range)",
+   "observed": [
+    0.0009863,
+    0.00099743,
+    0.001
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "finite-N crossing within 5% of the AD threshold (3 - 2w)/w",
+   "observed": [
+    null,
+    1.33333333
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "numeric": {
+     "kin": [
+      2.0,
+      2.0,
+      2.0
+     ],
+     "direct": [
+      1.11111111,
+      1.22222222,
+      1.33333333
+     ],
+     "indirect": [
+      2.0,
+      3.0,
+      4.0
+     ],
+     "network": [
+      4.0,
+      4.0,
+      4.0
+     ],
+     "group": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "printed": {
+     "kin": [
+      2.0,
+      2.0,
+      2.0
+     ],
+     "direct": [
+      1.11111111,
+      1.22222222,
+      1.33333333
+     ],
+     "indirect": [
+      2.0,
+      3.0,
+      4.0
+     ],
+     "network": [
+      4,
+      4,
+      4
+     ],
+     "group": [
+      1.5,
+      1.5,
+      1.5
+     ]
+    },
+    "max_rel_err": 0.0,
+    "rho": {
+     "1.15": 0.0009863,
+     "1.3": 0.00099743
+    },
+    "inv_N": 0.001,
+    "crossing_bc": null,
+    "AD_threshold": 1.33333333,
+    "sim": {
+     "N": 20,
+     "bc": 6.0,
+     "s": 0.0005,
+     "p_fix": 0.0548,
+     "se": 0.0016093,
+     "exact": 0.05304309
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
