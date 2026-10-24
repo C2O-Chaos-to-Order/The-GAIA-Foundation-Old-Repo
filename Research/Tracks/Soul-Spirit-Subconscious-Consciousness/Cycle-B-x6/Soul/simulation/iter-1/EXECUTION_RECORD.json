@@ -1,0 +1,81 @@
+{
+ "sim_id": "SIM-SOUL-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:42:55.432940+00:00",
+ "finished_utc": "2026-10-24T05:42:55.436388+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-1  (run from Soul/simulation/)",
+ "spec_sha256": "17efcc81009936c5f043b46c6e1c941488febb8c3e784c8ab251cd3089d9084c",
+ "params_sha256": "6062f226f46460fd400620e951d01b25bc29900f99db1ff7855a84f885ec12b2",
+ "results_sha256": "cbd4aca6d339223e13cfec4f620b2461ee9964d18cd2f5be96f22e2c09beb3a8",
+ "results": {
+  "pair_lower_bounds": {
+   "reductive_physicalism+dualism": 0.003,
+   "reductive_physicalism+nonreductive_physicalism": 0.0656,
+   "reductive_physicalism+dual_aspect_monism": 0.0456,
+   "reductive_physicalism+functionalism": 0.0,
+   "dualism+nonreductive_physicalism": 0.0,
+   "dualism+dual_aspect_monism": 0.0,
+   "dualism+functionalism": 0.0,
+   "nonreductive_physicalism+dual_aspect_monism": 0.0,
+   "nonreductive_physicalism+functionalism": 0.0,
+   "dual_aspect_monism+functionalism": 0.0
+  },
+  "largest_forced_pair": "reductive_physicalism+nonreductive_physicalism",
+  "lp_check": 0.0656
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "LP minimum for the named pair equals the Frechet lower bound within 1e-6",
+   "observed": [
+    0.0656,
+    0.0656
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at least one pair of positions is forced to be co-endorsed by >= 10% of respondents",
+   "observed": [
+    "reductive_physicalism+nonreductive_physicalism",
+    0.0656
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Frechet lower bound for every pair",
+   "observed": {
+    "reductive_physicalism+dualism": 0.003,
+    "reductive_physicalism+nonreductive_physicalism": 0.0656,
+    "reductive_physicalism+dual_aspect_monism": 0.0456,
+    "reductive_physicalism+functionalism": 0.0,
+    "dualism+nonreductive_physicalism": 0.0,
+    "dualism+dual_aspect_monism": 0.0,
+    "dualism+functionalism": 0.0,
+    "nonreductive_physicalism+dual_aspect_monism": 0.0,
+    "nonreductive_physicalism+functionalism": 0.0,
+    "dual_aspect_monism+functionalism": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
