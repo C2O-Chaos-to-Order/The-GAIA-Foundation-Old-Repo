@@ -1,0 +1,93 @@
+{
+ "sim_id": "SIM-SPIRIT-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:07.425266+00:00",
+ "finished_utc": "2026-10-24T05:43:07.464003+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-3  (run from Spirit/simulation/)",
+ "spec_sha256": "ac896f4080d5dee49c2bd58eac638672dade04010696bed56c3cc235074274b7",
+ "params_sha256": "416d05a6db30eaf4376718483b3858e97f013476c0b80ad0902db48f2f6d277d",
+ "results_sha256": "bf8241d46a336ac77ed9cf7a622518db084610e1dbed87b7bbab233cb363be8e",
+ "results": {
+  "by_omega": {
+   "0.8": {
+    "share_classified": 0.0306,
+    "test_retest_agreement": 0.96855,
+    "kappa": 0.45656062,
+    "share_of_classified_also_on_retest": 0.46078431,
+    "agreement_with_true": 0.96845
+   },
+   "0.85": {
+    "share_classified": 0.0357,
+    "test_retest_agreement": 0.9687,
+    "kappa": 0.53472747,
+    "share_of_classified_also_on_retest": 0.53781513,
+    "agreement_with_true": 0.9723
+   },
+   "0.9": {
+    "share_classified": 0.0375,
+    "test_retest_agreement": 0.9735,
+    "kappa": 0.64648991,
+    "share_of_classified_also_on_retest": 0.68666667,
+    "agreement_with_true": 0.9758
+   },
+   "0.95": {
+    "share_classified": 0.0409,
+    "test_retest_agreement": 0.97995,
+    "kappa": 0.74398803,
+    "share_of_classified_also_on_retest": 0.75305623,
+    "agreement_with_true": 0.9837
+   },
+   "1.0": {
+    "share_classified": 0.04675,
+    "test_retest_agreement": 1.0,
+    "kappa": 1.0,
+    "share_of_classified_also_on_retest": 1.0,
+    "agreement_with_true": 1.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 1 (no error) test-retest agreement is 1",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at omega = 0.9 at least 80% of those classified at test are classified again at retest",
+   "observed": 0.68666667,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "test-retest kappa of the binary classification by omega",
+   "observed": {
+    "0.8": 0.457,
+    "0.85": 0.535,
+    "0.9": 0.646,
+    "0.95": 0.744,
+    "1.0": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
