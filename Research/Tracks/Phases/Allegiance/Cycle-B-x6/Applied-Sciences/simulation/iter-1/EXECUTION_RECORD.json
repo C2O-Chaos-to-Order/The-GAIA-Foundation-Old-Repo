@@ -1,0 +1,186 @@
+{
+ "sim_id": "SIM-AL-APP-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:56.463966+00:00",
+ "finished_utc": "2026-10-24T19:11:56.914098+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "1b3b747c550923eb30bd57957f7edcd12cdb54ec92a244fcb33505adeec16212",
+ "params_sha256": "52004cf12d96a5323ea5437ae88df58ab8677b3f2803f2c0a1111957a9e2a225",
+ "results_sha256": "d61cac49f688c7d23a474bb2e8115e1706f82761c65ab2b2058c4dcb34c6f100",
+ "results": {
+  "coefs": {
+   "developer_involvement": {
+    "beta": -0.002,
+    "lo": -0.12,
+    "hi": 0.11,
+    "se": 0.05867455,
+    "z": -0.03408633,
+    "p": 0.97280831,
+    "power": {
+     "0.1": 0.39923554,
+     "0.2": 0.92628502,
+     "0.3": 0.99919195
+    },
+    "midpoint_offset": 0.003,
+    "excludes_margin": true
+   },
+   "active_control": {
+    "beta": 0.17,
+    "lo": 0.07,
+    "hi": 0.27,
+    "se": 0.05102135,
+    "z": 3.3319388,
+    "p": 0.00086243,
+    "power": {
+     "0.1": 0.50004429,
+     "0.2": 0.975,
+     "0.3": 0.99995571
+    },
+    "midpoint_offset": 0.0,
+    "excludes_margin": false
+   },
+   "delivery_staff": {
+    "beta": 0.11,
+    "lo": 0.005,
+    "hi": 0.23,
+    "se": 0.05739901,
+    "z": 1.91640924,
+    "p": 0.05531303,
+    "power": {
+     "0.1": 0.41390958,
+     "0.2": 0.93629767,
+     "0.3": 0.99945578
+    },
+    "midpoint_offset": -0.0075,
+    "excludes_margin": false
+   }
+  },
+  "margin": 0.15
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "reported estimates lie at the CI midpoint within 0.01 (symmetric normal CIs)",
+   "observed": {
+    "developer_involvement": 0.003,
+    "active_control": 0.0,
+    "delivery_staff": -0.0075
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "developer-involvement CI lies within (-0.15, 0.15)",
+   "observed": {
+    "beta": -0.002,
+    "lo": -0.12,
+    "hi": 0.11,
+    "se": 0.05867455,
+    "z": -0.03408633,
+    "p": 0.97280831,
+    "power": {
+     "0.1": 0.39923554,
+     "0.2": 0.92628502,
+     "0.3": 0.99919195
+    },
+    "midpoint_offset": 0.003,
+    "excludes_margin": true
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "power >= 0.8 to detect 0.2",
+   "observed": {
+    "beta": -0.002,
+    "lo": -0.12,
+    "hi": 0.11,
+    "se": 0.05867455,
+    "z": -0.03408633,
+    "p": 0.97280831,
+    "power": {
+     "0.1": 0.39923554,
+     "0.2": 0.92628502,
+     "0.3": 0.99919195
+    },
+    "midpoint_offset": 0.003,
+    "excludes_margin": true
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "coefs": {
+     "developer_involvement": {
+      "beta": -0.002,
+      "lo": -0.12,
+      "hi": 0.11,
+      "se": 0.05867455,
+      "z": -0.03408633,
+      "p": 0.97280831,
+      "power": {
+       "0.1": 0.39923554,
+       "0.2": 0.92628502,
+       "0.3": 0.99919195
+      },
+      "midpoint_offset": 0.003,
+      "excludes_margin": true
+     },
+     "active_control": {
+      "beta": 0.17,
+      "lo": 0.07,
+      "hi": 0.27,
+      "se": 0.05102135,
+      "z": 3.3319388,
+      "p": 0.00086243,
+      "power": {
+       "0.1": 0.50004429,
+       "0.2": 0.975,
+       "0.3": 0.99995571
+      },
+      "midpoint_offset": 0.0,
+      "excludes_margin": false
+     },
+     "delivery_staff": {
+      "beta": 0.11,
+      "lo": 0.005,
+      "hi": 0.23,
+      "se": 0.05739901,
+      "z": 1.91640924,
+      "p": 0.05531303,
+      "power": {
+       "0.1": 0.41390958,
+       "0.2": 0.93629767,
+       "0.3": 0.99945578
+      },
+      "midpoint_offset": -0.0075,
+      "excludes_margin": false
+     }
+    },
+    "margin": 0.15
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
