@@ -1,0 +1,61 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:16.938329+00:00",
+ "finished_utc": "2026-10-24T04:07:17.308037+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-7",
+ "params_sha256": "c427cb9f2f95463aff2ba0c38e3b778988ce09d68950d1a73afafab7f39d1336",
+ "outputs": {
+  "outputs/results.json": "901621bc37dd1544e32dc691990f73914234e5dda0ab1fc9be6f0495d553f995"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "weak confounding (spurious OR(A,D) about 0.9) is flagged in >= 80% at n = 10,000",
+   "observed": {
+    "power": 0.05,
+    "spurious_or_D": 0.9703892284
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H7r",
+   "kind": "reporting",
+   "expect": "power by strength",
+   "observed": {
+    "0.3": {
+     "power": 0.05,
+     "spurious_or_D": 0.9703892284
+    },
+    "0.6": {
+     "power": 0.225,
+     "spurious_or_D": 0.9113730691
+    },
+    "1.0": {
+     "power": 0.935,
+     "spurious_or_D": 0.7834158287
+    },
+    "1.5": {
+     "power": 1.0,
+     "spurious_or_D": 0.6099473169
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
