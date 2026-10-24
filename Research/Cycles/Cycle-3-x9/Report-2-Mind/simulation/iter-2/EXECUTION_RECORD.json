@@ -1,0 +1,49 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:26.387254+00:00",
+ "finished_utc": "2026-10-24T03:02:26.398164+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-2",
+ "params_sha256": "91965f39c24855cc01d02e1dd8b58dc33cd8ac0bbd2148499e44924921ba7b2f",
+ "outputs": {
+  "outputs/results.json": "fde0f7c956393749afd032a87702004f1f84504577f6034684d98f8431e69ce7"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "LI-by-number-of-pre-exposures curves of PH and KF differ by >= 0.15 somewhere (a parametric design could discriminate)",
+   "observed": 0.3029549622,
+   "result": "Supported"
+  },
+  {
+   "id": "H2b",
+   "kind": "hypothesis",
+   "expect": "the Mackintosh-type model also yields LI that grows with pre-exposure (monotone)",
+   "observed": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
