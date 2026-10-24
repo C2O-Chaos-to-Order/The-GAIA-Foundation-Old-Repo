@@ -1,0 +1,95 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:44.468238+00:00",
+ "finished_utc": "2026-10-24T03:00:44.567910+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-7",
+ "params_sha256": "6a13d6d2363c40a61b13643788d8926e3a65752bffb62e37251ce7fc88a7fe97",
+ "outputs": {
+  "outputs/results.json": "274c7e78ea620b6d7bddd4353be003ff517103453f2285728b4d6fa78943226d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "one-at-a-time +-20% perturbation of each of A_f, A_s, B_f, B_s, Kp, Umax keeps the ratio within [6, 14]",
+   "observed": [
+    [
+     "Af",
+     0.8,
+     11.3067512918
+    ],
+    [
+     "Af",
+     1.2,
+     4.6666666667
+    ],
+    [
+     "As",
+     0.8,
+     2.2318951972
+    ],
+    [
+     "As",
+     1.2,
+     7.0
+    ],
+    [
+     "Bf",
+     0.8,
+     7.0
+    ],
+    [
+     "Bf",
+     1.2,
+     7.0
+    ],
+    [
+     "Bs",
+     0.8,
+     6.9185704256
+    ],
+    [
+     "Bs",
+     1.2,
+     7.0
+    ],
+    [
+     "Kp",
+     0.8,
+     7.0
+    ],
+    [
+     "Kp",
+     1.2,
+     7.0
+    ],
+    [
+     "Umax",
+     0.8,
+     7.0
+    ],
+    [
+     "Umax",
+     1.2,
+     7.0
+    ]
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
