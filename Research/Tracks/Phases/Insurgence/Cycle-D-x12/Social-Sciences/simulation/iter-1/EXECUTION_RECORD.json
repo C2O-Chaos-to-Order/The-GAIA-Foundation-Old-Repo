@@ -1,0 +1,1387 @@
+{
+ "sim_id": "SIM-IN-SOC-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:05:05.475018+00:00",
+ "finished_utc": "2026-10-24T18:05:40.159961+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "feb663d8df716aabb989239ee808e37b8fe13942806ca67664364b139fe87d47",
+ "params_sha256": "c6a14ed35ac9b72f6eee25cdf2330bb43a10477cb4d6559c87496d7c6387c929",
+ "results_sha256": "8cfa386fed93dd8030d59d9cd7f39dd19ee62abc5cb5fa7bb3892f58cd27ed3b",
+ "results": {
+  "k": 4,
+  "i": 2,
+  "T": 1,
+  "n": 1000,
+  "p1_star": 0.33333333,
+  "by_pair": {
+   "0.1,0.1": {
+    "clustered": 0.00285,
+    "random": 0.0026,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.2": {
+    "clustered": 0.00335,
+    "random": 0.0026,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.3": {
+    "clustered": 0.0035,
+    "random": 0.0027,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.4": {
+    "clustered": 0.00365,
+    "random": 0.00255,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.5": {
+    "clustered": 0.0053,
+    "random": 0.00275,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.6": {
+    "clustered": 0.00505,
+    "random": 0.0029,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.7": {
+    "clustered": 0.00755,
+    "random": 0.0027,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.8": {
+    "clustered": 0.01285,
+    "random": 0.00235,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,0.9": {
+    "clustered": 0.02105,
+    "random": 0.0034,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.1,1.0": {
+    "clustered": 1.0,
+    "random": 0.0032,
+    "t60_clustered": 272.25,
+    "t60_random": null
+   },
+   "0.2,0.2": {
+    "clustered": 0.0043,
+    "random": 0.00385,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.3": {
+    "clustered": 0.00415,
+    "random": 0.0039,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.4": {
+    "clustered": 0.00615,
+    "random": 0.0047,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.5": {
+    "clustered": 0.00715,
+    "random": 0.00585,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.6": {
+    "clustered": 0.0061,
+    "random": 0.0054,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.7": {
+    "clustered": 0.01185,
+    "random": 0.0042,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.8": {
+    "clustered": 0.01435,
+    "random": 0.0055,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,0.9": {
+    "clustered": 0.0283,
+    "random": 0.0039,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.2,1.0": {
+    "clustered": 1.0,
+    "random": 0.00535,
+    "t60_clustered": 249.9,
+    "t60_random": null
+   },
+   "0.3,0.3": {
+    "clustered": 0.00685,
+    "random": 0.02,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.3,0.4": {
+    "clustered": 0.00605,
+    "random": 0.01365,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.3,0.5": {
+    "clustered": 0.0087,
+    "random": 0.0303,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.3,0.6": {
+    "clustered": 0.0097,
+    "random": 0.0135,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.3,0.7": {
+    "clustered": 0.01155,
+    "random": 0.0673,
+    "t60_clustered": null,
+    "t60_random": 67.0
+   },
+   "0.3,0.8": {
+    "clustered": 0.019,
+    "random": 0.1241,
+    "t60_clustered": null,
+    "t60_random": 29.5
+   },
+   "0.3,0.9": {
+    "clustered": 0.028,
+    "random": 0.0112,
+    "t60_clustered": null,
+    "t60_random": null
+   },
+   "0.3,1.0": {
+    "clustered": 1.0,
+    "random": 0.1056,
+    "t60_clustered": 231.3,
+    "t60_random": 42.5
+   },
+   "0.4,0.4": {
+    "clustered": 0.0088,
+    "random": 0.3702,
+    "t60_clustered": null,
+    "t60_random": 28.33333333
+   },
+   "0.4,0.5": {
+    "clustered": 0.0085,
+    "random": 0.4088,
+    "t60_clustered": null,
+    "t60_random": 29.45454545
+   },
+   "0.4,0.6": {
+    "clustered": 0.01575,
+    "random": 0.7105,
+    "t60_clustered": null,
+    "t60_random": 24.875
+   },
+   "0.4,0.7": {
+    "clustered": 0.0176,
+    "random": 0.58525,
+    "t60_clustered": null,
+    "t60_random": 20.75
+   },
+   "0.4,0.8": {
+    "clustered": 0.03115,
+    "random": 0.6482,
+    "t60_clustered": null,
+    "t60_random": 22.0
+   },
+   "0.4,0.9": {
+    "clustered": 0.0563,
+    "random": 0.5536,
+    "t60_clustered": null,
+    "t60_random": 19.54545455
+   },
+   "0.4,1.0": {
+    "clustered": 1.0,
+    "random": 0.65525,
+    "t60_clustered": 213.25,
+    "t60_random": 21.0
+   },
+   "0.5,0.5": {
+    "clustered": 0.01745,
+    "random": 0.8037,
+    "t60_clustered": null,
+    "t60_random": 15.78947368
+   },
+   "0.5,0.6": {
+    "clustered": 0.016,
+    "random": 0.9284,
+    "t60_clustered": null,
+    "t60_random": 13.65
+   },
+   "0.5,0.7": {
+    "clustered": 0.02215,
+    "random": 0.8301,
+    "t60_clustered": null,
+    "t60_random": 13.41176471
+   },
+   "0.5,0.8": {
+    "clustered": 0.04195,
+    "random": 0.9941,
+    "t60_clustered": null,
+    "t60_random": 13.25
+   },
+   "0.5,0.9": {
+    "clustered": 0.0646,
+    "random": 0.9495,
+    "t60_clustered": null,
+    "t60_random": 13.0
+   },
+   "0.5,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 198.35,
+    "t60_random": 12.25
+   },
+   "0.6,0.6": {
+    "clustered": 0.0337,
+    "random": 0.96095,
+    "t60_clustered": null,
+    "t60_random": 10.35
+   },
+   "0.6,0.7": {
+    "clustered": 0.0497,
+    "random": 0.983,
+    "t60_clustered": null,
+    "t60_random": 10.0
+   },
+   "0.6,0.8": {
+    "clustered": 0.0709,
+    "random": 0.995,
+    "t60_clustered": null,
+    "t60_random": 9.55
+   },
+   "0.6,0.9": {
+    "clustered": 0.1125,
+    "random": 0.99935,
+    "t60_clustered": null,
+    "t60_random": 10.0
+   },
+   "0.6,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 187.3,
+    "t60_random": 9.4
+   },
+   "0.7,0.7": {
+    "clustered": 0.062,
+    "random": 0.99,
+    "t60_clustered": null,
+    "t60_random": 8.2
+   },
+   "0.7,0.8": {
+    "clustered": 0.12695,
+    "random": 0.99715,
+    "t60_clustered": null,
+    "t60_random": 7.85
+   },
+   "0.7,0.9": {
+    "clustered": 0.23155,
+    "random": 0.9996,
+    "t60_clustered": 283.0,
+    "t60_random": 8.2
+   },
+   "0.7,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 177.0,
+    "t60_random": 7.8
+   },
+   "0.8,0.8": {
+    "clustered": 0.24305,
+    "random": 0.99815,
+    "t60_clustered": 167.0,
+    "t60_random": 7.1
+   },
+   "0.8,0.9": {
+    "clustered": 0.45365,
+    "random": 0.9999,
+    "t60_clustered": 242.6,
+    "t60_random": 7.0
+   },
+   "0.8,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 167.15,
+    "t60_random": 7.05
+   },
+   "0.9,0.9": {
+    "clustered": 0.9024,
+    "random": 0.99985,
+    "t60_clustered": 177.82352941,
+    "t60_random": 6.1
+   },
+   "0.9,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 157.2,
+    "t60_random": 6.15
+   },
+   "1.0,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 150.0,
+    "t60_random": 6.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "shares in [0, 1]",
+   "observed": {
+    "0.1,0.1": {
+     "clustered": 0.00285,
+     "random": 0.0026,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.2": {
+     "clustered": 0.00335,
+     "random": 0.0026,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.3": {
+     "clustered": 0.0035,
+     "random": 0.0027,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.4": {
+     "clustered": 0.00365,
+     "random": 0.00255,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.5": {
+     "clustered": 0.0053,
+     "random": 0.00275,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.6": {
+     "clustered": 0.00505,
+     "random": 0.0029,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.7": {
+     "clustered": 0.00755,
+     "random": 0.0027,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.8": {
+     "clustered": 0.01285,
+     "random": 0.00235,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.9": {
+     "clustered": 0.02105,
+     "random": 0.0034,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,1.0": {
+     "clustered": 1.0,
+     "random": 0.0032,
+     "t60_clustered": 272.25,
+     "t60_random": null
+    },
+    "0.2,0.2": {
+     "clustered": 0.0043,
+     "random": 0.00385,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.3": {
+     "clustered": 0.00415,
+     "random": 0.0039,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.4": {
+     "clustered": 0.00615,
+     "random": 0.0047,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.5": {
+     "clustered": 0.00715,
+     "random": 0.00585,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.6": {
+     "clustered": 0.0061,
+     "random": 0.0054,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.7": {
+     "clustered": 0.01185,
+     "random": 0.0042,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.8": {
+     "clustered": 0.01435,
+     "random": 0.0055,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.9": {
+     "clustered": 0.0283,
+     "random": 0.0039,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,1.0": {
+     "clustered": 1.0,
+     "random": 0.00535,
+     "t60_clustered": 249.9,
+     "t60_random": null
+    },
+    "0.3,0.3": {
+     "clustered": 0.00685,
+     "random": 0.02,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.4": {
+     "clustered": 0.00605,
+     "random": 0.01365,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.5": {
+     "clustered": 0.0087,
+     "random": 0.0303,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.6": {
+     "clustered": 0.0097,
+     "random": 0.0135,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.7": {
+     "clustered": 0.01155,
+     "random": 0.0673,
+     "t60_clustered": null,
+     "t60_random": 67.0
+    },
+    "0.3,0.8": {
+     "clustered": 0.019,
+     "random": 0.1241,
+     "t60_clustered": null,
+     "t60_random": 29.5
+    },
+    "0.3,0.9": {
+     "clustered": 0.028,
+     "random": 0.0112,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,1.0": {
+     "clustered": 1.0,
+     "random": 0.1056,
+     "t60_clustered": 231.3,
+     "t60_random": 42.5
+    },
+    "0.4,0.4": {
+     "clustered": 0.0088,
+     "random": 0.3702,
+     "t60_clustered": null,
+     "t60_random": 28.33333333
+    },
+    "0.4,0.5": {
+     "clustered": 0.0085,
+     "random": 0.4088,
+     "t60_clustered": null,
+     "t60_random": 29.45454545
+    },
+    "0.4,0.6": {
+     "clustered": 0.01575,
+     "random": 0.7105,
+     "t60_clustered": null,
+     "t60_random": 24.875
+    },
+    "0.4,0.7": {
+     "clustered": 0.0176,
+     "random": 0.58525,
+     "t60_clustered": null,
+     "t60_random": 20.75
+    },
+    "0.4,0.8": {
+     "clustered": 0.03115,
+     "random": 0.6482,
+     "t60_clustered": null,
+     "t60_random": 22.0
+    },
+    "0.4,0.9": {
+     "clustered": 0.0563,
+     "random": 0.5536,
+     "t60_clustered": null,
+     "t60_random": 19.54545455
+    },
+    "0.4,1.0": {
+     "clustered": 1.0,
+     "random": 0.65525,
+     "t60_clustered": 213.25,
+     "t60_random": 21.0
+    },
+    "0.5,0.5": {
+     "clustered": 0.01745,
+     "random": 0.8037,
+     "t60_clustered": null,
+     "t60_random": 15.78947368
+    },
+    "0.5,0.6": {
+     "clustered": 0.016,
+     "random": 0.9284,
+     "t60_clustered": null,
+     "t60_random": 13.65
+    },
+    "0.5,0.7": {
+     "clustered": 0.02215,
+     "random": 0.8301,
+     "t60_clustered": null,
+     "t60_random": 13.41176471
+    },
+    "0.5,0.8": {
+     "clustered": 0.04195,
+     "random": 0.9941,
+     "t60_clustered": null,
+     "t60_random": 13.25
+    },
+    "0.5,0.9": {
+     "clustered": 0.0646,
+     "random": 0.9495,
+     "t60_clustered": null,
+     "t60_random": 13.0
+    },
+    "0.5,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 198.35,
+     "t60_random": 12.25
+    },
+    "0.6,0.6": {
+     "clustered": 0.0337,
+     "random": 0.96095,
+     "t60_clustered": null,
+     "t60_random": 10.35
+    },
+    "0.6,0.7": {
+     "clustered": 0.0497,
+     "random": 0.983,
+     "t60_clustered": null,
+     "t60_random": 10.0
+    },
+    "0.6,0.8": {
+     "clustered": 0.0709,
+     "random": 0.995,
+     "t60_clustered": null,
+     "t60_random": 9.55
+    },
+    "0.6,0.9": {
+     "clustered": 0.1125,
+     "random": 0.99935,
+     "t60_clustered": null,
+     "t60_random": 10.0
+    },
+    "0.6,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 187.3,
+     "t60_random": 9.4
+    },
+    "0.7,0.7": {
+     "clustered": 0.062,
+     "random": 0.99,
+     "t60_clustered": null,
+     "t60_random": 8.2
+    },
+    "0.7,0.8": {
+     "clustered": 0.12695,
+     "random": 0.99715,
+     "t60_clustered": null,
+     "t60_random": 7.85
+    },
+    "0.7,0.9": {
+     "clustered": 0.23155,
+     "random": 0.9996,
+     "t60_clustered": 283.0,
+     "t60_random": 8.2
+    },
+    "0.7,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 177.0,
+     "t60_random": 7.8
+    },
+    "0.8,0.8": {
+     "clustered": 0.24305,
+     "random": 0.99815,
+     "t60_clustered": 167.0,
+     "t60_random": 7.1
+    },
+    "0.8,0.9": {
+     "clustered": 0.45365,
+     "random": 0.9999,
+     "t60_clustered": 242.6,
+     "t60_random": 7.0
+    },
+    "0.8,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 167.15,
+     "t60_random": 7.05
+    },
+    "0.9,0.9": {
+     "clustered": 0.9024,
+     "random": 0.99985,
+     "t60_clustered": 177.82352941,
+     "t60_random": 6.1
+    },
+    "0.9,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 157.2,
+     "t60_random": 6.15
+    },
+    "1.0,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 150.0,
+     "t60_random": 6.0
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "share of grid points where clustered beats random by >= 0.05 is below 0.25",
+   "observed": {
+    "0.1,0.1": {
+     "clustered": 0.00285,
+     "random": 0.0026,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.2": {
+     "clustered": 0.00335,
+     "random": 0.0026,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.3": {
+     "clustered": 0.0035,
+     "random": 0.0027,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.4": {
+     "clustered": 0.00365,
+     "random": 0.00255,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.5": {
+     "clustered": 0.0053,
+     "random": 0.00275,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.6": {
+     "clustered": 0.00505,
+     "random": 0.0029,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.7": {
+     "clustered": 0.00755,
+     "random": 0.0027,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.8": {
+     "clustered": 0.01285,
+     "random": 0.00235,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,0.9": {
+     "clustered": 0.02105,
+     "random": 0.0034,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.1,1.0": {
+     "clustered": 1.0,
+     "random": 0.0032,
+     "t60_clustered": 272.25,
+     "t60_random": null
+    },
+    "0.2,0.2": {
+     "clustered": 0.0043,
+     "random": 0.00385,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.3": {
+     "clustered": 0.00415,
+     "random": 0.0039,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.4": {
+     "clustered": 0.00615,
+     "random": 0.0047,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.5": {
+     "clustered": 0.00715,
+     "random": 0.00585,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.6": {
+     "clustered": 0.0061,
+     "random": 0.0054,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.7": {
+     "clustered": 0.01185,
+     "random": 0.0042,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.8": {
+     "clustered": 0.01435,
+     "random": 0.0055,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,0.9": {
+     "clustered": 0.0283,
+     "random": 0.0039,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.2,1.0": {
+     "clustered": 1.0,
+     "random": 0.00535,
+     "t60_clustered": 249.9,
+     "t60_random": null
+    },
+    "0.3,0.3": {
+     "clustered": 0.00685,
+     "random": 0.02,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.4": {
+     "clustered": 0.00605,
+     "random": 0.01365,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.5": {
+     "clustered": 0.0087,
+     "random": 0.0303,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.6": {
+     "clustered": 0.0097,
+     "random": 0.0135,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,0.7": {
+     "clustered": 0.01155,
+     "random": 0.0673,
+     "t60_clustered": null,
+     "t60_random": 67.0
+    },
+    "0.3,0.8": {
+     "clustered": 0.019,
+     "random": 0.1241,
+     "t60_clustered": null,
+     "t60_random": 29.5
+    },
+    "0.3,0.9": {
+     "clustered": 0.028,
+     "random": 0.0112,
+     "t60_clustered": null,
+     "t60_random": null
+    },
+    "0.3,1.0": {
+     "clustered": 1.0,
+     "random": 0.1056,
+     "t60_clustered": 231.3,
+     "t60_random": 42.5
+    },
+    "0.4,0.4": {
+     "clustered": 0.0088,
+     "random": 0.3702,
+     "t60_clustered": null,
+     "t60_random": 28.33333333
+    },
+    "0.4,0.5": {
+     "clustered": 0.0085,
+     "random": 0.4088,
+     "t60_clustered": null,
+     "t60_random": 29.45454545
+    },
+    "0.4,0.6": {
+     "clustered": 0.01575,
+     "random": 0.7105,
+     "t60_clustered": null,
+     "t60_random": 24.875
+    },
+    "0.4,0.7": {
+     "clustered": 0.0176,
+     "random": 0.58525,
+     "t60_clustered": null,
+     "t60_random": 20.75
+    },
+    "0.4,0.8": {
+     "clustered": 0.03115,
+     "random": 0.6482,
+     "t60_clustered": null,
+     "t60_random": 22.0
+    },
+    "0.4,0.9": {
+     "clustered": 0.0563,
+     "random": 0.5536,
+     "t60_clustered": null,
+     "t60_random": 19.54545455
+    },
+    "0.4,1.0": {
+     "clustered": 1.0,
+     "random": 0.65525,
+     "t60_clustered": 213.25,
+     "t60_random": 21.0
+    },
+    "0.5,0.5": {
+     "clustered": 0.01745,
+     "random": 0.8037,
+     "t60_clustered": null,
+     "t60_random": 15.78947368
+    },
+    "0.5,0.6": {
+     "clustered": 0.016,
+     "random": 0.9284,
+     "t60_clustered": null,
+     "t60_random": 13.65
+    },
+    "0.5,0.7": {
+     "clustered": 0.02215,
+     "random": 0.8301,
+     "t60_clustered": null,
+     "t60_random": 13.41176471
+    },
+    "0.5,0.8": {
+     "clustered": 0.04195,
+     "random": 0.9941,
+     "t60_clustered": null,
+     "t60_random": 13.25
+    },
+    "0.5,0.9": {
+     "clustered": 0.0646,
+     "random": 0.9495,
+     "t60_clustered": null,
+     "t60_random": 13.0
+    },
+    "0.5,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 198.35,
+     "t60_random": 12.25
+    },
+    "0.6,0.6": {
+     "clustered": 0.0337,
+     "random": 0.96095,
+     "t60_clustered": null,
+     "t60_random": 10.35
+    },
+    "0.6,0.7": {
+     "clustered": 0.0497,
+     "random": 0.983,
+     "t60_clustered": null,
+     "t60_random": 10.0
+    },
+    "0.6,0.8": {
+     "clustered": 0.0709,
+     "random": 0.995,
+     "t60_clustered": null,
+     "t60_random": 9.55
+    },
+    "0.6,0.9": {
+     "clustered": 0.1125,
+     "random": 0.99935,
+     "t60_clustered": null,
+     "t60_random": 10.0
+    },
+    "0.6,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 187.3,
+     "t60_random": 9.4
+    },
+    "0.7,0.7": {
+     "clustered": 0.062,
+     "random": 0.99,
+     "t60_clustered": null,
+     "t60_random": 8.2
+    },
+    "0.7,0.8": {
+     "clustered": 0.12695,
+     "random": 0.99715,
+     "t60_clustered": null,
+     "t60_random": 7.85
+    },
+    "0.7,0.9": {
+     "clustered": 0.23155,
+     "random": 0.9996,
+     "t60_clustered": 283.0,
+     "t60_random": 8.2
+    },
+    "0.7,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 177.0,
+     "t60_random": 7.8
+    },
+    "0.8,0.8": {
+     "clustered": 0.24305,
+     "random": 0.99815,
+     "t60_clustered": 167.0,
+     "t60_random": 7.1
+    },
+    "0.8,0.9": {
+     "clustered": 0.45365,
+     "random": 0.9999,
+     "t60_clustered": 242.6,
+     "t60_random": 7.0
+    },
+    "0.8,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 167.15,
+     "t60_random": 7.05
+    },
+    "0.9,0.9": {
+     "clustered": 0.9024,
+     "random": 0.99985,
+     "t60_clustered": 177.82352941,
+     "t60_random": 6.1
+    },
+    "0.9,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 157.2,
+     "t60_random": 6.15
+    },
+    "1.0,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 150.0,
+     "t60_random": 6.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "k": 4,
+    "i": 2,
+    "T": 1,
+    "n": 1000,
+    "p1_star": 0.33333333,
+    "by_pair": {
+     "0.1,0.1": {
+      "clustered": 0.00285,
+      "random": 0.0026,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.2": {
+      "clustered": 0.00335,
+      "random": 0.0026,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.3": {
+      "clustered": 0.0035,
+      "random": 0.0027,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.4": {
+      "clustered": 0.00365,
+      "random": 0.00255,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.5": {
+      "clustered": 0.0053,
+      "random": 0.00275,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.6": {
+      "clustered": 0.00505,
+      "random": 0.0029,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.7": {
+      "clustered": 0.00755,
+      "random": 0.0027,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.8": {
+      "clustered": 0.01285,
+      "random": 0.00235,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,0.9": {
+      "clustered": 0.02105,
+      "random": 0.0034,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.1,1.0": {
+      "clustered": 1.0,
+      "random": 0.0032,
+      "t60_clustered": 272.25,
+      "t60_random": null
+     },
+     "0.2,0.2": {
+      "clustered": 0.0043,
+      "random": 0.00385,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.3": {
+      "clustered": 0.00415,
+      "random": 0.0039,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.4": {
+      "clustered": 0.00615,
+      "random": 0.0047,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.5": {
+      "clustered": 0.00715,
+      "random": 0.00585,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.6": {
+      "clustered": 0.0061,
+      "random": 0.0054,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.7": {
+      "clustered": 0.01185,
+      "random": 0.0042,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.8": {
+      "clustered": 0.01435,
+      "random": 0.0055,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,0.9": {
+      "clustered": 0.0283,
+      "random": 0.0039,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.2,1.0": {
+      "clustered": 1.0,
+      "random": 0.00535,
+      "t60_clustered": 249.9,
+      "t60_random": null
+     },
+     "0.3,0.3": {
+      "clustered": 0.00685,
+      "random": 0.02,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.3,0.4": {
+      "clustered": 0.00605,
+      "random": 0.01365,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.3,0.5": {
+      "clustered": 0.0087,
+      "random": 0.0303,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.3,0.6": {
+      "clustered": 0.0097,
+      "random": 0.0135,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.3,0.7": {
+      "clustered": 0.01155,
+      "random": 0.0673,
+      "t60_clustered": null,
+      "t60_random": 67.0
+     },
+     "0.3,0.8": {
+      "clustered": 0.019,
+      "random": 0.1241,
+      "t60_clustered": null,
+      "t60_random": 29.5
+     },
+     "0.3,0.9": {
+      "clustered": 0.028,
+      "random": 0.0112,
+      "t60_clustered": null,
+      "t60_random": null
+     },
+     "0.3,1.0": {
+      "clustered": 1.0,
+      "random": 0.1056,
+      "t60_clustered": 231.3,
+      "t60_random": 42.5
+     },
+     "0.4,0.4": {
+      "clustered": 0.0088,
+      "random": 0.3702,
+      "t60_clustered": null,
+      "t60_random": 28.33333333
+     },
+     "0.4,0.5": {
+      "clustered": 0.0085,
+      "random": 0.4088,
+      "t60_clustered": null,
+      "t60_random": 29.45454545
+     },
+     "0.4,0.6": {
+      "clustered": 0.01575,
+      "random": 0.7105,
+      "t60_clustered": null,
+      "t60_random": 24.875
+     },
+     "0.4,0.7": {
+      "clustered": 0.0176,
+      "random": 0.58525,
+      "t60_clustered": null,
+      "t60_random": 20.75
+     },
+     "0.4,0.8": {
+      "clustered": 0.03115,
+      "random": 0.6482,
+      "t60_clustered": null,
+      "t60_random": 22.0
+     },
+     "0.4,0.9": {
+      "clustered": 0.0563,
+      "random": 0.5536,
+      "t60_clustered": null,
+      "t60_random": 19.54545455
+     },
+     "0.4,1.0": {
+      "clustered": 1.0,
+      "random": 0.65525,
+      "t60_clustered": 213.25,
+      "t60_random": 21.0
+     },
+     "0.5,0.5": {
+      "clustered": 0.01745,
+      "random": 0.8037,
+      "t60_clustered": null,
+      "t60_random": 15.78947368
+     },
+     "0.5,0.6": {
+      "clustered": 0.016,
+      "random": 0.9284,
+      "t60_clustered": null,
+      "t60_random": 13.65
+     },
+     "0.5,0.7": {
+      "clustered": 0.02215,
+      "random": 0.8301,
+      "t60_clustered": null,
+      "t60_random": 13.41176471
+     },
+     "0.5,0.8": {
+      "clustered": 0.04195,
+      "random": 0.9941,
+      "t60_clustered": null,
+      "t60_random": 13.25
+     },
+     "0.5,0.9": {
+      "clustered": 0.0646,
+      "random": 0.9495,
+      "t60_clustered": null,
+      "t60_random": 13.0
+     },
+     "0.5,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 198.35,
+      "t60_random": 12.25
+     },
+     "0.6,0.6": {
+      "clustered": 0.0337,
+      "random": 0.96095,
+      "t60_clustered": null,
+      "t60_random": 10.35
+     },
+     "0.6,0.7": {
+      "clustered": 0.0497,
+      "random": 0.983,
+      "t60_clustered": null,
+      "t60_random": 10.0
+     },
+     "0.6,0.8": {
+      "clustered": 0.0709,
+      "random": 0.995,
+      "t60_clustered": null,
+      "t60_random": 9.55
+     },
+     "0.6,0.9": {
+      "clustered": 0.1125,
+      "random": 0.99935,
+      "t60_clustered": null,
+      "t60_random": 10.0
+     },
+     "0.6,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 187.3,
+      "t60_random": 9.4
+     },
+     "0.7,0.7": {
+      "clustered": 0.062,
+      "random": 0.99,
+      "t60_clustered": null,
+      "t60_random": 8.2
+     },
+     "0.7,0.8": {
+      "clustered": 0.12695,
+      "random": 0.99715,
+      "t60_clustered": null,
+      "t60_random": 7.85
+     },
+     "0.7,0.9": {
+      "clustered": 0.23155,
+      "random": 0.9996,
+      "t60_clustered": 283.0,
+      "t60_random": 8.2
+     },
+     "0.7,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 177.0,
+      "t60_random": 7.8
+     },
+     "0.8,0.8": {
+      "clustered": 0.24305,
+      "random": 0.99815,
+      "t60_clustered": 167.0,
+      "t60_random": 7.1
+     },
+     "0.8,0.9": {
+      "clustered": 0.45365,
+      "random": 0.9999,
+      "t60_clustered": 242.6,
+      "t60_random": 7.0
+     },
+     "0.8,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 167.15,
+      "t60_random": 7.05
+     },
+     "0.9,0.9": {
+      "clustered": 0.9024,
+      "random": 0.99985,
+      "t60_clustered": 177.82352941,
+      "t60_random": 6.1
+     },
+     "0.9,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 157.2,
+      "t60_random": 6.15
+     },
+     "1.0,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 150.0,
+      "t60_random": 6.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
