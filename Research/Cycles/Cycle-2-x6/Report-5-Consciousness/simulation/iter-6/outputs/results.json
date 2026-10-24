@@ -1,0 +1,68 @@
+{
+ "carried_from_prev": {},
+ "robustness": [
+  {
+   "N": 24,
+   "interior": true,
+   "peak_K": 2.0,
+   "ratio": 1.8930301235,
+   "seed": 1
+  },
+  {
+   "N": 24,
+   "interior": true,
+   "peak_K": 2.0,
+   "ratio": 2.1083324281,
+   "seed": 2
+  },
+  {
+   "N": 24,
+   "interior": true,
+   "peak_K": 2.0,
+   "ratio": 1.6539705885,
+   "seed": 3
+  },
+  {
+   "N": 40,
+   "interior": true,
+   "peak_K": 2.0,
+   "ratio": 2.2044212246,
+   "seed": 1
+  },
+  {
+   "N": 40,
+   "interior": true,
+   "peak_K": 2.0,
+   "ratio": 2.3657069462,
+   "seed": 2
+  },
+  {
+   "N": 40,
+   "interior": true,
+   "peak_K": 2.0,
+   "ratio": 2.0091613924,
+   "seed": 3
+  },
+  {
+   "N": 64,
+   "interior": true,
+   "peak_K": 5.0,
+   "ratio": 1.0734995243,
+   "seed": 1
+  },
+  {
+   "N": 64,
+   "interior": true,
+   "peak_K": 5.0,
+   "ratio": 1.1729701419,
+   "seed": 2
+  },
+  {
+   "N": 64,
+   "interior": false,
+   "peak_K": 80.0,
+   "ratio": 1.0,
+   "seed": 3
+  }
+ ]
+}
