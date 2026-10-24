@@ -1,0 +1,71 @@
+{
+ "sim_id": "SIM-DV-SOC-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:59.423030+00:00",
+ "finished_utc": "2026-10-24T16:32:59.501747+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-7  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "c8fcab5b861ccee2f7abe8c8a8710dd48838cf1b673c7f0de7e9601a69eab84e",
+ "params_sha256": "81e8371193debffa57aba99d0bb0b94408bb893333e9e2d482722af681551bf9",
+ "results_sha256": "b901cebbee62439b781980a8ff31d01e1657a648576aaf8ff42e235c954c5f36",
+ "results": {
+  "within_A_sd_ratio": 0.63787489,
+  "within_A_se": 0.00390908,
+  "total_sd_ratio": 1.56592022,
+  "total_se": 0.00450441
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "ratios are finite and positive",
+   "observed": {
+    "within_A_sd_ratio": 0.63787489,
+    "within_A_se": 0.00390908,
+    "total_sd_ratio": 1.56592022,
+    "total_se": 0.00450441
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "club A converges: within-club SD ratio < 1 by more than 4 SE",
+   "observed": 0.63787489,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "overall SD ratio > 1.5 (divergence across all countries)",
+   "observed": 1.56592022,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "dispersion ratios",
+   "observed": {
+    "within_A_sd_ratio": 0.63787489,
+    "within_A_se": 0.00390908,
+    "total_sd_ratio": 1.56592022,
+    "total_se": 0.00450441
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
