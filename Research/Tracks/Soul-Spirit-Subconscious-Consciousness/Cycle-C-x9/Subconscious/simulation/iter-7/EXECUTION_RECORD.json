@@ -1,0 +1,101 @@
+{
+ "sim_id": "SIM-SUBC-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:38.306091+00:00",
+ "finished_utc": "2026-10-24T06:10:38.388480+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-7  (run from Subconscious/simulation/)",
+ "spec_sha256": "a4152e1caa2956acae3ff7c0ad32d47acb9214c4d6e3f53cca0879616e93fb82",
+ "params_sha256": "a8071b53eb9b4bda1430722a4a46a2099ddcc32fd1d0322132317b0795abee08",
+ "results_sha256": "54de5a43ab233910aa322e63ad2684abed0af27a405554a2046a83acd3327d25",
+ "results": {
+  "grid": {
+   "rho=0.0,c=0.0": {
+    "true_R": 0.36245308,
+    "true_F": 0.50090132,
+    "R_hat": 0.36245308,
+    "F_hat": 0.50080705,
+    "F_bias": -9.427e-05,
+    "R_bias": 0.0
+   },
+   "rho=0.0,c=0.05": {
+    "true_R": 0.36167507,
+    "true_F": 0.49899784,
+    "R_hat": 0.34359132,
+    "F_hat": 0.51272067,
+    "F_bias": 0.01372283,
+    "R_bias": -0.01808375
+   },
+   "rho=0.0,c=0.1": {
+    "true_R": 0.36195121,
+    "true_F": 0.4988627,
+    "R_hat": 0.32575609,
+    "F_hat": 0.52582396,
+    "F_bias": 0.02696126,
+    "R_bias": -0.03619512
+   },
+   "rho=0.0,c=0.2": {
+    "true_R": 0.36134913,
+    "true_F": 0.4998723,
+    "R_hat": 0.2890793,
+    "F_hat": 0.55128019,
+    "F_bias": 0.05140789,
+    "R_bias": -0.07226983
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "independence and no crosstalk (rho = 0, c = 0): |F bias| <= 0.01 (Monte Carlo tolerance)",
+   "observed": -9.427e-05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "rho=0.0,c=0.1: |bias of the automatic (F) estimate| >= 0.05",
+   "observed": 0.02696126,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "F and R bias across the grid",
+   "observed": {
+    "rho=0.0,c=0.0": [
+     -0.0,
+     0.0
+    ],
+    "rho=0.0,c=0.05": [
+     0.014,
+     -0.018
+    ],
+    "rho=0.0,c=0.1": [
+     0.027,
+     -0.036
+    ],
+    "rho=0.0,c=0.2": [
+     0.051,
+     -0.072
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

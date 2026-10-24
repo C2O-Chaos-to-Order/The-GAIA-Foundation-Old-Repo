@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-SUBC-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:37.721970+00:00",
+ "finished_utc": "2026-10-24T06:10:37.745135+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-6  (run from Subconscious/simulation/)",
+ "spec_sha256": "cd604202b0e85920215bd4d0863584e08efee4a284083bc74435836dfd2f4141",
+ "params_sha256": "66124dbb88b5921a187a0af94ef487fb87f3aa99c18294d7342212ebfd3677ed",
+ "results_sha256": "ca8e159449eeb98971e91ba3b64c60cdc2cb7c78357392a8638847c9612489c7",
+ "results": {
+  "final_w": 3.31223512,
+  "predictive_accuracy": 0.85316,
+  "control_accuracy": 0.50175,
+  "trajectory": [
+   1.6986841,
+   1.97881981,
+   2.28584051,
+   2.60314257,
+   2.64930551,
+   2.77787417,
+   2.77848504,
+   2.98443648,
+   3.05232375,
+   3.31223512
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "control: when the felt intention carries no information about the cause (noise 100.0), the learned association predicts the action at chance (within 0.03 of 0.5)",
+   "observed": 0.50175,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "after 2000 trials the learned intention->action association predicts the action on >= 80% of trials although the intention is causally idle",
+   "observed": 0.85316,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "association weight trajectory",
+   "observed": [
+    1.6986841,
+    1.97881981,
+    2.28584051,
+    2.60314257,
+    2.64930551,
+    2.77787417,
+    2.77848504,
+    2.98443648,
+    3.05232375,
+    3.31223512
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
