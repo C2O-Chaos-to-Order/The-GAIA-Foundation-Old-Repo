@@ -1,0 +1,86 @@
+{
+ "sim_id": "SIM-DV-APP-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:12.803501+00:00",
+ "finished_utc": "2026-10-24T16:47:12.850825+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-7  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "62ee186b4055464dd4065a4bfc894bcece2b5fe2159c622721dcb9ad82d433d4",
+ "params_sha256": "26e06645c756206879c14aa25d5823927ec3c68a98ded1242181e6cc83bcf57a",
+ "results_sha256": "fe002e5b88a0efec0e06cc7ffc7d2ede79970a29159e742f142d34c0002988cc",
+ "results": {
+  "mean_uncommonness_first": 0.5026,
+  "mean_uncommonness_last": 0.51616667,
+  "slope": 0.00171536,
+  "slope_se": 0.00097679,
+  "wait_first_half": 0.05161184,
+  "wait_second_half": 0.05143359,
+  "wait_diff_se": 0.00142652
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "uncommonness in (0, 1] and waits positive",
+   "observed": {
+    "mean_uncommonness_first": 0.5026,
+    "mean_uncommonness_last": 0.51616667,
+    "slope": 0.00171536,
+    "slope_se": 0.00097679,
+    "wait_first_half": 0.05161184,
+    "wait_second_half": 0.05143359,
+    "wait_diff_se": 0.00142652
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "uncommonness rises with response order (mean slope > 4 SE)",
+   "observed": [
+    0.00171536,
+    0.00097679
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "waits longer in the second half (difference > 4 SE)",
+   "observed": [
+    -0.00017825,
+    0.00142652
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mean_uncommonness_first": 0.5026,
+    "mean_uncommonness_last": 0.51616667,
+    "slope": 0.00171536,
+    "slope_se": 0.00097679,
+    "wait_first_half": 0.05161184,
+    "wait_second_half": 0.05143359,
+    "wait_diff_se": 0.00142652
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
