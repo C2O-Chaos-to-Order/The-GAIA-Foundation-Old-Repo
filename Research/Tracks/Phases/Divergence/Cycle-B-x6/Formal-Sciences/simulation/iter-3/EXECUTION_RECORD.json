@@ -1,0 +1,80 @@
+{
+ "sim_id": "SIM-DV-FOR-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:34:43.851973+00:00",
+ "finished_utc": "2026-10-24T08:34:43.923454+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "dc021bd7daaf14f9e76799caf5f131131119ff630d44b8851eb4f876072583bd",
+ "params_sha256": "f095998c32df33b18cce79ae5c45d7012ce476f7cad0c28241e1d19634d6794a",
+ "results_sha256": "69f0f2812dcb06e279338c0e0fb3703f95e317a12830ea7df149b7197934fedd",
+ "results": {
+  "lyap_linear": 0.09531018,
+  "lyap_logistic": 0.69314205,
+  "logistic_max": 1.0,
+  "shrink_frac_logistic": 0.160984,
+  "shrink_frac_linear": 0.0,
+  "linear_sep_after_steps": 2.469932918006026e+32
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map exponent equals ln 1.1 within 1e-12",
+   "observed": 0.09531018,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "logistic r = 4 exponent within 0.01 of ln 2",
+   "observed": 0.69314205,
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "logistic orbit stays in [0, 1]",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "logistic: share of local steps where the separation shrinks > 0.1 (folding), linear map share = 0",
+   "observed": [
+    0.160984,
+    0.0
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "exponents, shrink shares, linear separation",
+   "observed": {
+    "lyap_linear": 0.09531018,
+    "lyap_logistic": 0.69314205,
+    "logistic_max": 1.0,
+    "shrink_frac_logistic": 0.160984,
+    "shrink_frac_linear": 0.0,
+    "linear_sep_after_steps": 2.469932918006026e+32
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
