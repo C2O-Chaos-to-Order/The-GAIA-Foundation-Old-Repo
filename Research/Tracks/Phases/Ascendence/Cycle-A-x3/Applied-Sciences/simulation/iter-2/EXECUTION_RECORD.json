@@ -1,0 +1,578 @@
+{
+ "sim_id": "SIM-AS-APP-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:18.442970+00:00",
+ "finished_utc": "2026-10-24T23:22:18.886431+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "02287502e32c3c9dea04bab1fb45a69d9221296b6acac7543456b1b00f6dbf3a",
+ "params_sha256": "d056b4960d2558a0bb6aa425a53b74bfaab509a7823ebe76a2983e55cd3fff8d",
+ "results_sha256": "bc80ab96a1aef55280d0e20d99688ef1c0e86db8015fe02aa090187dbd76e249",
+ "results": {
+  "items": {
+   "P_base_1d": {
+    "value": 0.872855,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_2d": {
+    "value": 0.556997,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_3d": {
+    "value": 0.416578,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_4d": {
+    "value": 0.349839,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_5d": {
+    "value": 0.312278,
+    "printed": null,
+    "diff": null
+   },
+   "P_smoker_1d": {
+    "value": 0.526586,
+    "printed": null,
+    "diff": null
+   },
+   "P_smoker_2d": {
+    "value": 0.169241,
+    "printed": null,
+    "diff": null
+   },
+   "P_smoker_3d": {
+    "value": 0.103694,
+    "printed": null,
+    "diff": null
+   },
+   "P_smoker_4d": {
+    "value": 0.080192,
+    "printed": null,
+    "diff": null
+   },
+   "P_smoker_5d": {
+    "value": 0.06853,
+    "printed": null,
+    "diff": null
+   },
+   "P_age0_30_1d": {
+    "value": 0.776684,
+    "printed": null,
+    "diff": null
+   },
+   "P_age0_30_2d": {
+    "value": 0.389119,
+    "printed": null,
+    "diff": null
+   },
+   "P_age0_30_3d": {
+    "value": 0.265644,
+    "printed": null,
+    "diff": null
+   },
+   "P_age0_30_4d": {
+    "value": 0.214208,
+    "printed": null,
+    "diff": null
+   },
+   "P_age0_30_5d": {
+    "value": 0.18702,
+    "printed": null,
+    "diff": null
+   },
+   "P_age61_85_1d": {
+    "value": 0.61217,
+    "printed": null,
+    "diff": null
+   },
+   "P_age61_85_2d": {
+    "value": 0.224259,
+    "printed": null,
+    "diff": null
+   },
+   "P_age61_85_3d": {
+    "value": 0.141021,
+    "printed": null,
+    "diff": null
+   },
+   "P_age61_85_4d": {
+    "value": 0.110097,
+    "printed": null,
+    "diff": null
+   },
+   "P_age61_85_5d": {
+    "value": 0.094534,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P(moderate or severe) falls with every extra ascent day (1-5) in all four profiles",
+   "observed": {
+    "items": {
+     "P_base_1d": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_2d": {
+      "value": 0.556997,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_4d": {
+      "value": 0.349839,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_5d": {
+      "value": 0.312278,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_1d": {
+      "value": 0.526586,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_2d": {
+      "value": 0.169241,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_3d": {
+      "value": 0.103694,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_4d": {
+      "value": 0.080192,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_5d": {
+      "value": 0.06853,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_1d": {
+      "value": 0.776684,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_2d": {
+      "value": 0.389119,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_3d": {
+      "value": 0.265644,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_4d": {
+      "value": 0.214208,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_5d": {
+      "value": 0.18702,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_1d": {
+      "value": 0.61217,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_2d": {
+      "value": 0.224259,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_3d": {
+      "value": 0.141021,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_4d": {
+      "value": 0.110097,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_5d": {
+      "value": 0.094534,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "a smoker's 1-day risk is below a non-smoker's 3-day risk (smoking -1.82 vs two extra days)",
+   "observed": {
+    "items": {
+     "P_base_1d": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_2d": {
+      "value": 0.556997,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_4d": {
+      "value": 0.349839,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_5d": {
+      "value": 0.312278,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_1d": {
+      "value": 0.526586,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_2d": {
+      "value": 0.169241,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_3d": {
+      "value": 0.103694,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_4d": {
+      "value": 0.080192,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_5d": {
+      "value": 0.06853,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_1d": {
+      "value": 0.776684,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_2d": {
+      "value": 0.389119,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_3d": {
+      "value": 0.265644,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_4d": {
+      "value": 0.214208,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_5d": {
+      "value": 0.18702,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_1d": {
+      "value": 0.61217,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_2d": {
+      "value": 0.224259,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_3d": {
+      "value": 0.141021,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_4d": {
+      "value": 0.110097,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_5d": {
+      "value": 0.094534,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the baseline 1-day risk exceeds 0.8 and the 5-day risk is below 0.4",
+   "observed": {
+    "items": {
+     "P_base_1d": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_2d": {
+      "value": 0.556997,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_4d": {
+      "value": 0.349839,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_5d": {
+      "value": 0.312278,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_1d": {
+      "value": 0.526586,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_2d": {
+      "value": 0.169241,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_3d": {
+      "value": 0.103694,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_4d": {
+      "value": 0.080192,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_5d": {
+      "value": 0.06853,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_1d": {
+      "value": 0.776684,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_2d": {
+      "value": 0.389119,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_3d": {
+      "value": 0.265644,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_4d": {
+      "value": 0.214208,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_5d": {
+      "value": 0.18702,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_1d": {
+      "value": 0.61217,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_2d": {
+      "value": 0.224259,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_3d": {
+      "value": 0.141021,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_4d": {
+      "value": 0.110097,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_5d": {
+      "value": 0.094534,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "P_base_1d": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_2d": {
+      "value": 0.556997,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_4d": {
+      "value": 0.349839,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_5d": {
+      "value": 0.312278,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_1d": {
+      "value": 0.526586,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_2d": {
+      "value": 0.169241,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_3d": {
+      "value": 0.103694,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_4d": {
+      "value": 0.080192,
+      "printed": null,
+      "diff": null
+     },
+     "P_smoker_5d": {
+      "value": 0.06853,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_1d": {
+      "value": 0.776684,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_2d": {
+      "value": 0.389119,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_3d": {
+      "value": 0.265644,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_4d": {
+      "value": 0.214208,
+      "printed": null,
+      "diff": null
+     },
+     "P_age0_30_5d": {
+      "value": 0.18702,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_1d": {
+      "value": 0.61217,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_2d": {
+      "value": 0.224259,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_3d": {
+      "value": 0.141021,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_4d": {
+      "value": 0.110097,
+      "printed": null,
+      "diff": null
+     },
+     "P_age61_85_5d": {
+      "value": 0.094534,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
