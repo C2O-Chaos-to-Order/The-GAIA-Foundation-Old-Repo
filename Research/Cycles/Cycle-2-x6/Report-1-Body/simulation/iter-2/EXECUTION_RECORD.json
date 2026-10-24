@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R1-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:09:25.241592+00:00",
+ "finished_utc": "2026-10-24T02:09:25.252357+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-2",
+ "params_sha256": "2dfb7fd86face72ff9acc39ace6be8b9839b2184ee882a61dbbd0dfefe9dd1c4",
+ "outputs": {
+  "outputs/results.json": "198532c3122a1566698f4d4badb03adb9774acf43ed49363f2ab5ca8ba576a0d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "C1cal",
+   "kind": "reporting",
+   "expect": "calibration: forgetting rate chosen so 14 decay days lose ~7 HA days (W05 heuristic 1:2)",
+   "observed": [
+    0.025,
+    7
+   ],
+   "result": "Reported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with the 1:2 calibration, re-induction is 8-12x faster than decay (W05 HR/Tc finding)",
+   "observed": 2.1336901376,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
