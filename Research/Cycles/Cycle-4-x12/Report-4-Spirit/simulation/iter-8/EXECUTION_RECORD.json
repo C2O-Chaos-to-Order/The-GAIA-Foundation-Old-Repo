@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:17.393640+00:00",
+ "finished_utc": "2026-10-24T04:07:18.913806+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-8",
+ "params_sha256": "5ab819a7e849702cf20e856119b76ec961aca20e602086af3234be346ad16e1c",
+ "outputs": {
+  "outputs/results.json": "d6775dc92fb6b26c15a8608bc18f160a4d240b94f377ada4a8cbc7dd5a23239b"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "80% power for the weak-confounding scenario is reached at n <= 50,000",
+   "observed": null,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
