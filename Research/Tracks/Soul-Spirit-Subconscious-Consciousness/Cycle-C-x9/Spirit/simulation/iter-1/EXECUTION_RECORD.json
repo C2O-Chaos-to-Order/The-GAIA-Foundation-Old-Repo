@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-SPIRIT-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:01.940089+00:00",
+ "finished_utc": "2026-10-24T06:11:02.185133+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-1  (run from Spirit/simulation/)",
+ "spec_sha256": "b56a2e06f9bc8f5465d83e2fe96b3cbd6eec2950985e9dc71eea2abbd2eb4806",
+ "params_sha256": "8ac60a762ce6ecfef855f312e2b1363db34a942e5556ef8c66973c1706a43d05",
+ "results_sha256": "6652d788bfae894a8e1851d0282b20e1c32ccc37d0c2fbf40c483da87b55712b",
+ "results": {
+  "analytic_r": 0.3902439,
+  "sim": {
+   "null": {
+    "mean_r": -2.346e-05,
+    "share_sig": 0.0585
+   },
+   "test": {
+    "mean_r": 0.39008191,
+    "share_sig": 0.988
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated mean correlation within 0.02 of the analytic value",
+   "observed": [
+    0.39008191,
+    0.3902439
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with a common cause of strength 0.8 and ASE direct effect 0.0, the ASE-outcome correlation is >= 0.30",
+   "observed": 0.3902439,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share of studies (n = 100) with a significant ASE-outcome correlation; null condition = no common cause and no ASE effect",
+   "observed": {
+    "null": {
+     "mean_r": -2.346e-05,
+     "share_sig": 0.0585
+    },
+    "test": {
+     "mean_r": 0.39008191,
+     "share_sig": 0.988
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

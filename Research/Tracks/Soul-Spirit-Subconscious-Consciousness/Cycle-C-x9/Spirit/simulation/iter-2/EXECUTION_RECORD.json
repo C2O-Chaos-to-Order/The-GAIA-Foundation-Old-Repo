@@ -1,0 +1,78 @@
+{
+ "sim_id": "SIM-SPIRIT-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:02.772575+00:00",
+ "finished_utc": "2026-10-24T06:11:02.990269+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-2  (run from Spirit/simulation/)",
+ "spec_sha256": "9bba96bfa1fbd6d3cfb09bd71494fc66494a3f3284da159b0a56685b43449d3b",
+ "params_sha256": "917798a4eca5142efe010a49a57b932e74cfecbd2778359f5b9b954df576be10",
+ "results_sha256": "6c7b17c57c40fc6da1c9d44fac52b1eb1e30d4fcdf4ab80ceba6dca435f90ddd",
+ "results": {
+  "by_m": {
+   "0.0": {
+    "mean_r_completers": 0.19996809,
+    "retention": 0.57913456
+   },
+   "0.5": {
+    "mean_r_completers": 0.19396683,
+    "retention": 0.58014679
+   },
+   "1.0": {
+    "mean_r_completers": 0.18309267,
+    "retention": 0.57866972
+   }
+  },
+  "bias_test": -0.01690733
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "random dropout (m = 0): completer correlation within 0.01 of the true value",
+   "observed": 0.19996809,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "outcome-dependent dropout (m = 1.0) shifts the correlation by >= 0.05 in absolute value",
+   "observed": -0.01690733,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "completer correlation and retention by m",
+   "observed": {
+    "0.0": {
+     "mean_r_completers": 0.19996809,
+     "retention": 0.57913456
+    },
+    "0.5": {
+     "mean_r_completers": 0.19396683,
+     "retention": 0.58014679
+    },
+    "1.0": {
+     "mean_r_completers": 0.18309267,
+     "retention": 0.57866972
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
