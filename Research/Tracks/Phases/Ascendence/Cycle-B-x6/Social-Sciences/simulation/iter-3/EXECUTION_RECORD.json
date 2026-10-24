@@ -1,0 +1,328 @@
+{
+ "sim_id": "SIM-AS-SOC-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:39.708447+00:00",
+ "finished_utc": "2026-10-24T23:40:40.137702+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "365222e82a173d806afa9ed436cae09cce395cb79f441b3493babc9677bc2e21",
+ "params_sha256": "b5745d10589e0b2086b2c1233261212f3a15546e7661cf7573051cf4d4d7f50a",
+ "results_sha256": "03daf314c3de6fdc1e32a85793088d1a9a00615bfdd05a702b26f3050e7c9c98",
+ "results": {
+  "items": {
+   "degree_holders_pct": {
+    "value": 55.555556,
+    "printed": 56,
+    "diff": -0.444444
+   },
+   "higher_ECC_of_degree": {
+    "value": 48.0,
+    "printed": 48,
+    "diff": 0.0
+   },
+   "higher_ECC_of_all": {
+    "value": 26.666667,
+    "printed": 26,
+    "diff": 0.666667
+   },
+   "mature_subjects_pct": {
+    "value": 52.222222,
+    "printed": 52,
+    "diff": 0.222222
+   },
+   "wives_more_qualified": {
+    "value": 42.0,
+    "printed": 42,
+    "diff": 0.0
+   },
+   "couples_unmatched": {
+    "value": 26.666667,
+    "printed": 27,
+    "diff": -0.333333
+   },
+   "daughters_higher": {
+    "value": 66.666667,
+    "printed": 67,
+    "diff": -0.333333
+   },
+   "mothers_public": {
+    "value": 54.166667,
+    "printed": 54,
+    "diff": 0.166667
+   },
+   "daughters_public": {
+    "value": 75.0,
+    "printed": 75,
+    "diff": 0.0
+   },
+   "women_vocational_of_mature": {
+    "value": 57.446809,
+    "printed": 57,
+    "diff": 0.446809
+   },
+   "women_HE_of_mature": {
+    "value": 23.404255,
+    "printed": 23,
+    "diff": 0.404255
+   },
+   "men_mature_n": {
+    "value": 27.2,
+    "printed": null,
+    "diff": null
+   },
+   "men_onjob_of_mature": {
+    "value": 25.925926,
+    "printed": 26,
+    "diff": -0.074074
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P93's printed percentages follow from its counts within 0.6 points (whole-number rounding)",
+   "observed": {
+    "items": {
+     "degree_holders_pct": {
+      "value": 55.555556,
+      "printed": 56,
+      "diff": -0.444444
+     },
+     "higher_ECC_of_degree": {
+      "value": 48.0,
+      "printed": 48,
+      "diff": 0.0
+     },
+     "higher_ECC_of_all": {
+      "value": 26.666667,
+      "printed": 26,
+      "diff": 0.666667
+     },
+     "mature_subjects_pct": {
+      "value": 52.222222,
+      "printed": 52,
+      "diff": 0.222222
+     },
+     "wives_more_qualified": {
+      "value": 42.0,
+      "printed": 42,
+      "diff": 0.0
+     },
+     "couples_unmatched": {
+      "value": 26.666667,
+      "printed": 27,
+      "diff": -0.333333
+     },
+     "daughters_higher": {
+      "value": 66.666667,
+      "printed": 67,
+      "diff": -0.333333
+     },
+     "mothers_public": {
+      "value": 54.166667,
+      "printed": 54,
+      "diff": 0.166667
+     },
+     "daughters_public": {
+      "value": 75.0,
+      "printed": 75,
+      "diff": 0.0
+     },
+     "women_vocational_of_mature": {
+      "value": 57.446809,
+      "printed": 57,
+      "diff": 0.446809
+     },
+     "women_HE_of_mature": {
+      "value": 23.404255,
+      "printed": 23,
+      "diff": 0.404255
+     },
+     "men_mature_n": {
+      "value": 27.2,
+      "printed": null,
+      "diff": null
+     },
+     "men_onjob_of_mature": {
+      "value": 25.925926,
+      "printed": 26,
+      "diff": -0.074074
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "68% of 40 men gives a whole number within 0.3 (27 mature male learners, consistent with '7 men (26%)')",
+   "observed": {
+    "items": {
+     "degree_holders_pct": {
+      "value": 55.555556,
+      "printed": 56,
+      "diff": -0.444444
+     },
+     "higher_ECC_of_degree": {
+      "value": 48.0,
+      "printed": 48,
+      "diff": 0.0
+     },
+     "higher_ECC_of_all": {
+      "value": 26.666667,
+      "printed": 26,
+      "diff": 0.666667
+     },
+     "mature_subjects_pct": {
+      "value": 52.222222,
+      "printed": 52,
+      "diff": 0.222222
+     },
+     "wives_more_qualified": {
+      "value": 42.0,
+      "printed": 42,
+      "diff": 0.0
+     },
+     "couples_unmatched": {
+      "value": 26.666667,
+      "printed": 27,
+      "diff": -0.333333
+     },
+     "daughters_higher": {
+      "value": 66.666667,
+      "printed": 67,
+      "diff": -0.333333
+     },
+     "mothers_public": {
+      "value": 54.166667,
+      "printed": 54,
+      "diff": 0.166667
+     },
+     "daughters_public": {
+      "value": 75.0,
+      "printed": 75,
+      "diff": 0.0
+     },
+     "women_vocational_of_mature": {
+      "value": 57.446809,
+      "printed": 57,
+      "diff": 0.446809
+     },
+     "women_HE_of_mature": {
+      "value": 23.404255,
+      "printed": 23,
+      "diff": 0.404255
+     },
+     "men_mature_n": {
+      "value": 27.2,
+      "printed": null,
+      "diff": null
+     },
+     "men_onjob_of_mature": {
+      "value": 25.925926,
+      "printed": 26,
+      "diff": -0.074074
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "degree_holders_pct": {
+      "value": 55.555556,
+      "printed": 56,
+      "diff": -0.444444
+     },
+     "higher_ECC_of_degree": {
+      "value": 48.0,
+      "printed": 48,
+      "diff": 0.0
+     },
+     "higher_ECC_of_all": {
+      "value": 26.666667,
+      "printed": 26,
+      "diff": 0.666667
+     },
+     "mature_subjects_pct": {
+      "value": 52.222222,
+      "printed": 52,
+      "diff": 0.222222
+     },
+     "wives_more_qualified": {
+      "value": 42.0,
+      "printed": 42,
+      "diff": 0.0
+     },
+     "couples_unmatched": {
+      "value": 26.666667,
+      "printed": 27,
+      "diff": -0.333333
+     },
+     "daughters_higher": {
+      "value": 66.666667,
+      "printed": 67,
+      "diff": -0.333333
+     },
+     "mothers_public": {
+      "value": 54.166667,
+      "printed": 54,
+      "diff": 0.166667
+     },
+     "daughters_public": {
+      "value": 75.0,
+      "printed": 75,
+      "diff": 0.0
+     },
+     "women_vocational_of_mature": {
+      "value": 57.446809,
+      "printed": 57,
+      "diff": 0.446809
+     },
+     "women_HE_of_mature": {
+      "value": 23.404255,
+      "printed": 23,
+      "diff": 0.404255
+     },
+     "men_mature_n": {
+      "value": 27.2,
+      "printed": null,
+      "diff": null
+     },
+     "men_onjob_of_mature": {
+      "value": 25.925926,
+      "printed": 26,
+      "diff": -0.074074
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
