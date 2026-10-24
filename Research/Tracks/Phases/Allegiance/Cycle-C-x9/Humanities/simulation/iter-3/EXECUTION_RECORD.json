@@ -1,0 +1,104 @@
+{
+ "sim_id": "SIM-AL-HUM-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:42.167359+00:00",
+ "finished_utc": "2026-10-24T19:31:42.322926+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "db8e46c5c1ea28da8a50316485f1ac90ef8206550e72baf932475d59e9797c44",
+ "params_sha256": "3e2c4457ddf81c94f433a6a4bbcbebe9fa98d671bd9daff1dc4d6c42dccee836",
+ "results_sha256": "d4f5c7cfec5703ee0632729f3ea6eccdb9812028cde6932bd0ddd460af56fa86",
+ "results": {
+  "x_end": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "t_extinct": [
+   null,
+   11.76,
+   10.08
+  ],
+  "conserved": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "total speaker share conserved within 1e-6",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "dominant share > 0.99",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     11.76,
+     10.08
+    ],
+    "conserved": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the lower-status (officialised) language vanishes first",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     11.76,
+     10.08
+    ],
+    "conserved": 0.0
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     11.76,
+     10.08
+    ],
+    "conserved": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
