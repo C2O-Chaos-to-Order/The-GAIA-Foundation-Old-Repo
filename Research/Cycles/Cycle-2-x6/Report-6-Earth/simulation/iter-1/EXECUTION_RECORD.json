@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-R6-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:06:50.920441+00:00",
+ "finished_utc": "2026-10-24T02:06:55.112980+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-1",
+ "params_sha256": "a12a6aec3b68a5c35adc8846cb6b739789f6335e995d973db866d4009882d593",
+ "outputs": {
+  "outputs/results.json": "dcdd4c6cc5e456501758fcd96c6bc60db54cccf29b66e39f9f852b9fd8589950"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "R0",
+   "kind": "validation",
+   "expect": "re-implementation reproduces the Cycle-1 widths exactly ([0.82, 0.19] from Cycle-1-x3/Report-6-Earth/simulation/iter-2/outputs/results.json (rate 0.01, unbounded))",
+   "observed": [
+    0.82,
+    0.19
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "U1",
+   "kind": "hypothesis",
+   "expect": "W02 design (unconstrained adaptation): regulation band shrinks below 0.8x non-adapting for every positive rate tested",
+   "observed": [
+    [
+     0,
+     0.82
+    ],
+    [
+     0.0003,
+     0.08
+    ],
+    [
+     0.001,
+     0.35
+    ],
+    [
+     0.003,
+     0.22
+    ],
+    [
+     0.01,
+     0.19
+    ],
+    [
+     0.03,
+     0.2
+    ],
+    [
+     0.1,
+     0.21
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
