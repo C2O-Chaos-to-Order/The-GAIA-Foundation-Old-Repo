@@ -1,0 +1,80 @@
+{
+ "sim_id": "SIM-SUBC-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:22.872029+00:00",
+ "finished_utc": "2026-10-24T05:43:27.116146+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-1  (run from Subconscious/simulation/)",
+ "spec_sha256": "4ffb6ab29bc4918f55fcc2fb764791f91a2b863d2b508d051db0280ccf24e7aa",
+ "params_sha256": "77807d888820c494db53f621563133a4441c433464068a39c2acfc1d62fe0776",
+ "results_sha256": "65a140cec3d4858a059d3156b1f47573e630b3911ebf7c7372b0bee0f8266a6a",
+ "results": {
+  "by_b": {
+   "0.0": {
+    "rate_significant": 0.05325,
+    "mean_true_knowledge_selected": 0.24231505,
+    "mean_n_selected": 15.03625
+   },
+   "0.2": {
+    "rate_significant": 0.07325,
+    "mean_true_knowledge_selected": 0.24239653,
+    "mean_n_selected": 14.9285
+   },
+   "0.4": {
+    "rate_significant": 0.09875,
+    "mean_true_knowledge_selected": 0.24167018,
+    "mean_n_selected": 15.062
+   }
+  },
+  "population_mean_knowledge": 0.5,
+  "error_sd": 0.35355339
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "latent knowledge is non-negative in every simulated participant",
+   "observed": 0.00027409,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "b = 0: selected-subgroup positive-significance rate <= 0.08",
+   "observed": 0.05325,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "b = 0.4: the post-hoc 'unaware' subgroup (awareness score below chance) shows significant positive priming in >= 50% of studies although all priming is carried by conscious knowledge",
+   "observed": 0.09875,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "mean TRUE knowledge of the selected subgroup (population mean = mu)",
+   "observed": {
+    "0.0": 0.242,
+    "0.2": 0.242,
+    "0.4": 0.242
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
