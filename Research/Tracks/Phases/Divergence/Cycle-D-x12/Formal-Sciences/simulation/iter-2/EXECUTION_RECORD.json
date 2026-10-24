@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-DV-FOR-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:48.027640+00:00",
+ "finished_utc": "2026-10-24T16:46:48.193850+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "ccfeeca8ffa38f04551bd3258a857892f9c49cc9f19fb390b9275efb63161739",
+ "params_sha256": "2f9c104da9722bcea7adb08a596ffe2ae3560c7e48b1b391ec8dacc347900929",
+ "results_sha256": "d83f1d6ec3d70cd4a40459e4239c91186abb94f22b2b0ee7b7abd3c6a6574780",
+ "results": {
+  "p": 1.1,
+  "S": {
+   "1000": 5.57282668,
+   "10000": 6.60339666,
+   "100000": 7.42217239,
+   "1000000": 8.07256216
+  },
+  "zeta": 10.58444846,
+  "share_of_limit_at_1e6": 0.76268142
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "S_1e6 within the integral-test bracket zeta(p) - int_{n+1}^inf <= S_n <= zeta(p) (1e-6 slack)",
+   "observed": [
+    8.07256216,
+    8.07256228,
+    10.58444846
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a convergent p-series looks divergent: S_1e6 below 0.5 of its limit",
+   "observed": 0.76268142,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "p": 1.1,
+    "S": {
+     "1000": 5.57282668,
+     "10000": 6.60339666,
+     "100000": 7.42217239,
+     "1000000": 8.07256216
+    },
+    "zeta": 10.58444846,
+    "share_of_limit_at_1e6": 0.76268142
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
