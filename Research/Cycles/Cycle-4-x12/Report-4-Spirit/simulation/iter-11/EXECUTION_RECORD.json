@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 11,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:19.467583+00:00",
+ "finished_utc": "2026-10-24T04:07:19.556853+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-11",
+ "params_sha256": "60726196275f8dfc77275bafcb9f2fa83413a366925ae93e711e5e736b641209",
+ "outputs": {
+  "outputs/results.json": "47be6cda9cbcdae2707dee05d8b12a305ec76b91a0a575e591873f58c9bd2a69"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H11",
+   "kind": "hypothesis",
+   "expect": "replication of iteration 2 with new seeds: power >= 80%",
+   "observed": 0.96,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
