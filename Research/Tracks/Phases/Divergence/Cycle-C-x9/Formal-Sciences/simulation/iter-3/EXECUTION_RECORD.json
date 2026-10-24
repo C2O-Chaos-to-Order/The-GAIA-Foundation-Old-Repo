@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-DV-FOR-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:53.136887+00:00",
+ "finished_utc": "2026-10-24T16:32:53.291785+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "0051ba8a90ec3c3ced665abf75cccbe1a43cfee9e4432a9afabbd6caa65ce5c7",
+ "params_sha256": "3fdc39dcc93a716f7977a36d7ce1e8ce79aedf2329469db21554038b224c65da",
+ "results_sha256": "90a962e8de067042959f8e8b4fb9c0e96c8b7c5b4eeac5b94455598b5b330abc",
+ "results": {
+  "p": 0.99,
+  "S": {
+   "1000": 7.72895322,
+   "10000": 10.22436146,
+   "100000": 12.77833806,
+   "1000000": 15.39184975
+  },
+  "integral_lower": 14.8153633,
+  "integral_upper": 15.81536215
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "S_1e6 inside the integral bounds int_1^{n+1} x^-p dx <= S_n <= 1 + int_1^n x^-p dx",
+   "observed": [
+    15.39184975,
+    14.8153633,
+    15.81536215
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a divergent series looks tame: S_1e6 below 20.0",
+   "observed": 15.39184975,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "p": 0.99,
+    "S": {
+     "1000": 7.72895322,
+     "10000": 10.22436146,
+     "100000": 12.77833806,
+     "1000000": 15.39184975
+    },
+    "integral_lower": 14.8153633,
+    "integral_upper": 15.81536215
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
