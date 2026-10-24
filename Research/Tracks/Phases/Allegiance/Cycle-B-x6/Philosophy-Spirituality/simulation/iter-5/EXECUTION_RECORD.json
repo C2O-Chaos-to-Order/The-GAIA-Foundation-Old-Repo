@@ -1,0 +1,123 @@
+{
+ "sim_id": "SIM-AL-PHI-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:12:19.868016+00:00",
+ "finished_utc": "2026-10-24T19:12:23.033057+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-5  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "5b305cff021b399fbd2116814c272c84e2c5af8db8556e8dc38dd2c86bd205b3",
+ "params_sha256": "5e19ebcf80bbdce546cd3d9924e225ac69a0048215ad6842182a28bac73cc3b2",
+ "results_sha256": "46f738b528af3ae47549bb42633ac3dda3b7a75d1a52f815b3200f4d86327d96",
+ "results": {
+  "d": 0.02,
+  "v": 0.1,
+  "recoverable": true,
+  "by_lam": {
+   "0.0": {
+    "Q_end": 0.02183148,
+    "members_end": 0.0,
+    "t_all_exit": 0.18875
+   },
+   "0.2": {
+    "Q_end": 0.02770028,
+    "members_end": 0.012,
+    "t_all_exit": null
+   },
+   "0.6": {
+    "Q_end": 0.49977244,
+    "members_end": 0.8495,
+    "t_all_exit": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "quality and membership in [0, 1]",
+   "observed": {
+    "0.0": {
+     "Q_end": 0.02183148,
+     "members_end": 0.0,
+     "t_all_exit": 0.18875
+    },
+    "0.2": {
+     "Q_end": 0.02770028,
+     "members_end": 0.012,
+     "t_all_exit": null
+    },
+    "0.6": {
+     "Q_end": 0.49977244,
+     "members_end": 0.8495,
+     "t_all_exit": null
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "collapse without loyalty, recovery >= 0.45 at lam_max 0.6",
+   "observed": {
+    "0.0": {
+     "Q_end": 0.02183148,
+     "members_end": 0.0,
+     "t_all_exit": 0.18875
+    },
+    "0.2": {
+     "Q_end": 0.02770028,
+     "members_end": 0.012,
+     "t_all_exit": null
+    },
+    "0.6": {
+     "Q_end": 0.49977244,
+     "members_end": 0.8495,
+     "t_all_exit": null
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "d": 0.02,
+    "v": 0.1,
+    "recoverable": true,
+    "by_lam": {
+     "0.0": {
+      "Q_end": 0.02183148,
+      "members_end": 0.0,
+      "t_all_exit": 0.18875
+     },
+     "0.2": {
+      "Q_end": 0.02770028,
+      "members_end": 0.012,
+      "t_all_exit": null
+     },
+     "0.6": {
+      "Q_end": 0.49977244,
+      "members_end": 0.8495,
+      "t_all_exit": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
