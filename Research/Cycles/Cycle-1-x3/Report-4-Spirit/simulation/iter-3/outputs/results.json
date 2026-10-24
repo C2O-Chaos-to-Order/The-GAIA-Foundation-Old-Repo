@@ -1,0 +1,40 @@
+{
+ "designs": {
+  "exclusion_violated": {
+   "IV": -0.3352471926,
+   "bias": {
+    "IV": -0.2352471926,
+    "naive": 0.0478183536,
+    "sibling_FE": -0.2658405937
+   },
+   "first_stage_F": 13268.0874881353,
+   "naive": -0.0521816464,
+   "sibling_FE": -0.3658405937,
+   "true_beta": -0.1
+  },
+  "family_only": {
+   "IV": -0.0942010532,
+   "bias": {
+    "IV": 0.0057989468,
+    "naive": 0.2835629412,
+    "sibling_FE": 0.0081281982
+   },
+   "first_stage_F": 15345.5050401413,
+   "naive": 0.1835629412,
+   "sibling_FE": -0.0918718018,
+   "true_beta": -0.1
+  },
+  "individual_confounding": {
+   "IV": -0.0978529336,
+   "bias": {
+    "IV": 0.0021470664,
+    "naive": 0.1120465401,
+    "sibling_FE": -0.1707737434
+   },
+   "first_stage_F": 12326.7519533909,
+   "naive": 0.0120465401,
+   "sibling_FE": -0.2707737434,
+   "true_beta": -0.1
+  }
+ }
+}
