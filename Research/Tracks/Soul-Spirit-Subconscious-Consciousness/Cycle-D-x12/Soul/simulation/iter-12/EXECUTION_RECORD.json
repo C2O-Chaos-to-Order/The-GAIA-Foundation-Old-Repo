@@ -1,0 +1,62 @@
+{
+ "sim_id": "SIM-SOUL-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:12.599873+00:00",
+ "finished_utc": "2026-10-24T07:05:12.754042+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-12  (run from Soul/simulation/)",
+ "spec_sha256": "a4ba7ce0c6beb3ab9d1aa8c804bafa398f179acd62e7d3274cb096fe7e0b719d",
+ "params_sha256": "b0d5df3edd75961efbfebe5fc456eb43e72c2106d7eaae79165c99020b5f531b",
+ "results_sha256": "a6705baf635570283ce334746fa66c56f5bc77fe62590a4ea95e14183d12d35c",
+ "results": {
+  "p_neg_true": 0.05208128,
+  "p_neg_est": 0.05208128,
+  "any_true": 0.72115,
+  "any_est": 0.72115
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated P(>=1 negative true effect) within 0.01 of 1-(1-p)^m",
+   "observed": [
+    0.72115,
+    0.72298301
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P(>= 1 of 24 countries shows a negative estimated effect) >= 0.2 (a single exception such as Morocco is unsurprising)",
+   "observed": 0.72115,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "per-country P(negative) true / estimated; P(any) true / estimated",
+   "observed": [
+    0.05208128,
+    0.05208128,
+    0.72115,
+    0.72115
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
