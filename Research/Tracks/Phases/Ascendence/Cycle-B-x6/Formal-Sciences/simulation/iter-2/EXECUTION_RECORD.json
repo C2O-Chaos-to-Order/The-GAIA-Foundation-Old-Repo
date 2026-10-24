@@ -1,0 +1,308 @@
+{
+ "sim_id": "SIM-AS-FOR-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:24.050053+00:00",
+ "finished_utc": "2026-10-24T23:40:25.113810+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "6b7914462bacde2147928d6445cec4ffc6fad236f38869b30211cf587a5a6396",
+ "params_sha256": "4030528f81f1b537ff01f507c5e097d69cc5b63a95f44e6ac20dc6027293b429",
+ "results_sha256": "d78febf6650e73992b04cc57777579f8055a6a880327ef1521f8282fa28063e2",
+ "results": {
+  "results": {
+   "0.0015": {
+    "[-1.5, 2.0]": {
+     "conv": true,
+     "steps": 23056,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[0.0, 0.0]": {
+     "conv": true,
+     "steps": 22400,
+     "err": 1e-06,
+     "diverged": false
+    }
+   },
+   "0.0019": {
+    "[-1.5, 2.0]": {
+     "conv": true,
+     "steps": 17322,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[0.0, 0.0]": {
+     "conv": true,
+     "steps": 17682,
+     "err": 1e-06,
+     "diverged": false
+    }
+   },
+   "0.0021": {
+    "[-1.5, 2.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[2.0, -1.0]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[0.0, 0.0]": {
+     "conv": false,
+     "steps": null,
+     "err": 0.0695,
+     "diverged": false
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "plain steps converge from all starts at eta 0.0015 and 0.0019 (below 2/lambda_max = 0.001997)",
+   "observed": {
+    "results": {
+     "0.0015": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 23056,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 22400,
+       "err": 1e-06,
+       "diverged": false
+      }
+     },
+     "0.0019": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 17322,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 17682,
+       "err": 1e-06,
+       "diverged": false
+      }
+     },
+     "0.0021": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 0.0695,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "eta 0.0021 converges from no start",
+   "observed": {
+    "results": {
+     "0.0015": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 23056,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 22400,
+       "err": 1e-06,
+       "diverged": false
+      }
+     },
+     "0.0019": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 17322,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 17682,
+       "err": 1e-06,
+       "diverged": false
+      }
+     },
+     "0.0021": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 0.0695,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "0.0015": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 23056,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 22400,
+       "err": 1e-06,
+       "diverged": false
+      }
+     },
+     "0.0019": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 17322,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 17682,
+       "err": 1e-06,
+       "diverged": false
+      }
+     },
+     "0.0021": {
+      "[-1.5, 2.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.0, -1.0]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[0.0, 0.0]": {
+       "conv": false,
+       "steps": null,
+       "err": 0.0695,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
