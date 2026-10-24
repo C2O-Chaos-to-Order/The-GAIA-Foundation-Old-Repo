@@ -1,0 +1,28 @@
+{
+ "constrained": {
+  "constrained": {
+   "L_establish": 0.524,
+   "L_max": 1.7,
+   "frac_within_5C": 0.7254237288,
+   "slope_ratio": 0.1851610338,
+   "total_life": 0.812265733,
+   "width": 1.176
+  },
+  "original": {
+   "L_establish": 0.684,
+   "L_max": 1.496,
+   "frac_within_5C": 0.9754901961,
+   "slope_ratio": -0.0306573565,
+   "total_life": 0.5514755984,
+   "width": 0.812
+  },
+  "unbounded": {
+   "L_establish": 0.5,
+   "L_max": 1.7,
+   "frac_within_5C": 0.0830564784,
+   "slope_ratio": 1.0590160101,
+   "total_life": 0.840392,
+   "width": 1.2
+  }
+ }
+}

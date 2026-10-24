@@ -1,0 +1,42 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:30.025428+00:00",
+ "finished_utc": "2026-10-24T03:10:30.876661+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-7",
+ "params_sha256": "316f2ebe6620d241e5c466d7ec6019cd612683c25b1d3ef1b3b52ceae3a969b2",
+ "outputs": {
+  "outputs/results.json": "635668e35fc640888bad69600c112366fcfdcf3f54d05e8a97853167874d9a40"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "our constrained variant matches the published Table 1 'Constrained adaptation' row (L 0.51-2.32) within +-0.1 at both ends (W03 equations unavailable)",
+   "observed": [
+    0.524,
+    1.7,
+    {
+     "L_establish": 0.51,
+     "L_max": 2.32,
+     "total_life": 1.223
+    }
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
