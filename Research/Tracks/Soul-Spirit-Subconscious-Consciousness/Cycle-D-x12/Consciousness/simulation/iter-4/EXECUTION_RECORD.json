@@ -1,0 +1,83 @@
+{
+ "sim_id": "SIM-CONS-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:39.219184+00:00",
+ "finished_utc": "2026-10-24T07:05:39.252658+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-4  (run from Consciousness/simulation/)",
+ "spec_sha256": "3d73c912fe1ee701490b6230ff82be4ed686f3aa5f5cc26e6c114e5a20708c4e",
+ "params_sha256": "63825bc12814cbd5d13328d0986367affaff7a9dd6151e04e60be5493a509fe6",
+ "results_sha256": "03ad02d982ba32a6cab4d5298a4213a51e7521a4513aacbc4ce239476addef49",
+ "results": {
+  "delta_during_arrest": [
+   0.12058382,
+   0.64579787
+  ],
+  "usable_eeg": [
+   0.13750478,
+   0.41070454
+  ],
+  "explicit_recall": [
+   0.0,
+   0.09890099
+  ],
+  "other_memories": [
+   0.02958237,
+   0.22379274
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Wilson interval coverage at the observed rate >= 0.90 (simulation)",
+   "observed": 0.9308,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the 95% interval for 'delta_during_arrest' is wider than 0.5 (too few usable recordings to estimate prevalence)",
+   "observed": 0.52521405,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Wilson intervals",
+   "observed": {
+    "delta_during_arrest": [
+     0.12058382,
+     0.64579787
+    ],
+    "usable_eeg": [
+     0.13750478,
+     0.41070454
+    ],
+    "explicit_recall": [
+     0.0,
+     0.09890099
+    ],
+    "other_memories": [
+     0.02958237,
+     0.22379274
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
