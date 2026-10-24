@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-CONS-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:50.282364+00:00",
+ "finished_utc": "2026-10-24T07:05:50.313668+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-7  (run from Consciousness/simulation/)",
+ "spec_sha256": "e906d792321b61622c765972fc5dc21a1ca1166af80a7d2c311f8f474473c297",
+ "params_sha256": "b8523c4e7b25dd2d8600f4486b5c0934c7521ab373947cfed6d17af0492ff351",
+ "results_sha256": "ed821c5ce9f3ef6c0f5cdbd156e61c6545936544caf0c13418e113d1beac5405",
+ "results": {
+  "0.5": 0.27777778,
+  "0.9": 0.06097561
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated posterior at q = 0.9 within 0.01 of the analytic value",
+   "observed": [
+    0.06062764,
+    0.06097561
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with q = 0.9 a failed prediction leaves the theory's posterior >= 0.4",
+   "observed": 0.06097561,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "posterior after one failure by q",
+   "observed": {
+    "0.5": 0.27777778,
+    "0.9": 0.06097561
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
