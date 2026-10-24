@@ -1,0 +1,153 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:18.068675+00:00",
+ "finished_utc": "2026-10-24T22:15:18.524542+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-5  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "21f3ec3bb043b6b54bb34c47aba6bbdc0e47d0cd181ed0e82b67b42172d23ee9",
+ "params_sha256": "1866ea91d7e3e72b3981b5bf6a162e35f929d64a56261871b45aadc97e82d5b6",
+ "results_sha256": "60a01e5ccfb4f14674673165d40a5c8329a3a218b827bd4e84d248070b17136e",
+ "results": {
+  "items": {
+   "anova2x2_df": {
+    "type": "df_check",
+    "df_expected": 460,
+    "printed": 463
+   },
+   "regression_df": {
+    "type": "df_check",
+    "df_expected": 460,
+    "printed": 460
+   },
+   "oneway_df": {
+    "type": "df_check",
+    "df_expected": 392,
+    "printed": 392
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83's 2 x 2 ANOVA error df (printed 463) equals N - cells = 460",
+   "observed": {
+    "items": {
+     "anova2x2_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 463
+     },
+     "regression_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 460
+     },
+     "oneway_df": {
+      "type": "df_check",
+      "df_expected": 392,
+      "printed": 392
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "regression df 460 = 464 - 3 - 1",
+   "observed": {
+    "items": {
+     "anova2x2_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 463
+     },
+     "regression_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 460
+     },
+     "oneway_df": {
+      "type": "df_check",
+      "df_expected": 392,
+      "printed": 392
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "one-way ANOVA df 392 = 401 - 9 (401 = 464 minus the 'other' 13.6%)",
+   "observed": {
+    "items": {
+     "anova2x2_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 463
+     },
+     "regression_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 460
+     },
+     "oneway_df": {
+      "type": "df_check",
+      "df_expected": 392,
+      "printed": 392
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "anova2x2_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 463
+     },
+     "regression_df": {
+      "type": "df_check",
+      "df_expected": 460,
+      "printed": 460
+     },
+     "oneway_df": {
+      "type": "df_check",
+      "df_expected": 392,
+      "printed": 392
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
