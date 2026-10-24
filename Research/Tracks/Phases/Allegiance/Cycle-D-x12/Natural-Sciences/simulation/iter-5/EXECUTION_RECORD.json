@@ -1,0 +1,131 @@
+{
+ "sim_id": "SIM-AL-NAT-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:47:46.934539+00:00",
+ "finished_utc": "2026-10-24T19:47:46.941027+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-5  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "fd839121dcb861df529a1c8fe37d5f5e9f91bd14b599bcab995990f6f23425c7",
+ "params_sha256": "982369e884ebbc2405b7d327137f0c99e9dbeac83635fd27e7062bee32f7d512",
+ "results_sha256": "b7ad1882719e44fb047435aade455443518b513c5709e961230b2a723ae24b3b",
+ "results": {
+  "f16": {
+   "P50": 93.32543008,
+   "n_min": 0.40035686,
+   "n_max": 0.99978639,
+   "n_at_P50": 0.81893374,
+   "n_low": 0.99934248,
+   "n_high": 0.99978639
+  },
+  "f20": {
+   "P50": 82.79421637,
+   "n_min": 0.37470071,
+   "n_max": 0.99973314,
+   "n_at_P50": 0.7639579,
+   "n_low": 0.99936709,
+   "n_high": 0.99973314
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a single non-cooperative component has slope 1 everywhere (within 1e-3) and P50 = K (within 1%)",
+   "observed": {
+    "P50": 6.99841996,
+    "n_min": 1.0,
+    "n_max": 1.0,
+    "n_at_P50": 1.0,
+    "n_low": 1.0,
+    "n_high": 1.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no mixture has a Hill slope above 1 anywhere (heterogeneity cannot create cooperativity)",
+   "observed": {
+    "f16": {
+     "P50": 93.32543008,
+     "n_min": 0.40035686,
+     "n_max": 0.99978639,
+     "n_at_P50": 0.81893374,
+     "n_low": 0.99934248,
+     "n_high": 0.99978639
+    },
+    "f20": {
+     "P50": 82.79421637,
+     "n_min": 0.37470071,
+     "n_max": 0.99973314,
+     "n_at_P50": 0.7639579,
+     "n_low": 0.99936709,
+     "n_high": 0.99973314
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "both minima below 0.45",
+   "observed": {
+    "f16": {
+     "P50": 93.32543008,
+     "n_min": 0.40035686,
+     "n_max": 0.99978639,
+     "n_at_P50": 0.81893374,
+     "n_low": 0.99934248,
+     "n_high": 0.99978639
+    },
+    "f20": {
+     "P50": 82.79421637,
+     "n_min": 0.37470071,
+     "n_max": 0.99973314,
+     "n_at_P50": 0.7639579,
+     "n_low": 0.99936709,
+     "n_high": 0.99973314
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "f16": {
+     "P50": 93.32543008,
+     "n_min": 0.40035686,
+     "n_max": 0.99978639,
+     "n_at_P50": 0.81893374,
+     "n_low": 0.99934248,
+     "n_high": 0.99978639
+    },
+    "f20": {
+     "P50": 82.79421637,
+     "n_min": 0.37470071,
+     "n_max": 0.99973314,
+     "n_at_P50": 0.7639579,
+     "n_low": 0.99936709,
+     "n_high": 0.99973314
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
