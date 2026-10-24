@@ -1,0 +1,31 @@
+phase,field,n_claims,E,P,PS,H,cycle,flag
+Divergence,Natural-Sciences,23,8,14,0,1,DVD,populated
+Divergence,Formal-Sciences,20,6,13,0,1,DVD,populated
+Divergence,Social-Sciences,20,5,15,0,0,DVD,populated
+Divergence,Applied-Sciences,22,4,17,0,1,DVD,populated
+Divergence,Humanities,20,6,14,0,0,DVD,populated
+Divergence,Philosophy-Spirituality,27,11,11,4,1,DVD,populated
+Insurgence,Natural-Sciences,8,2,6,0,0,INB,populated
+Insurgence,Formal-Sciences,8,2,6,0,0,INB,populated
+Insurgence,Social-Sciences,9,1,8,0,0,INB,populated
+Insurgence,Applied-Sciences,10,3,7,0,0,INB,populated
+Insurgence,Humanities,9,1,8,0,0,INB,populated
+Insurgence,Philosophy-Spirituality,10,0,7,3,0,INB,populated
+Allegiance,Natural-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Allegiance,Formal-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Allegiance,Social-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Allegiance,Applied-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Allegiance,Humanities,0,0,0,0,0,,EMPTY (not yet researched)
+Allegiance,Philosophy-Spirituality,0,0,0,0,0,,EMPTY (not yet researched)
+Convergence,Natural-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Convergence,Formal-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Convergence,Social-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Convergence,Applied-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Convergence,Humanities,0,0,0,0,0,,EMPTY (not yet researched)
+Convergence,Philosophy-Spirituality,0,0,0,0,0,,EMPTY (not yet researched)
+Ascendence,Natural-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Ascendence,Formal-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Ascendence,Social-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Ascendence,Applied-Sciences,0,0,0,0,0,,EMPTY (not yet researched)
+Ascendence,Humanities,0,0,0,0,0,,EMPTY (not yet researched)
+Ascendence,Philosophy-Spirituality,0,0,0,0,0,,EMPTY (not yet researched)
