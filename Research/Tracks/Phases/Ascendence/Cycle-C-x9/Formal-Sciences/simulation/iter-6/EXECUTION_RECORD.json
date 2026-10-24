@@ -1,0 +1,100 @@
+{
+ "sim_id": "SIM-AS-FOR-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:36.642874+00:00",
+ "finished_utc": "2026-10-24T23:50:39.115375+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-6  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "eb002be7946a8247d49f05cfd043ffe728b0269637c0aed7d805fabb8b57491e",
+ "params_sha256": "a70b7112dfe78d53e6a8e797059d8d9908758762e802590b1b2f62cc306c7b59",
+ "results_sha256": "dd71f51fc796799ce2ae4d046325c11fb52554065f65bdf2db44f3f61ec18d6d",
+ "results": {
+  "results": {
+   "nat_conv": 1.0,
+   "gd_conv": 1.0,
+   "nat_t_q": [
+    5.276,
+    6.256,
+    6.838
+   ],
+   "gd_t_q": [
+    22.074,
+    24.202,
+    36.162
+   ],
+   "nat_faster_share": 1.0,
+   "nat_t_minus_zpred_max": -0.241
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "box [-10, 10]^2: natural gradient flow converges from all 100 starts",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      5.276,
+      6.256,
+      6.838
+     ],
+     "gd_t_q": [
+      22.074,
+      24.202,
+      36.162
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.241
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      5.276,
+      6.256,
+      6.838
+     ],
+     "gd_t_q": [
+      22.074,
+      24.202,
+      36.162
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.241
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
