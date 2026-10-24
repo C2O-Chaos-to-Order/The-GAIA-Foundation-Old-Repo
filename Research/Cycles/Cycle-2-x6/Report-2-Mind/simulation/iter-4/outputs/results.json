@@ -1,0 +1,45 @@
+{
+ "carried_from_prev": {},
+ "recovery": {
+  "acquisition|0.05": {
+   "accuracy": 0.9666666667,
+   "confusion": {
+    "KF": {
+     "KF": 20,
+     "PH": 0,
+     "RW": 0
+    },
+    "PH": {
+     "KF": 0,
+     "PH": 20,
+     "RW": 0
+    },
+    "RW": {
+     "KF": 1,
+     "PH": 1,
+     "RW": 18
+    }
+   }
+  },
+  "diagnostic|0.05": {
+   "accuracy": 1.0,
+   "confusion": {
+    "KF": {
+     "KF": 20,
+     "PH": 0,
+     "RW": 0
+    },
+    "PH": {
+     "KF": 0,
+     "PH": 20,
+     "RW": 0
+    },
+    "RW": {
+     "KF": 0,
+     "PH": 0,
+     "RW": 20
+    }
+   }
+  }
+ }
+}
