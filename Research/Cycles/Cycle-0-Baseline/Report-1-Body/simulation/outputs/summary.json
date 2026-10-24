@@ -1,0 +1,27 @@
+{
+  "none": {
+    "final_mean": 9.884536500402424,
+    "peak": 9.932788880401326,
+    "recovery_time": null
+  },
+  "P": {
+    "final_mean": 0.4761904761904747,
+    "peak": 0.47619047619047494,
+    "recovery_time": null
+  },
+  "PI": {
+    "final_mean": 0.0010053587780353107,
+    "peak": 0.3600061867586858,
+    "recovery_time": 4.49
+  },
+  "PI_degraded": {
+    "final_mean": 0.015348842662754138,
+    "peak": 1.790515460146184,
+    "recovery_time": 10.99
+  },
+  "PI_saturated": {
+    "final_mean": 9.901406479014648,
+    "peak": 9.942608868138453,
+    "recovery_time": null
+  }
+}
