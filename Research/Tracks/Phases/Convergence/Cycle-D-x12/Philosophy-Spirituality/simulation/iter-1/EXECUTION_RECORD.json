@@ -1,0 +1,148 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:15.450593+00:00",
+ "finished_utc": "2026-10-24T22:15:15.886269+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "eed4f2e14c359f24c725d2d6b14a6ace5e4984797e2ccb67f6fdaae03ec551e7",
+ "params_sha256": "a9993649b6b9a489ede1d3feeb8822b7db2eaa350999e223a90ae2fa71618a76",
+ "results_sha256": "4ed62a7d7ee6faf8f4d78623cb078610a2dabc7a76d26e49876d5db758d3046e",
+ "results": {
+  "items": {
+   "absorption": {
+    "type": "t_pooled",
+    "t": 10.993,
+    "d": 1.041,
+    "df": 462,
+    "printed": {
+     "t": 10.91,
+     "d": 1.03
+    }
+   },
+   "altruism": {
+    "type": "t_pooled",
+    "t": 3.878,
+    "d": 0.367,
+    "df": 462,
+    "printed": {
+     "t": 3.889,
+     "d": 0.37
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83's absorption t (10.910) and d (1.03) recomputed within 0.1 and 0.02 (groups 278/186 = 60% of 464)",
+   "observed": {
+    "items": {
+     "absorption": {
+      "type": "t_pooled",
+      "t": 10.993,
+      "d": 1.041,
+      "df": 462,
+      "printed": {
+       "t": 10.91,
+       "d": 1.03
+      }
+     },
+     "altruism": {
+      "type": "t_pooled",
+      "t": 3.878,
+      "d": 0.367,
+      "df": 462,
+      "printed": {
+       "t": 3.889,
+       "d": 0.37
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "P83's altruism t (3.889) and d (0.37) within 0.1 and 0.02",
+   "observed": {
+    "items": {
+     "absorption": {
+      "type": "t_pooled",
+      "t": 10.993,
+      "d": 1.041,
+      "df": 462,
+      "printed": {
+       "t": 10.91,
+       "d": 1.03
+      }
+     },
+     "altruism": {
+      "type": "t_pooled",
+      "t": 3.878,
+      "d": 0.367,
+      "df": 462,
+      "printed": {
+       "t": 3.889,
+       "d": 0.37
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "absorption": {
+      "type": "t_pooled",
+      "t": 10.993,
+      "d": 1.041,
+      "df": 462,
+      "printed": {
+       "t": 10.91,
+       "d": 1.03
+      }
+     },
+     "altruism": {
+      "type": "t_pooled",
+      "t": 3.878,
+      "d": 0.367,
+      "df": 462,
+      "printed": {
+       "t": 3.889,
+       "d": 0.37
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
