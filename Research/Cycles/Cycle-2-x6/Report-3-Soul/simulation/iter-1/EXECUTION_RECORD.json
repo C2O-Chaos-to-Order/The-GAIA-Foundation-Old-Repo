@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-R3-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:17:08.325635+00:00",
+ "finished_utc": "2026-10-24T02:17:08.326704+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-1",
+ "params_sha256": "e09df750009b7df0f5d9511836c9813124db1dd6ff11737051953d0847803c96",
+ "outputs": {
+  "outputs/results.json": "0ca8940f9d60f0bc305e7aeacc6c019ac4c9ee9e8c641dffde73d7c14cf0713c"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "K0",
+   "kind": "validation",
+   "expect": "the 48-cell sample is exactly reproducible from its pre-registered seed",
+   "observed": 48,
+   "result": "Pass"
+  },
+  {
+   "id": "K00",
+   "kind": "validation",
+   "expect": "kappa implementation: 2x2 table [[20,5],[10,15]] gives 0.4",
+   "observed": 0.4,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "A-B Cohen's kappa >= 0.61 ('substantial' on Cohen's scale as reported in W07)",
+   "observed": [
+    0.7872340426,
+    0.8958333333
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H1r",
+   "kind": "reporting",
+   "expect": "report disagreements",
+   "observed": [
+    {
+     "id": "C14",
+     "attribute": "A4_seat_of_thought_or_identity",
+     "a": 1,
+     "b": 0,
+     "b_uncertain": 1
+    },
+    {
+     "id": "C04",
+     "attribute": "A6_oriented_to_purpose_or_final_end",
+     "a": 1,
+     "b": 0,
+     "b_uncertain": 1
+    },
+    {
+     "id": "C11",
+     "attribute": "A8_form_of_or_inseparable_from_body",
+     "a": 0,
+     "b": 1,
+     "b_uncertain": 1
+    },
+    {
+     "id": "C04",
+     "attribute": "A11_identical_with_universal_ground",
+     "a": 1,
+     "b": 0,
+     "b_uncertain": 1
+    },
+    {
+     "id": "C08",
+     "attribute": "A12_extends_to_non_human_beings",
+     "a": 0,
+     "b": 1,
+     "b_uncertain": 0
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
