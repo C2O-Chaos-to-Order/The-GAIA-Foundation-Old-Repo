@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-IN-APP-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:18:51.004851+00:00",
+ "finished_utc": "2026-10-24T18:18:55.292208+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "309ecc5ac81bceda2115d802054951560de5d6a116a914512f1e8bfb2ff31483",
+ "params_sha256": "49f00e3ffa17ee652ccb0566ad1e40457a3169bcd887bc3b426b1ae345d09682",
+ "results_sha256": "a291c7d8273616e8eea8c43fc970645879d8569c37c5eb8a2b893bb20de88853",
+ "results": {
+  "median_switch_t": 1754.85,
+  "q10_q90": [
+   1543.565,
+   1891.56
+  ],
+  "share_no_switch": 0.24,
+  "noise_printed_at_1750": 0.47,
+  "source_single_run": 1386.8
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "internal check of P41 Eq. 2: the printed ramp 2.4e-4 t + 0.05 reaches 0.47 at t = 1750, not the stated plateau 0.35 (the offset form is used)",
+   "observed": 0.47,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "median switch time before t = 1750 (during the ramp)",
+   "observed": {
+    "median_switch_t": 1754.85,
+    "q10_q90": [
+     1543.565,
+     1891.56
+    ],
+    "share_no_switch": 0.24,
+    "noise_printed_at_1750": 0.47,
+    "source_single_run": 1386.8
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "median_switch_t": 1754.85,
+    "q10_q90": [
+     1543.565,
+     1891.56
+    ],
+    "share_no_switch": 0.24,
+    "noise_printed_at_1750": 0.47,
+    "source_single_run": 1386.8
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-IN-APP-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:19:09.779854+00:00",
+ "finished_utc": "2026-10-24T18:19:09.818994+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-10  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "f5d079fb76b4931b57e97a52e0705934b6125344e695ceac11bf8948d8e18258",
+ "params_sha256": "097abdcea03f000ff69ad1f33ff0285e2cb7e02faeebf67e9084c8671e64fd7f",
+ "results_sha256": "ad27f95a8296d714590cad21446b2fb2bfad611a0452c6724ad419a4885a43da",
+ "results": {
+  "zero": [
+   0.4695868,
+   0.01898656
+  ],
+  "gt5": [
+   0.11609756,
+   0.01246081
+  ],
+  "top_for_80": [
+   0.24924534,
+   0.0113429
+  ],
+  "analytic_zero": 0.46992193
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated zero share within 0.005 of (1 + m/k)^(-k)",
+   "observed": [
+    0.4695868,
+    0.46992193
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "zero share within 0.02 of P32's 0.44",
+   "observed": 0.4695868,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "share > 5 within 0.02 of P32's 0.09",
+   "observed": 0.11609756,
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "share producing 80% within 0.02 of P32's 0.2",
+   "observed": 0.24924534,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "zero": [
+     0.4695868,
+     0.01898656
+    ],
+    "gt5": [
+     0.11609756,
+     0.01246081
+    ],
+    "top_for_80": [
+     0.24924534,
+     0.0113429
+    ],
+    "analytic_zero": 0.46992193
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
