@@ -1,0 +1,92 @@
+{
+ "sim_id": "SIM-R5-C3",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:08:02.207051+00:00",
+ "finished_utc": "2026-10-24T03:08:10.972718+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-2",
+ "params_sha256": "a52fefdcd3276aebdbcf883df5a700c74bbcf25787f5273c2b4ff150719e8a56",
+ "outputs": {
+  "outputs/results.json": "6da450de64968027ff44e1c15b01dd04cdd6a475a60b6e1ccc008f491f8868a5"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with the kick scaled to one module (N/4 units), the PCI-like peak at intermediate coupling (interior, >= 1.5x both ends) holds in >= 80% of (size, seed) settings, including N=64 where Cycle 2 failed",
+   "observed": [
+    0.8888888889,
+    [
+     [
+      24,
+      1,
+      1.0,
+      1.785
+     ],
+     [
+      24,
+      2,
+      5.0,
+      1.421
+     ],
+     [
+      24,
+      3,
+      2.0,
+      2.191
+     ],
+     [
+      40,
+      1,
+      2.0,
+      2.204
+     ],
+     [
+      40,
+      2,
+      2.0,
+      2.366
+     ],
+     [
+      40,
+      3,
+      2.0,
+      2.009
+     ],
+     [
+      64,
+      1,
+      2.0,
+      1.989
+     ],
+     [
+      64,
+      2,
+      2.0,
+      2.191
+     ],
+     [
+      64,
+      3,
+      2.0,
+      1.921
+     ]
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
