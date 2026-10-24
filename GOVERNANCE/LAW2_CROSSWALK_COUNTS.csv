@@ -1,0 +1,24 @@
+framework_label,claim_class,law2_category,rule,rows_in_v8_claim_map
+Established,Computational,Mathematical result,Established + formal/computational class,7
+Established,Descriptive,Established finding,Established + empirical/historical/descriptive class,10
+Established,Empirical,Established finding,Established + empirical/historical/descriptive class,295
+Established,Historical,Established finding,Established + empirical/historical/descriptive class,85
+Established,Interpretive/philosophical,Established finding (description of an interpretation),describes what a source argues; content not endorsed (FRAMEWORK appendix),55
+Established,Mathematical/computational,Mathematical result,Established + formal/computational class,259
+Established,Simulation,Mathematical result,Established + formal/computational class,133
+Established,Spiritual/theological,Established finding (description of a spiritual belief),describes what a tradition holds; content not endorsed,4
+Established,Theoretical,Mathematical result,Established + formal/computational class,2
+Hypothetical,Empirical,Hypothesis,has an empirical test in principle,11
+Hypothetical,Interpretive,Speculation (proxy),non-empirical class used as proxy for 'no stated empirical test'; row-level review needed,1
+Hypothetical,Interpretive/philosophical,Speculation (proxy),non-empirical class used as proxy for 'no stated empirical test'; row-level review needed,15
+Hypothetical,Open question,Speculation (proxy),non-empirical class used as proxy for 'no stated empirical test'; row-level review needed,1
+Philosophical/Spiritual,Interpretive,Interpretation or spiritual belief (not split in historical rows),class does not separate interpretation from spiritual belief; row-level review needed,2
+Philosophical/Spiritual,Interpretive/philosophical,Interpretation or spiritual belief (not split in historical rows),class does not separate interpretation from spiritual belief; row-level review needed,134
+Philosophical/Spiritual,Mathematical/computational,Mathematical result (about an interpretive coding),simulation over coded interpretive material; label kept for its subject,9
+Philosophical/Spiritual,Normative,Interpretation or spiritual belief (not split in historical rows),class does not separate interpretation from spiritual belief; row-level review needed,1
+Plausible,Empirical,Hypothesis (partly supported),evidence-based but incomplete or contested; Law 2 has no separate 'partly supported' class,163
+Plausible,Interpretive/philosophical,Interpretation,"evidence-informed interpretation, not established",66
+Plausible,Mathematical/computational,Mathematical result (provisional),formal result with stated limits or illustrative parameters,4
+Plausible,Philosophical,Interpretation,"evidence-informed interpretation, not established",1
+Plausible,Simulation,Mathematical result (provisional),formal result with stated limits or illustrative parameters,4
+Plausible,Synthesis,Interpretation,"evidence-informed interpretation, not established",1
