@@ -1,0 +1,175 @@
+{
+ "cycle": "C1",
+ "n_runs": 21,
+ "all_identical": true,
+ "runs": [
+  {
+   "sim_id": "SIM-R1-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R1-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R1-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R2-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R2-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R2-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R3-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R3-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R3-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R4-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R4-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R4-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R5-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R5-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R5-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R6-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R6-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R6-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R7-C1",
+   "iteration": 1,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R7-C1",
+   "iteration": 2,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  },
+  {
+   "sim_id": "SIM-R7-C1",
+   "iteration": 3,
+   "exit": 0,
+   "outputs_identical": true,
+   "checks_identical": true,
+   "params_identical": true
+  }
+ ]
+}
