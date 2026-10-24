@@ -1,0 +1,746 @@
+{
+ "attribute_frequency": {
+  "A10_constituted_relationally_or_communally": 2,
+  "A11_identical_with_universal_ground": 2,
+  "A12_extends_to_non_human_beings": 9,
+  "A1_immaterial": 5,
+  "A2_independent_of_body_survives_death": 6,
+  "A3_principle_of_life_or_breath": 8,
+  "A4_seat_of_thought_or_identity": 7,
+  "A5_bearer_of_moral_character": 7,
+  "A6_oriented_to_purpose_or_final_end": 6,
+  "A7_enduring_unchanging_self": 3,
+  "A8_form_of_or_inseparable_from_body": 4,
+  "A9_enduring_self_denied": 1
+ },
+ "base_partition_jaccard_average_k4": [
+  [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C06",
+   "C10",
+   "C11"
+  ],
+  [
+   "C05",
+   "C14"
+  ],
+  [
+   "C07",
+   "C08",
+   "C09"
+  ],
+  [
+   "C12",
+   "C13"
+  ]
+ ],
+ "methods": {
+  "ARI_k4_by_linkage": {
+   "average|k4": 1.0,
+   "complete|k4": 0.7741935484,
+   "single|k4": 0.2506527415,
+   "ward|k4": 0.7741935484,
+   "weighted|k4": 1.0
+  },
+  "best_silhouette": {
+   "setting": "weighted|k4",
+   "value": 0.2716957272
+  },
+  "results": {
+   "average|k2": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C14"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2311050301
+   },
+   "average|k3": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2338603565
+   },
+   "average|k4": {
+    "ARI_vs_base": 1.0,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2716957272
+   },
+   "average|k5": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2422539631
+   },
+   "average|k6": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2422539631
+   },
+   "complete|k2": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14"
+     ]
+    ],
+    "silhouette": null
+   },
+   "complete|k3": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C11",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10",
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2259404801
+   },
+   "complete|k4": {
+    "ARI_vs_base": 0.7741935484,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10",
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2515985297
+   },
+   "complete|k5": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2422539631
+   },
+   "complete|k6": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08"
+     ],
+     [
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.1918565987
+   },
+   "single|k2": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C14"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2311050301
+   },
+   "single|k3": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C14"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2311050301
+   },
+   "single|k4": {
+    "ARI_vs_base": 0.2506527415,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C14"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2311050301
+   },
+   "single|k5": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05"
+     ],
+     [
+      "C12"
+     ],
+     [
+      "C13"
+     ],
+     [
+      "C14"
+     ]
+    ],
+    "silhouette": 0.1508901801
+   },
+   "single|k6": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C11"
+     ],
+     [
+      "C05"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12"
+     ],
+     [
+      "C13"
+     ],
+     [
+      "C14"
+     ]
+    ],
+    "silhouette": 0.0904191322
+   },
+   "ward|k2": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C12",
+      "C13",
+      "C14"
+     ]
+    ],
+    "silhouette": 0.1314993537
+   },
+   "ward|k3": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C10",
+      "C12",
+      "C13",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ]
+    ],
+    "silhouette": 0.1901863748
+   },
+   "ward|k4": {
+    "ARI_vs_base": 0.7741935484,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10",
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2515985297
+   },
+   "ward|k5": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C06"
+     ],
+     [
+      "C02",
+      "C03",
+      "C04",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10",
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.1197487803
+   },
+   "ward|k6": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C06"
+     ],
+     [
+      "C02",
+      "C03",
+      "C04",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10",
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.1197487803
+   },
+   "weighted|k2": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+     ],
+     [
+      "C05",
+      "C14"
+     ]
+    ],
+    "silhouette": 0.1962148715
+   },
+   "weighted|k3": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11",
+      "C12",
+      "C13"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ]
+    ],
+    "silhouette": 0.2176262389
+   },
+   "weighted|k4": {
+    "ARI_vs_base": 1.0,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2716957272
+   },
+   "weighted|k5": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2422539631
+   },
+   "weighted|k6": {
+    "ARI_vs_base": null,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ],
+    "silhouette": 0.2422539631
+   }
+  }
+ },
+ "shape": [
+  14,
+  12
+ ],
+ "uncertain_cells": 36
+}
