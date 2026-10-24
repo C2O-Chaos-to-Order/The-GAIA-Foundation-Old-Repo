@@ -159,6 +159,9 @@ def build(research_dir, out_dir, version_label):
         res = json.load(open(it))
         for x in res.get("rejection", []) if isinstance(res, dict) else []:
             pressure[x["link_id"]] = x["screen"]
+        for x in res.get("strict_rule", []) if isinstance(res, dict) else []:
+            if x.get("old") != x.get("new"):
+                pressure[x["link_id"]] = "strict Established-link rule: downgraded (procedural)"
 
     # 3 link graph
     nodes = [dict(id="GAIA", label="GAIA - the motherthread", kind="motherthread", framework_label="Philosophical/Spiritual",

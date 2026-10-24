@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/execution_record.schema.json",
- "title": "Simulation execution record (data model 1.0.0)",
+ "title": "Simulation execution record (data model 1.1.0)",
  "description": "EXECUTION_RECORD.json. Cycle-0 records embed params and all_checks_passed; Cycle>=1 iteration records carry iteration, params_sha256, typed checks (kind) and counts.",
  "type": "object",
  "required": [
@@ -88,7 +88,7 @@
     "properties": {
      "id": {
       "type": "string",
-      "pattern": "^[A-Za-z0-9_]+$"
+      "pattern": "^[A-Za-z0-9_.]+$"
      },
      "kind": {
       "enum": [

@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/link.schema.json",
- "title": "Cross-report link (data model 1.0.0)",
+ "title": "Cross-report link (data model 1.1.0)",
  "description": "One row of Report-7-Unified/maps/link_register.csv; basis is split on ';'. Cycle-specific columns use the prefix c<N>_.",
  "type": "object",
  "required": [

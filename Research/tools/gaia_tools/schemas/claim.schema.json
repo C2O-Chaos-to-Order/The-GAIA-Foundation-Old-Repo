@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/claim.schema.json",
- "title": "Claim (data model 1.0.0)",
+ "title": "Claim (data model 1.1.0)",
  "description": "One row of Report-*/claims/claims.csv after normalization: source_ids and cross_links are split on ';' into arrays; all other fields are strings exactly as stored. Per-cycle change notes use columns named c<N>_change.",
  "type": "object",
  "required": [
@@ -67,10 +67,10 @@
     "type": "string",
     "anyOf": [
      {
-      "pattern": "^[GSTUV][0-9]{2}[a-z]?$"
+      "pattern": "^[GSTUVW][0-9]{2}[a-z]?$"
      },
      {
-      "pattern": "^(C0:)?SIM-R[1-7]-C[0-9]+(/iter-[0-9]+)?#[A-Za-z0-9_]+$"
+      "pattern": "^(C0:)?SIM-R[1-7]-C[0-9]+(/iter-[0-9]+)?#[A-Za-z0-9_.]+$"
      }
     ]
    }
