@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-CV-FOR-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:13.064986+00:00",
+ "finished_utc": "2026-10-24T22:14:13.072033+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-6  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "cb51b04782cdbe4f57819292130f25abacfb462de6f65faf2e973ee6ed442132",
+ "params_sha256": "d137c020fb1c83fde301861c9bc22bf530207055aa6f7ff71b8ceed046ff5c2c",
+ "results_sha256": "bd6d4d3b61b50200a8958249253dc152968c9b4e56f94d564384dc2f6534d369",
+ "results": {
+  "chains": {
+   "lazyrot4": {
+    "n": 4,
+    "tmix": {
+     "0.25": 4
+    },
+    "lambda2": 0.70710678,
+    "t_rel": 3.4142,
+    "d_at": {}
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the lazy 4-cycle: lambda2 = 1/sqrt(2) within 1e-9 and t_mix(1/4) <= 5",
+   "observed": {
+    "chains": {
+     "lazyrot4": {
+      "n": 4,
+      "tmix": {
+       "0.25": 4
+      },
+      "lambda2": 0.70710678,
+      "t_rel": 3.4142,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "lazyrot4": {
+      "n": 4,
+      "tmix": {
+       "0.25": 4
+      },
+      "lambda2": 0.70710678,
+      "t_rel": 3.4142,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
