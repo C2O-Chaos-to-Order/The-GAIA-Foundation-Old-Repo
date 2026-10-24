@@ -1,0 +1,15 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "coding_b": "../data/coding_b_sample.csv",
+ "experiments": {
+  "bootstrap": {
+   "B": 5000,
+   "lower_min": 0.41,
+   "seed": 2
+  }
+ },
+ "iteration": 2,
+ "prev": "../iter-1",
+ "sample": "../data/sample_c2.json",
+ "sim_id": "SIM-R3-C2"
+}
