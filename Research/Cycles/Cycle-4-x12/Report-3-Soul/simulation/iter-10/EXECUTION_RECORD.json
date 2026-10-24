@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 10,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:16.429553+00:00",
+ "finished_utc": "2026-10-24T04:14:16.666101+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-10",
+ "params_sha256": "8c94852c725fa0fadd0170cb8e9e1d99eab6aaf8cef6e62183f75510843c5839",
+ "outputs": {
+  "outputs/results.json": "35b4912a14a8596b1ccd8a688243780792765c9a6539784e2cf130e1bab4d701"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H10r",
+   "kind": "reporting",
+   "expect": "coder C's own partition: ARI vs coding A, and its own attribute-bootstrap stability (same agent, lexicon; not independent)",
+   "observed": {
+    "ari_a_vs_c": 0.3621399177,
+    "boot_mean_ari_c": 0.4056551998
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
