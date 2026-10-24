@@ -1,0 +1,115 @@
+{
+ "track_cycle": "TA",
+ "n_runs": 12,
+ "all_identical": true,
+ "runs": [
+  {
+   "sim_id": "SIM-SOUL-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SOUL-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SOUL-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SPIRIT-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SPIRIT-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SPIRIT-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SUBC-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SUBC-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-SUBC-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CONS-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CONS-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CONS-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  }
+ ]
+}
