@@ -1,0 +1,12 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "coding_b": "../data/coding_b_sample.csv",
+ "experiments": {
+  "reproduce": {}
+ },
+ "iteration": 1,
+ "sample": "../data/sample_c2.json",
+ "sim_id": "SIM-R3-C3",
+ "window_size": 600,
+ "windows": "../data/window_hits_c3.json"
+}
