@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-IN-NAT-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:15.783654+00:00",
+ "finished_utc": "2026-10-24T17:48:36.279502+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-6  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "6b2f50a8a4d8be51a3a70c8804a14293ad703aaf3fc5960066dc64e3103f8b42",
+ "params_sha256": "45381bec1d9508038f294c9324e24353a06695b6d06222796c3980a9bab34420",
+ "results_sha256": "45a784488fe72fe557bae554a34f1658fd8f2f1731e6c315b62f624b701ea228",
+ "results": {
+  "vary": "om",
+  "critical_A0": {
+   "0.05": 0.79321289,
+   "0.1": 0.80053711,
+   "0.2": 0.81518555
+  },
+  "r2_linear": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "critical amplitudes inside the search bracket",
+   "observed": [
+    0.79321289,
+    0.80053711,
+    0.81518555
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "critical amplitudes within 10% of each other",
+   "observed": [
+    0.79321289,
+    0.80053711,
+    0.81518555
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "vary": "om",
+    "critical_A0": {
+     "0.05": 0.79321289,
+     "0.1": 0.80053711,
+     "0.2": 0.81518555
+    },
+    "r2_linear": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
