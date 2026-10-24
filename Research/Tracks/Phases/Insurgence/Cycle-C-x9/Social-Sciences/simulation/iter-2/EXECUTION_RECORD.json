@@ -1,0 +1,80 @@
+{
+ "sim_id": "SIM-IN-SOC-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:43.332506+00:00",
+ "finished_utc": "2026-10-24T17:48:43.363007+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "b9cc23164fed832f26b2c745b19e31aed9624dc1abe4911d325d7961db40c40b",
+ "params_sha256": "d61b921dbc1bffe578fca3fd3d7a6fc7e277c638644389b840ef7ade5f3038c9",
+ "results_sha256": "98978bcb39434a4ae2edd82ff86f28fe3970b33a2513ba25ed4eb0294aee2b82",
+ "results": {
+  "sets": {
+   "none15": {
+    "escalation": false,
+    "eta": 1.5,
+    "q": 0.47,
+    "alpha_hat": 1.49799357,
+    "se": 0.0021816,
+    "n_tail": 52107,
+    "median_X": 7707.48690404,
+    "share_over_1e6": 0.04384,
+    "x1_alpha_hat": 1.49821981
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "MLE recovers eta from the initial sizes alone (within 4 SE + 0.02) for the first set",
+   "observed": [
+    1.49821981,
+    1.5
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "tail within 0.1 of 1.53",
+   "observed": {
+    "none15": 1.49799357
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "none15": {
+     "escalation": false,
+     "eta": 1.5,
+     "q": 0.47,
+     "alpha_hat": 1.49799357,
+     "se": 0.0021816,
+     "n_tail": 52107,
+     "median_X": 7707.48690404,
+     "share_over_1e6": 0.04384,
+     "x1_alpha_hat": 1.49821981
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
