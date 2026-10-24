@@ -1,0 +1,15 @@
+{
+ "recovery_by_design_at_0_1": {
+  "iter-3": 0.9166666667,
+  "iter-4": 0.9,
+  "iter-5": 0.9333333333
+ },
+ "summary": {
+  "replicate": {
+   "iter3": 0.9166666667,
+   "new_seed": 0.9333333333
+  },
+  "rho": 0.85,
+  "wide": 0.95
+ }
+}
