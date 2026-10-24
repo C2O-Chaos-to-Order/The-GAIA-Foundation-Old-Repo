@@ -1,0 +1,53 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 12,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:31.204606+00:00",
+ "finished_utc": "2026-10-24T04:22:31.209954+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-12",
+ "params_sha256": "08bb7b0f3d25f2f4a006bf5ebcae60473151601d7a56df0b5453d90ae2d61320",
+ "outputs": {
+  "outputs/results.json": "e33122ec6683f5533500909fe1945884cbe3893f745ab8ac55046f104964aae9"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H12",
+   "kind": "hypothesis",
+   "expect": "all validation checks across Cycle-4 runs (R1-R6 and R7 iterations 1-11) pass",
+   "observed": [
+    19,
+    19
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "G0",
+   "kind": "reporting",
+   "expect": "gate inputs (the gate stays INDETERMINATE without independent review)",
+   "observed": {
+    "runs": 84,
+    "validation_pass": 19,
+    "validation": 19,
+    "supported": 45,
+    "hypotheses": 72,
+    "independent_review": "not performed",
+    "independent_human_coding": "not possible for this agent",
+    "gate": "INDETERMINATE (Indeterminate is never Pass)"
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
