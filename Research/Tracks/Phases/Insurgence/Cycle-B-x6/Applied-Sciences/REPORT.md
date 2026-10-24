@@ -1,0 +1,43 @@
+# Insurgence in the Applied Sciences — Cycle-B-x6 (INB)
+
+Phase report: Insurgence (`../../README.md`). Definitions and competing definitions: `../DEFINITIONS.md`. Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA's Phase axis is a framework category (PS), kept separate from the findings.
+
+## Reading of this cycle
+x6: P32 sources superspreading (k = 0.27, 17% produce 80%); with this k only 15-30% of introductions take off; the INA below-threshold outbreaks are a small-K artefact.
+
+## Claims (ledger: `claims/claims.csv`)
+- **INB-APP-01** [E] R0, the expected number of secondary cases one case produces in a completely susceptible population, is usually read as a threshold (an outbreak continues if R0 > 1 and ends if R0 < 1), but it is not a biological constant, not a rate (it says nothing about how fast cases appear), not a measure of severity, and vaccination lowers the effective reproduction number R, not R0; reported values vary widely (measles 3.7-203.3 in one review) and some are obsolete. *Operationalization:* APP Insurgence = emergence of an outbreak when cases more than replace themselves. *Sources:* P26. *Limits:* Perspective article; the figures are P26's citations.
+- **INB-APP-03** [E] P26 notes that removing susceptible people by vaccination does not technically reduce R0, because R0 assumes a completely susceptible population; for vaccination the appropriate metric is the effective reproduction number R, which does not assume complete susceptibility. *Operationalization:* APP Insurgence = outbreak potential in a partly immune population. *Sources:* P26. *Limits:* Definitional point; P26 gives no formula for R.
+- **INB-APP-07** [E] P32's review of SARS-CoV-2 transmission found that 67% of index cases infected no one and 3% (287) infected more than five; a negative binomial fit gave mean 0.88 and dispersion k = 0.27, implying that the top 17% of index cases generate 80% of secondary cases; k was within the 0.1-0.7 range of earlier estimates. *Operationalization:* APP Insurgence = emergence driven by a few superspreaders. *Sources:* P32. *Limits:* Data mostly 2020, China and India; incomplete contact tracing; the offspring analysis uses 9,591 of 9,883 index cases.
+- **INB-APP-02** [P] In a branching model of one introduced case, no outbreak reached 1,000 cases at R0 = 0.8; at R0 = 1.5 and 3 major outbreaks occurred in 58.1% and 94.1% of 20,000 runs (theory 58.3%, 94.0%), so even above the threshold many introductions die out. Changing the generation time from 3 to 15 days left the outbreak probability unchanged and stretched the time to 1,000 cases five-fold (44 vs 219 days at R0 = 1.5), illustrating P26's point that R0 is not a rate. *Operationalization:* APP Insurgence = outbreak emergence above R0 = 1. *Sources:* SIM-IN-APP-0/iter-1#V1;SIM-IN-APP-0/iter-1#H1;SIM-IN-APP-0/iter-1#H2. *Limits:* Homogeneous Poisson offspring; fully susceptible population.
+- **INB-APP-04** [P] Near the threshold the share of introductions reaching 1,000 cases was 9.36% at R0 = 1.05 (theory 9.37%) and 31.6% at 1.2 (31.4%); 'no major outbreak below 1' was not supported: at R0 = 0.95, 0.16% of chains (32 of 20,000) still reached 1,000 cases, after 64 generations on average. Just below the threshold, rare large chains occur. *Operationalization:* APP Insurgence = outbreak emergence near R0 = 1. *Sources:* SIM-IN-APP-A/iter-1#V1;SIM-IN-APP-A/iter-1#H1;SIM-IN-APP-A/iter-1#H2. *Limits:* 'Major' means reaching K = 1000; V1 passed at R0 = 0.95 only through the pre-set 0.002 allowance (disclosed).
+- **INB-APP-05** [P] With superspreading (negative-binomial offspring, k = 0.1) the major-outbreak share fell to 7.0% at R0 = 1.5 (theory 6.8%; Poisson 58%) and 16.5% at R0 = 3 (16.2%; Poisson 94%): heterogeneity makes most introductions fail even at high R0, but those that take off are explosive. 'No major outbreak at R0 = 0.8' was not supported: one chain in 20,000 reached 1,000 cases. *Operationalization:* APP Insurgence = emergence with heterogeneous transmission. *Sources:* SIM-IN-APP-A/iter-2#V1;SIM-IN-APP-A/iter-2#H1;SIM-IN-APP-A/iter-2#H2. *Limits:* k = 0.1 illustrative; standard extinction equation, not from P26.
+- **INB-APP-06** [P] With 60% random immunity, R0 = 2 gave R = 0.8 and no chain reached 1,000 cases in 20,000; R0 = 3 and 4 gave R = 1.2 and 1.6 and major-outbreak shares 30.9% and 64.4%, matching 1 - q at the reduced R (31.4%, 64.2%): what decides emergence is the effective number R (P26), not R0. *Operationalization:* APP Insurgence = emergence suppressed by immunity. *Sources:* SIM-IN-APP-A/iter-3#V1;SIM-IN-APP-A/iter-3#H1;SIM-IN-APP-A/iter-3#H2. *Limits:* Perfect random immunity, homogeneous mixing.
+- **INB-APP-08** [P] P32's overall fit is internally consistent: NB(0.88, 0.27) gives 67.6% zero, 3.6% above five and 16.5% producing 80% (P32: 67%, 3%, 17%). For the symptomatic subgroup the fit NB(2.06, 0.43) is not supported against P32's reported shares (47% zero vs 44%, 11.6% above five vs 9%); the top-80% check there used a placeholder (no P32 value). *Operationalization:* APP Insurgence = superspreading profile. *Sources:* SIM-IN-APP-B/iter-1#V1;SIM-IN-APP-B/iter-1#H1;SIM-IN-APP-B/iter-1#H2;SIM-IN-APP-B/iter-1#H3;SIM-IN-APP-B/iter-2#V1;SIM-IN-APP-B/iter-2#H1;SIM-IN-APP-B/iter-2#H2;SIM-IN-APP-B/iter-2#H3. *Limits:* Checks P32's summary numbers against its own fit, not the raw data.
+- **INB-APP-09** [P] With P32's dispersion k = 0.27, the major-outbreak share was 15.1% at R0 = 1.5 and 29.9% at 2.5 (theory 15.3%, 30.2%; Poisson about 58% and 89%); at P32's own mean 0.88, 'no major outbreak' was not supported (7 of 20,000 chains reached 1,000 cases). With 50% immunity, R0 = 1.6 gave none, 2.5 gave 9.0% and 4.0 gave 24.2%, as theory. *Operationalization:* APP Insurgence = emergence with observed heterogeneity. *Sources:* SIM-IN-APP-B/iter-3#V1;SIM-IN-APP-B/iter-3#H1;SIM-IN-APP-B/iter-3#H2;SIM-IN-APP-B/iter-4#V1;SIM-IN-APP-B/iter-4#H1;SIM-IN-APP-B/iter-4#H2. *Limits:* Mixing P32's k with other R0 values is the agent's; homogeneous immunity.
+- **INB-APP-10** [P] INA's below-threshold result replicated at K = 1,000 (R0 = 0.95: 0.15% of chains, H1 again not supported), but with K = 10,000 no chain at R0 = 0.95 reached the threshold while R0 = 1.05 kept 9.3%: 'major outbreaks below 1' are an artefact of a small K, not emergence. *Operationalization:* APP Insurgence = what counts as an outbreak. *Sources:* SIM-IN-APP-B/iter-5#V1;SIM-IN-APP-B/iter-5#H1;SIM-IN-APP-B/iter-5#H2;SIM-IN-APP-B/iter-6#V1;SIM-IN-APP-B/iter-6#H1;SIM-IN-APP-B/iter-6#H2. *Limits:* Poisson offspring.
+
+## Simulations (SIM-IN-APP-B; 6 iteration(s), spec-first; validation 6/6, hypotheses supported 9/14)
+
+| iter | params | purpose | checks |
+|---|---|---|---|
+| 1 | `f7d451e9` | Do P32's fitted negative binomial (mean 0.88, k 0.27) and its reported shares agree: zero secondary cases 67%, > 5 3%, top 17% producing 80%? | V1 Pass; H1 Supported; H2 Supported; H3 Supported; R1 Reported |
+| 2 | `8caeb07f` | Same with P32's symptomatic subgroup (mean 2.06, k 0.43; P32 Table 4: 44% zero, 9% > 5). | V1 Pass; H1 Not supported; H2 Not supported; H3 Not supported; R1 Reported |
+| 3 | `d35c5f38` | Outbreak emergence with P32's dispersion k = 0.27 at R0 = 0.88 (P32's mean), 1.5, 2.5: major-outbreak share vs 1 - q. | V1 Pass; H1 Not supported; H2 Supported; R1 Reported |
+| 4 | `b6c648be` | Immunity plus heterogeneity: R0 = 2.5, k = 0.27, v = 0.5 (R = 1.25). | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+| 5 | `f896625d` | Replication of INA-APP-04 (R0 = 0.95, 1.05, 1.2, Poisson) on a new seed. | V1 Pass; H1 Not supported; H2 Supported; R1 Reported |
+| 6 | `e8cf686f` | Does the below-threshold 'major' share shrink with K? R0 = 0.95, 1.05 with K = 10,000. | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+
+Each `simulation/iter-k/SPEC.md` was written before execution and holds the parameters; `EXECUTION_RECORD.json` holds results, checks and hashes. 'Not supported' is a finding, not an error.
+
+## Research passes (6; details `research/PASSES.md`)
+- Pass 1: INB-APP-07: observed superspreading (k = 0.27) sourced, filling the INA gap.
+- Pass 2: INB-APP-08: P32's overall summary is consistent with its fit; the symptomatic subgroup is not.
+- Pass 3: INB-APP-09: outbreak emergence with P32's k.
+- Pass 4: Added nothing: immunity plus heterogeneity folded into INB-APP-09.
+- Pass 5: Added nothing: replication of INA-APP-04 (folded into INB-APP-10).
+- Pass 6: INB-APP-10: the below-threshold 'major outbreaks' vanish at K = 10,000 (INA artefact identified).
+
+## Unresolved
+- P32's symptomatic subgroup inconsistent with its own fit (unexplained).
+- Engineering cascades unsourced.
