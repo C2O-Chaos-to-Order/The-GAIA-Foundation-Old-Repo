@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-AS-PHI-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:45.407053+00:00",
+ "finished_utc": "2026-10-24T23:40:45.785205+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-3  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "ac1f2392d4842cbde049bd0b7824c7bf9e7982725a491804c16826b356cecd6b",
+ "params_sha256": "cd4002f237687095f7b0bbd860c50401c00f9d17d0b232ea9aeef530a9a0b466",
+ "results_sha256": "06e654b4f3711ea3ea19420afa61b44fd34639dbe728018310c0cbf8850fe619",
+ "results": {
+  "frac_top": 0.0026,
+  "mean_rung": 0.4,
+  "frac_first_rung": 0.6735,
+  "mean_q_reached": 0.1,
+  "mean_q_not": 0.1,
+  "se": 0.0004
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "shares lie in [0, 1] and every lover's rung is between 0 and the top",
+   "observed": [
+    0.0026,
+    0,
+    5
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "weak disposition q 0.1 with strong regress r 0.5: fewer than half reach the top",
+   "observed": {
+    "frac_top": 0.0026,
+    "mean_rung": 0.4,
+    "frac_first_rung": 0.6735,
+    "mean_q_reached": 0.1,
+    "mean_q_not": 0.1,
+    "se": 0.0004
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "frac_top": 0.0026,
+    "mean_rung": 0.4,
+    "frac_first_rung": 0.6735,
+    "mean_q_reached": 0.1,
+    "mean_q_not": 0.1,
+    "se": 0.0004
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
