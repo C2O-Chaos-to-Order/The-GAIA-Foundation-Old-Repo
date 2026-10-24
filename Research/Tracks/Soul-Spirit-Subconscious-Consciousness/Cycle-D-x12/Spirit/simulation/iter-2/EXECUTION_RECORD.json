@@ -1,0 +1,57 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:13.903496+00:00",
+ "finished_utc": "2026-10-24T07:05:14.062064+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-2  (run from Spirit/simulation/)",
+ "spec_sha256": "f03377a1b34ef20b4362dd444f77bb75e2e287c8ee4d23cae5e70abb4b6ec824",
+ "params_sha256": "a43c651b0ac8c38e99cf13e159a84596c909bbc51c60f39cde0a9e1747f62f8d",
+ "results_sha256": "37bbb3455f5f32d142e934ac5ff26e87f8a30bff10048c13c2ba8e77760bb23c",
+ "results": {
+  "share_complete": 0.2276725,
+  "disagreement": 0.095885,
+  "flip_given_complete": 0.20934676
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with error-free scores the two administrations never disagree",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the two administrations disagree on 'complete' for >= 10% of experiences",
+   "observed": 0.095885,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share 'complete' in administration A; disagreement; disagreement among those classified complete in A",
+   "observed": [
+    0.2276725,
+    0.095885,
+    0.20934676
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

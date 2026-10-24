@@ -1,0 +1,79 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:14.633832+00:00",
+ "finished_utc": "2026-10-24T07:05:14.633952+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-3  (run from Spirit/simulation/)",
+ "spec_sha256": "2c1a5d15b99a18b9c77474cf420cb6f1fb441a8b96d6faa2bed91d346474c7fe",
+ "params_sha256": "4e2502b561c3eed7f66f4cdb6e5ef3c85e57675bd3c3f855cf51373c8a35573c",
+ "results_sha256": "12a8a1613f8ffd933135ef21c2dde1cb448f91d2641a2024a8f7d512c4d4fe29",
+ "results": {
+  "e_point": 1.71408333,
+  "e_ci": 1.48660606
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "formula reproduces the worked example RR 3.9 -> E-value 7.26",
+   "observed": 7.26303434,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "bias factor at RR_UD = RR_UY = E equals the RR within 1e-9",
+   "observed": [
+    1.21,
+    1.21
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "recomputed E-values match the source's reported values within 0.01",
+   "observed": [
+    1.71408333,
+    1.48660606,
+    [
+     1.71,
+     1.48
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the point E-value is below 2 (a moderate unmeasured confounder could explain the association)",
+   "observed": 1.71408333,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "E-values (point, CI limit)",
+   "observed": [
+    1.71408333,
+    1.48660606
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
