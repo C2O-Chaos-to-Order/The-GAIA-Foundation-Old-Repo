@@ -1,0 +1,57 @@
+{
+ "sim_id": "SIM-DV-FOR-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:53.756767+00:00",
+ "finished_utc": "2026-10-24T16:46:54.934576+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-10  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "9a5b277dd40b54c57a2c24f1c42ae788b381961efc8aff01686991fcd5228be4",
+ "params_sha256": "a5764e6f93b64625964c56ef998c7bb298d0ba4a39ec8d15cc4e7a78c1ea8315",
+ "results_sha256": "a03f3648e3402c89cd6bb51fd0a6484d119699d9166920e73716ac0fdc0856c8",
+ "results": {
+  "div_F": -13.66666667,
+  "max_fd_err": 0.0,
+  "lyap_max": 1.05619477
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "finite-difference divergence equals -(sigma+1+beta) = -13.666667 within 1e-06 at 200 random points",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "largest Lyapunov exponent > 0.5",
+   "observed": 1.05619477,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "div F and lambda_max",
+   "observed": {
+    "div_F": -13.66666667,
+    "max_fd_err": 0.0,
+    "lyap_max": 1.05619477
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
