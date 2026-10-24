@@ -9,5 +9,5 @@ Requested by the owner on 2026-10-24: "Provide research as well for The Soul, Th
 | Track cycle | Folder | Status |
 |---|---|---|
 | A (x3) | `Cycle-A-x3/` | Done; gate INDETERMINATE (independent review pending). Maps v5 |
-| B (x6) | `Cycle-B-x6/` | Planned |
+| B (x6) | `Cycle-B-x6/` | Done; gate INDETERMINATE (independent review pending). Maps v6 |
 | C (x9) | `Cycle-C-x9/` | Planned |
