@@ -1,0 +1,132 @@
+{
+ "sim_id": "SIM-CV-HUM-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:47.371423+00:00",
+ "finished_utc": "2026-10-24T21:13:47.379248+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "d234f2eb8c188cff9ced6f644da802ea408abf77f67b7d57f02b83a3eb92304f",
+ "params_sha256": "5f96edae3370542b22e1cd2f0ca0b14fbb60aba47e22db9a3c59c8c185d0ce5b",
+ "results_sha256": "8c062ee2f019ed5d00d9cc7374d0ac068687a13f06e703045ac910c4216af610",
+ "results": {
+  "by_x0": {
+   "0.55": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 6.046
+   },
+   "0.7": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 4.015
+   }
+  },
+  "N": 10000,
+  "c": 2.0,
+  "b": 0.0,
+  "se_max": 0.01581
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.25002101,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "larger community (N 10000): majority variants fix with probability >= 0.99",
+   "observed": {
+    "by_x0": {
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.046
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 4.015
+     }
+    },
+    "N": 10000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01581
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "larger community (N 10000): mean levelling time from 70% at most 8 generations",
+   "observed": {
+    "by_x0": {
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.046
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 4.015
+     }
+    },
+    "N": 10000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01581
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.046
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 4.015
+     }
+    },
+    "N": 10000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01581
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
