@@ -1,0 +1,13 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "register_consistency": {
+   "c2_register": "../../maps/link_register.csv",
+   "rule_results": "../iter-1/outputs/results.json"
+  }
+ },
+ "input_register": "../../../../Cycle-1-x3/Report-7-Unified/maps/link_register.csv",
+ "iteration": 4,
+ "prev": "../iter-3",
+ "sim_id": "SIM-R7-C2"
+}
