@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-CV-SOC-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:42.064683+00:00",
+ "finished_utc": "2026-10-24T21:13:43.894045+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-5  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "0ec1b71875104d9b6442b0114620fe63196ea397029791fd0eba377a74d4b587",
+ "params_sha256": "71b3b84497162e32b68079cc7831486fd410a7834e58c421d1ae6244b3827ff0",
+ "results_sha256": "2476ca83790cf160e926a2d3c84829b161d2b318a7b6a1d07c99eb391d50e1f9",
+ "results": {
+  "Omega": {
+   "mu0.0_s1.5": 0.7478
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354,
+  "by_n": {
+   "500": 0.7692,
+   "2000": 0.77185
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "large dispersion (mu 0, sigma 1.5): the centralization advantage persists at n = 500 and 2000 (Omega > 0.5)",
+   "observed": {
+    "Omega": {
+     "mu0.0_s1.5": 0.7478
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "500": 0.7692,
+     "2000": 0.77185
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu0.0_s1.5": 0.7478
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "500": 0.7692,
+     "2000": 0.77185
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
