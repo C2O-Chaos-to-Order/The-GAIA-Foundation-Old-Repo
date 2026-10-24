@@ -1,0 +1,68 @@
+{
+ "sim_id": "SIM-IN-FOR-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:04:58.069543+00:00",
+ "finished_utc": "2026-10-24T18:04:59.337847+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a8532c72150b330b7f43848061360e4be1a128007f09bfd24a83d3ea4425e566",
+ "params_sha256": "94e56cabe10af852420066f051657d1791330766831e11e082c705c96075b0fe",
+ "results_sha256": "0a774092dd4caa67342742ccd75c76c522767f0558f9f0d146d87a9d13621ee8",
+ "results": {
+  "n": 400,
+  "p_perc": {
+   "0.58": 0.01,
+   "0.59": 0.42,
+   "0.6": 0.915
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "percolation probability non-decreasing in q (within 4 SE)",
+   "observed": [
+    0.01,
+    0.42,
+    0.915
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "probability below 0.5 at 0.58 and above 0.5 at 0.60",
+   "observed": {
+    "0.58": 0.01,
+    "0.59": 0.42,
+    "0.6": 0.915
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.58": 0.01,
+    "0.59": 0.42,
+    "0.6": 0.915
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

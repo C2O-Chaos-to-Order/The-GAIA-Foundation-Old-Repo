@@ -1,0 +1,217 @@
+{
+ "sim_id": "SIM-IN-FOR-C",
+ "iteration": 8,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:42.268171+00:00",
+ "finished_utc": "2026-10-24T17:48:42.902552+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-8  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a798f99909423a76593017bb1f67e837c240f05d58758fe0c44c88cabc1cf7b3",
+ "params_sha256": "8ddb881fa547b1333c91ca7dafc06244f30b7491e5f7e47f429cbf80949dca03",
+ "results_sha256": "0f903ae3b5f4b50451c9b50e9fd19db1f6f957e4559126aef47a8279019884bf",
+ "results": {
+  "subcritical": {
+   "c": 0.8,
+   "n": 5000,
+   "mean": 5.108,
+   "se": 0.31717966,
+   "theory": 5.0,
+   "printed": 5.45
+  },
+  "sweep": {
+   "0.5": {
+    "largest": 0.000258,
+    "se": 2.131e-05,
+    "theory": 0.0
+   },
+   "0.7": {
+    "largest": 0.000622,
+    "se": 3.625e-05,
+    "theory": 0.0
+   },
+   "0.9": {
+    "largest": 0.002726,
+    "se": 0.00040034,
+    "theory": 0.0
+   },
+   "1.0": {
+    "largest": 0.020742,
+    "se": 0.00524784,
+    "theory": 0.0
+   },
+   "1.1": {
+    "largest": 0.169074,
+    "se": 0.00755287,
+    "theory": 0.17613414
+   },
+   "1.2": {
+    "largest": 0.317462,
+    "se": 0.00496181,
+    "theory": 0.31369833
+   },
+   "1.3": {
+    "largest": 0.423652,
+    "se": 0.0020445,
+    "theory": 0.42296995
+   },
+   "1.5": {
+    "largest": 0.585198,
+    "se": 0.00221423,
+    "theory": 0.58281164
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "subcritical mean component size within 4 SE of 1/(1-c)",
+   "observed": [
+    5.108,
+    0.31717966,
+    5.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P27's printed experiment value (5.45) within 4 SE of this run's mean",
+   "observed": [
+    5.45,
+    5.108,
+    0.31717966
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "largest-component fraction within 0.02 of s = 1 - exp(-cs) for c >= 1.1",
+   "observed": {
+    "0.5": {
+     "largest": 0.000258,
+     "se": 2.131e-05,
+     "theory": 0.0
+    },
+    "0.7": {
+     "largest": 0.000622,
+     "se": 3.625e-05,
+     "theory": 0.0
+    },
+    "0.9": {
+     "largest": 0.002726,
+     "se": 0.00040034,
+     "theory": 0.0
+    },
+    "1.0": {
+     "largest": 0.020742,
+     "se": 0.00524784,
+     "theory": 0.0
+    },
+    "1.1": {
+     "largest": 0.169074,
+     "se": 0.00755287,
+     "theory": 0.17613414
+    },
+    "1.2": {
+     "largest": 0.317462,
+     "se": 0.00496181,
+     "theory": 0.31369833
+    },
+    "1.3": {
+     "largest": 0.423652,
+     "se": 0.0020445,
+     "theory": 0.42296995
+    },
+    "1.5": {
+     "largest": 0.585198,
+     "se": 0.00221423,
+     "theory": 0.58281164
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "sudden emergence: largest fraction <= 0.02 for c <= 0.9 and >= 0.5 for c >= 1.5",
+   "observed": [
+    0.002726,
+    0.585198
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "subcritical": {
+     "c": 0.8,
+     "n": 5000,
+     "mean": 5.108,
+     "se": 0.31717966,
+     "theory": 5.0,
+     "printed": 5.45
+    },
+    "sweep": {
+     "0.5": {
+      "largest": 0.000258,
+      "se": 2.131e-05,
+      "theory": 0.0
+     },
+     "0.7": {
+      "largest": 0.000622,
+      "se": 3.625e-05,
+      "theory": 0.0
+     },
+     "0.9": {
+      "largest": 0.002726,
+      "se": 0.00040034,
+      "theory": 0.0
+     },
+     "1.0": {
+      "largest": 0.020742,
+      "se": 0.00524784,
+      "theory": 0.0
+     },
+     "1.1": {
+      "largest": 0.169074,
+      "se": 0.00755287,
+      "theory": 0.17613414
+     },
+     "1.2": {
+      "largest": 0.317462,
+      "se": 0.00496181,
+      "theory": 0.31369833
+     },
+     "1.3": {
+      "largest": 0.423652,
+      "se": 0.0020445,
+      "theory": 0.42296995
+     },
+     "1.5": {
+      "largest": 0.585198,
+      "se": 0.00221423,
+      "theory": 0.58281164
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

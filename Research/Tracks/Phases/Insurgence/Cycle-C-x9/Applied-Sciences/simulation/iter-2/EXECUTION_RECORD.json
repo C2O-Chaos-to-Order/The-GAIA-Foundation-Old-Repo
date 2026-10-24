@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-IN-APP-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:49.332436+00:00",
+ "finished_utc": "2026-10-24T17:48:52.585425+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "35087e7292d5bef461abdc8b2313de11399ee9f8b99f538f61fca7bae739d032",
+ "params_sha256": "f70601f44e8af70d4bf647a3266c6a4e65797a6b9284d860dc04814f91d30ddd",
+ "results_sha256": "501e25db5a74874b29ef68f1b3d1f651183556268fa7b03a1ab1de2eb8bd7ff8",
+ "results": {
+  "median_switch_t": 1710.4,
+  "q10_q90": [
+   1534.95,
+   1912.19
+  ],
+  "share_no_switch": 0.125,
+  "noise_printed_at_1750": 0.47,
+  "source_single_run": 1386.8,
+  "n_used": 35,
+  "tau_ar1": 0.3245045,
+  "tau_sd": 0.88920493,
+  "median_zeta": -1.92250281,
+  "median_rel_err_sigma": 0.01171319
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "indicator windows available in at least half the replicates",
+   "observed": 35,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "standard deviation trends up (median Kendall tau > 0.5): noise growth is visible",
+   "observed": 0.88920493,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "lag-1 autocorrelation shows no comparable trend (median |tau| < 0.3): no critical slowing down",
+   "observed": 0.3245045,
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "least-squares drift slope near the true -2 (within 0.4) and noise level within 10% of truth (medians)",
+   "observed": [
+    -1.92250281,
+    0.01171319
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "median_switch_t": 1710.4,
+    "q10_q90": [
+     1534.95,
+     1912.19
+    ],
+    "share_no_switch": 0.125,
+    "noise_printed_at_1750": 0.47,
+    "source_single_run": 1386.8,
+    "n_used": 35,
+    "tau_ar1": 0.3245045,
+    "tau_sd": 0.88920493,
+    "median_zeta": -1.92250281,
+    "median_rel_err_sigma": 0.01171319
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,12 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P40,yes,IND,12039,a7fc22272a74973a3dc6a8be8243805d75c31bedc2e8609dfbbb45e8c1451a0b,Read end to end (abstract to Materials and Methods and acknowledgements); reference list and SI not read.
+P44,yes,IND,1370,5e506e3261737e541bd4eb4cb4bdae310c602b3a92a0050aa525914c12c27b91,Short textbook section read end to end incl. code listings; site navigation skipped.
+P45,yes,IND,1288,0ec0cab32e0bfd4cd23f10d35a12cc739e7405d6a2ce49477c970217a2ecccb0,Short textbook section read end to end incl. code listings; site navigation skipped.
+P42,no,INC (still unread in IND),,,"Fetched (Kesic 2026, about 34,000 words); not read, not cited."
+P28,yes,INA (reused in IND),9013,d7e737bf7dc69a7f4db4baa239d00130a4085f20c7d7d9d410c7be306598467f,Read in full in INA; not re-read.
+P30,yes,INA (reused in IND),4404,88218895f68a17d19789bd6b22cad896ab77d1345b57fa188ea6e43c6e5078b3,Read in full in INA; not re-read.
+P32,yes,INB (reused in IND),8266,8add4f4fa2f78a145d0799179ba6ca098e8fe8b16e61b52f3273a2ad7f19a8f2,Read in full in INB; not re-read.
+P36,yes,INB (reused in IND),4623,ca27ac49421fa17510fef939b93d27c06aa9d117216a7a6bb820e99ba1c598b6,Read in full in INB; not re-read.
+P38,yes,INC (reused in IND),5241,d9e63ccbb59c234917a8a03b38743bf35871821c4eb7ab286cb8e84c3d4204a1,Read in full in INC; not re-read.
+P39,yes,INC (reused in IND),10915,179331503981e1dfe3c4ad8091aebca0cda6d27d2ca3cd6c143dbbdd29809aae,Read in full in INC; not re-read.
+P41,yes,INC (reused in IND),14771,49e647255c4dd0538b1433f22fbb6b02ee605f75ee8dc9a7ceb81f6fd675159e,Read in full in INC; not re-read.

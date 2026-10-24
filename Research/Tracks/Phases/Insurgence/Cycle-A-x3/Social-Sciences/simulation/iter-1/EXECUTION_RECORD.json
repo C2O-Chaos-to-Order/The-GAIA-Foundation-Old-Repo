@@ -1,0 +1,196 @@
+{
+ "sim_id": "SIM-IN-SOC-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:40.662073+00:00",
+ "finished_utc": "2026-10-24T17:10:40.710536+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "4a0f12d1c402b757366c01ea41d780a2e044553755bb348d221e6365c7bf3682",
+ "params_sha256": "58c625d10b9ebb3316705daf127c935a9d26d204bcec441c6cc10b428d789dcb",
+ "results_sha256": "d9ec7a3fdeb2cb87fb5a504501bc2d580c5e778c1a18a5636cf14ee7e84de2e0",
+ "results": {
+  "uniform": 100,
+  "perturbed": 1,
+  "normal": {
+   "5": {
+    "mean": 0.0,
+    "full_share": 0.0
+   },
+   "6": {
+    "mean": 0.0,
+    "full_share": 0.0
+   },
+   "7": {
+    "mean": 0.0003,
+    "full_share": 0.0
+   },
+   "8": {
+    "mean": 0.0017,
+    "full_share": 0.0
+   },
+   "9": {
+    "mean": 0.0135,
+    "full_share": 0.01
+   },
+   "10": {
+    "mean": 0.0098,
+    "full_share": 0.0
+   },
+   "11": {
+    "mean": 0.1069,
+    "full_share": 0.09
+   },
+   "12": {
+    "mean": 0.1549,
+    "full_share": 0.13
+   },
+   "13": {
+    "mean": 0.4684,
+    "full_share": 0.45
+   },
+   "14": {
+    "mean": 0.7518,
+    "full_share": 0.74
+   },
+   "15": {
+    "mean": 0.8475,
+    "full_share": 0.84
+   },
+   "16": {
+    "mean": 0.9705,
+    "full_share": 0.97
+   },
+   "17": {
+    "mean": 0.9906,
+    "full_share": 0.99
+   },
+   "18": {
+    "mean": 0.982,
+    "full_share": 0.98
+   },
+   "19": {
+    "mean": 0.9906,
+    "full_share": 0.99
+   },
+   "20": {
+    "mean": 0.9999,
+    "full_share": 1.0
+   }
+  },
+  "largest_step": 0.3135
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "uniform thresholds 0..N-1 give a full cascade",
+   "observed": 100,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "raising one threshold (1 -> 2) stops the cascade at 1 person",
+   "observed": 1,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with normal thresholds the mean final size jumps by > 0.3 between adjacent sd values (sudden)",
+   "observed": 0.3135,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "uniform": 100,
+    "perturbed": 1,
+    "normal": {
+     "5": {
+      "mean": 0.0,
+      "full_share": 0.0
+     },
+     "6": {
+      "mean": 0.0,
+      "full_share": 0.0
+     },
+     "7": {
+      "mean": 0.0003,
+      "full_share": 0.0
+     },
+     "8": {
+      "mean": 0.0017,
+      "full_share": 0.0
+     },
+     "9": {
+      "mean": 0.0135,
+      "full_share": 0.01
+     },
+     "10": {
+      "mean": 0.0098,
+      "full_share": 0.0
+     },
+     "11": {
+      "mean": 0.1069,
+      "full_share": 0.09
+     },
+     "12": {
+      "mean": 0.1549,
+      "full_share": 0.13
+     },
+     "13": {
+      "mean": 0.4684,
+      "full_share": 0.45
+     },
+     "14": {
+      "mean": 0.7518,
+      "full_share": 0.74
+     },
+     "15": {
+      "mean": 0.8475,
+      "full_share": 0.84
+     },
+     "16": {
+      "mean": 0.9705,
+      "full_share": 0.97
+     },
+     "17": {
+      "mean": 0.9906,
+      "full_share": 0.99
+     },
+     "18": {
+      "mean": 0.982,
+      "full_share": 0.98
+     },
+     "19": {
+      "mean": 0.9906,
+      "full_share": 0.99
+     },
+     "20": {
+      "mean": 0.9999,
+      "full_share": 1.0
+     }
+    },
+    "largest_step": 0.3135
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

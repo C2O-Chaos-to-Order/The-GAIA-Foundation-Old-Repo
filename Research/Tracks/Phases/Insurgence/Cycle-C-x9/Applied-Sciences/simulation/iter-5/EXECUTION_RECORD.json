@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-IN-APP-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:58.310088+00:00",
+ "finished_utc": "2026-10-24T17:49:00.693245+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "59f41bde6378f9dd5368f6491599f0e5b63a29319e9f2058ffb4be659588478f",
+ "params_sha256": "6dc9fd99b4e54f5ce677f37a80251c81edbb8f7ea54b549bd39c96e8cc710e68",
+ "results_sha256": "440c02743590b5c28938c4bc9a15aba7e6089e0f49fe3daf5bd6e080d552afd4",
+ "results": {
+  "exact_fold": -0.38490018,
+  "mean_tip_r": -0.2353568,
+  "sd_tip_r": 0.04484691,
+  "n_missing": 0,
+  "median_tau_ar1": 0.80220131
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "every replicate tips before the ramp ends",
+   "observed": 0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mean tipping r more than 0.05 before the fold",
+   "observed": {
+    "exact_fold": -0.38490018,
+    "mean_tip_r": -0.2353568,
+    "sd_tip_r": 0.04484691,
+    "n_missing": 0,
+    "median_tau_ar1": 0.80220131
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact_fold": -0.38490018,
+    "mean_tip_r": -0.2353568,
+    "sd_tip_r": 0.04484691,
+    "n_missing": 0,
+    "median_tau_ar1": 0.80220131
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

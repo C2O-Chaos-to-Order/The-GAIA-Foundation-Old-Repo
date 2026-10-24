@@ -1,0 +1,62 @@
+{
+ "sim_id": "SIM-IN-NAT-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:36.403375+00:00",
+ "finished_utc": "2026-10-24T17:48:36.508179+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-7  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "9ac9460ae89abc6a62294eabfe17a82e71f8946c4c5b561c3dc41b87b32eb442",
+ "params_sha256": "d990b3d5987f32bb366e2195a503be1090a71ded0a5cf39920cb09d1ba1c5e8c",
+ "results_sha256": "b659bf33fc933e6eae6766baf8cd8eb972de75ae19d9d74da5566a44de1724ef",
+ "results": {
+  "runaway": true,
+  "t_runaway": 1.766,
+  "maxima_before": 2,
+  "period": 0.62831853
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulation ran",
+   "observed": 1.766,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "runaway occurs, after at least two oscillation maxima at the centre",
+   "observed": [
+    true,
+    2
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "runaway": true,
+    "t_runaway": 1.766,
+    "maxima_before": 2,
+    "period": 0.62831853
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

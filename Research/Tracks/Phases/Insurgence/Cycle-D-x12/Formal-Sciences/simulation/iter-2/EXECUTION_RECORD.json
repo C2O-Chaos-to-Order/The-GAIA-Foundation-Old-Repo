@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-IN-FOR-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:04:55.516737+00:00",
+ "finished_utc": "2026-10-24T18:04:57.094585+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "5ffe69362cade993e23c89a47d2caf742f81e2ea76698b93a3dc9408625252cb",
+ "params_sha256": "fa36c417e954203a7a7db087e7240814d1047a2af90017bfc969ce04cf8b099e",
+ "results_sha256": "c48b092633a02040fd4fa439dc932d56ca64fbb332cb6eb90ddd8e03dc6198d1",
+ "results": {
+  "by_n": {
+   "50": {
+    "mean": 0.59175248,
+    "se": 0.00087676
+   },
+   "100": {
+    "mean": 0.59225743,
+    "se": 0.00049152
+   },
+   "200": {
+    "mean": 0.59321287,
+    "se": 0.00032478
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "walk means inside (0.5, 0.7)",
+   "observed": [
+    0.59175248,
+    0.59225743,
+    0.59321287
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "each walk mean within 0.01 of 0.59",
+   "observed": [
+    0.59175248,
+    0.59225743,
+    0.59321287
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "50": {
+     "mean": 0.59175248,
+     "se": 0.00087676
+    },
+    "100": {
+     "mean": 0.59225743,
+     "se": 0.00049152
+    },
+    "200": {
+     "mean": 0.59321287,
+     "se": 0.00032478
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -5,7 +5,7 @@ Owner request (2026-10-24): five phase reports — **Divergence, Insurgence, All
 | phase | folder | status |
 |---|---|---|
 | Divergence | `Divergence/` | in progress |
-| Insurgence | `Insurgence/` | planned |
+| Insurgence | `Insurgence/` | in progress |
 | Allegiance | `Allegiance/` | planned |
 | Convergence | `Convergence/` | planned |
 | Ascendence | `Ascendence/` | planned |

@@ -1,0 +1,91 @@
+{
+ "sim_id": "SIM-IN-HUM-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:19:17.234795+00:00",
+ "finished_utc": "2026-10-24T18:19:17.586484+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "cb4fbdf51b941b048a25db02f7491a69712b1a48778a7830d503c4950a796216",
+ "params_sha256": "07461104f20a19990acf1bb93db1921f8ea0bb88c9531e17c9f7fe0dbfafe668",
+ "results_sha256": "8a8846e576496480302ea98ea49d58d4278d373bfa4703ac0c4cc52c4373e5f0",
+ "results": {
+  "by_a": {
+   "0.1": {
+    "max_step_change": 0.2956423,
+    "total_change": 2.0666428
+   },
+   "1.0": {
+    "max_step_change": 1.06196955,
+    "total_change": 2.64943591
+   }
+  },
+  "r_step": 0.005
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "both sweeps cover a total change > 1",
+   "observed": {
+    "0.1": {
+     "max_step_change": 0.2956423,
+     "total_change": 2.0666428
+    },
+    "1.0": {
+     "max_step_change": 1.06196955,
+     "total_change": 2.64943591
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "maximum step change at a = 0.1 less than half that at a = 1",
+   "observed": {
+    "0.1": {
+     "max_step_change": 0.2956423,
+     "total_change": 2.0666428
+    },
+    "1.0": {
+     "max_step_change": 1.06196955,
+     "total_change": 2.64943591
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_a": {
+     "0.1": {
+      "max_step_change": 0.2956423,
+      "total_change": 2.0666428
+     },
+     "1.0": {
+      "max_step_change": 1.06196955,
+      "total_change": 2.64943591
+     }
+    },
+    "r_step": 0.005
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

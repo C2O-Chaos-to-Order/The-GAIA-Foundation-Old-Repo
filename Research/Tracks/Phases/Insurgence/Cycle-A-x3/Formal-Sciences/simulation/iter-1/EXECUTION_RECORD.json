@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-IN-FOR-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:39.021095+00:00",
+ "finished_utc": "2026-10-24T17:10:39.250862+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "200e8b7512dbe0a8d893ab6ed55760ad93a98246f3098fb2bb2b89c11f43515e",
+ "params_sha256": "bab4340042e2ddbb7848146ae334a9694cdbbf296e9eb19976c2f76db0a35e4c",
+ "results_sha256": "fe7ecf196fc75b0d12415a6c214895f8057e92236f0f167d8f07ddb9e6365159",
+ "results": {
+  "by_n": {
+   "1000": {
+    "mean_largest": 75.7,
+    "se": 7.69726541,
+    "fraction": 0.0757
+   },
+   "10000": {
+    "mean_largest": 409.05,
+    "se": 53.99315137,
+    "fraction": 0.040905
+   },
+   "100000": {
+    "mean_largest": 2092.05,
+    "se": 198.82943596,
+    "fraction": 0.0209205
+   }
+  },
+  "slope": 0.72073809
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "largest component fraction falls with n at c = 1",
+   "observed": [
+    0.0757,
+    0.040905,
+    0.0209205
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "log-log slope within 0.1 of 2/3",
+   "observed": 0.72073809,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "1000": {
+     "mean_largest": 75.7,
+     "se": 7.69726541,
+     "fraction": 0.0757
+    },
+    "10000": {
+     "mean_largest": 409.05,
+     "se": 53.99315137,
+     "fraction": 0.040905
+    },
+    "100000": {
+     "mean_largest": 2092.05,
+     "se": 198.82943596,
+     "fraction": 0.0209205
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,111 @@
+{
+ "sim_id": "SIM-IN-HUM-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:19:52.762846+00:00",
+ "finished_utc": "2026-10-24T18:19:52.900062+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-7  (run from Humanities/simulation/)",
+ "spec_sha256": "1b711f27dfc58d6c28346d6c2b387a8a8554f97936c6f41ce5007950c0a76006",
+ "params_sha256": "66759ac18ee2ee322b48ee744c1aaeab3077d4af2a724eca2f4dfdc7ef2b2984",
+ "results_sha256": "198b1a74ff4c467b238dde9e4eef1dfaf4d1ffb94d1127b97570b5471880e98e",
+ "results": {
+  "0.01,0.5": {
+   "G": 0.07853,
+   "se": 0.00087077,
+   "eq6": 0.07863651
+  },
+  "0.5,0.01": {
+   "G": 0.99,
+   "se": 0.00029589,
+   "eq6": 0.99013136
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "G in [0, 1]",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07853,
+     "se": 0.00087077,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.99,
+     "se": 0.00029589,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "simulated G within 4 SE (+0.005) of Eq. 6 for every (a, b)",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07853,
+     "se": 0.00087077,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.99,
+     "se": 0.00029589,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "G < 0.2 for strong imitation and > 0.9 for strong push",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07853,
+     "se": 0.00087077,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.99,
+     "se": 0.00029589,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.01,0.5": {
+     "G": 0.07853,
+     "se": 0.00087077,
+     "eq6": 0.07863651
+    },
+    "0.5,0.01": {
+     "G": 0.99,
+     "se": 0.00029589,
+     "eq6": 0.99013136
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

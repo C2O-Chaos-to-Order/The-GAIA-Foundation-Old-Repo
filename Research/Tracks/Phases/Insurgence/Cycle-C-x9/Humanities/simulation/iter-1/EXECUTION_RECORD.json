@@ -1,0 +1,108 @@
+{
+ "sim_id": "SIM-IN-HUM-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:49:03.353419+00:00",
+ "finished_utc": "2026-10-24T17:49:08.494142+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "e4f34fe4e55994786f7b37e4d2a6127373208f8c0fbe2b3b225c92a01a336520",
+ "params_sha256": "43e8158d0571b2d4af6b223e5d7bb8bdc296232c7a617464758a98ac26b3f81b",
+ "results_sha256": "1c96a6d08af9e8d3e08f72df7cd226f95f19de5cdaaed68d8449e00b41d9af22",
+ "results": {
+  "by_sigma": {
+   "0.35": {
+    "mean_T": 282.3311,
+    "censored": 0
+   },
+   "0.4": {
+    "mean_T": 100.48535,
+    "censored": 0
+   },
+   "0.45": {
+    "mean_T": 57.5299,
+    "censored": 0
+   },
+   "0.5": {
+    "mean_T": 36.987225,
+    "censored": 0
+   },
+   "0.6": {
+    "mean_T": 17.88675,
+    "censored": 0
+   }
+  },
+  "slope": 0.50101431,
+  "r2": 0.9972213,
+  "kramers_slope": 0.5
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no censored replicates",
+   "observed": 0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "ln mean switching time linear in 1/sigma^2 (r^2 > 0.95)",
+   "observed": 0.9972213,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "slope within 0.15 of Kramers' 2 dV = 0.5",
+   "observed": 0.50101431,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_sigma": {
+     "0.35": {
+      "mean_T": 282.3311,
+      "censored": 0
+     },
+     "0.4": {
+      "mean_T": 100.48535,
+      "censored": 0
+     },
+     "0.45": {
+      "mean_T": 57.5299,
+      "censored": 0
+     },
+     "0.5": {
+      "mean_T": 36.987225,
+      "censored": 0
+     },
+     "0.6": {
+      "mean_T": 17.88675,
+      "censored": 0
+     }
+    },
+    "slope": 0.50101431,
+    "r2": 0.9972213,
+    "kramers_slope": 0.5
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

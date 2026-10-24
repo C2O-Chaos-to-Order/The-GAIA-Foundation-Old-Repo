@@ -1,0 +1,11 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P38,yes,INC,5241,d9e63ccbb59c234917a8a03b38743bf35871821c4eb7ab286cb8e84c3d4204a1,"Read end to end (abstract to references); the equations are images in the PMC text, so Eqs. 1, 2 and the delta definition were read from the article's equation images."
+P39,yes,INC,10915,179331503981e1dfe3c4ad8091aebca0cda6d27d2ca3cd6c143dbbdd29809aae,Read end to end (abstract to reference list); supplementary text not read.
+P41,yes,INC,14771,49e647255c4dd0538b1433f22fbb6b02ee605f75ee8dc9a7ceb81f6fd675159e,"Read end to end (abstract to Methods and data availability, reference list skimmed); supplementary information not read."
+P43,yes,INC,16116,988878934b2466b173356dcc26dea86bec7b72b4c0ed543a9d2e6781af54c637,Main text read end to end incl. Table 1; reference list not read.
+P40,no,INC,,,"Fetched (Wan, Riedl & Lazer 2025, PNAS, about 12,000 words); not read, not cited."
+P42,no,INC,,,"Fetched (Kesic 2026, Biology, about 34,000 words); not read, not cited."
+P28,yes,INA (reused in INC),9013,d7e737bf7dc69a7f4db4baa239d00130a4085f20c7d7d9d410c7be306598467f,Read in full in INA; not re-read.
+P30,yes,INA (reused in INC),4404,88218895f68a17d19789bd6b22cad896ab77d1345b57fa188ea6e43c6e5078b3,Read in full in INA; not re-read.
+P35,yes,INB (reused in INC),7324,3ff6485185bc84daeb47609c06cdf7c17df5fe3db57b9c2064c66add638b328b,Read in full in INB; not re-read.
+P36,yes,INB (reused in INC),4623,ca27ac49421fa17510fef939b93d27c06aa9d117216a7a6bb820e99ba1c598b6,Read in full in INB; not re-read.

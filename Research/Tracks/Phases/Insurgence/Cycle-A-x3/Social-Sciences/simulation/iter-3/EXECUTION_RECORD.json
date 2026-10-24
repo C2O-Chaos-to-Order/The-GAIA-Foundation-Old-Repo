@@ -1,0 +1,173 @@
+{
+ "sim_id": "SIM-IN-SOC-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:40.937296+00:00",
+ "finished_utc": "2026-10-24T17:10:41.389744+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "0da4d8a1a343ff7537e9e429b6924d426bd6078db797bf99f5b3a235b518dae4",
+ "params_sha256": "0a5d9d6d92b27eceab9571eb1d123e6debcf825de56c8ba5f876f090b52e0126",
+ "results_sha256": "3447afcfbfd245b4280cde73c61736ba2df1043b61ad396fc61ddbea597bddd0",
+ "results": {
+  "counts": {
+   "total": 17280,
+   "printed_total": 17280,
+   "per_pr_cell": 480,
+   "printed_per_cell": 480,
+   "per_n": 2160,
+   "printed_per_n": 2160
+  },
+  "links": {
+   "LPM": {
+    "n_star": 1.0892,
+    "k_star": 0.57740517,
+    "k_at_lo": 0.543117,
+    "k_at_hi": 0.541276
+   },
+   "Logit": {
+    "n_star": 1.0874,
+    "k_star": 0.62691362,
+    "k_at_lo": 0.54262553,
+    "k_at_hi": 0.53569816
+   },
+   "Probit": {
+    "n_star": 1.0759,
+    "k_star": 0.63157034,
+    "k_at_lo": 0.55528362,
+    "k_at_hi": 0.52144318
+   },
+   "CLogLog": {
+    "n_star": 1.0308,
+    "k_star": 0.63184512,
+    "k_at_lo": 0.56597103,
+    "k_at_hi": 0.46880356
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "design counts reproduce the printed 17,280 / 480 / 2,160",
+   "observed": {
+    "total": 17280,
+    "printed_total": 17280,
+    "per_pr_cell": 480,
+    "printed_per_cell": 480,
+    "per_n": 2160,
+    "printed_per_n": 2160
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "all four fitted links peak for n in [1.0, 1.1]",
+   "observed": {
+    "LPM": {
+     "n_star": 1.0892,
+     "k_star": 0.57740517,
+     "k_at_lo": 0.543117,
+     "k_at_hi": 0.541276
+    },
+    "Logit": {
+     "n_star": 1.0874,
+     "k_star": 0.62691362,
+     "k_at_lo": 0.54262553,
+     "k_at_hi": 0.53569816
+    },
+    "Probit": {
+     "n_star": 1.0759,
+     "k_star": 0.63157034,
+     "k_at_lo": 0.55528362,
+     "k_at_hi": 0.52144318
+    },
+    "CLogLog": {
+     "n_star": 1.0308,
+     "k_star": 0.63184512,
+     "k_at_lo": 0.56597103,
+     "k_at_hi": 0.46880356
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "k falls by more than 0.05 from the peak to n = 1.4 under every link ('decreases markedly')",
+   "observed": {
+    "LPM": {
+     "n_star": 1.0892,
+     "k_star": 0.57740517,
+     "k_at_lo": 0.543117,
+     "k_at_hi": 0.541276
+    },
+    "Logit": {
+     "n_star": 1.0874,
+     "k_star": 0.62691362,
+     "k_at_lo": 0.54262553,
+     "k_at_hi": 0.53569816
+    },
+    "Probit": {
+     "n_star": 1.0759,
+     "k_star": 0.63157034,
+     "k_at_lo": 0.55528362,
+     "k_at_hi": 0.52144318
+    },
+    "CLogLog": {
+     "n_star": 1.0308,
+     "k_star": 0.63184512,
+     "k_at_lo": 0.56597103,
+     "k_at_hi": 0.46880356
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "LPM": {
+     "n_star": 1.0892,
+     "k_star": 0.57740517,
+     "k_at_lo": 0.543117,
+     "k_at_hi": 0.541276
+    },
+    "Logit": {
+     "n_star": 1.0874,
+     "k_star": 0.62691362,
+     "k_at_lo": 0.54262553,
+     "k_at_hi": 0.53569816
+    },
+    "Probit": {
+     "n_star": 1.0759,
+     "k_star": 0.63157034,
+     "k_at_lo": 0.55528362,
+     "k_at_hi": 0.52144318
+    },
+    "CLogLog": {
+     "n_star": 1.0308,
+     "k_star": 0.63184512,
+     "k_at_lo": 0.56597103,
+     "k_at_hi": 0.46880356
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

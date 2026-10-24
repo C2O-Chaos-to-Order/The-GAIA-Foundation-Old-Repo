@@ -1,0 +1,92 @@
+{
+ "sim_id": "SIM-IN-SOC-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:22:08.519530+00:00",
+ "finished_utc": "2026-10-24T17:22:08.931530+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "9c56f9e90df046228747509219703dc608462999634b7908dbed85d65d7217d3",
+ "params_sha256": "f7b2e404dafa0e4f67d4cdc0d85d704106affc68219b18c6579ca85f8fa8f53c",
+ "results_sha256": "e04b6baee87a31abad5afaf5592b7ec339b6fc5d3d8d5c3bd55f5a08442f6112",
+ "results": {
+  "spread": {
+   "success": 0.0,
+   "se": 6e-08
+  },
+  "focus": {
+   "success": 0.1,
+   "se": 0.01732051
+  },
+  "weakest": {
+   "success": 0.10333333,
+   "se": 0.01757418
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "success shares are probabilities",
+   "observed": {
+    "spread": {
+     "success": 0.0,
+     "se": 6e-08
+    },
+    "focus": {
+     "success": 0.1,
+     "se": 0.01732051
+    },
+    "weakest": {
+     "success": 0.10333333,
+     "se": 0.01757418
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "ordering weakest > focus > spread (small movement)",
+   "observed": [
+    0.0,
+    0.1,
+    0.10333333
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "spread": {
+     "success": 0.0,
+     "se": 6e-08
+    },
+    "focus": {
+     "success": 0.1,
+     "se": 0.01732051
+    },
+    "weakest": {
+     "success": 0.10333333,
+     "se": 0.01757418
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,81 @@
+{
+ "sim_id": "SIM-IN-PHI-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:11:11.397360+00:00",
+ "finished_utc": "2026-10-24T17:11:11.425294+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-2  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "d4772335925357e6c0850d542f4bf763c86122c77d634cdd45326bcc372bb2ad",
+ "params_sha256": "4697f0eb34b9f580a6976ee8657608153648c31f56e6c11ffa0ccb56659174e4",
+ "results_sha256": "331743aee5c1471f27aaa233ab51dc0bafceed6caba1b7f3cceb4c442371399d",
+ "results": {
+  "interior_fixed_point": 0.30769538,
+  "finals": {
+   "0.05": 0.0,
+   "0.2": 0.0,
+   "0.4": 1.0,
+   "0.6": 1.0
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "exactly one interior fixed point",
+   "observed": [
+    0.30769538
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a minority starting below the interior point declines even with the higher utility",
+   "observed": {
+    "0.05": 0.0,
+    "0.2": 0.0,
+    "0.4": 1.0,
+    "0.6": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "above it, the minority rises to dominance",
+   "observed": {
+    "0.05": 0.0,
+    "0.2": 0.0,
+    "0.4": 1.0,
+    "0.6": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.05": 0.0,
+    "0.2": 0.0,
+    "0.4": 1.0,
+    "0.6": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

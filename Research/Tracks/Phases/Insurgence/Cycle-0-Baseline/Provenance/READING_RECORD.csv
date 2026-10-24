@@ -1,0 +1,7 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P25,yes,IN0,8251,b9fd120a944c1a19aa1aafe945c918bbbdec46aa6855ea03ad91316e1119af71,"Read end to end (abstract, introduction, methods, results incl. Table 2 and figure captions, discussion, supporting-information captions; reference list not read)."
+P26,yes,IN0,3823,a804557488ef24e49b35fffcfabea1a53a7f31fe67aeafbea6c3872ea8c4e6b8,Read end to end (abstract to footnotes; reference list not read).
+P27,yes,IN0,4307,012c202ba80d1447761606c10eb11b613fdc294fdf33e82c3cdedd9c689fd653,Read end to end (chapter 2 incl. code blocks and printed outputs; site navigation not read).
+P21,yes,DVC (reused in IN0),5022,02b6b67d424ca59cad655211044926592c0ac0b2f7836c0dbe3881a9331e7b29,Read in full in DVC; cited passage re-checked against the stored text in IN0.
+P22,yes,DVC (reused in IN0),2518,2b6061ee41604b05da3a49ad125461d715b0075f0eb52464005296aff02c591c,Read in full in DVC; transcritical passage re-checked in IN0.
+P08,yes,DVB (reused in IN0),12309,bd58aa97987ed673e1b6ab0d0fb444e3d9d25dcb2f3e0df8eee15265a218af5c,Read in full in DVB; cited passage re-checked in IN0.

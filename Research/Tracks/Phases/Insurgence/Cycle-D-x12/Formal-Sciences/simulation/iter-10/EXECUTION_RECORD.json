@@ -1,0 +1,113 @@
+{
+ "sim_id": "SIM-IN-FOR-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:05:04.392172+00:00",
+ "finished_utc": "2026-10-24T18:05:04.481057+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-10  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "e1ce837a88b6db04addd3fac4853970cd35c69538d31bf93a223817559203188",
+ "params_sha256": "dcadd22aeab6d3efdd8bce500886ea33fce693e33f0f9f98547ac96bfcf19905",
+ "results_sha256": "83d9aabe40c1e8f13ab08c442fa7f1702eb76d6a6070243b29cc91b6c36abc90",
+ "results": {
+  "1.05": {
+   "share": 0.0868,
+   "se": 0.0039816,
+   "s": 0.09370184
+  },
+  "1.1": {
+   "share": 0.184,
+   "se": 0.00547985,
+   "s": 0.17613414
+  },
+  "1.5": {
+   "share": 0.594,
+   "se": 0.00694498,
+   "s": 0.58281164
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "share is a probability",
+   "observed": {
+    "1.05": {
+     "share": 0.0868,
+     "se": 0.0039816,
+     "s": 0.09370184
+    },
+    "1.1": {
+     "share": 0.184,
+     "se": 0.00547985,
+     "s": 0.17613414
+    },
+    "1.5": {
+     "share": 0.594,
+     "se": 0.00694498,
+     "s": 0.58281164
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "share reaching K within 4 SE (+0.01) of s = 1 - exp(-cs) for every c",
+   "observed": {
+    "1.05": {
+     "share": 0.0868,
+     "se": 0.0039816,
+     "s": 0.09370184
+    },
+    "1.1": {
+     "share": 0.184,
+     "se": 0.00547985,
+     "s": 0.17613414
+    },
+    "1.5": {
+     "share": 0.594,
+     "se": 0.00694498,
+     "s": 0.58281164
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "1.05": {
+     "share": 0.0868,
+     "se": 0.0039816,
+     "s": 0.09370184
+    },
+    "1.1": {
+     "share": 0.184,
+     "se": 0.00547985,
+     "s": 0.17613414
+    },
+    "1.5": {
+     "share": 0.594,
+     "se": 0.00694498,
+     "s": 0.58281164
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,95 @@
+{
+ "sim_id": "SIM-IN-SOC-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:43.897960+00:00",
+ "finished_utc": "2026-10-24T17:48:43.928992+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-6  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "80767cd681f18248abda827e2774fcca55db7dcef07c806594f214cc9250e83a",
+ "params_sha256": "44a02b1dd74c13f84b2fa2c033011253469b84aee7b90c2791ec1f6396d5f455",
+ "results_sha256": "b1feb2a1c50dea3f1e7000372c8edf3c42fccd1e1434256b36b9f9d6a6ff0719",
+ "results": {
+  "p_double": 0.130778,
+  "p_tenfold": 0.022098,
+  "analytic_density_reading": [
+   0.13062462,
+   0.02224119
+  ],
+  "analytic_ccdf_reading": [
+   0.06531231,
+   0.00222412
+  ],
+  "source": [
+   0.1,
+   0.01
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated doubling share within 4 SE of the analytic value",
+   "observed": [
+    0.130778,
+    0.13062462
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "doubling about 10% (within 0.03) and tenfold about 1% (within 0.005) per year, as P39's Discussion states",
+   "observed": [
+    0.130778,
+    0.022098
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the same under the alternative reading (alpha as tail exponent of the CCDF)",
+   "observed": [
+    0.06531231,
+    0.00222412
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "p_double": 0.130778,
+    "p_tenfold": 0.022098,
+    "analytic_density_reading": [
+     0.13062462,
+     0.02224119
+    ],
+    "analytic_ccdf_reading": [
+     0.06531231,
+     0.00222412
+    ],
+    "source": [
+     0.1,
+     0.01
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

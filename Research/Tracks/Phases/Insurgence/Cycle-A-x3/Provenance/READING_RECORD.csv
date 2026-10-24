@@ -1,0 +1,9 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P28,yes,INA,9013,d7e737bf7dc69a7f4db4baa239d00130a4085f20c7d7d9d410c7be306598467f,"Read end to end (abstract, sections 1-6 incl. figure captions, acknowledgements and declarations; reference list and electronic supplementary material not read)."
+P30,yes,INA,4404,88218895f68a17d19789bd6b22cad896ab77d1345b57fa188ea6e43c6e5078b3,"Read end to end (main text of arXiv v2 HTML: abstract, sections I-IV, figure captions, acknowledgements, reference list skimmed; the supplementary pages are embedded as PDF in the original and are not rendered in the HTML, so not read)."
+P29,no,INA,,,"Fetch failed (HTTP 500, 3 words retrieved); not read and not cited."
+P25,yes,IN0 (reused in INA),8251,b9fd120a944c1a19aa1aafe945c918bbbdec46aa6855ea03ad91316e1119af71,Read in full in IN0; Granovetter passage and design grid re-checked against the stored text in INA.
+P26,yes,IN0 (reused in INA),3823,a804557488ef24e49b35fffcfabea1a53a7f31fe67aeafbea6c3872ea8c4e6b8,Read in full in IN0; vaccination passage re-checked in INA.
+P27,yes,IN0 (reused in INA),4307,012c202ba80d1447761606c10eb11b613fdc294fdf33e82c3cdedd9c689fd653,Read in full in IN0; branching-process passage re-checked in INA.
+P22,yes,DVC (reused in INA),2518,2b6061ee41604b05da3a49ad125461d715b0075f0eb52464005296aff02c591c,Read in full in DVC; saddle-node passage re-checked in INA.
+P08,yes,DVB (reused in INA),12309,bd58aa97987ed673e1b6ab0d0fb444e3d9d25dcb2f3e0df8eee15265a218af5c,Read in full in DVB; not re-read in INA.

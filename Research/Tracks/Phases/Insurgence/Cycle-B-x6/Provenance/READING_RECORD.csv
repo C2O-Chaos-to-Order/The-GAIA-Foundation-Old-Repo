@@ -1,0 +1,11 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P29,yes,INB,8174,e51dae41289908186905e5da24ab6edf25f3f224ebde961d16ed0bf801810817,"arXiv HTML v2 read end to end (abstract, sections I-VI, figure captions, acknowledgements; reference list and SM not read). Replaces the failed INA fetch."
+P31,yes,INB,9039,d893d16cdae2a8ce494d2c5d08c15d7675f4fb5faf13ec5e6c54e6fb30b5208d,Read end to end (abstract to funding statement incl. supporting-information captions; reference list not read).
+P32,yes,INB,8266,8add4f4fa2f78a145d0799179ba6ca098e8fe8b16e61b52f3273a2ad7f19a8f2,Read end to end (abstract to competing interests incl. Tables 1-4; reference list and supplementary material not read).
+P35,yes,INB,7324,3ff6485185bc84daeb47609c06cdf7c17df5fe3db57b9c2064c66add638b328b,Read end to end (abstract to footnotes; reference list not read).
+P36,yes,INB,4623,ca27ac49421fa17510fef939b93d27c06aa9d117216a7a6bb820e99ba1c598b6,Read end to end (all slides incl. the fragmentation section).
+P37,yes,INB,1181,6614b0b8c008b517c3d9852c480700334a567070f7c6784a54e0dd06e62061c6,Read end to end (whole section incl. reference note and licence).
+P33,no,INB,,,"Fetched (Jo, Kim & Lee 2021, PLoS ONE, about 23,000 words); not read, not cited."
+P34,no,INB,,,"Fetched (Wolf & Vekilov 2026 review, about 17,000 words); not read, not cited."
+P30,yes,INA (reused in INB),4404,88218895f68a17d19789bd6b22cad896ab77d1345b57fa188ea6e43c6e5078b3,Read in full in INA; not re-read.
+P28,yes,INA (reused in INB),9013,d7e737bf7dc69a7f4db4baa239d00130a4085f20c7d7d9d410c7be306598467f,Read in full in INA; not re-read.

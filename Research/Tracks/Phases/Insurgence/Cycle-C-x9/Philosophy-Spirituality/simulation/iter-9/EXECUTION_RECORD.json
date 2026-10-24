@@ -1,0 +1,65 @@
+{
+ "sim_id": "SIM-IN-PHI-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:50:06.521057+00:00",
+ "finished_utc": "2026-10-24T17:50:06.530759+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-9  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "2d49f35c15031f439412b9e3f03ab77d8d89b9f35e6e0dd7ab1c784ec11553aa",
+ "params_sha256": "22f913046225bc58cb1f1db4b5c654936f8e9370a0c5c5685a6d7de678636e5b",
+ "results_sha256": "609f296eb87dc4798ab7d9449326595abda74be27c0af546eec7d912df1ca9c0",
+ "results": {
+  "final": 0.99996972,
+  "max_err": 0.0,
+  "times": {
+   "0.1": 7.99298424,
+   "0.5": 15.31706617,
+   "0.9": 22.64114809
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "RK4 matches the logistic solution within 1e-6",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "from x0 = 0.01 the unaffiliated share exceeds 0.5 by t = 20",
+   "observed": {
+    "0.1": 7.99298424,
+    "0.5": 15.31706617,
+    "0.9": 22.64114809
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.1": 7.99298424,
+    "0.5": 15.31706617,
+    "0.9": 22.64114809
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

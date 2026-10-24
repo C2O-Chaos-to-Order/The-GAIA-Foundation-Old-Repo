@@ -1,0 +1,107 @@
+{
+ "sim_id": "SIM-IN-FOR-D",
+ "iteration": 8,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:05:02.451273+00:00",
+ "finished_utc": "2026-10-24T18:05:03.351416+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-8  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "80aa008e53862c2db834afc80cf695677905242ff3c184a58d792adec471cb81",
+ "params_sha256": "8e344191965f08d68d1ea132682a9df7109098ca9dbbd26a4aac1b41bd27f951",
+ "results_sha256": "db55d0efbfde60b0d504436b5f076b18df73134d77e301744c07989fcdd90526",
+ "results": {
+  "by_n": {
+   "1000": {
+    "mean_largest": 503.1,
+    "se": 20.35815425,
+    "fraction": 0.5031,
+    "scaled": 5.031
+   },
+   "10000": {
+    "mean_largest": 2912.8,
+    "se": 98.52047728,
+    "fraction": 0.29128,
+    "scaled": 6.27543737
+   },
+   "100000": {
+    "mean_largest": 15924.4,
+    "se": 438.18089111,
+    "fraction": 0.159244,
+    "scaled": 7.39145172
+   },
+   "1000000": {
+    "mean_largest": 74150.1,
+    "se": 1766.25532601,
+    "fraction": 0.0741501,
+    "scaled": 7.41501
+   }
+  },
+  "slope": 0.72431247
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "largest component fraction falls with n at c = 1",
+   "observed": [
+    0.5031,
+    0.29128,
+    0.159244,
+    0.0741501
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "log-log slope within 0.1 of 2/3",
+   "observed": 0.72431247,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "1000": {
+     "mean_largest": 503.1,
+     "se": 20.35815425,
+     "fraction": 0.5031,
+     "scaled": 5.031
+    },
+    "10000": {
+     "mean_largest": 2912.8,
+     "se": 98.52047728,
+     "fraction": 0.29128,
+     "scaled": 6.27543737
+    },
+    "100000": {
+     "mean_largest": 15924.4,
+     "se": 438.18089111,
+     "fraction": 0.159244,
+     "scaled": 7.39145172
+    },
+    "1000000": {
+     "mean_largest": 74150.1,
+     "se": 1766.25532601,
+     "fraction": 0.0741501,
+     "scaled": 7.41501
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

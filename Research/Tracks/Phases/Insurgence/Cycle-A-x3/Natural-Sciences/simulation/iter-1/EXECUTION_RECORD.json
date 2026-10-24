@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-IN-NAT-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:38.237343+00:00",
+ "finished_utc": "2026-10-24T17:10:38.256011+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "d263156d52ae51ce1e43d29f78b49f7addc7c14bb813994f408ae9727ff87ba4",
+ "params_sha256": "6c10ecb24483cc8f5ed24e952ed852aa14229c0e54be21de17d2aad359e3f5d7",
+ "results_sha256": "4bb942166f918245ab90e27581e78266311ff228bacc54af1a35ff10032a06b1",
+ "results": {
+  "times": {
+   "0.0001": {
+    "T": 313.96,
+    "exact": 313.95926543
+   },
+   "0.001": {
+    "T": 99.15,
+    "exact": 99.14588332
+   },
+   "0.01": {
+    "T": 31.22,
+    "exact": 31.2159332
+   },
+   "0.1": {
+    "T": 9.74,
+    "exact": 9.73465489
+   }
+  },
+  "slope": -0.50268059
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "passage time within 0.5% of 2 arctan(L/sqrt r)/sqrt r",
+   "observed": {
+    "0.0001": {
+     "T": 313.96,
+     "exact": 313.95926543
+    },
+    "0.001": {
+     "T": 99.15,
+     "exact": 99.14588332
+    },
+    "0.01": {
+     "T": 31.22,
+     "exact": 31.2159332
+    },
+    "0.1": {
+     "T": 9.74,
+     "exact": 9.73465489
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "log-log slope of passage time on r within 0.05 of -1/2",
+   "observed": -0.50268059,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.0001": {
+     "T": 313.96,
+     "exact": 313.95926543
+    },
+    "0.001": {
+     "T": 99.15,
+     "exact": 99.14588332
+    },
+    "0.01": {
+     "T": 31.22,
+     "exact": 31.2159332
+    },
+    "0.1": {
+     "T": 9.74,
+     "exact": 9.73465489
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

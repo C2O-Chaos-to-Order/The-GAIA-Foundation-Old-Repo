@@ -1,0 +1,65 @@
+{
+ "sim_id": "SIM-IN-PHI-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:20:57.663640+00:00",
+ "finished_utc": "2026-10-24T18:20:57.671574+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-12  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "42f8ec6ab2f374ae6917fe1f6fb5e6aa7277046c3bbf8666cb4d8c510d51e6e6",
+ "params_sha256": "0b59f9ffc2528a8c0ef98ded6b0ed94409a4abf6873c73bc65698b84fa7d463d",
+ "results_sha256": "76451200b6c1016da539cdd0e1226f68126ce4967eff5fd7c6f4f4e9fad4a86b",
+ "results": {
+  "x_at_shock": 0.98792659,
+  "peak": 0.98792659,
+  "final": 1.23e-06
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "x stays in [0, 1]",
+   "observed": {
+    "x_at_shock": 0.98792659,
+    "peak": 0.98792659,
+    "final": 1.23e-06
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "after the utility drop to 0.4 the stance declines below 0.05 by t = 120",
+   "observed": {
+    "x_at_shock": 0.98792659,
+    "peak": 0.98792659,
+    "final": 1.23e-06
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "x_at_shock": 0.98792659,
+    "peak": 0.98792659,
+    "final": 1.23e-06
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

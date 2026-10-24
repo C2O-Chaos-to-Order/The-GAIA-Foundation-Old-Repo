@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-IN-NAT-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:38.426402+00:00",
+ "finished_utc": "2026-10-24T17:10:38.498588+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-2  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "33e8ffba51a98faf01e6827bd6e5eff12799d0e4b7188e46aaeb86eb80457740",
+ "params_sha256": "e588eee84c50ecefb248c4b74a52094fc07d5310d47f50dfef6d8160188bad38",
+ "results_sha256": "35d97e8c0f7c2f5305016690faebc9839b40929e0412354d0f5c0686ae749df2",
+ "results": {
+  "mean_onset": 21.38875,
+  "se": 1.23909223,
+  "deterministic": 77.83640596,
+  "cv": 0.81928165,
+  "min": 2.9,
+  "max": 121.1,
+  "censored": 0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no run censored at tmax",
+   "observed": 0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "noise advances onset from a tiny seed: mean below deterministic by > 4 SE",
+   "observed": [
+    21.38875,
+    1.23909223,
+    77.83640596
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "onset timing varies: coefficient of variation > 0.1",
+   "observed": 0.81928165,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mean_onset": 21.38875,
+    "se": 1.23909223,
+    "deterministic": 77.83640596,
+    "cv": 0.81928165,
+    "min": 2.9,
+    "max": 121.1,
+    "censored": 0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
