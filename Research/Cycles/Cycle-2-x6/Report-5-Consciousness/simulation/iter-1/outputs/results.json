@@ -1,0 +1,8 @@
+{
+ "lz_validation": {
+  "constant_raw": 2,
+  "periodic": 0.0119657843,
+  "random": 1.0350470603,
+  "textbook_example": 6
+ }
+}
