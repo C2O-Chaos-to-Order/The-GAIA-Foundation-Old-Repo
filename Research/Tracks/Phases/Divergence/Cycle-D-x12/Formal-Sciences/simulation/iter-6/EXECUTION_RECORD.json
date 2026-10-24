@@ -1,0 +1,135 @@
+{
+ "sim_id": "SIM-DV-FOR-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:48.981532+00:00",
+ "finished_utc": "2026-10-24T16:46:49.011486+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-6  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "b5139dbee879acb450b8f8381c8cf1c8ab3f6a853df5a2d50881adef6fd7b70e",
+ "params_sha256": "f661f5af3b6025b951bd6121a09dce91d4e86dc680414f87ac405395ee066ea7",
+ "results_sha256": "d00a575f1b56f7aa8ffa35f7aeaad09f8fd8dc48c0164e284819326ccf15fa3e",
+ "results": {
+  "D": 0.79078959,
+  "by_n": {
+   "100": {
+    "eqA2_mean": 0.98047755,
+    "eqA2_abs_err": 0.18968796,
+    "lr_mean": 0.79507403,
+    "lr_se": 0.00876884
+   },
+   "1000": {
+    "eqA2_mean": 0.82065742,
+    "eqA2_abs_err": 0.02986783,
+    "lr_mean": 0.79152132,
+    "lr_se": 0.00297504
+   },
+   "10000": {
+    "eqA2_mean": 0.79501669,
+    "eqA2_abs_err": 0.0042271,
+    "lr_mean": 0.79108259,
+    "lr_se": 0.0008391
+   },
+   "100000": {
+    "eqA2_mean": 0.79164493,
+    "eqA2_abs_err": 0.00085534,
+    "lr_mean": 0.79114472,
+    "lr_se": 0.00026729
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "likelihood-ratio rate (expectation exactly D) within 4 SE of D at every n",
+   "observed": [
+    [
+     0.79507403,
+     0.00876884
+    ],
+    [
+     0.79152132,
+     0.00297504
+    ],
+    [
+     0.79108259,
+     0.0008391
+    ],
+    [
+     0.79114472,
+     0.00026729
+    ],
+    0.79078959
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P16 Eq. A2 estimate -(1/n) log L(c|q) within 0.01 nats of D at n = 100000",
+   "observed": 0.00085534,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Eq. A2 absolute error decreases with every increase in n",
+   "observed": [
+    0.18968796,
+    0.02986783,
+    0.0042271,
+    0.00085534
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "D and estimates by n",
+   "observed": {
+    "D": 0.79078959,
+    "by_n": {
+     "100": {
+      "eqA2_mean": 0.98047755,
+      "eqA2_abs_err": 0.18968796,
+      "lr_mean": 0.79507403,
+      "lr_se": 0.00876884
+     },
+     "1000": {
+      "eqA2_mean": 0.82065742,
+      "eqA2_abs_err": 0.02986783,
+      "lr_mean": 0.79152132,
+      "lr_se": 0.00297504
+     },
+     "10000": {
+      "eqA2_mean": 0.79501669,
+      "eqA2_abs_err": 0.0042271,
+      "lr_mean": 0.79108259,
+      "lr_se": 0.0008391
+     },
+     "100000": {
+      "eqA2_mean": 0.79164493,
+      "eqA2_abs_err": 0.00085534,
+      "lr_mean": 0.79114472,
+      "lr_se": 0.00026729
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
