@@ -1,0 +1,23 @@
+{
+  "base_partition": [
+    [
+      "C1",
+      "C5",
+      "C7"
+    ],
+    [
+      "C2",
+      "C3",
+      "C4",
+      "C6"
+    ],
+    [
+      "C8",
+      "C9"
+    ]
+  ],
+  "uncertain_cells": 13,
+  "combinations": 8192,
+  "base_reproduced_fraction": 0.227783203125,
+  "classification": "Indeterminate (coding-sensitive)"
+}

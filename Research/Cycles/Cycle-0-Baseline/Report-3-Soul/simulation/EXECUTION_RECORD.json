@@ -1,0 +1,59 @@
+{
+  "sim_id": "SIM-R3-C0",
+  "status": "executed",
+  "started_utc": "2026-10-23T23:50:37.138011+00:00",
+  "finished_utc": "2026-10-23T23:50:38.470162+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "sim_soul.py",
+  "params": {
+    "coding_file": "coding.csv",
+    "linkage": "average",
+    "k": 3,
+    "metric": "jaccard"
+  },
+  "outputs": {
+    "outputs/results.json": "89c9ad7b77c426cf14c25ec66f598997fae20e53d39829fbd4c38e4bb149841d",
+    "outputs/jaccard_similarity.csv": "d678ad68c40a2eed459fc0b98f6b4fa9cdbca2ddb568283ca876f84dea51be20",
+    "outputs/coclustering_frequency.csv": "295e37a5a800213e13eedaacabda98b7b9f7e589882d5507243d4dd7f1512d4d"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "complete matrix + sources",
+      "observed": true,
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "robustness reported",
+      "observed": {
+        "fraction": 0.2278,
+        "classification": "Indeterminate (coding-sensitive)",
+        "base": [
+          [
+            "C1",
+            "C5",
+            "C7"
+          ],
+          [
+            "C2",
+            "C3",
+            "C4",
+            "C6"
+          ],
+          [
+            "C8",
+            "C9"
+          ]
+        ]
+      },
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}

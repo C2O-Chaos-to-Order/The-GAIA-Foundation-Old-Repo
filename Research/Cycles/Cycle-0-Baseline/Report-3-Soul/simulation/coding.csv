@@ -1,0 +1,10 @@
+id,conception,source,A1_immaterial,A2_survives_death,A3_principle_of_life,A4_seat_of_thought,A5_corporeal,A6_identical_with_universal_ground,A7_permanent_unchanging,A8_form_of_body,A9_enduring_self_denied,A10_interaction_problem_applies,uncertain_cells
+C1,Plato (Phaedo),S07,1,1,1,1,0,0,1,0,0,1,A3;A7
+C2,Aristotle (De Anima),S07,0,0,1,1,0,0,0,1,0,0,A1;A2
+C3,Epicurus,S07,0,0,1,1,1,0,0,0,0,0,
+C4,Stoics (pneuma),S07,0,0,1,1,1,0,0,0,0,0,A2;A6
+C5,Cartesian substance dualism,S08,1,1,0,1,0,0,1,0,0,1,A7
+C6,Hylomorphic dualism (Thomist),S08,1,1,1,1,0,0,0,1,0,0,A7
+C7,Advaita Vedanta atman,S31,1,1,0,0,0,1,1,0,0,0,A2;A3;A4;A10
+C8,Indian Buddhist anatman,S32,0,0,0,0,0,0,0,0,1,0,A2
+C9,Physicalism (no soul),S08,0,0,0,0,0,0,0,0,1,0,
