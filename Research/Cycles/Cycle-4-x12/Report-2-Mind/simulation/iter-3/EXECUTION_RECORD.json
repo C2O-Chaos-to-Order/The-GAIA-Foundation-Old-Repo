@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:06.016298+00:00",
+ "finished_utc": "2026-10-24T04:12:06.773771+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-3",
+ "params_sha256": "9a903e60497a5ee7a19f9e1704f7b38e01751462583d9cc26a1ca17430523910",
+ "outputs": {
+  "outputs/results.json": "6cea0fa87159e9f77d6885bb06760fea6453964c62bfe682aec3b5da9510fd6a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the delay arms ALONE (no pre-exposure curve) recover PH vs KF in >= 80% at noise 0.1 (off-grid generators)",
+   "observed": {
+    "0.05": 0.9666666667,
+    "0.1": 0.9166666667,
+    "0.2": 0.75,
+    "0.3": 0.7333333333
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

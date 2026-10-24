@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 10,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:19.293688+00:00",
+ "finished_utc": "2026-10-24T04:07:19.379867+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-10",
+ "params_sha256": "12a956ad7b9325fe2edc199ae812376715b60690dc66c8e47e839b38235ca922",
+ "outputs": {
+  "outputs/results.json": "b8a1ea7e6fc2cae28ae745e319603c6ef1c56e4cc215bd81c1fb51acd400e2b4"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H10",
+   "kind": "hypothesis",
+   "expect": "imperfect NCO (U acts on N at one third of its effect on D) still flags confounding in >= 80%",
+   "observed": 0.3,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

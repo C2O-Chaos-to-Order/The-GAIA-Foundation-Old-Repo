@@ -1,0 +1,14 @@
+{
+ "experiments": {
+  "T": 100000,
+  "h": 1.0,
+  "m": [
+   0.98,
+   0.999
+  ],
+  "seeds": 5
+ },
+ "iteration": 8,
+ "prev": "../iter-7",
+ "sim_id": "SIM-R5-C4"
+}

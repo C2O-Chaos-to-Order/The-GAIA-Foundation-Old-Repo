@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:00.455173+00:00",
+ "finished_utc": "2026-10-24T04:12:00.459720+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-1",
+ "params_sha256": "4f80724bb7da2805cef91be3b5ad40829a0fc4419abf205b6844eed3b41c39fa",
+ "outputs": {
+  "outputs/results.json": "8ca0a51f0b3e6094717ca1cff6037544517d53811e4a304c2672b4c3a76893d2"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "copied run() (Mackintosh branch removed, rho = 0) reproduces the Cycle-3 iteration-4 LI-by-delay values for PH and KF (|diff| < 1e-9)",
+   "observed": [
+    {
+     "PH": [
+      0.1165149595,
+      0.1165149595,
+      0.1165149595,
+      0.1165149595
+     ],
+     "KF": [
+      0.4194707246,
+      0.2130643999,
+      0.0567337798,
+      0.0084191554
+     ]
+    },
+    {
+     "PH": [
+      0.1165149595,
+      0.1165149595,
+      0.1165149595,
+      0.1165149595
+     ],
+     "KF": [
+      0.4194707246,
+      0.2130643999,
+      0.0567337798,
+      0.0084191554
+     ]
+    }
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "with the new rho option, empty delay steps still change no associative weight",
+   "observed": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

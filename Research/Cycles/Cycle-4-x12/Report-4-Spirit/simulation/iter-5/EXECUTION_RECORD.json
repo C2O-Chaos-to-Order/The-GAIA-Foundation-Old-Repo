@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:16.453525+00:00",
+ "finished_utc": "2026-10-24T04:07:16.543923+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-5",
+ "params_sha256": "ae965d73d63226aeb5f1ce35d90a9473a3526389918c3638f7a8ead5d90ceb50",
+ "outputs": {
+  "outputs/results.json": "372c3fddd0f0d84a2f2367438ef1eff9024be6c8fed85cb0efc1d6759ee7a273"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "negative-control exposure (behaviour with no effect, shares U) flags confounding in >= 80% of cohorts",
+   "observed": 0.91,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

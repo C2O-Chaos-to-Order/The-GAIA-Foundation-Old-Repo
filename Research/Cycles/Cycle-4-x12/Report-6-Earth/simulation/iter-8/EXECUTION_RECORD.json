@@ -1,0 +1,40 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:16:12.535015+00:00",
+ "finished_utc": "2026-10-24T04:16:13.153319+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-8",
+ "params_sha256": "f5597bceade29733d9a1d07d3aac9f6883da801dc98298a5db83ba36a87e4315",
+ "outputs": {
+  "outputs/results.json": "34b3356ae72b729387f9d7b687d91ea15fbacc4c7f05eff44411b6c7c5911001"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "original Daisyworld shows hysteresis: on the reverse sweep life reappears at a luminosity >= 0.02 away from the forward maximum",
+   "observed": [
+    1.496,
+    {
+     "L_first_alive_reverse": 1.16,
+     "L_last_alive_reverse": 0.6
+    }
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

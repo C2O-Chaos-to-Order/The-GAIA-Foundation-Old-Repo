@@ -1,0 +1,14 @@
+{
+ "experiments": {
+  "bin_ms": 4.0,
+  "m": [
+   0.9,
+   0.98,
+   0.984,
+   0.995
+  ]
+ },
+ "iteration": 10,
+ "prev": "../iter-9",
+ "sim_id": "SIM-R5-C4"
+}

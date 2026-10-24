@@ -10,7 +10,7 @@ def test_versions():
 def test_w_prefix_source_ids():
     s = V.load_schemas()["source"]; pat = s["properties"]["source_id"]["pattern"]
     import re
-    assert re.match(pat, "W01") and re.match(pat, "V40") and not re.match(pat, "Y01")  # X allowed since 0.3.0 (was asserted invalid in 0.2.0)
+    assert re.match(pat, "W01") and re.match(pat, "V40") and not re.match(pat, "Z01")  # X allowed since 0.3.0, Y since 0.4.0 (was "Y01 invalid" until 0.4.0)
 
 
 def test_check_ids_may_contain_dots():

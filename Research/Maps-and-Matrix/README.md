@@ -9,5 +9,6 @@ Each version is a separate folder and is never overwritten; a later cycle adds a
 | v1 | `v1-cycles-0-1/` | Cycle 0 (Baseline v2) and Cycle 1 (x3) | `Research/tools` (gaia_tools 0.1.0, data model 1.0.0) | Branch `research/maps-c0-c1`; in `main` since PR #3 |
 | v2 | `v2-cycles-0-2/` | Cycles 0, 1 and 2 (x6) | `Research/tools` (gaia_tools 0.2.0, data model 1.1.0) | Branch `research/cycle-2-x6`; merged into `main` (PR #3) |
 | v3 | `v3-cycles-0-3/` | Cycles 0, 1, 2 and 3 (x9) | `Research/tools` (gaia_tools 0.3.0, data model 1.2.0) | Branch `research/cycle-3-x9` (PR into `research/cycle-2-x6`) |
+| v4 | `v4-cycles-0-4/` | Cycles 0, 1, 2, 3 and 4 (x12) | `Research/tools` (gaia_tools 0.4.0, data model 1.3.0) | Branch `research/cycle-4-x12` (PR into `research/cycle-3-x9`) |
 
 Everything here is generated from the cycle folders by `Research/tools` (`python -m gaia_tools.maps`), so the maps can be regenerated and checked. The labels used are the framework's four: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA as motherthread is a Philosophical/Spiritual organizing principle and is kept separate from scientific findings.

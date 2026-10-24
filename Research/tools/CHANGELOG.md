@@ -1,5 +1,9 @@
 # gaia_tools change log
 
+## 0.4.0 — data model 1.3.0 (Cycle 4, 2026-10-24)
+- Schemas: source and claim-source IDs allow the Cycle-4 prefix `Y` (Y01-Y08). No other schema change.
+- Tests: `tests/test_units_v040.py` (versions, Y ids, C4 SIM ids). The exact-version assertion in `test_units_v030.py` was relaxed to ">= 0.3.0", and the "Y01 is invalid" assertions in `test_units_v020.py` and `test_units_v030.py` were replaced by "Z01 is invalid", because both are intentionally changed in 0.4.0.
+
 ## 0.3.0 — data model 1.2.0 (Cycle 3, 2026-10-24)
 - Schemas: source and claim-source IDs allow the Cycle-3 prefix `X`; link registers may carry `c<n>_strict_rule` and `c<n>_essential_rule` columns (Report 7's rule checks, Cycle 3).
 - `data.is_archived` / `data.simulations`: runs under a `superseded-run-N/` folder are indexed as archived (kept for the record, not re-run, not citable), like Cycle 0's `archive/`; their script is looked up one level up (`superseded-run-N/sim_*.py`). Used for SIM-R4-C3 run 1, superseded after a coding error.

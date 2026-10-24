@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R1-C4",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:08:33.399672+00:00",
+ "finished_utc": "2026-10-24T04:08:33.407663+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-7",
+ "params_sha256": "8228b6f4d313e2b1a5175647ef75301281badd6d9d0358552ebe8dfd87bb531b",
+ "outputs": {
+  "outputs/results.json": "76fc7e938db1d9663613bbf8245bba17b42019e82bf33b45673fbb4e919db32b"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "decay of the learned gain is 1.5-3.5% per day (W05: about 2.5% per decay day for HR and Tc)",
+   "observed": 1.6029451604,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

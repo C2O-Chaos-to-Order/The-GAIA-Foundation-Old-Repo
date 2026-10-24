@@ -1,0 +1,12 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "lens_new": {
+   "lens_rules": "../data/lens_rules_v1.0.1.json"
+  }
+ },
+ "input_register": "../../maps/link_register_input.csv",
+ "iteration": 7,
+ "prev": "../iter-6",
+ "sim_id": "SIM-R7-C4"
+}

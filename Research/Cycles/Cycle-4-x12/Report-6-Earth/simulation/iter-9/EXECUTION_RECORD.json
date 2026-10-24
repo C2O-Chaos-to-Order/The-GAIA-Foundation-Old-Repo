@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:16:13.238045+00:00",
+ "finished_utc": "2026-10-24T04:16:18.324364+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-9",
+ "params_sha256": "400274be82d3d0ff44c205d8e10c832832e69a1cecc7f5fa3e2c2481ceb022c1",
+ "outputs": {
+  "outputs/results.json": "f806616ed29b1c1c87fed7d544d1738dc54d0d1e3090eec08557340420a2d099"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "halving the Euler step changes the extended constrained run's L_establish and L_max by <= 0.01",
+   "observed": [
+    0.524,
+    0.524,
+    1.768,
+    1.768
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

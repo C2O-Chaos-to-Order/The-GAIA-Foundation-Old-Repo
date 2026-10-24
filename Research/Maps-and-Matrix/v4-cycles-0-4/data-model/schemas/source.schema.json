@@ -1,0 +1,67 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/source.schema.json",
+ "title": "Source register entry (data model 1.1.0)",
+ "description": "One row of Provenance/SOURCE_REGISTER.csv (and of each report's sources/sources.csv, which must be an exact subset of the register).",
+ "type": "object",
+ "required": [
+  "source_id",
+  "citation",
+  "source_type",
+  "access_mode",
+  "url",
+  "retrieved_via",
+  "access_date_utc",
+  "http_status",
+  "snapshot_sha256",
+  "used_in"
+ ],
+ "properties": {
+  "source_id": {
+   "type": "string",
+   "pattern": "^[GSTUVWXY][0-9]{2}[a-z]?$"
+  },
+  "citation": {
+   "type": "string",
+   "minLength": 5
+  },
+  "source_type": {
+   "type": "string",
+   "minLength": 3
+  },
+  "access_mode": {
+   "type": "string",
+   "minLength": 3,
+   "description": "Free text in Cycle 0; values not starting with 'full text', 'abstract only' or 'excerpt' are reported as quality warning Q2."
+  },
+  "url": {
+   "type": "string",
+   "minLength": 5
+  },
+  "retrieved_via": {
+   "type": "string",
+   "minLength": 3
+  },
+  "access_date_utc": {
+   "type": "string",
+   "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+  },
+  "http_status": {
+   "type": "string",
+   "pattern": "^([0-9]{3}|n/a)$"
+  },
+  "snapshot_sha256": {
+   "type": "string",
+   "pattern": "^([0-9a-f]{64})?$"
+  },
+  "used_in": {
+   "type": "string",
+   "pattern": "^R[1-7](;R[1-7])*$"
+  },
+  "cycle_added": {
+   "type": "string",
+   "pattern": "^C[0-9]+$"
+  }
+ },
+ "additionalProperties": false
+}

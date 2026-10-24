@@ -1,0 +1,86 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:15:48.615002+00:00",
+ "finished_utc": "2026-10-24T04:15:51.356201+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-1",
+ "params_sha256": "14ddb6be3b45bfc7a46292611e198d31c90eadab814f3ab20f51cdce1a051a60",
+ "outputs": {
+  "outputs/results.json": "9f6578b71669c49e9ac5f37159e72de0bfdc014dc051be053fff6f6d91c0081c"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "vectorised copy reproduces Cycle-3 iter-2 (original) and iter-6 (constrained) summaries over L 0.5-1.7 (|diff| < 1e-9)",
+   "observed": [
+    [
+     0.684,
+     1.496,
+     0.5514755984,
+     -0.0306573565
+    ],
+    [
+     0.684,
+     1.496,
+     0.5514755984,
+     -0.0306573565
+    ],
+    [
+     0.524,
+     1.7,
+     0.812265733,
+     0.1851610338
+    ],
+    [
+     0.524,
+     1.7,
+     0.812265733,
+     0.1851610338
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "extending the range to L = 2.6 leaves the original model's summary unchanged (life is gone by L 1.5)",
+   "observed": [
+    [
+     0.684,
+     1.496,
+     0.5514755984,
+     -0.0306573565
+    ],
+    [
+     0.684,
+     1.496,
+     0.5514755984,
+     -0.0306573565
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "C0",
+   "kind": "reporting",
+   "expect": "Cycle-3 constrained run ended at the range edge (L_max = L1 = 1.7)",
+   "observed": true,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

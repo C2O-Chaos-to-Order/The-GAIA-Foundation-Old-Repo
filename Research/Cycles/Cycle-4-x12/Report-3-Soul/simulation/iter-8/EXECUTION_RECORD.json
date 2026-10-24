@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:15.296897+00:00",
+ "finished_utc": "2026-10-24T04:14:15.473698+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-8",
+ "params_sha256": "edc6ef6f898601c0c9021673ef45fd4e2ea938c520c26ea28a0e4cb1a3410abe",
+ "outputs": {
+  "outputs/results.json": "60dfcbb5f67eb484281b7e07fa49650797aaa26db3d6eca161f2bf70eccc34fb"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "every multi-member cluster has a stable core of >= 2 conceptions that co-cluster in >= 80% of attribute bootstraps",
+   "observed": {
+    "1": {
+     "members": [
+      "C12",
+      "C13"
+     ],
+     "stable_core": []
+    },
+    "2": {
+     "members": [
+      "C05",
+      "C14"
+     ],
+     "stable_core": []
+    },
+    "3": {
+     "members": [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     "stable_core": []
+    },
+    "4": {
+     "members": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11",
+      "C15"
+     ],
+     "stable_core": [
+      "C01",
+      "C02",
+      "C04",
+      "C06",
+      "C11",
+      "C15"
+     ]
+    }
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

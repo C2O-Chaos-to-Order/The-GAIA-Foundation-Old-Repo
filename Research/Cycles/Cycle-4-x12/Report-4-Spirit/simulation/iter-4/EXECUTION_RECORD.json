@@ -1,0 +1,51 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:16.273239+00:00",
+ "finished_utc": "2026-10-24T04:07:16.366703+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-4",
+ "params_sha256": "23d35ed51bed439b258d6892e8145e78c23875f642f845136243bb7f99d5cee4",
+ "outputs": {
+  "outputs/results.json": "c76fe7f51087e1cf4a8f7f53b1c08af7a247ff4a1ef2db49360b8ac81670cc70"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "ratio correction OR_D/OR_N is within 10% of the truth only when U acts equally on N and D (gN = gD = 1)",
+   "observed": [
+    false,
+    false,
+    true,
+    true
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H4r",
+   "kind": "reporting",
+   "expect": "corrected ORs",
+   "observed": [
+    0.578,
+    0.654,
+    0.73,
+    0.81
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:13.311751+00:00",
+ "finished_utc": "2026-10-24T04:14:13.551768+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-2",
+ "params_sha256": "17c4cbe148faa45b63ac8201d9b641d9c9088f8183fbaa8d0481e65866ddb52f",
+ "outputs": {
+  "outputs/results.json": "01f8e65563f4178688882b37949b18a41f46781c568436c6fde065dd07ae19a5"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "resampling the 12 attributes with replacement (1000 draws) leaves the partition largely intact: mean ARI vs the original >= 0.65",
+   "observed": {
+    "mean_ari": 0.4393977987,
+    "q05": 0.1775456919,
+    "share_ge_0_65": 0.096
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

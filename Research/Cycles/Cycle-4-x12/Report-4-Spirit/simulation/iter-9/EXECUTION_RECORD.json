@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:19.003106+00:00",
+ "finished_utc": "2026-10-24T04:07:19.207124+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-9",
+ "params_sha256": "23452cde7f89cf55b8cbf44069b9b4fdab773001fd6edd0edbbf2f348c5d2904",
+ "outputs": {
+  "outputs/results.json": "1357ebc6e5f7bf5624f9b319217513d5c09f50b53988119764bf326591446344"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "rare outcomes (2%): NCO power >= 80% at n = 20,000 for a confounder producing a spurious OR near 0.7",
+   "observed": 0.55,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

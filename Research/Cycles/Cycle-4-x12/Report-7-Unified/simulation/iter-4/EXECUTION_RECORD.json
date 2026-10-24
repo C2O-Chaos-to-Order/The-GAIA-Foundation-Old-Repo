@@ -1,0 +1,43 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:30.166593+00:00",
+ "finished_utc": "2026-10-24T04:22:30.361133+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-4",
+ "params_sha256": "5e4bcbb74e125ea6b3cbf5c1e4fa728a69635bd64a10d32b8edf244bd797c64a",
+ "outputs": {
+  "outputs/results.json": "1ff3da7238cd933fc5fdd9f018a82e07e34d53c44f6f2f898dbf2b4891cbae3b"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "even at a 20% claim-mislabelling rate, the median share of Established links that downgrade is <= 0.5",
+   "observed": {
+    "0.1": {
+     "median": 0.1666666667,
+     "q90": 0.5
+    },
+    "0.2": {
+     "median": 0.5,
+     "q90": 0.6666666667
+    }
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

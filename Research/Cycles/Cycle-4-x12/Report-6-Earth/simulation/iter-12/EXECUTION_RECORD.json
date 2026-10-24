@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 12,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:16:43.405558+00:00",
+ "finished_utc": "2026-10-24T04:16:43.406198+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-12",
+ "params_sha256": "8ff0b8eb804752faf4fc1bf1d0b18d9dd9534a97b5a8f49b1d2584afd6ac9b50",
+ "outputs": {
+  "outputs/results.json": "6719b74df0822617472a24d86a77b7de52bcff3e446874ac295ab026f92173c6"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H12",
+   "kind": "hypothesis",
+   "expect": "consolidation: the Cycle-3 mismatch with the published constrained row was (at least in part) a range artefact - with the range extended, L_max is beyond 1.7 and closer to 2.32 than Cycle 3's 1.70",
+   "observed": 1.768,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

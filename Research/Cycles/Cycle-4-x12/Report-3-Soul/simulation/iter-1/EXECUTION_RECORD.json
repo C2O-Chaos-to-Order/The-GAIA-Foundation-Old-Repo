@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:13.056236+00:00",
+ "finished_utc": "2026-10-24T04:14:13.058015+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-1",
+ "params_sha256": "d6341b480f2ba1fdfcf28b9d39d845553d2e768c36ba763723639b4a32bba8eb",
+ "outputs": {
+  "outputs/results.json": "9a4066a74eeb420d095c3b281eb016ac5fdc8c4e5a1e3cd521060372189d9790"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "copied cluster() reproduces the Cycle-3 iteration-7 labels for coding A exactly",
+   "observed": [
+    [
+     4,
+     4,
+     4,
+     4,
+     2,
+     4,
+     3,
+     3,
+     3,
+     4,
+     4,
+     1,
+     1,
+     2,
+     4
+    ],
+    [
+     4,
+     4,
+     4,
+     4,
+     2,
+     4,
+     3,
+     3,
+     3,
+     4,
+     4,
+     1,
+     1,
+     2,
+     4
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "ARI = 1 for a relabelled identical partition and <= 0 for an orthogonal one",
+   "observed": [
+    1.0,
+    -0.1111111111
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "C0",
+   "kind": "reporting",
+   "expect": "number of cells coder A marked uncertain, and cluster sizes",
+   "observed": [
+    39,
+    {
+     "1": 2,
+     "2": 2,
+     "3": 3,
+     "4": 8
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

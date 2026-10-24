@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 12,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:19.159009+00:00",
+ "finished_utc": "2026-10-24T04:12:19.159562+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-12",
+ "params_sha256": "02400d4a222f6cf1aeee4809752e67f374344febf661f931aad778efa1bb79f7",
+ "outputs": {
+  "outputs/results.json": "02a4cb5e49999ba579eb474d46503d8ec34cb06f9e8ae3693644487eb63fb5bf"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H12",
+   "kind": "hypothesis",
+   "expect": "consolidation: the delay arms carry the discrimination - the delay-only design (iter-3) recovers at least as well as the pre-exposure-curve-only design (iter-4) at noise 0.1",
+   "observed": {
+    "iter-3": 0.9166666667,
+    "iter-4": 0.9,
+    "iter-5": 0.9333333333
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

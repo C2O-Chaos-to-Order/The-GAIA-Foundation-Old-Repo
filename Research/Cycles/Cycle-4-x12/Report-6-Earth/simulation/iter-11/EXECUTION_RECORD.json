@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 11,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:16:34.440153+00:00",
+ "finished_utc": "2026-10-24T04:16:43.303103+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-11",
+ "params_sha256": "89e8a2232578d932de25da8b10f4482bd19d60f013a34a8906943fb705fd223f",
+ "outputs": {
+  "outputs/results.json": "3ef8131ad742b53868275054fa31ac26d1dfa55a99792333a17e41593f7c1cdc"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H11",
+   "kind": "hypothesis",
+   "expect": "one-at-a-time changes of death rate c and growth half-width r (+-10%) move the constrained L_max by <= 0.1",
+   "observed": [
+    1.768,
+    {
+     "c": [
+      {
+       "v": 0.27,
+       "L_max": 1.82
+      },
+      {
+       "v": 0.33,
+       "L_max": 1.72
+      }
+     ],
+     "r": [
+      {
+       "v": 15.75,
+       "L_max": 1.756
+      },
+      {
+       "v": 19.25,
+       "L_max": 1.784
+      }
+     ]
+    }
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

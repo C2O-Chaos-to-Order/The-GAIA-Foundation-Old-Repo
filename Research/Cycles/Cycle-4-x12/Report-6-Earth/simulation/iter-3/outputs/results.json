@@ -1,0 +1,11 @@
+{
+ "unbounded_extended": {
+  "L_establish": 0.5,
+  "L_max": 2.6,
+  "at_range_edge": true,
+  "frac_within_5C": 0.0475285171,
+  "slope_ratio": 1.058582256,
+  "total_life": 1.468592,
+  "width": 2.1
+ }
+}

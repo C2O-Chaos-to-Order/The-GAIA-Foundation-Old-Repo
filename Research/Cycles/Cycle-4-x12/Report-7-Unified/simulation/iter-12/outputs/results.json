@@ -1,0 +1,12 @@
+{
+ "gate_inputs": {
+  "gate": "INDETERMINATE (Indeterminate is never Pass)",
+  "hypotheses": 72,
+  "independent_human_coding": "not possible for this agent",
+  "independent_review": "not performed",
+  "runs": 84,
+  "supported": 45,
+  "validation": 19,
+  "validation_pass": 19
+ }
+}

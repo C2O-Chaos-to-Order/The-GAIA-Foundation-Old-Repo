@@ -1,0 +1,20 @@
+{
+ "linear": {
+  "L_establish": 0.54,
+  "L_max": 1.584,
+  "at_range_edge": false,
+  "frac_within_5C": 0.786259542,
+  "slope_ratio": 0.1957950375,
+  "total_life": 0.6704194121,
+  "width": 1.044
+ },
+ "quadratic": {
+  "L_establish": 0.524,
+  "L_max": 1.768,
+  "at_range_edge": false,
+  "frac_within_5C": 0.6858974359,
+  "slope_ratio": 0.2313901176,
+  "total_life": 0.8542809605,
+  "width": 1.244
+ }
+}

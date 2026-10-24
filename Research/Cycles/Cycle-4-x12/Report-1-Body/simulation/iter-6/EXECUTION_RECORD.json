@@ -1,0 +1,47 @@
+{
+ "sim_id": "SIM-R1-C4",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:08:32.834997+00:00",
+ "finished_utc": "2026-10-24T04:08:32.856782+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-6",
+ "params_sha256": "375344cfe2e982c327b1bff4af855262cc74cc00dfe394b671723b110f19d697",
+ "outputs": {
+  "outputs/results.json": "498baf354c21a7ccf54e6215a916ec5c623af72569231e92decc5ee7803d656d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "selected setting meets both anchors at 90%, 95% and 98% re-induction thresholds",
+   "observed": {
+    "0.9": [
+     9.109865286,
+     6.3237445334
+    ],
+    "0.95": [
+     8.2128682601,
+     6.3237445334
+    ],
+    "0.98": [
+     7.644577713,
+     6.3237445334
+    ]
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

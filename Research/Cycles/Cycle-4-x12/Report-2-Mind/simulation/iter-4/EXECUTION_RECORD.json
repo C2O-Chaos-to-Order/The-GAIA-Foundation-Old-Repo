@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:07.355216+00:00",
+ "finished_utc": "2026-10-24T04:12:08.221322+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-4",
+ "params_sha256": "1c788297f46e9317c8473e743f034d0a84b77fa776ba25f4b9698acea848f1e2",
+ "outputs": {
+  "outputs/results.json": "505f79d1a62c7165c1fb7e1fd86e7b74f0ec6b028b79620c1d339eae9c089608"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "the pre-exposure curve ALONE (no delay) recovers PH vs KF in >= 80% at noise 0.1 (off-grid generators)",
+   "observed": {
+    "0.05": 0.9333333333,
+    "0.1": 0.9,
+    "0.2": 0.7333333333,
+    "0.3": 0.6833333333
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

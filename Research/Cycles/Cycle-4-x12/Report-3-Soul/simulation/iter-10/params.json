@@ -1,0 +1,15 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "experiments": {
+  "coder_c": {
+   "n": 1000,
+   "seed": 10,
+   "window": 600
+  }
+ },
+ "iteration": 10,
+ "k": 4,
+ "prev": "../iter-9",
+ "sim_id": "SIM-R3-C4",
+ "windows": "../data/window_hits_c3.json"
+}

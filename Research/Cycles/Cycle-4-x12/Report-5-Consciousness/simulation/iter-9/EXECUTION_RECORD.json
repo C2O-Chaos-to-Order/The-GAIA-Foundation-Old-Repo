@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:22.391473+00:00",
+ "finished_utc": "2026-10-24T04:06:22.520876+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-9",
+ "params_sha256": "c66eeeac6738b7ce677ad280206f69f76b7617d282d3ee440a49e371169304e3",
+ "outputs": {
+  "outputs/results.json": "17ca6aa877ef528a9dd3b6fb0d1146aaaf8bd221b467ae9dd534016b1dffffbd"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "slowly varying input (+-50%): MR bias < 0.03",
+   "observed": 0.0432871766,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

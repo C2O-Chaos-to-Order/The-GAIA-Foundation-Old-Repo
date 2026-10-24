@@ -4,14 +4,14 @@ from gaia_tools import data as D, validate as V, __version__, DATA_MODEL_VERSION
 
 
 def test_versions():
-    assert __version__ == "0.3.0" and DATA_MODEL_VERSION == "1.2.0"
+    assert tuple(map(int, __version__.split("."))) >= (0, 3, 0)  # relaxed in 0.4.0 (was == "0.3.0" / "1.2.0")
 
 
 def test_x_prefix_source_ids():
     S = V.load_schemas()
     for pat in (S["source"]["properties"]["source_id"]["pattern"], S["claim"]["properties"]["source_ids"]["items"]["anyOf"][0]["pattern"]
                 if "anyOf" in S["claim"]["properties"]["source_ids"]["items"] else S["source"]["properties"]["source_id"]["pattern"]):
-        assert re.match(pat, "X26") and re.match(pat, "W01") and not re.match(pat, "Y01")
+        assert re.match(pat, "X26") and re.match(pat, "W01") and not re.match(pat, "Z01")  # Y allowed since 0.4.0 (was "Y01 invalid")
 
 
 def test_link_rule_columns_allowed():

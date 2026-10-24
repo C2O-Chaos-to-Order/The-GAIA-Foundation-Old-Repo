@@ -1,0 +1,54 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:01.065996+00:00",
+ "finished_utc": "2026-10-24T04:12:05.451161+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-2",
+ "params_sha256": "6ceb53b6fdc86416409ccbce2c40f298dd5d2796231014b63983469b3634b151",
+ "outputs": {
+  "outputs/results.json": "e76d6030ab17d5bc115f61476c901ec289cfe553b7e592a4e6831a23c443e094"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "80% power to detect the KF delay effect (two groups, t-test) is reached at <= 20 subjects per group with between-subject SD 0.3 in LI",
+   "observed": 20,
+   "result": "Supported"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "PH has no delay effect, so its 'detection' rate is the false-positive rate: every cell within 2-9% (nominal 5%)",
+   "observed": [
+    0.0775,
+    0.04,
+    0.055,
+    0.035,
+    0.0525,
+    0.0575,
+    0.0475,
+    0.0675,
+    0.0475,
+    0.0525,
+    0.0425,
+    0.0625
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

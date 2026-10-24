@@ -1,0 +1,42 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 10,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:16:18.417126+00:00",
+ "finished_utc": "2026-10-24T04:16:34.341425+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-10",
+ "params_sha256": "1b5bbabc76e89fdf43e13152256899d41ea34f471704e8eb0c8e2f862bfe3786",
+ "outputs": {
+  "outputs/results.json": "d2389dadddc2baaae22d9c97f38f9e5a389018033a00fd9aa123dcf77e34108c"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H10",
+   "kind": "hypothesis",
+   "expect": "CALIBRATION (not reproduction): some setting in the k x R grid matches both ends of the published constrained row within +-0.05",
+   "observed": {
+    "k": 0.03,
+    "R": 60.0,
+    "L_establish": 0.516,
+    "L_max": 1.828,
+    "total_life": 0.9072924512,
+    "slope_ratio": 0.2473027056,
+    "err": 0.492
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

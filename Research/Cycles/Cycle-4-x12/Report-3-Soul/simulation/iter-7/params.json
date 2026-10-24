@@ -1,0 +1,14 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "experiments": {
+  "metrics": [
+   "hamming",
+   "dice"
+  ]
+ },
+ "iteration": 7,
+ "k": 4,
+ "prev": "../iter-6",
+ "sim_id": "SIM-R3-C4",
+ "windows": "../data/window_hits_c3.json"
+}

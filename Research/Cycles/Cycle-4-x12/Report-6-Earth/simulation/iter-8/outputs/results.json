@@ -1,0 +1,15 @@
+{
+ "forward": {
+  "L_establish": 0.684,
+  "L_max": 1.496,
+  "at_range_edge": false,
+  "frac_within_5C": 0.9754901961,
+  "slope_ratio": -0.0306573565,
+  "total_life": 0.5514755984,
+  "width": 0.812
+ },
+ "reverse": {
+  "L_first_alive_reverse": 1.16,
+  "L_last_alive_reverse": 0.6
+ }
+}

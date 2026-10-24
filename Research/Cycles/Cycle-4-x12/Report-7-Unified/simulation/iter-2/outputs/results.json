@@ -1,0 +1,173 @@
+{
+ "downgraded": [],
+ "strict_rule": [
+  {
+   "bad": [],
+   "link_id": "L01",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L02",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L03",
+   "new": "Established",
+   "old": "Established"
+  },
+  {
+   "bad": [],
+   "link_id": "L04",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L05",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L06",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L07",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L08",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L09",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L10",
+   "new": "Established",
+   "old": "Established"
+  },
+  {
+   "bad": [],
+   "link_id": "L11",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L12",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L13",
+   "new": "Established",
+   "old": "Established"
+  },
+  {
+   "bad": [],
+   "link_id": "L14",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L15",
+   "new": "Hypothetical",
+   "old": "Hypothetical"
+  },
+  {
+   "bad": [],
+   "link_id": "L16",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L17",
+   "new": "Established",
+   "old": "Established"
+  },
+  {
+   "bad": [],
+   "link_id": "L18",
+   "new": "Hypothetical",
+   "old": "Hypothetical"
+  },
+  {
+   "bad": [],
+   "link_id": "L19",
+   "new": "Established",
+   "old": "Established"
+  },
+  {
+   "bad": [],
+   "link_id": "L20",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L21",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L22",
+   "new": "Established",
+   "old": "Established"
+  },
+  {
+   "bad": [],
+   "link_id": "L23",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L24",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L25",
+   "new": "Plausible",
+   "old": "Plausible"
+  },
+  {
+   "bad": [],
+   "link_id": "L26",
+   "new": "Hypothetical",
+   "old": "Hypothetical"
+  },
+  {
+   "bad": [],
+   "link_id": "L27",
+   "new": "Philosophical/Spiritual",
+   "old": "Philosophical/Spiritual"
+  },
+  {
+   "bad": [],
+   "link_id": "L28",
+   "new": "Plausible",
+   "old": "Plausible"
+  }
+ ]
+}

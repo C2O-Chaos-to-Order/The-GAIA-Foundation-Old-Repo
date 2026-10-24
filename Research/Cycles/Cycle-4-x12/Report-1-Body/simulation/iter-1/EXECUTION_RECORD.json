@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R1-C4",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:08:27.327796+00:00",
+ "finished_utc": "2026-10-24T04:08:27.342558+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-1",
+ "params_sha256": "27c4302dec7e864361128b1d098c69c7d49fe80445f7139b8822a6b4c164ac9b",
+ "outputs": {
+  "outputs/results.json": "6d470338cf6297983ca1cbcda51f78e5ac49c53b11c78b8ac46539af56df21e8"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "imported Cycle-3 code reproduces C3 iteration-2's selected-setting ratio 7.0",
+   "observed": 7.0,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "continuous crossing time lies within the whole-day interval (need-1, need]",
+   "observed": [
+    1.3248406468,
+    2
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,94 @@
+{
+ "best": {
+  "L_establish": 0.516,
+  "L_max": 1.828,
+  "R": 60.0,
+  "err": 0.492,
+  "k": 0.03,
+  "slope_ratio": 0.2473027056,
+  "total_life": 0.9072924512
+ },
+ "calibration": [
+  {
+   "L_establish": 0.548,
+   "L_max": 1.576,
+   "R": 25.0,
+   "err": 0.744,
+   "k": 0.03,
+   "slope_ratio": 0.1198500805,
+   "total_life": 0.6988264164
+  },
+  {
+   "L_establish": 0.524,
+   "L_max": 1.768,
+   "R": 40.0,
+   "err": 0.552,
+   "k": 0.03,
+   "slope_ratio": 0.2316989048,
+   "total_life": 0.854302897
+  },
+  {
+   "L_establish": 0.516,
+   "L_max": 1.828,
+   "R": 60.0,
+   "err": 0.492,
+   "k": 0.03,
+   "slope_ratio": 0.2473027056,
+   "total_life": 0.9072924512
+  },
+  {
+   "L_establish": 0.548,
+   "L_max": 1.568,
+   "R": 25.0,
+   "err": 0.752,
+   "k": 0.1,
+   "slope_ratio": 0.1117072987,
+   "total_life": 0.6945823693
+  },
+  {
+   "L_establish": 0.524,
+   "L_max": 1.768,
+   "R": 40.0,
+   "err": 0.552,
+   "k": 0.1,
+   "slope_ratio": 0.2313901176,
+   "total_life": 0.8542809605
+  },
+  {
+   "L_establish": 0.516,
+   "L_max": 1.828,
+   "R": 60.0,
+   "err": 0.492,
+   "k": 0.1,
+   "slope_ratio": 0.2471722304,
+   "total_life": 0.9072947309
+  },
+  {
+   "L_establish": 0.548,
+   "L_max": 1.568,
+   "R": 25.0,
+   "err": 0.752,
+   "k": 0.3,
+   "slope_ratio": 0.1201439616,
+   "total_life": 0.6922974245
+  },
+  {
+   "L_establish": 0.524,
+   "L_max": 1.768,
+   "R": 40.0,
+   "err": 0.552,
+   "k": 0.3,
+   "slope_ratio": 0.2313282694,
+   "total_life": 0.8542822064
+  },
+  {
+   "L_establish": 0.516,
+   "L_max": 1.828,
+   "R": 60.0,
+   "err": 0.492,
+   "k": 0.3,
+   "slope_ratio": 0.247103721,
+   "total_life": 0.9072957659
+  }
+ ]
+}

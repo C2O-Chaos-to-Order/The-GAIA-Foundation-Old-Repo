@@ -1,0 +1,62 @@
+{
+ "sim_id": "SIM-R2-C4",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:12:14.938172+00:00",
+ "finished_utc": "2026-10-24T04:12:14.954156+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-8",
+ "params_sha256": "2f0fa9e8bcbff6e05d1d43d6416952659712daed30dfdd30d6c5d79245c0f7bf",
+ "outputs": {
+  "outputs/results.json": "6dc5f6b132996141cf3cad24715b228d0345c11f0e3bbe621ac48aadc3a78efa"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "at KF defaults, a delay of <= 20 empty steps halves LI",
+   "observed": 20,
+   "result": "Supported"
+  },
+  {
+   "id": "H8r",
+   "kind": "reporting",
+   "expect": "delay needed to halve LI, by tau2",
+   "observed": [
+    {
+     "tau2": 0.001,
+     "half": 100
+    },
+    {
+     "tau2": 0.003,
+     "half": 50
+    },
+    {
+     "tau2": 0.01,
+     "half": 20
+    },
+    {
+     "tau2": 0.03,
+     "half": 5
+    },
+    {
+     "tau2": 0.1,
+     "half": 5
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

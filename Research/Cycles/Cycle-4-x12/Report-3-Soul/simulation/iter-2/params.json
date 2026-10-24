@@ -1,0 +1,14 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "experiments": {
+  "bootstrap_attributes": {
+   "n": 1000,
+   "seed": 2
+  }
+ },
+ "iteration": 2,
+ "k": 4,
+ "prev": "../iter-1",
+ "sim_id": "SIM-R3-C4",
+ "windows": "../data/window_hits_c3.json"
+}

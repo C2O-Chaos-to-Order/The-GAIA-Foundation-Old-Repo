@@ -1,0 +1,43 @@
+{
+ "by_bound": [
+  {
+   "L_establish": 0.524,
+   "L_max": 1.768,
+   "at_range_edge": false,
+   "bound": [
+    5.0,
+    40.0
+   ],
+   "frac_within_5C": 0.6858974359,
+   "slope_ratio": 0.2313901176,
+   "total_life": 0.8542809605,
+   "width": 1.244
+  },
+  {
+   "L_establish": 0.5,
+   "L_max": 1.792,
+   "at_range_edge": false,
+   "bound": [
+    0.0,
+    45.0
+   ],
+   "frac_within_5C": 0.6604938272,
+   "slope_ratio": 0.2728384511,
+   "total_life": 0.8785220863,
+   "width": 1.292
+  },
+  {
+   "L_establish": 0.564,
+   "L_max": 1.712,
+   "at_range_edge": false,
+   "bound": [
+    10.0,
+    35.0
+   ],
+   "frac_within_5C": 0.7430555556,
+   "slope_ratio": 0.1681177185,
+   "total_life": 0.7947041505,
+   "width": 1.148
+  }
+ ]
+}

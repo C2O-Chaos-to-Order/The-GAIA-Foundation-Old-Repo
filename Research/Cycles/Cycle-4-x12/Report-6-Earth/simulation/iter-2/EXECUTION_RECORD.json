@@ -1,0 +1,48 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:15:51.446739+00:00",
+ "finished_utc": "2026-10-24T04:15:53.132776+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-2",
+ "params_sha256": "26c5cb1b6b091f97534559c12fdb4986e291ea1f319edb65438fac3f45a1dc52",
+ "outputs": {
+  "outputs/results.json": "0997a697c14f466044c3cc0921bb2b1d5acf335b9bf2cc9862916d746a499aec"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "over the extended range, our constrained variant's maximum luminosity is within +-0.1 of the published 2.32",
+   "observed": [
+    1.768,
+    2.32,
+    false
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2r",
+   "kind": "reporting",
+   "expect": "establishment, total life (published 1.223)",
+   "observed": [
+    0.524,
+    0.8542809605
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
