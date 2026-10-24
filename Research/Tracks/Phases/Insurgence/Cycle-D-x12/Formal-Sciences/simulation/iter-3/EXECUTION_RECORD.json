@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-IN-FOR-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:04:57.210762+00:00",
+ "finished_utc": "2026-10-24T18:04:57.954806+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "c02b299681f813d853882853556b837c59064477f64520be3cb2716fa09c0a4d",
+ "params_sha256": "6db9bf54deb1e2dc1c2da6c8eeda7836b639c3b3e6aa4b86141f5ee547ec6060",
+ "results_sha256": "7318e89966ad2fdb70cbc9364eaacef5af4ae18c564e608caf7be7dfc9fe5d2a",
+ "results": {
+  "by_n": {
+   "25": {
+    "p_lo": 0.3475,
+    "p_hi": 0.6475,
+    "slope": 7.5
+   },
+   "50": {
+    "p_lo": 0.2375,
+    "p_hi": 0.755,
+    "slope": 12.9375
+   },
+   "100": {
+    "p_lo": 0.0825,
+    "p_hi": 0.825,
+    "slope": 18.5625
+   },
+   "200": {
+    "p_lo": 0.0125,
+    "p_hi": 0.96,
+    "slope": 23.6875
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "probabilities in [0, 1]",
+   "observed": [
+    7.5,
+    12.9375,
+    18.5625,
+    23.6875
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the transition sharpens with n (slope increases with n)",
+   "observed": [
+    7.5,
+    12.9375,
+    18.5625,
+    23.6875
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "25": {
+     "p_lo": 0.3475,
+     "p_hi": 0.6475,
+     "slope": 7.5
+    },
+    "50": {
+     "p_lo": 0.2375,
+     "p_hi": 0.755,
+     "slope": 12.9375
+    },
+    "100": {
+     "p_lo": 0.0825,
+     "p_hi": 0.825,
+     "slope": 18.5625
+    },
+    "200": {
+     "p_lo": 0.0125,
+     "p_hi": 0.96,
+     "slope": 23.6875
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
