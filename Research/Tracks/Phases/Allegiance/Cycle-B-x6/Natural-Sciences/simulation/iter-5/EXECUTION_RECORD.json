@@ -1,0 +1,213 @@
+{
+ "sim_id": "SIM-AL-NAT-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:37.027614+00:00",
+ "finished_utc": "2026-10-24T19:11:37.039726+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-5  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "de17533c7295d0858e72852b4496bc020ff7dcec301d404c7064e386e925343d",
+ "params_sha256": "286d7aadb6a30a311dfb72c518ecf3497b7696d28970c4f628c2b0c4e27d977f",
+ "results_sha256": "9ef061a107fd3f596ec85c096d0f1d5da5dc099dbd75c726628fee6f55672a50",
+ "results": {
+  "model": "MWC",
+  "main": {
+   "log10_P50": 1.0,
+   "P50": 10.0,
+   "slope_low": 1.00002377,
+   "slope_high": 1.00003597,
+   "slope_max": 3.00824831,
+   "log10_p_at_max": 1.0,
+   "monotone": true,
+   "y_min": 1e-08,
+   "y_max": 0.99999999
+  },
+  "by_L": {
+   "100.0": {
+    "log10_P50": 0.455,
+    "P50": 2.85101827,
+    "slope_low": 1.00041135,
+    "slope_high": 1.00000192,
+    "slope_max": 2.47407034,
+    "log10_p_at_max": 0.298,
+    "monotone": true,
+    "y_min": 2e-08,
+    "y_max": 0.99999999
+   },
+   "10000.0": {
+    "log10_P50": 1.0,
+    "P50": 10.0,
+    "slope_low": 1.00002377,
+    "slope_high": 1.00003597,
+    "slope_max": 3.00824831,
+    "log10_p_at_max": 1.0,
+    "monotone": true,
+    "y_min": 1e-08,
+    "y_max": 0.99999999
+   },
+   "1000000.0": {
+    "log10_P50": 1.545,
+    "P50": 35.0751874,
+    "slope_low": 1.00000049,
+    "slope_high": 1.00043207,
+    "slope_max": 2.47407034,
+    "log10_p_at_max": 1.702,
+    "monotone": true,
+    "y_min": 1e-08,
+    "y_max": 0.99999998
+   }
+  },
+  "T_only_max_dev": 0.00052661,
+  "R_only_max_dev": 0.00033972,
+  "nmax_spread_over_L": 0.53417797,
+  "n_ref": 2.8
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "saturation monotone within (0, 1); T-only and R-only partition functions give Hill slope 1 within 0.01 where 1e-6 < y < 1 - 1e-6 (non-cooperative within each quaternary state, P53)",
+   "observed": [
+    true,
+    1e-08,
+    0.99999999,
+    0.00052661,
+    0.00033972
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "end slopes of the Hill plot within 0.05 of 1",
+   "observed": [
+    1.00002377,
+    1.00003597
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "maximum Hill slope within 0.5 of n = 2.8 (P46's fitted value for haemoglobin)",
+   "observed": [
+    3.00824831,
+    2.8
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "changing only L (as heterotropic effectors do in MWC) changes the maximum Hill slope by more than 0.1 across the L values (P53: n is not independent of conditions)",
+   "observed": {
+    "100.0": {
+     "log10_P50": 0.455,
+     "P50": 2.85101827,
+     "slope_low": 1.00041135,
+     "slope_high": 1.00000192,
+     "slope_max": 2.47407034,
+     "log10_p_at_max": 0.298,
+     "monotone": true,
+     "y_min": 2e-08,
+     "y_max": 0.99999999
+    },
+    "10000.0": {
+     "log10_P50": 1.0,
+     "P50": 10.0,
+     "slope_low": 1.00002377,
+     "slope_high": 1.00003597,
+     "slope_max": 3.00824831,
+     "log10_p_at_max": 1.0,
+     "monotone": true,
+     "y_min": 1e-08,
+     "y_max": 0.99999999
+    },
+    "1000000.0": {
+     "log10_P50": 1.545,
+     "P50": 35.0751874,
+     "slope_low": 1.00000049,
+     "slope_high": 1.00043207,
+     "slope_max": 2.47407034,
+     "log10_p_at_max": 1.702,
+     "monotone": true,
+     "y_min": 1e-08,
+     "y_max": 0.99999998
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "model": "MWC",
+    "main": {
+     "log10_P50": 1.0,
+     "P50": 10.0,
+     "slope_low": 1.00002377,
+     "slope_high": 1.00003597,
+     "slope_max": 3.00824831,
+     "log10_p_at_max": 1.0,
+     "monotone": true,
+     "y_min": 1e-08,
+     "y_max": 0.99999999
+    },
+    "by_L": {
+     "100.0": {
+      "log10_P50": 0.455,
+      "P50": 2.85101827,
+      "slope_low": 1.00041135,
+      "slope_high": 1.00000192,
+      "slope_max": 2.47407034,
+      "log10_p_at_max": 0.298,
+      "monotone": true,
+      "y_min": 2e-08,
+      "y_max": 0.99999999
+     },
+     "10000.0": {
+      "log10_P50": 1.0,
+      "P50": 10.0,
+      "slope_low": 1.00002377,
+      "slope_high": 1.00003597,
+      "slope_max": 3.00824831,
+      "log10_p_at_max": 1.0,
+      "monotone": true,
+      "y_min": 1e-08,
+      "y_max": 0.99999999
+     },
+     "1000000.0": {
+      "log10_P50": 1.545,
+      "P50": 35.0751874,
+      "slope_low": 1.00000049,
+      "slope_high": 1.00043207,
+      "slope_max": 2.47407034,
+      "log10_p_at_max": 1.702,
+      "monotone": true,
+      "y_min": 1e-08,
+      "y_max": 0.99999998
+     }
+    },
+    "T_only_max_dev": 0.00052661,
+    "R_only_max_dev": 0.00033972,
+    "nmax_spread_over_L": 0.53417797,
+    "n_ref": 2.8
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

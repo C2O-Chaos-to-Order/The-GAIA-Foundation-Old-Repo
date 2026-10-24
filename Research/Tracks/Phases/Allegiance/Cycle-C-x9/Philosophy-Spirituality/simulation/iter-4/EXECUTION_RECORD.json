@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-AL-PHI-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:45.250782+00:00",
+ "finished_utc": "2026-10-24T19:31:45.419592+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-4  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "e5d81e945afe2aeec63ad7b1847d105f62914defd40e78ca6342937833d730ce",
+ "params_sha256": "86a7663e4ac31553443b421c1bafa820d953aa899db35e843eb13b53873db9db",
+ "results_sha256": "82d9df08717b2b3d9255ea5ec7f4828d2ab2724898b885fbbf5396bc98573839",
+ "results": {
+  "q0.1": {
+   "mean_payoff": 2.9879,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 9.835
+  },
+  "q0.33": {
+   "mean_payoff": 2.99951667,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 3.24
+  },
+  "q0.6": {
+   "mean_payoff": 3.00318333,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 1.665
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "without betrayal or errors every strategy cooperates throughout (payoff 3)",
+   "observed": {
+    "TFT": 3.0,
+    "GTFT": 3.0,
+    "CTFT": 3.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "rounds to restore fall with q",
+   "observed": {
+    "q0.1": {
+     "mean_payoff": 2.9879,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 9.835
+    },
+    "q0.33": {
+     "mean_payoff": 2.99951667,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 3.24
+    },
+    "q0.6": {
+     "mean_payoff": 3.00318333,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 1.665
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "q 0.33: mean rounds <= 1/q + 1",
+   "observed": {
+    "q0.1": {
+     "mean_payoff": 2.9879,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 9.835
+    },
+    "q0.33": {
+     "mean_payoff": 2.99951667,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 3.24
+    },
+    "q0.6": {
+     "mean_payoff": 3.00318333,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 1.665
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "q0.1": {
+     "mean_payoff": 2.9879,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 9.835
+    },
+    "q0.33": {
+     "mean_payoff": 2.99951667,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 3.24
+    },
+    "q0.6": {
+     "mean_payoff": 3.00318333,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 1.665
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

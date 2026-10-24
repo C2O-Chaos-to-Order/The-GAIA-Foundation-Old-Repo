@@ -1,0 +1,104 @@
+{
+ "sim_id": "SIM-AL-HUM-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:41.669344+00:00",
+ "finished_utc": "2026-10-24T19:31:41.816121+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "b77b5ed2f9bbdfb676128d98d5202cafc373fef6c0fcacc0a5c07c36199ac671",
+ "params_sha256": "3ee9448065db92d50c2ab54c4b905110bf5d78d764e2a7812837b8ed4211c643",
+ "results_sha256": "669acc41eb979bc04aac3f091f50916417bbd2263bade5e7bae2652f390f32f0",
+ "results": {
+  "x_end": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "t_extinct": [
+   null,
+   12.21,
+   10.36
+  ],
+  "conserved": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "total speaker share conserved within 1e-6",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "dominant share > 0.99 at the end",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     12.21,
+     10.36
+    ],
+    "conserved": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "non-officialised language extinct before the officialised one",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     12.21,
+     10.36
+    ],
+    "conserved": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     12.21,
+     10.36
+    ],
+    "conserved": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

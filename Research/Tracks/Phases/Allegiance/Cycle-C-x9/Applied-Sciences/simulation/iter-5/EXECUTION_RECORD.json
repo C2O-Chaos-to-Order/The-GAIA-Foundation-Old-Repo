@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-AL-APP-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:38.157364+00:00",
+ "finished_utc": "2026-10-24T19:31:38.619785+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "cab0f0b922e8ae219f0b009a0796a4e10d3bfd2dec637877fd4c91157d7d3ea7",
+ "params_sha256": "2124dd0ba544d061f50a4a11b071561c215d18826b1ed2b6b8fb690404b42e32",
+ "results_sha256": "5557bc7cde67dc999a4f2c5a8d312085a2aca48a9cd1ac07fe7cc64288b8aff3",
+ "results": {
+  "coefs": {
+   "HDRS": {
+    "beta": -1.5,
+    "lo": -4.25,
+    "hi": 1.26,
+    "se": 1.40563806,
+    "z": -1.06713103,
+    "p": 0.28591267,
+    "power": {
+     "1.0": 0.10969303,
+     "2.0": 0.29595021,
+     "3.0": 0.56920557
+    },
+    "midpoint_offset": -0.005,
+    "excludes_margin": false
+   }
+  },
+  "margin": 3.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "reported estimates lie at the CI midpoint within 0.01 (symmetric normal CIs)",
+   "observed": {
+    "HDRS": -0.005
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "CI lies within (-3, 3)",
+   "observed": {
+    "beta": -1.5,
+    "lo": -4.25,
+    "hi": 1.26,
+    "se": 1.40563806,
+    "z": -1.06713103,
+    "p": 0.28591267,
+    "power": {
+     "1.0": 0.10969303,
+     "2.0": 0.29595021,
+     "3.0": 0.56920557
+    },
+    "midpoint_offset": -0.005,
+    "excludes_margin": false
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "power >= 0.8 for 3 points",
+   "observed": {
+    "beta": -1.5,
+    "lo": -4.25,
+    "hi": 1.26,
+    "se": 1.40563806,
+    "z": -1.06713103,
+    "p": 0.28591267,
+    "power": {
+     "1.0": 0.10969303,
+     "2.0": 0.29595021,
+     "3.0": 0.56920557
+    },
+    "midpoint_offset": -0.005,
+    "excludes_margin": false
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "coefs": {
+     "HDRS": {
+      "beta": -1.5,
+      "lo": -4.25,
+      "hi": 1.26,
+      "se": 1.40563806,
+      "z": -1.06713103,
+      "p": 0.28591267,
+      "power": {
+       "1.0": 0.10969303,
+       "2.0": 0.29595021,
+       "3.0": 0.56920557
+      },
+      "midpoint_offset": -0.005,
+      "excludes_margin": false
+     }
+    },
+    "margin": 3.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

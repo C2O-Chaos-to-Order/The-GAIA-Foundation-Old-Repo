@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-AL-APP-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:57.635387+00:00",
+ "finished_utc": "2026-10-24T19:11:58.083857+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "3323b1be2ee0e461b06759ac1a7b0a63d53126c430aaa8f292395c6fc552f7fe",
+ "params_sha256": "45240be94ad66c8e72909c94ebe215a9df9d3d73c1162362407aedc5f9c65bc1",
+ "results_sha256": "e54840807b7153a74b391778e68c33ee5b4b1d7d231c676b19781b02dc1749f9",
+ "results": {
+  "coefs": {
+   "active_control": {
+    "beta": 0.17,
+    "lo": 0.07,
+    "hi": 0.27,
+    "se": 0.05102135,
+    "z": 3.3319388,
+    "p": 0.00086243,
+    "power": {
+     "0.1": 0.50004429,
+     "0.2": 0.975,
+     "0.3": 0.99995571
+    },
+    "midpoint_offset": 0.0,
+    "excludes_margin": false
+   }
+  },
+  "margin": 0.15
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "reported estimates lie at the CI midpoint within 0.01 (symmetric normal CIs)",
+   "observed": {
+    "active_control": 0.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "p < 0.05",
+   "observed": {
+    "beta": 0.17,
+    "lo": 0.07,
+    "hi": 0.27,
+    "se": 0.05102135,
+    "z": 3.3319388,
+    "p": 0.00086243,
+    "power": {
+     "0.1": 0.50004429,
+     "0.2": 0.975,
+     "0.3": 0.99995571
+    },
+    "midpoint_offset": 0.0,
+    "excludes_margin": false
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "power >= 0.8 to detect 0.2",
+   "observed": {
+    "beta": 0.17,
+    "lo": 0.07,
+    "hi": 0.27,
+    "se": 0.05102135,
+    "z": 3.3319388,
+    "p": 0.00086243,
+    "power": {
+     "0.1": 0.50004429,
+     "0.2": 0.975,
+     "0.3": 0.99995571
+    },
+    "midpoint_offset": 0.0,
+    "excludes_margin": false
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "coefs": {
+     "active_control": {
+      "beta": 0.17,
+      "lo": 0.07,
+      "hi": 0.27,
+      "se": 0.05102135,
+      "z": 3.3319388,
+      "p": 0.00086243,
+      "power": {
+       "0.1": 0.50004429,
+       "0.2": 0.975,
+       "0.3": 0.99995571
+      },
+      "midpoint_offset": 0.0,
+      "excludes_margin": false
+     }
+    },
+    "margin": 0.15
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

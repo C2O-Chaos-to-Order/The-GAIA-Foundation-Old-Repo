@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-AL-HUM-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:47.317437+00:00",
+ "finished_utc": "2026-10-24T19:48:47.599678+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-7  (run from Humanities/simulation/)",
+ "spec_sha256": "1d443702d543f5aee05a2dc075dcd844aa416de191f1b00cf05f604f96daf28e",
+ "params_sha256": "b56f3a7b163bce02dde5de6ee0cebb42bfdc847e66c8ffafd1a1eafb62f08bf7",
+ "results_sha256": "a3dde59492793865f59c2fe5f0531f5144e977a71329a1c0043eced136fdf717",
+ "results": {
+  "x_end": [
+   1.0,
+   0.0,
+   0.0
+  ],
+  "t_extinct": [
+   null,
+   22.58,
+   13.38
+  ],
+  "conserved": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "total speaker share conserved within 1e-6",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "dominant share > 0.99",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     22.58,
+     13.38
+    ],
+    "conserved": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "x_end": [
+     1.0,
+     0.0,
+     0.0
+    ],
+    "t_extinct": [
+     null,
+     22.58,
+     13.38
+    ],
+    "conserved": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,111 @@
+{
+ "sim_id": "SIM-AL-FOR-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:21.424638+00:00",
+ "finished_utc": "2026-10-24T19:31:21.434399+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "01d2d0f3bef1e32b704dacc294ff523ea6335f83668c882d9ca8d4e5ddd2d14a",
+ "params_sha256": "8bae9bfc9a93810bbfa314eb8526601efb619458ffff0237546a1099b442ff86",
+ "results_sha256": "273f48d1455dc463b5a8ba192ec7ebec2ddaec85bfc09d85ce84ad9f572aaa62",
+ "results": {
+  "N100_w0.5": {
+   "N": 100,
+   "w": 0.5,
+   "Nw": 50.0,
+   "a_crit": 29.6047966,
+   "x_crit": 0.06755662,
+   "a_eq4": 6.03061224,
+   "x_eq4": 0.33164129
+  },
+  "N100_w0.9": {
+   "N": 100,
+   "w": 0.9,
+   "Nw": 90.0,
+   "a_crit": 39.69934713,
+   "x_crit": 0.05037866,
+   "a_eq4": 6.03061224,
+   "x_eq4": 0.33164129
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral rho = 1/N (1e-12) and P58 Eq. B.1 equals a direct absorption solve (1e-10) at N = 10",
+   "observed": {
+    "neutral": 0.1,
+    "inv_N": 0.1,
+    "B1": 0.04431597,
+    "direct": 0.04431597
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "x* below 0.1 at w 0.5 and 0.9",
+   "observed": {
+    "N100_w0.5": {
+     "N": 100,
+     "w": 0.5,
+     "Nw": 50.0,
+     "a_crit": 29.6047966,
+     "x_crit": 0.06755662,
+     "a_eq4": 6.03061224,
+     "x_eq4": 0.33164129
+    },
+    "N100_w0.9": {
+     "N": 100,
+     "w": 0.9,
+     "Nw": 90.0,
+     "a_crit": 39.69934713,
+     "x_crit": 0.05037866,
+     "a_eq4": 6.03061224,
+     "x_eq4": 0.33164129
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "N100_w0.5": {
+     "N": 100,
+     "w": 0.5,
+     "Nw": 50.0,
+     "a_crit": 29.6047966,
+     "x_crit": 0.06755662,
+     "a_eq4": 6.03061224,
+     "x_eq4": 0.33164129
+    },
+    "N100_w0.9": {
+     "N": 100,
+     "w": 0.9,
+     "Nw": 90.0,
+     "a_crit": 39.69934713,
+     "x_crit": 0.05037866,
+     "a_eq4": 6.03061224,
+     "x_eq4": 0.33164129
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

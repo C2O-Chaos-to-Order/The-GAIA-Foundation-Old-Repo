@@ -6,9 +6,9 @@ One of the five GAIA phase reports (Divergence, Insurgence, Allegiance, Converge
 |---|---|---|---|---|---|
 | Cycle-0-Baseline | `Cycle-0-Baseline/` | 12 | 3/6/1/2 | 6 | Done (gate INDETERMINATE) |
 | Cycle-A-x3 | `Cycle-A-x3/` | 31 | 4/19/1/7 | 18 | Done (gate INDETERMINATE) |
-| Cycle-B-x6 | — | | | | Planned |
-| Cycle-C-x9 | — | | | | Planned |
-| Cycle-D-x12 | — | | | | Planned |
+| Cycle-B-x6 | `Cycle-B-x6/` | 50 | 5/33/2/10 | 36 | Done (gate INDETERMINATE) |
+| Cycle-C-x9 | `Cycle-C-x9/` | 71 | 7/47/3/14 | 54 | Done (gate INDETERMINATE) |
+| Cycle-D-x12 | `Cycle-D-x12/` | 88 | 7/60/4/17 | 72 | Done (gate INDETERMINATE) |
 
 Method per cycle: N research passes and N simulation iterations per field (N = 1, 3, 6, 9, 12), each simulation specified before execution (`SPEC.md`) with an `EXECUTION_RECORD.json`; one verification per cycle; a new Maps version per cycle. Plan: `../PLAN.md`; track overview: `../README.md`.
 

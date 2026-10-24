@@ -1,0 +1,5 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P64,yes,ALD,7013,2009559ca216ce8c3e9081baa2a1576a85301dfee8ac45911b5d1418f36d7d64,"Read end to end (abstract, significance, introduction, materials and methods, results incl. Table 1 and Figs. 1-5, discussion, author contributions; reference list not read)."
+P65,yes,ALD,15182,67e1adea99e0651646b81de8d008b0efe257b93463f2c4ba724f67b32178d219,"Read end to end (abstract, introduction, methods incl. PRISMA and PCC criteria, results incl. Tables 1-3, discussion, limitations, conclusion, declarations; reference list not read)."
+P66,yes,ALD,14892,c12afbab80a814cbef862fae6235ddbe8a5e6a645d39f0b576dd79ad11bc5ab9,"Read end to end (abstract, introduction, method incl. Fig. 1, results incl. Tables 1-4, discussion, limitations, conclusion; reference list not read)."
+P67,yes,ALD,5768,78b31850e7364d35b045b173b617898c409738e0c195014319ebb26b9b94d690,"Read end to end (Ruth chapters 1-4, 85 verses; Project Gutenberg header and licence read)."

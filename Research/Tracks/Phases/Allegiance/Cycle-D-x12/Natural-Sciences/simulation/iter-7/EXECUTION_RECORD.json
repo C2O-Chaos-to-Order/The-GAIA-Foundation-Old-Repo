@@ -1,0 +1,99 @@
+{
+ "sim_id": "SIM-AL-NAT-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:47:47.146844+00:00",
+ "finished_utc": "2026-10-24T19:47:47.153209+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-7  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "242cdfbae71b7e3cc143f4308d66c5fdf8b15bf4278e4d0940e38324f6476cdf",
+ "params_sha256": "e2676f2b7f4a4dd4072a1be0cbfee887e9441f26fc24c87c6bdfd437ffeac0f8",
+ "results_sha256": "e8d79aa4f1c5bbb4b7d90dc2cd6bf27312ca496f941a2304023b4da55eaaabfe",
+ "results": {
+  "r100": {
+   "P50": 134.89628826,
+   "n_min": 0.33057873,
+   "n_max": 0.99996402,
+   "n_at_P50": 0.33057873,
+   "n_low": 0.99996402,
+   "n_high": 0.99348848
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a single non-cooperative component has slope 1 everywhere (within 1e-3) and P50 = K (within 1%)",
+   "observed": {
+    "P50": 6.99841996,
+    "n_min": 1.0,
+    "n_max": 1.0,
+    "n_at_P50": 1.0,
+    "n_low": 1.0,
+    "n_high": 1.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no mixture has a Hill slope above 1 anywhere (heterogeneity cannot create cooperativity)",
+   "observed": {
+    "r100": {
+     "P50": 134.89628826,
+     "n_min": 0.33057873,
+     "n_max": 0.99996402,
+     "n_at_P50": 0.33057873,
+     "n_low": 0.99996402,
+     "n_high": 0.99348848
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "minimum slope below 0.5",
+   "observed": {
+    "r100": {
+     "P50": 134.89628826,
+     "n_min": 0.33057873,
+     "n_max": 0.99996402,
+     "n_at_P50": 0.33057873,
+     "n_low": 0.99996402,
+     "n_high": 0.99348848
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "r100": {
+     "P50": 134.89628826,
+     "n_min": 0.33057873,
+     "n_max": 0.99996402,
+     "n_at_P50": 0.33057873,
+     "n_low": 0.99996402,
+     "n_high": 0.99348848
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,101 @@
+{
+ "sim_id": "SIM-AL-PHI-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:50.129595+00:00",
+ "finished_utc": "2026-10-24T19:48:50.272236+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-4  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "57d18e690449590f8c9b8c790dc8bee6d5608766938f419b0c3a2f015e0f0ffe",
+ "params_sha256": "a8278ddb34f02e54a2fa60fdf5e3692fe793a37f54fb435d740cb13903722057",
+ "results_sha256": "7646445c06ea4c10a858cc20d3266e895a75713c7e96c069d10a7ae526ffb916",
+ "results": {
+  "TFT": {
+   "mean_payoff": 2.23382,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 17.13
+  },
+  "GTFT": {
+   "mean_payoff": 2.74448,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 4.42
+  },
+  "CTFT": {
+   "mean_payoff": 2.80802,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 2.83
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "without betrayal or errors every strategy cooperates throughout (payoff 3)",
+   "observed": {
+    "TFT": 3.0,
+    "GTFT": 3.0,
+    "CTFT": 3.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "CTFT payoff > TFT",
+   "observed": {
+    "TFT": {
+     "mean_payoff": 2.23382,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 17.13
+    },
+    "GTFT": {
+     "mean_payoff": 2.74448,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 4.42
+    },
+    "CTFT": {
+     "mean_payoff": 2.80802,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.83
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "TFT": {
+     "mean_payoff": 2.23382,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 17.13
+    },
+    "GTFT": {
+     "mean_payoff": 2.74448,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 4.42
+    },
+    "CTFT": {
+     "mean_payoff": 2.80802,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.83
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

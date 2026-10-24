@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-AL-SOC-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:32.339930+00:00",
+ "finished_utc": "2026-10-24T19:31:32.791922+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "5f11db5085f520e60a231328fa902ce56e1d3ef1e8523ccaf26c6cb6d4f759fa",
+ "params_sha256": "1801c0955178cfb3115c7e5db5a6fb0bd7d2aa0cd454bcc34300c3dd2c8f8cee",
+ "results_sha256": "b6573c30eaf87c07e6ca8ee5c9bbc93d47b899ca292424e07411103db1362009",
+ "results": {
+  "anova": {
+   "F": 0.73193813,
+   "printed_F": 0.73,
+   "diff": 0.00193813,
+   "msw": 16.65386667,
+   "df": [
+    2,
+    69
+   ]
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with uncorrelated predictors the standardized betas equal the correlations (1e-12)",
+   "observed": [
+    0.3,
+    -0.2
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "F within 0.05 of 0.73",
+   "observed": {
+    "anova": {
+     "F": 0.73193813,
+     "printed_F": 0.73,
+     "diff": 0.00193813,
+     "msw": 16.65386667,
+     "df": [
+      2,
+      69
+     ]
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "F below the 5% critical value 3.13",
+   "observed": {
+    "anova": {
+     "F": 0.73193813,
+     "printed_F": 0.73,
+     "diff": 0.00193813,
+     "msw": 16.65386667,
+     "df": [
+      2,
+      69
+     ]
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "anova": {
+     "F": 0.73193813,
+     "printed_F": 0.73,
+     "diff": 0.00193813,
+     "msw": 16.65386667,
+     "df": [
+      2,
+      69
+     ]
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

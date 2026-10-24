@@ -1,0 +1,209 @@
+{
+ "sim_id": "SIM-AL-FOR-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:47:50.701816+00:00",
+ "finished_utc": "2026-10-24T19:47:50.722360+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "4d3507cdc83d94f7eb6d0ca1860bb48a11e5ac648df23ca82d92ac21f0579948",
+ "params_sha256": "9af9a2fd9d2ff21e17fb53413fbe05283cda24c18e205f47e9f4fabc407c66a9",
+ "results_sha256": "4299112bf9e184552aa9b82ba23dceed11448d71c7827221fceaa5a1d6d39555",
+ "results": {
+  "N100_w0.0001": {
+   "N": 100,
+   "w": 0.0001,
+   "Nw": 0.01,
+   "a_crit": 2.51638415,
+   "x_crit": 0.33152276,
+   "a_eq4": 2.51530612,
+   "x_eq4": 0.33164129
+  },
+  "N100_w0.01": {
+   "N": 100,
+   "w": 0.01,
+   "Nw": 1.0,
+   "a_crit": 2.63218906,
+   "x_crit": 0.31926553,
+   "a_eq4": 2.51530612,
+   "x_eq4": 0.33164129
+  },
+  "N1000_w0.0001": {
+   "N": 1000,
+   "w": 0.0001,
+   "Nw": 0.1,
+   "a_crit": 2.51165799,
+   "x_crit": 0.33204302,
+   "a_eq4": 2.50150301,
+   "x_eq4": 0.33316642
+  },
+  "N1000_w0.01": {
+   "N": 1000,
+   "w": 0.01,
+   "Nw": 10.0,
+   "a_crit": 4.17167935,
+   "x_crit": 0.21405579,
+   "a_eq4": 2.50150301,
+   "x_eq4": 0.33316642
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral rho = 1/N (1e-12) and P58 Eq. B.1 equals a direct absorption solve (1e-10) at N = 10",
+   "observed": {
+    "neutral": 0.1,
+    "inv_N": 0.1,
+    "B1": 0.07718999,
+    "direct": 0.07718999
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Nw < 0.1: exact critical x* within 0.01 of P58 Eq. 4",
+   "observed": {
+    "N100_w0.0001": {
+     "N": 100,
+     "w": 0.0001,
+     "Nw": 0.01,
+     "a_crit": 2.51638415,
+     "x_crit": 0.33152276,
+     "a_eq4": 2.51530612,
+     "x_eq4": 0.33164129
+    },
+    "N100_w0.01": {
+     "N": 100,
+     "w": 0.01,
+     "Nw": 1.0,
+     "a_crit": 2.63218906,
+     "x_crit": 0.31926553,
+     "a_eq4": 2.51530612,
+     "x_eq4": 0.33164129
+    },
+    "N1000_w0.0001": {
+     "N": 1000,
+     "w": 0.0001,
+     "Nw": 0.1,
+     "a_crit": 2.51165799,
+     "x_crit": 0.33204302,
+     "a_eq4": 2.50150301,
+     "x_eq4": 0.33316642
+    },
+    "N1000_w0.01": {
+     "N": 1000,
+     "w": 0.01,
+     "Nw": 10.0,
+     "a_crit": 4.17167935,
+     "x_crit": 0.21405579,
+     "a_eq4": 2.50150301,
+     "x_eq4": 0.33316642
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "x* falls with w at N 1000",
+   "observed": {
+    "N100_w0.0001": {
+     "N": 100,
+     "w": 0.0001,
+     "Nw": 0.01,
+     "a_crit": 2.51638415,
+     "x_crit": 0.33152276,
+     "a_eq4": 2.51530612,
+     "x_eq4": 0.33164129
+    },
+    "N100_w0.01": {
+     "N": 100,
+     "w": 0.01,
+     "Nw": 1.0,
+     "a_crit": 2.63218906,
+     "x_crit": 0.31926553,
+     "a_eq4": 2.51530612,
+     "x_eq4": 0.33164129
+    },
+    "N1000_w0.0001": {
+     "N": 1000,
+     "w": 0.0001,
+     "Nw": 0.1,
+     "a_crit": 2.51165799,
+     "x_crit": 0.33204302,
+     "a_eq4": 2.50150301,
+     "x_eq4": 0.33316642
+    },
+    "N1000_w0.01": {
+     "N": 1000,
+     "w": 0.01,
+     "Nw": 10.0,
+     "a_crit": 4.17167935,
+     "x_crit": 0.21405579,
+     "a_eq4": 2.50150301,
+     "x_eq4": 0.33316642
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "N100_w0.0001": {
+     "N": 100,
+     "w": 0.0001,
+     "Nw": 0.01,
+     "a_crit": 2.51638415,
+     "x_crit": 0.33152276,
+     "a_eq4": 2.51530612,
+     "x_eq4": 0.33164129
+    },
+    "N100_w0.01": {
+     "N": 100,
+     "w": 0.01,
+     "Nw": 1.0,
+     "a_crit": 2.63218906,
+     "x_crit": 0.31926553,
+     "a_eq4": 2.51530612,
+     "x_eq4": 0.33164129
+    },
+    "N1000_w0.0001": {
+     "N": 1000,
+     "w": 0.0001,
+     "Nw": 0.1,
+     "a_crit": 2.51165799,
+     "x_crit": 0.33204302,
+     "a_eq4": 2.50150301,
+     "x_eq4": 0.33316642
+    },
+    "N1000_w0.01": {
+     "N": 1000,
+     "w": 0.01,
+     "Nw": 10.0,
+     "a_crit": 4.17167935,
+     "x_crit": 0.21405579,
+     "a_eq4": 2.50150301,
+     "x_eq4": 0.33316642
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

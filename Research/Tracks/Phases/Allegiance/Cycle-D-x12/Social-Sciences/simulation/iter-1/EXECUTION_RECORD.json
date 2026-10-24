@@ -1,0 +1,191 @@
+{
+ "sim_id": "SIM-AL-SOC-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:11.301739+00:00",
+ "finished_utc": "2026-10-24T19:48:11.723350+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "177fcef7e62a68b9ea134b8669d4dca547ac20c38151e29deb43d7a9c22cb90a",
+ "params_sha256": "37dffae5a0ada24296dc8335bcf50666840a7823351d93c4a76bfac2bc89acdb",
+ "results_sha256": "45ecc5de229737face6077430419393171560a76e973308b0269d1f46e2ba2d3",
+ "results": {
+  "fisher": {
+   "model1": {
+    "asym_z": 0.00062536,
+    "half_z": 0.04439379,
+    "asym_r": -0.001
+   },
+   "italy": {
+    "asym_z": -0.00953284,
+    "half_z": 0.15289933,
+    "asym_r": -0.02
+   },
+   "outgroup": {
+    "asym_z": -0.01121247,
+    "half_z": 0.20932851,
+    "asym_r": -0.04
+   },
+   "verbal": {
+    "asym_z": -0.01131392,
+    "half_z": 0.04769852,
+    "asym_r": -0.01
+   },
+   "collective": {
+    "asym_z": 0.00540148,
+    "half_z": 0.17556176,
+    "asym_r": -0.02
+   },
+   "difi": {
+    "asym_z": -0.00720304,
+    "half_z": 0.27915458,
+    "asym_r": -0.05
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with uncorrelated predictors the standardized betas equal the correlations (1e-12)",
+   "observed": [
+    0.3,
+    -0.2
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "all six symmetric on the z scale within 0.01",
+   "observed": {
+    "fisher": {
+     "model1": {
+      "asym_z": 0.00062536,
+      "half_z": 0.04439379,
+      "asym_r": -0.001
+     },
+     "italy": {
+      "asym_z": -0.00953284,
+      "half_z": 0.15289933,
+      "asym_r": -0.02
+     },
+     "outgroup": {
+      "asym_z": -0.01121247,
+      "half_z": 0.20932851,
+      "asym_r": -0.04
+     },
+     "verbal": {
+      "asym_z": -0.01131392,
+      "half_z": 0.04769852,
+      "asym_r": -0.01
+     },
+     "collective": {
+      "asym_z": 0.00540148,
+      "half_z": 0.17556176,
+      "asym_r": -0.02
+     },
+     "difi": {
+      "asym_z": -0.00720304,
+      "half_z": 0.27915458,
+      "asym_r": -0.05
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Italy asymmetric on the r scale by more than 0.01",
+   "observed": {
+    "fisher": {
+     "model1": {
+      "asym_z": 0.00062536,
+      "half_z": 0.04439379,
+      "asym_r": -0.001
+     },
+     "italy": {
+      "asym_z": -0.00953284,
+      "half_z": 0.15289933,
+      "asym_r": -0.02
+     },
+     "outgroup": {
+      "asym_z": -0.01121247,
+      "half_z": 0.20932851,
+      "asym_r": -0.04
+     },
+     "verbal": {
+      "asym_z": -0.01131392,
+      "half_z": 0.04769852,
+      "asym_r": -0.01
+     },
+     "collective": {
+      "asym_z": 0.00540148,
+      "half_z": 0.17556176,
+      "asym_r": -0.02
+     },
+     "difi": {
+      "asym_z": -0.00720304,
+      "half_z": 0.27915458,
+      "asym_r": -0.05
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "fisher": {
+     "model1": {
+      "asym_z": 0.00062536,
+      "half_z": 0.04439379,
+      "asym_r": -0.001
+     },
+     "italy": {
+      "asym_z": -0.00953284,
+      "half_z": 0.15289933,
+      "asym_r": -0.02
+     },
+     "outgroup": {
+      "asym_z": -0.01121247,
+      "half_z": 0.20932851,
+      "asym_r": -0.04
+     },
+     "verbal": {
+      "asym_z": -0.01131392,
+      "half_z": 0.04769852,
+      "asym_r": -0.01
+     },
+     "collective": {
+      "asym_z": 0.00540148,
+      "half_z": 0.17556176,
+      "asym_r": -0.02
+     },
+     "difi": {
+      "asym_z": -0.00720304,
+      "half_z": 0.27915458,
+      "asym_r": -0.05
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

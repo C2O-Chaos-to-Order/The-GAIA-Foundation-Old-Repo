@@ -1,0 +1,158 @@
+{
+ "sim_id": "SIM-AL-HUM-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:43.576271+00:00",
+ "finished_utc": "2026-10-24T19:31:43.823763+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-7  (run from Humanities/simulation/)",
+ "spec_sha256": "6ffb6d850e7cc399bec2a8dbfbd75ddd6a4e8d0b35f2c98db0b4061b0d514846",
+ "params_sha256": "b9437fead697aa053967157e71408908cd1e0fce64bfedda713f3da8bc20df6a",
+ "results_sha256": "0c35b6ff90fcd703714f50e468576b227710fc7311e57031ef40d928d131df69",
+ "results": {
+  "cases": {
+   "Canada": {
+    "M1_end": 0.10283301,
+    "M1_star": 0.10283301,
+    "eff_min_to_maj": 0.12832611,
+    "eff_maj_to_min": 0.0147087
+   },
+   "USA": {
+    "M1_end": 0.042388,
+    "M1_star": 0.042388,
+    "eff_min_to_maj": 0.13394051,
+    "eff_maj_to_min": 0.00592878
+   },
+   "Wales": {
+    "M1_end": 0.00930885,
+    "M1_star": 0.00930885,
+    "eff_min_to_maj": 0.04143643,
+    "eff_maj_to_min": 0.00038935
+   },
+   "Scotland": {
+    "M1_end": 0.03159865,
+    "M1_star": 0.03159865,
+    "eff_min_to_maj": 0.01091015,
+    "eff_maj_to_min": 0.000356
+   }
+  },
+  "exponent": {
+   "0.0": 0.4,
+   "0.5": 0.30769231,
+   "1.0": 0.0,
+   "1.31": 0.0
+  },
+  "u_x": 0.4
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Eq. 4.4 end state within 1e-3 of the analytic equilibrium for every case",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with P50's constant rates the minority keeps a positive equilibrium share (> 0.01) in every case",
+   "observed": {
+    "Canada": 0.10283301,
+    "USA": 0.042388,
+    "Wales": 0.00930885,
+    "Scotland": 0.03159865
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "effective (prestige-weighted) minority-to-majority rate exceeds the reverse in every case",
+   "observed": {
+    "Canada": [
+     0.12832611,
+     0.0147087
+    ],
+    "USA": [
+     0.13394051,
+     0.00592878
+    ],
+    "Wales": [
+     0.04143643,
+     0.00038935
+    ],
+    "Scotland": [
+     0.01091015,
+     0.000356
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "P30 form: weaker group keeps > 0.05 for a < 1 and falls below 0.01 for a >= 1",
+   "observed": {
+    "0.0": 0.4,
+    "0.5": 0.30769231,
+    "1.0": 0.0,
+    "1.31": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cases": {
+     "Canada": {
+      "M1_end": 0.10283301,
+      "M1_star": 0.10283301,
+      "eff_min_to_maj": 0.12832611,
+      "eff_maj_to_min": 0.0147087
+     },
+     "USA": {
+      "M1_end": 0.042388,
+      "M1_star": 0.042388,
+      "eff_min_to_maj": 0.13394051,
+      "eff_maj_to_min": 0.00592878
+     },
+     "Wales": {
+      "M1_end": 0.00930885,
+      "M1_star": 0.00930885,
+      "eff_min_to_maj": 0.04143643,
+      "eff_maj_to_min": 0.00038935
+     },
+     "Scotland": {
+      "M1_end": 0.03159865,
+      "M1_star": 0.03159865,
+      "eff_min_to_maj": 0.01091015,
+      "eff_maj_to_min": 0.000356
+     }
+    },
+    "exponent": {
+     "0.0": 0.4,
+     "0.5": 0.30769231,
+     "1.0": 0.0,
+     "1.31": 0.0
+    },
+    "u_x": 0.4
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

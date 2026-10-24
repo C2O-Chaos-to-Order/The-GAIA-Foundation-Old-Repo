@@ -1,0 +1,101 @@
+{
+ "sim_id": "SIM-AL-PHI-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:49.380757+00:00",
+ "finished_utc": "2026-10-24T19:48:49.524637+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "69e326151a1b72255c5bef3fd2ebeff9051989b5ef2b0f809c0324607ba51b23",
+ "params_sha256": "67d40b199482636cdffdf5b40abf9ac726b0c6dbc606e3b608964fadbf43a7c2",
+ "results_sha256": "5c8e5b59a50d0065aa97061c0ca8ad62203bdf17de43c81843a690d6f0e9648d",
+ "results": {
+  "q0.05": {
+   "mean_payoff": 2.81094,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 21.16
+  },
+  "q0.2": {
+   "mean_payoff": 2.94886,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 4.33
+  },
+  "q0.5": {
+   "mean_payoff": 2.9797,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 3.5
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "without betrayal or errors every strategy cooperates throughout (payoff 3)",
+   "observed": {
+    "TFT": 3.0,
+    "GTFT": 3.0,
+    "CTFT": 3.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "q 0.2 earns more than q 0.05",
+   "observed": {
+    "q0.05": {
+     "mean_payoff": 2.81094,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 21.16
+    },
+    "q0.2": {
+     "mean_payoff": 2.94886,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 4.33
+    },
+    "q0.5": {
+     "mean_payoff": 2.9797,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 3.5
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "q0.05": {
+     "mean_payoff": 2.81094,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 21.16
+    },
+    "q0.2": {
+     "mean_payoff": 2.94886,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 4.33
+    },
+    "q0.5": {
+     "mean_payoff": 2.9797,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 3.5
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

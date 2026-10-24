@@ -1,0 +1,41 @@
+# Allegiance in the Applied Sciences — Cycle-B-x6 (ALB)
+
+Phase report: Allegiance (`../../README.md`). Definitions and competing definitions: `../DEFINITIONS.md`. Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA's Phase axis is a framework category (PS), kept separate from the findings.
+
+## Reading of this cycle
+x6: P56 (244 trials) finds no developer-involvement effect, and unlike P49's this null is informative (power 0.93 for 0.2).
+
+## Claims (ledger: `claims/claims.csv`)
+- **ALB-APP-01** [E] Researcher allegiance, 'a belief in the superiority of a treatment', was coded in 50 RCTs comparing humanistic with other psychotherapies; at end of treatment allegiance against humanistic therapy was not a significant moderator (beta = -0.183, SE 0.125, p = .144, N = 47), only 10% of studies showed allegiance in favour of humanistic therapy, and allegiance was significant in 2 of 5 comparisons; the authors conclude allegiance 'was not as relevant as expected' while noting absence of evidence is not evidence of absence. *Operationalization:* APP Allegiance = researcher allegiance in clinical trials. *Sources:* P49. *Limits:* One meta-analysis of one therapy family; allegiance coded from publications.
+- **ALB-APP-02** [P] With P49's own estimate (beta = -0.183, SE = 0.125) the reported p was reproduced (0.143) and the two-sided power to detect a moderator of that size at alpha 0.05 was only 0.31; a simulated 47-study random-effects meta-regression gave SE 0.124 and power 0.33. P49's null for allegiance is therefore weak evidence of no effect, as P49 itself cautions; by chance alone, at least 2 of 5 independent null tests would be significant 2.3% of the time. *Operationalization:* APP Allegiance = power to detect allegiance effects. *Sources:* SIM-AL-APP-0/iter-1#V1;SIM-AL-APP-0/iter-1#H1;SIM-AL-APP-0/iter-1#H2. *Limits:* Simulated design (moderator share 0.3, tau 0.25, study SE 0.2-0.4) assumed; the five comparisons are not independent in P49.
+- **ALB-APP-03** [P] With more heterogeneity (tau 0.4 instead of 0.25) the simulated 47-study meta-regression has SE 0.161 and power 0.22 for P49's moderator size, so the AL0 match to P49's SE 0.125 is not supported under this setting; P49's reported SE fits low-to-moderate heterogeneity in this design. *Operationalization:* APP Allegiance = power under heterogeneity. *Sources:* SIM-AL-APP-A/iter-1#V1;SIM-AL-APP-A/iter-1#H1;SIM-AL-APP-A/iter-1#H2. *Limits:* Design values (study SEs 0.2-0.4, moderator share 0.3) are the agent's.
+- **ALB-APP-04** [P] Doubling the number of studies to K = 100 lowers the moderator SE to 0.085 and raises power to 0.58 (H2, designed for K = 47, not supported as expected): even a meta-analysis twice the size of P49's would miss a true allegiance effect of P49's estimated size about 4 times in 10. *Operationalization:* APP Allegiance = studies needed to detect allegiance. *Sources:* SIM-AL-APP-A/iter-2#V1;SIM-AL-APP-A/iter-2#H1;SIM-AL-APP-A/iter-2#H2. *Limits:* Simple scaling design; real meta-analyses have correlated moderators.
+- **ALB-APP-05** [P] If only 10% of studies fall in the moderator category, the SE rises to 0.194 and power falls to 0.18 (H2 not supported): unbalanced allegiance coding, as P49's 10% figure suggests is common, makes allegiance effects even harder to detect. *Operationalization:* APP Allegiance = power with unbalanced allegiance. *Sources:* SIM-AL-APP-A/iter-3#V1;SIM-AL-APP-A/iter-3#H1;SIM-AL-APP-A/iter-3#H2. *Limits:* The mapping of P49's 10% to the moderator category is illustrative.
+- **ALB-APP-06** [P] In a meta-analysis of 244 randomized trials of parenting programs (1,100 effect sizes, 28,916 families), the overall effect on disruptive behaviour was d = -0.36 [-0.42, -0.31]; effects declined in the first decades and stabilized around 2000. Developer involvement, a form of researcher allegiance, was not associated with effect size (-0.002 [-0.12, 0.11]) though it became less common over time, while active control conditions (0.17 [0.07, 0.27]) and preregistration were associated with smaller effects. *Operationalization:* APP Allegiance = developer involvement in trials. *Sources:* P56. *Limits:* Observational moderator analysis; one field (parenting programs). Slips: 'Observational outcome 11.46 [-16.26, -6.66]' (sign inconsistent), '22 databases' vs '26 international databases'.
+- **ALB-APP-07** [P] Unlike P49's null for allegiance, P56's null for developer involvement is informative: its CI lies within +/-0.15 and it had power 0.93 for an effect of 0.2 (0.40 for 0.1), whereas P49's had power 0.36 for 0.2 and a CI reaching -0.43 (both checks not supported). P56's active-control moderator is a detected effect (p 0.0009, power 0.98 for 0.2); its delivery-staff moderator is borderline (p 0.055 by normal approximation, not supported as significant, though P56's CI excludes 0). *Operationalization:* APP Allegiance = how informative an allegiance null is. *Sources:* SIM-AL-APP-B/iter-1#V1;SIM-AL-APP-B/iter-1#H1;SIM-AL-APP-B/iter-1#H2;SIM-AL-APP-B/iter-2#V1;SIM-AL-APP-B/iter-2#H1;SIM-AL-APP-B/iter-2#H2;SIM-AL-APP-B/iter-3#V1;SIM-AL-APP-B/iter-3#H1;SIM-AL-APP-B/iter-3#H2;SIM-AL-APP-B/iter-4#V1;SIM-AL-APP-B/iter-4#H1;SIM-AL-APP-B/iter-4#H2. *Limits:* Normal approximation to P56's robust-variance CIs; asymmetry of the delivery-staff CI shows the approximation's limit.
+- **ALB-APP-08** [P] With low heterogeneity (tau 0.1) the 47-study design gives SE 0.100 and power 0.46, not supported as matching P49's SE 0.125; with a balanced moderator (pi 0.5) and tau 0.25 SE is 0.113 and power 0.37, within the check. *Operationalization:* APP Allegiance = power under alternative designs. *Sources:* SIM-AL-APP-B/iter-5#V1;SIM-AL-APP-B/iter-5#H1;SIM-AL-APP-B/iter-5#H2;SIM-AL-APP-B/iter-6#V1;SIM-AL-APP-B/iter-6#H1;SIM-AL-APP-B/iter-6#H2. *Limits:* Design values are the agent's.
+
+## Simulations (SIM-AL-APP-B; 6 iteration(s), spec-first; validation 6/6, hypotheses supported 7/12)
+
+| iter | params | purpose | checks |
+|---|---|---|---|
+| 1 | `52004cf1` | P56 found no association between developer involvement (a form of researcher allegiance) and effect size (-0.002 [-0.12, 0.11], 243 trials). Unlike P49's null, is this null informative: does its CI exclude effects larger than 0.15 and does it have >= 80% power for an effect of 0.2? | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+| 2 | `f2134464` | Same reading for P49's allegiance moderator (beta -0.183, SE 0.125 -> CI -0.428 to 0.062): does its CI exclude 0.15, and does it reach 80% power for 0.2? | V1 Pass; H1 Not supported; H2 Not supported; R1 Reported |
+| 3 | `45240be9` | Positive control from P56: is the active-control coefficient (0.17 [0.07, 0.27]) significant with >= 80% power for 0.2? | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+| 4 | `48d5fab9` | P56's delivery-staff coefficient (0.11 [0.005, 0.23]): significant, and would a 0.1 effect be detected with >= 50% power? | V1 Pass; H1 Not supported; H2 Not supported; R1 Reported |
+| 5 | `5b0eba89` | Low heterogeneity (tau 0.1): does the 47-study design still give SE near 0.125? | V1 Pass; H1 Supported; H2 Not supported; R1 Reported |
+| 6 | `043c4fef` | Balanced moderator (pi 0.5): smaller SE than with pi 0.3? | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+
+Each `simulation/iter-k/SPEC.md` was written before execution and holds the parameters; `EXECUTION_RECORD.json` holds results, checks and hashes. 'Not supported' is a finding, not an error.
+
+## Research passes (6; details `research/PASSES.md`)
+- Pass 1: ALB-APP-06 (developer involvement not associated with effect size in 244 trials) and ALB-APP-07 (P56's null is informative: power 0.93 for 0.2).
+- Pass 2: ALB-APP-07: P49's null is not (power 0.36 for 0.2; CI to -0.43).
+- Pass 3: ALB-APP-07: active-control positive control detected (p 0.0009).
+- Pass 4: ALB-APP-07: delivery-staff moderator borderline under the normal approximation.
+- Pass 5: ALB-APP-08: with tau 0.1 the design's SE is 0.100 (match to P49 not supported).
+- Pass 6: Added nothing: a balanced moderator stays within the check (SE 0.113, power 0.37).
+
+## Unresolved
+- Normal approximation to P56's robust-variance CIs; P56's OSF data not fetched.
+- Allegiance and developer involvement are related but not identical constructs.

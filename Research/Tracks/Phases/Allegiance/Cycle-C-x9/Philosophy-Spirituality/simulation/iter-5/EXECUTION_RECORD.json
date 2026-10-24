@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-AL-PHI-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:45.518761+00:00",
+ "finished_utc": "2026-10-24T19:31:45.526447+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-5  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "e7fd5fb79aa7f8b8bf05061a269402428f9ef5884d2221143d7ea09e53cdd01e",
+ "params_sha256": "98f2c85c66bc8ed7a7e5af5fb653138f051f1849584658e840899628f32ee2a4",
+ "results_sha256": "e3723af0589d21f798bdc0f2b69133e28155dc896675fc53d8f62868ffce1192",
+ "results": {
+  "TFT": {
+   "mean_payoff": 2.6,
+   "frac_restored": 0.0,
+   "mean_rounds_to_restore": null
+  },
+  "GTFT": {
+   "mean_payoff": 3.01,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 2.75
+  },
+  "CTFT": {
+   "mean_payoff": 2.98,
+   "frac_restored": 1.0,
+   "mean_rounds_to_restore": 2.0
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "without betrayal or errors every strategy cooperates throughout (payoff 3)",
+   "observed": {
+    "TFT": 3.0,
+    "GTFT": 3.0,
+    "CTFT": 3.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "CTFT betrayer's mean payoff below 3",
+   "observed": {
+    "TFT": {
+     "mean_payoff": 2.6,
+     "frac_restored": 0.0,
+     "mean_rounds_to_restore": null
+    },
+    "GTFT": {
+     "mean_payoff": 3.01,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.75
+    },
+    "CTFT": {
+     "mean_payoff": 2.98,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "CTFT always restores cooperation",
+   "observed": {
+    "TFT": {
+     "mean_payoff": 2.6,
+     "frac_restored": 0.0,
+     "mean_rounds_to_restore": null
+    },
+    "GTFT": {
+     "mean_payoff": 3.01,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.75
+    },
+    "CTFT": {
+     "mean_payoff": 2.98,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "TFT": {
+     "mean_payoff": 2.6,
+     "frac_restored": 0.0,
+     "mean_rounds_to_restore": null
+    },
+    "GTFT": {
+     "mean_payoff": 3.01,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.75
+    },
+    "CTFT": {
+     "mean_payoff": 2.98,
+     "frac_restored": 1.0,
+     "mean_rounds_to_restore": 2.0
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

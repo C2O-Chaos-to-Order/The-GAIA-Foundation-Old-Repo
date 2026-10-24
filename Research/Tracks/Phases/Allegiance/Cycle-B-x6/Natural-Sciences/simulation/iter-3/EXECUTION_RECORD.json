@@ -1,0 +1,170 @@
+{
+ "sim_id": "SIM-AL-NAT-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:34.938609+00:00",
+ "finished_utc": "2026-10-24T19:11:36.794292+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "1af51cdfc8231e6b8f7020c66a5ca817ab58b4aef4ab5d0cf0f9a69d6fe309a4",
+ "params_sha256": "d28ac8e06a5c52e6dea4d0408bcc52c533e7c67893a3438d1161e24fd19b76a6",
+ "results_sha256": "e36a79d972ad17a954b49c7a1a5f5780549c2f2231d7092359e945bf359315c9",
+ "results": {
+  "log10_K_true": [
+   -1.69897,
+   -1.30103,
+   -0.69897,
+   0.30103
+  ],
+  "sd_log10K": [
+   0.23417457,
+   2.62135236,
+   3.65755455,
+   1.68837321
+  ],
+  "bias_log10K": [
+   -0.09826448,
+   -1.62586376,
+   0.8583974,
+   0.86567369
+  ],
+  "n_fits": 300,
+  "n_fail": 0,
+  "nmax_true": 3.63407523,
+  "nmax_mean": 3.63344207,
+  "nmax_cv": 0.01293993,
+  "counts": {
+   "2": [
+    7,
+    4
+   ],
+   "3": [
+    13,
+    8
+   ],
+   "4": [
+    23,
+    16
+   ],
+   "5": [
+    41,
+    32
+   ]
+  },
+  "noise_free_max_err": 82.79724562
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "noise-free refit recovers the true log K within 1e-4 and P55's counts n_p = 7, 13, 23, 41 and n_CAR = 4, 8, 16, 32",
+   "observed": [
+    82.79724562,
+    {
+     "2": [
+      7,
+      4
+     ],
+     "3": [
+      13,
+      8
+     ],
+     "4": [
+      23,
+      16
+     ],
+     "5": [
+      41,
+      32
+     ]
+    }
+   ],
+   "result": "Fail"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the first and last constants are less precise than the middle ones: min(sd K1, sd K4) > max(sd K2, sd K3) (P55: Z1 and Zmax more uncertain)",
+   "observed": [
+    0.23417457,
+    2.62135236,
+    3.65755455,
+    1.68837321
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the maximal Hill slope is well determined (CV < 0.1) even when individual constants are not",
+   "observed": [
+    0.01293993,
+    3.65755455
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "log10_K_true": [
+     -1.69897,
+     -1.30103,
+     -0.69897,
+     0.30103
+    ],
+    "sd_log10K": [
+     0.23417457,
+     2.62135236,
+     3.65755455,
+     1.68837321
+    ],
+    "bias_log10K": [
+     -0.09826448,
+     -1.62586376,
+     0.8583974,
+     0.86567369
+    ],
+    "n_fits": 300,
+    "n_fail": 0,
+    "nmax_true": 3.63407523,
+    "nmax_mean": 3.63344207,
+    "nmax_cv": 0.01293993,
+    "counts": {
+     "2": [
+      7,
+      4
+     ],
+     "3": [
+      13,
+      8
+     ],
+     "4": [
+      23,
+      16
+     ],
+     "5": [
+      41,
+      32
+     ]
+    },
+    "noise_free_max_err": 82.79724562
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": false
+}
