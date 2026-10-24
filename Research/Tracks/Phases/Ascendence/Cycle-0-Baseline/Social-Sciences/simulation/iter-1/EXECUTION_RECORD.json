@@ -1,0 +1,833 @@
+{
+ "sim_id": "SIM-AS-SOC-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:54:10.854519+00:00",
+ "finished_utc": "2026-10-24T22:54:11.318725+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "c072290f69c03b44db3d3ce80291d3b6133741c9968a7ad5cd68f8c165c4d2c6",
+ "params_sha256": "1a8a7873d98757ecf003df9060dcf17a0569b8863ce37aedde7716fd04ed709e",
+ "results_sha256": "d703f2450f71b6e7a3e2e0d0185400f605a657d11084e2429a2775f98742a36c",
+ "results": {
+  "items": {
+   "DI_1901": {
+    "value": 0.117,
+    "printed": 0.12,
+    "diff": -0.003
+   },
+   "DI_1974": {
+    "value": 0.1615,
+    "printed": 0.16,
+    "diff": 0.0015
+   },
+   "DI_2001": {
+    "value": 0.23225,
+    "printed": 0.23,
+    "diff": 0.00225
+   },
+   "T5_QPM_reduction_pct": {
+    "value": 77.849122,
+    "printed": 78.8,
+    "diff": -0.950878
+   },
+   "T5_QPM_plus_reduction_pct": {
+    "value": 95.798916,
+    "printed": 95.8,
+    "diff": -0.001084
+   },
+   "agri_origins_pct": {
+    "value": 28.3,
+    "printed": 28,
+    "diff": 0.3
+   },
+   "agri_dest_pct": {
+    "value": 16.5,
+    "printed": 17,
+    "diff": -0.5
+   },
+   "T4_salariat_nonagri_working_class": {
+    "value": 46.0,
+    "printed": 46,
+    "diff": 0.0
+   },
+   "T4_salariat_manual_origins": {
+    "value": 57.0,
+    "printed": 57,
+    "diff": 0.0
+   },
+   "T3_rows_total": {
+    "value": 84057.0,
+    "printed": 84057,
+    "diff": 0.0
+   },
+   "T4_cols_total": {
+    "value": 84057.0,
+    "printed": 84057,
+    "diff": 0.0
+   },
+   "T3_reconstructed_salariat_dest_n": {
+    "value": 6233.63,
+    "printed": 7344,
+    "diff": -1110.37
+   },
+   "T3_reconstructed_salariat_self_recruit_pct": {
+    "value": 17.024591,
+    "printed": 17,
+    "diff": 0.024591
+   },
+   "T3_self_recruit_pct_using_T4_size": {
+    "value": 14.450572,
+    "printed": 17,
+    "diff": -2.549428
+   },
+   "T1_1901_mobile_eq_up_plus_down": {
+    "value": 52.0,
+    "printed": 52,
+    "diff": 0.0
+   },
+   "T1_1974": {
+    "value": 64.0,
+    "printed": 64,
+    "diff": 0.0
+   },
+   "T1_2001": {
+    "value": 67.0,
+    "printed": 67,
+    "diff": 0.0
+   },
+   "unidiff_dev_diff": {
+    "value": 58.0,
+    "printed": 58,
+    "diff": 0.0
+   },
+   "unidiff_p": {
+    "value": 0.0,
+    "printed": null,
+    "diff": null
+   },
+   "T7_dev_diff": {
+    "value": 450.0,
+    "printed": null,
+    "diff": null
+   },
+   "T7_p": {
+    "value": 0.0,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the three dissimilarity indices reproduce from Table 2 to two decimals (|diff| <= 0.005; 2001 '<0.1' entered as 0.05)",
+   "observed": {
+    "items": {
+     "DI_1901": {
+      "value": 0.117,
+      "printed": 0.12,
+      "diff": -0.003
+     },
+     "DI_1974": {
+      "value": 0.1615,
+      "printed": 0.16,
+      "diff": 0.0015
+     },
+     "DI_2001": {
+      "value": 0.23225,
+      "printed": 0.23,
+      "diff": 0.00225
+     },
+     "T5_QPM_reduction_pct": {
+      "value": 77.849122,
+      "printed": 78.8,
+      "diff": -0.950878
+     },
+     "T5_QPM_plus_reduction_pct": {
+      "value": 95.798916,
+      "printed": 95.8,
+      "diff": -0.001084
+     },
+     "agri_origins_pct": {
+      "value": 28.3,
+      "printed": 28,
+      "diff": 0.3
+     },
+     "agri_dest_pct": {
+      "value": 16.5,
+      "printed": 17,
+      "diff": -0.5
+     },
+     "T4_salariat_nonagri_working_class": {
+      "value": 46.0,
+      "printed": 46,
+      "diff": 0.0
+     },
+     "T4_salariat_manual_origins": {
+      "value": 57.0,
+      "printed": 57,
+      "diff": 0.0
+     },
+     "T3_rows_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T4_cols_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T3_reconstructed_salariat_dest_n": {
+      "value": 6233.63,
+      "printed": 7344,
+      "diff": -1110.37
+     },
+     "T3_reconstructed_salariat_self_recruit_pct": {
+      "value": 17.024591,
+      "printed": 17,
+      "diff": 0.024591
+     },
+     "T3_self_recruit_pct_using_T4_size": {
+      "value": 14.450572,
+      "printed": 17,
+      "diff": -2.549428
+     },
+     "T1_1901_mobile_eq_up_plus_down": {
+      "value": 52.0,
+      "printed": 52,
+      "diff": 0.0
+     },
+     "T1_1974": {
+      "value": 64.0,
+      "printed": 64,
+      "diff": 0.0
+     },
+     "T1_2001": {
+      "value": 67.0,
+      "printed": 67,
+      "diff": 0.0
+     },
+     "unidiff_dev_diff": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     },
+     "unidiff_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_dev_diff": {
+      "value": 450.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Table 5's printed % reductions reproduce from its printed deviances within 0.1 points",
+   "observed": {
+    "items": {
+     "DI_1901": {
+      "value": 0.117,
+      "printed": 0.12,
+      "diff": -0.003
+     },
+     "DI_1974": {
+      "value": 0.1615,
+      "printed": 0.16,
+      "diff": 0.0015
+     },
+     "DI_2001": {
+      "value": 0.23225,
+      "printed": 0.23,
+      "diff": 0.00225
+     },
+     "T5_QPM_reduction_pct": {
+      "value": 77.849122,
+      "printed": 78.8,
+      "diff": -0.950878
+     },
+     "T5_QPM_plus_reduction_pct": {
+      "value": 95.798916,
+      "printed": 95.8,
+      "diff": -0.001084
+     },
+     "agri_origins_pct": {
+      "value": 28.3,
+      "printed": 28,
+      "diff": 0.3
+     },
+     "agri_dest_pct": {
+      "value": 16.5,
+      "printed": 17,
+      "diff": -0.5
+     },
+     "T4_salariat_nonagri_working_class": {
+      "value": 46.0,
+      "printed": 46,
+      "diff": 0.0
+     },
+     "T4_salariat_manual_origins": {
+      "value": 57.0,
+      "printed": 57,
+      "diff": 0.0
+     },
+     "T3_rows_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T4_cols_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T3_reconstructed_salariat_dest_n": {
+      "value": 6233.63,
+      "printed": 7344,
+      "diff": -1110.37
+     },
+     "T3_reconstructed_salariat_self_recruit_pct": {
+      "value": 17.024591,
+      "printed": 17,
+      "diff": 0.024591
+     },
+     "T3_self_recruit_pct_using_T4_size": {
+      "value": 14.450572,
+      "printed": 17,
+      "diff": -2.549428
+     },
+     "T1_1901_mobile_eq_up_plus_down": {
+      "value": 52.0,
+      "printed": 52,
+      "diff": 0.0
+     },
+     "T1_1974": {
+      "value": 64.0,
+      "printed": 64,
+      "diff": 0.0
+     },
+     "T1_2001": {
+      "value": 67.0,
+      "printed": 67,
+      "diff": 0.0
+     },
+     "unidiff_dev_diff": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     },
+     "unidiff_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_dev_diff": {
+      "value": 450.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the text's 28%, 17%, 46% and 57% follow from Tables 2 and 4 within 0.6 points",
+   "observed": {
+    "items": {
+     "DI_1901": {
+      "value": 0.117,
+      "printed": 0.12,
+      "diff": -0.003
+     },
+     "DI_1974": {
+      "value": 0.1615,
+      "printed": 0.16,
+      "diff": 0.0015
+     },
+     "DI_2001": {
+      "value": 0.23225,
+      "printed": 0.23,
+      "diff": 0.00225
+     },
+     "T5_QPM_reduction_pct": {
+      "value": 77.849122,
+      "printed": 78.8,
+      "diff": -0.950878
+     },
+     "T5_QPM_plus_reduction_pct": {
+      "value": 95.798916,
+      "printed": 95.8,
+      "diff": -0.001084
+     },
+     "agri_origins_pct": {
+      "value": 28.3,
+      "printed": 28,
+      "diff": 0.3
+     },
+     "agri_dest_pct": {
+      "value": 16.5,
+      "printed": 17,
+      "diff": -0.5
+     },
+     "T4_salariat_nonagri_working_class": {
+      "value": 46.0,
+      "printed": 46,
+      "diff": 0.0
+     },
+     "T4_salariat_manual_origins": {
+      "value": 57.0,
+      "printed": 57,
+      "diff": 0.0
+     },
+     "T3_rows_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T4_cols_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T3_reconstructed_salariat_dest_n": {
+      "value": 6233.63,
+      "printed": 7344,
+      "diff": -1110.37
+     },
+     "T3_reconstructed_salariat_self_recruit_pct": {
+      "value": 17.024591,
+      "printed": 17,
+      "diff": 0.024591
+     },
+     "T3_self_recruit_pct_using_T4_size": {
+      "value": 14.450572,
+      "printed": 17,
+      "diff": -2.549428
+     },
+     "T1_1901_mobile_eq_up_plus_down": {
+      "value": 52.0,
+      "printed": 52,
+      "diff": 0.0
+     },
+     "T1_1974": {
+      "value": 64.0,
+      "printed": 64,
+      "diff": 0.0
+     },
+     "T1_2001": {
+      "value": 67.0,
+      "printed": 67,
+      "diff": 0.0
+     },
+     "unidiff_dev_diff": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     },
+     "unidiff_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_dev_diff": {
+      "value": 450.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "Tables 3 and 4 behave as one unweighted 7x7 table: the salariat destination total rebuilt from Table 3's row percentages and row sizes is within 2% of Table 4's 7344",
+   "observed": {
+    "items": {
+     "DI_1901": {
+      "value": 0.117,
+      "printed": 0.12,
+      "diff": -0.003
+     },
+     "DI_1974": {
+      "value": 0.1615,
+      "printed": 0.16,
+      "diff": 0.0015
+     },
+     "DI_2001": {
+      "value": 0.23225,
+      "printed": 0.23,
+      "diff": 0.00225
+     },
+     "T5_QPM_reduction_pct": {
+      "value": 77.849122,
+      "printed": 78.8,
+      "diff": -0.950878
+     },
+     "T5_QPM_plus_reduction_pct": {
+      "value": 95.798916,
+      "printed": 95.8,
+      "diff": -0.001084
+     },
+     "agri_origins_pct": {
+      "value": 28.3,
+      "printed": 28,
+      "diff": 0.3
+     },
+     "agri_dest_pct": {
+      "value": 16.5,
+      "printed": 17,
+      "diff": -0.5
+     },
+     "T4_salariat_nonagri_working_class": {
+      "value": 46.0,
+      "printed": 46,
+      "diff": 0.0
+     },
+     "T4_salariat_manual_origins": {
+      "value": 57.0,
+      "printed": 57,
+      "diff": 0.0
+     },
+     "T3_rows_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T4_cols_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T3_reconstructed_salariat_dest_n": {
+      "value": 6233.63,
+      "printed": 7344,
+      "diff": -1110.37
+     },
+     "T3_reconstructed_salariat_self_recruit_pct": {
+      "value": 17.024591,
+      "printed": 17,
+      "diff": 0.024591
+     },
+     "T3_self_recruit_pct_using_T4_size": {
+      "value": 14.450572,
+      "printed": 17,
+      "diff": -2.549428
+     },
+     "T1_1901_mobile_eq_up_plus_down": {
+      "value": 52.0,
+      "printed": 52,
+      "diff": 0.0
+     },
+     "T1_1974": {
+      "value": 64.0,
+      "printed": 64,
+      "diff": 0.0
+     },
+     "T1_2001": {
+      "value": 67.0,
+      "printed": 67,
+      "diff": 0.0
+     },
+     "unidiff_dev_diff": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     },
+     "unidiff_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_dev_diff": {
+      "value": 450.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "Table 1: % mobile = % up + % down in all three years",
+   "observed": {
+    "items": {
+     "DI_1901": {
+      "value": 0.117,
+      "printed": 0.12,
+      "diff": -0.003
+     },
+     "DI_1974": {
+      "value": 0.1615,
+      "printed": 0.16,
+      "diff": 0.0015
+     },
+     "DI_2001": {
+      "value": 0.23225,
+      "printed": 0.23,
+      "diff": 0.00225
+     },
+     "T5_QPM_reduction_pct": {
+      "value": 77.849122,
+      "printed": 78.8,
+      "diff": -0.950878
+     },
+     "T5_QPM_plus_reduction_pct": {
+      "value": 95.798916,
+      "printed": 95.8,
+      "diff": -0.001084
+     },
+     "agri_origins_pct": {
+      "value": 28.3,
+      "printed": 28,
+      "diff": 0.3
+     },
+     "agri_dest_pct": {
+      "value": 16.5,
+      "printed": 17,
+      "diff": -0.5
+     },
+     "T4_salariat_nonagri_working_class": {
+      "value": 46.0,
+      "printed": 46,
+      "diff": 0.0
+     },
+     "T4_salariat_manual_origins": {
+      "value": 57.0,
+      "printed": 57,
+      "diff": 0.0
+     },
+     "T3_rows_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T4_cols_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T3_reconstructed_salariat_dest_n": {
+      "value": 6233.63,
+      "printed": 7344,
+      "diff": -1110.37
+     },
+     "T3_reconstructed_salariat_self_recruit_pct": {
+      "value": 17.024591,
+      "printed": 17,
+      "diff": 0.024591
+     },
+     "T3_self_recruit_pct_using_T4_size": {
+      "value": 14.450572,
+      "printed": 17,
+      "diff": -2.549428
+     },
+     "T1_1901_mobile_eq_up_plus_down": {
+      "value": 52.0,
+      "printed": 52,
+      "diff": 0.0
+     },
+     "T1_1974": {
+      "value": 64.0,
+      "printed": 64,
+      "diff": 0.0
+     },
+     "T1_2001": {
+      "value": 67.0,
+      "printed": 67,
+      "diff": 0.0
+     },
+     "unidiff_dev_diff": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     },
+     "unidiff_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_dev_diff": {
+      "value": 450.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "DI_1901": {
+      "value": 0.117,
+      "printed": 0.12,
+      "diff": -0.003
+     },
+     "DI_1974": {
+      "value": 0.1615,
+      "printed": 0.16,
+      "diff": 0.0015
+     },
+     "DI_2001": {
+      "value": 0.23225,
+      "printed": 0.23,
+      "diff": 0.00225
+     },
+     "T5_QPM_reduction_pct": {
+      "value": 77.849122,
+      "printed": 78.8,
+      "diff": -0.950878
+     },
+     "T5_QPM_plus_reduction_pct": {
+      "value": 95.798916,
+      "printed": 95.8,
+      "diff": -0.001084
+     },
+     "agri_origins_pct": {
+      "value": 28.3,
+      "printed": 28,
+      "diff": 0.3
+     },
+     "agri_dest_pct": {
+      "value": 16.5,
+      "printed": 17,
+      "diff": -0.5
+     },
+     "T4_salariat_nonagri_working_class": {
+      "value": 46.0,
+      "printed": 46,
+      "diff": 0.0
+     },
+     "T4_salariat_manual_origins": {
+      "value": 57.0,
+      "printed": 57,
+      "diff": 0.0
+     },
+     "T3_rows_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T4_cols_total": {
+      "value": 84057.0,
+      "printed": 84057,
+      "diff": 0.0
+     },
+     "T3_reconstructed_salariat_dest_n": {
+      "value": 6233.63,
+      "printed": 7344,
+      "diff": -1110.37
+     },
+     "T3_reconstructed_salariat_self_recruit_pct": {
+      "value": 17.024591,
+      "printed": 17,
+      "diff": 0.024591
+     },
+     "T3_self_recruit_pct_using_T4_size": {
+      "value": 14.450572,
+      "printed": 17,
+      "diff": -2.549428
+     },
+     "T1_1901_mobile_eq_up_plus_down": {
+      "value": 52.0,
+      "printed": 52,
+      "diff": 0.0
+     },
+     "T1_1974": {
+      "value": 64.0,
+      "printed": 64,
+      "diff": 0.0
+     },
+     "T1_2001": {
+      "value": 67.0,
+      "printed": 67,
+      "diff": 0.0
+     },
+     "unidiff_dev_diff": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     },
+     "unidiff_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_dev_diff": {
+      "value": 450.0,
+      "printed": null,
+      "diff": null
+     },
+     "T7_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 7,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 5,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
