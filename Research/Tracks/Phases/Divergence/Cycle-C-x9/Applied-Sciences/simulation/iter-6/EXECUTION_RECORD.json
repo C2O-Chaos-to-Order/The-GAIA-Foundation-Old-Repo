@@ -1,0 +1,80 @@
+{
+ "sim_id": "SIM-DV-APP-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:33:18.331772+00:00",
+ "finished_utc": "2026-10-24T16:33:18.337511+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-6  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "561f3abd236692d9b0ec1c2c7e9635814bb8c50a12c5e6e566e2c478b64ec2a6",
+ "params_sha256": "579ba5cbb5e74291ba76911ae7cab34e4f140661ca7419d8aaa5daaf409e95d3",
+ "results_sha256": "ec2eadc98659956aa4076d0ce177db9ec79f4cc0ed58dcea8c88e0b2ca319f3e",
+ "results": {
+  "0.5": {
+   "final_abs": 0.0,
+   "factor": 0.5,
+   "max_abs": 0.5
+  },
+  "1.5": {
+   "final_abs": 0.0,
+   "factor": 0.5,
+   "max_abs": 0.5
+  },
+  "2.5": {
+   "final_abs": 1.1107837759465946e+88,
+   "factor": 1.5,
+   "max_abs": 1.1107837759465946e+88
+  },
+  "3.0": {
+   "final_abs": 3.273390607896142e+150,
+   "factor": 2.0,
+   "max_abs": 3.273390607896142e+150
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "final |y| equals |1 - h lam|^steps for every h lam (relative error <= 1e-9)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "h lam < 2: |y| -> 0 (final < 1e-6); h lam > 2: |y| grows (final > 1e6)",
+   "observed": {
+    "0.5": 0.0,
+    "1.5": 0.0,
+    "2.5": 1.1107837759465946e+88,
+    "3.0": 3.273390607896142e+150
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "amplification factor by h lam",
+   "observed": {
+    "0.5": 0.5,
+    "1.5": 0.5,
+    "2.5": 1.5,
+    "3.0": 2.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
