@@ -1,0 +1,126 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/claim.schema.json",
+ "title": "Claim (data model 1.1.0)",
+ "description": "One row of Report-*/claims/claims.csv after normalization: source_ids and cross_links are split on ';' into arrays; all other fields are strings exactly as stored. Per-cycle change notes use columns named c<N>_change.",
+ "type": "object",
+ "required": [
+  "claim_id",
+  "report",
+  "wording",
+  "claim_class",
+  "framework_label",
+  "conclusion_status",
+  "source_ids",
+  "locator",
+  "confidence",
+  "counterevidence_limits",
+  "cross_links",
+  "verification_phrases"
+ ],
+ "properties": {
+  "claim_id": {
+   "type": "string",
+   "pattern": "^(C0v2|C[1-9][0-9]*)-R[1-7]-[0-9]{2}$"
+  },
+  "report": {
+   "type": "string",
+   "pattern": "^R[1-7]$"
+  },
+  "wording": {
+   "type": "string",
+   "minLength": 10
+  },
+  "claim_class": {
+   "enum": [
+    "Empirical",
+    "Mathematical/computational",
+    "Historical",
+    "Interpretive/philosophical",
+    "Spiritual/theological"
+   ]
+  },
+  "framework_label": {
+   "enum": [
+    "Established",
+    "Plausible",
+    "Philosophical/Spiritual",
+    "Hypothetical"
+   ]
+  },
+  "conclusion_status": {
+   "enum": [
+    "Supported",
+    "Contested",
+    "Mixed",
+    "Indeterminate",
+    "Interpretive",
+    "Hypothetical",
+    "Not supported",
+    "Withdrawn"
+   ]
+  },
+  "source_ids": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string",
+    "anyOf": [
+     {
+      "pattern": "^[GSTUVWX][0-9]{2}[a-z]?$"
+     },
+     {
+      "pattern": "^(C0:)?SIM-R[1-7]-C[0-9]+(/iter-[0-9]+)?#[A-Za-z0-9_.]+$"
+     }
+    ]
+   }
+  },
+  "locator": {
+   "type": "string",
+   "minLength": 1
+  },
+  "confidence": {
+   "type": "string",
+   "minLength": 1
+  },
+  "counterevidence_limits": {
+   "type": "string",
+   "description": "May be empty in stored data; an empty value is reported as quality warning Q1 by gaia_tools.validate."
+  },
+  "cross_links": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "pattern": "^R[1-7](-SIM)?$"
+   }
+  },
+  "verification_phrases": {
+   "type": "string"
+  }
+ },
+ "patternProperties": {
+  "^c[0-9]+_change$": {
+   "type": "string",
+   "minLength": 1
+  }
+ },
+ "additionalProperties": false,
+ "allOf": [
+  {
+   "if": {
+    "properties": {
+     "framework_label": {
+      "const": "Hypothetical"
+     }
+    }
+   },
+   "then": {
+    "properties": {
+     "conclusion_status": {
+      "const": "Hypothetical"
+     }
+    }
+   }
+  }
+ ]
+}
