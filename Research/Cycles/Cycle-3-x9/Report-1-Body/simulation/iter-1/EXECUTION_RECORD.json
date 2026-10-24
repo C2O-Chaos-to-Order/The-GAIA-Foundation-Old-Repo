@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:37.852023+00:00",
+ "finished_utc": "2026-10-24T03:00:37.865085+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-1",
+ "params_sha256": "81e7c0f997302aaff52a46d37481174c554b012112033ce5af0c87a1f7565d43",
+ "outputs": {
+  "outputs/results.json": "36cd41bc57c63ecc49f6677c898e6f6483461bec8946f985aae9e342c5e9b455"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "copied day()/single-state code reproduces the Cycle-2 iteration-2 ratio (|diff| < 1e-9)",
+   "observed": [
+    2.1336901376,
+    2.1336901376
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "two-state code with B_s = 0 (fast state = Cycle-2 learner) reproduces the single-state trajectory (max |diff| < 1e-12)",
+   "observed": 0.0,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
