@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:16:06.621036+00:00",
+ "finished_utc": "2026-10-24T04:16:08.975344+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-6",
+ "params_sha256": "bcb787daff927197ff03c759ee216216d55d196e584cd61edfb2d96974650d50",
+ "outputs": {
+  "outputs/results.json": "47a0723f739986b58e93cf5dd0b60e6953e7f8b6c313b1353c9dbd83e6905405"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "over the extended range, the constrained variant still regulates: slope ratio within 0.2 of the original model",
+   "observed": [
+    0.2313901176,
+    -0.0306573565,
+    0.6858974359
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
