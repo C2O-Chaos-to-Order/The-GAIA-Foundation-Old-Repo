@@ -1,0 +1,16 @@
+{
+ "by_certainty": {
+  "certain": {
+   "agree": 0.9523809524,
+   "kappa": 0.8590604027,
+   "n": 21
+  },
+  "uncertain": {
+   "agree": 0.8518518519,
+   "kappa": 0.4193548387,
+   "n": 27
+  }
+ },
+ "carried_from_prev": {},
+ "n_cells": 48
+}
