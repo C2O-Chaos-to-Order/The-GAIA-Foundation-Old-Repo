@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-R6-C4",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:15:54.503548+00:00",
+ "finished_utc": "2026-10-24T04:16:01.340015+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-4",
+ "params_sha256": "fa13d4a27f5266f6236c69f4f682e96a7927f8982b619b5afad89916ef6ba471",
+ "outputs": {
+  "outputs/results.json": "eba1a9553db0d4ba75c22826c9daf1e0345ef68e5c95b074bc6ef507a57f7cec"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "maximum luminosity rises monotonically with cost half-width R (a cheaper adaptation tolerates more forcing)",
+   "observed": [
+    [
+     25.0,
+     1.568,
+     0.1117072987
+    ],
+    [
+     40.0,
+     1.768,
+     0.2313901176
+    ],
+    [
+     60.0,
+     1.828,
+     0.2471722304
+    ],
+    [
+     100.0,
+     1.856,
+     0.2384657933
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
