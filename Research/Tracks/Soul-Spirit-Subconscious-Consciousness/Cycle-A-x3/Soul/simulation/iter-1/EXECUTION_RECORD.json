@@ -1,0 +1,89 @@
+{
+ "sim_id": "SIM-SOUL-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:18:01.024324+00:00",
+ "finished_utc": "2026-10-24T05:18:01.730494+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-1  (run from Soul/simulation/)",
+ "spec_sha256": "da235110e609dd761dc39962bf2839fd3c65e3905ee1e410fb75e484f755884f",
+ "params_sha256": "d9f3fc672e1a807116d055f55612979bc9b247cae06ced6fbe35c584ca2fc8be",
+ "results_sha256": "1ea81fe40ac40715a6cdae8729ca35c01a3ee299d6dba8736c093abf8b6e473c",
+ "results": {
+  "marginals": [
+   0.0798,
+   0.0817,
+   0.0797,
+   0.1815,
+   0.1803,
+   0.1834
+  ],
+  "mean_diff_items": 0.304,
+  "t": 43.0336871,
+  "p": 0.0,
+  "patterns": {
+   "all cease": 0.6742,
+   "mental only (dualist pattern)": 0.1729,
+   "physical and mental continue": 0.1337,
+   "physical only": 0.0192
+  },
+  "power_small_n": 0.9985
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated item marginals within 0.01 of targets",
+   "observed": [
+    0.0798,
+    0.0817,
+    0.0797,
+    0.1815,
+    0.1803,
+    0.1834
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mental > physical continuity is significant (p < .001) at N = 10000",
+   "observed": 0.0,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the modal response pattern is 'all states cease' (share > 0.5)",
+   "observed": 0.6742,
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "fewer than 25% show the 'dualist' pattern (some mental continuity, no physical continuity)",
+   "observed": 0.1729,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "power to detect the mental-physical difference at n = 100",
+   "observed": 0.9985,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
