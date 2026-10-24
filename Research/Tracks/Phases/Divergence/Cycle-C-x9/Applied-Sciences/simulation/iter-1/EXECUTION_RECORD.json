@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-DV-APP-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:59.915660+00:00",
+ "finished_utc": "2026-10-24T16:33:00.524103+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "b66ae08b943192a3e3485539c3886c957ac2f37ce6ec00b6978894bfdc065ddd",
+ "params_sha256": "9bfc3e0eeb73c0ac195e89cb95a038effb80229e259b13cad6c699f116ad88c4",
+ "results_sha256": "e67dd2b68f0c389dcdae919591d163a4bdbb033899d5304a9cc65a7a3718b1bd",
+ "results": {
+  "high_ccf": {
+   "drivers": 25,
+   "mutations": 115,
+   "share": 0.2173913
+  },
+  "low_ccf": {
+   "drivers": 485,
+   "mutations": 4001,
+   "share": 0.1212197
+  },
+  "mutations_per_birth": 0.99972568,
+  "births": 601495,
+  "pooled_se": 0.03116213
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean new mutations per birth within 4 SE of u = 1.0",
+   "observed": [
+    0.99972568,
+    0.00128939
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "enrichment: share_high - share_low > 4 pooled SE",
+   "observed": [
+    0.2173913,
+    0.1212197,
+    0.03116213
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "driver shares by CCF class",
+   "observed": {
+    "high_ccf": {
+     "drivers": 25,
+     "mutations": 115,
+     "share": 0.2173913
+    },
+    "low_ccf": {
+     "drivers": 485,
+     "mutations": 4001,
+     "share": 0.1212197
+    },
+    "mutations_per_birth": 0.99972568,
+    "births": 601495,
+    "pooled_se": 0.03116213
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-DV-APP-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:33:00.630099+00:00",
+ "finished_utc": "2026-10-24T16:33:01.336742+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "24b36cbf6821fb28176fdd33253e15450d0202dc809ec85559f45002700e493a",
+ "params_sha256": "88744bf71db450103947acf951ed9d6f67b0bcd74ca51195a3770d8eba70d3b5",
+ "results_sha256": "f9d06ee92971d7d51fdd170ab4a5f6d5cf94fb47ac0a3f36b4990f302038b4a7",
+ "results": {
+  "high_ccf": {
+   "drivers": 3,
+   "mutations": 79,
+   "share": 0.03797468
+  },
+  "low_ccf": {
+   "drivers": 234,
+   "mutations": 4750,
+   "share": 0.04926316
+  },
+  "mutations_per_birth": 0.99980678,
+  "births": 662474,
+  "pooled_se": 0.02450677
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean new mutations per birth within 4 SE of u = 1.0",
+   "observed": [
+    0.99980678,
+    0.00122861
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no enrichment: |share_high - share_low| <= 4 pooled SE",
+   "observed": [
+    0.03797468,
+    0.04926316,
+    0.02450677
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "driver shares by CCF class",
+   "observed": {
+    "high_ccf": {
+     "drivers": 3,
+     "mutations": 79,
+     "share": 0.03797468
+    },
+    "low_ccf": {
+     "drivers": 234,
+     "mutations": 4750,
+     "share": 0.04926316
+    },
+    "mutations_per_birth": 0.99980678,
+    "births": 662474,
+    "pooled_se": 0.02450677
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
