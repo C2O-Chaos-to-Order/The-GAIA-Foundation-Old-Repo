@@ -1,0 +1,117 @@
+{
+ "sim_id": "SIM-IN-PHI-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:23:05.659726+00:00",
+ "finished_utc": "2026-10-24T17:23:05.818190+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-6  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "d33787575077c8ece105a04e8fd534c98e8ec5f96b38d9d187875f22f62fedba",
+ "params_sha256": "7a45c524e045bbdd07a101d944f30a502535b20f0c04368af62a8c4c4bd53f65",
+ "results_sha256": "a7816443dfb8f28cf202f100a4297fb665c7282957e440507338e4dc8dcadaa8",
+ "results": {
+  "1000": {
+   "mean": 27.565,
+   "se": 0.32287788,
+   "analytic": 27.03063779
+  },
+  "10000": {
+   "mean": 38.995,
+   "se": 0.39433791,
+   "analytic": 38.52336301
+  },
+  "100000": {
+   "mean": 49.775,
+   "se": 0.47776897,
+   "analytic": 50.03426398
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean number of forms within 4 SE of the analytic sum",
+   "observed": {
+    "1000": {
+     "mean": 27.565,
+     "se": 0.32287788,
+     "analytic": 27.03063779
+    },
+    "10000": {
+     "mean": 38.995,
+     "se": 0.39433791,
+     "analytic": 38.52336301
+    },
+    "100000": {
+     "mean": 49.775,
+     "se": 0.47776897,
+     "analytic": 50.03426398
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "novelty does not stop: forms at n = 100000 exceed n = 1000 by > 4 combined SE",
+   "observed": [
+    {
+     "mean": 27.565,
+     "se": 0.32287788,
+     "analytic": 27.03063779
+    },
+    {
+     "mean": 49.775,
+     "se": 0.47776897,
+     "analytic": 50.03426398
+    }
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "but its rate falls: new forms per draw at the end < 0.01 of the start",
+   "observed": [
+    5e-05
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "1000": {
+     "mean": 27.565,
+     "se": 0.32287788,
+     "analytic": 27.03063779
+    },
+    "10000": {
+     "mean": 38.995,
+     "se": 0.39433791,
+     "analytic": 38.52336301
+    },
+    "100000": {
+     "mean": 49.775,
+     "se": 0.47776897,
+     "analytic": 50.03426398
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
