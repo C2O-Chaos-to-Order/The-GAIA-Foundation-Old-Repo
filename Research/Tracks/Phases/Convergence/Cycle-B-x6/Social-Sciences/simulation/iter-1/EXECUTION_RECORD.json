@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-CV-SOC-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:44.691674+00:00",
+ "finished_utc": "2026-10-24T20:44:44.845998+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "dbce1dbd43e08956a6b032ec1ad2ad89240dc152365d716893c192dee4ba12e1",
+ "params_sha256": "9fc92ab800a0ca4ee625c5f2c15e291f4a9187d89eac0a9f599a535b767181a2",
+ "results_sha256": "d28a6e3383ba9ee3bef4e6433ba4fff9b8cf6ab9d50e465b99f3fb9dee11fab7",
+ "results": {
+  "Omega": {
+   "mu0.0_s1.5": 0.7517
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354,
+  "by_n": {
+   "5": 0.5714,
+   "10": 0.6522,
+   "50": 0.7557,
+   "200": 0.7725
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "large dispersion (mu 0, sigma 1.5): Omega > 0.5 for n = 5, 10, 50, 200",
+   "observed": {
+    "Omega": {
+     "mu0.0_s1.5": 0.7517
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "5": 0.5714,
+     "10": 0.6522,
+     "50": 0.7557,
+     "200": 0.7725
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu0.0_s1.5": 0.7517
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "5": 0.5714,
+     "10": 0.6522,
+     "50": 0.7557,
+     "200": 0.7725
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
