@@ -1,0 +1,191 @@
+{
+ "sim_id": "SIM-AL-SOC-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:11.862887+00:00",
+ "finished_utc": "2026-10-24T19:48:12.279934+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "fd35eafcdb7036b28b00b54438ce2ae12fcf3532094726ee1a0a46ef0d7ba91f",
+ "params_sha256": "646bb0e6138a607da9784b3939ec35c94a04aab90c8bfb66d3ff99c82f4fa453",
+ "results_sha256": "844d4ab380b09a432262169309c0bfd25a24e80f048e503ec7128bab6229c1bf",
+ "results": {
+  "sums": {
+   "screened": {
+    "computed": 182.0,
+    "printed": 182,
+    "diff": 0.0
+   },
+   "sought": {
+    "computed": 80.0,
+    "printed": 80,
+    "diff": 0.0
+   },
+   "assessed": {
+    "computed": 79.0,
+    "printed": 79,
+    "diff": 0.0
+   },
+   "published": {
+    "computed": 27.0,
+    "printed": 27,
+    "diff": 0.0
+   },
+   "reports": {
+    "computed": 55.0,
+    "printed": 55,
+    "diff": 0.0
+   },
+   "effect_types": {
+    "computed": 98.0,
+    "printed": 106,
+    "diff": -8.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with uncorrelated predictors the standardized betas equal the correlations (1e-12)",
+   "observed": [
+    0.3,
+    -0.2
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "PRISMA steps add up exactly",
+   "observed": {
+    "sums": {
+     "screened": {
+      "computed": 182.0,
+      "printed": 182,
+      "diff": 0.0
+     },
+     "sought": {
+      "computed": 80.0,
+      "printed": 80,
+      "diff": 0.0
+     },
+     "assessed": {
+      "computed": 79.0,
+      "printed": 79,
+      "diff": 0.0
+     },
+     "published": {
+      "computed": 27.0,
+      "printed": 27,
+      "diff": 0.0
+     },
+     "reports": {
+      "computed": 55.0,
+      "printed": 55,
+      "diff": 0.0
+     },
+     "effect_types": {
+      "computed": 98.0,
+      "printed": 106,
+      "diff": -8.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "effect-type counts add to 106",
+   "observed": {
+    "sums": {
+     "screened": {
+      "computed": 182.0,
+      "printed": 182,
+      "diff": 0.0
+     },
+     "sought": {
+      "computed": 80.0,
+      "printed": 80,
+      "diff": 0.0
+     },
+     "assessed": {
+      "computed": 79.0,
+      "printed": 79,
+      "diff": 0.0
+     },
+     "published": {
+      "computed": 27.0,
+      "printed": 27,
+      "diff": 0.0
+     },
+     "reports": {
+      "computed": 55.0,
+      "printed": 55,
+      "diff": 0.0
+     },
+     "effect_types": {
+      "computed": 98.0,
+      "printed": 106,
+      "diff": -8.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "sums": {
+     "screened": {
+      "computed": 182.0,
+      "printed": 182,
+      "diff": 0.0
+     },
+     "sought": {
+      "computed": 80.0,
+      "printed": 80,
+      "diff": 0.0
+     },
+     "assessed": {
+      "computed": 79.0,
+      "printed": 79,
+      "diff": 0.0
+     },
+     "published": {
+      "computed": 27.0,
+      "printed": 27,
+      "diff": 0.0
+     },
+     "reports": {
+      "computed": 55.0,
+      "printed": 55,
+      "diff": 0.0
+     },
+     "effect_types": {
+      "computed": 98.0,
+      "printed": 106,
+      "diff": -8.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,105 @@
+{
+ "sim_id": "SIM-AL-SOC-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:14.922664+00:00",
+ "finished_utc": "2026-10-24T19:48:15.098618+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-12  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "38d8c99074f06ccf96896f553900581d578de88ea4b6822ec60d8af575008bfd",
+ "params_sha256": "e8b28be60d9092c181d0901c560eee6564f79931dbd0df9380604dad2a0c61ca",
+ "results_sha256": "ab012b01add7d0a1a0db131ba543b89ba3c4da24685c8e966eebaa4d9cd3ad84",
+ "results": {
+  "by_kappa": {
+   "0.04": {
+    "R": 0.8,
+    "F_end": 0.0,
+    "F_star": 0.0
+   },
+   "0.2": {
+    "R": 4.0,
+    "F_end": 0.75,
+    "F_star": 0.75
+   },
+   "0.4": {
+    "R": 8.0,
+    "F_end": 0.875,
+    "F_star": 0.875
+   }
+  },
+  "half_life_after_stop": 13.86,
+  "ln2_over_delta": 13.86294361
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated end state within 0.01 of the analytic fixed point for every kappa",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "fused state above 0.4 when R >= 2, below 0.01 when R < 1",
+   "observed": {
+    "0.04": {
+     "R": 0.8,
+     "F_end": 0.0,
+     "F_star": 0.0
+    },
+    "0.2": {
+     "R": 4.0,
+     "F_end": 0.75,
+     "F_star": 0.75
+    },
+    "0.4": {
+     "R": 8.0,
+     "F_end": 0.875,
+     "F_star": 0.875
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_kappa": {
+     "0.04": {
+      "R": 0.8,
+      "F_end": 0.0,
+      "F_star": 0.0
+     },
+     "0.2": {
+      "R": 4.0,
+      "F_end": 0.75,
+      "F_star": 0.75
+     },
+     "0.4": {
+      "R": 8.0,
+      "F_end": 0.875,
+      "F_star": 0.875
+     }
+    },
+    "half_life_after_stop": 13.86,
+    "ln2_over_delta": 13.86294361
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
