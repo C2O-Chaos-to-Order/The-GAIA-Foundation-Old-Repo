@@ -1,0 +1,709 @@
+{
+ "sim_id": "SIM-CV-NAT-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:22:56.026034+00:00",
+ "finished_utc": "2026-10-24T20:23:05.539032+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-2  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "e615f65a12516e5bb6826296cf40080f72fe149a6857f775b666730e620222f4",
+ "params_sha256": "3ae83550dd79d8fa640b637f7844cef03d50140331fa7ab56ff665001cd4409e",
+ "results_sha256": "b3fd94c4fb403b084f0038e5c3aaf9ed92ede10178b7f2e9ae0138d184bcb56f",
+ "results": {
+  "grid": {
+   "a2.0944_n0.45": {
+    "R": 0.507445,
+    "gap": 2.094395,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.5": {
+    "R": 0.5,
+    "gap": 2.094395,
+    "spread_co": 0.0,
+    "spread_ch": -0.0,
+    "two_cluster": true,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.55": {
+    "R": 0.507445,
+    "gap": 2.094395,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.6": {
+    "R": 0.52915,
+    "gap": 2.094395,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.65": {
+    "R": 0.563479,
+    "gap": 2.094368,
+    "spread_co": 0.0,
+    "spread_ch": 3e-06,
+    "two_cluster": true,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.7": {
+    "R": 0.020939,
+    "gap": -2.264541,
+    "spread_co": 0.942411,
+    "spread_ch": 0.961095,
+    "two_cluster": false,
+    "bound": 0.666667,
+    "below_bound": false
+   },
+   "a2.3562_n0.45": {
+    "R": 0.393678,
+    "gap": 2.356194,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.585786,
+    "below_bound": true
+   },
+   "a2.3562_n0.5": {
+    "R": 0.382683,
+    "gap": 2.356194,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.585786,
+    "below_bound": true
+   },
+   "a2.3562_n0.55": {
+    "R": 0.393678,
+    "gap": 2.356194,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.585786,
+    "below_bound": true
+   },
+   "a2.3562_n0.6": {
+    "R": 0.177081,
+    "gap": 2.300731,
+    "spread_co": 0.548199,
+    "spread_ch": 0.607524,
+    "two_cluster": false,
+    "bound": 0.585786,
+    "below_bound": false
+   },
+   "a2.3562_n0.65": {
+    "R": 4.1e-05,
+    "gap": 3.141076,
+    "spread_co": 0.861116,
+    "spread_ch": 0.925167,
+    "two_cluster": false,
+    "bound": 0.585786,
+    "below_bound": false
+   },
+   "a2.3562_n0.7": {
+    "R": 0.0,
+    "gap": -3.141593,
+    "spread_co": 0.87886,
+    "spread_ch": 0.948083,
+    "two_cluster": false,
+    "bound": 0.585786,
+    "below_bound": false
+   },
+   "a2.6180_n0.45": {
+    "R": 0.276256,
+    "gap": 2.617994,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.535898,
+    "below_bound": true
+   },
+   "a2.6180_n0.5": {
+    "R": 0.258819,
+    "gap": 2.617994,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.535898,
+    "below_bound": true
+   },
+   "a2.6180_n0.55": {
+    "R": 0.100142,
+    "gap": 2.750743,
+    "spread_co": 0.473721,
+    "spread_ch": 0.522878,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": false
+   },
+   "a2.6180_n0.6": {
+    "R": 1.2e-05,
+    "gap": -3.14133,
+    "spread_co": 0.934074,
+    "spread_ch": 0.956065,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": false
+   },
+   "a2.6180_n0.65": {
+    "R": 0.0,
+    "gap": -3.141593,
+    "spread_co": 0.759211,
+    "spread_ch": 0.870344,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": false
+   },
+   "a2.6180_n0.7": {
+    "R": 0.0,
+    "gap": 3.141593,
+    "spread_co": 0.798769,
+    "spread_ch": 0.913758,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": false
+   },
+   "a2.8798_n0.45": {
+    "R": 0.163911,
+    "gap": 2.879793,
+    "spread_co": 0.0,
+    "spread_ch": 0.0,
+    "two_cluster": true,
+    "bound": 0.508666,
+    "below_bound": true
+   },
+   "a2.8798_n0.5": {
+    "R": 0.130401,
+    "gap": 2.880046,
+    "spread_co": 2e-06,
+    "spread_ch": 2e-06,
+    "two_cluster": true,
+    "bound": 0.508666,
+    "below_bound": true
+   },
+   "a2.8798_n0.55": {
+    "R": 0.000178,
+    "gap": -3.140966,
+    "spread_co": 0.478893,
+    "spread_ch": 0.573823,
+    "two_cluster": false,
+    "bound": 0.508666,
+    "below_bound": false
+   },
+   "a2.8798_n0.6": {
+    "R": 0.0,
+    "gap": 3.141593,
+    "spread_co": 0.847971,
+    "spread_ch": 0.898647,
+    "two_cluster": false,
+    "bound": 0.508666,
+    "below_bound": false
+   },
+   "a2.8798_n0.65": {
+    "R": 0.0,
+    "gap": 3.141593,
+    "spread_co": 0.890946,
+    "spread_ch": 0.941279,
+    "two_cluster": false,
+    "bound": 0.508666,
+    "below_bound": false
+   },
+   "a2.8798_n0.7": {
+    "R": 0.0,
+    "gap": 3.141593,
+    "spread_co": 0.852239,
+    "spread_ch": 0.936674,
+    "two_cluster": false,
+    "bound": 0.508666,
+    "below_bound": false
+   }
+  },
+  "V1_R_classical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "classical Kuramoto (all lags 0, identical frequencies, K > 0) synchronises from random phases: R > 0.99 at T",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "two-cluster state persists exactly when n_ch < 1/(1 - cos alpha), including cells within 0.02 of the bound",
+   "observed": {
+    "grid": {
+     "a2.0944_n0.45": {
+      "R": 0.507445,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.5": {
+      "R": 0.5,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": -0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.55": {
+      "R": 0.507445,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.6": {
+      "R": 0.52915,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.65": {
+      "R": 0.563479,
+      "gap": 2.094368,
+      "spread_co": 0.0,
+      "spread_ch": 3e-06,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.7": {
+      "R": 0.020939,
+      "gap": -2.264541,
+      "spread_co": 0.942411,
+      "spread_ch": 0.961095,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": false
+     },
+     "a2.3562_n0.45": {
+      "R": 0.393678,
+      "gap": 2.356194,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.585786,
+      "below_bound": true
+     },
+     "a2.3562_n0.5": {
+      "R": 0.382683,
+      "gap": 2.356194,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.585786,
+      "below_bound": true
+     },
+     "a2.3562_n0.55": {
+      "R": 0.393678,
+      "gap": 2.356194,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.585786,
+      "below_bound": true
+     },
+     "a2.3562_n0.6": {
+      "R": 0.177081,
+      "gap": 2.300731,
+      "spread_co": 0.548199,
+      "spread_ch": 0.607524,
+      "two_cluster": false,
+      "bound": 0.585786,
+      "below_bound": false
+     },
+     "a2.3562_n0.65": {
+      "R": 4.1e-05,
+      "gap": 3.141076,
+      "spread_co": 0.861116,
+      "spread_ch": 0.925167,
+      "two_cluster": false,
+      "bound": 0.585786,
+      "below_bound": false
+     },
+     "a2.3562_n0.7": {
+      "R": 0.0,
+      "gap": -3.141593,
+      "spread_co": 0.87886,
+      "spread_ch": 0.948083,
+      "two_cluster": false,
+      "bound": 0.585786,
+      "below_bound": false
+     },
+     "a2.6180_n0.45": {
+      "R": 0.276256,
+      "gap": 2.617994,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.5": {
+      "R": 0.258819,
+      "gap": 2.617994,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.55": {
+      "R": 0.100142,
+      "gap": 2.750743,
+      "spread_co": 0.473721,
+      "spread_ch": 0.522878,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.6180_n0.6": {
+      "R": 1.2e-05,
+      "gap": -3.14133,
+      "spread_co": 0.934074,
+      "spread_ch": 0.956065,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.6180_n0.65": {
+      "R": 0.0,
+      "gap": -3.141593,
+      "spread_co": 0.759211,
+      "spread_ch": 0.870344,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.6180_n0.7": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.798769,
+      "spread_ch": 0.913758,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.8798_n0.45": {
+      "R": 0.163911,
+      "gap": 2.879793,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.508666,
+      "below_bound": true
+     },
+     "a2.8798_n0.5": {
+      "R": 0.130401,
+      "gap": 2.880046,
+      "spread_co": 2e-06,
+      "spread_ch": 2e-06,
+      "two_cluster": true,
+      "bound": 0.508666,
+      "below_bound": true
+     },
+     "a2.8798_n0.55": {
+      "R": 0.000178,
+      "gap": -3.140966,
+      "spread_co": 0.478893,
+      "spread_ch": 0.573823,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     },
+     "a2.8798_n0.6": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.847971,
+      "spread_ch": 0.898647,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     },
+     "a2.8798_n0.65": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.890946,
+      "spread_ch": 0.941279,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     },
+     "a2.8798_n0.7": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.852239,
+      "spread_ch": 0.936674,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     }
+    },
+    "V1_R_classical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "grid": {
+     "a2.0944_n0.45": {
+      "R": 0.507445,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.5": {
+      "R": 0.5,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": -0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.55": {
+      "R": 0.507445,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.6": {
+      "R": 0.52915,
+      "gap": 2.094395,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.65": {
+      "R": 0.563479,
+      "gap": 2.094368,
+      "spread_co": 0.0,
+      "spread_ch": 3e-06,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.7": {
+      "R": 0.020939,
+      "gap": -2.264541,
+      "spread_co": 0.942411,
+      "spread_ch": 0.961095,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": false
+     },
+     "a2.3562_n0.45": {
+      "R": 0.393678,
+      "gap": 2.356194,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.585786,
+      "below_bound": true
+     },
+     "a2.3562_n0.5": {
+      "R": 0.382683,
+      "gap": 2.356194,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.585786,
+      "below_bound": true
+     },
+     "a2.3562_n0.55": {
+      "R": 0.393678,
+      "gap": 2.356194,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.585786,
+      "below_bound": true
+     },
+     "a2.3562_n0.6": {
+      "R": 0.177081,
+      "gap": 2.300731,
+      "spread_co": 0.548199,
+      "spread_ch": 0.607524,
+      "two_cluster": false,
+      "bound": 0.585786,
+      "below_bound": false
+     },
+     "a2.3562_n0.65": {
+      "R": 4.1e-05,
+      "gap": 3.141076,
+      "spread_co": 0.861116,
+      "spread_ch": 0.925167,
+      "two_cluster": false,
+      "bound": 0.585786,
+      "below_bound": false
+     },
+     "a2.3562_n0.7": {
+      "R": 0.0,
+      "gap": -3.141593,
+      "spread_co": 0.87886,
+      "spread_ch": 0.948083,
+      "two_cluster": false,
+      "bound": 0.585786,
+      "below_bound": false
+     },
+     "a2.6180_n0.45": {
+      "R": 0.276256,
+      "gap": 2.617994,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.5": {
+      "R": 0.258819,
+      "gap": 2.617994,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.55": {
+      "R": 0.100142,
+      "gap": 2.750743,
+      "spread_co": 0.473721,
+      "spread_ch": 0.522878,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.6180_n0.6": {
+      "R": 1.2e-05,
+      "gap": -3.14133,
+      "spread_co": 0.934074,
+      "spread_ch": 0.956065,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.6180_n0.65": {
+      "R": 0.0,
+      "gap": -3.141593,
+      "spread_co": 0.759211,
+      "spread_ch": 0.870344,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.6180_n0.7": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.798769,
+      "spread_ch": 0.913758,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     },
+     "a2.8798_n0.45": {
+      "R": 0.163911,
+      "gap": 2.879793,
+      "spread_co": 0.0,
+      "spread_ch": 0.0,
+      "two_cluster": true,
+      "bound": 0.508666,
+      "below_bound": true
+     },
+     "a2.8798_n0.5": {
+      "R": 0.130401,
+      "gap": 2.880046,
+      "spread_co": 2e-06,
+      "spread_ch": 2e-06,
+      "two_cluster": true,
+      "bound": 0.508666,
+      "below_bound": true
+     },
+     "a2.8798_n0.55": {
+      "R": 0.000178,
+      "gap": -3.140966,
+      "spread_co": 0.478893,
+      "spread_ch": 0.573823,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     },
+     "a2.8798_n0.6": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.847971,
+      "spread_ch": 0.898647,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     },
+     "a2.8798_n0.65": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.890946,
+      "spread_ch": 0.941279,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     },
+     "a2.8798_n0.7": {
+      "R": 0.0,
+      "gap": 3.141593,
+      "spread_co": 0.852239,
+      "spread_ch": 0.936674,
+      "two_cluster": false,
+      "bound": 0.508666,
+      "below_bound": false
+     }
+    },
+    "V1_R_classical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
