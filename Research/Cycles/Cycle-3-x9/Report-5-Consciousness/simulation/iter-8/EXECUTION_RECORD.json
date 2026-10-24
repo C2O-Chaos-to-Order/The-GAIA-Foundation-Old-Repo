@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R5-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:08:38.873893+00:00",
+ "finished_utc": "2026-10-24T03:08:39.916523+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-8",
+ "params_sha256": "c04c1b3798a1dd2462d36cef3fb88291a48e92e730252b444c19417787f3b04f",
+ "outputs": {
+  "outputs/results.json": "e384071118700f0ae1b6728633a7c6caced834ee112385b7a7c90b60f7979cfe"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "halving all coupling from the peak lowers PCI-like by >= 30% while spontaneous LZ rises (dissociation, cf. C2-R5-04)",
+   "observed": [
+    0.2867550257,
+    0.4070446775,
+    0.5614409345
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
