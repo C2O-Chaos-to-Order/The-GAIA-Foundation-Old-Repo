@@ -111,6 +111,7 @@ Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline 
 - [ ] ⬜ **Skills** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
 - [ ] ⬜ **Capabilities** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
 - [ ] ⬜ **Powers** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
+- [ ] ⬜ **Indigenous Knowledge, Skills, Capabilities and Powers** — owner-requested 2026-10-24; the same seven levels, entangled with the four series above. Follows the CARE Principles for Indigenous Data Governance (Collective benefit, Authority to control, Responsibility, Ethics): credit named peoples and Indigenous authors, use published sources only, no sacred or restricted knowledge, no claims of ownership
 - [ ] ⬜ **Knowledge, Skills, Capabilities and Powers: The Quantum Entanglement** — how the four series connect
 
 ### Recommended by Grok Bot (awaiting owner approval)
@@ -150,6 +151,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24 — Added Indigenous Knowledge, Skills, Capabilities and Powers.
 - 2026-10-24 — Added the God and Lucifer series (Mother of God, God, Creations of God, Lucifer, Creations of Lucifer, Duality and Connection).
 - 2026-10-24 — Added The Echo That Began the Light.
 - 2026-10-24 — Added Knowledge, Skills, Capabilities and Powers series, recommendations, and the list of updates needed.
