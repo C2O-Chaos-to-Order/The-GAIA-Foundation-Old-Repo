@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-SUBC-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:17:58.583812+00:00",
+ "finished_utc": "2026-10-24T05:18:00.398912+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-3  (run from Subconscious/simulation/)",
+ "spec_sha256": "659119582bbc24d927b63b3e41e5a8d737e9afb9222a909b206705032f71edc2",
+ "params_sha256": "7d450ac110919874f50eaa99bd13436037fb4e7cf313feaf3ba7f803c036516f",
+ "results_sha256": "dba99db8f467146dcb33b3d0171068b391b45599c420c60ca0193bd9261cfc13",
+ "results": {
+  "dreamed_vs_all_other": {
+   "rate_significant": 0.751,
+   "mean_diff": 0.3575872
+  },
+  "dreamed_vs_reactivated_not_dreamed": {
+   "rate_significant": 0.049,
+   "mean_diff": -0.00185055
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean dreamed-minus-other difference within 0.03 of analytic g*(1-(R-s)/(M-s)) = 0.3608",
+   "observed": 0.3575872,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "dreamed memories are recalled better than all non-dreamed memories in >= 80% of simulated studies, although dreaming has no causal role in the model",
+   "observed": 0.751,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "against reactivated-but-not-dreamed memories the difference is significant at no more than 0.07 (about alpha)",
+   "observed": 0.049,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
