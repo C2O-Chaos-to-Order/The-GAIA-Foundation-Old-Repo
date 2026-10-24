@@ -1,0 +1,61 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:26.296685+00:00",
+ "finished_utc": "2026-10-24T03:02:26.297889+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-1",
+ "params_sha256": "2813de71e80480812a46dabc1f3c8678c92c6401946f741be124053e1bc547a2",
+ "outputs": {
+  "outputs/results.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "copied run() reproduces the Cycle-2 iteration-1 latent-inhibition indices for PH and KF (|diff| < 1e-9)",
+   "observed": [
+    {
+     "PH": 0.2727653831,
+     "KF": 0.5180188763
+    },
+    {
+     "PH": 0.2727653831,
+     "KF": 0.5180188763
+    }
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "empty delay steps change no associative weight in any model",
+   "observed": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
