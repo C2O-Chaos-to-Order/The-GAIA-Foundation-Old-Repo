@@ -1,0 +1,112 @@
+{
+ "sim_id": "SIM-AS-NAT-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:39:45.312113+00:00",
+ "finished_utc": "2026-10-24T23:39:50.608565+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "29d530eb778b553528032c7c45cbde38398b2455b8e2a0b5f0a39cdc57c8cd22",
+ "params_sha256": "1b169b224aebd6c0d622184bc03cb6263797a9a6160c43c7c49e8738e2118587",
+ "results_sha256": "24870c6b4f9deacf70036c47dfeb4627d2df429802ff4d8dfbaf81c035c5af38",
+ "results": {
+  "by_L": {
+   "9": {
+    "rmf_s1": {
+     "n_peaks": 4365.0,
+     "frac_peaks": 0.0166,
+     "P0.14": 0.671,
+     "P_global": 0.0647,
+     "R_ph_bs": null,
+     "R_ph_bs_min": null,
+     "P0.14_min": 0.6679
+    },
+    "V1_smooth": {
+     "n_peaks": 1,
+     "frac_peaks": 0.0,
+     "P0.14": 1.0,
+     "P_global": 1.0,
+     "R_ph_bs": null
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "for every L an additive RMF landscape (sigma 0) has one peak reached by every walk",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "9 sites, RMF sigma 1: P14% between P85's sigma 0.5 and sigma 10 values (0.264 < P14% < 0.963)",
+   "observed": {
+    "by_L": {
+     "9": {
+      "rmf_s1": {
+       "n_peaks": 4365.0,
+       "frac_peaks": 0.0166,
+       "P0.14": 0.671,
+       "P_global": 0.0647,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.6679
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.0,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "9": {
+      "rmf_s1": {
+       "n_peaks": 4365.0,
+       "frac_peaks": 0.0166,
+       "P0.14": 0.671,
+       "P_global": 0.0647,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.6679
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.0,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
