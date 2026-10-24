@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-IN-APP-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:55.555083+00:00",
+ "finished_utc": "2026-10-24T17:48:58.165425+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-4  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "add6593c0b11a1e1c187ec956e78fcb811129e45e39f036484acf2cf533f00d1",
+ "params_sha256": "19f389b19c776ece66f8b6cfe5e27ec4a9b78074efbc892fdd37f2f7a6c14986",
+ "results_sha256": "a47e442f463e2c389996c2fd35a5ecbfe181e2e47d24bff07827dc30b726f16f",
+ "results": {
+  "exact_fold": -0.38490018,
+  "mean_tip_r": -0.38428163,
+  "sd_tip_r": 0.01180671,
+  "n_missing": 0,
+  "median_tau_ar1": 0.84115224
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "every replicate tips before the ramp ends",
+   "observed": 0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "median Kendall tau of AR1 > 0.5",
+   "observed": {
+    "exact_fold": -0.38490018,
+    "mean_tip_r": -0.38428163,
+    "sd_tip_r": 0.01180671,
+    "n_missing": 0,
+    "median_tau_ar1": 0.84115224
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact_fold": -0.38490018,
+    "mean_tip_r": -0.38428163,
+    "sd_tip_r": 0.01180671,
+    "n_missing": 0,
+    "median_tau_ar1": 0.84115224
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
