@@ -1,0 +1,83 @@
+{
+ "sim_id": "SIM-IN-HUM-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:49.079583+00:00",
+ "finished_utc": "2026-10-24T17:11:11.162952+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "1d4f2890465234504d380820b789a7cd657b1d9a61b675e7cb253084f84ff979",
+ "params_sha256": "067e87f2ae1cdf2439986b105bcb5de0be709e7dd1316f62eecfe17fb6e897bb",
+ "results_sha256": "a54f9b06b880635aa45e473aa9dab5910f405abbfa48e12d3ee081685c3046d9",
+ "results": {
+  "gamma_c": 0.37797721,
+  "x_c": 0.08313339,
+  "delta": -0.02,
+  "share_completed": 1.0,
+  "mean_latency": 181.337165,
+  "mean_growth": 7.51134,
+  "cv_latency": 0.95120246
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "frequencies stay in [0, 1] and some runs complete",
+   "observed": {
+    "gamma_c": 0.37797721,
+    "x_c": 0.08313339,
+    "delta": -0.02,
+    "share_completed": 1.0,
+    "mean_latency": 181.337165,
+    "mean_growth": 7.51134,
+    "cv_latency": 0.95120246
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "share of runs completing the change within the step budget is strictly between 0 and 1",
+   "observed": 1.0,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "mean latency (time in the trap) exceeds mean growth time",
+   "observed": [
+    181.337165,
+    7.51134
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "gamma_c": 0.37797721,
+    "x_c": 0.08313339,
+    "delta": -0.02,
+    "share_completed": 1.0,
+    "mean_latency": 181.337165,
+    "mean_growth": 7.51134,
+    "cv_latency": 0.95120246
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
