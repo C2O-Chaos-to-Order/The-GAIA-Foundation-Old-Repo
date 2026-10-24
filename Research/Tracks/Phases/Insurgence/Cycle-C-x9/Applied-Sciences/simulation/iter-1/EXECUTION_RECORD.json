@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-IN-APP-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:44.869935+00:00",
+ "finished_utc": "2026-10-24T17:48:49.175454+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "a1182e3f9296448516e9fd74203df53ddc0ec926d4dfa9631e18d9ab78604d5e",
+ "params_sha256": "c3d0e0612d583926134912a52c90190dc7fa46610fc682a69552574fa67e7ba2",
+ "results_sha256": "64d32465e6bf2f3e249c64529bc56f9589052fe040e515ae84ee9b7eafbcbf78",
+ "results": {
+  "median_switch_t": 1758.75,
+  "q10_q90": [
+   1549.425,
+   1912.845
+  ],
+  "share_no_switch": 0.23,
+  "noise_printed_at_1750": 0.47,
+  "source_single_run": 1386.8
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "internal check of P41 Eq. 2: the printed ramp 2.4e-4 t + 0.05 reaches 0.47 at t = 1750, not the stated plateau 0.35 (the offset form is used)",
+   "observed": 0.47,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "median switch time before t = 1750 (during the ramp)",
+   "observed": {
+    "median_switch_t": 1758.75,
+    "q10_q90": [
+     1549.425,
+     1912.845
+    ],
+    "share_no_switch": 0.23,
+    "noise_printed_at_1750": 0.47,
+    "source_single_run": 1386.8
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "median_switch_t": 1758.75,
+    "q10_q90": [
+     1549.425,
+     1912.845
+    ],
+    "share_no_switch": 0.23,
+    "noise_printed_at_1750": 0.47,
+    "source_single_run": 1386.8
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
