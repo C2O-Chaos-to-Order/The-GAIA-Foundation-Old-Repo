@@ -1,0 +1,64 @@
+{
+ "sim_id": "SIM-R3-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:45.010272+00:00",
+ "finished_utc": "2026-10-24T01:19:45.021842+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-1",
+ "params_sha256": "3ee4832a5d081a56cabe9ca179e7e80a3e48171aa243b7b0b02a0cc1b3ea4fac",
+ "outputs": {
+  "outputs/results.json": "c75956dddc45ae575375ee19abd7de106b206d8aff1f74e9890ce7ab68493ecd"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "C1",
+   "kind": "reporting",
+   "expect": "report how many coding/metric variants reproduce the base partition (reporting)",
+   "observed": [
+    2,
+    15
+   ],
+   "result": "Reported"
+  },
+  {
+   "id": "C2",
+   "kind": "hypothesis",
+   "expect": "typology is coding-robust only if median ARI vs base >= 0.8 (pre-registered robustness bar)",
+   "observed": 0.5692307692,
+   "result": "Not supported"
+  },
+  {
+   "id": "E1",
+   "kind": "validation",
+   "expect": "coding matrix complete (0/1 only) and every row has a source",
+   "observed": {
+    "shape": [
+     14,
+     12
+    ],
+    "sourced": true
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "E3",
+   "kind": "hypothesis",
+   "expect": "no attribute is shared by all conceptions (no universal definition in this coding)",
+   "observed": 9,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

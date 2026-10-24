@@ -1,0 +1,15 @@
+id,conception,tradition_family,source,A1_immaterial,A2_independent_of_body_survives_death,A3_principle_of_life_or_breath,A4_seat_of_thought_or_identity,A5_bearer_of_moral_character,A6_oriented_to_purpose_or_final_end,A7_enduring_unchanging_self,A8_form_of_or_inseparable_from_body,A9_enduring_self_denied,A10_constituted_relationally_or_communally,A11_identical_with_universal_ground,A12_extends_to_non_human_beings,uncertain_cells
+C01,Plato (Phaedo; Republic),Greek,S07,1,1,1,1,1,1,1,0,0,0,0,1,A6;A12
+C02,Aristotle (De Anima),Greek,S07;T05,0,0,1,1,1,1,0,1,0,0,0,1,A1;A2;A6
+C03,Epicurus,Greek,S07,0,0,1,1,0,0,0,0,0,0,0,1,A5;A12
+C04,Stoics (pneuma),Greek,S07,0,0,1,1,1,1,0,0,0,0,1,1,A2;A5;A6;A11
+C05,Hebrew Bible (Gen 2:7 nephesh: 'living being'),Hebrew Bible,T07;T07e,0,0,1,0,0,0,0,1,0,0,0,0,A1;A2;A8
+C06,Thomas Aquinas (ST I q.75),Christian,U40,1,1,1,1,1,1,0,1,0,0,0,1,A5;A6;A8
+C07,Qur'an (17:85; 15:29 ruh),Islamic,U41;U50,1,1,1,0,0,0,0,0,0,0,0,0,A1;A2
+C08,Bhagavad Gita 2.20,Hindu,U43,1,1,0,0,0,0,1,0,0,0,0,0,A1;A11;A12
+C09,Advaita Vedanta (atman = Brahman),Hindu,S31,1,1,0,0,0,1,1,0,0,0,1,1,A4;A6;A12
+C10,Indian Buddhist anatman,Buddhist,S32,0,0,0,0,1,1,0,0,1,0,0,1,A2;A5;A6;A12
+C11,Early Chinese hun/po and qi; xin heart-mind,Chinese,T17,0,1,1,1,1,0,0,0,0,0,0,1,A2;A4;A12
+C12,African (Akan/Gyekye) moral personhood,African,U44,0,0,0,0,1,0,0,0,0,1,0,0,A1;A2
+C13,Indigenous social-relational animism,Indigenous,U45,0,0,0,0,0,0,0,0,0,1,0,1,A1
+C14,Physicalism,Contemporary philosophy,T06;S08,0,0,0,1,0,0,0,1,0,0,0,0,A4
