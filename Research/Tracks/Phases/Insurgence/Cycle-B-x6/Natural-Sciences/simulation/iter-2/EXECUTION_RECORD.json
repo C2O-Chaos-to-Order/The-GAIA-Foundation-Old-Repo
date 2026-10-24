@@ -1,0 +1,99 @@
+{
+ "sim_id": "SIM-IN-NAT-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:22:03.669128+00:00",
+ "finished_utc": "2026-10-24T17:22:03.675156+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-2  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "b562d2503d6d472bbf16763cd9e0d010249bf6c36dbc9a9412719bfccc085a2d",
+ "params_sha256": "14c3a69b1f783658209e3e356c052b2f87ba942d41c0228e5beb47ccce137883",
+ "results_sha256": "e484c102cbf5092df232b0b0f150055bee4f01e8dce8fdc2e3e808e98ee8b03a",
+ "results": {
+  "by_B": {
+   "0.8": {
+    "G_star": 6.25,
+    "T": 2156.81297994,
+    "N_end": 32
+   },
+   "1.0": {
+    "G_star": 4.0,
+    "T": 204.87381896,
+    "N_end": 16
+   },
+   "1.2": {
+    "G_star": 2.77777778,
+    "T": 52.36525611,
+    "N_end": 10
+   },
+   "1.5": {
+    "G_star": 1.77777778,
+    "T": 10.26218739,
+    "N_end": 5
+   }
+  },
+  "slope": 1.16884529
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "MFPT increases with the barrier",
+   "observed": [
+    7.67638694,
+    5.32239427,
+    3.95824332,
+    2.32846601
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "slope of ln MFPT on G* within 0.3 of 1 (Arrhenius-like exp(G*))",
+   "observed": 1.16884529,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.8": {
+     "G_star": 6.25,
+     "T": 2156.81297994,
+     "N_end": 32
+    },
+    "1.0": {
+     "G_star": 4.0,
+     "T": 204.87381896,
+     "N_end": 16
+    },
+    "1.2": {
+     "G_star": 2.77777778,
+     "T": 52.36525611,
+     "N_end": 10
+    },
+    "1.5": {
+     "G_star": 1.77777778,
+     "T": 10.26218739,
+     "N_end": 5
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

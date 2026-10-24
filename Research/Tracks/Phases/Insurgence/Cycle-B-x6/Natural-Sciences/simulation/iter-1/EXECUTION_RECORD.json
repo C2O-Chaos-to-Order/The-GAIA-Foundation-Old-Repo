@@ -1,0 +1,70 @@
+{
+ "sim_id": "SIM-IN-NAT-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:22:03.422021+00:00",
+ "finished_utc": "2026-10-24T17:22:03.576009+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "99e656dd2ccbdc0b9caaa769e41b378f95ba6d837f207348a55e0e09dc965c31",
+ "params_sha256": "568854abcba5890361cf5968841603f8417830bb44f85897c5121cb797dae39e",
+ "results_sha256": "ce2e2e527015a3a92883cb064996b39ce01c283a0cf75e8db9619272f76c00f4",
+ "results": {
+  "n_star": 8.0,
+  "n_star_grid": 8,
+  "G_star": 4.0,
+  "mean_T": 217.62339549,
+  "se": 9.80757672,
+  "exact": 204.87381896
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "grid maximum of dG_n within 1 of n* = (2A/3B)^3",
+   "observed": [
+    8.0,
+    8
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "simulated MFPT within 4 SE of the exact birth-death value",
+   "observed": [
+    217.62339549,
+    9.80757672,
+    204.87381896
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "n_star": 8.0,
+    "n_star_grid": 8,
+    "G_star": 4.0,
+    "mean_T": 217.62339549,
+    "se": 9.80757672,
+    "exact": 204.87381896
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
