@@ -1,0 +1,140 @@
+{
+ "sim_id": "SIM-CV-SOC-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:41.065668+00:00",
+ "finished_utc": "2026-10-24T21:13:41.860061+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-4  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "6f8813116d8e77918019ce8ac75143f98b990290775cb2fff58c6b3d4793fd86",
+ "params_sha256": "024fcb15442b2ad6733223a1d29b44dedc009a8ea9095cd52ea3bbfd474523bf",
+ "results_sha256": "4b3e81e8d69aed7ae65b50f0cddfb4ed1a197ada3e844b204076cee972e98a50",
+ "results": {
+  "by_case": {
+   "mu0.0_s0.25_n10": {
+    "bound": 0.0,
+    "mc": 0.3688,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s0.25_n100": {
+    "bound": 0.0,
+    "mc": 0.29265,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s0.25_n1000": {
+    "bound": 0.0,
+    "mc": 0.30015,
+    "bound_le_mc_plus_3se": true
+   }
+  },
+  "theta": 2.0,
+  "omega": 0.33333333,
+  "reps": 20000
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the log-normal CDF at the truth with mu = 0 is exactly 1/2",
+   "observed": 0.5,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P69's lower bound never exceeds the Monte Carlo Omega_n (by more than 3 SE) in any case",
+   "observed": {
+    "by_case": {
+     "mu0.0_s0.25_n10": {
+      "bound": 0.0,
+      "mc": 0.3688,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s0.25_n100": {
+      "bound": 0.0,
+      "mc": 0.29265,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s0.25_n1000": {
+      "bound": 0.0,
+      "mc": 0.30015,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 20000
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "thin spread (sigma 0.25): the bound is trivial (< 0.01) for n >= 100",
+   "observed": {
+    "by_case": {
+     "mu0.0_s0.25_n10": {
+      "bound": 0.0,
+      "mc": 0.3688,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s0.25_n100": {
+      "bound": 0.0,
+      "mc": 0.29265,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s0.25_n1000": {
+      "bound": 0.0,
+      "mc": 0.30015,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 20000
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "mu0.0_s0.25_n10": {
+      "bound": 0.0,
+      "mc": 0.3688,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s0.25_n100": {
+      "bound": 0.0,
+      "mc": 0.29265,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s0.25_n1000": {
+      "bound": 0.0,
+      "mc": 0.30015,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 20000
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
