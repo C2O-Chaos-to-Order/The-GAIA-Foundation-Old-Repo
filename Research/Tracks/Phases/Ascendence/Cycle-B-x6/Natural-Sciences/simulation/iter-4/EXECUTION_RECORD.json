@@ -1,0 +1,212 @@
+{
+ "sim_id": "SIM-AS-NAT-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:39:59.441464+00:00",
+ "finished_utc": "2026-10-24T23:40:02.220477+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-4  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "286401354079d48eec4744da582aa444e754d44ec9c238eb130e66d0adf3e374",
+ "params_sha256": "49118ef7ce45ba5f28e0269b5a54b565afeab5fd106fabcee594e3a8b36c3475",
+ "results_sha256": "6fa7661596981d15cd163373d2443fad028e3d1ec79b92f3aef23bd932ba2ef4",
+ "results": {
+  "landscapes": {
+   "rmf_s0.5": {
+    "n_peaks": 15.2,
+    "frac_peaks": 0.0037,
+    "P0.14": 0.8667,
+    "P_global": 0.7173,
+    "R_ph_bs": 0.9785,
+    "R_ph_bs_min": 0.9597,
+    "P0.14_min": 0.6643
+   },
+   "rmf_s2": {
+    "n_peaks": 247.6,
+    "frac_peaks": 0.0604,
+    "P0.14": 0.3311,
+    "P_global": 0.0152,
+    "R_ph_bs": 0.8512,
+    "R_ph_bs_min": 0.8228,
+    "P0.14_min": 0.2703
+   },
+   "hoc": {
+    "n_peaks": 314.0,
+    "frac_peaks": 0.0767,
+    "P0.14": 0.1989,
+    "P_global": 0.0046,
+    "R_ph_bs": 0.4682,
+    "R_ph_bs_min": 0.3654,
+    "P0.14_min": 0.1829
+   },
+   "V1_smooth": {
+    "n_peaks": 1,
+    "frac_peaks": 0.00024,
+    "P0.14": 1.0,
+    "P_global": 1.0,
+    "R_ph_bs": null
+   }
+  },
+  "G": 4096
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "an RMF landscape with sigma = 0 (additive) has exactly one peak and every walk ends on it",
+   "observed": {
+    "n_peaks": 1,
+    "frac_peaks": 0.00024,
+    "P0.14": 1.0,
+    "P_global": 1.0,
+    "R_ph_bs": null
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "binary sites (12 two-state sites): P14% falls from RMF sigma 0.5 to sigma 2 to HoC",
+   "observed": {
+    "landscapes": {
+     "rmf_s0.5": {
+      "n_peaks": 15.2,
+      "frac_peaks": 0.0037,
+      "P0.14": 0.8667,
+      "P_global": 0.7173,
+      "R_ph_bs": 0.9785,
+      "R_ph_bs_min": 0.9597,
+      "P0.14_min": 0.6643
+     },
+     "rmf_s2": {
+      "n_peaks": 247.6,
+      "frac_peaks": 0.0604,
+      "P0.14": 0.3311,
+      "P_global": 0.0152,
+      "R_ph_bs": 0.8512,
+      "R_ph_bs_min": 0.8228,
+      "P0.14_min": 0.2703
+     },
+     "hoc": {
+      "n_peaks": 314.0,
+      "frac_peaks": 0.0767,
+      "P0.14": 0.1989,
+      "P_global": 0.0046,
+      "R_ph_bs": 0.4682,
+      "R_ph_bs_min": 0.3654,
+      "P0.14_min": 0.1829
+     },
+     "V1_smooth": {
+      "n_peaks": 1,
+      "frac_peaks": 0.00024,
+      "P0.14": 1.0,
+      "P_global": 1.0,
+      "R_ph_bs": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "binary sites: peak height and basin size positively correlated in every landscape with >= 3 peaks",
+   "observed": {
+    "landscapes": {
+     "rmf_s0.5": {
+      "n_peaks": 15.2,
+      "frac_peaks": 0.0037,
+      "P0.14": 0.8667,
+      "P_global": 0.7173,
+      "R_ph_bs": 0.9785,
+      "R_ph_bs_min": 0.9597,
+      "P0.14_min": 0.6643
+     },
+     "rmf_s2": {
+      "n_peaks": 247.6,
+      "frac_peaks": 0.0604,
+      "P0.14": 0.3311,
+      "P_global": 0.0152,
+      "R_ph_bs": 0.8512,
+      "R_ph_bs_min": 0.8228,
+      "P0.14_min": 0.2703
+     },
+     "hoc": {
+      "n_peaks": 314.0,
+      "frac_peaks": 0.0767,
+      "P0.14": 0.1989,
+      "P_global": 0.0046,
+      "R_ph_bs": 0.4682,
+      "R_ph_bs_min": 0.3654,
+      "P0.14_min": 0.1829
+     },
+     "V1_smooth": {
+      "n_peaks": 1,
+      "frac_peaks": 0.00024,
+      "P0.14": 1.0,
+      "P_global": 1.0,
+      "R_ph_bs": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "landscapes": {
+     "rmf_s0.5": {
+      "n_peaks": 15.2,
+      "frac_peaks": 0.0037,
+      "P0.14": 0.8667,
+      "P_global": 0.7173,
+      "R_ph_bs": 0.9785,
+      "R_ph_bs_min": 0.9597,
+      "P0.14_min": 0.6643
+     },
+     "rmf_s2": {
+      "n_peaks": 247.6,
+      "frac_peaks": 0.0604,
+      "P0.14": 0.3311,
+      "P_global": 0.0152,
+      "R_ph_bs": 0.8512,
+      "R_ph_bs_min": 0.8228,
+      "P0.14_min": 0.2703
+     },
+     "hoc": {
+      "n_peaks": 314.0,
+      "frac_peaks": 0.0767,
+      "P0.14": 0.1989,
+      "P_global": 0.0046,
+      "R_ph_bs": 0.4682,
+      "R_ph_bs_min": 0.3654,
+      "P0.14_min": 0.1829
+     },
+     "V1_smooth": {
+      "n_peaks": 1,
+      "frac_peaks": 0.00024,
+      "P0.14": 1.0,
+      "P_global": 1.0,
+      "R_ph_bs": null
+     }
+    },
+    "G": 4096
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
