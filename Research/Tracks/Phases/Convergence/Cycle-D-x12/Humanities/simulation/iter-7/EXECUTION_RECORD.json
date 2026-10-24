@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-CV-HUM-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:14.201800+00:00",
+ "finished_utc": "2026-10-24T22:15:14.216303+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-7  (run from Humanities/simulation/)",
+ "spec_sha256": "c75f5f27e4eeb0cb1caca7b9b6a2778170d8f279d02e40f062b4b0a9c3e50a9a",
+ "params_sha256": "3d18ccaf856aedb615b3f4e6d725b505a78aa5382fda14f393ece82a29f755a1",
+ "results_sha256": "1421b596519f01dad19cf06b9715cde5d2789751bac7af349efdcc89619ade1a",
+ "results": {
+  "by_x0": {
+   "0.55": {
+    "p_fix": 0.96,
+    "p_lost": 0.04,
+    "p_unresolved": 0.0,
+    "mean_gens": 5.418
+   }
+  },
+  "N": 100,
+  "c": 2.0,
+  "b": 0.0,
+  "se_max": 0.01118
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.249329,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N 100, c 2: a 55% majority fixes with probability >= 0.9",
+   "observed": {
+    "by_x0": {
+     "0.55": {
+      "p_fix": 0.96,
+      "p_lost": 0.04,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.418
+     }
+    },
+    "N": 100,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.55": {
+      "p_fix": 0.96,
+      "p_lost": 0.04,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.418
+     }
+    },
+    "N": 100,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
