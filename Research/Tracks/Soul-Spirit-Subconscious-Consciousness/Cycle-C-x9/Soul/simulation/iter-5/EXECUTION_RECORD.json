@@ -1,0 +1,56 @@
+{
+ "sim_id": "SIM-SOUL-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:56.913382+00:00",
+ "finished_utc": "2026-10-24T06:10:56.977446+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-5  (run from Soul/simulation/)",
+ "spec_sha256": "6a885cacb6ab8f399448f825601a0c53263a585fc7045652300166f5408f71c4",
+ "params_sha256": "6662240e197576c078209456d2e2b27353e5367edfa5e6621bb7da1456665d0c",
+ "results_sha256": "9c493ca047ca8b2e61590482cd742dcf76e8cceebc24f80e7c1cda97c496df54",
+ "results": {
+  "ppv": 0.81175405,
+  "ppv_analytic": 0.81143759,
+  "agreement": 0.860698
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated PPV within 0.01 of the bivariate-normal value",
+   "observed": [
+    0.81175405,
+    0.81143759
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with reliability 0.8 and a 37% case rate, >= 20% of classified cases are true non-cases",
+   "observed": 0.18824595,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "overall agreement",
+   "observed": 0.860698,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
