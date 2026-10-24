@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R1-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:24.655647+00:00",
+ "finished_utc": "2026-10-24T01:19:25.457246+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-1",
+ "params_sha256": "12e440a7d3eb0fcb27776cb981f2aa430b6769cb06b46890ee3508a045c047d1",
+ "outputs": {
+  "outputs/results.json": "1103d4bb166f4665b6788756adfdc9bc95d9170834c11d329915daeb408123f1"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "G1",
+   "kind": "validation",
+   "expect": "P-only cells match analytic residual D/(kl+kp) within 1%",
+   "observed": 0.001982889,
+   "result": "Pass"
+  },
+  {
+   "id": "G2",
+   "kind": "validation",
+   "expect": "every stable PI cell (ki>0) returns to set point (|tail mean|<0.02)",
+   "observed": 0.0178021855,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
