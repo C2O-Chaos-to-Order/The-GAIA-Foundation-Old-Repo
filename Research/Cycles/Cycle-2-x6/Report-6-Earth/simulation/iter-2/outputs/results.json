@@ -1,0 +1,112 @@
+{
+ "carried_from_prev": {
+  "worst_rate": 0.0003
+ },
+ "constrained": [
+  {
+   "bound": null,
+   "cost": 0,
+   "rate": 0.0003,
+   "width": 0.08
+  },
+  {
+   "bound": 2,
+   "cost": 0,
+   "rate": 0.0003,
+   "width": 0.81
+  },
+  {
+   "bound": 2,
+   "cost": 0.25,
+   "rate": 0.0003,
+   "width": 0.82
+  },
+  {
+   "bound": 2,
+   "cost": 0.5,
+   "rate": 0.0003,
+   "width": 0.8
+  },
+  {
+   "bound": 2,
+   "cost": 0.9,
+   "rate": 0.0003,
+   "width": 0.71
+  },
+  {
+   "bound": 5,
+   "cost": 0,
+   "rate": 0.0003,
+   "width": 0.78
+  },
+  {
+   "bound": 5,
+   "cost": 0.25,
+   "rate": 0.0003,
+   "width": 0.77
+  },
+  {
+   "bound": 5,
+   "cost": 0.5,
+   "rate": 0.0003,
+   "width": 0.77
+  },
+  {
+   "bound": 5,
+   "cost": 0.9,
+   "rate": 0.0003,
+   "width": 0.69
+  },
+  {
+   "bound": 10,
+   "cost": 0,
+   "rate": 0.0003,
+   "width": 0.48
+  },
+  {
+   "bound": 10,
+   "cost": 0.25,
+   "rate": 0.0003,
+   "width": 0.81
+  },
+  {
+   "bound": 10,
+   "cost": 0.5,
+   "rate": 0.0003,
+   "width": 0.76
+  },
+  {
+   "bound": 10,
+   "cost": 0.9,
+   "rate": 0.0003,
+   "width": 0.62
+  },
+  {
+   "bound": 20,
+   "cost": 0,
+   "rate": 0.0003,
+   "width": 0.08
+  },
+  {
+   "bound": 20,
+   "cost": 0.25,
+   "rate": 0.0003,
+   "width": 0.79
+  },
+  {
+   "bound": 20,
+   "cost": 0.5,
+   "rate": 0.0003,
+   "width": 0.82
+  },
+  {
+   "bound": 20,
+   "cost": 0.9,
+   "rate": 0.0003,
+   "width": 0.81
+  }
+ ],
+ "constrained_rate": 0.0003,
+ "lifeless_width": 0.24,
+ "no_adaptation_width": 0.82
+}
