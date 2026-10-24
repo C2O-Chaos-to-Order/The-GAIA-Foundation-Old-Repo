@@ -1,0 +1,43 @@
+{
+ "sim_id": "SIM-R2-C2",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:10:59.351699+00:00",
+ "finished_utc": "2026-10-24T02:11:01.324847+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-6",
+ "params_sha256": "620a7b0e179350bac11ed0a2c3fe5f0751af68ab318f23c5041bc47413431405",
+ "outputs": {
+  "outputs/results.json": "5a4bf39e7ac7a04d042384c2251bfaa1df66df50f1654b5a63045d62c0a06da5"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "MR_0.05",
+   "kind": "hypothesis",
+   "expect": "diagnostic design (acquisition + LI + blocking) recovers the generating model with mean accuracy >= 0.8 at noise 0.05",
+   "observed": 1.0,
+   "result": "Supported"
+  },
+  {
+   "id": "MR_r",
+   "kind": "reporting",
+   "expect": "report confusion matrices",
+   "observed": {
+    "diagnostic|0.05": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
