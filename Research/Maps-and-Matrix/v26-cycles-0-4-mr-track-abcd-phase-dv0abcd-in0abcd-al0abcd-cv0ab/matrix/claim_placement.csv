@@ -1,0 +1,766 @@
+claim_id,report,label,being,lenses,alchemy,phase,source_set
+C0v2-R1-01,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-02,R1,Established,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-03,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-04,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-05,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-06,R1,Established,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-07,R1,Established,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-08,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-09,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-10,R1,Established,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-11,R1,Plausible,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-12,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-13,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-14,R1,Philosophical/Spiritual,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-15,R1,Plausible,Body,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R1-16,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R1-01,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R1-02,R1,Established,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R1-03,R1,Established,Body,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R1-04,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R1-01,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R1-02,R1,Plausible,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R1-03,R1,Established,Body,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R1-04,R1,Established,Body,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R1-05,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R1-06,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-01,R1,Plausible,Body,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-02,R1,Plausible,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-03,R1,Plausible,Body,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-04,R1,Established,Body,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-05,R1,Plausible,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-06,R1,Established,Body,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-07,R1,Established,Body,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-08,R1,Established,Body,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R1-01,R1,Established,Body,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R1-02,R1,Established,Body,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R1-03,R1,Established,Body,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-01,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-02,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-03,R2,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-04,R2,Established,Mind,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-05,R2,Plausible,Mind,Truth;Integrity;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-06,R2,Philosophical/Spiritual,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-07,R2,Plausible,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-08,R2,Philosophical/Spiritual,Mind,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-09,R2,Philosophical/Spiritual,Mind,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-10,R2,Plausible,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-11,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-12,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R2-13,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-01,R2,Plausible,Mind,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-02,R2,Plausible,Mind,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-03,R2,Plausible,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-04,R2,Plausible,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-05,R2,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-06,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R2-07,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R2-01,R2,Plausible,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R2-02,R2,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R2-03,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R2-01,R2,Established,Mind,Truth;Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R2-02,R2,Plausible,Mind,Truth;Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R2-03,R2,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R2-04,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R2-05,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R2-01,R2,Plausible,Mind,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R2-02,R2,Plausible,Mind,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R2-03,R2,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R2-04,R2,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-01,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-02,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-03,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-04,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-05,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-06,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-07,R3,Established,Soul,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-08,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-09,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-10,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-11,R3,Established,Soul,Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-12,R3,Established,Soul,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-13,R3,Philosophical/Spiritual,Soul,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-14,R3,Established,Soul,Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-15,R3,Philosophical/Spiritual,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-16,R3,Philosophical/Spiritual,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-17,R3,Philosophical/Spiritual,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R3-18,R3,Philosophical/Spiritual,Soul,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R3-01,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R3-02,R3,Established,Soul,Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R3-03,R3,Established,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R3-04,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R3-05,R3,Philosophical/Spiritual,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R3-01,R3,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R3-02,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R3-03,R3,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R3-04,R3,Plausible,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R3-05,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R3-01,R3,Plausible,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R3-02,R3,Established,Soul,Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R3-03,R3,Established,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R3-01,R3,Established,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R3-02,R3,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-01,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-02,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-03,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-04,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-05,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-06,R4,Philosophical/Spiritual,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-07,R4,Philosophical/Spiritual,Spirit,Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-08,R4,Plausible,Spirit,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-09,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-10,R4,Plausible,Spirit,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-11,R4,Plausible,Spirit,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-12,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-13,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-14,R4,Hypothetical,Spirit,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R4-15,R4,Philosophical/Spiritual,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-01,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-02,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-03,R4,Established,Spirit,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-04,R4,Plausible,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-05,R4,Plausible,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-06,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-07,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-08,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R4-09,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R4-01,R4,Established,Spirit,Truth;Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R4-02,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R4-03,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R4-04,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R4-05,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R4-06,R4,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R4-01,R4,Plausible,Spirit,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R4-02,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R4-03,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R4-04,R4,Established,Spirit,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R4-05,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R4-01,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R4-02,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R4-03,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R4-04,R4,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-01,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-02,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-03,R5,Plausible,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-04,R5,Philosophical/Spiritual,Consciousness,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-05,R5,Plausible,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-06,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-07,R5,Hypothetical,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-08,R5,Established,Consciousness,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-09,R5,Plausible,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-10,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-11,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R5-12,R5,Philosophical/Spiritual,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R5-01,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R5-02,R5,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R5-03,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R5-04,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R5-05,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R5-01,R5,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R5-02,R5,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R5-03,R5,Established,Consciousness,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R5-04,R5,Established,Consciousness,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R5-05,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R5-06,R5,Plausible,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-01,R5,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-02,R5,Plausible,Consciousness,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-03,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-04,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-05,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-06,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-07,R5,Plausible,Consciousness,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-08,R5,Plausible,Consciousness,Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R5-09,R5,Established,Consciousness,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R5-01,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R5-02,R5,Plausible,Consciousness,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R5-03,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R5-04,R5,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R5-05,R5,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-01,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-02,R6,Established,outside Being axis (Earth),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-03,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-04,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-05,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-06,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-07,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-08,R6,Plausible,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-09,R6,Philosophical/Spiritual,outside Being axis (Earth),Integrity;Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-10,R6,Philosophical/Spiritual,outside Being axis (Earth),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-11,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-12,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-13,R6,Established,outside Being axis (Earth),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-14,R6,Plausible,outside Being axis (Earth),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-15,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-16,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-17,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-18,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R6-19,R6,Philosophical/Spiritual,outside Being axis (Earth),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-01,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-02,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-03,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-04,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-05,R6,Plausible,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-06,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-07,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-08,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R6-09,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R6-01,R6,Established,outside Being axis (Earth),Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R6-02,R6,Plausible,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R6-03,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R6-04,R6,Established,outside Being axis (Earth),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R6-05,R6,Established,outside Being axis (Earth),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R6-06,R6,Established,outside Being axis (Earth),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R6-01,R6,Plausible,outside Being axis (Earth),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R6-02,R6,Plausible,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R6-03,R6,Plausible,outside Being axis (Earth),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R6-04,R6,Established,outside Being axis (Earth),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R6-05,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R6-01,R6,Established,outside Being axis (Earth),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R6-02,R6,Established,outside Being axis (Earth),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-01,R7,Philosophical/Spiritual,outside Being axis (Unified),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-02,R7,Established,outside Being axis (Unified),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-03,R7,Established,outside Being axis (Unified),Truth;Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-04,R7,Established,outside Being axis (Unified),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-05,R7,Established,outside Being axis (Unified),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-06,R7,Established,outside Being axis (Unified),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C0v2-R7-07,R7,Philosophical/Spiritual,outside Being axis (Unified),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R7-01,R7,Philosophical/Spiritual,outside Being axis (Unified),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R7-02,R7,Established,outside Being axis (Unified),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C1-R7-03,R7,Established,outside Being axis (Unified),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R7-01,R7,Established,outside Being axis (Unified),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R7-02,R7,Established,outside Being axis (Unified),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C2-R7-03,R7,Established,outside Being axis (Unified),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R7-01,R7,Established,outside Being axis (Unified),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R7-02,R7,Established,outside Being axis (Unified),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R7-03,R7,Established,outside Being axis (Unified),Truth;Integrity;Love;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R7-04,R7,Established,outside Being axis (Unified),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R7-01,R7,Established,outside Being axis (Unified),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R7-02,R7,Established,outside Being axis (Unified),Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C4-R7-03,R7,Established,outside Being axis (Unified),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),main cycle (latest)
+C3-R1-04,MR,Established,Body,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C4-R2-01,MR,Plausible,Mind,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C3-R2-02,MR,Plausible,Mind,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C1-R2-01,MR,Plausible,Mind,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C3-R5-07,MR,Plausible,Consciousness,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C2-R4-01,MR,Established,Spirit,Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C3-R4-01,MR,Plausible,Spirit,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C0v2-R4-14,MR,Hypothetical,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C0v2-R3-11,MR,Established,Soul,Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C0v2-R3-12,MR,Established,outside Being axis (MR feeds R3/R6),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C0v2-R4-07,MR,Philosophical/Spiritual,outside Being axis (MR feeds R4/R6),Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C1-R6-05,MR,Plausible,outside Being axis (MR feeds R6),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C4-R7-02,MR,Established,outside Being axis (MR feeds R7),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+C3-R7-03,MR,Established,outside Being axis (MR feeds R7),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-01,MR,Plausible,Mind,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-02,MR,Plausible,Mind,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-03,MR,Established,Soul,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-04,MR,Established,Spirit,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-05,MR,Established,Spirit,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-06,MR,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-07,MR,Established,Spirit,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-08,MR,Established,Soul,Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-09,MR,Established,Soul,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-10,MR,Established,Spirit,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-11,MR,Established,outside Being axis (MR feeds R7),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-12,MR,Established,outside Being axis (MR feeds R7),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-13,MR,Established,outside Being axis (MR feeds R7),Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-14,MR,Established,outside Being axis (MR feeds R7),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-15,MR,Established,outside Being axis (MR feeds R7),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-16,MR,Established,outside Being axis (MR feeds R7),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-17,MR,Established,outside Being axis (MR feeds R7),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-18,MR,Hypothetical,outside Being axis (MR feeds R7),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-19,MR,Plausible,outside Being axis (MR feeds R2/R1),Truth;Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-20,MR,Philosophical/Spiritual,outside Being axis (MR feeds R7/R6),Integrity;Love;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-21,MR,Philosophical/Spiritual,outside Being axis (MR feeds R7),Integrity;Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+MR-22,MR,Hypothetical,outside Being axis (MR feeds R2/R4),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),Master Report
+TD-SOUL-01,Track SOUL,Established,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-02,Track SOUL,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-03,Track SOUL,Plausible,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-04,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-05,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-06,Track SOUL,Established,Soul,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-07,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-08,Track SOUL,Established,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-09,Track SOUL,Philosophical/Spiritual,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-10,Track SOUL,Philosophical/Spiritual,Soul,Truth;Integrity;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-11,Track SOUL,Plausible,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-12,Track SOUL,Established,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-13,Track SOUL,Established,Soul,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-14,Track SOUL,Established,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-15,Track SOUL,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-16,Track SOUL,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-17,Track SOUL,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-18,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-19,Track SOUL,Hypothetical,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-20,Track SOUL,Plausible,Soul,Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-21,Track SOUL,Hypothetical,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-22,Track SOUL,Plausible,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-23,Track SOUL,Established,Soul,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-24,Track SOUL,Plausible,Soul,Integrity;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-25,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-26,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-27,Track SOUL,Established,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-28,Track SOUL,Established,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-29,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-30,Track SOUL,Established,Soul,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-31,Track SOUL,Established,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-32,Track SOUL,Plausible,Soul,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-33,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-34,Track SOUL,Plausible,Soul,Truth;Love;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-35,Track SOUL,Established,Soul,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SOUL-36,Track SOUL,Philosophical/Spiritual,Soul,Integrity;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-01,Track SPIRIT,Established,Spirit,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-02,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-03,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-04,Track SPIRIT,Plausible,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-05,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-06,Track SPIRIT,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-07,Track SPIRIT,Philosophical/Spiritual,Spirit,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-08,Track SPIRIT,Hypothetical,Spirit,Truth;Integrity;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-09,Track SPIRIT,Established,Spirit,Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-10,Track SPIRIT,Established,Spirit,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-11,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-12,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-13,Track SPIRIT,Established,Spirit,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-14,Track SPIRIT,Plausible,Spirit,Love;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-15,Track SPIRIT,Established,Spirit,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-16,Track SPIRIT,Philosophical/Spiritual,Spirit,Love;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-17,Track SPIRIT,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-18,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-19,Track SPIRIT,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-20,Track SPIRIT,Established,Spirit,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-21,Track SPIRIT,Established,Spirit,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-22,Track SPIRIT,Established,Spirit,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-23,Track SPIRIT,Established,Spirit,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-24,Track SPIRIT,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-25,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-26,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-27,Track SPIRIT,Plausible,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-28,Track SPIRIT,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-29,Track SPIRIT,Established,Spirit,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-30,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-31,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-32,Track SPIRIT,Established,Spirit,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-33,Track SPIRIT,Established,Spirit,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SPIRIT-34,Track SPIRIT,Established,Spirit,Truth;Love;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-01,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-02,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-03,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-04,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-05,Track SUBC,Hypothetical,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-06,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-07,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-08,Track SUBC,Plausible,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-09,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-10,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-11,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-12,Track SUBC,Philosophical/Spiritual,Mind,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-13,Track SUBC,Established,Mind,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-14,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-15,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-16,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-17,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-18,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-19,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-20,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-21,Track SUBC,Philosophical/Spiritual,Mind,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-24,Track SUBC,Established,Mind,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-25,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-26,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-27,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-28,Track SUBC,Established,Mind,Truth;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-29,Track SUBC,Established,Mind,Truth;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-30,Track SUBC,Hypothetical,Mind,Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-31,Track SUBC,Established,Mind,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-32,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-33,Track SUBC,Plausible,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-34,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-35,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-36,Track SUBC,Established,Mind,Truth;Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-37,Track SUBC,Established,Mind,Truth;Love;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-38,Track SUBC,Established,Mind,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-SUBC-39,Track SUBC,Plausible,Mind,Truth;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-01,Track CONS,Established,Consciousness,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-02,Track CONS,Established,Consciousness,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-03,Track CONS,Plausible,Consciousness,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-04,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-05,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-06,Track CONS,Philosophical/Spiritual,Consciousness,Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-07,Track CONS,Philosophical/Spiritual,Consciousness,Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-08,Track CONS,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-09,Track CONS,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-10,Track CONS,Philosophical/Spiritual,Consciousness,Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-11,Track CONS,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-12,Track CONS,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-13,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-14,Track CONS,Plausible,Consciousness,Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-15,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-16,Track CONS,Philosophical/Spiritual,Consciousness,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-17,Track CONS,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-18,Track CONS,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-19,Track CONS,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-20,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-21,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-22,Track CONS,Established,Consciousness,Love;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-23,Track CONS,Plausible,Consciousness,Truth;Integrity;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-24,Track CONS,Philosophical/Spiritual,Consciousness,Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-25,Track CONS,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-26,Track CONS,Established,Consciousness,Truth;Justice;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-27,Track CONS,Established,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-28,Track CONS,Plausible,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-29,Track CONS,Plausible,Consciousness,Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-30,Track CONS,Established,Consciousness,Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-31,Track CONS,Philosophical/Spiritual,Consciousness,Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+TD-CONS-32,Track CONS,Established,Consciousness,Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Unassigned (undefined: G01 9.3 / 12 Q4),track cycle TD
+DVD-NAT-01,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-02,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-03,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-04,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-05,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-06,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-07,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-08,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-09,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-10,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-11,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-12,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-13,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-14,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-15,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-16,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-17,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-18,Phase Divergence / Natural-Sciences,Hypothetical,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-19,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-20,Phase Divergence / Natural-Sciences,Established,outside Being axis (field NAT),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-21,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-22,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-NAT-23,Phase Divergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-01,Phase Divergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-02,Phase Divergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-03,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-04,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-05,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-06,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-07,Phase Divergence / Formal-Sciences,Hypothetical,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-08,Phase Divergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-09,Phase Divergence / Formal-Sciences,Established,outside Being axis (field FOR),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-10,Phase Divergence / Formal-Sciences,Established,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-11,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-12,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-13,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-14,Phase Divergence / Formal-Sciences,Established,outside Being axis (field FOR),Truth;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-15,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-16,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-17,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-18,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-19,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-FOR-20,Phase Divergence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-01,Phase Divergence / Social-Sciences,Established,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-02,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-03,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-04,Phase Divergence / Social-Sciences,Established,outside Being axis (field SOC),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-05,Phase Divergence / Social-Sciences,Established,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-06,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth;Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-07,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-08,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-09,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-10,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-11,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-12,Phase Divergence / Social-Sciences,Established,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-13,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-14,Phase Divergence / Social-Sciences,Established,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-15,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-16,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-17,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-18,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-19,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-SOC-20,Phase Divergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-01,Phase Divergence / Applied-Sciences,Established,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-02,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-03,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-04,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-05,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-06,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-07,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-08,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-09,Phase Divergence / Applied-Sciences,Established,outside Being axis (field APP),Integrity;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-10,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-11,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-12,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-13,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-14,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-15,Phase Divergence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-16,Phase Divergence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-17,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-18,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-19,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-20,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-21,Phase Divergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-APP-22,Phase Divergence / Applied-Sciences,Hypothetical,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-01,Phase Divergence / Humanities,Established,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-02,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-03,Phase Divergence / Humanities,Established,outside Being axis (field HUM),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-04,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-05,Phase Divergence / Humanities,Established,outside Being axis (field HUM),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-06,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-07,Phase Divergence / Humanities,Established,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-08,Phase Divergence / Humanities,Established,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-09,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-10,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-11,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-12,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-13,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-14,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-15,Phase Divergence / Humanities,Established,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-16,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-17,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-18,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-19,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-HUM-20,Phase Divergence / Humanities,Plausible,outside Being axis (field HUM),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-01,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-02,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-03,Phase Divergence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-04,Phase Divergence / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-05,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-06,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-07,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-08,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-09,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-10,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-11,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-12,Phase Divergence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-13,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-14,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-15,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Integrity;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-16,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-17,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-18,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-19,Phase Divergence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-20,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-21,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Truth;Love;Justice,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-22,Phase Divergence / Philosophy-Spirituality,Established,outside Being axis (field PHI),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-23,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-24,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-25,Phase Divergence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-26,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+DVD-PHI-27,Phase Divergence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Divergence,phase cycle DVD
+IND-NAT-01,Phase Insurgence / Natural-Sciences,Established,outside Being axis (field NAT),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-02,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-03,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-04,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-05,Phase Insurgence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-06,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-07,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-08,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-09,Phase Insurgence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-10,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-11,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-12,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-13,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-NAT-14,Phase Insurgence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-01,Phase Insurgence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-02,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-03,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-04,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-05,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-06,Phase Insurgence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-07,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-08,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-09,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-10,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-11,Phase Insurgence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-12,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-13,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-FOR-14,Phase Insurgence / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-01,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-02,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-03,Phase Insurgence / Social-Sciences,Established,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-04,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-05,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-06,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-07,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-08,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-09,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-10,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-11,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-12,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-13,Phase Insurgence / Social-Sciences,Hypothetical,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-14,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-15,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-16,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-17,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-18,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-SOC-19,Phase Insurgence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-01,Phase Insurgence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-02,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-03,Phase Insurgence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-04,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-05,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-06,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-07,Phase Insurgence / Applied-Sciences,Established,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-08,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-09,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-10,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-11,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-12,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-13,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-14,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-APP-15,Phase Insurgence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-01,Phase Insurgence / Humanities,Established,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-02,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-03,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-04,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-05,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-06,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-07,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-08,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-09,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-10,Phase Insurgence / Humanities,Philosophical/Spiritual,outside Being axis (field HUM),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-11,Phase Insurgence / Humanities,Hypothetical,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-12,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-HUM-13,Phase Insurgence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-01,Phase Insurgence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-02,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-03,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-04,Phase Insurgence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-05,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-06,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-07,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-08,Phase Insurgence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-09,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-10,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-11,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-12,Phase Insurgence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Integrity;Love;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-13,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+IND-PHI-14,Phase Insurgence / Philosophy-Spirituality,Plausible,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Insurgence,phase cycle IND
+ALD-NAT-01,Phase Allegiance / Natural-Sciences,Established,outside Being axis (field NAT),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-02,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-03,Phase Allegiance / Natural-Sciences,Established,outside Being axis (field NAT),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-04,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-05,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-06,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-07,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-08,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-09,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-10,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-11,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-12,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-13,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-14,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-15,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-16,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-17,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-18,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Love;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-NAT-19,Phase Allegiance / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-01,Phase Allegiance / Formal-Sciences,Established,outside Being axis (field FOR),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-02,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-03,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-04,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-05,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-06,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-07,Phase Allegiance / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-08,Phase Allegiance / Formal-Sciences,Established,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-09,Phase Allegiance / Formal-Sciences,Established,outside Being axis (field FOR),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-10,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-11,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-FOR-12,Phase Allegiance / Formal-Sciences,Plausible,outside Being axis (field FOR),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-01,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Truth;Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-02,Phase Allegiance / Social-Sciences,Hypothetical,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-03,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-04,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-05,Phase Allegiance / Social-Sciences,Hypothetical,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-06,Phase Allegiance / Social-Sciences,Hypothetical,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-07,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-08,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-09,Phase Allegiance / Social-Sciences,Hypothetical,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-10,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Integrity;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-11,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-12,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-13,Phase Allegiance / Social-Sciences,Hypothetical,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-14,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-15,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-SOC-16,Phase Allegiance / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-01,Phase Allegiance / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-02,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-03,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-04,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-05,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-06,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-07,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-08,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-09,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-10,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-11,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-12,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-13,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-APP-14,Phase Allegiance / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-01,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-02,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-03,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-04,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-05,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-06,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-07,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-08,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-09,Phase Allegiance / Humanities,Hypothetical,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-10,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-11,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-12,Phase Allegiance / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-HUM-13,Phase Allegiance / Humanities,Hypothetical,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-01,Phase Allegiance / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-02,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-03,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-04,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-05,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-06,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-08,Phase Allegiance / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-07,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-09,Phase Allegiance / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Truth;Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-10,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-11,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-12,Phase Allegiance / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-13,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+ALD-PHI-14,Phase Allegiance / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Allegiance,phase cycle ALD
+CVB-NAT-01,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Love,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-02,Phase Convergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-03,Phase Convergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-04,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-05,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-06,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-07,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-08,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-09,Phase Convergence / Natural-Sciences,Established,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-NAT-10,Phase Convergence / Natural-Sciences,Plausible,outside Being axis (field NAT),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-01,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-02,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-03,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-04,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-05,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-06,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-07,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-08,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-FOR-09,Phase Convergence / Formal-Sciences,Established,outside Being axis (field FOR),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-01,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-02,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-03,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-04,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-05,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-06,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-SOC-07,Phase Convergence / Social-Sciences,Plausible,outside Being axis (field SOC),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-APP-01,Phase Convergence / Applied-Sciences,Plausible,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-APP-02,Phase Convergence / Applied-Sciences,Established,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-APP-03,Phase Convergence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-APP-04,Phase Convergence / Applied-Sciences,Established,outside Being axis (field APP),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-APP-05,Phase Convergence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-APP-06,Phase Convergence / Applied-Sciences,Established,outside Being axis (field APP),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-HUM-01,Phase Convergence / Humanities,Plausible,outside Being axis (field HUM),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-HUM-02,Phase Convergence / Humanities,Established,outside Being axis (field HUM),Truth;Integrity,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-HUM-03,Phase Convergence / Humanities,Hypothetical,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-HUM-04,Phase Convergence / Humanities,Established,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-HUM-05,Phase Convergence / Humanities,Hypothetical,outside Being axis (field HUM),Unassigned,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-PHI-01,Phase Convergence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-PHI-02,Phase Convergence / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-PHI-03,Phase Convergence / Philosophy-Spirituality,Philosophical/Spiritual,outside Being axis (field PHI),Truth;Wisdom,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-PHI-04,Phase Convergence / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
+CVB-PHI-05,Phase Convergence / Philosophy-Spirituality,Hypothetical,outside Being axis (field PHI),Truth,Unassigned (undefined: G01 9.3 / 12 Q3),Convergence,phase cycle CVB
