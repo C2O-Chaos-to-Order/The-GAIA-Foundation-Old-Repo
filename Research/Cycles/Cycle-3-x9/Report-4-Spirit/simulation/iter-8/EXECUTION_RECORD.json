@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:58.698146+00:00",
+ "finished_utc": "2026-10-24T03:06:58.698465+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-8",
+ "params_sha256": "e2680e2a0731c034f1de0fd405bbc74051c54f028bee9e0b80200724a297621a",
+ "outputs": {
+  "outputs/results.json": "1e0daa2b7f4961dcd25b2a51026715bcc2e27c7c85df33dd28cb37a8da137696"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "at S12's mortality level (~0.2 among never-attenders), the exact proportional-hazards E-value lies within 0.1 of S14's common-outcome approximation",
+   "observed": [
+    0.2,
+    2.2364876018,
+    1.9682724485,
+    2.3499347234
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
