@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-CV-PHI-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:53.669668+00:00",
+ "finished_utc": "2026-10-24T21:13:56.383027+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-3  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "d31ffbad99c2b5b891a4cc88fe9c21cf17b2e477b5159c83bf72f7f9bdf0836d",
+ "params_sha256": "67f63d2740c1d1a4971537f9d694cc5d9eba5713864c7422597c9b57a5fca4d0",
+ "results_sha256": "9d007f63a605d768b837b54875ad7f7189b559853ce6d011682a1e1ad1be726c",
+ "results": {
+  "models": {
+   "core": {
+    "mean_sim": 0.6243,
+    "sd_sim": 0.02183,
+    "corr_sim_dist": 0.0092
+   },
+   "diffusion": {
+    "mean_sim": 0.69129,
+    "sd_sim": 0.03394,
+    "corr_sim_dist": -0.7624
+   }
+  },
+  "analytic_core_mean": 0.625
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "core model mean similarity within 0.01 of the analytic p^2 + (1 - p^2)/2",
+   "observed": [
+    0.6243,
+    0.625
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mostly local diffusion (10% long-range): still a gradient (corr < -0.1)",
+   "observed": {
+    "models": {
+     "core": {
+      "mean_sim": 0.6243,
+      "sd_sim": 0.02183,
+      "corr_sim_dist": 0.0092
+     },
+     "diffusion": {
+      "mean_sim": 0.69129,
+      "sd_sim": 0.03394,
+      "corr_sim_dist": -0.7624
+     }
+    },
+    "analytic_core_mean": 0.625
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "models": {
+     "core": {
+      "mean_sim": 0.6243,
+      "sd_sim": 0.02183,
+      "corr_sim_dist": 0.0092
+     },
+     "diffusion": {
+      "mean_sim": 0.69129,
+      "sd_sim": 0.03394,
+      "corr_sim_dist": -0.7624
+     }
+    },
+    "analytic_core_mean": 0.625
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
