@@ -1,0 +1,48 @@
+{
+ "sim_id": "SIM-R4-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:12:20.261071+00:00",
+ "finished_utc": "2026-10-24T02:12:20.331476+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-1",
+ "params_sha256": "5a601768bf64be5f93ef4d0bd93be0ec03acb7ced63c8f63768de135e4b17124",
+ "outputs": {
+  "outputs/results.json": "eb73e722e0176af330b896c6deca5f7082f8730dfd67793930122573582cc563"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no unmeasured confounding: product-of-coefficients estimate within 3 SE of the true indirect effect",
+   "observed": [
+    0.1986153764,
+    0.2,
+    0.0021519775
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V1b",
+   "kind": "validation",
+   "expect": "proportion mediated within 0.02 of truth",
+   "observed": [
+    0.3323295565,
+    0.3333333333
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
