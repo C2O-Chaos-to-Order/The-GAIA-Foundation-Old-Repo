@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R5-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:14:14.716253+00:00",
+ "finished_utc": "2026-10-24T02:14:15.943348+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-2",
+ "params_sha256": "e4eb5cbccd6d8a5642a8cca001d748b71ab58cf433b5320e3c53f3c02f918caf",
+ "outputs": {
+  "outputs/results.json": "53468ac03a3dd03a021da91d15c3ff0a268148b4e540d0f3de5d8f4efa926975"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "S1",
+   "kind": "hypothesis",
+   "expect": "spontaneous LZ falls as coupling rises (Spearman <= -0.8): maximal for independent units",
+   "observed": -0.9761904762,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

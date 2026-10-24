@@ -1,0 +1,54 @@
+{
+ "carried_from_prev": {},
+ "coupling_sweep": [
+  {
+   "K": 0.0,
+   "pci_like": 0.2162870134,
+   "response_fraction": 0.2183333333,
+   "spont_lz": 0.5427262367
+  },
+  {
+   "K": 1.0,
+   "pci_like": 0.462723504,
+   "response_fraction": 0.2245833333,
+   "spont_lz": 0.5052968411
+  },
+  {
+   "K": 2.0,
+   "pci_like": 0.6697220431,
+   "response_fraction": 0.3445833333,
+   "spont_lz": 0.3649366074
+  },
+  {
+   "K": 5.0,
+   "pci_like": 0.5227038621,
+   "response_fraction": 0.3795833333,
+   "spont_lz": 0.2853991417
+  },
+  {
+   "K": 10.0,
+   "pci_like": 0.3859068565,
+   "response_fraction": 0.42125,
+   "spont_lz": 0.2432910716
+  },
+  {
+   "K": 20.0,
+   "pci_like": 0.2518924936,
+   "response_fraction": 0.4266666667,
+   "spont_lz": 0.1684322804
+  },
+  {
+   "K": 40.0,
+   "pci_like": 0.2140272258,
+   "response_fraction": 0.425,
+   "spont_lz": 0.1076095125
+  },
+  {
+   "K": 80.0,
+   "pci_like": 0.2521232133,
+   "response_fraction": 0.4245833333,
+   "spont_lz": 0.1403602336
+  }
+ ],
+ "spont_spearman": -0.9761904762
+}
