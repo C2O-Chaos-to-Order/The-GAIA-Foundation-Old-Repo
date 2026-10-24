@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-DV-PHI-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:35:16.151075+00:00",
+ "finished_utc": "2026-10-24T08:35:23.191634+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-4  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "63f9e6835272d59ca3beca11cef6a508b71c57ee7be9d78a7df21e25077b3167",
+ "params_sha256": "e6679554dc7b8a64ace279e135187e6dd4f8fe829bf7115d7d53ce7a4e2a282e",
+ "results_sha256": "aaa62c85e5d2a23c94c658656ba1fdbf28c9ec799a923e4f7c55e07c5426d97c",
+ "results": {
+  "0.5": {
+   "mean_K": 4.36,
+   "se_K": 0.10574996,
+   "expected_K": 4.43563267,
+   "mean_top_share": 0.77816333
+  },
+  "1.0": {
+   "mean_K": 7.61,
+   "se_K": 0.14288671,
+   "expected_K": 7.48547086,
+   "mean_top_share": 0.62579
+  },
+  "2.0": {
+   "mean_K": 13.39666667,
+   "se_K": 0.18336009,
+   "expected_K": 12.97293972,
+   "mean_top_share": 0.45003
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "for every alpha, mean number of branches within 4 Monte Carlo standard errors of the analytic sum alpha/(alpha+i)",
+   "observed": {
+    "0.5": [
+     4.36,
+     4.43563267,
+     0.10574996
+    ],
+    "1.0": [
+     7.61,
+     7.48547086,
+     0.14288671
+    ],
+    "2.0": [
+     13.39666667,
+     12.97293972,
+     0.18336009
+    ]
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "alpha 0.5: mean largest-branch share > 0.3 (one source stays dominant)",
+   "observed": 0.77816333,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "results by alpha",
+   "observed": {
+    "0.5": {
+     "mean_K": 4.36,
+     "se_K": 0.10574996,
+     "expected_K": 4.43563267,
+     "mean_top_share": 0.77816333
+    },
+    "1.0": {
+     "mean_K": 7.61,
+     "se_K": 0.14288671,
+     "expected_K": 7.48547086,
+     "mean_top_share": 0.62579
+    },
+    "2.0": {
+     "mean_K": 13.39666667,
+     "se_K": 0.18336009,
+     "expected_K": 12.97293972,
+     "mean_top_share": 0.45003
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
