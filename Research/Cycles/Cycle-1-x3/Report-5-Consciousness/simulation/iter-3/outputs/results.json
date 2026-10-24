@@ -1,0 +1,60 @@
+{
+ "two_area": [
+  {
+   "c": 0,
+   "frac_global": 0.0,
+   "frac_local": 1.0,
+   "frac_local_only": 1.0
+  },
+  {
+   "c": 0.5,
+   "frac_global": 0.0,
+   "frac_local": 1.0,
+   "frac_local_only": 1.0
+  },
+  {
+   "c": 1,
+   "frac_global": 0.0,
+   "frac_local": 1.0,
+   "frac_local_only": 1.0
+  },
+  {
+   "c": 1.5,
+   "frac_global": 0.0,
+   "frac_local": 1.0,
+   "frac_local_only": 1.0
+  },
+  {
+   "c": 2,
+   "frac_global": 0.005,
+   "frac_local": 1.0,
+   "frac_local_only": 0.995
+  },
+  {
+   "c": 2.5,
+   "frac_global": 0.285,
+   "frac_local": 1.0,
+   "frac_local_only": 0.715
+  },
+  {
+   "c": 3,
+   "frac_global": 0.97,
+   "frac_local": 1.0,
+   "frac_local_only": 0.03
+  },
+  {
+   "c": 4,
+   "frac_global": 1.0,
+   "frac_local": 1.0,
+   "frac_local_only": 0.0
+  }
+ ],
+ "two_area_local_only_regime": [
+  0,
+  0.5,
+  1,
+  1.5,
+  2,
+  2.5
+ ]
+}
