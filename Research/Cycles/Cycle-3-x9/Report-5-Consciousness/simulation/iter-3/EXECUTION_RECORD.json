@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R5-C3",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:08:11.658309+00:00",
+ "finished_utc": "2026-10-24T03:08:21.753979+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-3",
+ "params_sha256": "8bcf3e7d8648324042f39d3ee2a3445ec2e1445229ff0ba6f4a2e921a3d855ef",
+ "outputs": {
+  "outputs/results.json": "fc6b9d71df509aeea3f6572241f69d20a5697c7442a606e8519878849e300c24"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the peak persists at N = 96 and 128 with the scaled kick",
+   "observed": [
+    [
+     96,
+     2.0,
+     2.3471408844
+    ],
+    [
+     128,
+     2.0,
+     2.3561773298
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
