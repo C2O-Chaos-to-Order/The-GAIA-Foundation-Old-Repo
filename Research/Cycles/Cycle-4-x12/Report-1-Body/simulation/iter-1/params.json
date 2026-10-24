@@ -1,0 +1,28 @@
+{
+ "experiments": {
+  "c3_selected": [
+   0.6,
+   0.999,
+   0.01,
+   0.005
+  ]
+ },
+ "iteration": 1,
+ "model": {
+  "Kp": 0.1,
+  "T0": 0.0,
+  "Tset": 0.0,
+  "Umax": 0.04,
+  "Umax_total": 0.1,
+  "a": 0.02,
+  "d": 0.06,
+  "dt": 1.0,
+  "session": {
+   "cue_on": 50,
+   "n": 300,
+   "work_off": 180,
+   "work_on": 60
+  }
+ },
+ "sim_id": "SIM-R1-C4"
+}

@@ -1,0 +1,19 @@
+{
+ "c3_integer": {
+  "cycle": 1,
+  "decay_pct_per_day": 1.6029451604,
+  "ha_days_lost": 6,
+  "ratio": 7.0,
+  "reinduction_days_to_95pct": 2,
+  "reinduction_pct_per_day": 11.2206161231,
+  "slow_share_after_decay": 0.9997841395,
+  "w_acclimated": 0.0285554819,
+  "w_after_decay": 0.0221472799
+ },
+ "c4_continuous": {
+  "decay_pct_day": 1.6029451604,
+  "lost": 6.3237445334,
+  "ratio": 8.2128682601,
+  "t_re": 1.3248406468
+ }
+}
