@@ -1,0 +1,81 @@
+{
+ "sim_id": "SIM-R7-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:30:43.174382+00:00",
+ "finished_utc": "2026-10-24T01:30:43.178028+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-1",
+ "params_sha256": "ef473fcbed739454ff4d6ff86a4739cbc48742ec25de7ea139ebf3f73245185c",
+ "outputs": {
+  "outputs/results.json": "85e7505f8788ffe692bee542473be5d21a1a721727c4fdda088d681d296e5ed5"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "K1",
+   "kind": "validation",
+   "expect": "all claims complete, controlled vocabulary, label-status mapping, unique ids",
+   "observed": [
+    [],
+    [],
+    [],
+    0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "K2",
+   "kind": "validation",
+   "expect": "every source and SIM#check citation resolves to the register or a Cycle execution record",
+   "observed": [],
+   "result": "Pass"
+  },
+  {
+   "id": "K3",
+   "kind": "validation",
+   "expect": "no Established claim cites a failed validation check or an unspecified check; any cited 'Not supported' outcome is stated as 'not supported' in the wording",
+   "observed": [
+    [],
+    []
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "K4",
+   "kind": "validation",
+   "expect": "Cycle-1 access rule: every Established literature claim has at least one full-text source",
+   "observed": [],
+   "result": "Pass"
+  },
+  {
+   "id": "K5",
+   "kind": "validation",
+   "expect": "no Established claim rests only on project governing documents (claims with simulation evidence are exempt: the run is the evidence)",
+   "observed": [],
+   "result": "Pass"
+  },
+  {
+   "id": "K6",
+   "kind": "validation",
+   "expect": "link register complete, all link types present, every basis claim and SIM check resolves",
+   "observed": [
+    [],
+    [],
+    []
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 6,
+ "n_validation_pass": 6,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

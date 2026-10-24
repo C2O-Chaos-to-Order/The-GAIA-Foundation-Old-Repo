@@ -1,0 +1,75 @@
+{
+ "classes": [
+  "Empirical",
+  "Mathematical/computational",
+  "Historical",
+  "Interpretive/philosophical",
+  "Spiritual/theological",
+  "Hypothesis/speculation"
+ ],
+ "experiments": {
+  "consistency": {}
+ },
+ "iteration": 1,
+ "label_status_map": {
+  "Established": [
+   "Supported"
+  ],
+  "Hypothetical": [
+   "Hypothetical"
+  ],
+  "Philosophical/Spiritual": [
+   "Interpretive",
+   "Contested",
+   "Indeterminate"
+  ],
+  "Plausible": [
+   "Mixed",
+   "Contested",
+   "Indeterminate"
+  ]
+ },
+ "labels": [
+  "Established",
+  "Plausible",
+  "Philosophical/Spiritual",
+  "Hypothetical"
+ ],
+ "link_required": [
+  "statement",
+  "framework_label",
+  "basis",
+  "test",
+  "rejection_criterion",
+  "gaia_thread",
+  "c1_evidence",
+  "c1_status"
+ ],
+ "link_types": [
+  "relationship",
+  "distinction",
+  "dependency",
+  "feedback loop",
+  "competing interpretation",
+  "unresolved question",
+  "humans within Earth"
+ ],
+ "reports": [
+  "R1",
+  "R2",
+  "R3",
+  "R4",
+  "R5",
+  "R6",
+  "R7"
+ ],
+ "sim_id": "SIM-R7-C1",
+ "statuses": [
+  "Supported",
+  "Mixed",
+  "Contested",
+  "Interpretive",
+  "Hypothetical",
+  "Indeterminate"
+ ]
+}
