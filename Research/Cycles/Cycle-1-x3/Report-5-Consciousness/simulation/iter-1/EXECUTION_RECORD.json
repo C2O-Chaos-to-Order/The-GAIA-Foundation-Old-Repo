@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R5-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:46.868988+00:00",
+ "finished_utc": "2026-10-24T01:19:47.185442+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-1",
+ "params_sha256": "462d3f03063d92cd1db0675fadf76926ee14fbad1e7adcd75262122fe8c6ace3",
+ "outputs": {
+  "outputs/results.json": "2e3ba7c8f97547e3516e25f78bf3b121288cc19b6d8bd9bd211a1aec9e855b9d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "P1",
+   "kind": "validation",
+   "expect": "simulated bistability matches the fixed-point count (3 fixed points <=> two stable states) in every cell",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "P2",
+   "kind": "validation",
+   "expect": "the C0 weak network (w=2, theta=4) is monostable and the strong one (w=8, theta=4) bistable",
+   "observed": null,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
