@@ -1,0 +1,383 @@
+{
+ "sim_id": "SIM-CV-NAT-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:46:27.191311+00:00",
+ "finished_utc": "2026-10-24T20:46:34.057012+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "15bc87f9ece99eb9091dd37daa7b589350a1c97f485c52c4a28ff18db5353e4e",
+ "params_sha256": "0615fb9dc8cfaacb0de30cce19fac3a6b0897888cc621dfca95f720cf0350027",
+ "results_sha256": "fb343fef7d0b04007904459234d5a7fb8c626228fa6135c72e162abf0ceb49a2",
+ "results": {
+  "Kc": 1.0,
+  "N": 50,
+  "dist": "lorentz",
+  "width": 0.5,
+  "by_K": {
+   "0.5": {
+    "r_sim": 0.12268,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "0.8": {
+    "r_sim": 0.12155,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "1.5": {
+    "r_sim": 0.58379,
+    "r_selfconsistent": 0.57735,
+    "r_small_mu": 0.70711,
+    "r_lorentz_exact": 0.57735
+   },
+   "3.0": {
+    "r_sim": 0.8208,
+    "r_selfconsistent": 0.8165,
+    "r_small_mu": 1.41421,
+    "r_lorentz_exact": 0.8165
+   }
+  },
+  "pair": {
+   "0.6": {
+    "freq_diff": 1.398061,
+    "locked": false,
+    "above_Kc": false
+   },
+   "0.9": {
+    "freq_diff": 0.189585,
+    "locked": false,
+    "above_Kc": false
+   },
+   "0.98": {
+    "freq_diff": 0.02676,
+    "locked": false,
+    "above_Kc": false
+   },
+   "1.02": {
+    "freq_diff": 0.0,
+    "locked": true,
+    "above_Kc": true
+   },
+   "1.1": {
+    "freq_diff": 0.0,
+    "locked": true,
+    "above_Kc": true
+   },
+   "1.5": {
+    "freq_diff": 0.0,
+    "locked": true,
+    "above_Kc": true
+   }
+  },
+  "V1_r_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "identical frequencies with K = 1 synchronise from random phases: time-averaged r > 0.99 over the second half",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P76's N = 2 case: the pair locks exactly when K > K_c = 2|omega_1| (K = 0.6-1.5)",
+   "observed": {
+    "Kc": 1.0,
+    "N": 50,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.12268,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.12155,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.58379,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.8208,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "pair": {
+     "0.6": {
+      "freq_diff": 1.398061,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.9": {
+      "freq_diff": 0.189585,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.98": {
+      "freq_diff": 0.02676,
+      "locked": false,
+      "above_Kc": false
+     },
+     "1.02": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.1": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.5": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "N = 50: r below 0.3 at K = 0.5 (finite-size incoherence)",
+   "observed": {
+    "Kc": 1.0,
+    "N": 50,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.12268,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.12155,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.58379,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.8208,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "pair": {
+     "0.6": {
+      "freq_diff": 1.398061,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.9": {
+      "freq_diff": 0.189585,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.98": {
+      "freq_diff": 0.02676,
+      "locked": false,
+      "above_Kc": false
+     },
+     "1.02": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.1": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.5": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "N = 50: r at K = 3 within 0.1 of the N -> infinity value 0.8165",
+   "observed": {
+    "Kc": 1.0,
+    "N": 50,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.12268,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.12155,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.58379,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.8208,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "pair": {
+     "0.6": {
+      "freq_diff": 1.398061,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.9": {
+      "freq_diff": 0.189585,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.98": {
+      "freq_diff": 0.02676,
+      "locked": false,
+      "above_Kc": false
+     },
+     "1.02": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.1": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.5": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.0,
+    "N": 50,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.12268,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.12155,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.58379,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.8208,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "pair": {
+     "0.6": {
+      "freq_diff": 1.398061,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.9": {
+      "freq_diff": 0.189585,
+      "locked": false,
+      "above_Kc": false
+     },
+     "0.98": {
+      "freq_diff": 0.02676,
+      "locked": false,
+      "above_Kc": false
+     },
+     "1.02": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.1": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     },
+     "1.5": {
+      "freq_diff": 0.0,
+      "locked": true,
+      "above_Kc": true
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
