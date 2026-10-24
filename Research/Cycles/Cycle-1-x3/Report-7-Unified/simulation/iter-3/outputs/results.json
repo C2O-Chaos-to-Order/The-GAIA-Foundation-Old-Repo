@@ -1,0 +1,229 @@
+{
+ "rejection": [
+  {
+   "contested_basis": [],
+   "label": "Plausible",
+   "link_id": "L01",
+   "screen": "pressure: simulation test not supported",
+   "sim_outcomes": {
+    "SIM-R1-C1/iter-1#G2": "Pass",
+    "SIM-R6-C1/iter-1#D1": "Not supported"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R6-08",
+    "C1-R6-05"
+   ],
+   "label": "Plausible",
+   "link_id": "L02",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Established",
+   "link_id": "L03",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C0v2-R2-09"
+   ],
+   "label": "Established",
+   "link_id": "L04",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C0v2-R1-11"
+   ],
+   "label": "Plausible",
+   "link_id": "L05",
+   "screen": "pressure: simulation test not supported",
+   "sim_outcomes": {
+    "SIM-R1-C1/iter-3#T1": "Supported",
+    "SIM-R1-C1/iter-3#T3": "Not supported"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R1-14"
+   ],
+   "label": "Philosophical/Spiritual",
+   "link_id": "L06",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C0v2-R2-05",
+    "C1-R2-04"
+   ],
+   "label": "Plausible",
+   "link_id": "L07",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C1-R5-02"
+   ],
+   "label": "Established",
+   "link_id": "L08",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {
+    "SIM-R5-C1/iter-3#A1": "Supported"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R2-08",
+    "C0v2-R3-13"
+   ],
+   "label": "Philosophical/Spiritual",
+   "link_id": "L09",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Established",
+   "link_id": "L10",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C0v2-R3-17"
+   ],
+   "label": "Philosophical/Spiritual",
+   "link_id": "L11",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {
+    "SIM-R3-C1/iter-1#E3": "Supported",
+    "SIM-R3-C1/iter-3#E3": "Supported"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R3-16",
+    "C0v2-R5-12"
+   ],
+   "label": "Philosophical/Spiritual",
+   "link_id": "L12",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Established",
+   "link_id": "L13",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {
+    "SIM-R3-C1/iter-3#E3": "Supported"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R4-10"
+   ],
+   "label": "Plausible",
+   "link_id": "L14",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Hypothetical",
+   "link_id": "L15",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {
+    "SIM-R4-C1/iter-3#S3": "Pass"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R4-11"
+   ],
+   "label": "Established",
+   "link_id": "L16",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Established",
+   "link_id": "L17",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Hypothetical",
+   "link_id": "L18",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Established",
+   "link_id": "L19",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {
+    "SIM-R6-C1/iter-3#G2": "Supported"
+   }
+  },
+  {
+   "contested_basis": [
+    "C0v2-R6-04"
+   ],
+   "label": "Plausible",
+   "link_id": "L20",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C0v2-R6-08",
+    "C1-R6-05"
+   ],
+   "label": "Plausible",
+   "link_id": "L21",
+   "screen": "pressure: simulation test not supported",
+   "sim_outcomes": {
+    "SIM-R6-C1/iter-1#D1": "Not supported",
+    "SIM-R6-C1/iter-2#A1": "Not supported"
+   }
+  },
+  {
+   "contested_basis": [],
+   "label": "Established",
+   "link_id": "L22",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [],
+   "label": "Philosophical/Spiritual",
+   "link_id": "L23",
+   "screen": "no rejection trigger observed",
+   "sim_outcomes": {}
+  },
+  {
+   "contested_basis": [
+    "C0v2-R7-07"
+   ],
+   "label": "Philosophical/Spiritual",
+   "link_id": "L24",
+   "screen": "pressure: contested/indeterminate basis",
+   "sim_outcomes": {}
+  }
+ ],
+ "rejection_summary": {
+  "n_links": 24,
+  "n_under_pressure": 15
+ }
+}

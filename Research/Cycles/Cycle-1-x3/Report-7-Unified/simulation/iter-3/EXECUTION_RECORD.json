@@ -1,0 +1,102 @@
+{
+ "sim_id": "SIM-R7-C1",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:30:43.363591+00:00",
+ "finished_utc": "2026-10-24T01:30:43.368262+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-3",
+ "params_sha256": "6dec0d9d95fadbf3fc929e2e72c36383d3660480dec71684d50705bec3a8983e",
+ "outputs": {
+  "outputs/results.json": "e0724bfd8834de2edc1529f6949d18359a19e4535d5b0cc843c6e142ede660e9"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "J1",
+   "kind": "validation",
+   "expect": "every Plausible/Hypothetical link names a rejection criterion and at least one Cycle-1 test (simulation check or literature test)",
+   "observed": null,
+   "result": "Pass"
+  },
+  {
+   "id": "J2",
+   "kind": "reporting",
+   "expect": "report links under pressure from Cycle-1 tests",
+   "observed": [
+    [
+     "L01",
+     "pressure: simulation test not supported"
+    ],
+    [
+     "L02",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L04",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L05",
+     "pressure: simulation test not supported"
+    ],
+    [
+     "L06",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L07",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L08",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L09",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L11",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L12",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L14",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L16",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L20",
+     "pressure: contested/indeterminate basis"
+    ],
+    [
+     "L21",
+     "pressure: simulation test not supported"
+    ],
+    [
+     "L24",
+     "pressure: contested/indeterminate basis"
+    ]
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
