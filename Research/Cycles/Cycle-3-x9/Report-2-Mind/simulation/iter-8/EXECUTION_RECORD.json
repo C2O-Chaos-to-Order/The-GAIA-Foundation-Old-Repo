@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:29.255400+00:00",
+ "finished_utc": "2026-10-24T03:02:30.694532+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-8",
+ "params_sha256": "e4e4945f64c5077d47bcd95cb40bab9fbf764cb19731e5b55797b5b593b0a76d",
+ "outputs": {
+  "outputs/results.json": "f60dd80ed7ab7db5179f08cfaab52dd8d586adf8e9be896fdacebd2c3a962246"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "adding a Mackintosh-type competitor, three-way recovery stays >= 70% at noise 0.1 (off-grid generators)",
+   "observed": {
+    "0.05": 0.6833333333,
+    "0.1": 0.6333333333,
+    "0.2": 0.5333333333
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
