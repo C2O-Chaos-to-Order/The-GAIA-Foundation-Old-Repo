@@ -1,0 +1,1881 @@
+{
+ "note": "Coder C input for SIM-R3-C3 (run once; needs the source snapshots, which are not in the repository). Extract fixed text windows around each conception's key terms from the cited source snapshots (input for coder C, SIM-R3-C3).\nKey terms were written before any coding; windows are 1200 characters centred on each match (max 8 per conception and source).",
+ "sizes": [
+  300,
+  600,
+  1200
+ ],
+ "max_windows": 8,
+ "key_terms": {
+  "C01": "Plato|Phaedo",
+  "C02": "Aristotle|De Anima",
+  "C03": "Epicur",
+  "C04": "Stoic|pneuma",
+  "C05": "nephesh|nefesh|living being|Genesis 2",
+  "C06": "Aquinas",
+  "C07": "\\bru[hḥ]\\b|rūḥ|spirit",
+  "C08": "\\bsoul\\b|[aā]tman",
+  "C09": "Advaita|[aā]tman|Brahman",
+  "C10": "an[aā]tman|no-self|not-self",
+  "C11": "\\bhun\\b|\\bpo\\b|\\bqi\\b|\\bxin\\b",
+  "C12": "Akan|Gyekye|okra",
+  "C13": "animis|relational",
+  "C14": "physicalis",
+  "C15": "j[iī]va"
+ },
+ "lexicon": {
+  "A1_immaterial": "incorporeal|immaterial|non-?physical|not a body|not material|spiritual substance|not made of matter",
+  "A2_independent_of_body_survives_death": "immortal|surviv|after death|afterlife|rebirth|reincarnat|transmigrat|resurrect|not killed|never dies|eternal life",
+  "A3_principle_of_life_or_breath": "breath|life-giving|principle of life|animat|alive|living being|pneuma|vital",
+  "A4_seat_of_thought_or_identity": "think|intellect|reason|knower|mind\\b|conscious|true self|identity",
+  "A5_bearer_of_moral_character": "virtue|vice|karma|moral|evil|sin\\b|righteous|merit|character",
+  "A6_oriented_to_purpose_or_final_end": "liberation|mok[sṣ]a|nirvana|salvation|telos|final end|goal|purpose|happiness",
+  "A7_enduring_unchanging_self": "eternal|unchanging|permanent|immutable|everlasting|imperishable|unborn",
+  "A8_form_of_or_inseparable_from_body": "form of the body|form of a|organi[sz]ation|inseparable|cannot exist apart|function of the body|perishes with|dies with",
+  "A9_enduring_self_denied": "no-self|not-self|an[aā]tman|no soul|no enduring self|without self",
+  "A10_constituted_relationally_or_communally": "relational|communit|communal|social|personhood|kin\\b|kinship|relationship",
+  "A11_identical_with_universal_ground": "brahman|universal|ultimate reality|one with",
+  "A12_extends_to_non_human_beings": "animal|plant|non-?human|all living|tree|rivers|mountain"
+ },
+ "conceptions": {
+  "C01": {
+   "conception": "Plato (Phaedo; Republic)",
+   "sources": {
+    "S07": "d808ad33e2a70c534c64aee12ced2bbecb87e43c3f97fe4812261d6627930a92"
+   },
+   "windows": [
+    {
+     "source": "S07",
+     "offset": 1063,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 1083,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 1359,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 3104,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 3137,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 5992,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 8714,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 15922,
+     "hits": {
+      "300": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    }
+   ]
+  },
+  "C02": {
+   "conception": "Aristotle (De Anima)",
+   "sources": {
+    "S07": "d808ad33e2a70c534c64aee12ced2bbecb87e43c3f97fe4812261d6627930a92",
+    "T05": "42a708cf4c648aa34d723f3bdcdedc8b7b5410ad74ac6e9b2d39b1547b94d8c3"
+   },
+   "windows": [
+    {
+     "source": "S07",
+     "offset": 1116,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 1134,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 2665,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 3200,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 6002,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 6935,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 6946,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 15968,
+     "hits": {
+      "300": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T05",
+     "offset": 48,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T05",
+     "offset": 131,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T05",
+     "offset": 277,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    }
+   ]
+  },
+  "C03": {
+   "conception": "Epicurus",
+   "sources": {
+    "S07": "d808ad33e2a70c534c64aee12ced2bbecb87e43c3f97fe4812261d6627930a92"
+   },
+   "windows": [
+    {
+     "source": "S07",
+     "offset": 1161,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 3263,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 57402,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A6_oriented_to_purpose_or_final_end"
+      ],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A6_oriented_to_purpose_or_final_end"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 57798,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 58019,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 58285,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A2_independent_of_body_survives_death",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 59191,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 59216,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    }
+   ]
+  },
+  "C04": {
+   "conception": "Stoics (pneuma)",
+   "sources": {
+    "S07": "d808ad33e2a70c534c64aee12ced2bbecb87e43c3f97fe4812261d6627930a92"
+   },
+   "windows": [
+    {
+     "source": "S07",
+     "offset": 1179,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 3296,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 57506,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A6_oriented_to_purpose_or_final_end"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 58036,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 58483,
+     "hits": {
+      "300": [
+       "A2_independent_of_body_survives_death"
+      ],
+      "600": [
+       "A2_independent_of_body_survives_death",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 64979,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 65000,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "S07",
+     "offset": 65050,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    }
+   ]
+  },
+  "C05": {
+   "conception": "Hebrew Bible (Gen 2:7 nephesh: 'living being')",
+   "sources": {
+    "T07": "85ebe505d011634ba2ca3694dcf0f158f72b171635577555b3101edcfda86b3e",
+    "T07e": "1b6f4873aa0c9c6f84dc526d7269d784ec9bd8a323e55e538f22d4c9e4fd9b84"
+   },
+   "windows": [
+    {
+     "source": "T07",
+     "offset": 37534,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07",
+     "offset": 37638,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07",
+     "offset": 37708,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07",
+     "offset": 37795,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07e",
+     "offset": 1374,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "600": [
+       "A3_principle_of_life_or_breath"
+      ],
+      "1200": [
+       "A3_principle_of_life_or_breath"
+      ]
+     }
+    },
+    {
+     "source": "T07e",
+     "offset": 36866,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07e",
+     "offset": 36970,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07e",
+     "offset": 37040,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "T07e",
+     "offset": 37127,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    }
+   ]
+  },
+  "C06": {
+   "conception": "Thomas Aquinas (ST I q.75)",
+   "sources": {
+    "U40": "c1eb0d6d989e3f005f4507bd1bc4744f229ab5936770914363394d1ddc4354bc"
+   },
+   "windows": [
+    {
+     "source": "U40",
+     "offset": 35777,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    }
+   ]
+  },
+  "C07": {
+   "conception": "Qur'an (17:85; 15:29 ruh)",
+   "sources": {
+    "U41": "c44a3c0c139562a3064618dd83be1f80fea6d55b25957389031afbde16dd56cc",
+    "U50": "35f7cfb00438517ee3186389474c5b6c0e356ca798e29398e1d5e097568b8fd3"
+   },
+   "windows": []
+  },
+  "C08": {
+   "conception": "Bhagavad Gita 2.20",
+   "sources": {
+    "U43": "58547d7d797e7bcd979d4e50268454a854cecf9cae072b43ef84a59899707991"
+   },
+   "windows": [
+    {
+     "source": "U43",
+     "offset": 822,
+     "hits": {
+      "300": [
+       "A7_enduring_unchanging_self"
+      ],
+      "600": [
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1204,
+     "hits": {
+      "300": [
+       "A11_identical_with_universal_ground"
+      ],
+      "600": [
+       "A11_identical_with_universal_ground",
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1466,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1519,
+     "hits": {
+      "300": [],
+      "600": [
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1609,
+     "hits": {
+      "300": [],
+      "600": [
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1649,
+     "hits": {
+      "300": [],
+      "600": [
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A12_extends_to_non_human_beings",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1725,
+     "hits": {
+      "300": [
+       "A7_enduring_unchanging_self"
+      ],
+      "600": [
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A12_extends_to_non_human_beings",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "U43",
+     "offset": 1974,
+     "hits": {
+      "300": [],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    }
+   ]
+  },
+  "C09": {
+   "conception": "Advaita Vedanta (atman = Brahman)",
+   "sources": {
+    "S31": "d05de1283e3df0a1b2ebb56947eaec5ce5cfe404a79740fea365ff961baa141e"
+   },
+   "windows": [
+    {
+     "source": "S31",
+     "offset": 10,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 99,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 115,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 440,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 577,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A11_identical_with_universal_ground"
+      ]
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 700,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A11_identical_with_universal_ground"
+      ]
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 935,
+     "hits": {
+      "300": [],
+      "600": [
+       "A11_identical_with_universal_ground"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground"
+      ]
+     }
+    },
+    {
+     "source": "S31",
+     "offset": 972,
+     "hits": {
+      "300": [],
+      "600": [
+       "A11_identical_with_universal_ground"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground"
+      ]
+     }
+    }
+   ]
+  },
+  "C10": {
+   "conception": "Indian Buddhist anatman",
+   "sources": {
+    "S32": "8460c8a6346c5aef1d5eb65bf676d7378e5a6cf5e937e5ec96873ba81eb0f6a1"
+   },
+   "windows": [
+    {
+     "source": "S32",
+     "offset": 1103,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 2857,
+     "hits": {
+      "300": [
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 2915,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 3568,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 4883,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 5857,
+     "hits": {
+      "300": [
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A2_independent_of_body_survives_death",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 6957,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ]
+     }
+    },
+    {
+     "source": "S32",
+     "offset": 8375,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ],
+      "600": [
+       "A11_identical_with_universal_ground",
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self",
+       "A9_enduring_self_denied"
+      ]
+     }
+    }
+   ]
+  },
+  "C11": {
+   "conception": "Early Chinese hun/po and qi; xin heart-mind",
+   "sources": {
+    "T17": "636fd80a35575c57f1d343dc0521c9baec31c26c25b6f6fc8a8f91dbbd68fd6a"
+   },
+   "windows": [
+    {
+     "source": "T17",
+     "offset": 808,
+     "hits": {
+      "300": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1059,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1145,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1287,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1456,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1607,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1705,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "T17",
+     "offset": 1774,
+     "hits": {
+      "300": [],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    }
+   ]
+  },
+  "C12": {
+   "conception": "African (Akan/Gyekye) moral personhood",
+   "sources": {
+    "U44": "b61d1607d51dd9dcaa23c7284d63615f03d8478e0ac49aa53ad76bee11355201"
+   },
+   "windows": [
+    {
+     "source": "U44",
+     "offset": 4867,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character",
+       "A6_oriented_to_purpose_or_final_end"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A11_identical_with_universal_ground",
+       "A5_bearer_of_moral_character",
+       "A6_oriented_to_purpose_or_final_end"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A11_identical_with_universal_ground",
+       "A5_bearer_of_moral_character",
+       "A6_oriented_to_purpose_or_final_end"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 9556,
+     "hits": {
+      "300": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 9728,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 10037,
+     "hits": {
+      "300": [],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 10885,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 10952,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 13799,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U44",
+     "offset": 14096,
+     "hits": {
+      "300": [
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    }
+   ]
+  },
+  "C13": {
+   "conception": "Indigenous social-relational animism",
+   "sources": {
+    "U45": "142a11de1dc3b270d9891704371e489431ea70902295ce6b94f3dbe86da57df9"
+   },
+   "windows": [
+    {
+     "source": "U45",
+     "offset": 1,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 90,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 98,
+     "hits": {
+      "300": [],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 287,
+     "hits": {
+      "300": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 859,
+     "hits": {
+      "300": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 884,
+     "hits": {
+      "300": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 1107,
+     "hits": {
+      "300": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ]
+     }
+    },
+    {
+     "source": "U45",
+     "offset": 1250,
+     "hits": {
+      "300": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings"
+      ]
+     }
+    }
+   ]
+  },
+  "C14": {
+   "conception": "Physicalism",
+   "sources": {
+    "T06": "185959d6c668d445410d4a9cf75a776f2d0e745e0fb048dc02cdd8c6e7ee13cc",
+    "S08": "8c59f8afe65bc29b70b5746694e7f365132d23098606cfd13845234950de31fb"
+   },
+   "windows": [
+    {
+     "source": "T06",
+     "offset": 1,
+     "hits": {
+      "300": [],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 486,
+     "hits": {
+      "300": [],
+      "600": [
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 570,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 1059,
+     "hits": {
+      "300": [],
+      "600": [
+       "A10_constituted_relationally_or_communally",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 1536,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 1561,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 1585,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "T06",
+     "offset": 1608,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 6765,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A2_independent_of_body_survives_death",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A2_independent_of_body_survives_death",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 31699,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A10_constituted_relationally_or_communally"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 54233,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 56912,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 79733,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 80009,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 80325,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "S08",
+     "offset": 81217,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": [
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    }
+   ]
+  },
+  "C15": {
+   "conception": "Jain jiva (SEP Jaina philosophy)",
+   "sources": {
+    "V40": "188f9fe5b6623037b5c866a4ef0e45ceec0a65e28bb5da180498e8d8129d2320"
+   },
+   "windows": [
+    {
+     "source": "V40",
+     "offset": 6292,
+     "hits": {
+      "300": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self"
+      ],
+      "600": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A7_enduring_unchanging_self"
+      ],
+      "1200": [
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "V40",
+     "offset": 15765,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A5_bearer_of_moral_character"
+      ]
+     }
+    },
+    {
+     "source": "V40",
+     "offset": 19164,
+     "hits": {
+      "300": [
+       "A4_seat_of_thought_or_identity"
+      ],
+      "600": [
+       "A4_seat_of_thought_or_identity",
+       "A6_oriented_to_purpose_or_final_end"
+      ],
+      "1200": [
+       "A4_seat_of_thought_or_identity",
+       "A6_oriented_to_purpose_or_final_end",
+       "A7_enduring_unchanging_self"
+      ]
+     }
+    },
+    {
+     "source": "V40",
+     "offset": 21768,
+     "hits": {
+      "300": [
+       "A6_oriented_to_purpose_or_final_end",
+       "A8_form_of_or_inseparable_from_body"
+      ],
+      "600": [
+       "A6_oriented_to_purpose_or_final_end",
+       "A8_form_of_or_inseparable_from_body"
+      ],
+      "1200": [
+       "A11_identical_with_universal_ground",
+       "A6_oriented_to_purpose_or_final_end",
+       "A8_form_of_or_inseparable_from_body"
+      ]
+     }
+    },
+    {
+     "source": "V40",
+     "offset": 33867,
+     "hits": {
+      "300": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath"
+      ],
+      "600": [
+       "A12_extends_to_non_human_beings",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ],
+      "1200": [
+       "A10_constituted_relationally_or_communally",
+       "A12_extends_to_non_human_beings",
+       "A2_independent_of_body_survives_death",
+       "A3_principle_of_life_or_breath",
+       "A4_seat_of_thought_or_identity"
+      ]
+     }
+    },
+    {
+     "source": "V40",
+     "offset": 83382,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    },
+    {
+     "source": "V40",
+     "offset": 87032,
+     "hits": {
+      "300": [],
+      "600": [],
+      "1200": []
+     }
+    }
+   ]
+  }
+ }
+}
