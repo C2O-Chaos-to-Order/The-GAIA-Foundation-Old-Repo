@@ -1,0 +1,53 @@
+{
+ "sim_id": "SIM-IN-NAT-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:22:03.778154+00:00",
+ "finished_utc": "2026-10-24T17:22:03.896788+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "8a0dd9525309e59f982256c5247e067b5e9b3dcc5602daa294e34c9c4b5102ff",
+ "params_sha256": "79aeb749ca9904b2f09506d6876fffc5e942db2b7b6dd7c3acd388a2e53cc8a6",
+ "results_sha256": "642563cd2a3ed967f058d3a56111590e82c35a95c846abe36eb5b05941396ada",
+ "results": {
+  "n0": 27,
+  "share_growing": 0.42,
+  "se": 0.01560769
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "share is a probability",
+   "observed": 0.42,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a cluster at the critical size grows with probability within 0.15 of 1/2",
+   "observed": 0.42,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": 0.42,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
