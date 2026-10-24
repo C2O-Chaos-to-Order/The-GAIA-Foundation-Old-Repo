@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:13.794081+00:00",
+ "finished_utc": "2026-10-24T04:14:13.799730+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-3",
+ "params_sha256": "fb1aeb8ce5d5ea04822080a8969abbd394dce3958ca7c8eb1f469e6498921262",
+ "outputs": {
+  "outputs/results.json": "bdf5c22e24576b3a57308376d1332acb24733b8cb28f09b4a1b047ca642688b7"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "dropping any one conception leaves the others' partition intact on average (mean ARI >= 0.8)",
+   "observed": [
+    0.98608208,
+    0.7912312006,
+    "C08"
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
