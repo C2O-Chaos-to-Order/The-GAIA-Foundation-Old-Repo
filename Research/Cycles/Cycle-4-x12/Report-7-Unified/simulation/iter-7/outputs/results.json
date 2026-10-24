@@ -1,0 +1,62 @@
+{
+ "lens_new": {
+  "n": 20,
+  "placements": {
+   "C4-R1-01": [
+    "Integrity",
+    "Truth"
+   ],
+   "C4-R1-02": [
+    "Truth"
+   ],
+   "C4-R1-03": [
+    "Truth"
+   ],
+   "C4-R2-01": [
+    "Love",
+    "Truth"
+   ],
+   "C4-R2-02": [
+    "Truth",
+    "Wisdom"
+   ],
+   "C4-R2-03": [
+    "Truth"
+   ],
+   "C4-R2-04": [],
+   "C4-R3-01": [
+    "Truth",
+    "Wisdom"
+   ],
+   "C4-R3-02": [],
+   "C4-R4-01": [
+    "Truth"
+   ],
+   "C4-R4-02": [
+    "Truth"
+   ],
+   "C4-R4-03": [
+    "Truth"
+   ],
+   "C4-R4-04": [
+    "Truth"
+   ],
+   "C4-R5-01": [],
+   "C4-R5-02": [
+    "Integrity"
+   ],
+   "C4-R5-03": [
+    "Truth"
+   ],
+   "C4-R5-04": [],
+   "C4-R5-05": [
+    "Truth"
+   ],
+   "C4-R6-01": [],
+   "C4-R6-02": [
+    "Integrity"
+   ]
+  },
+  "share_with_lens": 0.75
+ }
+}
