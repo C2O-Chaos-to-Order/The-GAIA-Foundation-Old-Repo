@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R1-C2",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:09:25.349785+00:00",
+ "finished_utc": "2026-10-24T02:09:25.359209+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-3",
+ "params_sha256": "8cc88b6a531f26c294cf1ba821b76f44f270d6e7932ae88ed91a59db5070193c",
+ "outputs": {
+  "outputs/results.json": "63863dbc271c972f211be6e006a397cbaffadcb18e69d6d29f61a9e83eab36eb"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "some bound keeps false-cue undershoot <= 0.2 while retaining >= 70% of the unbounded peak reduction",
+   "observed": [],
+   "result": "Not supported"
+  },
+  {
+   "id": "H3r",
+   "kind": "reporting",
+   "expect": "report unbounded false-cue undershoot",
+   "observed": 1.8482402199,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

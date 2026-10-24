@@ -1,0 +1,42 @@
+{
+ "benefit_retained_by_safe_bounds": [],
+ "carried_from_prev": {},
+ "false_cue": [
+  {
+   "peak_with_load": 0.1679377107,
+   "undershoot_cue_no_load": 1.8482402199,
+   "w": 0.0398474437,
+   "w_max": null
+  },
+  {
+   "peak_with_load": 0.4847338855,
+   "undershoot_cue_no_load": 0.4638290559,
+   "w": 0.01,
+   "w_max": 0.01
+  },
+  {
+   "peak_with_load": 0.3333332069,
+   "undershoot_cue_no_load": 0.9276581118,
+   "w": 0.02,
+   "w_max": 0.02
+  },
+  {
+   "peak_with_load": 0.2499998422,
+   "undershoot_cue_no_load": 1.3914871677,
+   "w": 0.03,
+   "w_max": 0.03
+  },
+  {
+   "peak_with_load": 0.1679377107,
+   "undershoot_cue_no_load": 1.8482402199,
+   "w": 0.0398474437,
+   "w_max": 0.04
+  }
+ ],
+ "learning_used": {
+  "eta": 0.01,
+  "lam": 0.0,
+  "w_max": null
+ },
+ "safe_w_max": null
+}
