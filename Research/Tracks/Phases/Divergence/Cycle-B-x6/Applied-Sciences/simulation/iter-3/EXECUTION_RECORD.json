@@ -1,0 +1,81 @@
+{
+ "sim_id": "SIM-DV-APP-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:35:07.028398+00:00",
+ "finished_utc": "2026-10-24T08:35:07.551330+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "9900d9de67cbf78c2fe42b39bdca8d14cf3fa367448582f80b18c67aa2edbd0b",
+ "params_sha256": "a9e8512db1d65f8319c5e78440f65112dece4dc1dcce86d62c096dc3cea0410f",
+ "results_sha256": "27807776ed055b6154cc815cf69a5717c86cf1ecf86b16758806a52ad5e48961",
+ "results": {
+  "high_ccf": {
+   "drivers": 25,
+   "mutations": 131,
+   "share": 0.19083969
+  },
+  "low_ccf": {
+   "drivers": 333,
+   "mutations": 3407,
+   "share": 0.09773995
+  },
+  "mutations_per_birth": 1.00203416,
+  "births": 575177
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean new mutations per birth within 4 SE of u = 1.0",
+   "observed": [
+    1.00203416,
+    0.00131856
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "driver share among CCF >= 0.5 mutations at least 2.0x the share among 0.01 <= CCF < 0.3",
+   "observed": [
+    0.19083969,
+    0.09773995
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "driver shares by CCF class",
+   "observed": {
+    "high_ccf": {
+     "drivers": 25,
+     "mutations": 131,
+     "share": 0.19083969
+    },
+    "low_ccf": {
+     "drivers": 333,
+     "mutations": 3407,
+     "share": 0.09773995
+    },
+    "mutations_per_birth": 1.00203416,
+    "births": 575177
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
