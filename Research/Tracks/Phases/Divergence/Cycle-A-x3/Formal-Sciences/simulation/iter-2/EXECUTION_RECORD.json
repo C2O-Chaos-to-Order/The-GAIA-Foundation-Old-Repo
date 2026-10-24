@@ -1,0 +1,126 @@
+{
+ "sim_id": "SIM-DV-FOR-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:55.976671+00:00",
+ "finished_utc": "2026-10-24T08:10:55.984781+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "07620bfd5d0b1b08db8e2ae61e9a21b8f116f6ceeeb4004a329e8af1e63fdc74",
+ "params_sha256": "d0d06dad7c00e02d331b4c2e52e5e976c70ae8423a711295a123a77446536fe6",
+ "results_sha256": "978447be5f91d783e0867a378ce8c15df937edba7d22552e64b4cb32eebb3c4f",
+ "results": {
+  "by_n": {
+   "10": {
+    "H": 2.92896825,
+    "err_H": 0.0491675,
+    "S2": 1.54976773,
+    "err_S2": 0.09516634,
+    "alt": 0.64563492,
+    "err_alt": 0.04751226
+   },
+   "100": {
+    "H": 5.18737752,
+    "err_H": 0.00499167,
+    "S2": 1.6349839,
+    "err_S2": 0.00995017,
+    "alt": 0.68817218,
+    "err_alt": 0.004975
+   },
+   "1000": {
+    "H": 7.48547086,
+    "err_H": 0.00049992,
+    "S2": 1.64393457,
+    "err_S2": 0.0009995,
+    "alt": 0.69264743,
+    "err_alt": 0.00049975
+   },
+   "10000": {
+    "H": 9.78760604,
+    "err_H": 5e-05,
+    "S2": 1.64483407,
+    "err_S2": 0.0001,
+    "alt": 0.69309718,
+    "err_alt": 5e-05
+   },
+   "100000": {
+    "H": 12.09014613,
+    "err_H": 5e-06,
+    "S2": 1.64492407,
+    "err_S2": 1e-05,
+    "alt": 0.69314218,
+    "err_alt": 5e-06
+   }
+  },
+  "first_n_H_exceeds_target": 12367,
+  "target": 10
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "|H_n - ln n - gamma| <= 1/(2n) for every n (harmonic series diverges like ln n)",
+   "observed": {
+    "10": 0.0491675,
+    "100": 0.00499167,
+    "1000": 0.00049992,
+    "10000": 5e-05,
+    "100000": 5e-06
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "|pi^2/6 - sum_{k<=n} 1/k^2| <= 1/n (p = 2 series converges)",
+   "observed": {
+    "10": 0.09516634,
+    "100": 0.00995017,
+    "1000": 0.0009995,
+    "10000": 0.0001,
+    "100000": 1e-05
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "|alternating harmonic partial sum - ln 2| <= 1/(n+1) (alternating-series bound)",
+   "observed": {
+    "10": 0.04751226,
+    "100": 0.004975,
+    "1000": 0.00049975,
+    "10000": 5e-05,
+    "100000": 5e-06
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the harmonic series needs more than 10000 terms to exceed 10 (divergence can be extremely slow)",
+   "observed": 12367,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "first n with H_n > target",
+   "observed": 12367,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
