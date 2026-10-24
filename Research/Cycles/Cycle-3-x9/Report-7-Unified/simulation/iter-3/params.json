@@ -1,0 +1,12 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "essential": {
+   "c1_register": "../../../../Cycle-1-x3/Report-7-Unified/maps/link_register.csv"
+  }
+ },
+ "input_register": "../../maps/link_register_input.csv",
+ "iteration": 3,
+ "prev": "../iter-2",
+ "sim_id": "SIM-R7-C3"
+}
