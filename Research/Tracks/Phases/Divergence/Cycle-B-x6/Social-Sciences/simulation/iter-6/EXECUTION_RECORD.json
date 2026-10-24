@@ -1,0 +1,93 @@
+{
+ "sim_id": "SIM-DV-SOC-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:35:00.357026+00:00",
+ "finished_utc": "2026-10-24T08:35:05.506258+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-6  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "35121c52d880e34dc23af72991921ac68a925418494d5974bfd20505fb182d81",
+ "params_sha256": "6da4e957385d746db9d5f2ff9a2a26f5c74f162c63263aabedb7a0280c5e73af",
+ "results_sha256": "1007fd52831ca672fbc8157143508aea211ca58688dfe29e72752527a5996fcf",
+ "results": {
+  "by_noise": {
+   "0.0": {
+    "mean_sd": 0.13156305,
+    "se": 0.02864013
+   },
+   "0.001": {
+    "mean_sd": 0.16192046,
+    "se": 0.00828099
+   },
+   "0.1": {
+    "mean_sd": 0.20138725,
+    "se": 0.00565163
+   }
+  },
+  "uniform_sd": 0.28867513,
+  "sum_drift_max": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "noise 0: opinion sum conserved by pairwise updates (|drift| < 1e-9)",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "noise 0.1: SD within 0.05 of the uniform SD 0.2887",
+   "observed": 0.20138725,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "noise 0.001: SD within 0.05 of the noise-free SD",
+   "observed": [
+    0.16192046,
+    0.13156305
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "SD by noise",
+   "observed": {
+    "by_noise": {
+     "0.0": {
+      "mean_sd": 0.13156305,
+      "se": 0.02864013
+     },
+     "0.001": {
+      "mean_sd": 0.16192046,
+      "se": 0.00828099
+     },
+     "0.1": {
+      "mean_sd": 0.20138725,
+      "se": 0.00565163
+     }
+    },
+    "uniform_sd": 0.28867513,
+    "sum_drift_max": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

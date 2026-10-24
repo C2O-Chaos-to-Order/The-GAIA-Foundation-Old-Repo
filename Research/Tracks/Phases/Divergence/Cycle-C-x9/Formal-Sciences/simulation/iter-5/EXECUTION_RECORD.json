@@ -1,0 +1,61 @@
+{
+ "sim_id": "SIM-DV-FOR-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:53.655883+00:00",
+ "finished_utc": "2026-10-24T16:32:53.792137+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-5  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "cbc98ad94e1c51eb571304d04a8ff77aaccdf00519cd1c587f8e33b7f927168c",
+ "params_sha256": "f1b1688e2e264b4475f5cfb4cc4c20dbbf16653fd3a5867cf8b4264c08b9ae0b",
+ "results_sha256": "d2933003fc0140d127024709e88cb72f12abcad50945420293b8187b680f5038",
+ "results": {
+  "S_a": 10002.0,
+  "S_b": -10000.0,
+  "S_a_plus_b": 2.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "sum of (a+b) partial sum within 1e-9 of 2 - 2^-(n-1)",
+   "observed": 2.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "both component partial sums exceed n/2 in magnitude while their sum stays below 2",
+   "observed": [
+    10002.0,
+    -10000.0,
+    2.0
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "S_a": 10002.0,
+    "S_b": -10000.0,
+    "S_a_plus_b": 2.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

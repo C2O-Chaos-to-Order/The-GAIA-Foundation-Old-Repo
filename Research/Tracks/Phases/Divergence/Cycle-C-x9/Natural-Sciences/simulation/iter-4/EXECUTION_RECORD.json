@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-DV-NAT-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:36.772865+00:00",
+ "finished_utc": "2026-10-24T16:32:41.961725+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-4  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "3d783af14d7d6780b11c587a8abf97c20e11a6453388a22863f3711fe8a70028",
+ "params_sha256": "c39644889cfd2e93865d700762b626801a48cd65dea89dadaf96022fcbb47e2a",
+ "results_sha256": "78ff75bf92542f01c269fee12af67bfc3292de01d7b666018a98c3aafbd1f7eb",
+ "results": {
+  "exact_threshold": 0.38490018,
+  "mean_up_jump_r": 0.3900552,
+  "mean_down_jump_r": -0.39230471,
+  "sd_up": 0.01153067,
+  "n_missing": 0,
+  "hysteresis_width": 0.78235991,
+  "source_stated_threshold": 0.4
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "analytic root count of r + x - x^3 is 3 for |r| < 2/(3 sqrt 3), 1 beyond (201-point grid; deterministic)",
+   "observed": [
+    355
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "every replicate jumps up and back down (no missing jumps)",
+   "observed": 0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mean up-jump r within 0.02 of the exact threshold 0.3849",
+   "observed": [
+    0.3900552,
+    0.38490018
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "hysteresis loop width (up minus down jump) > 0.5",
+   "observed": 0.78235991,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "jump points",
+   "observed": {
+    "exact_threshold": 0.38490018,
+    "mean_up_jump_r": 0.3900552,
+    "mean_down_jump_r": -0.39230471,
+    "sd_up": 0.01153067,
+    "n_missing": 0,
+    "hysteresis_width": 0.78235991,
+    "source_stated_threshold": 0.4
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

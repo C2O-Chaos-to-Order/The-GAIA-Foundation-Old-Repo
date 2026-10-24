@@ -1,0 +1,71 @@
+{
+ "sim_id": "SIM-DV-FOR-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:54.066626+00:00",
+ "finished_utc": "2026-10-24T16:32:56.942547+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-7  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a58e460259e804004f07a50c56b4dece677f77a0a68e45ffaa84ede912cf4cb1",
+ "params_sha256": "886c6bdf3f9b8e582d66147cfe2330140da1f856f08e19af27617192ba85bc94",
+ "results_sha256": "7c4be9531807ac10f79dd11be1935169366f15ff486203a44dff6b52d3b15767",
+ "results": {
+  "analytic_share": 0.16086125,
+  "orbit_share": 0.1609239,
+  "se": 6.857e-05,
+  "finite_time_lyap_mean": 0.69314614,
+  "finite_time_lyap_min": 0.69301592
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "orbit share in the shrinking region within 4 SE of the analytic share 0.16086",
+   "observed": [
+    0.1609239,
+    6.857e-05
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "share of time with local contraction > 0.1",
+   "observed": 0.1609239,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "every finite-time exponent over 50000 steps is still positive",
+   "observed": 0.69301592,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "shares and finite-time exponents",
+   "observed": {
+    "analytic_share": 0.16086125,
+    "orbit_share": 0.1609239,
+    "se": 6.857e-05,
+    "finite_time_lyap_mean": 0.69314614,
+    "finite_time_lyap_min": 0.69301592
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

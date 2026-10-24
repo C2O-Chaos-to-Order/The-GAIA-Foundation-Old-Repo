@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-DV-FOR-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:47.733035+00:00",
+ "finished_utc": "2026-10-24T16:46:47.920906+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "6dc43bc1c6d8d10dfb6fe5372d048cfbc9fad2493e5aaf78a88283506ed84c78",
+ "params_sha256": "0c7d2ba47defb55701500ca5f7560fdc7f5b1ddfa226b9d00355a9c2a8bd9ef3",
+ "results_sha256": "e2b73ba63f970c32d60a6355f16de83484edf7ba7b2a1fbff9ce063178a4a8bd",
+ "results": {
+  "p": 1.001,
+  "S": {
+   "1000": 7.46173653,
+   "10000": 9.74539312,
+   "100000": 12.02419876,
+   "1000000": 14.29780334
+  },
+  "zeta": 1000.57728848,
+  "share_of_limit_at_1e6": 0.01428955
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "S_1e6 within the integral-test bracket zeta(p) - int_{n+1}^inf <= S_n <= zeta(p) (1e-6 slack)",
+   "observed": [
+    14.29780334,
+    14.29780383,
+    1000.57728848
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a convergent p-series looks divergent: S_1e6 below 0.5 of its limit",
+   "observed": 0.01428955,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "p": 1.001,
+    "S": {
+     "1000": 7.46173653,
+     "10000": 9.74539312,
+     "100000": 12.02419876,
+     "1000000": 14.29780334
+    },
+    "zeta": 1000.57728848,
+    "share_of_limit_at_1e6": 0.01428955
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

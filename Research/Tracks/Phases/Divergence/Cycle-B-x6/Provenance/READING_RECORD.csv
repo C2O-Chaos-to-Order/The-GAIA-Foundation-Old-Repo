@@ -1,0 +1,19 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P01,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",7536,e5eb2a81f1c8d7d6d5535acf1a26fbf2331f6a2c19a2b90c21e8733aa3268317,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P02,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",16376,07491261434f030560dedb954238eed0a120c608cf39ec8008af5f1bd64facc6,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P04,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",13754,67dc4913575a9cedc787f336244cb1558aa61abb55a519af0e364c807f948c49,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P05,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",11290,ba1ece3b67f88f63e08e35cd2b0e2408b1b6df94037d15a368a33325520aeae1,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P06,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",8732,47396903579fe6f4c04d9f3740c39283f2559334b3148ee321af67e70f7f9c5d,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P07,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",14744,9241b42ad5355cb9b9c321d9bf4ea455ba1eb5b11ee52cb255879442b3afbbc6,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P08,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",12309,bd58aa97987ed673e1b6ab0d0fb444e3d9d25dcb2f3e0df8eee15265a218af5c,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P09,yes,"DVB (full re-read; DV0 read cited passages only, DVA did not re-read)",19810,f71368abf937771dd363f579144cf15cfc17e965f937212b40b9fed0be76a9eb,Read end to end (main text; reference lists and SEP supplements not read) before revising claims; see build notes.
+P03,yes,DVA (full re-read; DV0 read cited passages only),5848,610c9dfd1954fe256923df761f17e0fe5705fba44a2817f9d0ce5e38a089d66a,Read end to end before specifying SIM-DV-SOC-A; carried SOC claims unchanged.
+P10,yes,DVA,2512,55131c55ffa90b7778a9f5a09bd6ea0d1c3eab81ae045d83ce9bfe66c95da802,Read end to end (stored text without reference list) before any claim was written.
+P11,yes,DVA,10456,872003cee5a14cbe87b7f7712fc93f27f24203cc041450e5f919d88c70f3603c,Read end to end (stored text without reference list) before any claim was written.
+P12,yes,DVA,8895,3a6d01302496bb46985f8ed1a799459d31ba71c9887eeaf45ac2de3ca44bc90e,Read end to end (stored text without reference list) before any claim was written.
+P13,yes,DVA,2753,022a0f0f5c243da5de48b63ab63692f78617717433babc06b9a90d2edac2b5bb,Read end to end (stored text without reference list) before any claim was written.
+P14,yes,DVA,7714,e60d83a6514289dc0719fecf85cfe4822ebadd0419dd73d725230c03061bf941,Read end to end (stored text without reference list) before any claim was written.
+P15,yes,DVA,6950,7d759bc6e219f69bf6caabb1cefdc031f73ddaaa1d5e88522c7eaacea88f40d6,Read end to end (stored text without reference list) before any claim was written.
+P16,yes,DVB,1449,617cec7a554903901aac6236a54f6e168f6eb96e6e7578bf3a6e62e22e9daa4e,Read end to end (all 4 pages including appendix).
+P17,yes,DVB,6650,9962688788396118a99b36af4bcfdbaacaf0554ba06b17202bcec4b9082ded51,Read end to end (chapter main text; site navigation skipped).
+P18,no,DVB (cited passages only),19553,72d7728e8a5e372bdac30acc3acbfebec6a70b26fc0b9b40b17bfecbe4c3defe,"About 19,500 words; only keyword-located passages on ch. 42, wu/you and reversal were read. Claims citing it are scoped accordingly."

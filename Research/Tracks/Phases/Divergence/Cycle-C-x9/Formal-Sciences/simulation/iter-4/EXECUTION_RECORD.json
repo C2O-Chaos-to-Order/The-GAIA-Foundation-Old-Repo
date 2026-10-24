@@ -1,0 +1,60 @@
+{
+ "sim_id": "SIM-DV-FOR-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:53.399509+00:00",
+ "finished_utc": "2026-10-24T16:32:53.547696+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "d5f1435f6c11d9e00366d0e238ab358d6f554c0c99793c6657cca5a914224e2e",
+ "params_sha256": "1212eb0b860293925843072b69635b052ed67c850d12ac36f64f0d238db6a080",
+ "results_sha256": "6fe9e1bb0bd798182b22d2f182016f253059358dc2521e386ef466c5d06eef39",
+ "results": {
+  "ratio_k25": 0.66666667,
+  "S20": 2.51076083,
+  "S59": 2.51136229
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "ratio a_26/a_25 within 1e-3 of 2/3",
+   "observed": 0.66666667,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "partial sums settle: |S_59 - S_20| < 1e-3",
+   "observed": [
+    2.51076083,
+    2.51136229
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "ratio_k25": 0.66666667,
+    "S20": 2.51076083,
+    "S59": 2.51136229
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

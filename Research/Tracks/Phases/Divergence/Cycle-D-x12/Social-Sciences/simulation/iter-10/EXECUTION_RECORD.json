@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-DV-SOC-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:57.983743+00:00",
+ "finished_utc": "2026-10-24T16:46:58.049482+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-10  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "0e3ec4ac1914268b5f613fd5bce0b6b0f0aa40ebb214b045906d4534b37c0e0e",
+ "params_sha256": "ee2d2d1c2b43998378d98ada65f417d693c4cfeb901428e8d52a491d42bb8588",
+ "results_sha256": "c92852dc8fe960a3eb6faff6edaef4c816117edb5ae921e64c8c4e9aafa13c8e",
+ "results": {
+  "beta_mean": -0.87844018,
+  "beta_se": 0.00415246,
+  "beta_expected": -0.87842335,
+  "sd_ratio_mean": 0.99889546,
+  "sd_ratio_se": 0.00410347
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean beta within 4 SE of rho^T - 1 = -0.8784",
+   "observed": [
+    -0.87844018,
+    0.00415246
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "beta < 0 by more than 4 SE (apparent catch-up)",
+   "observed": [
+    -0.87844018,
+    0.00415246
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "SD ratio sd_T/sd_0 within 0.95-1.05 (no sigma-convergence)",
+   "observed": [
+    0.99889546,
+    0.00410347
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "beta and SD ratio",
+   "observed": {
+    "beta_mean": -0.87844018,
+    "beta_se": 0.00415246,
+    "beta_expected": -0.87842335,
+    "sd_ratio_mean": 0.99889546,
+    "sd_ratio_se": 0.00410347
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

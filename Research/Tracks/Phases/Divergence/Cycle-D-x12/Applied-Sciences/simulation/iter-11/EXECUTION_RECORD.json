@@ -1,0 +1,64 @@
+{
+ "sim_id": "SIM-DV-APP-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:13.287038+00:00",
+ "finished_utc": "2026-10-24T16:47:13.297082+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-11  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "f6de562a76dfc4aff3683f8e41c312bed9d691a643674675f9a9846e83adb091",
+ "params_sha256": "7d030be39979cf5012ff62b1cda808cd19d758aaf025e455acd4a72f2593c449",
+ "results_sha256": "604ceb7973673de4ee87e838fe3fce90cbdd044971b31cca602248aed912b708",
+ "results": {
+  "mean_true_c": 7.6958572,
+  "mean_est_c": 7.824777,
+  "bias": 0.1289198,
+  "se": 0.10398649,
+  "corr_est_true": 0.84882965
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean estimate unbiased within 4 SE",
+   "observed": [
+    0.1289198,
+    0.10398649
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "per-person estimates correlate with true cost > 0.8",
+   "observed": 0.84882965,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mean_true_c": 7.6958572,
+    "mean_est_c": 7.824777,
+    "bias": 0.1289198,
+    "se": 0.10398649,
+    "corr_est_true": 0.84882965
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

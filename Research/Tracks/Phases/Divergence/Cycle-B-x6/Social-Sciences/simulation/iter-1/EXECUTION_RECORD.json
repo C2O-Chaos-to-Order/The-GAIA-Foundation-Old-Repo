@@ -1,0 +1,113 @@
+{
+ "sim_id": "SIM-DV-SOC-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:34:47.775936+00:00",
+ "finished_utc": "2026-10-24T08:34:48.796622+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "1802246a59ce021ef694023e4af3ddb812e8b78984bd6edbeaa238458ffc13e1",
+ "params_sha256": "5cc4388df11053fbe3d386ae7724800aa322fbe81a68bc25fa6626fe3d194bd8",
+ "results_sha256": "000c68f9a45af4c15583ee6a4f13546849ececc2371ec80f69719406560c1a6b",
+ "results": {
+  "no_events": {
+   "conflict": [
+    0.51346628,
+    0.56727279,
+    0.46270744,
+    0.54772128,
+    0.5987588
+   ],
+   "mean": 0.53798532,
+   "se": 0.02336012
+  },
+  "events": {
+   "conflict": [
+    0.66283847,
+    0.60960724,
+    0.58671103,
+    0.58744499,
+    0.53675784
+   ],
+   "mean": 0.59667192,
+   "se": 0.02039533
+  },
+  "eq6_no_events": 0.264,
+  "eq6_events": 0.60458075,
+  "certainty_mean": 0.50069074,
+  "certainty_sd": 0.23054795
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "initial certainty allocation (7 overlapping ranges of width 0.4) has mean within 4 standard errors of 0.50",
+   "observed": [
+    0.50069074,
+    0.04166038
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no events: long-term conflict within 0.1 of P03 Eq. 6 = 0.264",
+   "observed": 0.53798532,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "events (Es 0.6, Ef 0.05, Ed 10): long-term conflict within 0.1 of P03 Eq. 6 = 0.605",
+   "observed": 0.59667192,
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "events raise conflict by more than 0.1 over the no-event condition (event-sustained polarisation)",
+   "observed": 0.0586866,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "conflict per replicate, Eq. 6 values, certainty SD",
+   "observed": {
+    "no_events": [
+     0.51346628,
+     0.56727279,
+     0.46270744,
+     0.54772128,
+     0.5987588
+    ],
+    "events": [
+     0.66283847,
+     0.60960724,
+     0.58671103,
+     0.58744499,
+     0.53675784
+    ],
+    "eq6": [
+     0.264,
+     0.60458075
+    ],
+    "certainty_sd": 0.23054795
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

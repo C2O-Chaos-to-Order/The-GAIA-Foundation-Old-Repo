@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-DV-APP-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:13.378052+00:00",
+ "finished_utc": "2026-10-24T16:47:13.937046+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-12  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "cd0ff9d82c34ea6bb1e7bfcaabc74f59b1acc2525bc5108d1ebf0fcfce3d3f37",
+ "params_sha256": "2114a318f6e753da44883d026780e0447dcf17c067935bb848861fd7a761b083",
+ "results_sha256": "f964697c26f65a04198ae55e65a68a6b63c095c58a84a9112e39765eca5d7b0a",
+ "results": {
+  "high_ccf": {
+   "drivers": 25,
+   "mutations": 121,
+   "share": 0.20661157
+  },
+  "low_ccf": {
+   "drivers": 487,
+   "mutations": 4179,
+   "share": 0.11653506
+  },
+  "mutations_per_birth": 0.99907269,
+  "births": 590959,
+  "pooled_se": 0.02986599
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean new mutations per birth within 4 SE of u = 1.0",
+   "observed": [
+    0.99907269,
+    0.00130083
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "enrichment: share_high - share_low > 4 pooled SE",
+   "observed": [
+    0.20661157,
+    0.11653506,
+    0.02986599
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "driver shares by CCF class",
+   "observed": {
+    "high_ccf": {
+     "drivers": 25,
+     "mutations": 121,
+     "share": 0.20661157
+    },
+    "low_ccf": {
+     "drivers": 487,
+     "mutations": 4179,
+     "share": 0.11653506
+    },
+    "mutations_per_birth": 0.99907269,
+    "births": 590959,
+    "pooled_se": 0.02986599
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

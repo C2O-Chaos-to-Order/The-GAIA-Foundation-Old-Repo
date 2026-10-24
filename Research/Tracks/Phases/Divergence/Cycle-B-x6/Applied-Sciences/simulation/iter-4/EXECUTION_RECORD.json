@@ -1,0 +1,89 @@
+{
+ "sim_id": "SIM-DV-APP-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:35:07.646794+00:00",
+ "finished_utc": "2026-10-24T08:35:07.709031+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-4  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "90cd52f8dbe4c534446ba18e8d4de245eedacba1209a6d7db3c585c5e6807d09",
+ "params_sha256": "fa7e24e0ba29606881f44b7cd2eed7ff95f70b459d40be3522aa4d975a6f5332",
+ "results_sha256": "cfb88668d74bc95df61578cfe99a7b66c5af39f2eb1c22076fffe9527999844d",
+ "results": {
+  "0.01": {
+   "steps": 6283,
+   "amp_forward": 1.36907358,
+   "amp_predicted": 1.36907358,
+   "rel_err": 0.0,
+   "symplectic_max_dev": 0.00250941
+  },
+  "0.001": {
+   "steps": 62832,
+   "amp_forward": 1.03191467,
+   "amp_predicted": 1.03191467,
+   "rel_err": 0.0,
+   "symplectic_max_dev": 0.00025009
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "forward Euler amplitude equals (1 + h^2 w^2)^(n/2) within relative 1e-9 at every h",
+   "observed": [
+    0.0,
+    0.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "forward Euler grows by more than 1% over 10 periods even at the smallest h = 0.001",
+   "observed": 0.03191467,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "symplectic Euler amplitude stays within 5% of 1 at h = 0.01",
+   "observed": 0.00250941,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "amplitudes by h",
+   "observed": {
+    "0.01": {
+     "steps": 6283,
+     "amp_forward": 1.36907358,
+     "amp_predicted": 1.36907358,
+     "rel_err": 0.0,
+     "symplectic_max_dev": 0.00250941
+    },
+    "0.001": {
+     "steps": 62832,
+     "amp_forward": 1.03191467,
+     "amp_predicted": 1.03191467,
+     "rel_err": 0.0,
+     "symplectic_max_dev": 0.00025009
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

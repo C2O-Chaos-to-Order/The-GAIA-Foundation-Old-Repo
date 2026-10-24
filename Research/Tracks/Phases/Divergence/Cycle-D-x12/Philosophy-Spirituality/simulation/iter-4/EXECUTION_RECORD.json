@@ -1,0 +1,68 @@
+{
+ "sim_id": "SIM-DV-PHI-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:37.025024+00:00",
+ "finished_utc": "2026-10-24T16:47:37.296808+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-4  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "1a2cac3ba0cc62d8478e49c32a109c02497383b700cfca45a69b07b165f87a4e",
+ "params_sha256": "cd67e0b3157b0477de00070d451ae11d267400114d1407c54a24f46bbe08b500",
+ "results_sha256": "ff727fb6a0d02155fc07f06b479030322b4890879650f67d501d1ff34a66b6a3",
+ "results": {
+  "div_phase_distance": 0.40228267,
+  "div_phase_se": 0.00040777,
+  "expected": 0.40231692,
+  "after_consolidation": 0.25536167,
+  "after_se": 0.00047929
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "divergence-phase mean pairwise distance within 4 SE of (1-(1-2mu)^(2 t1))/2",
+   "observed": [
+    0.40228267,
+    0.40231692,
+    0.00040777
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "standardisation lowers distance by more than 0.3 (relative)",
+   "observed": [
+    0.40228267,
+    0.25536167
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "distances",
+   "observed": {
+    "div_phase_distance": 0.40228267,
+    "div_phase_se": 0.00040777,
+    "expected": 0.40231692,
+    "after_consolidation": 0.25536167,
+    "after_se": 0.00047929
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
