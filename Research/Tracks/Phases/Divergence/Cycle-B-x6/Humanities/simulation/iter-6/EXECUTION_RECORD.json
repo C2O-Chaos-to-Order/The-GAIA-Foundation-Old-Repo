@@ -1,0 +1,66 @@
+{
+ "sim_id": "SIM-DV-HUM-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:35:10.383064+00:00",
+ "finished_utc": "2026-10-24T08:35:10.693774+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-6  (run from Humanities/simulation/)",
+ "spec_sha256": "f640f620894e969f23d415d1ca1f40ec83483cdc3042e3c64641c66d1037568c",
+ "params_sha256": "68a35999a7a27a34fdbde978c8c159ba2c362321a0894ba71980894983d634d4",
+ "results_sha256": "051ff5ab4a689ffb56562e12d1b584e5d78c56e8fbf0f0ccbaa30812a6ed4e30",
+ "results": {
+  "tips": 8,
+  "null_rejection": 0.07,
+  "null_se": 0.01089725,
+  "power": 1.0,
+  "median_p": 0.006,
+  "mean_r": 0.73153379
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "null control: rejection rate at alpha 0.05 within 4 binomial SE of 0.05 (permutation p is at most nominal; discreteness may make it conservative)",
+   "observed": [
+    0.07,
+    0.01089725
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "power at alpha 0.05 >= 0.8 with 8 tips, noise sd 0.25",
+   "observed": 1.0,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "power, null rate, median p",
+   "observed": {
+    "tips": 8,
+    "null_rejection": 0.07,
+    "null_se": 0.01089725,
+    "power": 1.0,
+    "median_p": 0.006,
+    "mean_r": 0.73153379
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
