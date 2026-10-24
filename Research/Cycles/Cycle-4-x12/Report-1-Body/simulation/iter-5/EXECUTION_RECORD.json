@@ -1,0 +1,47 @@
+{
+ "sim_id": "SIM-R1-C4",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:08:32.200957+00:00",
+ "finished_utc": "2026-10-24T04:08:32.287551+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-5",
+ "params_sha256": "79ee24d316cc847eb1b0dd1d4f1c2577725e6442cb45f548508b09dd11be0d38",
+ "outputs": {
+  "outputs/results.json": "210f86d37b3a305705d2ff3960ec86b7ce8a20064a2c50f49cfd9c314902d29f"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "+-20% one-at-a-time: ratio stays in [6,14]",
+   "observed": [
+    11.3067512918,
+    5.7710385202,
+    2.380033223,
+    8.8708121939,
+    8.8540250478,
+    7.8480925412,
+    7.4662823984,
+    9.0192786247,
+    8.274436021,
+    8.1581011966,
+    8.4794779616,
+    8.0389982942
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
