@@ -1,0 +1,15 @@
+{
+ "dissociation": {
+  "K_peak": 2.0,
+  "at_peak": {
+   "pci_like": 0.723302881,
+   "response_fraction": 0.6379166667,
+   "spont_lz": 0.4070446775
+  },
+  "reduced": {
+   "pci_like": 0.5158921447,
+   "response_fraction": 0.4158333333,
+   "spont_lz": 0.5614409345
+  }
+ }
+}
