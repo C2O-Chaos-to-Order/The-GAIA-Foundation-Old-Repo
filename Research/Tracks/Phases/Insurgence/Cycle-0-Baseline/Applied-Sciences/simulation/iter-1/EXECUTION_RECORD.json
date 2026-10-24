@@ -1,0 +1,154 @@
+{
+ "sim_id": "SIM-IN-APP-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:00:01.624248+00:00",
+ "finished_utc": "2026-10-24T17:00:01.777744+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "ca85c480ea2e1a47cc39310dbeed4f364cab28b9f1558fe2f8fd6a40ef7ee005",
+ "params_sha256": "0b9df5b2e44ba174f55bbefdd3dca146f44aa4e7e66d2f621453f25f4c6fe58f",
+ "results_sha256": "70c60addfa5ab86d80c47e05da21323085a78f0d83581c634e79ef2a6f050896",
+ "results": {
+  "0.8": {
+   "p_major": 0.0,
+   "se": 1e-08,
+   "analytic": 0.0,
+   "mean_generations_to_K": null,
+   "days_to_K": {
+    "3": null,
+    "15": null
+   }
+  },
+  "1.5": {
+   "p_major": 0.5814,
+   "se": 0.00348837,
+   "analytic": 0.58281164,
+   "mean_generations_to_K": 14.57696938,
+   "days_to_K": {
+    "3": 43.73090815,
+    "15": 218.65454076
+   }
+  },
+  "3.0": {
+   "p_major": 0.9406,
+   "se": 0.0016714,
+   "analytic": 0.94047979,
+   "mean_generations_to_K": 6.5879226,
+   "days_to_K": {
+    "3": 19.76376781,
+    "15": 98.81883904
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "major-outbreak share within 4 SE (+0.002) of 1 - q",
+   "observed": {
+    "0.8": {
+     "p_major": 0.0,
+     "se": 1e-08,
+     "analytic": 0.0,
+     "mean_generations_to_K": null,
+     "days_to_K": {
+      "3": null,
+      "15": null
+     }
+    },
+    "1.5": {
+     "p_major": 0.5814,
+     "se": 0.00348837,
+     "analytic": 0.58281164,
+     "mean_generations_to_K": 14.57696938,
+     "days_to_K": {
+      "3": 43.73090815,
+      "15": 218.65454076
+     }
+    },
+    "3.0": {
+     "p_major": 0.9406,
+     "se": 0.0016714,
+     "analytic": 0.94047979,
+     "mean_generations_to_K": 6.5879226,
+     "days_to_K": {
+      "3": 19.76376781,
+      "15": 98.81883904
+     }
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no major outbreak when R0 < 1",
+   "observed": {
+    "0.8": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "same R0, different generation time: same outbreak probability, calendar time scales by 15/3",
+   "observed": {
+    "3": 43.73090815,
+    "15": 218.65454076
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.8": {
+     "p_major": 0.0,
+     "se": 1e-08,
+     "analytic": 0.0,
+     "mean_generations_to_K": null,
+     "days_to_K": {
+      "3": null,
+      "15": null
+     }
+    },
+    "1.5": {
+     "p_major": 0.5814,
+     "se": 0.00348837,
+     "analytic": 0.58281164,
+     "mean_generations_to_K": 14.57696938,
+     "days_to_K": {
+      "3": 43.73090815,
+      "15": 218.65454076
+     }
+    },
+    "3.0": {
+     "p_major": 0.9406,
+     "se": 0.0016714,
+     "analytic": 0.94047979,
+     "mean_generations_to_K": 6.5879226,
+     "days_to_K": {
+      "3": 19.76376781,
+      "15": 98.81883904
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
