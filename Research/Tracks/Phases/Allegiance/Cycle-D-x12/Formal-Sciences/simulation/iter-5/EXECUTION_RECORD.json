@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-AL-FOR-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:47:51.069825+00:00",
+ "finished_utc": "2026-10-24T19:47:51.077016+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-5  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "4f48b9fdfcc96a56be413a1bd1d6182f2e55d1e95cbefd412bd9a8de29517d43",
+ "params_sha256": "cdfebe56d105ece6cac531e4c4841b9ac2371194504bf55037d801796144f202",
+ "results_sha256": "65d3e5c6e3043ee8ede764426815f713ee67b99a045de185bbcf3efbcef21b36",
+ "results": {
+  "N3_w0.0001": {
+   "N": 3,
+   "w": 0.0001,
+   "Nw": 0.0003,
+   "a_crit": 9.00150023,
+   "x_crit": 0.22218519,
+   "a_eq4": 9.0,
+   "x_eq4": 0.22222222
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral rho = 1/N (1e-12) and P58 Eq. B.1 equals a direct absorption solve (1e-10) at N = 10",
+   "observed": {
+    "neutral": 0.1,
+    "inv_N": 0.1,
+    "B1": 0.04431597,
+    "direct": 0.04431597
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Nw < 0.1: exact critical x* within 0.01 of P58 Eq. 4",
+   "observed": {
+    "N3_w0.0001": {
+     "N": 3,
+     "w": 0.0001,
+     "Nw": 0.0003,
+     "a_crit": 9.00150023,
+     "x_crit": 0.22218519,
+     "a_eq4": 9.0,
+     "x_eq4": 0.22222222
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "N3_w0.0001": {
+     "N": 3,
+     "w": 0.0001,
+     "Nw": 0.0003,
+     "a_crit": 9.00150023,
+     "x_crit": 0.22218519,
+     "a_eq4": 9.0,
+     "x_eq4": 0.22222222
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
