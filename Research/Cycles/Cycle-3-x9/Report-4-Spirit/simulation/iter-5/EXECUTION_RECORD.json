@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:58.391714+00:00",
+ "finished_utc": "2026-10-24T03:06:58.391958+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-5",
+ "params_sha256": "2c66580e8f2fbbd043496cf1d900ccd3cb97f143a8086b2ddef4df1c8f49a8b8",
+ "outputs": {
+  "outputs/results.json": "dfc77ef9ce8ee28970bcfc97820829c747144617676dff8b0611c4c21e3398b1"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "at least one pre-declared 'healthy attender' scenario (residual poor health, beyond adjustment) alone produces an RR as low as S12's",
+   "observed": [
+    0.9167,
+    0.8364,
+    0.7857,
+    0.75
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
