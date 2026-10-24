@@ -1,0 +1,96 @@
+{
+  "sim_id": "SIM-R2-C0",
+  "status": "executed",
+  "started_utc": "2026-10-23T23:49:42.754252+00:00",
+  "finished_utc": "2026-10-23T23:49:42.756028+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "command": "sim_mind.py",
+  "params": {
+    "rw": {
+      "alpha": 0.3,
+      "beta": 1.0,
+      "lambda": 1.0,
+      "n_pre": 20,
+      "n_comp": 20
+    },
+    "forgetting": {
+      "hours": [
+        0.3333333,
+        1,
+        9,
+        24,
+        48,
+        144,
+        744
+      ],
+      "ebbinghaus": [
+        0.582,
+        0.442,
+        0.358,
+        0.337,
+        0.278,
+        0.254,
+        0.211
+      ],
+      "dros": [
+        0.472,
+        0.373,
+        0.276,
+        0.317,
+        0.23,
+        0.168,
+        0.041
+      ],
+      "source": "S04 Table 3 (Murre & Dros 2015, PLoS ONE 10(7):e0120644)"
+    }
+  },
+  "outputs": {
+    "outputs/results.json": "486c19d3fa29d2d99b2442c36f5931afe7ae3cb1659accfde7de587e68f98c3a"
+  },
+  "pre_registered_checks": [
+    {
+      "id": "E1",
+      "expect": "V_X blocking < 0.1*V_X control",
+      "observed": [
+        0.00039896132710136594,
+        0.49999999450244187
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E2",
+      "expect": "sum V on AX -> lambda",
+      "observed": [
+        0.9999999999912268,
+        0.9999999890048837
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E3",
+      "expect": "Ebbinghaus: power or log AIC < exponential AIC",
+      "observed": {
+        "exponential": -29.552,
+        "power": -50.659,
+        "log": -45.073
+      },
+      "result": "Pass"
+    },
+    {
+      "id": "E4",
+      "expect": "Dros: report only",
+      "observed": {
+        "exponential": -37.279,
+        "power": -38.441,
+        "log": -43.385
+      },
+      "result": "Pass"
+    }
+  ],
+  "all_checks_passed": true
+}
