@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-SOUL-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:59.833115+00:00",
+ "finished_utc": "2026-10-24T06:11:00.008506+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-7  (run from Soul/simulation/)",
+ "spec_sha256": "7787138f9f739aaad9676ef7f6eddcad96c4adae7a96423d4d9c20a9a2652e6b",
+ "params_sha256": "8e963df1c2d50181afb6d42a564b568a561c4901f5e9fe5fd20c03042e8a1cb9",
+ "results_sha256": "074c68fa009a7e9734d56eaab73b38890df7d8cf7f9244f1d903f92063eddb2d",
+ "results": {
+  "power": {
+   "n=15,d=0.5": 0.07180424,
+   "n=15,d=0.8": 0.30763654,
+   "n=20,d=0.5": 0.13049226,
+   "n=20,d=0.8": 0.51696262,
+   "n=30,d=0.5": 0.28318594,
+   "n=30,d=0.8": 0.8231903,
+   "n=40,d=0.5": 0.45210633,
+   "n=40,d=0.8": 0.95099999,
+   "n=60,d=0.5": 0.73422765,
+   "n=60,d=0.8": 0.99781709
+  },
+  "power_mc": 0.82226
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Monte Carlo power within 0.01 of the noncentral-t value",
+   "observed": [
+    0.82226,
+    0.8231903
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "n=30,d=0.8, alpha 0.001: power < 0.5, so a non-significant region is weak evidence of no activation",
+   "observed": 0.8231903,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "power grid",
+   "observed": {
+    "n=15,d=0.5": 0.072,
+    "n=15,d=0.8": 0.308,
+    "n=20,d=0.5": 0.13,
+    "n=20,d=0.8": 0.517,
+    "n=30,d=0.5": 0.283,
+    "n=30,d=0.8": 0.823,
+    "n=40,d=0.5": 0.452,
+    "n=40,d=0.8": 0.951,
+    "n=60,d=0.5": 0.734,
+    "n=60,d=0.8": 0.998
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,60 @@
+{
+ "sim_id": "SIM-SOUL-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:01.204535+00:00",
+ "finished_utc": "2026-10-24T06:11:01.362893+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-9  (run from Soul/simulation/)",
+ "spec_sha256": "625d0cd22fb65e7fb2b2c66a5edc628ae69ea043615948bacc6e7dfe3feafc89",
+ "params_sha256": "d3fa9e87cc1bc562ea853e7b2385d4981e7a8f66179f2e4358574284b4a18299",
+ "results_sha256": "47c3f51fa414c84162c19c5744032ef9888d789d3cc3ea733a18edb11480501c",
+ "results": {
+  "share_any": 0.80089,
+  "share_feature1": 0.63484,
+  "null_share_any": 0.54314,
+  "normal_approx": 0.53771832
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "null share with any difference >= delta within 0.05 of a normal-approximation value (discreteness tolerance)",
+   "observed": [
+    0.54314,
+    0.53771832
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with true shift 0.2 on feature 1: P(at least one feature 'descriptively higher' by >= 0.15) >= 0.5",
+   "observed": 0.80089,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share with feature 1 >= delta; null share any",
+   "observed": [
+    0.63484,
+    0.54314
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

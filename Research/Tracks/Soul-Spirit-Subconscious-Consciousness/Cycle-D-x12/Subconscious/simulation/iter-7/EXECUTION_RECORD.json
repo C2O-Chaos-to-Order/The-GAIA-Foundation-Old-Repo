@@ -1,0 +1,56 @@
+{
+ "sim_id": "SIM-SUBC-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:28.507172+00:00",
+ "finished_utc": "2026-10-24T07:05:28.594143+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-7  (run from Subconscious/simulation/)",
+ "spec_sha256": "5ce5057f260c8e5b273491d3e5e8855ad7b1ec7427324aedddc0efc8f69ab3f2",
+ "params_sha256": "39abbc1ceec691ffebdaedbf4815d310ca831c09a21a6d8f6aa06f027ea5d536",
+ "results_sha256": "2f407ea92727a20184bf4ac111dc5ecfd8a42b3fae2c7c25f752c9c901910f74",
+ "results": {
+  "r": 0.05119347,
+  "ratio": 1.20458892
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with no shift the outcome-rate ratio is within 0.03 of 1",
+   "observed": 1.00160929,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a shift corresponding to r = 0.05 yields an outcome-rate ratio >= 1.2 at top 10% selection",
+   "observed": 1.20458892,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "point-biserial r; outcome-rate ratio; share of variance",
+   "observed": [
+    0.05119347,
+    1.20458892,
+    0.00262077
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

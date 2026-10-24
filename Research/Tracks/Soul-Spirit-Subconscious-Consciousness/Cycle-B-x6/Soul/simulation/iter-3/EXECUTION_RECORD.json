@@ -1,0 +1,87 @@
+{
+ "sim_id": "SIM-SOUL-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:42:56.599200+00:00",
+ "finished_utc": "2026-10-24T05:42:59.678445+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-3  (run from Soul/simulation/)",
+ "spec_sha256": "c1eb030af90c070770e661e20443662acd03367e71d302885424c5c6f8134b05",
+ "params_sha256": "0cb2520e82a6856039de7500095b7286e844f187d27b39bc2fa8f2c6e07cc45c",
+ "results_sha256": "2123cb67393e3172720fc8f1723aca7d396e346437d930b7e8fd4ed8ca8a6bd9",
+ "results": {
+  "by_a": {
+   "0.0": {
+    "rate_significant_positive": 0.0,
+    "mean_implicit_rejecters": -0.32219845,
+    "analytic_mean": -0.32195211
+   },
+   "0.1": {
+    "rate_significant_positive": 0.00066667,
+    "mean_implicit_rejecters": -0.22284802,
+    "analytic_mean": -0.22195211
+   },
+   "0.3": {
+    "rate_significant_positive": 0.03866667,
+    "mean_implicit_rejecters": -0.02516079,
+    "analytic_mean": -0.02195211
+   }
+  },
+  "E_D_given_reject": -0.64390422
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated mean implicit score of rejecters within 0.02 of analytic a + g E[D | D <= t] (a = 0)",
+   "observed": [
+    -0.32219845,
+    -0.32195211
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with no belief-independent component (a = 0), explicit rejecters show a significantly POSITIVE implicit dualism score in >= 50% of studies",
+   "observed": 0.0,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "rate and mean by baseline a",
+   "observed": {
+    "0.0": {
+     "rate_significant_positive": 0.0,
+     "mean_implicit_rejecters": -0.32219845,
+     "analytic_mean": -0.32195211
+    },
+    "0.1": {
+     "rate_significant_positive": 0.00066667,
+     "mean_implicit_rejecters": -0.22284802,
+     "analytic_mean": -0.22195211
+    },
+    "0.3": {
+     "rate_significant_positive": 0.03866667,
+     "mean_implicit_rejecters": -0.02516079,
+     "analytic_mean": -0.02195211
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

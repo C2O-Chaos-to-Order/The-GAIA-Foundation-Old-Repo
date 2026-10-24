@@ -4,7 +4,7 @@ from gaia_tools import validate as V, __version__, DATA_MODEL_VERSION
 
 
 def test_versions():
-    assert __version__ == "0.4.0" and DATA_MODEL_VERSION == "1.3.0"
+    assert tuple(map(int, __version__.split("."))) >= (0, 4, 0) and tuple(map(int, DATA_MODEL_VERSION.split("."))) >= (1, 3, 0)
 
 
 def test_y_prefix_source_ids():

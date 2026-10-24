@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:15.221782+00:00",
+ "finished_utc": "2026-10-24T07:05:15.257179+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-4  (run from Spirit/simulation/)",
+ "spec_sha256": "fe01a1531b1d3f107522b37d30aed7307bb1f2b571dd2d4a43234d0efa5132af",
+ "params_sha256": "dc3b31e394596a1cddf94a13397475f1b713b73b81dba7a98caf29481a83e547",
+ "results_sha256": "856b7f4c866581ea5a356cc6776d2ee4219c810567c3a37ec8021dfd513a594c",
+ "results": {
+  "psilocybin": {
+   "bi": 0.88235294,
+   "lo": 0.64705882,
+   "hi": 1.0
+  },
+  "niacin": {
+   "bi": 1.0,
+   "lo": 1.0,
+   "hi": 1.0
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "under random guessing (p = .5, n = 40) the mean simulated BI is within 0.01 of 0",
+   "observed": 0.00018225,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "BI >= 0.8 in every arm (blinding essentially failed)",
+   "observed": {
+    "psilocybin": 0.88235294,
+    "niacin": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "BI and bootstrap interval per arm",
+   "observed": {
+    "psilocybin": {
+     "bi": 0.88235294,
+     "lo": 0.64705882,
+     "hi": 1.0
+    },
+    "niacin": {
+     "bi": 1.0,
+     "lo": 1.0,
+     "hi": 1.0
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,78 @@
+{
+ "sim_id": "SIM-SPIRIT-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:16.071498+00:00",
+ "finished_utc": "2026-10-24T06:11:16.291574+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-6  (run from Spirit/simulation/)",
+ "spec_sha256": "abbddd312cfc542f3c397c52df0fc8f8e39f7e313262b1757bf84c281279b113",
+ "params_sha256": "8b4a6d79aefef412f33bd7e82d91c6c72c0ee0989a50e627d21f323830fae33b",
+ "results_sha256": "664752379d917acdeee04bb27e76c0b426c607734ef58fa92ef0bcd828a4a04c",
+ "results": {
+  "by_m": {
+   "0.0": {
+    "mean_r_completers": 0.19934497,
+    "retention": 0.57929969
+   },
+   "1.0": {
+    "mean_r_completers": 0.18524033,
+    "retention": 0.5792156
+   },
+   "2.0": {
+    "mean_r_completers": 0.16372561,
+    "retention": 0.57951529
+   }
+  },
+  "bias_test": -0.03627439
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "random dropout (m = 0): completer correlation within 0.01 of the true value",
+   "observed": 0.19934497,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "outcome-dependent dropout (m = 2.0) shifts the correlation by >= 0.05 in absolute value",
+   "observed": -0.03627439,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "completer correlation and retention by m",
+   "observed": {
+    "0.0": {
+     "mean_r_completers": 0.19934497,
+     "retention": 0.57929969
+    },
+    "1.0": {
+     "mean_r_completers": 0.18524033,
+     "retention": 0.5792156
+    },
+    "2.0": {
+     "mean_r_completers": 0.16372561,
+     "retention": 0.57951529
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

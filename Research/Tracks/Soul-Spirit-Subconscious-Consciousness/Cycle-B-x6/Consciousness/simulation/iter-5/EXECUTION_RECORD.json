@@ -1,0 +1,66 @@
+{
+ "sim_id": "SIM-CONS-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:41.086552+00:00",
+ "finished_utc": "2026-10-24T05:43:41.089518+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-5  (run from Consciousness/simulation/)",
+ "spec_sha256": "a6f9962855e70740deb57a1a6f344be0939af17455192e6e07c2933fdbf0e82c",
+ "params_sha256": "e07a50d310994bbaf72e8217310c1ac97f8b2db398ad4d1a42b65c3c7ab8955e",
+ "results_sha256": "cdbf8db337bf99f79344534d7442b8475567063e62146888ee007e281e74e264",
+ "results": {
+  "conditions": {
+   "report": {
+    "contrast": 1.49377605,
+    "share_visible": 0.50205,
+    "visible_trials_above_tau": 0.91245892,
+    "invisible_trials_above_tau": 0.05713425
+   },
+   "no_report": {
+    "contrast": 1.0000887,
+    "share_visible": 0.5062,
+    "visible_trials_above_tau": 0.65359542,
+    "invisible_trials_above_tau": 0.05801944
+   }
+  },
+  "reduction_of_contrast": 0.33049623,
+  "contrast_g0": -3.63e-05
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "g = 0 and no report: PFC contrast within 0.05 of 0",
+   "observed": -3.63e-05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "removing report reduces the visible-invisible PFC contrast by >= 50%",
+   "observed": 0.33049623,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "without report, >= 80% of visible trials still exceed the reportability threshold tau",
+   "observed": 0.65359542,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

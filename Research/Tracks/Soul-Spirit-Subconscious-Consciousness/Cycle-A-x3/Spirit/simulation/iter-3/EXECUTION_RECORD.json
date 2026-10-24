@@ -1,0 +1,59 @@
+{
+ "sim_id": "SIM-SPIRIT-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:18:04.832521+00:00",
+ "finished_utc": "2026-10-24T05:18:17.591719+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-3  (run from Spirit/simulation/)",
+ "spec_sha256": "f37dd6f4ecc309598a94500750222f7ff466c8627f20b3921380ee2954901673",
+ "params_sha256": "eea6e5bfb0cfa761f92ef67024e65527b15396dfd90f26b0ec3f943a11217280",
+ "results_sha256": "6454d1bf7e1f5bff5f63e55bb8c42b90347e5404139b04a6b45469562438a444",
+ "results": {
+  "familywise_rate_by_r": {
+   "0.0": 0.18083333,
+   "0.3": 0.17466667,
+   "0.6": 0.1395
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "r = 0: family-wise rate within 0.015 of 1 - 0.95^4 = 0.1855",
+   "observed": 0.18083333,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at r = 0.3 the family-wise false-positive rate still exceeds 0.15",
+   "observed": 0.17466667,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "family-wise rate by correlation",
+   "observed": {
+    "0.0": 0.18083333,
+    "0.3": 0.17466667,
+    "0.6": 0.1395
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

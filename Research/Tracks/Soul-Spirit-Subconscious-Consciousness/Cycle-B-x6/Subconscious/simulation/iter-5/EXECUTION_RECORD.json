@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-SUBC-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:33.364686+00:00",
+ "finished_utc": "2026-10-24T05:43:33.382786+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-5  (run from Subconscious/simulation/)",
+ "spec_sha256": "1cc191fbc43f740c221e6a94e693f9d94a4208544a115ee9e3c5e04f7ca82da4",
+ "params_sha256": "31164351c5af197dc08dd1085858d2c37d657d6e070dddad6603cfc41efe974b",
+ "results_sha256": "9d5d91f5b666586153632f6321b0fb37493fe2213c379245a19c3e04052e98f8",
+ "results": {
+  "by_d": {
+   "0.0": {
+    "accuracy_unseen": 0.5,
+    "share_unseen": 0.68268949
+   },
+   "0.5": {
+    "accuracy_unseen": 0.55723563,
+    "share_unseen": 0.66772287
+   },
+   "1.0": {
+    "accuracy_unseen": 0.61301801,
+    "share_unseen": 0.62465526
+   },
+   "1.5": {
+    "accuracy_unseen": 0.66603573,
+    "share_unseen": 0.55864717
+   }
+  },
+  "simulated_accuracy_unseen": 0.61270463
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "d' = 0: accuracy on unseen trials = 0.5 (analytic)",
+   "observed": 0.5,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "simulated unseen accuracy at d' = 1.0 within 0.01 of analytic",
+   "observed": [
+    0.61270463,
+    0.61301801
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "d' = 1.0, criterion 1.0: accuracy on subjectively 'unseen' trials >= 0.55 (would be read as unconscious perception)",
+   "observed": 0.61301801,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share of trials reported unseen by d'",
+   "observed": {
+    "0.0": 0.683,
+    "0.5": 0.668,
+    "1.0": 0.625,
+    "1.5": 0.559
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

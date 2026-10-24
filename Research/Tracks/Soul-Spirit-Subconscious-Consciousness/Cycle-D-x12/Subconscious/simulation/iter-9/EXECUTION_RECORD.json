@@ -1,0 +1,59 @@
+{
+ "sim_id": "SIM-SUBC-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:29.839702+00:00",
+ "finished_utc": "2026-10-24T07:05:30.380277+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-9  (run from Subconscious/simulation/)",
+ "spec_sha256": "fa070e53bf13a09e0f9831bcf15538d38c751da19614ad50a0de2441a32011d7",
+ "params_sha256": "12a361425b1982c6be5b258165449fc6a104da55c981a464e35852385bc5ee72",
+ "results_sha256": "29925830bd7a0ca1149fd31e8b43c8c78833c34b025634e549da6410b2b8d997",
+ "results": {
+  "r_individual": 0.05538841,
+  "r_state": 0.48096344
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "individual-level r within 0.01 of b / sqrt(b^2 + 1 + state_noise^2)",
+   "observed": [
+    0.05538841,
+    0.0496904
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "state-level r >= 0.6 although the individual-level r is about 0.06",
+   "observed": 0.48096344,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "individual r, state-level r, one null draw",
+   "observed": [
+    0.05538841,
+    0.48096344,
+    0.03922816
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

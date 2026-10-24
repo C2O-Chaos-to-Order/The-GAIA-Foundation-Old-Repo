@@ -1,0 +1,63 @@
+{
+ "sim_id": "SIM-SOUL-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:09.887616+00:00",
+ "finished_utc": "2026-10-24T07:05:09.903938+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-9  (run from Soul/simulation/)",
+ "spec_sha256": "d477215e4d9a0598888eee28e5db5a100ddd37faaf10dae41fdd8d1d8ee69d5a",
+ "params_sha256": "1467ef8bee566272328142537c57328b67512cd688721423b71106435191103e",
+ "results_sha256": "3aaa32ef0b1067cfc0baaed2e72a8a7ac76c7e9a3fc17514bb9c72da01a60cec",
+ "results": {
+  "z": -0.69261381,
+  "p": 0.48855194
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated z within 0.02 of the analytic z",
+   "observed": [
+    -0.69077466,
+    -0.69261381
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the difference between the two slopes is not significant at .05 (|z| < 1.96)",
+   "observed": [
+    -0.69261381,
+    0.48855194
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "z, p, SEs",
+   "observed": [
+    -0.69261381,
+    0.48855194,
+    0.07908309,
+    0.08418522
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

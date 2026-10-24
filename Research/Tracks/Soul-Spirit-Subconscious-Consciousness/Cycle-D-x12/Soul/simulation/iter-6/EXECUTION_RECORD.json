@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-SOUL-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:07.855809+00:00",
+ "finished_utc": "2026-10-24T07:05:07.861869+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-6  (run from Soul/simulation/)",
+ "spec_sha256": "d6033b3e6467e7af9bf048c8b6fadee48ea9670eb87053f94b55ba9734f87cc8",
+ "params_sha256": "eee42021d2b9bd5b4231df87e1ff671765bc256c2a78a9b8ed5d6012f842617d",
+ "results_sha256": "4a42c1dcf95eb0639ef3eb81c17873f682a79017725597165e6728423583aa2f",
+ "results": {
+  "per_arrest": 0.0002,
+  "n_for_power": 8047
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated P(>=1 testable case) at N = 8047 within 0.01 of 0.8",
+   "observed": 0.799775,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N needed for 80% chance of >= 1 testable case is >= 1000 arrests",
+   "observed": 8047,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "per-arrest probability of a testable case; N for 80%",
+   "observed": [
+    0.0002,
+    8047
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

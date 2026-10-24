@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-SUBC-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:27.693316+00:00",
+ "finished_utc": "2026-10-24T05:43:27.730083+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-2  (run from Subconscious/simulation/)",
+ "spec_sha256": "5a3a83dbd6716ca45ad18228c48b8b75bcb88be443741682e6fb7ea95a188cb5",
+ "params_sha256": "13a3e4374fde43201cd46ee8bf0cc8057097b1a7507eb264c7cefd433491febb",
+ "results_sha256": "1c63295368a1b9fa6ef00612714e5636ba44c7c30f5b943a1c1ec391ebbe2ef6",
+ "results": {
+  "se": 0.05102041,
+  "tau": 0.27852891,
+  "share_true_effect_le_0": 0.12529999,
+  "simulated_share": 0.1253605,
+  "share_true_effect_ge_0_2": 0.66670582
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated share within 0.005 of analytic",
+   "observed": [
+    0.12529999,
+    0.1253605
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the published interval implies that >= 10% of settings have a true priming effect <= 0",
+   "observed": 0.12529999,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "implied between-setting SD tau",
+   "observed": 0.27852891,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,71 @@
+{
+ "sim_id": "SIM-CONS-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:41.654199+00:00",
+ "finished_utc": "2026-10-24T05:43:42.286233+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-6  (run from Consciousness/simulation/)",
+ "spec_sha256": "024997d04ef116a0115398922e4711b0990b1db43b219d85d0b73fa71ee0efee",
+ "params_sha256": "c9a1a5e6d917856c61c611b2aa389da3378efc3bcca716104d4a35bb704cb231",
+ "results_sha256": "f93fabec9b4fd0d2fbe75f18d79f591b15dea3f15309da09ccad5c1ad067a66f",
+ "results": {
+  "kaiser_counts": [
+   44,
+   45,
+   44,
+   44,
+   44,
+   45,
+   45,
+   43,
+   43,
+   43,
+   44,
+   43
+  ],
+  "parallel_counts": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "parallel analysis retains 0 factors in >= 90% of replications",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Kaiser rule retains >= 10 spurious factors (mean) with ordinal items",
+   "observed": 43.91666667,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-SPIRIT-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:05.817282+00:00",
+ "finished_utc": "2026-10-24T05:43:06.818905+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-2  (run from Spirit/simulation/)",
+ "spec_sha256": "94e8962713a4c5860f7fba8ceb516917c4e0dd4d0dc8efe417fdab3afb0c90a9",
+ "params_sha256": "95da273805e755f44089767f6b3f2206cad2cbd33ca9f8612c2cc0fd8e2e208a",
+ "results_sha256": "514df751f127d4f5ec41969903f95bd61ff58c9d45cf035dd2dc00ebc163711a",
+ "results": {
+  "by_tau": {
+   "0.0": {
+    "dl_coverage": 0.964,
+    "hk_coverage": 0.95575
+   },
+   "0.2": {
+    "dl_coverage": 0.91725,
+    "hk_coverage": 0.94325
+   },
+   "0.4": {
+    "dl_coverage": 0.907,
+    "hk_coverage": 0.9485
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "tau = 0: DL coverage >= 0.93",
+   "observed": 0.964,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "tau = 0.4, k = 8: DL 95% CI coverage < 0.90",
+   "observed": 0.907,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "coverage by tau",
+   "observed": {
+    "0.0": {
+     "dl_coverage": 0.964,
+     "hk_coverage": 0.95575
+    },
+    "0.2": {
+     "dl_coverage": 0.91725,
+     "hk_coverage": 0.94325
+    },
+    "0.4": {
+     "dl_coverage": 0.907,
+     "hk_coverage": 0.9485
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,66 @@
+{
+ "sim_id": "SIM-SUBC-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:30.021392+00:00",
+ "finished_utc": "2026-10-24T06:10:36.134087+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-4  (run from Subconscious/simulation/)",
+ "spec_sha256": "413523dec30a22ab6c2bab7bfa9b6f69ff5825f5c516789395e678391144a564",
+ "params_sha256": "fd74802f19fbaaf2bbe5bc238bfec5d97a5d5be75ac2aaddb1ba6c17156cda35",
+ "results_sha256": "84176be731ab72f0015bf9b721870dcdf368c9236081d864dcd73993b803e390",
+ "results": {
+  "power_analytic": 0.14198578,
+  "power_mc": 0.1373,
+  "by_n": {
+   "38": 0.14198578,
+   "44": 0.15694066,
+   "100": 0.29666504,
+   "200": 0.52203534
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Monte Carlo power within 0.03 of the analytic normal approximation (t vs z and sampled x)",
+   "observed": [
+    0.1373,
+    0.14198578
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "power to detect a true slope of 0.65 with this precision is < 0.5",
+   "observed": 0.14198578,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "analytic power if more countries had data (same per-country precision)",
+   "observed": {
+    "38": 0.14198578,
+    "44": 0.15694066,
+    "100": 0.29666504,
+    "200": 0.52203534
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

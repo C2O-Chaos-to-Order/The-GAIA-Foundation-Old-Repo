@@ -1,0 +1,689 @@
+{
+ "track_cycle": "TC",
+ "checked_utc": "2026-10-24T06:20:34+00:00",
+ "summary": {
+  "Pass": 96,
+  "Indeterminate": 1
+ },
+ "checks": [
+  {
+   "claim_id": "TC-SOUL-01",
+   "source_id": "K01",
+   "phrase": "the modal response was to indicate that both mental and physical states would cease to exist",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-01",
+   "source_id": "K01",
+   "phrase": "intuitive materialism",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-02",
+   "source_id": "K01",
+   "phrase": "could not be replicated in a high-powered replication study",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-02",
+   "source_id": "K01",
+   "phrase": "three out of the 13 countries",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-03",
+   "source_id": "K01",
+   "phrase": "appears robust, even though reported effect sizes are small",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-04",
+   "source_id": "K03",
+   "phrase": "63.62% agreed or strongly agreed with reductive physicalism, 36.68% with dualism",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-04",
+   "source_id": "K03",
+   "phrase": "17.52% agreed or strongly agreed",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-06",
+   "source_id": "K02",
+   "phrase": "mentioned some kind of annihilation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-06",
+   "source_id": "K02",
+   "phrase": "endorsed some kind of continuity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-07",
+   "source_id": "K02",
+   "phrase": "Cohen’s kappa = .79",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-09",
+   "source_id": "U13",
+   "phrase": "We can define two notions, psychological connectedness and psychological continuity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-11",
+   "source_id": "K15",
+   "phrase": "Remarkably, this was the case even in participants who explicitly rejected Dualism",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-11",
+   "source_id": "K15",
+   "phrase": "Dualism, then, is an implicit bias that persists despite explicit attitudes to the contrary",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-13",
+   "source_id": "K16",
+   "phrase": "Of these patients, 34% experienced ELEs",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-13",
+   "source_id": "K16",
+   "phrase": "The majority of ELEs involved deceased loved ones (52%)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-15",
+   "source_id": "K17",
+   "phrase": "we were unable to replicate basic patterns of the dependent variable in the MS conditions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-15",
+   "source_id": "K17",
+   "phrase": "did not significantly differ from zero",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-16",
+   "source_id": "K18",
+   "phrase": "revealed a small-to-medium effect of g = 0.34",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-16",
+   "source_id": "K18",
+   "phrase": "in several cases reducing the effect to nonsignificance",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-20",
+   "source_id": "K37",
+   "phrase": "including 15% to 17% of critically ill, hospitalized patients",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-20",
+   "source_id": "K37",
+   "phrase": "Near-death experiences should not be pathologized",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-21",
+   "source_id": "K37",
+   "phrase": "current biomedical models cannot fully account for all observed phenomena",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-22",
+   "source_id": "K38",
+   "phrase": "No activation was found in primary sensorimotor or limbic areas",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-22",
+   "source_id": "K38",
+   "phrase": "The observed activation patterns were not consistent with those typically reported for primary sensory hallucinations",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-24",
+   "source_id": "K46",
+   "phrase": "Chinese cultural motifs were infrequent overall, occurring in four of 23 NDE narratives and one of 25 NDE-like narratives",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SOUL-24",
+   "source_id": "K46",
+   "phrase": "the findings should be considered preliminary and hypothesis-generating",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-01",
+   "source_id": "K04",
+   "phrase": "280 English PES measurements",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-01",
+   "source_id": "K04",
+   "phrase": "acceptable to good model fits",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-02",
+   "source_id": "K05",
+   "phrase": "2.5 times the original sample sizes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-02",
+   "source_id": "K05",
+   "phrase": "past findings also were not reproduced",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-04",
+   "source_id": "K06",
+   "phrase": "overlapped in 63% of the elements of the awe expression",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-07",
+   "source_id": "S15",
+   "phrase": "excludes paranormal experiences",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-09",
+   "source_id": "K19",
+   "phrase": "documented a significant protective association of 13%",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-09",
+   "source_id": "K19",
+   "phrase": "RR, 0.87; 95% CI, 0.84-0.91",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-11",
+   "source_id": "K20",
+   "phrase": "Cohen’s d = 0.70; 95% confidence interval [0.42, 0.97]",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-11",
+   "source_id": "K20",
+   "phrase": "limitations include a small number of studies, potential publication bias, and high heterogeneity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-14",
+   "source_id": "K21",
+   "phrase": "(1) Faith and Spirituality, which focuses on the role of churches",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-14",
+   "source_id": "K21",
+   "phrase": "healing is an embodied, collective, and action‐oriented praxis",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-17",
+   "source_id": "K39",
+   "phrase": "current clinical trials have found strong correlations between the acute subjective effects",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-17",
+   "source_id": "K39",
+   "phrase": "have cast doubt on the necessity of ASE for the sustained therapeutic",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-19",
+   "source_id": "K40",
+   "phrase": "Most scales revealed a sigmoid-like increase of effects, with a plateauing at around 100",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-19",
+   "source_id": "K40",
+   "phrase": "points to the role of non-pharmacological factors in shaping subjective experiences",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-21",
+   "source_id": "K43",
+   "phrase": "Five of the six subscales of the English MEQ40 show high internal consistency",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-21",
+   "source_id": "K43",
+   "phrase": "visual experience shows acceptable internal consistency",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-23",
+   "source_id": "K45",
+   "phrase": "Mystical and challenging experiences were weakly but positively correlated",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SPIRIT-23",
+   "source_id": "K45",
+   "phrase": "our sample size of 654 at Timepoint 1, and of 379 at Timepoint 3",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-01",
+   "source_id": "K09",
+   "phrase": "median N of all the contrasts included in the meta-analysis",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-01",
+   "source_id": "K09",
+   "phrase": "is around .21",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-03",
+   "source_id": "K08",
+   "phrase": "our first experiment failed to show priming",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-03",
+   "source_id": "K08",
+   "phrase": "only when experimenters believed participants would indeed walk slower",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-05",
+   "source_id": "K10",
+   "phrase": "this memory processing remains in the realm of implicit memory",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-07",
+   "source_id": "K11",
+   "phrase": "Most study participants indicated some degree of belief in repression",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-08",
+   "source_id": "K07",
+   "phrase": "unconscious-and-conscious communication",
+   "http_status": "500",
+   "result": "Indeterminate"
+  },
+  {
+   "claim_id": "TC-SUBC-09",
+   "source_id": "S32",
+   "phrase": "a subliminal form of cognitive awareness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-10",
+   "source_id": "S31",
+   "phrase": "deep sleep",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-10",
+   "source_id": "S31",
+   "phrase": "turiya",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-11",
+   "source_id": "S16",
+   "phrase": "petites perceptions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-13",
+   "source_id": "K22",
+   "phrase": "such an effect being present in the first two experiments only",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-13",
+   "source_id": "K22",
+   "phrase": "sample sizes should have been even larger",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-15",
+   "source_id": "K23",
+   "phrase": "Hedges’ g = 0.32",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-15",
+   "source_id": "K23",
+   "phrase": "subliminal presentations yielded stable and reliable priming effects",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-17",
+   "source_id": "K24",
+   "phrase": "occurs on a nontrivial scale (58%)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-17",
+   "source_id": "K24",
+   "phrase": "dissociative amnesia, which we argue is a substitute term for memory repression",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-18",
+   "source_id": "K25",
+   "phrase": "different measures of awareness (e.g., objective vs. subjective) yield different awareness thresholds",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-24",
+   "source_id": "K33",
+   "phrase": "Strong assumptions (such as independence of the two processes) were necessary and these have generated controversy in the field",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-24",
+   "source_id": "K33",
+   "phrase": "found consistent correlations between estimates of R and F",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-26",
+   "source_id": "K34",
+   "phrase": "current calibration methods are not designed to find the maximal intensity in which the stimulus can still be rendered unconscious",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-26",
+   "source_id": "K34",
+   "phrase": "STEP outperforms existing calibration methods, which yielded strikingly low accuracy",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-28",
+   "source_id": "K35",
+   "phrase": "individuals with stronger free will beliefs were more punitive towards everyday moral transgressions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-28",
+   "source_id": "K35",
+   "phrase": "revealed no significant effect of mean free will belief on citizen endorsement of the death penalty",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-28",
+   "source_id": "K35",
+   "phrase": "this null finding should be interpreted cautiously",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-30",
+   "source_id": "K36",
+   "phrase": "we propose a neuropsychological model of free will as a conditioned illusion",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-30",
+   "source_id": "K36",
+   "phrase": "the hypothesis may be untestable in principle",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-32",
+   "source_id": "K48",
+   "phrase": "above-chance WM performance in cue-present trials reported as unseen (.55 accuracy)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-SUBC-32",
+   "source_id": "K48",
+   "phrase": "These findings suggest that WM can operate on unconscious representations, although it remains positively associated with perceptual sensitivity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-01",
+   "source_id": "K13",
+   "phrase": "does not necessarily contradict cognitive theories of consciousness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-03",
+   "source_id": "K12",
+   "phrase": "showing how they can in fact be tested",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-04",
+   "source_id": "K14",
+   "phrase": "A solution with 12 factors explaining 44% of the total variance",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-06",
+   "source_id": "S31",
+   "phrase": "pure consciousness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-08",
+   "source_id": "K26",
+   "phrase": "Fifty‐six studies with 1248 patients",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-08",
+   "source_id": "K26",
+   "phrase": "CMD is common but varies by etiology and clinical state",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-09",
+   "source_id": "K30",
+   "phrase": "up to one in four patients diagnosed with unresponsive wakefulness syndrome may harbor covert consciousness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-10",
+   "source_id": "K30",
+   "phrase": "the presumption of consciousness should guide clinical care regardless of imaging findings",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-12",
+   "source_id": "K27",
+   "phrase": "could have arisen from purely non-conscious processes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-14",
+   "source_id": "K28",
+   "phrase": "We did not find a significant overall group effect on the presented videos",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-16",
+   "source_id": "K29",
+   "phrase": "This awareness is a unique kind",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-17",
+   "source_id": "K42",
+   "phrase": "These results align with some predictions of IIT and GNWT, while substantially challenging key tenets of both theories",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-17",
+   "source_id": "K42",
+   "phrase": "a lack of sustained synchronization within the posterior cortex contradicts the claim that network connectivity specifies consciousness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-17",
+   "source_id": "K42",
+   "phrase": "GNWT is challenged by the general lack of ignition at stimulus offset",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-18",
+   "source_id": "K41",
+   "phrase": "a theory should be testable in the sense that it can generate falsifiable hypotheses",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-18",
+   "source_id": "K41",
+   "phrase": "Hebbian plasticity remains one of the cornerstone theories in neuroscience",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-20",
+   "source_id": "K32",
+   "phrase": "Dream recall was not associated with intraoperative awareness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-20",
+   "source_id": "K32",
+   "phrase": "Dreams were predominantly pleasant, featuring everyday autobiographical content",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-20",
+   "source_id": "K32",
+   "phrase": "immediate interviews are associated with higher dream recall rates",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-22",
+   "source_id": "K47",
+   "phrase": "Overall, 63% of the participants chose the correct diagnostic category",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-22",
+   "source_id": "K47",
+   "phrase": "A large group of neurologists believed UWS patients could feel pain (73%)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TC-CONS-22",
+   "source_id": "K47",
+   "phrase": "There was no significant difference between the three groups",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

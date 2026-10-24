@@ -1,0 +1,75 @@
+{
+ "sim_id": "SIM-SUBC-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:21.183834+00:00",
+ "finished_utc": "2026-10-24T07:05:23.177481+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-1  (run from Subconscious/simulation/)",
+ "spec_sha256": "5156e1ba2fe609f4ad7c463ddb9e46621e34318b31872b5f6cbf67cfbc1c91b9",
+ "params_sha256": "5799a49ce4e367894f41f71d8d5374a52816cbc77404b85120ef2c1ead1ef614",
+ "results_sha256": "9b2467a239b7c2d195de4c10661951fa1aab322838110c723aaf3469b98660de",
+ "results": {
+  "0.0": {
+   "p_bf01_ge3": 0.897,
+   "p_bf10_ge3": 0.01
+  },
+  "0.2": {
+   "p_bf01_ge3": 0.242,
+   "p_bf10_ge3": 0.402
+  },
+  "0.3": {
+   "p_bf01_ge3": 0.026,
+   "p_bf10_ge3": 0.818
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "JZS BF10 at t = 0, n = 50 + 50 is below 1/3 and above 1/10 (known range for r = .707)",
+   "observed": 0.21083444,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "if the true d were 0.2, BF01 >= 3 would occur in <= 5% of studies (the null result is informative against d >= 0.2)",
+   "observed": 0.242,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "P(BF01>=3), P(BF10>=3) by true d",
+   "observed": {
+    "0.0": {
+     "p_bf01_ge3": 0.897,
+     "p_bf10_ge3": 0.01
+    },
+    "0.2": {
+     "p_bf01_ge3": 0.242,
+     "p_bf10_ge3": 0.402
+    },
+    "0.3": {
+     "p_bf01_ge3": 0.026,
+     "p_bf10_ge3": 0.818
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

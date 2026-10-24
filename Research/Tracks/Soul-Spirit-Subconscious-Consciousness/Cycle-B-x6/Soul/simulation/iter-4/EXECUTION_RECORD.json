@@ -1,0 +1,63 @@
+{
+ "sim_id": "SIM-SOUL-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:00.323410+00:00",
+ "finished_utc": "2026-10-24T05:43:00.419606+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-4  (run from Soul/simulation/)",
+ "spec_sha256": "656f2030fea802eab8b53860a42e2efdc5293cd36ff146e5c0fe95f0b9510508",
+ "params_sha256": "acf0268af487ea9ba6c423ad4f2fdad547a8c1e4a244fa1df4848ece8bb3a247",
+ "results_sha256": "48d7c5ee8c3adb26dc6783e2b6d412d171957aadc8d111a9166b1f7d81bc9860",
+ "results": {
+  "observed_prevalence_full_followup": 0.50064412,
+  "observed_prevalence_partial_followup": 0.42847647,
+  "ratio": 0.85695294,
+  "wilson_ci_reported": [
+   0.24921772,
+   0.4468706
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with complete follow-up to death, observed prevalence within 0.01 of the true prevalence",
+   "observed": [
+    0.50064412,
+    0.5
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with 41% followed to death, observed prevalence < 0.8 x true prevalence",
+   "observed": 0.85695294,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Wilson 95% CI for the reported 29/85",
+   "observed": [
+    0.24921772,
+    0.4468706
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

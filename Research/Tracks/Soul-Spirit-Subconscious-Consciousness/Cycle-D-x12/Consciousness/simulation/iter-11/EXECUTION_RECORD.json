@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-CONS-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:52.693070+00:00",
+ "finished_utc": "2026-10-24T07:05:52.701453+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-11  (run from Consciousness/simulation/)",
+ "spec_sha256": "0a5bc44da88a18cf56585f3ee15a565c8aaa16e8cae844e06d585dab95e7e074",
+ "params_sha256": "d5d32cde10313dd577be85e60c7fd4def2c7610733b10bd5d521e2bacb2093a4",
+ "results_sha256": "2e7a6334d1d2e4561752aa19c3fe44ee2ba1c0d6b5c15a67b5ca711499863111",
+ "results": {
+  "p_all_pass": 0.512,
+  "p_all_pass_sim": 0.511755,
+  "posterior_by_failures": {
+   "0": 0.94990724,
+   "1": 0.67015707,
+   "2": 0.17877095,
+   "3": 0.02279202
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated P(all predictions pass | true theory) within 0.01 of power^m",
+   "observed": [
+    0.511755,
+    0.512
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a TRUE theory tested on 3 critical predictions at power 0.8 fails at least one with probability >= 0.4",
+   "observed": 0.488,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "after 1 failure(s) the posterior that the theory is true stays >= 0.5 (prior 0.5)",
+   "observed": 0.67015707,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "posterior by number of failed predictions",
+   "observed": {
+    "0": 0.94990724,
+    "1": 0.67015707,
+    "2": 0.17877095,
+    "3": 0.02279202
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

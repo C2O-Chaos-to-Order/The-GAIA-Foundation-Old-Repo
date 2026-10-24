@@ -17,3 +17,12 @@ python -m pytest -q tests                 # unit + corpus tests (22; +1 phrase t
 GAIA_RERUN=1 python -m pytest -q tests     # also re-executes every simulation (~1 min)
 ```
 Versions: gaia_tools 0.4.0; data model 1.3.0 (changes in `CHANGELOG.md`); lens rule 1.0.1 (`gaia_tools/lens_rules.json`, provisional).
+
+## Tracks and maps over all work (0.5.0)
+```
+python -m gaia_tools.tracks validate ..                       # all track cycles
+python -m gaia_tools.tracks claimsource .. TA --snapshots DIR  # one track cycle
+python -m gaia_tools.tracks rerun .. TA                        # re-execute and compare hashes
+python -m gaia_tools.maps_all .. ../Maps-and-Matrix/<version> --version-label "..."
+```
+Research tooling only, as before.

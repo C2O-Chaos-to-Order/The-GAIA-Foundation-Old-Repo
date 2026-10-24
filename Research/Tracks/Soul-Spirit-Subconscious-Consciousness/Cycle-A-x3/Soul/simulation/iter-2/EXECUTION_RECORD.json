@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-SOUL-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:18:02.301391+00:00",
+ "finished_utc": "2026-10-24T05:18:02.309283+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-2  (run from Soul/simulation/)",
+ "spec_sha256": "4875cb6ed92af143268e15e912e82a190d7fa54668672fe28c5abffa460ec1e2",
+ "params_sha256": "d50fbf43b9abe554e8b173ca61ba23c67b25fb58fee8c4976ad2c6658f099d83",
+ "results_sha256": "2a30e4694c26442886530338c8316b9c6c1aff863c00554338922a087abd1fa0",
+ "results": {
+  "sum_of_marginals": 2.1887,
+  "pair": [
+   "reductive_physicalism",
+   "dualism"
+  ],
+  "pair_min": 0.003,
+  "pair_max": 0.3668,
+  "pair_if_independent": 0.23335816,
+  "share_endorsing_2plus_min": 0.297175,
+  "share_endorsing_none_max": 0.3638
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "LP bounds for the pair equal the analytic Frechet bounds within 1e-6",
+   "observed": [
+    0.003,
+    0.3668,
+    [
+     0.003,
+     0.3668
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the published marginals alone force at least 10% of respondents to agree with both reductive_physicalism and dualism",
+   "observed": 0.003,
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the marginals force at least 25% of respondents to agree with two or more of the five positions",
+   "observed": 0.297175,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "co-endorsement share if the two agreements were independent",
+   "observed": 0.23335816,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

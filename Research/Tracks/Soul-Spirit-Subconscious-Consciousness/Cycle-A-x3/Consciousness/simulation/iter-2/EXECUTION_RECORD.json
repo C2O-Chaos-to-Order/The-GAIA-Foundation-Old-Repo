@@ -1,0 +1,95 @@
+{
+ "sim_id": "SIM-CONS-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:18:26.134426+00:00",
+ "finished_utc": "2026-10-24T05:18:27.163635+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-2  (run from Consciousness/simulation/)",
+ "spec_sha256": "ad8713e0b6e7b708e79b728941079d0242aeecd9287eb2dc5c3ce9da8a75e581",
+ "params_sha256": "8b7dd3b3272f80cd078a19ff1e3eaf39d8dac86274fa269b359bcfd22301fc6c",
+ "results_sha256": "9f190b5534312b3f06f402d992e052bb62117f11c586a58ad34d0494d89b1313",
+ "results": {
+  "kaiser_counts": [
+   45,
+   43,
+   43,
+   42,
+   43,
+   43,
+   43,
+   43,
+   45,
+   43,
+   44,
+   45,
+   43,
+   43,
+   44,
+   44,
+   43,
+   42,
+   43,
+   44
+  ],
+  "parallel_counts": [
+   0,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "marchenko_pastur_upper_edge": 1.57772129
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "parallel analysis retains 0 factors under no structure in >= 90% of replications",
+   "observed": 0.9,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the Kaiser rule retains >= 10 spurious factors under no structure (mean)",
+   "observed": 43.4,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "upper edge of the null eigenvalue spectrum (Marchenko-Pastur)",
+   "observed": 1.57772129,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

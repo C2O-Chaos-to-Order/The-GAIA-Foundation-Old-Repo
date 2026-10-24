@@ -1,0 +1,53 @@
+{
+ "sim_id": "SIM-SOUL-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:02.070024+00:00",
+ "finished_utc": "2026-10-24T05:43:04.604871+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-6  (run from Soul/simulation/)",
+ "spec_sha256": "e98f603fb2ff125ed81d297ea226d6231f2e320a63ce3c6e6fd9a49cdaabf4ae",
+ "params_sha256": "b6949369dbd2f50d3a28cfe291daff2e4c47e1c32f25b34ab370eb13a0a97d7f",
+ "results_sha256": "8aaa0ba58c66a6afb9bd46226c60c617aeffbe0e3b1909bbf26c1f6ab8bb1189",
+ "results": {
+  "naive_estimate_with_selection": 0.1009918,
+  "sd_with_selection": 0.04633268,
+  "naive_estimate_no_selection": 0.00236617
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "without selection the naive estimate is within 0.03 of the true mean 0.0",
+   "observed": 0.00236617,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with selection (non-significant results published with probability 0.15) a true mean of 0.0 yields a naive pooled estimate >= 0.3",
+   "observed": 0.1009918,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "SD of the naive estimate across simulated literatures",
+   "observed": 0.04633268,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

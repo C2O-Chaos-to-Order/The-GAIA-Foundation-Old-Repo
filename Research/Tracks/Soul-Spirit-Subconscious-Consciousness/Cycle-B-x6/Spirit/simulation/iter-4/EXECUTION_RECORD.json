@@ -1,0 +1,56 @@
+{
+ "sim_id": "SIM-SPIRIT-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:08.070012+00:00",
+ "finished_utc": "2026-10-24T05:43:14.066605+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-4  (run from Spirit/simulation/)",
+ "spec_sha256": "5cfc7dd89fbc8ffb361e1c1a70fb905c463d70a5074be3cb74151550d14f9afd",
+ "params_sha256": "22959376927be84c289dd74f67837541f1b24f422c3ecc83ad456daceb87424e",
+ "results_sha256": "27a8e4d9acce884be5189d641f98f54c5b4747361cff02046c3ce045da0aa52f",
+ "results": {
+  "holm_familywise_null": 0.0505,
+  "power_uncorrected": 0.7775,
+  "power_holm": 0.5865
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Holm family-wise error under the null <= 0.06",
+   "observed": 0.0505,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Holm costs <= 10 percentage points of power for the one true outcome",
+   "observed": 0.191,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "power uncorrected vs Holm",
+   "observed": [
+    0.7775,
+    0.5865
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

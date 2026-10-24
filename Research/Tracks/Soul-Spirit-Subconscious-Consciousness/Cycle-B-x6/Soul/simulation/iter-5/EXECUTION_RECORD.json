@@ -1,0 +1,62 @@
+{
+ "sim_id": "SIM-SOUL-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:01.109045+00:00",
+ "finished_utc": "2026-10-24T05:43:01.452649+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-5  (run from Soul/simulation/)",
+ "spec_sha256": "7a26c8e3026b5af2242ea1ec4a1abef0970c5980288b19543921b99f97486cb2",
+ "params_sha256": "452303f3b88d6c338024ecdd2dd447bd13c4a528c0bd12707e3cb426342e326f",
+ "results_sha256": "9abcad48836098d9d8b3cc08e133a3b893c25333ad217463220c26d0baa85140",
+ "results": {
+  "analytic_power": {
+   "0.15": 0.38874585,
+   "0.34": 0.96721234
+  },
+  "simulated_power": {
+   "0.15": 0.3868,
+   "0.34": 0.96785
+  },
+  "total_per_group": 250
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated power within 0.015 of analytic for every g",
+   "observed": {
+    "0.15": -0.0019,
+    "0.34": 0.0006
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "pooled power to detect g = 0.34 (K18 uncorrected) >= 0.95",
+   "observed": 0.96721234,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "pooled power to detect g = 0.15 (top of K18's bias-corrected range) < 0.5",
+   "observed": 0.38874585,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

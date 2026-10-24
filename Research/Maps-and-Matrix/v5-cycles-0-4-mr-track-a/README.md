@@ -1,0 +1,35 @@
+# Maps & Matrix — v5 (covers Cycles 0-4, Master Report, Track Cycle A (x3))
+
+**Version:** v5 · **Date:** 2026-10-24 · **Tooling:** `Research/tools` gaia_tools 0.5.0, data model 1.4.0 (`python -m gaia_tools.maps_all`). Earlier versions (v1–v4) are kept unchanged.
+
+The owner asked that the Soul, Spirit, Subconscious and Consciousness track be **mapped and matrixed to all current work**. This version therefore covers the five main cycles, the Master Report and every track cycle to date in one set of artefacts.
+
+| # | Deliverable | Files | Headline |
+|---|---|---|---|
+| 1 | Claim map | `claim_map/` | 947 rows: C0 100, C1 142, C2 177, C3 216, C4 239, MR 36, TA 37 |
+| 2 | 625-intersection matrix | `matrix/` | Placement = Cycle-4 claims + Master Report + Track Cycle A claims. Being × Lens: 17 populated, 7 under-researched, 1 empty (Body×Justice). Alchemy and Phase remain undefined |
+| 3 | Link graph | `graph/` | GAIA + 7 reports + Master Report + 4 track topics; 12 motherthread edges (PS), 28 main-cycle links, 11 track links (E 5 / P 2 / PS 2 / H 2); 12 organisational structure edges (unlabelled) |
+| 4 | Cross-cycle change log | `changes/` | Track Cycle A claims: {'new (first track cycle)': 37}; track links: {'new': 11} |
+| 5 | Data model + validation | `data-model/`, `validation/` | Track validation 0 errors; main-cycle validation unchanged since v4 (not duplicated) |
+
+## Matrix movement since the previous version
+- Soul×Love: UNDER-RESEARCHED → populated
+- Spirit×Integrity: UNDER-RESEARCHED → populated
+
+Still under-researched: Body×Love, Body×Wisdom, Mind×Justice, Spirit×Justice, Consciousness×Love, Consciousness×Justice, Consciousness×Wisdom.
+
+## Honest limits
+- Alchemy and Phase are still undefined, so every 625-cell row is a Being × Lens projection.
+- Lens placement uses the provisional keyword rule (v1.0.1), unchanged. It is a navigation aid, not a classification.
+- Subconscious is placed on Being = Mind by a pre-declared rule (the axis has no Subconscious category).
+- Track links (TL-*) are typed and labelled by the same agent that wrote the claims, with no independent check (gate INDETERMINATE).
+
+## Reproduce
+```
+cd Research/tools && pip install -r requirements.txt
+python -m gaia_tools.maps_all .. ../Maps-and-Matrix/v5-cycles-0-4-mr-track-a --version-label "covers Cycles 0-4, Master Report, Track Cycle A (x3)"
+python -m gaia_tools.tracks validate ..
+python -m gaia_tools.tracks rerun .. TA
+python -m pytest -q tests
+```
+`MANIFEST.sha256` lists the SHA-256 of every file in this version.

@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-SPIRIT-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:19.823699+00:00",
+ "finished_utc": "2026-10-24T07:05:19.858942+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-11  (run from Spirit/simulation/)",
+ "spec_sha256": "2868239e38437b3639ed935893e2d1f1d4266d88c478596aef87b25ba3fa088f",
+ "params_sha256": "728fb15acdfd2025da30700c268bc112a7c59a5c7106714352c03e257f9a8a12",
+ "results_sha256": "b84176f93c572fa7c5452f62670f02dca0885129bf80a328c8a0423b14da43fc",
+ "results": {
+  "d_pop": 0.11982812,
+  "d_z": 0.2244114
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with no selection the mean pre-post difference is within 0.01 SD of 0",
+   "observed": -0.00092442,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "selection on high baseline alone yields an apparent reduction >= 0.3 SD (no treatment effect)",
+   "observed": 0.11982812,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "apparent reduction (population-SD units, d_z)",
+   "observed": [
+    0.11982812,
+    0.2244114
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

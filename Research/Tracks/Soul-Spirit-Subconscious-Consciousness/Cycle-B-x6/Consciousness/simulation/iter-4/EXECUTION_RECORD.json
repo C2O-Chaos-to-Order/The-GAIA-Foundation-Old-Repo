@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-CONS-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:38.689385+00:00",
+ "finished_utc": "2026-10-24T05:43:40.521886+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-4  (run from Consciousness/simulation/)",
+ "spec_sha256": "384b87f6570ef0bbd4cbc5a37a5253f0519927ab843c76e845b63293a2d6e318",
+ "params_sha256": "3cb6b6388583bec319630b6802ac7a9589af122666240582fb1b89e7ad78b6e2",
+ "results_sha256": "a3840fee3fefaf6f9d5337a4d14d9fa3d772d4b6936d198f39609d87356a3c68",
+ "results": {
+  "null": {
+   "total_power": 0.05166667,
+   "indirect_joint_sig": 0.05466667
+  },
+  "effect": {
+   "total_power": 0.12666667,
+   "indirect_joint_sig": 0.91633333
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a1 = 0: indirect joint-significance rate <= 0.05",
+   "observed": 0.05466667,
+   "result": "Fail"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the total effect is detected in < 50% of n = 80 studies",
+   "observed": 0.12666667,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the serial indirect path is jointly significant in > 50% of the same studies",
+   "observed": 0.91633333,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": false
+}

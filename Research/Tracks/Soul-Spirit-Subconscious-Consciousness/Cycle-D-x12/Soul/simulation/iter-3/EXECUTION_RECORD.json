@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-SOUL-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:05.628582+00:00",
+ "finished_utc": "2026-10-24T07:05:05.730004+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-3  (run from Soul/simulation/)",
+ "spec_sha256": "d1205e75333e67d797e4c534490485b7c862745360231f77f9b7ffddd872a9af",
+ "params_sha256": "9e817bcdd2eb9bea694e4d901a2ed39a270b8e93b27fc3204f3f943699192e6d",
+ "results_sha256": "4e1733324bd18ad389ddd32890ef437f41684ab1abd36269943565717a2dcdfe",
+ "results": {
+  "beta": [
+   0.01711481,
+   0.02121986,
+   -0.21100197
+  ],
+  "R2": 0.03685245
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "betas from simulated data within 0.01 of the analytic betas",
+   "observed": [
+    [
+     0.01475762,
+     0.0254579,
+     -0.21353186
+    ],
+    [
+     0.01711481,
+     0.02121986,
+     -0.21100197
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the analytic simultaneous betas of comprehension and purpose are both within +/-0.03 of 0 (the 'full mediation' pattern follows from the correlations alone)",
+   "observed": [
+    0.01711481,
+    0.02121986
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "analytic standardised betas (comprehension, purpose, mattering); R^2",
+   "observed": [
+    [
+     0.01711481,
+     0.02121986,
+     -0.21100197
+    ],
+    0.03685245
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

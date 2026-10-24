@@ -1,0 +1,233 @@
+{
+ "track_cycle": "TA",
+ "checked_utc": "2026-10-24T05:27:29+00:00",
+ "summary": {
+  "Pass": 32
+ },
+ "checks": [
+  {
+   "claim_id": "TA-SOUL-01",
+   "source_id": "K01",
+   "phrase": "the modal response was to indicate that both mental and physical states would cease to exist",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-01",
+   "source_id": "K01",
+   "phrase": "intuitive materialism",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-02",
+   "source_id": "K01",
+   "phrase": "could not be replicated in a high-powered replication study",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-02",
+   "source_id": "K01",
+   "phrase": "three out of the 13 countries",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-03",
+   "source_id": "K01",
+   "phrase": "appears robust, even though reported effect sizes are small",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-04",
+   "source_id": "K03",
+   "phrase": "63.62% agreed or strongly agreed with reductive physicalism, 36.68% with dualism",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-04",
+   "source_id": "K03",
+   "phrase": "17.52% agreed or strongly agreed",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-06",
+   "source_id": "K02",
+   "phrase": "mentioned some kind of annihilation",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-06",
+   "source_id": "K02",
+   "phrase": "endorsed some kind of continuity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-07",
+   "source_id": "K02",
+   "phrase": "Cohen’s kappa = .79",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SOUL-09",
+   "source_id": "U13",
+   "phrase": "We can define two notions, psychological connectedness and psychological continuity",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SPIRIT-01",
+   "source_id": "K04",
+   "phrase": "280 English PES measurements",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SPIRIT-01",
+   "source_id": "K04",
+   "phrase": "acceptable to good model fits",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SPIRIT-02",
+   "source_id": "K05",
+   "phrase": "2.5 times the original sample sizes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SPIRIT-02",
+   "source_id": "K05",
+   "phrase": "past findings also were not reproduced",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SPIRIT-04",
+   "source_id": "K06",
+   "phrase": "overlapped in 63% of the elements of the awe expression",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SPIRIT-07",
+   "source_id": "S15",
+   "phrase": "excludes paranormal experiences",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-01",
+   "source_id": "K09",
+   "phrase": "median N of all the contrasts included in the meta-analysis",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-01",
+   "source_id": "K09",
+   "phrase": "is around .21",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-03",
+   "source_id": "K08",
+   "phrase": "our first experiment failed to show priming",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-03",
+   "source_id": "K08",
+   "phrase": "only when experimenters believed participants would indeed walk slower",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-05",
+   "source_id": "K10",
+   "phrase": "this memory processing remains in the realm of implicit memory",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-07",
+   "source_id": "K11",
+   "phrase": "Most study participants indicated some degree of belief in repression",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-08",
+   "source_id": "K07",
+   "phrase": "unconscious-and-conscious communication",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-09",
+   "source_id": "S32",
+   "phrase": "a subliminal form of cognitive awareness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-10",
+   "source_id": "S31",
+   "phrase": "deep sleep",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-10",
+   "source_id": "S31",
+   "phrase": "turiya",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-SUBC-11",
+   "source_id": "S16",
+   "phrase": "petites perceptions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-CONS-01",
+   "source_id": "K13",
+   "phrase": "does not necessarily contradict cognitive theories of consciousness",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-CONS-03",
+   "source_id": "K12",
+   "phrase": "showing how they can in fact be tested",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-CONS-04",
+   "source_id": "K14",
+   "phrase": "A solution with 12 factors explaining 44% of the total variance",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TA-CONS-06",
+   "source_id": "S31",
+   "phrase": "pure consciousness",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}
