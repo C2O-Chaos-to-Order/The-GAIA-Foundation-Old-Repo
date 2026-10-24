@@ -1,0 +1,47 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:15.577785+00:00",
+ "finished_utc": "2026-10-24T04:07:15.635546+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-1",
+ "params_sha256": "2c65c2c6dcf2a260a82f5bdd59e9857ca08460ae6f550ad04287612b035f5e01",
+ "outputs": {
+  "outputs/results.json": "d68c443f91fc3caddae7c7044409f7918df90eda8858da9dccf5222a8790698a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no confounding, no effect: OR(A,D) and OR(A,N) within 3% of 1",
+   "observed": [
+    1.000595398,
+    0.9901814374
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "U-stratified OR recovers the true conditional OR exp(-0.5)=0.607 within 5% in both strata",
+   "observed": [
+    0.6120395724,
+    0.6229495643
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
