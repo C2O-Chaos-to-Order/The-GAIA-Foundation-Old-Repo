@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:41.847204+00:00",
+ "finished_utc": "2026-10-24T03:04:41.906944+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-9",
+ "params_sha256": "60852331137b307d5ec9b307e7d4f6277bc08faefc652ffcf1f24ac782a8bd20",
+ "outputs": {
+  "outputs/results.json": "3247293523a01719610e10ff1ed0fef4dbc6e952f4bb9fd24d595a54964fe8a4"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "A-vs-C agreement exceeds chance: observed kappa above the 95th percentile of a within-attribute permutation null",
+   "observed": [
+    0.3185642176,
+    0.1923724061
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
