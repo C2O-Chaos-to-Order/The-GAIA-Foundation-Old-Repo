@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AL-SOC-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:12.994649+00:00",
+ "finished_utc": "2026-10-24T19:48:13.416460+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-4  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "838aa957fba0e6e7737b6f2f01176f9741718eae62ba64ab51a3d8b8689a54c9",
+ "params_sha256": "19223662a7ce34bbbcb6a4e5c76bfb4d0cca6030d413d3e571d5143cc83ccd68",
+ "results_sha256": "a0c3c5cad2fcb6fd7cf3ff8cb9874bed40a6c7375f503e0ef1ff76dd392f9caa",
+ "results": {
+  "regression": {
+   "beta": {
+    "F": 0.28,
+    "E": 0.16
+   },
+   "printed": {
+    "F": 0.25,
+    "E": 0.16
+   },
+   "max_diff": 0.03
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with uncorrelated predictors the standardized betas equal the correlations (1e-12)",
+   "observed": [
+    0.3,
+    -0.2
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "fusion path within 0.02 of .25 without empathy",
+   "observed": {
+    "regression": {
+     "beta": {
+      "F": 0.28,
+      "E": 0.16
+     },
+     "printed": {
+      "F": 0.25,
+      "E": 0.16
+     },
+     "max_diff": 0.03
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "regression": {
+     "beta": {
+      "F": 0.28,
+      "E": 0.16
+     },
+     "printed": {
+      "F": 0.25,
+      "E": 0.16
+     },
+     "max_diff": 0.03
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
