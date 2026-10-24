@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:41.608975+00:00",
+ "finished_utc": "2026-10-24T03:04:41.610108+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-8",
+ "params_sha256": "2ca52b404b30bf747256aed9e22b0101875581584add4b94f2f44f7ec78aec21",
+ "outputs": {
+  "outputs/results.json": "52a61e678ee53178edc46e5bcb568ae2dd832230e3b9715cc14192a65a0d86ab"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "coder C agrees with B more on cells B marked certain than on cells B marked uncertain (difference >= 0.1)",
+   "observed": [
+    0.4285714286,
+    0.7407407407
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

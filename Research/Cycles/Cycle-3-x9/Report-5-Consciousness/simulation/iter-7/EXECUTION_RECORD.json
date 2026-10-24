@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R5-C3",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:08:31.037408+00:00",
+ "finished_utc": "2026-10-24T03:08:38.332736+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-7",
+ "params_sha256": "1f22b1c03205e8cc742ed2caa1b6763d2248011b3980cb363ed3d88032eb3b78",
+ "outputs": {
+  "outputs/results.json": "c39e9e3b15fe9b36123245c554a13b6b1b167e1144cacfb7bec83812cb2e504e"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "across sizes, seeds and couplings, spontaneous susceptibility predicts PCI-like (Spearman >= 0.6), the toy analogue of X12",
+   "observed": 0.3678897091,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

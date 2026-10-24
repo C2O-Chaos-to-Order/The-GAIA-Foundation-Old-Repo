@@ -1,0 +1,267 @@
+{
+ "essential": [
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L01",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R1-06"
+   ],
+   "essential_rule": "Plausible",
+   "link_id": "L02",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R1-09"
+   ],
+   "essential_rule": "Plausible",
+   "link_id": "L03",
+   "pre_rule": "Established",
+   "reasons": [
+    "no Established basis from R6"
+   ],
+   "strict": "Established"
+  },
+  {
+   "essential": [
+    "C0v2-R2-09"
+   ],
+   "essential_rule": "Plausible",
+   "link_id": "L04",
+   "pre_rule": "Established",
+   "reasons": [
+    "C0v2-R2-09",
+    "no Established basis from R2"
+   ],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R2-10"
+   ],
+   "essential_rule": "Plausible",
+   "link_id": "L05",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R1-14"
+   ],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L06",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  },
+  {
+   "essential": [
+    "C0v2-R5-08"
+   ],
+   "essential_rule": "Plausible",
+   "link_id": "L07",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L08",
+   "pre_rule": "Established",
+   "reasons": [
+    "no Established basis from R2"
+   ],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R2-08",
+    "C0v2-R3-13"
+   ],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L09",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Established",
+   "link_id": "L10",
+   "pre_rule": "Established",
+   "reasons": [],
+   "strict": "Established"
+  },
+  {
+   "essential": [
+    "C0v2-R3-17",
+    "C0v2-R4-06"
+   ],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L11",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  },
+  {
+   "essential": [
+    "C0v2-R3-16",
+    "C0v2-R5-12"
+   ],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L12",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L13",
+   "pre_rule": "Established",
+   "reasons": [
+    "no Established basis from R6"
+   ],
+   "strict": "Established"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L14",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Hypothetical",
+   "link_id": "L15",
+   "pre_rule": "Hypothetical",
+   "reasons": [],
+   "strict": "Hypothetical"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L16",
+   "pre_rule": "Established",
+   "reasons": [
+    "no Established basis from R4"
+   ],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R5-06"
+   ],
+   "essential_rule": "Plausible",
+   "link_id": "L17",
+   "pre_rule": "Established",
+   "reasons": [
+    "no Established basis from R1"
+   ],
+   "strict": "Established"
+  },
+  {
+   "essential": [
+    "C0v2-R4-06",
+    "C0v2-R5-07"
+   ],
+   "essential_rule": "Hypothetical",
+   "link_id": "L18",
+   "pre_rule": "Hypothetical",
+   "reasons": [],
+   "strict": "Hypothetical"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Established",
+   "link_id": "L19",
+   "pre_rule": "Established",
+   "reasons": [],
+   "strict": "Established"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L20",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L21",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C0v2-R7-02"
+   ],
+   "essential_rule": "Established",
+   "link_id": "L22",
+   "pre_rule": "Established",
+   "reasons": [],
+   "strict": "Established"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L23",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  },
+  {
+   "essential": [
+    "C0v2-R7-07"
+   ],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L24",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Plausible",
+   "link_id": "L25",
+   "pre_rule": "Plausible",
+   "reasons": [],
+   "strict": "Plausible"
+  },
+  {
+   "essential": [
+    "C3-R1-05",
+    "C3-R4-01"
+   ],
+   "essential_rule": "Hypothetical",
+   "link_id": "L26",
+   "pre_rule": "Hypothetical",
+   "reasons": [],
+   "strict": "Hypothetical"
+  },
+  {
+   "essential": [],
+   "essential_rule": "Philosophical/Spiritual",
+   "link_id": "L27",
+   "pre_rule": "Philosophical/Spiritual",
+   "reasons": [],
+   "strict": "Philosophical/Spiritual"
+  }
+ ],
+ "restored_by_essential_rule": []
+}

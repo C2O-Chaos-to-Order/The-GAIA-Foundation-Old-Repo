@@ -1,0 +1,29 @@
+{
+ "S12_cumulative_mortality": 0.1816218102,
+ "health_selection": [
+  {
+   "observed_rr_under_null": 0.9166666667,
+   "p_poorhealth_attenders": 0.1,
+   "p_poorhealth_never": 0.2,
+   "rr_death": 2.0
+  },
+  {
+   "observed_rr_under_null": 0.8363636364,
+   "p_poorhealth_attenders": 0.1,
+   "p_poorhealth_never": 0.25,
+   "rr_death": 2.5
+  },
+  {
+   "observed_rr_under_null": 0.7857142857,
+   "p_poorhealth_attenders": 0.05,
+   "p_poorhealth_never": 0.2,
+   "rr_death": 3.0
+  },
+  {
+   "observed_rr_under_null": 0.75,
+   "p_poorhealth_attenders": 0.1,
+   "p_poorhealth_never": 0.3,
+   "rr_death": 3.0
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:21.146074+00:00",
+ "finished_utc": "2026-10-24T03:10:22.299350+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-3",
+ "params_sha256": "559330f2c0950c77bc3dee12e2d169c7738b09d5d81838aa00e2d79f5c39ad10",
+ "outputs": {
+  "outputs/results.json": "fa077d07d8af7851f72ba954994c66aa2c170912dc9b42e9764a14f9e63f403f"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "neutral-daisy control reproduces Table 1: range 0.74-1.11 (each within +-0.02)",
+   "observed": [
+    0.744,
+    1.1,
+    {
+     "L_establish": 0.74,
+     "L_max": 1.11,
+     "total_life": 0.204
+    }
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H3b",
+   "kind": "hypothesis",
+   "expect": "our reading of 'total life' (integral of daisy cover over luminosity) reproduces Table 1's 0.556 and 0.204 within 10%",
+   "observed": [
+    0.5514755984,
+    0.2031638116
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:26.508298+00:00",
+ "finished_utc": "2026-10-24T03:26:26.547699+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-6",
+ "params_sha256": "05058c0fe43b4259c569dca76c6ab6d04e32a830232eeab977429d46de43cb38",
+ "outputs": {
+  "outputs/results.json": "586bbfde8fc0ceef82d34329bb16186e5640f4733ad561976eb1db16eb077af3"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "at least 3 of the 6 Being x Lens cells that were EMPTY in Maps v2 are populated by Cycle-3 claims (keyword rule)",
+   "observed": [
+    [
+     "BodyxLove",
+     "MindxJustice",
+     "ConsciousnessxLove",
+     "ConsciousnessxJustice",
+     "ConsciousnessxWisdom"
+    ],
+    [
+     "BodyxJustice"
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

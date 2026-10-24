@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:41.361919+00:00",
+ "finished_utc": "2026-10-24T03:04:41.364816+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-7",
+ "params_sha256": "bdde092ec4fa7b31209df209430599b459653f4e5ace866389b32c3fe8616dbf",
+ "outputs": {
+  "outputs/results.json": "1db103fcc6c1bd002008f022bb89fedfca2e4e11b67fc3f15cd32d7ca0f727ed"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "the Cycle-1 typology (4 clusters) is recovered from coder C's coding (ARI >= 0.5)",
+   "observed": 0.3621399177,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:40.338846+00:00",
+ "finished_utc": "2026-10-24T03:04:40.340118+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-3",
+ "params_sha256": "2dbb902286ec5099bce0f3ad645454e5bf28b2558fceb084c2ce62337ea1d530",
+ "outputs": {
+  "outputs/results.json": "5daaad6b50ca080c21253d26c6a5d8e097dfb8c18387857acd2394cea038958e"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "coder C agrees with codebook coding B at least moderately on the 48 sampled cells (kappa >= 0.41)",
+   "observed": [
+    0.1297709924,
+    0.6041666667
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

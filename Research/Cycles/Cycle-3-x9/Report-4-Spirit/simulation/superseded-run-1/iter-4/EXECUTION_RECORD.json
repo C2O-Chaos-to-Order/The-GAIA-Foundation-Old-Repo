@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:17.152450+00:00",
+ "finished_utc": "2026-10-24T03:06:17.153815+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-4",
+ "params_sha256": "9fec62d89fce058bf1098b4d71f2b1408681d37ace5487ea1a756a8beb852ccf",
+ "outputs": {
+  "outputs/results.json": "26b5cf2147177b4af2dc0b9d5b51587f5449f9a58c21fb2e9b63ebacea75dedd"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "a confounder whose association with attendance is only 1.5-fold must be associated with mortality >= 3-fold to explain away the (common-outcome) estimate",
+   "observed": 3.65,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

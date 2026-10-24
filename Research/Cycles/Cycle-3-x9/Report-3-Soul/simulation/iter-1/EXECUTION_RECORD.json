@@ -1,0 +1,57 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:39.823610+00:00",
+ "finished_utc": "2026-10-24T03:04:39.825138+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-1",
+ "params_sha256": "bdffd8a3fe8ad8d792d57196c6d8ddb15f52355fc1af37c733eeeb325b16affd",
+ "outputs": {
+  "outputs/results.json": "806ea336f08287c450ae30655e7dc86efd3f99e1d1d8eae8030b8f443bba59d6"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "copied loader and kappa reproduce the Cycle-2 A-vs-B kappa on the 48-cell sample (|diff| < 1e-9)",
+   "observed": [
+    0.7872340426,
+    0.7872340426
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "Fleiss kappa with 2 raters is within 0.03 of Cohen kappa on a balanced test table (they differ slightly by definition)",
+   "observed": [
+    0.0,
+    0.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "C0",
+   "kind": "reporting",
+   "expect": "report conceptions with no or one window (coder C can only code 0 there)",
+   "observed": [
+    "C06",
+    "C07"
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

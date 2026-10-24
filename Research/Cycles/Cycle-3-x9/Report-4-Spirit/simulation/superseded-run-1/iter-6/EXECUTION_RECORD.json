@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:17.321271+00:00",
+ "finished_utc": "2026-10-24T03:06:17.321411+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-6",
+ "params_sha256": "cf4e6a11761591e636b0571a9d112550e54f62e0faaea11f5e01bb79d73bf550",
+ "outputs": {
+  "outputs/results.json": "82919539ec299175a962f2e085257e52ad543313658dc8b94c56a9218f81646c"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "at most 5 independent weak confounders (each 1.3-fold on both sides, multiplicative worst-case bias) explain away the estimate",
+   "observed": 6,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

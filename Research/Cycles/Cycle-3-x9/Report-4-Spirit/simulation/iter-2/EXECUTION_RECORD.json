@@ -1,0 +1,49 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:58.093871+00:00",
+ "finished_utc": "2026-10-24T03:06:58.094053+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-2",
+ "params_sha256": "e3b56b850da3167021a54e3a0fd092f7fd1674e7be75fde598e6c23a2b623705",
+ "outputs": {
+  "outputs/results.json": "8e8ba556e3a7c92ea2e7b4545a37e2751a58cf5f6bf0fc0daf8deb2553944b8d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with S12's cumulative mortality (18% > 15%), S14's common-outcome approximation still gives an E-value >= 1.5 for the point estimate",
+   "observed": [
+    1.9682724485,
+    1.8498730519
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2r",
+   "kind": "reporting",
+   "expect": "report the drop from the reported (rare-outcome) E-value",
+   "observed": [
+    2.35,
+    1.9682724485,
+    2.16,
+    1.8498730519
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

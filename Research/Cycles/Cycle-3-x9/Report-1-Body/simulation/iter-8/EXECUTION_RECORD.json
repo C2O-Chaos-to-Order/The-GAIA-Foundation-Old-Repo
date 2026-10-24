@@ -1,0 +1,49 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:45.206530+00:00",
+ "finished_utc": "2026-10-24T03:00:45.228522+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-8",
+ "params_sha256": "ff98cb37f735c651c0e513b0d6df90302bbee2f6e159092726be0d6fa55f49cf",
+ "outputs": {
+  "outputs/results.json": "db5cc98521e96295e678be29bc865e64afa56bfb075c643cf6621d9a21f9be26"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "savings accumulate: in the two-state model, days to 95% re-induction fall across 3 acclimation/decay cycles (last < first)",
+   "observed": [
+    2,
+    1,
+    1
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H8r",
+   "kind": "reporting",
+   "expect": "report slow-state share of the remaining gain after each decay",
+   "observed": [
+    0.9997841395,
+    0.9999169457,
+    0.9999585844
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

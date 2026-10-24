@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:26.924870+00:00",
+ "finished_utc": "2026-10-24T03:26:26.928524+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-9",
+ "params_sha256": "b2eb6c537cd42912e00d962ee0d9920ef45f3e87e843edba70afc350e43db331",
+ "outputs": {
+  "outputs/results.json": "1fe359c910f368bf8b714ae2e47f37ae28351a08985ff8bebfb9a5fe088d8304"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "real new work changes something: at least one claim carried from Cycle 2 changes label or status in Cycle 3",
+   "observed": [
+    0,
+    177,
+    15
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

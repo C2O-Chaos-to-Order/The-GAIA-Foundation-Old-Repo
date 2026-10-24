@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:26.050887+00:00",
+ "finished_utc": "2026-10-24T03:26:26.053112+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-2",
+ "params_sha256": "f79eb909736af3ffd2ebc10f94968d92ab7ee73715f8e91797e0181c09e6cd89",
+ "outputs": {
+  "outputs/results.json": "aa53f8f0767108d8831c157aeecf2f6f2e324cb57b3fc36814d3f305b23b0328"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "no Established link in the Cycle-3 register is downgraded by the strict rule (new Cycle-3 evidence weakens no E link)",
+   "observed": [],
+   "result": "Supported"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "every basis claim of every link resolves to a Cycle-3 ledger claim",
+   "observed": [],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

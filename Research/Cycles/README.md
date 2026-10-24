@@ -5,9 +5,9 @@ Each cycle is a complete, separately versioned pass over all seven foundational 
 | Folder | Cycle | Specification | Status |
 |---|---|---|---|
 | `Cycle-0-Baseline/` | 0 | 1 research pass + 1 simulation run per report; Verification — **Baseline v2 (framework-aligned)**, scope per `Cycle-0-Baseline/FRAMEWORK.md` | Branch `research/cycle-0-baseline`; gate **Indeterminate** |
-| `Cycle-1-x3/` | 1 | 3 distinct research passes + 3 chained simulate+report iterations per report; Verification | Branch `research/cycle-1-x3` (PR to `main`); gate **Indeterminate** |
-| `Cycle-2-x6/` | 2 | ×6 | Not started |
-| `Cycle-3-x9/` | 3 | ×9 | Not started |
+| `Cycle-1-x3/` | 1 | 3 distinct research passes + 3 chained simulate+report iterations per report; Verification | Branch `research/cycle-1-x3`; in `main` since the merge of PR #3 (2026-10-24); gate **Indeterminate** |
+| `Cycle-2-x6/` | 2 | 6 research passes + 6 chained simulate+report iterations per report; Verification | Branch `research/cycle-2-x6`; merged into `main` (PR #3, 2026-10-24); gate **Indeterminate** |
+| `Cycle-3-x9/` | 3 | 9 research passes + 9 chained simulate+report iterations per report; Verification | Branch `research/cycle-3-x9` (PR to `research/cycle-2-x6`); gate **Indeterminate** |
 | `Cycle-4-x12/` | 4 | ×12 | Not started |
 
 Standard layout inside every cycle:

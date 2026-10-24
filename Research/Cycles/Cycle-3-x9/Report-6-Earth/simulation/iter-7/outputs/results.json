@@ -1,0 +1,10 @@
+{
+ "constrained": {
+  "L_establish": 0.524,
+  "L_max": 1.7,
+  "frac_within_5C": 0.7254237288,
+  "slope_ratio": 0.1851610338,
+  "total_life": 0.812265733,
+  "width": 1.176
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:25.959335+00:00",
+ "finished_utc": "2026-10-24T03:26:25.963230+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-1",
+ "params_sha256": "046622d26d425c9724bbb4713c7ce13b1ffeee3f98ccbd4f805e42dabc8006e3",
+ "outputs": {
+  "outputs/results.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "copied strict rule reproduces the Cycle-2 downgrades (L04, L08, L16) from the Cycle-1 labels and Cycle-2 ledger",
+   "observed": [
+    [
+     "L04",
+     "L08",
+     "L16"
+    ],
+    [
+     "L04",
+     "L08",
+     "L16"
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "essential-claim definition on toy links: {R2 sole claim} for a 2+1 basis; the single claim for a 1-claim basis",
+   "observed": [
+    [
+     "C0-R2-01"
+    ],
+    [
+     "C0-R1-01"
+    ]
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

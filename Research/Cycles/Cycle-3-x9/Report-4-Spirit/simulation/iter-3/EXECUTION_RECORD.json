@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:58.178073+00:00",
+ "finished_utc": "2026-10-24T03:06:58.186944+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-3",
+ "params_sha256": "fd48324a3667c6473e719fbd8718ecccfe0beb23b690237fc24260e05c82fc94",
+ "outputs": {
+  "outputs/results.json": "0bd2e765ea14a96e9f97445814e5da70904d84bff29c935bab6c36dff26c69a2"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "a synthetic S12-sized cohort with NO true effect and one confounder of strength E on both sides reproduces the observed RR within 5%",
+   "observed": [
+    0.7589125343,
+    0.7579947864
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

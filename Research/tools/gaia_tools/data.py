@@ -73,6 +73,14 @@ def links(cycle_path):
     return read_csv(p) if os.path.exists(p) else []
 
 
+def is_archived(relpath):
+    """True for runs kept for the record but not current: any path part containing 'archive' (Cycle 0)
+    or starting with 'superseded-run-' (since data model 1.2.0, Cycle 3). Archived runs are not re-run and
+    are excluded from SIM citation lookup."""
+    parts = relpath.replace(os.sep, "/").split("/")
+    return any("archive" in p or p.startswith("superseded-run-") for p in parts)
+
+
 def simulations(cycle_path, cycle_id):
     """Index of every executed simulation run in a cycle (one entry per EXECUTION_RECORD.json)."""
     idx = []
@@ -82,8 +90,10 @@ def simulations(cycle_path, cycle_id):
             rundir = os.path.dirname(rec)
             r = json.load(open(rec))
             m = re.match(r"iter-(\d+)$", os.path.basename(rundir))
-            archived = "archive" in os.path.relpath(rundir, simdir)
+            archived = is_archived(os.path.relpath(rundir, simdir))
             scripts = sorted(glob.glob(os.path.join(rundir if archived else simdir, "sim_*.py")))
+            if archived and not scripts:  # superseded runs keep their script one level up (superseded-run-N/sim_*.py)
+                scripts = sorted(glob.glob(os.path.join(os.path.dirname(rundir), "sim_*.py")))
             params = os.path.join(rundir, "params.json")
             spec = os.path.join(rundir, "SPEC.md")
             rel = lambda p: os.path.relpath(p, cycle_path) if p and os.path.exists(p) else None

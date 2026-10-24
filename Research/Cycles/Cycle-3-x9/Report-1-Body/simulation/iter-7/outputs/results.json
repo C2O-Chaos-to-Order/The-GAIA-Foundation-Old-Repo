@@ -1,0 +1,93 @@
+{
+ "carried_from_prev": {
+  "selected_theta": [
+   0.6,
+   0.999,
+   0.01,
+   0.005
+  ]
+ },
+ "oat": {
+  "base_ratio": 7.0,
+  "rows": [
+   {
+    "factor": 0.8,
+    "lost": 5,
+    "param": "Af",
+    "ratio": 11.3067512918
+   },
+   {
+    "factor": 1.2,
+    "lost": 9,
+    "param": "Af",
+    "ratio": 4.6666666667
+   },
+   {
+    "factor": 0.8,
+    "lost": 13,
+    "param": "As",
+    "ratio": 2.2318951972
+   },
+   {
+    "factor": 1.2,
+    "lost": 6,
+    "param": "As",
+    "ratio": 7.0
+   },
+   {
+    "factor": 0.8,
+    "lost": 5,
+    "param": "Bf",
+    "ratio": 7.0
+   },
+   {
+    "factor": 1.2,
+    "lost": 8,
+    "param": "Bf",
+    "ratio": 7.0
+   },
+   {
+    "factor": 0.8,
+    "lost": 8,
+    "param": "Bs",
+    "ratio": 6.9185704256
+   },
+   {
+    "factor": 1.2,
+    "lost": 5,
+    "param": "Bs",
+    "ratio": 7.0
+   },
+   {
+    "factor": 0.8,
+    "lost": 6,
+    "param": "Kp",
+    "ratio": 7.0
+   },
+   {
+    "factor": 1.2,
+    "lost": 6,
+    "param": "Kp",
+    "ratio": 7.0
+   },
+   {
+    "factor": 0.8,
+    "lost": 7,
+    "param": "Umax",
+    "ratio": 7.0
+   },
+   {
+    "factor": 1.2,
+    "lost": 6,
+    "param": "Umax",
+    "ratio": 7.0
+   }
+  ]
+ },
+ "selected_theta": [
+  0.6,
+  0.999,
+  0.01,
+  0.005
+ ]
+}

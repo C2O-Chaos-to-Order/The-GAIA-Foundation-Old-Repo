@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:30.971115+00:00",
+ "finished_utc": "2026-10-24T03:10:45.186888+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-8",
+ "params_sha256": "b210f61ad7702d564cfe2724329131234ff14e36254cedf3cdc1178cf11618d8",
+ "outputs": {
+  "outputs/results.json": "1f0b7770569a64b8e5c785a148dca3187ef05d35cecaf1a4835369acdbd7a552"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "regulation recovered in >= 70% of constrained settings and <= 30% of unbounded ones",
+   "observed": [
+    0.3333333333,
+    0.0
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

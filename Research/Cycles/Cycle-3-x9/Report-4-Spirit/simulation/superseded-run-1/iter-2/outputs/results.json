@@ -1,0 +1,10 @@
+{
+ "S12_cumulative_mortality": 0.1816218102,
+ "common_outcome": {
+  "cumulative_mortality": 0.1816218102,
+  "evalue_ci": 1.8498730519,
+  "evalue_point": 1.9682724485,
+  "rr_ci": 0.7889310908,
+  "rr_point": 0.7579947864
+ }
+}

@@ -75,7 +75,7 @@
   }
  },
  "patternProperties": {
-  "^c[0-9]+_(evidence|sim_checks|literature_test|status|change)$": {
+  "^c[0-9]+_(evidence|sim_checks|literature_test|status|change|strict_rule|essential_rule)$": {
    "type": "string"
   }
  },

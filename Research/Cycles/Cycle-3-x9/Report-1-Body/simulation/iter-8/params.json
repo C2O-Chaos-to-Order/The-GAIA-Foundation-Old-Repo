@@ -1,0 +1,29 @@
+{
+ "carry": [
+  "selected_theta"
+ ],
+ "experiments": {
+  "cycles": {
+   "n": 3
+  }
+ },
+ "iteration": 8,
+ "model": {
+  "Kp": 0.1,
+  "T0": 0.0,
+  "Tset": 0.0,
+  "Umax": 0.04,
+  "Umax_total": 0.1,
+  "a": 0.02,
+  "d": 0.06,
+  "dt": 1.0,
+  "session": {
+   "cue_on": 50,
+   "n": 300,
+   "work_off": 180,
+   "work_on": 60
+  }
+ },
+ "prev": "../iter-7",
+ "sim_id": "SIM-R1-C3"
+}

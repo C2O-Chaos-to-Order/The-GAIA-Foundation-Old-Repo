@@ -1,0 +1,290 @@
+[
+ {
+  "id": "C01",
+  "conception": "Plato (Phaedo; Republic)",
+  "source": "S07",
+  "attribute": "A1_immaterial"
+ },
+ {
+  "id": "C08",
+  "conception": "Bhagavad Gita 2.20",
+  "source": "U43",
+  "attribute": "A1_immaterial"
+ },
+ {
+  "id": "C10",
+  "conception": "Indian Buddhist anatman",
+  "source": "S32",
+  "attribute": "A1_immaterial"
+ },
+ {
+  "id": "C13",
+  "conception": "Indigenous social-relational animism",
+  "source": "U45",
+  "attribute": "A1_immaterial"
+ },
+ {
+  "id": "C09",
+  "conception": "Advaita Vedanta (atman = Brahman)",
+  "source": "S31",
+  "attribute": "A2_independent_of_body_survives_death"
+ },
+ {
+  "id": "C10",
+  "conception": "Indian Buddhist anatman",
+  "source": "S32",
+  "attribute": "A2_independent_of_body_survives_death"
+ },
+ {
+  "id": "C14",
+  "conception": "Physicalism",
+  "source": "T06;S08",
+  "attribute": "A2_independent_of_body_survives_death"
+ },
+ {
+  "id": "C15",
+  "conception": "Jain jiva (SEP Jaina philosophy)",
+  "source": "V40",
+  "attribute": "A2_independent_of_body_survives_death"
+ },
+ {
+  "id": "C03",
+  "conception": "Epicurus",
+  "source": "S07",
+  "attribute": "A3_principle_of_life_or_breath"
+ },
+ {
+  "id": "C05",
+  "conception": "Hebrew Bible (Gen 2:7 nephesh: 'living being')",
+  "source": "T07;T07e",
+  "attribute": "A3_principle_of_life_or_breath"
+ },
+ {
+  "id": "C06",
+  "conception": "Thomas Aquinas (ST I q.75)",
+  "source": "U40",
+  "attribute": "A3_principle_of_life_or_breath"
+ },
+ {
+  "id": "C11",
+  "conception": "Early Chinese hun/po and qi; xin heart-mind",
+  "source": "T17",
+  "attribute": "A3_principle_of_life_or_breath"
+ },
+ {
+  "id": "C01",
+  "conception": "Plato (Phaedo; Republic)",
+  "source": "S07",
+  "attribute": "A4_seat_of_thought_or_identity"
+ },
+ {
+  "id": "C07",
+  "conception": "Qur'an (17:85; 15:29 ruh)",
+  "source": "U41;U50",
+  "attribute": "A4_seat_of_thought_or_identity"
+ },
+ {
+  "id": "C12",
+  "conception": "African (Akan/Gyekye) moral personhood",
+  "source": "U44",
+  "attribute": "A4_seat_of_thought_or_identity"
+ },
+ {
+  "id": "C14",
+  "conception": "Physicalism",
+  "source": "T06;S08",
+  "attribute": "A4_seat_of_thought_or_identity"
+ },
+ {
+  "id": "C03",
+  "conception": "Epicurus",
+  "source": "S07",
+  "attribute": "A5_bearer_of_moral_character"
+ },
+ {
+  "id": "C08",
+  "conception": "Bhagavad Gita 2.20",
+  "source": "U43",
+  "attribute": "A5_bearer_of_moral_character"
+ },
+ {
+  "id": "C11",
+  "conception": "Early Chinese hun/po and qi; xin heart-mind",
+  "source": "T17",
+  "attribute": "A5_bearer_of_moral_character"
+ },
+ {
+  "id": "C14",
+  "conception": "Physicalism",
+  "source": "T06;S08",
+  "attribute": "A5_bearer_of_moral_character"
+ },
+ {
+  "id": "C03",
+  "conception": "Epicurus",
+  "source": "S07",
+  "attribute": "A6_oriented_to_purpose_or_final_end"
+ },
+ {
+  "id": "C04",
+  "conception": "Stoics (pneuma)",
+  "source": "S07",
+  "attribute": "A6_oriented_to_purpose_or_final_end"
+ },
+ {
+  "id": "C08",
+  "conception": "Bhagavad Gita 2.20",
+  "source": "U43",
+  "attribute": "A6_oriented_to_purpose_or_final_end"
+ },
+ {
+  "id": "C10",
+  "conception": "Indian Buddhist anatman",
+  "source": "S32",
+  "attribute": "A6_oriented_to_purpose_or_final_end"
+ },
+ {
+  "id": "C01",
+  "conception": "Plato (Phaedo; Republic)",
+  "source": "S07",
+  "attribute": "A7_enduring_unchanging_self"
+ },
+ {
+  "id": "C09",
+  "conception": "Advaita Vedanta (atman = Brahman)",
+  "source": "S31",
+  "attribute": "A7_enduring_unchanging_self"
+ },
+ {
+  "id": "C10",
+  "conception": "Indian Buddhist anatman",
+  "source": "S32",
+  "attribute": "A7_enduring_unchanging_self"
+ },
+ {
+  "id": "C12",
+  "conception": "African (Akan/Gyekye) moral personhood",
+  "source": "U44",
+  "attribute": "A7_enduring_unchanging_self"
+ },
+ {
+  "id": "C02",
+  "conception": "Aristotle (De Anima)",
+  "source": "S07;T05",
+  "attribute": "A8_form_of_or_inseparable_from_body"
+ },
+ {
+  "id": "C09",
+  "conception": "Advaita Vedanta (atman = Brahman)",
+  "source": "S31",
+  "attribute": "A8_form_of_or_inseparable_from_body"
+ },
+ {
+  "id": "C11",
+  "conception": "Early Chinese hun/po and qi; xin heart-mind",
+  "source": "T17",
+  "attribute": "A8_form_of_or_inseparable_from_body"
+ },
+ {
+  "id": "C13",
+  "conception": "Indigenous social-relational animism",
+  "source": "U45",
+  "attribute": "A8_form_of_or_inseparable_from_body"
+ },
+ {
+  "id": "C09",
+  "conception": "Advaita Vedanta (atman = Brahman)",
+  "source": "S31",
+  "attribute": "A9_enduring_self_denied"
+ },
+ {
+  "id": "C10",
+  "conception": "Indian Buddhist anatman",
+  "source": "S32",
+  "attribute": "A9_enduring_self_denied"
+ },
+ {
+  "id": "C13",
+  "conception": "Indigenous social-relational animism",
+  "source": "U45",
+  "attribute": "A9_enduring_self_denied"
+ },
+ {
+  "id": "C14",
+  "conception": "Physicalism",
+  "source": "T06;S08",
+  "attribute": "A9_enduring_self_denied"
+ },
+ {
+  "id": "C01",
+  "conception": "Plato (Phaedo; Republic)",
+  "source": "S07",
+  "attribute": "A10_constituted_relationally_or_communally"
+ },
+ {
+  "id": "C05",
+  "conception": "Hebrew Bible (Gen 2:7 nephesh: 'living being')",
+  "source": "T07;T07e",
+  "attribute": "A10_constituted_relationally_or_communally"
+ },
+ {
+  "id": "C08",
+  "conception": "Bhagavad Gita 2.20",
+  "source": "U43",
+  "attribute": "A10_constituted_relationally_or_communally"
+ },
+ {
+  "id": "C13",
+  "conception": "Indigenous social-relational animism",
+  "source": "U45",
+  "attribute": "A10_constituted_relationally_or_communally"
+ },
+ {
+  "id": "C01",
+  "conception": "Plato (Phaedo; Republic)",
+  "source": "S07",
+  "attribute": "A11_identical_with_universal_ground"
+ },
+ {
+  "id": "C04",
+  "conception": "Stoics (pneuma)",
+  "source": "S07",
+  "attribute": "A11_identical_with_universal_ground"
+ },
+ {
+  "id": "C06",
+  "conception": "Thomas Aquinas (ST I q.75)",
+  "source": "U40",
+  "attribute": "A11_identical_with_universal_ground"
+ },
+ {
+  "id": "C11",
+  "conception": "Early Chinese hun/po and qi; xin heart-mind",
+  "source": "T17",
+  "attribute": "A11_identical_with_universal_ground"
+ },
+ {
+  "id": "C03",
+  "conception": "Epicurus",
+  "source": "S07",
+  "attribute": "A12_extends_to_non_human_beings"
+ },
+ {
+  "id": "C05",
+  "conception": "Hebrew Bible (Gen 2:7 nephesh: 'living being')",
+  "source": "T07;T07e",
+  "attribute": "A12_extends_to_non_human_beings"
+ },
+ {
+  "id": "C08",
+  "conception": "Bhagavad Gita 2.20",
+  "source": "U43",
+  "attribute": "A12_extends_to_non_human_beings"
+ },
+ {
+  "id": "C09",
+  "conception": "Advaita Vedanta (atman = Brahman)",
+  "source": "S31",
+  "attribute": "A12_extends_to_non_human_beings"
+ }
+]

@@ -1,0 +1,49 @@
+id,attribute,code_b,uncertain_b,evidence
+C01,A1_immaterial,1,0,S07: 'Aristotle agrees with the Phaedo's claim that souls are very different from bodies'
+C08,A1_immaterial,1,0,"U43: 'because he takes on a material body, the body takes its birth' ; 'The soul does not deteriorate like a tree, nor anything material'"
+C10,A1_immaterial,0,0,S32: persons as five aggregates incl. '(1) material form or body (rupa)'; no immaterial soul posited
+C13,A1_immaterial,0,1,U45: no passage located on immateriality of souls in social-relational animism (source silent)
+C09,A2_independent_of_body_survives_death,1,0,S31: 'Knowledge of Brahman ... causes liberation from the cycle of transmigration'
+C10,A2_independent_of_body_survives_death,0,1,S32: 'if there is no agent ... how is the efficacy of karma or rebirth to be explained?' (rebirth without an enduring self)
+C14,A2_independent_of_body_survives_death,0,1,T06/S08: no passage on survival; coded by inference from physicalism
+C15,A2_independent_of_body_survives_death,1,0,V40: section '1.1 Escaping rebirths through self-sacrifice'
+C03,A3_principle_of_life_or_breath,1,0,S07: 'the word soul is sometimes used ... as what animates living things'
+C05,A3_principle_of_life_or_breath,1,0,T07e: 'blowing into his nostrils the breath of life: the Human became a living being'
+C06,A3_principle_of_life_or_breath,1,0,U40: 'the soul is defined as the first principle of life of those things which live'
+C11,A3_principle_of_life_or_breath,1,0,"T17: 'the phenomena associated in the West with the soul is light, refined qi (breath)'"
+C01,A4_seat_of_thought_or_identity,1,0,S07: 'the functions of reason (in the Republic) and of the soul (in the Phaedo) are not restricted to cognition'
+C07,A4_seat_of_thought_or_identity,0,1,U41: 'The soul is of the affair of my Lord. And mankind have not been given of knowledge except a little' (silent on thought)
+C12,A4_seat_of_thought_or_identity,0,1,U44: personhood discussed via character and deeds; no passage on a seat of thought
+C14,A4_seat_of_thought_or_identity,0,1,S08/T06: thought treated as physical; no soul as its seat (inference)
+C03,A5_bearer_of_moral_character,0,1,S07: no passage located linking the Epicurean soul to moral character (source silent)
+C08,A5_bearer_of_moral_character,0,1,U43 (Gita 2.20 purport): no moral-character statement located
+C11,A5_bearer_of_moral_character,1,0,"T17: 'merges ... the body and heart-mind in a spiritual and moral, as well as physical, space'"
+C14,A5_bearer_of_moral_character,0,1,T06: moral items 'are physical'; no soul as bearer (inference)
+C03,A6_oriented_to_purpose_or_final_end,0,1,S07: no telos statement located for the Epicurean soul
+C04,A6_oriented_to_purpose_or_final_end,0,1,S07 (Stoic section): faculties as abilities; no final-end statement located
+C08,A6_oriented_to_purpose_or_final_end,0,1,U43: no goal/liberation statement located in the 2.20 purport
+C10,A6_oriented_to_purpose_or_final_end,1,1,"S32: 'achieving nirvana, the summum bonum of the Buddhist path' (path, not a soul, has the end)"
+C01,A7_enduring_unchanging_self,1,0,"S07: 'Socrates' arguments for the immortality of the soul, most prominently in the Phaedo'"
+C09,A7_enduring_unchanging_self,1,0,"S31: 'Brahman is identical with the universal Self, and this Self is always self-conscious'"
+C10,A7_enduring_unchanging_self,0,0,S32: Buddhists explain how 'we come to mistakenly apprehend an unchanging and enduring self'
+C12,A7_enduring_unchanging_self,0,1,U44: no passage on an enduring self located (source silent)
+C02,A8_form_of_or_inseparable_from_body,1,0,S07: soul as 'a system of abilities possessed and manifested by animate bodies of suitable structure'
+C09,A8_form_of_or_inseparable_from_body,0,1,S31: no body-inseparability statement; atman identical with Brahman (inference)
+C11,A8_form_of_or_inseparable_from_body,1,1,T17: 'the heart-mind and bodily qi interact'; 'Moral excellence throughout that text is embodied'
+C13,A8_form_of_or_inseparable_from_body,0,1,U45: no passage located (source silent)
+C09,A9_enduring_self_denied,0,0,S31: 'The experiencing self (jiva) and the transcendental self ... (atman) are in reality identical' (self affirmed)
+C10,A9_enduring_self_denied,1,0,S32: '3. Not-self (anatman)'
+C13,A9_enduring_self_denied,0,1,U45: non-human persons affirmed; no denial of an enduring self located
+C14,A9_enduring_self_denied,0,1,T06/S08: physicalism is silent on denying a self (inference)
+C01,A10_constituted_relationally_or_communally,0,1,S07: no relational constitution of soul located for Plato
+C05,A10_constituted_relationally_or_communally,0,1,T07e: Gen 2:7 silent on communal constitution
+C08,A10_constituted_relationally_or_communally,0,1,U43: no relational statement located
+C13,A10_constituted_relationally_or_communally,1,0,U45: 'non-human persons with whom we may maintain and develop social relationships'
+C01,A11_identical_with_universal_ground,0,1,"S07: 'Intelligible being evidently includes what Socrates calls the divine' (kinship, not identity)"
+C04,A11_identical_with_universal_ground,0,1,S07: pneuma 'a breath-like material compound'; identity with a universal principle not stated in located passage
+C06,A11_identical_with_universal_ground,0,0,U40: the soul as a 'particular substance' (Objection 2 premise; Aquinas' reply keeps the soul created/particular)
+C11,A11_identical_with_universal_ground,0,1,"T17: 'human unity with the rest of the world as an organic whole' (unity, not identity)"
+C03,A12_extends_to_non_human_beings,1,1,"S07: soul 'as what animates living things' (Diogenes of Oenoanda, later Epicurean)"
+C05,A12_extends_to_non_human_beings,0,1,T07e: Gen 2:7 speaks of the Human only
+C08,A12_extends_to_non_human_beings,1,0,U43: 'some consciousness in all bodies - whether man or animal - we can understand the presence of the soul'
+C09,A12_extends_to_non_human_beings,1,0,S31: 'he is the only one in all beings like the ether and that all beings are in him'

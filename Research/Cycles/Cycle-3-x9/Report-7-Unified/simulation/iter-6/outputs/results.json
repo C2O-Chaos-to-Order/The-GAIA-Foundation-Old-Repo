@@ -1,0 +1,40 @@
+{
+ "matrix": {
+  "counts": {
+   "BodyxIntegrity": 9,
+   "BodyxLove": 1,
+   "BodyxTruth": 6,
+   "BodyxWisdom": 2,
+   "ConsciousnessxIntegrity": 5,
+   "ConsciousnessxJustice": 1,
+   "ConsciousnessxLove": 1,
+   "ConsciousnessxTruth": 13,
+   "ConsciousnessxWisdom": 1,
+   "MindxIntegrity": 4,
+   "MindxJustice": 1,
+   "MindxLove": 3,
+   "MindxTruth": 18,
+   "MindxWisdom": 3,
+   "SoulxIntegrity": 3,
+   "SoulxJustice": 4,
+   "SoulxLove": 2,
+   "SoulxTruth": 3,
+   "SoulxWisdom": 4,
+   "SpiritxIntegrity": 1,
+   "SpiritxJustice": 1,
+   "SpiritxLove": 6,
+   "SpiritxTruth": 18,
+   "SpiritxWisdom": 3
+  },
+  "newly_populated": [
+   "BodyxLove",
+   "MindxJustice",
+   "ConsciousnessxLove",
+   "ConsciousnessxJustice",
+   "ConsciousnessxWisdom"
+  ],
+  "still_empty": [
+   "BodyxJustice"
+  ]
+ }
+}

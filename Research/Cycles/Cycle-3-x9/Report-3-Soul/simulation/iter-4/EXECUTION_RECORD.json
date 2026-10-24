@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:40.600741+00:00",
+ "finished_utc": "2026-10-24T03:04:40.602100+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-4",
+ "params_sha256": "3cbde32c9718b841b279eca3142b0fd5776de5ef48088dbf0a9d63432a17441a",
+ "outputs": {
+  "outputs/results.json": "b6f0b77e327aa61dcefe2ad227b4439257d2ae6811cda893c86799fedfa5da76"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "three-coder Fleiss kappa (A, B, C) on the sample >= 0.41",
+   "observed": [
+    0.3377926421,
+    0.7871396896
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

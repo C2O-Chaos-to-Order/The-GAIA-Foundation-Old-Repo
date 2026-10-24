@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:26.578535+00:00",
+ "finished_utc": "2026-10-24T03:02:26.584504+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-4",
+ "params_sha256": "bf78dc8c4a723603f3fb9f52847782f99333140162226db8e6ba1f98189ac8c4",
+ "outputs": {
+  "outputs/results.json": "dbfefc38f638538502ee8f588bcae04ebea2cfde88bb58e1a3a69a2477fd12f2"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "a delay between pre-exposure and conditioning attenuates LI by >= 50% in KF (uncertainty grows) but changes PH by < 5% (no trials, no change)",
+   "observed": [
+    0.9799290989,
+    0.0
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:43.721969+00:00",
+ "finished_utc": "2026-10-24T03:00:43.871856+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-6",
+ "params_sha256": "f3c06c3cfed604f79ba4cf71eacb955e8f935c16dd6f2f883fedebb4e01192de",
+ "outputs": {
+  "outputs/results.json": "5a569cc99fd0ddebad450e2babf07ed743db5606eea669065be024a7713345da"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "with 20% day-to-day load noise the selected setting keeps the ratio in [8, 12] in >= 80% of 20 seeds",
+   "observed": 0.05,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,83 @@
+{
+ "sim_id": "SIM-R5-C3",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:08:40.617306+00:00",
+ "finished_utc": "2026-10-24T03:08:49.229717+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-9",
+ "params_sha256": "ee586e8cfc13e7b1a85a96a8ce192994d5a1b08a9c2aef9ed9f76d249b672db3",
+ "outputs": {
+  "outputs/results.json": "5c76f67d9b81cf9f39b43db6be4f9d4abff5b1027a68861184589995245bf0eb"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "iteration-2 result replicates with new seeds (peak in >= 8 of 9 settings)",
+   "observed": [
+    9,
+    [
+     [
+      24,
+      4,
+      2.0
+     ],
+     [
+      24,
+      5,
+      2.0
+     ],
+     [
+      24,
+      6,
+      2.0
+     ],
+     [
+      40,
+      4,
+      2.0
+     ],
+     [
+      40,
+      5,
+      1.0
+     ],
+     [
+      40,
+      6,
+      2.0
+     ],
+     [
+      64,
+      4,
+      5.0
+     ],
+     [
+      64,
+      5,
+      2.0
+     ],
+     [
+      64,
+      6,
+      2.0
+     ]
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

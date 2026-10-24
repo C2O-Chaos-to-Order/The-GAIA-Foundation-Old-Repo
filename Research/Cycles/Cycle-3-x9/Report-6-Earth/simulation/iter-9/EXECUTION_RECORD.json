@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:45.294527+00:00",
+ "finished_utc": "2026-10-24T03:10:47.069536+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-9",
+ "params_sha256": "768c693ec6169ff16b6284e74e0dbbfcd74c801d66b6758a251f679134b9fd21",
+ "outputs": {
+  "outputs/results.json": "19af9b62ce712a00a7b2f3e7eeace2b24628a5330cbc80aa69c588f9806302ff"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "halving the Euler time step changes establishment and maximum luminosity by <= 0.01 (numerical robustness)",
+   "observed": [
+    0.684,
+    0.684,
+    1.496,
+    1.496
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,48 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:20.393893+00:00",
+ "finished_utc": "2026-10-24T03:10:20.393990+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-1",
+ "params_sha256": "3d54ff9e056852b18c9e3092e32548f86d47cd820f3056a5502bd0e71926d007",
+ "outputs": {
+  "outputs/results.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "dead-planet temperature at L=1 equals the analytic energy balance (|diff| < 1e-9)",
+   "observed": [
+    29.7400104035,
+    29.7400104035
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "W01 eq. 3: growth 1 at 22.5 C and 0 at 5 C and 40 C",
+   "observed": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,42 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:20.485318+00:00",
+ "finished_utc": "2026-10-24T03:10:21.054585+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-2",
+ "params_sha256": "43b65356034b9bbeb90dd0cde303c81f8fe27b73a5dd4d4845995b6d18dc04eb",
+ "outputs": {
+  "outputs/results.json": "a827a17531cf553c309c03824009d969bf92bdd071b798a55da6074a2166e645"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "re-implementation from W01's published equations reproduces Table 1 'Original Daisyworld': establishment L 0.68 and maximum L 1.50 (each within +-0.02)",
+   "observed": [
+    0.684,
+    1.496,
+    {
+     "L_establish": 0.68,
+     "L_max": 1.5,
+     "total_life": 0.556
+    }
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

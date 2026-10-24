@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:17.406417+00:00",
+ "finished_utc": "2026-10-24T03:06:17.449227+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-7",
+ "params_sha256": "599c52d5be965dfce1b0811e8c64bfaf156da19e028b1d88755742c7998f0668",
+ "outputs": {
+  "outputs/results.json": "4ca702a2db9264c0976fe71c8f3a58afb11ab4c2541ed5216161db17bd09a5f8"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "adjusting for social participation removes >= 80% of the (log) association both when it is a mediator and when it is a confounder: attenuation alone cannot tell them apart (relevant to X11)",
+   "observed": {
+    "mediator": {
+     "crude": 0.8138666598,
+     "adjusted": 0.9929138222,
+     "attenuation": 0.965471705
+    },
+    "confounder": {
+     "crude": 0.8078262543,
+     "adjusted": 1.0016286878,
+     "attenuation": 1.0076255849
+    }
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

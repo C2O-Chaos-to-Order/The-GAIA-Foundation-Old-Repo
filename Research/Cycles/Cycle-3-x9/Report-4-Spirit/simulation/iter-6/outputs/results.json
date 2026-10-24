@@ -1,0 +1,8 @@
+{
+ "S12_cumulative_mortality": 0.1816218102,
+ "many_weak": {
+  "bias_each": 1.05625,
+  "k_needed": 6,
+  "rr_each": 1.3
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "S12": {
+  "deaths": 13537,
+  "hr": 0.67,
+  "hr_ci_upper": 0.71,
+  "n": 74534,
+  "reported_evalue": 2.35,
+  "reported_evalue_ci": 2.16,
+  "source": "S12 Results and Methods (full text)"
+ },
+ "experiments": {
+  "replicate": {
+   "n": 74534,
+   "reps": 20,
+   "seed": 99
+  }
+ },
+ "iteration": 9,
+ "prev": "../iter-8",
+ "sim_id": "SIM-R4-C3"
+}

@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-R5-C3",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:08:22.333207+00:00",
+ "finished_utc": "2026-10-24T03:08:25.306623+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-4",
+ "params_sha256": "9e428b3353a2b054c1f8f2553a22c9e8bd33d870578ca1e2a98c47641dbdef70",
+ "outputs": {
+  "outputs/results.json": "955834bb8a680ab66a8b08f446018dc6512135217e724535bd4cab962a7fce28"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "peak location is stable (within one grid step) across kick sizes 0.25-2",
+   "observed": [
+    [
+     0.25,
+     5.0,
+     2.55
+    ],
+    [
+     0.5,
+     40.0,
+     10.277
+    ],
+    [
+     1.0,
+     2.0,
+     2.204
+    ],
+    [
+     2.0,
+     2.0,
+     2.45
+    ]
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

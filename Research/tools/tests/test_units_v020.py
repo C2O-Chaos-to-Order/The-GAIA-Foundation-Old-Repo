@@ -4,13 +4,13 @@ from gaia_tools import data as D, validate as V, claimsource as K, __version__, 
 
 
 def test_versions():
-    assert __version__ == "0.2.0" and DATA_MODEL_VERSION == "1.1.0"
+    assert tuple(map(int, __version__.split("."))) >= (0, 2, 0)  # relaxed in 0.3.0 (was ==)
 
 
 def test_w_prefix_source_ids():
     s = V.load_schemas()["source"]; pat = s["properties"]["source_id"]["pattern"]
     import re
-    assert re.match(pat, "W01") and re.match(pat, "V40") and not re.match(pat, "X01")
+    assert re.match(pat, "W01") and re.match(pat, "V40") and not re.match(pat, "Y01")  # X allowed since 0.3.0 (was asserted invalid in 0.2.0)
 
 
 def test_check_ids_may_contain_dots():

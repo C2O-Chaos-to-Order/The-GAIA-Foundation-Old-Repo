@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:27.876228+00:00",
+ "finished_utc": "2026-10-24T03:02:29.032345+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-6",
+ "params_sha256": "bc04b88cfd98756219747295ab1d5d07173d60b58786e2164caf4dabb15f940b",
+ "outputs": {
+  "outputs/results.json": "f845b2c5f387c05fc69a50c48ddb288ab191f0d78c1b7b11df3f9c021b5500ae"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "recovery stays >= 70% at noise 0.1 when generating parameters are drawn OFF the fitting grid (removes the Cycle-2 optimism)",
+   "observed": {
+    "0.05": 0.9666666667,
+    "0.1": 0.9833333333,
+    "0.2": 0.8
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

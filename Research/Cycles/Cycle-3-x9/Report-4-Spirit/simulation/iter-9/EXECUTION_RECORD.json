@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:58.780106+00:00",
+ "finished_utc": "2026-10-24T03:06:58.828830+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-9",
+ "params_sha256": "8f404533b33835ac55200a375c9416cf5832c8657e238f5fc8179e4e29a71260",
+ "outputs": {
+  "outputs/results.json": "db336a66e5ed1b577e41a16719c72dc9162c42ad6212583730394fad1bed30bd"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "iteration-3 cohort check replicates over 20 new cohorts (mean within 2% of target)",
+   "observed": [
+    0.7558645186,
+    0.7579947864
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

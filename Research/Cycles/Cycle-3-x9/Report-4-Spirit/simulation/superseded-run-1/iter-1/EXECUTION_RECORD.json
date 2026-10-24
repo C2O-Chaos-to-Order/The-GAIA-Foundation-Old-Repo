@@ -1,0 +1,54 @@
+{
+ "sim_id": "SIM-R4-C3",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:06:16.874080+00:00",
+ "finished_utc": "2026-10-24T03:06:16.874575+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-1",
+ "params_sha256": "76ff114dd4fe113d607515006eb5632d963b72831a62fef2de93dac702ace362",
+ "outputs": {
+  "outputs/results.json": "319aa713eac3db87a7ed96937270870679b7c2508df44829b75784965f9d46c3"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "E-value formula applied to HR 0.67 and CI limit 0.71 reproduces S12's 2.35 and 2.16 (to 2 decimals)",
+   "observed": [
+    2.3499347234,
+    2.1669246207
+   ],
+   "result": "Fail"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "bias bound B(E, E) equals the target ratio exactly (definition of the E-value)",
+   "observed": [
+    1.7,
+    1.7
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "binary-confounder bias with P(U|A=1)=1 attains the bound (ratio 1 within 1e-12)",
+   "observed": 1.0,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 3,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": false
+}
