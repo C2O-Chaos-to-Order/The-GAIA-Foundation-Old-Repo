@@ -1,0 +1,79 @@
+{
+ "sim_id": "SIM-CV-NAT-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:17:43.460470+00:00",
+ "finished_utc": "2026-10-24T22:19:00.222072+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-9  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "e915b0505cd6790fe756ff320adc7bf4f38e3cc35dcf6d4a1429c562011c02ba",
+ "params_sha256": "0185c63371fa0c2b7a22afac38f60b92a28022561ed8ca61b2beb8e878931544",
+ "results_sha256": "2af2264f37ea065019783deedee5fa0ed7d273e2c6dc7f7712e695fe6a5f0200",
+ "results": {
+  "by_case": {
+   "N3_K0.8": {
+    "max_lyap": 0.00096,
+    "frac_above_thr": 0.0,
+    "median": -0.00043
+   }
+  },
+  "thr": 0.01,
+  "V1_pair_identical": -1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "N = 2, identical frequencies, K = 1: the transverse exponent equals the analytic -K = -1 within 0.02",
+   "observed": -1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N = 3 with a longer run (T 1600): largest exponent below 0.005 in all 20 settings (noise floor halves)",
+   "observed": {
+    "by_case": {
+     "N3_K0.8": {
+      "max_lyap": 0.00096,
+      "frac_above_thr": 0.0,
+      "median": -0.00043
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "N3_K0.8": {
+      "max_lyap": 0.00096,
+      "frac_above_thr": 0.0,
+      "median": -0.00043
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
