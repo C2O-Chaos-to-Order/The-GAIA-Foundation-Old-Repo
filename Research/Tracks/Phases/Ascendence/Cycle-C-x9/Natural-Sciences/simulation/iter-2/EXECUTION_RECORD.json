@@ -1,0 +1,166 @@
+{
+ "sim_id": "SIM-AS-NAT-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:00.330896+00:00",
+ "finished_utc": "2026-10-24T23:50:02.268623+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-2  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "48791f7c74634529884cf8b6d2bd9c037eec7fcd1fee67c420ac2e4c8cfc4134",
+ "params_sha256": "b1cebee47a3a99ea35a8c1832a53e837c9fd927a255243638ad21f72ec0eb8c3",
+ "results_sha256": "c0c755f30217686c0eb765794a0b45826dce472ec0ab0443d80bffd1baa2a80b",
+ "results": {
+  "by_L": {
+   "4": {
+    "hoc": {
+     "mean_paths": 1.012,
+     "se": 0.0606,
+     "P_none": 0.632,
+     "max_paths": 20.0,
+     "reps": 1000
+    }
+   },
+   "6": {
+    "hoc": {
+     "mean_paths": 1.032,
+     "se": 0.1072,
+     "P_none": 0.811,
+     "max_paths": 48.0,
+     "reps": 1000
+    }
+   },
+   "8": {
+    "hoc": {
+     "mean_paths": 1.084,
+     "se": 0.1599,
+     "P_none": 0.829,
+     "max_paths": 110.0,
+     "reps": 1000
+    }
+   },
+   "10": {
+    "hoc": {
+     "mean_paths": 0.843,
+     "se": 0.1253,
+     "P_none": 0.878,
+     "max_paths": 74.0,
+     "reps": 1000
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no landscape has more accessible paths than the L! shortest paths",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "HoC (antipode unconstrained): probability of no accessible path rises with L over 4, 6, 8, 10 (P94: approaches unity)",
+   "observed": {
+    "by_L": {
+     "4": {
+      "hoc": {
+       "mean_paths": 1.012,
+       "se": 0.0606,
+       "P_none": 0.632,
+       "max_paths": 20.0,
+       "reps": 1000
+      }
+     },
+     "6": {
+      "hoc": {
+       "mean_paths": 1.032,
+       "se": 0.1072,
+       "P_none": 0.811,
+       "max_paths": 48.0,
+       "reps": 1000
+      }
+     },
+     "8": {
+      "hoc": {
+       "mean_paths": 1.084,
+       "se": 0.1599,
+       "P_none": 0.829,
+       "max_paths": 110.0,
+       "reps": 1000
+      }
+     },
+     "10": {
+      "hoc": {
+       "mean_paths": 0.843,
+       "se": 0.1253,
+       "P_none": 0.878,
+       "max_paths": 74.0,
+       "reps": 1000
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "4": {
+      "hoc": {
+       "mean_paths": 1.012,
+       "se": 0.0606,
+       "P_none": 0.632,
+       "max_paths": 20.0,
+       "reps": 1000
+      }
+     },
+     "6": {
+      "hoc": {
+       "mean_paths": 1.032,
+       "se": 0.1072,
+       "P_none": 0.811,
+       "max_paths": 48.0,
+       "reps": 1000
+      }
+     },
+     "8": {
+      "hoc": {
+       "mean_paths": 1.084,
+       "se": 0.1599,
+       "P_none": 0.829,
+       "max_paths": 110.0,
+       "reps": 1000
+      }
+     },
+     "10": {
+      "hoc": {
+       "mean_paths": 0.843,
+       "se": 0.1253,
+       "P_none": 0.878,
+       "max_paths": 74.0,
+       "reps": 1000
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
