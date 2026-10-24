@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R6-C2",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:07:13.044340+00:00",
+ "finished_utc": "2026-10-24T02:07:15.566966+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-4",
+ "params_sha256": "0435f3f7efe6012ba80f6dda370de3f968bb151942727d9f3797ddd235f7841f",
+ "outputs": {
+  "outputs/results.json": "5ec4dc01bf9ead00bf7b4da275cefa2c842d2848f6f58cf6c9811dd1a921d84b"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "DM0",
+   "kind": "validation",
+   "expect": "no-adaptation damping ratio > 1 (life reduces |dTe/dL| inside the band)",
+   "observed": 2.9500727541,
+   "result": "Pass"
+  },
+  {
+   "id": "DM1",
+   "kind": "reporting",
+   "expect": "report damping ratios per case (cf. W01 Table 1 'mean damping' - different metric; not comparable numerically)",
+   "observed": {
+    "bounded5_cost0.5_0.01": 2.6700096681,
+    "none": 2.9500727541,
+    "unbounded_0.01": 0.9399711894
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
