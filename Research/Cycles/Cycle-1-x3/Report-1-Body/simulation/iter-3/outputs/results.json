@@ -1,0 +1,25 @@
+{
+ "two_compartment": {
+  "feedback_only": {
+   "final_core": 2.84e-08,
+   "final_shell": 0.3750000278,
+   "peak_core": 0.0530421942
+  },
+  "mc_peak_ratio": {
+   "frac_below_1": 0.55,
+   "max": 2.7032803794,
+   "median": 0.8794651473,
+   "n": 200
+  },
+  "proportional_only": {
+   "final_core": 0.0857142857,
+   "final_shell": 0.4285714286,
+   "peak_core": 0.0857142857
+  },
+  "with_skin_feedforward": {
+   "final_core": -3.706e-06,
+   "final_shell": 0.3749969987,
+   "peak_core": 0.0463009717
+  }
+ }
+}
