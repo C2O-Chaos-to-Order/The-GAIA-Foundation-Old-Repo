@@ -1,0 +1,54 @@
+{
+ "evalues": [
+  {
+   "E_CI": 1.8498730519,
+   "E_point": 1.9682724485,
+   "RR": 0.7579947864,
+   "ci_upper": 0.71,
+   "est": 0.67,
+   "label": "Li2016_mortality_women",
+   "scale": "common-outcome RR",
+   "source": "S12"
+  },
+  {
+   "E_CI": 1.6666666667,
+   "E_point": 2.0404080424,
+   "RR": 0.74,
+   "ci_upper": 0.84,
+   "est": 0.74,
+   "label": "Chen2021_mortality_pooled",
+   "scale": "as reported",
+   "source": "V12"
+  },
+  {
+   "E_CI": 2.6071635489,
+   "E_point": 5.701941016,
+   "RR": 0.32,
+   "ci_upper": 0.62,
+   "est": 0.32,
+   "label": "Chen2020_despair_women",
+   "scale": "as reported",
+   "source": "V13"
+  },
+  {
+   "E_CI": 1.3244138024,
+   "E_point": 2.3499347234,
+   "RR": 0.67,
+   "ci_upper": 0.94,
+   "est": 0.67,
+   "label": "Chen2020_despair_men",
+   "scale": "as reported",
+   "source": "V13"
+  },
+  {
+   "E_CI": 1.5638564684,
+   "E_point": 1.7369074009,
+   "RR": 0.82,
+   "ci_upper": 0.87,
+   "est": 0.82,
+   "label": "Chida2009_healthy_pops_abstract",
+   "scale": "as reported",
+   "source": "T08"
+  }
+ ]
+}
