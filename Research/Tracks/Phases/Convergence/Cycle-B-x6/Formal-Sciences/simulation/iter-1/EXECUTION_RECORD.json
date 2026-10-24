@@ -1,0 +1,193 @@
+{
+ "sim_id": "SIM-CV-FOR-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:37.894789+00:00",
+ "finished_utc": "2026-10-24T20:44:37.908752+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "314369169f32ea52d73866ed484d679b5622a252347089db61b3948950db348d",
+ "params_sha256": "383f086427956dc25c4e8778becbe3561e8598116ce60577a9f037a892eaa624",
+ "results_sha256": "54e34c6fe3597079dc8753093ce1a239f980bf0d78d7efb3355c3ecad61e5dec",
+ "results": {
+  "riffle": {
+   "52": {
+    "d": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 0.923733,
+     "6": 0.61355,
+     "7": 0.334061,
+     "8": 0.167159,
+     "9": 0.08542,
+     "10": 0.042946,
+     "11": 0.021502,
+     "12": 0.010755
+    },
+    "tmix": {
+     "0.25": 8,
+     "0.5": 7,
+     "0.1": 9
+    },
+    "one_point_five_log2n": 8.5507
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P78: 7 riffle shuffles mix 52 cards in the t_mix(1/4) sense (t_mix(1/4) = 7)",
+   "observed": {
+    "riffle": {
+     "52": {
+      "d": {
+       "0": 1.0,
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "4": 1.0,
+       "5": 0.923733,
+       "6": 0.61355,
+       "7": 0.334061,
+       "8": 0.167159,
+       "9": 0.08542,
+       "10": 0.042946,
+       "11": 0.021502,
+       "12": 0.010755
+      },
+      "tmix": {
+       "0.25": 8,
+       "0.5": 7,
+       "0.1": 9
+      },
+      "one_point_five_log2n": 8.5507
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "d(7) < 1/2 for 52 cards (t_mix(1/2) <= 7)",
+   "observed": {
+    "riffle": {
+     "52": {
+      "d": {
+       "0": 1.0,
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "4": 1.0,
+       "5": 0.923733,
+       "6": 0.61355,
+       "7": 0.334061,
+       "8": 0.167159,
+       "9": 0.08542,
+       "10": 0.042946,
+       "11": 0.021502,
+       "12": 0.010755
+      },
+      "tmix": {
+       "0.25": 8,
+       "0.5": 7,
+       "0.1": 9
+      },
+      "one_point_five_log2n": 8.5507
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "d(k) is non-increasing in k (k = 0-12)",
+   "observed": {
+    "riffle": {
+     "52": {
+      "d": {
+       "0": 1.0,
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "4": 1.0,
+       "5": 0.923733,
+       "6": 0.61355,
+       "7": 0.334061,
+       "8": 0.167159,
+       "9": 0.08542,
+       "10": 0.042946,
+       "11": 0.021502,
+       "12": 0.010755
+      },
+      "tmix": {
+       "0.25": 8,
+       "0.5": 7,
+       "0.1": 9
+      },
+      "one_point_five_log2n": 8.5507
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "riffle": {
+     "52": {
+      "d": {
+       "0": 1.0,
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "4": 1.0,
+       "5": 0.923733,
+       "6": 0.61355,
+       "7": 0.334061,
+       "8": 0.167159,
+       "9": 0.08542,
+       "10": 0.042946,
+       "11": 0.021502,
+       "12": 0.010755
+      },
+      "tmix": {
+       "0.25": 8,
+       "0.5": 7,
+       "0.1": 9
+      },
+      "one_point_five_log2n": 8.5507
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
