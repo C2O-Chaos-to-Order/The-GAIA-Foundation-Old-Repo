@@ -1,0 +1,158 @@
+[
+ {
+  "claim": "MR-01",
+  "source": "Z01",
+  "phrase": "587 German secondary school students",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-01",
+  "source": "Z01",
+  "phrase": "strong negative influence of parental conditional regard",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-02",
+  "source": "Z02",
+  "phrase": "201 sibling dyads",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-02",
+  "source": "Z02",
+  "phrase": "conditional regard was associated with lower sibling relationship quality",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-02",
+  "source": "Z02",
+  "phrase": "necessary to establish causality",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-03",
+  "source": "Z05",
+  "phrase": "eros , agape , and philia",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-03",
+  "source": "Z05",
+  "phrase": "Love as Robust Concern",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-04",
+  "source": "Z05",
+  "phrase": "spontaneous and unmotivated",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-04",
+  "source": "Z05",
+  "phrase": "Rather than responding to antecedent value in its object",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-05",
+  "source": "Z10",
+  "phrase": "Love is patient and is kind",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-05",
+  "source": "Z10",
+  "phrase": "endures all things",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-06",
+  "source": "Z06",
+  "phrase": "mother protects with her life",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-06",
+  "source": "Z06",
+  "phrase": "cherish all living beings",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-07",
+  "source": "Z09",
+  "phrase": "Who hateth nought",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-07",
+  "source": "Z09",
+  "phrase": "That man I love",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-08",
+  "source": "Z08",
+  "phrase": "love for the sake of utility",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-08",
+  "source": "Z08",
+  "phrase": "Perfect friendship is the friendship of men who are good",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-08",
+  "source": "Z08",
+  "phrase": "lasts as long as they are good",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-09",
+  "source": "Z07",
+  "phrase": "eldest and noblest and mightiest of the gods",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-10",
+  "source": "Z12",
+  "phrase": "love mercy",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-11",
+  "source": "Z03",
+  "phrase": "Nice strategies are those that are never the first to defect",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-11",
+  "source": "Z03",
+  "phrase": "Partner strategies are nice strategies which can sustain full cooperation as a Nash equilibrium",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-11",
+  "source": "Z03",
+  "phrase": "always cooperate",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-12",
+  "source": "Z11",
+  "phrase": "simply cooperates on the first round and imitates its opponent",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-12",
+  "source": "Z11",
+  "phrase": "sixty three entrants",
+  "result": "Pass"
+ },
+ {
+  "claim": "MR-12",
+  "source": "Z11",
+  "phrase": "TFT has serious drawbacks",
+  "result": "Pass"
+ }
+]

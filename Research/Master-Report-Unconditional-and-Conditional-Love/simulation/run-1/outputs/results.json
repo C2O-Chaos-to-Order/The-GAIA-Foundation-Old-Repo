@@ -1,0 +1,209 @@
+[
+ {
+  "id": "V1",
+  "kind": "validation",
+  "expect": "ALLD vs ALLC = 5 / 0",
+  "observed": [
+   5.0,
+   0.0
+  ],
+  "result": "Pass"
+ },
+ {
+  "id": "V2",
+  "kind": "validation",
+  "expect": "TFT-TFT 3; TFT vs ALLD 0.995",
+  "observed": [
+   3.0,
+   0.995
+  ],
+  "result": "Pass"
+ },
+ {
+  "id": "V3",
+  "kind": "validation",
+  "expect": "max |MC - exact| < 0.05 at eps 0.05",
+  "observed": 0.015053947400176071,
+  "result": "Pass"
+ },
+ {
+  "id": "H1",
+  "kind": "hypothesis",
+  "expect": "eps 0 with ALLD: ALLC < TFT and ALLC < GTFT",
+  "observed": {
+   "ALLC": 2.25,
+   "TFT": 2.49875,
+   "GTFT": 2.4158333333416246,
+   "ALLD": 2.3416666666335013
+  },
+  "result": "Supported"
+ },
+ {
+  "id": "H2",
+  "kind": "hypothesis",
+  "expect": "eps 0.05: TFT-TFT CC < 0.60 and GTFT-GTFT CC >= 0.80",
+  "observed": [
+   0.277828947352546,
+   0.7673095702964216
+  ],
+  "result": "Not supported"
+ },
+ {
+  "id": "H3",
+  "kind": "hypothesis",
+  "expect": "replicator: ALLC < 0.01 and TFT+GTFT > 0.5",
+  "observed": {
+   "ALLC": 0.14347198412775022,
+   "TFT": 0.03305315435060516,
+   "GTFT": 0.8234639121665815,
+   "ALLD": 1.0949355063140054e-05
+  },
+  "result": "Not supported"
+ },
+ {
+  "id": "H4",
+  "kind": "hypothesis",
+  "expect": "eps 0 no ALLD: identical scores",
+  "observed": {
+   "ALLC": 3.0,
+   "TFT": 3.0,
+   "GTFT": 3.0
+  },
+  "result": "Supported"
+ },
+ {
+  "id": "H5",
+  "kind": "hypothesis",
+  "expect": "eps 0.05 no ALLD: ALLC >= TFT",
+  "observed": {
+   "ALLC": 2.871631249998476,
+   "TFT": 2.727310225760459,
+   "GTFT": 2.854448177385185
+  },
+  "result": "Supported"
+ },
+ {
+  "id": "R1",
+  "kind": "reporting",
+  "expect": "payoff matrices",
+  "observed": {
+   "0.0": [
+    [
+     3.0,
+     3.0,
+     3.0,
+     0.0
+    ],
+    [
+     3.0,
+     3.0,
+     3.0,
+     0.995
+    ],
+    [
+     3.0,
+     3.0,
+     3.0,
+     0.6633
+    ],
+    [
+     5.0,
+     1.02,
+     2.3467,
+     1.0
+    ]
+   ],
+   "0.01": [
+    [
+     2.9899,
+     2.9605,
+     2.9703,
+     0.0401
+    ],
+    [
+     3.0093,
+     2.4604,
+     2.9702,
+     1.0151
+    ],
+    [
+     3.0028,
+     2.9259,
+     2.9706,
+     0.6901
+    ],
+    [
+     4.9401,
+     1.0884,
+     2.3723,
+     1.0299
+    ]
+   ],
+   "0.05": [
+    [
+     2.9475,
+     2.8109,
+     2.8565,
+     0.2025
+    ],
+    [
+     3.0348,
+     2.2897,
+     2.8574,
+     1.0958
+    ],
+    [
+     3.0057,
+     2.6971,
+     2.8605,
+     0.798
+    ],
+    [
+     4.7025,
+     1.3421,
+     2.4623,
+     1.1475
+    ]
+   ],
+   "0.1": [
+    [
+     2.89,
+     2.6432,
+     2.7255,
+     0.41
+    ],
+    [
+     3.0412,
+     2.2678,
+     2.7442,
+     1.198
+    ],
+    [
+     2.9908,
+     2.5145,
+     2.7415,
+     0.9354
+    ],
+    [
+     4.41,
+     1.616,
+     2.5474,
+     1.29
+    ]
+   ]
+  },
+  "result": "Reported"
+ },
+ {
+  "id": "R2",
+  "kind": "reporting",
+  "expect": "replicator end shares",
+  "observed": {
+   "ALLC": 0.143472,
+   "TFT": 0.033053,
+   "GTFT": 0.823464,
+   "ALLD": 1.1e-05
+  },
+  "result": "Reported"
+ }
+]

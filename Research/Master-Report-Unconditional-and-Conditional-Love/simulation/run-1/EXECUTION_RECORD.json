@@ -1,0 +1,87 @@
+{
+ "sim_id": "SIM-MR-1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T05:03:47.082178+00:00",
+ "finished_utc": "2026-10-24T05:03:48.114566+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4"
+ },
+ "command": "python simulation/sim_mr.py simulation/run-1",
+ "spec_sha256": "1fe384a8884a14cf3c38d7b581a5fc0f2f2b7f29af26117e960138f35a6ef1ba",
+ "params_sha256": "13649b71586e7d2e404219432a56e59ff08d349eb3eb6bbbb07eed52ff6c8bc5",
+ "code_sha256": "93e683f8200287d88ec5d14a71e7f4eb71a096307278bfddf9761243278a1f35",
+ "outputs": {
+  "outputs/results.json": "c89d00bd765354b071b8630c76767528827b82d74388405e3e01c78483663e73"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "ALLD vs ALLC = 5 / 0",
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "TFT-TFT 3; TFT vs ALLD 0.995",
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "max |MC - exact| < 0.05 at eps 0.05",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "eps 0 with ALLD: ALLC < TFT and ALLC < GTFT",
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "eps 0.05: TFT-TFT CC < 0.60 and GTFT-GTFT CC >= 0.80",
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "replicator: ALLC < 0.01 and TFT+GTFT > 0.5",
+   "result": "Not supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "eps 0 no ALLD: identical scores",
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "eps 0.05 no ALLD: ALLC >= TFT",
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "payoff matrices",
+   "result": "Reported"
+  },
+  {
+   "id": "R2",
+   "kind": "reporting",
+   "expect": "replicator end shares",
+   "result": "Reported"
+  }
+ ],
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 5,
+ "n_supported": 3,
+ "all_validation_passed": true,
+ "notes": "First invocation (same spec/params) crashed while serialising this record (numpy int64); fixed with int()/bool() casts only, then re-run. Model code unchanged."
+}
