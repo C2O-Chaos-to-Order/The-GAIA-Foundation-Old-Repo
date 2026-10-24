@@ -1,0 +1,61 @@
+{
+ "sim_id": "SIM-DV-FOR-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:48.578814+00:00",
+ "finished_utc": "2026-10-24T16:46:48.735548+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "877d5dee6e2f1facf2db2233aa4328e22871c6da06afee7deb2a063e98ccc68d",
+ "params_sha256": "0fb372c94bbd37a1cf111b71609b129f4f883c3e36e18f5129d6ecd7296acfb5",
+ "results_sha256": "335b206f11ca34d5695ad935c4a5b408b9fd04c5a0c5320af9121bb9d0ccf9ef",
+ "results": {
+  "S_a": 100002.0,
+  "S_b": -100000.0,
+  "S_a_plus_b": 2.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "sum of (a+b) partial sum within 1e-9 of 2 - 2^-(n-1)",
+   "observed": 2.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "both component partial sums exceed n/2 in magnitude while their sum stays below 2",
+   "observed": [
+    100002.0,
+    -100000.0,
+    2.0
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "S_a": 100002.0,
+    "S_b": -100000.0,
+    "S_a_plus_b": 2.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
