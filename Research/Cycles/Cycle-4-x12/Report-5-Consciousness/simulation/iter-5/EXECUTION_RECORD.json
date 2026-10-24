@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:19.750715+00:00",
+ "finished_utc": "2026-10-24T04:06:20.168123+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-5",
+ "params_sha256": "e34b203978ec7079140fe61ee01a3ddde8d3729957a79c37873a9c7a31f318c9",
+ "outputs": {
+  "outputs/results.json": "ea64c59f056535c6361383008db224d729ef08c2cad53e432e09e87001a5ad49"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "m 0.99, alpha 0.01: mean |MR error| < 0.01 at the longest recording",
+   "observed": 0.0005707218,
+   "result": "Supported"
+  },
+  {
+   "id": "H5r",
+   "kind": "reporting",
+   "expect": "error by recording length",
+   "observed": {
+    "10000": 0.0015232487,
+    "100000": 0.0005707218
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
