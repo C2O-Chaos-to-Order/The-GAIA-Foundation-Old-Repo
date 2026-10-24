@@ -1,0 +1,87 @@
+{
+ "sim_id": "SIM-DV-NAT-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:54.879734+00:00",
+ "finished_utc": "2026-10-24T08:10:54.950928+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "9c3a780e82ff8de5431ed0798caa65ef00a0a18792e4f557ed3936f6b460b1e4",
+ "params_sha256": "2841f17e89f846d170e1538569588682c48228e37c8dc77e07f9c41bdd46732e",
+ "results_sha256": "5f4f36054ae7fce0a9cf4056e7bf6da5e983d94335ebc925a016d4987fff6bea",
+ "results": {
+  "0.0": {
+   "fst_selected": 0.04626263,
+   "fst_selected_se": 0.00473091,
+   "fst_neutral": 0.06036758,
+   "fst_neutral_se": 0.00412373
+  },
+  "0.05": {
+   "fst_selected": 0.4496641,
+   "fst_selected_se": 0.01112378,
+   "fst_neutral": 0.06228569,
+   "fst_neutral_se": 0.00431883
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "s = 0.0: selected-locus Fst equals neutral Fst within 4 combined standard errors (code check: selection switched off)",
+   "observed": [
+    0.01410495,
+    0.02510354
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "s = 0.05, Nm = 1: selected-locus Fst > 0.5 while neutral Fst < 0.2 (an island of divergence)",
+   "observed": [
+    0.4496641,
+    0.06228569
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "selected-locus Fst is non-decreasing in s across the grid (tolerance 0.02)",
+   "observed": [
+    0.04626263,
+    0.4496641
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Fst by s (selected, neutral) and m",
+   "observed": {
+    "0.0": [
+     0.04626263,
+     0.06036758
+    ],
+    "0.05": [
+     0.4496641,
+     0.06228569
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

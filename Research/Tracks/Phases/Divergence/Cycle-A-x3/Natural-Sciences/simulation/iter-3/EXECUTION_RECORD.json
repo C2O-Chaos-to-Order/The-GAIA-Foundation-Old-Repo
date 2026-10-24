@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-DV-NAT-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:55.310025+00:00",
+ "finished_utc": "2026-10-24T08:10:55.728031+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "ed6427c85f2f5e42c77f80b78ef473bb0f065ef6a8fbd7e36535d03c36bc1950",
+ "params_sha256": "1d1014ea42831dfa6d813da3db0864c89b4e36cd21c584b2ae073ff9c896343f",
+ "results_sha256": "49212415b0a9377bfc907df9ed9cb81cbc7a29a844fb7ec5a79486e37b4c1100",
+ "results": {
+  "0.0": {
+   "frac_right": 0.489,
+   "se": 0.01117763,
+   "mean_abs_x": 0.9387375
+  },
+  "0.05": {
+   "frac_right": 0.957,
+   "se": 0.00453602,
+   "mean_abs_x": 0.98490188
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "bias 0 (symmetric landscape): fraction in the right valley within 4 binomial standard errors of 0.5",
+   "observed": [
+    0.489,
+    0.5,
+    0.04472136
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "after the bifurcation cells sit near the valley floors: mean |x| within 10% of sqrt(a1) = 1.0000",
+   "observed": 0.9387375,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a small bias 0.05 applied during the ramp sends > 0.9 of cells into one valley (sensitivity near the bifurcation)",
+   "observed": 0.957,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "fraction right by bias",
+   "observed": {
+    "0.0": 0.489,
+    "0.05": 0.957
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

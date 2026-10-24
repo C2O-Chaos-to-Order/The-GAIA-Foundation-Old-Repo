@@ -1,0 +1,75 @@
+{
+ "sim_id": "SIM-DV-PHI-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:11:02.772733+00:00",
+ "finished_utc": "2026-10-24T08:11:03.143354+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-2  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "31ecf24db82017c92bea81c8cd0dc5ab9f1e98dbbaeb104e4c6c4977e90c1f4b",
+ "params_sha256": "29ca9998c88ade57f3f448a1919ed3f7a3af12ebdb1d7d24e32ec9343a199b22",
+ "results_sha256": "552f3b9d0241112101ede96269b694441167f63a1f17e9bcb2abf72f2e4b0c77",
+ "results": {
+  "mean": {
+   "continuous": 0.2016332,
+   "binary": 0.1314388
+  },
+  "se": {
+   "continuous": 0.00230402,
+   "binary": 0.00158985
+  },
+  "population": 0.2,
+  "finite_sample": 0.20080321
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "continuous trait: mean CFst within max(4 SE, 0.005) of the finite-sample approximation (population value sb^2/(sb^2+sw^2) = 0.2000 reported)",
+   "observed": [
+    0.2016332,
+    0.20080321,
+    0.00921608
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "dichotomising the same trait lowers CFst by at least 20% relative to the continuous value",
+   "observed": 0.34812916,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "mean CFst by scale, population and finite-sample values",
+   "observed": {
+    "mean": {
+     "continuous": 0.2016332,
+     "binary": 0.1314388
+    },
+    "se": {
+     "continuous": 0.00230402,
+     "binary": 0.00158985
+    },
+    "population": 0.2,
+    "finite_sample": 0.20080321
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

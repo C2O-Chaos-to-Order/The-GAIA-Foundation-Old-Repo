@@ -1,0 +1,36 @@
+# Divergence in the Natural Sciences — Cycle-A-x3 (DVA)
+
+Phase report: Divergence (`../../README.md`). Definitions and competing definitions: `../DEFINITIONS.md`. Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA's Phase axis is a framework category (PS), kept separate from the findings.
+
+## Reading of this cycle
+x3 adds the developmental sense (Waddington's landscape, P10) and selection-driven divergence by simulation: a selected locus can stay differentiated against gene flow, but only when selection is strong relative to migration in this toy.
+
+## Claims (ledger: `claims/claims.csv`)
+- **DVA-NAT-01** [E] In a speciation continuum of hybridizing races and incipient species of Heliconius erato-clade butterflies, genomic divergence increases with ecological and reproductive isolation, both at the red colour-pattern locus and at genomic regions unlinked to colour pattern. *Operationalization:* Divergence = genomic differentiation between populations along a speciation continuum. *Sources:* P01. *Limits:* 2.2 Mb of the H. erato genome only; a handful of population pairs; continuum stages are proxies for speciation stages, not a time series.
+- **DVA-NAT-04** [E] Darwin's 1837-1838 notebook states that 'organized beings represent a tree irregularly branched', and the text beside an early sketch concerns genealogical distance between descendants of a common ancestor, where Darwin would later locate his principle of divergence of characteristics. *Operationalization:* Divergence = branching descent from a common ancestor (Darwin's principle of divergence). *Sources:* P02. *Limits:* Reported through a history-of-science article; the notebook itself was not read here.
+- **DVA-NAT-05** [E] The epigenetic landscape was a visual metaphor introduced in the mid-twentieth century to illustrate the genetic control of embryonic differentiation; Waddington pictured development as a marble rolling down a rugged hillside whose valleys are held in place by genes. *Operationalization:* Divergence = developmental differentiation of cell fates (landscape metaphor). *Sources:* P10. *Limits:* P10 is a short editorial perspective, not a research paper; it describes the metaphor and does not test it.
+- **DVA-NAT-02** [P] The same study infers that divergence may accumulate early in the speciation process and that limited gene flow cannot account for the high divergence between the incipient species H. erato and H. himera. *Operationalization:* Divergence with gene flow (divergence proceeding despite exchange). *Sources:* P01. *Limits:* Inference from one incipient-species pair; alternative histories (e.g. older isolation) are not excluded by the data shown.
+- **DVA-NAT-03** [P] In a neutral two-deme Wright-Fisher model (N = 100, 400 loci), drift alone raised Fst to 0.385 after 200 generations (heterozygosity decay matched theory within 5%), whereas symmetric migration with Nm = 1 held Fst at 0.056: gene flow strongly restrains neutral divergence. *Operationalization:* Divergence = Fst growth between demes. *Sources:* SIM-DV-NAT-0/iter-1#V1;SIM-DV-NAT-0/iter-1#H1;SIM-DV-NAT-0/iter-1#H2. *Limits:* Toy neutral model; the H1 threshold was moved from 0.5 to 0.25 after a pre-spec smoke test (disclosed in the SPEC). Selection, which drives the colour-locus divergence in P01, is absent.
+- **DVA-NAT-06** [P] The word 'epigenetics' has itself diverged: P10's author judges that so many studies are now called epigenetic that one hardly knows what is and what is not epigenetic, and that much of the field has veered far from Waddington's landscape concept. *Operationalization:* Divergence = semantic drift of a scientific term. *Sources:* P10. *Limits:* An editor's view supported by a keyword map of 2017-2021 publications; not a systematic conceptual analysis.
+- **DVA-NAT-07** [P] In a two-deme Wright-Fisher toy (N = 100, Nm = 1, 200 generations), neutral loci stayed near Fst 0.06 while a locus under divergent selection rose with s: 0.06 (s = 0), 0.10 (0.01), 0.18 (0.02), 0.46 (0.05), 0.67 (0.1). The pre-registered 'island' criterion (selected Fst > 0.5 with neutral Fst < 0.2) was not supported at s = 0.05 (0.45 in iteration 1) and supported at s = 0.1. *Operationalization:* Divergence = locus-specific differentiation under divergent selection with gene flow. *Sources:* SIM-DV-NAT-A/iter-1#V1;SIM-DV-NAT-A/iter-1#H1;SIM-DV-NAT-A/iter-1#H2;SIM-DV-NAT-A/iter-2#V1;SIM-DV-NAT-A/iter-2#H1;SIM-DV-NAT-A/iter-2#H2. *Limits:* Unlinked loci and genic selection; no hitchhiking, so this is a migration-selection balance toy, not a genomic-island model of P01's butterflies.
+- **DVA-NAT-08** [P] In a one-dimensional pitchfork 'landscape' whose single valley splits into two, 2,000 identical cells with no bias divided 48.9% / 51.1% between the valleys (consistent with 50/50 within 4 standard errors), while a bias of 0.05 applied during the split sent 95.7% into one valley: near a bifurcation a small asymmetry decides most fates. *Operationalization:* Divergence = bifurcation of a state space into separate attractors. *Sources:* SIM-DV-NAT-A/iter-3#V1;SIM-DV-NAT-A/iter-3#V2;SIM-DV-NAT-A/iter-3#H1. *Limits:* A normal-form toy, not a gene-network model; P10 supplies only the metaphor.
+
+## Simulations (SIM-DV-NAT-A; 3 iteration(s), spec-first; validation 4/4, hypotheses supported 4/5)
+
+| iter | params | purpose | checks |
+|---|---|---|---|
+| 1 | `2841f17e` | Divergence with gene flow at a selected locus: does divergent selection keep one locus differentiated (an 'island') while migration homogenises neutral loci? | V1 Pass; H1 Not supported; H2 Supported; R1 Reported |
+| 2 | `f8a7a4c5` | Same model over a grid of selection strengths (s from 0 to 0.1 at m = 0.01) to locate where selected-locus divergence takes off relative to migration. | V1 Pass; H1 Supported; H2 Supported; R1 Reported |
+| 3 | `1d1014ea` | Developmental divergence as a formal toy: when a one-valley landscape becomes two-valley (pitchfork bifurcation), do identical cells split between fates, and how sensitive is the split to a small bias? | V1 Pass; V2 Pass; H1 Supported; R1 Reported |
+
+Each `simulation/iter-k/SPEC.md` was written before execution and holds the parameters; `EXECUTION_RECORD.json` holds results, checks and hashes. 'Not supported' is a finding, not an error.
+
+## Research passes (3; details `research/PASSES.md`)
+- Pass 1: P10 sources the developmental sense of divergence (the landscape as a metaphor for genetic control of embryonic differentiation) and documents the term's own semantic drift. Basis for SIM-DV-NAT-A iter-3.
+- Pass 2: Added nothing: eight relevant genomic-island papers (about 8,000 words each) were listed but none was read in full in this cycle, so none is cited. Selection-driven divergence was explored only by simulation (iterations 1-2).
+- Pass 3: Added nothing: no further search; the physical-bifurcation sense is covered only by the formal pitchfork simulation, not by a source.
+
+## Unresolved
+- Genomic islands with linkage/hitchhiking are not modelled; no genomic-island paper read in full.
+- The pitchfork link to cell fate rests on a metaphor (P10); no quantitative developmental source read.
+- P01 and P02 not yet re-read in full.
