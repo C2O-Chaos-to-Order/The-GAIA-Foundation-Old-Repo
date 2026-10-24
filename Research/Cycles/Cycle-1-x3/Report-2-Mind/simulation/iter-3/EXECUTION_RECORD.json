@@ -1,0 +1,47 @@
+{
+ "sim_id": "SIM-R2-C1",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:44.460486+00:00",
+ "finished_utc": "2026-10-24T01:19:44.637606+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-3",
+ "params_sha256": "e3f316817f1ca3e582a18e1f6f48fdaa2c2b208a3afc36fc20db9824be7f9390",
+ "outputs": {
+  "outputs/results.json": "3d5c74ed2406e6768a8fc0428bd7237bfcd09cf046b9447b4b48ffadf2487c35"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "F1",
+   "kind": "hypothesis",
+   "expect": "Ebbinghaus: exponential is not the best model by AIC or by LOOCV",
+   "observed": [
+    "power",
+    "power"
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "F3",
+   "kind": "reporting",
+   "expect": "report whether AIC and LOOCV agree per dataset (reporting check)",
+   "observed": {
+    "ebbinghaus": true,
+    "dros": true
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
