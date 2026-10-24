@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-SPIRIT-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:11:03.539226+00:00",
+ "finished_utc": "2026-10-24T06:11:03.573060+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-3  (run from Spirit/simulation/)",
+ "spec_sha256": "d5c63d3a9272b9137e64f6ff4e78540307c1cc5224d0be49a3c35186caf4fa52",
+ "params_sha256": "25b7b318f051ec4b9f92185702dbe95794ede2fe566a8939025226a85dd7071c",
+ "results_sha256": "a476df60fd70ee452c80cf7b94404f3da2010620ba0580f7a8efac4bf14a9856",
+ "results": {
+  "cases": {
+   "visual_vs_mystical": {
+    "observed_analytic": 0.3968627,
+    "observed_sim": 0.39795677,
+    "loss": 0.1031373
+   },
+   "mystical_vs_mystical": {
+    "observed_analytic": 0.45,
+    "observed_sim": 0.44809278,
+    "loss": 0.05
+   }
+  },
+  "disattenuated": {
+   "K45_spirituality_mindfulness": 0.2475
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated observed correlations within 0.01 of r*sqrt(rel_x*rel_y)",
+   "observed": {
+    "visual_vs_mystical": [
+     0.39795677,
+     0.3968627
+    ],
+    "mystical_vs_mystical": [
+     0.44809278,
+     0.45
+    ]
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "case 'visual_vs_mystical': measurement error alone lowers the observed correlation by >= 0.05",
+   "observed": 0.1031373,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "disattenuated values for reported correlations (assumed reliabilities)",
+   "observed": {
+    "K45_spirituality_mindfulness": 0.2475
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
