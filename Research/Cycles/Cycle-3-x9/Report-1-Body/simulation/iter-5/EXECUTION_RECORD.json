@@ -1,0 +1,49 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:42.210056+00:00",
+ "finished_utc": "2026-10-24T03:00:43.176060+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-5",
+ "params_sha256": "63e60224f34161a5cc411bc677ba03cb58024dddfe112fe728bcde73b548d74f",
+ "outputs": {
+  "outputs/results.json": "494c18ec4d50042eb163efa1a2c5eed04175d0d1e4d6ae05c612ff06eb03d4de"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "BIC model selection on a realistic sampling scheme (3 HA test days, 1 post-decay, 5 re-induction days) recovers the generating model in >= 80% of datasets at 5% noise",
+   "observed": {
+    "0.05": 0.9833333333,
+    "0.1": 0.9,
+    "0.2": 0.7666666667
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5r",
+   "kind": "reporting",
+   "expect": "report recovery at higher noise",
+   "observed": {
+    "0.05": 0.9833333333,
+    "0.1": 0.9,
+    "0.2": 0.7666666667
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
