@@ -1,0 +1,90 @@
+{
+ "sim_id": "SIM-AL-APP-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:58.807545+00:00",
+ "finished_utc": "2026-10-24T19:11:59.489968+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "4c2bb755909952c078d3fe7e425fe822f2cdac2bf10eb33dc3e3231e6d359ff1",
+ "params_sha256": "5b0eba8974142a5fdce6402e7f2aec7706f73d2b56edb21c8aea23a004abdc7b",
+ "results_sha256": "721eabf34a907fec71905a0a01706cea27ff613a90aa0479abbb56a3e0d28b1e",
+ "results": {
+  "analytic": {
+   "z": 1.464,
+   "p_two_sided": 0.14319395,
+   "power": 0.31025574
+  },
+  "sim": {
+   "mean_beta": -0.18452575,
+   "sd_beta": 0.10057152,
+   "mean_se": 0.10019796,
+   "power": 0.46
+  },
+  "p_ge2_of_5_null": 0.0225925
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "reported p reproduced from beta/SE within 0.01 (P49: p = .144) and simulated mean beta within 4 SE of truth",
+   "observed": [
+    0.14319395,
+    -0.18452575,
+    0.10057152
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "power to detect P49's moderator size with P49's SE is below 0.5",
+   "observed": 0.31025574,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "simulated design gives a mean SE within 20% of 0.125 and power within 0.1 of the analytic value",
+   "observed": [
+    0.10019796,
+    0.46,
+    0.31025574
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "analytic": {
+     "z": 1.464,
+     "p_two_sided": 0.14319395,
+     "power": 0.31025574
+    },
+    "sim": {
+     "mean_beta": -0.18452575,
+     "sd_beta": 0.10057152,
+     "mean_se": 0.10019796,
+     "power": 0.46
+    },
+    "p_ge2_of_5_null": 0.0225925
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
