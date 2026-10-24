@@ -1,0 +1,86 @@
+{
+ "sim_id": "SIM-IN-HUM-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:49:32.254823+00:00",
+ "finished_utc": "2026-10-24T17:49:32.397053+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-5  (run from Humanities/simulation/)",
+ "spec_sha256": "8b2b8780f170534a73059ff90cafcb941dc102bc37acdc6c22d8e52b05e69128",
+ "params_sha256": "f588cf33ff15a2c296cd3f6885a011c0e57e9506407a7f353b15b4c11bf49336",
+ "results_sha256": "1f9115aade125a6f74ebcbec69a6f9fba47e0ef13b4fc9bd8a85b40d43aa6364",
+ "results": {
+  "0.1,0.1": {
+   "G": 0.69329,
+   "se": 0.00131383,
+   "eq6": 0.69314718
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "G in [0, 1]",
+   "observed": {
+    "0.1,0.1": {
+     "G": 0.69329,
+     "se": 0.00131383,
+     "eq6": 0.69314718
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "simulated G within 4 SE (+0.005) of Eq. 6 for every (a, b)",
+   "observed": {
+    "0.1,0.1": {
+     "G": 0.69329,
+     "se": 0.00131383,
+     "eq6": 0.69314718
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "a = b gives G > 0.5 (P29: exogenous factors dominate)",
+   "observed": {
+    "0.1,0.1": {
+     "G": 0.69329,
+     "se": 0.00131383,
+     "eq6": 0.69314718
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "0.1,0.1": {
+     "G": 0.69329,
+     "se": 0.00131383,
+     "eq6": 0.69314718
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
