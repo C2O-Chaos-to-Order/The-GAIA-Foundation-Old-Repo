@@ -1,0 +1,539 @@
+{
+ "sim_id": "SIM-CV-APP-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:23:25.642506+00:00",
+ "finished_utc": "2026-10-24T20:23:26.034536+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "b4eaa66c8e6b013ad974254f65358aeb56a4796e9d6c082bc538f2a481936826",
+ "params_sha256": "1e82916a099b630bd4b357d736cc6dd3c975524886f782348b06322bf0cc78a1",
+ "results_sha256": "79d7bf5fdd4347fd2094f35cb34ac9e28645941d01692c5acd2d51ff33b3e428",
+ "results": {
+  "table": {
+   "trapezoid": {
+    "errors": {
+     "8": 0.01198827,
+     "16": 0.00292991,
+     "32": 0.00072844
+    },
+    "orders": [
+     2.0327,
+     2.008
+    ],
+    "n_for_target": 8630,
+    "evals_for_target": 8631
+   },
+   "simpson": {
+    "errors": {
+     "8": 0.00170084,
+     "16": 8.955e-05,
+     "32": 5.38e-06
+    },
+    "orders": [
+     4.2474,
+     4.0572
+    ],
+    "n_for_target": 154,
+    "evals_for_target": 155
+   },
+   "gauss2": {
+    "errors": {
+     "8": 5.991e-05,
+     "16": 3.59e-06,
+     "32": 2.2e-07
+    },
+    "orders": [
+     4.0609,
+     4.015
+    ],
+    "n_for_target": 70,
+    "evals_for_target": 140
+   }
+  },
+  "printed": null,
+  "eta": 0.400007,
+  "ahqs": {
+   "evals": 1965,
+   "error": 0.0
+  },
+  "reductions_pct": {},
+  "exact": 0.07846694,
+  "ahqs_by_eps": {
+   "1e-06": {
+    "evals": 585,
+    "error": 1e-08
+   },
+   "1e-08": {
+    "evals": 1965,
+    "error": 0.0
+   },
+   "1e-10": {
+    "evals": 4945,
+    "error": 0.0
+   }
+  },
+  "func": "f4",
+  "n_mode": "sub"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson and 2-point Gauss integrate x^3 - 2x + 1 on [0, 1] exactly (0.25)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "trapezoid evaluations to 1e-8 within 10% of P70 Table 2's 1024",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.01198827,
+       "16": 0.00292991,
+       "32": 0.00072844
+      },
+      "orders": [
+       2.0327,
+       2.008
+      ],
+      "n_for_target": 8630,
+      "evals_for_target": 8631
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.00170084,
+       "16": 8.955e-05,
+       "32": 5.38e-06
+      },
+      "orders": [
+       4.2474,
+       4.0572
+      ],
+      "n_for_target": 154,
+      "evals_for_target": 155
+     },
+     "gauss2": {
+      "errors": {
+       "8": 5.991e-05,
+       "16": 3.59e-06,
+       "32": 2.2e-07
+      },
+      "orders": [
+       4.0609,
+       4.015
+      ],
+      "n_for_target": 70,
+      "evals_for_target": 140
+     }
+    },
+    "printed": null,
+    "eta": 0.400007,
+    "ahqs": {
+     "evals": 1965,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.07846694,
+    "ahqs_by_eps": {
+     "1e-06": {
+      "evals": 585,
+      "error": 1e-08
+     },
+     "1e-08": {
+      "evals": 1965,
+      "error": 0.0
+     },
+     "1e-10": {
+      "evals": 4945,
+      "error": 0.0
+     }
+    },
+    "func": "f4",
+    "n_mode": "sub"
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Simpson evaluations within 10% of Table 2's 256",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.01198827,
+       "16": 0.00292991,
+       "32": 0.00072844
+      },
+      "orders": [
+       2.0327,
+       2.008
+      ],
+      "n_for_target": 8630,
+      "evals_for_target": 8631
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.00170084,
+       "16": 8.955e-05,
+       "32": 5.38e-06
+      },
+      "orders": [
+       4.2474,
+       4.0572
+      ],
+      "n_for_target": 154,
+      "evals_for_target": 155
+     },
+     "gauss2": {
+      "errors": {
+       "8": 5.991e-05,
+       "16": 3.59e-06,
+       "32": 2.2e-07
+      },
+      "orders": [
+       4.0609,
+       4.015
+      ],
+      "n_for_target": 70,
+      "evals_for_target": 140
+     }
+    },
+    "printed": null,
+    "eta": 0.400007,
+    "ahqs": {
+     "evals": 1965,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.07846694,
+    "ahqs_by_eps": {
+     "1e-06": {
+      "evals": 585,
+      "error": 1e-08
+     },
+     "1e-08": {
+      "evals": 1965,
+      "error": 0.0
+     },
+     "1e-10": {
+      "evals": 4945,
+      "error": 0.0
+     }
+    },
+    "func": "f4",
+    "n_mode": "sub"
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "Algorithm 1 as printed (eps 1e-8) within 25% of Table 2's hybrid count 128",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.01198827,
+       "16": 0.00292991,
+       "32": 0.00072844
+      },
+      "orders": [
+       2.0327,
+       2.008
+      ],
+      "n_for_target": 8630,
+      "evals_for_target": 8631
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.00170084,
+       "16": 8.955e-05,
+       "32": 5.38e-06
+      },
+      "orders": [
+       4.2474,
+       4.0572
+      ],
+      "n_for_target": 154,
+      "evals_for_target": 155
+     },
+     "gauss2": {
+      "errors": {
+       "8": 5.991e-05,
+       "16": 3.59e-06,
+       "32": 2.2e-07
+      },
+      "orders": [
+       4.0609,
+       4.015
+      ],
+      "n_for_target": 70,
+      "evals_for_target": 140
+     }
+    },
+    "printed": null,
+    "eta": 0.400007,
+    "ahqs": {
+     "evals": 1965,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.07846694,
+    "ahqs_by_eps": {
+     "1e-06": {
+      "evals": 585,
+      "error": 1e-08
+     },
+     "1e-08": {
+      "evals": 1965,
+      "error": 0.0
+     },
+     "1e-10": {
+      "evals": 4945,
+      "error": 0.0
+     }
+    },
+    "func": "f4",
+    "n_mode": "sub"
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "Algorithm 1 error at eps 1e-8 is below 1e-8",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.01198827,
+       "16": 0.00292991,
+       "32": 0.00072844
+      },
+      "orders": [
+       2.0327,
+       2.008
+      ],
+      "n_for_target": 8630,
+      "evals_for_target": 8631
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.00170084,
+       "16": 8.955e-05,
+       "32": 5.38e-06
+      },
+      "orders": [
+       4.2474,
+       4.0572
+      ],
+      "n_for_target": 154,
+      "evals_for_target": 155
+     },
+     "gauss2": {
+      "errors": {
+       "8": 5.991e-05,
+       "16": 3.59e-06,
+       "32": 2.2e-07
+      },
+      "orders": [
+       4.0609,
+       4.015
+      ],
+      "n_for_target": 70,
+      "evals_for_target": 140
+     }
+    },
+    "printed": null,
+    "eta": 0.400007,
+    "ahqs": {
+     "evals": 1965,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.07846694,
+    "ahqs_by_eps": {
+     "1e-06": {
+      "evals": 585,
+      "error": 1e-08
+     },
+     "1e-08": {
+      "evals": 1965,
+      "error": 0.0
+     },
+     "1e-10": {
+      "evals": 4945,
+      "error": 0.0
+     }
+    },
+    "func": "f4",
+    "n_mode": "sub"
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "Algorithm 1 error below eps at eps 1e-6, 1e-8, 1e-10",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.01198827,
+       "16": 0.00292991,
+       "32": 0.00072844
+      },
+      "orders": [
+       2.0327,
+       2.008
+      ],
+      "n_for_target": 8630,
+      "evals_for_target": 8631
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.00170084,
+       "16": 8.955e-05,
+       "32": 5.38e-06
+      },
+      "orders": [
+       4.2474,
+       4.0572
+      ],
+      "n_for_target": 154,
+      "evals_for_target": 155
+     },
+     "gauss2": {
+      "errors": {
+       "8": 5.991e-05,
+       "16": 3.59e-06,
+       "32": 2.2e-07
+      },
+      "orders": [
+       4.0609,
+       4.015
+      ],
+      "n_for_target": 70,
+      "evals_for_target": 140
+     }
+    },
+    "printed": null,
+    "eta": 0.400007,
+    "ahqs": {
+     "evals": 1965,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.07846694,
+    "ahqs_by_eps": {
+     "1e-06": {
+      "evals": 585,
+      "error": 1e-08
+     },
+     "1e-08": {
+      "evals": 1965,
+      "error": 0.0
+     },
+     "1e-10": {
+      "evals": 4945,
+      "error": 0.0
+     }
+    },
+    "func": "f4",
+    "n_mode": "sub"
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.01198827,
+       "16": 0.00292991,
+       "32": 0.00072844
+      },
+      "orders": [
+       2.0327,
+       2.008
+      ],
+      "n_for_target": 8630,
+      "evals_for_target": 8631
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.00170084,
+       "16": 8.955e-05,
+       "32": 5.38e-06
+      },
+      "orders": [
+       4.2474,
+       4.0572
+      ],
+      "n_for_target": 154,
+      "evals_for_target": 155
+     },
+     "gauss2": {
+      "errors": {
+       "8": 5.991e-05,
+       "16": 3.59e-06,
+       "32": 2.2e-07
+      },
+      "orders": [
+       4.0609,
+       4.015
+      ],
+      "n_for_target": 70,
+      "evals_for_target": 140
+     }
+    },
+    "printed": null,
+    "eta": 0.400007,
+    "ahqs": {
+     "evals": 1965,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.07846694,
+    "ahqs_by_eps": {
+     "1e-06": {
+      "evals": 585,
+      "error": 1e-08
+     },
+     "1e-08": {
+      "evals": 1965,
+      "error": 0.0
+     },
+     "1e-10": {
+      "evals": 4945,
+      "error": 0.0
+     }
+    },
+    "func": "f4",
+    "n_mode": "sub"
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 7,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 5,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
