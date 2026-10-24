@@ -1,0 +1,20 @@
+{
+ "carried_from_prev": {},
+ "decay_reinduction": {
+  "decay_rate_pct_per_day": 2.1317165893,
+  "pct_decay": 29.8440322499,
+  "ratio": 2.1336901376,
+  "reinduction_days_to_95pct": 6,
+  "reinduction_rate_pct_per_day": 4.5484226627,
+  "w_acclimated": 0.0398474437,
+  "w_after_decay": 0.0279553598
+ },
+ "ha_days_lost": 7,
+ "lam_fitted": 0.025,
+ "learning_used": {
+  "eta": 0.01,
+  "lam": 0.0,
+  "w_max": null
+ },
+ "safe_w_max": null
+}

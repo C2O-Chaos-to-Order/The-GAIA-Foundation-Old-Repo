@@ -1,0 +1,92 @@
+{
+ "sim_id": "SIM-R2-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:43.859089+00:00",
+ "finished_utc": "2026-10-24T01:19:43.859903+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-1",
+ "params_sha256": "2bb09e4746e8d7f5d5cbdee319d755f51a47798c91953335470f5a5c702984de",
+ "outputs": {
+  "outputs/results.json": "502ccba89d4c32927a7fdbe66e5bee42c3c0b3802ddf40d56143dc318e800be9"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "W1",
+   "kind": "validation",
+   "expect": "blocking ratio is monotone non-increasing in n_pre at every alpha",
+   "observed": null,
+   "result": "Pass"
+  },
+  {
+   "id": "W2",
+   "kind": "hypothesis",
+   "expect": "blocking (ratio<0.1) is not universal: it fails for weak pretraining (low alpha x n_pre) - report the boundary",
+   "observed": [
+    [
+     0.02,
+     1,
+     0.98
+    ],
+    [
+     0.02,
+     2,
+     0.96
+    ],
+    [
+     0.02,
+     5,
+     0.904
+    ],
+    [
+     0.02,
+     10,
+     0.817
+    ],
+    [
+     0.02,
+     20,
+     0.668
+    ],
+    [
+     0.05,
+     1,
+     0.95
+    ],
+    [
+     0.05,
+     2,
+     0.902
+    ],
+    [
+     0.05,
+     5,
+     0.774
+    ],
+    [
+     0.05,
+     10,
+     0.599
+    ],
+    [
+     0.05,
+     20,
+     0.358
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

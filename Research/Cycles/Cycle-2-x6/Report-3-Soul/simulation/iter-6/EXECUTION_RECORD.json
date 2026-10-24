@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R3-C2",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:17:10.193158+00:00",
+ "finished_utc": "2026-10-24T02:17:11.440152+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-6",
+ "params_sha256": "c8bc077110e630299dd6877fc566b531ad3f83a7ddb3d868a85f3a91231b5784",
+ "outputs": {
+  "outputs/results.json": "b7693d4a7e4d0bbebf5f9ef1a6097a094c3a9044b138f156187e8d4b4c67da30"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "extrapolated full-matrix disagreements (sample rate x 180 cells) stay below the flip count at which median ARI drops under 0.8",
+   "observed": [
+    18.75,
+    4
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,18 @@
+{
+ "carried_from_prev": {
+  "pci_peak_K": 2.0
+ },
+ "noise_dissociation": {
+  "K_peak_used": 2.0,
+  "at_pci_peak": {
+   "pci_like": 0.7162863621,
+   "response_fraction": 0.3004166667,
+   "spont_lz": 0.4912608177
+  },
+  "uncoupled_noisy": {
+   "pci_like": 0.2206924424,
+   "response_fraction": 0.2216666667,
+   "spont_lz": 0.8561974252
+  }
+ }
+}

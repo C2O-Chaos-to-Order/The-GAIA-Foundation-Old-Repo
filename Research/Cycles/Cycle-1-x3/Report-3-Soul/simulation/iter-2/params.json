@@ -1,0 +1,24 @@
+{
+ "coding_file": "../data/coding_c0.csv",
+ "experiments": {
+  "methods": {
+   "k": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "linkages": [
+    "single",
+    "complete",
+    "average",
+    "weighted",
+    "ward"
+   ]
+  }
+ },
+ "iteration": 2,
+ "prev": "../iter-1",
+ "sim_id": "SIM-R3-C1"
+}

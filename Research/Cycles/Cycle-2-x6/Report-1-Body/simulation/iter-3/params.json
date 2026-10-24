@@ -1,0 +1,39 @@
+{
+ "experiments": {
+  "false_cue": {
+   "days": 14,
+   "max_undershoot": 0.2,
+   "w_max": [
+    null,
+    0.01,
+    0.02,
+    0.03,
+    0.04
+   ]
+  }
+ },
+ "iteration": 3,
+ "learning": {
+  "eta": 0.01,
+  "lam": 0.0,
+  "w_max": null
+ },
+ "model": {
+  "Kp": 0.1,
+  "T0": 0.0,
+  "Tset": 0.0,
+  "Umax": 0.04,
+  "Umax_total": 0.1,
+  "a": 0.02,
+  "d": 0.06,
+  "dt": 1.0,
+  "session": {
+   "cue_on": 50,
+   "n": 300,
+   "work_off": 180,
+   "work_on": 60
+  }
+ },
+ "prev": "../iter-2",
+ "sim_id": "SIM-R1-C2"
+}

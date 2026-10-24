@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-R4-C1",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:46.757426+00:00",
+ "finished_utc": "2026-10-24T01:19:46.783559+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-3",
+ "params_sha256": "50b10f03e2a0e5a1e5f17ea8594407f93ed3724e695f67897ebf15cdd30585bb",
+ "outputs": {
+  "outputs/results.json": "06df3b60183ac676444d6209f26781d6f8bd39607d5ac0ef1d418dc820f6b075"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "S1",
+   "kind": "validation",
+   "expect": "with only family-level confounding, sibling FE is unbiased (|bias|<0.02) and naive OLS is not (|bias|>0.1)",
+   "observed": [
+    0.0081281982,
+    0.2835629412
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "S2",
+   "kind": "validation",
+   "expect": "individual-level confounding biases sibling FE (|bias|>0.05)",
+   "observed": -0.1707737434,
+   "result": "Pass"
+  },
+  {
+   "id": "S3",
+   "kind": "validation",
+   "expect": "valid strong instrument recovers beta under individual confounding (|IV bias|<0.03)",
+   "observed": 0.0021470664,
+   "result": "Pass"
+  },
+  {
+   "id": "S4",
+   "kind": "validation",
+   "expect": "exclusion-restriction violation biases IV (|bias|>0.05)",
+   "observed": -0.2352471926,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 4,
+ "n_validation_pass": 4,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

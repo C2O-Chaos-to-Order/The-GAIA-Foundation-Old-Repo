@@ -1,0 +1,31 @@
+{
+ "experiments": {
+  "multiple_mediators": {
+   "c12": [
+    0.0,
+    0.3,
+    0.6
+   ],
+   "n": 200000,
+   "s12_reported_pms_sum": "S12 Table 4: 11% + 22% + 9% + 23% = 65% for the four mediators with P < 0.01 (each estimated separately)",
+   "test_c12": 0.6
+  }
+ },
+ "gen": {
+  "a1": 0.5,
+  "a2": 0.3,
+  "aL": 0.5,
+  "b1": 0.4,
+  "b2": 0.3,
+  "c": 0.4,
+  "c12": 0.0,
+  "lm": 0.3,
+  "ly": 0.3,
+  "u_m": 0.0,
+  "u_y": 0.0
+ },
+ "iteration": 3,
+ "prev": "../iter-2",
+ "seed": 3,
+ "sim_id": "SIM-R4-C2"
+}

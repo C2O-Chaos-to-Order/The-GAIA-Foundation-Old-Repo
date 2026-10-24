@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-R3-C1",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:45.854184+00:00",
+ "finished_utc": "2026-10-24T01:19:46.244653+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-3",
+ "params_sha256": "6ffee3b7174ba4a6926efcf949425c3731ac621e9031ae310d4c7acc0e948750",
+ "outputs": {
+  "outputs/results.json": "a2b823788114bbd51c044dddc31cdc55f6c72304591ace79e284eb90748e099b"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "K1",
+   "kind": "reporting",
+   "expect": "report base-partition recurrence across codings x metrics x linkages x k (reporting)",
+   "observed": 0.0,
+   "result": "Reported"
+  },
+  {
+   "id": "K2",
+   "kind": "hypothesis",
+   "expect": "a stable core exists: at least one pair co-clusters in >= pair_threshold of draws",
+   "observed": 7,
+   "result": "Supported"
+  },
+  {
+   "id": "K3",
+   "kind": "reporting",
+   "expect": "adding C15 (Jain jiva) is reported with its stable partners (reporting)",
+   "observed": [
+    [
+     "C01",
+     "C15",
+     0.862
+    ]
+   ],
+   "result": "Reported"
+  },
+  {
+   "id": "E1",
+   "kind": "validation",
+   "expect": "coding matrix complete (0/1 only) and every row has a source",
+   "observed": {
+    "shape": [
+     15,
+     12
+    ],
+    "sourced": true
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "E3",
+   "kind": "hypothesis",
+   "expect": "no attribute is shared by all conceptions (no universal definition in this coding)",
+   "observed": 10,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 2,
+ "all_validation_passed": true
+}

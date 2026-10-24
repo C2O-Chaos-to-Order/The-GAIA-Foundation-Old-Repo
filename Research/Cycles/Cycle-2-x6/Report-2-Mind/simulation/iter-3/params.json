@@ -1,0 +1,38 @@
+{
+ "defaults": {
+  "KF": {
+   "s0": 1.0,
+   "sigma2": 0.5,
+   "tau2": 0.01
+  },
+  "PH": {
+   "S": 0.5,
+   "alpha0": 0.5,
+   "gamma": 0.3
+  },
+  "RW": {
+   "alpha": 0.3,
+   "beta": 1.0
+  }
+ },
+ "experiments": {
+  "li_dose": {
+   "models": [
+    "PH",
+    "KF"
+   ],
+   "n_acq": 5,
+   "n_pre": [
+    0,
+    5,
+    10,
+    20,
+    40,
+    80
+   ]
+  }
+ },
+ "iteration": 3,
+ "prev": "../iter-2",
+ "sim_id": "SIM-R2-C2"
+}

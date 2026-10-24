@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-R7-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:22:20.817540+00:00",
+ "finished_utc": "2026-10-24T02:22:20.819702+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-1",
+ "params_sha256": "b3812e3e7fd564a1f33342fe0b4257e5e6d7ef80324123dbf9a1a06b0f55d530",
+ "outputs": {
+  "outputs/results.json": "ce5cd05ae1ad5811c2bcc337d21faead8e13347c91f5e610da518376e5261c03"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "SR0",
+   "kind": "validation",
+   "expect": "rule on toy cases: E<-{E} stays E; E<-{E,P} becomes P; non-E links untouched",
+   "observed": [
+    "Established",
+    "Plausible",
+    "Plausible"
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "SR1",
+   "kind": "reporting",
+   "expect": "report links downgraded by the strict rule and the non-Established basis claims that cause it",
+   "observed": [
+    [
+     "L04",
+     [
+      [
+       "C0v2-R2-09",
+       "Philosophical/Spiritual"
+      ]
+     ]
+    ],
+    [
+     "L08",
+     [
+      [
+       "C1-R5-02",
+       "Plausible"
+      ]
+     ]
+    ],
+    [
+     "L16",
+     [
+      [
+       "C0v2-R4-15",
+       "Philosophical/Spiritual"
+      ],
+      [
+       "C0v2-R4-11",
+       "Plausible"
+      ]
+     ]
+    ]
+   ],
+   "result": "Reported"
+  },
+  {
+   "id": "SR2",
+   "kind": "hypothesis",
+   "expect": "C1 open question: R2 Mind keeps at least one Established link under the strict rule",
+   "observed": [],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

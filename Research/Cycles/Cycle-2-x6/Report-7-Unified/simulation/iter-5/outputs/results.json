@@ -1,0 +1,22 @@
+{
+ "carried_from_prev": {},
+ "transition": {
+  "changed": [],
+  "frac_changed": 0.0,
+  "label_transitions": {
+   "Established -> Established": 91,
+   "Hypothetical -> Hypothetical": 2,
+   "Philosophical/Spiritual -> Philosophical/Spiritual": 21,
+   "Plausible -> Plausible": 28
+  },
+  "n_c1": 142,
+  "n_c2": 177,
+  "n_new": 35,
+  "new_by_label": {
+   "Established": 28,
+   "Hypothetical": 0,
+   "Philosophical/Spiritual": 0,
+   "Plausible": 7
+  }
+ }
+}

@@ -1,0 +1,368 @@
+kind,id,cycle,report,prev_label,label,change,pressure,note
+claim,C0v2-R1-01,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-02,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-03,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-04,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-05,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-06,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-07,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-08,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-09,C1,R1,Established,Established,strengthened (full-text source added),,Upgraded to full-text source V06 (Cycle-1 access rule); wording aligned to V06.
+claim,C0v2-R1-10,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-11,C1,R1,Plausible,Plausible,unchanged,,Limits updated (full-text attempt failed).
+claim,C0v2-R1-12,C1,R1,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run (C0: prefix). Extended by C1-R1-02..04.
+claim,C0v2-R1-13,C1,R1,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run (C0: prefix). Robustness re-tested in C1-R1-03/04.
+claim,C0v2-R1-14,C1,R1,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-15,C1,R1,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-16,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R1-01,C1,R1,,Established,new,,New in Cycle 1.
+claim,C1-R1-02,C1,R1,,Established,new,,New in Cycle 1.
+claim,C1-R1-03,C1,R1,,Established,new,,New in Cycle 1.
+claim,C1-R1-04,C1,R1,,Established,new,,New in Cycle 1.
+claim,C0v2-R2-01,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-02,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-03,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-04,C1,R2,Established,Established,strengthened (full-text source added),,Upgraded to full text V04; counter-view C1-R2-02 linked.
+claim,C0v2-R2-05,C1,R2,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-06,C1,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-07,C1,R2,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-08,C1,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-09,C1,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-10,C1,R2,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-11,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-12,C1,R2,Established,Established,strengthened (full-text source added),,Upgraded to full text V05.
+claim,C0v2-R2-13,C1,R2,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Re-tested with LOOCV/bootstrap in C1-R2-07.
+claim,C1-R2-01,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-02,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-03,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-04,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-05,C1,R2,,Established,new,,New in Cycle 1.
+claim,C1-R2-06,C1,R2,,Established,new,,New in Cycle 1.
+claim,C1-R2-07,C1,R2,,Established,new,,New in Cycle 1.
+claim,C0v2-R3-01,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-02,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-03,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-04,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-05,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-06,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-07,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-08,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-09,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-10,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-11,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-12,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-13,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-14,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-15,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-16,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-17,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 result). Cycle 1 replaces the single-partition reading with robustness tests C1-R3-02..04.
+claim,C0v2-R3-18,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R3-01,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-02,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-03,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-04,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-05,C1,R3,,Philosophical/Spiritual,new,,New in Cycle 1.
+claim,C0v2-R4-01,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-02,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-03,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-04,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-05,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-06,C1,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-07,C1,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-08,C1,R4,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-09,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-10,C1,R4,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible (abstract-only).
+claim,C0v2-R4-11,C1,R4,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-12,C1,R4,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Extended to five estimates in C1-R4-07.
+claim,C0v2-R4-13,C1,R4,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Extended by probabilistic bias analysis C1-R4-08.
+claim,C0v2-R4-14,C1,R4,Hypothetical,Hypothetical,updated (label unchanged),,Updated with Cycle-1 evidence; label unchanged (Hypothetical).
+claim,C0v2-R4-15,C1,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R4-01,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-02,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-03,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-04,C1,R4,,Plausible,new,,New in Cycle 1.
+claim,C1-R4-05,C1,R4,,Plausible,new,,New in Cycle 1.
+claim,C1-R4-06,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-07,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-08,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-09,C1,R4,,Established,new,,New in Cycle 1.
+claim,C0v2-R5-01,C1,R5,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-02,C1,R5,Established,Established,strengthened (full-text source added),,Upgraded to full text V01.
+claim,C0v2-R5-03,C1,R5,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-04,C1,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-05,C1,R5,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-06,C1,R5,Established,Established,strengthened (full-text source added),,Upgraded to full text V07 (Casarotto 2016); T10 kept as secondary.
+claim,C0v2-R5-07,C1,R5,Hypothetical,Hypothetical,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-08,C1,R5,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-09,C1,R5,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-10,C1,R5,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-11,C1,R5,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Extended by C1-R5-03..05.
+claim,C0v2-R5-12,C1,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R5-01,C1,R5,,Established,new,,New in Cycle 1.
+claim,C1-R5-02,C1,R5,,Plausible,new,,New in Cycle 1.
+claim,C1-R5-03,C1,R5,,Established,new,,New in Cycle 1.
+claim,C1-R5-04,C1,R5,,Established,new,,New in Cycle 1.
+claim,C1-R5-05,C1,R5,,Established,new,,New in Cycle 1.
+claim,C0v2-R6-01,C1,R6,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible (abstract-only); V08 added.
+claim,C0v2-R6-02,C1,R6,Established,Established,strengthened (full-text source added),,Upgraded to full text V02.
+claim,C0v2-R6-03,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-04,C1,R6,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible (abstract-only).
+claim,C0v2-R6-05,C1,R6,Established,Established,strengthened (full-text source added),,Upgraded to full text V03 (Richardson 2023); wording updated.
+claim,C0v2-R6-06,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-07,C1,R6,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run). Robustness re-tested in C1-R6-07/08: regulation is parameter-dependent.
+claim,C0v2-R6-08,C1,R6,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-09,C1,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-10,C1,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-11,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-12,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-13,C1,R6,Established,Established,strengthened (full-text source added),,Upgraded to full preprint text V09.
+claim,C0v2-R6-14,C1,R6,Plausible,Plausible,weakened (counter-evidence added; label unchanged),,Counter-evidence V30 added (challenge pass).
+claim,C0v2-R6-15,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-16,C1,R6,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-17,C1,R6,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run). Conductivity range widened in C1-R6-09.
+claim,C0v2-R6-18,C1,R6,Plausible,Plausible,updated (label unchanged),,Sources widened.
+claim,C0v2-R6-19,C1,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R6-01,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-02,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-03,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-04,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-05,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-06,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-07,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-08,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-09,C1,R6,,Established,new,,New in Cycle 1.
+claim,C0v2-R7-01,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R7-02,C1,R7,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R7-03,C1,R7,Established,Established,updated (label unchanged),,Updated to the Cycle-1 register.
+claim,C0v2-R7-04,C1,R7,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R7-05,C1,R7,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run; the grid is not regenerated in Cycle 1).
+claim,C0v2-R7-06,C1,R7,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run).
+claim,C0v2-R7-07,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R7-01,C1,R7,,Philosophical/Spiritual,new,,New in Cycle 1.
+claim,C1-R7-02,C1,R7,,Established,new,,New in Cycle 1.
+claim,C1-R7-03,C1,R7,,Established,new,,New in Cycle 1.
+claim,C0v2-R1-01,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-02,C2,R1,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R1-03,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-04,C2,R1,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R1-05,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-06,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-07,C2,R1,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R1-08,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-09,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-10,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-11,C2,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-12,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-13,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-14,C2,R1,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R1-15,C2,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-16,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-01,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-02,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-03,C2,R1,Established,Established,unchanged,,Extended in Cycle 2 by a learned feedforward (C2-R1-03 to C2-R1-06).
+claim,C1-R1-04,C2,R1,Established,Established,unchanged,,Extended in Cycle 2 by a learned feedforward (C2-R1-03 to C2-R1-06).
+claim,C2-R1-01,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-02,C2,R1,,Plausible,new,,New in Cycle 2.
+claim,C2-R1-03,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-04,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-05,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-06,C2,R1,,Established,new,,New in Cycle 2.
+claim,C0v2-R2-01,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-02,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-03,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-04,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-05,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-06,C2,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-07,C2,R2,Plausible,Plausible,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-08,C2,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-09,C2,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-10,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-11,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-12,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-13,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-01,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-02,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-03,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-04,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-05,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-06,C2,R2,Established,Established,unchanged,,Corroborated by an independent Cycle-2 re-implementation (C2-R2-02).
+claim,C1-R2-07,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R2-01,C2,R2,,Plausible,new,,New in Cycle 2.
+claim,C2-R2-02,C2,R2,,Established,new,,New in Cycle 2.
+claim,C2-R2-03,C2,R2,,Established,new,,New in Cycle 2.
+claim,C0v2-R3-01,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-02,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-03,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-04,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-05,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-06,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-07,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-08,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-09,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-10,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-11,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-12,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-13,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-14,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-15,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-16,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-17,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-18,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R3-01,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-02,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-03,C2,R3,Established,Established,unchanged,,Further pressure in Cycle 2: the typology tolerates only ~4 random cell flips (C2-R3-03).
+claim,C1-R3-04,C2,R3,Established,Established,unchanged,,Further pressure in Cycle 2 (C2-R3-03).
+claim,C1-R3-05,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Remains Indeterminate; Cycle-2 re-coding (C2-R3-01) and tolerance analysis (C2-R3-03) add pressure.
+claim,C2-R3-01,C2,R3,,Established,new,,New in Cycle 2.
+claim,C2-R3-02,C2,R3,,Established,new,,New in Cycle 2.
+claim,C2-R3-03,C2,R3,,Established,new,,New in Cycle 2.
+claim,C2-R3-04,C2,R3,,Plausible,new,,New in Cycle 2.
+claim,C2-R3-05,C2,R3,,Established,new,,New in Cycle 2.
+claim,C0v2-R4-01,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-02,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-03,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-04,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-05,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-06,C2,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R4-07,C2,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-08,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-09,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-10,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-11,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-12,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-13,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-14,C2,R4,Hypothetical,Hypothetical,unchanged,,Carried unchanged.
+claim,C0v2-R4-15,C2,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R4-01,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-02,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-03,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-04,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-05,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-06,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-07,C2,R4,Established,Established,unchanged,,Complemented in Cycle 2 by mediation simulations (C2-R4-04 to C2-R4-06).
+claim,C1-R4-08,C2,R4,Established,Established,unchanged,,Complemented in Cycle 2 by mediation simulations (C2-R4-04 to C2-R4-06).
+claim,C1-R4-09,C2,R4,Established,Established,unchanged,,Complemented in Cycle 2 by mediation simulations (C2-R4-04 to C2-R4-06).
+claim,C2-R4-01,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-02,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-03,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-04,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-05,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-06,C2,R4,,Established,new,,New in Cycle 2.
+claim,C0v2-R5-01,C2,R5,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R5-02,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-03,C2,R5,Plausible,Plausible,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R5-04,C2,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R5-05,C2,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-06,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-07,C2,R5,Hypothetical,Hypothetical,unchanged,,Carried unchanged.
+claim,C0v2-R5-08,C2,R5,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R5-09,C2,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-10,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-11,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-12,C2,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R5-01,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-02,C2,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R5-03,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-04,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-05,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-01,C2,R5,,Plausible,new,,New in Cycle 2.
+claim,C2-R5-02,C2,R5,,Plausible,new,,New in Cycle 2.
+claim,C2-R5-03,C2,R5,,Established,new,,New in Cycle 2.
+claim,C2-R5-04,C2,R5,,Established,new,,New in Cycle 2.
+claim,C2-R5-05,C2,R5,,Established,new,,New in Cycle 2.
+claim,C2-R5-06,C2,R5,,Plausible,new,,New in Cycle 2.
+claim,C0v2-R6-01,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-02,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-03,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-04,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-05,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-06,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty). Limits field filled; adaptive-Daisyworld literature added (C2-R6-01 to C2-R6-03).
+claim,C0v2-R6-07,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-08,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-09,C2,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-10,C2,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-11,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-12,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-13,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-14,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-15,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-16,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-17,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-18,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-19,C2,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R6-01,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-02,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-03,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-04,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-05,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-06,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-07,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-08,C2,R6,Established,Established,unchanged,,Now matched to the published literature (C2-R6-01; W01 full text) and replicated on a finer rate grid (C2-R6-04).
+claim,C1-R6-09,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-01,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-02,C2,R6,,Plausible,new,,New in Cycle 2.
+claim,C2-R6-03,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-04,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-05,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-06,C2,R6,,Established,new,,New in Cycle 2.
+claim,C0v2-R7-01,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R7-02,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-03,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-04,C2,R7,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R7-05,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-06,C2,R7,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R7-07,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R7-01,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R7-02,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R7-03,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-01,C2,R7,,Established,new,,New in Cycle 2.
+claim,C2-R7-02,C2,R7,,Established,new,,New in Cycle 2.
+claim,C2-R7-03,C2,R7,,Established,new,,New in Cycle 2.
+link,L01,C1,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained as analogy only. Under pressure: Daisyworld regulation held in only 63% of parameter settings (C1-R6-07), whereas the body-side toy regulation was robust."
+link,L02,C1,R7,Plausible,Plausible,updated (label unchanged),,Strengthened by Cycle-1 critiques (V23-V25); no rejection trigger.
+link,L03,C1,R7,Established,Established,re-assessed (label unchanged),,Basis upgraded to full text; Established retained.
+link,L04,C1,R7,Established,Established,re-assessed (label unchanged),,Unchanged.
+link,L05,C1,R7,Plausible,Plausible,re-assessed (label unchanged),,Under pressure in the toy: the anticipatory benefit was not robust to parameter perturbation (T3 not supported).
+link,L06,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged.
+link,L07,C1,R7,Plausible,Plausible,updated (label unchanged),,Basis now contested by V35; label Plausible retained.
+link,L08,C1,R7,Established,Established,updated (label unchanged),,The conceptual distinction is retained as Established; whether phenomenal consciousness exists without access is the contested question (C1-R5-02).
+link,L09,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged label; widened.
+link,L10,C1,R7,Established,Established,re-assessed (label unchanged),,Widened with a Jain row; Established retained (lexical/textual).
+link,L11,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Supported: no attribute is shared by all 15 conceptions; typology itself is not robust.
+link,L12,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged.
+link,L13,C1,R7,Established,Established,updated (label unchanged),,Widened: 10 of 15 coded conceptions extend soul/life-principle beyond humans.
+link,L14,C1,R7,Plausible,Plausible,updated (label unchanged),,Association better supported (full text); the Swedish cohort points to social participation as a pathway or confounder.
+link,L15,C1,R7,Hypothetical,Hypothetical,updated (label unchanged),,Still Hypothetical: quasi-causal designs point the same way but can be biased (C1-R4-09); V16 read as abstract only.
+link,L16,C1,R7,Established,Established,re-assessed (label unchanged),,Reinforced.
+link,L17,C1,R7,Established,Established,re-assessed (label unchanged),,Basis upgraded to full text; Established retained.
+link,L18,C1,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Unchanged (Hypothetical).
+link,L19,C1,R7,Established,Established,re-assessed (label unchanged),,Dependency retained: free decay is far shorter than the field record across the whole disputed conductivity range (G2 supported).
+link,L20,C1,R7,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible: basis C0v2-R6-04 is abstract-only under the Cycle-1 rule.
+link,L21,C1,R7,Plausible,Plausible,updated (label unchanged),,The strong-Gaia side is under pressure in Cycle 1: toy regulation is parameter-dependent and erodes under unbounded adaptation; critiques find no selection mechanism.
+link,L22,C1,R7,Established,Established,re-assessed (label unchanged),,Basis upgraded; Established retained for the boundary framework statement.
+link,L23,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged (metaphor).
+link,L24,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged: all items remain open.
+link,L01,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained as analogy only. The body and Daisyworld toys share the adaptation-vs-regulation pattern (PA1), partly by design; the trade-off is a published Daisyworld result (W01-W03)."
+link,L02,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged in substance; Cycle-2 literature adds that Daisyworld regulation depends on constraints on adaptation.
+link,L03,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L04,C2,R7,Established,Plausible,weakened (label downgraded),strict Established-link rule: downgraded (procedural),"Downgraded Established -> Plausible by the pre-registered strict rule (basis includes C0v2-R2-09, Philosophical/Spiritual). Procedural: the dependency is not weakened by new evidence."
+link,L05,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Mixed in the toys: learned anticipation helps (C2-R1-03) but carries a false-cue cost that no bound removed (C2-R1-05). Label unchanged.
+link,L06,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L07,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,"Unchanged; complexity markers are relevant context but do not test this link, and W15 reports a dissociation between consciousness and EEG complexity."
+link,L08,C2,R7,Established,Plausible,weakened (label downgraded),strict Established-link rule: downgraded (procedural),Downgraded Established -> Plausible by the strict rule (basis C1-R5-02 is Plausible). Procedural.
+link,L09,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L10,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L11,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Typology-based support weakened: the typology tolerates only ~4 random cell flips (C2-R3-03). The distinction itself rests on descriptive claims and is kept.
+link,L12,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L13,C2,R7,Established,Established,re-assessed (label unchanged),,"Retained. Note: counts of conceptions come from a coding with re-coding kappa 0.79 and 56% source-silent cells (C2-R3-01, C2-R3-02)."
+link,L14,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Mediation estimates added (C2-R4-01); simulations show they move with unmeasured confounding (C2-R4-05). Label unchanged.
+link,L15,C2,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Still Hypothetical: mediation shares cannot be added up (C2-R4-04) and depend on scale and confounding.
+link,L16,C2,R7,Established,Plausible,weakened (label downgraded),strict Established-link rule: downgraded (procedural),"Downgraded Established -> Plausible by the strict rule (basis includes C0v2-R4-15, Philosophical/Spiritual, and C0v2-R4-11, Plausible). Procedural: the separation of spiritual interpretation from well-being data is unchanged."
+link,L17,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L18,C2,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L19,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L20,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged label; Daisyworld still has no biological implementation (C2-R6-03).
+link,L21,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Strong-Gaia side under continued pressure: regulation depends on constraints on adaptation (literature and toy); our toy did not reproduce the rate dependence or the mutation benefit.
+link,L22,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L23,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L24,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.

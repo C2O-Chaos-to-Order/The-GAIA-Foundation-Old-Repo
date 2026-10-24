@@ -1,0 +1,48 @@
+{
+ "sim_id": "SIM-R7-C2",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:24:23.910441+00:00",
+ "finished_utc": "2026-10-24T02:24:23.914549+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-4",
+ "params_sha256": "a6e4d907d81194b4212475b68bed898cff50eb13f1bba7c7f85379e18b095e45",
+ "outputs": {
+  "outputs/results.json": "837825aa2015c952046e2ac4298834a7859ac50e3ce776507bbd8dd235769c23"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "RC1",
+   "kind": "validation",
+   "expect": "every link label in the Cycle-2 register equals the strict-rule output of iteration 1",
+   "observed": [],
+   "result": "Pass"
+  },
+  {
+   "id": "RC2",
+   "kind": "validation",
+   "expect": "every c2_sim_checks reference in the register resolves to an executed check",
+   "observed": [],
+   "result": "Pass"
+  },
+  {
+   "id": "RC3",
+   "kind": "validation",
+   "expect": "every basis and c2_evidence claim id exists in the Cycle-2 ledger",
+   "observed": [],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

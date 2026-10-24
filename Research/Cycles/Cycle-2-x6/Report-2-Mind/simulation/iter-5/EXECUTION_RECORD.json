@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-R2-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:10:56.903514+00:00",
+ "finished_utc": "2026-10-24T02:10:59.261205+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-5",
+ "params_sha256": "767d0346f6678b0ca840cf98105310399dcf2da8b50592e91858c617cff42b88",
+ "outputs": {
+  "outputs/results.json": "578ac58b23da4465c33a2e5b9625d8250edb40f76502c8d3369a3339bd950a69"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "MR_0.1",
+   "kind": "hypothesis",
+   "expect": "diagnostic design (acquisition + LI + blocking) recovers the generating model with mean accuracy >= 0.8 at noise 0.1",
+   "observed": 0.9833333333,
+   "result": "Supported"
+  },
+  {
+   "id": "MG_0.1",
+   "kind": "hypothesis",
+   "expect": "diagnostic design beats acquisition-only by >= 0.2 accuracy at noise 0.1",
+   "observed": [
+    0.9833333333,
+    0.7333333333
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "MR_0.2",
+   "kind": "hypothesis",
+   "expect": "diagnostic design (acquisition + LI + blocking) recovers the generating model with mean accuracy >= 0.8 at noise 0.2",
+   "observed": 0.8833333333,
+   "result": "Supported"
+  },
+  {
+   "id": "MG_0.2",
+   "kind": "hypothesis",
+   "expect": "diagnostic design beats acquisition-only by >= 0.2 accuracy at noise 0.2",
+   "observed": [
+    0.8833333333,
+    0.65
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "MR_r",
+   "kind": "reporting",
+   "expect": "report confusion matrices",
+   "observed": {
+    "acquisition|0.1": 0.7333333333,
+    "acquisition|0.2": 0.65,
+    "diagnostic|0.1": 0.9833333333,
+    "diagnostic|0.2": 0.8833333333
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

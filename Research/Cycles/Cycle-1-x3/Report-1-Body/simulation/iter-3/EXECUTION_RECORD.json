@@ -1,0 +1,54 @@
+{
+ "sim_id": "SIM-R1-C1",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:42.905192+00:00",
+ "finished_utc": "2026-10-24T01:19:43.558920+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-3",
+ "params_sha256": "dff87cc1d63caf11a027f4c6d20142958c12286f357d64464a210064c58cf80b",
+ "outputs": {
+  "outputs/results.json": "9722714a56d72a8d7e26bcb9de4f4df10b1c4b40da5add32d3c5391d72b749b6"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "T1",
+   "kind": "hypothesis",
+   "expect": "skin-signal feedforward lowers peak core deviation vs feedback only",
+   "observed": [
+    0.0463009717,
+    0.0530421942
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "T2",
+   "kind": "validation",
+   "expect": "integral action returns core to set point (|final|<0.01) while P-only leaves a residual (>0.01)",
+   "observed": [
+    2.84e-08,
+    0.0857142857
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "T3",
+   "kind": "hypothesis",
+   "expect": "feedforward benefit robust to +/-50% parameter perturbation (ratio<1 in >=95% of draws)",
+   "observed": 0.55,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

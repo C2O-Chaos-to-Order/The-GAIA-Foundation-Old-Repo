@@ -1,0 +1,30 @@
+{
+ "coding_file": "../data/coding_c1.csv",
+ "experiments": {
+  "consensus": {
+   "consensus_k": 4,
+   "draws": 2000,
+   "flip_prob": 0.5,
+   "k": [
+    3,
+    4,
+    5
+   ],
+   "linkages": [
+    "single",
+    "complete",
+    "average",
+    "ward"
+   ],
+   "metrics": [
+    "jaccard",
+    "hamming"
+   ],
+   "pair_threshold": 0.8,
+   "seed": 1
+  }
+ },
+ "iteration": 3,
+ "prev": "../iter-2",
+ "sim_id": "SIM-R3-C1"
+}

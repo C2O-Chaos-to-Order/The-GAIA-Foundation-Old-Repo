@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R4-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:12:25.331585+00:00",
+ "finished_utc": "2026-10-24T02:12:25.691749+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-5",
+ "params_sha256": "37ef1ec98df1ad81a67487cf807282aac5b780fb991b4356ff21ee542435916f",
+ "outputs": {
+  "outputs/results.json": "a1e8684b8da520902a95bfeb27ec236320eff2e1016d0ae4c718c83d9a551cbf"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V4",
+   "kind": "validation",
+   "expect": "no confounding: Sobel 95% CI coverage within [0.90, 0.99] over 300 replicates",
+   "observed": 0.96,
+   "result": "Pass"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "moderate confounding (u = 0.3) drives coverage below 0.5 at n = 2000",
+   "observed": 0.6733333333,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

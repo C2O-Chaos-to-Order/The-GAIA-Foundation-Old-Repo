@@ -1,0 +1,30 @@
+{
+ "carried_from_prev": {},
+ "multiple_mediators": [
+  {
+   "c12": 0.0,
+   "pm_M1_alone": 0.2900752958,
+   "pm_M2_alone": 0.1292649685,
+   "pm_joint": 0.4186423511,
+   "pm_joint_true": 0.4202898551,
+   "sum_single": 0.4193402643
+  },
+  {
+   "c12": 0.3,
+   "pm_M1_alone": 0.3276870813,
+   "pm_M2_alone": 0.2546568415,
+   "pm_joint": 0.4542619908,
+   "pm_joint_true": 0.4557823129,
+   "sum_single": 0.5823439228
+  },
+  {
+   "c12": 0.6,
+   "pm_M1_alone": 0.3733706365,
+   "pm_M2_alone": 0.3688339377,
+   "pm_joint": 0.4903280111,
+   "pm_joint_true": 0.4871794872,
+   "sum_single": 0.7422045743
+  }
+ ],
+ "s12_sum_of_reported_pms": "S12 Table 4: 11% + 22% + 9% + 23% = 65% for the four mediators with P < 0.01 (each estimated separately)"
+}

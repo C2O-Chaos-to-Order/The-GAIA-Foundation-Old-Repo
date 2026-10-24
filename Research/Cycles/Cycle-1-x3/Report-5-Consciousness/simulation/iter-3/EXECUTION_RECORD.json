@@ -1,0 +1,57 @@
+{
+ "sim_id": "SIM-R5-C1",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:48.262016+00:00",
+ "finished_utc": "2026-10-24T01:19:48.929168+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-3",
+ "params_sha256": "2b9a394fe21d30840d95aa4c3c3fab7996aa8ed1d4146e8e44f1f11516a63f4a",
+ "outputs": {
+  "outputs/results.json": "89c981cf58a05c0be6e8a279d6607c151cac1bff9ddd82a03d11af48e926a222"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "A1",
+   "kind": "hypothesis",
+   "expect": "a 'local recurrence without global ignition' regime exists for some coupling (RPT-like signature possible in the toy)",
+   "observed": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "A2",
+   "kind": "validation",
+   "expect": "global ignition fraction is non-decreasing in coupling (within 0.1)",
+   "observed": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.005,
+    0.285,
+    0.97,
+    1.0
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

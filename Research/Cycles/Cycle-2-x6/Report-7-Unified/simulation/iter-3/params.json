@@ -1,0 +1,14 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "parallel": {
+   "r1_iter4": "../../../Report-1-Body/simulation/iter-4/outputs/results.json",
+   "r6_iter1": "../../../Report-6-Earth/simulation/iter-1/outputs/results.json",
+   "r6_iter6": "../../../Report-6-Earth/simulation/iter-6/outputs/results.json"
+  }
+ },
+ "input_register": "../../../../Cycle-1-x3/Report-7-Unified/maps/link_register.csv",
+ "iteration": 3,
+ "prev": "../iter-2",
+ "sim_id": "SIM-R7-C2"
+}

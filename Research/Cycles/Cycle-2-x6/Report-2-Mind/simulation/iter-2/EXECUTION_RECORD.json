@@ -1,0 +1,48 @@
+{
+ "sim_id": "SIM-R2-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:10:54.805711+00:00",
+ "finished_utc": "2026-10-24T02:10:54.887593+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-2",
+ "params_sha256": "8c7946b2c3142af5c56a7051f204886d38ac07f7a9da39d29f5cae8a3e95b59d",
+ "outputs": {
+  "outputs/results.json": "7e01608e7597e379ef4fcbf958ff4245d0b880ea7615fa6d61df6494849fcf39"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "S1",
+   "kind": "validation",
+   "expect": "RW never shows LI over its grid (frac_LI == 0)",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "S2",
+   "kind": "hypothesis",
+   "expect": "PH shows both phenomena in >= 50% of its grid",
+   "observed": 0.5833333333,
+   "result": "Supported"
+  },
+  {
+   "id": "S3",
+   "kind": "hypothesis",
+   "expect": "KF shows both phenomena in >= 50% of its grid",
+   "observed": 0.7066666667,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

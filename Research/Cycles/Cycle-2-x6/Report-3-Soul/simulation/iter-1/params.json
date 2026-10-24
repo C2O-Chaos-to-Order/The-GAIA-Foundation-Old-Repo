@@ -1,0 +1,13 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "coding_b": "../data/coding_b_sample.csv",
+ "experiments": {
+  "agreement": {
+   "kappa_min": 0.61,
+   "sample_seed": 20261024
+  }
+ },
+ "iteration": 1,
+ "sample": "../data/sample_c2.json",
+ "sim_id": "SIM-R3-C2"
+}

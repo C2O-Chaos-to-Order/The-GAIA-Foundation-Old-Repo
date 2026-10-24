@@ -1,0 +1,25 @@
+{
+ "carried_from_prev": {},
+ "recovery": {
+  "diagnostic|0.05": {
+   "accuracy": 1.0,
+   "confusion": {
+    "KF": {
+     "KF": 40,
+     "PH": 0,
+     "RW": 0
+    },
+    "PH": {
+     "KF": 0,
+     "PH": 40,
+     "RW": 0
+    },
+    "RW": {
+     "KF": 0,
+     "PH": 0,
+     "RW": 40
+    }
+   }
+  }
+ }
+}

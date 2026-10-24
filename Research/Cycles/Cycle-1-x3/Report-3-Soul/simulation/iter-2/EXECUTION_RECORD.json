@@ -1,0 +1,64 @@
+{
+ "sim_id": "SIM-R3-C1",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:45.439595+00:00",
+ "finished_utc": "2026-10-24T01:19:45.455907+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-2",
+ "params_sha256": "31975861df485a96fa5652a50841eac1150c6d4912d94d9907f2ef07f9f1c4fd",
+ "outputs": {
+  "outputs/results.json": "7fd95d498a7d3df3b422c2b4bb86bd8c8a4b47685566d90361004b6193be3dc0"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "M1",
+   "kind": "hypothesis",
+   "expect": "at k=4, alternative linkages agree with the average-linkage base (median ARI >= 0.8)",
+   "observed": 0.7741935484,
+   "result": "Not supported"
+  },
+  {
+   "id": "M2",
+   "kind": "reporting",
+   "expect": "cluster structure is weak if best silhouette < 0.25 (reporting; Kaufman-Rousseeuw rule of thumb)",
+   "observed": [
+    0.2716957272,
+    "weighted|k4"
+   ],
+   "result": "Reported"
+  },
+  {
+   "id": "E1",
+   "kind": "validation",
+   "expect": "coding matrix complete (0/1 only) and every row has a source",
+   "observed": {
+    "shape": [
+     14,
+     12
+    ],
+    "sourced": true
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "E3",
+   "kind": "hypothesis",
+   "expect": "no attribute is shared by all conceptions (no universal definition in this coding)",
+   "observed": 9,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

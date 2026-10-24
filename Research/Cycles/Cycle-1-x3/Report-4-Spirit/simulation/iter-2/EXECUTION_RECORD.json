@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-R4-C1",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:46.481083+00:00",
+ "finished_utc": "2026-10-24T01:19:46.662867+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-2",
+ "params_sha256": "da89bba4345ce7eceb632471c26bcb75658363aab82bb7fa20dcc3c25e8a0c05",
+ "outputs": {
+  "outputs/results.json": "36bb72d85a8ecd22455408e43c2af6e40c761cf7263a3c8d9a2c3b29ed60e794"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V_Chen2021_mortality_pooled",
+   "kind": "validation",
+   "expect": "recomputed E-value matches the value reported in V12 (2.04) within 0.02",
+   "observed": 2.0404080424,
+   "result": "Pass"
+  },
+  {
+   "id": "V_Chen2020_despair_women",
+   "kind": "validation",
+   "expect": "recomputed E-value matches the value reported in V13 (5.7) within 0.02",
+   "observed": 5.701941016,
+   "result": "Pass"
+  },
+  {
+   "id": "V_Chen2020_despair_men",
+   "kind": "validation",
+   "expect": "recomputed E-value matches the value reported in V13 (2.35) within 0.02",
+   "observed": 2.3499347234,
+   "result": "Pass"
+  },
+  {
+   "id": "V0",
+   "kind": "validation",
+   "expect": "E-value formula reproduces the S14 worked example (RR 3.9 -> E-value 7.2 as printed)",
+   "observed": 7.2630343442,
+   "result": "Pass"
+  },
+  {
+   "id": "P3",
+   "kind": "validation",
+   "expect": "fraction explained away increases with prior spread for every estimate (monotone in log_sd)",
+   "observed": null,
+   "result": "Pass"
+  },
+  {
+   "id": "P1",
+   "kind": "validation",
+   "expect": "bias analysis is monotone: estimates with larger E-values have smaller fractions explained away (Spearman rho < 0)",
+   "observed": null,
+   "result": "Pass"
+  },
+  {
+   "id": "P2",
+   "kind": "reporting",
+   "expect": "report the fraction of bias-analysis draws in which each association is fully explained away",
+   "observed": {
+    "Li2016_mortality_women": 0.069,
+    "Chen2021_mortality_pooled": 0.055,
+    "Chen2020_despair_women": 0.0,
+    "Chen2020_despair_men": 0.019,
+    "Chida2009_healthy_pops_abstract": 0.147
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 7,
+ "n_validation": 6,
+ "n_validation_pass": 6,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

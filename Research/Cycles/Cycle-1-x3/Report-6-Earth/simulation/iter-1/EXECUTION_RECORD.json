@@ -1,0 +1,139 @@
+{
+ "sim_id": "SIM-R6-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:49.017137+00:00",
+ "finished_utc": "2026-10-24T01:19:58.029936+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-1",
+ "params_sha256": "7998c42452976b00e357329875b541765dca8694c584b358e34f561645cfb919",
+ "outputs": {
+  "outputs/results.json": "755c77593c18a64667363d09e84e03c7a87bd5195dd7af050ed48f9060ea77d9"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "D0",
+   "kind": "validation",
+   "expect": "lifeless planet matches analytic radiative balance (max |dT| < 1e-9 C)",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "D1",
+   "kind": "hypothesis",
+   "expect": "regulation (band width >= 2.0x lifeless) holds in >= 80% of parameter configurations",
+   "observed": 0.6296296296,
+   "result": "Not supported"
+  },
+  {
+   "id": "D2",
+   "kind": "reporting",
+   "expect": "report the configurations where regulation fails",
+   "observed": [
+    {
+     "gamma": 0.2,
+     "q": 10,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.38,
+     "width_lifeless": 0.24,
+     "ratio": 1.5833333333
+    },
+    {
+     "gamma": 0.2,
+     "q": 20,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.38,
+     "width_lifeless": 0.24,
+     "ratio": 1.5833333333
+    },
+    {
+     "gamma": 0.2,
+     "q": 30,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.38,
+     "width_lifeless": 0.24,
+     "ratio": 1.5833333333
+    },
+    {
+     "gamma": 0.3,
+     "q": 10,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.35,
+     "width_lifeless": 0.24,
+     "ratio": 1.4583333333
+    },
+    {
+     "gamma": 0.3,
+     "q": 20,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.36,
+     "width_lifeless": 0.24,
+     "ratio": 1.5
+    },
+    {
+     "gamma": 0.3,
+     "q": 30,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.36,
+     "width_lifeless": 0.24,
+     "ratio": 1.5
+    },
+    {
+     "gamma": 0.4,
+     "q": 10,
+     "Ab": 0.35,
+     "Aw": 0.65,
+     "width_life": 0.46,
+     "width_lifeless": 0.24,
+     "ratio": 1.9166666667
+    },
+    {
+     "gamma": 0.4,
+     "q": 10,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.33,
+     "width_lifeless": 0.24,
+     "ratio": 1.375
+    },
+    {
+     "gamma": 0.4,
+     "q": 20,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.33,
+     "width_lifeless": 0.24,
+     "ratio": 1.375
+    },
+    {
+     "gamma": 0.4,
+     "q": 30,
+     "Ab": 0.45,
+     "Aw": 0.55,
+     "width_life": 0.33,
+     "width_lifeless": 0.24,
+     "ratio": 1.375
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R3-C2",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:17:08.909433+00:00",
+ "finished_utc": "2026-10-24T02:17:08.910192+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-3",
+ "params_sha256": "380ead9c2b2b9a10296e9c94adac92acf8508579935e72c53c213724ac9e4121",
+ "outputs": {
+  "outputs/results.json": "431ab3eff62ea2a10cd28b73fb6fabaa81a3f92e9494c136198eab467e68a1b2"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "agreement is higher where coder B found an explicit passage: kappa(certain) >= kappa(uncertain) + 0.2",
+   "observed": [
+    0.8590604027,
+    0.4193548387
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H3r",
+   "kind": "reporting",
+   "expect": "share of sampled cells for which the cited source was silent or needed inference (coder B 'uncertain')",
+   "observed": 0.5625,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

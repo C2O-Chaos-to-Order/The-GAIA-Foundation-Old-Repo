@@ -1,0 +1,46 @@
+{
+ "carry": [
+  "pci_peak_K"
+ ],
+ "experiments": {
+  "disconnection": {
+   "K_fallback": 5.0,
+   "N": 40,
+   "modules": 4,
+   "out_ratio": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+   ],
+   "seed": 9
+  }
+ },
+ "iteration": 5,
+ "net": {
+  "T": 600,
+  "burn": 400,
+  "dt": 0.05,
+  "kick_size": 1.0,
+  "kick_units": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "noise": 0.3,
+  "omega_mean": 1.0,
+  "omega_sd": 0.3,
+  "sample_every": 10,
+  "thresh": 0.2
+ },
+ "prev": "../iter-4",
+ "sim_id": "SIM-R5-C2"
+}

@@ -1,0 +1,35 @@
+{
+ "defaults": {
+  "KF": {
+   "s0": 1.0,
+   "sigma2": 0.5,
+   "tau2": 0.01
+  },
+  "PH": {
+   "S": 0.5,
+   "alpha0": 0.5,
+   "gamma": 0.3
+  },
+  "RW": {
+   "alpha": 0.3,
+   "beta": 1.0
+  }
+ },
+ "experiments": {
+  "phenomena": {
+   "block_min": 0.5,
+   "li_min": 0.2,
+   "models": [
+    "RW",
+    "PH",
+    "KF"
+   ],
+   "n1": 20,
+   "n2": 10,
+   "n_acq": 5,
+   "n_pre": 30
+  }
+ },
+ "iteration": 1,
+ "sim_id": "SIM-R2-C2"
+}

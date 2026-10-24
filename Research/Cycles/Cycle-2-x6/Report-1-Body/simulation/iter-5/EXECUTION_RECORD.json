@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R1-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:09:25.552429+00:00",
+ "finished_utc": "2026-10-24T02:09:25.611145+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-5",
+ "params_sha256": "ea317152170815675bd27d00e5400322ef7846790c659cf3d100c400b40a4d65",
+ "outputs": {
+  "outputs/results.json": "03de5904c8cb16a06b92217b6df12e379739362538079b24847f968f743148b0"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "bounded learning feedforward gives >= 20% peak reduction with acceptable false-cue undershoot in >= 80% of settings (noisy loads)",
+   "observed": 0.0,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

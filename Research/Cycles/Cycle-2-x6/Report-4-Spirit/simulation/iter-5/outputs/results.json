@@ -1,0 +1,17 @@
+{
+ "carried_from_prev": {},
+ "coverage": [
+  {
+   "coverage": 0.96,
+   "u": 0.0
+  },
+  {
+   "coverage": 0.9333333333,
+   "u": 0.1
+  },
+  {
+   "coverage": 0.6733333333,
+   "u": 0.3
+  }
+ ]
+}

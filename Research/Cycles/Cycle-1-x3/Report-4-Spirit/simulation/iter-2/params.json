@@ -1,0 +1,57 @@
+{
+ "experiments": {
+  "evalues": {
+   "estimates": [
+    {
+     "ci_upper": 0.71,
+     "common_outcome": true,
+     "est": 0.67,
+     "label": "Li2016_mortality_women",
+     "source": "S12"
+    },
+    {
+     "ci_upper": 0.84,
+     "est": 0.74,
+     "label": "Chen2021_mortality_pooled",
+     "reported_E": 2.04,
+     "source": "V12"
+    },
+    {
+     "ci_upper": 0.62,
+     "est": 0.32,
+     "label": "Chen2020_despair_women",
+     "reported_E": 5.7,
+     "source": "V13"
+    },
+    {
+     "ci_upper": 0.94,
+     "est": 0.67,
+     "label": "Chen2020_despair_men",
+     "reported_E": 2.35,
+     "source": "V13"
+    },
+    {
+     "ci_upper": 0.87,
+     "est": 0.82,
+     "label": "Chida2009_healthy_pops_abstract",
+     "source": "T08"
+    }
+   ]
+  },
+  "pba": {
+   "log_mu": 0.0,
+   "log_sd": 0.5,
+   "log_sd_sweep": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+   ],
+   "n": 200000,
+   "seed": 3
+  }
+ },
+ "iteration": 2,
+ "prev": "../iter-1",
+ "sim_id": "SIM-R4-C1"
+}

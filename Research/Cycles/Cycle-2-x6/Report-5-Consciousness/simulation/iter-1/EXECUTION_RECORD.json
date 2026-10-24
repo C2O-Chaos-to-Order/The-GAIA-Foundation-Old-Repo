@@ -1,0 +1,48 @@
+{
+ "sim_id": "SIM-R5-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:14:14.011080+00:00",
+ "finished_utc": "2026-10-24T02:14:14.576741+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-1",
+ "params_sha256": "c890f89874cf5928a16b1e840e58b37e9446d15b95c03fec0ff576df4eed0af4",
+ "outputs": {
+  "outputs/results.json": "ae6b5a90e22481f7f9ed940a6cd4b0a950019fbea7380414029952386c2a3259"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "Z1",
+   "kind": "validation",
+   "expect": "random binary sequence: normalised LZ in [0.9, 1.1]",
+   "observed": 1.0350470603,
+   "result": "Pass"
+  },
+  {
+   "id": "Z2",
+   "kind": "validation",
+   "expect": "period-4 sequence: normalised LZ < 0.05",
+   "observed": 0.0119657843,
+   "result": "Pass"
+  },
+  {
+   "id": "Z3",
+   "kind": "validation",
+   "expect": "Kaspar-Schuster textbook example 0001101001000101 has complexity 6 (0|001|10|100|1000|101)",
+   "observed": 6,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

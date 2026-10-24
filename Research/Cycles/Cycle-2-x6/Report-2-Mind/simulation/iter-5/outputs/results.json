@@ -1,0 +1,85 @@
+{
+ "carried_from_prev": {},
+ "recovery": {
+  "acquisition|0.1": {
+   "accuracy": 0.7333333333,
+   "confusion": {
+    "KF": {
+     "KF": 17,
+     "PH": 0,
+     "RW": 3
+    },
+    "PH": {
+     "KF": 1,
+     "PH": 15,
+     "RW": 4
+    },
+    "RW": {
+     "KF": 4,
+     "PH": 4,
+     "RW": 12
+    }
+   }
+  },
+  "acquisition|0.2": {
+   "accuracy": 0.65,
+   "confusion": {
+    "KF": {
+     "KF": 14,
+     "PH": 6,
+     "RW": 0
+    },
+    "PH": {
+     "KF": 1,
+     "PH": 15,
+     "RW": 4
+    },
+    "RW": {
+     "KF": 4,
+     "PH": 6,
+     "RW": 10
+    }
+   }
+  },
+  "diagnostic|0.1": {
+   "accuracy": 0.9833333333,
+   "confusion": {
+    "KF": {
+     "KF": 19,
+     "PH": 1,
+     "RW": 0
+    },
+    "PH": {
+     "KF": 0,
+     "PH": 20,
+     "RW": 0
+    },
+    "RW": {
+     "KF": 0,
+     "PH": 0,
+     "RW": 20
+    }
+   }
+  },
+  "diagnostic|0.2": {
+   "accuracy": 0.8833333333,
+   "confusion": {
+    "KF": {
+     "KF": 19,
+     "PH": 1,
+     "RW": 0
+    },
+    "PH": {
+     "KF": 1,
+     "PH": 19,
+     "RW": 0
+    },
+    "RW": {
+     "KF": 3,
+     "PH": 2,
+     "RW": 15
+    }
+   }
+  }
+ }
+}

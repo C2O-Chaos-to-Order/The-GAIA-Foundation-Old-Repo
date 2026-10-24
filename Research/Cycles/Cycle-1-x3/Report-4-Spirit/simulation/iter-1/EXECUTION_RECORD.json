@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-R4-C1",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:46.391019+00:00",
+ "finished_utc": "2026-10-24T01:19:46.391257+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-1",
+ "params_sha256": "bdd8f4535f2d15aaec83eb34261ebeb97ede386a212f2ae086d7df22f4c839f0",
+ "outputs": {
+  "outputs/results.json": "a3687f1fbcdc2670c29082a6d631f3930740692c32819323e0fc1fbc61611560"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V_Chen2021_mortality_pooled",
+   "kind": "validation",
+   "expect": "recomputed E-value matches the value reported in V12 (2.04) within 0.02",
+   "observed": 2.0404080424,
+   "result": "Pass"
+  },
+  {
+   "id": "V_Chen2020_despair_women",
+   "kind": "validation",
+   "expect": "recomputed E-value matches the value reported in V13 (5.7) within 0.02",
+   "observed": 5.701941016,
+   "result": "Pass"
+  },
+  {
+   "id": "V_Chen2020_despair_men",
+   "kind": "validation",
+   "expect": "recomputed E-value matches the value reported in V13 (2.35) within 0.02",
+   "observed": 2.3499347234,
+   "result": "Pass"
+  },
+  {
+   "id": "V0",
+   "kind": "validation",
+   "expect": "E-value formula reproduces the S14 worked example (RR 3.9 -> E-value 7.2 as printed)",
+   "observed": 7.2630343442,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 4,
+ "n_validation_pass": 4,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

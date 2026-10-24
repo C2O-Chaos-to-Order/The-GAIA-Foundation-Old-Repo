@@ -1,0 +1,23 @@
+{
+ "carried_from_prev": {},
+ "sweep": {
+  "KF": {
+   "frac_LI": 0.7066666667,
+   "frac_block": 1.0,
+   "frac_both": 0.7066666667,
+   "n": 75
+  },
+  "PH": {
+   "frac_LI": 0.5833333333,
+   "frac_block": 1.0,
+   "frac_both": 0.5833333333,
+   "n": 60
+  },
+  "RW": {
+   "frac_LI": 0.0,
+   "frac_block": 1.0,
+   "frac_both": 0.0,
+   "n": 4
+  }
+ }
+}

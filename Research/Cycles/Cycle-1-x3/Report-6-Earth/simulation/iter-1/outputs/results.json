@@ -1,0 +1,251 @@
+{
+ "daisy_sensitivity": {
+  "frac_configs_regulating": 0.6296296296,
+  "rows": [
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.2,
+    "q": 10,
+    "ratio": 3.8333333333,
+    "width_life": 0.92,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.2,
+    "q": 10,
+    "ratio": 2.5416666667,
+    "width_life": 0.61,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.2,
+    "q": 10,
+    "ratio": 1.5833333333,
+    "width_life": 0.38,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.2,
+    "q": 20,
+    "ratio": 4.0,
+    "width_life": 0.96,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.2,
+    "q": 20,
+    "ratio": 2.625,
+    "width_life": 0.63,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.2,
+    "q": 20,
+    "ratio": 1.5833333333,
+    "width_life": 0.38,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.2,
+    "q": 30,
+    "ratio": 4.1666666667,
+    "width_life": 1.0,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.2,
+    "q": 30,
+    "ratio": 2.7083333333,
+    "width_life": 0.65,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.2,
+    "q": 30,
+    "ratio": 1.5833333333,
+    "width_life": 0.38,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.3,
+    "q": 10,
+    "ratio": 3.2083333333,
+    "width_life": 0.77,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.3,
+    "q": 10,
+    "ratio": 2.2083333333,
+    "width_life": 0.53,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.3,
+    "q": 10,
+    "ratio": 1.4583333333,
+    "width_life": 0.35,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.3,
+    "q": 20,
+    "ratio": 3.4166666667,
+    "width_life": 0.82,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.3,
+    "q": 20,
+    "ratio": 2.3333333333,
+    "width_life": 0.56,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.3,
+    "q": 20,
+    "ratio": 1.5,
+    "width_life": 0.36,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.3,
+    "q": 30,
+    "ratio": 3.5833333333,
+    "width_life": 0.86,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.3,
+    "q": 30,
+    "ratio": 2.4166666667,
+    "width_life": 0.58,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.3,
+    "q": 30,
+    "ratio": 1.5,
+    "width_life": 0.36,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.4,
+    "q": 10,
+    "ratio": 2.6666666667,
+    "width_life": 0.64,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.4,
+    "q": 10,
+    "ratio": 1.9166666667,
+    "width_life": 0.46,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.4,
+    "q": 10,
+    "ratio": 1.375,
+    "width_life": 0.33,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.4,
+    "q": 20,
+    "ratio": 2.9166666667,
+    "width_life": 0.7,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.4,
+    "q": 20,
+    "ratio": 2.0416666667,
+    "width_life": 0.49,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.4,
+    "q": 20,
+    "ratio": 1.375,
+    "width_life": 0.33,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.25,
+    "Aw": 0.75,
+    "gamma": 0.4,
+    "q": 30,
+    "ratio": 3.0833333333,
+    "width_life": 0.74,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.35,
+    "Aw": 0.65,
+    "gamma": 0.4,
+    "q": 30,
+    "ratio": 2.1666666667,
+    "width_life": 0.52,
+    "width_lifeless": 0.24
+   },
+   {
+    "Ab": 0.45,
+    "Aw": 0.55,
+    "gamma": 0.4,
+    "q": 30,
+    "ratio": 1.375,
+    "width_life": 0.33,
+    "width_lifeless": 0.24
+   }
+  ],
+  "width_lifeless": 0.24
+ }
+}

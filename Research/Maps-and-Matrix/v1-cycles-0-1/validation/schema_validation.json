@@ -1,0 +1,516 @@
+{
+ "data_model": "1.0.0",
+ "cycles": {
+  "C0": {
+   "claims": 100,
+   "sources": 78,
+   "links": 24,
+   "simulations": 8,
+   "execution_records": 8
+  },
+  "C1": {
+   "claims": 142,
+   "sources": 115,
+   "links": 24,
+   "simulations": 21,
+   "execution_records": 21
+  }
+ },
+ "n_errors": 0,
+ "n_warnings": 82,
+ "errors": [],
+ "warnings": [
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R1-02",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R1-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R1-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R2-06",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R2-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R2-08",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R2-09",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-03",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-09",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-10",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-13",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-14",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-15",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-16",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R3-18",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R4-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R4-03",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R4-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R4-05",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R4-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R4-15",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R5-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R5-03",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R5-08",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R5-12",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-06",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-09",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-10",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-11",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-12",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-13",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-18",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R6-19",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R7-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R7-06",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q1",
+   "id": "C0v2-R7-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q2",
+   "id": "S19",
+   "warning": "access_mode outside controlled prefixes: 'accepted manuscript PDF (third-party host)'"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q2",
+   "id": "S27",
+   "warning": "access_mode outside controlled prefixes: 'full file'"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q3",
+   "id": "L24",
+   "warning": "rejection criterion is a placeholder (label Philosophical/Spiritual)"
+  },
+  {
+   "cycle": "C0",
+   "kind": "Q4",
+   "id": "Report-4-Spirit/simulation/archive_v1/EXECUTION_RECORD.json",
+   "warning": "archived output outputs/results.json renamed to results_v1.json (SHA-256 matches)"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R1-02",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R1-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R1-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R2-06",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R2-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R2-08",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R2-09",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-03",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-09",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-10",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-13",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-14",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-15",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-16",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R3-18",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R4-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R4-03",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R4-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R4-05",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R4-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R4-15",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R5-01",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R5-03",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R5-08",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R5-12",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-06",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-09",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-10",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-11",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-12",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-13",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R6-19",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R7-04",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R7-06",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q1",
+   "id": "C0v2-R7-07",
+   "warning": "counterevidence_limits is empty"
+  },
+  {
+   "cycle": "C1",
+   "kind": "Q3",
+   "id": "L24",
+   "warning": "rejection criterion is a placeholder (label Philosophical/Spiritual)"
+  }
+ ]
+}

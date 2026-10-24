@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R3-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:17:08.591403+00:00",
+ "finished_utc": "2026-10-24T02:17:08.650390+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-2",
+ "params_sha256": "3dade20a68ebb49d886c355b9065a70a02d29a731ad65c8dbb2b4c1055ff7478",
+ "outputs": {
+  "outputs/results.json": "cb990e3c1744863b161c711f4e9783f79dcd0548a072f0dc713163c2b0b92796"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "bootstrap 95% CI lower bound for kappa >= 0.41 (W08 recommends bootstrap CIs)",
+   "observed": [
+    0.5833333333,
+    0.956043956
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2r",
+   "kind": "reporting",
+   "expect": "report Krippendorff's alpha (nominal, 2 coders, no missing)",
+   "observed": 0.7893569845,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

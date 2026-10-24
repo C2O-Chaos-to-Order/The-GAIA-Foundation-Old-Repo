@@ -1,0 +1,47 @@
+{
+ "sim_id": "SIM-R6-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:07:15.653865+00:00",
+ "finished_utc": "2026-10-24T02:07:29.895624+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-5",
+ "params_sha256": "7a1cc66e715243dd7d97a3f2307f921de3eb87394848a84bac69bac58fb9e1e9",
+ "outputs": {
+  "outputs/results.json": "e92732e2522954b798a380e245d6ddb35f3be46835c45fd65462560045667338"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "M0",
+   "kind": "validation",
+   "expect": "2-type multi() without mutation equals the two-daisy model width",
+   "observed": [
+    0.82,
+    0.82
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "M1",
+   "kind": "hypothesis",
+   "expect": "W01 citing Stocker 1995: more albedo types with mutation extend the regulated range (max width for k>2 >= 1.1x two-type)",
+   "observed": [
+    0.78,
+    0.82
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

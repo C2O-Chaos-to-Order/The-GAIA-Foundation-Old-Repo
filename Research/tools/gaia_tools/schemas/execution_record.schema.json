@@ -1,0 +1,249 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/execution_record.schema.json",
+ "title": "Simulation execution record (data model 1.1.0)",
+ "description": "EXECUTION_RECORD.json. Cycle-0 records embed params and all_checks_passed; Cycle>=1 iteration records carry iteration, params_sha256, typed checks (kind) and counts.",
+ "type": "object",
+ "required": [
+  "sim_id",
+  "status",
+  "started_utc",
+  "finished_utc",
+  "environment",
+  "command",
+  "outputs",
+  "pre_registered_checks"
+ ],
+ "properties": {
+  "sim_id": {
+   "type": "string",
+   "pattern": "^SIM-R[1-7]-C[0-9]+$"
+  },
+  "iteration": {
+   "type": "integer",
+   "minimum": 1
+  },
+  "status": {
+   "enum": [
+    "executed",
+    "failed",
+    "not executed"
+   ]
+  },
+  "started_utc": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "finished_utc": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "environment": {
+   "type": "object",
+   "required": [
+    "python",
+    "platform"
+   ],
+   "properties": {
+    "python": {
+     "type": "string"
+    },
+    "platform": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": {
+    "type": "string"
+   }
+  },
+  "command": {
+   "type": "string",
+   "minLength": 3
+  },
+  "params": {
+   "type": "object"
+  },
+  "params_sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "outputs": {
+   "type": "object",
+   "minProperties": 1,
+   "additionalProperties": {
+    "type": "string",
+    "pattern": "^[0-9a-f]{64}$"
+   }
+  },
+  "pre_registered_checks": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "expect",
+     "result"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.]+$"
+     },
+     "kind": {
+      "enum": [
+       "validation",
+       "hypothesis",
+       "reporting"
+      ]
+     },
+     "expect": {
+      "type": "string",
+      "minLength": 3
+     },
+     "observed": {},
+     "result": {
+      "enum": [
+       "Pass",
+       "Fail",
+       "Supported",
+       "Not supported",
+       "Reported",
+       "Indeterminate"
+      ]
+     }
+    },
+    "additionalProperties": false,
+    "allOf": [
+     {
+      "if": {
+       "required": [
+        "kind"
+       ],
+       "properties": {
+        "kind": {
+         "const": "validation"
+        }
+       }
+      },
+      "then": {
+       "properties": {
+        "result": {
+         "enum": [
+          "Pass",
+          "Fail",
+          "Indeterminate"
+         ]
+        }
+       }
+      }
+     },
+     {
+      "if": {
+       "required": [
+        "kind"
+       ],
+       "properties": {
+        "kind": {
+         "const": "hypothesis"
+        }
+       }
+      },
+      "then": {
+       "properties": {
+        "result": {
+         "enum": [
+          "Supported",
+          "Not supported",
+          "Indeterminate"
+         ]
+        }
+       }
+      }
+     },
+     {
+      "if": {
+       "required": [
+        "kind"
+       ],
+       "properties": {
+        "kind": {
+         "const": "reporting"
+        }
+       }
+      },
+      "then": {
+       "properties": {
+        "result": {
+         "const": "Reported"
+        }
+       }
+      }
+     }
+    ]
+   }
+  },
+  "all_checks_passed": {
+   "type": "boolean"
+  },
+  "n_checks": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "n_validation": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "n_validation_pass": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "n_hypothesis": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "n_supported": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "n_reporting": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "all_validation_passed": {
+   "type": "boolean"
+  }
+ },
+ "additionalProperties": false,
+ "allOf": [
+  {
+   "if": {
+    "required": [
+     "iteration"
+    ]
+   },
+   "then": {
+    "required": [
+     "params_sha256",
+     "n_checks",
+     "all_validation_passed"
+    ],
+    "properties": {
+     "pre_registered_checks": {
+      "items": {
+       "required": [
+        "kind"
+       ]
+      }
+     }
+    }
+   },
+   "else": {
+    "required": [
+     "params",
+     "all_checks_passed"
+    ]
+   }
+  }
+ ]
+}

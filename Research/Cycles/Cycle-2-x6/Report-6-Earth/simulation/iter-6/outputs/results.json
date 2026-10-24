@@ -1,0 +1,75 @@
+{
+ "carried_from_prev": {},
+ "lifeless_width": 0.24,
+ "no_adaptation_width": 0.82,
+ "robustness": [
+  {
+   "constrained": 0.9,
+   "gamma": 0.2,
+   "none": 0.92,
+   "q": 10.0,
+   "unbounded": 0.2
+  },
+  {
+   "constrained": 0.94,
+   "gamma": 0.2,
+   "none": 0.96,
+   "q": 20.0,
+   "unbounded": 0.19
+  },
+  {
+   "constrained": 0.97,
+   "gamma": 0.2,
+   "none": 1.0,
+   "q": 30.0,
+   "unbounded": 0.18
+  },
+  {
+   "constrained": 0.74,
+   "gamma": 0.3,
+   "none": 0.77,
+   "q": 10.0,
+   "unbounded": 0.2
+  },
+  {
+   "constrained": 0.79,
+   "gamma": 0.3,
+   "none": 0.82,
+   "q": 20.0,
+   "unbounded": 0.2
+  },
+  {
+   "constrained": 0.82,
+   "gamma": 0.3,
+   "none": 0.86,
+   "q": 30.0,
+   "unbounded": 0.19
+  },
+  {
+   "constrained": 0.6,
+   "gamma": 0.4,
+   "none": 0.65,
+   "q": 10.0,
+   "unbounded": 0.2
+  },
+  {
+   "constrained": 0.65,
+   "gamma": 0.4,
+   "none": 0.69,
+   "q": 20.0,
+   "unbounded": 0.2
+  },
+  {
+   "constrained": 0.68,
+   "gamma": 0.4,
+   "none": 0.74,
+   "q": 30.0,
+   "unbounded": 0.2
+  }
+ ],
+ "robustness_summary": {
+  "frac_constrained_ok": 1.0,
+  "frac_unbounded_ok": 0.0,
+  "n": 9
+ }
+}

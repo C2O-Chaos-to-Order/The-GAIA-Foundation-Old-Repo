@@ -1,0 +1,68 @@
+{
+ "sim_id": "SIM-R2-C2",
+ "iteration": 1,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:10:54.704018+00:00",
+ "finished_utc": "2026-10-24T02:10:54.706341+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-1",
+ "params_sha256": "33d3dcb86c6bf42a5cd21224fc2ac27a5bddec20e23098e910007590f028e1e8",
+ "outputs": {
+  "outputs/results.json": "baafb0c14de7807aa6f6f32c9455b38c038d654fadf9afab6739c7b1a5345f1c"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "RW single cue converges to lambda=1 (|V-1| < 1e-6 after 200 trials)",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "RW shows no latent inhibition (LI index exactly 0: V stays 0 during non-reinforced pre-exposure)",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "RW blocking index >= 0.8 (textbook result)",
+   "observed": 0.9992020773,
+   "result": "Pass"
+  },
+  {
+   "id": "H_PH",
+   "kind": "hypothesis",
+   "expect": "PH at default parameters shows BOTH latent inhibition (index >= 0.2) and blocking (index >= 0.5)",
+   "observed": {
+    "LI": 0.2727653831,
+    "blocking": 0.9458654886
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H_KF",
+   "kind": "hypothesis",
+   "expect": "KF at default parameters shows BOTH latent inhibition (index >= 0.2) and blocking (index >= 0.5)",
+   "observed": {
+    "LI": 0.5180188763,
+    "blocking": 0.9857086253
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

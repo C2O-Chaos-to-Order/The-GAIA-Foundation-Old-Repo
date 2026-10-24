@@ -1,0 +1,26 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "coding_b": "../data/coding_b_sample.csv",
+ "experiments": {
+  "tolerance": {
+   "flips": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    15,
+    20,
+    30,
+    40,
+    60
+   ],
+   "reps": 500,
+   "seed": 6
+  }
+ },
+ "iteration": 6,
+ "prev": "../iter-5",
+ "sample": "../data/sample_c2.json",
+ "sim_id": "SIM-R3-C2"
+}

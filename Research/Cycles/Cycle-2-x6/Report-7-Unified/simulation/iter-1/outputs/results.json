@@ -1,0 +1,221 @@
+{
+ "downgraded": [
+  "L04",
+  "L08",
+  "L16"
+ ],
+ "r2_established_after_rule": [],
+ "strict_rule": [
+  {
+   "frm": "R1 Body",
+   "link_id": "L01",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R1 Body",
+   "link_id": "L02",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R1 Body",
+   "link_id": "L03",
+   "new": "Established",
+   "non_established_basis": [],
+   "old": "Established",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R1 Body",
+   "link_id": "L04",
+   "new": "Plausible",
+   "non_established_basis": [
+    [
+     "C0v2-R2-09",
+     "Philosophical/Spiritual"
+    ]
+   ],
+   "old": "Established",
+   "to": "R2 Mind"
+  },
+  {
+   "frm": "R1 Body",
+   "link_id": "L05",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R2 Mind"
+  },
+  {
+   "frm": "R1 Body",
+   "link_id": "L06",
+   "new": "Philosophical/Spiritual",
+   "non_established_basis": [],
+   "old": "Philosophical/Spiritual",
+   "to": "R2 Mind"
+  },
+  {
+   "frm": "R2 Mind",
+   "link_id": "L07",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R5 Consciousness"
+  },
+  {
+   "frm": "R2 Mind",
+   "link_id": "L08",
+   "new": "Plausible",
+   "non_established_basis": [
+    [
+     "C1-R5-02",
+     "Plausible"
+    ]
+   ],
+   "old": "Established",
+   "to": "R5 Consciousness"
+  },
+  {
+   "frm": "R2 Mind",
+   "link_id": "L09",
+   "new": "Philosophical/Spiritual",
+   "non_established_basis": [],
+   "old": "Philosophical/Spiritual",
+   "to": "R3 Soul"
+  },
+  {
+   "frm": "R3 Soul",
+   "link_id": "L10",
+   "new": "Established",
+   "non_established_basis": [],
+   "old": "Established",
+   "to": "R4 Spirit"
+  },
+  {
+   "frm": "R3 Soul",
+   "link_id": "L11",
+   "new": "Philosophical/Spiritual",
+   "non_established_basis": [],
+   "old": "Philosophical/Spiritual",
+   "to": "R4 Spirit"
+  },
+  {
+   "frm": "R3 Soul",
+   "link_id": "L12",
+   "new": "Philosophical/Spiritual",
+   "non_established_basis": [],
+   "old": "Philosophical/Spiritual",
+   "to": "R5 Consciousness"
+  },
+  {
+   "frm": "R3 Soul",
+   "link_id": "L13",
+   "new": "Established",
+   "non_established_basis": [],
+   "old": "Established",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R4 Spirit",
+   "link_id": "L14",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R1 Body"
+  },
+  {
+   "frm": "R4 Spirit",
+   "link_id": "L15",
+   "new": "Hypothetical",
+   "non_established_basis": [],
+   "old": "Hypothetical",
+   "to": "R1 Body"
+  },
+  {
+   "frm": "R4 Spirit",
+   "link_id": "L16",
+   "new": "Plausible",
+   "non_established_basis": [
+    [
+     "C0v2-R4-15",
+     "Philosophical/Spiritual"
+    ],
+    [
+     "C0v2-R4-11",
+     "Plausible"
+    ]
+   ],
+   "old": "Established",
+   "to": "R4 Spirit"
+  },
+  {
+   "frm": "R5 Consciousness",
+   "link_id": "L17",
+   "new": "Established",
+   "non_established_basis": [],
+   "old": "Established",
+   "to": "R1 Body"
+  },
+  {
+   "frm": "R5 Consciousness",
+   "link_id": "L18",
+   "new": "Hypothetical",
+   "non_established_basis": [],
+   "old": "Hypothetical",
+   "to": "R4 Spirit"
+  },
+  {
+   "frm": "R6 Earth",
+   "link_id": "L19",
+   "new": "Established",
+   "non_established_basis": [],
+   "old": "Established",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R6 Earth",
+   "link_id": "L20",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R6 Earth",
+   "link_id": "L21",
+   "new": "Plausible",
+   "non_established_basis": [],
+   "old": "Plausible",
+   "to": "R6 Earth"
+  },
+  {
+   "frm": "R6 Earth",
+   "link_id": "L22",
+   "new": "Established",
+   "non_established_basis": [],
+   "old": "Established",
+   "to": "R7 Unified"
+  },
+  {
+   "frm": "R6 Earth",
+   "link_id": "L23",
+   "new": "Philosophical/Spiritual",
+   "non_established_basis": [],
+   "old": "Philosophical/Spiritual",
+   "to": "R3 Soul"
+  },
+  {
+   "frm": "R7 Unified",
+   "link_id": "L24",
+   "new": "Philosophical/Spiritual",
+   "non_established_basis": [],
+   "old": "Philosophical/Spiritual",
+   "to": "All"
+  }
+ ]
+}

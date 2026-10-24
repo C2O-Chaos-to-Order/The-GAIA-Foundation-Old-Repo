@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R1-C2",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:09:25.703948+00:00",
+ "finished_utc": "2026-10-24T02:09:25.745121+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-6",
+ "params_sha256": "06415d243fa437c84ac120d730e9f38a277f0505fcfcb2155abf9172b41087e4",
+ "outputs": {
+  "outputs/results.json": "98cabe4e1bf13ebb92831658441366650070736e626e606fa9bb8912f6a3c353"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "H1 replicates under 20% day-to-day load noise: reduction >= 30% in every seed",
+   "observed": [
+    0.7947566732,
+    0.8753956492
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

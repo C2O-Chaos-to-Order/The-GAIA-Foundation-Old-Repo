@@ -1,0 +1,40 @@
+{
+ "experiments": {
+  "designs": {
+   "n_families": 20000,
+   "scenarios": [
+    {
+     "beta": -0.1,
+     "name": "family_only",
+     "u_sd": 0.0,
+     "u_to_a": 0.0,
+     "u_to_y": 0.0,
+     "z_to_a": 0.8,
+     "z_to_y": 0.0
+    },
+    {
+     "beta": -0.1,
+     "name": "individual_confounding",
+     "u_sd": 1.0,
+     "u_to_a": 0.6,
+     "u_to_y": -0.6,
+     "z_to_a": 0.8,
+     "z_to_y": 0.0
+    },
+    {
+     "beta": -0.1,
+     "name": "exclusion_violated",
+     "u_sd": 1.0,
+     "u_to_a": 0.6,
+     "u_to_y": -0.6,
+     "z_to_a": 0.8,
+     "z_to_y": -0.2
+    }
+   ],
+   "seed": 5
+  }
+ },
+ "iteration": 3,
+ "prev": "../iter-2",
+ "sim_id": "SIM-R4-C1"
+}

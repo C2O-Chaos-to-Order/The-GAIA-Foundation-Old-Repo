@@ -1,0 +1,55 @@
+{
+ "sim_id": "SIM-R1-C2",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:09:25.450888+00:00",
+ "finished_utc": "2026-10-24T02:09:25.464958+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-4",
+ "params_sha256": "4ff2cc2b0e465aa31e6b0db95396c972d3a81e2e9c8c2d5b779aaee7bc023861",
+ "outputs": {
+  "outputs/results.json": "220168869240ce4b3a84d6adb319620363b7f1f1f70d6dedf765ea334f0e1268"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "R6 analogue: unbounded set-point adaptation raises the sustained-load peak by >= 50% over a fixed set point",
+   "observed": [
+    1.0,
+    [
+     1.5726417172,
+     2.9774873671
+    ]
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H4b",
+   "kind": "hypothesis",
+   "expect": "bounded (<= 0.25) set-point adaptation keeps the peak within 20% of fixed",
+   "observed": [
+    1.0,
+    [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

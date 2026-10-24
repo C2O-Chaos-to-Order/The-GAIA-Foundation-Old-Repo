@@ -1,0 +1,32 @@
+{
+ "experiments": {
+  "two_area": {
+   "amp": 4.0,
+   "coupling": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    2.5,
+    3,
+    4
+   ],
+   "kappa": 0.5,
+   "post_ms": 300,
+   "seed": 13,
+   "sigma": 0.3,
+   "stim_ms": 50,
+   "tau": 10.0,
+   "thG": 5.0,
+   "thL": 3.5,
+   "trials": 200,
+   "wG": 8.0,
+   "wL": 7.0
+  }
+ },
+ "iteration": 3,
+ "kappa": 0.5,
+ "prev": "../iter-2",
+ "sim_id": "SIM-R5-C1"
+}

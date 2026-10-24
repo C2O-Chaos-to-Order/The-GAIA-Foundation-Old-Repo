@@ -1,0 +1,82 @@
+{
+ "consistency": {
+  "bad_vocab": [],
+  "duplicates": 0,
+  "established_framework_only": [],
+  "established_on_failed_sim": [],
+  "established_without_full_text": [],
+  "label_counts": {
+   "Established": 91,
+   "Hypothetical": 2,
+   "Philosophical/Spiritual": 21,
+   "Plausible": 28
+  },
+  "label_status_mismatch": [],
+  "link_label_counts": {
+   "Established": 9,
+   "Hypothetical": 2,
+   "Philosophical/Spiritual": 6,
+   "Plausible": 7
+  },
+  "link_types_missing": [],
+  "links_bad": [],
+  "links_bad_sim_refs": [],
+  "missing_fields": [],
+  "n_claims": 142,
+  "n_links": 24,
+  "n_sources": 115,
+  "not_supported_unstated": [],
+  "per_report": {
+   "R1": 20,
+   "R2": 20,
+   "R3": 23,
+   "R4": 24,
+   "R5": 17,
+   "R6": 28,
+   "R7": 10
+  },
+  "self_citations": [
+   [
+    "C0v2-R7-03",
+    "SIM-R7-C1/iter-1#K6"
+   ],
+   [
+    "C1-R7-02",
+    "SIM-R7-C1/iter-1#K1"
+   ],
+   [
+    "C1-R7-02",
+    "SIM-R7-C1/iter-1#K2"
+   ],
+   [
+    "C1-R7-02",
+    "SIM-R7-C1/iter-1#K4"
+   ],
+   [
+    "C1-R7-02",
+    "SIM-R7-C1/iter-1#K6"
+   ],
+   [
+    "C1-R7-03",
+    "SIM-R7-C1/iter-2#N1"
+   ],
+   [
+    "C1-R7-03",
+    "SIM-R7-C1/iter-3#J1"
+   ],
+   [
+    "C1-R7-03",
+    "SIM-R7-C1/iter-3#J2"
+   ]
+  ],
+  "status_counts": {
+   "Contested": 24,
+   "Hypothetical": 2,
+   "Indeterminate": 9,
+   "Interpretive": 9,
+   "Mixed": 7,
+   "Supported": 91
+  },
+  "unresolved": []
+ }
+}

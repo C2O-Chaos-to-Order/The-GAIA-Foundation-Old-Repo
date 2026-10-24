@@ -1,0 +1,63 @@
+{
+ "sim_id": "SIM-R4-C2",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:12:21.224208+00:00",
+ "finished_utc": "2026-10-24T02:12:25.234423+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-4",
+ "params_sha256": "1bcfb9e4d4ae88865143c00e6e9803a965e082cf6a3d4764a17270ea96873253",
+ "outputs": {
+  "outputs/results.json": "7b61f37ecfcb6dea47a7b833305a9cedaf0bcc4c3a87ff58f143474f40151050"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "PM on the odds-ratio 'difference' scale departs from the risk-difference PM by >= 0.05 when the outcome is common (>= 30%)",
+   "observed": [
+    [
+     0.365,
+     -0.0527183999
+    ],
+    [
+     0.584,
+     -0.0191347396
+    ],
+    [
+     0.777,
+     0.0062114208
+    ]
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "H3b",
+   "kind": "hypothesis",
+   "expect": "and by <= 0.05 when the outcome is rare (< 10%)",
+   "observed": [
+    [
+     0.032,
+     -0.0973430835
+    ],
+    [
+     0.081,
+     -0.0791065206
+    ]
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

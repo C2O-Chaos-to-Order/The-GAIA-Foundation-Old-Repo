@@ -1,0 +1,67 @@
+{
+ "carried_from_prev": {
+  "safe_w_max": null
+ },
+ "learning_used": {
+  "eta": 0.01,
+  "lam": 0.0,
+  "w_max": null
+ },
+ "safe_w_max": null,
+ "setpoint_adaptation": [
+  {
+   "bound": null,
+   "final_Tset": 0.0,
+   "peak": 1.0,
+   "rate": 0
+  },
+  {
+   "bound": 0.1,
+   "final_Tset": 0.0,
+   "peak": 1.0,
+   "rate": 0
+  },
+  {
+   "bound": 0.25,
+   "final_Tset": 0.0,
+   "peak": 1.0,
+   "rate": 0
+  },
+  {
+   "bound": null,
+   "final_Tset": 1.2895345217,
+   "peak": 1.5726417172,
+   "rate": 0.001
+  },
+  {
+   "bound": 0.1,
+   "final_Tset": 0.1,
+   "peak": 1.0,
+   "rate": 0.001
+  },
+  {
+   "bound": 0.25,
+   "final_Tset": 0.25,
+   "peak": 1.0,
+   "rate": 0.001
+  },
+  {
+   "bound": null,
+   "final_Tset": 2.9733381724,
+   "peak": 2.9774873671,
+   "rate": 0.01
+  },
+  {
+   "bound": 0.1,
+   "final_Tset": 0.1,
+   "peak": 1.0,
+   "rate": 0.01
+  },
+  {
+   "bound": 0.25,
+   "final_Tset": 0.25,
+   "peak": 1.0,
+   "rate": 0.01
+  }
+ ]
+}

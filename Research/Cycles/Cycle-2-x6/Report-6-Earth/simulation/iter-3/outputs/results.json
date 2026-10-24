@@ -1,0 +1,98 @@
+{
+ "carried_from_prev": {},
+ "lifeless_width": 0.24,
+ "no_adaptation_width": 0.82,
+ "rate_ratio": [
+  {
+   "adapt_per_forcing_step": 0.003,
+   "rate": 0.0003,
+   "steps": 200,
+   "width": 0.77
+  },
+  {
+   "adapt_per_forcing_step": 0.01,
+   "rate": 0.001,
+   "steps": 200,
+   "width": 0.71
+  },
+  {
+   "adapt_per_forcing_step": 0.03,
+   "rate": 0.003,
+   "steps": 200,
+   "width": 0.17
+  },
+  {
+   "adapt_per_forcing_step": 0.1,
+   "rate": 0.01,
+   "steps": 200,
+   "width": 0.33
+  },
+  {
+   "adapt_per_forcing_step": 0.3,
+   "rate": 0.03,
+   "steps": 200,
+   "width": 0.2
+  },
+  {
+   "adapt_per_forcing_step": 0.0075,
+   "rate": 0.0003,
+   "steps": 500,
+   "width": 0.73
+  },
+  {
+   "adapt_per_forcing_step": 0.025,
+   "rate": 0.001,
+   "steps": 500,
+   "width": 0.15
+  },
+  {
+   "adapt_per_forcing_step": 0.075,
+   "rate": 0.003,
+   "steps": 500,
+   "width": 0.38
+  },
+  {
+   "adapt_per_forcing_step": 0.25,
+   "rate": 0.01,
+   "steps": 500,
+   "width": 0.21
+  },
+  {
+   "adapt_per_forcing_step": 0.75,
+   "rate": 0.03,
+   "steps": 500,
+   "width": 0.19
+  },
+  {
+   "adapt_per_forcing_step": 0.03,
+   "rate": 0.0003,
+   "steps": 2000,
+   "width": 0.08
+  },
+  {
+   "adapt_per_forcing_step": 0.1,
+   "rate": 0.001,
+   "steps": 2000,
+   "width": 0.35
+  },
+  {
+   "adapt_per_forcing_step": 0.3,
+   "rate": 0.003,
+   "steps": 2000,
+   "width": 0.22
+  },
+  {
+   "adapt_per_forcing_step": 1.0,
+   "rate": 0.01,
+   "steps": 2000,
+   "width": 0.19
+  },
+  {
+   "adapt_per_forcing_step": 3.0,
+   "rate": 0.03,
+   "steps": 2000,
+   "width": 0.2
+  }
+ ],
+ "rate_ratio_spearman": -0.3883409634
+}

@@ -1,0 +1,62 @@
+{
+ "sim_id": "SIM-R7-C1",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:30:43.268408+00:00",
+ "finished_utc": "2026-10-24T01:30:43.271517+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-2",
+ "params_sha256": "6c3db7358b6d9de49dbe8380860e30d7782f0f7107467d7858949312c130ebc3",
+ "outputs": {
+  "outputs/results.json": "99a6b2c98477cfd62fb6132a49a3cc63e2fc6c7fc72cfb48116358c2c6d4186c"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "N1",
+   "kind": "validation",
+   "expect": "R1-R7 are connected by the full link register",
+   "observed": {
+    "n_links": 24,
+    "connected": true,
+    "isolated": []
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "N2",
+   "kind": "hypothesis",
+   "expect": "graph stays connected when Philosophical/Spiritual and Hypothetical links are removed",
+   "observed": {
+    "n_links": 16,
+    "connected": true,
+    "isolated": []
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "N3",
+   "kind": "hypothesis",
+   "expect": "graph stays connected using only links whose every basis claim is Established",
+   "observed": {
+    "n_links": 7,
+    "connected": false,
+    "isolated": [
+     "R2"
+    ]
+   },
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,39 @@
+{
+ "lifeless_width": 0.24,
+ "no_adaptation_width": 0.82,
+ "replicate_c1": {
+  "no_adaptation": 0.82,
+  "unbounded": 0.19
+ },
+ "unbounded_by_rate": [
+  [
+   0,
+   0.82
+  ],
+  [
+   0.0003,
+   0.08
+  ],
+  [
+   0.001,
+   0.35
+  ],
+  [
+   0.003,
+   0.22
+  ],
+  [
+   0.01,
+   0.19
+  ],
+  [
+   0.03,
+   0.2
+  ],
+  [
+   0.1,
+   0.21
+  ]
+ ],
+ "worst_rate": 0.0003
+}

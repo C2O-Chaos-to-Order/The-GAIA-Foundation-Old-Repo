@@ -1,0 +1,204 @@
+{
+ "carried_from_prev": {
+  "safe_w_max": null
+ },
+ "learning_used": {
+  "eta": 0.01,
+  "lam": 0.0,
+  "w_max": null
+ },
+ "robustness": [
+  {
+   "Kp": 0.05,
+   "Umax": 0.03,
+   "eta": 0.003,
+   "reduction": 0.6605332179,
+   "undershoot": 1.2520653043
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.04,
+   "eta": 0.003,
+   "reduction": 0.4908181969,
+   "undershoot": 1.1915521154
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.06,
+   "eta": 0.003,
+   "reduction": 0.4171404541,
+   "undershoot": 1.1607422181
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.03,
+   "eta": 0.003,
+   "reduction": 0.829695306,
+   "undershoot": 1.4774987007
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.04,
+   "eta": 0.003,
+   "reduction": 0.6282768122,
+   "undershoot": 0.8556878732
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.06,
+   "eta": 0.003,
+   "reduction": 0.2993733496,
+   "undershoot": 0.8331480887
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.03,
+   "eta": 0.003,
+   "reduction": 0.7357221158,
+   "undershoot": 1.0291389883
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.04,
+   "eta": 0.003,
+   "reduction": 0.7905629324,
+   "undershoot": 0.8142949061
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.06,
+   "eta": 0.003,
+   "reduction": 0.1948976322,
+   "undershoot": 0.5423951085
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.03,
+   "eta": 0.01,
+   "reduction": 0.803653691,
+   "undershoot": 1.8972637031
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.04,
+   "eta": 0.01,
+   "reduction": 0.7899300712,
+   "undershoot": 2.1260067374
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.06,
+   "eta": 0.01,
+   "reduction": 0.8619209744,
+   "undershoot": 2.3977906884
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.03,
+   "eta": 0.01,
+   "reduction": 0.9276519492,
+   "undershoot": 2.2283846732
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.04,
+   "eta": 0.01,
+   "reduction": 0.7993550353,
+   "undershoot": 1.7426823756
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.06,
+   "eta": 0.01,
+   "reduction": 0.6779857003,
+   "undershoot": 1.8868154642
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.03,
+   "eta": 0.01,
+   "reduction": 0.9110406595,
+   "undershoot": 1.5370666014
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.04,
+   "eta": 0.01,
+   "reduction": 0.8966543231,
+   "undershoot": 1.8115392858
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.06,
+   "eta": 0.01,
+   "reduction": 0.5459087945,
+   "undershoot": 1.5192501647
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.03,
+   "eta": 0.03,
+   "reduction": 0.859871653,
+   "undershoot": 2.1506095701
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.04,
+   "eta": 0.03,
+   "reduction": 0.8915119359,
+   "undershoot": 2.4428449608
+  },
+  {
+   "Kp": 0.05,
+   "Umax": 0.06,
+   "eta": 0.03,
+   "reduction": 0.776987861,
+   "undershoot": 2.1618373538
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.03,
+   "eta": 0.03,
+   "reduction": 0.8436186248,
+   "undershoot": 1.5842281413
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.04,
+   "eta": 0.03,
+   "reduction": 0.8788423686,
+   "undershoot": 2.1548012862
+  },
+  {
+   "Kp": 0.1,
+   "Umax": 0.06,
+   "eta": 0.03,
+   "reduction": 0.6981079047,
+   "undershoot": 1.9428148572
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.03,
+   "eta": 0.03,
+   "reduction": 0.9381823385,
+   "undershoot": 1.917195631
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.04,
+   "eta": 0.03,
+   "reduction": 0.9289512294,
+   "undershoot": 2.1151257318
+  },
+  {
+   "Kp": 0.2,
+   "Umax": 0.06,
+   "eta": 0.03,
+   "reduction": 0.8044681341,
+   "undershoot": 2.2388141708
+  }
+ ],
+ "robustness_frac_ok": 0.0,
+ "safe_w_max": null,
+ "w_max_used": null
+}

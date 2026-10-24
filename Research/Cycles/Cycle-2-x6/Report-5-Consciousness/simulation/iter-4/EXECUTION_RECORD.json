@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R5-C2",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:14:17.449285+00:00",
+ "finished_utc": "2026-10-24T02:14:18.124786+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-4",
+ "params_sha256": "a3be2d66dded408548f63ea03399ac64ae4697a56b12c929627550f8558a7720",
+ "outputs": {
+  "outputs/results.json": "c3a951ae0c1c52c4a8733c70c26d58ebc4367e8f33b1c50970c2e221ce8d87db"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "N1",
+   "kind": "hypothesis",
+   "expect": "dissociation: uncoupled noisy network has HIGHER spontaneous LZ but LOWER PCI-like than the network at the PCI peak",
+   "observed": [
+    {
+     "spont_lz": 0.8561974252,
+     "pci_like": 0.2206924424,
+     "response_fraction": 0.2216666667
+    },
+    {
+     "spont_lz": 0.4912608177,
+     "pci_like": 0.7162863621,
+     "response_fraction": 0.3004166667
+    }
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
