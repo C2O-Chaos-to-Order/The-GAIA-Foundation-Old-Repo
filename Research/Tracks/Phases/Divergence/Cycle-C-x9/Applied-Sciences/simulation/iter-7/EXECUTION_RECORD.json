@@ -1,0 +1,84 @@
+{
+ "sim_id": "SIM-DV-APP-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:33:18.434766+00:00",
+ "finished_utc": "2026-10-24T16:33:18.555693+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-7  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "4849daf21672c287bd52519b4ba75db15c78a151e8e15e21608be130d2c2e8a9",
+ "params_sha256": "d23601fecd1cec61f954e55bc2c8fe90ffa8ca93d0ac23e1528ab7b4f63883a8",
+ "results_sha256": "051ef6bea97f5a6fe0eaa7bd874e5a64c507c52b1d4cdaec7ba40bdc8c619810",
+ "results": {
+  "r2": [
+   0.90364646,
+   0.92292196,
+   0.89455017,
+   0.96074476,
+   0.87617153
+  ],
+  "median_r2": 0.90364646,
+  "min_r2": 0.87617153,
+  "frac_ge_h1": 0.0,
+  "slopes": [
+   3.28128723,
+   2.46991554,
+   6.95984279,
+   8.25963883,
+   4.52143486
+  ],
+  "extinct_restarts": 2
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "every replicate reached N cells and mutation bookkeeping is exact",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "median R^2 of the M(f) ~ 1/f fit across 5 replicates >= 0.98",
+   "observed": 0.90364646,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "R^2 per replicate, slopes, extinct restarts",
+   "observed": [
+    [
+     0.90364646,
+     0.92292196,
+     0.89455017,
+     0.96074476,
+     0.87617153
+    ],
+    [
+     3.28128723,
+     2.46991554,
+     6.95984279,
+     8.25963883,
+     4.52143486
+    ],
+    2
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
