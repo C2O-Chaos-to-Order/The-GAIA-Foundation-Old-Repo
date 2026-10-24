@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R1-C3",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:00:41.631995+00:00",
+ "finished_utc": "2026-10-24T03:00:41.666684+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r1.py simulation/iter-4",
+ "params_sha256": "199642c04518dac22eda0cbcf4aecc28705337a5d8073cc5e8683001ab104d8d",
+ "outputs": {
+  "outputs/results.json": "50c55fd63d49907351c24b1e81258c49e2e5972cb2dfde6e8450012414d5a9b9"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "decay decelerates more with longer absence in the two-state model than in the single-state model (ratio of %/day at longest vs shortest absence lower by >= 0.1)",
+   "observed": {
+    "two_state": 0.2007318007,
+    "single_state": 0.6861364225
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

@@ -1,0 +1,102 @@
+{
+ "carried_from_prev": {
+  "selected_theta": [
+   0.6,
+   0.999,
+   0.01,
+   0.005
+  ]
+ },
+ "selected_theta": [
+  0.6,
+  0.999,
+  0.01,
+  0.005
+ ],
+ "slow_retention": [
+  {
+   "As": 0.98,
+   "cycle": 1,
+   "decay_pct_per_day": 3.076973204,
+   "ha_days_lost": 11,
+   "ratio": 3.2601583479,
+   "reinduction_days_to_95pct": 4,
+   "reinduction_pct_per_day": 10.0314198773,
+   "slow_share_after_decay": 0.9996627709,
+   "w_acclimated": 0.0263891989,
+   "w_after_decay": 0.0150213588
+  },
+  {
+   "As": 0.99,
+   "cycle": 1,
+   "decay_pct_per_day": 2.353857541,
+   "ha_days_lost": 9,
+   "ratio": 4.547882259,
+   "reinduction_days_to_95pct": 3,
+   "reinduction_pct_per_day": 10.7050669508,
+   "slow_share_after_decay": 0.999732985,
+   "w_acclimated": 0.0274865237,
+   "w_after_decay": 0.0184286132
+  },
+  {
+   "As": 0.995,
+   "cycle": 1,
+   "decay_pct_per_day": 1.9492310635,
+   "ha_days_lost": 8,
+   "ratio": 6.2872103089,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 12.2552256368,
+   "slow_share_after_decay": 0.9997626583,
+   "w_acclimated": 0.0280706766,
+   "w_after_decay": 0.0204104037
+  },
+  {
+   "As": 0.998,
+   "cycle": 1,
+   "decay_pct_per_day": 1.691461867,
+   "ha_days_lost": 7,
+   "ratio": 6.9859336831,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 11.8164404301,
+   "slow_share_after_decay": 0.9997789477,
+   "w_acclimated": 0.0284327381,
+   "w_after_decay": 0.0216997332
+  },
+  {
+   "As": 0.999,
+   "cycle": 1,
+   "decay_pct_per_day": 1.6029451604,
+   "ha_days_lost": 6,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 11.2206161231,
+   "slow_share_after_decay": 0.9997841395,
+   "w_acclimated": 0.0285554819,
+   "w_after_decay": 0.0221472799
+  },
+  {
+   "As": 0.9995,
+   "cycle": 1,
+   "decay_pct_per_day": 1.5581907306,
+   "ha_days_lost": 6,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 10.907335114,
+   "slow_share_after_decay": 0.9997866921,
+   "w_acclimated": 0.0286172452,
+   "w_after_decay": 0.0223744875
+  },
+  {
+   "As": 1.0,
+   "cycle": 1,
+   "decay_pct_per_day": 1.5131026275,
+   "ha_days_lost": 6,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 10.5917183928,
+   "slow_share_after_decay": 0.9997892164,
+   "w_acclimated": 0.0286792709,
+   "w_after_decay": 0.0226040157
+  }
+ ]
+}
