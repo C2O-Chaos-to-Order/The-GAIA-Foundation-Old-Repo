@@ -1,0 +1,44 @@
+{
+ "sim_id": "SIM-R3-C4",
+ "iteration": 12,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:14:17.606702+00:00",
+ "finished_utc": "2026-10-24T04:14:17.607907+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-12",
+ "params_sha256": "6317b3cac33012fbbdfa7d20fbed0f97f0998a1ef49972ccda6ad333f29e38e2",
+ "outputs": {
+  "outputs/results.json": "7b457041cc1154c3e0152ba9b78c98c5b48240be2676b46774b8e2a4fd363f18"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H12",
+   "kind": "hypothesis",
+   "expect": "consolidation: the typology is stable as a feature of coding A - at least 5 of the 6 robustness tests (iterations 2, 3, 5, 6, 7, 9) supported",
+   "observed": [
+    3,
+    {
+     "iter-2": "Not supported",
+     "iter-3": "Supported",
+     "iter-5": "Not supported",
+     "iter-6": "Not supported",
+     "iter-7": "Supported",
+     "iter-9": "Supported"
+    }
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
