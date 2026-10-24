@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-DV-FOR-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:52.595836+00:00",
+ "finished_utc": "2026-10-24T16:32:52.760819+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "25fba9cfbfa82b5575a851f7c3c2da77561f0d7172cdd13de18523b1d17ae2f2",
+ "params_sha256": "1d79129e340de0d51cbf09cd11a4066e26c02d71fa916695a85f82b1a92cfb31",
+ "results_sha256": "2162aeb764ca6b0b645f85720d61d255fe9644d3fc1c0eba38182c31116195b2",
+ "results": {
+  "S1000_harmonic": 7.48547086,
+  "S10_inverse_squares": 1.54976773,
+  "H_1e6_minus_ln": 0.57721616,
+  "euler_gamma": 0.57721566
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "harmonic S_1000 equals P23's 7.485470861 within 1e-9",
+   "observed": [
+    7.48547086,
+    7.48547086
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "S_10 of 1/k^2 equals P23's 1.549767731 within 1e-9",
+   "observed": [
+    1.54976773,
+    1.54976773
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "H_n - ln n at n = 1e6 within 0.001 of Euler's gamma (divergence is logarithmic)",
+   "observed": [
+    0.57721616
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "S1000_harmonic": 7.48547086,
+    "S10_inverse_squares": 1.54976773,
+    "H_1e6_minus_ln": 0.57721616,
+    "euler_gamma": 0.57721566
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
