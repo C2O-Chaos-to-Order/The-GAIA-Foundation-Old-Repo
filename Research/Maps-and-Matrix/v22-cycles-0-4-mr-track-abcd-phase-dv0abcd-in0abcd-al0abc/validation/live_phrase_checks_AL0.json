@@ -1,0 +1,121 @@
+{
+ "cycle": "AL0",
+ "checked_utc": "2026-10-24T18:54:41+00:00",
+ "summary": {
+  "Pass": 16
+ },
+ "checks": [
+  {
+   "claim_id": "AL0-NAT-01",
+   "source_id": "P46",
+   "phrase": "the ends of the curve (at low and high dioxygen) approach straight lines with slopes of 1",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-NAT-01",
+   "source_id": "P46",
+   "phrase": "This implies there is maximal cooperativity in the middle of the binding curve",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-FOR-01",
+   "source_id": "P47",
+   "phrase": "Each rule can be expressed as the benefit-to-cost ratio of the altruistic act being greater than some critical value",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-FOR-01",
+   "source_id": "P47",
+   "phrase": "exceeds the cost-to-benefit ratio of the altruistic act: w > c / b",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-FOR-01",
+   "source_id": "P47",
+   "phrase": "This condition holds in the limit of weak selection",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-SOC-01",
+   "source_id": "P48",
+   "phrase": "Identity fusion describes the total overlap of personal and social identities",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-SOC-01",
+   "source_id": "P48",
+   "phrase": "external condemnation amplifies fusion to a deviant group",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-SOC-01",
+   "source_id": "P48",
+   "phrase": "research is yet to demonstrate how an individual might effectively de-fuse",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-APP-01",
+   "source_id": "P49",
+   "phrase": "Allegiance and treatment quality were not as relevant for outcomes in this meta-analysis of RCTs as expected",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-APP-01",
+   "source_id": "P49",
+   "phrase": "Only 10% of the studies showed allegiance in favour of HPT",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-APP-01",
+   "source_id": "P49",
+   "phrase": "0.315 -.183 0.125 .144",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-HUM-01",
+   "source_id": "P50",
+   "phrase": "the presence of bilingualism can decelerate this shift",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-HUM-01",
+   "source_id": "P50",
+   "phrase": "s 2 = 1.2553 > s 1 = 0.0691",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-PHI-01",
+   "source_id": "P51",
+   "phrase": "a practical disposition to persist in an intrinsically valued (though not necessarily valuable) associational attachment",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-PHI-01",
+   "source_id": "P51",
+   "phrase": "Loyalty, like sincerity, is an executive virtue",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "AL0-PHI-01",
+   "source_id": "P51",
+   "phrase": "loyalty can be seen as a mechanism whereby we (at least temporarily) persist in our association with the institution",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}
