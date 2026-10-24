@@ -1,0 +1,1 @@
+Phase-track validation files (one set per phase cycle). Main-cycle validation is unchanged since v4 (`../../v4-cycles-0-4/validation/`); SSC-track validation is in `../../v8-cycles-0-4-mr-track-abcd/validation/` (unchanged).
