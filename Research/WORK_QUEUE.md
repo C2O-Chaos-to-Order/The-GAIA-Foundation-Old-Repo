@@ -127,6 +127,35 @@ Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into
 - [ ] ⬜ **ToG 10: Governance across the Seven Levels**: Base, Meta, Super, Hyper, Ultra, Magic, Quantum, entangled with the responsibility ladder and the six phases
 - [ ] ⬜ **The Totality of Governance: Synthesis**: all ten connected, with the gap register and the adoption roadmap
 
+## Program Coordination (GAIA Totality Suite v0.1.0)
+
+Source: the owner's Totality Suite package (GAIA-TOT-REG-001 v0.1.0): a Master Register, template, interfaces and precedence, adoption roadmap, gap register, existing-repository crosswalk, reference register, and 45 starter domain charters (GAIA-TOT-001 to 045). Status as the package states: Proposed planning baseline, not adopted and not implemented. These reports coordinate the program. They do not adopt any charter, and the package itself is filed in the repository only once the owner approves a path-by-path plan, as its adoption boundary requires.
+
+Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into the Maps & Matrix. Work stage and gate result are tracked separately; a gate is PASS, FAIL or INDETERMINATE.
+
+### Coordination reports
+
+- [ ] ⬜ **PC-1: Program Charter and Master Register Reconciliation** (Wave 0): the 45 domains against the Universal Regulation, Gate Authority, Risk Levels, Product Register, audits and the Totality of Governance; canonical homes, stable IDs and owners
+- [ ] ⬜ **PC-2: Interfaces, Precedence and Conflict Crosswalk**: every domain against existing clauses, using the package's crosswalk fields (implements, narrows, extends, references, conflicts, supersedes), with a conflict log
+- [ ] ⬜ **PC-3: Dependency Graph, Critical Path and Wave Sequencing**: built from the register's dependencies; P0 to P3 and Waves 0 to 5
+- [ ] ⬜ **PC-4: Research-to-Domain Map**: every report in this Work Queue mapped to its domains (for example Indigenous series to TOT-024, synthetic media to TOT-028, Quantum to TOT-038, the grid to TOT-037), and Totality of Governance reports ToG 1–10 matched to their domains so nothing is done twice
+- [ ] ⬜ **PC-5: Status and Evidence Dashboard**: one generated source of truth that keeps work stage (NOT_REGISTERED … MAINTAINED) separate from the gate result, with a drift check against the live tree (GAP-005)
+- [ ] ⬜ **PC-6: Roles, Reviewers and Authority Boundaries**: decision authority, named independent and ethics reviewers, and a test that no self-approval path exists (GAP-003, GAP-006)
+- [ ] ⬜ **PC-7: Gap, Risk and Stop-Condition Register**: GAP-001 to GAP-010 tracked to closure, new gaps added, stop conditions applied
+- [ ] ⬜ **PC-8: Cross-Repository Authority Map**: the Foundation and the Official GAIA Encyclopedia, with no duplicate canonical identities
+- [ ] ⬜ **PC-9: Program Synthesis and Integrated Assurance** (Wave 5): coverage audit, policy-conflict audit, sampled control tests, residual risk, and what the owner may decide next
+
+### Domain reports by wave (each Baseline → x12)
+
+- [ ] ⬜ **Wave 0: Register and authority**: owner approval of the inventory and template (PC-1)
+- [ ] ⬜ **Wave 1, foundational (P0):** TOT-001 Purpose and Scope · 002 Governance and Decision Rights · 003 Good and Greater Good · 004 Rights and Consent · 005 Truth and Evidence · 006 Research Integrity · 007 Verification and Reproducibility · 008 Risk · 009 Safety and Protective Boundaries · 010 Transforming Harm · 011 Accountability and Redress · 012 Privacy and Data · 013 Identity and Access · 014 Provenance and Records · 045 Governance-of-Governance
+- [ ] ⬜ **Wave 2, operational (P1):** TOT-015 Software · 016 AI and Autonomy · 017 Deployment and Release · 018 Incident Response · 019 Legal · 020 IP and Licensing · 021 Human Factors · 022 Equity and Accessibility · 023 Cultural, Philosophical, Spiritual and Theological Knowledge · 024 Indigenous Knowledge and Data Sovereignty · 025 Environment · 028 Synthetic Media · 029 Communications · 034 Evaluation and Metrics · 039 Research Portfolio and Work Queue · 040 Vulnerability Disclosure · 041 Human-Subject Research Ethics · 042 Decisions and Trade-Offs
+- [ ] ⬜ **Wave 3, specialist (P2):** TOT-026 Animal Welfare · 027 Health and Clinical Safety · 030 Education and Competency · 031 Economics and Resources · 032 Supply Chain · 033 Interoperability · 035 Organization and Succession · 036 Lifecycle and Decommissioning · 038 Mathematics, Physics, Cosmology and Quantum-Claim Boundaries · 043 Resilience and Emergencies · 044 Archives and Continuity
+- [ ] ⬜ **Wave 4, high-impact (P3):** TOT-037 Physical Infrastructure and Technological-Grid Concepts (research only; any physical work needs qualified engineers, permits and explicit authorization)
+- [ ] ⬜ **Wave 5: Integrated assurance** (PC-9)
+
+Note: domains are grouped here by the register's priority column. The roadmap's wave text places some differently (TOT-024 Indigenous Knowledge in Wave 3 though P1; TOT-038 quantum claims in Wave 4 though P2) and does not name TOT-025 Environment or TOT-035 Organization. PC-3 resolves these with the owner.
+
 ## K. Knowledge, Skills, Capabilities and Powers
 
 Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline → x3 → x6 → x9 → x12), then an entanglement report connecting all seven levels. Note: `Research/README.md` §2 already defines a responsibility ladder (Power, Meta Power, Super Power, Hyper Power, Ultra Power, Magic Power); the Powers series builds on it and adds Quantum.
@@ -175,6 +204,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24: Added Program Coordination (the Totality Suite v0.1.0): coordination reports PC-1 to PC-9 and the 45 domain reports by wave.
 - 2026-10-24: Added the Totality of Governance report series (ToG 1–10 and Synthesis).
 - 2026-10-24: Added The Totality of Governance (draft in `GOVERNANCE/`) and its roadmap stages.
 - 2026-10-24 — Reconciled with `main` after PRs #13–#18 merged: Divergence, Insurgence and Allegiance are all on `main`.
