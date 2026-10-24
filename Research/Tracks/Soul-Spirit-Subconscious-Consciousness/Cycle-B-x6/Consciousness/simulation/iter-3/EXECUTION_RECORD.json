@@ -1,0 +1,59 @@
+{
+ "sim_id": "SIM-CONS-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:37.782586+00:00",
+ "finished_utc": "2026-10-24T05:43:38.069964+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-3  (run from Consciousness/simulation/)",
+ "spec_sha256": "79cc4caa92961dde5c6e32ed8be740fc81bd2e2319b30a338e7e16686278bd5d",
+ "params_sha256": "777340aafc806e5b479161a665046c7e6435d7afe59c60e61886b0bf5297f843",
+ "results_sha256": "b5a62c4f584c49d92627385d3064ad8c83ab07df61d94ee1bd33623335f1c428",
+ "results": {
+  "unseen_accuracy_by_signal": {
+   "0.0": 0.49723487,
+   "0.1": 0.71608047,
+   "0.2": 0.90451839
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "signal 0: unseen-trial decoding accuracy within 0.02 of 0.5",
+   "observed": 0.49723487,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "signal 0.2: unseen-trial decoding accuracy >= 0.6 although nothing in the model is conscious on those trials",
+   "observed": 0.90451839,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "accuracy by signal",
+   "observed": {
+    "0.0": 0.49723487,
+    "0.1": 0.71608047,
+    "0.2": 0.90451839
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
