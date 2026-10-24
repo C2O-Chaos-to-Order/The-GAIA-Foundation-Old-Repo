@@ -1,0 +1,35 @@
+{
+ "mean_kappa": 0.5881082797,
+ "per_lens": {
+  "Integrity": {
+   "agreement": 0.8,
+   "hand_n": 13,
+   "kappa": 0.5046439628,
+   "rule_n": 9
+  },
+  "Justice": {
+   "agreement": 1.0,
+   "hand_n": 1,
+   "kappa": 1.0,
+   "rule_n": 1
+  },
+  "Love": {
+   "agreement": 1.0,
+   "hand_n": 3,
+   "kappa": 1.0,
+   "rule_n": 3
+  },
+  "Truth": {
+   "agreement": 0.725,
+   "hand_n": 18,
+   "kappa": 0.4358974359,
+   "rule_n": 15
+  },
+  "Wisdom": {
+   "agreement": 0.95,
+   "hand_n": 0,
+   "kappa": 0.0,
+   "rule_n": 2
+  }
+ }
+}
