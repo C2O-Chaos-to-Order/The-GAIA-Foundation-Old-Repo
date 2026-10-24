@@ -1,0 +1,6 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P55,yes,ALB,15152,fb65d1fa16bd797f7856811277fc771dda7c36f3c56937a4cbc576975815d435,"Read end to end (abstract, introduction, theory incl. Eqs. 1-22, methods, results incl. Figs. 1-8 and Tables 1-4, discussion; reference list and supplementary material not read)."
+P56,yes,ALB,9532,f358de99d218d45ae5ea419e93261bf309819175f3ee7b8450202041b2acca17,"Read end to end (abstract, key points, introduction, methods, results incl. Table 1 and Figs. 1-3, discussion, conclusion, declarations; reference list and appendices not read)."
+P58,yes,ALB,5866,ac897a4afc5b56a12c3f385f9ec21452ec6852a3cbe5d158486450c194c241ff,"Read end to end (abstract, sections 1-4, Appendices A-B, figure legends; reference list skimmed for one citation check)."
+P59,yes,ALB,10543,087b547d641d908f92b721a9f86962a6a3d41d4220b29c70201c06bc013848fe,"Read end to end (preamble, sections 1-6.1; bibliography, related entries and 'Other Internet Resources' not read)."
+P57,yes,ALB,3941,f0211950b52f9e4bf210cbc8da259d3223c473d0e682c8d3b21af67e26f8efdf,"Mplus output of Study 3 Model 6 read end to end (3,941 words); Model 5 output read (an Mplus error); .sav data files not read as text but summarised by build15/extract_osf_p52.py."
