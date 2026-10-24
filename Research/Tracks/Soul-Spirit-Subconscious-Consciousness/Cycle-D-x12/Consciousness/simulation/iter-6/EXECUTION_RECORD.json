@@ -1,0 +1,81 @@
+{
+ "sim_id": "SIM-CONS-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:42.446921+00:00",
+ "finished_utc": "2026-10-24T07:05:49.690000+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-6  (run from Consciousness/simulation/)",
+ "spec_sha256": "96cdf9b94422f661db8f93bce95138a325300cfd2389f0e792d6dd314b7d742f",
+ "params_sha256": "3e808cc60d7036d33a0c3755aca8329c99d31340006af4474bc01c6180a517d2",
+ "results_sha256": "a39f6bbb1e59a4709281de34685cd9c595b97eac59dae72c4f3bc19514dd94e3",
+ "results": {
+  "0.0": {
+   "H1": 0.024,
+   "H0": 0.0,
+   "inconclusive": 0.976
+  },
+  "0.5": {
+   "H1": 0.483,
+   "H0": 0.0,
+   "inconclusive": 0.517
+  },
+  "0.8": {
+   "H1": 0.923,
+   "H0": 0.0,
+   "inconclusive": 0.077
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with d = 0, strong evidence for H1 (misleading) occurs in <= 5% of runs",
+   "observed": 0.024,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with d = 0 and at most 30 sessions, the plan ends inconclusive in >= 50% of runs (BF >= 10 for the null needs many sessions)",
+   "observed": 0.976,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share ending H1 / H0 / inconclusive by true d",
+   "observed": {
+    "0.0": {
+     "H1": 0.024,
+     "H0": 0.0,
+     "inconclusive": 0.976
+    },
+    "0.5": {
+     "H1": 0.483,
+     "H0": 0.0,
+     "inconclusive": 0.517
+    },
+    "0.8": {
+     "H1": 0.923,
+     "H0": 0.0,
+     "inconclusive": 0.077
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

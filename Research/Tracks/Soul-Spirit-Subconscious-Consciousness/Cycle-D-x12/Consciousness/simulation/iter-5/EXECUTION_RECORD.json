@@ -1,0 +1,91 @@
+{
+ "sim_id": "SIM-CONS-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:05:39.839094+00:00",
+ "finished_utc": "2026-10-24T07:05:41.848217+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_cons.py iter-5  (run from Consciousness/simulation/)",
+ "spec_sha256": "9983a6d3b7a09ae02113a5b31f66102a4a8b1d6f9f7b468b9fd1aa5a5793c2bd",
+ "params_sha256": "d3e9ca51319b200a59edaa68b5431673080ae4970799251a5c455a2ba6dcefcd",
+ "results_sha256": "75cfecfb9a2dee58c368a0fafbaac2e32be16641a39ccc01c379f7a584277f74",
+ "results": {
+  "0.0": {
+   "H1": 0.054,
+   "H0": 0.657,
+   "inconclusive": 0.289
+  },
+  "0.5": {
+   "H1": 0.386,
+   "H0": 0.208,
+   "inconclusive": 0.406
+  },
+  "0.8": {
+   "H1": 0.759,
+   "H0": 0.033,
+   "inconclusive": 0.208
+  },
+  "1.2": {
+   "H1": 0.975,
+   "H0": 0.0,
+   "inconclusive": 0.025
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with d = 0, strong evidence for H1 (misleading) occurs in <= 5% of runs",
+   "observed": 0.054,
+   "result": "Fail"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with d = 0 and at most 15 sessions, the plan ends inconclusive in >= 50% of runs (BF >= 10 for the null needs many sessions)",
+   "observed": 0.289,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "share ending H1 / H0 / inconclusive by true d",
+   "observed": {
+    "0.0": {
+     "H1": 0.054,
+     "H0": 0.657,
+     "inconclusive": 0.289
+    },
+    "0.5": {
+     "H1": 0.386,
+     "H0": 0.208,
+     "inconclusive": 0.406
+    },
+    "0.8": {
+     "H1": 0.759,
+     "H0": 0.033,
+     "inconclusive": 0.208
+    },
+    "1.2": {
+     "H1": 0.975,
+     "H0": 0.0,
+     "inconclusive": 0.025
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": false
+}
