@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 8,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:21.381602+00:00",
+ "finished_utc": "2026-10-24T04:06:22.108263+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-8",
+ "params_sha256": "83222e401239178e9aabf29c33b6d0575b69efe1bde985ce52503c81d1f2034b",
+ "outputs": {
+  "outputs/results.json": "52305230299434973f7d40325f502b26d6072b0cd09c0d4c7d05f5a79b2a2c53"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H8",
+   "kind": "hypothesis",
+   "expect": "alpha 0.01: MR separates m 0.98 from 0.999 (ranges across seeds do not overlap)",
+   "observed": [
+    0.9816031478,
+    0.9984573409
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
