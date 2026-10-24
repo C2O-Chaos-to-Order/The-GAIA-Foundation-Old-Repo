@@ -1,0 +1,159 @@
+{
+ "sim_id": "SIM-R6-C1",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:58.122173+00:00",
+ "finished_utc": "2026-10-24T01:20:03.955305+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-2",
+ "params_sha256": "0b1b57271bc7af48363c39d8ea238b7d01df886c320cfc92c19244fafecd2c61",
+ "outputs": {
+  "outputs/results.json": "2958622286b49f6d193d8864fab17522269a9f8aab60c441253a701d681b2535"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "A0",
+   "kind": "validation",
+   "expect": "adaptation rate 0 reproduces the non-adapting run exactly",
+   "observed": [
+    0.82,
+    0.82
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "A1",
+   "kind": "hypothesis",
+   "expect": "toy: regulation band survives UNBOUNDED adaptation of daisy optimum temperature (min width >= 0.8x non-adapting)",
+   "observed": [
+    0.19,
+    0.82
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "A_bounded_5",
+   "kind": "hypothesis",
+   "expect": "toy: regulation band survives adaptation bounded to +/-5 C (min width >= 0.8x non-adapting)",
+   "observed": [
+    0.93,
+    0.82
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "A_bounded_10",
+   "kind": "hypothesis",
+   "expect": "toy: regulation band survives adaptation bounded to +/-10 C (min width >= 0.8x non-adapting)",
+   "observed": [
+    0.8,
+    0.82
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "A2",
+   "kind": "reporting",
+   "expect": "report optimum-temperature drift per rate and bound",
+   "observed": [
+    [
+     0,
+     null,
+     22.5,
+     22.5,
+     0.82
+    ],
+    [
+     0,
+     5,
+     22.5,
+     22.5,
+     0.82
+    ],
+    [
+     0,
+     10,
+     22.5,
+     22.5,
+     0.82
+    ],
+    [
+     0.001,
+     null,
+     46.41,
+     36.41,
+     0.35
+    ],
+    [
+     0.001,
+     5,
+     27.5,
+     27.5,
+     0.93
+    ],
+    [
+     0.001,
+     10,
+     32.5,
+     30.4,
+     0.99
+    ],
+    [
+     0.01,
+     null,
+     92.56,
+     82.56,
+     0.19
+    ],
+    [
+     0.01,
+     5,
+     27.5,
+     27.5,
+     0.94
+    ],
+    [
+     0.01,
+     10,
+     32.5,
+     32.5,
+     0.8
+    ],
+    [
+     0.1,
+     null,
+     86.41,
+     76.41,
+     0.21
+    ],
+    [
+     0.1,
+     5,
+     27.5,
+     27.5,
+     0.94
+    ],
+    [
+     0.1,
+     10,
+     32.5,
+     32.5,
+     0.8
+    ]
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
