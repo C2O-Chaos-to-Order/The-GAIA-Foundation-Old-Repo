@@ -5,11 +5,12 @@
 # Status: Proposed with GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md (UR-L3-08 / TEC-2).
 name: verify
 
+# PAUSED 2026-10-24 at Kyle's request: GitHub Actions is not available for this
+# private repo without billing, so automatic runs only produced failure alerts.
+# The same checks run locally before every push. To re-enable, restore:
+#   pull_request:
+#   push: { branches: ['research/**'] }
 on:
-  pull_request:
-  push:
-    branches:
-      - 'research/**'
   workflow_dispatch:
 
 permissions:

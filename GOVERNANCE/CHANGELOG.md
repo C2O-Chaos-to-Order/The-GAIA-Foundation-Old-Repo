@@ -39,3 +39,7 @@ Branch created from `research/governance-universal-regulation` @ `7dded25`. Comm
 - Agents push one commit or batch at a time, wait for it to finish, verify the remote tree SHA against the local tree, and only then push the next.
 - Agent commits are authored as Grok Bot with a `Co-authored-by` trailer for the owner.
 - A detected secret is revoked first and then removed in a new commit; the incident is disclosed here.
+
+## 2026-10-24 — CI paused
+
+At Kyle's request, the `verify` workflow now runs only on manual dispatch. GitHub Actions jobs for this private repo were not being started (no runner, no steps; likely billing), and each run sent a failure alert. The same checks run locally before every agent push. UR-L3-08 stays INDETERMINATE.
