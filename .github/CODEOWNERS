@@ -1,0 +1,4 @@
+# Code owners for The GAIA Foundation.
+# The repository owner is the required reviewer for every path (UR-L5-01 / OPS-1).
+# Enforcement as a required review depends on branch protection for main, an owner setting (UR-L7-03).
+*  @KyleAlexanderSteen
