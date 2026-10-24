@@ -1,0 +1,51 @@
+{
+ "carried_from_prev": {
+  "selected_theta": [
+   0.6,
+   0.999,
+   0.01,
+   0.005
+  ]
+ },
+ "cycles_two_state": [
+  {
+   "cycle": 1,
+   "decay_pct_per_day": 1.6029451604,
+   "ha_days_lost": 6,
+   "ratio": 7.0,
+   "reinduction_days_to_95pct": 2,
+   "reinduction_pct_per_day": 11.2206161231,
+   "slow_share_after_decay": 0.9997841395,
+   "w_acclimated": 0.0285554819,
+   "w_after_decay": 0.0221472799
+  },
+  {
+   "cycle": 2,
+   "decay_pct_per_day": 0.7653422884,
+   "ha_days_lost": 7,
+   "ratio": -25.5994596824,
+   "reinduction_days_to_95pct": 1,
+   "reinduction_pct_per_day": -19.592349056,
+   "slow_share_after_decay": 0.9999169457,
+   "w_acclimated": 0.038248409,
+   "w_after_decay": 0.0341501715
+  },
+  {
+   "cycle": 3,
+   "decay_pct_per_day": 0.4479789315,
+   "ha_days_lost": 8,
+   "ratio": -95.4855065759,
+   "reinduction_days_to_95pct": 1,
+   "reinduction_pct_per_day": -42.7754952088,
+   "slow_share_after_decay": 0.9999585844,
+   "w_acclimated": 0.0434983168,
+   "w_after_decay": 0.0407702306
+  }
+ ],
+ "selected_theta": [
+  0.6,
+  0.999,
+  0.01,
+  0.005
+ ]
+}
