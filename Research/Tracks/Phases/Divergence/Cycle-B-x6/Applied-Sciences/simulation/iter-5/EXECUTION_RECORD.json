@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-DV-APP-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:35:07.801356+00:00",
+ "finished_utc": "2026-10-24T08:35:07.807080+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "44034eae83fc6807f0dfc5d6c82330f74ec36682ecf1f5224190cda258b68011",
+ "params_sha256": "fae97e8dfccf57ac4c2c8266d46a8d36b1e1a0058b37a589279c2d69ab390b8b",
+ "results_sha256": "fee29e082688738c1b2f52112d6d78990ed3dc80806a492ddc97781ee729d39d",
+ "results": {
+  "rms_errors": {
+   "0.1": 0.00563892,
+   "0.05": 0.0028051,
+   "0.02": 0.00111868,
+   "0.01": 0.00055879,
+   "0.005": 0.00027926
+  },
+  "loglog_slope": 1.00306357
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "iterated forward Euler equals the closed form y0 (1 + a h)^n (rtol 1e-10)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "log-log slope of RMS error vs h within 0.1 of 1 (P17 fig. 2.4)",
+   "observed": 1.00306357,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "errors and slope",
+   "observed": {
+    "rms_errors": {
+     "0.1": 0.00563892,
+     "0.05": 0.0028051,
+     "0.02": 0.00111868,
+     "0.01": 0.00055879,
+     "0.005": 0.00027926
+    },
+    "loglog_slope": 1.00306357
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
