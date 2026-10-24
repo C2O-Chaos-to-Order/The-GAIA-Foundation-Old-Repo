@@ -1,0 +1,59 @@
+{
+ "sim_id": "SIM-SUBC-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:36.783533+00:00",
+ "finished_utc": "2026-10-24T06:10:37.060315+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-5  (run from Subconscious/simulation/)",
+ "spec_sha256": "2a8ced5b3264f28699b966c5d711504acdf242bda346c84d9018d271792813dc",
+ "params_sha256": "92abb485d081be515c1935301121c170659965d3e77ac7be5d5a05819d359440",
+ "results_sha256": "66c3228816b173554a0366034c4de52277a3064139c7b7f0ac09367acbf4078e",
+ "results": {
+  "r": 0.09821429,
+  "concordance_analytic": 0.53131306,
+  "concordance_mc": 0.531306
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Monte Carlo concordance within 0.005 of analytic",
+   "observed": [
+    0.531306,
+    0.53131306
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the individual-level association is small: concordance probability < 0.60",
+   "observed": 0.53131306,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "approximate r and share of variance",
+   "observed": [
+    0.09821429,
+    0.00964605
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
