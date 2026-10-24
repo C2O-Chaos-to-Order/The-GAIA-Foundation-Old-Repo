@@ -1,0 +1,8 @@
+{
+ "S12_cumulative_mortality": 0.1816218102,
+ "cohort_check": {
+  "E": 1.9682724485,
+  "observed_rr_under_null": 0.7589125343,
+  "target": 0.7579947864
+ }
+}
