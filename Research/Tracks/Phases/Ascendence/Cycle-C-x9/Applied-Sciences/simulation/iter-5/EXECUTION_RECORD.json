@@ -1,0 +1,118 @@
+{
+ "sim_id": "SIM-AS-APP-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:50.890028+00:00",
+ "finished_utc": "2026-10-24T23:50:51.310952+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "29f3faeac083218e229c328711ce2329656312041e137ee2dfbaada090dc502d",
+ "params_sha256": "74e2337beefc27eda893aeef9412ac5f2c9df5104644267848c65fa843af8a14",
+ "results_sha256": "28f00e41e0d6fc11f2965fcb79e8c7ae09009a8004da41c7a48a64231b617942",
+ "results": {
+  "items": {
+   "dedup": {
+    "value": 152.0,
+    "printed": 152,
+    "diff": 0.0
+   },
+   "fulltext_after": {
+    "value": 65.0,
+    "printed": 65,
+    "diff": 0.0
+   },
+   "excl_reasons": {
+    "value": 25.0,
+    "printed": 25,
+    "diff": 0.0
+   },
+   "final": {
+    "value": 58.0,
+    "printed": 58,
+    "diff": 0.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P95's study-flow numbers are arithmetically consistent (195 - 43; 90 - 25 = 65; 8 + 3 + 14 = 25; 65 - 7 = 58)",
+   "observed": {
+    "items": {
+     "dedup": {
+      "value": 152.0,
+      "printed": 152,
+      "diff": 0.0
+     },
+     "fulltext_after": {
+      "value": 65.0,
+      "printed": 65,
+      "diff": 0.0
+     },
+     "excl_reasons": {
+      "value": 25.0,
+      "printed": 25,
+      "diff": 0.0
+     },
+     "final": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "dedup": {
+      "value": 152.0,
+      "printed": 152,
+      "diff": 0.0
+     },
+     "fulltext_after": {
+      "value": 65.0,
+      "printed": 65,
+      "diff": 0.0
+     },
+     "excl_reasons": {
+      "value": 25.0,
+      "printed": 25,
+      "diff": 0.0
+     },
+     "final": {
+      "value": 58.0,
+      "printed": 58,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
