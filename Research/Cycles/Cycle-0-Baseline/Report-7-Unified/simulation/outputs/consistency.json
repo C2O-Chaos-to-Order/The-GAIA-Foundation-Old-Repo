@@ -1,0 +1,67 @@
+{
+  "n_claims": 100,
+  "missing_fields": [],
+  "bad_vocab": [],
+  "label_status_mismatch": [],
+  "duplicate_ids": 0,
+  "unresolved_sources": [],
+  "established_on_failed_or_uncited_check": [],
+  "self_citations_SIM_R7_checked_after_run": [
+    [
+      "C0v2-R7-03",
+      "SIM-R7-C0#E9"
+    ],
+    [
+      "C0v2-R7-05",
+      "SIM-R7-C0#E1"
+    ],
+    [
+      "C0v2-R7-06",
+      "SIM-R7-C0#E3"
+    ],
+    [
+      "C0v2-R7-06",
+      "SIM-R7-C0#E4"
+    ]
+  ],
+  "established_backed_only_by_framework": [],
+  "warning_established_abstract_only": [
+    "C0v2-R1-09",
+    "C0v2-R2-04",
+    "C0v2-R2-12",
+    "C0v2-R4-10",
+    "C0v2-R5-02",
+    "C0v2-R5-06",
+    "C0v2-R6-01",
+    "C0v2-R6-02",
+    "C0v2-R6-04",
+    "C0v2-R6-05",
+    "C0v2-R6-13"
+  ],
+  "label_counts": {
+    "Established": 65,
+    "Plausible": 14,
+    "Philosophical/Spiritual": 19,
+    "Hypothetical": 2
+  },
+  "status_counts": {
+    "Supported": 65,
+    "Mixed": 3,
+    "Contested": 17,
+    "Interpretive": 8,
+    "Hypothetical": 2,
+    "Indeterminate": 5
+  },
+  "links": {
+    "n": 24,
+    "bad": [],
+    "types_missing": [],
+    "reports_missing": [],
+    "label_counts": {
+      "Established": 10,
+      "Plausible": 6,
+      "Philosophical/Spiritual": 6,
+      "Hypothetical": 2
+    }
+  }
+}
