@@ -1,0 +1,111 @@
+{
+ "sim_id": "SIM-AL-SOC-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:34.239556+00:00",
+ "finished_utc": "2026-10-24T19:31:34.694494+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-6  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "2c9ea419d736a165b9c4b482c7c000a7cb88cdb50dd3579ade4fd8cf03b63c55",
+ "params_sha256": "c0785ad24910008974548341f0713b5ce37f1d9e39311a68f244e3b80640c06f",
+ "results_sha256": "b1694415aa0493b81050871c92f0b7b1d40ae5b90738d72336d284d6f02525c8",
+ "results": {
+  "shares": {
+   "study1": {
+    "pct": {
+     "efficacy": 28.57142857,
+     "empathy": 9.52380952,
+     "direct": 57.14285714
+    },
+    "max_pct_diff": 0.00380952,
+    "sum_parts": 0.2,
+    "total": 0.21
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with uncorrelated predictors the standardized betas equal the correlations (1e-12)",
+   "observed": [
+    0.3,
+    -0.2
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "percentages within 0.05 points of part/total",
+   "observed": {
+    "shares": {
+     "study1": {
+      "pct": {
+       "efficacy": 28.57142857,
+       "empathy": 9.52380952,
+       "direct": 57.14285714
+      },
+      "max_pct_diff": 0.00380952,
+      "sum_parts": 0.2,
+      "total": 0.21
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "parts sum to total within 0.005",
+   "observed": {
+    "shares": {
+     "study1": {
+      "pct": {
+       "efficacy": 28.57142857,
+       "empathy": 9.52380952,
+       "direct": 57.14285714
+      },
+      "max_pct_diff": 0.00380952,
+      "sum_parts": 0.2,
+      "total": 0.21
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "shares": {
+     "study1": {
+      "pct": {
+       "efficacy": 28.57142857,
+       "empathy": 9.52380952,
+       "direct": 57.14285714
+      },
+      "max_pct_diff": 0.00380952,
+      "sum_parts": 0.2,
+      "total": 0.21
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

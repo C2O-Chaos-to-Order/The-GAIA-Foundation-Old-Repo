@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-AL-SOC-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:31:33.638090+00:00",
+ "finished_utc": "2026-10-24T19:31:34.078871+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-5  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "2d1fc7281b1a1feab2e830693dee689b3ac3f2c03d361dd79033bad2e200400f",
+ "params_sha256": "64fee2794e934f8e388b31dd02ce0f74867592765498bc21ce49bac4897d6f30",
+ "results_sha256": "3d8577ff9e3bc518ebe481c9721eaed04c5cf7bbd981d011fb6a702376d7b6cb",
+ "results": {
+  "fpower": {
+   "N_min": 64,
+   "printed_N": 66
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with uncorrelated predictors the standardized betas equal the correlations (1e-12)",
+   "observed": [
+    0.3,
+    -0.2
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "minimal N within 3 of 66",
+   "observed": {
+    "fpower": {
+     "N_min": 64,
+     "printed_N": 66
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "fpower": {
+     "N_min": 64,
+     "printed_N": 66
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
