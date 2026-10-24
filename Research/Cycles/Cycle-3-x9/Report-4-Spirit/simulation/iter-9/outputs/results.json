@@ -1,0 +1,8 @@
+{
+ "S12_cumulative_mortality": 0.1816218102,
+ "replicate": {
+  "mean": 0.7558645186,
+  "sd": 0.0116028284,
+  "target": 0.7579947864
+ }
+}
