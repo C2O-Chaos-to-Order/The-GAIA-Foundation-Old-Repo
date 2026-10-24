@@ -1,0 +1,40 @@
+{
+ "binary_outcome_scale": [
+  {
+   "gap": -0.0973430835,
+   "intercept": -4.0,
+   "pm_or_difference_method": 0.3143565085,
+   "pm_rd_true": 0.411699592,
+   "prevalence": 0.03214
+  },
+  {
+   "gap": -0.0791065206,
+   "intercept": -3.0,
+   "pm_or_difference_method": 0.3222350986,
+   "pm_rd_true": 0.4013416192,
+   "prevalence": 0.081
+  },
+  {
+   "gap": -0.0527183999,
+   "intercept": -1.0,
+   "pm_or_difference_method": 0.2999183389,
+   "pm_rd_true": 0.3526367388,
+   "prevalence": 0.3645025
+  },
+  {
+   "gap": -0.0191347396,
+   "intercept": 0.0,
+   "pm_or_difference_method": 0.3005161893,
+   "pm_rd_true": 0.3196509289,
+   "prevalence": 0.58358
+  },
+  {
+   "gap": 0.0062114208,
+   "intercept": 1.0,
+   "pm_or_difference_method": 0.2972592857,
+   "pm_rd_true": 0.2910478649,
+   "prevalence": 0.7766575
+  }
+ ],
+ "carried_from_prev": {}
+}
