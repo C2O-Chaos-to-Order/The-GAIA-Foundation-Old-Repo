@@ -1,0 +1,121 @@
+{
+ "sim_id": "SIM-DV-NAT-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:32:52.461156+00:00",
+ "finished_utc": "2026-10-24T16:32:52.506773+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-9  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "a69920ae684a4998927f46d64c2e8267ed552a806cc529c5f539f63364322e84",
+ "params_sha256": "82ba3f8cbc3b59260f7e3a27fa6f66174070c5ca8fe9a0d1c5e70ac3af8f2bb0",
+ "results_sha256": "1d5c492fb46e35f1f07af58c5ad0b93a606296008e59155d333bc191c70b30e8",
+ "results": {
+  "-0.01": {
+   "super_final": 0.00134676,
+   "sub_escape_time": null
+  },
+  "0.01": {
+   "super_final": 0.05962055,
+   "sub_escape_time": null
+  },
+  "0.04": {
+   "super_final": 0.19999551,
+   "sub_escape_time": 74.91
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "supercritical: final x within 1e-06 of sqrt(r) for every r > 0",
+   "observed": {
+    "-0.01": {
+     "super_final": 0.00134676,
+     "sub_escape_time": null
+    },
+    "0.01": {
+     "super_final": 0.05962055,
+     "sub_escape_time": null
+    },
+    "0.04": {
+     "super_final": 0.19999551,
+     "sub_escape_time": 74.91
+    }
+   },
+   "result": "Fail"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "r <= 0: both forms decay to 0 (no escape)",
+   "observed": {
+    "-0.01": {
+     "super_final": 0.00134676,
+     "sub_escape_time": null
+    },
+    "0.01": {
+     "super_final": 0.05962055,
+     "sub_escape_time": null
+    },
+    "0.04": {
+     "super_final": 0.19999551,
+     "sub_escape_time": 74.91
+    }
+   },
+   "result": "Fail"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "subcritical form escapes |x| > 10 within the run for every r > 0 (no stable branch near 0)",
+   "observed": {
+    "-0.01": {
+     "super_final": 0.00134676,
+     "sub_escape_time": null
+    },
+    "0.01": {
+     "super_final": 0.05962055,
+     "sub_escape_time": null
+    },
+    "0.04": {
+     "super_final": 0.19999551,
+     "sub_escape_time": 74.91
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "finals and escape times",
+   "observed": {
+    "-0.01": {
+     "super_final": 0.00134676,
+     "sub_escape_time": null
+    },
+    "0.01": {
+     "super_final": 0.05962055,
+     "sub_escape_time": null
+    },
+    "0.04": {
+     "super_final": 0.19999551,
+     "sub_escape_time": 74.91
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": false
+}
