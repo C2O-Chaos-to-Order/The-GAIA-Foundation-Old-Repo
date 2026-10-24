@@ -1,0 +1,42 @@
+{
+ "disagreements": [
+  {
+   "a": 1,
+   "attribute": "A4_seat_of_thought_or_identity",
+   "b": 0,
+   "b_uncertain": 1,
+   "id": "C14"
+  },
+  {
+   "a": 1,
+   "attribute": "A6_oriented_to_purpose_or_final_end",
+   "b": 0,
+   "b_uncertain": 1,
+   "id": "C04"
+  },
+  {
+   "a": 0,
+   "attribute": "A8_form_of_or_inseparable_from_body",
+   "b": 1,
+   "b_uncertain": 1,
+   "id": "C11"
+  },
+  {
+   "a": 1,
+   "attribute": "A11_identical_with_universal_ground",
+   "b": 0,
+   "b_uncertain": 1,
+   "id": "C04"
+  },
+  {
+   "a": 0,
+   "attribute": "A12_extends_to_non_human_beings",
+   "b": 1,
+   "b_uncertain": 0,
+   "id": "C08"
+  }
+ ],
+ "kappa": 0.7872340426,
+ "n_cells": 48,
+ "percent_agreement": 0.8958333333
+}
