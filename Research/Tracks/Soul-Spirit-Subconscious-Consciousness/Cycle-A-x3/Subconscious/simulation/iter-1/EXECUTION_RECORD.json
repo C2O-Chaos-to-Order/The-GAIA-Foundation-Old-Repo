@@ -1,0 +1,87 @@
+{
+ "sim_id": "SIM-SUBC-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:17:52.874000+00:00",
+ "finished_utc": "2026-10-24T05:17:53.210162+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_subc.py iter-1  (run from Subconscious/simulation/)",
+ "spec_sha256": "f371bf3850891e89f64f2e655cbd32aa0ac5c37c38b7f51bb9da78e6a364b771",
+ "params_sha256": "13e7cc3868b56668d5b052d966a183f09173b279ec752b8fd9109208433bb7e9",
+ "results_sha256": "995300bdd6242d36bc19fde11158a42399b4569ba9b17f2d1c7deecd295eee07",
+ "results": {
+  "analytic_power": {
+   "8": 0.11872786,
+   "16": 0.21322909,
+   "32": 0.39730541,
+   "66": 0.69886719,
+   "84": 0.80184173
+  },
+  "simulated_power": {
+   "8": 0.11775,
+   "16": 0.21125,
+   "32": 0.40025,
+   "66": 0.6943,
+   "84": 0.80205
+  },
+  "n80_two_tailed": 84,
+  "literature_detect_rate": 1.0,
+  "mean_share_significant_in_literature": 0.21292818
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "analytic power at n=16, dz=0.31 within 0.02 of K09's ~0.21",
+   "observed": 0.21322909,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "simulated power within 0.015 of analytic for every n",
+   "observed": {
+    "8": -0.001,
+    "16": -0.002,
+    "32": 0.0029,
+    "66": -0.0046,
+    "84": 0.0002
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "n for 80% power (two-tailed) within 2 of K09's 84",
+   "observed": 84,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at n=16 at least 75% of awareness tests are non-significant although awareness is real",
+   "observed": 0.78677091,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "pooling 181 such tests detects awareness (CI excludes 0) in >=95% of simulated literatures",
+   "observed": 1.0,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
