@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R5-C4",
+ "iteration": 11,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:06:23.121524+00:00",
+ "finished_utc": "2026-10-24T04:06:24.233589+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-11",
+ "params_sha256": "53b03d750d6455316e5f3f8b60b8f1c0accc6446d40584a008546559587da027",
+ "outputs": {
+  "outputs/results.json": "ec3489e75def98fcaa43b25933711c286be313b499b1148774ee40ccf0543ad4"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H11",
+   "kind": "hypothesis",
+   "expect": "MR |error| < 0.03 in >= 90% of (m, alpha) cells (replication, new seeds)",
+   "observed": 0.8666666667,
+   "result": "Not supported"
+  },
+  {
+   "id": "H11r",
+   "kind": "reporting",
+   "expect": "conventional estimate at alpha 0.01, mean over m",
+   "observed": 0.0718984593,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
