@@ -1,0 +1,42 @@
+{
+ "daisy": {
+  "Ab": 0.25,
+  "Ag": 0.5,
+  "Aw": 0.75,
+  "L": [
+   0.5,
+   1.7,
+   0.01
+  ],
+  "P": 1.0,
+  "S": 917.0,
+  "T_opt": 22.5,
+  "band_half": 10.0,
+  "dt": 0.05,
+  "gamma": 0.3,
+  "q": 20.0,
+  "seed_area": 0.01,
+  "steps": 2000
+ },
+ "experiments": {
+  "replicate_c1": {
+   "c1_expected": [
+    0.82,
+    0.19
+   ],
+   "c1_ref": "Cycle-1-x3/Report-6-Earth/simulation/iter-2/outputs/results.json (rate 0.01, unbounded)",
+   "rate": 0.01,
+   "rates": [
+    0,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1
+   ]
+  }
+ },
+ "iteration": 1,
+ "sim_id": "SIM-R6-C2"
+}

@@ -1,0 +1,102 @@
+{
+ "sim_id": "SIM-R6-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:06:58.889670+00:00",
+ "finished_utc": "2026-10-24T02:07:08.736412+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-2",
+ "params_sha256": "67e55174d548b3eefe64afec4e7a0c4dbd33434c00adb9a96b0d8c725bf115de",
+ "outputs": {
+  "outputs/results.json": "43f31b6c0523f0a9970704b196edd8788c834fee295b9ccc46cf0e97c41550ac"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "LL1",
+   "kind": "hypothesis",
+   "expect": "W03/W01 design (bounded adaptation + growth limited near bounds): band >= 0.8x non-adapting for every bounded, costed setting",
+   "observed": [
+    [
+     2,
+     0.25,
+     0.82
+    ],
+    [
+     2,
+     0.5,
+     0.8
+    ],
+    [
+     2,
+     0.9,
+     0.71
+    ],
+    [
+     5,
+     0.25,
+     0.77
+    ],
+    [
+     5,
+     0.5,
+     0.77
+    ],
+    [
+     5,
+     0.9,
+     0.69
+    ],
+    [
+     10,
+     0.25,
+     0.81
+    ],
+    [
+     10,
+     0.5,
+     0.76
+    ],
+    [
+     10,
+     0.9,
+     0.62
+    ],
+    [
+     20,
+     0.25,
+     0.79
+    ],
+    [
+     20,
+     0.5,
+     0.82
+    ],
+    [
+     20,
+     0.9,
+     0.81
+    ]
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "LL2",
+   "kind": "hypothesis",
+   "expect": "wider bounds give narrower bands (Spearman rho(bound, width) < 0 over bounded settings)",
+   "observed": -0.1157160651,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
