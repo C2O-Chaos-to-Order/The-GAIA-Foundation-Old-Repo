@@ -1,0 +1,133 @@
+{
+ "sim_id": "SIM-IN-FOR-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:10:39.422548+00:00",
+ "finished_utc": "2026-10-24T17:10:39.499981+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "272141c57658b6f93bf854d0d1eb64a60f9a6dcc51f9efe3d99b43c63cfd56bd",
+ "params_sha256": "21050847d06d914aa5b87bfc159c073f5a3c3edfe32c6ffaaec18a15beac44b7",
+ "results_sha256": "1222c3d1614c55a366e6c39ca02affe312562d3032c111e7c2233a96d4c9a59a",
+ "results": {
+  "1.1": {
+   "share": 0.1716,
+   "se": 0.00533204,
+   "s": 0.17613414
+  },
+  "1.5": {
+   "share": 0.5862,
+   "se": 0.00696519,
+   "s": 0.58281164
+  },
+  "2.0": {
+   "share": 0.7954,
+   "se": 0.00570507,
+   "s": 0.79681213
+  },
+  "3.0": {
+   "share": 0.9392,
+   "se": 0.00337945,
+   "s": 0.94047979
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "share is a probability",
+   "observed": {
+    "1.1": {
+     "share": 0.1716,
+     "se": 0.00533204,
+     "s": 0.17613414
+    },
+    "1.5": {
+     "share": 0.5862,
+     "se": 0.00696519,
+     "s": 0.58281164
+    },
+    "2.0": {
+     "share": 0.7954,
+     "se": 0.00570507,
+     "s": 0.79681213
+    },
+    "3.0": {
+     "share": 0.9392,
+     "se": 0.00337945,
+     "s": 0.94047979
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "share reaching K within 4 SE (+0.01) of s = 1 - exp(-cs) for every c",
+   "observed": {
+    "1.1": {
+     "share": 0.1716,
+     "se": 0.00533204,
+     "s": 0.17613414
+    },
+    "1.5": {
+     "share": 0.5862,
+     "se": 0.00696519,
+     "s": 0.58281164
+    },
+    "2.0": {
+     "share": 0.7954,
+     "se": 0.00570507,
+     "s": 0.79681213
+    },
+    "3.0": {
+     "share": 0.9392,
+     "se": 0.00337945,
+     "s": 0.94047979
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "1.1": {
+     "share": 0.1716,
+     "se": 0.00533204,
+     "s": 0.17613414
+    },
+    "1.5": {
+     "share": 0.5862,
+     "se": 0.00696519,
+     "s": 0.58281164
+    },
+    "2.0": {
+     "share": 0.7954,
+     "se": 0.00570507,
+     "s": 0.79681213
+    },
+    "3.0": {
+     "share": 0.9392,
+     "se": 0.00337945,
+     "s": 0.94047979
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
