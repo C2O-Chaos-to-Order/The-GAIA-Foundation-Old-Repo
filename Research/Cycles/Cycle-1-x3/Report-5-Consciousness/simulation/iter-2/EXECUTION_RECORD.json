@@ -1,0 +1,53 @@
+{
+ "sim_id": "SIM-R5-C1",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T01:19:47.285552+00:00",
+ "finished_utc": "2026-10-24T01:19:48.170668+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-2",
+ "params_sha256": "382590360cf7e47128848066374005b84448f977b6c4adb2338cc015efe31b68",
+ "outputs": {
+  "outputs/results.json": "cf5317d7e880a3ab4f5f4ec094a5bed7b08bf11d2e9a9b52805d56229141617a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "K1",
+   "kind": "hypothesis",
+   "expect": "strong network: near threshold (20-80% ignition) late activity is bimodal (BC > 0.555)",
+   "observed": [
+    0.971,
+    0.948,
+    0.942,
+    0.956
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "K2",
+   "kind": "hypothesis",
+   "expect": "weak network never ignites (all-or-none signature absent: frac_high = 0 everywhere)",
+   "observed": 0.0,
+   "result": "Supported"
+  },
+  {
+   "id": "K3",
+   "kind": "validation",
+   "expect": "longer stimulus (before the mask) does not reduce ignition probability (monotone within 0.1)",
+   "observed": null,
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
