@@ -1,0 +1,169 @@
+{
+ "sim_id": "SIM-CV-NAT-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:03.855045+00:00",
+ "finished_utc": "2026-10-24T22:14:06.353381+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "413b600172aa34af1f0a90f80b91ffd36e7db7dfbd482eedeed75da865d3f9d6",
+ "params_sha256": "e964f74f9ab0bdd386a8e3d449c839903a15c6a32cf4370fbf0fb811b42f529a",
+ "results_sha256": "bfe5bd3a0777204e2eeb3dd64559ebc756f61b8ee16c01020ca952d5623a57d3",
+ "results": {
+  "grid": {
+   "a2.0944_n0.5": {
+    "R": 0.499606,
+    "gap": 2.088219,
+    "spread_co": 0.007043,
+    "spread_ch": 0.005159,
+    "two_cluster": true,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.0944_n0.6": {
+    "R": 0.483994,
+    "gap": 2.091672,
+    "spread_co": 0.064234,
+    "spread_ch": 0.091309,
+    "two_cluster": false,
+    "bound": 0.666667,
+    "below_bound": true
+   },
+   "a2.6180_n0.5": {
+    "R": 0.25075,
+    "gap": 2.549033,
+    "spread_co": 0.119286,
+    "spread_ch": 0.171608,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": true
+   },
+   "a2.6180_n0.6": {
+    "R": 0.005354,
+    "gap": -3.003172,
+    "spread_co": 0.909992,
+    "spread_ch": 0.93724,
+    "two_cluster": false,
+    "bound": 0.535898,
+    "below_bound": false
+   }
+  },
+  "V1_R_classical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "classical Kuramoto (all lags 0, identical frequencies, K > 0) synchronises from random phases: R > 0.99 at T",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "stronger coupling (K = 2) at sd 0.05 restores the classification: the two-cluster state persists exactly when n_ch < 1/(1 - cos alpha)",
+   "observed": {
+    "grid": {
+     "a2.0944_n0.5": {
+      "R": 0.499606,
+      "gap": 2.088219,
+      "spread_co": 0.007043,
+      "spread_ch": 0.005159,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.6": {
+      "R": 0.483994,
+      "gap": 2.091672,
+      "spread_co": 0.064234,
+      "spread_ch": 0.091309,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.6180_n0.5": {
+      "R": 0.25075,
+      "gap": 2.549033,
+      "spread_co": 0.119286,
+      "spread_ch": 0.171608,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.6": {
+      "R": 0.005354,
+      "gap": -3.003172,
+      "spread_co": 0.909992,
+      "spread_ch": 0.93724,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     }
+    },
+    "V1_R_classical": 1.0
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "grid": {
+     "a2.0944_n0.5": {
+      "R": 0.499606,
+      "gap": 2.088219,
+      "spread_co": 0.007043,
+      "spread_ch": 0.005159,
+      "two_cluster": true,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.0944_n0.6": {
+      "R": 0.483994,
+      "gap": 2.091672,
+      "spread_co": 0.064234,
+      "spread_ch": 0.091309,
+      "two_cluster": false,
+      "bound": 0.666667,
+      "below_bound": true
+     },
+     "a2.6180_n0.5": {
+      "R": 0.25075,
+      "gap": 2.549033,
+      "spread_co": 0.119286,
+      "spread_ch": 0.171608,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": true
+     },
+     "a2.6180_n0.6": {
+      "R": 0.005354,
+      "gap": -3.003172,
+      "spread_co": 0.909992,
+      "spread_ch": 0.93724,
+      "two_cluster": false,
+      "bound": 0.535898,
+      "below_bound": false
+     }
+    },
+    "V1_R_classical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
