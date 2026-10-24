@@ -1,0 +1,1558 @@
+{
+ "sim_id": "SIM-CV-HUM-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:08:58.476290+00:00",
+ "finished_utc": "2026-10-24T20:08:58.920899+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "8a30becd1ed5ce2e6025840f72049a36fa3961ba964132c3c1b39be24af5e86f",
+ "params_sha256": "66aa0e782d097e2c451c6dd414c259751e8b387af260f77bdf717f53fe59c75a",
+ "results_sha256": "a70b0d76426b27d52b489981a68c6d11fbeea5299cffadc5bfb3442eb2715617",
+ "results": {
+  "bic": {
+   "M0": {
+    "printed": 938.69,
+    "computed": 938.69,
+    "diff": 0.0
+   },
+   "M1": {
+    "printed": 939.03,
+    "computed": 939.03,
+    "diff": 0.0
+   },
+   "M2": {
+    "printed": 907.41,
+    "computed": 907.41,
+    "diff": 0.0
+   },
+   "M3": {
+    "printed": 900.68,
+    "computed": 900.67,
+    "diff": -0.01
+   },
+   "M4": {
+    "printed": 900.89,
+    "computed": 900.89,
+    "diff": 0.0
+   },
+   "M5": {
+    "printed": 907.65,
+    "computed": 907.65,
+    "diff": 0.0
+   },
+   "M6": {
+    "printed": 907.28,
+    "computed": 907.29,
+    "diff": 0.01
+   },
+   "M7": {
+    "printed": 924.9,
+    "computed": 924.9,
+    "diff": 0.0
+   },
+   "M8": {
+    "printed": 921.13,
+    "computed": 921.13,
+    "diff": 0.0
+   },
+   "M9": {
+    "printed": 900.45,
+    "computed": 900.45,
+    "diff": 0.0
+   }
+  },
+  "lr": {
+   "M1_vs_M0": {
+    "ddf": 10,
+    "chi2": 70.03,
+    "printed_chi2": 70.03,
+    "chi2_diff": -0.0,
+    "p": 0.0,
+    "printed_p": 0.0
+   },
+   "M1_vs_M2": {
+    "ddf": 5,
+    "chi2": 3.57,
+    "printed_chi2": 3.56,
+    "chi2_diff": 0.01,
+    "p": 0.6128,
+    "printed_p": 0.6141
+   },
+   "M2_vs_M3": {
+    "ddf": 1,
+    "chi2": 0.3,
+    "printed_chi2": 0.31,
+    "chi2_diff": -0.01,
+    "p": 0.5839,
+    "printed_p": 0.5797
+   },
+   "M4_vs_M3": {
+    "ddf": 1,
+    "chi2": 6.82,
+    "printed_chi2": 6.82,
+    "chi2_diff": 0.0,
+    "p": 0.009,
+    "printed_p": 0.009
+   },
+   "M5_vs_M4": {
+    "ddf": 1,
+    "chi2": 0.28,
+    "printed_chi2": 0.28,
+    "chi2_diff": -0.0,
+    "p": 0.5967,
+    "printed_p": 0.6
+   },
+   "M6_vs_M4": {
+    "ddf": 1,
+    "chi2": 0.64,
+    "printed_chi2": 0.64,
+    "chi2_diff": -0.0,
+    "p": 0.4237,
+    "printed_p": 0.4229
+   },
+   "M7_vs_M4": {
+    "ddf": 4,
+    "chi2": 4.14,
+    "printed_chi2": 4.14,
+    "chi2_diff": -0.0,
+    "p": 0.3874,
+    "printed_p": 0.3878
+   },
+   "M8_vs_M4": {
+    "ddf": 4,
+    "chi2": 7.91,
+    "printed_chi2": 7.91,
+    "chi2_diff": -0.0,
+    "p": 0.0949,
+    "printed_p": 0.095
+   },
+   "M9_vs_M4": {
+    "ddf": 1,
+    "chi2": 7.48,
+    "printed_chi2": 7.48,
+    "chi2_diff": 0.0,
+    "p": 0.0062,
+    "printed_p": 0.0062
+   }
+  },
+  "coefs": {
+   "Intercept": {
+    "z": -3.132,
+    "printed_z": -3.14,
+    "z_diff": 0.008,
+    "p_from_printed_z": 0.0017,
+    "printed_p": 0.0017
+   },
+   "order": {
+    "z": 4.7,
+    "printed_z": 4.67,
+    "z_diff": 0.03,
+    "p_from_printed_z": 0.0,
+    "printed_p": 0.0
+   },
+   "task": {
+    "z": 3.933,
+    "printed_z": 3.95,
+    "z_diff": -0.017,
+    "p_from_printed_z": 0.0001,
+    "printed_p": 0.0001
+   },
+   "frequency": {
+    "z": 1.08,
+    "printed_z": 1.06,
+    "z_diff": 0.02,
+    "p_from_printed_z": 0.2891,
+    "printed_p": 0.2882
+   },
+   "gender": {
+    "z": -2.978,
+    "printed_z": -2.97,
+    "z_diff": -0.008,
+    "p_from_printed_z": 0.003,
+    "printed_p": 0.003
+   },
+   "direction": {
+    "z": -1.417,
+    "printed_z": -1.42,
+    "z_diff": 0.003,
+    "p_from_printed_z": 0.1556,
+    "printed_p": 0.1567
+   },
+   "task:frequency": {
+    "z": 3.231,
+    "printed_z": 3.25,
+    "z_diff": -0.019,
+    "p_from_printed_z": 0.0012,
+    "printed_p": 0.0012
+   },
+   "task:gender": {
+    "z": 2.067,
+    "printed_z": 2.07,
+    "z_diff": -0.003,
+    "p_from_printed_z": 0.0385,
+    "printed_p": 0.0388
+   },
+   "frequency:gender": {
+    "z": -1.686,
+    "printed_z": -1.7,
+    "z_diff": 0.014,
+    "p_from_printed_z": 0.0891,
+    "printed_p": 0.0901
+   },
+   "task:direction": {
+    "z": -6.759,
+    "printed_z": -6.73,
+    "z_diff": -0.029,
+    "p_from_printed_z": 0.0,
+    "printed_p": 0.0
+   },
+   "gender:direction": {
+    "z": -2.146,
+    "printed_z": -2.14,
+    "z_diff": -0.006,
+    "p_from_printed_z": 0.0324,
+    "printed_p": 0.0323
+   },
+   "task:frequency:gender": {
+    "z": 2.524,
+    "printed_z": 2.53,
+    "z_diff": -0.006,
+    "p_from_printed_z": 0.0114,
+    "printed_p": 0.0115
+   }
+  },
+  "percents": {
+   "shadowing": {
+    "computed": 53.46,
+    "printed": 53.5,
+    "diff": -0.04
+   },
+   "interaction": {
+    "computed": 27.3,
+    "printed": 27.3,
+    "diff": 0.0
+   },
+   "overall": {
+    "computed": 40.25,
+    "printed": 40.2,
+    "diff": 0.05
+   }
+  },
+  "sums": {
+   "accommodated": {
+    "computed": 458,
+    "printed": 458
+   },
+   "trials": {
+    "computed": 1138,
+    "printed": 1138
+   },
+   "after_exclusion": {
+    "computed": 1138,
+    "printed": 1138
+   },
+   "participants": {
+    "computed": 42,
+    "printed": 42
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival function: P(chi2_1 > 3.8415) = 0.05",
+   "observed": 0.04999999,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "every printed BIC equals AIC + df (ln 1138 - 2) within 0.05",
+   "observed": {
+    "bic": {
+     "M0": {
+      "printed": 938.69,
+      "computed": 938.69,
+      "diff": 0.0
+     },
+     "M1": {
+      "printed": 939.03,
+      "computed": 939.03,
+      "diff": 0.0
+     },
+     "M2": {
+      "printed": 907.41,
+      "computed": 907.41,
+      "diff": 0.0
+     },
+     "M3": {
+      "printed": 900.68,
+      "computed": 900.67,
+      "diff": -0.01
+     },
+     "M4": {
+      "printed": 900.89,
+      "computed": 900.89,
+      "diff": 0.0
+     },
+     "M5": {
+      "printed": 907.65,
+      "computed": 907.65,
+      "diff": 0.0
+     },
+     "M6": {
+      "printed": 907.28,
+      "computed": 907.29,
+      "diff": 0.01
+     },
+     "M7": {
+      "printed": 924.9,
+      "computed": 924.9,
+      "diff": 0.0
+     },
+     "M8": {
+      "printed": 921.13,
+      "computed": 921.13,
+      "diff": 0.0
+     },
+     "M9": {
+      "printed": 900.45,
+      "computed": 900.45,
+      "diff": 0.0
+     }
+    },
+    "lr": {
+     "M1_vs_M0": {
+      "ddf": 10,
+      "chi2": 70.03,
+      "printed_chi2": 70.03,
+      "chi2_diff": -0.0,
+      "p": 0.0,
+      "printed_p": 0.0
+     },
+     "M1_vs_M2": {
+      "ddf": 5,
+      "chi2": 3.57,
+      "printed_chi2": 3.56,
+      "chi2_diff": 0.01,
+      "p": 0.6128,
+      "printed_p": 0.6141
+     },
+     "M2_vs_M3": {
+      "ddf": 1,
+      "chi2": 0.3,
+      "printed_chi2": 0.31,
+      "chi2_diff": -0.01,
+      "p": 0.5839,
+      "printed_p": 0.5797
+     },
+     "M4_vs_M3": {
+      "ddf": 1,
+      "chi2": 6.82,
+      "printed_chi2": 6.82,
+      "chi2_diff": 0.0,
+      "p": 0.009,
+      "printed_p": 0.009
+     },
+     "M5_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.28,
+      "printed_chi2": 0.28,
+      "chi2_diff": -0.0,
+      "p": 0.5967,
+      "printed_p": 0.6
+     },
+     "M6_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.64,
+      "printed_chi2": 0.64,
+      "chi2_diff": -0.0,
+      "p": 0.4237,
+      "printed_p": 0.4229
+     },
+     "M7_vs_M4": {
+      "ddf": 4,
+      "chi2": 4.14,
+      "printed_chi2": 4.14,
+      "chi2_diff": -0.0,
+      "p": 0.3874,
+      "printed_p": 0.3878
+     },
+     "M8_vs_M4": {
+      "ddf": 4,
+      "chi2": 7.91,
+      "printed_chi2": 7.91,
+      "chi2_diff": -0.0,
+      "p": 0.0949,
+      "printed_p": 0.095
+     },
+     "M9_vs_M4": {
+      "ddf": 1,
+      "chi2": 7.48,
+      "printed_chi2": 7.48,
+      "chi2_diff": 0.0,
+      "p": 0.0062,
+      "printed_p": 0.0062
+     }
+    },
+    "coefs": {
+     "Intercept": {
+      "z": -3.132,
+      "printed_z": -3.14,
+      "z_diff": 0.008,
+      "p_from_printed_z": 0.0017,
+      "printed_p": 0.0017
+     },
+     "order": {
+      "z": 4.7,
+      "printed_z": 4.67,
+      "z_diff": 0.03,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "task": {
+      "z": 3.933,
+      "printed_z": 3.95,
+      "z_diff": -0.017,
+      "p_from_printed_z": 0.0001,
+      "printed_p": 0.0001
+     },
+     "frequency": {
+      "z": 1.08,
+      "printed_z": 1.06,
+      "z_diff": 0.02,
+      "p_from_printed_z": 0.2891,
+      "printed_p": 0.2882
+     },
+     "gender": {
+      "z": -2.978,
+      "printed_z": -2.97,
+      "z_diff": -0.008,
+      "p_from_printed_z": 0.003,
+      "printed_p": 0.003
+     },
+     "direction": {
+      "z": -1.417,
+      "printed_z": -1.42,
+      "z_diff": 0.003,
+      "p_from_printed_z": 0.1556,
+      "printed_p": 0.1567
+     },
+     "task:frequency": {
+      "z": 3.231,
+      "printed_z": 3.25,
+      "z_diff": -0.019,
+      "p_from_printed_z": 0.0012,
+      "printed_p": 0.0012
+     },
+     "task:gender": {
+      "z": 2.067,
+      "printed_z": 2.07,
+      "z_diff": -0.003,
+      "p_from_printed_z": 0.0385,
+      "printed_p": 0.0388
+     },
+     "frequency:gender": {
+      "z": -1.686,
+      "printed_z": -1.7,
+      "z_diff": 0.014,
+      "p_from_printed_z": 0.0891,
+      "printed_p": 0.0901
+     },
+     "task:direction": {
+      "z": -6.759,
+      "printed_z": -6.73,
+      "z_diff": -0.029,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "gender:direction": {
+      "z": -2.146,
+      "printed_z": -2.14,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0324,
+      "printed_p": 0.0323
+     },
+     "task:frequency:gender": {
+      "z": 2.524,
+      "printed_z": 2.53,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0114,
+      "printed_p": 0.0115
+     }
+    },
+    "percents": {
+     "shadowing": {
+      "computed": 53.46,
+      "printed": 53.5,
+      "diff": -0.04
+     },
+     "interaction": {
+      "computed": 27.3,
+      "printed": 27.3,
+      "diff": 0.0
+     },
+     "overall": {
+      "computed": 40.25,
+      "printed": 40.2,
+      "diff": 0.05
+     }
+    },
+    "sums": {
+     "accommodated": {
+      "computed": 458,
+      "printed": 458
+     },
+     "trials": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "after_exclusion": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "participants": {
+      "computed": 42,
+      "printed": 42
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "every printed LR chi-square equals the AIC-implied value within 0.05 and every printed p within 0.002 of the recomputed p",
+   "observed": {
+    "bic": {
+     "M0": {
+      "printed": 938.69,
+      "computed": 938.69,
+      "diff": 0.0
+     },
+     "M1": {
+      "printed": 939.03,
+      "computed": 939.03,
+      "diff": 0.0
+     },
+     "M2": {
+      "printed": 907.41,
+      "computed": 907.41,
+      "diff": 0.0
+     },
+     "M3": {
+      "printed": 900.68,
+      "computed": 900.67,
+      "diff": -0.01
+     },
+     "M4": {
+      "printed": 900.89,
+      "computed": 900.89,
+      "diff": 0.0
+     },
+     "M5": {
+      "printed": 907.65,
+      "computed": 907.65,
+      "diff": 0.0
+     },
+     "M6": {
+      "printed": 907.28,
+      "computed": 907.29,
+      "diff": 0.01
+     },
+     "M7": {
+      "printed": 924.9,
+      "computed": 924.9,
+      "diff": 0.0
+     },
+     "M8": {
+      "printed": 921.13,
+      "computed": 921.13,
+      "diff": 0.0
+     },
+     "M9": {
+      "printed": 900.45,
+      "computed": 900.45,
+      "diff": 0.0
+     }
+    },
+    "lr": {
+     "M1_vs_M0": {
+      "ddf": 10,
+      "chi2": 70.03,
+      "printed_chi2": 70.03,
+      "chi2_diff": -0.0,
+      "p": 0.0,
+      "printed_p": 0.0
+     },
+     "M1_vs_M2": {
+      "ddf": 5,
+      "chi2": 3.57,
+      "printed_chi2": 3.56,
+      "chi2_diff": 0.01,
+      "p": 0.6128,
+      "printed_p": 0.6141
+     },
+     "M2_vs_M3": {
+      "ddf": 1,
+      "chi2": 0.3,
+      "printed_chi2": 0.31,
+      "chi2_diff": -0.01,
+      "p": 0.5839,
+      "printed_p": 0.5797
+     },
+     "M4_vs_M3": {
+      "ddf": 1,
+      "chi2": 6.82,
+      "printed_chi2": 6.82,
+      "chi2_diff": 0.0,
+      "p": 0.009,
+      "printed_p": 0.009
+     },
+     "M5_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.28,
+      "printed_chi2": 0.28,
+      "chi2_diff": -0.0,
+      "p": 0.5967,
+      "printed_p": 0.6
+     },
+     "M6_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.64,
+      "printed_chi2": 0.64,
+      "chi2_diff": -0.0,
+      "p": 0.4237,
+      "printed_p": 0.4229
+     },
+     "M7_vs_M4": {
+      "ddf": 4,
+      "chi2": 4.14,
+      "printed_chi2": 4.14,
+      "chi2_diff": -0.0,
+      "p": 0.3874,
+      "printed_p": 0.3878
+     },
+     "M8_vs_M4": {
+      "ddf": 4,
+      "chi2": 7.91,
+      "printed_chi2": 7.91,
+      "chi2_diff": -0.0,
+      "p": 0.0949,
+      "printed_p": 0.095
+     },
+     "M9_vs_M4": {
+      "ddf": 1,
+      "chi2": 7.48,
+      "printed_chi2": 7.48,
+      "chi2_diff": 0.0,
+      "p": 0.0062,
+      "printed_p": 0.0062
+     }
+    },
+    "coefs": {
+     "Intercept": {
+      "z": -3.132,
+      "printed_z": -3.14,
+      "z_diff": 0.008,
+      "p_from_printed_z": 0.0017,
+      "printed_p": 0.0017
+     },
+     "order": {
+      "z": 4.7,
+      "printed_z": 4.67,
+      "z_diff": 0.03,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "task": {
+      "z": 3.933,
+      "printed_z": 3.95,
+      "z_diff": -0.017,
+      "p_from_printed_z": 0.0001,
+      "printed_p": 0.0001
+     },
+     "frequency": {
+      "z": 1.08,
+      "printed_z": 1.06,
+      "z_diff": 0.02,
+      "p_from_printed_z": 0.2891,
+      "printed_p": 0.2882
+     },
+     "gender": {
+      "z": -2.978,
+      "printed_z": -2.97,
+      "z_diff": -0.008,
+      "p_from_printed_z": 0.003,
+      "printed_p": 0.003
+     },
+     "direction": {
+      "z": -1.417,
+      "printed_z": -1.42,
+      "z_diff": 0.003,
+      "p_from_printed_z": 0.1556,
+      "printed_p": 0.1567
+     },
+     "task:frequency": {
+      "z": 3.231,
+      "printed_z": 3.25,
+      "z_diff": -0.019,
+      "p_from_printed_z": 0.0012,
+      "printed_p": 0.0012
+     },
+     "task:gender": {
+      "z": 2.067,
+      "printed_z": 2.07,
+      "z_diff": -0.003,
+      "p_from_printed_z": 0.0385,
+      "printed_p": 0.0388
+     },
+     "frequency:gender": {
+      "z": -1.686,
+      "printed_z": -1.7,
+      "z_diff": 0.014,
+      "p_from_printed_z": 0.0891,
+      "printed_p": 0.0901
+     },
+     "task:direction": {
+      "z": -6.759,
+      "printed_z": -6.73,
+      "z_diff": -0.029,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "gender:direction": {
+      "z": -2.146,
+      "printed_z": -2.14,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0324,
+      "printed_p": 0.0323
+     },
+     "task:frequency:gender": {
+      "z": 2.524,
+      "printed_z": 2.53,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0114,
+      "printed_p": 0.0115
+     }
+    },
+    "percents": {
+     "shadowing": {
+      "computed": 53.46,
+      "printed": 53.5,
+      "diff": -0.04
+     },
+     "interaction": {
+      "computed": 27.3,
+      "printed": 27.3,
+      "diff": 0.0
+     },
+     "overall": {
+      "computed": 40.25,
+      "printed": 40.2,
+      "diff": 0.05
+     }
+    },
+    "sums": {
+     "accommodated": {
+      "computed": 458,
+      "printed": 458
+     },
+     "trials": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "after_exclusion": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "participants": {
+      "computed": 42,
+      "printed": 42
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "every printed z within 0.1 of beta/SE and printed p within 0.002 of 2(1 - Phi(|z|))",
+   "observed": {
+    "bic": {
+     "M0": {
+      "printed": 938.69,
+      "computed": 938.69,
+      "diff": 0.0
+     },
+     "M1": {
+      "printed": 939.03,
+      "computed": 939.03,
+      "diff": 0.0
+     },
+     "M2": {
+      "printed": 907.41,
+      "computed": 907.41,
+      "diff": 0.0
+     },
+     "M3": {
+      "printed": 900.68,
+      "computed": 900.67,
+      "diff": -0.01
+     },
+     "M4": {
+      "printed": 900.89,
+      "computed": 900.89,
+      "diff": 0.0
+     },
+     "M5": {
+      "printed": 907.65,
+      "computed": 907.65,
+      "diff": 0.0
+     },
+     "M6": {
+      "printed": 907.28,
+      "computed": 907.29,
+      "diff": 0.01
+     },
+     "M7": {
+      "printed": 924.9,
+      "computed": 924.9,
+      "diff": 0.0
+     },
+     "M8": {
+      "printed": 921.13,
+      "computed": 921.13,
+      "diff": 0.0
+     },
+     "M9": {
+      "printed": 900.45,
+      "computed": 900.45,
+      "diff": 0.0
+     }
+    },
+    "lr": {
+     "M1_vs_M0": {
+      "ddf": 10,
+      "chi2": 70.03,
+      "printed_chi2": 70.03,
+      "chi2_diff": -0.0,
+      "p": 0.0,
+      "printed_p": 0.0
+     },
+     "M1_vs_M2": {
+      "ddf": 5,
+      "chi2": 3.57,
+      "printed_chi2": 3.56,
+      "chi2_diff": 0.01,
+      "p": 0.6128,
+      "printed_p": 0.6141
+     },
+     "M2_vs_M3": {
+      "ddf": 1,
+      "chi2": 0.3,
+      "printed_chi2": 0.31,
+      "chi2_diff": -0.01,
+      "p": 0.5839,
+      "printed_p": 0.5797
+     },
+     "M4_vs_M3": {
+      "ddf": 1,
+      "chi2": 6.82,
+      "printed_chi2": 6.82,
+      "chi2_diff": 0.0,
+      "p": 0.009,
+      "printed_p": 0.009
+     },
+     "M5_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.28,
+      "printed_chi2": 0.28,
+      "chi2_diff": -0.0,
+      "p": 0.5967,
+      "printed_p": 0.6
+     },
+     "M6_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.64,
+      "printed_chi2": 0.64,
+      "chi2_diff": -0.0,
+      "p": 0.4237,
+      "printed_p": 0.4229
+     },
+     "M7_vs_M4": {
+      "ddf": 4,
+      "chi2": 4.14,
+      "printed_chi2": 4.14,
+      "chi2_diff": -0.0,
+      "p": 0.3874,
+      "printed_p": 0.3878
+     },
+     "M8_vs_M4": {
+      "ddf": 4,
+      "chi2": 7.91,
+      "printed_chi2": 7.91,
+      "chi2_diff": -0.0,
+      "p": 0.0949,
+      "printed_p": 0.095
+     },
+     "M9_vs_M4": {
+      "ddf": 1,
+      "chi2": 7.48,
+      "printed_chi2": 7.48,
+      "chi2_diff": 0.0,
+      "p": 0.0062,
+      "printed_p": 0.0062
+     }
+    },
+    "coefs": {
+     "Intercept": {
+      "z": -3.132,
+      "printed_z": -3.14,
+      "z_diff": 0.008,
+      "p_from_printed_z": 0.0017,
+      "printed_p": 0.0017
+     },
+     "order": {
+      "z": 4.7,
+      "printed_z": 4.67,
+      "z_diff": 0.03,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "task": {
+      "z": 3.933,
+      "printed_z": 3.95,
+      "z_diff": -0.017,
+      "p_from_printed_z": 0.0001,
+      "printed_p": 0.0001
+     },
+     "frequency": {
+      "z": 1.08,
+      "printed_z": 1.06,
+      "z_diff": 0.02,
+      "p_from_printed_z": 0.2891,
+      "printed_p": 0.2882
+     },
+     "gender": {
+      "z": -2.978,
+      "printed_z": -2.97,
+      "z_diff": -0.008,
+      "p_from_printed_z": 0.003,
+      "printed_p": 0.003
+     },
+     "direction": {
+      "z": -1.417,
+      "printed_z": -1.42,
+      "z_diff": 0.003,
+      "p_from_printed_z": 0.1556,
+      "printed_p": 0.1567
+     },
+     "task:frequency": {
+      "z": 3.231,
+      "printed_z": 3.25,
+      "z_diff": -0.019,
+      "p_from_printed_z": 0.0012,
+      "printed_p": 0.0012
+     },
+     "task:gender": {
+      "z": 2.067,
+      "printed_z": 2.07,
+      "z_diff": -0.003,
+      "p_from_printed_z": 0.0385,
+      "printed_p": 0.0388
+     },
+     "frequency:gender": {
+      "z": -1.686,
+      "printed_z": -1.7,
+      "z_diff": 0.014,
+      "p_from_printed_z": 0.0891,
+      "printed_p": 0.0901
+     },
+     "task:direction": {
+      "z": -6.759,
+      "printed_z": -6.73,
+      "z_diff": -0.029,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "gender:direction": {
+      "z": -2.146,
+      "printed_z": -2.14,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0324,
+      "printed_p": 0.0323
+     },
+     "task:frequency:gender": {
+      "z": 2.524,
+      "printed_z": 2.53,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0114,
+      "printed_p": 0.0115
+     }
+    },
+    "percents": {
+     "shadowing": {
+      "computed": 53.46,
+      "printed": 53.5,
+      "diff": -0.04
+     },
+     "interaction": {
+      "computed": 27.3,
+      "printed": 27.3,
+      "diff": 0.0
+     },
+     "overall": {
+      "computed": 40.25,
+      "printed": 40.2,
+      "diff": 0.05
+     }
+    },
+    "sums": {
+     "accommodated": {
+      "computed": 458,
+      "printed": 458
+     },
+     "trials": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "after_exclusion": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "participants": {
+      "computed": 42,
+      "printed": 42
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "printed percentages within 0.1 and sums exact",
+   "observed": {
+    "bic": {
+     "M0": {
+      "printed": 938.69,
+      "computed": 938.69,
+      "diff": 0.0
+     },
+     "M1": {
+      "printed": 939.03,
+      "computed": 939.03,
+      "diff": 0.0
+     },
+     "M2": {
+      "printed": 907.41,
+      "computed": 907.41,
+      "diff": 0.0
+     },
+     "M3": {
+      "printed": 900.68,
+      "computed": 900.67,
+      "diff": -0.01
+     },
+     "M4": {
+      "printed": 900.89,
+      "computed": 900.89,
+      "diff": 0.0
+     },
+     "M5": {
+      "printed": 907.65,
+      "computed": 907.65,
+      "diff": 0.0
+     },
+     "M6": {
+      "printed": 907.28,
+      "computed": 907.29,
+      "diff": 0.01
+     },
+     "M7": {
+      "printed": 924.9,
+      "computed": 924.9,
+      "diff": 0.0
+     },
+     "M8": {
+      "printed": 921.13,
+      "computed": 921.13,
+      "diff": 0.0
+     },
+     "M9": {
+      "printed": 900.45,
+      "computed": 900.45,
+      "diff": 0.0
+     }
+    },
+    "lr": {
+     "M1_vs_M0": {
+      "ddf": 10,
+      "chi2": 70.03,
+      "printed_chi2": 70.03,
+      "chi2_diff": -0.0,
+      "p": 0.0,
+      "printed_p": 0.0
+     },
+     "M1_vs_M2": {
+      "ddf": 5,
+      "chi2": 3.57,
+      "printed_chi2": 3.56,
+      "chi2_diff": 0.01,
+      "p": 0.6128,
+      "printed_p": 0.6141
+     },
+     "M2_vs_M3": {
+      "ddf": 1,
+      "chi2": 0.3,
+      "printed_chi2": 0.31,
+      "chi2_diff": -0.01,
+      "p": 0.5839,
+      "printed_p": 0.5797
+     },
+     "M4_vs_M3": {
+      "ddf": 1,
+      "chi2": 6.82,
+      "printed_chi2": 6.82,
+      "chi2_diff": 0.0,
+      "p": 0.009,
+      "printed_p": 0.009
+     },
+     "M5_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.28,
+      "printed_chi2": 0.28,
+      "chi2_diff": -0.0,
+      "p": 0.5967,
+      "printed_p": 0.6
+     },
+     "M6_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.64,
+      "printed_chi2": 0.64,
+      "chi2_diff": -0.0,
+      "p": 0.4237,
+      "printed_p": 0.4229
+     },
+     "M7_vs_M4": {
+      "ddf": 4,
+      "chi2": 4.14,
+      "printed_chi2": 4.14,
+      "chi2_diff": -0.0,
+      "p": 0.3874,
+      "printed_p": 0.3878
+     },
+     "M8_vs_M4": {
+      "ddf": 4,
+      "chi2": 7.91,
+      "printed_chi2": 7.91,
+      "chi2_diff": -0.0,
+      "p": 0.0949,
+      "printed_p": 0.095
+     },
+     "M9_vs_M4": {
+      "ddf": 1,
+      "chi2": 7.48,
+      "printed_chi2": 7.48,
+      "chi2_diff": 0.0,
+      "p": 0.0062,
+      "printed_p": 0.0062
+     }
+    },
+    "coefs": {
+     "Intercept": {
+      "z": -3.132,
+      "printed_z": -3.14,
+      "z_diff": 0.008,
+      "p_from_printed_z": 0.0017,
+      "printed_p": 0.0017
+     },
+     "order": {
+      "z": 4.7,
+      "printed_z": 4.67,
+      "z_diff": 0.03,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "task": {
+      "z": 3.933,
+      "printed_z": 3.95,
+      "z_diff": -0.017,
+      "p_from_printed_z": 0.0001,
+      "printed_p": 0.0001
+     },
+     "frequency": {
+      "z": 1.08,
+      "printed_z": 1.06,
+      "z_diff": 0.02,
+      "p_from_printed_z": 0.2891,
+      "printed_p": 0.2882
+     },
+     "gender": {
+      "z": -2.978,
+      "printed_z": -2.97,
+      "z_diff": -0.008,
+      "p_from_printed_z": 0.003,
+      "printed_p": 0.003
+     },
+     "direction": {
+      "z": -1.417,
+      "printed_z": -1.42,
+      "z_diff": 0.003,
+      "p_from_printed_z": 0.1556,
+      "printed_p": 0.1567
+     },
+     "task:frequency": {
+      "z": 3.231,
+      "printed_z": 3.25,
+      "z_diff": -0.019,
+      "p_from_printed_z": 0.0012,
+      "printed_p": 0.0012
+     },
+     "task:gender": {
+      "z": 2.067,
+      "printed_z": 2.07,
+      "z_diff": -0.003,
+      "p_from_printed_z": 0.0385,
+      "printed_p": 0.0388
+     },
+     "frequency:gender": {
+      "z": -1.686,
+      "printed_z": -1.7,
+      "z_diff": 0.014,
+      "p_from_printed_z": 0.0891,
+      "printed_p": 0.0901
+     },
+     "task:direction": {
+      "z": -6.759,
+      "printed_z": -6.73,
+      "z_diff": -0.029,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "gender:direction": {
+      "z": -2.146,
+      "printed_z": -2.14,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0324,
+      "printed_p": 0.0323
+     },
+     "task:frequency:gender": {
+      "z": 2.524,
+      "printed_z": 2.53,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0114,
+      "printed_p": 0.0115
+     }
+    },
+    "percents": {
+     "shadowing": {
+      "computed": 53.46,
+      "printed": 53.5,
+      "diff": -0.04
+     },
+     "interaction": {
+      "computed": 27.3,
+      "printed": 27.3,
+      "diff": 0.0
+     },
+     "overall": {
+      "computed": 40.25,
+      "printed": 40.2,
+      "diff": 0.05
+     }
+    },
+    "sums": {
+     "accommodated": {
+      "computed": 458,
+      "printed": 458
+     },
+     "trials": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "after_exclusion": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "participants": {
+      "computed": 42,
+      "printed": 42
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "bic": {
+     "M0": {
+      "printed": 938.69,
+      "computed": 938.69,
+      "diff": 0.0
+     },
+     "M1": {
+      "printed": 939.03,
+      "computed": 939.03,
+      "diff": 0.0
+     },
+     "M2": {
+      "printed": 907.41,
+      "computed": 907.41,
+      "diff": 0.0
+     },
+     "M3": {
+      "printed": 900.68,
+      "computed": 900.67,
+      "diff": -0.01
+     },
+     "M4": {
+      "printed": 900.89,
+      "computed": 900.89,
+      "diff": 0.0
+     },
+     "M5": {
+      "printed": 907.65,
+      "computed": 907.65,
+      "diff": 0.0
+     },
+     "M6": {
+      "printed": 907.28,
+      "computed": 907.29,
+      "diff": 0.01
+     },
+     "M7": {
+      "printed": 924.9,
+      "computed": 924.9,
+      "diff": 0.0
+     },
+     "M8": {
+      "printed": 921.13,
+      "computed": 921.13,
+      "diff": 0.0
+     },
+     "M9": {
+      "printed": 900.45,
+      "computed": 900.45,
+      "diff": 0.0
+     }
+    },
+    "lr": {
+     "M1_vs_M0": {
+      "ddf": 10,
+      "chi2": 70.03,
+      "printed_chi2": 70.03,
+      "chi2_diff": -0.0,
+      "p": 0.0,
+      "printed_p": 0.0
+     },
+     "M1_vs_M2": {
+      "ddf": 5,
+      "chi2": 3.57,
+      "printed_chi2": 3.56,
+      "chi2_diff": 0.01,
+      "p": 0.6128,
+      "printed_p": 0.6141
+     },
+     "M2_vs_M3": {
+      "ddf": 1,
+      "chi2": 0.3,
+      "printed_chi2": 0.31,
+      "chi2_diff": -0.01,
+      "p": 0.5839,
+      "printed_p": 0.5797
+     },
+     "M4_vs_M3": {
+      "ddf": 1,
+      "chi2": 6.82,
+      "printed_chi2": 6.82,
+      "chi2_diff": 0.0,
+      "p": 0.009,
+      "printed_p": 0.009
+     },
+     "M5_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.28,
+      "printed_chi2": 0.28,
+      "chi2_diff": -0.0,
+      "p": 0.5967,
+      "printed_p": 0.6
+     },
+     "M6_vs_M4": {
+      "ddf": 1,
+      "chi2": 0.64,
+      "printed_chi2": 0.64,
+      "chi2_diff": -0.0,
+      "p": 0.4237,
+      "printed_p": 0.4229
+     },
+     "M7_vs_M4": {
+      "ddf": 4,
+      "chi2": 4.14,
+      "printed_chi2": 4.14,
+      "chi2_diff": -0.0,
+      "p": 0.3874,
+      "printed_p": 0.3878
+     },
+     "M8_vs_M4": {
+      "ddf": 4,
+      "chi2": 7.91,
+      "printed_chi2": 7.91,
+      "chi2_diff": -0.0,
+      "p": 0.0949,
+      "printed_p": 0.095
+     },
+     "M9_vs_M4": {
+      "ddf": 1,
+      "chi2": 7.48,
+      "printed_chi2": 7.48,
+      "chi2_diff": 0.0,
+      "p": 0.0062,
+      "printed_p": 0.0062
+     }
+    },
+    "coefs": {
+     "Intercept": {
+      "z": -3.132,
+      "printed_z": -3.14,
+      "z_diff": 0.008,
+      "p_from_printed_z": 0.0017,
+      "printed_p": 0.0017
+     },
+     "order": {
+      "z": 4.7,
+      "printed_z": 4.67,
+      "z_diff": 0.03,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "task": {
+      "z": 3.933,
+      "printed_z": 3.95,
+      "z_diff": -0.017,
+      "p_from_printed_z": 0.0001,
+      "printed_p": 0.0001
+     },
+     "frequency": {
+      "z": 1.08,
+      "printed_z": 1.06,
+      "z_diff": 0.02,
+      "p_from_printed_z": 0.2891,
+      "printed_p": 0.2882
+     },
+     "gender": {
+      "z": -2.978,
+      "printed_z": -2.97,
+      "z_diff": -0.008,
+      "p_from_printed_z": 0.003,
+      "printed_p": 0.003
+     },
+     "direction": {
+      "z": -1.417,
+      "printed_z": -1.42,
+      "z_diff": 0.003,
+      "p_from_printed_z": 0.1556,
+      "printed_p": 0.1567
+     },
+     "task:frequency": {
+      "z": 3.231,
+      "printed_z": 3.25,
+      "z_diff": -0.019,
+      "p_from_printed_z": 0.0012,
+      "printed_p": 0.0012
+     },
+     "task:gender": {
+      "z": 2.067,
+      "printed_z": 2.07,
+      "z_diff": -0.003,
+      "p_from_printed_z": 0.0385,
+      "printed_p": 0.0388
+     },
+     "frequency:gender": {
+      "z": -1.686,
+      "printed_z": -1.7,
+      "z_diff": 0.014,
+      "p_from_printed_z": 0.0891,
+      "printed_p": 0.0901
+     },
+     "task:direction": {
+      "z": -6.759,
+      "printed_z": -6.73,
+      "z_diff": -0.029,
+      "p_from_printed_z": 0.0,
+      "printed_p": 0.0
+     },
+     "gender:direction": {
+      "z": -2.146,
+      "printed_z": -2.14,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0324,
+      "printed_p": 0.0323
+     },
+     "task:frequency:gender": {
+      "z": 2.524,
+      "printed_z": 2.53,
+      "z_diff": -0.006,
+      "p_from_printed_z": 0.0114,
+      "printed_p": 0.0115
+     }
+    },
+    "percents": {
+     "shadowing": {
+      "computed": 53.46,
+      "printed": 53.5,
+      "diff": -0.04
+     },
+     "interaction": {
+      "computed": 27.3,
+      "printed": 27.3,
+      "diff": 0.0
+     },
+     "overall": {
+      "computed": 40.25,
+      "printed": 40.2,
+      "diff": 0.05
+     }
+    },
+    "sums": {
+     "accommodated": {
+      "computed": 458,
+      "printed": 458
+     },
+     "trials": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "after_exclusion": {
+      "computed": 1138,
+      "printed": 1138
+     },
+     "participants": {
+      "computed": 42,
+      "printed": 42
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
