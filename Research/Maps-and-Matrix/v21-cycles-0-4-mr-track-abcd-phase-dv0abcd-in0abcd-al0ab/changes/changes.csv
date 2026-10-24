@@ -1,0 +1,2075 @@
+kind,id,cycle,report,prev_label,label,change,pressure,note
+claim,C0v2-R1-01,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-02,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-03,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-04,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-05,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-06,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-07,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-08,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-09,C1,R1,Established,Established,strengthened (full-text source added),,Upgraded to full-text source V06 (Cycle-1 access rule); wording aligned to V06.
+claim,C0v2-R1-10,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-11,C1,R1,Plausible,Plausible,unchanged,,Limits updated (full-text attempt failed).
+claim,C0v2-R1-12,C1,R1,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run (C0: prefix). Extended by C1-R1-02..04.
+claim,C0v2-R1-13,C1,R1,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run (C0: prefix). Robustness re-tested in C1-R1-03/04.
+claim,C0v2-R1-14,C1,R1,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-15,C1,R1,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R1-16,C1,R1,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R1-01,C1,R1,,Established,new,,New in Cycle 1.
+claim,C1-R1-02,C1,R1,,Established,new,,New in Cycle 1.
+claim,C1-R1-03,C1,R1,,Established,new,,New in Cycle 1.
+claim,C1-R1-04,C1,R1,,Established,new,,New in Cycle 1.
+claim,C0v2-R2-01,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-02,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-03,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-04,C1,R2,Established,Established,strengthened (full-text source added),,Upgraded to full text V04; counter-view C1-R2-02 linked.
+claim,C0v2-R2-05,C1,R2,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-06,C1,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-07,C1,R2,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-08,C1,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-09,C1,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-10,C1,R2,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-11,C1,R2,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R2-12,C1,R2,Established,Established,strengthened (full-text source added),,Upgraded to full text V05.
+claim,C0v2-R2-13,C1,R2,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Re-tested with LOOCV/bootstrap in C1-R2-07.
+claim,C1-R2-01,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-02,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-03,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-04,C1,R2,,Plausible,new,,New in Cycle 1.
+claim,C1-R2-05,C1,R2,,Established,new,,New in Cycle 1.
+claim,C1-R2-06,C1,R2,,Established,new,,New in Cycle 1.
+claim,C1-R2-07,C1,R2,,Established,new,,New in Cycle 1.
+claim,C0v2-R3-01,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-02,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-03,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-04,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-05,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-06,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-07,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-08,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-09,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-10,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-11,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-12,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-13,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-14,C1,R3,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-15,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-16,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R3-17,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 result). Cycle 1 replaces the single-partition reading with robustness tests C1-R3-02..04.
+claim,C0v2-R3-18,C1,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R3-01,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-02,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-03,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-04,C1,R3,,Established,new,,New in Cycle 1.
+claim,C1-R3-05,C1,R3,,Philosophical/Spiritual,new,,New in Cycle 1.
+claim,C0v2-R4-01,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-02,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-03,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-04,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-05,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-06,C1,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-07,C1,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-08,C1,R4,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-09,C1,R4,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-10,C1,R4,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible (abstract-only).
+claim,C0v2-R4-11,C1,R4,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R4-12,C1,R4,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Extended to five estimates in C1-R4-07.
+claim,C0v2-R4-13,C1,R4,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Extended by probabilistic bias analysis C1-R4-08.
+claim,C0v2-R4-14,C1,R4,Hypothetical,Hypothetical,updated (label unchanged),,Updated with Cycle-1 evidence; label unchanged (Hypothetical).
+claim,C0v2-R4-15,C1,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R4-01,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-02,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-03,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-04,C1,R4,,Plausible,new,,New in Cycle 1.
+claim,C1-R4-05,C1,R4,,Plausible,new,,New in Cycle 1.
+claim,C1-R4-06,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-07,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-08,C1,R4,,Established,new,,New in Cycle 1.
+claim,C1-R4-09,C1,R4,,Established,new,,New in Cycle 1.
+claim,C0v2-R5-01,C1,R5,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-02,C1,R5,Established,Established,strengthened (full-text source added),,Upgraded to full text V01.
+claim,C0v2-R5-03,C1,R5,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-04,C1,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-05,C1,R5,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-06,C1,R5,Established,Established,strengthened (full-text source added),,Upgraded to full text V07 (Casarotto 2016); T10 kept as secondary.
+claim,C0v2-R5-07,C1,R5,Hypothetical,Hypothetical,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-08,C1,R5,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-09,C1,R5,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-10,C1,R5,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R5-11,C1,R5,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward; cites the Cycle-0 run. Extended by C1-R5-03..05.
+claim,C0v2-R5-12,C1,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R5-01,C1,R5,,Established,new,,New in Cycle 1.
+claim,C1-R5-02,C1,R5,,Plausible,new,,New in Cycle 1.
+claim,C1-R5-03,C1,R5,,Established,new,,New in Cycle 1.
+claim,C1-R5-04,C1,R5,,Established,new,,New in Cycle 1.
+claim,C1-R5-05,C1,R5,,Established,new,,New in Cycle 1.
+claim,C0v2-R6-01,C1,R6,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible (abstract-only); V08 added.
+claim,C0v2-R6-02,C1,R6,Established,Established,strengthened (full-text source added),,Upgraded to full text V02.
+claim,C0v2-R6-03,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-04,C1,R6,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible (abstract-only).
+claim,C0v2-R6-05,C1,R6,Established,Established,strengthened (full-text source added),,Upgraded to full text V03 (Richardson 2023); wording updated.
+claim,C0v2-R6-06,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-07,C1,R6,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run). Robustness re-tested in C1-R6-07/08: regulation is parameter-dependent.
+claim,C0v2-R6-08,C1,R6,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-09,C1,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-10,C1,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-11,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-12,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-13,C1,R6,Established,Established,strengthened (full-text source added),,Upgraded to full preprint text V09.
+claim,C0v2-R6-14,C1,R6,Plausible,Plausible,weakened (counter-evidence added; label unchanged),,Counter-evidence V30 added (challenge pass).
+claim,C0v2-R6-15,C1,R6,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-16,C1,R6,Plausible,Plausible,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R6-17,C1,R6,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run). Conductivity range widened in C1-R6-09.
+claim,C0v2-R6-18,C1,R6,Plausible,Plausible,updated (label unchanged),,Sources widened.
+claim,C0v2-R6-19,C1,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R6-01,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-02,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-03,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-04,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-05,C1,R6,,Plausible,new,,New in Cycle 1.
+claim,C1-R6-06,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-07,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-08,C1,R6,,Established,new,,New in Cycle 1.
+claim,C1-R6-09,C1,R6,,Established,new,,New in Cycle 1.
+claim,C0v2-R7-01,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R7-02,C1,R7,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R7-03,C1,R7,Established,Established,updated (label unchanged),,Updated to the Cycle-1 register.
+claim,C0v2-R7-04,C1,R7,Established,Established,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C0v2-R7-05,C1,R7,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run; the grid is not regenerated in Cycle 1).
+claim,C0v2-R7-06,C1,R7,Established,Established,carried forward (citation re-pointed to the earlier run; see note),,Carried forward (Cycle-0 run).
+claim,C0v2-R7-07,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried forward unchanged from Cycle 0 (v2).
+claim,C1-R7-01,C1,R7,,Philosophical/Spiritual,new,,New in Cycle 1.
+claim,C1-R7-02,C1,R7,,Established,new,,New in Cycle 1.
+claim,C1-R7-03,C1,R7,,Established,new,,New in Cycle 1.
+claim,C0v2-R1-01,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-02,C2,R1,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R1-03,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-04,C2,R1,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R1-05,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-06,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-07,C2,R1,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R1-08,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-09,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-10,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-11,C2,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-12,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-13,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-14,C2,R1,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R1-15,C2,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-16,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-01,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-02,C2,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-03,C2,R1,Established,Established,unchanged,,Extended in Cycle 2 by a learned feedforward (C2-R1-03 to C2-R1-06).
+claim,C1-R1-04,C2,R1,Established,Established,unchanged,,Extended in Cycle 2 by a learned feedforward (C2-R1-03 to C2-R1-06).
+claim,C2-R1-01,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-02,C2,R1,,Plausible,new,,New in Cycle 2.
+claim,C2-R1-03,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-04,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-05,C2,R1,,Established,new,,New in Cycle 2.
+claim,C2-R1-06,C2,R1,,Established,new,,New in Cycle 2.
+claim,C0v2-R2-01,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-02,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-03,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-04,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-05,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-06,C2,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-07,C2,R2,Plausible,Plausible,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-08,C2,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-09,C2,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R2-10,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-11,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-12,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-13,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-01,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-02,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-03,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-04,C2,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-05,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-06,C2,R2,Established,Established,unchanged,,Corroborated by an independent Cycle-2 re-implementation (C2-R2-02).
+claim,C1-R2-07,C2,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R2-01,C2,R2,,Plausible,new,,New in Cycle 2.
+claim,C2-R2-02,C2,R2,,Established,new,,New in Cycle 2.
+claim,C2-R2-03,C2,R2,,Established,new,,New in Cycle 2.
+claim,C0v2-R3-01,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-02,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-03,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-04,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-05,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-06,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-07,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-08,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-09,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-10,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-11,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-12,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-13,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-14,C2,R3,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-15,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-16,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R3-17,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-18,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R3-01,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-02,C2,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-03,C2,R3,Established,Established,unchanged,,Further pressure in Cycle 2: the typology tolerates only ~4 random cell flips (C2-R3-03).
+claim,C1-R3-04,C2,R3,Established,Established,unchanged,,Further pressure in Cycle 2 (C2-R3-03).
+claim,C1-R3-05,C2,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Remains Indeterminate; Cycle-2 re-coding (C2-R3-01) and tolerance analysis (C2-R3-03) add pressure.
+claim,C2-R3-01,C2,R3,,Established,new,,New in Cycle 2.
+claim,C2-R3-02,C2,R3,,Established,new,,New in Cycle 2.
+claim,C2-R3-03,C2,R3,,Established,new,,New in Cycle 2.
+claim,C2-R3-04,C2,R3,,Plausible,new,,New in Cycle 2.
+claim,C2-R3-05,C2,R3,,Established,new,,New in Cycle 2.
+claim,C0v2-R4-01,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-02,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-03,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-04,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-05,C2,R4,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-06,C2,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R4-07,C2,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R4-08,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-09,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-10,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-11,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-12,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-13,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-14,C2,R4,Hypothetical,Hypothetical,unchanged,,Carried unchanged.
+claim,C0v2-R4-15,C2,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R4-01,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-02,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-03,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-04,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-05,C2,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-06,C2,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-07,C2,R4,Established,Established,unchanged,,Complemented in Cycle 2 by mediation simulations (C2-R4-04 to C2-R4-06).
+claim,C1-R4-08,C2,R4,Established,Established,unchanged,,Complemented in Cycle 2 by mediation simulations (C2-R4-04 to C2-R4-06).
+claim,C1-R4-09,C2,R4,Established,Established,unchanged,,Complemented in Cycle 2 by mediation simulations (C2-R4-04 to C2-R4-06).
+claim,C2-R4-01,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-02,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-03,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-04,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-05,C2,R4,,Established,new,,New in Cycle 2.
+claim,C2-R4-06,C2,R4,,Established,new,,New in Cycle 2.
+claim,C0v2-R5-01,C2,R5,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R5-02,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-03,C2,R5,Plausible,Plausible,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R5-04,C2,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R5-05,C2,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-06,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-07,C2,R5,Hypothetical,Hypothetical,unchanged,,Carried unchanged.
+claim,C0v2-R5-08,C2,R5,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R5-09,C2,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-10,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-11,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-12,C2,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R5-01,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-02,C2,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R5-03,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-04,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-05,C2,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-01,C2,R5,,Plausible,new,,New in Cycle 2.
+claim,C2-R5-02,C2,R5,,Plausible,new,,New in Cycle 2.
+claim,C2-R5-03,C2,R5,,Established,new,,New in Cycle 2.
+claim,C2-R5-04,C2,R5,,Established,new,,New in Cycle 2.
+claim,C2-R5-05,C2,R5,,Established,new,,New in Cycle 2.
+claim,C2-R5-06,C2,R5,,Plausible,new,,New in Cycle 2.
+claim,C0v2-R6-01,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-02,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-03,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-04,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-05,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-06,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty). Limits field filled; adaptive-Daisyworld literature added (C2-R6-01 to C2-R6-03).
+claim,C0v2-R6-07,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-08,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-09,C2,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-10,C2,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-11,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-12,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-13,C2,R6,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R6-14,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-15,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-16,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-17,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-18,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-19,C2,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R6-01,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-02,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-03,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-04,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-05,C2,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-06,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-07,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-08,C2,R6,Established,Established,unchanged,,Now matched to the published literature (C2-R6-01; W01 full text) and replicated on a finer rate grid (C2-R6-04).
+claim,C1-R6-09,C2,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-01,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-02,C2,R6,,Plausible,new,,New in Cycle 2.
+claim,C2-R6-03,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-04,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-05,C2,R6,,Established,new,,New in Cycle 2.
+claim,C2-R6-06,C2,R6,,Established,new,,New in Cycle 2.
+claim,C0v2-R7-01,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R7-02,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-03,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-04,C2,R7,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R7-05,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-06,C2,R7,Established,Established,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C0v2-R7-07,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Counterevidence/limits field filled in Cycle 2 (was empty).
+claim,C1-R7-01,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R7-02,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R7-03,C2,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-01,C2,R7,,Established,new,,New in Cycle 2.
+claim,C2-R7-02,C2,R7,,Established,new,,New in Cycle 2.
+claim,C2-R7-03,C2,R7,,Established,new,,New in Cycle 2.
+claim,C0v2-R1-01,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-02,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-03,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-04,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-05,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-06,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-07,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-08,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-09,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-10,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-11,C3,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-12,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-13,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-14,C3,R1,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R1-15,C3,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-16,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-01,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-02,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-03,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-04,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-01,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-02,C3,R1,Plausible,Plausible,unchanged,,Context added in Cycle 3: a small cross-over study found adaptations generally maintained 7 days after HA (C3-R1-02).
+claim,C2-R1-03,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-04,C3,R1,Established,Established,unchanged,,Remedy tested in Cycle 3: a two-state memory meets both W05 anchors only in 2 of 180 fine-grid settings and the result is fragile (C3-R1-06 to C3-R1-08).
+claim,C2-R1-05,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-06,C3,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R1-01,C3,R1,,Plausible,new,,New in Cycle 3.
+claim,C3-R1-02,C3,R1,,Plausible,new,,New in Cycle 3.
+claim,C3-R1-03,C3,R1,,Plausible,new,,New in Cycle 3.
+claim,C3-R1-04,C3,R1,,Established,new,,New in Cycle 3.
+claim,C3-R1-05,C3,R1,,Plausible,new,,New in Cycle 3.
+claim,C3-R1-06,C3,R1,,Established,new,,New in Cycle 3.
+claim,C3-R1-07,C3,R1,,Established,new,,New in Cycle 3.
+claim,C3-R1-08,C3,R1,,Established,new,,New in Cycle 3.
+claim,C0v2-R2-01,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-02,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-03,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-04,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-05,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-06,C3,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R2-07,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-08,C3,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R2-09,C3,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R2-10,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-11,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-12,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-13,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-01,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-02,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-03,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-04,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-05,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-06,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-07,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R2-01,C3,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R2-02,C3,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R2-03,C3,R2,Established,Established,unchanged,,"Optimism addressed in Cycle 3: with a new design, off-grid generators still gave 98% recovery for PH vs KF (C3-R2-04)."
+claim,C3-R2-01,C3,R2,,Established,new,,New in Cycle 3.
+claim,C3-R2-02,C3,R2,,Plausible,new,,New in Cycle 3.
+claim,C3-R2-03,C3,R2,,Established,new,,New in Cycle 3.
+claim,C3-R2-04,C3,R2,,Established,new,,New in Cycle 3.
+claim,C3-R2-05,C3,R2,,Established,new,,New in Cycle 3.
+claim,C0v2-R3-01,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-02,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-03,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-04,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-05,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-06,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-07,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-08,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-09,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-10,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-11,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-12,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-13,C3,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-14,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-15,C3,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-16,C3,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-17,C3,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-18,C3,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R3-01,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-02,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-03,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-04,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-05,C3,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,"Remains Indeterminate; Cycle-3 coder C did not recover the typology (ARI 0.36, C3-R3-03)."
+claim,C2-R3-01,C3,R3,Established,Established,unchanged,,"Further pressure in Cycle 3: a third, different-method coder agreed poorly (C3-R3-02)."
+claim,C2-R3-02,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R3-03,C3,R3,Established,Established,unchanged,,Consistent with Cycle 3: coder C's coding gives a different partition (C3-R3-03).
+claim,C2-R3-04,C3,R3,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R3-05,C3,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R3-01,C3,R3,,Plausible,new,,New in Cycle 3.
+claim,C3-R3-02,C3,R3,,Established,new,,New in Cycle 3.
+claim,C3-R3-03,C3,R3,,Established,new,,New in Cycle 3.
+claim,C0v2-R4-01,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-02,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-03,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-04,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-05,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-06,C3,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R4-07,C3,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R4-08,C3,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-09,C3,R4,Established,Established,unchanged,,Cycle 3 repeats C1-R4-07's common-outcome E-value (about 1.97) and adds an exact proportional-hazards conversion (2.24) (C3-R4-03).
+claim,C0v2-R4-10,C3,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-11,C3,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-12,C3,R4,Established,Established,unchanged,,"Refined in Cycle 3: the required confounding strength depends on outcome-frequency handling, about 2.0-2.35 (C3-R4-03, C3-R4-04)."
+claim,C0v2-R4-13,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-14,C3,R4,Hypothetical,Hypothetical,unchanged,,Carried unchanged.
+claim,C0v2-R4-15,C3,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R4-01,C3,R4,Established,Established,unchanged,,Contrast added in Cycle 3: a Swedish cohort's association disappeared after adjusting for social participation (C3-R4-01).
+claim,C1-R4-02,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-03,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-04,C3,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-05,C3,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-06,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-07,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-08,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-09,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-01,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-02,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-03,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-04,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-05,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-06,C3,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R4-01,C3,R4,,Plausible,new,,New in Cycle 3.
+claim,C3-R4-02,C3,R4,,Established,new,,New in Cycle 3.
+claim,C3-R4-03,C3,R4,,Established,new,,New in Cycle 3.
+claim,C3-R4-04,C3,R4,,Established,new,,New in Cycle 3.
+claim,C3-R4-05,C3,R4,,Established,new,,New in Cycle 3.
+claim,C0v2-R5-01,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-02,C3,R5,Established,Established,updated (label unchanged),,Petersen & Posner 2012 now read in full text (X03): the three-network framework is confirmed. Source X03 and its phrase added.
+claim,C0v2-R5-03,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-04,C3,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R5-05,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-06,C3,R5,Established,Established,unchanged,,Casali et al. 2013 now read in full text (X05; C3-R5-04).
+claim,C0v2-R5-07,C3,R5,Hypothetical,Hypothetical,updated (label unchanged),,Full text now read (X02): the 'just below criticality' wording is confirmed in the full text; label unchanged (Hypothetical). Source X02 and its phrase added.
+claim,C0v2-R5-08,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-09,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-10,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-11,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-12,C3,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R5-01,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-02,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R5-03,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-04,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-05,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-01,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R5-02,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R5-03,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-04,C3,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-05,C3,R5,Established,Established,unchanged,,"Reinterpreted in Cycle 3 (label and status unchanged): with a perturbation scaled to network size the peak is robust (C3-R5-05), so the Cycle-2 non-robustness was a design artefact."
+claim,C2-R5-06,C3,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R5-01,C3,R5,,Plausible,new,,New in Cycle 3.
+claim,C3-R5-02,C3,R5,,Plausible,new,,New in Cycle 3.
+claim,C3-R5-03,C3,R5,,Established,new,,New in Cycle 3.
+claim,C3-R5-04,C3,R5,,Established,new,,New in Cycle 3.
+claim,C3-R5-05,C3,R5,,Established,new,,New in Cycle 3.
+claim,C3-R5-06,C3,R5,,Established,new,,New in Cycle 3.
+claim,C3-R5-07,C3,R5,,Plausible,new,,New in Cycle 3.
+claim,C3-R5-08,C3,R5,,Plausible,new,,New in Cycle 3.
+claim,C3-R5-09,C3,R5,,Established,new,,New in Cycle 3.
+claim,C0v2-R6-01,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-02,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-03,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-04,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-05,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-06,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-07,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-08,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-09,C3,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R6-10,C3,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R6-11,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-12,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-13,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-14,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-15,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-16,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-17,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-18,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-19,C3,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R6-01,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-02,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-03,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-04,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-05,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-06,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-07,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-08,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-09,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-01,C3,R6,Established,Established,unchanged,,Confirmed qualitatively in published equations (C3-R6-05); W03 still abstract only.
+claim,C2-R6-02,C3,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R6-03,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-04,C3,R6,Established,Established,unchanged,,Extended in Cycle 3 from published equations (W01): Table 1 reproduced (C3-R6-04); unbounded adaptation removes regulation (C3-R6-05).
+claim,C2-R6-05,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-06,C3,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R6-01,C3,R6,,Plausible,new,,New in Cycle 3.
+claim,C3-R6-02,C3,R6,,Plausible,new,,New in Cycle 3.
+claim,C3-R6-03,C3,R6,,Plausible,new,,New in Cycle 3.
+claim,C3-R6-04,C3,R6,,Established,new,,New in Cycle 3.
+claim,C3-R6-05,C3,R6,,Established,new,,New in Cycle 3.
+claim,C0v2-R7-01,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R7-02,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-03,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-04,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-05,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-06,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-07,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R7-01,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R7-02,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R7-03,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-01,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-02,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-03,C3,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R7-01,C3,R7,,Established,new,,New in Cycle 3.
+claim,C3-R7-02,C3,R7,,Established,new,,New in Cycle 3.
+claim,C3-R7-03,C3,R7,,Established,new,,New in Cycle 3.
+claim,C3-R7-04,C3,R7,,Established,new,,New in Cycle 3.
+claim,C0v2-R1-01,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-02,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-03,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-04,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-05,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-06,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-07,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-08,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-09,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-10,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-11,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-12,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-13,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R1-14,C4,R1,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R1-15,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R1-16,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-01,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-02,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-03,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R1-04,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-01,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-02,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R1-03,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-04,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-05,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R1-06,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R1-01,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R1-02,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R1-03,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R1-04,C4,R1,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R1-05,C4,R1,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R1-06,C4,R1,Established,Established,unchanged,,Cycle 4 removed the whole-day quantisation with a continuous metric: still 1 of 144 coarse settings (C4-R1-01); fragility persists (C4-R1-02).
+claim,C3-R1-07,C4,R1,Established,Established,unchanged,,Cycle 4 confirms the decay-deceleration prediction with the continuous selection (0.20x vs 0.69x; C4-R1-03).
+claim,C3-R1-08,C4,R1,Established,Established,unchanged,,Cycle 4 repeated the robustness tests with the continuous metric: still fragile (8/20 and 4/20 seeds; +-20% range 2.38-11.31; C4-R1-02).
+claim,C4-R1-01,C4,R1,,Established,new,,New in Cycle 4.
+claim,C4-R1-02,C4,R1,,Established,new,,New in Cycle 4.
+claim,C4-R1-03,C4,R1,,Established,new,,New in Cycle 4.
+claim,C0v2-R2-01,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-02,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-03,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-04,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-05,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-06,C4,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R2-07,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-08,C4,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R2-09,C4,R2,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R2-10,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R2-11,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-12,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R2-13,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-01,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-02,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-03,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-04,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R2-05,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-06,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R2-07,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R2-01,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R2-02,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R2-03,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R2-01,C4,R2,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R2-02,C4,R2,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R2-03,C4,R2,Established,Established,unchanged,,"Cycle 4 adds a limit: if PH associability recovers during the delay, PH also shows a delay effect (C4-R2-04)."
+claim,C3-R2-04,C4,R2,Established,Established,unchanged,,"Extended in Cycle 4 (ablations, power, mis-specified range; C4-R2-03) with a limit (C4-R2-04)."
+claim,C3-R2-05,C4,R2,Established,Established,unchanged,,Faithful Mackintosh (1975) rule still BLOCKED by access in Cycle 4 (Y05 abstract only; C4-R2-02); not re-tested.
+claim,C4-R2-01,C4,R2,,Plausible,new,,New in Cycle 4.
+claim,C4-R2-02,C4,R2,,Plausible,new,,New in Cycle 4.
+claim,C4-R2-03,C4,R2,,Established,new,,New in Cycle 4.
+claim,C4-R2-04,C4,R2,,Established,new,,New in Cycle 4.
+claim,C0v2-R3-01,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-02,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-03,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-04,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-05,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-06,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-07,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-08,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-09,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-10,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-11,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-12,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-13,C4,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-14,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R3-15,C4,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-16,C4,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-17,C4,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R3-18,C4,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R3-01,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-02,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-03,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-04,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R3-05,C4,R3,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Remains Indeterminate; Cycle 4 shows the partition is not stable even within coding A (attribute bootstrap ARI 0.44; C4-R3-01).
+claim,C2-R3-01,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R3-02,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R3-03,C4,R3,Established,Established,unchanged,,Consistent with Cycle 4: flipping uncertain cells gives mean ARI 0.34 (C4-R3-01).
+claim,C2-R3-04,C4,R3,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R3-05,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R3-01,C4,R3,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R3-02,C4,R3,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R3-03,C4,R3,Established,Established,unchanged,,"Consistent with Cycle 4 (C4-R3-01, C4-R3-02)."
+claim,C4-R3-01,C4,R3,,Established,new,,New in Cycle 4.
+claim,C4-R3-02,C4,R3,,Established,new,,New in Cycle 4.
+claim,C0v2-R4-01,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-02,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-03,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-04,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-05,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-06,C4,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R4-07,C4,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R4-08,C4,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-09,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-10,C4,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-11,C4,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R4-12,C4,R4,Established,Established,unchanged,,Cycle 4 adds negative-control design analysis (C4-R4-01 to C4-R4-04): such controls detect strong but not weak confounding at typical cohort sizes; no real negative-control study of attendance was read.
+claim,C0v2-R4-13,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R4-14,C4,R4,Hypothetical,Hypothetical,unchanged,,Carried unchanged.
+claim,C0v2-R4-15,C4,R4,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R4-01,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-02,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-03,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-04,C4,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-05,C4,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R4-06,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-07,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-08,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R4-09,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-01,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-02,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-03,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-04,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-05,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R4-06,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R4-01,C4,R4,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R4-02,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R4-03,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R4-04,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R4-05,C4,R4,Established,Established,unchanged,,Carried unchanged.
+claim,C4-R4-01,C4,R4,,Established,new,,New in Cycle 4.
+claim,C4-R4-02,C4,R4,,Established,new,,New in Cycle 4.
+claim,C4-R4-03,C4,R4,,Established,new,,New in Cycle 4.
+claim,C4-R4-04,C4,R4,,Established,new,,New in Cycle 4.
+claim,C0v2-R5-01,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-02,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-03,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-04,C4,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R5-05,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-06,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-07,C4,R5,Hypothetical,Hypothetical,unchanged,,"Context added in Cycle 4: Y01/Y02 report reverberating, slightly subcritical dynamics in animal spike data (C4-R5-02). This claim concerns psychedelic states (entropic brain); label unchanged (Hypothetical)."
+claim,C0v2-R5-08,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-09,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R5-10,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-11,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R5-12,C4,R5,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R5-01,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-02,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R5-03,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-04,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R5-05,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-01,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R5-02,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R5-03,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-04,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-05,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R5-06,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R5-01,C4,R5,Plausible,Plausible,unchanged,,"Caution from Cycle 4: in MR estimates, non-stationary input can mimic near-criticality (C4-R5-05)."
+claim,C3-R5-02,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R5-03,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R5-04,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R5-05,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R5-06,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R5-07,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R5-08,C4,R5,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R5-09,C4,R5,Established,Established,unchanged,,Carried unchanged.
+claim,C4-R5-01,C4,R5,,Established,new,,New in Cycle 4.
+claim,C4-R5-02,C4,R5,,Plausible,new,,New in Cycle 4.
+claim,C4-R5-03,C4,R5,,Established,new,,New in Cycle 4.
+claim,C4-R5-04,C4,R5,,Established,new,,New in Cycle 4.
+claim,C4-R5-05,C4,R5,,Established,new,,New in Cycle 4.
+claim,C0v2-R6-01,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-02,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-03,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-04,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-05,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-06,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-07,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-08,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-09,C4,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R6-10,C4,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R6-11,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-12,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-13,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-14,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-15,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-16,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-17,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R6-18,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C0v2-R6-19,C4,R6,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R6-01,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-02,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-03,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-04,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-05,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C1-R6-06,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-07,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-08,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R6-09,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-01,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-02,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C2-R6-03,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-04,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-05,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R6-06,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R6-01,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R6-02,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R6-03,C4,R6,Plausible,Plausible,unchanged,,Carried unchanged.
+claim,C3-R6-04,C4,R6,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R6-05,C4,R6,Established,Established,unchanged,,"Extended in Cycle 4 over a wider forcing range: our constrained variant reaches L_max 1.77, still short of the published 2.32 (C4-R6-01); W03 still closed."
+claim,C4-R6-01,C4,R6,,Established,new,,New in Cycle 4.
+claim,C4-R6-02,C4,R6,,Established,new,,New in Cycle 4.
+claim,C0v2-R7-01,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C0v2-R7-02,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-03,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-04,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-05,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-06,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C0v2-R7-07,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R7-01,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,Carried unchanged.
+claim,C1-R7-02,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C1-R7-03,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-01,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-02,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C2-R7-03,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R7-01,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R7-02,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R7-03,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C3-R7-04,C4,R7,Established,Established,unchanged,,Carried unchanged.
+claim,C4-R7-01,C4,R7,,Established,new,,New in Cycle 4.
+claim,C4-R7-02,C4,R7,,Established,new,,New in Cycle 4.
+claim,C4-R7-03,C4,R7,,Established,new,,New in Cycle 4.
+link,L01,C1,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained as analogy only. Under pressure: Daisyworld regulation held in only 63% of parameter settings (C1-R6-07), whereas the body-side toy regulation was robust."
+link,L02,C1,R7,Plausible,Plausible,updated (label unchanged),,Strengthened by Cycle-1 critiques (V23-V25); no rejection trigger.
+link,L03,C1,R7,Established,Established,re-assessed (label unchanged),,Basis upgraded to full text; Established retained.
+link,L04,C1,R7,Established,Established,re-assessed (label unchanged),,Unchanged.
+link,L05,C1,R7,Plausible,Plausible,re-assessed (label unchanged),,Under pressure in the toy: the anticipatory benefit was not robust to parameter perturbation (T3 not supported).
+link,L06,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged.
+link,L07,C1,R7,Plausible,Plausible,updated (label unchanged),,Basis now contested by V35; label Plausible retained.
+link,L08,C1,R7,Established,Established,updated (label unchanged),,The conceptual distinction is retained as Established; whether phenomenal consciousness exists without access is the contested question (C1-R5-02).
+link,L09,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged label; widened.
+link,L10,C1,R7,Established,Established,re-assessed (label unchanged),,Widened with a Jain row; Established retained (lexical/textual).
+link,L11,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Supported: no attribute is shared by all 15 conceptions; typology itself is not robust.
+link,L12,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged.
+link,L13,C1,R7,Established,Established,updated (label unchanged),,Widened: 10 of 15 coded conceptions extend soul/life-principle beyond humans.
+link,L14,C1,R7,Plausible,Plausible,updated (label unchanged),,Association better supported (full text); the Swedish cohort points to social participation as a pathway or confounder.
+link,L15,C1,R7,Hypothetical,Hypothetical,updated (label unchanged),,Still Hypothetical: quasi-causal designs point the same way but can be biased (C1-R4-09); V16 read as abstract only.
+link,L16,C1,R7,Established,Established,re-assessed (label unchanged),,Reinforced.
+link,L17,C1,R7,Established,Established,re-assessed (label unchanged),,Basis upgraded to full text; Established retained.
+link,L18,C1,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Unchanged (Hypothetical).
+link,L19,C1,R7,Established,Established,re-assessed (label unchanged),,Dependency retained: free decay is far shorter than the field record across the whole disputed conductivity range (G2 supported).
+link,L20,C1,R7,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible: basis C0v2-R6-04 is abstract-only under the Cycle-1 rule.
+link,L21,C1,R7,Plausible,Plausible,updated (label unchanged),,The strong-Gaia side is under pressure in Cycle 1: toy regulation is parameter-dependent and erodes under unbounded adaptation; critiques find no selection mechanism.
+link,L22,C1,R7,Established,Established,re-assessed (label unchanged),,Basis upgraded; Established retained for the boundary framework statement.
+link,L23,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged (metaphor).
+link,L24,C1,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged: all items remain open.
+link,L01,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained as analogy only. The body and Daisyworld toys share the adaptation-vs-regulation pattern (PA1), partly by design; the trade-off is a published Daisyworld result (W01-W03)."
+link,L02,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged in substance; Cycle-2 literature adds that Daisyworld regulation depends on constraints on adaptation.
+link,L03,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L04,C2,R7,Established,Plausible,weakened (label downgraded),,"Downgraded Established -> Plausible by the pre-registered strict rule (basis includes C0v2-R2-09, Philosophical/Spiritual). Procedural: the dependency is not weakened by new evidence."
+link,L05,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Mixed in the toys: learned anticipation helps (C2-R1-03) but carries a false-cue cost that no bound removed (C2-R1-05). Label unchanged.
+link,L06,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L07,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,"Unchanged; complexity markers are relevant context but do not test this link, and W15 reports a dissociation between consciousness and EEG complexity."
+link,L08,C2,R7,Established,Plausible,weakened (label downgraded),,Downgraded Established -> Plausible by the strict rule (basis C1-R5-02 is Plausible). Procedural.
+link,L09,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L10,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L11,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Typology-based support weakened: the typology tolerates only ~4 random cell flips (C2-R3-03). The distinction itself rests on descriptive claims and is kept.
+link,L12,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L13,C2,R7,Established,Established,re-assessed (label unchanged),,"Retained. Note: counts of conceptions come from a coding with re-coding kappa 0.79 and 56% source-silent cells (C2-R3-01, C2-R3-02)."
+link,L14,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Mediation estimates added (C2-R4-01); simulations show they move with unmeasured confounding (C2-R4-05). Label unchanged.
+link,L15,C2,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Still Hypothetical: mediation shares cannot be added up (C2-R4-04) and depend on scale and confounding.
+link,L16,C2,R7,Established,Plausible,weakened (label downgraded),,"Downgraded Established -> Plausible by the strict rule (basis includes C0v2-R4-15, Philosophical/Spiritual, and C0v2-R4-11, Plausible). Procedural: the separation of spiritual interpretation from well-being data is unchanged."
+link,L17,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L18,C2,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L19,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L20,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged label; Daisyworld still has no biological implementation (C2-R6-03).
+link,L21,C2,R7,Plausible,Plausible,re-assessed (label unchanged),,Strong-Gaia side under continued pressure: regulation depends on constraints on adaptation (literature and toy); our toy did not reproduce the rate dependence or the mutation benefit.
+link,L22,C2,R7,Established,Established,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L23,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L24,C2,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,Unchanged in Cycle 2.
+link,L01,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained as analogy only. Daisyworld from published equations reproduces W01 and shows unbounded adaptation removes regulation; the body-side two-timescale memory is a different mechanism (learning), so the parallel is structural, not mechanistic."
+link,L02,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,"Under pressure but not rejected: X15 argues for selection among ecosystems/nutrient cycles (a proposal, not a demonstrated planetary-scale selection mechanism)."
+link,L03,C3,R7,Established,Established,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L04,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L05,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,Strengthened modestly by a small systematic review (X20); remains Plausible.
+link,L06,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L07,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged.
+link,L08,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L09,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L10,C3,R7,Established,Established,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L11,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L12,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,"Unchanged (Philosophical/Spiritual): reports of leaving the body describe experiences, not their cause."
+link,L13,C3,R7,Established,Established,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L14,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained Plausible. E-value ~2.0-2.35; a Swedish cohort's association disappears after adjusting for social participation, which cannot be read as confounding vs mediation from attenuation alone."
+link,L15,C3,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Remains Hypothetical: an extreme residual 'healthy attender' scenario alone could explain the association.
+link,L16,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L17,C3,R7,Established,Established,re-assessed (label unchanged),,Strengthened: full text of the original PCI paper and a rodent validation.
+link,L18,C3,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,"Unchanged (Hypothetical); criticality-PCI link reported empirically for anaesthesia (X12), not for spiritual states."
+link,L19,C3,R7,Established,Established,re-assessed (label unchanged),,"Basis unchanged; core conductivity and inner-core age are contested (X17 vs S29), which affects the timing, not the dependency."
+link,L20,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L21,C3,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged in substance.
+link,L22,C3,R7,Established,Established,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L23,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L24,C3,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-3 evidence targeted this link.
+link,L25,C3,R7,,Plausible,new,,New in Cycle 3.
+link,L26,C3,R7,,Hypothetical,new,,New in Cycle 3.
+link,L27,C3,R7,,Philosophical/Spiritual,new,,New in Cycle 3.
+link,L01,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,Retained as analogy only. Body side: the two-state memory stays fragile with a continuous metric; Earth side: constrained adaptation regulates less well than the original over a wider range and depends on our cost form.
+link,L02,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L03,C4,R7,Established,Established,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L04,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L05,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L06,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L07,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,"Unchanged (Plausible); new criticality evidence concerns network dynamics, not prediction-error processing."
+link,L08,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L09,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L10,C4,R7,Established,Established,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L11,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L12,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L13,C4,R7,Established,Established,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L14,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,"Retained Plausible. Negative controls could test the confounding explanation, but in our synthetic cohorts they detect strong confounding only; weak confounding (spurious OR ~0.9-0.97) goes undetected at 10,000-100,000. No negative-control study of attendance was read."
+link,L15,C4,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,Remains Hypothetical: a negative control that finds nothing would not show the association is causal.
+link,L16,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L17,C4,R7,Established,Established,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L18,C4,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,"Unchanged (Hypothetical): slightly subcritical dynamics are reported in animal spike data, not in altered or spiritual states; non-stationary input can mimic near-criticality."
+link,L19,C4,R7,Established,Established,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L20,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L21,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,Unchanged in substance; constrained-adaptation regulation depends on an assumed cost form.
+link,L22,C4,R7,Established,Established,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L23,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L24,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L25,C4,R7,Plausible,Plausible,re-assessed (label unchanged),,"Unchanged (Plausible). Context: genetic-instrument evidence that loneliness and depression influence each other (a mental-side pathway, see L28); L25's body-survival association itself was not re-tested."
+link,L26,C4,R7,Hypothetical,Hypothetical,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L27,C4,R7,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,No Cycle-4 evidence targeted this link.
+link,L28,C4,R7,,Plausible,new,,New in Cycle 4.
+claim,TA-SOUL-01,TA,Track SOUL,,Plausible,new (first track cycle),,new
+claim,TA-SOUL-02,TA,Track SOUL,,Established,new (first track cycle),,new
+claim,TA-SOUL-03,TA,Track SOUL,,Plausible,new (first track cycle),,new
+claim,TA-SOUL-04,TA,Track SOUL,,Established,new (first track cycle),,new
+claim,TA-SOUL-05,TA,Track SOUL,,Established,new (first track cycle),,new
+claim,TA-SOUL-06,TA,Track SOUL,,Established,new (first track cycle),,new
+claim,TA-SOUL-07,TA,Track SOUL,,Established,new (first track cycle),,new
+claim,TA-SOUL-08,TA,Track SOUL,,Established,new (first track cycle),,new
+claim,TA-SOUL-09,TA,Track SOUL,,Philosophical/Spiritual,new (first track cycle),,new
+claim,TA-SOUL-10,TA,Track SOUL,,Philosophical/Spiritual,new (first track cycle),,new
+claim,TA-SPIRIT-01,TA,Track SPIRIT,,Established,new (first track cycle),,new
+claim,TA-SPIRIT-02,TA,Track SPIRIT,,Established,new (first track cycle),,new
+claim,TA-SPIRIT-03,TA,Track SPIRIT,,Established,new (first track cycle),,new
+claim,TA-SPIRIT-04,TA,Track SPIRIT,,Plausible,new (first track cycle),,new
+claim,TA-SPIRIT-05,TA,Track SPIRIT,,Established,new (first track cycle),,new
+claim,TA-SPIRIT-06,TA,Track SPIRIT,,Established,new (first track cycle),,new
+claim,TA-SPIRIT-07,TA,Track SPIRIT,,Philosophical/Spiritual,new (first track cycle),,new
+claim,TA-SPIRIT-08,TA,Track SPIRIT,,Hypothetical,new (first track cycle),,new
+claim,TA-SUBC-01,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-02,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-03,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-04,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-05,TA,Track SUBC,,Hypothetical,new (first track cycle),,new
+claim,TA-SUBC-06,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-07,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-08,TA,Track SUBC,,Plausible,new (first track cycle),,new
+claim,TA-SUBC-09,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-10,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-11,TA,Track SUBC,,Established,new (first track cycle),,new
+claim,TA-SUBC-12,TA,Track SUBC,,Philosophical/Spiritual,new (first track cycle),,new
+claim,TA-CONS-01,TA,Track CONS,,Established,new (first track cycle),,new
+claim,TA-CONS-02,TA,Track CONS,,Established,new (first track cycle),,new
+claim,TA-CONS-03,TA,Track CONS,,Plausible,new (first track cycle),,new
+claim,TA-CONS-04,TA,Track CONS,,Established,new (first track cycle),,new
+claim,TA-CONS-05,TA,Track CONS,,Established,new (first track cycle),,new
+claim,TA-CONS-06,TA,Track CONS,,Philosophical/Spiritual,new (first track cycle),,new
+claim,TA-CONS-07,TA,Track CONS,,Philosophical/Spiritual,new (first track cycle),,new
+claim,TB-SOUL-01,TB,Track SOUL,Plausible,Plausible,unchanged,,carried from TA-SOUL-01 unchanged
+claim,TB-SOUL-02,TB,Track SOUL,Established,Established,unchanged,,carried from TA-SOUL-02 unchanged
+claim,TB-SOUL-03,TB,Track SOUL,Plausible,Plausible,unchanged,,carried from TA-SOUL-03 unchanged
+claim,TB-SOUL-04,TB,Track SOUL,Established,Established,unchanged,,carried from TA-SOUL-04 unchanged
+claim,TB-SOUL-05,TB,Track SOUL,Established,Established,unchanged,,carried from TA-SOUL-05 unchanged
+claim,TB-SOUL-06,TB,Track SOUL,Established,Established,unchanged,,carried from TA-SOUL-06 unchanged
+claim,TB-SOUL-07,TB,Track SOUL,Established,Established,unchanged,,carried from TA-SOUL-07 unchanged
+claim,TB-SOUL-08,TB,Track SOUL,Established,Established,unchanged,,carried from TA-SOUL-08 unchanged
+claim,TB-SOUL-09,TB,Track SOUL,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TA-SOUL-09 unchanged
+claim,TB-SOUL-10,TB,Track SOUL,Philosophical/Spiritual,Philosophical/Spiritual,updated (label unchanged),,carried from TA-SOUL-10; boundary statement extended to Cycle B
+claim,TB-SOUL-11,TB,Track SOUL,,Plausible,new,,new
+claim,TB-SOUL-12,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-13,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-14,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-15,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-16,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-17,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-18,TB,Track SOUL,,Established,new,,new
+claim,TB-SOUL-19,TB,Track SOUL,,Hypothetical,new,,new
+claim,TB-SPIRIT-01,TB,Track SPIRIT,Established,Established,unchanged,,carried from TA-SPIRIT-01 unchanged
+claim,TB-SPIRIT-02,TB,Track SPIRIT,Established,Established,unchanged,,carried from TA-SPIRIT-02 unchanged
+claim,TB-SPIRIT-03,TB,Track SPIRIT,Established,Established,unchanged,,carried from TA-SPIRIT-03 unchanged
+claim,TB-SPIRIT-04,TB,Track SPIRIT,Plausible,Plausible,unchanged,,carried from TA-SPIRIT-04 unchanged
+claim,TB-SPIRIT-05,TB,Track SPIRIT,Established,Established,unchanged,,carried from TA-SPIRIT-05 unchanged
+claim,TB-SPIRIT-06,TB,Track SPIRIT,Established,Established,unchanged,,carried from TA-SPIRIT-06 unchanged
+claim,TB-SPIRIT-07,TB,Track SPIRIT,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TA-SPIRIT-07 unchanged
+claim,TB-SPIRIT-08,TB,Track SPIRIT,Hypothetical,Hypothetical,unchanged,,carried from TA-SPIRIT-08 unchanged
+claim,TB-SPIRIT-09,TB,Track SPIRIT,,Established,new,,new
+claim,TB-SPIRIT-10,TB,Track SPIRIT,,Established,new,,new
+claim,TB-SPIRIT-11,TB,Track SPIRIT,,Established,new,,new
+claim,TB-SPIRIT-12,TB,Track SPIRIT,,Established,new,,new
+claim,TB-SPIRIT-13,TB,Track SPIRIT,,Established,new,,new
+claim,TB-SPIRIT-14,TB,Track SPIRIT,,Plausible,new,,new
+claim,TB-SPIRIT-15,TB,Track SPIRIT,,Established,new,,new
+claim,TB-SPIRIT-16,TB,Track SPIRIT,,Philosophical/Spiritual,new,,new
+claim,TB-SUBC-01,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-01 unchanged
+claim,TB-SUBC-02,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-02 unchanged
+claim,TB-SUBC-03,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-03 unchanged
+claim,TB-SUBC-04,TB,Track SUBC,Established,Established,updated (label unchanged),,"revised: replaces the flawed Cycle A result (TA-SUBC-04, design artefact) with the corrected model"
+claim,TB-SUBC-05,TB,Track SUBC,Hypothetical,Hypothetical,unchanged,,carried from TA-SUBC-05 unchanged
+claim,TB-SUBC-06,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-06 unchanged
+claim,TB-SUBC-07,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-07 unchanged
+claim,TB-SUBC-08,TB,Track SUBC,Plausible,Plausible,unchanged,,carried from TA-SUBC-08 unchanged
+claim,TB-SUBC-09,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-09 unchanged
+claim,TB-SUBC-10,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-10 unchanged
+claim,TB-SUBC-11,TB,Track SUBC,Established,Established,unchanged,,carried from TA-SUBC-11 unchanged
+claim,TB-SUBC-12,TB,Track SUBC,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TA-SUBC-12 unchanged
+claim,TB-SUBC-13,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-14,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-15,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-16,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-17,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-18,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-19,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-20,TB,Track SUBC,,Established,new,,new
+claim,TB-SUBC-21,TB,Track SUBC,,Philosophical/Spiritual,new,,new
+claim,TB-CONS-01,TB,Track CONS,Established,Established,unchanged,,carried from TA-CONS-01 unchanged
+claim,TB-CONS-02,TB,Track CONS,Established,Established,unchanged,,carried from TA-CONS-02 unchanged
+claim,TB-CONS-03,TB,Track CONS,Plausible,Plausible,unchanged,,carried from TA-CONS-03 unchanged
+claim,TB-CONS-04,TB,Track CONS,Established,Established,unchanged,,carried from TA-CONS-04 unchanged
+claim,TB-CONS-05,TB,Track CONS,Established,Established,unchanged,,carried from TA-CONS-05 unchanged
+claim,TB-CONS-06,TB,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TA-CONS-06 unchanged
+claim,TB-CONS-07,TB,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,updated (label unchanged),,carried from TA-CONS-07; boundary statement extended to Cycle B
+claim,TB-CONS-08,TB,Track CONS,,Established,new,,new
+claim,TB-CONS-09,TB,Track CONS,,Plausible,new,,new
+claim,TB-CONS-10,TB,Track CONS,,Philosophical/Spiritual,new,,new
+claim,TB-CONS-11,TB,Track CONS,,Established,new,,new
+claim,TB-CONS-12,TB,Track CONS,,Plausible,new,,new
+claim,TB-CONS-13,TB,Track CONS,,Established,new,,new
+claim,TB-CONS-14,TB,Track CONS,,Plausible,new,,new
+claim,TB-CONS-15,TB,Track CONS,,Established,new,,new
+claim,TB-CONS-16,TB,Track CONS,,Philosophical/Spiritual,new,,new
+claim,TC-SOUL-01,TC,Track SOUL,Plausible,Plausible,unchanged,,carried from TB-SOUL-01 unchanged
+claim,TC-SOUL-02,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-02 unchanged
+claim,TC-SOUL-03,TC,Track SOUL,Plausible,Plausible,unchanged,,carried from TB-SOUL-03 unchanged
+claim,TC-SOUL-04,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-04 unchanged
+claim,TC-SOUL-05,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-05 unchanged
+claim,TC-SOUL-06,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-06 unchanged
+claim,TC-SOUL-07,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-07 unchanged
+claim,TC-SOUL-08,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-08 unchanged
+claim,TC-SOUL-09,TC,Track SOUL,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-SOUL-09 unchanged
+claim,TC-SOUL-10,TC,Track SOUL,Philosophical/Spiritual,Philosophical/Spiritual,updated (label unchanged),,carried from TB-SOUL-10; boundary statement extended to Cycle C
+claim,TC-SOUL-11,TC,Track SOUL,Plausible,Plausible,unchanged,,carried from TB-SOUL-11 unchanged
+claim,TC-SOUL-12,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-12 unchanged
+claim,TC-SOUL-13,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-13 unchanged
+claim,TC-SOUL-14,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-14 unchanged
+claim,TC-SOUL-15,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-15 unchanged
+claim,TC-SOUL-16,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-16 unchanged
+claim,TC-SOUL-17,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-17 unchanged
+claim,TC-SOUL-18,TC,Track SOUL,Established,Established,unchanged,,carried from TB-SOUL-18 unchanged
+claim,TC-SOUL-19,TC,Track SOUL,Hypothetical,Hypothetical,unchanged,,carried from TB-SOUL-19 unchanged
+claim,TC-SOUL-20,TC,Track SOUL,,Plausible,new,,new
+claim,TC-SOUL-21,TC,Track SOUL,,Hypothetical,new,,new
+claim,TC-SOUL-22,TC,Track SOUL,,Plausible,new,,new
+claim,TC-SOUL-23,TC,Track SOUL,,Established,new,,new
+claim,TC-SOUL-24,TC,Track SOUL,,Plausible,new,,new
+claim,TC-SOUL-25,TC,Track SOUL,,Established,new,,new
+claim,TC-SOUL-26,TC,Track SOUL,,Established,new,,new
+claim,TC-SPIRIT-01,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-01 unchanged
+claim,TC-SPIRIT-02,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-02 unchanged
+claim,TC-SPIRIT-03,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-03 unchanged
+claim,TC-SPIRIT-04,TC,Track SPIRIT,Plausible,Plausible,unchanged,,carried from TB-SPIRIT-04 unchanged
+claim,TC-SPIRIT-05,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-05 unchanged
+claim,TC-SPIRIT-06,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-06 unchanged
+claim,TC-SPIRIT-07,TC,Track SPIRIT,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-SPIRIT-07 unchanged
+claim,TC-SPIRIT-08,TC,Track SPIRIT,Hypothetical,Hypothetical,unchanged,,carried from TB-SPIRIT-08 unchanged
+claim,TC-SPIRIT-09,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-09 unchanged
+claim,TC-SPIRIT-10,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-10 unchanged
+claim,TC-SPIRIT-11,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-11 unchanged
+claim,TC-SPIRIT-12,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-12 unchanged
+claim,TC-SPIRIT-13,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-13 unchanged
+claim,TC-SPIRIT-14,TC,Track SPIRIT,Plausible,Plausible,unchanged,,carried from TB-SPIRIT-14 unchanged
+claim,TC-SPIRIT-15,TC,Track SPIRIT,Established,Established,unchanged,,carried from TB-SPIRIT-15 unchanged
+claim,TC-SPIRIT-16,TC,Track SPIRIT,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-SPIRIT-16 unchanged
+claim,TC-SPIRIT-17,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-18,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-19,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-20,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-21,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-22,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-23,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SPIRIT-24,TC,Track SPIRIT,,Established,new,,new
+claim,TC-SUBC-01,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-01 unchanged
+claim,TC-SUBC-02,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-02 unchanged
+claim,TC-SUBC-03,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-03 unchanged
+claim,TC-SUBC-04,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-04 unchanged
+claim,TC-SUBC-05,TC,Track SUBC,Hypothetical,Hypothetical,unchanged,,carried from TB-SUBC-05 unchanged
+claim,TC-SUBC-06,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-06 unchanged
+claim,TC-SUBC-07,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-07 unchanged
+claim,TC-SUBC-08,TC,Track SUBC,Plausible,Plausible,unchanged,,carried from TB-SUBC-08 unchanged
+claim,TC-SUBC-09,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-09 unchanged
+claim,TC-SUBC-10,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-10 unchanged
+claim,TC-SUBC-11,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-11 unchanged
+claim,TC-SUBC-12,TC,Track SUBC,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-SUBC-12 unchanged
+claim,TC-SUBC-13,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-13 unchanged
+claim,TC-SUBC-14,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-14 unchanged
+claim,TC-SUBC-15,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-15 unchanged
+claim,TC-SUBC-16,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-16 unchanged
+claim,TC-SUBC-17,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-17 unchanged
+claim,TC-SUBC-18,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-18 unchanged
+claim,TC-SUBC-19,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-19 unchanged
+claim,TC-SUBC-20,TC,Track SUBC,Established,Established,unchanged,,carried from TB-SUBC-20 unchanged
+claim,TC-SUBC-21,TC,Track SUBC,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-SUBC-21 unchanged
+claim,TC-SUBC-24,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-25,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-26,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-27,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-28,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-29,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-30,TC,Track SUBC,,Hypothetical,new,,new
+claim,TC-SUBC-31,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-32,TC,Track SUBC,,Established,new,,new
+claim,TC-SUBC-33,TC,Track SUBC,,Plausible,new,,new
+claim,TC-CONS-01,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-01 unchanged
+claim,TC-CONS-02,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-02 unchanged
+claim,TC-CONS-03,TC,Track CONS,Plausible,Plausible,unchanged,,carried from TB-CONS-03 unchanged
+claim,TC-CONS-04,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-04 unchanged
+claim,TC-CONS-05,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-05 unchanged
+claim,TC-CONS-06,TC,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-CONS-06 unchanged
+claim,TC-CONS-07,TC,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,updated (label unchanged),,"revised from TB-CONS-07: boundary statement extended to Cycle C and to K42 (primary adversarial-collaboration paper, read this cycle)"
+claim,TC-CONS-08,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-08 unchanged
+claim,TC-CONS-09,TC,Track CONS,Plausible,Plausible,unchanged,,carried from TB-CONS-09 unchanged
+claim,TC-CONS-10,TC,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-CONS-10 unchanged
+claim,TC-CONS-11,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-11 unchanged
+claim,TC-CONS-12,TC,Track CONS,Plausible,Plausible,unchanged,,carried from TB-CONS-12 unchanged
+claim,TC-CONS-13,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-13 unchanged
+claim,TC-CONS-14,TC,Track CONS,Plausible,Plausible,unchanged,,carried from TB-CONS-14 unchanged
+claim,TC-CONS-15,TC,Track CONS,Established,Established,unchanged,,carried from TB-CONS-15 unchanged
+claim,TC-CONS-16,TC,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TB-CONS-16 unchanged
+claim,TC-CONS-17,TC,Track CONS,,Established,new,,new
+claim,TC-CONS-18,TC,Track CONS,,Plausible,new,,new
+claim,TC-CONS-19,TC,Track CONS,,Established,new,,new
+claim,TC-CONS-20,TC,Track CONS,,Established,new,,new
+claim,TC-CONS-21,TC,Track CONS,,Established,new,,new
+claim,TC-CONS-22,TC,Track CONS,,Established,new,,new
+claim,TC-CONS-23,TC,Track CONS,,Plausible,new,,new
+claim,TC-CONS-24,TC,Track CONS,,Philosophical/Spiritual,new,,new
+claim,TD-SOUL-01,TD,Track SOUL,Plausible,Established,strengthened (label upgraded),,"revised from TC-SOUL-01: upgraded Plausible -> Established after reading the primary study (K61), which K01 had only described"
+claim,TD-SOUL-02,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-02 unchanged
+claim,TD-SOUL-03,TD,Track SOUL,Plausible,Plausible,unchanged,,carried from TC-SOUL-03 unchanged
+claim,TD-SOUL-04,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-04 unchanged
+claim,TD-SOUL-05,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-05 unchanged
+claim,TD-SOUL-06,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-06 unchanged
+claim,TD-SOUL-07,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-07 unchanged
+claim,TD-SOUL-08,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-08 unchanged
+claim,TD-SOUL-09,TD,Track SOUL,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-SOUL-09 unchanged
+claim,TD-SOUL-10,TD,Track SOUL,Philosophical/Spiritual,Philosophical/Spiritual,updated (label unchanged),,carried from TC-SOUL-10; boundary statement extended to Cycle D
+claim,TD-SOUL-11,TD,Track SOUL,Plausible,Plausible,unchanged,,carried from TC-SOUL-11 unchanged
+claim,TD-SOUL-12,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-12 unchanged
+claim,TD-SOUL-13,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-13 unchanged
+claim,TD-SOUL-14,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-14 unchanged
+claim,TD-SOUL-15,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-15 unchanged
+claim,TD-SOUL-16,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-16 unchanged
+claim,TD-SOUL-17,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-17 unchanged
+claim,TD-SOUL-18,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-18 unchanged
+claim,TD-SOUL-19,TD,Track SOUL,Hypothetical,Hypothetical,unchanged,,carried from TC-SOUL-19 unchanged
+claim,TD-SOUL-20,TD,Track SOUL,Plausible,Plausible,unchanged,,carried from TC-SOUL-20 unchanged
+claim,TD-SOUL-21,TD,Track SOUL,Hypothetical,Hypothetical,unchanged,,carried from TC-SOUL-21 unchanged
+claim,TD-SOUL-22,TD,Track SOUL,Plausible,Plausible,unchanged,,carried from TC-SOUL-22 unchanged
+claim,TD-SOUL-23,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-23 unchanged
+claim,TD-SOUL-24,TD,Track SOUL,Plausible,Plausible,unchanged,,carried from TC-SOUL-24 unchanged
+claim,TD-SOUL-25,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-25 unchanged
+claim,TD-SOUL-26,TD,Track SOUL,Established,Established,unchanged,,carried from TC-SOUL-26 unchanged
+claim,TD-SOUL-27,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-28,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-29,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-30,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-31,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-32,TD,Track SOUL,,Plausible,new,,new
+claim,TD-SOUL-33,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-34,TD,Track SOUL,,Plausible,new,,new
+claim,TD-SOUL-35,TD,Track SOUL,,Established,new,,new
+claim,TD-SOUL-36,TD,Track SOUL,,Philosophical/Spiritual,new,,new
+claim,TD-SPIRIT-01,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-01 unchanged
+claim,TD-SPIRIT-02,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-02 unchanged
+claim,TD-SPIRIT-03,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-03 unchanged
+claim,TD-SPIRIT-04,TD,Track SPIRIT,Plausible,Plausible,unchanged,,carried from TC-SPIRIT-04 unchanged
+claim,TD-SPIRIT-05,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-05 unchanged
+claim,TD-SPIRIT-06,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-06 unchanged
+claim,TD-SPIRIT-07,TD,Track SPIRIT,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-SPIRIT-07 unchanged
+claim,TD-SPIRIT-08,TD,Track SPIRIT,Hypothetical,Hypothetical,unchanged,,carried from TC-SPIRIT-08 unchanged
+claim,TD-SPIRIT-09,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-09 unchanged
+claim,TD-SPIRIT-10,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-10 unchanged
+claim,TD-SPIRIT-11,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-11 unchanged
+claim,TD-SPIRIT-12,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-12 unchanged
+claim,TD-SPIRIT-13,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-13 unchanged
+claim,TD-SPIRIT-14,TD,Track SPIRIT,Plausible,Plausible,unchanged,,carried from TC-SPIRIT-14 unchanged
+claim,TD-SPIRIT-15,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-15 unchanged
+claim,TD-SPIRIT-16,TD,Track SPIRIT,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-SPIRIT-16 unchanged
+claim,TD-SPIRIT-17,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-17 unchanged
+claim,TD-SPIRIT-18,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-18 unchanged
+claim,TD-SPIRIT-19,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-19 unchanged
+claim,TD-SPIRIT-20,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-20 unchanged
+claim,TD-SPIRIT-21,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-21 unchanged
+claim,TD-SPIRIT-22,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-22 unchanged
+claim,TD-SPIRIT-23,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-23 unchanged
+claim,TD-SPIRIT-24,TD,Track SPIRIT,Established,Established,unchanged,,carried from TC-SPIRIT-24 unchanged
+claim,TD-SPIRIT-25,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-26,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-27,TD,Track SPIRIT,,Plausible,new,,new
+claim,TD-SPIRIT-28,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-29,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-30,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-31,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-32,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-33,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SPIRIT-34,TD,Track SPIRIT,,Established,new,,new
+claim,TD-SUBC-01,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-01 unchanged
+claim,TD-SUBC-02,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-02 unchanged
+claim,TD-SUBC-03,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-03 unchanged
+claim,TD-SUBC-04,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-04 unchanged
+claim,TD-SUBC-05,TD,Track SUBC,Hypothetical,Hypothetical,unchanged,,carried from TC-SUBC-05 unchanged
+claim,TD-SUBC-06,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-06 unchanged
+claim,TD-SUBC-07,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-07 unchanged
+claim,TD-SUBC-08,TD,Track SUBC,Plausible,Plausible,unchanged,,carried from TC-SUBC-08 unchanged
+claim,TD-SUBC-09,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-09 unchanged
+claim,TD-SUBC-10,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-10 unchanged
+claim,TD-SUBC-11,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-11 unchanged
+claim,TD-SUBC-12,TD,Track SUBC,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-SUBC-12 unchanged
+claim,TD-SUBC-13,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-13 unchanged
+claim,TD-SUBC-14,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-14 unchanged
+claim,TD-SUBC-15,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-15 unchanged
+claim,TD-SUBC-16,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-16 unchanged
+claim,TD-SUBC-17,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-17 unchanged
+claim,TD-SUBC-18,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-18 unchanged
+claim,TD-SUBC-19,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-19 unchanged
+claim,TD-SUBC-20,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-20 unchanged
+claim,TD-SUBC-21,TD,Track SUBC,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-SUBC-21 unchanged
+claim,TD-SUBC-24,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-24 unchanged
+claim,TD-SUBC-25,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-25 unchanged
+claim,TD-SUBC-26,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-26 unchanged
+claim,TD-SUBC-27,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-27 unchanged
+claim,TD-SUBC-28,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-28 unchanged
+claim,TD-SUBC-29,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-29 unchanged
+claim,TD-SUBC-30,TD,Track SUBC,Hypothetical,Hypothetical,unchanged,,carried from TC-SUBC-30 unchanged
+claim,TD-SUBC-31,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-31 unchanged
+claim,TD-SUBC-32,TD,Track SUBC,Established,Established,unchanged,,carried from TC-SUBC-32 unchanged
+claim,TD-SUBC-33,TD,Track SUBC,Plausible,Plausible,unchanged,,carried from TC-SUBC-33 unchanged
+claim,TD-SUBC-34,TD,Track SUBC,,Established,new,,new
+claim,TD-SUBC-35,TD,Track SUBC,,Established,new,,new
+claim,TD-SUBC-36,TD,Track SUBC,,Established,new,,new
+claim,TD-SUBC-37,TD,Track SUBC,,Established,new,,new
+claim,TD-SUBC-38,TD,Track SUBC,,Established,new,,new
+claim,TD-SUBC-39,TD,Track SUBC,,Plausible,new,,new
+claim,TD-CONS-01,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-01 unchanged
+claim,TD-CONS-02,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-02 unchanged
+claim,TD-CONS-03,TD,Track CONS,Plausible,Plausible,unchanged,,carried from TC-CONS-03 unchanged
+claim,TD-CONS-04,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-04 unchanged
+claim,TD-CONS-05,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-05 unchanged
+claim,TD-CONS-06,TD,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-CONS-06 unchanged
+claim,TD-CONS-07,TD,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,updated (label unchanged),,"carried from TC-CONS-07; boundary statement extended to Cycle D (K58, K59 add testability analysis and a new protocol, not a decision)"
+claim,TD-CONS-08,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-08 unchanged
+claim,TD-CONS-09,TD,Track CONS,Plausible,Plausible,unchanged,,carried from TC-CONS-09 unchanged
+claim,TD-CONS-10,TD,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-CONS-10 unchanged
+claim,TD-CONS-11,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-11 unchanged
+claim,TD-CONS-12,TD,Track CONS,Plausible,Plausible,unchanged,,carried from TC-CONS-12 unchanged
+claim,TD-CONS-13,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-13 unchanged
+claim,TD-CONS-14,TD,Track CONS,Plausible,Plausible,unchanged,,carried from TC-CONS-14 unchanged
+claim,TD-CONS-15,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-15 unchanged
+claim,TD-CONS-16,TD,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-CONS-16 unchanged
+claim,TD-CONS-17,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-17 unchanged
+claim,TD-CONS-18,TD,Track CONS,Plausible,Plausible,unchanged,,carried from TC-CONS-18 unchanged
+claim,TD-CONS-19,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-19 unchanged
+claim,TD-CONS-20,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-20 unchanged
+claim,TD-CONS-21,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-21 unchanged
+claim,TD-CONS-22,TD,Track CONS,Established,Established,unchanged,,carried from TC-CONS-22 unchanged
+claim,TD-CONS-23,TD,Track CONS,Plausible,Plausible,unchanged,,carried from TC-CONS-23 unchanged
+claim,TD-CONS-24,TD,Track CONS,Philosophical/Spiritual,Philosophical/Spiritual,unchanged,,carried from TC-CONS-24 unchanged
+claim,TD-CONS-25,TD,Track CONS,,Established,new,,new
+claim,TD-CONS-26,TD,Track CONS,,Established,new,,new
+claim,TD-CONS-27,TD,Track CONS,,Established,new,,new
+claim,TD-CONS-28,TD,Track CONS,,Plausible,new,,new
+claim,TD-CONS-29,TD,Track CONS,,Plausible,new,,new
+claim,TD-CONS-30,TD,Track CONS,,Established,new,,new
+claim,TD-CONS-31,TD,Track CONS,,Philosophical/Spiritual,new,,new
+claim,TD-CONS-32,TD,Track CONS,,Established,new,,new
+link,TL-01,TA,Track,,Established,new,,new
+link,TL-02,TA,Track,,Plausible,new,,new
+link,TL-03,TA,Track,,Established,new,,new
+link,TL-04,TA,Track,,Established,new,,new
+link,TL-05,TA,Track,,Established,new,,new
+link,TL-06,TA,Track,,Established,new,,new
+link,TL-07,TA,Track,,Plausible,new,,new
+link,TL-08,TA,Track,,Hypothetical,new,,new
+link,TL-09,TA,Track,,Hypothetical,new,,new
+link,TL-10,TA,Track,,Philosophical/Spiritual,new,,new
+link,TL-11,TA,Track,,Philosophical/Spiritual,new,,new
+link,TL-01,TB,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-02,TB,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-03,TB,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-04,TB,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-05,TB,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-06,TB,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-07,TB,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-08,TB,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-09,TB,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-10,TB,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-11,TB,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-12,TB,Track,,Established,new,,new
+link,TL-13,TB,Track,,Plausible,new,,new
+link,TL-14,TB,Track,,Established,new,,new
+link,TL-15,TB,Track,,Philosophical/Spiritual,new,,new
+link,TL-16,TB,Track,,Plausible,new,,new
+link,TL-17,TB,Track,,Established,new,,new
+link,TL-18,TB,Track,,Plausible,new,,new
+link,TL-01,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-02,TC,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-03,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-04,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-05,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-06,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-07,TC,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-08,TC,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-09,TC,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-10,TC,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-11,TC,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-12,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-13,TC,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-14,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-15,TC,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-16,TC,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-17,TC,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-18,TC,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-19,TC,Track,,Established,new,,new
+link,TL-20,TC,Track,,Hypothetical,new,,new
+link,TL-21,TC,Track,,Established,new,,new
+link,TL-22,TC,Track,,Established,new,,new
+link,TL-23,TC,Track,,Philosophical/Spiritual,new,,new
+link,TL-24,TC,Track,,Plausible,new,,new
+link,TL-25,TC,Track,,Established,new,,new
+link,TL-26,TC,Track,,Established,new,,new
+link,TL-01,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-02,TD,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-03,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-04,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-05,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-06,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-07,TD,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-08,TD,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-09,TD,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-10,TD,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-11,TD,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-12,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-13,TD,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-14,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-15,TD,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-16,TD,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-17,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-18,TD,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-19,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-20,TD,Track,Hypothetical,Hypothetical,re-assessed (label unchanged),,carried
+link,TL-21,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-22,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-23,TD,Track,Philosophical/Spiritual,Philosophical/Spiritual,re-assessed (label unchanged),,carried
+link,TL-24,TD,Track,Plausible,Plausible,re-assessed (label unchanged),,carried
+link,TL-25,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-26,TD,Track,Established,Established,re-assessed (label unchanged),,carried
+link,TL-27,TD,Track,,Established,new,,new
+link,TL-28,TD,Track,,Plausible,new,,new
+link,TL-29,TD,Track,,Established,new,,new
+link,TL-30,TD,Track,,Established,new,,new
+link,TL-31,TD,Track,,Plausible,new,,new
+link,TL-32,TD,Track,,Plausible,new,,new
+link,TL-33,TD,Track,,Philosophical/Spiritual,new,,new
+link,TL-34,TD,Track,,Established,new,,new
+link,TL-35,TD,Track,,Hypothetical,new,,new
+claim,DV0-NAT-01,DV0,Phase Divergence,,Established,new (baseline),,NAT
+claim,DV0-NAT-02,DV0,Phase Divergence,,Plausible,new (baseline),,NAT
+claim,DV0-NAT-03,DV0,Phase Divergence,,Plausible,new (baseline),,NAT
+claim,DV0-NAT-04,DV0,Phase Divergence,,Established,new (baseline),,NAT
+claim,DV0-FOR-01,DV0,Phase Divergence,,Established,new (baseline),,FOR
+claim,DV0-FOR-02,DV0,Phase Divergence,,Established,new (baseline),,FOR
+claim,DV0-FOR-03,DV0,Phase Divergence,,Plausible,new (baseline),,FOR
+claim,DV0-SOC-01,DV0,Phase Divergence,,Established,new (baseline),,SOC
+claim,DV0-SOC-02,DV0,Phase Divergence,,Plausible,new (baseline),,SOC
+claim,DV0-SOC-03,DV0,Phase Divergence,,Plausible,new (baseline),,SOC
+claim,DV0-APP-01,DV0,Phase Divergence,,Established,new (baseline),,APP
+claim,DV0-APP-02,DV0,Phase Divergence,,Plausible,new (baseline),,APP
+claim,DV0-APP-03,DV0,Phase Divergence,,Plausible,new (baseline),,APP
+claim,DV0-APP-04,DV0,Phase Divergence,,Plausible,new (baseline),,APP
+claim,DV0-HUM-01,DV0,Phase Divergence,,Established,new (baseline),,HUM
+claim,DV0-HUM-02,DV0,Phase Divergence,,Plausible,new (baseline),,HUM
+claim,DV0-HUM-03,DV0,Phase Divergence,,Established,new (baseline),,HUM
+claim,DV0-HUM-04,DV0,Phase Divergence,,Plausible,new (baseline),,HUM
+claim,DV0-PHI-01,DV0,Phase Divergence,,Established,new (baseline),,PHI
+claim,DV0-PHI-02,DV0,Phase Divergence,,Established,new (baseline),,PHI
+claim,DV0-PHI-03,DV0,Phase Divergence,,Philosophical/Spiritual,new (baseline),,PHI
+claim,DV0-PHI-04,DV0,Phase Divergence,,Hypothetical,new (baseline),,PHI
+claim,DVA-NAT-01,DVA,Phase Divergence,,Established,carried from DV0-NAT-01 unchanged (source(s) P01 read only at cited passages in DV0 and not re-read in full in DVA),,NAT
+claim,DVA-NAT-02,DVA,Phase Divergence,,Plausible,carried from DV0-NAT-02 unchanged (source(s) P01 read only at cited passages in DV0 and not re-read in full in DVA),,NAT
+claim,DVA-NAT-03,DVA,Phase Divergence,,Plausible,carried from DV0-NAT-03 unchanged,,NAT
+claim,DVA-NAT-04,DVA,Phase Divergence,,Established,carried from DV0-NAT-04 unchanged (source(s) P02 read only at cited passages in DV0 and not re-read in full in DVA),,NAT
+claim,DVA-NAT-05,DVA,Phase Divergence,,Established,new in DVA,,NAT
+claim,DVA-NAT-06,DVA,Phase Divergence,,Plausible,new in DVA,,NAT
+claim,DVA-NAT-07,DVA,Phase Divergence,,Plausible,new in DVA,,NAT
+claim,DVA-NAT-08,DVA,Phase Divergence,,Plausible,new in DVA,,NAT
+claim,DVA-FOR-01,DVA,Phase Divergence,,Established,carried from DV0-FOR-01 unchanged (source(s) P09 read only at cited passages in DV0 and not re-read in full in DVA),,FOR
+claim,DVA-FOR-02,DVA,Phase Divergence,,Established,carried from DV0-FOR-02 unchanged (source(s) P09 read only at cited passages in DV0 and not re-read in full in DVA),,FOR
+claim,DVA-FOR-03,DVA,Phase Divergence,,Plausible,carried from DV0-FOR-03 unchanged,,FOR
+claim,DVA-FOR-04,DVA,Phase Divergence,,Plausible,new in DVA,,FOR
+claim,DVA-FOR-05,DVA,Phase Divergence,,Plausible,new in DVA,,FOR
+claim,DVA-FOR-06,DVA,Phase Divergence,,Plausible,new in DVA,,FOR
+claim,DVA-FOR-07,DVA,Phase Divergence,,Hypothetical,new in DVA,,FOR
+claim,DVA-SOC-01,DVA,Phase Divergence,,Established,carried from DV0-SOC-01 unchanged (source re-read in full (end to end) in DVA; wording unchanged),,SOC
+claim,DVA-SOC-02,DVA,Phase Divergence,,Plausible,carried from DV0-SOC-02 unchanged (source re-read in full (end to end) in DVA; wording unchanged),,SOC
+claim,DVA-SOC-03,DVA,Phase Divergence,,Plausible,carried from DV0-SOC-03 unchanged,,SOC
+claim,DVA-SOC-04,DVA,Phase Divergence,,Established,new in DVA,,SOC
+claim,DVA-SOC-05,DVA,Phase Divergence,,Established,new in DVA,,SOC
+claim,DVA-SOC-06,DVA,Phase Divergence,,Plausible,new in DVA,,SOC
+claim,DVA-SOC-07,DVA,Phase Divergence,,Plausible,new in DVA,,SOC
+claim,DVA-SOC-08,DVA,Phase Divergence,,Plausible,new in DVA,,SOC
+claim,DVA-APP-01,DVA,Phase Divergence,,Established,carried from DV0-APP-01 unchanged (source(s) P05 read only at cited passages in DV0 and not re-read in full in DVA),,APP
+claim,DVA-APP-02,DVA,Phase Divergence,,Plausible,"carried from DV0-APP-02 unchanged (source(s) P04, P05 read only at cited passages in DV0 and not re-read in full in DVA)",,APP
+claim,DVA-APP-03,DVA,Phase Divergence,,Plausible,carried from DV0-APP-03 unchanged (source(s) P04 read only at cited passages in DV0 and not re-read in full in DVA),,APP
+claim,DVA-APP-04,DVA,Phase Divergence,,Plausible,carried from DV0-APP-04 unchanged,,APP
+claim,DVA-APP-05,DVA,Phase Divergence,,Plausible,new in DVA,,APP
+claim,DVA-APP-06,DVA,Phase Divergence,,Plausible,new in DVA,,APP
+claim,DVA-HUM-01,DVA,Phase Divergence,,Established,carried from DV0-HUM-01 unchanged (source(s) P06 read only at cited passages in DV0 and not re-read in full in DVA),,HUM
+claim,DVA-HUM-02,DVA,Phase Divergence,,Plausible,carried from DV0-HUM-02 unchanged (source(s) P06 read only at cited passages in DV0 and not re-read in full in DVA),,HUM
+claim,DVA-HUM-03,DVA,Phase Divergence,,Established,carried from DV0-HUM-03 unchanged (source(s) P02 read only at cited passages in DV0 and not re-read in full in DVA),,HUM
+claim,DVA-HUM-04,DVA,Phase Divergence,,Plausible,carried from DV0-HUM-04 unchanged,,HUM
+claim,DVA-HUM-05,DVA,Phase Divergence,,Established,new in DVA,,HUM
+claim,DVA-HUM-06,DVA,Phase Divergence,,Plausible,new in DVA,,HUM
+claim,DVA-HUM-07,DVA,Phase Divergence,,Established,new in DVA,,HUM
+claim,DVA-HUM-08,DVA,Phase Divergence,,Established,new in DVA,,HUM
+claim,DVA-HUM-09,DVA,Phase Divergence,,Plausible,new in DVA,,HUM
+claim,DVA-HUM-10,DVA,Phase Divergence,,Plausible,new in DVA,,HUM
+claim,DVA-HUM-11,DVA,Phase Divergence,,Plausible,new in DVA,,HUM
+claim,DVA-PHI-01,DVA,Phase Divergence,,Established,carried from DV0-PHI-01 unchanged (source(s) P08 read only at cited passages in DV0 and not re-read in full in DVA),,PHI
+claim,DVA-PHI-02,DVA,Phase Divergence,,Established,carried from DV0-PHI-02 unchanged (source(s) P07 read only at cited passages in DV0 and not re-read in full in DVA),,PHI
+claim,DVA-PHI-03,DVA,Phase Divergence,,Philosophical/Spiritual,"carried from DV0-PHI-03 unchanged (source(s) P07, P08 read only at cited passages in DV0 and not re-read in full in DVA)",,PHI
+claim,DVA-PHI-04,DVA,Phase Divergence,,Hypothetical,carried from DV0-PHI-04 unchanged,,PHI
+claim,DVA-PHI-05,DVA,Phase Divergence,,Established,new in DVA,,PHI
+claim,DVA-PHI-06,DVA,Phase Divergence,,Plausible,new in DVA,,PHI
+claim,DVA-PHI-07,DVA,Phase Divergence,,Plausible,new in DVA,,PHI
+claim,DVA-PHI-08,DVA,Phase Divergence,,Established,new in DVA,,PHI
+claim,DVA-PHI-09,DVA,Phase Divergence,,Plausible,new in DVA,,PHI
+claim,DVA-PHI-10,DVA,Phase Divergence,,Plausible,new in DVA,,PHI
+claim,DVA-PHI-11,DVA,Phase Divergence,,Plausible,new in DVA,,PHI
+claim,DVA-PHI-12,DVA,Phase Divergence,,Philosophical/Spiritual,new in DVA,,PHI
+claim,DVB-NAT-01,DVB,Phase Divergence,,Established,carried from DVA-NAT-01 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,NAT
+claim,DVB-NAT-02,DVB,Phase Divergence,,Plausible,carried from DVA-NAT-02 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,NAT
+claim,DVB-NAT-03,DVB,Phase Divergence,,Plausible,carried from DVA-NAT-03 unchanged,,NAT
+claim,DVB-NAT-04,DVB,Phase Divergence,,Established,carried from DVA-NAT-04 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,NAT
+claim,DVB-NAT-05,DVB,Phase Divergence,,Established,carried from DVA-NAT-05 unchanged,,NAT
+claim,DVB-NAT-06,DVB,Phase Divergence,,Plausible,carried from DVA-NAT-06 unchanged,,NAT
+claim,DVB-NAT-07,DVB,Phase Divergence,,Plausible,carried from DVA-NAT-07 unchanged,,NAT
+claim,DVB-NAT-08,DVB,Phase Divergence,,Plausible,carried from DVA-NAT-08 unchanged,,NAT
+claim,DVB-NAT-09,DVB,Phase Divergence,,Established,new in DVB,,NAT
+claim,DVB-NAT-10,DVB,Phase Divergence,,Established,new in DVB,,NAT
+claim,DVB-NAT-11,DVB,Phase Divergence,,Established,new in DVB,,NAT
+claim,DVB-NAT-12,DVB,Phase Divergence,,Plausible,new in DVB,,NAT
+claim,DVB-NAT-13,DVB,Phase Divergence,,Plausible,new in DVB,,NAT
+claim,DVB-NAT-14,DVB,Phase Divergence,,Plausible,new in DVB,,NAT
+claim,DVB-FOR-01,DVB,Phase Divergence,,Established,carried from DVA-FOR-01 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,FOR
+claim,DVB-FOR-02,DVB,Phase Divergence,,Established,carried from DVA-FOR-02 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,FOR
+claim,DVB-FOR-03,DVB,Phase Divergence,,Plausible,carried from DVA-FOR-03 unchanged,,FOR
+claim,DVB-FOR-04,DVB,Phase Divergence,,Plausible,carried from DVA-FOR-04 unchanged,,FOR
+claim,DVB-FOR-05,DVB,Phase Divergence,,Plausible,carried from DVA-FOR-05 unchanged,,FOR
+claim,DVB-FOR-06,DVB,Phase Divergence,,Plausible,carried from DVA-FOR-06 unchanged,,FOR
+claim,DVB-FOR-07,DVB,Phase Divergence,,Hypothetical,carried from DVA-FOR-07 unchanged,,FOR
+claim,DVB-FOR-08,DVB,Phase Divergence,,Established,new in DVB,,FOR
+claim,DVB-FOR-09,DVB,Phase Divergence,,Established,new in DVB,,FOR
+claim,DVB-FOR-10,DVB,Phase Divergence,,Established,new in DVB,,FOR
+claim,DVB-FOR-11,DVB,Phase Divergence,,Plausible,new in DVB,,FOR
+claim,DVB-FOR-12,DVB,Phase Divergence,,Plausible,new in DVB,,FOR
+claim,DVB-FOR-13,DVB,Phase Divergence,,Plausible,new in DVB,,FOR
+claim,DVB-SOC-01,DVB,Phase Divergence,,Established,carried from DVA-SOC-01 unchanged,,SOC
+claim,DVB-SOC-02,DVB,Phase Divergence,,Plausible,carried from DVA-SOC-02 unchanged,,SOC
+claim,DVB-SOC-03,DVB,Phase Divergence,,Plausible,carried from DVA-SOC-03 unchanged,,SOC
+claim,DVB-SOC-04,DVB,Phase Divergence,,Established,carried from DVA-SOC-04 unchanged,,SOC
+claim,DVB-SOC-05,DVB,Phase Divergence,,Established,carried from DVA-SOC-05 unchanged,,SOC
+claim,DVB-SOC-06,DVB,Phase Divergence,,Plausible,carried from DVA-SOC-06 unchanged,,SOC
+claim,DVB-SOC-07,DVB,Phase Divergence,,Plausible,carried from DVA-SOC-07 unchanged,,SOC
+claim,DVB-SOC-08,DVB,Phase Divergence,,Plausible,carried from DVA-SOC-08 unchanged,,SOC
+claim,DVB-SOC-09,DVB,Phase Divergence,,Plausible,new in DVB,,SOC
+claim,DVB-SOC-10,DVB,Phase Divergence,,Plausible,new in DVB,,SOC
+claim,DVB-SOC-11,DVB,Phase Divergence,,Plausible,new in DVB,,SOC
+claim,DVB-APP-01,DVB,Phase Divergence,,Established,carried from DVA-APP-01 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,APP
+claim,DVB-APP-02,DVB,Phase Divergence,,Plausible,revised: limitation extended after the full re-read of P04 (quality flag); wording unchanged (from DVA-APP-02),,APP
+claim,DVB-APP-03,DVB,Phase Divergence,,Plausible,revised: limitation extended after the full re-read of P04 (quality flag); wording unchanged (from DVA-APP-03),,APP
+claim,DVB-APP-04,DVB,Phase Divergence,,Plausible,carried from DVA-APP-04 unchanged,,APP
+claim,DVB-APP-05,DVB,Phase Divergence,,Plausible,carried from DVA-APP-05 unchanged,,APP
+claim,DVB-APP-06,DVB,Phase Divergence,,Plausible,carried from DVA-APP-06 unchanged,,APP
+claim,DVB-APP-07,DVB,Phase Divergence,,Plausible,new in DVB,,APP
+claim,DVB-APP-08,DVB,Phase Divergence,,Plausible,new in DVB,,APP
+claim,DVB-APP-09,DVB,Phase Divergence,,Established,new in DVB,,APP
+claim,DVB-APP-10,DVB,Phase Divergence,,Plausible,new in DVB,,APP
+claim,DVB-APP-11,DVB,Phase Divergence,,Plausible,new in DVB,,APP
+claim,DVB-HUM-01,DVB,Phase Divergence,,Established,revised: scoped after the full re-read of P06 (DV0/DVA wording 'across several alternative phylogenies' did not say that the two Swadesh-list classifications are above 0.05) (from DVA-HUM-01),,HUM
+claim,DVB-HUM-02,DVB,Phase Divergence,,Plausible,carried from DVA-HUM-02 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,HUM
+claim,DVB-HUM-03,DVB,Phase Divergence,,Established,carried from DVA-HUM-03 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,HUM
+claim,DVB-HUM-04,DVB,Phase Divergence,,Plausible,carried from DVA-HUM-04 unchanged,,HUM
+claim,DVB-HUM-05,DVB,Phase Divergence,,Established,carried from DVA-HUM-05 unchanged,,HUM
+claim,DVB-HUM-06,DVB,Phase Divergence,,Plausible,carried from DVA-HUM-06 unchanged,,HUM
+claim,DVB-HUM-07,DVB,Phase Divergence,,Established,carried from DVA-HUM-07 unchanged,,HUM
+claim,DVB-HUM-08,DVB,Phase Divergence,,Established,carried from DVA-HUM-08 unchanged,,HUM
+claim,DVB-HUM-09,DVB,Phase Divergence,,Plausible,carried from DVA-HUM-09 unchanged,,HUM
+claim,DVB-HUM-10,DVB,Phase Divergence,,Plausible,carried from DVA-HUM-10 unchanged,,HUM
+claim,DVB-HUM-11,DVB,Phase Divergence,,Plausible,carried from DVA-HUM-11 unchanged,,HUM
+claim,DVB-HUM-12,DVB,Phase Divergence,,Plausible,new in DVB,,HUM
+claim,DVB-HUM-13,DVB,Phase Divergence,,Plausible,new in DVB,,HUM
+claim,DVB-HUM-14,DVB,Phase Divergence,,Plausible,new in DVB,,HUM
+claim,DVB-PHI-01,DVB,Phase Divergence,,Established,carried from DVA-PHI-01 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,PHI
+claim,DVB-PHI-02,DVB,Phase Divergence,,Established,carried from DVA-PHI-02 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,PHI
+claim,DVB-PHI-03,DVB,Phase Divergence,,Philosophical/Spiritual,carried from DVA-PHI-03 unchanged (source re-read in full (end to end) in DVB; wording unchanged),,PHI
+claim,DVB-PHI-04,DVB,Phase Divergence,,Hypothetical,carried from DVA-PHI-04 unchanged,,PHI
+claim,DVB-PHI-05,DVB,Phase Divergence,,Established,carried from DVA-PHI-05 unchanged,,PHI
+claim,DVB-PHI-06,DVB,Phase Divergence,,Plausible,carried from DVA-PHI-06 unchanged,,PHI
+claim,DVB-PHI-07,DVB,Phase Divergence,,Plausible,carried from DVA-PHI-07 unchanged,,PHI
+claim,DVB-PHI-08,DVB,Phase Divergence,,Established,carried from DVA-PHI-08 unchanged,,PHI
+claim,DVB-PHI-09,DVB,Phase Divergence,,Plausible,carried from DVA-PHI-09 unchanged,,PHI
+claim,DVB-PHI-10,DVB,Phase Divergence,,Plausible,carried from DVA-PHI-10 unchanged,,PHI
+claim,DVB-PHI-11,DVB,Phase Divergence,,Plausible,carried from DVA-PHI-11 unchanged,,PHI
+claim,DVB-PHI-12,DVB,Phase Divergence,,Philosophical/Spiritual,carried from DVA-PHI-12 unchanged,,PHI
+claim,DVB-PHI-13,DVB,Phase Divergence,,Established,new in DVB,,PHI
+claim,DVB-PHI-14,DVB,Phase Divergence,,Established,new in DVB,,PHI
+claim,DVB-PHI-15,DVB,Phase Divergence,,Established,new in DVB,,PHI
+claim,DVB-PHI-16,DVB,Phase Divergence,,Established,new in DVB,,PHI
+claim,DVB-PHI-17,DVB,Phase Divergence,,Plausible,new in DVB,,PHI
+claim,DVB-PHI-18,DVB,Phase Divergence,,Plausible,new in DVB,,PHI
+claim,DVB-PHI-19,DVB,Phase Divergence,,Philosophical/Spiritual,new in DVB,,PHI
+claim,DVC-NAT-01,DVC,Phase Divergence,,Established,carried from DVB-NAT-01 unchanged,,NAT
+claim,DVC-NAT-02,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-02 unchanged,,NAT
+claim,DVC-NAT-03,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-03 unchanged,,NAT
+claim,DVC-NAT-04,DVC,Phase Divergence,,Established,carried from DVB-NAT-04 unchanged,,NAT
+claim,DVC-NAT-05,DVC,Phase Divergence,,Established,carried from DVB-NAT-05 unchanged,,NAT
+claim,DVC-NAT-06,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-06 unchanged,,NAT
+claim,DVC-NAT-07,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-07 unchanged,,NAT
+claim,DVC-NAT-08,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-08 unchanged,,NAT
+claim,DVC-NAT-09,DVC,Phase Divergence,,Established,carried from DVB-NAT-09 unchanged,,NAT
+claim,DVC-NAT-10,DVC,Phase Divergence,,Established,carried from DVB-NAT-10 unchanged,,NAT
+claim,DVC-NAT-11,DVC,Phase Divergence,,Established,carried from DVB-NAT-11 unchanged,,NAT
+claim,DVC-NAT-12,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-12 unchanged,,NAT
+claim,DVC-NAT-13,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-13 unchanged,,NAT
+claim,DVC-NAT-14,DVC,Phase Divergence,,Plausible,carried from DVB-NAT-14 unchanged,,NAT
+claim,DVC-NAT-15,DVC,Phase Divergence,,Established,new in DVC,,NAT
+claim,DVC-NAT-16,DVC,Phase Divergence,,Plausible,new in DVC,,NAT
+claim,DVC-NAT-17,DVC,Phase Divergence,,Plausible,new in DVC,,NAT
+claim,DVC-NAT-18,DVC,Phase Divergence,,Hypothetical,new in DVC,,NAT
+claim,DVC-NAT-19,DVC,Phase Divergence,,Plausible,new in DVC,,NAT
+claim,DVC-NAT-20,DVC,Phase Divergence,,Established,new in DVC,,NAT
+claim,DVC-FOR-01,DVC,Phase Divergence,,Established,carried from DVB-FOR-01 unchanged,,FOR
+claim,DVC-FOR-02,DVC,Phase Divergence,,Established,carried from DVB-FOR-02 unchanged,,FOR
+claim,DVC-FOR-03,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-03 unchanged,,FOR
+claim,DVC-FOR-04,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-04 unchanged,,FOR
+claim,DVC-FOR-05,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-05 unchanged,,FOR
+claim,DVC-FOR-06,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-06 unchanged,,FOR
+claim,DVC-FOR-07,DVC,Phase Divergence,,Hypothetical,carried from DVB-FOR-07 unchanged,,FOR
+claim,DVC-FOR-08,DVC,Phase Divergence,,Established,carried from DVB-FOR-08 unchanged,,FOR
+claim,DVC-FOR-09,DVC,Phase Divergence,,Established,carried from DVB-FOR-09 unchanged,,FOR
+claim,DVC-FOR-10,DVC,Phase Divergence,,Established,carried from DVB-FOR-10 unchanged,,FOR
+claim,DVC-FOR-11,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-11 unchanged,,FOR
+claim,DVC-FOR-12,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-12 unchanged,,FOR
+claim,DVC-FOR-13,DVC,Phase Divergence,,Plausible,carried from DVB-FOR-13 unchanged,,FOR
+claim,DVC-FOR-14,DVC,Phase Divergence,,Established,new in DVC,,FOR
+claim,DVC-FOR-15,DVC,Phase Divergence,,Plausible,new in DVC,,FOR
+claim,DVC-FOR-16,DVC,Phase Divergence,,Plausible,new in DVC,,FOR
+claim,DVC-FOR-17,DVC,Phase Divergence,,Plausible,new in DVC,,FOR
+claim,DVC-SOC-01,DVC,Phase Divergence,,Established,carried from DVB-SOC-01 unchanged,,SOC
+claim,DVC-SOC-02,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-02 unchanged,,SOC
+claim,DVC-SOC-03,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-03 unchanged,,SOC
+claim,DVC-SOC-04,DVC,Phase Divergence,,Established,carried from DVB-SOC-04 unchanged,,SOC
+claim,DVC-SOC-05,DVC,Phase Divergence,,Established,carried from DVB-SOC-05 unchanged,,SOC
+claim,DVC-SOC-06,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-06 unchanged,,SOC
+claim,DVC-SOC-07,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-07 unchanged,,SOC
+claim,DVC-SOC-08,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-08 unchanged,,SOC
+claim,DVC-SOC-09,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-09 unchanged,,SOC
+claim,DVC-SOC-10,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-10 unchanged,,SOC
+claim,DVC-SOC-11,DVC,Phase Divergence,,Plausible,carried from DVB-SOC-11 unchanged,,SOC
+claim,DVC-SOC-12,DVC,Phase Divergence,,Established,new in DVC,,SOC
+claim,DVC-SOC-13,DVC,Phase Divergence,,Plausible,new in DVC,,SOC
+claim,DVC-SOC-14,DVC,Phase Divergence,,Established,new in DVC,,SOC
+claim,DVC-SOC-15,DVC,Phase Divergence,,Plausible,new in DVC,,SOC
+claim,DVC-SOC-16,DVC,Phase Divergence,,Plausible,new in DVC,,SOC
+claim,DVC-SOC-17,DVC,Phase Divergence,,Plausible,new in DVC,,SOC
+claim,DVC-APP-01,DVC,Phase Divergence,,Established,carried from DVB-APP-01 unchanged,,APP
+claim,DVC-APP-02,DVC,Phase Divergence,,Plausible,carried from DVB-APP-02 unchanged,,APP
+claim,DVC-APP-03,DVC,Phase Divergence,,Plausible,carried from DVB-APP-03 unchanged,,APP
+claim,DVC-APP-04,DVC,Phase Divergence,,Plausible,carried from DVB-APP-04 unchanged,,APP
+claim,DVC-APP-05,DVC,Phase Divergence,,Plausible,carried from DVB-APP-05 unchanged,,APP
+claim,DVC-APP-06,DVC,Phase Divergence,,Plausible,carried from DVB-APP-06 unchanged,,APP
+claim,DVC-APP-07,DVC,Phase Divergence,,Plausible,carried from DVB-APP-07 unchanged,,APP
+claim,DVC-APP-08,DVC,Phase Divergence,,Plausible,carried from DVB-APP-08 unchanged,,APP
+claim,DVC-APP-09,DVC,Phase Divergence,,Established,carried from DVB-APP-09 unchanged,,APP
+claim,DVC-APP-10,DVC,Phase Divergence,,Plausible,carried from DVB-APP-10 unchanged,,APP
+claim,DVC-APP-11,DVC,Phase Divergence,,Plausible,carried from DVB-APP-11 unchanged,,APP
+claim,DVC-APP-12,DVC,Phase Divergence,,Plausible,new in DVC,,APP
+claim,DVC-APP-13,DVC,Phase Divergence,,Plausible,new in DVC,,APP
+claim,DVC-APP-14,DVC,Phase Divergence,,Plausible,new in DVC,,APP
+claim,DVC-HUM-01,DVC,Phase Divergence,,Established,carried from DVB-HUM-01 unchanged,,HUM
+claim,DVC-HUM-02,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-02 unchanged,,HUM
+claim,DVC-HUM-03,DVC,Phase Divergence,,Established,carried from DVB-HUM-03 unchanged,,HUM
+claim,DVC-HUM-04,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-04 unchanged,,HUM
+claim,DVC-HUM-05,DVC,Phase Divergence,,Established,carried from DVB-HUM-05 unchanged,,HUM
+claim,DVC-HUM-06,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-06 unchanged,,HUM
+claim,DVC-HUM-07,DVC,Phase Divergence,,Established,carried from DVB-HUM-07 unchanged,,HUM
+claim,DVC-HUM-08,DVC,Phase Divergence,,Established,carried from DVB-HUM-08 unchanged,,HUM
+claim,DVC-HUM-09,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-09 unchanged,,HUM
+claim,DVC-HUM-10,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-10 unchanged,,HUM
+claim,DVC-HUM-11,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-11 unchanged,,HUM
+claim,DVC-HUM-12,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-12 unchanged,,HUM
+claim,DVC-HUM-13,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-13 unchanged,,HUM
+claim,DVC-HUM-14,DVC,Phase Divergence,,Plausible,carried from DVB-HUM-14 unchanged,,HUM
+claim,DVC-HUM-15,DVC,Phase Divergence,,Established,new in DVC,,HUM
+claim,DVC-HUM-16,DVC,Phase Divergence,,Plausible,new in DVC,,HUM
+claim,DVC-HUM-17,DVC,Phase Divergence,,Plausible,new in DVC,,HUM
+claim,DVC-HUM-18,DVC,Phase Divergence,,Plausible,new in DVC,,HUM
+claim,DVC-PHI-01,DVC,Phase Divergence,,Established,carried from DVB-PHI-01 unchanged,,PHI
+claim,DVC-PHI-02,DVC,Phase Divergence,,Established,carried from DVB-PHI-02 unchanged,,PHI
+claim,DVC-PHI-03,DVC,Phase Divergence,,Philosophical/Spiritual,carried from DVB-PHI-03 unchanged,,PHI
+claim,DVC-PHI-04,DVC,Phase Divergence,,Hypothetical,carried from DVB-PHI-04 unchanged,,PHI
+claim,DVC-PHI-05,DVC,Phase Divergence,,Established,carried from DVB-PHI-05 unchanged,,PHI
+claim,DVC-PHI-06,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-06 unchanged,,PHI
+claim,DVC-PHI-07,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-07 unchanged,,PHI
+claim,DVC-PHI-08,DVC,Phase Divergence,,Established,carried from DVB-PHI-08 unchanged,,PHI
+claim,DVC-PHI-09,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-09 unchanged,,PHI
+claim,DVC-PHI-10,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-10 unchanged,,PHI
+claim,DVC-PHI-11,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-11 unchanged,,PHI
+claim,DVC-PHI-12,DVC,Phase Divergence,,Philosophical/Spiritual,carried from DVB-PHI-12 unchanged,,PHI
+claim,DVC-PHI-13,DVC,Phase Divergence,,Established,carried from DVB-PHI-13 unchanged,,PHI
+claim,DVC-PHI-14,DVC,Phase Divergence,,Established,carried from DVB-PHI-14 unchanged,,PHI
+claim,DVC-PHI-15,DVC,Phase Divergence,,Established,carried from DVB-PHI-15 unchanged,,PHI
+claim,DVC-PHI-16,DVC,Phase Divergence,,Established,"revised: P18 read in full in DVC (DVB read cited passages only); wording unchanged, scope and locator updated (from DVB-PHI-16)",,PHI
+claim,DVC-PHI-17,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-17 unchanged,,PHI
+claim,DVC-PHI-18,DVC,Phase Divergence,,Plausible,carried from DVB-PHI-18 unchanged,,PHI
+claim,DVC-PHI-19,DVC,Phase Divergence,,Philosophical/Spiritual,revised: P18 now read in full; wording unchanged (from DVB-PHI-19),,PHI
+claim,DVC-PHI-20,DVC,Phase Divergence,,Established,new in DVC,,PHI
+claim,DVC-PHI-21,DVC,Phase Divergence,,Established,new in DVC,,PHI
+claim,DVC-PHI-22,DVC,Phase Divergence,,Established,new in DVC,,PHI
+claim,DVC-PHI-23,DVC,Phase Divergence,,Plausible,new in DVC,,PHI
+claim,DVC-PHI-24,DVC,Phase Divergence,,Plausible,new in DVC,,PHI
+claim,DVC-PHI-25,DVC,Phase Divergence,,Philosophical/Spiritual,new in DVC,,PHI
+claim,DVD-NAT-01,DVD,Phase Divergence,,Established,carried from DVC-NAT-01 unchanged,,NAT
+claim,DVD-NAT-02,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-02 unchanged,,NAT
+claim,DVD-NAT-03,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-03 unchanged,,NAT
+claim,DVD-NAT-04,DVD,Phase Divergence,,Established,carried from DVC-NAT-04 unchanged,,NAT
+claim,DVD-NAT-05,DVD,Phase Divergence,,Established,carried from DVC-NAT-05 unchanged,,NAT
+claim,DVD-NAT-06,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-06 unchanged,,NAT
+claim,DVD-NAT-07,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-07 unchanged,,NAT
+claim,DVD-NAT-08,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-08 unchanged,,NAT
+claim,DVD-NAT-09,DVD,Phase Divergence,,Established,carried from DVC-NAT-09 unchanged,,NAT
+claim,DVD-NAT-10,DVD,Phase Divergence,,Established,carried from DVC-NAT-10 unchanged,,NAT
+claim,DVD-NAT-11,DVD,Phase Divergence,,Established,carried from DVC-NAT-11 unchanged,,NAT
+claim,DVD-NAT-12,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-12 unchanged,,NAT
+claim,DVD-NAT-13,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-13 unchanged,,NAT
+claim,DVD-NAT-14,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-14 unchanged,,NAT
+claim,DVD-NAT-15,DVD,Phase Divergence,,Established,carried from DVC-NAT-15 unchanged,,NAT
+claim,DVD-NAT-16,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-16 unchanged,,NAT
+claim,DVD-NAT-17,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-17 unchanged,,NAT
+claim,DVD-NAT-18,DVD,Phase Divergence,,Hypothetical,carried from DVC-NAT-18 unchanged,,NAT
+claim,DVD-NAT-19,DVD,Phase Divergence,,Plausible,carried from DVC-NAT-19 unchanged,,NAT
+claim,DVD-NAT-20,DVD,Phase Divergence,,Established,carried from DVC-NAT-20 unchanged,,NAT
+claim,DVD-NAT-21,DVD,Phase Divergence,,Plausible,new in DVD,,NAT
+claim,DVD-NAT-22,DVD,Phase Divergence,,Plausible,new in DVD,,NAT
+claim,DVD-NAT-23,DVD,Phase Divergence,,Plausible,new in DVD,,NAT
+claim,DVD-FOR-01,DVD,Phase Divergence,,Established,carried from DVC-FOR-01 unchanged,,FOR
+claim,DVD-FOR-02,DVD,Phase Divergence,,Established,carried from DVC-FOR-02 unchanged,,FOR
+claim,DVD-FOR-03,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-03 unchanged,,FOR
+claim,DVD-FOR-04,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-04 unchanged,,FOR
+claim,DVD-FOR-05,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-05 unchanged,,FOR
+claim,DVD-FOR-06,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-06 unchanged,,FOR
+claim,DVD-FOR-07,DVD,Phase Divergence,,Hypothetical,carried from DVC-FOR-07 unchanged,,FOR
+claim,DVD-FOR-08,DVD,Phase Divergence,,Established,carried from DVC-FOR-08 unchanged,,FOR
+claim,DVD-FOR-09,DVD,Phase Divergence,,Established,carried from DVC-FOR-09 unchanged,,FOR
+claim,DVD-FOR-10,DVD,Phase Divergence,,Established,carried from DVC-FOR-10 unchanged,,FOR
+claim,DVD-FOR-11,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-11 unchanged,,FOR
+claim,DVD-FOR-12,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-12 unchanged,,FOR
+claim,DVD-FOR-13,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-13 unchanged,,FOR
+claim,DVD-FOR-14,DVD,Phase Divergence,,Established,carried from DVC-FOR-14 unchanged,,FOR
+claim,DVD-FOR-15,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-15 unchanged,,FOR
+claim,DVD-FOR-16,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-16 unchanged,,FOR
+claim,DVD-FOR-17,DVD,Phase Divergence,,Plausible,carried from DVC-FOR-17 unchanged,,FOR
+claim,DVD-FOR-18,DVD,Phase Divergence,,Plausible,new in DVD,,FOR
+claim,DVD-FOR-19,DVD,Phase Divergence,,Plausible,new in DVD,,FOR
+claim,DVD-FOR-20,DVD,Phase Divergence,,Plausible,new in DVD,,FOR
+claim,DVD-SOC-01,DVD,Phase Divergence,,Established,carried from DVC-SOC-01 unchanged,,SOC
+claim,DVD-SOC-02,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-02 unchanged,,SOC
+claim,DVD-SOC-03,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-03 unchanged,,SOC
+claim,DVD-SOC-04,DVD,Phase Divergence,,Established,carried from DVC-SOC-04 unchanged,,SOC
+claim,DVD-SOC-05,DVD,Phase Divergence,,Established,carried from DVC-SOC-05 unchanged,,SOC
+claim,DVD-SOC-06,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-06 unchanged,,SOC
+claim,DVD-SOC-07,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-07 unchanged,,SOC
+claim,DVD-SOC-08,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-08 unchanged,,SOC
+claim,DVD-SOC-09,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-09 unchanged,,SOC
+claim,DVD-SOC-10,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-10 unchanged,,SOC
+claim,DVD-SOC-11,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-11 unchanged,,SOC
+claim,DVD-SOC-12,DVD,Phase Divergence,,Established,carried from DVC-SOC-12 unchanged,,SOC
+claim,DVD-SOC-13,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-13 unchanged,,SOC
+claim,DVD-SOC-14,DVD,Phase Divergence,,Established,carried from DVC-SOC-14 unchanged,,SOC
+claim,DVD-SOC-15,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-15 unchanged,,SOC
+claim,DVD-SOC-16,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-16 unchanged,,SOC
+claim,DVD-SOC-17,DVD,Phase Divergence,,Plausible,carried from DVC-SOC-17 unchanged,,SOC
+claim,DVD-SOC-18,DVD,Phase Divergence,,Plausible,new in DVD,,SOC
+claim,DVD-SOC-19,DVD,Phase Divergence,,Plausible,new in DVD,,SOC
+claim,DVD-SOC-20,DVD,Phase Divergence,,Plausible,new in DVD,,SOC
+claim,DVD-APP-01,DVD,Phase Divergence,,Established,carried from DVC-APP-01 unchanged,,APP
+claim,DVD-APP-02,DVD,Phase Divergence,,Plausible,carried from DVC-APP-02 unchanged,,APP
+claim,DVD-APP-03,DVD,Phase Divergence,,Plausible,carried from DVC-APP-03 unchanged,,APP
+claim,DVD-APP-04,DVD,Phase Divergence,,Plausible,carried from DVC-APP-04 unchanged,,APP
+claim,DVD-APP-05,DVD,Phase Divergence,,Plausible,carried from DVC-APP-05 unchanged,,APP
+claim,DVD-APP-06,DVD,Phase Divergence,,Plausible,carried from DVC-APP-06 unchanged,,APP
+claim,DVD-APP-07,DVD,Phase Divergence,,Plausible,carried from DVC-APP-07 unchanged,,APP
+claim,DVD-APP-08,DVD,Phase Divergence,,Plausible,carried from DVC-APP-08 unchanged,,APP
+claim,DVD-APP-09,DVD,Phase Divergence,,Established,carried from DVC-APP-09 unchanged,,APP
+claim,DVD-APP-10,DVD,Phase Divergence,,Plausible,carried from DVC-APP-10 unchanged,,APP
+claim,DVD-APP-11,DVD,Phase Divergence,,Plausible,carried from DVC-APP-11 unchanged,,APP
+claim,DVD-APP-12,DVD,Phase Divergence,,Plausible,carried from DVC-APP-12 unchanged,,APP
+claim,DVD-APP-13,DVD,Phase Divergence,,Plausible,carried from DVC-APP-13 unchanged,,APP
+claim,DVD-APP-14,DVD,Phase Divergence,,Plausible,carried from DVC-APP-14 unchanged,,APP
+claim,DVD-APP-15,DVD,Phase Divergence,,Established,new in DVD,,APP
+claim,DVD-APP-16,DVD,Phase Divergence,,Established,new in DVD,,APP
+claim,DVD-APP-17,DVD,Phase Divergence,,Plausible,new in DVD,,APP
+claim,DVD-APP-18,DVD,Phase Divergence,,Plausible,new in DVD,,APP
+claim,DVD-APP-19,DVD,Phase Divergence,,Plausible,new in DVD,,APP
+claim,DVD-APP-20,DVD,Phase Divergence,,Plausible,new in DVD,,APP
+claim,DVD-APP-21,DVD,Phase Divergence,,Plausible,new in DVD,,APP
+claim,DVD-APP-22,DVD,Phase Divergence,,Hypothetical,new in DVD,,APP
+claim,DVD-HUM-01,DVD,Phase Divergence,,Established,carried from DVC-HUM-01 unchanged,,HUM
+claim,DVD-HUM-02,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-02 unchanged,,HUM
+claim,DVD-HUM-03,DVD,Phase Divergence,,Established,carried from DVC-HUM-03 unchanged,,HUM
+claim,DVD-HUM-04,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-04 unchanged,,HUM
+claim,DVD-HUM-05,DVD,Phase Divergence,,Established,carried from DVC-HUM-05 unchanged,,HUM
+claim,DVD-HUM-06,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-06 unchanged,,HUM
+claim,DVD-HUM-07,DVD,Phase Divergence,,Established,carried from DVC-HUM-07 unchanged,,HUM
+claim,DVD-HUM-08,DVD,Phase Divergence,,Established,carried from DVC-HUM-08 unchanged,,HUM
+claim,DVD-HUM-09,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-09 unchanged,,HUM
+claim,DVD-HUM-10,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-10 unchanged,,HUM
+claim,DVD-HUM-11,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-11 unchanged,,HUM
+claim,DVD-HUM-12,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-12 unchanged,,HUM
+claim,DVD-HUM-13,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-13 unchanged,,HUM
+claim,DVD-HUM-14,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-14 unchanged,,HUM
+claim,DVD-HUM-15,DVD,Phase Divergence,,Established,carried from DVC-HUM-15 unchanged,,HUM
+claim,DVD-HUM-16,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-16 unchanged,,HUM
+claim,DVD-HUM-17,DVD,Phase Divergence,,Plausible,revised: limitation and confidence updated after the DVD replication; wording unchanged (from DVC-HUM-17),,HUM
+claim,DVD-HUM-18,DVD,Phase Divergence,,Plausible,carried from DVC-HUM-18 unchanged,,HUM
+claim,DVD-HUM-19,DVD,Phase Divergence,,Plausible,new in DVD,,HUM
+claim,DVD-HUM-20,DVD,Phase Divergence,,Plausible,new in DVD,,HUM
+claim,DVD-PHI-01,DVD,Phase Divergence,,Established,carried from DVC-PHI-01 unchanged,,PHI
+claim,DVD-PHI-02,DVD,Phase Divergence,,Established,carried from DVC-PHI-02 unchanged,,PHI
+claim,DVD-PHI-03,DVD,Phase Divergence,,Philosophical/Spiritual,carried from DVC-PHI-03 unchanged,,PHI
+claim,DVD-PHI-04,DVD,Phase Divergence,,Hypothetical,carried from DVC-PHI-04 unchanged,,PHI
+claim,DVD-PHI-05,DVD,Phase Divergence,,Established,carried from DVC-PHI-05 unchanged,,PHI
+claim,DVD-PHI-06,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-06 unchanged,,PHI
+claim,DVD-PHI-07,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-07 unchanged,,PHI
+claim,DVD-PHI-08,DVD,Phase Divergence,,Established,carried from DVC-PHI-08 unchanged,,PHI
+claim,DVD-PHI-09,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-09 unchanged,,PHI
+claim,DVD-PHI-10,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-10 unchanged,,PHI
+claim,DVD-PHI-11,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-11 unchanged,,PHI
+claim,DVD-PHI-12,DVD,Phase Divergence,,Philosophical/Spiritual,carried from DVC-PHI-12 unchanged,,PHI
+claim,DVD-PHI-13,DVD,Phase Divergence,,Established,carried from DVC-PHI-13 unchanged,,PHI
+claim,DVD-PHI-14,DVD,Phase Divergence,,Established,carried from DVC-PHI-14 unchanged,,PHI
+claim,DVD-PHI-15,DVD,Phase Divergence,,Established,carried from DVC-PHI-15 unchanged,,PHI
+claim,DVD-PHI-16,DVD,Phase Divergence,,Established,carried from DVC-PHI-16 unchanged,,PHI
+claim,DVD-PHI-17,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-17 unchanged,,PHI
+claim,DVD-PHI-18,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-18 unchanged,,PHI
+claim,DVD-PHI-19,DVD,Phase Divergence,,Philosophical/Spiritual,carried from DVC-PHI-19 unchanged,,PHI
+claim,DVD-PHI-20,DVD,Phase Divergence,,Established,carried from DVC-PHI-20 unchanged,,PHI
+claim,DVD-PHI-21,DVD,Phase Divergence,,Established,carried from DVC-PHI-21 unchanged,,PHI
+claim,DVD-PHI-22,DVD,Phase Divergence,,Established,carried from DVC-PHI-22 unchanged,,PHI
+claim,DVD-PHI-23,DVD,Phase Divergence,,Plausible,carried from DVC-PHI-23 unchanged,,PHI
+claim,DVD-PHI-24,DVD,Phase Divergence,,Plausible,revised: limitation updated after the DVD replication; wording unchanged (from DVC-PHI-24),,PHI
+claim,DVD-PHI-25,DVD,Phase Divergence,,Philosophical/Spiritual,carried from DVC-PHI-25 unchanged,,PHI
+claim,DVD-PHI-26,DVD,Phase Divergence,,Plausible,new in DVD,,PHI
+claim,DVD-PHI-27,DVD,Phase Divergence,,Plausible,new in DVD,,PHI
+claim,IN0-NAT-01,IN0,Phase Insurgence,,Established,new in IN0,,NAT
+claim,IN0-NAT-02,IN0,Phase Insurgence,,Plausible,new in IN0,,NAT
+claim,IN0-FOR-01,IN0,Phase Insurgence,,Established,new in IN0,,FOR
+claim,IN0-FOR-02,IN0,Phase Insurgence,,Plausible,new in IN0,,FOR
+claim,IN0-SOC-01,IN0,Phase Insurgence,,Plausible,new in IN0,,SOC
+claim,IN0-SOC-02,IN0,Phase Insurgence,,Plausible,new in IN0,,SOC
+claim,IN0-APP-01,IN0,Phase Insurgence,,Established,new in IN0,,APP
+claim,IN0-APP-02,IN0,Phase Insurgence,,Plausible,new in IN0,,APP
+claim,IN0-HUM-01,IN0,Phase Insurgence,,Established,new in IN0,,HUM
+claim,IN0-HUM-02,IN0,Phase Insurgence,,Plausible,new in IN0,,HUM
+claim,IN0-PHI-01,IN0,Phase Insurgence,,Philosophical/Spiritual,new in IN0,,PHI
+claim,IN0-PHI-02,IN0,Phase Insurgence,,Plausible,new in IN0,,PHI
+claim,INA-NAT-01,INA,Phase Insurgence,,Established,carried from IN0-NAT-01 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,NAT
+claim,INA-NAT-02,INA,Phase Insurgence,,Plausible,carried from IN0-NAT-02 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,NAT
+claim,INA-NAT-03,INA,Phase Insurgence,,Plausible,new in INA,,NAT
+claim,INA-NAT-04,INA,Phase Insurgence,,Plausible,new in INA,,NAT
+claim,INA-FOR-01,INA,Phase Insurgence,,Established,carried from IN0-FOR-01 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,FOR
+claim,INA-FOR-02,INA,Phase Insurgence,,Plausible,carried from IN0-FOR-02 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,FOR
+claim,INA-FOR-03,INA,Phase Insurgence,,Plausible,new in INA,,FOR
+claim,INA-FOR-04,INA,Phase Insurgence,,Plausible,new in INA,,FOR
+claim,INA-FOR-05,INA,Phase Insurgence,,Plausible,new in INA,,FOR
+claim,INA-SOC-01,INA,Phase Insurgence,,Plausible,carried from IN0-SOC-01 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,SOC
+claim,INA-SOC-02,INA,Phase Insurgence,,Plausible,carried from IN0-SOC-02 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,SOC
+claim,INA-SOC-03,INA,Phase Insurgence,,Established,new in INA,,SOC
+claim,INA-SOC-04,INA,Phase Insurgence,,Plausible,new in INA,,SOC
+claim,INA-SOC-05,INA,Phase Insurgence,,Plausible,new in INA,,SOC
+claim,INA-APP-01,INA,Phase Insurgence,,Established,carried from IN0-APP-01 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,APP
+claim,INA-APP-02,INA,Phase Insurgence,,Plausible,carried from IN0-APP-02 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,APP
+claim,INA-APP-03,INA,Phase Insurgence,,Established,new in INA,,APP
+claim,INA-APP-04,INA,Phase Insurgence,,Plausible,new in INA,,APP
+claim,INA-APP-05,INA,Phase Insurgence,,Plausible,new in INA,,APP
+claim,INA-APP-06,INA,Phase Insurgence,,Plausible,new in INA,,APP
+claim,INA-HUM-01,INA,Phase Insurgence,,Established,carried from IN0-HUM-01 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,HUM
+claim,INA-HUM-02,INA,Phase Insurgence,,Plausible,carried from IN0-HUM-02 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,HUM
+claim,INA-HUM-03,INA,Phase Insurgence,,Plausible,new in INA,,HUM
+claim,INA-HUM-04,INA,Phase Insurgence,,Plausible,new in INA,,HUM
+claim,INA-HUM-05,INA,Phase Insurgence,,Plausible,new in INA,,HUM
+claim,INA-HUM-06,INA,Phase Insurgence,,Plausible,new in INA,,HUM
+claim,INA-PHI-01,INA,Phase Insurgence,,Philosophical/Spiritual,carried from IN0-PHI-01 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,PHI
+claim,INA-PHI-02,INA,Phase Insurgence,,Plausible,carried from IN0-PHI-02 unchanged (sources read in full in IN0 or earlier; not re-read in INA),,PHI
+claim,INA-PHI-03,INA,Phase Insurgence,,Plausible,new in INA,,PHI
+claim,INA-PHI-04,INA,Phase Insurgence,,Philosophical/Spiritual,new in INA,,PHI
+claim,INA-PHI-05,INA,Phase Insurgence,,Plausible,new in INA,,PHI
+claim,INA-PHI-06,INA,Phase Insurgence,,Plausible,new in INA,,PHI
+claim,INB-NAT-01,INB,Phase Insurgence,,Established,carried from INA-NAT-01 unchanged,,NAT
+claim,INB-NAT-02,INB,Phase Insurgence,,Plausible,carried from INA-NAT-02 unchanged,,NAT
+claim,INB-NAT-03,INB,Phase Insurgence,,Plausible,carried from INA-NAT-03 unchanged,,NAT
+claim,INB-NAT-04,INB,Phase Insurgence,,Plausible,carried from INA-NAT-04 unchanged,,NAT
+claim,INB-NAT-05,INB,Phase Insurgence,,Established,new in INB,,NAT
+claim,INB-NAT-06,INB,Phase Insurgence,,Plausible,new in INB,,NAT
+claim,INB-NAT-07,INB,Phase Insurgence,,Plausible,new in INB,,NAT
+claim,INB-NAT-08,INB,Phase Insurgence,,Plausible,new in INB,,NAT
+claim,INB-FOR-01,INB,Phase Insurgence,,Established,carried from INA-FOR-01 unchanged,,FOR
+claim,INB-FOR-02,INB,Phase Insurgence,,Plausible,carried from INA-FOR-02 unchanged,,FOR
+claim,INB-FOR-03,INB,Phase Insurgence,,Plausible,carried from INA-FOR-03 unchanged,,FOR
+claim,INB-FOR-04,INB,Phase Insurgence,,Plausible,carried from INA-FOR-04 unchanged,,FOR
+claim,INB-FOR-05,INB,Phase Insurgence,,Plausible,carried from INA-FOR-05 unchanged,,FOR
+claim,INB-FOR-06,INB,Phase Insurgence,,Established,new in INB,,FOR
+claim,INB-FOR-07,INB,Phase Insurgence,,Plausible,new in INB,,FOR
+claim,INB-FOR-08,INB,Phase Insurgence,,Plausible,new in INB,,FOR
+claim,INB-SOC-01,INB,Phase Insurgence,,Plausible,carried from INA-SOC-01 unchanged,,SOC
+claim,INB-SOC-02,INB,Phase Insurgence,,Plausible,carried from INA-SOC-02 unchanged,,SOC
+claim,INB-SOC-03,INB,Phase Insurgence,,Established,carried from INA-SOC-03 unchanged,,SOC
+claim,INB-SOC-04,INB,Phase Insurgence,,Plausible,carried from INA-SOC-04 unchanged,,SOC
+claim,INB-SOC-05,INB,Phase Insurgence,,Plausible,carried from INA-SOC-05 unchanged,,SOC
+claim,INB-SOC-06,INB,Phase Insurgence,,Plausible,new in INB,,SOC
+claim,INB-SOC-07,INB,Phase Insurgence,,Plausible,new in INB,,SOC
+claim,INB-SOC-08,INB,Phase Insurgence,,Plausible,new in INB,,SOC
+claim,INB-SOC-09,INB,Phase Insurgence,,Plausible,new in INB,,SOC
+claim,INB-APP-01,INB,Phase Insurgence,,Established,carried from INA-APP-01 unchanged,,APP
+claim,INB-APP-02,INB,Phase Insurgence,,Plausible,carried from INA-APP-02 unchanged,,APP
+claim,INB-APP-03,INB,Phase Insurgence,,Established,carried from INA-APP-03 unchanged,,APP
+claim,INB-APP-04,INB,Phase Insurgence,,Plausible,carried from INA-APP-04 unchanged,,APP
+claim,INB-APP-05,INB,Phase Insurgence,,Plausible,carried from INA-APP-05 unchanged,,APP
+claim,INB-APP-06,INB,Phase Insurgence,,Plausible,carried from INA-APP-06 unchanged,,APP
+claim,INB-APP-07,INB,Phase Insurgence,,Established,new in INB,,APP
+claim,INB-APP-08,INB,Phase Insurgence,,Plausible,new in INB,,APP
+claim,INB-APP-09,INB,Phase Insurgence,,Plausible,new in INB,,APP
+claim,INB-APP-10,INB,Phase Insurgence,,Plausible,new in INB,,APP
+claim,INB-HUM-01,INB,Phase Insurgence,,Established,carried from INA-HUM-01 unchanged,,HUM
+claim,INB-HUM-02,INB,Phase Insurgence,,Plausible,carried from INA-HUM-02 unchanged,,HUM
+claim,INB-HUM-03,INB,Phase Insurgence,,Plausible,carried from INA-HUM-03 unchanged,,HUM
+claim,INB-HUM-04,INB,Phase Insurgence,,Plausible,carried from INA-HUM-04 unchanged,,HUM
+claim,INB-HUM-05,INB,Phase Insurgence,,Plausible,carried from INA-HUM-05 unchanged,,HUM
+claim,INB-HUM-06,INB,Phase Insurgence,,Plausible,carried from INA-HUM-06 unchanged,,HUM
+claim,INB-HUM-07,INB,Phase Insurgence,,Plausible,new in INB,,HUM
+claim,INB-HUM-08,INB,Phase Insurgence,,Plausible,new in INB,,HUM
+claim,INB-HUM-09,INB,Phase Insurgence,,Plausible,new in INB,,HUM
+claim,INB-PHI-01,INB,Phase Insurgence,,Philosophical/Spiritual,carried from INA-PHI-01 unchanged,,PHI
+claim,INB-PHI-02,INB,Phase Insurgence,,Plausible,carried from INA-PHI-02 unchanged,,PHI
+claim,INB-PHI-03,INB,Phase Insurgence,,Plausible,carried from INA-PHI-03 unchanged,,PHI
+claim,INB-PHI-04,INB,Phase Insurgence,,Philosophical/Spiritual,carried from INA-PHI-04 unchanged,,PHI
+claim,INB-PHI-05,INB,Phase Insurgence,,Plausible,carried from INA-PHI-05 unchanged,,PHI
+claim,INB-PHI-06,INB,Phase Insurgence,,Plausible,carried from INA-PHI-06 unchanged,,PHI
+claim,INB-PHI-07,INB,Phase Insurgence,,Plausible,new in INB,,PHI
+claim,INB-PHI-08,INB,Phase Insurgence,,Philosophical/Spiritual,new in INB,,PHI
+claim,INB-PHI-09,INB,Phase Insurgence,,Plausible,new in INB,,PHI
+claim,INB-PHI-10,INB,Phase Insurgence,,Plausible,new in INB,,PHI
+claim,INC-NAT-01,INC,Phase Insurgence,,Established,carried from INB-NAT-01 unchanged,,NAT
+claim,INC-NAT-02,INC,Phase Insurgence,,Plausible,carried from INB-NAT-02 unchanged,,NAT
+claim,INC-NAT-03,INC,Phase Insurgence,,Plausible,carried from INB-NAT-03 unchanged,,NAT
+claim,INC-NAT-04,INC,Phase Insurgence,,Plausible,carried from INB-NAT-04 unchanged,,NAT
+claim,INC-NAT-05,INC,Phase Insurgence,,Established,carried from INB-NAT-05 unchanged,,NAT
+claim,INC-NAT-06,INC,Phase Insurgence,,Plausible,carried from INB-NAT-06 unchanged,,NAT
+claim,INC-NAT-07,INC,Phase Insurgence,,Plausible,carried from INB-NAT-07 unchanged,,NAT
+claim,INC-NAT-08,INC,Phase Insurgence,,Plausible,carried from INB-NAT-08 unchanged,,NAT
+claim,INC-NAT-09,INC,Phase Insurgence,,Established,new in INC,,NAT
+claim,INC-NAT-10,INC,Phase Insurgence,,Plausible,new in INC,,NAT
+claim,INC-NAT-11,INC,Phase Insurgence,,Plausible,new in INC,,NAT
+claim,INC-NAT-12,INC,Phase Insurgence,,Plausible,new in INC,,NAT
+claim,INC-FOR-01,INC,Phase Insurgence,,Established,carried from INB-FOR-01 unchanged,,FOR
+claim,INC-FOR-02,INC,Phase Insurgence,,Plausible,carried from INB-FOR-02 unchanged,,FOR
+claim,INC-FOR-03,INC,Phase Insurgence,,Plausible,carried from INB-FOR-03 unchanged,,FOR
+claim,INC-FOR-04,INC,Phase Insurgence,,Plausible,carried from INB-FOR-04 unchanged,,FOR
+claim,INC-FOR-05,INC,Phase Insurgence,,Plausible,carried from INB-FOR-05 unchanged,,FOR
+claim,INC-FOR-06,INC,Phase Insurgence,,Established,carried from INB-FOR-06 unchanged,,FOR
+claim,INC-FOR-07,INC,Phase Insurgence,,Plausible,carried from INB-FOR-07 unchanged,,FOR
+claim,INC-FOR-08,INC,Phase Insurgence,,Plausible,carried from INB-FOR-08 unchanged,,FOR
+claim,INC-FOR-09,INC,Phase Insurgence,,Plausible,new in INC,,FOR
+claim,INC-FOR-10,INC,Phase Insurgence,,Plausible,new in INC,,FOR
+claim,INC-SOC-01,INC,Phase Insurgence,,Plausible,carried from INB-SOC-01 unchanged,,SOC
+claim,INC-SOC-02,INC,Phase Insurgence,,Plausible,carried from INB-SOC-02 unchanged,,SOC
+claim,INC-SOC-03,INC,Phase Insurgence,,Established,carried from INB-SOC-03 unchanged,,SOC
+claim,INC-SOC-04,INC,Phase Insurgence,,Plausible,carried from INB-SOC-04 unchanged,,SOC
+claim,INC-SOC-05,INC,Phase Insurgence,,Plausible,carried from INB-SOC-05 unchanged,,SOC
+claim,INC-SOC-06,INC,Phase Insurgence,,Plausible,carried from INB-SOC-06 unchanged,,SOC
+claim,INC-SOC-07,INC,Phase Insurgence,,Plausible,carried from INB-SOC-07 unchanged,,SOC
+claim,INC-SOC-08,INC,Phase Insurgence,,Plausible,carried from INB-SOC-08 unchanged,,SOC
+claim,INC-SOC-09,INC,Phase Insurgence,,Plausible,carried from INB-SOC-09 unchanged,,SOC
+claim,INC-SOC-10,INC,Phase Insurgence,,Plausible,new in INC,,SOC
+claim,INC-SOC-11,INC,Phase Insurgence,,Plausible,new in INC,,SOC
+claim,INC-SOC-12,INC,Phase Insurgence,,Plausible,new in INC,,SOC
+claim,INC-SOC-13,INC,Phase Insurgence,,Hypothetical,new in INC,,SOC
+claim,INC-SOC-14,INC,Phase Insurgence,,Plausible,new in INC,,SOC
+claim,INC-APP-01,INC,Phase Insurgence,,Established,carried from INB-APP-01 unchanged,,APP
+claim,INC-APP-02,INC,Phase Insurgence,,Plausible,carried from INB-APP-02 unchanged,,APP
+claim,INC-APP-03,INC,Phase Insurgence,,Established,carried from INB-APP-03 unchanged,,APP
+claim,INC-APP-04,INC,Phase Insurgence,,Plausible,carried from INB-APP-04 unchanged,,APP
+claim,INC-APP-05,INC,Phase Insurgence,,Plausible,carried from INB-APP-05 unchanged,,APP
+claim,INC-APP-06,INC,Phase Insurgence,,Plausible,carried from INB-APP-06 unchanged,,APP
+claim,INC-APP-07,INC,Phase Insurgence,,Established,carried from INB-APP-07 unchanged,,APP
+claim,INC-APP-08,INC,Phase Insurgence,,Plausible,carried from INB-APP-08 unchanged,,APP
+claim,INC-APP-09,INC,Phase Insurgence,,Plausible,carried from INB-APP-09 unchanged,,APP
+claim,INC-APP-10,INC,Phase Insurgence,,Plausible,carried from INB-APP-10 unchanged,,APP
+claim,INC-APP-11,INC,Phase Insurgence,,Plausible,new in INC,,APP
+claim,INC-APP-12,INC,Phase Insurgence,,Plausible,new in INC,,APP
+claim,INC-APP-13,INC,Phase Insurgence,,Plausible,new in INC,,APP
+claim,INC-APP-14,INC,Phase Insurgence,,Plausible,new in INC,,APP
+claim,INC-HUM-01,INC,Phase Insurgence,,Established,carried from INB-HUM-01 unchanged,,HUM
+claim,INC-HUM-02,INC,Phase Insurgence,,Plausible,carried from INB-HUM-02 unchanged,,HUM
+claim,INC-HUM-03,INC,Phase Insurgence,,Plausible,carried from INB-HUM-03 unchanged,,HUM
+claim,INC-HUM-04,INC,Phase Insurgence,,Plausible,carried from INB-HUM-04 unchanged,,HUM
+claim,INC-HUM-05,INC,Phase Insurgence,,Plausible,carried from INB-HUM-05 unchanged,,HUM
+claim,INC-HUM-06,INC,Phase Insurgence,,Plausible,carried from INB-HUM-06 unchanged,,HUM
+claim,INC-HUM-07,INC,Phase Insurgence,,Plausible,carried from INB-HUM-07 unchanged,,HUM
+claim,INC-HUM-08,INC,Phase Insurgence,,Plausible,carried from INB-HUM-08 unchanged,,HUM
+claim,INC-HUM-09,INC,Phase Insurgence,,Plausible,carried from INB-HUM-09 unchanged,,HUM
+claim,INC-HUM-10,INC,Phase Insurgence,,Philosophical/Spiritual,new in INC,,HUM
+claim,INC-HUM-11,INC,Phase Insurgence,,Hypothetical,new in INC,,HUM
+claim,INC-HUM-12,INC,Phase Insurgence,,Plausible,new in INC,,HUM
+claim,INC-PHI-01,INC,Phase Insurgence,,Philosophical/Spiritual,carried from INB-PHI-01 unchanged,,PHI
+claim,INC-PHI-02,INC,Phase Insurgence,,Plausible,carried from INB-PHI-02 unchanged,,PHI
+claim,INC-PHI-03,INC,Phase Insurgence,,Plausible,carried from INB-PHI-03 unchanged,,PHI
+claim,INC-PHI-04,INC,Phase Insurgence,,Philosophical/Spiritual,carried from INB-PHI-04 unchanged,,PHI
+claim,INC-PHI-05,INC,Phase Insurgence,,Plausible,carried from INB-PHI-05 unchanged,,PHI
+claim,INC-PHI-06,INC,Phase Insurgence,,Plausible,carried from INB-PHI-06 unchanged,,PHI
+claim,INC-PHI-07,INC,Phase Insurgence,,Plausible,carried from INB-PHI-07 unchanged,,PHI
+claim,INC-PHI-08,INC,Phase Insurgence,,Philosophical/Spiritual,carried from INB-PHI-08 unchanged,,PHI
+claim,INC-PHI-09,INC,Phase Insurgence,,Plausible,carried from INB-PHI-09 unchanged,,PHI
+claim,INC-PHI-10,INC,Phase Insurgence,,Plausible,carried from INB-PHI-10 unchanged,,PHI
+claim,INC-PHI-11,INC,Phase Insurgence,,Plausible,new in INC,,PHI
+claim,INC-PHI-12,INC,Phase Insurgence,,Philosophical/Spiritual,new in INC,,PHI
+claim,INC-PHI-13,INC,Phase Insurgence,,Plausible,new in INC,,PHI
+claim,IND-NAT-01,IND,Phase Insurgence,,Established,carried from INC-NAT-01 unchanged,,NAT
+claim,IND-NAT-02,IND,Phase Insurgence,,Plausible,carried from INC-NAT-02 unchanged,,NAT
+claim,IND-NAT-03,IND,Phase Insurgence,,Plausible,carried from INC-NAT-03 unchanged,,NAT
+claim,IND-NAT-04,IND,Phase Insurgence,,Plausible,carried from INC-NAT-04 unchanged,,NAT
+claim,IND-NAT-05,IND,Phase Insurgence,,Established,carried from INC-NAT-05 unchanged,,NAT
+claim,IND-NAT-06,IND,Phase Insurgence,,Plausible,carried from INC-NAT-06 unchanged,,NAT
+claim,IND-NAT-07,IND,Phase Insurgence,,Plausible,carried from INC-NAT-07 unchanged,,NAT
+claim,IND-NAT-08,IND,Phase Insurgence,,Plausible,carried from INC-NAT-08 unchanged,,NAT
+claim,IND-NAT-09,IND,Phase Insurgence,,Established,carried from INC-NAT-09 unchanged,,NAT
+claim,IND-NAT-10,IND,Phase Insurgence,,Plausible,carried from INC-NAT-10 unchanged,,NAT
+claim,IND-NAT-11,IND,Phase Insurgence,,Plausible,carried from INC-NAT-11 unchanged,,NAT
+claim,IND-NAT-12,IND,Phase Insurgence,,Plausible,carried from INC-NAT-12 unchanged,,NAT
+claim,IND-NAT-13,IND,Phase Insurgence,,Plausible,new in IND,,NAT
+claim,IND-NAT-14,IND,Phase Insurgence,,Plausible,new in IND,,NAT
+claim,IND-FOR-01,IND,Phase Insurgence,,Established,carried from INC-FOR-01 unchanged,,FOR
+claim,IND-FOR-02,IND,Phase Insurgence,,Plausible,carried from INC-FOR-02 unchanged,,FOR
+claim,IND-FOR-03,IND,Phase Insurgence,,Plausible,carried from INC-FOR-03 unchanged,,FOR
+claim,IND-FOR-04,IND,Phase Insurgence,,Plausible,carried from INC-FOR-04 unchanged,,FOR
+claim,IND-FOR-05,IND,Phase Insurgence,,Plausible,carried from INC-FOR-05 unchanged,,FOR
+claim,IND-FOR-06,IND,Phase Insurgence,,Established,carried from INC-FOR-06 unchanged,,FOR
+claim,IND-FOR-07,IND,Phase Insurgence,,Plausible,carried from INC-FOR-07 unchanged,,FOR
+claim,IND-FOR-08,IND,Phase Insurgence,,Plausible,carried from INC-FOR-08 unchanged,,FOR
+claim,IND-FOR-09,IND,Phase Insurgence,,Plausible,carried from INC-FOR-09 unchanged,,FOR
+claim,IND-FOR-10,IND,Phase Insurgence,,Plausible,carried from INC-FOR-10 unchanged,,FOR
+claim,IND-FOR-11,IND,Phase Insurgence,,Established,new in IND,,FOR
+claim,IND-FOR-12,IND,Phase Insurgence,,Plausible,new in IND,,FOR
+claim,IND-FOR-13,IND,Phase Insurgence,,Plausible,new in IND,,FOR
+claim,IND-FOR-14,IND,Phase Insurgence,,Plausible,new in IND,,FOR
+claim,IND-SOC-01,IND,Phase Insurgence,,Plausible,carried from INC-SOC-01 unchanged,,SOC
+claim,IND-SOC-02,IND,Phase Insurgence,,Plausible,carried from INC-SOC-02 unchanged,,SOC
+claim,IND-SOC-03,IND,Phase Insurgence,,Established,carried from INC-SOC-03 unchanged,,SOC
+claim,IND-SOC-04,IND,Phase Insurgence,,Plausible,carried from INC-SOC-04 unchanged,,SOC
+claim,IND-SOC-05,IND,Phase Insurgence,,Plausible,carried from INC-SOC-05 unchanged,,SOC
+claim,IND-SOC-06,IND,Phase Insurgence,,Plausible,carried from INC-SOC-06 unchanged,,SOC
+claim,IND-SOC-07,IND,Phase Insurgence,,Plausible,carried from INC-SOC-07 unchanged,,SOC
+claim,IND-SOC-08,IND,Phase Insurgence,,Plausible,carried from INC-SOC-08 unchanged,,SOC
+claim,IND-SOC-09,IND,Phase Insurgence,,Plausible,carried from INC-SOC-09 unchanged,,SOC
+claim,IND-SOC-10,IND,Phase Insurgence,,Plausible,carried from INC-SOC-10 unchanged,,SOC
+claim,IND-SOC-11,IND,Phase Insurgence,,Plausible,carried from INC-SOC-11 unchanged,,SOC
+claim,IND-SOC-12,IND,Phase Insurgence,,Plausible,carried from INC-SOC-12 unchanged,,SOC
+claim,IND-SOC-13,IND,Phase Insurgence,,Hypothetical,carried from INC-SOC-13 unchanged,,SOC
+claim,IND-SOC-14,IND,Phase Insurgence,,Plausible,carried from INC-SOC-14 unchanged,,SOC
+claim,IND-SOC-15,IND,Phase Insurgence,,Plausible,new in IND,,SOC
+claim,IND-SOC-16,IND,Phase Insurgence,,Plausible,new in IND,,SOC
+claim,IND-SOC-17,IND,Phase Insurgence,,Plausible,new in IND,,SOC
+claim,IND-SOC-18,IND,Phase Insurgence,,Plausible,new in IND,,SOC
+claim,IND-SOC-19,IND,Phase Insurgence,,Plausible,new in IND,,SOC
+claim,IND-APP-01,IND,Phase Insurgence,,Established,carried from INC-APP-01 unchanged,,APP
+claim,IND-APP-02,IND,Phase Insurgence,,Plausible,carried from INC-APP-02 unchanged,,APP
+claim,IND-APP-03,IND,Phase Insurgence,,Established,carried from INC-APP-03 unchanged,,APP
+claim,IND-APP-04,IND,Phase Insurgence,,Plausible,carried from INC-APP-04 unchanged,,APP
+claim,IND-APP-05,IND,Phase Insurgence,,Plausible,carried from INC-APP-05 unchanged,,APP
+claim,IND-APP-06,IND,Phase Insurgence,,Plausible,carried from INC-APP-06 unchanged,,APP
+claim,IND-APP-07,IND,Phase Insurgence,,Established,carried from INC-APP-07 unchanged,,APP
+claim,IND-APP-08,IND,Phase Insurgence,,Plausible,carried from INC-APP-08 unchanged,,APP
+claim,IND-APP-09,IND,Phase Insurgence,,Plausible,carried from INC-APP-09 unchanged,,APP
+claim,IND-APP-10,IND,Phase Insurgence,,Plausible,carried from INC-APP-10 unchanged,,APP
+claim,IND-APP-11,IND,Phase Insurgence,,Plausible,carried from INC-APP-11 unchanged,,APP
+claim,IND-APP-12,IND,Phase Insurgence,,Plausible,carried from INC-APP-12 unchanged,,APP
+claim,IND-APP-13,IND,Phase Insurgence,,Plausible,carried from INC-APP-13 unchanged,,APP
+claim,IND-APP-14,IND,Phase Insurgence,,Plausible,carried from INC-APP-14 unchanged,,APP
+claim,IND-APP-15,IND,Phase Insurgence,,Plausible,new in IND,,APP
+claim,IND-HUM-01,IND,Phase Insurgence,,Established,carried from INC-HUM-01 unchanged,,HUM
+claim,IND-HUM-02,IND,Phase Insurgence,,Plausible,carried from INC-HUM-02 unchanged,,HUM
+claim,IND-HUM-03,IND,Phase Insurgence,,Plausible,carried from INC-HUM-03 unchanged,,HUM
+claim,IND-HUM-04,IND,Phase Insurgence,,Plausible,carried from INC-HUM-04 unchanged,,HUM
+claim,IND-HUM-05,IND,Phase Insurgence,,Plausible,carried from INC-HUM-05 unchanged,,HUM
+claim,IND-HUM-06,IND,Phase Insurgence,,Plausible,carried from INC-HUM-06 unchanged,,HUM
+claim,IND-HUM-07,IND,Phase Insurgence,,Plausible,carried from INC-HUM-07 unchanged,,HUM
+claim,IND-HUM-08,IND,Phase Insurgence,,Plausible,carried from INC-HUM-08 unchanged,,HUM
+claim,IND-HUM-09,IND,Phase Insurgence,,Plausible,carried from INC-HUM-09 unchanged,,HUM
+claim,IND-HUM-10,IND,Phase Insurgence,,Philosophical/Spiritual,carried from INC-HUM-10 unchanged,,HUM
+claim,IND-HUM-11,IND,Phase Insurgence,,Hypothetical,carried from INC-HUM-11 unchanged,,HUM
+claim,IND-HUM-12,IND,Phase Insurgence,,Plausible,carried from INC-HUM-12 unchanged,,HUM
+claim,IND-HUM-13,IND,Phase Insurgence,,Plausible,new in IND,,HUM
+claim,IND-PHI-01,IND,Phase Insurgence,,Philosophical/Spiritual,carried from INC-PHI-01 unchanged,,PHI
+claim,IND-PHI-02,IND,Phase Insurgence,,Plausible,carried from INC-PHI-02 unchanged,,PHI
+claim,IND-PHI-03,IND,Phase Insurgence,,Plausible,carried from INC-PHI-03 unchanged,,PHI
+claim,IND-PHI-04,IND,Phase Insurgence,,Philosophical/Spiritual,carried from INC-PHI-04 unchanged,,PHI
+claim,IND-PHI-05,IND,Phase Insurgence,,Plausible,carried from INC-PHI-05 unchanged,,PHI
+claim,IND-PHI-06,IND,Phase Insurgence,,Plausible,carried from INC-PHI-06 unchanged,,PHI
+claim,IND-PHI-07,IND,Phase Insurgence,,Plausible,carried from INC-PHI-07 unchanged,,PHI
+claim,IND-PHI-08,IND,Phase Insurgence,,Philosophical/Spiritual,carried from INC-PHI-08 unchanged,,PHI
+claim,IND-PHI-09,IND,Phase Insurgence,,Plausible,carried from INC-PHI-09 unchanged,,PHI
+claim,IND-PHI-10,IND,Phase Insurgence,,Plausible,carried from INC-PHI-10 unchanged,,PHI
+claim,IND-PHI-11,IND,Phase Insurgence,,Plausible,carried from INC-PHI-11 unchanged,,PHI
+claim,IND-PHI-12,IND,Phase Insurgence,,Philosophical/Spiritual,carried from INC-PHI-12 unchanged,,PHI
+claim,IND-PHI-13,IND,Phase Insurgence,,Plausible,carried from INC-PHI-13 unchanged,,PHI
+claim,IND-PHI-14,IND,Phase Insurgence,,Plausible,new in IND,,PHI
+claim,AL0-NAT-01,AL0,Phase Allegiance,,Established,new in AL0,,NAT
+claim,AL0-NAT-02,AL0,Phase Allegiance,,Plausible,new in AL0,,NAT
+claim,AL0-FOR-01,AL0,Phase Allegiance,,Established,new in AL0,,FOR
+claim,AL0-FOR-02,AL0,Phase Allegiance,,Plausible,new in AL0,,FOR
+claim,AL0-SOC-01,AL0,Phase Allegiance,,Plausible,new in AL0,,SOC
+claim,AL0-SOC-02,AL0,Phase Allegiance,,Hypothetical,new in AL0,,SOC
+claim,AL0-APP-01,AL0,Phase Allegiance,,Established,new in AL0,,APP
+claim,AL0-APP-02,AL0,Phase Allegiance,,Plausible,new in AL0,,APP
+claim,AL0-HUM-01,AL0,Phase Allegiance,,Plausible,new in AL0,,HUM
+claim,AL0-HUM-02,AL0,Phase Allegiance,,Plausible,new in AL0,,HUM
+claim,AL0-PHI-01,AL0,Phase Allegiance,,Philosophical/Spiritual,new in AL0,,PHI
+claim,AL0-PHI-02,AL0,Phase Allegiance,,Hypothetical,new in AL0,,PHI
+claim,ALA-NAT-01,ALA,Phase Allegiance,,Established,carried from AL0-NAT-01 unchanged (sources read in full in AL0; not re-read in ALA),,NAT
+claim,ALA-NAT-02,ALA,Phase Allegiance,,Plausible,carried from AL0-NAT-02 unchanged (sources read in full in AL0; not re-read in ALA),,NAT
+claim,ALA-NAT-03,ALA,Phase Allegiance,,Established,new in ALA,,NAT
+claim,ALA-NAT-04,ALA,Phase Allegiance,,Plausible,new in ALA,,NAT
+claim,ALA-NAT-05,ALA,Phase Allegiance,,Plausible,new in ALA,,NAT
+claim,ALA-NAT-06,ALA,Phase Allegiance,,Plausible,new in ALA,,NAT
+claim,ALA-FOR-01,ALA,Phase Allegiance,,Established,carried from AL0-FOR-01 unchanged (sources read in full in AL0; not re-read in ALA),,FOR
+claim,ALA-FOR-02,ALA,Phase Allegiance,,Plausible,carried from AL0-FOR-02 unchanged (sources read in full in AL0; not re-read in ALA),,FOR
+claim,ALA-FOR-03,ALA,Phase Allegiance,,Plausible,new in ALA,,FOR
+claim,ALA-FOR-04,ALA,Phase Allegiance,,Plausible,new in ALA,,FOR
+claim,ALA-SOC-01,ALA,Phase Allegiance,,Plausible,carried from AL0-SOC-01 unchanged (sources read in full in AL0; not re-read in ALA),,SOC
+claim,ALA-SOC-02,ALA,Phase Allegiance,,Hypothetical,carried from AL0-SOC-02 unchanged (sources read in full in AL0; not re-read in ALA),,SOC
+claim,ALA-SOC-03,ALA,Phase Allegiance,,Plausible,new in ALA,,SOC
+claim,ALA-SOC-04,ALA,Phase Allegiance,,Plausible,new in ALA,,SOC
+claim,ALA-SOC-05,ALA,Phase Allegiance,,Hypothetical,new in ALA,,SOC
+claim,ALA-SOC-06,ALA,Phase Allegiance,,Hypothetical,new in ALA,,SOC
+claim,ALA-APP-01,ALA,Phase Allegiance,,Established,carried from AL0-APP-01 unchanged (sources read in full in AL0; not re-read in ALA),,APP
+claim,ALA-APP-02,ALA,Phase Allegiance,,Plausible,carried from AL0-APP-02 unchanged (sources read in full in AL0; not re-read in ALA),,APP
+claim,ALA-APP-03,ALA,Phase Allegiance,,Plausible,new in ALA,,APP
+claim,ALA-APP-04,ALA,Phase Allegiance,,Plausible,new in ALA,,APP
+claim,ALA-APP-05,ALA,Phase Allegiance,,Plausible,new in ALA,,APP
+claim,ALA-HUM-01,ALA,Phase Allegiance,,Plausible,carried from AL0-HUM-01 unchanged (sources read in full in AL0; not re-read in ALA),,HUM
+claim,ALA-HUM-02,ALA,Phase Allegiance,,Plausible,carried from AL0-HUM-02 unchanged (sources read in full in AL0; not re-read in ALA),,HUM
+claim,ALA-HUM-03,ALA,Phase Allegiance,,Plausible,new in ALA,,HUM
+claim,ALA-HUM-04,ALA,Phase Allegiance,,Plausible,new in ALA,,HUM
+claim,ALA-HUM-05,ALA,Phase Allegiance,,Plausible,new in ALA,,HUM
+claim,ALA-PHI-01,ALA,Phase Allegiance,,Philosophical/Spiritual,carried from AL0-PHI-01 unchanged (sources read in full in AL0; not re-read in ALA),,PHI
+claim,ALA-PHI-02,ALA,Phase Allegiance,,Hypothetical,carried from AL0-PHI-02 unchanged (sources read in full in AL0; not re-read in ALA),,PHI
+claim,ALA-PHI-03,ALA,Phase Allegiance,,Hypothetical,new in ALA,,PHI
+claim,ALA-PHI-04,ALA,Phase Allegiance,,Hypothetical,new in ALA,,PHI
+claim,ALA-PHI-05,ALA,Phase Allegiance,,Hypothetical,new in ALA,,PHI
+claim,ALB-NAT-01,ALB,Phase Allegiance,,Established,carried from ALA-NAT-01 unchanged (sources not re-read in ALB),,NAT
+claim,ALB-NAT-02,ALB,Phase Allegiance,,Plausible,carried from ALA-NAT-02 unchanged (sources not re-read in ALB),,NAT
+claim,ALB-NAT-03,ALB,Phase Allegiance,,Established,carried from ALA-NAT-03 unchanged (sources not re-read in ALB),,NAT
+claim,ALB-NAT-04,ALB,Phase Allegiance,,Plausible,carried from ALA-NAT-04 unchanged (sources not re-read in ALB),,NAT
+claim,ALB-NAT-05,ALB,Phase Allegiance,,Plausible,carried from ALA-NAT-05 unchanged (sources not re-read in ALB),,NAT
+claim,ALB-NAT-06,ALB,Phase Allegiance,,Plausible,carried from ALA-NAT-06 unchanged (sources not re-read in ALB),,NAT
+claim,ALB-NAT-07,ALB,Phase Allegiance,,Plausible,new in ALB,,NAT
+claim,ALB-NAT-08,ALB,Phase Allegiance,,Plausible,new in ALB,,NAT
+claim,ALB-NAT-09,ALB,Phase Allegiance,,Plausible,new in ALB,,NAT
+claim,ALB-NAT-10,ALB,Phase Allegiance,,Plausible,new in ALB,,NAT
+claim,ALB-NAT-11,ALB,Phase Allegiance,,Plausible,new in ALB,,NAT
+claim,ALB-FOR-01,ALB,Phase Allegiance,,Established,carried from ALA-FOR-01 unchanged (sources not re-read in ALB),,FOR
+claim,ALB-FOR-02,ALB,Phase Allegiance,,Plausible,carried from ALA-FOR-02 unchanged (sources not re-read in ALB),,FOR
+claim,ALB-FOR-03,ALB,Phase Allegiance,,Plausible,carried from ALA-FOR-03 unchanged (sources not re-read in ALB),,FOR
+claim,ALB-FOR-04,ALB,Phase Allegiance,,Plausible,carried from ALA-FOR-04 unchanged (sources not re-read in ALB),,FOR
+claim,ALB-FOR-05,ALB,Phase Allegiance,,Plausible,new in ALB,,FOR
+claim,ALB-FOR-06,ALB,Phase Allegiance,,Plausible,new in ALB,,FOR
+claim,ALB-FOR-07,ALB,Phase Allegiance,,Established,new in ALB,,FOR
+claim,ALB-SOC-01,ALB,Phase Allegiance,,Plausible,carried from ALA-SOC-01 unchanged (sources not re-read in ALB),,SOC
+claim,ALB-SOC-02,ALB,Phase Allegiance,,Hypothetical,carried from ALA-SOC-02 unchanged (sources not re-read in ALB),,SOC
+claim,ALB-SOC-03,ALB,Phase Allegiance,,Plausible,carried from ALA-SOC-03 unchanged (sources not re-read in ALB),,SOC
+claim,ALB-SOC-04,ALB,Phase Allegiance,,Plausible,carried from ALA-SOC-04 unchanged (sources not re-read in ALB),,SOC
+claim,ALB-SOC-05,ALB,Phase Allegiance,,Hypothetical,carried from ALA-SOC-05 unchanged (sources not re-read in ALB),,SOC
+claim,ALB-SOC-06,ALB,Phase Allegiance,,Hypothetical,carried from ALA-SOC-06 unchanged (sources not re-read in ALB),,SOC
+claim,ALB-SOC-07,ALB,Phase Allegiance,,Plausible,new in ALB,,SOC
+claim,ALB-SOC-08,ALB,Phase Allegiance,,Plausible,new in ALB,,SOC
+claim,ALB-SOC-09,ALB,Phase Allegiance,,Hypothetical,new in ALB,,SOC
+claim,ALB-APP-01,ALB,Phase Allegiance,,Established,carried from ALA-APP-01 unchanged (sources not re-read in ALB),,APP
+claim,ALB-APP-02,ALB,Phase Allegiance,,Plausible,carried from ALA-APP-02 unchanged (sources not re-read in ALB),,APP
+claim,ALB-APP-03,ALB,Phase Allegiance,,Plausible,carried from ALA-APP-03 unchanged (sources not re-read in ALB),,APP
+claim,ALB-APP-04,ALB,Phase Allegiance,,Plausible,carried from ALA-APP-04 unchanged (sources not re-read in ALB),,APP
+claim,ALB-APP-05,ALB,Phase Allegiance,,Plausible,carried from ALA-APP-05 unchanged (sources not re-read in ALB),,APP
+claim,ALB-APP-06,ALB,Phase Allegiance,,Plausible,new in ALB,,APP
+claim,ALB-APP-07,ALB,Phase Allegiance,,Plausible,new in ALB,,APP
+claim,ALB-APP-08,ALB,Phase Allegiance,,Plausible,new in ALB,,APP
+claim,ALB-HUM-01,ALB,Phase Allegiance,,Plausible,carried from ALA-HUM-01 unchanged (sources not re-read in ALB),,HUM
+claim,ALB-HUM-02,ALB,Phase Allegiance,,Plausible,carried from ALA-HUM-02 unchanged (sources not re-read in ALB),,HUM
+claim,ALB-HUM-03,ALB,Phase Allegiance,,Plausible,carried from ALA-HUM-03 unchanged (sources not re-read in ALB),,HUM
+claim,ALB-HUM-04,ALB,Phase Allegiance,,Plausible,carried from ALA-HUM-04 unchanged (sources not re-read in ALB),,HUM
+claim,ALB-HUM-05,ALB,Phase Allegiance,,Plausible,carried from ALA-HUM-05 unchanged (sources not re-read in ALB),,HUM
+claim,ALB-HUM-06,ALB,Phase Allegiance,,Plausible,new in ALB,,HUM
+claim,ALB-HUM-07,ALB,Phase Allegiance,,Plausible,new in ALB,,HUM
+claim,ALB-PHI-01,ALB,Phase Allegiance,,Philosophical/Spiritual,carried from ALA-PHI-01 unchanged (sources not re-read in ALB),,PHI
+claim,ALB-PHI-02,ALB,Phase Allegiance,,Hypothetical,carried from ALA-PHI-02 unchanged (sources not re-read in ALB),,PHI
+claim,ALB-PHI-03,ALB,Phase Allegiance,,Hypothetical,carried from ALA-PHI-03 unchanged (sources not re-read in ALB),,PHI
+claim,ALB-PHI-04,ALB,Phase Allegiance,,Hypothetical,carried from ALA-PHI-04 unchanged (sources not re-read in ALB),,PHI
+claim,ALB-PHI-05,ALB,Phase Allegiance,,Hypothetical,carried from ALA-PHI-05 unchanged (sources not re-read in ALB),,PHI
+claim,ALB-PHI-06,ALB,Phase Allegiance,,Hypothetical,new in ALB,,PHI
+claim,ALB-PHI-08,ALB,Phase Allegiance,,Philosophical/Spiritual,new in ALB,,PHI
+claim,ALB-PHI-07,ALB,Phase Allegiance,,Hypothetical,new in ALB,,PHI
