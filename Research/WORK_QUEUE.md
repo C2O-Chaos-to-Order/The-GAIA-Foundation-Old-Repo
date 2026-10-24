@@ -120,6 +120,10 @@ Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline 
 - [ ] ⬜ **Safeguards and Limits** — the same seven levels; the Transformative and Protective Framework applied at each level
 - [ ] ⬜ **Virtues and Character** — the same seven levels; who holds the Knowledge, Skills, Capabilities and Powers
 
+### Added later
+
+- [ ] ⬜ **The Echo That Began the Light** — owner-requested 2026-10-24; scope to be confirmed with the owner (labelled claims only)
+
 ## L. Updates needed to existing work
 
 Found by checking the repository on 2026-10-24.
@@ -140,6 +144,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24 — Added The Echo That Began the Light.
 - 2026-10-24 — Added Knowledge, Skills, Capabilities and Powers series, recommendations, and the list of updates needed.
 - 2026-10-24 — Allegiance complete (x12 verified); Convergence started.
 - 2026-10-24 — Queue created from the owner's list (chat, 2026-10-24) and the DeepSeek history document.
