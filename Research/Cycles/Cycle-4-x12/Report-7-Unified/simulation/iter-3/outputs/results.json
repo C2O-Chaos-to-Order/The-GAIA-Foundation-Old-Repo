@@ -1,0 +1,55 @@
+{
+ "basis_labels": {
+  "C4-R2-01": "Plausible"
+ },
+ "r2_links": [
+  [
+   "L04",
+   "R1 Body",
+   "R2 Mind",
+   "Plausible"
+  ],
+  [
+   "L05",
+   "R1 Body",
+   "R2 Mind",
+   "Plausible"
+  ],
+  [
+   "L06",
+   "R1 Body",
+   "R2 Mind",
+   "Philosophical/Spiritual"
+  ],
+  [
+   "L07",
+   "R2 Mind",
+   "R5 Consciousness",
+   "Plausible"
+  ],
+  [
+   "L08",
+   "R2 Mind",
+   "R5 Consciousness",
+   "Plausible"
+  ],
+  [
+   "L09",
+   "R2 Mind",
+   "R3 Soul",
+   "Philosophical/Spiritual"
+  ],
+  [
+   "L25",
+   "R1 Body",
+   "R2 Mind",
+   "Plausible"
+  ],
+  [
+   "L28",
+   "R2 Mind",
+   "R2 Mind",
+   "Plausible"
+  ]
+ ]
+}
