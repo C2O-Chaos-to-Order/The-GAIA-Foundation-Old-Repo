@@ -11,7 +11,7 @@ import csv, glob, hashlib, json, os, re
 LABELS = {"Established": "E", "Plausible": "P", "Philosophical/Spiritual": "PS", "Hypothetical": "H"}
 REPORTS = {"R1": "Body", "R2": "Mind", "R3": "Soul", "R4": "Spirit", "R5": "Consciousness", "R6": "Earth", "R7": "Unified"}
 REPORT_DIRS = {f"R{i}": f"Report-{i}-{n}" for i, n in enumerate(REPORTS.values(), 1)}
-SIM_REF = re.compile(r"^(?P<c0>C0:)?(?P<sim>SIM-R[1-7]-C\d+)(?:/iter-(?P<it>\d+))?#(?P<chk>[A-Za-z0-9_]+)$")
+SIM_REF = re.compile(r"^(?P<c0>C0:)?(?P<sim>SIM-R[1-7]-C\d+)(?:/iter-(?P<it>\d+))?#(?P<chk>[A-Za-z0-9_.]+)$")
 
 
 def sha256_file(p):
@@ -112,3 +112,17 @@ def check_index(cycle_path, cycle_id):
         for c in rec["pre_registered_checks"]:
             out[f"{key}#{c['id']}"] = c
     return out
+
+
+def lookup_sim(ref, cycle_id, index_for):
+    """Resolve a SIM citation (data model 1.1.0).
+    'C0:SIM-...' -> Cycle-0 records (1.0.0 convention, kept). Otherwise the cycle embedded in the SIM id
+    (SIM-Rk-C<n>) selects the records: C<n> == citing cycle -> its own records; an earlier C<n> -> that cycle's
+    records (carried claims cite earlier runs without a prefix). index_for(cycle_id) returns a check index or {}."""
+    m = SIM_REF.match(ref)
+    if not m:
+        return None
+    if m.group("c0"):
+        return index_for("C0").get(ref[3:])
+    sim_cycle = "C" + re.search(r"-C(\d+)$", m.group("sim")).group(1)
+    return index_for(sim_cycle if sim_cycle != cycle_id else cycle_id).get(ref)

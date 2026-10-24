@@ -16,8 +16,27 @@ import argparse, json, os, re, sys
 from . import data as D
 
 
+def parse_phrases(field):
+    """'SRC|phrase || SRC|phrase' -> ['SRC|phrase', ...]. Fields starting 'n/a' (simulation claims) give [].
+    (0.1.0 split on ';', which mis-parsed the ' || ' separator used in the ledgers; fixed in 0.2.0.)"""
+    f = (field or "").strip()
+    if not f or f.lower().startswith("n/a"):
+        return []
+    return [p.strip() for p in f.split("||") if "|" in p]
+
+
 def _norm(t):
     return re.sub(r"\s+", " ", t).strip().lower()
+
+
+def phrase_found(phrase, text):
+    """Ledger phrases are regular expressions (e.g. '8\\.7 million'); match case-insensitively on whitespace-normalised
+    text, falling back to a literal substring test if the phrase is not a valid regex."""
+    t = _norm(text); p = _norm(phrase)
+    try:
+        return re.search(p, t) is not None or p in t
+    except re.error:
+        return p in t
 
 
 def check(research_dir, cycle_id, snapshots=None):
@@ -33,7 +52,8 @@ def check(research_dir, cycle_id, snapshots=None):
         for sid in ids:
             m = D.SIM_REF.match(sid)
             if m:
-                c = (c0 if m.group("c0") else checks).get(sid[3:] if m.group("c0") else sid)
+                c = D.lookup_sim(sid, cycle_id, lambda x: checks if x == cycle_id else (c0 if x == "C0" else
+                                 (D.check_index(cyc[x], x) if x in cyc else {})))
                 if c is None:
                     unresolved.append(sid)
                 else:
@@ -54,7 +74,7 @@ def check(research_dir, cycle_id, snapshots=None):
         else:
             res["K-sim"] = "n/a"
         if snapshots:
-            phr = [p for p in r["verification_phrases"].split(";") if "|" in p]
+            phr = parse_phrases(r["verification_phrases"])
             if not phr:
                 res["K-phrase"] = "n/a"
             else:
@@ -63,7 +83,7 @@ def check(research_dir, cycle_id, snapshots=None):
                     sid, phrase = p.split("|", 1)
                     f = os.path.join(snapshots, f"{sid.strip()}.txt")
                     rs.append("Indeterminate" if not os.path.exists(f) else
-                              ("Pass" if _norm(phrase) in _norm(open(f, encoding="utf-8", errors="ignore").read()) else "Fail"))
+                              ("Pass" if phrase_found(phrase, open(f, encoding="utf-8", errors="ignore").read()) else "Fail"))
                 res["K-phrase"] = "Fail" if "Fail" in rs else ("Indeterminate" if "Indeterminate" in rs else "Pass")
         out.append(dict(claim_id=r["claim_id"], label=r["framework_label"], results=res, unresolved=unresolved,
                         not_supported_cited=ns))
