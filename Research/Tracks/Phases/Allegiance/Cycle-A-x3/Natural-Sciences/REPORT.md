@@ -1,0 +1,33 @@
+# Allegiance in the Natural Sciences — Cycle-A-x3 (ALA)
+
+Phase report: Allegiance (`../../README.md`). Definitions and competing definitions: `../DEFINITIONS.md`. Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA's Phase axis is a framework category (PS), kept separate from the findings.
+
+## Reading of this cycle
+x3: MWC (P53) explains cooperativity by a T-to-R switch with non-cooperative binding inside each state; P53's rounded values overshoot Hb's n, the TTS values come close (2.55) and make cooperativity fall as L rises.
+
+## Claims (ledger: `claims/claims.csv`)
+- **ALA-NAT-01** [E] Cooperative binding is described by the Hill equation Y = L^n/(Kd + L^n), with Kd = P50^n, and the Hill coefficient n is the slope of the Hill plot log(Y/(1-Y)) vs log L; for haemoglobin a fit gives n = 2.8, but the real Hill plot is curvilinear: its ends approach slope 1 and its slope is highest in the middle, so cooperativity is maximal near half-saturation. *Operationalization:* NAT Allegiance = cooperative binding (each bond makes the next more likely). *Sources:* P46. *Limits:* Textbook page; the Hill equation is an approximation (P46 notes it is not a mechanism). P46 contains a slip ('log 1 = log 100 = 0') and typos; reading binding as 'allegiance' is this track's operationalization.
+- **ALA-NAT-03** [E] In the MWC model haemoglobin switches between a low-affinity T and a high-affinity R quaternary state (approximately K_T 0.001 and K_R 1 per Torr, L = [T0]/[R0] about 5 x 10^5); binding within each state is non-cooperative, and cooperativity comes from the shift from T to R as oxygen binds. After a 30-year controversy, single-crystal and gel experiments confirmed non-cooperative binding to T; MWC's failure is that protons and 2,3-DPG change K_T as well as L, and the tertiary two-state (TTS) model adds tertiary conformations within each quaternary state. *Operationalization:* NAT Allegiance = cooperative binding through a shared conformational switch. *Sources:* P53. *Limits:* Historical review with simplifications the author acknowledges; slips: 'delta T = delta T = 1' (should pair delta T and delta R), 'confromation', 'when oxygen bounds'.
+- **ALA-NAT-02** [P] A four-site Adair model with stepwise constants rising 100-fold (0.02, 0.05, 0.2, 2.0) reproduced P46's qualitative Hill plot: end slopes 1.0001, maximal slope 3.63 at log L = 0.883, 0.03 log units from half-saturation (0.853); independent sites gave slope 1.000 throughout, and the Hill equation gave Y = 0.5 at P50 with Kd = P50^n. *Operationalization:* NAT Allegiance = cooperative binding. *Sources:* SIM-AL-NAT-0/iter-1#V1;SIM-AL-NAT-0/iter-1#H1;SIM-AL-NAT-0/iter-1#H2;SIM-AL-NAT-0/iter-1#H3. *Limits:* Constants are the agent's choice, not haemoglobin data; Adair's polynomial is standard theory not stated in P46.
+- **ALA-NAT-04** [P] With P53's approximate MWC values the Hill plot has end slopes 1.000 and P50 26 Torr, and binding within T alone or R alone has slope 1 (within 0.0004), but the maximal Hill slope is 3.64, not within 0.5 of P46's 2.8 (not supported), and changing only L from 5 x 10^4 to 5 x 10^6 changed it by only 0.08 (3.56-3.64; not supported): near L c^2 = 1 the maximal slope is insensitive to L. *Operationalization:* NAT Allegiance = MWC cooperativity. *Sources:* SIM-AL-NAT-A/iter-1#V1;SIM-AL-NAT-A/iter-1#H1;SIM-AL-NAT-A/iter-1#H2;SIM-AL-NAT-A/iter-1#H3. *Limits:* P53's values are order-of-magnitude ('~'); P46's 2.8 is a fit to real Hb. Both outcomes were known from the smoke test.
+- **ALA-NAT-05** [P] With P53's approximate TTS values the maximal Hill slope is 2.55, within 0.5 of 2.8, with end slopes 1 and non-cooperative binding inside each quaternary state; unlike MWC near its optimum, the TTS maximal slope falls steadily as L rises (2.88, 2.55, 1.94 for L = 10^5, 10^6, 10^7), so allosteric effectors that raise L also lower cooperativity, in line with P53's point that n depends on conditions. *Operationalization:* NAT Allegiance = cooperative binding with tertiary switches. *Sources:* SIM-AL-NAT-A/iter-2#V1;SIM-AL-NAT-A/iter-2#H1;SIM-AL-NAT-A/iter-2#H2;SIM-AL-NAT-A/iter-2#H3. *Limits:* The fraction layout of Eq. (13) is lost in the extracted text; the agent's reading (T term scaled by L / l_T^4) is disclosed.
+- **ALA-NAT-06** [P] Replication of AL0-NAT-02 with different Adair constants (0.1, 0.2, 0.4, 1.0): end slopes 1.0001, maximal slope 3.02 at 0.007 log units from half-saturation, independent sites slope 1.000. *Operationalization:* NAT Allegiance = cooperative binding (replication). *Sources:* SIM-AL-NAT-A/iter-3#V1;SIM-AL-NAT-A/iter-3#H1;SIM-AL-NAT-A/iter-3#H2;SIM-AL-NAT-A/iter-3#H3. *Limits:* Agent-chosen constants; replication only.
+
+## Simulations (SIM-AL-NAT-A; 3 iteration(s), spec-first; validation 3/3, hypotheses supported 7/9)
+
+| iter | params | purpose | checks |
+|---|---|---|---|
+| 1 | `b99ad3ad` | MWC model with P53's approximate haemoglobin values (K_T 0.001, K_R 1 per Torr, L 5e5): is binding non-cooperative within each quaternary state but cooperative overall, with end slopes 1, a maximal Hill slope near P46's 2.8, and a maximal slope that changes when only L changes? | V1 Pass; H1 Supported; H2 Not supported; H3 Not supported; R1 Reported |
+| 2 | `7d74a997` | Tertiary two-state (TTS) model with P53's approximate values (L 1e6, l_T 200, l_R 0.3, K_t 0.02, K_r 5): does adding tertiary pre-equilibria inside each quaternary state keep non-cooperative binding within states while giving a maximal Hill slope near 2.8? | V1 Pass; H1 Supported; H2 Supported; H3 Supported; R1 Reported |
+| 3 | `8c67799d` | Adair variant with mild cooperativity (stepwise constants 0.1, 0.2, 0.4, 1.0): does the Hill plot keep end slopes 1 and a central maximum between 1 and 4? | V1 Pass; H1 Supported; H2 Supported; H3 Supported; R1 Reported |
+
+Each `simulation/iter-k/SPEC.md` was written before execution and holds the parameters; `EXECUTION_RECORD.json` holds results, checks and hashes. 'Not supported' is a finding, not an error.
+
+## Research passes (3; details `research/PASSES.md`)
+- Pass 1: ALA-NAT-03 (MWC and TTS models sourced) and ALA-NAT-04 (MWC with P53's values: max slope 3.64, not near 2.8; insensitive to L near its optimum).
+- Pass 2: ALA-NAT-05: TTS with P53's values gives max slope 2.55 and cooperativity falling as L rises.
+- Pass 3: Added nothing new: Adair replication with other constants (ALA-NAT-06) only confirms AL0-NAT-02; no source on other physical senses of allegiance was searched.
+
+## Unresolved
+- MWC with P53's rounded values overshoots Hb's n = 2.8; fitted parameter sets not sourced.
+- Eq. (13) reading depends on the agent's reconstruction of a fraction.
