@@ -1,0 +1,107 @@
+{
+ "sim_id": "SIM-AS-FOR-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:28.384179+00:00",
+ "finished_utc": "2026-10-24T23:40:32.099509+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "3eb4dac1de55db79cfa296f5c10632253415c65b7664550a9c05738609905401",
+ "params_sha256": "6ac152fe431b4f85d4a551547d54bc122c74eb47501effc41b2d6c8a64390fd9",
+ "results_sha256": "74b31b0beaf563e70343854a3a580e99a8f2ae18e8f25c291b19ebe11280d6a4",
+ "results": {
+  "ex3_h_maxrelerr": 0.0,
+  "ex3_contraction_maxrelerr": 0.0,
+  "ex5_max_gen_eig": -4.0,
+  "z_ratio_t1": 0.13533528,
+  "e_minus2": 0.13533528,
+  "t_natural": 5.486,
+  "t_gradient": 23.4678,
+  "gd_end": [
+   0.999955,
+   0.999911
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Example 3 in z-coordinates: |z(1)|/|z(0)| = e^-2 within 1e-6 (natural gradient flow, RK4)",
+   "observed": [
+    0.13533528,
+    0.13533528
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "box [-10, 10]^2: Example 3 identity holds (max rel. error < 1e-9)",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "box [-10, 10]^2: Example 5's largest generalized eigenvalue <= -4 + 1e-9 (rate 2 globally on the box)",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
