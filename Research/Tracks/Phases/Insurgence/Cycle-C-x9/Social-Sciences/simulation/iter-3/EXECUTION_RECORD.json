@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-IN-SOC-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:48:43.450569+00:00",
+ "finished_utc": "2026-10-24T17:48:43.507728+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "f4d64eb7bd8465e04afcea97380f437ce1f49c86c23e9b30c6c076a42b283db0",
+ "params_sha256": "279584eb018d49d4a2e32fd773a48bcb039f5eef54084f0a8150b25d73429421",
+ "results_sha256": "02b55dfc92966164da7caf879cc42845d2d7ddf102e9cf9a8bb617d8d7454c1a",
+ "results": {
+  "sets": {
+   "none17": {
+    "escalation": false,
+    "eta": 1.7,
+    "q": 0.47,
+    "alpha_hat": 1.69547962,
+    "se": 0.00343184,
+    "n_tail": 41069,
+    "median_X": 5222.16760958,
+    "share_over_1e6": 0.01262,
+    "x1_alpha_hat": 1.70270144
+   },
+   "esc17": {
+    "escalation": true,
+    "eta": 1.7,
+    "q": 0.47,
+    "alpha_hat": 1.57175946,
+    "se": 0.00268993,
+    "n_tail": 45180,
+    "median_X": 5846.54713407,
+    "share_over_1e6": 0.02459,
+    "x1_alpha_hat": 1.70065441
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "MLE recovers eta from the initial sizes alone (within 4 SE + 0.02) for the first set",
+   "observed": [
+    1.70270144,
+    1.7
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no-escalation tail at least 0.2 steeper than with escalation",
+   "observed": {
+    "none17": 1.69547962,
+    "esc17": 1.57175946
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "none17": {
+     "escalation": false,
+     "eta": 1.7,
+     "q": 0.47,
+     "alpha_hat": 1.69547962,
+     "se": 0.00343184,
+     "n_tail": 41069,
+     "median_X": 5222.16760958,
+     "share_over_1e6": 0.01262,
+     "x1_alpha_hat": 1.70270144
+    },
+    "esc17": {
+     "escalation": true,
+     "eta": 1.7,
+     "q": 0.47,
+     "alpha_hat": 1.57175946,
+     "se": 0.00268993,
+     "n_tail": 45180,
+     "median_X": 5846.54713407,
+     "share_over_1e6": 0.02459,
+     "x1_alpha_hat": 1.70065441
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
