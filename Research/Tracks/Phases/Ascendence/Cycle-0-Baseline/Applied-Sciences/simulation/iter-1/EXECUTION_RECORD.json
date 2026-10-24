@@ -1,0 +1,658 @@
+{
+ "sim_id": "SIM-AS-APP-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:54:11.477149+00:00",
+ "finished_utc": "2026-10-24T22:54:11.929826+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "f3cfc9bf21e7aadcaf2bcc08cc18d775e1b097c8ef43d15dbb7b0fcee73a92aa",
+ "params_sha256": "5d3347b92f15d8d0ad183b785be3d7ce6d32211a3057a27a88ea819ff0eb0d94",
+ "results_sha256": "f03427bafe39d93aa25a5c8bc56d4fe7f42a0b49e481f6771aa35086a9437277",
+ "results": {
+  "items": {
+   "OR_ascent": {
+    "value": 3.126768,
+    "printed": 3.13,
+    "diff": -0.003232
+   },
+   "OR_smoking": {
+    "value": 0.162026,
+    "printed": 0.16,
+    "diff": 0.002026
+   },
+   "AMS_cases": {
+    "value": 78.015,
+    "printed": 78,
+    "diff": 0.015
+   },
+   "mild_n": {
+    "value": 47.97,
+    "printed": 48,
+    "diff": -0.03
+   },
+   "moderate_n": {
+    "value": 28.002,
+    "printed": 28,
+    "diff": 0.002
+   },
+   "severe_n": {
+    "value": 2.028,
+    "printed": 2,
+    "diff": 0.028
+   },
+   "p_age": {
+    "value": 0.037659,
+    "printed": 0.05,
+    "diff": -0.012341
+   },
+   "p_smoking": {
+    "value": 0.01553,
+    "printed": 0.015,
+    "diff": 0.00053
+   },
+   "p_alcohol": {
+    "value": 8.3e-05,
+    "printed": 0.001,
+    "diff": -0.000917
+   },
+   "p_spo2_t": {
+    "value": 0.224497,
+    "printed": 0.224,
+    "diff": 0.000497
+   },
+   "P_modsev_1day_ln": {
+    "value": 0.872855,
+    "printed": null,
+    "diff": null
+   },
+   "P_modsev_3day_ln": {
+    "value": 0.416578,
+    "printed": null,
+    "diff": null
+   },
+   "risk_ratio_ln": {
+    "value": 2.095298,
+    "printed": 2.069,
+    "diff": 0.026298
+   },
+   "odds_ratio_ln": {
+    "value": 9.614573,
+    "printed": 2.069,
+    "diff": 7.545573
+   },
+   "risk_ratio_log10": {
+    "value": 1.781707,
+    "printed": 2.069,
+    "diff": -0.287293
+   },
+   "odds_ratio_closed_form": {
+    "value": 9.614573,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "odds ratios exp(B) reproduce the printed 3.13 and 0.16 within 0.01",
+   "observed": {
+    "items": {
+     "OR_ascent": {
+      "value": 3.126768,
+      "printed": 3.13,
+      "diff": -0.003232
+     },
+     "OR_smoking": {
+      "value": 0.162026,
+      "printed": 0.16,
+      "diff": 0.002026
+     },
+     "AMS_cases": {
+      "value": 78.015,
+      "printed": 78,
+      "diff": 0.015
+     },
+     "mild_n": {
+      "value": 47.97,
+      "printed": 48,
+      "diff": -0.03
+     },
+     "moderate_n": {
+      "value": 28.002,
+      "printed": 28,
+      "diff": 0.002
+     },
+     "severe_n": {
+      "value": 2.028,
+      "printed": 2,
+      "diff": 0.028
+     },
+     "p_age": {
+      "value": 0.037659,
+      "printed": 0.05,
+      "diff": -0.012341
+     },
+     "p_smoking": {
+      "value": 0.01553,
+      "printed": 0.015,
+      "diff": 0.00053
+     },
+     "p_alcohol": {
+      "value": 8.3e-05,
+      "printed": 0.001,
+      "diff": -0.000917
+     },
+     "p_spo2_t": {
+      "value": 0.224497,
+      "printed": 0.224,
+      "diff": 0.000497
+     },
+     "P_modsev_1day_ln": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_modsev_3day_ln": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "risk_ratio_ln": {
+      "value": 2.095298,
+      "printed": 2.069,
+      "diff": 0.026298
+     },
+     "odds_ratio_ln": {
+      "value": 9.614573,
+      "printed": 2.069,
+      "diff": 7.545573
+     },
+     "risk_ratio_log10": {
+      "value": 1.781707,
+      "printed": 2.069,
+      "diff": -0.287293
+     },
+     "odds_ratio_closed_form": {
+      "value": 9.614573,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the severity percentages give whole counts that add up: 74.3% of 105 and 61.5/35.9/2.6% of 78 each within 0.1 of an integer, summing to 78",
+   "observed": {
+    "items": {
+     "OR_ascent": {
+      "value": 3.126768,
+      "printed": 3.13,
+      "diff": -0.003232
+     },
+     "OR_smoking": {
+      "value": 0.162026,
+      "printed": 0.16,
+      "diff": 0.002026
+     },
+     "AMS_cases": {
+      "value": 78.015,
+      "printed": 78,
+      "diff": 0.015
+     },
+     "mild_n": {
+      "value": 47.97,
+      "printed": 48,
+      "diff": -0.03
+     },
+     "moderate_n": {
+      "value": 28.002,
+      "printed": 28,
+      "diff": 0.002
+     },
+     "severe_n": {
+      "value": 2.028,
+      "printed": 2,
+      "diff": 0.028
+     },
+     "p_age": {
+      "value": 0.037659,
+      "printed": 0.05,
+      "diff": -0.012341
+     },
+     "p_smoking": {
+      "value": 0.01553,
+      "printed": 0.015,
+      "diff": 0.00053
+     },
+     "p_alcohol": {
+      "value": 8.3e-05,
+      "printed": 0.001,
+      "diff": -0.000917
+     },
+     "p_spo2_t": {
+      "value": 0.224497,
+      "printed": 0.224,
+      "diff": 0.000497
+     },
+     "P_modsev_1day_ln": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_modsev_3day_ln": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "risk_ratio_ln": {
+      "value": 2.095298,
+      "printed": 2.069,
+      "diff": 0.026298
+     },
+     "odds_ratio_ln": {
+      "value": 9.614573,
+      "printed": 2.069,
+      "diff": 7.545573
+     },
+     "risk_ratio_log10": {
+      "value": 1.781707,
+      "printed": 2.069,
+      "diff": -0.287293
+     },
+     "odds_ratio_closed_form": {
+      "value": 9.614573,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the printed test statistics give p-values consistent with the text (age < 0.05; smoking within 0.001 of 0.015; alcohol < 0.001; SpO2 t within 0.001 of 0.224)",
+   "observed": {
+    "items": {
+     "OR_ascent": {
+      "value": 3.126768,
+      "printed": 3.13,
+      "diff": -0.003232
+     },
+     "OR_smoking": {
+      "value": 0.162026,
+      "printed": 0.16,
+      "diff": 0.002026
+     },
+     "AMS_cases": {
+      "value": 78.015,
+      "printed": 78,
+      "diff": 0.015
+     },
+     "mild_n": {
+      "value": 47.97,
+      "printed": 48,
+      "diff": -0.03
+     },
+     "moderate_n": {
+      "value": 28.002,
+      "printed": 28,
+      "diff": 0.002
+     },
+     "severe_n": {
+      "value": 2.028,
+      "printed": 2,
+      "diff": 0.028
+     },
+     "p_age": {
+      "value": 0.037659,
+      "printed": 0.05,
+      "diff": -0.012341
+     },
+     "p_smoking": {
+      "value": 0.01553,
+      "printed": 0.015,
+      "diff": 0.00053
+     },
+     "p_alcohol": {
+      "value": 8.3e-05,
+      "printed": 0.001,
+      "diff": -0.000917
+     },
+     "p_spo2_t": {
+      "value": 0.224497,
+      "printed": 0.224,
+      "diff": 0.000497
+     },
+     "P_modsev_1day_ln": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_modsev_3day_ln": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "risk_ratio_ln": {
+      "value": 2.095298,
+      "printed": 2.069,
+      "diff": 0.026298
+     },
+     "odds_ratio_ln": {
+      "value": 9.614573,
+      "printed": 2.069,
+      "diff": 7.545573
+     },
+     "risk_ratio_log10": {
+      "value": 1.781707,
+      "printed": 2.069,
+      "diff": -0.287293
+     },
+     "odds_ratio_closed_form": {
+      "value": 9.614573,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "model-4 point estimates (natural logs) give a moderate/severe risk ratio within 0.05 of the printed 2.069 (1-day vs 3-day Pokhara-Muktinath)",
+   "observed": {
+    "items": {
+     "OR_ascent": {
+      "value": 3.126768,
+      "printed": 3.13,
+      "diff": -0.003232
+     },
+     "OR_smoking": {
+      "value": 0.162026,
+      "printed": 0.16,
+      "diff": 0.002026
+     },
+     "AMS_cases": {
+      "value": 78.015,
+      "printed": 78,
+      "diff": 0.015
+     },
+     "mild_n": {
+      "value": 47.97,
+      "printed": 48,
+      "diff": -0.03
+     },
+     "moderate_n": {
+      "value": 28.002,
+      "printed": 28,
+      "diff": 0.002
+     },
+     "severe_n": {
+      "value": 2.028,
+      "printed": 2,
+      "diff": 0.028
+     },
+     "p_age": {
+      "value": 0.037659,
+      "printed": 0.05,
+      "diff": -0.012341
+     },
+     "p_smoking": {
+      "value": 0.01553,
+      "printed": 0.015,
+      "diff": 0.00053
+     },
+     "p_alcohol": {
+      "value": 8.3e-05,
+      "printed": 0.001,
+      "diff": -0.000917
+     },
+     "p_spo2_t": {
+      "value": 0.224497,
+      "printed": 0.224,
+      "diff": 0.000497
+     },
+     "P_modsev_1day_ln": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_modsev_3day_ln": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "risk_ratio_ln": {
+      "value": 2.095298,
+      "printed": 2.069,
+      "diff": 0.026298
+     },
+     "odds_ratio_ln": {
+      "value": 9.614573,
+      "printed": 2.069,
+      "diff": 7.545573
+     },
+     "risk_ratio_log10": {
+      "value": 1.781707,
+      "printed": 2.069,
+      "diff": -0.287293
+     },
+     "odds_ratio_closed_form": {
+      "value": 9.614573,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "P88's wording 'odds ... increase twofold (2.069)' holds as an odds ratio: point-estimate odds ratio within 0.5 of 2.069",
+   "observed": {
+    "items": {
+     "OR_ascent": {
+      "value": 3.126768,
+      "printed": 3.13,
+      "diff": -0.003232
+     },
+     "OR_smoking": {
+      "value": 0.162026,
+      "printed": 0.16,
+      "diff": 0.002026
+     },
+     "AMS_cases": {
+      "value": 78.015,
+      "printed": 78,
+      "diff": 0.015
+     },
+     "mild_n": {
+      "value": 47.97,
+      "printed": 48,
+      "diff": -0.03
+     },
+     "moderate_n": {
+      "value": 28.002,
+      "printed": 28,
+      "diff": 0.002
+     },
+     "severe_n": {
+      "value": 2.028,
+      "printed": 2,
+      "diff": 0.028
+     },
+     "p_age": {
+      "value": 0.037659,
+      "printed": 0.05,
+      "diff": -0.012341
+     },
+     "p_smoking": {
+      "value": 0.01553,
+      "printed": 0.015,
+      "diff": 0.00053
+     },
+     "p_alcohol": {
+      "value": 8.3e-05,
+      "printed": 0.001,
+      "diff": -0.000917
+     },
+     "p_spo2_t": {
+      "value": 0.224497,
+      "printed": 0.224,
+      "diff": 0.000497
+     },
+     "P_modsev_1day_ln": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_modsev_3day_ln": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "risk_ratio_ln": {
+      "value": 2.095298,
+      "printed": 2.069,
+      "diff": 0.026298
+     },
+     "odds_ratio_ln": {
+      "value": 9.614573,
+      "printed": 2.069,
+      "diff": 7.545573
+     },
+     "risk_ratio_log10": {
+      "value": 1.781707,
+      "printed": 2.069,
+      "diff": -0.287293
+     },
+     "odds_ratio_closed_form": {
+      "value": 9.614573,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "OR_ascent": {
+      "value": 3.126768,
+      "printed": 3.13,
+      "diff": -0.003232
+     },
+     "OR_smoking": {
+      "value": 0.162026,
+      "printed": 0.16,
+      "diff": 0.002026
+     },
+     "AMS_cases": {
+      "value": 78.015,
+      "printed": 78,
+      "diff": 0.015
+     },
+     "mild_n": {
+      "value": 47.97,
+      "printed": 48,
+      "diff": -0.03
+     },
+     "moderate_n": {
+      "value": 28.002,
+      "printed": 28,
+      "diff": 0.002
+     },
+     "severe_n": {
+      "value": 2.028,
+      "printed": 2,
+      "diff": 0.028
+     },
+     "p_age": {
+      "value": 0.037659,
+      "printed": 0.05,
+      "diff": -0.012341
+     },
+     "p_smoking": {
+      "value": 0.01553,
+      "printed": 0.015,
+      "diff": 0.00053
+     },
+     "p_alcohol": {
+      "value": 8.3e-05,
+      "printed": 0.001,
+      "diff": -0.000917
+     },
+     "p_spo2_t": {
+      "value": 0.224497,
+      "printed": 0.224,
+      "diff": 0.000497
+     },
+     "P_modsev_1day_ln": {
+      "value": 0.872855,
+      "printed": null,
+      "diff": null
+     },
+     "P_modsev_3day_ln": {
+      "value": 0.416578,
+      "printed": null,
+      "diff": null
+     },
+     "risk_ratio_ln": {
+      "value": 2.095298,
+      "printed": 2.069,
+      "diff": 0.026298
+     },
+     "odds_ratio_ln": {
+      "value": 9.614573,
+      "printed": 2.069,
+      "diff": 7.545573
+     },
+     "risk_ratio_log10": {
+      "value": 1.781707,
+      "printed": 2.069,
+      "diff": -0.287293
+     },
+     "odds_ratio_closed_form": {
+      "value": 9.614573,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 7,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 5,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
