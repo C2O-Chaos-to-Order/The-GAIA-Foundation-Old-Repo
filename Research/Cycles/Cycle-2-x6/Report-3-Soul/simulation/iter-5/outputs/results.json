@@ -1,0 +1,13 @@
+{
+ "carried_from_prev": {},
+ "n_cells": 48,
+ "typology": {
+  "ARI_with_B_substituted": 1.0,
+  "n_flipped": 5,
+  "null_random_flips": {
+   "median": 0.728358209,
+   "p05": 0.3566815698,
+   "p95": 1.0
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "coding_b": "../data/coding_b_sample.csv",
+ "experiments": {
+  "typology": {
+   "reps": 2000,
+   "seed": 5
+  }
+ },
+ "iteration": 5,
+ "prev": "../iter-4",
+ "sample": "../data/sample_c2.json",
+ "sim_id": "SIM-R3-C2"
+}
