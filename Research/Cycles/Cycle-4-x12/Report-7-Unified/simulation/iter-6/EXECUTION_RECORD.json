@@ -1,0 +1,39 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:30.554506+00:00",
+ "finished_utc": "2026-10-24T04:22:30.601560+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-6",
+ "params_sha256": "f2c491a284ef1a611e693ccaeb377e880e245f82af8351ae2874cf5b9dfbfaea",
+ "outputs": {
+  "outputs/results.json": "e869669a772e9c6dfb25acd0ac7acda005838325b3e2a8a46402a276c8ba6449"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "the one Being x Lens cell still EMPTY in Maps v3 (Body x Justice) is populated by Cycle-4 claims (keyword rule v1.0.1)",
+   "observed": [
+    [],
+    [
+     "BodyxJustice"
+    ]
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
