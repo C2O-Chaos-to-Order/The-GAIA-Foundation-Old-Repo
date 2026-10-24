@@ -1,0 +1,156 @@
+{
+ "sim_id": "SIM-IN-NAT-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:00:00.130254+00:00",
+ "finished_utc": "2026-10-24T17:00:00.180774+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "aa4bfeddc9d11524a10384b74dc820336c0ba624117b8fc569df84b0917cb714",
+ "params_sha256": "c47934770da9934a0032209200b23e48ae4edf354d22cb1e2490463b97737a49",
+ "results_sha256": "bf0ed736c8fe29f57729709894b86614f3ad3981561085b17028bf6b84157f70",
+ "results": {
+  "-0.1": {
+   "final": 0.0,
+   "expected": 0.0,
+   "t_half": null,
+   "t_half_exact": null
+  },
+  "0.05": {
+   "final": 0.04999999,
+   "expected": 0.05,
+   "t_half": 77.84,
+   "t_half_exact": 77.83640596
+  },
+  "0.2": {
+   "final": 0.2,
+   "expected": 0.2,
+   "t_half": 26.47,
+   "t_half_exact": 26.46652412
+  },
+  "1.0": {
+   "final": 1.0,
+   "expected": 1.0,
+   "t_half": 6.91,
+   "t_half_exact": 6.90675478
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "final state = max(r, 0) (r > 0 within 1e-06; r <= 0 decays below x0)",
+   "observed": {
+    "-0.1": {
+     "final": 0.0,
+     "expected": 0.0,
+     "t_half": null,
+     "t_half_exact": null
+    },
+    "0.05": {
+     "final": 0.04999999,
+     "expected": 0.05,
+     "t_half": 77.84,
+     "t_half_exact": 77.83640596
+    },
+    "0.2": {
+     "final": 0.2,
+     "expected": 0.2,
+     "t_half": 26.47,
+     "t_half_exact": 26.46652412
+    },
+    "1.0": {
+     "final": 1.0,
+     "expected": 1.0,
+     "t_half": 6.91,
+     "t_half_exact": 6.90675478
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "time to r/2 within 1% of ln((r-x0)/x0)/r",
+   "observed": {
+    "-0.1": {
+     "final": 0.0,
+     "expected": 0.0,
+     "t_half": null,
+     "t_half_exact": null
+    },
+    "0.05": {
+     "final": 0.04999999,
+     "expected": 0.05,
+     "t_half": 77.84,
+     "t_half_exact": 77.83640596
+    },
+    "0.2": {
+     "final": 0.2,
+     "expected": 0.2,
+     "t_half": 26.47,
+     "t_half_exact": 26.46652412
+    },
+    "1.0": {
+     "final": 1.0,
+     "expected": 1.0,
+     "t_half": 6.91,
+     "t_half_exact": 6.90675478
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "onset slows near the threshold: t_half(smallest r) / t_half(largest r) > 10",
+   "observed": 11.26483357,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "-0.1": {
+     "final": 0.0,
+     "expected": 0.0,
+     "t_half": null,
+     "t_half_exact": null
+    },
+    "0.05": {
+     "final": 0.04999999,
+     "expected": 0.05,
+     "t_half": 77.84,
+     "t_half_exact": 77.83640596
+    },
+    "0.2": {
+     "final": 0.2,
+     "expected": 0.2,
+     "t_half": 26.47,
+     "t_half_exact": 26.46652412
+    },
+    "1.0": {
+     "final": 1.0,
+     "expected": 1.0,
+     "t_half": 6.91,
+     "t_half_exact": 6.90675478
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
