@@ -1,5 +1,9 @@
 # gaia_tools change log
 
+## 0.5.1 — data model 1.4.0 (Track Cycle B, 2026-10-24)
+- `maps_all`: track claims are compared across track cycles on their ID stem (`TA-SOUL-01` -> `TB-SOUL-01`), so carried claims are classified as carried/changed instead of 'new' + 'dropped'. No schema change.
+- Tests: `tests/test_tracks_v051.py` (stem matching; carried Cycle A claims are not reported as dropped in Cycle B). `test_tracks_v050.py`: exact-version assertion relaxed to ">= 0.5.0".
+
 ## 0.5.0 — data model 1.4.0 (Soul/Spirit/Subconscious/Consciousness track, 2026-10-24)
 - New `gaia_tools.tracks`: loader, `validate` (E1–E9, W1–W2), `claimsource` (K-resolve, K-access, K-sim, K-phrase) and `rerun` for `Research/Tracks/<track>/Cycle-<L>-x<N>/`. Track SIM citations: `SIM-<TOPIC>-<L>/iter-k#check`.
 - New `gaia_tools.maps_all`: runs `maps.build` unchanged for the main cycles, then extends every artefact with the Master Report and all track cycles (claim map rows, matrix placement and the n_main/n_mr/n_track split, graph nodes MR + four topics with GAIA motherthread edges, typed track links TL-*, unlabelled structure edges, change log, simulation index).

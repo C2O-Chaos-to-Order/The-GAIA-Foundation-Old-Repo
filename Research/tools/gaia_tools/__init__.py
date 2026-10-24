@@ -2,5 +2,5 @@
 
 Research tooling only: schema validation, simulation re-running/checking, claim-source checks,
 and map/matrix generation. It implements nothing else (no application, no deployment)."""
-__version__ = "0.5.0"
+__version__ = "0.5.1"
 DATA_MODEL_VERSION = "1.4.0"

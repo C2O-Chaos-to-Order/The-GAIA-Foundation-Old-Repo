@@ -17,6 +17,15 @@ TOPIC_BEING = {"SOUL": "Soul", "SPIRIT": "Spirit", "CONS": "Consciousness", "SUB
 MR_DIR = "Master-Report-Unconditional-and-Conditional-Love"
 
 
+
+def _stem(claim_id):
+    """Track claim IDs carry the cycle in their prefix (TA-SOUL-01 -> TB-SOUL-01); compare cycles on the stem 'SOUL-01'."""
+    return claim_id.split("-", 1)[1] if claim_id[:1] == "T" and "-" in claim_id else claim_id
+
+
+def _stem_index(claims):
+    return {_stem(k): v for k, v in claims.items()}
+
 def _read(p):
     with open(p, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
@@ -36,7 +45,7 @@ def build(research_dir, out_dir, label):
     prev = None
     for tid, cp, _ in tcs:
         for k, r in tcl[tid].items():
-            pr = tcl[prev].get(k) if prev else None
+            pr = _stem_index(tcl[prev]).get(_stem(k)) if prev else None
             ch = "new (first track cycle)" if prev is None else ("new" if pr is None else M.classify_claim_change(pr, r, r["change_vs_prev_track_cycle"]))
             cm.append(dict(cycle=tid, claim_id=k, report=f"Track {r['topic']}", label=r["framework_label"], label_code=D.LABELS[r["framework_label"]],
                            conclusion_status=r["conclusion_status"], claim_class=r["claim_class"], source_ids=r["source_ids"],
@@ -45,8 +54,9 @@ def build(research_dir, out_dir, label):
                            prev_label=pr["framework_label"] if pr else "", prev_status=pr["conclusion_status"] if pr else "",
                            change_vs_prev_cycle=ch, change_note=r["change_vs_prev_track_cycle"], wording=r["wording"]))
         if prev:
+            cur = {_stem(x) for x in tcl[tid]}
             for k, pr in tcl[prev].items():
-                if k not in tcl[tid]:
+                if _stem(k) not in cur:
                     cm.append(dict(cycle=tid, claim_id=k, report=f"Track {pr['topic']}", label="(dropped)", prev_label=pr["framework_label"], change_vs_prev_cycle="dropped", wording=pr["wording"]))
         prev = tid
     M._csv(cm_p, cm, f)
