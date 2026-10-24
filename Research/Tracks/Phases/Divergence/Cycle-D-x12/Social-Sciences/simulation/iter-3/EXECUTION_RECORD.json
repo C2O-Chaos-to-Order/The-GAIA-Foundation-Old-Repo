@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-DV-SOC-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:46:56.735060+00:00",
+ "finished_utc": "2026-10-24T16:46:56.812399+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "88be018c70ff4d8505b058d7c412865494cfc07d08b703996d9fa67b72ecdc36",
+ "params_sha256": "659f2e49705cb8a9060bd253b046a5cca479afe20cd893e808eae190ab6c771e",
+ "results_sha256": "42a459c3a0ec891a9293c449716cdb384936c0747f2066076391eb0cb34234c9",
+ "results": {
+  "slope_full": -0.00241608,
+  "slope_full_se": 0.01001568,
+  "expected_full": 0.0,
+  "slope_selected": -0.80221,
+  "slope_selected_se": 0.01570476,
+  "sd_ratio_full": 2.80380569
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "full-sample slope within 4 SE of its expectation (1+beta)^T - 1",
+   "observed": [
+    -0.00241608,
+    0.0,
+    0.01001568
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "selected (top 17) sample slope below the full-sample slope by more than 4 SE",
+   "observed": [
+    -0.80221,
+    -0.00241608
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "full-sample dispersion ratio (final/initial SD) > 1.5 (P19-like widening)",
+   "observed": 2.80380569,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "slopes and dispersion",
+   "observed": {
+    "slope_full": -0.00241608,
+    "slope_full_se": 0.01001568,
+    "expected_full": 0.0,
+    "slope_selected": -0.80221,
+    "slope_selected_se": 0.01570476,
+    "sd_ratio_full": 2.80380569
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
