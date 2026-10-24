@@ -1,0 +1,8 @@
+{
+ "flip": {
+  "median_fraction_downgraded": 0.1666666667,
+  "n_E_links": 6,
+  "p": 0.1,
+  "q90": 0.5
+ }
+}

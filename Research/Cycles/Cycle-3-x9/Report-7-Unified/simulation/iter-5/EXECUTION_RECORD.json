@@ -1,0 +1,45 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:26.420787+00:00",
+ "finished_utc": "2026-10-24T03:26:26.423176+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-5",
+ "params_sha256": "60dc3d8c995f1e08bdf36e4da975b12a0fec778e702ddb03bf3ac3da0e74ecce",
+ "outputs": {
+  "outputs/results.json": "bc75e404b5c6ecbd2599a81f172dd56f65ed8694af5b64a610b492e3833be5c1"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "with the three new Cycle-3 links, Report 2 (Mind) joins another report through Established links",
+   "observed": [
+    [
+     "R1",
+     "R3",
+     "R4",
+     "R5",
+     "R6"
+    ],
+    [
+     "R2"
+    ]
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
