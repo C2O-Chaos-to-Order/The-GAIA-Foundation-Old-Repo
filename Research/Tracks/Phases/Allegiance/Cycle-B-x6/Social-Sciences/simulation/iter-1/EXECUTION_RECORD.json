@@ -1,0 +1,139 @@
+{
+ "sim_id": "SIM-AL-SOC-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:11:55.503175+00:00",
+ "finished_utc": "2026-10-24T19:11:55.507413+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "1b389c1748f95a84d388ef8c5d02e58471a6c68387fe7b2296d0e5cb13ac1481",
+ "params_sha256": "5af796dd085160d30c6edb8a8802d0c55e2d77ec52691331437c4aa7a6ba0944",
+ "results_sha256": "6dbc532ffec81f784499664b10f14e934a5f3b68cacae325c2f79ea860a293e5",
+ "results": {
+  "studies": {
+   "Study1_Gaza": {
+    "max_diff_printed_raw": 0.005,
+    "max_diff_swapped_raw": 0.116
+   },
+   "Study2_Turkiye_religion": {
+    "max_diff_printed_raw": 0.004,
+    "max_diff_swapped_raw": 0.074
+   },
+   "Study3_football": {
+    "max_diff_printed_raw": 0.102,
+    "max_diff_swapped_raw": 0.004,
+    "sem_implied": {
+     "FP": 0.6262,
+     "GP": 0.5492,
+     "FV": 0.3062,
+     "GV": 0.214
+    },
+    "raw_disattenuated": {
+     "FP": 0.64473946,
+     "FV": 0.32703069,
+     "GP": 0.65327319,
+     "GV": 0.21975728
+    },
+    "max_diff_implied_dis": 0.10407319,
+    "order_ok": true,
+    "identity_err": 0.0
+   }
+  },
+  "tol": 0.02
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "implied-correlation identity reproduced exactly where SEM paths are given",
+   "observed": [
+    null,
+    null,
+    0.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "printed correlations match the raw-data correlations within 0.02 in every study",
+   "observed": {
+    "Study1_Gaza": 0.005,
+    "Study2_Turkiye_religion": 0.004,
+    "Study3_football": 0.102
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "in Study3_football, swapping the fusion and identification entries of the printed table matches the raw data within 0.02, and the other studies match unswapped",
+   "observed": [
+    0.004,
+    true
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "in Study3_football, the SEM-implied latent correlations order fusion-violent above identification-violent as the disattenuated raw data do, within 0.05 of them",
+   "observed": [
+    true,
+    0.10407319
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "studies": {
+     "Study1_Gaza": {
+      "max_diff_printed_raw": 0.005,
+      "max_diff_swapped_raw": 0.116
+     },
+     "Study2_Turkiye_religion": {
+      "max_diff_printed_raw": 0.004,
+      "max_diff_swapped_raw": 0.074
+     },
+     "Study3_football": {
+      "max_diff_printed_raw": 0.102,
+      "max_diff_swapped_raw": 0.004,
+      "sem_implied": {
+       "FP": 0.6262,
+       "GP": 0.5492,
+       "FV": 0.3062,
+       "GV": 0.214
+      },
+      "raw_disattenuated": {
+       "FP": 0.64473946,
+       "FV": 0.32703069,
+       "GP": 0.65327319,
+       "GV": 0.21975728
+      },
+      "max_diff_implied_dis": 0.10407319,
+      "order_ok": true,
+      "identity_err": 0.0
+     }
+    },
+    "tol": 0.02
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
