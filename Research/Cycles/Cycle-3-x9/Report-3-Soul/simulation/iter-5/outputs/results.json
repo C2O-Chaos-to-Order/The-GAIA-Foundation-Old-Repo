@@ -1,0 +1,78 @@
+{
+ "coder_a_prevalence": 0.3777777778,
+ "coder_c_prevalence": 0.2555555556,
+ "per_attribute": {
+  "A10_constituted_relationally_or_communally": {
+   "a_prev": 0.1333333333,
+   "agreement": 0.9333333333,
+   "c_prev": 0.2,
+   "kappa": 0.7619047619
+  },
+  "A11_identical_with_universal_ground": {
+   "a_prev": 0.1333333333,
+   "agreement": 0.7333333333,
+   "c_prev": 0.2666666667,
+   "kappa": 0.1891891892
+  },
+  "A12_extends_to_non_human_beings": {
+   "a_prev": 0.6666666667,
+   "agreement": 0.6,
+   "c_prev": 0.4,
+   "kappa": 0.25
+  },
+  "A1_immaterial": {
+   "a_prev": 0.4,
+   "agreement": 0.6,
+   "c_prev": 0.0,
+   "kappa": 0.0
+  },
+  "A2_independent_of_body_survives_death": {
+   "a_prev": 0.4666666667,
+   "agreement": 0.3333333333,
+   "c_prev": 0.2,
+   "kappa": -0.3888888889
+  },
+  "A3_principle_of_life_or_breath": {
+   "a_prev": 0.6,
+   "agreement": 0.7333333333,
+   "c_prev": 0.4666666667,
+   "kappa": 0.4736842105
+  },
+  "A4_seat_of_thought_or_identity": {
+   "a_prev": 0.5333333333,
+   "agreement": 0.9333333333,
+   "c_prev": 0.6,
+   "kappa": 0.8648648649
+  },
+  "A5_bearer_of_moral_character": {
+   "a_prev": 0.5333333333,
+   "agreement": 0.6,
+   "c_prev": 0.4,
+   "kappa": 0.2105263158
+  },
+  "A6_oriented_to_purpose_or_final_end": {
+   "a_prev": 0.4666666667,
+   "agreement": 0.4666666667,
+   "c_prev": 0.2,
+   "kappa": -0.1111111111
+  },
+  "A7_enduring_unchanging_self": {
+   "a_prev": 0.2666666667,
+   "agreement": 0.8,
+   "c_prev": 0.2,
+   "kappa": 0.4444444444
+  },
+  "A8_form_of_or_inseparable_from_body": {
+   "a_prev": 0.2666666667,
+   "agreement": 0.6666666667,
+   "c_prev": 0.0666666667,
+   "kappa": -0.1194029851
+  },
+  "A9_enduring_self_denied": {
+   "a_prev": 0.0666666667,
+   "agreement": 1.0,
+   "c_prev": 0.0666666667,
+   "kappa": 1.0
+  }
+ }
+}
