@@ -1,0 +1,13 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "matrix": {
+   "lens_rules": "../data/lens_rules_v1.0.1.json",
+   "v2_matrix": "../data/maps_v2_being_x_lens_25.csv"
+  }
+ },
+ "input_register": "../../maps/link_register_input.csv",
+ "iteration": 6,
+ "prev": "../iter-5",
+ "sim_id": "SIM-R7-C3"
+}

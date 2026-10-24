@@ -1,0 +1,70 @@
+{
+ "sim_id": "SIM-R7-C3",
+ "iteration": 7,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:26:26.635090+00:00",
+ "finished_utc": "2026-10-24T03:26:26.756579+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-7",
+ "params_sha256": "3f710ee3f83f6257a2977aa7937ca428be751ed846be8dc1ca02ae770e54055e",
+ "outputs": {
+  "outputs/results.json": "cc3d7df1987ef924a07f68c1bedc14cf649a8b7a61c27b2d4501027d70e4118a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V4",
+   "kind": "validation",
+   "expect": "the 40-claim sample is reproducible from its seed (redrawn file identical)",
+   "observed": 0,
+   "result": "Pass"
+  },
+  {
+   "id": "H7",
+   "kind": "hypothesis",
+   "expect": "keyword rule and hand coding agree at least moderately on lens placement (mean Cohen kappa over lenses >= 0.41)",
+   "observed": [
+    0.5881082797,
+    {
+     "Truth": [
+      0.4358974359,
+      15,
+      18
+     ],
+     "Integrity": [
+      0.5046439628,
+      9,
+      13
+     ],
+     "Love": [
+      1.0,
+      3,
+      3
+     ],
+     "Justice": [
+      1.0,
+      1,
+      1
+     ],
+     "Wisdom": [
+      0.0,
+      2,
+      0
+     ]
+    }
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
