@@ -1,0 +1,1677 @@
+{
+ "version_label": "v14: Cycles 0-4 + MR Track A-D + Phase Divergence x0-x12 + Insurgence Baseline",
+ "cycle": "C4",
+ "center": "GAIA",
+ "nodes": [
+  {
+   "id": "GAIA",
+   "label": "GAIA - the motherthread",
+   "kind": "motherthread",
+   "framework_label": "Philosophical/Spiritual",
+   "note": "Organizing principle (G03 FRAMEWORK.md); Philosophical/Spiritual, kept separate from science"
+  },
+  {
+   "id": "R1",
+   "label": "R1 Body",
+   "kind": "report"
+  },
+  {
+   "id": "R2",
+   "label": "R2 Mind",
+   "kind": "report"
+  },
+  {
+   "id": "R3",
+   "label": "R3 Soul",
+   "kind": "report"
+  },
+  {
+   "id": "R4",
+   "label": "R4 Spirit",
+   "kind": "report"
+  },
+  {
+   "id": "R5",
+   "label": "R5 Consciousness",
+   "kind": "report"
+  },
+  {
+   "id": "R6",
+   "label": "R6 Earth",
+   "kind": "report"
+  },
+  {
+   "id": "R7",
+   "label": "R7 Unified",
+   "kind": "report"
+  },
+  {
+   "id": "ALL",
+   "label": "All reports (target of L24)",
+   "kind": "collective"
+  },
+  {
+   "id": "MR",
+   "label": "Master Report: Unconditional and Conditional Love",
+   "kind": "master report"
+  },
+  {
+   "id": "SOUL",
+   "label": "Track topic: Soul",
+   "kind": "track topic",
+   "being": "Soul"
+  },
+  {
+   "id": "SPIRIT",
+   "label": "Track topic: Spirit",
+   "kind": "track topic",
+   "being": "Spirit"
+  },
+  {
+   "id": "SUBC",
+   "label": "Track topic: Subconscious",
+   "kind": "track topic",
+   "being": "Mind"
+  },
+  {
+   "id": "CONS",
+   "label": "Track topic: Consciousness",
+   "kind": "track topic",
+   "being": "Consciousness"
+  },
+  {
+   "id": "DV",
+   "label": "Phase: Divergence",
+   "kind": "phase"
+  },
+  {
+   "id": "IN",
+   "label": "Phase: Insurgence",
+   "kind": "phase"
+  },
+  {
+   "id": "NAT",
+   "label": "Field: Natural-Sciences",
+   "kind": "field of knowledge"
+  },
+  {
+   "id": "FOR",
+   "label": "Field: Formal-Sciences",
+   "kind": "field of knowledge"
+  },
+  {
+   "id": "SOC",
+   "label": "Field: Social-Sciences",
+   "kind": "field of knowledge"
+  },
+  {
+   "id": "APP",
+   "label": "Field: Applied-Sciences",
+   "kind": "field of knowledge"
+  },
+  {
+   "id": "HUM",
+   "label": "Field: Humanities",
+   "kind": "field of knowledge"
+  },
+  {
+   "id": "PHI",
+   "label": "Field: Philosophy-Spirituality",
+   "kind": "field of knowledge"
+  }
+ ],
+ "edges": [
+  {
+   "id": "M1",
+   "source": "GAIA",
+   "target": "R1",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M2",
+   "source": "GAIA",
+   "target": "R2",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M3",
+   "source": "GAIA",
+   "target": "R3",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M4",
+   "source": "GAIA",
+   "target": "R4",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M5",
+   "source": "GAIA",
+   "target": "R5",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M6",
+   "source": "GAIA",
+   "target": "R6",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M7",
+   "source": "GAIA",
+   "target": "R7",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "L01",
+   "source": "R1",
+   "target": "R6",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R1-06;C0v2-R1-12;C0v2-R6-06;C0v2-R6-07;C0v2-R7-04",
+   "statement": "Bodily homeostasis and Daisyworld temperature regulation share the negative-feedback structure (analogy only).",
+   "status": "Retained as analogy only. Body side: the two-state memory stays fragile with a continuous metric; Earth side: constrained adaptation regulates less well than the original over a wider range and depends on our cost form.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L02",
+   "source": "R1",
+   "target": "R6",
+   "type": "distinction",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R1-06;C0v2-R6-08;C1-R6-05",
+   "statement": "Physiological homeostasis is an evolved, selected regulation of an organism; planetary regulation (if any) has no comparable selection mechanism.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L03",
+   "source": "R1",
+   "target": "R6",
+   "type": "humans within Earth",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E",
+    "C3": "E",
+    "C4": "E"
+   },
+   "basis": "C0v2-R1-09",
+   "statement": "Human thermoregulation balances heat exchange with the environment; human bodies are therefore continuously coupled to Earth's thermal environment.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L04",
+   "source": "R1",
+   "target": "R2",
+   "type": "dependency",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R1-02;C0v2-R1-04;C0v2-R2-09",
+   "statement": "Mental processes depend on the nervous system (CNS/PNS) and on sensory transduction for input.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L05",
+   "source": "R1",
+   "target": "R2",
+   "type": "feedback loop",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R1-10;C0v2-R1-11;C0v2-R2-10",
+   "statement": "Interoception: bodily signals shape feeling and cognition, and cognition (anticipation) shapes bodily regulation (allostasis).",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L06",
+   "source": "R1",
+   "target": "R2",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS",
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C0v2-R1-14",
+   "statement": "Embodied cognition: body constitutes vs merely causes cognition.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L07",
+   "source": "R2",
+   "target": "R5",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R2-02;C0v2-R2-05;C0v2-R5-08;C1-R2-04",
+   "statement": "Predictive-processing accounts of perception and learning (prediction error) are also candidate theories of consciousness.",
+   "status": "Unchanged (Plausible); new criticality evidence concerns network dynamics, not prediction-error processing.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L08",
+   "source": "R2",
+   "target": "R5",
+   "type": "distinction",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R5-01;C1-R5-02",
+   "statement": "Access (reportable) processing is distinct from phenomenal experience; cognitive findings bear on access more directly.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L09",
+   "source": "R2",
+   "target": "R3",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS",
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C0v2-R2-08;C0v2-R3-13",
+   "statement": "Personal identity as psychological continuity, as organism (animalism), or as soul.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L10",
+   "source": "R3",
+   "target": "R4",
+   "type": "relationship",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E",
+    "C3": "E",
+    "C4": "E"
+   },
+   "basis": "C0v2-R3-03;C0v2-R3-04;C0v2-R4-01;C0v2-R4-02;C0v2-R4-04;C0v2-R4-05",
+   "statement": "Across traditions, soul and spirit share a breath/life vocabulary (psuchê/pneuma, nefesh/rûaḥ, rūḥ, qi).",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L11",
+   "source": "R3",
+   "target": "R4",
+   "type": "distinction",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS",
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C0v2-R3-17;C0v2-R4-06",
+   "statement": "Traditions distinguish soul (individual identity, moral character) from spirit (vitality, connection, inspiration) differently; there is no single cross-tradition boundary.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L12",
+   "source": "R3",
+   "target": "R5",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS",
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C0v2-R3-16;C0v2-R5-12",
+   "statement": "Is the subject of experience a soul, a brain process, or neither? (dualism vs physicalism vs other).",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L13",
+   "source": "R3",
+   "target": "R6",
+   "type": "relationship",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E",
+    "C3": "E",
+    "C4": "E"
+   },
+   "basis": "C0v2-R3-01;C0v2-R3-12;C1-R3-01",
+   "statement": "Several traditions extend soul or personhood beyond humans (Greek ensouled plants; animist non-human persons).",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L14",
+   "source": "R4",
+   "target": "R1",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R4-08;C0v2-R4-09;C0v2-R4-10;C1-R4-01;C1-R4-02;C1-R4-03",
+   "statement": "Religious attendance is associated with lower mortality and spirituality with better mental health on average.",
+   "status": "Retained Plausible. Negative controls could test the confounding explanation, but in our synthetic cohorts they detect strong confounding only; weak confounding (spurious OR ~0.9-0.97) goes undetected at 10,000-100,000. No negative-control study of attendance was read.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L15",
+   "source": "R4",
+   "target": "R1",
+   "type": "dependency",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "C0": "H",
+    "C1": "H",
+    "C2": "H",
+    "C3": "H",
+    "C4": "H"
+   },
+   "basis": "C0v2-R4-13;C0v2-R4-14;C1-R4-04;C1-R4-09",
+   "statement": "The association is causal (participation lowers mortality).",
+   "status": "Remains Hypothetical: a negative control that finds nothing would not show the association is causal.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L16",
+   "source": "R4",
+   "target": "R4",
+   "type": "distinction",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R4-15;C0v2-R4-11",
+   "statement": "Spiritual interpretation (vitality, transcendence) is separate from the demonstrable well-being associations.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L17",
+   "source": "R5",
+   "target": "R1",
+   "type": "dependency",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E",
+    "C3": "E",
+    "C4": "E"
+   },
+   "basis": "C0v2-R5-06",
+   "statement": "Level of consciousness tracks measurable brain-state complexity (PCI) across sleep, anaesthesia and injury.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L18",
+   "source": "R5",
+   "target": "R4",
+   "type": "relationship",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "C0": "H",
+    "C1": "H",
+    "C2": "H",
+    "C3": "H",
+    "C4": "H"
+   },
+   "basis": "C0v2-R5-07;C0v2-R4-06",
+   "statement": "Altered states (psychedelic, mystical) may share neural signatures such as elevated entropy.",
+   "status": "Unchanged (Hypothetical): slightly subcritical dynamics are reported in animal spike data, not in altered or spiritual states; non-stationary input can mimic near-criticality.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L19",
+   "source": "R6",
+   "target": "R6",
+   "type": "dependency",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E",
+    "C3": "E",
+    "C4": "E"
+   },
+   "basis": "C0v2-R6-11;C0v2-R6-13;C0v2-R6-17",
+   "statement": "The geodynamo depends on core heat flow (cooling, inner-core freezing, chemical convection).",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L20",
+   "source": "R6",
+   "target": "R6",
+   "type": "feedback loop",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R6-04;C1-R6-06",
+   "statement": "Life and biogeochemical cycles co-evolved: microbial metabolism drives element cycles that in turn shape habitats.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L21",
+   "source": "R6",
+   "target": "R6",
+   "type": "competing interpretation",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P",
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C0v2-R6-06;C0v2-R6-08;C1-R6-05",
+   "statement": "Is Earth's biota a homeostatic regulator (strong Gaia) or do biotic feedbacks often amplify change?",
+   "status": "Unchanged in substance; constrained-adaptation regulation depends on an assumed cost form.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L22",
+   "source": "R6",
+   "target": "R7",
+   "type": "humans within Earth",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E",
+    "C3": "E",
+    "C4": "E"
+   },
+   "basis": "C0v2-R6-03;C0v2-R6-05;C0v2-R7-02",
+   "statement": "Humans are drivers within Earth's living systems: transgressing climate or biosphere-integrity boundaries could shift the Earth system's state; ~1 million species are threatened.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L23",
+   "source": "R6",
+   "target": "R3",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS",
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C0v2-R6-10;C0v2-R6-19",
+   "statement": "Life as Earth's soul and the core as its heart: metaphor vs literal claim.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L24",
+   "source": "R7",
+   "target": "ALL",
+   "type": "unresolved question",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS",
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C0v2-R7-07",
+   "statement": "Consciousness's nature, the soul's existence, spirituality's causal role, geodynamo onset, Singularity/Origin remain open.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L25",
+   "source": "R1",
+   "target": "R2",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C3": "P",
+    "C4": "P"
+   },
+   "basis": "C3-R1-04;C3-R1-03",
+   "statement": "Social relationships are associated with survival to a degree comparable with established mortality risk factors (association only).",
+   "status": "Unchanged (Plausible). Context: genetic-instrument evidence that loneliness and depression influence each other (a mental-side pathway, see L28); L25's body-survival association itself was not re-tested.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L26",
+   "source": "R1",
+   "target": "R4",
+   "type": "relationship",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "C3": "H",
+    "C4": "H"
+   },
+   "basis": "C3-R1-05;C3-R4-01",
+   "statement": "Socioeconomic deprivation is associated with higher allostatic load, a physiological marker; communal participation (religious or other) is one candidate pathway linking social conditions to health.",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L27",
+   "source": "R3",
+   "target": "R5",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C3": "PS",
+    "C4": "PS"
+   },
+   "basis": "C3-R3-01;C0v2-R3-16",
+   "statement": "Near-death reports of leaving the body: evidence about experience (consciousness studies) vs evidence about a separable soul (some traditions).",
+   "status": "No Cycle-4 evidence targeted this link.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L28",
+   "source": "R2",
+   "target": "R2",
+   "type": "feedback loop",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C4": "P"
+   },
+   "basis": "C4-R2-01",
+   "statement": "Loneliness (felt social disconnection) and depression may causally influence each other in both directions (genetic-instrument evidence from one exploratory study).",
+   "status": "New in Cycle 4.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "M-SOUL",
+   "source": "GAIA",
+   "target": "SOUL",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03; track FRAMEWORK.md",
+   "statement": "GAIA as motherthread organizes this topic (framework, not a finding)"
+  },
+  {
+   "id": "M-SPIRIT",
+   "source": "GAIA",
+   "target": "SPIRIT",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03; track FRAMEWORK.md",
+   "statement": "GAIA as motherthread organizes this topic (framework, not a finding)"
+  },
+  {
+   "id": "M-SUBC",
+   "source": "GAIA",
+   "target": "SUBC",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03; track FRAMEWORK.md",
+   "statement": "GAIA as motherthread organizes this topic (framework, not a finding)"
+  },
+  {
+   "id": "M-CONS",
+   "source": "GAIA",
+   "target": "CONS",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03; track FRAMEWORK.md",
+   "statement": "GAIA as motherthread organizes this topic (framework, not a finding)"
+  },
+  {
+   "id": "M-MR",
+   "source": "GAIA",
+   "target": "MR",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03; track FRAMEWORK.md",
+   "statement": "GAIA as motherthread organizes this topic (framework, not a finding)"
+  },
+  {
+   "id": "TL-01",
+   "source": "SUBC",
+   "target": "R2",
+   "type": "methodological (evidence-bearing)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TA": "E",
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K09;K08;SIM-SUBC-A/iter-1#H1",
+   "statement": "Claims of unconscious learning and behavioural priming in Report 2's domain depend on awareness tests that are often underpowered (K09) and on paradigms that failed replication (K08).",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-02",
+   "source": "SUBC",
+   "target": "R5",
+   "type": "conceptual dependency",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TA": "P",
+    "TB": "P",
+    "TC": "P",
+    "TD": "P"
+   },
+   "basis": "K07;K10;K13",
+   "statement": "Where the conscious/unconscious boundary is drawn (Report 5) determines what counts as subconscious; automatic processes interact with awareness rather than forming a sealed module (K07).",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-03",
+   "source": "SOUL",
+   "target": "R3",
+   "type": "deepens (empirical study of soul beliefs)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TA": "E",
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K01;K02;K03",
+   "statement": "Track evidence describes how people, including scientists, think about souls and continuation after death (K01-K03); it informs Report 3's descriptions but not the existence question.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-04",
+   "source": "SOUL",
+   "target": "R3",
+   "type": "methodological (coding reliability)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TA": "E",
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "SIM-SOUL-A/iter-3#H1;W07",
+   "statement": "Kappa depends on category prevalence, so Report 3's coding-reliability statements need prevalence reported beside kappa.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-05",
+   "source": "SPIRIT",
+   "target": "R4",
+   "type": "evidence-bearing (well-being pathway)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TA": "E",
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K05;SIM-SPIRIT-A/iter-1#H1",
+   "statement": "Experimental awe effects on well-being and prosociality were not reproduced (K05), so they do not currently supply causal support for Report 4's spirituality-well-being links.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-06",
+   "source": "SPIRIT",
+   "target": "R4",
+   "type": "measurement",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TA": "E",
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K04;SIM-SPIRIT-A/iter-2#H1",
+   "statement": "Mystical-type experience can be measured with acceptable psychometric fit (K04), but binary 'complete experience' classifications are noisy.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-07",
+   "source": "CONS",
+   "target": "R5",
+   "type": "deepens (theory testing)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TA": "P",
+    "TB": "P",
+    "TC": "P",
+    "TD": "P"
+   },
+   "basis": "K12;K13",
+   "statement": "Report confounds (K13) and testability of IIT's silent-neuron predictions (K12) bear on Report 5's theory comparison (adversarial collaborations).",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-08",
+   "source": "SUBC",
+   "target": "CONS",
+   "type": "hypothesised mechanism (sleep and dreams)",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "TA": "H",
+    "TB": "H",
+    "TC": "H",
+    "TD": "H"
+   },
+   "basis": "K10;SIM-SUBC-A/iter-3#H2",
+   "statement": "Sleep reactivation may be implicit while dreams are conscious fragments of reactivated memories (K10); untested here.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-09",
+   "source": "SPIRIT",
+   "target": "MR",
+   "type": "evidence-bearing (prosocial care)",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "TA": "H",
+    "TB": "H",
+    "TC": "H",
+    "TD": "H"
+   },
+   "basis": "K05",
+   "statement": "That self-transcendent emotion increases prosocial care (relevant to the Master Report's love question) is not supported by K05's replications and remains a hypothesis.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-10",
+   "source": "CONS",
+   "target": "R3",
+   "type": "interpretive bridge",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "TA": "PS",
+    "TB": "PS",
+    "TC": "PS",
+    "TD": "PS"
+   },
+   "basis": "S31;K14;S32",
+   "statement": "Contemplative accounts of pure awareness (S31, S32) connect the Consciousness topic to Report 3's accounts of the self; the connection is interpretive.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-11",
+   "source": "SOUL",
+   "target": "R7",
+   "type": "interpretive (synthesis node meaning)",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "TA": "PS",
+    "TB": "PS",
+    "TC": "PS",
+    "TD": "PS"
+   },
+   "basis": "K01;G03",
+   "statement": "Folk intuitive materialism alongside mental-continuity judgments (K01) bears on how Report 7's Soul node is read: as a belief-structure node, not an entity.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-12",
+   "source": "SOUL",
+   "target": "R6",
+   "type": "evidence-bearing (end of life)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K16;SIM-SOUL-B/iter-4#R1",
+   "statement": "End-of-life experiences are common among the dying and often comforting (K16). This bears on care and meaning (Report 6), not on survival of death.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-13",
+   "source": "SPIRIT",
+   "target": "R6",
+   "type": "evidence-bearing (justice, community)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TB": "P",
+    "TC": "P",
+    "TD": "P"
+   },
+   "basis": "K21;SIM-SPIRIT-B/iter-6#H1",
+   "statement": "Community accounts link spirituality to collective healing and resistance to oppression (K21), a Spirit x Justice bridge. It is qualitative.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-14",
+   "source": "SPIRIT",
+   "target": "R4",
+   "type": "evidence-bearing (health association)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K19;SIM-SPIRIT-B/iter-1#H1",
+   "statement": "Spirituality is robustly associated with lower harmful drug use (K19), but an E-value of 1.56 means modest confounding could explain it.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-15",
+   "source": "CONS",
+   "target": "MR",
+   "type": "ethical bridge (dignity, care)",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "TB": "PS",
+    "TC": "PS",
+    "TD": "PS"
+   },
+   "basis": "K30;SIM-CONS-B/iter-1#H1",
+   "statement": "A presumption of consciousness for unresponsive patients (K30) extends the Master Report's care question to people who cannot show they are conscious.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-16",
+   "source": "CONS",
+   "target": "MR",
+   "type": "evidence-bearing (compassion)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TB": "P",
+    "TC": "P",
+    "TD": "P"
+   },
+   "basis": "K28;SIM-CONS-B/iter-4#H2",
+   "statement": "Brief meditation may raise compassion via changed awareness, but the total effect was not significant (K28). This is a weak Consciousness x Love link.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-17",
+   "source": "SUBC",
+   "target": "R5",
+   "type": "methodological (awareness measurement)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TB": "E",
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K25;SIM-SUBC-B/iter-5#H1;SIM-SUBC-B/iter-1#R1",
+   "statement": "How awareness is measured (objective vs subjective, post-hoc selection) changes what counts as unconscious (Report 5).",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-18",
+   "source": "SOUL",
+   "target": "R3",
+   "type": "deepens (implicit dualism)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TB": "P",
+    "TC": "P",
+    "TD": "P"
+   },
+   "basis": "K15;SIM-SOUL-B/iter-3#H1",
+   "statement": "Implicit mind-body dualism persists in explicit rejecters (K15). This is relevant to Report 3's account of why soul concepts recur, but it is not evidence about souls.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-19",
+   "source": "SUBC",
+   "target": "R2",
+   "type": "evidence-bearing (justice, responsibility)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K35;SIM-SUBC-C/iter-5#H1",
+   "statement": "Belief in free will predicts punitiveness toward everyday wrongdoing across 44 countries (K35), a reliable but small Mind x Justice link (concordance 53%).",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-20",
+   "source": "SUBC",
+   "target": "R2",
+   "type": "hypothesis (agency, responsibility)",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "TC": "H",
+    "TD": "H"
+   },
+   "basis": "K36;SIM-SUBC-C/iter-6#H1",
+   "statement": "The felt authorship of action may be a conditioned misattribution (K36). This is a coherent but untested hypothesis bearing on moral responsibility.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-21",
+   "source": "SUBC",
+   "target": "R5",
+   "type": "methodological (threshold calibration)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K34;SIM-SUBC-C/iter-3#H1",
+   "statement": "Calling a stimulus 'unconscious' because performance is not significantly above chance overestimates subliminal thresholds (K34; SIM-SUBC-C), which bears on Report 5's consciousness boundary.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-22",
+   "source": "CONS",
+   "target": "R5",
+   "type": "evidence-bearing (theory testing)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K42;SIM-CONS-C/iter-8#H2",
+   "statement": "The IIT-GNWT adversarial collaboration challenged key tenets of both theories (K42); several central failures weigh substantially against a theory, while one does not (SIM-CONS-C).",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-23",
+   "source": "CONS",
+   "target": "R6",
+   "type": "ethical bridge (justice, care)",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "TC": "PS",
+    "TD": "PS"
+   },
+   "basis": "K47;K30;SIM-CONS-C/iter-4#H1",
+   "statement": "Who is judged conscious shapes decisions on life-sustaining treatment and long-term care resources (K47). This is a Consciousness x Justice bridge.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-24",
+   "source": "SOUL",
+   "target": "R3",
+   "type": "evidence-bearing (near-death experience)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TC": "P",
+    "TD": "P"
+   },
+   "basis": "K37;K38;K46;SIM-SOUL-C/iter-2#H1",
+   "statement": "Near-death experiences are reported widely and vary by culture (K37, K46), and their memories engage autobiographical networks (K38). The evidence is small-sample and informs Report 3's account of experience, not survival.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-25",
+   "source": "SPIRIT",
+   "target": "R4",
+   "type": "methodological (causal inference)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K39;SIM-SPIRIT-C/iter-1#H1",
+   "statement": "A correlation between mystical experience and outcome can arise entirely from a common cause (SIM-SPIRIT-C), so whether the experience matters therapeutically (K39) needs manipulation, not correlation.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-26",
+   "source": "CONS",
+   "target": "R2",
+   "type": "evidence-bearing (disconnected consciousness)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TC": "E",
+    "TD": "E"
+   },
+   "basis": "K32;SIM-CONS-C/iter-2#H1",
+   "statement": "Dreaming under anaesthesia shows experience without environmental connection (K32). Its reported independence from awareness rests on low-powered studies.",
+   "status": "carried",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-27",
+   "source": "SOUL",
+   "target": "R3",
+   "type": "evidence-bearing (afterlife continuity)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TD": "E"
+   },
+   "basis": "K61;SIM-SOUL-D/iter-1#H1",
+   "statement": "Afterlife continuity judgments are widespread but cluster into person-level stances, and cessation is the modal response in most of 24 countries (K61; SIM-SOUL-D).",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-28",
+   "source": "SOUL",
+   "target": "R6",
+   "type": "evidence-bearing (technology, human boundaries)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TD": "P"
+   },
+   "basis": "K55;SIM-SOUL-D/iter-3#H1",
+   "statement": "Afterlife and soul beliefs predict lower moral approval of mind upload (K55). This bears on how people judge technologies that redraw human boundaries.",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-29",
+   "source": "SPIRIT",
+   "target": "R5",
+   "type": "methodological (measurement of mystical experience)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TD": "E"
+   },
+   "basis": "K49;SIM-SPIRIT-D/iter-1#H1",
+   "statement": "The 'complete mystical experience' criterion is a 60%-on-all-subscales cut-off with good agreement but a noisy boundary (K49; SIM-SPIRIT-D).",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-30",
+   "source": "SPIRIT",
+   "target": "R4",
+   "type": "methodological (blinding, expectancy)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TD": "E"
+   },
+   "basis": "K51;K50;SIM-SPIRIT-D/iter-5#H1",
+   "statement": "Psychedelic trials are functionally unblinded (K51 BI 0.88-1.00), so expectancy can produce effects of the reported size (SIM-SPIRIT-D). Spirit-related therapeutic claims need expectancy-controlled designs.",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-31",
+   "source": "SPIRIT",
+   "target": "R3",
+   "type": "evidence-bearing (death anxiety)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TD": "P"
+   },
+   "basis": "K52;SIM-SPIRIT-D/iter-6#H1",
+   "statement": "Psychedelic experiences are followed by reduced death anxiety in uncontrolled pre-post studies (K52), with a prediction interval that includes zero.",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-32",
+   "source": "SUBC",
+   "target": "R2",
+   "type": "evidence-bearing (justice, implicit bias)",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "TD": "P"
+   },
+   "basis": "K56;SIM-SUBC-D/iter-2#H1",
+   "statement": "Implicit bias can operate without awareness and, though small per person, can yield material group disparities in selective decisions (K56; SIM-SUBC-D). This is a Mind x Justice link.",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-33",
+   "source": "SUBC",
+   "target": "R6",
+   "type": "ethical bridge (responsibility, punishment)",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "TD": "PS"
+   },
+   "basis": "K57;K35;K63",
+   "statement": "Beliefs about agency shape punishment attitudes more than behaviour (K35, K63). Neuroscience may temper retributivism without changing legal responsibility (K57).",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-34",
+   "source": "CONS",
+   "target": "R5",
+   "type": "methodological (testability, Bayesian design)",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "TD": "E"
+   },
+   "basis": "K58;K59;SIM-CONS-D/iter-1#H1",
+   "statement": "IIT's silent-neuron predictions are argued to be testable (K58). A second adversarial protocol (K59) can confirm large effects but rarely strong null evidence with 15 sessions (SIM-CONS-D).",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "TL-35",
+   "source": "CONS",
+   "target": "R3",
+   "type": "evidence-bearing (consciousness during circulatory arrest)",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "TD": "H"
+   },
+   "basis": "K60;SIM-CONS-D/iter-3#H1",
+   "statement": "Possible implicit learning and recalled death-themed experiences during deep hypothermic arrest (K60) are feasibility-level observations whose chance baseline is unknown.",
+   "status": "new",
+   "origin": "track cycle TD"
+  },
+  {
+   "id": "PL-01",
+   "source": "NAT",
+   "target": "APP",
+   "type": "shared framework",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "P04 (Darwinian perspective on tumour evolution); DV0-APP-01..03",
+   "statement": "Tumour clonal divergence is studied with the evolutionary-biology framework (selection, drift, branching) used for species divergence.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-02",
+   "source": "NAT",
+   "target": "HUM",
+   "type": "method transfer",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "P06 (phylogenies of Andic); P02 (Darwin's tree images)",
+   "statement": "Historical linguistics uses phylogenetic (tree) representations of divergence; the tree image itself has a contested history in Darwin's work.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-03",
+   "source": "FOR",
+   "target": "SOC",
+   "type": "formal analogy",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "DV0-FOR-01; DV0-SOC-01",
+   "statement": "Opinion fragmentation and trajectory divergence are both properties of dynamical systems; whether opinion models show sensitive dependence is untested here.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-04",
+   "source": "PHI",
+   "target": "NAT",
+   "type": "engagement",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "P08 (Bergson's tendency theory addresses evolution)",
+   "statement": "Bergson's principle of divergence and differentiation is a philosophical response to evolutionary biology, not a biological finding.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-05",
+   "source": "GAIA",
+   "target": "DV",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "Research/README.md 9.3 (Phase axis)",
+   "statement": "Divergence is a GAIA framework category (Proposed); this report operationalizes it per field without assuming it names one phenomenon.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-06",
+   "source": "NAT",
+   "target": "SOC",
+   "type": "shared statistic",
+   "label_code": "E",
+   "framework_label": "Established",
+   "basis": "P15 ('adapted from the Genetic Fixation Index'); DVA-NAT-07; DVA-PHI-10",
+   "statement": "The Cultural Fixation Index used to measure cross-country cultural divergence is adapted from the population-genetic Fst used for species divergence.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-07",
+   "source": "NAT",
+   "target": "HUM",
+   "type": "method transfer",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "P13; P14; DVA-HUM-08, DVA-HUM-09",
+   "statement": "Manuscript and language divergence are analysed with the same tree-building programs as genes; contamination and borrowing play the role of horizontal gene transfer.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-08",
+   "source": "HUM",
+   "target": "PHI",
+   "type": "method transfer",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "P14 4b(i); DVA-PHI-07",
+   "statement": "Tree methods could describe nested religious schisms, but such trees are recent and must not be forced onto language trees.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-09",
+   "source": "SOC",
+   "target": "PHI",
+   "type": "empirical overlap",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "P11 (religion predicts value similarity); P15 (religion is the most divergent trait; cites P11)",
+   "statement": "Two independent analyses of World Values Survey data place religion at the centre of cross-country value divergence.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-10",
+   "source": "FOR",
+   "target": "NAT",
+   "type": "formal analogy",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "DVA-NAT-08; DVA-FOR-07; P10 (metaphor only)",
+   "statement": "Cell-fate divergence pictured as a landscape can be formalised as a bifurcation of a dynamical system; whether real differentiation follows such a normal form is untested here.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-11",
+   "source": "FOR",
+   "target": "APP",
+   "type": "shared mathematics",
+   "label_code": "E",
+   "framework_label": "Established",
+   "basis": "P17 (growth factor |1 + a h|); P09 (Lyapunov exponents); DVB-APP-11; DVB-FOR-12",
+   "statement": "Solver instability and sensitive dependence share one mechanism: a perturbation multiplied each step by a factor of magnitude above one (|1 + a h| for forward Euler, |f'(x)| along an orbit).",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-12",
+   "source": "FOR",
+   "target": "PHI",
+   "type": "formal analogy",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "DVB-PHI-17; DVB-FOR-09; P07; P18",
+   "statement": "Branching paired with merging gives bounded multiplicity, and stretching paired with folding gives bounded chaos; whether 'procession with reversion' or 'reversal' maps onto such pairings is a framework hypothesis only.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-13",
+   "source": "SOC",
+   "target": "HUM",
+   "type": "method caution",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "DVB-SOC-11; DVB-HUM-13; P06",
+   "statement": "Divergence claims depend on the measure and the sample: slopes can mimic convergence and small families lack power, so null or opposite results need dispersion measures and power checks.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-14",
+   "source": "FOR",
+   "target": "SOC",
+   "type": "method caution",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "DVC-FOR-15; DVC-SOC-15; P23; P19",
+   "statement": "Whether something converges or diverges is a limit or population property: finite partial sums (p near 1) and selected samples (countries rich now) can show the opposite of the truth.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-15",
+   "source": "PHI",
+   "target": "HUM",
+   "type": "shared process",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "DVC-PHI-20; DVC-PHI-23; P18; P12; P13",
+   "statement": "The Laozi's manuscript lines are a case of the copying divergence studied by stemmatics, followed by standardisation toward a received text.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-16",
+   "source": "NAT",
+   "target": "SOC",
+   "type": "formal analogy",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "DVC-NAT-15; DVC-NAT-16; P22; P19",
+   "statement": "Hysteresis (states that do not return when conditions reverse) is a candidate formal analogue for 'poverty traps' and stalled growth in P19; P19 does not use this model and no data here test it.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-17",
+   "source": "PHI",
+   "target": "MR",
+   "type": "framework link",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "DVC-PHI-22; DVC-PHI-25; DVB-PHI-14",
+   "statement": "The Master Report's love theme meets the Divergence report at the return movement: love as the motive of re-ascent (Plotinus, P07) and ziran's influence on conceptions of love (P18). A framework link only.",
+   "status": "carried",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-18",
+   "source": "APP",
+   "target": "SOC",
+   "type": "method caution",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "DVD-APP-16; DVD-APP-18; DVD-SOC-18; P24; P19",
+   "statement": "Count-driven and selection-driven artefacts look alike: a summative originality score inherits fluency (P24), and a selected sample of rich countries shows convergence that the full sample lacks (P19); both are measurement design problems, not findings about divergence.",
+   "status": "new",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-19",
+   "source": "APP",
+   "target": "PHI",
+   "type": "shared process",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "DVD-APP-22; DVC-PHI-20; P24; P18",
+   "statement": "Divergence followed by selection or consolidation appears in idea generation (monitoring and selection, P24) and in textual transmission (standardisation of the Laozi, P18). A framework parallel only.",
+   "status": "new",
+   "origin": "phase cycle DVD"
+  },
+  {
+   "id": "PL-20",
+   "source": "FOR",
+   "target": "APP",
+   "type": "shared mathematics",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "basis": "IN0-FOR-01; IN0-FOR-02; IN0-APP-02; P27; P26",
+   "statement": "The giant-component fraction s = 1 - exp(-cs) (P27) is the same equation as the survival probability of a Poisson(R0) branching process, the probability that one case starts a major outbreak (IN0-APP-02: 58.3% at R0 = 1.5; IN0-FOR-02: 58.5% at c = 1.5).",
+   "status": "new",
+   "origin": "phase cycle IN0"
+  },
+  {
+   "id": "PL-21",
+   "source": "HUM",
+   "target": "SOC",
+   "type": "shared pattern",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "IN0-HUM-02; IN0-APP-02; IN0-SOC-01",
+   "statement": "Across fields, most beginnings fail: single new styles are usually lost (HUM toy), most introductions die out even above R0 = 1 (APP toy), and many riots never become revolutions (P25). A pattern across toys, not a tested law.",
+   "status": "new",
+   "origin": "phase cycle IN0"
+  },
+  {
+   "id": "PL-22",
+   "source": "IN",
+   "target": "DV",
+   "type": "phase relation",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "basis": "IN0-PHI-01; IN0-NAT-01; DVC-NAT-15",
+   "statement": "Insurgence and Divergence meet at thresholds: the same bifurcations that split states (DV) also let a new state rise (IN), and Bergson pairs the vital impulse with divergence. No ordering of phases is assumed.",
+   "status": "new",
+   "origin": "phase cycle IN0"
+  }
+ ],
+ "legend": {
+  "E": "Established",
+  "P": "Plausible",
+  "PS": "Philosophical/Spiritual",
+  "H": "Hypothetical"
+ },
+ "structure_edges": [
+  {
+   "source": "SOUL",
+   "target": "R3",
+   "type": "deepens"
+  },
+  {
+   "source": "SPIRIT",
+   "target": "R4",
+   "type": "deepens"
+  },
+  {
+   "source": "SUBC",
+   "target": "R2",
+   "type": "deepens"
+  },
+  {
+   "source": "SUBC",
+   "target": "R5",
+   "type": "deepens"
+  },
+  {
+   "source": "CONS",
+   "target": "R5",
+   "type": "deepens"
+  },
+  {
+   "source": "R1",
+   "target": "MR",
+   "type": "feeds"
+  },
+  {
+   "source": "R2",
+   "target": "MR",
+   "type": "feeds"
+  },
+  {
+   "source": "R3",
+   "target": "MR",
+   "type": "feeds"
+  },
+  {
+   "source": "R4",
+   "target": "MR",
+   "type": "feeds"
+  },
+  {
+   "source": "R5",
+   "target": "MR",
+   "type": "feeds"
+  },
+  {
+   "source": "R6",
+   "target": "MR",
+   "type": "feeds"
+  },
+  {
+   "source": "R7",
+   "target": "MR",
+   "type": "feeds"
+  }
+ ],
+ "structure_edges_note": "Organisational relations (which report a topic deepens; which reports feed the Master Report). Not evidential claims, so no E/P/PS/H label."
+}
