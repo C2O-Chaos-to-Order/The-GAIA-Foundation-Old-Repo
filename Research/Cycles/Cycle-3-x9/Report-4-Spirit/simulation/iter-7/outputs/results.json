@@ -1,0 +1,15 @@
+{
+ "S12_cumulative_mortality": 0.1816218102,
+ "mediator_vs_confounder": {
+  "confounder": {
+   "adjusted": 1.0016286878,
+   "attenuation": 1.0076255849,
+   "crude": 0.8078262543
+  },
+  "mediator": {
+   "adjusted": 0.9929138222,
+   "attenuation": 0.965471705,
+   "crude": 0.8138666598
+  }
+ }
+}
