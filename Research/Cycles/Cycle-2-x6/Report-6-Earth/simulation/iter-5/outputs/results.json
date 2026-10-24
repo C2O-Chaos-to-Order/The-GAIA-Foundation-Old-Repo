@@ -1,0 +1,55 @@
+{
+ "carried_from_prev": {},
+ "lifeless_width": 0.24,
+ "mutating_albedo": {
+  "rows": [
+   {
+    "k": 2,
+    "mu": 0.0,
+    "width": 0.82
+   },
+   {
+    "k": 2,
+    "mu": 0.01,
+    "width": 0.82
+   },
+   {
+    "k": 2,
+    "mu": 0.05,
+    "width": 0.8
+   },
+   {
+    "k": 5,
+    "mu": 0.0,
+    "width": 0.78
+   },
+   {
+    "k": 5,
+    "mu": 0.01,
+    "width": 0.77
+   },
+   {
+    "k": 5,
+    "mu": 0.05,
+    "width": 0.74
+   },
+   {
+    "k": 10,
+    "mu": 0.0,
+    "width": 0.73
+   },
+   {
+    "k": 10,
+    "mu": 0.01,
+    "width": 0.72
+   },
+   {
+    "k": 10,
+    "mu": 0.05,
+    "width": 0.7
+   }
+  ],
+  "two_type_width": 0.82
+ },
+ "no_adaptation_width": 0.82
+}
