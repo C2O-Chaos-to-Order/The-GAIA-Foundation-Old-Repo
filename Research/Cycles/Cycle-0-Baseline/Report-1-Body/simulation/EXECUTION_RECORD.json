@@ -1,15 +1,15 @@
 {
   "sim_id": "SIM-R1-C0",
   "status": "executed",
-  "started_utc": "2026-10-23T23:49:18.319979+00:00",
-  "finished_utc": "2026-10-23T23:49:18.442855+00:00",
+  "started_utc": "2026-10-24T00:24:39.866164+00:00",
+  "finished_utc": "2026-10-24T00:24:40.014861+00:00",
   "environment": {
     "python": "3.13.5",
     "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
     "numpy": "2.5.4",
     "scipy": "1.18.1"
   },
-  "command": "sim_homeostasis.py",
+  "command": "Report-1-Body/simulation/sim_homeostasis.py",
   "params": {
     "k_l": 0.1,
     "k_p": 2.0,
@@ -22,11 +22,12 @@
     "dt": 0.01,
     "T": 60.0,
     "degrade": 0.1,
-    "seed": 20261023
+    "seed": 20261023,
+    "ff": 0.8
   },
   "outputs": {
-    "outputs/summary.json": "a26f50ac19111d63abdd8a3b5193b8948e2933943941988e510892d0201e10f8",
-    "outputs/trajectories.csv": "dda901bc088dc2ce275f239da05794a153a819e0738f702d5dfafc05779ecf95"
+    "outputs/summary.json": "ec592b1e5957c0781bcb40fdfc80abd56accc55eef1881226960a2340944fd70",
+    "outputs/trajectories.csv": "a023a573468180da4dd31e241978491239cc220a1dc248f3c4aebdd00e3bd005"
   },
   "pre_registered_checks": [
     {
@@ -56,6 +57,21 @@
         10.99,
         4.49
       ],
+      "result": "Pass"
+    },
+    {
+      "id": "E6",
+      "expect": "PI+feedforward (anticipation, ff gain) peak < 0.5 x PI peak",
+      "observed": [
+        0.08640535319355025,
+        0.3600061867586858
+      ],
+      "result": "Pass"
+    },
+    {
+      "id": "E7",
+      "expect": "feedforward-only (no feedback) x(T) = analytic 1.987: anticipation with estimation error cannot restore the set point alone",
+      "observed": 1.9866,
       "result": "Pass"
     },
     {

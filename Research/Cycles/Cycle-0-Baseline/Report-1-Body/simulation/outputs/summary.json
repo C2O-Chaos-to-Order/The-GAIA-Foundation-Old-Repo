@@ -23,5 +23,15 @@
     "final_mean": 9.901406479014648,
     "peak": 9.942608868138453,
     "recovery_time": null
+  },
+  "PI_feedforward": {
+    "final_mean": 0.0010053587779870119,
+    "peak": 0.08640535319355025,
+    "recovery_time": 2.24
+  },
+  "feedforward_only": {
+    "final_mean": 1.9769073000804895,
+    "peak": 1.9865577760802697,
+    "recovery_time": null
   }
 }

@@ -28,3 +28,10 @@ It does not establish any physiological parameter, organ mechanism, or health cl
 
 ## Deviation recorded after first execution (not hidden)
 E1 was pre-registered as "steady state → 10". With leak k_l = 0.1 (time constant 10) and only 50 time units after the step, the uncontrolled system has not reached steady state at T = 60. The check actually executed compares x(T) to the analytic transient value 10·(1 − e^(−5)) = 9.933 (1% tolerance). The pre-registered steady-state wording was therefore not testable as written; the substituted check is documented here and in EXECUTION_RECORD.json.
+
+## Baseline v2 extension (specified 2026-10-24 before the v2 run)
+Framework scope added "how the body interacts with its environment" and the allostasis critique (T01: anticipatory regulation reduces error magnitude). Two runs and two checks were added; E1–E5 are unchanged and were re-run fresh.
+- Model change: optional feedforward term u_ff = −ff·d(t) (the controller "anticipates" an environmental load with gain ff = 0.8, i.e. a 20% estimation error). Nothing else changed.
+- E6: PI + feedforward peak |x| < 0.5 × PI-only peak (anticipation reduces error magnitude, as T01 claims for allostasis).
+- E7: feedforward only (no feedback): x(T) equals the analytic value (1−ff)·10·(1−e^(−5)) = 1.987 within 1% — anticipation with any estimation error cannot restore the set point without feedback.
+- What this does NOT show: that physiological regulation is "really" feedforward or feedback; T01 vs S01 is a live dispute (Report 1 §Competing accounts). The toy shows only that the two mechanisms are complementary in this linear system.
