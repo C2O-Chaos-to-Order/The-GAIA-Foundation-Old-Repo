@@ -103,6 +103,36 @@ For each element: its connection to the Universe; to Divergence, Insurgence, All
 
 - [ ] ⬜ **x13 cycle** across all work through the Good and Greater Good Framework — "discover the pattern in the work"
 
+## K. Knowledge, Skills, Capabilities and Powers
+
+Each series runs Base, Meta, Super, Hyper, Ultra, Magic, Quantum (each Baseline → x3 → x6 → x9 → x12), then an entanglement report connecting all seven levels. Note: `Research/README.md` §2 already defines a responsibility ladder (Power, Meta Power, Super Power, Hyper Power, Ultra Power, Magic Power); the Powers series builds on it and adds Quantum.
+
+- [ ] ⬜ **Knowledge** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
+- [ ] ⬜ **Skills** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
+- [ ] ⬜ **Capabilities** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
+- [ ] ⬜ **Powers** — Base, Meta, Super, Hyper, Ultra, Magic, Quantum — entangled
+- [ ] ⬜ **Knowledge, Skills, Capabilities and Powers: The Quantum Entanglement** — how the four series connect
+
+### Recommended by Grok Bot (awaiting owner approval)
+
+- [ ] ⬜ **Wisdom** — the same seven levels; knowledge becomes wisdom through judgment (pairs with Knowledge)
+- [ ] ⬜ **Responsibilities** — the same seven levels; every Power level paired with its required duty (the README motto: greater capability requires greater safeguards)
+- [ ] ⬜ **Safeguards and Limits** — the same seven levels; the Transformative and Protective Framework applied at each level
+- [ ] ⬜ **Virtues and Character** — the same seven levels; who holds the Knowledge, Skills, Capabilities and Powers
+
+## L. Updates needed to existing work
+
+Found by checking the repository on 2026-10-24.
+
+- [ ] ⬜ **Matrix: add Transcendence.** The phase axis in `Research/README.md` §9.3 and `RESEARCH_PLAN_EXTENSION.md` lists five phases; adding Transcendence changes the grid from 5×5×5×5 = 625 to 5×5×6×5 = 750 intersections, and all Maps & Matrix need a new version.
+- [ ] ⬜ **Responsibility ladder: add Quantum.** `Research/README.md` §2 stops at Magic Power.
+- [ ] ⬜ **Ethics lenses: upgrade to the Good and Greater Good Framework.** The matrix uses five lenses (Truth, Integrity, Love, Justice, Wisdom) and §13 a 17-domain taxonomy; the owner's Universal Master List v1.0 and the Transforming Harm and Protecting Life companion are not yet in the repo.
+- [ ] ⬜ **Phase-to-level mapping in Divergence and Insurgence.** Allegiance and Convergence record the owner's pattern (Base = Divergence … Magic = Transcendence); Divergence and Insurgence do not yet.
+- [ ] ⬜ **Report 6: Soul of the Earth.** Report 6 names Life as the Soul of the Earth; the owner has since also named Humans and the Geomagnetic Spectrum. Record the alternatives openly without rewriting earlier versions.
+- [ ] ⬜ **Open questions in `Research/README.md`** (e.g. "How are the five phases defined?") should be updated now that the owner has defined the pattern.
+- [ ] ⬜ **Soul, Spirit, Subconscious and Consciousness track:** it has links to the main reports but none among the four topics (handled by the Connection report in §E).
+- [ ] ⬜ **Audit v2 open items:** 3 FAIL and 13 INDETERMINATE, including branch protection on `main`, naming independent and ethics reviewers, and L5-03 attribution.
+
 ## Afterwards
 
 - [ ] ⬜ Improve The-Official-GAIA-Encyclopedia
@@ -110,5 +140,6 @@ For each element: its connection to the Universe; to Divergence, Insurgence, All
 
 ## Change log
 
+- 2026-10-24 — Added Knowledge, Skills, Capabilities and Powers series, recommendations, and the list of updates needed.
 - 2026-10-24 — Allegiance complete (x12 verified); Convergence started.
 - 2026-10-24 — Queue created from the owner's list (chat, 2026-10-24) and the DeepSeek history document.
