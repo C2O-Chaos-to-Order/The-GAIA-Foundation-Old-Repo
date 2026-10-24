@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:16.631814+00:00",
+ "finished_utc": "2026-10-24T04:07:16.853037+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-6",
+ "params_sha256": "d30c40faf0f309255b70b43b402ebcd55fd9609ea8916cbcf751429e90938b9d",
+ "outputs": {
+  "outputs/results.json": "3e72229302b6e86b9b15e384d1761d35c0b56257d338c0bad9cb254d8ea36030"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "selection that depends on attendance and on U (Y04) is flagged by the NCO in >= 80% of cohorts",
+   "observed": 0.045,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
