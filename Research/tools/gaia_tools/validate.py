@@ -1,10 +1,11 @@
 """Validate every cycle's claims, sources, links, simulation index and execution records.
 
 Usage:  python -m gaia_tools.validate <Research dir> [--out report.json]
-Two layers: (1) JSON Schema (data model 1.0.0, gaia_tools/schemas/), (2) cross-file integrity rules:
+Two layers: (1) JSON Schema (data model 1.1.0, gaia_tools/schemas/), (2) cross-file integrity rules:
   V1 claim IDs unique within a cycle; claim.report matches its report folder
   V2 every literature source ID cited by a claim exists in that cycle's SOURCE_REGISTER
-  V3 every SIM citation resolves to a pre-registered check (C0: prefix -> Cycle 0 records)
+  V3 every SIM citation resolves to a pre-registered check (C0: prefix -> Cycle 0 records; since 1.1.0 a
+     SIM id from an earlier cycle, e.g. SIM-R4-C1 cited in Cycle 2, resolves against that cycle's records)
   V4 every link basis claim ID exists in that cycle
   V5 each report's sources.csv rows are byte-for-byte rows of the register (same fields, same values)
   V6 execution-record output hashes match files on disk; params_sha256 (iteration records) matches params.json
@@ -16,6 +17,7 @@ import argparse, json, os, sys
 from importlib import resources
 import jsonschema
 from . import data as D
+from . import DATA_MODEL_VERSION
 
 
 def load_schemas():
@@ -48,6 +50,11 @@ def validate(research_dir):
     errors, warnings, counts = [], [], {}
     cyc = D.cycles(research_dir)
     c0_checks = D.check_index(cyc[0][1], cyc[0][0]) if cyc else {}
+    _paths = dict(cyc); _cache = {}
+    def idx_cache(c):
+        if c not in _cache:
+            _cache[c] = D.check_index(_paths[c], c) if c in _paths else {}
+        return _cache[c]
 
     def err(cycle, kind, ident, msg):
         errors.append(dict(cycle=cycle, kind=kind, id=ident, error=msg))
@@ -109,9 +116,7 @@ def validate(research_dir):
             for sid in D.split_ids(r["source_ids"]):
                 m = D.SIM_REF.match(sid)
                 if m:
-                    key = sid[3:] if m.group("c0") else sid
-                    pool = c0_checks if m.group("c0") else checks
-                    if key not in pool:
+                    if D.lookup_sim(sid, cid, lambda c: checks if c == cid else idx_cache(c)) is None:
                         err(cid, "V3", r["claim_id"], f"unresolved simulation citation {sid}")
                 elif sid not in reg:
                     err(cid, "V2", r["claim_id"], f"source {sid} not in register")
@@ -125,7 +130,7 @@ def validate(research_dir):
             for s in rows:
                 if reg.get(s["source_id"]) != s:
                     err(cid, "V5", f"{rid}:{s['source_id']}", "report sources.csv row differs from register")
-    return dict(data_model="1.0.0", cycles=counts, n_errors=len(errors), n_warnings=len(warnings), errors=errors, warnings=warnings)
+    return dict(data_model=DATA_MODEL_VERSION, cycles=counts, n_errors=len(errors), n_warnings=len(warnings), errors=errors, warnings=warnings)
 
 
 def main(argv=None):

@@ -43,3 +43,11 @@ def test_rerun_identical():
     for cid, _ in D.cycles(RESEARCH):
         r = R.run_cycle(RESEARCH, cid)
         assert r["all_identical"], [x for x in r["runs"] if not (x["outputs_identical"] and x["checks_identical"])]
+
+
+@pytest.mark.skipif(not os.environ.get("GAIA_SNAPSHOTS"), reason="set GAIA_SNAPSHOTS to a directory of <source_id>.txt snapshots")
+def test_verification_phrases_found_every_cycle():
+    for cid, _ in D.cycles(RESEARCH):
+        r = K.check(RESEARCH, cid, snapshots=os.environ["GAIA_SNAPSHOTS"])
+        bad = [c for c in r["claims"] if c["results"].get("K-phrase") in ("Fail", "Indeterminate")]
+        assert not bad, bad[:3]

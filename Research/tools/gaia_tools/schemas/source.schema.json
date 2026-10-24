@@ -1,7 +1,7 @@
 {
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/Research/tools/gaia_tools/schemas/source.schema.json",
- "title": "Source register entry (data model 1.0.0)",
+ "title": "Source register entry (data model 1.1.0)",
  "description": "One row of Provenance/SOURCE_REGISTER.csv (and of each report's sources/sources.csv, which must be an exact subset of the register).",
  "type": "object",
  "required": [
@@ -19,7 +19,7 @@
  "properties": {
   "source_id": {
    "type": "string",
-   "pattern": "^[GSTUV][0-9]{2}[a-z]?$"
+   "pattern": "^[GSTUVW][0-9]{2}[a-z]?$"
   },
   "citation": {
    "type": "string",
