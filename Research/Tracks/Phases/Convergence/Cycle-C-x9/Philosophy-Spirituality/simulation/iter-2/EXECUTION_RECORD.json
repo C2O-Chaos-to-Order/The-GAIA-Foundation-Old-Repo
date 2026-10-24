@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-CV-PHI-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:52.034244+00:00",
+ "finished_utc": "2026-10-24T21:13:53.502544+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-2  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "03dd6457432493e3c3113b1b771ec6fef203126b48cfcb0bcf76a03c0c2eff75",
+ "params_sha256": "1e8aba5cd8dda856d07f5a2a2bc456deea46ed8952e280cfe2f577b68ae687b9",
+ "results_sha256": "0d3ab872746aab566cfe19bb89ad75957bdba977823296f35cce630690d97580",
+ "results": {
+  "models": {
+   "core": {
+    "mean_sim": 0.62286,
+    "sd_sim": 0.01945,
+    "corr_sim_dist": 0.0006
+   },
+   "diffusion": {
+    "mean_sim": 0.75019,
+    "sd_sim": 0.03349,
+    "corr_sim_dist": 0.0085
+   }
+  },
+  "analytic_core_mean": 0.625
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "core model mean similarity within 0.01 of the analytic p^2 + (1 - p^2)/2",
+   "observed": [
+    0.62286,
+    0.625
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "global diffusion (contact with anyone): no distance gradient either (|corr| < 0.05) - the gradient test cannot separate it from a common core",
+   "observed": {
+    "models": {
+     "core": {
+      "mean_sim": 0.62286,
+      "sd_sim": 0.01945,
+      "corr_sim_dist": 0.0006
+     },
+     "diffusion": {
+      "mean_sim": 0.75019,
+      "sd_sim": 0.03349,
+      "corr_sim_dist": 0.0085
+     }
+    },
+    "analytic_core_mean": 0.625
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "global diffusion produces above-chance similarity (> 0.55), like a core",
+   "observed": {
+    "models": {
+     "core": {
+      "mean_sim": 0.62286,
+      "sd_sim": 0.01945,
+      "corr_sim_dist": 0.0006
+     },
+     "diffusion": {
+      "mean_sim": 0.75019,
+      "sd_sim": 0.03349,
+      "corr_sim_dist": 0.0085
+     }
+    },
+    "analytic_core_mean": 0.625
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "models": {
+     "core": {
+      "mean_sim": 0.62286,
+      "sd_sim": 0.01945,
+      "corr_sim_dist": 0.0006
+     },
+     "diffusion": {
+      "mean_sim": 0.75019,
+      "sd_sim": 0.03349,
+      "corr_sim_dist": 0.0085
+     }
+    },
+    "analytic_core_mean": 0.625
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
