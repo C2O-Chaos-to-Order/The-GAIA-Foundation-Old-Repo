@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R2-C3",
+ "iteration": 9,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:02:30.796271+00:00",
+ "finished_utc": "2026-10-24T03:02:31.365939+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-9",
+ "params_sha256": "f0389b76c67030f17dcd19d1db85771b29f37a064865ebd386136ddf965d2b06",
+ "outputs": {
+  "outputs/results.json": "2a319a04287665c44d02a5f8268d70097050b1e675cbefe89741537b564d65df"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H9",
+   "kind": "hypothesis",
+   "expect": "iteration-6 off-grid recovery at noise 0.1 replicates with a new seed and 2x replicates (|diff| <= 0.05)",
+   "observed": [
+    0.95,
+    0.9833333333
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
