@@ -1,0 +1,75 @@
+{
+ "sim_id": "SIM-DV-PHI-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:44.719847+00:00",
+ "finished_utc": "2026-10-24T16:47:45.094870+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-10  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "c0089cbd5e7bec2e5e855bc0862d4d47744431cfa93f793c95d4f1ca3efb42fc",
+ "params_sha256": "cd446797c9dd5fbc0747096b5ee665923ac096fadb89b8bfe7a2cef66f5a2c02",
+ "results_sha256": "d781a900277bc33d0493e2ff9ae2a5cf991861fb0c034f1b80feb7b3091fc7f1",
+ "results": {
+  "mean": {
+   "continuous": 0.19956445,
+   "binary": 0.13055556
+  },
+  "se": {
+   "continuous": 0.0022161,
+   "binary": 0.00150305
+  },
+  "population": 0.2,
+  "finite_sample": 0.20080321
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "continuous trait: mean CFst within max(4 SE, 0.005) of the finite-sample approximation (population value sb^2/(sb^2+sw^2) = 0.2000 reported)",
+   "observed": [
+    0.19956445,
+    0.20080321,
+    0.00886441
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "dichotomising the same trait lowers CFst by at least 20% relative to the continuous value",
+   "observed": 0.34579751,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "mean CFst by scale, population and finite-sample values",
+   "observed": {
+    "mean": {
+     "continuous": 0.19956445,
+     "binary": 0.13055556
+    },
+    "se": {
+     "continuous": 0.0022161,
+     "binary": 0.00150305
+    },
+    "population": 0.2,
+    "finite_sample": 0.20080321
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
