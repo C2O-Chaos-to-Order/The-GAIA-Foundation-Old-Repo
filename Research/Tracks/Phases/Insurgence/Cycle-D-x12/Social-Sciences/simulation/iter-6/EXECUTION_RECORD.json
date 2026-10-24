@@ -1,0 +1,91 @@
+{
+ "sim_id": "SIM-IN-SOC-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:18:48.186048+00:00",
+ "finished_utc": "2026-10-24T18:18:49.975052+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-6  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "81a5628f31f7d1b80152a56e52c83de9150d2c38c9f97254795ee37fd9318bdf",
+ "params_sha256": "44240224e546bf4bea54e27caed42d5a6ec14a845bb54a16ab019f8e7c73c475",
+ "results_sha256": "c75fede9cf9767199cfc2993a5831727eb54ce0236b51dd82ccb15d828671b66",
+ "results": {
+  "k": 4,
+  "i": 2,
+  "T": 1,
+  "n": 1000,
+  "p1_star": 0.33333333,
+  "by_pair": {
+   "0.0,1.0": {
+    "clustered": 1.0,
+    "random": 0.00202,
+    "t60_clustered": 299.56,
+    "t60_random": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "shares in [0, 1]",
+   "observed": {
+    "0.0,1.0": {
+     "clustered": 1.0,
+     "random": 0.00202,
+     "t60_clustered": 299.56,
+     "t60_random": null
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "clustered share exceeds random by at least 0.5",
+   "observed": {
+    "0.0,1.0": {
+     "clustered": 1.0,
+     "random": 0.00202,
+     "t60_clustered": 299.56,
+     "t60_random": null
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "k": 4,
+    "i": 2,
+    "T": 1,
+    "n": 1000,
+    "p1_star": 0.33333333,
+    "by_pair": {
+     "0.0,1.0": {
+      "clustered": 1.0,
+      "random": 0.00202,
+      "t60_clustered": 299.56,
+      "t60_random": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

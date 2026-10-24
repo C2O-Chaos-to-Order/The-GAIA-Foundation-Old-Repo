@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-IN-SOC-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:18:44.638360+00:00",
+ "finished_utc": "2026-10-24T18:18:48.053101+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-5  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "c0eb7b10abfdee1cb349431a8a7553fbfb0efc31905dc7c71355b022ad3f275f",
+ "params_sha256": "fe6d259878401d89ffb5620dae41d8e0e1a5a1507cea4ac5598cb27cf92c2e2b",
+ "results_sha256": "f6643600b2eb92e437ed81c2d0277d27ca8706162c83225618b6aa3c18e07fc4",
+ "results": {
+  "k": 4,
+  "i": 2,
+  "T": 1,
+  "n": 1000,
+  "p1_star": 0.33333333,
+  "by_pair": {
+   "0.6,0.9": {
+    "clustered": 0.10174,
+    "random": 0.9796,
+    "t60_clustered": null,
+    "t60_random": 9.7755102
+   },
+   "0.8,1.0": {
+    "clustered": 1.0,
+    "random": 1.0,
+    "t60_clustered": 166.52,
+    "t60_random": 6.98
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "shares in [0, 1]",
+   "observed": {
+    "0.6,0.9": {
+     "clustered": 0.10174,
+     "random": 0.9796,
+     "t60_clustered": null,
+     "t60_random": 9.7755102
+    },
+    "0.8,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 166.52,
+     "t60_random": 6.98
+    }
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "both networks reach >= 0.6 and random reaches 60% in fewer steps",
+   "observed": {
+    "0.6,0.9": {
+     "clustered": 0.10174,
+     "random": 0.9796,
+     "t60_clustered": null,
+     "t60_random": 9.7755102
+    },
+    "0.8,1.0": {
+     "clustered": 1.0,
+     "random": 1.0,
+     "t60_clustered": 166.52,
+     "t60_random": 6.98
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "k": 4,
+    "i": 2,
+    "T": 1,
+    "n": 1000,
+    "p1_star": 0.33333333,
+    "by_pair": {
+     "0.6,0.9": {
+      "clustered": 0.10174,
+      "random": 0.9796,
+      "t60_clustered": null,
+      "t60_random": 9.7755102
+     },
+     "0.8,1.0": {
+      "clustered": 1.0,
+      "random": 1.0,
+      "t60_clustered": 166.52,
+      "t60_random": 6.98
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
