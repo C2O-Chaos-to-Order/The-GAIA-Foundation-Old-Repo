@@ -1,0 +1,20 @@
+{
+ "dt1": {
+  "L_establish": 0.524,
+  "L_max": 1.768,
+  "at_range_edge": false,
+  "frac_within_5C": 0.6858974359,
+  "slope_ratio": 0.2313901176,
+  "total_life": 0.8542809605,
+  "width": 1.244
+ },
+ "dt_half": {
+  "L_establish": 0.524,
+  "L_max": 1.768,
+  "at_range_edge": false,
+  "frac_within_5C": 0.6858974359,
+  "slope_ratio": 0.2313902468,
+  "total_life": 0.8542812328,
+  "width": 1.244
+ }
+}
