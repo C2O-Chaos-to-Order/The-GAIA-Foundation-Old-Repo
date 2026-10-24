@@ -1,0 +1,18 @@
+{
+ "neutral": {
+  "L_establish": 0.744,
+  "L_max": 1.1,
+  "frac_within_5C": 0.3444444444,
+  "slope_ratio": 1.0,
+  "total_life": 0.2031638116,
+  "width": 0.356
+ },
+ "original": {
+  "L_establish": 0.684,
+  "L_max": 1.496,
+  "frac_within_5C": 0.9754901961,
+  "slope_ratio": -0.0306573565,
+  "total_life": 0.5514755984,
+  "width": 0.812
+ }
+}

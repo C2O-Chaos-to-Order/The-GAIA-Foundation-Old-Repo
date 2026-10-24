@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 4,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:22.391317+00:00",
+ "finished_utc": "2026-10-24T03:10:24.152927+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-4",
+ "params_sha256": "35ed7009c90b07c95fa1b0b1d4c0011aea128cdd694865bb8771e1d3c8985ba2",
+ "outputs": {
+  "outputs/results.json": "fa0314a4edf950dd027a0d502703dea16e85b85968f4f4f5bebb9c86af15bc4d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "establishment luminosity changes by <= 0.02 across seed floors 1e-4 to 1e-2 (the floor is not given in W01)",
+   "observed": [
+    0.684,
+    0.684,
+    0.684
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
