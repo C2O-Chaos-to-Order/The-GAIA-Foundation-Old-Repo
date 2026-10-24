@@ -6,7 +6,7 @@ Owner request (2026-10-24): five phase reports — **Divergence, Insurgence, All
 |---|---|---|
 | Divergence | `Divergence/` | in progress |
 | Insurgence | `Insurgence/` | in progress |
-| Allegiance | `Allegiance/` | planned |
+| Allegiance | `Allegiance/` | in progress |
 | Convergence | `Convergence/` | planned |
 | Ascendence | `Ascendence/` | planned |
 | Synthesis | `SYNTHESIS.md` | planned |
