@@ -1,0 +1,93 @@
+{
+ "sim_id": "SIM-DV-HUM-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:59.329807+00:00",
+ "finished_utc": "2026-10-24T08:10:59.941300+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-2  (run from Humanities/simulation/)",
+ "spec_sha256": "c2e7293e022684457d52aa93f4ff3fea8e1b9d25ae4e91b4805b6d7c6a655467",
+ "params_sha256": "a4378ae67270a2a46da356a4a344d8a15effc4437aba96309c5685362e689787",
+ "results_sha256": "84514845123105a46d9bc23dafe22466050d2136bfe5930cb219d54c4fde9252",
+ "results": {
+  "exact": 0.00321665,
+  "mc": 0.003238,
+  "mc_se": 5.662e-05,
+  "k2_range": [
+   0.0002,
+   0.0014
+  ],
+  "k3_range": [
+   0.0015,
+   0.0043
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "exact P(X >= 4 | n 100, p 0.006) rounds to P12's 0.0032",
+   "observed": 0.0032,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "Monte Carlo frequency within 4 standard errors of the exact value",
+   "observed": [
+    0.003238,
+    0.00321665,
+    0.0002265
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "alpha 0.01 reproduces P12's ranges: k = 2 exactly on grid points 0.0002..0.0014 and k = 3 on 0.0015..0.0042",
+   "observed": [
+    [
+     0.0002,
+     0.0014
+    ],
+    [
+     0.0015,
+     0.0043
+    ]
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "threshold ranges",
+   "observed": {
+    "exact": 0.00321665,
+    "mc": 0.003238,
+    "mc_se": 5.662e-05,
+    "k2_range": [
+     0.0002,
+     0.0014
+    ],
+    "k3_range": [
+     0.0015,
+     0.0043
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
