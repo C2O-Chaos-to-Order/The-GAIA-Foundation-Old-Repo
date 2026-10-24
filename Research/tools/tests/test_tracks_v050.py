@@ -13,7 +13,7 @@ def _schema(n):
 
 
 def test_versions():
-    assert tuple(int(x) for x in __version__.split(".")) >= (0, 5, 0) and DATA_MODEL_VERSION == "1.4.0"
+    assert tuple(int(x) for x in __version__.split(".")) >= (0, 5, 0) and tuple(int(x) for x in DATA_MODEL_VERSION.split(".")) >= (1, 4, 0)
 
 
 def test_track_sim_ref():

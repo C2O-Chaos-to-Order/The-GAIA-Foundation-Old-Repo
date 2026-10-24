@@ -1,0 +1,35 @@
+# Divergence in the Social Sciences — Cycle-A-x3 (DVA)
+
+Phase report: Divergence (`../../README.md`). Definitions and competing definitions: `../DEFINITIONS.md`. Labels: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA's Phase axis is a framework category (PS), kept separate from the findings.
+
+## Reading of this cycle
+x3 adds strong empirical evidence (P11): values diverged across 76 countries from 1981 to 2022 while converging within regions. An independent approximation of P03's event model reproduced its event effect at one homophily level but not the other.
+
+## Claims (ledger: `claims/claims.csv`)
+- **DVA-SOC-01** [E] In opinion-dynamics models, bounded assimilative influence (only individuals with similar opinions influence each other) makes opinions fragment into two or more converging clusters, while adding noise broadens the distribution again. *Operationalization:* Divergence = fragmentation of a population into opinion clusters. *Sources:* P03. *Limits:* Describes model behaviour, not observed societies.
+- **DVA-SOC-04** [E] Analysing World Values Survey data from 1981 to 2022 (n = 406,185; 76 national cultures), Jackson and Medvedev find global value divergence, sharpest for values emphasising tolerance and self-expression, especially between high-income Western countries and the rest of the world. *Operationalization:* Divergence = rising cross-country SD of item means (value variation) and rising distance from the global median (value distinctiveness). *Sources:* P11. *Limits:* 40 items only; samples not perfectly representative (e.g. indigenous populations); the period (1981-2022) may be historically specific, as the authors note.
+- **DVA-SOC-05** [E] In the same data, geographic proximity became an increasingly strong correlate of value similarity (standardised effect 0.16 at the first timepoint, 0.35 at the seventh): values diverged globally but converged regionally. *Operationalization:* Divergence across regions with convergence within regions. *Sources:* P11. *Limits:* Correlational; country-pair regressions with cross-classified random effects.
+- **DVA-SOC-02** [P] Condie and Condie propose, with an agent-based bounded-confidence model, that stochastic external events can sustain polarisation even when all interpersonal interactions are noisy and assimilative, because events act on much of the population at once. *Operationalization:* Divergence = persistent polarisation driven by shared external events. *Sources:* P03. *Limits:* A model-based possibility proof; empirical calibration against real opinion data is limited.
+- **DVA-SOC-03** [P] In a noise-free Deffuant model (500 agents), confidence bound 0.5 gave consensus in 10/10 replicates and bound 0.15 gave three major clusters in 10/10, with the mean opinion conserved exactly. *Operationalization:* Divergence = number of separated opinion clusters. *Sources:* SIM-DV-SOC-0/iter-1#V1;SIM-DV-SOC-0/iter-1#H1;SIM-DV-SOC-0/iter-1#H2. *Limits:* No network, no events, no noise; cluster counting rule is a convention.
+- **DVA-SOC-06** [P] GDP per capita was the only geopolitical variable that significantly predicted a country's value distinctiveness; the authors suggest rising wealth may be responsible for worldwide divergence but state that more research is needed to determine the causal relationship, if any. *Operationalization:* Candidate driver of value divergence. *Sources:* P11. *Limits:* The wealth effect varied by continent (non-significant in Africa and Asia); causal direction unknown.
+- **DVA-SOC-07** [P] An independent approximation of P03's event model reproduced its central claim only in part. At confidence threshold 0.4, events raised long-run conflict from 0.27 to 0.58 (+0.31, supported) and the no-event level matched P03's Eq. 6 within 0.1, but the event level exceeded Eq. 6 (0.45) by more than 0.1 (not supported). At threshold 0.2, opinions stayed fragmented without events (conflict 0.55 vs Eq. 6 0.26, not supported) and events added only 0.01 (not supported). *Operationalization:* Divergence = event-sustained polarisation (SD of opinions). *Sources:* SIM-DV-SOC-A/iter-1#V1;SIM-DV-SOC-A/iter-1#H1;SIM-DV-SOC-A/iter-1#H2;SIM-DV-SOC-A/iter-1#H3;SIM-DV-SOC-A/iter-2#V1;SIM-DV-SOC-A/iter-2#H1;SIM-DV-SOC-A/iter-2#H2;SIM-DV-SOC-A/iter-2#H3. *Limits:* Not P03's code: partner count k = 4, symmetric certainty drift and directed random partners are our choices; 1,000 steps; 5 replicates. The mismatch may reflect our implementation rather than P03.
+- **DVA-SOC-08** [P] In a synthetic 60-country, 6-region panel with growing region effects, P11's value-variation measure rose overall (slope +0.002 per wave, after an initial dip from 0.105 to 0.085) while within-region variation fell from 0.102 to 0.042: global divergence and regional convergence can coexist and both measures register it. *Operationalization:* Global vs regional value variation. *Sources:* SIM-DV-SOC-A/iter-3#V1;SIM-DV-SOC-A/iter-3#H1. *Limits:* The regional drift was built into the generator; this shows the measures behave as intended, not why real values diverged.
+
+## Simulations (SIM-DV-SOC-A; 3 iteration(s), spec-first; validation 3/3, hypotheses supported 4/7)
+
+| iter | params | purpose | checks |
+|---|---|---|---|
+| 1 | `12736487` | Independent re-implementation of P03's event model: do stochastic external events sustain high opinion conflict where bounded confidence alone does not, and does P03's Eq. 6 predict the levels? | V1 Pass; H1 Not supported; H2 Supported; H3 Not supported; R1 Reported |
+| 2 | `c63652da` | Same model at a wider confidence threshold (eps 0.4) to test P03's (1 - eps) scaling of conflict. | V1 Pass; H1 Supported; H2 Not supported; H3 Supported; R1 Reported |
+| 3 | `af1181d2` | Can P11's headline pattern (values diverged globally but converged regionally) arise in a simple generative panel, and do P11's two measures register it? | V1 Pass; H1 Supported; R1 Reported |
+
+Each `simulation/iter-k/SPEC.md` was written before execution and holds the parameters; `EXECUTION_RECORD.json` holds results, checks and hashes. 'Not supported' is a finding, not an error.
+
+## Research passes (3; details `research/PASSES.md`)
+- Pass 1: P11 gives large-sample evidence of global value divergence with regional convergence (WVS 1981-2022, 76 countries) and two divergence measures; basis for SIM-DV-SOC-A iter-3.
+- Pass 2: Full re-read of P03 supplied the SIEM rules, parameter ranges and Eq. 6 used in SIM-DV-SOC-A iterations 1-2; it also showed P03 uses a Hegselmann-Krause (synchronous) model, not Deffuant, and does not state its default k in the text read.
+- Pass 3: Added nothing: the economic sense (income divergence/convergence) remains unsourced; pass 1's query returned mostly health-outcome convergence papers, none read.
+
+## Unresolved
+- Our approximation of P03 matched only part of Eq. 6 (fragmentation persisted at eps 0.2 without events); a closer re-implementation (undirected network, P03's k) is needed.
+- Economic divergence unsourced.

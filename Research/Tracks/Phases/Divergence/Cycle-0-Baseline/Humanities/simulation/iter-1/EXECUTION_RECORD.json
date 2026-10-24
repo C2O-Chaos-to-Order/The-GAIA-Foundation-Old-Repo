@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-DV-HUM-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:48:40.389318+00:00",
+ "finished_utc": "2026-10-24T07:48:40.448468+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "b3f33d2256b652d8b68ac676a851cc272a27e3bd5ff9669bcfce26616d9229c2",
+ "params_sha256": "42d14e2bf5c6126e063a61ec2c33e7e80d9b26a43694a94cd237ae5df130a7f6",
+ "results_sha256": "2a96c6d8b30034126f0e3a722d610fdf0962f11a08597dc8a231b16ad2e6370f",
+ "results": {
+  "0": {
+   "mean_C": 0.6578625,
+   "analytic_C": 0.65704682,
+   "mean_T_hat": 3.00023939,
+   "bias": 7.98e-05
+  },
+  "1.0": {
+   "mean_C": 0.704175,
+   "analytic_C": 0.70422535,
+   "mean_T_hat": 2.51330503,
+   "bias": -0.16223166
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "homogeneous rates: mean T_hat within 5% of the true T",
+   "observed": 7.98e-05,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "simulated mean shared-cognate fraction within 0.02 of the analytic value for every shape",
+   "observed": 0.00081568,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "rate heterogeneity (shape 1.0) makes the constant-rate estimate underestimate T by >= 10%",
+   "observed": -0.16223166,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "results by shape",
+   "observed": {
+    "0": {
+     "mean_C": 0.6578625,
+     "analytic_C": 0.65704682,
+     "mean_T_hat": 3.00023939,
+     "bias": 7.98e-05
+    },
+    "1.0": {
+     "mean_C": 0.704175,
+     "analytic_C": 0.70422535,
+     "mean_T_hat": 2.51330503,
+     "bias": -0.16223166
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

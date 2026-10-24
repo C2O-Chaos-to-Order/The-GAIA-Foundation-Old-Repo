@@ -1,0 +1,6 @@
+link_id,from,to,link_type,framework_label,basis,statement,status
+PL-01,NAT,APP,shared framework,Plausible,P04 (Darwinian perspective on tumour evolution); DV0-APP-01..03,"Tumour clonal divergence is studied with the evolutionary-biology framework (selection, drift, branching) used for species divergence.",new
+PL-02,NAT,HUM,method transfer,Plausible,P06 (phylogenies of Andic); P02 (Darwin's tree images),Historical linguistics uses phylogenetic (tree) representations of divergence; the tree image itself has a contested history in Darwin's work.,new
+PL-03,FOR,SOC,formal analogy,Hypothetical,DV0-FOR-01; DV0-SOC-01,Opinion fragmentation and trajectory divergence are both properties of dynamical systems; whether opinion models show sensitive dependence is untested here.,new
+PL-04,PHI,NAT,engagement,Plausible,P08 (Bergson's tendency theory addresses evolution),"Bergson's principle of divergence and differentiation is a philosophical response to evolutionary biology, not a biological finding.",new
+PL-05,GAIA,DV,motherthread,Philosophical/Spiritual,Research/README.md 9.3 (Phase axis),Divergence is a GAIA framework category (Proposed); this report operationalizes it per field without assuming it names one phenomenon.,new

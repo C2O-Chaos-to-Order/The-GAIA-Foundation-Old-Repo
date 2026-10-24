@@ -1,0 +1,142 @@
+{
+ "sim_id": "SIM-DV-SOC-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:58.220759+00:00",
+ "finished_utc": "2026-10-24T08:10:58.232575+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "2d8da0a1485c894b401b86d060a84e1db4151e4158943f05333ca0a7e56e0fe7",
+ "params_sha256": "af1181d2e6ccab4689a7a50aed71862d766cd4ce5083ebbd33a42dec2fa69375",
+ "results_sha256": "d9eeefbe43d1fd84ce26dda567ff71b088f46cde9a132e2f7bb48ebcbc9ae44a",
+ "results": {
+  "waves": [
+   {
+    "wave": 1,
+    "global_variation": 0.10473279,
+    "within_region_variation": 0.10238062,
+    "distinctiveness": 0.0834319
+   },
+   {
+    "wave": 2,
+    "global_variation": 0.0911381,
+    "within_region_variation": 0.08741062,
+    "distinctiveness": 0.07233457
+   },
+   {
+    "wave": 3,
+    "global_variation": 0.08535513,
+    "within_region_variation": 0.0750592,
+    "distinctiveness": 0.06838542
+   },
+   {
+    "wave": 4,
+    "global_variation": 0.08511429,
+    "within_region_variation": 0.06452882,
+    "distinctiveness": 0.06811299
+   },
+   {
+    "wave": 5,
+    "global_variation": 0.09173019,
+    "within_region_variation": 0.05572558,
+    "distinctiveness": 0.07391581
+   },
+   {
+    "wave": 6,
+    "global_variation": 0.10251217,
+    "within_region_variation": 0.04876976,
+    "distinctiveness": 0.0828459
+   },
+   {
+    "wave": 7,
+    "global_variation": 0.11423352,
+    "within_region_variation": 0.04172686,
+    "distinctiveness": 0.09242298
+   }
+  ],
+  "slope_global": 0.00205805,
+  "slope_within": -0.00994916
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "SD routine: two countries at 0.4 and 0.6 give SD = 0.141421 (ddof 1)",
+   "observed": 0.14142136,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "global value variation rises across waves (positive slope) while within-region variation falls (negative slope): divergence globally, convergence regionally is jointly possible",
+   "observed": [
+    0.00205805,
+    -0.00994916
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "measures by wave",
+   "observed": [
+    {
+     "wave": 1,
+     "global_variation": 0.10473279,
+     "within_region_variation": 0.10238062,
+     "distinctiveness": 0.0834319
+    },
+    {
+     "wave": 2,
+     "global_variation": 0.0911381,
+     "within_region_variation": 0.08741062,
+     "distinctiveness": 0.07233457
+    },
+    {
+     "wave": 3,
+     "global_variation": 0.08535513,
+     "within_region_variation": 0.0750592,
+     "distinctiveness": 0.06838542
+    },
+    {
+     "wave": 4,
+     "global_variation": 0.08511429,
+     "within_region_variation": 0.06452882,
+     "distinctiveness": 0.06811299
+    },
+    {
+     "wave": 5,
+     "global_variation": 0.09173019,
+     "within_region_variation": 0.05572558,
+     "distinctiveness": 0.07391581
+    },
+    {
+     "wave": 6,
+     "global_variation": 0.10251217,
+     "within_region_variation": 0.04876976,
+     "distinctiveness": 0.0828459
+    },
+    {
+     "wave": 7,
+     "global_variation": 0.11423352,
+     "within_region_variation": 0.04172686,
+     "distinctiveness": 0.09242298
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

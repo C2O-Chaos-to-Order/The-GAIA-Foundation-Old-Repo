@@ -1,0 +1,62 @@
+{
+ "sim_id": "SIM-DV-FOR-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:56.095198+00:00",
+ "finished_utc": "2026-10-24T08:10:56.110883+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "bba0e20e0afc6770bbd449408123c24f47d6ff70472da3ed98b1cc37f2255ebc",
+ "params_sha256": "01c4d607e761945fd9f442fa836f384642cbd40093060434ed5e6470c680d1dd",
+ "results_sha256": "74d7e91f719e9af55f5957f9b117acdf4b7b64524afbe18bdebcbfc864a3c780",
+ "results": {
+  "fd_max_err": 1e-08,
+  "mc_integral": 1.83799732,
+  "mc_se": 0.00338187,
+  "analytic_flux": 1.83333333
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "central-difference divergence within 1e-06 of the analytic divergence at all points",
+   "observed": 1e-08,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "Monte Carlo volume integral of div F within 4 standard errors of the analytic outward flux 1.833333 (divergence theorem)",
+   "observed": [
+    1.83799732,
+    0.00338187
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "fd_max_err": 1e-08,
+    "mc_integral": 1.83799732,
+    "mc_se": 0.00338187,
+    "analytic_flux": 1.83333333
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

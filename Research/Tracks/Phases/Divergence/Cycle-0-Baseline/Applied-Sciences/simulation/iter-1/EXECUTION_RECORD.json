@@ -1,0 +1,79 @@
+{
+ "sim_id": "SIM-DV-APP-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:48:40.251434+00:00",
+ "finished_utc": "2026-10-24T07:48:40.289441+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "09acb5e2a8256d16d9bf49592462473825d5520db6d46f3e4d57f2c71838cbbe",
+ "params_sha256": "221fe8f85bc6c8d452fae6f6832b339fc196e84bb2aff0a0b5160d5822f1cb54",
+ "results_sha256": "b9ae6aaa7246b15cd030b1257fe379d107876442ebf718bfe2accad66a1b2c25",
+ "results": {
+  "final_cells": 5000,
+  "total_mutations": 28874,
+  "bookkeeping": 28874,
+  "clonal": 4,
+  "subclonal_in_window": 41,
+  "M": [
+   52,
+   47,
+   40,
+   27,
+   25,
+   22,
+   19,
+   11,
+   11,
+   11,
+   11,
+   11
+  ],
+  "r2": 0.95781801,
+  "slope": 6.31030292,
+  "mean_mut_per_cell": 50.3758
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "population reached N (no extinction) and mutation bookkeeping is exact",
+   "observed": [
+    5000,
+    28874,
+    28874
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "cumulative subclonal mutations M(f) is linear in 1/f on [0.1, 0.4] with R^2 >= 0.98",
+   "observed": 0.95781801,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "slope a (estimates mutation rate / effective division ratio) and clonal count",
+   "observed": [
+    6.31030292,
+    4
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

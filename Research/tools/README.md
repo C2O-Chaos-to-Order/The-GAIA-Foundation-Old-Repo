@@ -26,3 +26,12 @@ python -m gaia_tools.tracks rerun .. TA                        # re-execute and 
 python -m gaia_tools.maps_all .. ../Maps-and-Matrix/<version> --version-label "..."
 ```
 Research tooling only, as before.
+
+## Phases track (0.6.0)
+```
+python -m gaia_tools.phases validate ..                         # all phase cycles
+python -m gaia_tools.phases claimsource .. DV0 --snapshots DIR   # one phase cycle
+python -m gaia_tools.phases rerun .. DV0                         # re-execute and compare hashes
+python -m gaia_tools.phases maps .. ../Maps-and-Matrix/<version> --version-label "..."
+```
+Research tooling only, as before.

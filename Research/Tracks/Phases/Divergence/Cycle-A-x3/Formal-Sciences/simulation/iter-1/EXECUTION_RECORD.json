@@ -1,0 +1,116 @@
+{
+ "sim_id": "SIM-DV-FOR-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:55.824218+00:00",
+ "finished_utc": "2026-10-24T08:10:55.880932+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "b3848d26573050d75611a672619fc8553d59dc81b40f666370e7060480d9778d",
+ "params_sha256": "679c8afc888d305574f76522eaa22007d824992f2ab812fbe0f7615d5eb2c59d",
+ "results_sha256": "c02facbf10670859ae5e25d4f358f8abbd8443f640ed0d15fc1a22687d10e251",
+ "results": {
+  "min_D": 0.11273152,
+  "self_D_max": 0.0,
+  "mean_D": 0.90918237,
+  "median_rel_asymmetry": 0.19945419,
+  "mc_within": 50,
+  "mc_pairs": 50,
+  "mc_examples": [
+   [
+    0.41706162,
+    0.41519364,
+    0.00631832
+   ],
+   [
+    0.92857983,
+    0.91664289,
+    0.0109713
+   ],
+   [
+    0.85186958,
+    0.84827856,
+    0.00754906
+   ],
+   [
+    0.38822267,
+    0.39322803,
+    0.00580975
+   ],
+   [
+    0.53216079,
+    0.5434782,
+    0.00956813
+   ]
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "D(p||q) >= 0 for every pair (Gibbs' inequality; code check)",
+   "observed": 0.11273152,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "D(p||p) = 0 (|value| < 1e-12)",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "Monte Carlo estimate within 4 standard errors of the exact value in at least 49 of 50 pairs",
+   "observed": 50,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "divergence is asymmetric: median relative asymmetry |D(p||q)-D(q||p)| / mean > 0.1",
+   "observed": 0.19945419,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "mean D and examples",
+   "observed": [
+    0.90918237,
+    [
+     [
+      0.41706162,
+      0.41519364,
+      0.00631832
+     ],
+     [
+      0.92857983,
+      0.91664289,
+      0.0109713
+     ],
+     [
+      0.85186958,
+      0.84827856,
+      0.00754906
+     ]
+    ]
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

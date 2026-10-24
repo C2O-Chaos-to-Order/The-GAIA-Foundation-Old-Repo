@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-DV-PHI-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:48:40.541576+00:00",
+ "finished_utc": "2026-10-24T07:48:42.817441+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "9ef1c5637713c2554bdb1159f8e88885433bfdd3e52da1375320b7b5049a179f",
+ "params_sha256": "1b088ab902beabbd16749f7392332887f66e65d8f9c5f4ef4a68597f9cf12c45",
+ "results_sha256": "24ec3c1ddfdbf7cb6ec6e3dbf4ab1f4d7a63a86338d403b79b3d661655f4496d",
+ "results": {
+  "mean_K": 7.87666667,
+  "expected_K": 7.48547086,
+  "alpha_ln_n": 6.90775528,
+  "mean_top_share": 0.60725333,
+  "mean_entropy": 1.03855096
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "mean number of branches within 5% of the analytic sum alpha/(alpha+i)",
+   "observed": 7.87666667,
+   "result": "Fail"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a dominant branch persists: mean largest-branch share > 0.3",
+   "observed": 0.60725333,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "entropy of the final partition and alpha ln n reference",
+   "observed": [
+    1.03855096,
+    6.90775528
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": false
+}
