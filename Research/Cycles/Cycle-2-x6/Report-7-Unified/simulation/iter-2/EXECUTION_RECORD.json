@@ -1,0 +1,52 @@
+{
+ "sim_id": "SIM-R7-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:22:29.603045+00:00",
+ "finished_utc": "2026-10-24T02:22:29.605377+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-2",
+ "params_sha256": "bf3e4b4ce0ef7cf2943176f4f0f13d94800ec02da15cd867dd2f40772297a1b5",
+ "outputs": {
+  "outputs/results.json": "6dae8539dc7870e2053b6c935d63a4099bf6a4324841746f20dc327afe5ecb2a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "SP1",
+   "kind": "hypothesis",
+   "expect": "without GAIA (Philosophical/Spiritual motherthread) and PS/H links, Reports 1-6 remain connected through Established/Plausible links alone",
+   "observed": true,
+   "result": "Supported"
+  },
+  {
+   "id": "SP2",
+   "kind": "reporting",
+   "expect": "report connectivity using Established links only (after the strict rule)",
+   "observed": [
+    [
+     "R1",
+     "R3",
+     "R4",
+     "R5",
+     "R6"
+    ],
+    [
+     "R2"
+    ]
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

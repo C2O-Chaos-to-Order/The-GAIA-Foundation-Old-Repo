@@ -1,0 +1,10 @@
+{
+ "cycle_dir": "../../..",
+ "experiments": {
+  "separability": {}
+ },
+ "input_register": "../../../../Cycle-1-x3/Report-7-Unified/maps/link_register.csv",
+ "iteration": 2,
+ "prev": "../iter-1",
+ "sim_id": "SIM-R7-C2"
+}
