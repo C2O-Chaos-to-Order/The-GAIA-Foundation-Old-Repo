@@ -1,0 +1,46 @@
+{
+ "carried_from_prev": {},
+ "mediator_outcome_confounding": [
+  {
+   "ie_corrected": 0.2050310797,
+   "ie_true": 0.2,
+   "pm_est": 0.3416376123,
+   "pm_true": 0.3333333333,
+   "rel_bias_pm": 0.0249128369,
+   "u": 0.0
+  },
+  {
+   "ie_corrected": 0.1989294452,
+   "ie_true": 0.2,
+   "pm_est": 0.3385994465,
+   "pm_true": 0.3333333333,
+   "rel_bias_pm": 0.0157983395,
+   "u": 0.1
+  },
+  {
+   "ie_corrected": 0.1972989852,
+   "ie_true": 0.2,
+   "pm_est": 0.3594851773,
+   "pm_true": 0.3333333333,
+   "rel_bias_pm": 0.0784555319,
+   "u": 0.2
+  },
+  {
+   "ie_corrected": 0.1982650126,
+   "ie_true": 0.2,
+   "pm_est": 0.3945235516,
+   "pm_true": 0.3333333333,
+   "rel_bias_pm": 0.1835706548,
+   "u": 0.3
+  },
+  {
+   "ie_corrected": 0.1984909494,
+   "ie_true": 0.2,
+   "pm_est": 0.5062436759,
+   "pm_true": 0.3333333333,
+   "rel_bias_pm": 0.5187310278,
+   "u": 0.5
+  }
+ ],
+ "u_needed_for_25pct_bias": 0.5
+}

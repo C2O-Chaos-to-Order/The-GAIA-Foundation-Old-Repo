@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-R4-C2",
+ "iteration": 2,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:12:20.423014+00:00",
+ "finished_utc": "2026-10-24T02:12:20.737638+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-2",
+ "params_sha256": "bf1353af4951563328553e8fe4bb12d4a48e54cd20c0be27839b62533d4bd258",
+ "outputs": {
+  "outputs/results.json": "bf98bd9aa00d36dfb0cc252e60d59c61b2d62f550611d57c2485925dff20653d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "removing the known U contribution recovers the true indirect effect (|diff| < 0.02) in every setting",
+   "observed": [
+    [
+     0.0,
+     0.2050310797,
+     0.2
+    ],
+    [
+     0.1,
+     0.1989294452,
+     0.2
+    ],
+    [
+     0.2,
+     0.1972989852,
+     0.2
+    ],
+    [
+     0.3,
+     0.1982650126,
+     0.2
+    ],
+    [
+     0.5,
+     0.1984909494,
+     0.2
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "moderate unmeasured M-Y confounding (u = 0.3 on both paths) biases the proportion mediated by >= 25% (relative)",
+   "observed": 0.1835706548,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
