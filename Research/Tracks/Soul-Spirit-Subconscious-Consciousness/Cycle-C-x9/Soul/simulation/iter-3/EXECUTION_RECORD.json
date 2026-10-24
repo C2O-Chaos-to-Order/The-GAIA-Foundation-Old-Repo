@@ -1,0 +1,64 @@
+{
+ "sim_id": "SIM-SOUL-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T06:10:49.078615+00:00",
+ "finished_utc": "2026-10-24T06:10:55.626127+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soul.py iter-3  (run from Soul/simulation/)",
+ "spec_sha256": "66cb1665baecb4e022b4186e0e25cf05e8bfaf8106a8187e8a3dd2d1e571409b",
+ "params_sha256": "18fda6115f1d09447efd7511770d118b5a5b87fbe9761ad973e0cb1b44776f49",
+ "results_sha256": "484533a8bcdaa1b05edb145c72fde1708f821b93e31452b3d206a3f468cffd72",
+ "results": {
+  "p_observed": 0.17996454,
+  "power_observed_design": 0.3035,
+  "power_by_n": {
+   "50": 0.45,
+   "100": 0.84775,
+   "200": 0.994
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Fisher p for a table with identical proportions is 1",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "power of a 23 vs 25 design at the observed proportions is < 0.5",
+   "observed": 0.3035,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "observed two-sided Fisher p; power for larger equal groups",
+   "observed": [
+    0.17996454,
+    {
+     "50": 0.45,
+     "100": 0.84775,
+     "200": 0.994
+    }
+   ],
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
