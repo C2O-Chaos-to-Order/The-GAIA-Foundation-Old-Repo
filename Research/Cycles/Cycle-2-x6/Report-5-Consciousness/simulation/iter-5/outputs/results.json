@@ -1,0 +1,38 @@
+{
+ "carried_from_prev": {},
+ "disconnection": {
+  "K_in": 2.0,
+  "rows": [
+   {
+    "out_ratio": 0.0,
+    "pci_like": 0.1907986168,
+    "response_fraction": 0.22,
+    "spont_lz": 0.5520835856
+   },
+   {
+    "out_ratio": 0.05,
+    "pci_like": 0.4617422699,
+    "response_fraction": 0.3595833333,
+    "spont_lz": 0.51465419
+   },
+   {
+    "out_ratio": 0.1,
+    "pci_like": 0.6496969059,
+    "response_fraction": 0.3608333333,
+    "spont_lz": 0.5099755155
+   },
+   {
+    "out_ratio": 0.2,
+    "pci_like": 0.6898691373,
+    "response_fraction": 0.4675,
+    "spont_lz": 0.4397953987
+   },
+   {
+    "out_ratio": 0.4,
+    "pci_like": 0.6203755091,
+    "response_fraction": 0.3908333333,
+    "spont_lz": 0.3509005841
+   }
+  ]
+ }
+}

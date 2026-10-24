@@ -1,0 +1,34 @@
+{
+ "sim_id": "SIM-R5-C2",
+ "iteration": 5,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:14:18.265334+00:00",
+ "finished_utc": "2026-10-24T02:14:19.277779+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r5.py simulation/iter-5",
+ "params_sha256": "0bf4c99201cc6d6714d9eccbcfc06bf6a81f09a9a825778074e5bc05b0699a90",
+ "outputs": {
+  "outputs/results.json": "2475af0ffd8c64bb92346be5db5ca09bc12413d858134e8b8e49644f9fde7a7a"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "D1",
+   "kind": "hypothesis",
+   "expect": "'anaesthesia-like' loss of between-module coupling lowers PCI-like (Spearman(out_ratio, PCI) >= 0.8)",
+   "observed": 0.7,
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
