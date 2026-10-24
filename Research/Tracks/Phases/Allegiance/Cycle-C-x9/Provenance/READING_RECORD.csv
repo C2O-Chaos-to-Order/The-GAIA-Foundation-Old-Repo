@@ -1,0 +1,6 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P54,yes,ALC,11438,6add5b2117176ff6187174e98c037dbe179098d0c534de74880929efd44be417,"Read end to end (abstract, background, methods, results incl. Tables 1-4 and figures, discussion, conclusions, declarations; reference list not read)."
+P60,yes,ALC,11276,f98ca8b6a7587222d43bdea285aa7fda6faaa244d50656f946bcf86b66286ab6,"Read end to end (abstract, introduction, methods incl. PRISMA flow, results, discussion, conclusion, declarations; reference list not read)."
+P61,yes,ALC,11526,6b783af952e4ba991c94b660daf24499eccf1c9340a9d39e03620f2453f3ee7f,"Read end to end (abstract, introduction, Study 1 and Study 2 methods and results incl. Tables 1-6 and figures, general discussion, declarations; reference list not read)."
+P62,yes,ALC,8731,6028b45f5824b7e8dc1c6e29c59ed332b93c9401323c3ed3f21b72d60cf74314,"Read end to end (abstract, introduction, results, discussion, materials and methods, figure legends; reference list not read, one slip seen by search)."
+P63,yes,ALC,16047,035d9e1015fb88927e4f4ea72038928917e5db9738686a5edd9ccd82d49e0e7e,"Read end to end (all sections of the entry body, 16,047 words; bibliography, academic tools and related entries not read)."
