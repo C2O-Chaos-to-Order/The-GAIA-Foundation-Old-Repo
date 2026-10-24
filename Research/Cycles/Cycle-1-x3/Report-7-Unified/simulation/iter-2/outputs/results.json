@@ -1,0 +1,26 @@
+{
+ "graph": {
+  "all": {
+   "connected": true,
+   "isolated": [],
+   "n_links": 24
+  },
+  "basis_all_established": {
+   "connected": false,
+   "isolated": [
+    "R2"
+   ],
+   "n_links": 7
+  },
+  "basis_has_established": {
+   "connected": true,
+   "isolated": [],
+   "n_links": 16
+  },
+  "no_PS_or_H": {
+   "connected": true,
+   "isolated": [],
+   "n_links": 16
+  }
+ }
+}
