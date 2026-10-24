@@ -6,7 +6,7 @@ One of the five GAIA phase reports (Divergence, Insurgence, Allegiance, Converge
 |---|---|---|---|---|---|
 | Cycle-0-Baseline | `Cycle-0-Baseline/` | 12 | 4/7/1/0 | 6 | Done (gate INDETERMINATE) |
 | Cycle-A-x3 | `Cycle-A-x3/` | 32 | 6/24/2/0 | 18 | Done (gate INDETERMINATE) |
-| Cycle-B-x6 | — | | | | Planned |
+| Cycle-B-x6 | `Cycle-B-x6/` | 54 | 9/42/3/0 | 36 | Done (gate INDETERMINATE) |
 | Cycle-C-x9 | — | | | | Planned |
 | Cycle-D-x12 | — | | | | Planned |
 
