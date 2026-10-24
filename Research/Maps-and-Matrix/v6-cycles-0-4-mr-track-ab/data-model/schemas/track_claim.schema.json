@@ -1,0 +1,21 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "gaia/track_claim.schema.json",
+ "title": "Track claim (data model 1.4.0)",
+ "description": "One row of Research/Tracks/<track>/Cycle-<L>-x<N>/<Topic>/claims/claims.csv",
+ "type": "object",
+ "required": ["claim_id", "topic", "wording", "claim_class", "framework_label", "conclusion_status", "source_ids", "locator", "confidence", "counterevidence_limits", "deepens", "cross_links", "verification_phrases", "change_vs_prev_track_cycle"],
+ "additionalProperties": false,
+ "properties": {
+  "claim_id": {"type": "string", "pattern": "^T[A-Z]-(SOUL|SPIRIT|SUBC|CONS)-[0-9]{2}$"},
+  "topic": {"enum": ["SOUL", "SPIRIT", "SUBC", "CONS"]},
+  "wording": {"type": "string", "minLength": 20},
+  "claim_class": {"enum": ["Empirical", "Simulation", "Interpretive/philosophical"]},
+  "framework_label": {"enum": ["Established", "Plausible", "Philosophical/Spiritual", "Hypothetical"]},
+  "conclusion_status": {"enum": ["Supported", "Not supported", "Open", "Interpretive", "Superseded"]},
+  "source_ids": {"type": "string", "pattern": "^((K[0-9]{2}|[GSTUVWXYZ][0-9]{2}[a-z]?|SIM-(SOUL|SPIRIT|SUBC|CONS)-[A-Z]/iter-[0-9]+#[A-Za-z0-9_.]+)(;|$))+$"},
+  "locator": {"type": "string"}, "confidence": {"type": "string"}, "counterevidence_limits": {"type": "string"},
+  "deepens": {"type": "string"}, "cross_links": {"type": "string"}, "verification_phrases": {"type": "string"},
+  "change_vs_prev_track_cycle": {"type": "string"}
+ }
+}
