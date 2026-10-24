@@ -1,0 +1,540 @@
+{
+ "version_label": "v2 - covers Cycles 0-2",
+ "cycle": "C2",
+ "center": "GAIA",
+ "nodes": [
+  {
+   "id": "GAIA",
+   "label": "GAIA - the motherthread",
+   "kind": "motherthread",
+   "framework_label": "Philosophical/Spiritual",
+   "note": "Organizing principle (G03 FRAMEWORK.md); Philosophical/Spiritual, kept separate from science"
+  },
+  {
+   "id": "R1",
+   "label": "R1 Body",
+   "kind": "report"
+  },
+  {
+   "id": "R2",
+   "label": "R2 Mind",
+   "kind": "report"
+  },
+  {
+   "id": "R3",
+   "label": "R3 Soul",
+   "kind": "report"
+  },
+  {
+   "id": "R4",
+   "label": "R4 Spirit",
+   "kind": "report"
+  },
+  {
+   "id": "R5",
+   "label": "R5 Consciousness",
+   "kind": "report"
+  },
+  {
+   "id": "R6",
+   "label": "R6 Earth",
+   "kind": "report"
+  },
+  {
+   "id": "R7",
+   "label": "R7 Unified",
+   "kind": "report"
+  },
+  {
+   "id": "ALL",
+   "label": "All reports (target of L24)",
+   "kind": "collective"
+  }
+ ],
+ "edges": [
+  {
+   "id": "M1",
+   "source": "GAIA",
+   "target": "R1",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M2",
+   "source": "GAIA",
+   "target": "R2",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M3",
+   "source": "GAIA",
+   "target": "R3",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M4",
+   "source": "GAIA",
+   "target": "R4",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M5",
+   "source": "GAIA",
+   "target": "R5",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M6",
+   "source": "GAIA",
+   "target": "R6",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "M7",
+   "source": "GAIA",
+   "target": "R7",
+   "type": "motherthread",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "basis": "G03",
+   "statement": "GAIA as motherthread organizes this report (framework, not a finding)"
+  },
+  {
+   "id": "L01",
+   "source": "R1",
+   "target": "R6",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R1-06;C0v2-R1-12;C0v2-R6-06;C0v2-R6-07;C0v2-R7-04",
+   "statement": "Bodily homeostasis and Daisyworld temperature regulation share the negative-feedback structure (analogy only).",
+   "status": "Retained as analogy only. The body and Daisyworld toys share the adaptation-vs-regulation pattern (PA1), partly by design; the trade-off is a published Daisyworld result (W01-W03).",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L02",
+   "source": "R1",
+   "target": "R6",
+   "type": "distinction",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R1-06;C0v2-R6-08;C1-R6-05",
+   "statement": "Physiological homeostasis is an evolved, selected regulation of an organism; planetary regulation (if any) has no comparable selection mechanism.",
+   "status": "Unchanged in substance; Cycle-2 literature adds that Daisyworld regulation depends on constraints on adaptation.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L03",
+   "source": "R1",
+   "target": "R6",
+   "type": "humans within Earth",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E"
+   },
+   "basis": "C0v2-R1-09",
+   "statement": "Human thermoregulation balances heat exchange with the environment; human bodies are therefore continuously coupled to Earth's thermal environment.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L04",
+   "source": "R1",
+   "target": "R2",
+   "type": "dependency",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "P"
+   },
+   "basis": "C0v2-R1-02;C0v2-R1-04;C0v2-R2-09",
+   "statement": "Mental processes depend on the nervous system (CNS/PNS) and on sensory transduction for input.",
+   "status": "Downgraded Established -> Plausible by the pre-registered strict rule (basis includes C0v2-R2-09, Philosophical/Spiritual). Procedural: the dependency is not weakened by new evidence.",
+   "rejection_screen": "strict Established-link rule: downgraded (procedural)"
+  },
+  {
+   "id": "L05",
+   "source": "R1",
+   "target": "R2",
+   "type": "feedback loop",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R1-10;C0v2-R1-11;C0v2-R2-10",
+   "statement": "Interoception: bodily signals shape feeling and cognition, and cognition (anticipation) shapes bodily regulation (allostasis).",
+   "status": "Mixed in the toys: learned anticipation helps (C2-R1-03) but carries a false-cue cost that no bound removed (C2-R1-05). Label unchanged.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L06",
+   "source": "R1",
+   "target": "R2",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS"
+   },
+   "basis": "C0v2-R1-14",
+   "statement": "Embodied cognition: body constitutes vs merely causes cognition.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L07",
+   "source": "R2",
+   "target": "R5",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R2-02;C0v2-R2-05;C0v2-R5-08;C1-R2-04",
+   "statement": "Predictive-processing accounts of perception and learning (prediction error) are also candidate theories of consciousness.",
+   "status": "Unchanged; complexity markers are relevant context but do not test this link, and W15 reports a dissociation between consciousness and EEG complexity.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L08",
+   "source": "R2",
+   "target": "R5",
+   "type": "distinction",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "P"
+   },
+   "basis": "C0v2-R5-01;C1-R5-02",
+   "statement": "Access (reportable) processing is distinct from phenomenal experience; cognitive findings bear on access more directly.",
+   "status": "Downgraded Established -> Plausible by the strict rule (basis C1-R5-02 is Plausible). Procedural.",
+   "rejection_screen": "strict Established-link rule: downgraded (procedural)"
+  },
+  {
+   "id": "L09",
+   "source": "R2",
+   "target": "R3",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS"
+   },
+   "basis": "C0v2-R2-08;C0v2-R3-13",
+   "statement": "Personal identity as psychological continuity, as organism (animalism), or as soul.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L10",
+   "source": "R3",
+   "target": "R4",
+   "type": "relationship",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E"
+   },
+   "basis": "C0v2-R3-03;C0v2-R3-04;C0v2-R4-01;C0v2-R4-02;C0v2-R4-04;C0v2-R4-05",
+   "statement": "Across traditions, soul and spirit share a breath/life vocabulary (psuchê/pneuma, nefesh/rûaḥ, rūḥ, qi).",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L11",
+   "source": "R3",
+   "target": "R4",
+   "type": "distinction",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS"
+   },
+   "basis": "C0v2-R3-17;C0v2-R4-06",
+   "statement": "Traditions distinguish soul (individual identity, moral character) from spirit (vitality, connection, inspiration) differently; there is no single cross-tradition boundary.",
+   "status": "Typology-based support weakened: the typology tolerates only ~4 random cell flips (C2-R3-03). The distinction itself rests on descriptive claims and is kept.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L12",
+   "source": "R3",
+   "target": "R5",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS"
+   },
+   "basis": "C0v2-R3-16;C0v2-R5-12",
+   "statement": "Is the subject of experience a soul, a brain process, or neither? (dualism vs physicalism vs other).",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L13",
+   "source": "R3",
+   "target": "R6",
+   "type": "relationship",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E"
+   },
+   "basis": "C0v2-R3-01;C0v2-R3-12;C1-R3-01",
+   "statement": "Several traditions extend soul or personhood beyond humans (Greek ensouled plants; animist non-human persons).",
+   "status": "Retained. Note: counts of conceptions come from a coding with re-coding kappa 0.79 and 56% source-silent cells (C2-R3-01, C2-R3-02).",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L14",
+   "source": "R4",
+   "target": "R1",
+   "type": "relationship",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R4-08;C0v2-R4-09;C0v2-R4-10;C1-R4-01;C1-R4-02;C1-R4-03",
+   "statement": "Religious attendance is associated with lower mortality and spirituality with better mental health on average.",
+   "status": "Mediation estimates added (C2-R4-01); simulations show they move with unmeasured confounding (C2-R4-05). Label unchanged.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L15",
+   "source": "R4",
+   "target": "R1",
+   "type": "dependency",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "C0": "H",
+    "C1": "H",
+    "C2": "H"
+   },
+   "basis": "C0v2-R4-13;C0v2-R4-14;C1-R4-04;C1-R4-09",
+   "statement": "The association is causal (participation lowers mortality).",
+   "status": "Still Hypothetical: mediation shares cannot be added up (C2-R4-04) and depend on scale and confounding.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L16",
+   "source": "R4",
+   "target": "R4",
+   "type": "distinction",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "P"
+   },
+   "basis": "C0v2-R4-15;C0v2-R4-11",
+   "statement": "Spiritual interpretation (vitality, transcendence) is separate from the demonstrable well-being associations.",
+   "status": "Downgraded Established -> Plausible by the strict rule (basis includes C0v2-R4-15, Philosophical/Spiritual, and C0v2-R4-11, Plausible). Procedural: the separation of spiritual interpretation from well-being data is unchanged.",
+   "rejection_screen": "strict Established-link rule: downgraded (procedural)"
+  },
+  {
+   "id": "L17",
+   "source": "R5",
+   "target": "R1",
+   "type": "dependency",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E"
+   },
+   "basis": "C0v2-R5-06",
+   "statement": "Level of consciousness tracks measurable brain-state complexity (PCI) across sleep, anaesthesia and injury.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L18",
+   "source": "R5",
+   "target": "R4",
+   "type": "relationship",
+   "label_code": "H",
+   "framework_label": "Hypothetical",
+   "label_history": {
+    "C0": "H",
+    "C1": "H",
+    "C2": "H"
+   },
+   "basis": "C0v2-R5-07;C0v2-R4-06",
+   "statement": "Altered states (psychedelic, mystical) may share neural signatures such as elevated entropy.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L19",
+   "source": "R6",
+   "target": "R6",
+   "type": "dependency",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E"
+   },
+   "basis": "C0v2-R6-11;C0v2-R6-13;C0v2-R6-17",
+   "statement": "The geodynamo depends on core heat flow (cooling, inner-core freezing, chemical convection).",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L20",
+   "source": "R6",
+   "target": "R6",
+   "type": "feedback loop",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "E",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R6-04;C1-R6-06",
+   "statement": "Life and biogeochemical cycles co-evolved: microbial metabolism drives element cycles that in turn shape habitats.",
+   "status": "Unchanged label; Daisyworld still has no biological implementation (C2-R6-03).",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L21",
+   "source": "R6",
+   "target": "R6",
+   "type": "competing interpretation",
+   "label_code": "P",
+   "framework_label": "Plausible",
+   "label_history": {
+    "C0": "P",
+    "C1": "P",
+    "C2": "P"
+   },
+   "basis": "C0v2-R6-06;C0v2-R6-08;C1-R6-05",
+   "statement": "Is Earth's biota a homeostatic regulator (strong Gaia) or do biotic feedbacks often amplify change?",
+   "status": "Strong-Gaia side under continued pressure: regulation depends on constraints on adaptation (literature and toy); our toy did not reproduce the rate dependence or the mutation benefit.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L22",
+   "source": "R6",
+   "target": "R7",
+   "type": "humans within Earth",
+   "label_code": "E",
+   "framework_label": "Established",
+   "label_history": {
+    "C0": "E",
+    "C1": "E",
+    "C2": "E"
+   },
+   "basis": "C0v2-R6-03;C0v2-R6-05;C0v2-R7-02",
+   "statement": "Humans are drivers within Earth's living systems: transgressing climate or biosphere-integrity boundaries could shift the Earth system's state; ~1 million species are threatened.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L23",
+   "source": "R6",
+   "target": "R3",
+   "type": "competing interpretation",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS"
+   },
+   "basis": "C0v2-R6-10;C0v2-R6-19",
+   "statement": "Life as Earth's soul and the core as its heart: metaphor vs literal claim.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  },
+  {
+   "id": "L24",
+   "source": "R7",
+   "target": "ALL",
+   "type": "unresolved question",
+   "label_code": "PS",
+   "framework_label": "Philosophical/Spiritual",
+   "label_history": {
+    "C0": "PS",
+    "C1": "PS",
+    "C2": "PS"
+   },
+   "basis": "C0v2-R7-07",
+   "statement": "Consciousness's nature, the soul's existence, spirituality's causal role, geodynamo onset, Singularity/Origin remain open.",
+   "status": "Unchanged in Cycle 2.",
+   "rejection_screen": ""
+  }
+ ],
+ "legend": {
+  "E": "Established",
+  "P": "Plausible",
+  "PS": "Philosophical/Spiritual",
+  "H": "Hypothetical"
+ }
+}
