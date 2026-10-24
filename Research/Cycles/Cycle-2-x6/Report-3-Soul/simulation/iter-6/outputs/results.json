@@ -1,0 +1,51 @@
+{
+ "carried_from_prev": {},
+ "n_cells": 48,
+ "tolerance": {
+  "curve": [
+   {
+    "flips": 2,
+    "median_ARI": 1.0
+   },
+   {
+    "flips": 4,
+    "median_ARI": 0.789410349
+   },
+   {
+    "flips": 6,
+    "median_ARI": 0.6432616082
+   },
+   {
+    "flips": 8,
+    "median_ARI": 0.6022727273
+   },
+   {
+    "flips": 10,
+    "median_ARI": 0.559637419
+   },
+   {
+    "flips": 15,
+    "median_ARI": 0.4524669073
+   },
+   {
+    "flips": 20,
+    "median_ARI": 0.4237918216
+   },
+   {
+    "flips": 30,
+    "median_ARI": 0.3261608154
+   },
+   {
+    "flips": 40,
+    "median_ARI": 0.2329367564
+   },
+   {
+    "flips": 60,
+    "median_ARI": 0.0887772758
+   }
+  ],
+  "expected_full_matrix_disagreements": 18.75,
+  "flips_where_median_ARI_below_0_8": 4,
+  "sample_disagreement_rate": 0.1041666667
+ }
+}
