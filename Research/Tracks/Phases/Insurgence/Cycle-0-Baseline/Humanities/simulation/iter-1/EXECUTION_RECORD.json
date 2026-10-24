@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-IN-HUM-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T17:00:01.867900+00:00",
+ "finished_utc": "2026-10-24T17:00:01.939652+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "90cdf758dd7bfd259876801360e747aa6171156680aa1af9bc9e154e93f1cb60",
+ "params_sha256": "185ac0c874917384f66dd75989a7d112ba563d3690f9c8c558735a3b6c66f965",
+ "results_sha256": "8a970547d809dbd6a160769c8fe3db32e10c0f056b7109ab566774ed5c90d186",
+ "results": {
+  "p_fix": 0.09875,
+  "se": 0.00471695,
+  "kimura": 0.09516258,
+  "t10_90_mean": 90.93164557,
+  "t10_90_logistic": 90.06834122,
+  "n_fixed": 395
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "fixation share within 4 SE of Kimura",
+   "observed": [
+    0.09875,
+    0.00471695,
+    0.09516258
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "most new styles are lost: fixation share < 0.5",
+   "observed": 0.09875,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "successful takeovers are S-shaped and fast: mean 10%-90% time within 15% of the logistic value",
+   "observed": [
+    90.93164557,
+    90.06834122
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "p_fix": 0.09875,
+    "se": 0.00471695,
+    "kimura": 0.09516258,
+    "t10_90_mean": 90.93164557,
+    "t10_90_logistic": 90.06834122,
+    "n_fixed": 395
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
