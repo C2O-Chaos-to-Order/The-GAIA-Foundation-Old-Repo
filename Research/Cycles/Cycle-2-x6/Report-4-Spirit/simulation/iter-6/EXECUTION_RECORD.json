@@ -1,0 +1,110 @@
+{
+ "sim_id": "SIM-R4-C2",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:12:25.784984+00:00",
+ "finished_utc": "2026-10-24T02:12:26.368153+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-6",
+ "params_sha256": "5b90ff93a3ff590089104518e904ed8a80578439539fb5bd144504c60b43fa1f",
+ "outputs": {
+  "outputs/results.json": "d969a395515cf9553e386a0d6e07b28a6fc09496c3e16e5e82444f61635db130"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "removing the known U contribution recovers the true indirect effect (|diff| < 0.02) in every setting",
+   "observed": [
+    [
+     0.0,
+     0.1995179108,
+     0.2
+    ],
+    [
+     0.1,
+     0.2007329907,
+     0.2
+    ],
+    [
+     0.2,
+     0.2016916124,
+     0.2
+    ],
+    [
+     0.3,
+     0.1986221105,
+     0.2
+    ],
+    [
+     0.5,
+     0.1998400302,
+     0.2
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "moderate unmeasured M-Y confounding (u = 0.3 on both paths) biases the proportion mediated by >= 25% (relative)",
+   "observed": 0.1938950968,
+   "result": "Not supported"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "expect": "independent mediators: sum of single-mediator PMs equals the joint PM within 0.02",
+   "observed": [
+    0.4227971316,
+    0.4222000076
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "V3b",
+   "kind": "validation",
+   "expect": "joint PM (difference method) within 0.02 of truth for every c12",
+   "observed": [
+    [
+     0.0,
+     0.4222000076,
+     0.4202898551
+    ],
+    [
+     0.3,
+     0.4556124209,
+     0.4557823129
+    ],
+    [
+     0.6,
+     0.4832678738,
+     0.4871794872
+    ]
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "causally ordered mediators (M1 -> M2, c12 = 0.6): summing single-mediator PMs overstates the joint PM by >= 0.10",
+   "observed": [
+    0.7330846221,
+    0.4832678738
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 3,
+ "n_validation_pass": 3,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}

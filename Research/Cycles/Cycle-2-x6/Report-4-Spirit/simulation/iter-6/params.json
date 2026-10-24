@@ -1,0 +1,41 @@
+{
+ "experiments": {
+  "mediator_outcome_confounding": {
+   "moderate_u": 0.3,
+   "n": 200000,
+   "u": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+   ]
+  },
+  "multiple_mediators": {
+   "c12": [
+    0.0,
+    0.3,
+    0.6
+   ],
+   "n": 200000,
+   "test_c12": 0.6
+  }
+ },
+ "gen": {
+  "a1": 0.5,
+  "a2": 0.3,
+  "aL": 0.5,
+  "b1": 0.4,
+  "b2": 0.3,
+  "c": 0.4,
+  "c12": 0.0,
+  "lm": 0.3,
+  "ly": 0.3,
+  "u_m": 0.0,
+  "u_y": 0.0
+ },
+ "iteration": 6,
+ "prev": "../iter-5",
+ "seed": 6,
+ "sim_id": "SIM-R4-C2"
+}
