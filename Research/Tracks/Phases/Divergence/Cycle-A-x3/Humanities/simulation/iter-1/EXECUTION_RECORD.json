@@ -1,0 +1,104 @@
+{
+ "sim_id": "SIM-DV-HUM-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:10:59.220359+00:00",
+ "finished_utc": "2026-10-24T08:10:59.237468+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "df628f100e536718994f27fa16e8d3719f53ca5b1d8e31d4858595d3742e1149",
+ "params_sha256": "6b8b594c68a50fb5b002e06b8135737a78df59e926f89c9c3fec809ce53777ea",
+ "results_sha256": "22c1a1c559e8cb09c7f7680d91f135dc71b9942e738855b4bce8713f2f0a7017",
+ "results": {
+  "table1": {
+   "strict": 356.75017087,
+   "relaxed": 66.52550205
+  },
+  "by_size": {
+   "40": {
+    "mean_C": 0.65766,
+    "sd_C": 0.07499904,
+    "T_q025": 1.59388251,
+    "T_q975": 4.95105129,
+    "half_width_rel": 0.55952813
+   },
+   "100": {
+    "mean_C": 0.6568275,
+    "sd_C": 0.04760077,
+    "T_q025": 2.05487195,
+    "T_q975": 4.14156068,
+    "half_width_rel": 0.34778146
+   },
+   "200": {
+    "mean_C": 0.65697025,
+    "sd_C": 0.033437,
+    "T_q025": 2.34645762,
+    "T_q975": 3.7688053,
+    "half_width_rel": 0.23705795
+   }
+  },
+  "C_true": 0.65704682
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Eq. 8 reproduces P12 Table 1: 356.750 (eps 0.05, alpha 0.05, N 5000) and 66.526 (eps 0.1, alpha 0.1, N 4000) within 0.01",
+   "observed": {
+    "strict": 356.75017087,
+    "relaxed": 66.52550205
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "list size 200: simulated mean shared fraction within 4 standard errors of exp(-2rT) = 0.6570",
+   "observed": [
+    0.65697025,
+    0.00094939
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with a 100-meaning list the 95% range of T_hat is within +/-25% of T (sampling error alone)",
+   "observed": 0.34778146,
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "T_hat 95% range by list size",
+   "observed": {
+    "40": [
+     1.59388251,
+     4.95105129
+    ],
+    "100": [
+     2.05487195,
+     4.14156068
+    ],
+    "200": [
+     2.34645762,
+     3.7688053
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
