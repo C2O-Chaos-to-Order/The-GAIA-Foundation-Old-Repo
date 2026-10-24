@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-CV-FOR-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:13.723529+00:00",
+ "finished_utc": "2026-10-24T22:14:13.732244+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-9  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "fdcd181720a222afe7c7b17eb3a85acc04720b9f6730f97ceaae4e3657851fb4",
+ "params_sha256": "95481dbe817b0fddf410f664e22d9db5aa07c0af1a4fdf3de7305f2952212a81",
+ "results_sha256": "1a67976748a42426beac3c32b8a5d2e36b91b3abe375dd15f65353b884194d70",
+ "results": {
+  "chains": {
+   "two": {
+    "n": 2,
+    "tmix": {
+     "0.25": 3,
+     "0.01": 12
+    },
+    "lambda2": 0.7,
+    "t_rel": 3.3333,
+    "d_at": {}
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "two-state chain (0.1, 0.2): lambda2 = 0.7 within 1e-9 and t_mix(1/100) = ceil(log(0.01/(2/3))/log 0.7) = 12 (agent arithmetic)",
+   "observed": {
+    "chains": {
+     "two": {
+      "n": 2,
+      "tmix": {
+       "0.25": 3,
+       "0.01": 12
+      },
+      "lambda2": 0.7,
+      "t_rel": 3.3333,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "two": {
+      "n": 2,
+      "tmix": {
+       "0.25": 3,
+       "0.01": 12
+      },
+      "lambda2": 0.7,
+      "t_rel": 3.3333,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
