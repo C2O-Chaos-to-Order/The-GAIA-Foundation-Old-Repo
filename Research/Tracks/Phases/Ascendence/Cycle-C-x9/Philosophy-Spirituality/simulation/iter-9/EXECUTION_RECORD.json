@@ -1,0 +1,74 @@
+{
+ "sim_id": "SIM-AS-PHI-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:57.694809+00:00",
+ "finished_utc": "2026-10-24T23:50:58.133270+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-9  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "4f284c679aa77a5219cedf6b32102ce70ef6312e878b0db742d66be89f6ce386",
+ "params_sha256": "9e1499d867fbaf4ce63a390c46ea244fa7a61c6272b84bc0796468dcd7dbe643",
+ "results_sha256": "dc0315a844fe161de36dd612023aaeb17227b590f5a1e9bfd6335da1ec9ed62c",
+ "results": {
+  "frac_top": 0.7574,
+  "mean_rung": 4.756,
+  "frac_first_rung": 0.0,
+  "mean_q_reached": 0.02,
+  "mean_q_not": 0.02,
+  "se": 0.003
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "shares lie in [0, 1] and every lover's rung is between 0 and the top",
+   "observed": [
+    0.7574,
+    3,
+    5
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "q 0.02 without regress: mean rung below 4",
+   "observed": {
+    "frac_top": 0.7574,
+    "mean_rung": 4.756,
+    "frac_first_rung": 0.0,
+    "mean_q_reached": 0.02,
+    "mean_q_not": 0.02,
+    "se": 0.003
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "frac_top": 0.7574,
+    "mean_rung": 4.756,
+    "frac_first_rung": 0.0,
+    "mean_q_reached": 0.02,
+    "mean_q_not": 0.02,
+    "se": 0.003
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
