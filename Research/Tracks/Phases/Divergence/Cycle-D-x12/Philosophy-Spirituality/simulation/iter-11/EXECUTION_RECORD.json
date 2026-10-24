@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-DV-PHI-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T16:47:45.256777+00:00",
+ "finished_utc": "2026-10-24T16:47:46.050547+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-11  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "9335a934231fc09f63ca154fb8c77e3c8138067f5f1fdec9a6961a977f755a3c",
+ "params_sha256": "1eadb56c0019036ea1aa7a989367311c48ddf7ab3fa39a7ef04f70273829703a",
+ "results_sha256": "b5e56aa5563611680a1ba7f745981030ea27a541c4d1ac08dc34c5b896bac7cc",
+ "results": {
+  "yule_time": {
+   "mean_n": 20.22,
+   "se_n": 0.64945777,
+   "capped": 0
+  },
+  "yule": {
+   "mean_colless": 0.17082266,
+   "se_colless": 0.0016204
+  },
+  "heritable_rates": {
+   "mean_colless": 0.2172931,
+   "se_colless": 0.00238592
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Yule: mean number of groups at T within 4 standard errors of exp(lam T) = 20.086 (no run reached the cap)",
+   "observed": [
+    20.22,
+    20.08553692,
+    2.59783108,
+    0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at 30 groups, heritable rate variation (SD 0.25) makes schism trees more imbalanced: normalised Colless higher than Yule by more than 4 combined SE",
+   "observed": [
+    0.2172931,
+    0.17082266
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "results",
+   "observed": {
+    "yule_time": {
+     "mean_n": 20.22,
+     "se_n": 0.64945777,
+     "capped": 0
+    },
+    "yule": {
+     "mean_colless": 0.17082266,
+     "se_colless": 0.0016204
+    },
+    "heritable_rates": {
+     "mean_colless": 0.2172931,
+     "se_colless": 0.00238592
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
