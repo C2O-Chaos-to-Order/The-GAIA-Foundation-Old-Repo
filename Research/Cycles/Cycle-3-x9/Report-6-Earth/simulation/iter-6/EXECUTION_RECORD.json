@@ -1,0 +1,40 @@
+{
+ "sim_id": "SIM-R6-C3",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:10:27.560140+00:00",
+ "finished_utc": "2026-10-24T03:10:29.931206+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r6.py simulation/iter-6",
+ "params_sha256": "856867aff9da219bef46f8151496d8e10df6de5ffb2dbd4eec8a343a8f9870c4",
+ "outputs": {
+  "outputs/results.json": "570f834ce939455b7998d2f714e70bad7fb85ba9709523b670e64b70b74213f1"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "bounded, costed adaptation recovers regulation (slope ratio within 0.2 of the original) while extending the life range beyond the original",
+   "observed": [
+    -0.0306573565,
+    1.0590160101,
+    0.1851610338,
+    0.812,
+    1.176
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
