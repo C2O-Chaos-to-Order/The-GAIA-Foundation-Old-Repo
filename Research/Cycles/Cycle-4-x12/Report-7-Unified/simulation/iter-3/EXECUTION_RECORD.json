@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:30.072267+00:00",
+ "finished_utc": "2026-10-24T04:22:30.074778+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-3",
+ "params_sha256": "2d1c0a08b9033a3ed442a9b6586d3a4777fb19aa92f7d4d95dea2a64e32169a4",
+ "outputs": {
+  "outputs/results.json": "9e628639ac3a1c5a4394bd26bdb5dd1abc1c5d036ceaba7b5d0945e98a1cdd01"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the Cycle-4 MR evidence (Y06) gives Report 2 an Established link to another report",
+   "observed": [
+    [
+     [
+      "L04",
+      "R1 Body",
+      "R2 Mind",
+      "Plausible"
+     ],
+     [
+      "L05",
+      "R1 Body",
+      "R2 Mind",
+      "Plausible"
+     ],
+     [
+      "L06",
+      "R1 Body",
+      "R2 Mind",
+      "Philosophical/Spiritual"
+     ],
+     [
+      "L07",
+      "R2 Mind",
+      "R5 Consciousness",
+      "Plausible"
+     ],
+     [
+      "L08",
+      "R2 Mind",
+      "R5 Consciousness",
+      "Plausible"
+     ],
+     [
+      "L09",
+      "R2 Mind",
+      "R3 Soul",
+      "Philosophical/Spiritual"
+     ],
+     [
+      "L25",
+      "R1 Body",
+      "R2 Mind",
+      "Plausible"
+     ],
+     [
+      "L28",
+      "R2 Mind",
+      "R2 Mind",
+      "Plausible"
+     ]
+    ],
+    {
+     "C4-R2-01": "Plausible"
+    }
+   ],
+   "result": "Not supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
