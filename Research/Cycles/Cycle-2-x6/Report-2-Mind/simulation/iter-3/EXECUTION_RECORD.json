@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R2-C2",
+ "iteration": 3,
+ "status": "executed",
+ "started_utc": "2026-10-24T02:10:54.998563+00:00",
+ "finished_utc": "2026-10-24T02:10:55.477546+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r2.py simulation/iter-3",
+ "params_sha256": "62ba957d7a70142ce4217a219c31dcefccca12a143088ed0ea2f8842aacbb7b4",
+ "outputs": {
+  "outputs/results.json": "b2ee447b195a0f784c88a7cbcd44cadfce4effb632d5ffde900029e6727e7707"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "D_PH",
+   "kind": "hypothesis",
+   "expect": "PH: LI grows with the number of pre-exposures (Spearman >= 0.9)",
+   "observed": 1.0,
+   "result": "Supported"
+  },
+  {
+   "id": "D_KF",
+   "kind": "hypothesis",
+   "expect": "KF: LI grows with the number of pre-exposures (Spearman >= 0.9)",
+   "observed": 1.0,
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 2,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
