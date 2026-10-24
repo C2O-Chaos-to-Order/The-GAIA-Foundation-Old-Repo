@@ -1,0 +1,168 @@
+{
+ "sim_id": "SIM-AL-HUM-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:48:45.752286+00:00",
+ "finished_utc": "2026-10-24T19:48:45.757193+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "65a3f9dc8641e960cc591d1232fb95c8916ec337a6f13e992a6c4fc8ffc43304",
+ "params_sha256": "586763063b8fa4510480ad8a6eef902800b328f52d2c155a55be4572dbb50669",
+ "results_sha256": "8c33dce9784c376d9b33df6c1d2d699d0485397cdf7b76de159b900c9cb758a3",
+ "results": {
+  "sums": {
+   "dedup": {
+    "computed": 61.0,
+    "printed": 60,
+    "diff": 1.0
+   },
+   "pub_screen": {
+    "computed": 35.0,
+    "printed": 35,
+    "diff": 0.0
+   },
+   "pcc": {
+    "computed": 18.0,
+    "printed": 18,
+    "diff": 0.0
+   },
+   "pcc_excl": {
+    "computed": 17.0,
+    "printed": 17,
+    "diff": 0.0
+   },
+   "units": {
+    "computed": 34.0,
+    "printed": 34,
+    "diff": 0.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "identity check: signed sum of [3, -1, 2] is 4 and the median of [5, 1, 3, 9] is 4",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "deduplication count adds up",
+   "observed": {
+    "sums": {
+     "dedup": {
+      "computed": 61.0,
+      "printed": 60,
+      "diff": 1.0
+     },
+     "pub_screen": {
+      "computed": 35.0,
+      "printed": 35,
+      "diff": 0.0
+     },
+     "pcc": {
+      "computed": 18.0,
+      "printed": 18,
+      "diff": 0.0
+     },
+     "pcc_excl": {
+      "computed": 17.0,
+      "printed": 17,
+      "diff": 0.0
+     },
+     "units": {
+      "computed": 34.0,
+      "printed": 34,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "all other counts add up",
+   "observed": {
+    "sums": {
+     "dedup": {
+      "computed": 61.0,
+      "printed": 60,
+      "diff": 1.0
+     },
+     "pub_screen": {
+      "computed": 35.0,
+      "printed": 35,
+      "diff": 0.0
+     },
+     "pcc": {
+      "computed": 18.0,
+      "printed": 18,
+      "diff": 0.0
+     },
+     "pcc_excl": {
+      "computed": 17.0,
+      "printed": 17,
+      "diff": 0.0
+     },
+     "units": {
+      "computed": 34.0,
+      "printed": 34,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "sums": {
+     "dedup": {
+      "computed": 61.0,
+      "printed": 60,
+      "diff": 1.0
+     },
+     "pub_screen": {
+      "computed": 35.0,
+      "printed": 35,
+      "diff": 0.0
+     },
+     "pcc": {
+      "computed": 18.0,
+      "printed": 18,
+      "diff": 0.0
+     },
+     "pcc_excl": {
+      "computed": 17.0,
+      "printed": 17,
+      "diff": 0.0
+     },
+     "units": {
+      "computed": 34.0,
+      "printed": 34,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
