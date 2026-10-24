@@ -1,0 +1,125 @@
+{
+ "sim_id": "SIM-DV-SOC-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:48:31.627931+00:00",
+ "finished_utc": "2026-10-24T07:48:40.151343+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "40043b6d3541a134cda3fb5561b27c9d7f963863ec8acc2bf655e23766e74585",
+ "params_sha256": "855b6b26eee90ffe57f14debef4433571ccaa9a33b30fb0f78510bbef8dff881",
+ "results_sha256": "6b7abb5a9f906b4aa5e2447f551015c413e046cba42982e0ccb475df6736bf6f",
+ "results": {
+  "0.15": {
+   "clusters": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "mean_clusters": 3.0,
+   "max_mean_drift": 0.0
+  },
+  "0.5": {
+   "clusters": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "mean_clusters": 1.0,
+   "max_mean_drift": 0.0
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "noise = 0: pairwise updates conserve the mean opinion (|drift| < 1e-9)",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "eps = 0.5: every replicate ends in one major cluster (consensus)",
+   "observed": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "eps = 0.15: mean number of major clusters in [2, 4] (fragmentation; ~floor(1/(2 eps)))",
+   "observed": 3.0,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "clusters per replicate by eps",
+   "observed": {
+    "0.15": [
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3,
+     3
+    ],
+    "0.5": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

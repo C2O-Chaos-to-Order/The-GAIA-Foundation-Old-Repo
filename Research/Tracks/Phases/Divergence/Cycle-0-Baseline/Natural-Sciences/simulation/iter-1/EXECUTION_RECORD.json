@@ -1,0 +1,101 @@
+{
+ "sim_id": "SIM-DV-NAT-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:48:31.139042+00:00",
+ "finished_utc": "2026-10-24T07:48:31.177114+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "82ed8d3ac4088fe9352f8b82023a8f8b2f357074386350993d77b3dd01694948",
+ "params_sha256": "7badc7b2c5504d41d21df92f66afc384f0aa57ea8c56906abeed848a349f181b",
+ "results_sha256": "4f254b0d76e5386380a1d2c9fd486e8c3bc0a478510336973dfc2aec2a9f5349",
+ "results": {
+  "no_migration": [
+   {
+    "t": 10,
+    "fst": 0.02696401,
+    "het_ratio": 0.95206879
+   },
+   {
+    "t": 50,
+    "fst": 0.10679562,
+    "het_ratio": 0.76877121
+   },
+   {
+    "t": 100,
+    "fst": 0.20117036,
+    "het_ratio": 0.60591894
+   },
+   {
+    "t": 200,
+    "fst": 0.38520299,
+    "het_ratio": 0.34855539
+   }
+  ],
+  "migration": [
+   {
+    "t": 10,
+    "fst": 0.02092531,
+    "het_ratio": 0.95588784
+   },
+   {
+    "t": 50,
+    "fst": 0.05025822,
+    "het_ratio": 0.82156067
+   },
+   {
+    "t": 100,
+    "fst": 0.05316043,
+    "het_ratio": 0.74016313
+   },
+   {
+    "t": 200,
+    "fst": 0.05614591,
+    "het_ratio": 0.61052855
+   }
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "m = 0: within-deme heterozygosity ratio at t=200 within 10% (relative) of (1-1/2N)^t = 0.3670",
+   "observed": 0.34855539,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "without gene flow the demes diverge: Fst at t=200 > 0.25",
+   "observed": 0.38520299,
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with gene flow Nm = 1: Fst at t=200 < 0.2 (divergence held back by migration)",
+   "observed": 0.05614591,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "island-model reference 1/(1+4Nm) (infinite-island formula; two demes differ)",
+   "observed": 0.2,
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,5 +1,11 @@
 # gaia_tools change log
 
+## 0.6.0 — data model 1.5.0 (Phases track: Divergence Baseline, 2026-10-24)
+- New `gaia_tools.phases`: loader, `validate` (E1–E10, W1–W3), `claimsource` (K-resolve, K-access, K-sim, K-phrase), `rerun` and `maps` for `Research/Tracks/Phases/<Phase>/Cycle-<L>-<Baseline|xN>/` (five phases x six fields of knowledge). SIM citations `SIM-<PH>-<FIELD>-<L>/iter-k#check`; claims `<PH><L>-<FIELD>-nn`; sources `P01..`.
+- `phases maps` runs `maps_all.build` unchanged, then overlays the phase track: claim placement on the **Phase axis** (organisational, by report scope), `matrix/phase_x_field_30.csv`, `matrix/phase_x_lens_25.csv`, a `phase_claims_in_being_phase_lens_projection` column in `intersections_625.csv`, field/phase graph nodes and PL-* links, change-log rows, simulation index rows.
+- New schema `phase_claim.schema.json` (adds `field`, `operationalization`, `being`; six claim classes from Research/README.md §1 plus Simulation).
+- Tests: `tests/test_phases_v060.py`. `test_tracks_v050.py`: exact data-model assertion relaxed to ">= 1.4.0" (intentionally changed in 0.6.0).
+
 ## 0.5.1 — data model 1.4.0 (Track Cycle B, 2026-10-24)
 - `maps_all`: track claims are compared across track cycles on their ID stem (`TA-SOUL-01` -> `TB-SOUL-01`), so carried claims are classified as carried/changed instead of 'new' + 'dropped'. No schema change.
 - Tests: `tests/test_tracks_v051.py` (stem matching; carried Cycle A claims are not reported as dropped in Cycle B). `test_tracks_v050.py`: exact-version assertion relaxed to ">= 0.5.0".

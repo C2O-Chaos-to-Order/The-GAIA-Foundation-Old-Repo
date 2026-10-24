@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-DV-FOR-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T07:48:31.278268+00:00",
+ "finished_utc": "2026-10-24T07:48:31.527055+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "b7f205785526443e912061de73ce2cd99d8973a8fa2683cfce8542e991d605d9",
+ "params_sha256": "d31ceb59a66e0cd1de34129970dbda174ffa7a8865ec388f4574225a3251f323",
+ "results_sha256": "33150ee068ec6703430641c56228d14dfaba518e01158b85337c869b43155284",
+ "results": {
+  "lyapunov": {
+   "2.8": -0.22314355,
+   "3.2": -0.91629073,
+   "3.5": -0.87250735,
+   "3.9": 0.495827,
+   "4.0": 0.69313341
+  },
+  "steps_to_sep": {
+   "median": 31.0,
+   "min": 30,
+   "max": 36
+  },
+  "predicted_steps_ln2": 29.89735285
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "r = 4: lambda within 0.01 of ln 2 = 0.693147 (analytic)",
+   "observed": 0.69313341,
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "expect": "r = 3.2 (stable 2-cycle): lambda < 0 (analytic)",
+   "observed": -0.91629073,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "r = 4: median steps for a 1e-10 separation to exceed 0.1 within 25% of ln(sep/delta0)/ln 2",
+   "observed": 31.0,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "lambda by r",
+   "observed": {
+    "2.8": -0.22314355,
+    "3.2": -0.91629073,
+    "3.5": -0.87250735,
+    "3.9": 0.495827,
+    "4.0": 0.69313341
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 2,
+ "n_validation_pass": 2,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
