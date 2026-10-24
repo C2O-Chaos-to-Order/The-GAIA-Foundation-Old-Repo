@@ -1,0 +1,101 @@
+{
+ "sim_id": "SIM-AL-FOR-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:47:50.560538+00:00",
+ "finished_utc": "2026-10-24T19:47:50.598978+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "b0fb816af8092567e48fa6fa4d81a8ef4cf4475406e006f0ba6bda4447af387b",
+ "params_sha256": "446167607a77798b264867641aa16c9a7e9ea4dc00911d354c7803433dd7cd43",
+ "results_sha256": "f644191171f0df706f21f652b9c059be3e05200ca9e6a9eb41ea1ba486dbf9ff",
+ "results": {
+  "N10000_w1e-06": {
+   "N": 10000,
+   "w": 1e-06,
+   "Nw": 0.01,
+   "a_crit": 6.00430935,
+   "x_crit": 0.3330941,
+   "a_eq4": 6.00030006,
+   "x_eq4": 0.33331666
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral rho = 1/N (1e-12) and P58 Eq. B.1 equals a direct absorption solve (1e-10) at N = 10",
+   "observed": {
+    "neutral": 0.1,
+    "inv_N": 0.1,
+    "B1": 0.04431597,
+    "direct": 0.04431597
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Nw < 0.1: exact critical x* within 0.01 of P58 Eq. 4",
+   "observed": {
+    "N10000_w1e-06": {
+     "N": 10000,
+     "w": 1e-06,
+     "Nw": 0.01,
+     "a_crit": 6.00430935,
+     "x_crit": 0.3330941,
+     "a_eq4": 6.00030006,
+     "x_eq4": 0.33331666
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "x* within 0.005 of 1/3",
+   "observed": {
+    "N10000_w1e-06": {
+     "N": 10000,
+     "w": 1e-06,
+     "Nw": 0.01,
+     "a_crit": 6.00430935,
+     "x_crit": 0.3330941,
+     "a_eq4": 6.00030006,
+     "x_eq4": 0.33331666
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "N10000_w1e-06": {
+     "N": 10000,
+     "w": 1e-06,
+     "Nw": 0.01,
+     "a_crit": 6.00430935,
+     "x_crit": 0.3330941,
+     "a_eq4": 6.00030006,
+     "x_eq4": 0.33331666
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
