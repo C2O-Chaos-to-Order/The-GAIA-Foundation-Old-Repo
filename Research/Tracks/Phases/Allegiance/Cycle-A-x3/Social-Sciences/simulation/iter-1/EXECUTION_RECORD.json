@@ -1,0 +1,339 @@
+{
+ "sim_id": "SIM-AL-SOC-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T19:01:01.387854+00:00",
+ "finished_utc": "2026-10-24T19:01:01.393634+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "29f2492e746c5c17dc3f509c588dfda5fc1667687954644fd552ef5decdd8bcd",
+ "params_sha256": "15d8b6259ea9d52ce178ce8e4df6d49af48fb9b2ef3f4f7e8a01be9bf278e275",
+ "results_sha256": "2c42cdc1774d44c910d4be2d144cb80b975b903e5ee8b8f6e0ec06d986168298",
+ "results": {
+  "studies": {
+   "Study1_Gaza": {
+    "manifest": {
+     "P": {
+      "beta_F": -0.1841097,
+      "beta_G": 0.16071789,
+      "se": 0.07747579,
+      "R2": 0.01770922,
+      "resid": 0.0
+     },
+     "V": {
+      "beta_F": 0.38233515,
+      "beta_G": -0.03145796,
+      "se": 0.0729093,
+      "R2": 0.13009074,
+      "resid": 0.0
+     }
+    },
+    "disattenuated": {
+     "P": {
+      "beta_F": -0.26830884,
+      "beta_G": 0.24305625,
+      "se": 0.08670691,
+      "R2": 0.02930325,
+      "resid": 0.0
+     },
+     "V": {
+      "beta_F": 0.5240599,
+      "beta_G": -0.12401417,
+      "se": 0.07927356,
+      "R2": 0.18860399,
+      "resid": 0.0
+     }
+    },
+    "sem": {
+     "F_V": 0.5,
+     "F_P": -0.29,
+     "G_P": 0.25,
+     "G_V": 0
+    }
+   },
+   "Study2_Turkiye_religion": {
+    "manifest": {
+     "P": {
+      "beta_F": 0.24041961,
+      "beta_G": 0.31449368,
+      "se": 0.06434252,
+      "R2": 0.26709912,
+      "resid": 0.0
+     },
+     "V": {
+      "beta_F": 0.27124813,
+      "beta_G": 0.01198887,
+      "se": 0.07214909,
+      "R2": 0.07846714,
+      "resid": 0.0
+     }
+    },
+    "disattenuated": {
+     "P": {
+      "beta_F": 0.22133965,
+      "beta_G": 0.35690459,
+      "se": 0.06880569,
+      "R2": 0.29974182,
+      "resid": 0.0
+     },
+     "V": {
+      "beta_F": 0.3232622,
+      "beta_G": -0.0149451,
+      "se": 0.07812618,
+      "R2": 0.09717695,
+      "resid": 0.0
+     }
+    },
+    "sem": {
+     "F_V": 0.31,
+     "F_P": 0,
+     "G_P": 0.4,
+     "G_V": 0
+    }
+   },
+   "Study3_football": {
+    "manifest": {
+     "P": {
+      "beta_F": 0.35470085,
+      "beta_G": 0.2991453,
+      "se": 0.06742863,
+      "R2": 0.38931624,
+      "resid": 0.0
+     },
+     "V": {
+      "beta_F": -0.13492063,
+      "beta_G": 0.42063492,
+      "se": 0.0817634,
+      "R2": 0.10206349,
+      "resid": 0.0
+     }
+    },
+    "disattenuated": {
+     "P": {
+      "beta_F": 0.37791701,
+      "beta_G": 0.32448027,
+      "se": 0.07088966,
+      "R2": 0.45869553,
+      "resid": 0.0
+     },
+     "V": {
+      "beta_F": -0.22949558,
+      "beta_G": 0.52337229,
+      "se": 0.09037009,
+      "R2": 0.12031895,
+      "resid": 0.0
+     }
+    },
+    "sem": {
+     "F_V": 0.38,
+     "F_P": 0.52,
+     "G_P": 0.13,
+     "G_V": 0
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "coefficients solve the 2 x 2 normal equations (residual < 1e-12) in every study and mode",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "manifest beta for fusion -> violent action has the same sign as P52's SEM path in every study",
+   "observed": {
+    "Study1_Gaza": [
+     0.38233515,
+     0.5
+    ],
+    "Study2_Turkiye_religion": [
+     0.27124813,
+     0.31
+    ],
+    "Study3_football": [
+     -0.13492063,
+     0.38
+    ]
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "manifest beta for identification -> peaceful action has the same sign as P52's SEM path in every study",
+   "observed": {
+    "Study1_Gaza": [
+     0.16071789,
+     0.25
+    ],
+    "Study2_Turkiye_religion": [
+     0.31449368,
+     0.4
+    ],
+    "Study3_football": [
+     0.2991453,
+     0.13
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "disattenuation with the printed alphas changes no coefficient sign",
+   "observed": {
+    "Study1_Gaza": true,
+    "Study2_Turkiye_religion": false,
+    "Study3_football": true
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "studies": {
+     "Study1_Gaza": {
+      "manifest": {
+       "P": {
+        "beta_F": -0.1841097,
+        "beta_G": 0.16071789,
+        "se": 0.07747579,
+        "R2": 0.01770922,
+        "resid": 0.0
+       },
+       "V": {
+        "beta_F": 0.38233515,
+        "beta_G": -0.03145796,
+        "se": 0.0729093,
+        "R2": 0.13009074,
+        "resid": 0.0
+       }
+      },
+      "disattenuated": {
+       "P": {
+        "beta_F": -0.26830884,
+        "beta_G": 0.24305625,
+        "se": 0.08670691,
+        "R2": 0.02930325,
+        "resid": 0.0
+       },
+       "V": {
+        "beta_F": 0.5240599,
+        "beta_G": -0.12401417,
+        "se": 0.07927356,
+        "R2": 0.18860399,
+        "resid": 0.0
+       }
+      },
+      "sem": {
+       "F_V": 0.5,
+       "F_P": -0.29,
+       "G_P": 0.25,
+       "G_V": 0
+      }
+     },
+     "Study2_Turkiye_religion": {
+      "manifest": {
+       "P": {
+        "beta_F": 0.24041961,
+        "beta_G": 0.31449368,
+        "se": 0.06434252,
+        "R2": 0.26709912,
+        "resid": 0.0
+       },
+       "V": {
+        "beta_F": 0.27124813,
+        "beta_G": 0.01198887,
+        "se": 0.07214909,
+        "R2": 0.07846714,
+        "resid": 0.0
+       }
+      },
+      "disattenuated": {
+       "P": {
+        "beta_F": 0.22133965,
+        "beta_G": 0.35690459,
+        "se": 0.06880569,
+        "R2": 0.29974182,
+        "resid": 0.0
+       },
+       "V": {
+        "beta_F": 0.3232622,
+        "beta_G": -0.0149451,
+        "se": 0.07812618,
+        "R2": 0.09717695,
+        "resid": 0.0
+       }
+      },
+      "sem": {
+       "F_V": 0.31,
+       "F_P": 0,
+       "G_P": 0.4,
+       "G_V": 0
+      }
+     },
+     "Study3_football": {
+      "manifest": {
+       "P": {
+        "beta_F": 0.35470085,
+        "beta_G": 0.2991453,
+        "se": 0.06742863,
+        "R2": 0.38931624,
+        "resid": 0.0
+       },
+       "V": {
+        "beta_F": -0.13492063,
+        "beta_G": 0.42063492,
+        "se": 0.0817634,
+        "R2": 0.10206349,
+        "resid": 0.0
+       }
+      },
+      "disattenuated": {
+       "P": {
+        "beta_F": 0.37791701,
+        "beta_G": 0.32448027,
+        "se": 0.07088966,
+        "R2": 0.45869553,
+        "resid": 0.0
+       },
+       "V": {
+        "beta_F": -0.22949558,
+        "beta_G": 0.52337229,
+        "se": 0.09037009,
+        "R2": 0.12031895,
+        "resid": 0.0
+       }
+      },
+      "sem": {
+       "F_V": 0.38,
+       "F_P": 0.52,
+       "G_P": 0.13,
+       "G_V": 0
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
