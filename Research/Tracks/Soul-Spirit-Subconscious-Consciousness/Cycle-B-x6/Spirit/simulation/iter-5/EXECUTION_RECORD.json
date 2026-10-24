@@ -1,0 +1,77 @@
+{
+ "sim_id": "SIM-SPIRIT-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:14.639803+00:00",
+ "finished_utc": "2026-10-24T05:43:17.028468+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-5  (run from Spirit/simulation/)",
+ "spec_sha256": "cbeec569ca73ec1513c1f57ff2e660a7025f15e40a532e05faa643c1e86a8ab3",
+ "params_sha256": "58f88e4d26609e4d5bc27e37fcde5820422918f0fbc7cdaa5d28c745278c7b7f",
+ "results_sha256": "8f4252eeb6c6f6bd8ef31d4bf6a1b82b35b1f05bb938e48d126473b4b0b5f07a",
+ "results": {
+  "by_tau": {
+   "0.0": {
+    "fe_z_fpr": 0.04816667,
+    "re_t_fpr": 0.05
+   },
+   "0.2": {
+    "fe_z_fpr": 0.138,
+    "re_t_fpr": 0.05116667
+   },
+   "0.4": {
+    "fe_z_fpr": 0.34816667,
+    "re_t_fpr": 0.05366667
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "tau = 0: fixed-effect z-test false-positive rate within 0.02 of 0.05",
+   "observed": 0.04816667,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "tau = 0.4: fixed-effect z-test false-positive rate for a null moderator > 0.10",
+   "observed": 0.34816667,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "false-positive rates by tau",
+   "observed": {
+    "0.0": {
+     "fe_z_fpr": 0.04816667,
+     "re_t_fpr": 0.05
+    },
+    "0.2": {
+     "fe_z_fpr": 0.138,
+     "re_t_fpr": 0.05116667
+    },
+    "0.4": {
+     "fe_z_fpr": 0.34816667,
+     "re_t_fpr": 0.05366667
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

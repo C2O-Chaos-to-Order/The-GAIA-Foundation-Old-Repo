@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-SPIRIT-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T05:43:17.619359+00:00",
+ "finished_utc": "2026-10-24T05:43:17.661350+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_spirit.py iter-6  (run from Spirit/simulation/)",
+ "spec_sha256": "1017edcf9c36bb097de990dc5dfed920c3b2c547e465e4712024ee71dbd6f39c",
+ "params_sha256": "fdb071cf3b9306754719def0ee0285f1245b72d926d22ce7d3add7dd271d43ac",
+ "results_sha256": "5c9e3987db66183a14a0a54c43aefb06a431fd157a54324ed0dc7c36d5cf8925",
+ "results": {
+  "miss_probability": {
+   "0.05": 0.73509189,
+   "0.1": 0.531441,
+   "0.2": 0.262144,
+   "0.3": 0.117649,
+   "0.5": 0.015625
+  },
+  "simulated": {
+   "0.05": 0.733255,
+   "0.1": 0.52969,
+   "0.2": 0.260765,
+   "0.3": 0.11687,
+   "0.5": 0.015615
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "simulated miss probability within 0.01 of analytic for every p",
+   "observed": {
+    "0.05": -0.0018,
+    "0.1": -0.0018,
+    "0.2": -0.0014,
+    "0.3": -0.0008,
+    "0.5": -0.0
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a theme present in 10% of groups is missed entirely with probability >= 0.5",
+   "observed": 0.531441,
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "miss probability by prevalence",
+   "observed": {
+    "0.05": 0.73509189,
+    "0.1": 0.531441,
+    "0.2": 0.262144,
+    "0.3": 0.117649,
+    "0.5": 0.015625
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
