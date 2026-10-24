@@ -1,0 +1,145 @@
+{
+ "sim_id": "SIM-AS-FOR-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:54:07.140719+00:00",
+ "finished_utc": "2026-10-24T22:54:10.745203+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "f3b506a2204983eb162f018757c8906710295d7a69baf8b5543496b2b9874ba7",
+ "params_sha256": "4a92cb172a1c7ddef420b18c84174847273d0537719052db4e8a6de076f40dd5",
+ "results_sha256": "74b31b0beaf563e70343854a3a580e99a8f2ae18e8f25c291b19ebe11280d6a4",
+ "results": {
+  "ex3_h_maxrelerr": 0.0,
+  "ex3_contraction_maxrelerr": 0.0,
+  "ex5_max_gen_eig": -4.0,
+  "z_ratio_t1": 0.13533528,
+  "e_minus2": 0.13533528,
+  "t_natural": 5.486,
+  "t_gradient": 23.4678,
+  "gd_end": [
+   0.999955,
+   0.999911
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Example 3 in z-coordinates: |z(1)|/|z(0)| = e^-2 within 1e-6 (natural gradient flow, RK4)",
+   "observed": [
+    0.13533528,
+    0.13533528
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Example 3: -M^-1 grad f equals P86's printed h(x) (max relative error < 1e-9)",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Example 3: M A + A^T M + Mdot = -4 M (contraction rate 2; max relative error < 1e-9)",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "Example 5 (metric as read from P86's text): largest generalized eigenvalue <= -4 + 1e-9 at every sampled point (rate 2)",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "from (-1.5, 2) natural gradient flow reaches within 1e-4 of (1, 1) sooner than plain gradient flow (or plain flow fails by T 60)",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
