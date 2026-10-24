@@ -1,0 +1,38 @@
+{
+ "sim_id": "SIM-R3-C3",
+ "iteration": 6,
+ "status": "executed",
+ "started_utc": "2026-10-24T03:04:41.101506+00:00",
+ "finished_utc": "2026-10-24T03:04:41.102739+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r3.py simulation/iter-6",
+ "params_sha256": "fe0e5f03cb36c07a6cda5d9105d5de28e98f87116e69f1583255445079f70471",
+ "outputs": {
+  "outputs/results.json": "bc24501e0cace7fef9082dd06a51ab048d4c5f087375937c04201a299cdcf885"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "A-vs-C kappa changes by < 0.1 across window sizes 300/600/1200 characters (robust to window size)",
+   "observed": [
+    0.3447874199,
+    0.3185642176,
+    0.3634385201
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
