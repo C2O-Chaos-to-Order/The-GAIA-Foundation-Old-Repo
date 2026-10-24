@@ -1,0 +1,61 @@
+{
+ "cycle": "CV0",
+ "n_runs": 6,
+ "all_identical": true,
+ "runs": [
+  {
+   "sim_id": "SIM-CV-NAT-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CV-FOR-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CV-SOC-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CV-APP-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CV-HUM-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-CV-PHI-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  }
+ ]
+}
