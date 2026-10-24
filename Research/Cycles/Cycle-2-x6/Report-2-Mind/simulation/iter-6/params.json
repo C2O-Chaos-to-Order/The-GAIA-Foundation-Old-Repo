@@ -1,0 +1,76 @@
+{
+ "defaults": {
+  "KF": {
+   "s0": 1.0,
+   "sigma2": 0.5,
+   "tau2": 0.01
+  },
+  "PH": {
+   "S": 0.5,
+   "alpha0": 0.5,
+   "gamma": 0.3
+  },
+  "RW": {
+   "alpha": 0.3,
+   "beta": 1.0
+  }
+ },
+ "experiments": {
+  "recovery": {
+   "designs": [
+    "diagnostic"
+   ],
+   "fit_grids": {
+    "KF": {
+     "s0": [
+      1.0
+     ],
+     "sigma2": [
+      0.2,
+      0.5,
+      1.0
+     ],
+     "tau2": [
+      0.001,
+      0.01,
+      0.05
+     ]
+    },
+    "PH": {
+     "S": [
+      0.2,
+      0.5,
+      0.9
+     ],
+     "alpha0": [
+      0.5
+     ],
+     "gamma": [
+      0.1,
+      0.3,
+      0.6
+     ]
+    },
+    "RW": {
+     "alpha": [
+      0.1,
+      0.3,
+      0.6
+     ],
+     "beta": [
+      1.0
+     ]
+    }
+   },
+   "noise": [
+    0.05
+   ],
+   "reps": 40,
+   "seed": 2026,
+   "test_accuracy": 0.8
+  }
+ },
+ "iteration": 6,
+ "prev": "../iter-5",
+ "sim_id": "SIM-R2-C2"
+}
