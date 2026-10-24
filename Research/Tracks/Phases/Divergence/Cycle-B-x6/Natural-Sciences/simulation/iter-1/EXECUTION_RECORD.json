@@ -1,0 +1,114 @@
+{
+ "sim_id": "SIM-DV-NAT-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T08:34:26.501975+00:00",
+ "finished_utc": "2026-10-24T08:34:30.214577+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "6e705f888ae1fb22f78cd9f11564a2fae9c82fa0a81fe7dc11b29586ad912415",
+ "params_sha256": "199820b351e0e77c3bc897183c377aa641d0a3cda172766146d01bd770533150",
+ "results_sha256": "7f177686d9b55bd6eda58f4ccbfd3f7b1098272d319111104b8ac881d8fa0d89",
+ "results": {
+  "fst_by_c": {
+   "0.0": 0.52040385,
+   "0.001": 0.50781103,
+   "0.01": 0.33985941,
+   "0.05": 0.16940184,
+   "0.5": 0.07220427
+  },
+  "se_by_c": {
+   "0.0": 0.02400109,
+   "0.001": 0.01980214,
+   "0.01": 0.01656352,
+   "0.05": 0.01136045,
+   "0.5": 0.00623348
+  },
+  "fst_selected": 0.68264434,
+  "neutral_mean_freq": 0.50000417,
+  "neutral_mean_freq_se": 0.00729583
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral allele frequency unbiased: mean within 4 SE of 0.5",
+   "observed": [
+    0.50000417,
+    0.00729583
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Fst at c = 0.0 exceeds Fst at c = 0.5 by more than 4 SE (combined)",
+   "observed": [
+    0.52040385,
+    0.07220427
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Fst non-increasing in c (tolerance 0.02)",
+   "observed": [
+    0.52040385,
+    0.50781103,
+    0.33985941,
+    0.16940184,
+    0.07220427
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "Fst at c = 0.01 is below the midpoint of Fst(c=0.0) and Fst(c=0.5) (decay within short map distance)",
+   "observed": [
+    0.33985941,
+    0.29630406
+   ],
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "Fst by c and at the selected locus",
+   "observed": {
+    "fst_by_c": {
+     "0.0": 0.52040385,
+     "0.001": 0.50781103,
+     "0.01": 0.33985941,
+     "0.05": 0.16940184,
+     "0.5": 0.07220427
+    },
+    "se_by_c": {
+     "0.0": 0.02400109,
+     "0.001": 0.01980214,
+     "0.01": 0.01656352,
+     "0.05": 0.01136045,
+     "0.5": 0.00623348
+    },
+    "fst_selected": 0.68264434,
+    "neutral_mean_freq": 0.50000417,
+    "neutral_mean_freq_se": 0.00729583
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
