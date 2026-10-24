@@ -1,0 +1,3 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P92,yes,ASB,11474,1f78d7e21c5aed5618cfd2b8de694035c87961ffa4a97b7e8c9155d8f3f942ea,"Read end to end (abstract to conclusion, Tables 1-6, appendix, statements; reference list skimmed)."
+P93,yes,ASB,9812,8854bb33114e2b946a99cdc1381af47129b975b4dd004cce77362580585b788e,"Read end to end (text, figures, footnotes and statements; reference list skimmed)."
