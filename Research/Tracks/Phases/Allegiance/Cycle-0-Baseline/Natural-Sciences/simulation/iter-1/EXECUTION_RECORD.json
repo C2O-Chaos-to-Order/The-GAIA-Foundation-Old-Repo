@@ -1,0 +1,123 @@
+{
+ "sim_id": "SIM-AL-NAT-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T18:51:16.647901+00:00",
+ "finished_utc": "2026-10-24T18:51:16.657059+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "b5141edfe387c60a6772173332ed2bd4b7c08815da34452c1512aef4efcef198",
+ "params_sha256": "d69035877ad7aed41f298dec02742b1acb965df73d31295a8e7e184429d72682",
+ "results_sha256": "070be079426d667fb7f6d34385678548575cae8fa9b83cf404821630ecf19230",
+ "results": {
+  "cooperative": {
+   "log10_P50": 0.853,
+   "slope_low": 1.00006062,
+   "slope_high": 1.00013514,
+   "slope_max": 3.63408147,
+   "log10_L_at_max": 0.883,
+   "monotone": true
+  },
+  "independent": {
+   "log10_P50": 0.0,
+   "slope_low": 1.0,
+   "slope_high": 1.0,
+   "slope_max": 1.00000446,
+   "log10_L_at_max": 7.985,
+   "monotone": true
+  },
+  "hill_check": {
+   "n": 2.8,
+   "P50": 26.0,
+   "Kd": 9160.63067664,
+   "Y_at_P50": 0.5
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "binding curves monotone and the Hill equation with Kd = P50^n gives Y(P50) = 0.5 (P46 Eq. 4)",
+   "observed": [
+    true,
+    true,
+    0.5
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "cooperative Hill plot: end slopes within 0.05 of 1 (P46: ends approach slopes of 1)",
+   "observed": [
+    1.00006062,
+    1.00013514
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "maximum slope between 1 and 4 and within 0.5 log units of P50 (P46: maximal cooperativity in the middle)",
+   "observed": [
+    3.63408147,
+    0.883,
+    0.853
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "independent identical sites: slope within 0.01 of 1 everywhere (P46: n = 1 when affinity does not change)",
+   "observed": [
+    1.00000446,
+    1.0
+   ],
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cooperative": {
+     "log10_P50": 0.853,
+     "slope_low": 1.00006062,
+     "slope_high": 1.00013514,
+     "slope_max": 3.63408147,
+     "log10_L_at_max": 0.883,
+     "monotone": true
+    },
+    "independent": {
+     "log10_P50": 0.0,
+     "slope_low": 1.0,
+     "slope_high": 1.0,
+     "slope_max": 1.00000446,
+     "log10_L_at_max": 7.985,
+     "monotone": true
+    },
+    "hill_check": {
+     "n": 2.8,
+     "P50": 26.0,
+     "Kd": 9160.63067664,
+     "Y_at_P50": 0.5
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
