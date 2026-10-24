@@ -1,0 +1,47 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 10,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:30.999429+00:00",
+ "finished_utc": "2026-10-24T04:22:31.002940+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-10",
+ "params_sha256": "2551dcfa687bbe6c25284f5763ab103911ea9660fcf80d762b47758f42791b0d",
+ "outputs": {
+  "outputs/results.json": "96e45209fca4398ba10064bb76a4a58989d5677592040180fe3504a46cc3a72d"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H10",
+   "kind": "hypothesis",
+   "expect": "diminishing returns: Cycle 4 adds fewer new sources and fewer new claims (R1-R6) than Cycle 3",
+   "observed": {
+    "new_sources": {
+     "C1": 37,
+     "C2": 15,
+     "C3": 21,
+     "C4": 6
+    },
+    "new_claims_excl_C4_R7": {
+     "C1": 42,
+     "C2": 35,
+     "C3": 39,
+     "C4": 20
+    }
+   },
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
