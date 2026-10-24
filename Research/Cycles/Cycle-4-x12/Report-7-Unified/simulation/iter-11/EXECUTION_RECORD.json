@@ -1,0 +1,37 @@
+{
+ "sim_id": "SIM-R7-C4",
+ "iteration": 11,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:22:31.106869+00:00",
+ "finished_utc": "2026-10-24T04:22:31.109624+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r7.py simulation/iter-11",
+ "params_sha256": "083ff4ca49f0229abf4b59ca5a4eceb1bd21ede9b7509a3eb74022adcfdb183a",
+ "outputs": {
+  "outputs/results.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V4",
+   "kind": "validation",
+   "expect": "register completeness: every link has a Cycle-4 status and every Cycle-4 evidence claim resolves",
+   "observed": [
+    [],
+    []
+   ],
+   "result": "Pass"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 0,
+ "n_supported": 0,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
