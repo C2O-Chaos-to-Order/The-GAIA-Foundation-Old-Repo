@@ -1,0 +1,458 @@
+{
+ "attribute_frequency": {
+  "A10_constituted_relationally_or_communally": 2,
+  "A11_identical_with_universal_ground": 2,
+  "A12_extends_to_non_human_beings": 9,
+  "A1_immaterial": 5,
+  "A2_independent_of_body_survives_death": 6,
+  "A3_principle_of_life_or_breath": 8,
+  "A4_seat_of_thought_or_identity": 7,
+  "A5_bearer_of_moral_character": 7,
+  "A6_oriented_to_purpose_or_final_end": 6,
+  "A7_enduring_unchanging_self": 3,
+  "A8_form_of_or_inseparable_from_body": 4,
+  "A9_enduring_self_denied": 1
+ },
+ "base_partition_jaccard_average_k4": [
+  [
+   "C01",
+   "C02",
+   "C03",
+   "C04",
+   "C06",
+   "C10",
+   "C11"
+  ],
+  [
+   "C05",
+   "C14"
+  ],
+  [
+   "C07",
+   "C08",
+   "C09"
+  ],
+  [
+   "C12",
+   "C13"
+  ]
+ ],
+ "codings": {
+  "ARI_median": 0.5692307692,
+  "ARI_min": -0.0405405405,
+  "n": 15,
+  "n_identical_to_base": 2,
+  "results": {
+   "as_coded|dice": {
+    "ARI_vs_base": 1.0,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ]
+   },
+   "as_coded|hamming": {
+    "ARI_vs_base": 0.7244094488,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C12",
+      "C13",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ]
+    ]
+   },
+   "as_coded|jaccard": {
+    "ARI_vs_base": 1.0,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C14"
+     ],
+     [
+      "C07",
+      "C08",
+      "C09"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ]
+   },
+   "drop_uncertain_attributes|dice": {
+    "ARI_vs_base": 0.1942446043,
+    "partition": [
+     [
+      "C01",
+      "C08",
+      "C09"
+     ],
+     [
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C11",
+      "C14"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ]
+   },
+   "drop_uncertain_attributes|hamming": {
+    "ARI_vs_base": 0.1942446043,
+    "partition": [
+     [
+      "C01",
+      "C08",
+      "C09"
+     ],
+     [
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C11",
+      "C14"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ]
+   },
+   "drop_uncertain_attributes|jaccard": {
+    "ARI_vs_base": 0.1942446043,
+    "partition": [
+     [
+      "C01",
+      "C08",
+      "C09"
+     ],
+     [
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C11",
+      "C14"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C12",
+      "C13"
+     ]
+    ]
+   },
+   "uncertain_as_0|dice": {
+    "ARI_vs_base": 0.16875,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C11",
+      "C12",
+      "C13"
+     ],
+     [
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C14"
+     ]
+    ]
+   },
+   "uncertain_as_0|hamming": {
+    "ARI_vs_base": -0.0405405405,
+    "partition": [
+     [
+      "C01",
+      "C06"
+     ],
+     [
+      "C02"
+     ],
+     [
+      "C03",
+      "C04",
+      "C05",
+      "C07",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14"
+     ],
+     [
+      "C08",
+      "C09"
+     ]
+    ]
+   },
+   "uncertain_as_0|jaccard": {
+    "ARI_vs_base": 0.16875,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C11",
+      "C12",
+      "C13"
+     ],
+     [
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ],
+     [
+      "C14"
+     ]
+    ]
+   },
+   "uncertain_as_1|dice": {
+    "ARI_vs_base": 0.5743243243,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07"
+     ],
+     [
+      "C12",
+      "C13"
+     ],
+     [
+      "C14"
+     ]
+    ]
+   },
+   "uncertain_as_1|hamming": {
+    "ARI_vs_base": 0.7894736842,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07",
+      "C12",
+      "C13"
+     ],
+     [
+      "C08",
+      "C09"
+     ],
+     [
+      "C14"
+     ]
+    ]
+   },
+   "uncertain_as_1|jaccard": {
+    "ARI_vs_base": 0.5743243243,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C08",
+      "C09",
+      "C10",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07"
+     ],
+     [
+      "C12",
+      "C13"
+     ],
+     [
+      "C14"
+     ]
+    ]
+   },
+   "uncertain_as_half|dice": {
+    "ARI_vs_base": 0.5692307692,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07",
+      "C12",
+      "C13",
+      "C14"
+     ],
+     [
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ]
+    ]
+   },
+   "uncertain_as_half|hamming": {
+    "ARI_vs_base": 0.5692307692,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07",
+      "C12",
+      "C13",
+      "C14"
+     ],
+     [
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ]
+    ]
+   },
+   "uncertain_as_half|jaccard": {
+    "ARI_vs_base": 0.5692307692,
+    "partition": [
+     [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C06",
+      "C11"
+     ],
+     [
+      "C05",
+      "C07",
+      "C12",
+      "C13",
+      "C14"
+     ],
+     [
+      "C08",
+      "C09"
+     ],
+     [
+      "C10"
+     ]
+    ]
+   }
+  }
+ },
+ "shape": [
+  14,
+  12
+ ],
+ "uncertain_cells": 36
+}

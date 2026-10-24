@@ -1,0 +1,22 @@
+{
+ "coding_file": "../data/coding_c0.csv",
+ "experiments": {
+  "codings": {
+   "k": 4,
+   "metrics": [
+    "jaccard",
+    "hamming",
+    "dice"
+   ],
+   "variants": [
+    "as_coded",
+    "uncertain_as_0",
+    "uncertain_as_1",
+    "uncertain_as_half",
+    "drop_uncertain_attributes"
+   ]
+  }
+ },
+ "iteration": 1,
+ "sim_id": "SIM-R3-C1"
+}
