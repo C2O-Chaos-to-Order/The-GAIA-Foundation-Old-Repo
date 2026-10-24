@@ -1,0 +1,15 @@
+{
+ "coding_a": "../data/coding_c1.csv",
+ "experiments": {
+  "methods": [
+   "complete",
+   "single",
+   "weighted"
+  ]
+ },
+ "iteration": 5,
+ "k": 4,
+ "prev": "../iter-4",
+ "sim_id": "SIM-R3-C4",
+ "windows": "../data/window_hits_c3.json"
+}
