@@ -1,0 +1,41 @@
+{
+ "sim_id": "SIM-R4-C4",
+ "iteration": 12,
+ "status": "executed",
+ "started_utc": "2026-10-24T04:07:19.642497+00:00",
+ "finished_utc": "2026-10-24T04:07:19.669531+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python simulation/sim_r4.py simulation/iter-12",
+ "params_sha256": "e72bfa15e4ce302ccc8b8117f2ce86fa50db4bbe5b85f118190fb48f6aa6ea12",
+ "outputs": {
+  "outputs/results.json": "0317a08b970700fcfbc7e8094715cf77c7eff6797649f8c97e33e2a5e70c1bea"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "H12",
+   "kind": "hypothesis",
+   "expect": "with both confounding and a true effect, the NCO still flags bias and the ratio correction lands within 10% of the truth (equal U effects)",
+   "observed": [
+    [
+     0.8014299604,
+     0.7845357647,
+     0.8186879558
+    ],
+    0.7364543643
+   ],
+   "result": "Supported"
+  }
+ ],
+ "n_checks": 1,
+ "n_validation": 0,
+ "n_validation_pass": 0,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 0,
+ "all_validation_passed": true
+}
