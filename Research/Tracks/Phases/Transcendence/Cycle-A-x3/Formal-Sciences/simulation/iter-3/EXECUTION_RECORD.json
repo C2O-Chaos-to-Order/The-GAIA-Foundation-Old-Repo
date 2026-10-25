@@ -1,0 +1,212 @@
+{
+ "sim_id": "SIM-TR-FOR-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:07.086379+00:00",
+ "finished_utc": "2026-10-25T00:52:07.579693+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "9e2ac7ba5bcda7dd93d2605a39bbee67977b0b4300eddac9d644a882bf8a8d15",
+ "params_sha256": "294af3e0e518be705414e3ff61115c74923a441e5f1503acfc2f72bc540883ed",
+ "results_sha256": "db9449a6942c3261091a572094763c44e95de71dc087da9b1460378aeda10b11",
+ "results": {
+  "by_number": {
+   "liouville": {
+    "max_ratio": 6.0,
+    "max_excess": 600,
+    "argmax_excess": 120,
+    "head": [
+     2,
+     6,
+     6,
+     6,
+     6,
+     24,
+     24,
+     24,
+     24,
+     24
+    ]
+   },
+   "prop3": {
+    "max_ratio": 37.03252033,
+    "max_excess": 4432,
+    "argmax_excess": 123,
+    "head": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "base": 10,
+  "digits": 150
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Machin's formula in integer arithmetic gives pi = 3.14159265358979...",
+   "observed": "314159265358979",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "base 10: Liouville's constant reaches d_n/n >= 6 within 150 digits",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 6.0,
+      "max_excess": 600,
+      "argmax_excess": 120,
+      "head": [
+       2,
+       6,
+       6,
+       6,
+       6,
+       24,
+       24,
+       24,
+       24,
+       24
+      ]
+     },
+     "prop3": {
+      "max_ratio": 37.03252033,
+      "max_excess": 4432,
+      "argmax_excess": 123,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 10,
+    "digits": 150
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "base 10: the Proposition 3 number (built in base 2) also reaches d_n/n >= 5 within 150 digits (its huge gaps make it a Liouville number in every base)",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 6.0,
+      "max_excess": 600,
+      "argmax_excess": 120,
+      "head": [
+       2,
+       6,
+       6,
+       6,
+       6,
+       24,
+       24,
+       24,
+       24,
+       24
+      ]
+     },
+     "prop3": {
+      "max_ratio": 37.03252033,
+      "max_excess": 4432,
+      "argmax_excess": 123,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 10,
+    "digits": 150
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 6.0,
+      "max_excess": 600,
+      "argmax_excess": 120,
+      "head": [
+       2,
+       6,
+       6,
+       6,
+       6,
+       24,
+       24,
+       24,
+       24,
+       24
+      ]
+     },
+     "prop3": {
+      "max_ratio": 37.03252033,
+      "max_excess": 4432,
+      "argmax_excess": 123,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 10,
+    "digits": 150
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
