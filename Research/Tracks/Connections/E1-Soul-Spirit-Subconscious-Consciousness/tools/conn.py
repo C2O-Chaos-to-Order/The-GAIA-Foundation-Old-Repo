@@ -342,6 +342,16 @@ def render(cycle_dir, it):
     L.append("\n### This report's claims and links\n\n| Label | Claims | Links |\n|---|---|---|")
     L += [f"| {l} | {m['claims_by_label'][l]} | {m['links_by_label'][l]} |" for l in LABELS]
     L.append("\n| Kind | Claims |\n|---|---|"); L += [f"| {k} | {v} |" for k, v in m["claims_by_kind"].items()]
+    if "cross_mentions" in m:
+        L.append("\n### x3 censuses of the existing records\n\n| Claims of topic | mention SOUL | mention SPIRIT | mention SUBC | mention CONS |\n|---|---|---|---|---|")
+        L += [f"| {a} | " + " | ".join("-" if a == b else str(m["cross_mentions"][a][b]) for b in TOPICS) + " |" for a in TOPICS]
+        L.append("\n| Topic terms in phase claims | " + " | ".join(PHASES) + " |\n|---|" + "---|" * len(PHASES))
+        L += [f"| {t} | " + " | ".join(str(m["phase_topic_counts"][t][ph]) for ph in PHASES) + " |" for t in TOPICS]
+        L.append("| distinct claims | " + " | ".join(str(m["phase_matching_claims"][ph]) for ph in PHASES) + " |")
+        L.append("\n| Limitation family | " + " | ".join(TOPICS) + " |\n|---|---|---|---|---|")
+        L += [f"| {f} | " + " | ".join(str(v[t]) for t in TOPICS) + " |" for f, v in m["limitation_families"].items()]
+        L.append(f"\nIn all four topics: {', '.join(m['limitation_families_in_all_four']) or 'none'}. Anchor mismatches: {', '.join(m['anchor_mismatches']) or 'none'}.")
+        L.append(f"\nChanged against the previous cycle: claims {', '.join(m['claims_changed_vs_previous']) or 'none'}; links {', '.join(m['links_changed_vs_previous']) or 'none'}; factor rows {', '.join(m['factor_rows_changed_vs_previous']) or 'none'}.")
     for key in ("dangling_basis", "unresolved_sources", "sources_not_in_basis", "label_rule_violations", "owner_rule_violations", "census_claim_mismatches", "problems"):
         L.append(f"\n{key}: {', '.join(m[key]) or 'none'}")
     return "\n".join(L) + "\n"

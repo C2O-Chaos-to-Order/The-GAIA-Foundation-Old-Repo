@@ -1,0 +1,40 @@
+factor_id,factor,kind,topic,basis_labels,has_E_or_P_basis,counted
+F01,What is measured is a report or a belief,method,SOUL,Philosophical/Spiritual;Established,True,True
+F01,What is measured is a report or a belief,method,SPIRIT,Philosophical/Spiritual;Established,True,True
+F01,What is measured is a report or a belief,method,SUBC,Established;Established,True,True
+F01,What is measured is a report or a belief,method,CONS,Established;Established,True,True
+F02,Cut-offs and thresholds misclassify,method,SOUL,Established,True,True
+F02,Cut-offs and thresholds misclassify,method,SPIRIT,Established;Plausible,True,True
+F02,Cut-offs and thresholds misclassify,method,SUBC,Established;Established,True,True
+F02,Cut-offs and thresholds misclassify,method,CONS,Established;Established,True,True
+F03,Headline effects are fragile under replication or testing,method,SOUL,Established;Established,True,True
+F03,Headline effects are fragile under replication or testing,method,SPIRIT,Established;Established,True,True
+F03,Headline effects are fragile under replication or testing,method,SUBC,Established;Established,True,True
+F03,Headline effects are fragile under replication or testing,method,CONS,Established;Established,True,True
+F04,Association is not cause,method,SOUL,Established,True,True
+F04,Association is not cause,method,SPIRIT,Established;Established,True,True
+F04,Association is not cause,method,SUBC,Established;Established,True,True
+F04,Association is not cause,method,CONS,Established,True,True
+F05,Sleep dreaming and unresponsive states,substantive,SOUL,Established,True,True
+F05,Sleep dreaming and unresponsive states,substantive,SUBC,Hypothetical;Established;Established,True,True
+F05,Sleep dreaming and unresponsive states,substantive,CONS,Established;Established,True,True
+F06,Death and the end of life,substantive,SOUL,Established;Established;Plausible,True,True
+F06,Death and the end of life,substantive,SPIRIT,Established,True,True
+F06,Death and the end of life,substantive,CONS,Plausible;Philosophical/Spiritual,True,False
+F07,The self and what persists,tradition,SOUL,Philosophical/Spiritual;Philosophical/Spiritual,False,False
+F07,The self and what persists,tradition,SPIRIT,Philosophical/Spiritual,False,False
+F07,The self and what persists,tradition,SUBC,Established,True,True
+F07,The self and what persists,tradition,CONS,Philosophical/Spiritual,False,False
+F08,Contemplative and nondual awareness,tradition,SPIRIT,Philosophical/Spiritual,False,False
+F08,Contemplative and nondual awareness,tradition,SUBC,Established,True,True
+F08,Contemplative and nondual awareness,tradition,CONS,Established;Philosophical/Spiritual,True,True
+F09,Responsibility care and justice,ethics,SOUL,Established,True,True
+F09,Responsibility care and justice,ethics,SPIRIT,Philosophical/Spiritual;Plausible,True,False
+F09,Responsibility care and justice,ethics,SUBC,Established;Established,True,True
+F09,Responsibility care and justice,ethics,CONS,Established;Philosophical/Spiritual,True,True
+F10,Degrees rather than a binary,substantive,SPIRIT,Plausible,True,False
+F10,Degrees rather than a binary,substantive,SUBC,Established;Plausible,True,True
+F10,Degrees rather than a binary,substantive,CONS,Plausible;Plausible,True,False
+F11,Beliefs about the topic shape moral judgment,substantive,SOUL,Established,True,True
+F11,Beliefs about the topic shape moral judgment,substantive,SUBC,Established,True,True
+F11,Beliefs about the topic shape moral judgment,substantive,CONS,Established,True,True
