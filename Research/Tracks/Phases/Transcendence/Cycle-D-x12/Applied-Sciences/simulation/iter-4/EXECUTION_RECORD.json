@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-TR-APP-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:20.178966+00:00",
+ "finished_utc": "2026-10-25T01:30:20.593427+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-4  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "e5b59a11bc75e5b2e75808224372cfdffd37f9f6da9d463cdfc5d5a4e106fb36",
+ "params_sha256": "230a62889429a015cb598124358e0e2faf923d37c4f6748bc7290efe61d9591b",
+ "results_sha256": "035a19ebf34ba8d7458ed9b2601723359f01fd9a14b6848aa0a4ce88ce7a6167",
+ "results": {
+  "items": {
+   "z_inf_psy_coc": {
+    "value": 4.707644,
+    "printed": 4.71,
+    "diff": -0.002356
+   },
+   "z_inf_psy_alc": {
+    "value": 5.345936,
+    "printed": 5.53,
+    "diff": -0.184064
+   },
+   "z_inf_coc_alc": {
+    "value": 0.408294,
+    "printed": 0.408,
+    "diff": 0.000294
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108: Fisher r-to-z statistics for ego-inflation vs well-being reproduce within 0.05",
+   "observed": {
+    "items": {
+     "z_inf_psy_coc": {
+      "value": 4.707644,
+      "printed": 4.71,
+      "diff": -0.002356
+     },
+     "z_inf_psy_alc": {
+      "value": 5.345936,
+      "printed": 5.53,
+      "diff": -0.184064
+     },
+     "z_inf_coc_alc": {
+      "value": 0.408294,
+      "printed": 0.408,
+      "diff": 0.000294
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "z_inf_psy_coc": {
+      "value": 4.707644,
+      "printed": 4.71,
+      "diff": -0.002356
+     },
+     "z_inf_psy_alc": {
+      "value": 5.345936,
+      "printed": 5.53,
+      "diff": -0.184064
+     },
+     "z_inf_coc_alc": {
+      "value": 0.408294,
+      "printed": 0.408,
+      "diff": 0.000294
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

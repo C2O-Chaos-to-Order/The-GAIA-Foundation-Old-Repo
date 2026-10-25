@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-TR-APP-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:20.737930+00:00",
+ "finished_utc": "2026-10-25T01:30:21.172856+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "5332184e000c49d23b7c4071fdd3613650c666f09f66389b842c2e08d7d15cc8",
+ "params_sha256": "c2b9099901559d5fd1988d1a456d318c5e0da3cc3d1e05ad7bda8badeb497354",
+ "results_sha256": "2e615b4b381d775c94b642ad2d13dac45a847811851f1f63c603348f2a3740d5",
+ "results": {
+  "items": {
+   "p2_alc_t0031": {
+    "value": 0.975285,
+    "printed": null,
+    "diff": null
+   },
+   "p1_alc_t0031": {
+    "value": 0.487642,
+    "printed": 0.488,
+    "diff": -0.000358
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108: the printed p 0.488 for t(405) = 0.031 is the two-tailed p its Methods specify (within 0.01)",
+   "observed": {
+    "items": {
+     "p2_alc_t0031": {
+      "value": 0.975285,
+      "printed": null,
+      "diff": null
+     },
+     "p1_alc_t0031": {
+      "value": 0.487642,
+      "printed": 0.488,
+      "diff": -0.000358
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "p2_alc_t0031": {
+      "value": 0.975285,
+      "printed": null,
+      "diff": null
+     },
+     "p1_alc_t0031": {
+      "value": 0.487642,
+      "printed": 0.488,
+      "diff": -0.000358
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
