@@ -1,0 +1,538 @@
+{
+ "sim_id": "SIM-TR-APP-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:53.079542+00:00",
+ "finished_utc": "2026-10-25T01:20:53.501777+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "57b37bc9f418a8ba1126b0514f03061de8cb342c44fe87931a01af45e3480d35",
+ "params_sha256": "af018b57f541f2e2d17dd7a542afbb07d410f71cbdc1366287b0a7aabaefedce",
+ "results_sha256": "6ac2974f57a80ff85c26b71181dfde5f72f7b7fc6879857533078b7e9577e567",
+ "results": {
+  "items": {
+   "t_AuditoryAlt": {
+    "value": 7.096774,
+    "printed": 7.1,
+    "diff": -0.003226
+   },
+   "tol_AuditoryAlt": {
+    "value": 0.130645,
+    "printed": null,
+    "diff": null
+   },
+   "t_OceanicB": {
+    "value": 3.273196,
+    "printed": 3.3,
+    "diff": -0.026804
+   },
+   "tol_OceanicB": {
+    "value": 0.062887,
+    "printed": null,
+    "diff": null
+   },
+   "t_DreadEgo": {
+    "value": 9.892473,
+    "printed": 9.8,
+    "diff": 0.092473
+   },
+   "tol_DreadEgo": {
+    "value": 0.103763,
+    "printed": null,
+    "diff": null
+   },
+   "t_VigilanceRed": {
+    "value": 3.888889,
+    "printed": 3.9,
+    "diff": -0.011111
+   },
+   "tol_VigilanceRed": {
+    "value": 0.069841,
+    "printed": null,
+    "diff": null
+   },
+   "t_VisionaryR": {
+    "value": 3.871795,
+    "printed": 3.9,
+    "diff": -0.028205
+   },
+   "tol_VisionaryR": {
+    "value": 0.062821,
+    "printed": null,
+    "diff": null
+   },
+   "t_Anxiety": {
+    "value": 1.428571,
+    "printed": 1.4,
+    "diff": 0.028571
+   },
+   "tol_Anxiety": {
+    "value": 0.074631,
+    "printed": null,
+    "diff": null
+   },
+   "t_AVSynesthesia": {
+    "value": 0.881503,
+    "printed": 0.9,
+    "diff": -0.018497
+   },
+   "tol_AVSynesthesia": {
+    "value": 0.057225,
+    "printed": null,
+    "diff": null
+   },
+   "t_Blissful": {
+    "value": 3.323864,
+    "printed": 3.3,
+    "diff": 0.023864
+   },
+   "tol_Blissful": {
+    "value": 0.064205,
+    "printed": null,
+    "diff": null
+   },
+   "t_ComplexImag": {
+    "value": 1.469849,
+    "printed": 1.5,
+    "diff": -0.030151
+   },
+   "tol_ComplexImag": {
+    "value": 0.056281,
+    "printed": null,
+    "diff": null
+   },
+   "t_ChangedMeaning": {
+    "value": -0.231481,
+    "printed": -0.2,
+    "diff": -0.031481
+   },
+   "tol_ChangedMeaning": {
+    "value": 0.061574,
+    "printed": null,
+    "diff": null
+   },
+   "t_Disembodiment": {
+    "value": 1.096563,
+    "printed": 1.1,
+    "diff": -0.003437
+   },
+   "tol_Disembodiment": {
+    "value": 0.058183,
+    "printed": null,
+    "diff": null
+   },
+   "t_ElementaryImag": {
+    "value": 0.874016,
+    "printed": 0.9,
+    "diff": -0.025984
+   },
+   "tol_ElementaryImag": {
+    "value": 0.053937,
+    "printed": null,
+    "diff": null
+   },
+   "t_Unity": {
+    "value": 9.61165,
+    "printed": 9.6,
+    "diff": 0.01165
+   },
+   "tol_Unity": {
+    "value": 0.098544,
+    "printed": null,
+    "diff": null
+   },
+   "t_Insight": {
+    "value": 5.523256,
+    "printed": 5.5,
+    "diff": 0.023256
+   },
+   "tol_Insight": {
+    "value": 0.07907,
+    "printed": null,
+    "diff": null
+   },
+   "t_ImpairedCtrl": {
+    "value": -0.786517,
+    "printed": -0.7,
+    "diff": -0.086517
+   },
+   "tol_ImpairedCtrl": {
+    "value": 0.10618,
+    "printed": null,
+    "diff": null
+   },
+   "t_Spiritual": {
+    "value": 2.088608,
+    "printed": 2.1,
+    "diff": -0.011392
+   },
+   "tol_Spiritual": {
+    "value": 0.057911,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P106 Table 2 (5D-ASC and 11-ASC): every printed t equals slope/SE within rounding (0.0005/SE + 0.05)",
+   "observed": {
+    "items": {
+     "t_AuditoryAlt": {
+      "value": 7.096774,
+      "printed": 7.1,
+      "diff": -0.003226
+     },
+     "tol_AuditoryAlt": {
+      "value": 0.130645,
+      "printed": null,
+      "diff": null
+     },
+     "t_OceanicB": {
+      "value": 3.273196,
+      "printed": 3.3,
+      "diff": -0.026804
+     },
+     "tol_OceanicB": {
+      "value": 0.062887,
+      "printed": null,
+      "diff": null
+     },
+     "t_DreadEgo": {
+      "value": 9.892473,
+      "printed": 9.8,
+      "diff": 0.092473
+     },
+     "tol_DreadEgo": {
+      "value": 0.103763,
+      "printed": null,
+      "diff": null
+     },
+     "t_VigilanceRed": {
+      "value": 3.888889,
+      "printed": 3.9,
+      "diff": -0.011111
+     },
+     "tol_VigilanceRed": {
+      "value": 0.069841,
+      "printed": null,
+      "diff": null
+     },
+     "t_VisionaryR": {
+      "value": 3.871795,
+      "printed": 3.9,
+      "diff": -0.028205
+     },
+     "tol_VisionaryR": {
+      "value": 0.062821,
+      "printed": null,
+      "diff": null
+     },
+     "t_Anxiety": {
+      "value": 1.428571,
+      "printed": 1.4,
+      "diff": 0.028571
+     },
+     "tol_Anxiety": {
+      "value": 0.074631,
+      "printed": null,
+      "diff": null
+     },
+     "t_AVSynesthesia": {
+      "value": 0.881503,
+      "printed": 0.9,
+      "diff": -0.018497
+     },
+     "tol_AVSynesthesia": {
+      "value": 0.057225,
+      "printed": null,
+      "diff": null
+     },
+     "t_Blissful": {
+      "value": 3.323864,
+      "printed": 3.3,
+      "diff": 0.023864
+     },
+     "tol_Blissful": {
+      "value": 0.064205,
+      "printed": null,
+      "diff": null
+     },
+     "t_ComplexImag": {
+      "value": 1.469849,
+      "printed": 1.5,
+      "diff": -0.030151
+     },
+     "tol_ComplexImag": {
+      "value": 0.056281,
+      "printed": null,
+      "diff": null
+     },
+     "t_ChangedMeaning": {
+      "value": -0.231481,
+      "printed": -0.2,
+      "diff": -0.031481
+     },
+     "tol_ChangedMeaning": {
+      "value": 0.061574,
+      "printed": null,
+      "diff": null
+     },
+     "t_Disembodiment": {
+      "value": 1.096563,
+      "printed": 1.1,
+      "diff": -0.003437
+     },
+     "tol_Disembodiment": {
+      "value": 0.058183,
+      "printed": null,
+      "diff": null
+     },
+     "t_ElementaryImag": {
+      "value": 0.874016,
+      "printed": 0.9,
+      "diff": -0.025984
+     },
+     "tol_ElementaryImag": {
+      "value": 0.053937,
+      "printed": null,
+      "diff": null
+     },
+     "t_Unity": {
+      "value": 9.61165,
+      "printed": 9.6,
+      "diff": 0.01165
+     },
+     "tol_Unity": {
+      "value": 0.098544,
+      "printed": null,
+      "diff": null
+     },
+     "t_Insight": {
+      "value": 5.523256,
+      "printed": 5.5,
+      "diff": 0.023256
+     },
+     "tol_Insight": {
+      "value": 0.07907,
+      "printed": null,
+      "diff": null
+     },
+     "t_ImpairedCtrl": {
+      "value": -0.786517,
+      "printed": -0.7,
+      "diff": -0.086517
+     },
+     "tol_ImpairedCtrl": {
+      "value": 0.10618,
+      "printed": null,
+      "diff": null
+     },
+     "t_Spiritual": {
+      "value": 2.088608,
+      "printed": 2.1,
+      "diff": -0.011392
+     },
+     "tol_Spiritual": {
+      "value": 0.057911,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "t_AuditoryAlt": {
+      "value": 7.096774,
+      "printed": 7.1,
+      "diff": -0.003226
+     },
+     "tol_AuditoryAlt": {
+      "value": 0.130645,
+      "printed": null,
+      "diff": null
+     },
+     "t_OceanicB": {
+      "value": 3.273196,
+      "printed": 3.3,
+      "diff": -0.026804
+     },
+     "tol_OceanicB": {
+      "value": 0.062887,
+      "printed": null,
+      "diff": null
+     },
+     "t_DreadEgo": {
+      "value": 9.892473,
+      "printed": 9.8,
+      "diff": 0.092473
+     },
+     "tol_DreadEgo": {
+      "value": 0.103763,
+      "printed": null,
+      "diff": null
+     },
+     "t_VigilanceRed": {
+      "value": 3.888889,
+      "printed": 3.9,
+      "diff": -0.011111
+     },
+     "tol_VigilanceRed": {
+      "value": 0.069841,
+      "printed": null,
+      "diff": null
+     },
+     "t_VisionaryR": {
+      "value": 3.871795,
+      "printed": 3.9,
+      "diff": -0.028205
+     },
+     "tol_VisionaryR": {
+      "value": 0.062821,
+      "printed": null,
+      "diff": null
+     },
+     "t_Anxiety": {
+      "value": 1.428571,
+      "printed": 1.4,
+      "diff": 0.028571
+     },
+     "tol_Anxiety": {
+      "value": 0.074631,
+      "printed": null,
+      "diff": null
+     },
+     "t_AVSynesthesia": {
+      "value": 0.881503,
+      "printed": 0.9,
+      "diff": -0.018497
+     },
+     "tol_AVSynesthesia": {
+      "value": 0.057225,
+      "printed": null,
+      "diff": null
+     },
+     "t_Blissful": {
+      "value": 3.323864,
+      "printed": 3.3,
+      "diff": 0.023864
+     },
+     "tol_Blissful": {
+      "value": 0.064205,
+      "printed": null,
+      "diff": null
+     },
+     "t_ComplexImag": {
+      "value": 1.469849,
+      "printed": 1.5,
+      "diff": -0.030151
+     },
+     "tol_ComplexImag": {
+      "value": 0.056281,
+      "printed": null,
+      "diff": null
+     },
+     "t_ChangedMeaning": {
+      "value": -0.231481,
+      "printed": -0.2,
+      "diff": -0.031481
+     },
+     "tol_ChangedMeaning": {
+      "value": 0.061574,
+      "printed": null,
+      "diff": null
+     },
+     "t_Disembodiment": {
+      "value": 1.096563,
+      "printed": 1.1,
+      "diff": -0.003437
+     },
+     "tol_Disembodiment": {
+      "value": 0.058183,
+      "printed": null,
+      "diff": null
+     },
+     "t_ElementaryImag": {
+      "value": 0.874016,
+      "printed": 0.9,
+      "diff": -0.025984
+     },
+     "tol_ElementaryImag": {
+      "value": 0.053937,
+      "printed": null,
+      "diff": null
+     },
+     "t_Unity": {
+      "value": 9.61165,
+      "printed": 9.6,
+      "diff": 0.01165
+     },
+     "tol_Unity": {
+      "value": 0.098544,
+      "printed": null,
+      "diff": null
+     },
+     "t_Insight": {
+      "value": 5.523256,
+      "printed": 5.5,
+      "diff": 0.023256
+     },
+     "tol_Insight": {
+      "value": 0.07907,
+      "printed": null,
+      "diff": null
+     },
+     "t_ImpairedCtrl": {
+      "value": -0.786517,
+      "printed": -0.7,
+      "diff": -0.086517
+     },
+     "tol_ImpairedCtrl": {
+      "value": 0.10618,
+      "printed": null,
+      "diff": null
+     },
+     "t_Spiritual": {
+      "value": 2.088608,
+      "printed": 2.1,
+      "diff": -0.011392
+     },
+     "tol_Spiritual": {
+      "value": 0.057911,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
