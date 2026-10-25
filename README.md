@@ -61,7 +61,7 @@ The-GAIA-Foundation is the **primary source** for GAIA. The-Official-GAIA-Encycl
 | [The-GAIA-Human-Knowledge](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Knowledge) | Human Subjects of Knowledge (H-K) |
 | [The-GAIA-Human-Capabilities](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Capabilities) | Human Capabilities (H-C) |
 | [The-GAIA-Human-Skills](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Skills) | Human Skills (H-S) |
-| [The-GAIA-Human-Powers.](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Powers.) | Human Powers (H-P) |
+| [The-GAIA-Human-Powers](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Powers) | Human Powers (H-P) |
 | [The-GAIA-Intelligence-Knowledge](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Knowledge) | Intelligence Subjects of Knowledge (I-K) |
 | [The-GAIA-Intelligence-Capabilities](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Capabilities) | Intelligence Capabilities (I-C) |
 | [The-GAIA-Intelligence-Skills](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Skills) | Intelligence Skills (I-S) |
