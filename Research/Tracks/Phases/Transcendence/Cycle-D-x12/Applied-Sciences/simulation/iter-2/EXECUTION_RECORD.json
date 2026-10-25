@@ -1,0 +1,133 @@
+{
+ "sim_id": "SIM-TR-APP-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:19.023560+00:00",
+ "finished_utc": "2026-10-25T01:30:19.448478+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "9a238fd0ee234c023156dfaa66f69ec54f5367d42b55740a15e2037ad5a7accb",
+ "params_sha256": "45cea48927cec877bb18c08e4e8a98a80d0333e57a92896fcc69fbfbed8d539a",
+ "results_sha256": "1d668bdb495780cfe23031664b786a5c56041a10deafd6ce47dbe71a2447dc46",
+ "results": {
+  "items": {
+   "coc_wb_edi": {
+    "value": 0.045654,
+    "printed": 0.045,
+    "diff": 0.000654
+   },
+   "alc_wb_edi": {
+    "value": 0.090169,
+    "printed": 0.091,
+    "diff": -0.000831
+   },
+   "coc_wb_inf": {
+    "value": 0.110046,
+    "printed": 0.107,
+    "diff": 0.003046
+   },
+   "alc_wb_inf": {
+    "value": 0.025454,
+    "printed": 0.024,
+    "diff": 0.001454
+   },
+   "psy_int_inf": {
+    "value": 0.001368,
+    "printed": 0.001,
+    "diff": 0.000368
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108: every printed p for a well-being or intensity correlation is within 0.01 of the t-approximation p",
+   "observed": {
+    "items": {
+     "coc_wb_edi": {
+      "value": 0.045654,
+      "printed": 0.045,
+      "diff": 0.000654
+     },
+     "alc_wb_edi": {
+      "value": 0.090169,
+      "printed": 0.091,
+      "diff": -0.000831
+     },
+     "coc_wb_inf": {
+      "value": 0.110046,
+      "printed": 0.107,
+      "diff": 0.003046
+     },
+     "alc_wb_inf": {
+      "value": 0.025454,
+      "printed": 0.024,
+      "diff": 0.001454
+     },
+     "psy_int_inf": {
+      "value": 0.001368,
+      "printed": 0.001,
+      "diff": 0.000368
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "coc_wb_edi": {
+      "value": 0.045654,
+      "printed": 0.045,
+      "diff": 0.000654
+     },
+     "alc_wb_edi": {
+      "value": 0.090169,
+      "printed": 0.091,
+      "diff": -0.000831
+     },
+     "coc_wb_inf": {
+      "value": 0.110046,
+      "printed": 0.107,
+      "diff": 0.003046
+     },
+     "alc_wb_inf": {
+      "value": 0.025454,
+      "printed": 0.024,
+      "diff": 0.001454
+     },
+     "psy_int_inf": {
+      "value": 0.001368,
+      "printed": 0.001,
+      "diff": 0.000368
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
