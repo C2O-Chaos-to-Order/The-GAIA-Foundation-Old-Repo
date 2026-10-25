@@ -488,6 +488,16 @@ def render(cycle_dir, it):
         L.append(f"| {k} | {len(v)} | {', '.join(v)} |")
     L.append(f"\n### Vocabulary census ({rec['metrics']['listing_files']} listed files)\n\n| Key | Files |\n|---|---|")
     L += [f"| {k} | {v} |" for k, v in m["vocab"].items()]
+    if "tablet_governing_stages" in m:
+        L.append("\n### x3 tablet census\n\n| Governing stage (header) | Tablets |\n|---|---|")
+        L += [f"| {k or '(none stated)'} | {v} |" for k, v in m["tablet_governing_stages"].items()]
+        L.append("\n| Stated stage sequence (as extracted) | Tablets |\n|---|---|")
+        L += [f"| {k} | {', '.join(v)} |" for k, v in m["stage_sequences"].items()]
+        L.append("\n| Count claim | Files |\n|---|---|")
+        L += [f"| {k} | {', '.join(v)} |" for k, v in m["tablet_count_claims"].items()]
+        L.append(f"\nUnresolved 'Baseline preserved' references: {len(m['dangling_baseline_refs'])}. Tablets ending 'proceed to Phase 2': {m['tablets_awaiting_phase2']}. Same-sense rows: {m['same_sense_rows']}, of which Established: {m['same_sense_rows_strict']}.")
+        if "strict_unmapped_terms" in m:
+            L.append(f"\nStrict rule: {len(m['strict_unmapped_terms'])} terms lose their only row: " + ", ".join(m["strict_unmapped_terms"]) + ".")
     L.append(f"\nFoundation ladder difference (README §2 vs Work Queue §C): {', '.join(m['foundation_ladder_symdiff']) or 'none'}.")
     return "\n".join(L) + "\n"
 
