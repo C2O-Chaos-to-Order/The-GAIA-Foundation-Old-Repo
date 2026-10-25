@@ -1,0 +1,99 @@
+{
+ "duplicate_registrations": [
+  [
+   "P51",
+   "P59"
+  ],
+  [
+   "P84",
+   "P105"
+  ]
+ ],
+ "distinct_registered": 102,
+ "distinct_works": 100,
+ "links_total": 84,
+ "links_labelled_above_weakest_basis_claim": [
+  {
+   "link": "PL-06",
+   "label": "Established",
+   "basis": [
+    "DVA-NAT-07 Plausible",
+    "DVA-PHI-10 Plausible"
+   ]
+  },
+  {
+   "link": "PL-11",
+   "label": "Established",
+   "basis": [
+    "DVB-APP-11 Plausible",
+    "DVB-FOR-12 Plausible"
+   ]
+  },
+  {
+   "link": "PL-42",
+   "label": "Plausible",
+   "basis": [
+    "ALC-FOR-08 Established",
+    "ALC-HUM-09 Hypothetical"
+   ]
+  },
+  {
+   "link": "PL-51",
+   "label": "Established",
+   "basis": [
+    "CVA-NAT-03 Plausible",
+    "CVA-NAT-04 Established",
+    "CVA-FOR-03 Established"
+   ]
+  },
+  {
+   "link": "PL-54",
+   "label": "Established",
+   "basis": [
+    "CVB-FOR-08 Established",
+    "CVB-FOR-06 Established",
+    "CVA-NAT-03 Plausible"
+   ]
+  },
+  {
+   "link": "PL-61",
+   "label": "Established",
+   "basis": [
+    "AS0-NAT-01 Plausible",
+    "AS0-FOR-01 Established"
+   ]
+  },
+  {
+   "link": "PL-73",
+   "label": "Established",
+   "basis": [
+    "TR0-NAT-02 Plausible",
+    "TR0-FOR-02 Established"
+   ]
+  }
+ ],
+ "x12_sources_per_field": {
+  "NAT": 18,
+  "HUM": 16,
+  "FOR": 14,
+  "APP": 18,
+  "SOC": 18,
+  "PHI": 22
+ },
+ "x12_encyclopedia_or_tertiary_per_field": {
+  "FOR": 2,
+  "PHI": 10,
+  "NAT": 1,
+  "APP": 1,
+  "HUM": 1
+ },
+ "registered_not_cited_in_any_x12_ledger": [],
+ "missing_ids_in_P01_P108": [
+  "P20",
+  "P33",
+  "P34",
+  "P42",
+  "P77",
+  "P80"
+ ]
+}
