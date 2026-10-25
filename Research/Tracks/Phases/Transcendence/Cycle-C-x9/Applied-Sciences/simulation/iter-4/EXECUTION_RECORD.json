@@ -1,0 +1,658 @@
+{
+ "sim_id": "SIM-TR-APP-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:54.782595+00:00",
+ "finished_utc": "2026-10-25T01:20:55.216139+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-4  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "9ade992786354326bc62e9830e597d166e6006e607cf42bd5ae77e326e3db38f",
+ "params_sha256": "4da6aedb489ba173ebdd62c02ad9fa6dfc6eb7caf61faa545d9686352d0a232e",
+ "results_sha256": "9d592a91f765e979dba865d17e5bd24c8e0effda7029aca5f95c86fef8472146",
+ "results": {
+  "items": {
+   "tcritimp_AuditoryAlt": {
+    "value": 6.048387,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_AuditoryAlt": {
+    "value": 6.016663,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_OceanicB": {
+    "value": 3.14433,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_OceanicB": {
+    "value": 3.125151,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_DreadEgo": {
+    "value": 3.225806,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_DreadEgo": {
+    "value": 3.182446,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_VigilanceRed": {
+    "value": 4.484127,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_VigilanceRed": {
+    "value": 4.527118,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_VisionaryR": {
+    "value": 3.038462,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_VisionaryR": {
+    "value": 3.024874,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Anxiety": {
+    "value": 7.389163,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Anxiety": {
+    "value": 7.500529,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_AVSynesthesia": {
+    "value": 7.369942,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_AVSynesthesia": {
+    "value": 7.500529,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Blissful": {
+    "value": 5.894886,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Blissful": {
+    "value": 6.016663,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_ComplexImag": {
+    "value": 7.493719,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_ComplexImag": {
+    "value": 7.500529,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_ChangedMeaning": {
+    "value": 7.916667,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_ChangedMeaning": {
+    "value": 7.500529,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Disembodiment": {
+    "value": 7.667758,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Disembodiment": {
+    "value": 7.500529,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_ElementaryImag": {
+    "value": 7.728346,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_ElementaryImag": {
+    "value": 7.500529,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Unity": {
+    "value": 5.92233,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Unity": {
+    "value": 6.016663,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Insight": {
+    "value": 5.901163,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Insight": {
+    "value": 6.016663,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_ImpairedCtrl": {
+    "value": 9.157303,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_ImpairedCtrl": {
+    "value": 8.648827,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Spiritual": {
+    "value": 5.632911,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Spiritual": {
+    "value": 5.517245,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Ineffability": {
+    "value": 3.82716,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Ineffability": {
+    "value": 3.807163,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_Mystical": {
+    "value": 3.863636,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_Mystical": {
+    "value": 3.807163,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_PositiveMood": {
+    "value": 3.849372,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_PositiveMood": {
+    "value": 3.807163,
+    "printed": null,
+    "diff": null
+   },
+   "tcritimp_TranscTimeSpace": {
+    "value": 3.810573,
+    "printed": null,
+    "diff": null
+   },
+   "tcrit_TranscTimeSpace": {
+    "value": 3.807163,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P106 Table 2: every 95% CI half-width / SE is within 10% of the t critical value at the printed df",
+   "observed": {
+    "items": {
+     "tcritimp_AuditoryAlt": {
+      "value": 6.048387,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_AuditoryAlt": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_OceanicB": {
+      "value": 3.14433,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_OceanicB": {
+      "value": 3.125151,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_DreadEgo": {
+      "value": 3.225806,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_DreadEgo": {
+      "value": 3.182446,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_VigilanceRed": {
+      "value": 4.484127,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_VigilanceRed": {
+      "value": 4.527118,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_VisionaryR": {
+      "value": 3.038462,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_VisionaryR": {
+      "value": 3.024874,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Anxiety": {
+      "value": 7.389163,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Anxiety": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_AVSynesthesia": {
+      "value": 7.369942,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_AVSynesthesia": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Blissful": {
+      "value": 5.894886,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Blissful": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ComplexImag": {
+      "value": 7.493719,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ComplexImag": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ChangedMeaning": {
+      "value": 7.916667,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ChangedMeaning": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Disembodiment": {
+      "value": 7.667758,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Disembodiment": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ElementaryImag": {
+      "value": 7.728346,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ElementaryImag": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Unity": {
+      "value": 5.92233,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Unity": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Insight": {
+      "value": 5.901163,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Insight": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ImpairedCtrl": {
+      "value": 9.157303,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ImpairedCtrl": {
+      "value": 8.648827,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Spiritual": {
+      "value": 5.632911,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Spiritual": {
+      "value": 5.517245,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Ineffability": {
+      "value": 3.82716,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Ineffability": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Mystical": {
+      "value": 3.863636,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Mystical": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_PositiveMood": {
+      "value": 3.849372,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_PositiveMood": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_TranscTimeSpace": {
+      "value": 3.810573,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_TranscTimeSpace": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "tcritimp_AuditoryAlt": {
+      "value": 6.048387,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_AuditoryAlt": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_OceanicB": {
+      "value": 3.14433,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_OceanicB": {
+      "value": 3.125151,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_DreadEgo": {
+      "value": 3.225806,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_DreadEgo": {
+      "value": 3.182446,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_VigilanceRed": {
+      "value": 4.484127,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_VigilanceRed": {
+      "value": 4.527118,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_VisionaryR": {
+      "value": 3.038462,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_VisionaryR": {
+      "value": 3.024874,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Anxiety": {
+      "value": 7.389163,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Anxiety": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_AVSynesthesia": {
+      "value": 7.369942,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_AVSynesthesia": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Blissful": {
+      "value": 5.894886,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Blissful": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ComplexImag": {
+      "value": 7.493719,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ComplexImag": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ChangedMeaning": {
+      "value": 7.916667,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ChangedMeaning": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Disembodiment": {
+      "value": 7.667758,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Disembodiment": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ElementaryImag": {
+      "value": 7.728346,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ElementaryImag": {
+      "value": 7.500529,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Unity": {
+      "value": 5.92233,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Unity": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Insight": {
+      "value": 5.901163,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Insight": {
+      "value": 6.016663,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_ImpairedCtrl": {
+      "value": 9.157303,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_ImpairedCtrl": {
+      "value": 8.648827,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Spiritual": {
+      "value": 5.632911,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Spiritual": {
+      "value": 5.517245,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Ineffability": {
+      "value": 3.82716,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Ineffability": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_Mystical": {
+      "value": 3.863636,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_Mystical": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_PositiveMood": {
+      "value": 3.849372,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_PositiveMood": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     },
+     "tcritimp_TranscTimeSpace": {
+      "value": 3.810573,
+      "printed": null,
+      "diff": null
+     },
+     "tcrit_TranscTimeSpace": {
+      "value": 3.807163,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

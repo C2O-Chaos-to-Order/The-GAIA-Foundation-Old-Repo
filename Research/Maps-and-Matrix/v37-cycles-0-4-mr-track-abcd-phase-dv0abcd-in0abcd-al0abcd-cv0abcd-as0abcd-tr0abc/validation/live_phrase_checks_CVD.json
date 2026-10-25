@@ -1,0 +1,387 @@
+{
+ "cycle": "CVD",
+ "checked_utc": "2026-10-24T22:34:25+00:00",
+ "summary": {
+  "Pass": 54
+ },
+ "checks": [
+  {
+   "claim_id": "CVD-NAT-01",
+   "source_id": "P68",
+   "phrase": "Linear stability analysis reveals that this solution is stable when",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-01",
+   "source_id": "P68",
+   "phrase": "the proportion of cooperators and cheaters at equilibrium is always 50",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-01",
+   "source_id": "P68",
+   "phrase": "we recover the classical Kuramoto model",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-03",
+   "source_id": "P74",
+   "phrase": "Given two vectors of n loci, the expected proportion of overlap due to random chance is simply the product of the proportions of ones in each vector",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-03",
+   "source_id": "P74",
+   "phrase": "lineages sharing repeatedly evolved phenotypes (eyes, medusa loss, and upright colonies) do not exhibit elevated molecular convergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-03",
+   "source_id": "P74",
+   "phrase": "n = 3 , 570 species pairs",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-07",
+   "source_id": "P76",
+   "phrase": "Chaos first occurs when N=4",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-07",
+   "source_id": "P76",
+   "phrase": "the two oscillators lock in phase",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-07",
+   "source_id": "P76",
+   "phrase": "that the oscillators are identical or nearly identical",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-NAT-07",
+   "source_id": "P76",
+   "phrase": "When N is small, the solutions given above breaks down",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-FOR-01",
+   "source_id": "P73",
+   "phrase": "A Markov chain is said to be a regular Markov chain if some power of its transition matrix T has only positive entries",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-FOR-01",
+   "source_id": "P73",
+   "phrase": "we need only examine powers T m up to",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-FOR-01",
+   "source_id": "P73",
+   "phrase": "condition for having an equilibrium, but is not a necessary condition",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-FOR-06",
+   "source_id": "P78",
+   "phrase": "can only change the mixing time up to a constant factor",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-FOR-06",
+   "source_id": "P78",
+   "phrase": "the number of riffle shuffles needed grows as",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-FOR-06",
+   "source_id": "P78",
+   "phrase": "the number of riffle shuffles needed to mix an ordinary 52 card deck is 7",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-SOC-01",
+   "source_id": "P69",
+   "phrase": "this relationship is reversed when the initial-estimate distribution is characterized by low dispersion and underestimation bias",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-SOC-01",
+   "source_id": "P69",
+   "phrase": "is substantially explained by R (z-statistic = 4.16",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-SOC-10",
+   "source_id": "P69",
+   "phrase": "The analysis was conducted on 678 observations (groups with social influence)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-SOC-10",
+   "source_id": "P69",
+   "phrase": "582 groups with social influence (centralized) and 105 groups without social influence (decentralized)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-SOC-10",
+   "source_id": "P69",
+   "phrase": "687 collective estimations",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-APP-01",
+   "source_id": "P70",
+   "phrase": "40-62% reduction in function evaluations compared to adaptive Simpson method",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-APP-01",
+   "source_id": "P70",
+   "phrase": "AHQS achieves 20 − 35 % reduction in evaluations compared to Gauss-Kronrod",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-APP-04",
+   "source_id": "P79",
+   "phrase": "which has absolute error of 0.031546",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-APP-04",
+   "source_id": "P79",
+   "phrase": "the trapezoidal rule overestimates the true value",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-APP-04",
+   "source_id": "P79",
+   "phrase": "intervals are required to guarantee an accuracy of",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-APP-04",
+   "source_id": "P79",
+   "phrase": "The trapezoidal rule converges rapidly for periodic functions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-01",
+   "source_id": "P71",
+   "phrase": "Selected final model: M4",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-01",
+   "source_id": "P71",
+   "phrase": "This significantly improved the fit, χ 2 (1) = 6.82, p = 0.0090",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-06",
+   "source_id": "P82",
+   "phrase": "Of the 21 features that are analysed, 14 lost dialect distinctions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-06",
+   "source_id": "P82",
+   "phrase": "the wider the distribution of the dialectal feature, the less likely that it will level with the standard language",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-06",
+   "source_id": "P82",
+   "phrase": "levelling out of demographic minority dialect forms",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-06",
+   "source_id": "P82",
+   "phrase": "Australians were only 7% of the immigrants before 1881",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-HUM-06",
+   "source_id": "P82",
+   "phrase": "taking approximately 30 years",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-01",
+   "source_id": "P72",
+   "phrase": "The opinion which is fated to be ultimately agreed to by all who investigate, is what we mean by the truth",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-01",
+   "source_id": "P72",
+   "phrase": "what Peirce called buried secrets",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-03",
+   "source_id": "P75",
+   "phrase": "results will move steadily together toward a destined centre",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-03",
+   "source_id": "P75",
+   "phrase": "so completely has the idea of loyalty replaced that of truth-seeking",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-03",
+   "source_id": "P75",
+   "phrase": "to the lost books of the ancients, to the buried secrets",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-06",
+   "source_id": "P81",
+   "phrase": "share a single metaphysical truth or origin",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-06",
+   "source_id": "P81",
+   "phrase": "one principle of all things, of which there has always been one and the same knowledge among all peoples",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-06",
+   "source_id": "P81",
+   "phrase": "developed independent of contact between the cultures concerned",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-06",
+   "source_id": "P81",
+   "phrase": "overemphasizing similarities and downplaying differences between religions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-06",
+   "source_id": "P81",
+   "phrase": "no true Scotsman",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-09",
+   "source_id": "P83",
+   "phrase": "Results showed that 60% of participants experienced mystical states during chanting",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-09",
+   "source_id": "P83",
+   "phrase": "There was no significant association between mystical experience and tradition",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-09",
+   "source_id": "P83",
+   "phrase": "This is surprising as Taketina is not associated with specific belief systems",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-09",
+   "source_id": "P83",
+   "phrase": "Data were analyzed from 464 participants across 33 countries",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-11",
+   "source_id": "P83",
+   "phrase": "degrees of freedom were adjusted from 462 to 327",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-11",
+   "source_id": "P83",
+   "phrase": "t (327) = 5.395",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-13",
+   "source_id": "P84",
+   "phrase": "4 out of 10 experimental subjects reached the 60",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-13",
+   "source_id": "P84",
+   "phrase": "whereas no placebo subjects reached this level",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-13",
+   "source_id": "P84",
+   "phrase": "import his colonial, perennialist assumptions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVD-PHI-13",
+   "source_id": "P84",
+   "phrase": "revealed significant differences in interpretations of items across cultures",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

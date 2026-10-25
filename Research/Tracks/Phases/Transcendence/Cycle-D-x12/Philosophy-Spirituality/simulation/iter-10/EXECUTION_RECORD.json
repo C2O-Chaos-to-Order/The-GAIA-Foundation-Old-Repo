@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-TR-PHI-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:31.379804+00:00",
+ "finished_utc": "2026-10-25T01:30:31.648434+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-10  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "9495f36b6b5136e030ce0d198ef97529cd899eee89d8057ab9391ba5396b30ab",
+ "params_sha256": "320d0f53a80fc4c5b5a5f2255b2be72554ce502ba00e8d983679c6eb810807c3",
+ "results_sha256": "93ddfdfc0dff0300a129c2442a95be3669529c76e523a85839360ddaa747ab69",
+ "results": {
+  "scenarios": {
+   "constructivist_heritage": {
+    "0.0": 0.3977,
+    "0.4": 0.354,
+    "0.8": 0.289
+   }
+  },
+  "V1_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1, no noise, no scheme, no overlay: cross-tradition report correlation = 1 within 1e-9",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "20 traditions, heritage 0.5: agreement > 0.15",
+   "observed": {
+    "scenarios": {
+     "constructivist_heritage": {
+      "0.0": 0.3977,
+      "0.4": 0.354,
+      "0.8": 0.289
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "scenarios": {
+     "constructivist_heritage": {
+      "0.0": 0.3977,
+      "0.4": 0.354,
+      "0.8": 0.289
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

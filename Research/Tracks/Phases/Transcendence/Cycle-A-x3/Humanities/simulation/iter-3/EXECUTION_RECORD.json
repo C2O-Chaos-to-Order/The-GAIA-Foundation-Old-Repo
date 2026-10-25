@@ -1,0 +1,264 @@
+{
+ "sim_id": "SIM-TR-HUM-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:11.378598+00:00",
+ "finished_utc": "2026-10-25T00:52:11.593609+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "5527ea5fdc2e374935942b404114f868afe98150e64417d5b18238701864cc6c",
+ "params_sha256": "156823fe2c9863bd15ef2ab50dc34a06062657838d291bfe7a7fc2ca91f65a40",
+ "results_sha256": "e11548dc5637794eddae903274adcad37cd785a86d37e667b5eb4cc4de6e9447",
+ "results": {
+  "items": {
+   "SelfTranscendence": {
+    "0.707": {
+     "BF01": 3e-08,
+     "ratio_to_printed": null
+    }
+   },
+   "SpiritualWB": {
+    "0.707": {
+     "BF01": 1.2e-07,
+     "ratio_to_printed": null
+    }
+   },
+   "ReligiousSWB": {
+    "0.707": {
+     "BF01": 1.30123688,
+     "ratio_to_printed": null
+    }
+   },
+   "ExistentialSWB": {
+    "0.707": {
+     "BF01": 7.21e-06,
+     "ratio_to_printed": null
+    }
+   },
+   "Depression": {
+    "0.707": {
+     "BF01": 7.6e-07,
+     "ratio_to_printed": null
+    }
+   },
+   "LifeSatisfaction": {
+    "0.707": {
+     "BF01": 1.44572354,
+     "ratio_to_printed": null
+    }
+   },
+   "PositiveAffect": {
+    "0.707": {
+     "BF01": 0.02110125,
+     "ratio_to_printed": null
+    }
+   },
+   "NegativeAffect": {
+    "0.707": {
+     "BF01": 3.688e-05,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P103 (n 34): self-transcendence change t 8.78 gives BF01 < 1/100",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 3e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.707": {
+       "BF01": 1.2e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.707": {
+       "BF01": 1.30123688,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.707": {
+       "BF01": 7.21e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.707": {
+       "BF01": 7.6e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.707": {
+       "BF01": 1.44572354,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.707": {
+       "BF01": 0.02110125,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.707": {
+       "BF01": 3.688e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "P103: life satisfaction t 1.72 gives BF01 > 1/3 (not evidence for a change; printed p .470 one-tailed)",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 3e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.707": {
+       "BF01": 1.2e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.707": {
+       "BF01": 1.30123688,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.707": {
+       "BF01": 7.21e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.707": {
+       "BF01": 7.6e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.707": {
+       "BF01": 1.44572354,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.707": {
+       "BF01": 0.02110125,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.707": {
+       "BF01": 3.688e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 3e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.707": {
+       "BF01": 1.2e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.707": {
+       "BF01": 1.30123688,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.707": {
+       "BF01": 7.21e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.707": {
+       "BF01": 7.6e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.707": {
+       "BF01": 1.44572354,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.707": {
+       "BF01": 0.02110125,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.707": {
+       "BF01": 3.688e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

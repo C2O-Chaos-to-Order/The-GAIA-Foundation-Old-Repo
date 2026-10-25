@@ -1,0 +1,548 @@
+{
+ "sim_id": "SIM-TR-APP-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:14.369204+00:00",
+ "finished_utc": "2026-10-25T00:59:14.782405+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "0f9e8fdc1e694c5d8fd532dc4a94a950b5db78626f139658a120689844a41cf2",
+ "params_sha256": "6f74c11c4ce1f11711f9b2b9745894155a7005d12db7e7d99f45c9bab90658bc",
+ "results_sha256": "d0c9859f02f14199a3f99d81f47bde1cbe81d5b3a349f7752f8411490ee3c9a1",
+ "results": {
+  "items": {
+   "dz_SelfTranscendence": {
+    "value": 1.505758,
+    "printed": null,
+    "diff": null
+   },
+   "r_SelfTranscendence": {
+    "value": 0.880537,
+    "printed": null,
+    "diff": null
+   },
+   "sign_SelfTranscendence": {
+    "value": 49.607,
+    "printed": null,
+    "diff": null
+   },
+   "dz_SpiritualWB": {
+    "value": 1.423438,
+    "printed": null,
+    "diff": null
+   },
+   "r_SpiritualWB": {
+    "value": 0.765082,
+    "printed": null,
+    "diff": null
+   },
+   "sign_SpiritualWB": {
+    "value": 64.491,
+    "printed": null,
+    "diff": null
+   },
+   "dz_ReligiousSWB": {
+    "value": 0.306982,
+    "printed": null,
+    "diff": null
+   },
+   "r_ReligiousSWB": {
+    "value": 0.658304,
+    "printed": null,
+    "diff": null
+   },
+   "sign_ReligiousSWB": {
+    "value": 3.4726,
+    "printed": null,
+    "diff": null
+   },
+   "dz_ExistentialSWB": {
+    "value": 1.157615,
+    "printed": null,
+    "diff": null
+   },
+   "r_ExistentialSWB": {
+    "value": 0.696456,
+    "printed": null,
+    "diff": null
+   },
+   "sign_ExistentialSWB": {
+    "value": 33.9525,
+    "printed": null,
+    "diff": null
+   },
+   "dz_Depression": {
+    "value": -1.301674,
+    "printed": null,
+    "diff": null
+   },
+   "r_Depression": {
+    "value": 0.697291,
+    "printed": null,
+    "diff": null
+   },
+   "sign_Depression": {
+    "value": 13.1307,
+    "printed": null,
+    "diff": null
+   },
+   "dz_LifeSatisfaction": {
+    "value": 0.294978,
+    "printed": null,
+    "diff": null
+   },
+   "r_LifeSatisfaction": {
+    "value": 0.826537,
+    "printed": null,
+    "diff": null
+   },
+   "sign_LifeSatisfaction": {
+    "value": 1.4276,
+    "printed": null,
+    "diff": null
+   },
+   "dz_PositiveAffect": {
+    "value": 0.64655,
+    "printed": null,
+    "diff": null
+   },
+   "r_PositiveAffect": {
+    "value": 0.94356,
+    "printed": null,
+    "diff": null
+   },
+   "sign_PositiveAffect": {
+    "value": 5.9943,
+    "printed": null,
+    "diff": null
+   },
+   "dz_NegativeAffect": {
+    "value": -1.054716,
+    "printed": null,
+    "diff": null
+   },
+   "r_NegativeAffect": {
+    "value": 0.696827,
+    "printed": null,
+    "diff": null
+   },
+   "sign_NegativeAffect": {
+    "value": 23.6775,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P103: printed means, SDs and t imply pre-post correlations within [-1, 1] for all eight outcomes",
+   "observed": {
+    "items": {
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "r_SelfTranscendence": {
+      "value": 0.880537,
+      "printed": null,
+      "diff": null
+     },
+     "sign_SelfTranscendence": {
+      "value": 49.607,
+      "printed": null,
+      "diff": null
+     },
+     "dz_SpiritualWB": {
+      "value": 1.423438,
+      "printed": null,
+      "diff": null
+     },
+     "r_SpiritualWB": {
+      "value": 0.765082,
+      "printed": null,
+      "diff": null
+     },
+     "sign_SpiritualWB": {
+      "value": 64.491,
+      "printed": null,
+      "diff": null
+     },
+     "dz_ReligiousSWB": {
+      "value": 0.306982,
+      "printed": null,
+      "diff": null
+     },
+     "r_ReligiousSWB": {
+      "value": 0.658304,
+      "printed": null,
+      "diff": null
+     },
+     "sign_ReligiousSWB": {
+      "value": 3.4726,
+      "printed": null,
+      "diff": null
+     },
+     "dz_ExistentialSWB": {
+      "value": 1.157615,
+      "printed": null,
+      "diff": null
+     },
+     "r_ExistentialSWB": {
+      "value": 0.696456,
+      "printed": null,
+      "diff": null
+     },
+     "sign_ExistentialSWB": {
+      "value": 33.9525,
+      "printed": null,
+      "diff": null
+     },
+     "dz_Depression": {
+      "value": -1.301674,
+      "printed": null,
+      "diff": null
+     },
+     "r_Depression": {
+      "value": 0.697291,
+      "printed": null,
+      "diff": null
+     },
+     "sign_Depression": {
+      "value": 13.1307,
+      "printed": null,
+      "diff": null
+     },
+     "dz_LifeSatisfaction": {
+      "value": 0.294978,
+      "printed": null,
+      "diff": null
+     },
+     "r_LifeSatisfaction": {
+      "value": 0.826537,
+      "printed": null,
+      "diff": null
+     },
+     "sign_LifeSatisfaction": {
+      "value": 1.4276,
+      "printed": null,
+      "diff": null
+     },
+     "dz_PositiveAffect": {
+      "value": 0.64655,
+      "printed": null,
+      "diff": null
+     },
+     "r_PositiveAffect": {
+      "value": 0.94356,
+      "printed": null,
+      "diff": null
+     },
+     "sign_PositiveAffect": {
+      "value": 5.9943,
+      "printed": null,
+      "diff": null
+     },
+     "dz_NegativeAffect": {
+      "value": -1.054716,
+      "printed": null,
+      "diff": null
+     },
+     "r_NegativeAffect": {
+      "value": 0.696827,
+      "printed": null,
+      "diff": null
+     },
+     "sign_NegativeAffect": {
+      "value": 23.6775,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "t has the sign of (post - pre) for all eight",
+   "observed": {
+    "items": {
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "r_SelfTranscendence": {
+      "value": 0.880537,
+      "printed": null,
+      "diff": null
+     },
+     "sign_SelfTranscendence": {
+      "value": 49.607,
+      "printed": null,
+      "diff": null
+     },
+     "dz_SpiritualWB": {
+      "value": 1.423438,
+      "printed": null,
+      "diff": null
+     },
+     "r_SpiritualWB": {
+      "value": 0.765082,
+      "printed": null,
+      "diff": null
+     },
+     "sign_SpiritualWB": {
+      "value": 64.491,
+      "printed": null,
+      "diff": null
+     },
+     "dz_ReligiousSWB": {
+      "value": 0.306982,
+      "printed": null,
+      "diff": null
+     },
+     "r_ReligiousSWB": {
+      "value": 0.658304,
+      "printed": null,
+      "diff": null
+     },
+     "sign_ReligiousSWB": {
+      "value": 3.4726,
+      "printed": null,
+      "diff": null
+     },
+     "dz_ExistentialSWB": {
+      "value": 1.157615,
+      "printed": null,
+      "diff": null
+     },
+     "r_ExistentialSWB": {
+      "value": 0.696456,
+      "printed": null,
+      "diff": null
+     },
+     "sign_ExistentialSWB": {
+      "value": 33.9525,
+      "printed": null,
+      "diff": null
+     },
+     "dz_Depression": {
+      "value": -1.301674,
+      "printed": null,
+      "diff": null
+     },
+     "r_Depression": {
+      "value": 0.697291,
+      "printed": null,
+      "diff": null
+     },
+     "sign_Depression": {
+      "value": 13.1307,
+      "printed": null,
+      "diff": null
+     },
+     "dz_LifeSatisfaction": {
+      "value": 0.294978,
+      "printed": null,
+      "diff": null
+     },
+     "r_LifeSatisfaction": {
+      "value": 0.826537,
+      "printed": null,
+      "diff": null
+     },
+     "sign_LifeSatisfaction": {
+      "value": 1.4276,
+      "printed": null,
+      "diff": null
+     },
+     "dz_PositiveAffect": {
+      "value": 0.64655,
+      "printed": null,
+      "diff": null
+     },
+     "r_PositiveAffect": {
+      "value": 0.94356,
+      "printed": null,
+      "diff": null
+     },
+     "sign_PositiveAffect": {
+      "value": 5.9943,
+      "printed": null,
+      "diff": null
+     },
+     "dz_NegativeAffect": {
+      "value": -1.054716,
+      "printed": null,
+      "diff": null
+     },
+     "r_NegativeAffect": {
+      "value": 0.696827,
+      "printed": null,
+      "diff": null
+     },
+     "sign_NegativeAffect": {
+      "value": 23.6775,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "r_SelfTranscendence": {
+      "value": 0.880537,
+      "printed": null,
+      "diff": null
+     },
+     "sign_SelfTranscendence": {
+      "value": 49.607,
+      "printed": null,
+      "diff": null
+     },
+     "dz_SpiritualWB": {
+      "value": 1.423438,
+      "printed": null,
+      "diff": null
+     },
+     "r_SpiritualWB": {
+      "value": 0.765082,
+      "printed": null,
+      "diff": null
+     },
+     "sign_SpiritualWB": {
+      "value": 64.491,
+      "printed": null,
+      "diff": null
+     },
+     "dz_ReligiousSWB": {
+      "value": 0.306982,
+      "printed": null,
+      "diff": null
+     },
+     "r_ReligiousSWB": {
+      "value": 0.658304,
+      "printed": null,
+      "diff": null
+     },
+     "sign_ReligiousSWB": {
+      "value": 3.4726,
+      "printed": null,
+      "diff": null
+     },
+     "dz_ExistentialSWB": {
+      "value": 1.157615,
+      "printed": null,
+      "diff": null
+     },
+     "r_ExistentialSWB": {
+      "value": 0.696456,
+      "printed": null,
+      "diff": null
+     },
+     "sign_ExistentialSWB": {
+      "value": 33.9525,
+      "printed": null,
+      "diff": null
+     },
+     "dz_Depression": {
+      "value": -1.301674,
+      "printed": null,
+      "diff": null
+     },
+     "r_Depression": {
+      "value": 0.697291,
+      "printed": null,
+      "diff": null
+     },
+     "sign_Depression": {
+      "value": 13.1307,
+      "printed": null,
+      "diff": null
+     },
+     "dz_LifeSatisfaction": {
+      "value": 0.294978,
+      "printed": null,
+      "diff": null
+     },
+     "r_LifeSatisfaction": {
+      "value": 0.826537,
+      "printed": null,
+      "diff": null
+     },
+     "sign_LifeSatisfaction": {
+      "value": 1.4276,
+      "printed": null,
+      "diff": null
+     },
+     "dz_PositiveAffect": {
+      "value": 0.64655,
+      "printed": null,
+      "diff": null
+     },
+     "r_PositiveAffect": {
+      "value": 0.94356,
+      "printed": null,
+      "diff": null
+     },
+     "sign_PositiveAffect": {
+      "value": 5.9943,
+      "printed": null,
+      "diff": null
+     },
+     "dz_NegativeAffect": {
+      "value": -1.054716,
+      "printed": null,
+      "diff": null
+     },
+     "r_NegativeAffect": {
+      "value": 0.696827,
+      "printed": null,
+      "diff": null
+     },
+     "sign_NegativeAffect": {
+      "value": 23.6775,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

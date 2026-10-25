@@ -1,0 +1,112 @@
+{
+ "sim_id": "SIM-TR-PHI-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:12.502418+00:00",
+ "finished_utc": "2026-10-25T00:52:12.640282+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-3  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "ed22862c8f27633e7f8e8f7502e48a52ceaff48255bc0d322bf2562a6646470c",
+ "params_sha256": "97c81ff139a554f9b54efecf7762eadad98e01f18ca9ae1711dd77b91fdc1051",
+ "results_sha256": "43b59e5a26f1fdd178f20c842f86331e812dc01cf1a1005611a1a20510331339",
+ "results": {
+  "scenarios": {
+   "constructivist_indep": {
+    "0.0": -0.0,
+    "0.4": 0.0016,
+    "0.8": 0.0007
+   },
+   "essentialist": {
+    "0.0": 0.0373,
+    "0.4": 0.0417,
+    "0.8": 0.0441
+   }
+  },
+  "V1_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1, no noise, no scheme, no overlay: cross-tradition report correlation = 1 within 1e-9",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "noise sigma 2: strong constructivism with independent schemes still gives |r| < 0.03",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": -0.0,
+      "0.4": 0.0016,
+      "0.8": 0.0007
+     },
+     "essentialist": {
+      "0.0": 0.0373,
+      "0.4": 0.0417,
+      "0.8": 0.0441
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "noise sigma 2: under essentialism correlation still rises with deautomatization (d 0 < 0.4 < 0.8)",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": -0.0,
+      "0.4": 0.0016,
+      "0.8": 0.0007
+     },
+     "essentialist": {
+      "0.0": 0.0373,
+      "0.4": 0.0417,
+      "0.8": 0.0441
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": -0.0,
+      "0.4": 0.0016,
+      "0.8": 0.0007
+     },
+     "essentialist": {
+      "0.0": 0.0373,
+      "0.4": 0.0417,
+      "0.8": 0.0441
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

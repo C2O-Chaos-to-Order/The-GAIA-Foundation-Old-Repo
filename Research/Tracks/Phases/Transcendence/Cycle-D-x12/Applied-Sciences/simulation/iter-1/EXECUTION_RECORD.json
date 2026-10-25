@@ -1,0 +1,118 @@
+{
+ "sim_id": "SIM-TR-APP-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:18.459149+00:00",
+ "finished_utc": "2026-10-25T01:30:18.882616+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "8b61c943478857530976394b3733557e5e555b144739b1c5ecb856ec8292e313",
+ "params_sha256": "5c62b7c5376361335251272dc795ffa40575d6283f56dd6c143c0339d1b325ca",
+ "results_sha256": "3d1d5bf23e7330d661f270a197a3223ad82d3a57b27bd87a21bccafb1ac71fb9",
+ "results": {
+  "items": {
+   "psy_dose_inf": {
+    "value": 0.041932,
+    "printed": 0.043,
+    "diff": -0.001068
+   },
+   "coc_dose_edi": {
+    "value": 0.025556,
+    "printed": 0.026,
+    "diff": -0.000444
+   },
+   "alc_dose_edi": {
+    "value": 0.269145,
+    "printed": 0.266,
+    "diff": 0.003145
+   },
+   "alc_dose_inf": {
+    "value": 0.277908,
+    "printed": 0.328,
+    "diff": -0.050092
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108: every printed p for a dose correlation is within 0.01 of the t-approximation p for Spearman's rho",
+   "observed": {
+    "items": {
+     "psy_dose_inf": {
+      "value": 0.041932,
+      "printed": 0.043,
+      "diff": -0.001068
+     },
+     "coc_dose_edi": {
+      "value": 0.025556,
+      "printed": 0.026,
+      "diff": -0.000444
+     },
+     "alc_dose_edi": {
+      "value": 0.269145,
+      "printed": 0.266,
+      "diff": 0.003145
+     },
+     "alc_dose_inf": {
+      "value": 0.277908,
+      "printed": 0.328,
+      "diff": -0.050092
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "psy_dose_inf": {
+      "value": 0.041932,
+      "printed": 0.043,
+      "diff": -0.001068
+     },
+     "coc_dose_edi": {
+      "value": 0.025556,
+      "printed": 0.026,
+      "diff": -0.000444
+     },
+     "alc_dose_edi": {
+      "value": 0.269145,
+      "printed": 0.266,
+      "diff": 0.003145
+     },
+     "alc_dose_inf": {
+      "value": 0.277908,
+      "printed": 0.328,
+      "diff": -0.050092
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

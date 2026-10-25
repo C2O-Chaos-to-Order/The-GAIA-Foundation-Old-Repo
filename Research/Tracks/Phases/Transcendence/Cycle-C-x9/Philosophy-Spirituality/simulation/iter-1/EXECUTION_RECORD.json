@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-TR-PHI-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:21:02.316379+00:00",
+ "finished_utc": "2026-10-25T01:21:02.394695+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "02a6de4107428f1017d3938c85d2d0e8533114b6f8580c070ca9247c6832a97f",
+ "params_sha256": "102a35e095dffde01335b0448e76aa0398125c374c7ab4b12f501465c96bf8f3",
+ "results_sha256": "6e81d2c088ade330307739e0c8abc808cb464634aa14f7c3233081355ec27844",
+ "results": {
+  "template_advantage": {
+   "a3": 2.3508,
+   "a7": 2.3575
+  },
+  "V1_pure_core_no_noise": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1 and no noise: every mystic has the same experience, so the template advantage is 0 within 1e-9",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "weaker template (a 0.3) gives a smaller template advantage than a 0.7 under constructivism",
+   "observed": {
+    "template_advantage": {
+     "a3": 2.3508,
+     "a7": 2.3575
+    },
+    "V1_pure_core_no_noise": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "template_advantage": {
+     "a3": 2.3508,
+     "a7": 2.3575
+    },
+    "V1_pure_core_no_noise": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

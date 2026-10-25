@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-TR-SOC-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:48.985833+00:00",
+ "finished_utc": "2026-10-25T01:20:49.428724+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-4  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "4ef75cebd364ec9b2fdf1c831aeb27afdc36b6fea66e87eeee59263f5cf8e347",
+ "params_sha256": "6b4f19fe6d039e3742ec0cda8cb3559e100054ef7bd55c51ea8e3d1376c09e0a",
+ "results_sha256": "8563b0ae3bbc504449598099ae516cc1cedd8f22fee807505691c178e3b66e62",
+ "results": {
+  "items": {
+   "max_logdev_US": {
+    "value": 0.015545,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P107 Table 4 (US): every OR is the geometric mean of its 95% CI within rounding (|ln OR - mean ln bounds| <= 0.05)",
+   "observed": {
+    "items": {
+     "max_logdev_US": {
+      "value": 0.015545,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "max_logdev_US": {
+      "value": 0.015545,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

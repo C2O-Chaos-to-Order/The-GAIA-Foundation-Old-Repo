@@ -1,0 +1,142 @@
+{
+ "sim_id": "SIM-TR-NAT-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:29:20.251684+00:00",
+ "finished_utc": "2026-10-25T01:29:20.255984+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-7  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "a18b3f5bd7ea561ef0c85549956b3d267339e83f655a8225d1f9e8ad6f357d1f",
+ "params_sha256": "7cd3326400d096830f6011f17343200714c05e413e09958cccb6a32eb130de8c",
+ "results_sha256": "a670147024828a5c963c90a3a5c23fa1bc5c4b9780cb3c25f06a98ed831e5161",
+ "results": {
+  "mode": "discrete",
+  "by_c": {
+   "0.1": {
+    "log_total": [
+     6.93147181,
+     6.93048532,
+     6.9216868,
+     6.88429875,
+     6.84139571,
+     6.76753474,
+     6.62269247,
+     6.53585173
+    ],
+    "decreasing": true
+   },
+   "1.0": {
+    "log_total": [
+     6.93147181,
+     6.92747007,
+     6.89138646,
+     6.72952412,
+     6.52373626,
+     6.10044989,
+     4.73908969,
+     2.82952565
+    ],
+    "decreasing": true
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "c = 2 closed form 2 (2 - p)^(T-1) equals the recurrence",
+   "observed": [
+    645.37539556,
+    645.37539556
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "discrete model, 10 generations: total falls with p for costs 0.1 and 1",
+   "observed": {
+    "mode": "discrete",
+    "by_c": {
+     "0.1": {
+      "log_total": [
+       6.93147181,
+       6.93048532,
+       6.9216868,
+       6.88429875,
+       6.84139571,
+       6.76753474,
+       6.62269247,
+       6.53585173
+      ],
+      "decreasing": true
+     },
+     "1.0": {
+      "log_total": [
+       6.93147181,
+       6.92747007,
+       6.89138646,
+       6.72952412,
+       6.52373626,
+       6.10044989,
+       4.73908969,
+       2.82952565
+      ],
+      "decreasing": true
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mode": "discrete",
+    "by_c": {
+     "0.1": {
+      "log_total": [
+       6.93147181,
+       6.93048532,
+       6.9216868,
+       6.88429875,
+       6.84139571,
+       6.76753474,
+       6.62269247,
+       6.53585173
+      ],
+      "decreasing": true
+     },
+     "1.0": {
+      "log_total": [
+       6.93147181,
+       6.92747007,
+       6.89138646,
+       6.72952412,
+       6.52373626,
+       6.10044989,
+       4.73908969,
+       2.82952565
+      ],
+      "decreasing": true
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

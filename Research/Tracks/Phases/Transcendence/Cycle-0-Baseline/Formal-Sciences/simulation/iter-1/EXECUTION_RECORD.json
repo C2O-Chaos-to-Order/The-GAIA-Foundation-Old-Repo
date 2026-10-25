@@ -1,0 +1,616 @@
+{
+ "sim_id": "SIM-TR-FOR-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:29:08.867641+00:00",
+ "finished_utc": "2026-10-25T00:29:09.122293+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "ee9e18bc7204bdc020cf8dd817d23183b82ab09a4960235bf6183a63890e5373",
+ "params_sha256": "01bd85cfc46db2a280ac8b0722a366b10e1ca3a4f983ebfa40f8f8436668d33a",
+ "results_sha256": "278efcb4a2ccbb08281fa96cd6cfa49481e76bee8d3c29afee276755579bef3a",
+ "results": {
+  "dn_head": {
+   "sqrt2": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14
+   ],
+   "e": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    13,
+    14
+   ],
+   "liouville": [
+    2,
+    6,
+    6,
+    6,
+    6,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24
+   ]
+  },
+  "max_dn_over_n": {
+   "sqrt2": 2.0,
+   "e": 2.0,
+   "liouville": 6.0
+  },
+  "liouville_first_n": {
+   "1": 1,
+   "2": 2,
+   "3": 3,
+   "4": 4,
+   "5": 5
+  },
+  "prop3_z": [
+   3,
+   11,
+   123,
+   15131
+  ],
+  "prop3_sane_with_t_plus_1": true,
+  "prop3_not_sane_t_minus_1_at_z": {
+   "3": true,
+   "11": true,
+   "123": true
+  },
+  "reads_base2_for_base10": {
+   "sqrt2": 201,
+   "e": 200
+  },
+  "max_dn_first_conv_n": {
+   "sqrt2": 61,
+   "e": 61
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "exact check: 10^-1 + 10^-2 + 10^-6 = 0.110001 (the first three terms of Liouville's constant)",
+   "observed": "110001/1000000",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Liouville's constant meets |L - p/q| < q^-c with q >= 2 for every c = 1..5 using its own truncations (n <= 5 terms)",
+   "observed": {
+    "dn_head": {
+     "sqrt2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "e": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+     ],
+     "liouville": [
+      2,
+      6,
+      6,
+      6,
+      6,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+     ]
+    },
+    "max_dn_over_n": {
+     "sqrt2": 2.0,
+     "e": 2.0,
+     "liouville": 6.0
+    },
+    "liouville_first_n": {
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5
+    },
+    "prop3_z": [
+     3,
+     11,
+     123,
+     15131
+    ],
+    "prop3_sane_with_t_plus_1": true,
+    "prop3_not_sane_t_minus_1_at_z": {
+     "3": true,
+     "11": true,
+     "123": true
+    },
+    "reads_base2_for_base10": {
+     "sqrt2": 201,
+     "e": 200
+    },
+    "max_dn_first_conv_n": {
+     "sqrt2": 61,
+     "e": 61
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "sqrt(2) - 1 and e - 2 have small linear lookahead in base 10 over 150 digits: max d_n/n <= 3 (consistent with finite irrationality measure, P98 Lemmas 1-2)",
+   "observed": {
+    "dn_head": {
+     "sqrt2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "e": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+     ],
+     "liouville": [
+      2,
+      6,
+      6,
+      6,
+      6,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+     ]
+    },
+    "max_dn_over_n": {
+     "sqrt2": 2.0,
+     "e": 2.0,
+     "liouville": 6.0
+    },
+    "liouville_first_n": {
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5
+    },
+    "prop3_z": [
+     3,
+     11,
+     123,
+     15131
+    ],
+    "prop3_sane_with_t_plus_1": true,
+    "prop3_not_sane_t_minus_1_at_z": {
+     "3": true,
+     "11": true,
+     "123": true
+    },
+    "reads_base2_for_base10": {
+     "sqrt2": 201,
+     "e": 200
+    },
+    "max_dn_first_conv_n": {
+     "sqrt2": 61,
+     "e": 61
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "Liouville's constant has lookahead outgrowing small linear witnesses: max d_n/n >= 5 within 150 digits",
+   "observed": {
+    "dn_head": {
+     "sqrt2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "e": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+     ],
+     "liouville": [
+      2,
+      6,
+      6,
+      6,
+      6,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+     ]
+    },
+    "max_dn_over_n": {
+     "sqrt2": 2.0,
+     "e": 2.0,
+     "liouville": 6.0
+    },
+    "liouville_first_n": {
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5
+    },
+    "prop3_z": [
+     3,
+     11,
+     123,
+     15131
+    ],
+    "prop3_sane_with_t_plus_1": true,
+    "prop3_not_sane_t_minus_1_at_z": {
+     "3": true,
+     "11": true,
+     "123": true
+    },
+    "reads_base2_for_base10": {
+     "sqrt2": 201,
+     "e": 200
+    },
+    "max_dn_first_conv_n": {
+     "sqrt2": 61,
+     "e": 61
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "P98 Proposition 3 with t(n) = 2 + n^2 in base 2: x is (2, t+1)-sane for n <= 130 and fails (2, t-1)-sanity at n = 3, 11 and 123",
+   "observed": {
+    "dn_head": {
+     "sqrt2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "e": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+     ],
+     "liouville": [
+      2,
+      6,
+      6,
+      6,
+      6,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+     ]
+    },
+    "max_dn_over_n": {
+     "sqrt2": 2.0,
+     "e": 2.0,
+     "liouville": 6.0
+    },
+    "liouville_first_n": {
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5
+    },
+    "prop3_z": [
+     3,
+     11,
+     123,
+     15131
+    ],
+    "prop3_sane_with_t_plus_1": true,
+    "prop3_not_sane_t_minus_1_at_z": {
+     "3": true,
+     "11": true,
+     "123": true
+    },
+    "reads_base2_for_base10": {
+     "sqrt2": 201,
+     "e": 200
+    },
+    "max_dn_first_conv_n": {
+     "sqrt2": 61,
+     "e": 61
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "schoolbook conversion base 2 -> base 10 (first 60 digits) reads no more than ceil(log 10/log 2) x max d_n = 4 x max d_n binary digits (P98 Theorem 1's r)",
+   "observed": {
+    "dn_head": {
+     "sqrt2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "e": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+     ],
+     "liouville": [
+      2,
+      6,
+      6,
+      6,
+      6,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+     ]
+    },
+    "max_dn_over_n": {
+     "sqrt2": 2.0,
+     "e": 2.0,
+     "liouville": 6.0
+    },
+    "liouville_first_n": {
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5
+    },
+    "prop3_z": [
+     3,
+     11,
+     123,
+     15131
+    ],
+    "prop3_sane_with_t_plus_1": true,
+    "prop3_not_sane_t_minus_1_at_z": {
+     "3": true,
+     "11": true,
+     "123": true
+    },
+    "reads_base2_for_base10": {
+     "sqrt2": 201,
+     "e": 200
+    },
+    "max_dn_first_conv_n": {
+     "sqrt2": 61,
+     "e": 61
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "dn_head": {
+     "sqrt2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14
+     ],
+     "e": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      14
+     ],
+     "liouville": [
+      2,
+      6,
+      6,
+      6,
+      6,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+     ]
+    },
+    "max_dn_over_n": {
+     "sqrt2": 2.0,
+     "e": 2.0,
+     "liouville": 6.0
+    },
+    "liouville_first_n": {
+     "1": 1,
+     "2": 2,
+     "3": 3,
+     "4": 4,
+     "5": 5
+    },
+    "prop3_z": [
+     3,
+     11,
+     123,
+     15131
+    ],
+    "prop3_sane_with_t_plus_1": true,
+    "prop3_not_sane_t_minus_1_at_z": {
+     "3": true,
+     "11": true,
+     "123": true
+    },
+    "reads_base2_for_base10": {
+     "sqrt2": 201,
+     "e": 200
+    },
+    "max_dn_first_conv_n": {
+     "sqrt2": 61,
+     "e": 61
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 7,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 5,
+ "n_supported": 5,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

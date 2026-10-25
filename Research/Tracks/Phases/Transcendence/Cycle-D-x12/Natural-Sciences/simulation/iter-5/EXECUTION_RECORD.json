@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-TR-NAT-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:29:20.015187+00:00",
+ "finished_utc": "2026-10-25T01:29:20.026084+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-5  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "f1ea20caec8e6a1fa09b272794cced273eef9a03369d87ab8aeec3570a633307",
+ "params_sha256": "5a6d30f2d1d7b5e2c47fbf1666983e885326163c4a635456201856de922cf12c",
+ "results_sha256": "b732d5d4219784fa2e62ed781c78ef9566752015b82f9abe2a9e047d3f484899",
+ "results": {
+  "mode": "fluct",
+  "by_c": {
+   "0.09": {
+    "p_opt": 0.1378465,
+    "rate_opt": -0.04650043,
+    "rate_p0": -0.04715534,
+    "frac_at_p02": 0.99972191
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "at p = 0 the growth rate equals the better pure strategy's",
+   "observed": [
+    -0.04715534,
+    -0.04715534
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "tiny asymmetry (c_g 0.1, c_i 0.09): never switching optimal (optimal p < 1e-6), as P104 reports for c_g > c_i",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.09": {
+      "p_opt": 0.1378465,
+      "rate_opt": -0.04650043,
+      "rate_p0": -0.04715534,
+      "frac_at_p02": 0.99972191
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.09": {
+      "p_opt": 0.1378465,
+      "rate_opt": -0.04650043,
+      "rate_p0": -0.04715534,
+      "frac_at_p02": 0.99972191
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

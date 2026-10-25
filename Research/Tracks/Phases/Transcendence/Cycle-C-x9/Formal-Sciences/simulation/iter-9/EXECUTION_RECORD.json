@@ -1,0 +1,319 @@
+{
+ "sim_id": "SIM-TR-FOR-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:32.882853+00:00",
+ "finished_utc": "2026-10-25T01:20:46.823826+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-9  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a682bdf86bde76ccf74f08da22b24588f9e67041d73d665b67c4a0511d740e16",
+ "params_sha256": "ca2798e1765560d65c4effa8473e57d89f7c057eb650736736c327d274685f09",
+ "results_sha256": "aeea1ffd9c320a72c350523738bd0ccef69c6294d334ada2d76403a1f8f57427",
+ "results": {
+  "by_number": {
+   "sqrt2": {
+    "max_ratio": 2.0,
+    "max_excess": 4,
+    "argmax_excess": 148,
+    "head": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "cbrt2": {
+    "max_ratio": 2.5,
+    "max_excess": 4,
+    "argmax_excess": 168,
+    "head": [
+     2,
+     5,
+     5,
+     5,
+     6,
+     8,
+     8,
+     10,
+     10,
+     12
+    ]
+   },
+   "phi": {
+    "max_ratio": 2.0,
+    "max_excess": 4,
+    "argmax_excess": 423,
+    "head": [
+     2,
+     3,
+     5,
+     5,
+     6,
+     8,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "e": {
+    "max_ratio": 2.0,
+    "max_excess": 4,
+    "argmax_excess": 46,
+    "head": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   },
+   "pi": {
+    "max_ratio": 2.0,
+    "max_excess": 7,
+    "argmax_excess": 761,
+    "head": [
+     2,
+     3,
+     4,
+     6,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ]
+   }
+  },
+  "base": 10,
+  "digits": 800
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Machin's formula in integer arithmetic gives pi = 3.14159265358979...",
+   "observed": "314159265358979",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "base 10, 800 digits: the maximal excess is attained after n = 200 for at least two of five constants",
+   "observed": {
+    "by_number": {
+     "sqrt2": {
+      "max_ratio": 2.0,
+      "max_excess": 4,
+      "argmax_excess": 148,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     },
+     "cbrt2": {
+      "max_ratio": 2.5,
+      "max_excess": 4,
+      "argmax_excess": 168,
+      "head": [
+       2,
+       5,
+       5,
+       5,
+       6,
+       8,
+       8,
+       10,
+       10,
+       12
+      ]
+     },
+     "phi": {
+      "max_ratio": 2.0,
+      "max_excess": 4,
+      "argmax_excess": 423,
+      "head": [
+       2,
+       3,
+       5,
+       5,
+       6,
+       8,
+       8,
+       9,
+       10,
+       11
+      ]
+     },
+     "e": {
+      "max_ratio": 2.0,
+      "max_excess": 4,
+      "argmax_excess": 46,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     },
+     "pi": {
+      "max_ratio": 2.0,
+      "max_excess": 7,
+      "argmax_excess": 761,
+      "head": [
+       2,
+       3,
+       4,
+       6,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 10,
+    "digits": 800
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_number": {
+     "sqrt2": {
+      "max_ratio": 2.0,
+      "max_excess": 4,
+      "argmax_excess": 148,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     },
+     "cbrt2": {
+      "max_ratio": 2.5,
+      "max_excess": 4,
+      "argmax_excess": 168,
+      "head": [
+       2,
+       5,
+       5,
+       5,
+       6,
+       8,
+       8,
+       10,
+       10,
+       12
+      ]
+     },
+     "phi": {
+      "max_ratio": 2.0,
+      "max_excess": 4,
+      "argmax_excess": 423,
+      "head": [
+       2,
+       3,
+       5,
+       5,
+       6,
+       8,
+       8,
+       9,
+       10,
+       11
+      ]
+     },
+     "e": {
+      "max_ratio": 2.0,
+      "max_excess": 4,
+      "argmax_excess": 46,
+      "head": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     },
+     "pi": {
+      "max_ratio": 2.0,
+      "max_excess": 7,
+      "argmax_excess": 761,
+      "head": [
+       2,
+       3,
+       4,
+       6,
+       6,
+       7,
+       8,
+       9,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 10,
+    "digits": 800
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

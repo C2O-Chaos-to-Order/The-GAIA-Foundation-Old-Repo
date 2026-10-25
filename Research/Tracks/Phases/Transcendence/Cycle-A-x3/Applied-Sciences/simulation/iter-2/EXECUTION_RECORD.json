@@ -1,0 +1,212 @@
+{
+ "sim_id": "SIM-TR-APP-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:10.419712+00:00",
+ "finished_utc": "2026-10-25T00:52:10.450878+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "e165760a33f066d8ba10860138b77718356a8a9d7686894edfe44642b605f1d9",
+ "params_sha256": "a6dee32524b804a002232f4b751693cd8c919b309db2d84f06c4333c28345297",
+ "results_sha256": "67c65d60b61f6209de237b463f25006343a0e6e6c06474da930ed8fd81bb4c9b",
+ "results": {
+  "by_A": {
+   "15": {
+    "pc": 0.00739288,
+    "freq": 0.0073525,
+    "se": 0.00013545,
+    "icvi": 0.78947368,
+    "kappa": 0.7879057
+   },
+   "16": {
+    "pc": 0.00184822,
+    "freq": 0.0018175,
+    "se": 6.791e-05,
+    "icvi": 0.84210526,
+    "kappa": 0.8418129
+   },
+   "17": {
+    "pc": 0.00032616,
+    "freq": 0.0003275,
+    "se": 2.855e-05,
+    "icvi": 0.89473684,
+    "kappa": 0.8947025
+   },
+   "18": {
+    "pc": 3.624e-05,
+    "freq": 4.75e-05,
+    "se": 9.52e-06,
+    "icvi": 0.94736842,
+    "kappa": 0.94736651
+   },
+   "19": {
+    "pc": 1.91e-06,
+    "freq": 0.0,
+    "se": 2.18e-06,
+    "icvi": 1.0,
+    "kappa": 1.0
+   }
+  },
+  "N": 19
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "binomial probabilities C(N, a) 0.5^N sum to 1 over a = 0..N",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "simulated frequencies of exactly A of 19 raters agreeing by chance are within 4 SE of C(19, A) 0.5^19 for A = 15..19",
+   "observed": {
+    "by_A": {
+     "15": {
+      "pc": 0.00739288,
+      "freq": 0.0073525,
+      "se": 0.00013545,
+      "icvi": 0.78947368,
+      "kappa": 0.7879057
+     },
+     "16": {
+      "pc": 0.00184822,
+      "freq": 0.0018175,
+      "se": 6.791e-05,
+      "icvi": 0.84210526,
+      "kappa": 0.8418129
+     },
+     "17": {
+      "pc": 0.00032616,
+      "freq": 0.0003275,
+      "se": 2.855e-05,
+      "icvi": 0.89473684,
+      "kappa": 0.8947025
+     },
+     "18": {
+      "pc": 3.624e-05,
+      "freq": 4.75e-05,
+      "se": 9.52e-06,
+      "icvi": 0.94736842,
+      "kappa": 0.94736651
+     },
+     "19": {
+      "pc": 1.91e-06,
+      "freq": 0.0,
+      "se": 2.18e-06,
+      "icvi": 1.0,
+      "kappa": 1.0
+     }
+    },
+    "N": 19
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with the formula Pc, modified kappa is at least 0.74 ('excellent') for every A >= 15 of 19",
+   "observed": {
+    "by_A": {
+     "15": {
+      "pc": 0.00739288,
+      "freq": 0.0073525,
+      "se": 0.00013545,
+      "icvi": 0.78947368,
+      "kappa": 0.7879057
+     },
+     "16": {
+      "pc": 0.00184822,
+      "freq": 0.0018175,
+      "se": 6.791e-05,
+      "icvi": 0.84210526,
+      "kappa": 0.8418129
+     },
+     "17": {
+      "pc": 0.00032616,
+      "freq": 0.0003275,
+      "se": 2.855e-05,
+      "icvi": 0.89473684,
+      "kappa": 0.8947025
+     },
+     "18": {
+      "pc": 3.624e-05,
+      "freq": 4.75e-05,
+      "se": 9.52e-06,
+      "icvi": 0.94736842,
+      "kappa": 0.94736651
+     },
+     "19": {
+      "pc": 1.91e-06,
+      "freq": 0.0,
+      "se": 2.18e-06,
+      "icvi": 1.0,
+      "kappa": 1.0
+     }
+    },
+    "N": 19
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_A": {
+     "15": {
+      "pc": 0.00739288,
+      "freq": 0.0073525,
+      "se": 0.00013545,
+      "icvi": 0.78947368,
+      "kappa": 0.7879057
+     },
+     "16": {
+      "pc": 0.00184822,
+      "freq": 0.0018175,
+      "se": 6.791e-05,
+      "icvi": 0.84210526,
+      "kappa": 0.8418129
+     },
+     "17": {
+      "pc": 0.00032616,
+      "freq": 0.0003275,
+      "se": 2.855e-05,
+      "icvi": 0.89473684,
+      "kappa": 0.8947025
+     },
+     "18": {
+      "pc": 3.624e-05,
+      "freq": 4.75e-05,
+      "se": 9.52e-06,
+      "icvi": 0.94736842,
+      "kappa": 0.94736651
+     },
+     "19": {
+      "pc": 1.91e-06,
+      "freq": 0.0,
+      "se": 2.18e-06,
+      "icvi": 1.0,
+      "kappa": 1.0
+     }
+    },
+    "N": 19
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

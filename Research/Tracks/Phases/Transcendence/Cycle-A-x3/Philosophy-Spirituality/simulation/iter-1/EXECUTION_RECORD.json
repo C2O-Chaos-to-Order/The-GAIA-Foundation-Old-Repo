@@ -1,0 +1,152 @@
+{
+ "sim_id": "SIM-TR-PHI-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:11.715812+00:00",
+ "finished_utc": "2026-10-25T00:52:12.138447+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "80e70e0e0f18b7708d70b4af3d8559cfcf8515e8aa8b2c03239543f94592aba9",
+ "params_sha256": "ade56bc15829ef96dc9a31bd2e01358d29d06a95cb5329f2ec81e633fd8d3188",
+ "results_sha256": "8126ccc3e732790a60d1112622154bf60390fa0c42da99f443b7507f5d2ef46a",
+ "results": {
+  "scenarios": {
+   "constructivist_indep": {
+    "0.0": 0.0001,
+    "0.4": -0.0003,
+    "0.8": 0.0003
+   },
+   "constructivist_heritage": {
+    "0.0": 0.4019,
+    "0.4": 0.3509,
+    "0.8": 0.2936
+   },
+   "essentialist": {
+    "0.0": 0.0712,
+    "0.4": 0.0878,
+    "0.8": 0.1015
+   },
+   "essentialist_thin": {
+    "0.0": 0.1646,
+    "0.4": 0.1833,
+    "0.8": 0.2004
+   }
+  },
+  "V1_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1, no noise, no scheme, no overlay: cross-tradition report correlation = 1 within 1e-9",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "strong constructivism with pervasively different schemes (Katz's (A) and (B)): cross-tradition report correlation |r| < 0.03 at every training level",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0001,
+      "0.4": -0.0003,
+      "0.8": 0.0003
+     },
+     "constructivist_heritage": {
+      "0.0": 0.4019,
+      "0.4": 0.3509,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0712,
+      "0.4": 0.0878,
+      "0.8": 0.1015
+     },
+     "essentialist_thin": {
+      "0.0": 0.1646,
+      "0.4": 0.1833,
+      "0.8": 0.2004
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "essentialism (w 0.5): cross-tradition correlation rises with deautomatization (d 0 < 0.4 < 0.8)",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0001,
+      "0.4": -0.0003,
+      "0.8": 0.0003
+     },
+     "constructivist_heritage": {
+      "0.0": 0.4019,
+      "0.4": 0.3509,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0712,
+      "0.4": 0.0878,
+      "0.8": 0.1015
+     },
+     "essentialist_thin": {
+      "0.0": 0.1646,
+      "0.4": 0.1833,
+      "0.8": 0.2004
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0001,
+      "0.4": -0.0003,
+      "0.8": 0.0003
+     },
+     "constructivist_heritage": {
+      "0.0": 0.4019,
+      "0.4": 0.3509,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0712,
+      "0.4": 0.0878,
+      "0.8": 0.1015
+     },
+     "essentialist_thin": {
+      "0.0": 0.1646,
+      "0.4": 0.1833,
+      "0.8": 0.2004
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

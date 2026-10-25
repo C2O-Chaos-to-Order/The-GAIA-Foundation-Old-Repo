@@ -1,0 +1,7 @@
+phase,field,n_claims,E,P,PS,H,cycle,flag
+Transcendence,Natural-Sciences,8,0,8,0,0,TRB,populated
+Transcendence,Formal-Sciences,5,5,0,0,0,TRB,populated
+Transcendence,Social-Sciences,5,4,1,0,0,TRB,populated
+Transcendence,Applied-Sciences,7,5,2,0,0,TRB,populated
+Transcendence,Humanities,6,5,1,0,0,TRB,populated
+Transcendence,Philosophy-Spirituality,5,0,0,2,3,TRB,UNDER-RESEARCHED (no E/P claim)

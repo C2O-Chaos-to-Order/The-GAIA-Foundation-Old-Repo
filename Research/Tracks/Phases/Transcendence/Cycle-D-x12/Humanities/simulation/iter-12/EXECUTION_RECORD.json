@@ -1,0 +1,97 @@
+{
+ "sim_id": "SIM-TR-HUM-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:29.029510+00:00",
+ "finished_utc": "2026-10-25T01:30:29.278057+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-12  (run from Humanities/simulation/)",
+ "spec_sha256": "27e0e93e2edcc41aec563f3053cca0a7ec42d3818d9371bf4765c7810c636db1",
+ "params_sha256": "596b691e0a0581b965b8bdb3fa7a4ef9fbd6af039a535b66b6b1fb0ed97f6ec0",
+ "results_sha256": "b89b7e72a2bdbdb93b5f51f984d634a2d25ecc7454abd19ca28cb3f5f427e00c",
+ "results": {
+  "items": {
+   "t3.5": {
+    "0.707": {
+     "BF01": 0.0324839,
+     "ratio_to_printed": null
+    }
+   },
+   "t4.0": {
+    "0.707": {
+     "BF01": 0.0065461,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "n 100: t 3.5 gives BF01 below 1/10",
+   "observed": {
+    "items": {
+     "t3.5": {
+      "0.707": {
+       "BF01": 0.0324839,
+       "ratio_to_printed": null
+      }
+     },
+     "t4.0": {
+      "0.707": {
+       "BF01": 0.0065461,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "t3.5": {
+      "0.707": {
+       "BF01": 0.0324839,
+       "ratio_to_printed": null
+      }
+     },
+     "t4.0": {
+      "0.707": {
+       "BF01": 0.0065461,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

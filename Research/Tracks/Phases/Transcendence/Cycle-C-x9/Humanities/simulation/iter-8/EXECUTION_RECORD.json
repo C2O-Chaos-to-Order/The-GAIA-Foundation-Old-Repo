@@ -1,0 +1,133 @@
+{
+ "sim_id": "SIM-TR-HUM-C",
+ "iteration": 8,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:21:01.594226+00:00",
+ "finished_utc": "2026-10-25T01:21:01.800306+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-8  (run from Humanities/simulation/)",
+ "spec_sha256": "95ab5b96d4209f4c2d2ba203a25d026e2438bc557cec16ded7ab6a8441a85edb",
+ "params_sha256": "90a69b4925a1ed941954eef509f997e6b80ee935a74d555eff7ed4d7723ec06f",
+ "results_sha256": "3fc73927ee834ca1f019e4a2575447b9efb830dc0b6ebe4d12f173ad5e749748",
+ "results": {
+  "items": {
+   "t2.0": {
+    "0.707": {
+     "BF01": 3.83753776,
+     "ratio_to_printed": null
+    }
+   },
+   "t2.5": {
+    "0.707": {
+     "BF01": 1.2571775,
+     "ratio_to_printed": null
+    }
+   },
+   "t3.0": {
+    "0.707": {
+     "BF01": 0.32248144,
+     "ratio_to_printed": null
+    }
+   },
+   "t3.5": {
+    "0.707": {
+     "BF01": 0.06490006,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "n 1000: t 2.5 gives BF01 above 1/3",
+   "observed": {
+    "items": {
+     "t2.0": {
+      "0.707": {
+       "BF01": 3.83753776,
+       "ratio_to_printed": null
+      }
+     },
+     "t2.5": {
+      "0.707": {
+       "BF01": 1.2571775,
+       "ratio_to_printed": null
+      }
+     },
+     "t3.0": {
+      "0.707": {
+       "BF01": 0.32248144,
+       "ratio_to_printed": null
+      }
+     },
+     "t3.5": {
+      "0.707": {
+       "BF01": 0.06490006,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "t2.0": {
+      "0.707": {
+       "BF01": 3.83753776,
+       "ratio_to_printed": null
+      }
+     },
+     "t2.5": {
+      "0.707": {
+       "BF01": 1.2571775,
+       "ratio_to_printed": null
+      }
+     },
+     "t3.0": {
+      "0.707": {
+       "BF01": 0.32248144,
+       "ratio_to_printed": null
+      }
+     },
+     "t3.5": {
+      "0.707": {
+       "BF01": 0.06490006,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

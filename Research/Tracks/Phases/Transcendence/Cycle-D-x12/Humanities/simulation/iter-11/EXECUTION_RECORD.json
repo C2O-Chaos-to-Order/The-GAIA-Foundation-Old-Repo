@@ -1,0 +1,169 @@
+{
+ "sim_id": "SIM-TR-HUM-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:28.685429+00:00",
+ "finished_utc": "2026-10-25T01:30:28.911118+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-11  (run from Humanities/simulation/)",
+ "spec_sha256": "6c5680cea573d82998ebdad2da084318cb7953580ba76c16cd58a673438e33ff",
+ "params_sha256": "f28ae12fb22cfa22159ecea55ef620cb9191927573affe2080194a51e3987b7b",
+ "results_sha256": "43e14b22d0dab0f3d741724ecfb82feaf19b2a72eca849eef7671753911c1b6b",
+ "results": {
+  "items": {
+   "t2.0": {
+    "0.354": {
+     "BF01": 0.67662521,
+     "ratio_to_printed": null
+    },
+    "0.707": {
+     "BF01": 0.92953268,
+     "ratio_to_printed": null
+    },
+    "1.0": {
+     "BF01": 1.18882159,
+     "ratio_to_printed": null
+    },
+    "1.414": {
+     "BF01": 1.58352507,
+     "ratio_to_printed": null
+    }
+   },
+   "t2.5": {
+    "0.354": {
+     "BF01": 0.30347012,
+     "ratio_to_printed": null
+    },
+    "0.707": {
+     "BF01": 0.37254461,
+     "ratio_to_printed": null
+    },
+    "1.0": {
+     "BF01": 0.45953824,
+     "ratio_to_printed": null
+    },
+    "1.414": {
+     "BF01": 0.59794434,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "n 34, t 2.0: BF01 rises with prior width across 0.354-1.414",
+   "observed": {
+    "items": {
+     "t2.0": {
+      "0.354": {
+       "BF01": 0.67662521,
+       "ratio_to_printed": null
+      },
+      "0.707": {
+       "BF01": 0.92953268,
+       "ratio_to_printed": null
+      },
+      "1.0": {
+       "BF01": 1.18882159,
+       "ratio_to_printed": null
+      },
+      "1.414": {
+       "BF01": 1.58352507,
+       "ratio_to_printed": null
+      }
+     },
+     "t2.5": {
+      "0.354": {
+       "BF01": 0.30347012,
+       "ratio_to_printed": null
+      },
+      "0.707": {
+       "BF01": 0.37254461,
+       "ratio_to_printed": null
+      },
+      "1.0": {
+       "BF01": 0.45953824,
+       "ratio_to_printed": null
+      },
+      "1.414": {
+       "BF01": 0.59794434,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "t2.0": {
+      "0.354": {
+       "BF01": 0.67662521,
+       "ratio_to_printed": null
+      },
+      "0.707": {
+       "BF01": 0.92953268,
+       "ratio_to_printed": null
+      },
+      "1.0": {
+       "BF01": 1.18882159,
+       "ratio_to_printed": null
+      },
+      "1.414": {
+       "BF01": 1.58352507,
+       "ratio_to_printed": null
+      }
+     },
+     "t2.5": {
+      "0.354": {
+       "BF01": 0.30347012,
+       "ratio_to_printed": null
+      },
+      "0.707": {
+       "BF01": 0.37254461,
+       "ratio_to_printed": null
+      },
+      "1.0": {
+       "BF01": 0.45953824,
+       "ratio_to_printed": null
+      },
+      "1.414": {
+       "BF01": 0.59794434,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

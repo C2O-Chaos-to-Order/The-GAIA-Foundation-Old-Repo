@@ -1,0 +1,205 @@
+{
+ "sim_id": "SIM-TR-HUM-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:21:00.047303+00:00",
+ "finished_utc": "2026-10-25T01:21:00.273780+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-5  (run from Humanities/simulation/)",
+ "spec_sha256": "d24678f458ed1b24897637e5f15f21b8c05556730b2e7ad40302ec330538c84f",
+ "params_sha256": "16291cc50cac5de68c10bfe10d3295f42d2f30a6815c5c6fbd26626f50fa4dc8",
+ "results_sha256": "df6fdefe94f19d2df85a34f16e44981a23b474fb0fd5693217c9e9e99cf02a7d",
+ "results": {
+  "items": {
+   "SelfTranscendence": {
+    "0.354": {
+     "BF01": 6e-08,
+     "ratio_to_printed": null
+    }
+   },
+   "SpiritualWB": {
+    "0.354": {
+     "BF01": 2e-07,
+     "ratio_to_printed": null
+    }
+   },
+   "ReligiousSWB": {
+    "0.354": {
+     "BF01": 0.90529785,
+     "ratio_to_printed": null
+    }
+   },
+   "ExistentialSWB": {
+    "0.354": {
+     "BF01": 1.099e-05,
+     "ratio_to_printed": null
+    }
+   },
+   "Depression": {
+    "0.354": {
+     "BF01": 1.22e-06,
+     "ratio_to_printed": null
+    }
+   },
+   "LifeSatisfaction": {
+    "0.354": {
+     "BF01": 0.99123415,
+     "ratio_to_printed": null
+    }
+   },
+   "PositiveAffect": {
+    "0.354": {
+     "BF01": 0.02248951,
+     "ratio_to_printed": null
+    }
+   },
+   "NegativeAffect": {
+    "0.354": {
+     "BF01": 5.371e-05,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P103 with a very narrow prior (scale 0.354): life satisfaction BF01 below 1",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.354": {
+       "BF01": 6e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.354": {
+       "BF01": 2e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.354": {
+       "BF01": 0.90529785,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.354": {
+       "BF01": 1.099e-05,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.354": {
+       "BF01": 1.22e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.354": {
+       "BF01": 0.99123415,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.354": {
+       "BF01": 0.02248951,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.354": {
+       "BF01": 5.371e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.354": {
+       "BF01": 6e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.354": {
+       "BF01": 2e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.354": {
+       "BF01": 0.90529785,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.354": {
+       "BF01": 1.099e-05,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.354": {
+       "BF01": 1.22e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.354": {
+       "BF01": 0.99123415,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.354": {
+       "BF01": 0.02248951,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.354": {
+       "BF01": 5.371e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

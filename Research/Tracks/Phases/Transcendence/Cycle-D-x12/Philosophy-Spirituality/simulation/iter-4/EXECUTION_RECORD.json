@@ -1,0 +1,64 @@
+{
+ "sim_id": "SIM-TR-PHI-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:29.892847+00:00",
+ "finished_utc": "2026-10-25T01:30:29.919961+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-4  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "9c6e067dd892fb9ed9734b0fd344c1996caebe65b48751de21e104a490004385",
+ "params_sha256": "87d449db5d76b5e7cf1b2892f09c719c075b19bab8ca799349191f79b25becc7",
+ "results_sha256": "72f1557d39d72591dfec613b35652c30ae2835823dfc45eca6e746746ecffc6b",
+ "results": {
+  "template_advantage": {
+   "f10": 1.7438
+  },
+  "V1_pure_core_no_noise": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1 and no noise: every mystic has the same experience, so the template advantage is 0 within 1e-9",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "10 features: advantage > 0.5 SD",
+   "observed": {
+    "template_advantage": {
+     "f10": 1.7438
+    },
+    "V1_pure_core_no_noise": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "template_advantage": {
+     "f10": 1.7438
+    },
+    "V1_pure_core_no_noise": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

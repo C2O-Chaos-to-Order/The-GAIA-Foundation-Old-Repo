@@ -1,0 +1,107 @@
+{
+ "cycle": "CV0",
+ "checked_utc": "2026-10-24T20:13:21+00:00",
+ "summary": {
+  "Pass": 14
+ },
+ "checks": [
+  {
+   "claim_id": "CV0-NAT-01",
+   "source_id": "P68",
+   "phrase": "Linear stability analysis reveals that this solution is stable when",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-NAT-01",
+   "source_id": "P68",
+   "phrase": "the proportion of cooperators and cheaters at equilibrium is always 50",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-NAT-01",
+   "source_id": "P68",
+   "phrase": "we recover the classical Kuramoto model",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-FOR-01",
+   "source_id": "P73",
+   "phrase": "A Markov chain is said to be a regular Markov chain if some power of its transition matrix T has only positive entries",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-FOR-01",
+   "source_id": "P73",
+   "phrase": "we need only examine powers T m up to",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-FOR-01",
+   "source_id": "P73",
+   "phrase": "condition for having an equilibrium, but is not a necessary condition",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-SOC-01",
+   "source_id": "P69",
+   "phrase": "this relationship is reversed when the initial-estimate distribution is characterized by low dispersion and underestimation bias",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-SOC-01",
+   "source_id": "P69",
+   "phrase": "is substantially explained by R (z-statistic = 4.16",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-APP-01",
+   "source_id": "P70",
+   "phrase": "40-62% reduction in function evaluations compared to adaptive Simpson method",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-APP-01",
+   "source_id": "P70",
+   "phrase": "AHQS achieves 20 − 35 % reduction in evaluations compared to Gauss-Kronrod",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-HUM-01",
+   "source_id": "P71",
+   "phrase": "Selected final model: M4",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-HUM-01",
+   "source_id": "P71",
+   "phrase": "This significantly improved the fit, χ 2 (1) = 6.82, p = 0.0090",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-PHI-01",
+   "source_id": "P72",
+   "phrase": "The opinion which is fated to be ultimately agreed to by all who investigate, is what we mean by the truth",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CV0-PHI-01",
+   "source_id": "P72",
+   "phrase": "what Peirce called buried secrets",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

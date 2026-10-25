@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-TR-NAT-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:09.427657+00:00",
+ "finished_utc": "2026-10-25T01:20:09.440442+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-2  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "77ef92164caf0ff6ff79f5e328850eac758ddf2ad83fa4ea2f9de222bad83ce7",
+ "params_sha256": "3bd647e0f4779973f2151d3be6c3558e271ed6b98b4f6991058e0b6d91870618",
+ "results_sha256": "88ac98a62bdb1d3b3747b8e14332c06ac3836c6cffecfe37a50ff3bc9176cc2e",
+ "results": {
+  "mode": "fluct",
+  "by_c": {
+   "0.1": {
+    "p_opt": 0.0,
+    "rate_opt": -0.02564665,
+    "rate_p0": -0.02564665,
+    "frac_at_p02": 0.98883086
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "at p = 0 the growth rate equals the better pure strategy's",
+   "observed": [
+    -0.02564665,
+    -0.02564665
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "reverse asymmetry (c_g 0.05 < c_i 0.1): switching is favoured (optimal p > 1e-6)",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.1": {
+      "p_opt": 0.0,
+      "rate_opt": -0.02564665,
+      "rate_p0": -0.02564665,
+      "frac_at_p02": 0.98883086
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.1": {
+      "p_opt": 0.0,
+      "rate_opt": -0.02564665,
+      "rate_p0": -0.02564665,
+      "frac_at_p02": 0.98883086
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

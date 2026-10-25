@@ -1,0 +1,240 @@
+{
+ "sim_id": "SIM-TR-HUM-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:11.025520+00:00",
+ "finished_utc": "2026-10-25T00:52:11.256235+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-2  (run from Humanities/simulation/)",
+ "spec_sha256": "74ae21fef95666b39192bcd8f3a180835e7e4a73439fd10a179e03ee7262c1ee",
+ "params_sha256": "0611b4289888a599b867cc4b014f79982b614a19074b0ca5a901ecad14a8ba87",
+ "results_sha256": "2d96fe045b55f6d3242bbe816ec4f205efaf52e454b024112ee42e900c01afd0",
+ "results": {
+  "items": {
+   "ConceptualComplexity": {
+    "0.5": {
+     "BF01": 0.93192989,
+     "ratio_to_printed": 0.79584107
+    },
+    "1.0": {
+     "BF01": 1.54164783,
+     "ratio_to_printed": 1.31652249
+    },
+    "1.414": {
+     "BF01": 2.09240526,
+     "ratio_to_printed": 1.78685334
+    }
+   },
+   "ExistentialDanger": {
+    "0.5": {
+     "BF01": 4.276e-05,
+     "ratio_to_printed": 1.07955632
+    },
+    "1.0": {
+     "BF01": 4.085e-05,
+     "ratio_to_printed": 1.03118362
+    },
+    "1.414": {
+     "BF01": 4.668e-05,
+     "ratio_to_printed": 1.17841922
+    }
+   },
+   "Vastness": {
+    "0.5": {
+     "BF01": 0.7765741,
+     "ratio_to_printed": 0.80224598
+    },
+    "1.0": {
+     "BF01": 1.26607319,
+     "ratio_to_printed": 1.30792685
+    },
+    "1.414": {
+     "BF01": 1.71241055,
+     "ratio_to_printed": 1.76901917
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "vastness BF01 stays above 1/3 for Cauchy scales 0.5, 1 and 1.414",
+   "observed": {
+    "items": {
+     "ConceptualComplexity": {
+      "0.5": {
+       "BF01": 0.93192989,
+       "ratio_to_printed": 0.79584107
+      },
+      "1.0": {
+       "BF01": 1.54164783,
+       "ratio_to_printed": 1.31652249
+      },
+      "1.414": {
+       "BF01": 2.09240526,
+       "ratio_to_printed": 1.78685334
+      }
+     },
+     "ExistentialDanger": {
+      "0.5": {
+       "BF01": 4.276e-05,
+       "ratio_to_printed": 1.07955632
+      },
+      "1.0": {
+       "BF01": 4.085e-05,
+       "ratio_to_printed": 1.03118362
+      },
+      "1.414": {
+       "BF01": 4.668e-05,
+       "ratio_to_printed": 1.17841922
+      }
+     },
+     "Vastness": {
+      "0.5": {
+       "BF01": 0.7765741,
+       "ratio_to_printed": 0.80224598
+      },
+      "1.0": {
+       "BF01": 1.26607319,
+       "ratio_to_printed": 1.30792685
+      },
+      "1.414": {
+       "BF01": 1.71241055,
+       "ratio_to_printed": 1.76901917
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "existential danger BF01 stays below 1/100 for all three scales",
+   "observed": {
+    "items": {
+     "ConceptualComplexity": {
+      "0.5": {
+       "BF01": 0.93192989,
+       "ratio_to_printed": 0.79584107
+      },
+      "1.0": {
+       "BF01": 1.54164783,
+       "ratio_to_printed": 1.31652249
+      },
+      "1.414": {
+       "BF01": 2.09240526,
+       "ratio_to_printed": 1.78685334
+      }
+     },
+     "ExistentialDanger": {
+      "0.5": {
+       "BF01": 4.276e-05,
+       "ratio_to_printed": 1.07955632
+      },
+      "1.0": {
+       "BF01": 4.085e-05,
+       "ratio_to_printed": 1.03118362
+      },
+      "1.414": {
+       "BF01": 4.668e-05,
+       "ratio_to_printed": 1.17841922
+      }
+     },
+     "Vastness": {
+      "0.5": {
+       "BF01": 0.7765741,
+       "ratio_to_printed": 0.80224598
+      },
+      "1.0": {
+       "BF01": 1.26607319,
+       "ratio_to_printed": 1.30792685
+      },
+      "1.414": {
+       "BF01": 1.71241055,
+       "ratio_to_printed": 1.76901917
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "ConceptualComplexity": {
+      "0.5": {
+       "BF01": 0.93192989,
+       "ratio_to_printed": 0.79584107
+      },
+      "1.0": {
+       "BF01": 1.54164783,
+       "ratio_to_printed": 1.31652249
+      },
+      "1.414": {
+       "BF01": 2.09240526,
+       "ratio_to_printed": 1.78685334
+      }
+     },
+     "ExistentialDanger": {
+      "0.5": {
+       "BF01": 4.276e-05,
+       "ratio_to_printed": 1.07955632
+      },
+      "1.0": {
+       "BF01": 4.085e-05,
+       "ratio_to_printed": 1.03118362
+      },
+      "1.414": {
+       "BF01": 4.668e-05,
+       "ratio_to_printed": 1.17841922
+      }
+     },
+     "Vastness": {
+      "0.5": {
+       "BF01": 0.7765741,
+       "ratio_to_printed": 0.80224598
+      },
+      "1.0": {
+       "BF01": 1.26607319,
+       "ratio_to_printed": 1.30792685
+      },
+      "1.414": {
+       "BF01": 1.71241055,
+       "ratio_to_printed": 1.76901917
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

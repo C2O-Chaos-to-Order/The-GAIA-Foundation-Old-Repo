@@ -1,0 +1,205 @@
+{
+ "sim_id": "SIM-TR-HUM-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:17.179647+00:00",
+ "finished_utc": "2026-10-25T00:59:17.384667+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-2  (run from Humanities/simulation/)",
+ "spec_sha256": "656fb7d25865dfed63cd30315b3e13f84934bc716b5b76e5e9774f174f4dfeb8",
+ "params_sha256": "cf4c47830b78168288cd9fd6a6cf469b3f734ed8730e26f94154b6587c4a1b5e",
+ "results_sha256": "09fb8104b5f1cd7b38b8e86919703a139c220f07a570eb8d1f8123c16cf366bc",
+ "results": {
+  "items": {
+   "SelfTranscendence": {
+    "0.5": {
+     "BF01": 4e-08,
+     "ratio_to_printed": null
+    }
+   },
+   "SpiritualWB": {
+    "0.5": {
+     "BF01": 1.5e-07,
+     "ratio_to_printed": null
+    }
+   },
+   "ReligiousSWB": {
+    "0.5": {
+     "BF01": 1.05414555,
+     "ratio_to_printed": null
+    }
+   },
+   "ExistentialSWB": {
+    "0.5": {
+     "BF01": 8.6e-06,
+     "ratio_to_printed": null
+    }
+   },
+   "Depression": {
+    "0.5": {
+     "BF01": 9.3e-07,
+     "ratio_to_printed": null
+    }
+   },
+   "LifeSatisfaction": {
+    "0.5": {
+     "BF01": 1.16376929,
+     "ratio_to_printed": null
+    }
+   },
+   "PositiveAffect": {
+    "0.5": {
+     "BF01": 0.02079996,
+     "ratio_to_printed": null
+    }
+   },
+   "NegativeAffect": {
+    "0.5": {
+     "BF01": 4.287e-05,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P103 with a narrow prior (scale 0.5): self-transcendence still gives BF01 < 1/100",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.5": {
+       "BF01": 4e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.5": {
+       "BF01": 1.5e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.5": {
+       "BF01": 1.05414555,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.5": {
+       "BF01": 8.6e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.5": {
+       "BF01": 9.3e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.5": {
+       "BF01": 1.16376929,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.5": {
+       "BF01": 0.02079996,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.5": {
+       "BF01": 4.287e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "SelfTranscendence": {
+      "0.5": {
+       "BF01": 4e-08,
+       "ratio_to_printed": null
+      }
+     },
+     "SpiritualWB": {
+      "0.5": {
+       "BF01": 1.5e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "ReligiousSWB": {
+      "0.5": {
+       "BF01": 1.05414555,
+       "ratio_to_printed": null
+      }
+     },
+     "ExistentialSWB": {
+      "0.5": {
+       "BF01": 8.6e-06,
+       "ratio_to_printed": null
+      }
+     },
+     "Depression": {
+      "0.5": {
+       "BF01": 9.3e-07,
+       "ratio_to_printed": null
+      }
+     },
+     "LifeSatisfaction": {
+      "0.5": {
+       "BF01": 1.16376929,
+       "ratio_to_printed": null
+      }
+     },
+     "PositiveAffect": {
+      "0.5": {
+       "BF01": 0.02079996,
+       "ratio_to_printed": null
+      }
+     },
+     "NegativeAffect": {
+      "0.5": {
+       "BF01": 4.287e-05,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

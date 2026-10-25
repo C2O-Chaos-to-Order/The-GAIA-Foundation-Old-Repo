@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-TR-NAT-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:09.282119+00:00",
+ "finished_utc": "2026-10-25T01:20:09.306336+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "979d9d362a3c0b7a00a8bcc0bd79bbe59a035bd37430e3541d5a491dcd5b06e1",
+ "params_sha256": "7b6ea03682dac1d4dea154e2c1f9f557dae6b4fb740066c87c3b6c7e629b68b1",
+ "results_sha256": "e8b9af1c76c22ed4a34103d0a8023042e509f584b2426161c86108981524aa96",
+ "results": {
+  "mode": "fluct",
+  "by_c": {
+   "0.3": {
+    "p_opt": 0.13185606,
+    "rate_opt": -0.13675745,
+    "rate_p0": -0.17833747,
+    "frac_at_p02": 0.99655078
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "at p = 0 the growth rate equals the better pure strategy's",
+   "observed": [
+    -0.17833747,
+    -0.17833747
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "reconstructed P104 eq. 2.3, symmetric costs 0.3, n 10: switching is favoured (optimal p > 1e-6)",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.3": {
+      "p_opt": 0.13185606,
+      "rate_opt": -0.13675745,
+      "rate_p0": -0.17833747,
+      "frac_at_p02": 0.99655078
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.3": {
+      "p_opt": 0.13185606,
+      "rate_opt": -0.13675745,
+      "rate_p0": -0.17833747,
+      "frac_at_p02": 0.99655078
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

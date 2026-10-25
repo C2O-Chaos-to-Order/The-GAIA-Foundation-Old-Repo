@@ -1,0 +1,147 @@
+{
+ "sim_id": "SIM-TR-NAT-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:05.416918+00:00",
+ "finished_utc": "2026-10-25T00:59:05.441531+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "68e59a8a3435fc60fd44e3f23cd7d8179ab0fb9fce656865ba38435fa238ef73",
+ "params_sha256": "9c4d73a9d5ec5d4ee3525c5ac6102ad6ede408d47e0df773d17ee778396961b9",
+ "results_sha256": "37dcdbacb5c45a8481124476c7518aa277f3e02e4029f16b15c75c09b525db85",
+ "results": {
+  "mode": "fluct",
+  "by_c": {
+   "0.07": {
+    "p_opt": 0.0,
+    "rate_opt": -0.03628535,
+    "rate_p0": -0.03628535,
+    "frac_at_p02": 0.99443255
+   },
+   "0.05": {
+    "p_opt": 0.0,
+    "rate_opt": -0.02564665,
+    "rate_p0": -0.02564665,
+    "frac_at_p02": 0.98883086
+   },
+   "0.01": {
+    "p_opt": 0.0,
+    "rate_opt": -0.00502517,
+    "rate_p0": -0.00502517,
+    "frac_at_p02": 0.978574
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "at p = 0 the growth rate equals the better pure strategy's",
+   "observed": [
+    -0.03628535,
+    -0.03628535
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with c_g 0.1 > c_i (0.07, 0.05, 0.01) the optimal switch rate is below 1e-6 (P104 Fig. 5a)",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.07": {
+      "p_opt": 0.0,
+      "rate_opt": -0.03628535,
+      "rate_p0": -0.03628535,
+      "frac_at_p02": 0.99443255
+     },
+     "0.05": {
+      "p_opt": 0.0,
+      "rate_opt": -0.02564665,
+      "rate_p0": -0.02564665,
+      "frac_at_p02": 0.98883086
+     },
+     "0.01": {
+      "p_opt": 0.0,
+      "rate_opt": -0.00502517,
+      "rate_p0": -0.00502517,
+      "frac_at_p02": 0.978574
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the growth penalty of switching at p 0.2 grows with the asymmetry (fraction of maximal growth falls as c_i falls)",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.07": {
+      "p_opt": 0.0,
+      "rate_opt": -0.03628535,
+      "rate_p0": -0.03628535,
+      "frac_at_p02": 0.99443255
+     },
+     "0.05": {
+      "p_opt": 0.0,
+      "rate_opt": -0.02564665,
+      "rate_p0": -0.02564665,
+      "frac_at_p02": 0.98883086
+     },
+     "0.01": {
+      "p_opt": 0.0,
+      "rate_opt": -0.00502517,
+      "rate_p0": -0.00502517,
+      "frac_at_p02": 0.978574
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.07": {
+      "p_opt": 0.0,
+      "rate_opt": -0.03628535,
+      "rate_p0": -0.03628535,
+      "frac_at_p02": 0.99443255
+     },
+     "0.05": {
+      "p_opt": 0.0,
+      "rate_opt": -0.02564665,
+      "rate_p0": -0.02564665,
+      "frac_at_p02": 0.98883086
+     },
+     "0.01": {
+      "p_opt": 0.0,
+      "rate_opt": -0.00502517,
+      "rate_p0": -0.00502517,
+      "frac_at_p02": 0.978574
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,415 @@
+{
+ "cycle": "ALD",
+ "checked_utc": "2026-10-24T19:58:20+00:00",
+ "summary": {
+  "Pass": 58
+ },
+ "checks": [
+  {
+   "claim_id": "ALD-NAT-01",
+   "source_id": "P46",
+   "phrase": "the ends of the curve (at low and high dioxygen) approach straight lines with slopes of 1",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-01",
+   "source_id": "P46",
+   "phrase": "This implies there is maximal cooperativity in the middle of the binding curve",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-03",
+   "source_id": "P53",
+   "phrase": "binding to each of the quaternary conformations is non-cooperative",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-03",
+   "source_id": "P53",
+   "phrase": "L (∼5 × 10 5 ) is the ratio of the T to R population at zero oxygen pressure",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-03",
+   "source_id": "P53",
+   "phrase": "The conclusion of MWC was based on the incorrect assumption that the Hill cooperativity parameter n is independent of pH",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-03",
+   "source_id": "P53",
+   "phrase": "δ T = δ T = 1",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-07",
+   "source_id": "P55",
+   "phrase": "the identifiability of the parameters is best for a case with 5 binding sites and 41 parameters",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-07",
+   "source_id": "P55",
+   "phrase": "systematic mutation of all binding sites and a global fit",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-12",
+   "source_id": "P62",
+   "phrase": "sum of two noncooperative components",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-12",
+   "source_id": "P62",
+   "phrase": "is inconsistent with the prediction of the simple two",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-16",
+   "source_id": "P64",
+   "phrase": "without having to extend it to include tertiary conformational changes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-NAT-16",
+   "source_id": "P64",
+   "phrase": "12 mM voxelotor",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-FOR-01",
+   "source_id": "P47",
+   "phrase": "Each rule can be expressed as the benefit-to-cost ratio of the altruistic act being greater than some critical value",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-FOR-01",
+   "source_id": "P47",
+   "phrase": "exceeds the cost-to-benefit ratio of the altruistic act: w > c / b",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-FOR-01",
+   "source_id": "P47",
+   "phrase": "This condition holds in the limit of weak selection",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-FOR-07",
+   "source_id": "P58",
+   "phrase": "(N − 2)a + (2N − 1)b > (N + 1)c + (2N − 4)d",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-FOR-07",
+   "source_id": "P58",
+   "phrase": "This minimum goes from 2/3 (N w ≪ 1) to 1 (for large N w)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-FOR-07",
+   "source_id": "P58",
+   "phrase": "which yields the one-third law",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-01",
+   "source_id": "P48",
+   "phrase": "Identity fusion describes the total overlap of personal and social identities",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-01",
+   "source_id": "P48",
+   "phrase": "external condemnation amplifies fusion to a deviant group",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-01",
+   "source_id": "P48",
+   "phrase": "research is yet to demonstrate how an individual might effectively de-fuse",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-03",
+   "source_id": "P52",
+   "phrase": "identity fusion was more strongly linked to violent pro‐group action across all contexts",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-03",
+   "source_id": "P52",
+   "phrase": "Group identification was consistently associated with peaceful pro‐group action",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-03",
+   "source_id": "P52",
+   "phrase": "the cross‐sectional nature of all three studies prevents us from making causal inferences",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-04",
+   "source_id": "P52",
+   "phrase": "1. Identity fusion 3.57 (1.85) – .82*** .60*** .21***",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-04",
+   "source_id": "P52",
+   "phrase": "while identity fusion was linked to violent pro‐group action ( β = .38",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-07",
+   "source_id": "P57",
+   "phrase": "THE RESIDUAL COVARIANCE MATRIX (THETA) IS NOT POSITIVE DEFINITE",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-07",
+   "source_id": "P57",
+   "phrase": "PROBLEM INVOLVING VARIABLE CENTRAL",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-10",
+   "source_id": "P61",
+   "phrase": "The present research provides partial evidence for the",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-10",
+   "source_id": "P61",
+   "phrase": "indicated a minimum sample size of 66 for an F-test",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-14",
+   "source_id": "P66",
+   "phrase": "we originated or extended identity fusion theory",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-SOC-14",
+   "source_id": "P66",
+   "phrase": "is likely inflated",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-01",
+   "source_id": "P49",
+   "phrase": "Allegiance and treatment quality were not as relevant for outcomes in this meta-analysis of RCTs as expected",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-01",
+   "source_id": "P49",
+   "phrase": "Only 10% of the studies showed allegiance in favour of HPT",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-01",
+   "source_id": "P49",
+   "phrase": "0.315 -.183 0.125 .144",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-06",
+   "source_id": "P56",
+   "phrase": "Developer involvement ( n = 243) 0 = no; 1 = yes −4.06 [−6.27, −1.85] −0.002 [−0.12, 0.11]",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-06",
+   "source_id": "P56",
+   "phrase": "stabilized around the year 2000",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-06",
+   "source_id": "P56",
+   "phrase": "28,916 families",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-09",
+   "source_id": "P54",
+   "phrase": "The risk of allegiance bias is lowered by the fact that the study steering group consists of both CBT and STPP therapists",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-APP-09",
+   "source_id": "P54",
+   "phrase": "would provide a power of 0.84",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-HUM-01",
+   "source_id": "P50",
+   "phrase": "the presence of bilingualism can decelerate this shift",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-HUM-01",
+   "source_id": "P50",
+   "phrase": "s 2 = 1.2553 > s 1 = 0.0691",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-HUM-08",
+   "source_id": "P60",
+   "phrase": "a dominant language, an officialised heritage language and a non-officialised heritage language interact",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-HUM-08",
+   "source_id": "P60",
+   "phrase": "developing such a model requires primary empirical data",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-HUM-11",
+   "source_id": "P65",
+   "phrase": "is the most frequently observed",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-HUM-11",
+   "source_id": "P65",
+   "phrase": "four recursive pathways",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-01",
+   "source_id": "P51",
+   "phrase": "a practical disposition to persist in an intrinsically valued (though not necessarily valuable) associational attachment",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-01",
+   "source_id": "P51",
+   "phrase": "Loyalty, like sincerity, is an executive virtue",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-01",
+   "source_id": "P51",
+   "phrase": "loyalty can be seen as a mechanism whereby we (at least temporarily) persist in our association with the institution",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-08",
+   "source_id": "P59",
+   "phrase": "Loyalty to a particular object is forfeited",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-08",
+   "source_id": "P59",
+   "phrase": "their loyalty should be given to the point at which it becomes clear that the institution is no longer capable of being recuperated",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-08",
+   "source_id": "P59",
+   "phrase": "The Old Testament writers were often occupied with the fickleness of human commitments",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-08",
+   "source_id": "P59",
+   "phrase": "the whistle should be blown only as a matter of last resort",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-09",
+   "source_id": "P63",
+   "phrase": "the hell of the irrevocable",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-09",
+   "source_id": "P63",
+   "phrase": "forgiveness does not restore the community to the innocent state of harmony",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-12",
+   "source_id": "P67",
+   "phrase": "but Ruth clave unto her",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-12",
+   "source_id": "P67",
+   "phrase": "whither thou goest, I will go",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ALD-PHI-12",
+   "source_id": "P67",
+   "phrase": "lest I mar mine own inheritance",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

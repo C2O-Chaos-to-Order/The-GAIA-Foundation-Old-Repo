@@ -1,0 +1,82 @@
+{
+ "sim_id": "SIM-TR-NAT-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:29:19.779942+00:00",
+ "finished_utc": "2026-10-25T01:29:19.793110+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "f1a55fbaa05a048e3200183c1c6ff6f96f814fb09513112f8c6a839afd93434e",
+ "params_sha256": "b86787850dee708f9a4ff503a3e0ed992f0866476ea1cec1b86e4a8c931f5563",
+ "results_sha256": "b3039b1ae60ad79bae143c010a3ae37edc01572395ad830d4e0326a97603b38c",
+ "results": {
+  "mode": "fluct",
+  "by_c": {
+   "0.1": {
+    "p_opt": 0.07400421,
+    "rate_opt": -0.04538572,
+    "rate_p0": -0.05268026,
+    "frac_at_p02": 0.99718308
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "at p = 0 the growth rate equals the better pure strategy's",
+   "observed": [
+    -0.05268026,
+    -0.05268026
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "20-generation periods: optimal p between 0.028 (50 generations) and 0.138 (10 generations)",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.1": {
+      "p_opt": 0.07400421,
+      "rate_opt": -0.04538572,
+      "rate_p0": -0.05268026,
+      "frac_at_p02": 0.99718308
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "mode": "fluct",
+    "by_c": {
+     "0.1": {
+      "p_opt": 0.07400421,
+      "rate_opt": -0.04538572,
+      "rate_p0": -0.05268026,
+      "frac_at_p02": 0.99718308
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

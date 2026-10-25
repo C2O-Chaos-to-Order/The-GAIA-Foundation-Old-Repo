@@ -1,0 +1,245 @@
+{
+ "sim_id": "SIM-TR-PHI-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:29:11.150518+00:00",
+ "finished_utc": "2026-10-25T00:29:11.394973+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "7cfc5ad28d37bb306bcad6b9a49842a67e3c8d5ad109d8ef2adeafcec8c1ca0e",
+ "params_sha256": "630b1b4a52d86990cd2b8450235f127c1957b954805f3e434d277f665d470e52",
+ "results_sha256": "a9016ccb4a97df42d5752a703e89ccf073a60b9e6262e3d1accca75b0f755fd0",
+ "results": {
+  "scenarios": {
+   "constructivist_indep": {
+    "0.0": 0.0023,
+    "0.4": -0.0022,
+    "0.8": -0.0006
+   },
+   "constructivist_heritage": {
+    "0.0": 0.3944,
+    "0.4": 0.3462,
+    "0.8": 0.2936
+   },
+   "essentialist": {
+    "0.0": 0.0706,
+    "0.4": 0.0862,
+    "0.8": 0.103
+   },
+   "essentialist_thin": {
+    "0.0": 0.1635,
+    "0.4": 0.1831,
+    "0.8": 0.1935
+   }
+  },
+  "V1_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1, no noise, no scheme, no overlay: cross-tradition report correlation = 1 within 1e-9",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "strong constructivism with pervasively different schemes (Katz's (A) and (B)): cross-tradition report correlation |r| < 0.03 at every training level",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0023,
+      "0.4": -0.0022,
+      "0.8": -0.0006
+     },
+     "constructivist_heritage": {
+      "0.0": 0.3944,
+      "0.4": 0.3462,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0706,
+      "0.4": 0.0862,
+      "0.8": 0.103
+     },
+     "essentialist_thin": {
+      "0.0": 0.1635,
+      "0.4": 0.1831,
+      "0.8": 0.1935
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "strong constructivism with a shared heritage component (h 0.5): cross-tradition correlation > 0.15 without any common core (d 0)",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0023,
+      "0.4": -0.0022,
+      "0.8": -0.0006
+     },
+     "constructivist_heritage": {
+      "0.0": 0.3944,
+      "0.4": 0.3462,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0706,
+      "0.4": 0.0862,
+      "0.8": 0.103
+     },
+     "essentialist_thin": {
+      "0.0": 0.1635,
+      "0.4": 0.1831,
+      "0.8": 0.1935
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "essentialism (w 0.5): cross-tradition correlation rises with deautomatization (d 0 < 0.4 < 0.8)",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0023,
+      "0.4": -0.0022,
+      "0.8": -0.0006
+     },
+     "constructivist_heritage": {
+      "0.0": 0.3944,
+      "0.4": 0.3462,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0706,
+      "0.4": 0.0862,
+      "0.8": 0.103
+     },
+     "essentialist_thin": {
+      "0.0": 0.1635,
+      "0.4": 0.1831,
+      "0.8": 0.1935
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "strong constructivism with heritage: training does not raise agreement (r at d 0.8 below r at d 0)",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0023,
+      "0.4": -0.0022,
+      "0.8": -0.0006
+     },
+     "constructivist_heritage": {
+      "0.0": 0.3944,
+      "0.4": 0.3462,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0706,
+      "0.4": 0.0862,
+      "0.8": 0.103
+     },
+     "essentialist_thin": {
+      "0.0": 0.1635,
+      "0.4": 0.1831,
+      "0.8": 0.1935
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "a thick interpretive overlay masks a core: essentialist thin reports (lam 0) agree more across traditions than thick ones (lam 1) at d 0",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0023,
+      "0.4": -0.0022,
+      "0.8": -0.0006
+     },
+     "constructivist_heritage": {
+      "0.0": 0.3944,
+      "0.4": 0.3462,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0706,
+      "0.4": 0.0862,
+      "0.8": 0.103
+     },
+     "essentialist_thin": {
+      "0.0": 0.1635,
+      "0.4": 0.1831,
+      "0.8": 0.1935
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "scenarios": {
+     "constructivist_indep": {
+      "0.0": 0.0023,
+      "0.4": -0.0022,
+      "0.8": -0.0006
+     },
+     "constructivist_heritage": {
+      "0.0": 0.3944,
+      "0.4": 0.3462,
+      "0.8": 0.2936
+     },
+     "essentialist": {
+      "0.0": 0.0706,
+      "0.4": 0.0862,
+      "0.8": 0.103
+     },
+     "essentialist_thin": {
+      "0.0": 0.1635,
+      "0.4": 0.1831,
+      "0.8": 0.1935
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 7,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 5,
+ "n_supported": 5,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
