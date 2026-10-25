@@ -300,7 +300,7 @@ def run(cycle_dir, it, outdir=None):
         m["limitation_families_in_all_four"] = sorted(f for f in lrx if all(lim[f][t] for t in TOPICS))
         def diff(a, b, key):
             A = {r[key]: r for r in csvrows(P(a))}; B = {r[key]: r for r in csvrows(P(b))}
-            strip = lambda r: {k: v for k, v in r.items() if k not in ("anchor", "change_vs_prev")} if r else r
+            strip = lambda r: {k: v for k, v in r.items() if k not in ("anchor", "change_vs_prev", "tradition")} if r else r
             return sorted(k for k in set(A) | set(B) if strip(A.get(k)) != strip(B.get(k)))
         pv = x3["previous"]
         m["claims_changed_vs_previous"] = diff(pv["claims"], cfg["judgments"]["claims"], "claim_id")

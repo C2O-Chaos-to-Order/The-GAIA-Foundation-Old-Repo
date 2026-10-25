@@ -73,3 +73,6 @@ v41 (`v41-cycles-0-4-mr-track-abcd-phases-x12-conn0ab`), built from the unchange
 - PASS needs C6-1 to C6-12, C6-18, C6-20 and C6-21 in every iteration. It also needs identical reruns of the Baseline, x3 and x6 (worktree and fresh clone), the Maps rebuild, manifests, the validator and tests.
 - C6-13 to C6-17 and C6-19 are reported as they fall.
 - Content stays Proposed, gate INDETERMINATE.
+
+## Amendment before the run (pushed separately, still before any x6 run)
+The change census compared whole rows, so the new `tradition` column would have marked all 23 carried claims as changed. It now ignores `tradition`, like `anchor` and `change_vs_prev`. This affects no check, and the Baseline and x3 records still reproduce identically. Only C6-1 to C6-12 have been dry-run.
