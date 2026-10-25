@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-APP-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:47.982243+00:00",
+ "finished_utc": "2026-10-25T00:01:48.429688+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-11  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "ebae3c597cdc4a50938285a04eab45baf5583f70bbcd630e77642a295c885334",
+ "params_sha256": "3ed89682d46cf170cd7a2a7e1b7385a11bd7946d6d690e37a41fddef8d019495",
+ "results_sha256": "78359fadffd68e1cc43514b33a04ac75902e7a8b127927fac1f47f8f52e222c2",
+ "results": {
+  "items": {
+   "P_base_1d_res0": {
+    "value": 0.919091,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_1d_res2500": {
+    "value": 0.858652,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P88 model: residence at 2500 m vs 1 m lowers the 1-day risk by more than 0.05",
+   "observed": {
+    "items": {
+     "P_base_1d_res0": {
+      "value": 0.919091,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_1d_res2500": {
+      "value": 0.858652,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "P_base_1d_res0": {
+      "value": 0.919091,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_1d_res2500": {
+      "value": 0.858652,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
