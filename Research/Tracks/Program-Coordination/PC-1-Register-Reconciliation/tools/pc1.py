@@ -518,6 +518,10 @@ def render(cycle_dir, it):
         both = sorted(set(m["draft_only_domains"]) & set(m["pc4_no_primary_report"]))
         L.append(f"\n### Dependency order\n\n- Named dependency edges: {m['dependency_edges']}\n- Inversions (a domain scheduled before a dependency, or the dependency unscheduled): roadmap {len(m['inversions_roadmap'])}, proposed {len(m['inversions_proposed'])} (delta {m['inversions_delta']})\n- Removed by the proposals: " + ", ".join(sh(x) for x in sorted(set(m["inversions_roadmap"]) - set(m["inversions_proposed"]))) + "\n- Remaining under the proposals: " + ", ".join(sh(x) for x in m["inversions_proposed"]))
         L.append(f"\n### Draft-only and report-less domains\n\n- Draft-only (every direct anchor is in the ToG draft): {len(m['draft_only_domains'])}: " + ", ".join(sh(x) for x in m["draft_only_domains"]) + f"\n- No PC-4 primary report: {len(m['pc4_no_primary_report'])}\n- Both: {len(both)}: " + ", ".join(sh(x) for x in both))
+    if "required_roles_missing" in m:
+        L.append(f"\n### Reviewer roles required by Risk Levels\n\n- Scope tiers: {m['tier_counts']}\n- Domains governing W-overlay products: " + (", ".join(sh(x) for x in m["w_governing_domains"]) or "none (rule off)") + f"\n- Missing required roles: {len(m['required_roles_missing'])} {m['required_roles_missing_by_role']}")
+        L.append(f"\n### Dependency structure\n\n- Cyclic components: {len(m['cyclic_components'])}; largest: {m['largest_component']} domains; edges inside cyclic components: {m['intra_component_edges']} of {m['dependency_edges']}\n- Domains outside every cycle: " + ", ".join(sh(x) for x in m["acyclic_domains"]))
+        L.append(f"\n### Owner decision packet\n\n- {m['decisions']} decisions cover {m['open_issues']} open issues; uncovered: {len(m['open_issues_without_decision'])}")
     return "\n".join(L) + "\n"
 
 if __name__ == "__main__":
