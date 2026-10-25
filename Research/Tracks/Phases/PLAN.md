@@ -66,3 +66,10 @@ Sections 1-8 above are the v1 five-phase plan, kept unchanged (frozen copy: `PLA
 - **Synthesis (§7):** moves to after Transcendence x12 and becomes a six-phase synthesis. **Not yet written** (owner: do not write it yet).
 - Tooling: `gaia_tools.phases` registers `TR` and writes the overlay files; `build15/sims/sim_app.py` `ordlogit_mc` takes an optional `v1_label` (the default text is unchanged so earlier records reproduce).
 - **Synthesis written (2026-10-25, owner request):** `SYNTHESIS.md` on `research/phase-synthesis` (stacked on `research/phase-transcendence-x12`), with SPEC, aggregation script, data and EXECUTION_RECORD in `Synthesis/`. It adds no claims and no Maps version (§6 and this amendment assign Maps versions to cycles only). The line above recording it as not yet written is kept as history.
+
+## 10. Amendment v3 (2026-10-25): completion record
+Sections 1-9 are kept unchanged; the text as it stood before this amendment is frozen as `PLAN_v2_six_phases.md` (v1: `PLAN_v1_five_phases.md`). This amendment records status only and changes no method.
+- **Six phases complete** (Baseline, x3, x6, x9, x12 each; 1,116 runs; Maps v9-v38), all merged to `main` by the owner: Divergence (PRs #11, #13), Insurgence (#14), Allegiance (#15, #16), Convergence (#24; x12 @ bbf85f11), Ascendence (#25; x12 @ 54d6f083), Transcendence (#26; x12 @ 3ae9bf57).
+- **Six-phase synthesis written** (`SYNTHESIS.md`, `Synthesis/`), merged as PR #27 (@ 84b382bf). It supersedes the §7 five-phase synthesis and the §9 line "Not yet written", which are kept as history. Its pre-registered check V3 failed (README §10 later pattern) and is reported, not hidden.
+- **Still pending owner decisions** (not changed here): the matrix re-dimension 625 -> 750; Quantum's role; independent reviewers; the synthesis's carried issues (duplicate sources, over-labelled links, the §10 ×D/×E ambiguity, the empty-pass counting rule), tracked in `Research/WORK_QUEUE.md` §L.
+- Every gate stays INDETERMINATE (independent review pending).
