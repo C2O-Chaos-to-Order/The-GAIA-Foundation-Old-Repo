@@ -1,0 +1,76 @@
+{
+ "sim_id": "SIM-TR-PHI-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:31.907410+00:00",
+ "finished_utc": "2026-10-25T01:30:31.984936+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-12  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "ce6f25bbdb2903e7978759692d9aadd32575ddf9cc23ebb5fff3aaeb81d03596",
+ "params_sha256": "8d4d4ee3876fa8a01d471f0f9e6ce4886b00960a441858cf9f6320d8c31cea9e",
+ "results_sha256": "ed2f399dfc000909fc01bdf0690d665e0dc03f9a8ace923ca92ada5206262b8e",
+ "results": {
+  "scenarios": {
+   "essentialist": {
+    "0.0": 0.0873,
+    "0.4": 0.1145,
+    "0.8": 0.1474
+   }
+  },
+  "V1_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1, no noise, no scheme, no overlay: cross-tradition report correlation = 1 within 1e-9",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "low noise (sigma 0.5): essentialist agreement rises with deautomatization",
+   "observed": {
+    "scenarios": {
+     "essentialist": {
+      "0.0": 0.0873,
+      "0.4": 0.1145,
+      "0.8": 0.1474
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "scenarios": {
+     "essentialist": {
+      "0.0": 0.0873,
+      "0.4": 0.1145,
+      "0.8": 0.1474
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
