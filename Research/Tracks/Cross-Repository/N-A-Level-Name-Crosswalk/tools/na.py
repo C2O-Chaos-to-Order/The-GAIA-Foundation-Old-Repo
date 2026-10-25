@@ -405,7 +405,7 @@ def option_review(F, rev, op, rule):
     af = sorted(r[0] for r in rows if typ.get(r[0], ("", ""))[1] == "align-foundation" and r[3] > 0)
     return rows, probs, mism, surv, af, deps_cache
 
-def evidence_check(F, cf, xw, m, jdir):
+def evidence_check(F, cf, xw, m, jdir, v2=False):
     ids = {r["row_id"] for r in xw}; bad = []
     for c in cf:
         for part in [x.strip() for x in c["evidence"].split(";")]:
@@ -413,7 +413,7 @@ def evidence_check(F, cf, xw, m, jdir):
             for tok in [t.strip() for t in part.split(",")]:
                 for x in re.findall(r"\bX\d+\b", tok):
                     if x not in ids: bad.append(f"{c['conflict_id']}: {x}")
-                if re.fullmatch(r"[a-z][a-z0-9_]*(\.[a-z0-9_]+)?", tok):
+                if re.fullmatch(r"[a-z][a-z0-9_]*(\.[a-z0-9_]+)?", tok) and not (v2 and tok.endswith(".csv")):
                     k, _, sub = tok.partition(".")
                     if k not in m or (sub and (not isinstance(m[k], dict) or sub not in m[k])):
                         bad.append(f"{c['conflict_id']}: metric {tok}")
@@ -633,7 +633,22 @@ def run(cycle_dir, it, outdir=None):
     m["foundation_ladder_symdiff"] = sorted(set(na_) ^ set(b))
     m["problems"] = problems
     if cfg.get("x9"):
-        m["evidence_dangling"] = evidence_check(F, cf, xw, m, os.path.dirname(P(cfg["judgments"]["conflicts"])))
+        m["evidence_dangling"] = evidence_check(F, cf, xw, m, os.path.dirname(P(cfg["judgments"]["conflicts"])),
+                                                v2=bool(cfg.get("x12")))
+    if cfg.get("x12"):
+        x12 = cfg["x12"]
+        doc = rd(P(x12["crosswalk_doc"]))
+        xids = {r["row_id"] for r in xw}; oids = {o["option_id"] for o in op}; cids = {c["conflict_id"] for c in cf}
+        cited_x = set(re.findall(r"\bX\d+\b", doc)); cited_o = set(re.findall(r"\bK\d-[A-Z]\b", doc))
+        m["doc_unknown_ids"] = sorted((cited_x - xids) | (cited_o - oids))
+        m["doc_missing_options"] = sorted(oids - cited_o)
+        m["doc_missing_conflicts"] = sorted(c for c in cids if not re.search(r"\b" + c + r"\b", doc))
+        def diff(a, b, key):
+            A = {r[key]: r for r in csvrows(P(a))}; B = {r[key]: r for r in csvrows(P(b))}
+            return sorted(k for k in set(A) | set(B) if A.get(k) != B.get(k))
+        m["crosswalk_rows_changed_vs_previous"] = diff(x12["previous"]["crosswalk"], cfg["judgments"]["crosswalk"], "row_id")
+        m["options_changed_vs_previous"] = diff(x12["previous"]["options"], cfg["judgments"]["options"], "option_id")
+        m["conflicts_changed_vs_previous"] = diff(x12["previous"]["conflicts"], cfg["judgments"]["conflicts"], "conflict_id")
     # 9 boundary: own folder vs suite and vs GAIA-Documentation mirror (current cycle outputs included via data dir)
     W = cfg["boundary_window"]
     here = os.path.abspath(cycle_dir)
@@ -654,6 +669,8 @@ def run(cycle_dir, it, outdir=None):
         checks.append({"id": c["id"], "hypothesis": c["hypothesis"], "metric": c["metric"], "value": v,
                        "op": c["op"], "threshold": c["threshold"], "result": "PASS" if res else "FAIL"})
     inputs = {k: hashlib.sha256(open(P(v), "rb").read()).hexdigest() for k, v in sorted(cfg["judgments"].items())}
+    if cfg.get("x12"):
+        inputs["crosswalk_doc"] = hashlib.sha256(open(P(cfg["x12"]["crosswalk_doc"]), "rb").read()).hexdigest()
     if cfg.get("x9"):
         inputs["option_review"] = hashlib.sha256(open(P(cfg["x9"]["option_review"]), "rb").read()).hexdigest()
     if cfg.get("x6"):
@@ -732,6 +749,10 @@ def render(cycle_dir, it):
         L += [f"| {k} | {len(v)}: {', '.join(v)} |" for k, v in m["repro_dependents"].items()]
         L.append(f"\nalign-foundation options whose targets are named by other records' configs or tools: {', '.join(m['align_foundation_with_repro_dependents']) or 'none'}. Per-option ripple in `option_ripple.csv`.")
         L.append(f"\nWork Queue tablet-file claim: {m['wq_tablet_files_claim']}; tablet files in the listing: {m['listing_tablet_files']}. Dangling conflict evidence citations: {', '.join(m['evidence_dangling']) or 'none'}.")
+    if "doc_unknown_ids" in m:
+        L.append("\n### x12 consolidation\n")
+        L.append(f"CROSSWALK.md: unknown IDs {m['doc_unknown_ids'] or 'none'}; options not covered {m['doc_missing_options'] or 'none'}; conflicts not covered {m['doc_missing_conflicts'] or 'none'}.")
+        L.append(f"\nChanged against x9: crosswalk rows {m['crosswalk_rows_changed_vs_previous'] or 'none'}; options {m['options_changed_vs_previous'] or 'none'}; conflicts {m['conflicts_changed_vs_previous'] or 'none'}.")
     L.append(f"\nFoundation ladder difference (README §2 vs Work Queue §C): {', '.join(m['foundation_ladder_symdiff']) or 'none'}.")
     return "\n".join(L) + "\n"
 
