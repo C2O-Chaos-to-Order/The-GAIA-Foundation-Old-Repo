@@ -140,6 +140,41 @@ def _stage_sequences(F):
                 out.setdefault(tuple(seq), []).append(os.path.basename(r["path"]).split("_")[0].title())
     return out
 
+STAGE_WORDS_V2 = r"\b(Nigredo|Albedo|Citrinitas|Rubedo|Celestial|Ember|Cauda Pavonis)\b"
+SEQ_MARK_V2 = re.compile(r"(sequence[^:\n]*:|Derivation:|^\s*Nigredo(?: \([A-Za-z]+\))?(?:,| to | →))")
+
+def _seqs_v2(text):
+    """v2 (x6): candidate segments are (a) arrow chains bounded by ':' or '.', (b) the first sentence
+    after a sequence marker; stage words kept in order; a segment needs >= 3 stage words."""
+    out = []
+    for line in text.replace("**", "").splitlines():
+        segs = re.findall(r"[^.:\u2192]*(?:\u2192[^.\u2192]*)+", line)
+        m = SEQ_MARK_V2.search(line)
+        if m:
+            segs.append(re.split(r"(?<=[a-z\)])\. ", line[m.start():], maxsplit=1)[0])
+        for seg in segs:
+            seq = re.findall(STAGE_WORDS_V2, seg)
+            if len(seq) >= 3 and seq not in out:
+                out.append(seq)
+    return out
+
+def _stage_sequences_v2(F):
+    out = {}
+    for r in F["ledger"]:
+        if r["path"].endswith("_TABLET.md"):
+            for seq in _seqs_v2(F["doc"](r["path"])):
+                out.setdefault(tuple(seq), []).append(os.path.basename(r["path"]).split("_")[0].title())
+    return out
+
+def ex_stage_albedo(F):
+    return _seqs_v2(F["doc"]("Tablets/ALBEDO_TABLET.md"))[0]
+
+def ex_stage_citrine(F):
+    return _seqs_v2(F["doc"]("Tablets/CITRINE_TABLET.md"))[0]
+
+def ex_stage_ruby_arc(F):
+    return [s for s in _seqs_v2(F["doc"]("Tablets/RUBY_TABLET.md")) if "Ember" in s][0]
+
 def ex_stage4(F):
     return list(min(_stage_sequences(F), key=len))
 
@@ -251,6 +286,66 @@ def tablet_census_x3(F):
                 claims.setdefault(f"{key}={v}", set()).add(name)
     return {"stages": stages, "dangling": dangling, "phase2": phase2,
             "claims": {k: sorted(v) for k, v in sorted(claims.items())}, "sequences": _stage_sequences(F)}
+
+def stage_census_v2(F):
+    rows = []
+    for r in sorted(F["listing_tablets"], key=lambda r: r["path"]):
+        if not r["path"].endswith("_TABLET.md"):
+            continue
+        t = F["doc"](r["path"]).replace("**", "")
+        m = re.search(r"^Governing Stage:? ([^\n]+)|^\| (?:Governing )?Stage \| ([^|]+) \|", t, re.M)
+        st = (m.group(1) or m.group(2)).strip() if m else ""
+        rows.append([os.path.basename(r["path"]).split("_")[0].title(), st])
+    return rows
+
+ORD = {"First": 1, "Second": 2, "Third": 3, "Fourth": 4, "Fifth": 5, "Sixth": 6, "Seventh": 7}
+
+def position_claims(F):
+    zero, laws = set(), []
+    for r in sorted(F["listing_tablets"], key=lambda r: r["path"]):
+        if not r["path"].endswith("_TABLET.md"):
+            continue
+        name = os.path.basename(r["path"]).split("_")[0].title(); t = F["doc"](r["path"])
+        if re.search(r"Tablet 0\b|Zeroth Tablet", t):
+            zero.add(name)
+        for mm in re.finditer(r"\b(\w+),? (?:is )?position 0\b", t):
+            if mm.group(1).istitle() and mm.group(1) not in ("Position",):
+                zero.add(mm.group(1))
+        mm = re.search(r"^## The (\w+) Hermetic Law of GAIA|^\*The (\w+) Hermetic Law of GAIA\*", t, re.M)
+        if mm:
+            laws.append([name, ORD.get(mm.group(1) or mm.group(2), mm.group(1) or mm.group(2))])
+    return sorted(zero), laws
+
+def phase_senses(F, rows):
+    t = F["doc"]("Tablets/MATRIX-COMBINED.md")
+    line = [l for l in t.splitlines() if l.startswith("- **Phase**")][0]
+    gl = {m.group(1): m.group(2) for m in re.finditer(r"(\w+) is ([a-z ]+)\.", line)}
+    bad = []
+    for r in rows:
+        want = None if r["tablets_gloss"] == "(none)" else r["tablets_gloss"]
+        if gl.get(r["phase"]) != want:
+            bad.append(f"{r['phase']}: tablets gloss {gl.get(r['phase'])!r}")
+        fp = os.path.join(F["repo"], r["foundation_file"])
+        if not os.path.exists(fp) or r["foundation_anchor"] not in rd(fp):
+            bad.append(f"{r['phase']}: foundation anchor not found")
+        if r["relation"] not in RELATIONS or r["label"] not in LABELS:
+            bad.append(f"{r['phase']}: relation/label")
+    return gl, bad
+
+def meta_census(F, cfgm):
+    rx_r, rx_m = re.compile(cfgm["reflexive"], re.I), re.compile(cfgm["metaphysical"], re.I)
+    tot = {"reflexive_files": 0, "metaphysical_files": 0}
+    rep = {"reflexive": 0, "metaphysical": 0}; by = {}
+    for r in F["all_listing"]:
+        t = F["doc"](r["path"])
+        a, b = len(rx_r.findall(t)), len(rx_m.findall(t))
+        tot["reflexive_files"] += a > 0; tot["metaphysical_files"] += b > 0
+        mm = re.match(re.escape(G) + r"(\w+)-(Human|AI)-\w+ Research Report\.md$", r["path"])
+        if mm:
+            by.setdefault(mm.group(1), [0, 0]); by[mm.group(1)][0] += a; by[mm.group(1)][1] += b
+            if mm.group(1) == "Meta":
+                rep["reflexive"] += a; rep["metaphysical"] += b
+    return tot, rep, dict(sorted(by.items()))
 
 def vocab_census(F, patterns):
     files = [r["path"] for r in F["all_listing"]]
@@ -415,6 +510,28 @@ def run(cycle_dir, it, outdir=None):
                 cov.add((r["from_scheme"], r["from_term"]))
                 if r["to_term"] != "(none)": cov.add((r["to_scheme"], r["to_term"]))
             m["strict_unmapped_terms"] = sorted(f"{a}:{t}" for a, ts in terms.items() for t in ts if (a, t) not in cov)
+    # 6c x6 additions (behind config key)
+    if cfg.get("x6"):
+        x6 = cfg["x6"]
+        F.setdefault("listing_tablets", [r for r in F["all_listing"] if r["path"].startswith("Tablets/")])
+        seqs = _stage_sequences_v2(F)
+        m["stage_sequences_v2"] = {" > ".join(k): sorted(v) for k, v in sorted(seqs.items())}
+        m["stage_sequence_variants_v2"] = len(seqs)
+        sc = stage_census_v2(F)
+        wcsv(os.path.join(data, "tablet_stages_v2.csv"), ["tablet", "governing_stage"], sc)
+        m["stage_none_stated_v2"] = sorted(n for n, st in sc if not st)
+        z, laws = position_claims(F)
+        m["position0_claimants"] = z; m["hermetic_law_numbers"] = laws
+        nums = [n for _, n in laws if isinstance(n, int)]
+        m["hermetic_law_gaps"] = [k for k in range(1, max(nums) + 1) if k not in nums] if nums else []
+        ps = csvrows(P(x6["phase_senses"]))
+        gl, bad = phase_senses(F, ps)
+        m["tablets_phase_glosses"] = dict(sorted(gl.items()))
+        m["phase_sense_mismatches"] = bad
+        m["phase_sense_relations"] = {r["phase"]: r["relation"] for r in ps}
+        tot, rep, by = meta_census(F, x6["meta_patterns"])
+        m["meta_sense_files"] = tot; m["meta_reports_counts"] = rep; m["meta_counts_by_report_level"] = by
+        m["meta_reports_reflexive_minus_metaphysical"] = rep["reflexive"] - rep["metaphysical"]
     # 7 vocabulary census across the whole listed corpus
     vc = vocab_census(F, cfg["vocab_patterns"])
     wcsv(os.path.join(data, "vocab_census.csv"), ["key", "regex", "files", "of"], vc)
@@ -444,6 +561,8 @@ def run(cycle_dir, it, outdir=None):
         checks.append({"id": c["id"], "hypothesis": c["hypothesis"], "metric": c["metric"], "value": v,
                        "op": c["op"], "threshold": c["threshold"], "result": "PASS" if res else "FAIL"})
     inputs = {k: hashlib.sha256(open(P(v), "rb").read()).hexdigest() for k, v in sorted(cfg["judgments"].items())}
+    if cfg.get("x6"):
+        inputs["phase_senses"] = hashlib.sha256(open(P(cfg["x6"]["phase_senses"]), "rb").read()).hexdigest()
     inputs["ledger"] = hashlib.sha256(open(P(cfg["ledger"]), "rb").read()).hexdigest()
     inputs["listing"] = hashlib.sha256(open(P(cfg["listing"]), "rb").read()).hexdigest()
     inputs["foundation_readme_blob"] = blob_sha(os.path.join(F["repo"], "Research/README.md"))
@@ -498,6 +617,17 @@ def render(cycle_dir, it):
         L.append(f"\nUnresolved 'Baseline preserved' references: {len(m['dangling_baseline_refs'])}. Tablets ending 'proceed to Phase 2': {m['tablets_awaiting_phase2']}. Same-sense rows: {m['same_sense_rows']}, of which Established: {m['same_sense_rows_strict']}.")
         if "strict_unmapped_terms" in m:
             L.append(f"\nStrict rule: {len(m['strict_unmapped_terms'])} terms lose their only row: " + ", ".join(m["strict_unmapped_terms"]) + ".")
+    if "stage_sequences_v2" in m:
+        L.append("\n### x6 tablet census\n\n| Stated stage sequence (v2 extractor) | Tablets |\n|---|---|")
+        L += [f"| {k} | {', '.join(v)} |" for k, v in m["stage_sequences_v2"].items()]
+        L.append(f"\nTablets with no governing stage found by the v2 census: {', '.join(m['stage_none_stated_v2']) or 'none'} (per-tablet values in `tablet_stages_v2.csv`).")
+        L.append(f"\nPosition-0 claimants: {', '.join(m['position0_claimants'])}. Hermetic Law numbers: " + ", ".join(f"{a} {b}" for a, b in m["hermetic_law_numbers"]) + f"; gaps: {m['hermetic_law_gaps'] or 'none'}.")
+        L.append("\n| Phase | Tablets gloss | Relation to Foundation sense |\n|---|---|---|")
+        L += [f"| {k} | {m['tablets_phase_glosses'].get(k, '(none)')} | {v} |" for k, v in m["phase_sense_relations"].items()]
+        L.append(f"\nPhase-sense mismatches: {len(m['phase_sense_mismatches'])}.")
+        L.append("\n| Report level | Reflexive meta- markers | Metaphysic- terms |\n|---|---|---|")
+        L += [f"| {k} | {a} | {b} |" for k, (a, b) in m["meta_counts_by_report_level"].items()]
+        L.append(f"\nFiles with any reflexive marker: {m['meta_sense_files']['reflexive_files']}; with any metaphysic- term: {m['meta_sense_files']['metaphysical_files']}.")
     L.append(f"\nFoundation ladder difference (README §2 vs Work Queue §C): {', '.join(m['foundation_ladder_symdiff']) or 'none'}.")
     return "\n".join(L) + "\n"
 
