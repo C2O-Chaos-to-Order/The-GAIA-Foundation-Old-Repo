@@ -22,7 +22,7 @@ A manual reading shows that decision D-10 lists all 11 b9 domains, so in substan
 1. **The proposed reviewer roles fall well short of what Risk Levels requires** (Plausible, given the tier judgments). 84 required roles are missing:
    - `auditor` on 36 domains. Every domain standard is RL-2, and RL-2 work must be covered by the next audit.
    - `community-rep` on 24 domains and `ethics-rights` on 22. These follow from RL-3 or higher, or from the W overlay.
-   - `independent` on 2 domains: the RL-5 domains 016 and 017.
+   - `independent` on 2 domains: the RL-5 domains 017 and 037 (016 already has it).
 
    Turning the W keyword overlay off removes only 3 missing roles (84 → 81). Nearly all of the shortfall comes from the tiers themselves, not from the keyword scan.
 
