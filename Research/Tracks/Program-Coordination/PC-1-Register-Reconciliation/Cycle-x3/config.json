@@ -1,0 +1,147 @@
+{
+  "cycle": "x3",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "repo_root": "../../../../..",
+  "domains": "../judgments/domains_x3.csv",
+  "audit_map": "../judgments/audit_map_x3.csv",
+  "roadmap": "../judgments/roadmap_c0.csv",
+  "pc4_coverage": "../../PC-4-Research-to-Domain-Map/Cycle-x12/iter-2/data/coverage_domains.csv",
+  "pc4_tog24": "../../PC-4-Research-to-Domain-Map/judgments/tog24_x12.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "expected_mismatches": [
+    "GAIA-TOT-024",
+    "GAIA-TOT-025",
+    "GAIA-TOT-035",
+    "GAIA-TOT-038"
+  ],
+  "boundary_window": 80,
+  "iterations": {
+    "1": {
+      "home_rule": "as_judged"
+    },
+    "2": {
+      "home_rule": "always_new"
+    },
+    "3": {
+      "home_rule": "no_planned"
+    }
+  },
+  "checks": [
+    {
+      "id": "X3-1",
+      "hypothesis": "Exactly one row for each of the 45 register domains",
+      "metric": "domain_rows_ok",
+      "op": "eq",
+      "threshold": 45
+    },
+    {
+      "id": "X3-2",
+      "hypothesis": "Every row passes integrity (as C0-2), and every audit row names exactly one primary domain",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-3",
+      "hypothesis": "Every cited anchor resolves in this branch",
+      "metric": "anchors_unresolved",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-4",
+      "hypothesis": "Every Baseline anchor has a support review (direct, partial or none)",
+      "metric": "prior_anchors_unreviewed",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-5",
+      "hypothesis": "Every x3 anchor has a review, and none reviewed as 'none' is still cited",
+      "metric": "anchors_unsupported",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-6",
+      "hypothesis": "Every domain keeps at least one anchor reviewed 'direct'",
+      "metric": "domains_without_direct_anchor",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-7",
+      "hypothesis": "Every non-PASS audit item names a remedy home equal to its primary domain's canonical home",
+      "metric": "open_remedy_mismatch",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-8",
+      "hypothesis": "Every cited source other than a domain's home is classified in the authority register",
+      "metric": "authority_unclassified",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-9",
+      "hypothesis": "Every wave/priority mismatch has a proposal for the owner",
+      "metric": "mismatches_without_proposal",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-10",
+      "hypothesis": "b9 and the four expected mismatches still reproduce",
+      "metric": "b9_symmetric_difference",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-11",
+      "hypothesis": "Adoption boundary: no new file overlaps the suite in an 80-character window, this run's own data outputs included (Baseline's two known files excepted)",
+      "metric": "boundary_new_overlaps",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-12",
+      "hypothesis": "Ignoring existing files (always_new) leaves 7 domains whose existing operative file becomes a competing source",
+      "metric": "competing_sources_under_rule",
+      "op": "eq",
+      "threshold": 7,
+      "iterations": [
+        2
+      ]
+    },
+    {
+      "id": "X3-13",
+      "hypothesis": "Ignoring only planned files (no_planned) leaves exactly 1 such domain (045)",
+      "metric": "competing_sources_under_rule",
+      "op": "eq",
+      "threshold": 1,
+      "iterations": [
+        3
+      ]
+    },
+    {
+      "id": "X3-14",
+      "hypothesis": "At most 2 domains with home type 'shared' (no drift toward split homes)",
+      "metric": "home_type_counts.shared",
+      "op": "le",
+      "threshold": 2,
+      "iterations": [
+        1
+      ]
+    }
+  ],
+  "prior_domains": "../judgments/domains_c0.csv",
+  "anchor_review": "../judgments/anchor_review_x3.csv",
+  "authority": "../judgments/authority_x3.csv",
+  "wave_proposals": "../judgments/wave_proposals_x3.csv",
+  "title_style": "short",
+  "boundary_known": [
+    "Cycle-0-Baseline/TABLES.md",
+    "Cycle-0-Baseline/iter-1/data/reconciliation.csv"
+  ]
+}

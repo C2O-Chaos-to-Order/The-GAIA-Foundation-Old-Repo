@@ -1,0 +1,11 @@
+planned_file,domains,relation,basis
+GOVERNANCE/TOTALITY_OF_GOVERNANCE.md,GAIA-TOT-045,home,planned charter file is 045's home
+GOVERNANCE/DOMAIN_STANDARDS/,NEW,home,folder of the new and shared domain homes
+GOVERNANCE/CONTROL_MATRIX.csv,GAIA-TOT-045 GAIA-TOT-007,index,controls across domains; reviewed under governance-of-governance and verification
+GOVERNANCE/DECISION_REGISTER.csv,GAIA-TOT-042 GAIA-TOT-002,record,decision records (ToG §7.3) under decision method and decision rights
+GOVERNANCE/RISK_REGISTER.csv,GAIA-TOT-008,record,register beside the Risk Levels scale
+GOVERNANCE/EXCEPTIONS_REGISTER.csv,GAIA-TOT-002 GAIA-TOT-045,record,exceptions need decision authority and system review
+GOVERNANCE/INCIDENT_REGISTER.csv,GAIA-TOT-018 GAIA-TOT-040,record,incidents and vulnerability reports
+GOVERNANCE/REVIEWS/,GAIA-TOT-007 GAIA-TOT-011,record,independent review records
+GOVERNANCE/templates/,GAIA-TOT-045,companion,templates serve every domain; owned by governance-of-governance
+GOVERNANCE/MANIFEST.sha256,GAIA-TOT-014,record,integrity manifest of the governance folder

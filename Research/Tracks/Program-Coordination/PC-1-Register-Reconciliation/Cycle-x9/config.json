@@ -1,0 +1,121 @@
+{
+  "cycle": "x9",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "repo_root": "../../../../..",
+  "domains": "../judgments/domains_x6.csv",
+  "audit_map": "../judgments/audit_map_x6.csv",
+  "roadmap": "../judgments/roadmap_c0.csv",
+  "pc4_coverage": "../../PC-4-Research-to-Domain-Map/Cycle-x12/iter-2/data/coverage_domains.csv",
+  "pc4_tog24": "../../PC-4-Research-to-Domain-Map/judgments/tog24_x12.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "expected_mismatches": [
+    "GAIA-TOT-024",
+    "GAIA-TOT-025",
+    "GAIA-TOT-035",
+    "GAIA-TOT-038"
+  ],
+  "boundary_window": 80,
+  "iterations": {
+    "1": {
+      "home_rule": "as_judged",
+      "wave_038": "3",
+      "w_overlay_rule": true
+    },
+    "2": {
+      "home_rule": "as_judged",
+      "wave_038": "3",
+      "w_overlay_rule": false
+    }
+  },
+  "checks": [
+    {
+      "id": "X9-1",
+      "hypothesis": "Exactly one row for each of the 45 register domains",
+      "metric": "domain_rows_ok",
+      "op": "eq",
+      "threshold": 45
+    },
+    {
+      "id": "X9-2",
+      "hypothesis": "Integrity, including tier, change-control and decision rows (every decision INDETERMINATE, authority = owner)",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-3",
+      "hypothesis": "Every domain has a scope tier",
+      "metric": "domains_without_tier",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-4",
+      "hypothesis": "Every reviewer role required by Risk Levels for a domain's tier and overlays is among its proposed reviewer roles",
+      "metric": "required_roles_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-5",
+      "hypothesis": "Every home type in use has a change-control rule",
+      "metric": "home_types_without_rule",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-6",
+      "hypothesis": "Every open issue from the cycles so far is covered by an owner decision",
+      "metric": "open_issues_without_decision",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-7",
+      "hypothesis": "The register's dependency graph is not acyclic (at least one cycle)",
+      "metric": "cyclic_components",
+      "op": "ge",
+      "threshold": 1
+    },
+    {
+      "id": "X9-8",
+      "hypothesis": "The largest strongly connected component has at least 10 domains",
+      "metric": "largest_component",
+      "op": "ge",
+      "threshold": 10
+    },
+    {
+      "id": "X9-9",
+      "hypothesis": "Adoption boundary: no new overlap (own outputs included)",
+      "metric": "boundary_new_overlaps",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-10",
+      "hypothesis": "Without the W keyword overlay, fewer required roles are missing than with it",
+      "metric": "required_roles_missing",
+      "op": "le",
+      "threshold": 0,
+      "iterations": [
+        2
+      ]
+    }
+  ],
+  "prior_domains": "../judgments/domains_x6.csv",
+  "anchor_review": "../judgments/anchor_review_x6.csv",
+  "authority": "../judgments/authority_x6.csv",
+  "wave_proposals": "../judgments/wave_proposals_x6.csv",
+  "title_style": "short",
+  "boundary_known": [
+    "Cycle-0-Baseline/TABLES.md",
+    "Cycle-0-Baseline/iter-1/data/reconciliation.csv"
+  ],
+  "ur_criteria": "../judgments/ur_criteria_x6.csv",
+  "tog19": "../judgments/tog19_x6.csv",
+  "product_rules": "../judgments/product_rules_x6.csv",
+  "remedy_rule": "authority",
+  "tiers": "../judgments/domain_tiers_x9.csv",
+  "change_control": "../judgments/change_control_x9.csv",
+  "decisions": "../judgments/decisions_x9.csv"
+}

@@ -1,0 +1,111 @@
+stable_id,anchor,support,note,cycle_added
+GAIA-TOT-001,GOVERNANCE/UNIVERSAL_REGULATION.md#Part I — The owner's text,direct,passage states the domain's subject,c0
+GAIA-TOT-001,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 1. Executive purpose,direct,passage states the domain's subject,c0
+GAIA-TOT-001,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 3. Scope,direct,passage states the domain's subject,c0
+GAIA-TOT-001,README.md#Implementation is not authorized,partial,passage touches the subject only in part,c0
+GAIA-TOT-002,GOVERNANCE/GATE_AUTHORITY.md### 1. Who decides,direct,passage states the domain's subject,c0
+GAIA-TOT-002,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 7. Authority, responsibility, and separation of duties",direct,passage states the domain's subject,c0
+GAIA-TOT-002,GOVERNANCE/UNIVERSAL_REGULATION.md#### 3. Gate record,direct,passage states the domain's subject,c0
+GAIA-TOT-003,Research/README.md### 13. The Good and the Greater Good,direct,passage states the domain's subject,c0
+GAIA-TOT-003,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 10. Good and Greater Good governance,direct,passage states the domain's subject,c0
+GAIA-TOT-003,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.3 UR-ETH,partial,passage touches the subject only in part,c0
+GAIA-TOT-004,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.3 UR-ETH,partial,passage touches the subject only in part,c0
+GAIA-TOT-004,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#### 4.7 Consent before access,direct,passage states the domain's subject,c0
+GAIA-TOT-005,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.1 UR-EPI,direct,passage states the domain's subject,c0
+GAIA-TOT-005,GOVERNANCE/LAW2_CROSSWALK.md#Law 2,direct,passage states the domain's subject,c0
+GAIA-TOT-005,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 8. Decision states and evidence discipline,partial,passage touches the subject only in part,c0
+GAIA-TOT-006,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.2 UR-SCI,direct,passage states the domain's subject,c0
+GAIA-TOT-006,Research/README.md### 4. Research lifecycle,direct,passage states the domain's subject,c0
+GAIA-TOT-006,Research/RESEARCH_PLAN_EXTENSION.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-007,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.2 UR-SCI,direct,passage states the domain's subject,c0
+GAIA-TOT-007,GOVERNANCE/GATE_AUTHORITY.md### 2. Decision rules,partial,passage touches the subject only in part,c0
+GAIA-TOT-007,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#### 8.1 Mandatory gate states,partial,passage touches the subject only in part,c0
+GAIA-TOT-008,GOVERNANCE/RISK_LEVELS.md### 1. The tiers are the responsibility ladder,direct,passage states the domain's subject,c0
+GAIA-TOT-008,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 9. Risk governance,direct,passage states the domain's subject,c0
+GAIA-TOT-009,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.4 UR-TEC,partial,passage touches the subject only in part,c0
+GAIA-TOT-009,SECURITY.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-009,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 14. Security, privacy, and resilience minimums",direct,passage states the domain's subject,c0
+GAIA-TOT-010,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 11. Transformation of harm and protective boundaries,direct,passage states the domain's subject,c0
+GAIA-TOT-010,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.3 UR-ETH,partial,passage touches the subject only in part,c0
+GAIA-TOT-011,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 16. Transparency, appeal, and remedy",direct,passage states the domain's subject,c0
+GAIA-TOT-011,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 18. Audit, metrics, and continuous improvement",partial,passage touches the subject only in part,c0
+GAIA-TOT-011,GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-012,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 14. Security, privacy, and resilience minimums",partial,names privacy only as one minimum among security items,c0
+GAIA-TOT-012,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.3 UR-ETH,partial,passage touches the subject only in part,c0
+GAIA-TOT-013,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.5 UR-OPS,direct,passage states the domain's subject,c0
+GAIA-TOT-013,.github/CODEOWNERS#,direct,passage states the domain's subject,c0
+GAIA-TOT-013,GOVERNANCE/AGENT_PUSH_LOG.md##,direct,passage states the domain's subject,c0
+GAIA-TOT-014,GOVERNANCE/UNIVERSAL_REGULATION.md#### 4. Universal standards and procedures,direct,passage states the domain's subject,c0
+GAIA-TOT-014,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 13. Change control and preservation,partial,passage touches the subject only in part,c0
+GAIA-TOT-014,Research/README.md### 6. Repository organization,direct,passage states the domain's subject,c0
+GAIA-TOT-015,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.4 UR-TEC,direct,passage states the domain's subject,c0
+GAIA-TOT-015,Research/tools/README.md#,partial,passage touches the subject only in part,c0
+GAIA-TOT-016,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 15. AI and transformative-intelligence governance,direct,passage states the domain's subject,c0
+GAIA-TOT-016,GOVERNANCE/GATE_AUTHORITY.md#AI agents (including Grok Bot) are never gate authorities,direct,passage states the domain's subject,c0
+GAIA-TOT-017,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.5 UR-OPS,direct,passage states the domain's subject,c0
+GAIA-TOT-017,README.md#Implementation is not authorized,direct,passage states the domain's subject,c0
+GAIA-TOT-018,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 17. Incident and failure governance,direct,passage states the domain's subject,c0
+GAIA-TOT-018,GOVERNANCE/CHANGELOG.md##,partial,file-level anchor; kept beside the incident-section anchor (x3 note corrected in x6),c0
+GAIA-TOT-019,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Legal and regulatory governance,direct,passage states the domain's subject,c0
+GAIA-TOT-019,LICENSE#,partial,passage touches the subject only in part,c0
+GAIA-TOT-020,LICENSE#,direct,passage states the domain's subject,c0
+GAIA-TOT-020,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Legal and regulatory governance,direct,passage states the domain's subject,c0
+GAIA-TOT-021,GOVERNANCE/RISK_LEVELS.md#### Overlays,partial,only the W overlay's wellbeing rule,c0
+GAIA-TOT-022,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Human-rights and social-impact governance,direct,passage states the domain's subject,c0
+GAIA-TOT-023,GOVERNANCE/LAW2_CROSSWALK.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-023,GOVERNANCE/RISK_LEVELS.md#### Overlays,direct,passage states the domain's subject,c0
+GAIA-TOT-023,GOVERNANCE/UNIVERSAL_REGULATION.md#### Absolute boundary,direct,passage states the domain's subject,c0
+GAIA-TOT-024,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Cultural and Indigenous knowledge governance,direct,passage states the domain's subject,c0
+GAIA-TOT-025,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Environmental and living-systems governance,direct,passage states the domain's subject,c0
+GAIA-TOT-026,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Environmental and living-systems governance,direct,passage states the domain's subject,c0
+GAIA-TOT-027,GOVERNANCE/RISK_LEVELS.md#RL-3,partial,health is one example of RL-3,c0
+GAIA-TOT-027,GOVERNANCE/RISK_LEVELS.md#### Overlays,partial,passage touches the subject only in part,c0
+GAIA-TOT-028,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 15. AI and transformative-intelligence governance,partial,heading of a section whose later bullet covers generated media,c0
+GAIA-TOT-029,GOVERNANCE/GATE_AUTHORITY.md### 3. Merging is not a gate PASS,partial,passage touches the subject only in part,c0
+GAIA-TOT-029,README.md#Current status,direct,passage states the domain's subject,c0
+GAIA-TOT-029,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 16. Transparency, appeal, and remedy",partial,passage touches the subject only in part,c0
+GAIA-TOT-030,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#People and organizational governance,direct,passage states the domain's subject,c0
+GAIA-TOT-030,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#### 7.1 Roles,partial,passage touches the subject only in part,c0
+GAIA-TOT-031,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Financial and resource stewardship,direct,passage states the domain's subject,c0
+GAIA-TOT-032,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#External and supply-chain governance,direct,passage states the domain's subject,c0
+GAIA-TOT-032,Research/tools/requirements.txt#,partial,passage touches the subject only in part,c0
+GAIA-TOT-033,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 19. Repository architecture and records,partial,passage touches the subject only in part,c0
+GAIA-TOT-033,Research/README.md### 10. Numerical matrix,none,numerical matrix has no bearing on interoperability or semantics; Baseline error,c0
+GAIA-TOT-034,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 18. Audit, metrics, and continuous improvement",direct,passage states the domain's subject,c0
+GAIA-TOT-035,GOVERNANCE/AGENT_PUSH_LOG.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-035,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#People and organizational governance,direct,passage states the domain's subject,c0
+GAIA-TOT-036,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 12. Full lifecycle governance and gates,partial,"lifecycle gates, but retirement is not detailed",c0
+GAIA-TOT-037,README.md#Implementation is not authorized,partial,passage touches the subject only in part,c0
+GAIA-TOT-037,GOVERNANCE/RISK_LEVELS.md#RL-5,direct,passage states the domain's subject,c0
+GAIA-TOT-038,Research/README.md### 10. Numerical matrix,partial,matrix recorded with semantics open; no physics boundary,c0
+GAIA-TOT-038,GOVERNANCE/LAW2_CROSSWALK.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-039,Research/WORK_QUEUE.md### Program Coordination,direct,passage states the domain's subject,c0
+GAIA-TOT-039,GOVERNANCE/PRODUCT_REGISTER.csv#product_id,partial,passage touches the subject only in part,c0
+GAIA-TOT-040,SECURITY.md##,direct,passage states the domain's subject,c0
+GAIA-TOT-040,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.4 UR-TEC,direct,passage states the domain's subject,c0
+GAIA-TOT-041,GOVERNANCE/RISK_LEVELS.md#### Overlays,partial,passage touches the subject only in part,c0
+GAIA-TOT-041,GOVERNANCE/UNIVERSAL_REGULATION.md##### 5.3 UR-ETH,direct,passage states the domain's subject,c0
+GAIA-TOT-042,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#### 7.3 Decision record,direct,passage states the domain's subject,c0
+GAIA-TOT-042,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#### Conflict rules,direct,passage states the domain's subject,c0
+GAIA-TOT-043,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Security and resilience governance,direct,passage states the domain's subject,c0
+GAIA-TOT-044,GOVERNANCE/CHANGELOG.md##,direct,passage states the domain's subject,c0
+GAIA-TOT-044,GOVERNANCE/AGENT_PUSH_LOG.md##,partial,passage touches the subject only in part,c0
+GAIA-TOT-044,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 13. Change control and preservation,direct,passage states the domain's subject,c0
+GAIA-TOT-045,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md### 20. Relationship to current standards,direct,passage states the domain's subject,c0
+GAIA-TOT-045,GOVERNANCE/UNIVERSAL_REGULATION.md#### Precedence,partial,passage touches the subject only in part,c0
+GAIA-TOT-007,Research/README.md### 4. Research lifecycle,direct,passage states the domain's subject,x3
+GAIA-TOT-011,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Dispute, grievance, and appeal governance",direct,passage states the domain's subject,x3
+GAIA-TOT-012,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Consent, privacy, and data governance",direct,passage states the domain's subject,x3
+GAIA-TOT-015,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Technical and architecture governance,direct,passage states the domain's subject,x3
+GAIA-TOT-016,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#AI and model governance,direct,passage states the domain's subject,x3
+GAIA-TOT-017,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Operational governance,direct,passage states the domain's subject,x3
+GAIA-TOT-018,GOVERNANCE/CHANGELOG.md#### Incidents recorded in the repository,direct,passage states the domain's subject,x3
+GAIA-TOT-028,"GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Generated images, video, audio, and text require provenance",direct,passage states the domain's subject,x3
+GAIA-TOT-029,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Communication and publication governance,direct,passage states the domain's subject,x3
+GAIA-TOT-033,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Knowledge and information governance,direct,passage states the domain's subject,x3
+GAIA-TOT-036,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Operational governance,direct,passage states the domain's subject,x3
+GAIA-TOT-038,GOVERNANCE/LAW2_CROSSWALK.md#mathematical results,direct,passage states the domain's subject,x3
+GAIA-TOT-045,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md#Governance-of-governance,direct,passage states the domain's subject,x3
+GAIA-TOT-021,"GOVERNANCE/UNIVERSAL_REGULATION.md#ETH-5 Where human well-being, health or safety is discussed",partial,requires ethics review where well-being is discussed; sets no human-factors rule,x3
+GAIA-TOT-027,"GOVERNANCE/UNIVERSAL_REGULATION.md#ETH-5 Where human well-being, health or safety is discussed",partial,requires ethics review where health is discussed; no clinical-safety or professional-review rule,x3
+GAIA-TOT-003,GOVERNANCE/RISK_LEVELS.md#RL-3,partial,holds the ethics-review duty that 003 would define the method for (x3 finding 2),x6

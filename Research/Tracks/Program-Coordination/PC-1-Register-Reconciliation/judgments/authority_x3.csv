@@ -1,0 +1,88 @@
+stable_id,source,relation,basis
+GAIA-TOT-001,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-001,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-001,README.md,evidence,"status statement on main, not a rule"
+GAIA-TOT-002,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-002,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-003,Research/README.md,parent,existing research rulebook; UR Precedence 2 applies the stricter of it and UR Part II
+GAIA-TOT-003,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-003,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-004,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-004,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-005,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-005,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-006,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-006,Research/README.md,parent,existing research rulebook; UR Precedence 2 applies the stricter of it and UR Part II
+GAIA-TOT-006,Research/RESEARCH_PLAN_EXTENSION.md,parent,governing research plan; same precedence rule as Research/README.md
+GAIA-TOT-007,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-007,GOVERNANCE/GATE_AUTHORITY.md,parent,holds the owner's decision authority for every gate
+GAIA-TOT-007,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-007,Research/README.md,parent,existing research rulebook; UR Precedence 2 applies the stricter of it and UR Part II
+GAIA-TOT-008,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-009,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-009,SECURITY.md,subordinate,the disclosure route operates under the safety standard
+GAIA-TOT-009,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-010,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-010,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-011,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-011,GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md,evidence,immutable audit record
+GAIA-TOT-012,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-012,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-013,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-013,.github/CODEOWNERS,subordinate,implements the access rule
+GAIA-TOT-013,GOVERNANCE/AGENT_PUSH_LOG.md,evidence,attribution record
+GAIA-TOT-014,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-014,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-014,Research/README.md,parent,existing research rulebook; UR Precedence 2 applies the stricter of it and UR Part II
+GAIA-TOT-015,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-015,Research/tools/README.md,subordinate,tool scope statement under the software standard
+GAIA-TOT-015,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-016,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-016,GOVERNANCE/GATE_AUTHORITY.md,parent,holds the owner's decision authority for every gate
+GAIA-TOT-017,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-017,README.md,evidence,"status statement on main, not a rule"
+GAIA-TOT-017,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-018,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-018,GOVERNANCE/CHANGELOG.md,companion,the change log records incidents and corrections
+GAIA-TOT-019,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-019,LICENSE,evidence,"the licence is one legal instrument, not a compliance register"
+GAIA-TOT-020,LICENSE,subordinate,the licence instrument the standard governs
+GAIA-TOT-020,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-021,GOVERNANCE/RISK_LEVELS.md,parent,the tier and overlay duties apply at any domain
+GAIA-TOT-021,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-022,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-023,GOVERNANCE/LAW2_CROSSWALK.md,companion,claim-class crosswalk used beside the home
+GAIA-TOT-023,GOVERNANCE/RISK_LEVELS.md,parent,the tier and overlay duties apply at any domain
+GAIA-TOT-023,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-024,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-025,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-026,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-027,GOVERNANCE/RISK_LEVELS.md,parent,the tier and overlay duties apply at any domain
+GAIA-TOT-027,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-028,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-029,GOVERNANCE/GATE_AUTHORITY.md,parent,holds the owner's decision authority for every gate
+GAIA-TOT-029,README.md,subordinate,the root README's status claims are what this standard would govern
+GAIA-TOT-029,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-030,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-031,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-032,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-032,Research/tools/requirements.txt,evidence,the dependency declaration being governed
+GAIA-TOT-033,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-034,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-035,GOVERNANCE/AGENT_PUSH_LOG.md,evidence,attribution record
+GAIA-TOT-035,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-036,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-037,README.md,evidence,"status statement on main, not a rule"
+GAIA-TOT-037,GOVERNANCE/RISK_LEVELS.md,parent,the tier and overlay duties apply at any domain
+GAIA-TOT-038,Research/README.md,parent,existing research rulebook; UR Precedence 2 applies the stricter of it and UR Part II
+GAIA-TOT-038,GOVERNANCE/LAW2_CROSSWALK.md,companion,claim-class crosswalk used beside the home
+GAIA-TOT-039,GOVERNANCE/PRODUCT_REGISTER.csv,companion,product index beside the portfolio
+GAIA-TOT-040,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-041,GOVERNANCE/RISK_LEVELS.md,parent,the tier and overlay duties apply at any domain
+GAIA-TOT-041,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)
+GAIA-TOT-042,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-043,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-044,GOVERNANCE/AGENT_PUSH_LOG.md,companion,attribution log kept beside the change log
+GAIA-TOT-044,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,parent,proposed umbrella; binds only after owner approval (draft status)
+GAIA-TOT-045,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md,superseded-on-approval,the draft becomes the planned charter file on approval (ToG §19)
+GAIA-TOT-045,GOVERNANCE/UNIVERSAL_REGULATION.md,parent,UR Part I and the absolute boundary take precedence (UR Precedence 1; ToG §20)

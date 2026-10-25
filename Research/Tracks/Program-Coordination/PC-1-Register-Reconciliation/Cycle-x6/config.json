@@ -1,0 +1,134 @@
+{
+  "cycle": "x6",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "repo_root": "../../../../..",
+  "domains": "../judgments/domains_x6.csv",
+  "audit_map": "../judgments/audit_map_x6.csv",
+  "roadmap": "../judgments/roadmap_c0.csv",
+  "pc4_coverage": "../../PC-4-Research-to-Domain-Map/Cycle-x12/iter-2/data/coverage_domains.csv",
+  "pc4_tog24": "../../PC-4-Research-to-Domain-Map/judgments/tog24_x12.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "expected_mismatches": [
+    "GAIA-TOT-024",
+    "GAIA-TOT-025",
+    "GAIA-TOT-035",
+    "GAIA-TOT-038"
+  ],
+  "boundary_window": 80,
+  "iterations": {
+    "1": {
+      "home_rule": "as_judged",
+      "wave_038": "3"
+    },
+    "2": {
+      "home_rule": "as_judged",
+      "wave_038": "4"
+    }
+  },
+  "checks": [
+    {
+      "id": "X6-1",
+      "hypothesis": "Exactly one row for each of the 45 register domains",
+      "metric": "domain_rows_ok",
+      "op": "eq",
+      "threshold": 45
+    },
+    {
+      "id": "X6-2",
+      "hypothesis": "Integrity (as X3-2), including known dependency IDs and valid ToG \u00a719 and product-rule rows",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-3",
+      "hypothesis": "Every cited anchor resolves",
+      "metric": "anchors_unresolved",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-4",
+      "hypothesis": "No cited anchor is unreviewed or reviewed 'none'",
+      "metric": "anchors_unsupported",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-5",
+      "hypothesis": "b16: every UR \u00a75 criterion (EPI-1 to OPS-5) has one primary TOT domain",
+      "metric": "ur_criteria_unmapped",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-6",
+      "hypothesis": "b16: each criterion's UR domain is among its primary TOT domain's UR domains",
+      "metric": "ur_domain_inconsistent",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-7",
+      "hypothesis": "Every UR domain is listed by at least one TOT domain",
+      "metric": "ur_domains_uncovered",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-8",
+      "hypothesis": "Every ToG \u00a719 planned file is assigned to at least one domain",
+      "metric": "tog19_unassigned",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-9",
+      "hypothesis": "Every Product Register row is governed by at least one domain",
+      "metric": "products_ungoverned",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-10",
+      "hypothesis": "x3 wave proposals do not increase dependency-order inversions over the roadmap waves",
+      "metric": "inversions_delta",
+      "op": "le",
+      "threshold": 0
+    },
+    {
+      "id": "X6-11",
+      "hypothesis": "Every x3 remedy-home mismatch is explained by an authority-register row for the primary domain citing that file",
+      "metric": "open_remedy_unexplained",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-12",
+      "hypothesis": "Adoption boundary: no new overlap (own outputs included)",
+      "metric": "boundary_new_overlaps",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-13",
+      "hypothesis": "At least 10 domains rest only on draft text (every direct anchor is in the ToG draft)",
+      "metric": "draft_only_domains",
+      "op": "ge",
+      "threshold": 10
+    }
+  ],
+  "prior_domains": "../judgments/domains_x3.csv",
+  "anchor_review": "../judgments/anchor_review_x6.csv",
+  "authority": "../judgments/authority_x6.csv",
+  "wave_proposals": "../judgments/wave_proposals_x6.csv",
+  "title_style": "short",
+  "boundary_known": [
+    "Cycle-0-Baseline/TABLES.md",
+    "Cycle-0-Baseline/iter-1/data/reconciliation.csv"
+  ],
+  "ur_criteria": "../judgments/ur_criteria_x6.csv",
+  "tog19": "../judgments/tog19_x6.csv",
+  "product_rules": "../judgments/product_rules_x6.csv",
+  "remedy_rule": "authority"
+}

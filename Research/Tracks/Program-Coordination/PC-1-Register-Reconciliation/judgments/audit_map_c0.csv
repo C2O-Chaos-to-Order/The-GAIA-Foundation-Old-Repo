@@ -1,0 +1,46 @@
+audit_id,domains,basis
+UR-L1-01,GAIA-TOT-005,agent reading of the audit criterion
+UR-L1-02,GAIA-TOT-005 GAIA-TOT-007,agent reading of the audit criterion
+UR-L1-03,GAIA-TOT-005 GAIA-TOT-029,agent reading of the audit criterion
+UR-L1-04,GAIA-TOT-029 GAIA-TOT-005,agent reading of the audit criterion
+UR-L1-05,GAIA-TOT-014 GAIA-TOT-007,agent reading of the audit criterion
+UR-L2-01,GAIA-TOT-005 GAIA-TOT-014,agent reading of the audit criterion
+UR-L2-02,GAIA-TOT-005,agent reading of the audit criterion
+UR-L2-03,GAIA-TOT-023 GAIA-TOT-005,agent reading of the audit criterion
+UR-L2-04,GAIA-TOT-005 GAIA-TOT-006,agent reading of the audit criterion
+UR-L2-05,GAIA-TOT-038 GAIA-TOT-005,agent reading of the audit criterion
+UR-L3-01,GAIA-TOT-006 GAIA-TOT-007,agent reading of the audit criterion
+UR-L3-02,GAIA-TOT-007,agent reading of the audit criterion
+UR-L3-03,GAIA-TOT-014 GAIA-TOT-007,agent reading of the audit criterion
+UR-L3-04,GAIA-TOT-007 GAIA-TOT-011,agent reading of the audit criterion
+UR-L3-05,GAIA-TOT-002 GAIA-TOT-011,agent reading of the audit criterion
+UR-L3-06,GAIA-TOT-002 GAIA-TOT-017,agent reading of the audit criterion
+UR-L3-07,GAIA-TOT-005 GAIA-TOT-007,agent reading of the audit criterion
+UR-L3-08,GAIA-TOT-015 GAIA-TOT-007,agent reading of the audit criterion
+UR-L3-09,GAIA-TOT-014,agent reading of the audit criterion
+UR-L3-10,GAIA-TOT-006 GAIA-TOT-023,agent reading of the audit criterion
+UR-L4-01,GAIA-TOT-008 GAIA-TOT-009,agent reading of the audit criterion
+UR-L4-02,GAIA-TOT-041 GAIA-TOT-021 GAIA-TOT-027,agent reading of the audit criterion
+UR-L4-03,GAIA-TOT-015,agent reading of the audit criterion
+UR-L4-04,GAIA-TOT-040,agent reading of the audit criterion
+UR-L4-05,GAIA-TOT-032 GAIA-TOT-015,agent reading of the audit criterion
+UR-L5-01,GAIA-TOT-039 GAIA-TOT-002,agent reading of the audit criterion
+UR-L5-02,GAIA-TOT-044,agent reading of the audit criterion
+UR-L5-03,GAIA-TOT-013 GAIA-TOT-035,agent reading of the audit criterion
+UR-L5-04,GAIA-TOT-011 GAIA-TOT-029,agent reading of the audit criterion
+UR-L5-05,GAIA-TOT-044 GAIA-TOT-017,agent reading of the audit criterion
+UR-L5-06,GAIA-TOT-044 GAIA-TOT-016,agent reading of the audit criterion
+UR-L6-01,GAIA-TOT-012 GAIA-TOT-041,agent reading of the audit criterion
+UR-L6-02,GAIA-TOT-020,agent reading of the audit criterion
+UR-L6-03,GAIA-TOT-020 GAIA-TOT-019,agent reading of the audit criterion
+UR-L6-04,GAIA-TOT-013,agent reading of the audit criterion
+UR-L6-05,GAIA-TOT-019 GAIA-TOT-032,agent reading of the audit criterion
+UR-L7-01,GAIA-TOT-017 GAIA-TOT-001,agent reading of the audit criterion
+UR-L7-02,GAIA-TOT-013 GAIA-TOT-017,agent reading of the audit criterion
+UR-L7-03,GAIA-TOT-013,agent reading of the audit criterion
+UR-L7-04,GAIA-TOT-017 GAIA-TOT-036,agent reading of the audit criterion
+UR-KS-01,GAIA-TOT-014,agent reading of the audit criterion
+UR-KS-02,GAIA-TOT-014 GAIA-TOT-044,agent reading of the audit criterion
+UR-KS-03,GAIA-TOT-014,agent reading of the audit criterion
+UR-BND-01,GAIA-TOT-001 GAIA-TOT-023 GAIA-TOT-016,agent reading of the audit criterion
+UR-GOV-01,GAIA-TOT-045,agent reading of the audit criterion

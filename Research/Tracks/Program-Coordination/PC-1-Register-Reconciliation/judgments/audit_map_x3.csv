@@ -1,0 +1,46 @@
+audit_id,primary,secondary,domains,remedy_home,basis,implementation_locus
+UR-L1-01,GAIA-TOT-005,,GAIA-TOT-005,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L1-02,GAIA-TOT-005,GAIA-TOT-007,GAIA-TOT-005 GAIA-TOT-007,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L1-03,GAIA-TOT-005,GAIA-TOT-029,GAIA-TOT-005 GAIA-TOT-029,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L1-04,GAIA-TOT-029,GAIA-TOT-005,GAIA-TOT-029 GAIA-TOT-005,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L1-05,GAIA-TOT-007,GAIA-TOT-014,GAIA-TOT-007 GAIA-TOT-014,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-007-verification-validation-falsification-reproducibility.md,rule-level fix belongs in the primary domain's standard (the domain standard for verification),owner: name a third-party reviewer
+UR-L2-01,GAIA-TOT-005,GAIA-TOT-014,GAIA-TOT-005 GAIA-TOT-014,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L2-02,GAIA-TOT-005,,GAIA-TOT-005,GOVERNANCE/LAW2_CROSSWALK.md,rule-level fix belongs in the primary domain's standard (the crosswalk already drafted for this item),owner: adopt the crosswalk
+UR-L2-03,GAIA-TOT-023,GAIA-TOT-005,GAIA-TOT-023 GAIA-TOT-005,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L2-04,GAIA-TOT-006,GAIA-TOT-005,GAIA-TOT-006 GAIA-TOT-005,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L2-05,GAIA-TOT-005,GAIA-TOT-038,GAIA-TOT-005 GAIA-TOT-038,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-01,GAIA-TOT-006,GAIA-TOT-007,GAIA-TOT-006 GAIA-TOT-007,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-006-research-methodology-scientific-integrity.md,rule-level fix belongs in the primary domain's standard,git timestamps of spec-before-run commits
+UR-L3-02,GAIA-TOT-007,,GAIA-TOT-007,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-03,GAIA-TOT-014,GAIA-TOT-007,GAIA-TOT-014 GAIA-TOT-007,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-04,GAIA-TOT-007,GAIA-TOT-011,GAIA-TOT-007 GAIA-TOT-011,GOVERNANCE/GATE_AUTHORITY.md,remedy home differs from the primary domain's home: Gate Authority §1 item 3 is where independent reviewers are defined,owner: name reviewers
+UR-L3-05,GAIA-TOT-002,GAIA-TOT-011,GAIA-TOT-002 GAIA-TOT-011,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-06,GAIA-TOT-002,GAIA-TOT-017,GAIA-TOT-002 GAIA-TOT-017,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-07,GAIA-TOT-007,GAIA-TOT-005,GAIA-TOT-007 GAIA-TOT-005,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-08,GAIA-TOT-015,GAIA-TOT-007,GAIA-TOT-015 GAIA-TOT-007,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-015-software-systems-architecture-engineering.md,rule-level fix belongs in the primary domain's standard,.github/workflows/verify.yml
+UR-L3-09,GAIA-TOT-014,,GAIA-TOT-014,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L3-10,GAIA-TOT-006,GAIA-TOT-005,GAIA-TOT-006 GAIA-TOT-005,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-006-research-methodology-scientific-integrity.md,rule-level fix belongs in the primary domain's standard,each report's limits section
+UR-L4-01,GAIA-TOT-008,GAIA-TOT-009,GAIA-TOT-008 GAIA-TOT-009,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L4-02,GAIA-TOT-003,GAIA-TOT-021 GAIA-TOT-027 GAIA-TOT-041,GAIA-TOT-003 GAIA-TOT-021 GAIA-TOT-027 GAIA-TOT-041,GOVERNANCE/RISK_LEVELS.md,remedy home differs from the primary domain's home: the ethics-review duty is the RL-3 extra rule and ETH-5,owner: name an ethics reviewer
+UR-L4-03,GAIA-TOT-015,,GAIA-TOT-015,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L4-04,GAIA-TOT-040,,GAIA-TOT-040,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L4-05,GAIA-TOT-032,GAIA-TOT-015,GAIA-TOT-032 GAIA-TOT-015,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-032-procurement-supply-chain-third-parties.md,rule-level fix belongs in the primary domain's standard,Research/tools/requirements.txt
+UR-L5-01,GAIA-TOT-002,GAIA-TOT-039,GAIA-TOT-002 GAIA-TOT-039,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L5-02,GAIA-TOT-044,,GAIA-TOT-044,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L5-03,GAIA-TOT-013,GAIA-TOT-035,GAIA-TOT-013 GAIA-TOT-035,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-013-identity-access-permission-authorization.md,rule-level fix belongs in the primary domain's standard,commit author practice and AGENT_PUSH_LOG.md
+UR-L5-04,GAIA-TOT-018,GAIA-TOT-011,GAIA-TOT-018 GAIA-TOT-011,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L5-05,GAIA-TOT-044,GAIA-TOT-017,GAIA-TOT-044 GAIA-TOT-017,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L5-06,GAIA-TOT-044,GAIA-TOT-013 GAIA-TOT-016,GAIA-TOT-044 GAIA-TOT-013 GAIA-TOT-016,GOVERNANCE/CHANGELOG.md,rule-level fix belongs in the primary domain's standard,GOVERNANCE/CHANGELOG.md
+UR-L6-01,GAIA-TOT-012,GAIA-TOT-041,GAIA-TOT-012 GAIA-TOT-041,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L6-02,GAIA-TOT-020,,GAIA-TOT-020,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-020-intellectual-property-licensing-third-party-rights.md,rule-level fix belongs in the primary domain's standard,source register licence column
+UR-L6-03,GAIA-TOT-020,GAIA-TOT-019,GAIA-TOT-020 GAIA-TOT-019,LICENSE,"remedy home differs from the primary domain's home: reuse terms for GAIA's own work are set in LICENSE, not in a standard",owner: state reuse terms
+UR-L6-04,GAIA-TOT-013,,GAIA-TOT-013,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L6-05,GAIA-TOT-019,GAIA-TOT-032,GAIA-TOT-019 GAIA-TOT-032,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L7-01,GAIA-TOT-017,GAIA-TOT-001,GAIA-TOT-017 GAIA-TOT-001,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L7-02,GAIA-TOT-013,GAIA-TOT-017,GAIA-TOT-013 GAIA-TOT-017,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-L7-03,GAIA-TOT-013,GAIA-TOT-002,GAIA-TOT-013 GAIA-TOT-002,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-013-identity-access-permission-authorization.md,rule-level fix belongs in the primary domain's standard,owner setting: branch protection on main
+UR-L7-04,GAIA-TOT-017,GAIA-TOT-036,GAIA-TOT-017 GAIA-TOT-036,GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-017-operations-deployment-change-release.md,rule-level fix belongs in the primary domain's standard,owner authorization record
+UR-KS-01,GAIA-TOT-014,GAIA-TOT-033,GAIA-TOT-014 GAIA-TOT-033,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-KS-02,GAIA-TOT-014,GAIA-TOT-044,GAIA-TOT-014 GAIA-TOT-044,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-KS-03,GAIA-TOT-014,,GAIA-TOT-014,,agent reading of the audit criterion; primary = the domain whose standard would carry the rule,
+UR-BND-01,GAIA-TOT-001,GAIA-TOT-023 GAIA-TOT-016,GAIA-TOT-001 GAIA-TOT-023 GAIA-TOT-016,GOVERNANCE/UNIVERSAL_REGULATION.md,remedy home differs from the primary domain's home: the absolute boundary is Part I owner text and cannot move to a domain file,each report's labels
+UR-GOV-01,GAIA-TOT-045,,GAIA-TOT-045,GOVERNANCE/UNIVERSAL_REGULATION.md,remedy home differs from the primary domain's home: adoption of the UR is recorded in its own Part IV adoption path,owner: adoption decision

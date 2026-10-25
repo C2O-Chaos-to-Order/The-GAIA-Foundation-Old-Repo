@@ -1,0 +1,5 @@
+home_type,rule,required_records,basis
+extend,amend the existing file by pull request; keep its stable ID; add a line naming the TOT domain it carries; bump its revision,CHANGELOG entry; decision register row once DECISION_REGISTER.csv exists,"existing files keep their IDs (no silent overwrite, UR-KS-02)"
+extend-planned,create the ToG §19 planned file only after the owner approves Stage 1; it takes GAIA-GOV-TOT-045 and supersedes the draft by reference,CHANGELOG entry; the draft is preserved unchanged,ToG §19 lists the file as pending owner approval
+new,"create GOVERNANCE/DOMAIN_STANDARDS/GAIA-TOT-nnn-slug.md at revision 0.1.0, status Proposed, owner and decision authority named",CHANGELOG entry; folder manifest updated,ToG §13 change-record minimums; Gate Authority §1
+shared,create the Foundation file as for 'new' and a cross-reference in the Encyclopedia; neither copy restates the other,CHANGELOG entry in each repository; owner approval in each,ToG §19 splits governance and Encyclopedia homes

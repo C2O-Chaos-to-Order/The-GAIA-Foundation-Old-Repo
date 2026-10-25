@@ -1,0 +1,88 @@
+{
+  "cycle": "Baseline",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "repo_root": "../../../../..",
+  "domains": "../judgments/domains_c0.csv",
+  "audit_map": "../judgments/audit_map_c0.csv",
+  "roadmap": "../judgments/roadmap_c0.csv",
+  "pc4_coverage": "../../PC-4-Research-to-Domain-Map/Cycle-x12/iter-2/data/coverage_domains.csv",
+  "pc4_tog24": "../../PC-4-Research-to-Domain-Map/judgments/tog24_x12.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "expected_mismatches": [
+    "GAIA-TOT-024",
+    "GAIA-TOT-025",
+    "GAIA-TOT-035",
+    "GAIA-TOT-038"
+  ],
+  "boundary_window": 80,
+  "iterations": {
+    "1": {
+      "home_rule": "as_judged"
+    }
+  },
+  "checks": [
+    {
+      "id": "C0-1",
+      "hypothesis": "Exactly one row for each of the 45 register domains",
+      "metric": "domain_rows_ok",
+      "op": "eq",
+      "threshold": 45
+    },
+    {
+      "id": "C0-2",
+      "hypothesis": "Every row passes integrity (labels, owner equals the register's decision authority, reviewer roles from ToG 7.1 or specialist, valid UR domains, valid home paths)",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-3",
+      "hypothesis": "Every cited anchor (file#text) resolves in this branch",
+      "metric": "anchors_unresolved",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-4",
+      "hypothesis": "Recomputing b9 from the suite's crosswalk rows gives exactly the 11 domains the Work Queue lists",
+      "metric": "b9_symmetric_difference",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-5",
+      "hypothesis": "The priority-to-wave comparison finds all four mismatches the Work Queue records (024, 025, 035, 038)",
+      "metric": "expected_mismatches_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-6",
+      "hypothesis": "No two domains share a canonical home",
+      "metric": "duplicate_homes",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-7",
+      "hypothesis": "Proposed IDs collide with no ID already used in the repository or the suite",
+      "metric": "id_collisions",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-8",
+      "hypothesis": "Every audit v2 item is mapped to at least one domain",
+      "metric": "audit_unmapped",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "C0-9",
+      "hypothesis": "Adoption boundary: no file in the PC-1 folder shares an 80-character window with any suite file",
+      "metric": "boundary_overlaps",
+      "op": "eq",
+      "threshold": 0
+    }
+  ]
+}
