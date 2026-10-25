@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-AS-APP-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:42.865682+00:00",
+ "finished_utc": "2026-10-24T23:40:42.901825+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "cf3c17510ed8e9c82d09bf19f398530f44ef7c98a9cdfa9a09cf271ffe46373e",
+ "params_sha256": "af8763252f9e1d11993b0f1b837a28219113fe97a390c3b18e5da75badd79fff",
+ "results_sha256": "41583ae21d681f9cf3f3a01e78aa54ab1c0b12273f07cc5e431bf2fa4f8a0e98",
+ "results": {
+  "by_days": {
+   "3": {
+    "mean_rr": 4.5343,
+    "median_rr": 4.9222,
+    "q05": 2.3803,
+    "q95": 5.4235,
+    "ratio_of_means": 4.7593,
+    "point_rr": 5.0783,
+    "se_mean_rr": 0.0022
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the point-estimate risk ratio for the first k equals the AS0 audit value within 1e-3",
+   "observed": 5.0783,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "middle-aged smoker (age 0.68 + smoking -1.82 as one constant): the 1-day/3-day risk ratio is larger than for the non-smoker (point value 2.095)",
+   "observed": {
+    "by_days": {
+     "3": {
+      "mean_rr": 4.5343,
+      "median_rr": 4.9222,
+      "q05": 2.3803,
+      "q95": 5.4235,
+      "ratio_of_means": 4.7593,
+      "point_rr": 5.0783,
+      "se_mean_rr": 0.0022
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_days": {
+     "3": {
+      "mean_rr": 4.5343,
+      "median_rr": 4.9222,
+      "q05": 2.3803,
+      "q95": 5.4235,
+      "ratio_of_means": 4.7593,
+      "point_rr": 5.0783,
+      "se_mean_rr": 0.0022
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

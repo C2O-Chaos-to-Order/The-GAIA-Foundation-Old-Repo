@@ -1,0 +1,108 @@
+{
+ "sim_id": "SIM-AS-APP-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:45.340045+00:00",
+ "finished_utc": "2026-10-25T00:01:45.820848+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-6  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "82b6b5effd56f1011ce2c25fcd20bba531e83012c0870467c55605a8d805f9a5",
+ "params_sha256": "61bfe512aa9602783decedd5b8dc9e8c58a9aa9a2058ed0d367fbad2af8f4c89",
+ "results_sha256": "92aa0aaed80c9fd52b1fca63cedb8efce75fdf6789909aeba65edc60f8ebdd3f",
+ "results": {
+  "items": {
+   "median_prev": {
+    "value": 50.5,
+    "printed": null,
+    "diff": null
+   },
+   "n_small": {
+    "value": 17.0,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the median Table 1 prevalence lies inside P95's 95% CI (42.58-53.96)",
+   "observed": {
+    "items": {
+     "median_prev": {
+      "value": 50.5,
+      "printed": null,
+      "diff": null
+     },
+     "n_small": {
+      "value": 17.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "at least a third of P95's 58 studies have n < 20 (small-study effects plausible)",
+   "observed": {
+    "items": {
+     "median_prev": {
+      "value": 50.5,
+      "printed": null,
+      "diff": null
+     },
+     "n_small": {
+      "value": 17.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "median_prev": {
+      "value": 50.5,
+      "printed": null,
+      "diff": null
+     },
+     "n_small": {
+      "value": 17.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

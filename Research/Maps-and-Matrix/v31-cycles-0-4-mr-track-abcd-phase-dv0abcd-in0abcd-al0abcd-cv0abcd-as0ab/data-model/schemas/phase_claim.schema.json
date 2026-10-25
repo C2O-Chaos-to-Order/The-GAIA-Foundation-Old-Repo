@@ -1,0 +1,107 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "gaia/phase_claim.schema.json",
+ "title": "Phase-track claim (data model 1.5.0)",
+ "description": "One row of Research/Tracks/Phases/<Phase>/Cycle-<L>-*/<Field>/claims/claims.csv",
+ "type": "object",
+ "required": [
+  "claim_id",
+  "field",
+  "wording",
+  "claim_class",
+  "framework_label",
+  "conclusion_status",
+  "source_ids",
+  "locator",
+  "confidence",
+  "counterevidence_limits",
+  "operationalization",
+  "being",
+  "cross_links",
+  "verification_phrases",
+  "change_vs_prev_cycle"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "claim_id": {
+   "type": "string",
+   "pattern": "^(DV|IN|AL|CV|AS)[0A-D]-(NAT|FOR|SOC|APP|HUM|PHI)-[0-9]{2}$"
+  },
+  "field": {
+   "enum": [
+    "NAT",
+    "FOR",
+    "SOC",
+    "APP",
+    "HUM",
+    "PHI"
+   ]
+  },
+  "wording": {
+   "type": "string",
+   "minLength": 20
+  },
+  "claim_class": {
+   "enum": [
+    "Empirical",
+    "Mathematical/computational",
+    "Historical",
+    "Interpretive/philosophical",
+    "Spiritual/theological",
+    "Simulation"
+   ]
+  },
+  "framework_label": {
+   "enum": [
+    "Established",
+    "Plausible",
+    "Philosophical/Spiritual",
+    "Hypothetical"
+   ]
+  },
+  "conclusion_status": {
+   "enum": [
+    "Supported",
+    "Not supported",
+    "Open",
+    "Interpretive",
+    "Superseded"
+   ]
+  },
+  "source_ids": {
+   "type": "string",
+   "pattern": "^((P[0-9]{2,3}|K[0-9]{2}|[GSTUVWXYZ][0-9]{2}[a-z]?|SIM-(DV|IN|AL|CV|AS)-(NAT|FOR|SOC|APP|HUM|PHI)-[0A-D]/iter-[0-9]+#[A-Za-z0-9_.]+)(;|$))+$"
+  },
+  "locator": {
+   "type": "string"
+  },
+  "confidence": {
+   "type": "string"
+  },
+  "counterevidence_limits": {
+   "type": "string"
+  },
+  "operationalization": {
+   "type": "string"
+  },
+  "being": {
+   "enum": [
+    "Body",
+    "Mind",
+    "Soul",
+    "Spirit",
+    "Consciousness",
+    ""
+   ]
+  },
+  "cross_links": {
+   "type": "string"
+  },
+  "verification_phrases": {
+   "type": "string"
+  },
+  "change_vs_prev_cycle": {
+   "type": "string"
+  }
+ }
+}

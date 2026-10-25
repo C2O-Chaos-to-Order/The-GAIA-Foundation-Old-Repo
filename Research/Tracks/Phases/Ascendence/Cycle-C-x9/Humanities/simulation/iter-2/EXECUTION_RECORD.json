@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-HUM-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:53.985530+00:00",
+ "finished_utc": "2026-10-24T23:50:54.000950+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-2  (run from Humanities/simulation/)",
+ "spec_sha256": "03b80906da81e76826f0f44f20c69ba069a2f67f12cb26f8148dff9d4e9f6634",
+ "params_sha256": "e0ec25f8743a2f0f28bce4a844f587be364cda3ed03a1c5fe4856d591964b5ec",
+ "results_sha256": "dacb4527861ac66093773caeb241ca863bc7af25a9193e864486b8c7ba0a63d9",
+ "results": {
+  "by_x0": {
+   "0.15": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 12.004
+   }
+  },
+  "N": 200,
+  "c": 1.1,
+  "b": 0.0,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.2508725,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "c 1.1: a 15% variant is lost in at least 99% of runs",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 12.004
+     }
+    },
+    "N": 200,
+    "c": 1.1,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 12.004
+     }
+    },
+    "N": 200,
+    "c": 1.1,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

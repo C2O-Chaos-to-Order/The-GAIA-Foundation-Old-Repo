@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-AS-NAT-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:59:44.997945+00:00",
+ "finished_utc": "2026-10-24T23:59:47.127718+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "d9230ccfd0941b94df97b8671966685f2d9038fb2b26a5dfa33b6651486ea7cc",
+ "params_sha256": "771ccc57014ea38ac83d35dac72cfe512ad91b064845f62092044d498bf1cb4a",
+ "results_sha256": "b0648338bac4cd56c1b14d736c950df7b7f98d7f15ae2d0d0a40cc18340ec03e",
+ "results": {
+  "by_L": {
+   "12": {
+    "hoc": {
+     "mean_paths": 0.7167,
+     "se": 0.2127,
+     "P_none": 0.9,
+     "max_paths": 37.0,
+     "reps": 300
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no landscape has more accessible paths than the L! shortest paths",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "HoC at L 12: mean accessible paths within 3 SE of 1",
+   "observed": {
+    "by_L": {
+     "12": {
+      "hoc": {
+       "mean_paths": 0.7167,
+       "se": 0.2127,
+       "P_none": 0.9,
+       "max_paths": 37.0,
+       "reps": 300
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "12": {
+      "hoc": {
+       "mean_paths": 0.7167,
+       "se": 0.2127,
+       "P_none": 0.9,
+       "max_paths": 37.0,
+       "reps": 300
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

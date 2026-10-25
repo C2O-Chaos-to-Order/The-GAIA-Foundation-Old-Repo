@@ -1,0 +1,168 @@
+{
+ "sim_id": "SIM-AS-APP-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:41.733677+00:00",
+ "finished_utc": "2026-10-24T23:40:42.158500+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "a3b55e359913a50e6cba1e94a36ca30ea88a344eeb2b84e02055fcfaba8b9aca",
+ "params_sha256": "be4f50cd9b12ba3ed86ab4764be775ee7682ea2a0453288707d9c7df64fa5753",
+ "results_sha256": "ee4074817743b768da75e92df7353607f10c1d79305ed546c8fc6dacbf63096b",
+ "results": {
+  "items": {
+   "WAIC_m1_m4": {
+    "value": 8.47,
+    "printed": null,
+    "diff": null
+   },
+   "WAIC_m3_m4": {
+    "value": 0.76,
+    "printed": null,
+    "diff": null
+   },
+   "WAIC_m3_m4_over_SE4": {
+    "value": 0.062092,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_1d_res1400": {
+    "value": 0.864189,
+    "printed": null,
+    "diff": null
+   },
+   "P_base_3d_res1400": {
+    "value": 0.398252,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "model 4's WAIC advantage over model 3 is smaller than 1 SE of model 4's WAIC (the extra comorbidity term is not clearly better)",
+   "observed": {
+    "items": {
+     "WAIC_m1_m4": {
+      "value": 8.47,
+      "printed": null,
+      "diff": null
+     },
+     "WAIC_m3_m4": {
+      "value": 0.76,
+      "printed": null,
+      "diff": null
+     },
+     "WAIC_m3_m4_over_SE4": {
+      "value": 0.062092,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_1d_res1400": {
+      "value": 0.864189,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d_res1400": {
+      "value": 0.398252,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "a Kathmandu-altitude residence (1400 m) changes the 1-day risk by less than 0.02 (residence coefficient -0.08 on ln m)",
+   "observed": {
+    "items": {
+     "WAIC_m1_m4": {
+      "value": 8.47,
+      "printed": null,
+      "diff": null
+     },
+     "WAIC_m3_m4": {
+      "value": 0.76,
+      "printed": null,
+      "diff": null
+     },
+     "WAIC_m3_m4_over_SE4": {
+      "value": 0.062092,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_1d_res1400": {
+      "value": 0.864189,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d_res1400": {
+      "value": 0.398252,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "WAIC_m1_m4": {
+      "value": 8.47,
+      "printed": null,
+      "diff": null
+     },
+     "WAIC_m3_m4": {
+      "value": 0.76,
+      "printed": null,
+      "diff": null
+     },
+     "WAIC_m3_m4_over_SE4": {
+      "value": 0.062092,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_1d_res1400": {
+      "value": 0.864189,
+      "printed": null,
+      "diff": null
+     },
+     "P_base_3d_res1400": {
+      "value": 0.398252,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

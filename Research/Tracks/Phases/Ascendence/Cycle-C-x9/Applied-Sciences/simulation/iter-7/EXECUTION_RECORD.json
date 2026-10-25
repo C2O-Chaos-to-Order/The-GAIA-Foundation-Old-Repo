@@ -1,0 +1,108 @@
+{
+ "sim_id": "SIM-AS-APP-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:52.054251+00:00",
+ "finished_utc": "2026-10-24T23:50:52.486029+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-7  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "dac69e5a628c1b21da4089ca82f912cbbe760b300175109be6344a7414d31d42",
+ "params_sha256": "ecc52d8250d75766c4b6efdbb8f76244367de4b3f474caf320d611c47fae21d4",
+ "results_sha256": "5e38a024f8e6fe7e20fa77bf801c23a416e2d002c9d5480329467dca160db0f2",
+ "results": {
+  "items": {
+   "unweighted_mean_prev": {
+    "value": 49.917241,
+    "printed": null,
+    "diff": null
+   },
+   "weighted_mean_prev": {
+    "value": 44.638484,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the unweighted mean of Table 1 prevalences is within 5 points of P95's pooled 48.25%",
+   "observed": {
+    "items": {
+     "unweighted_mean_prev": {
+      "value": 49.917241,
+      "printed": null,
+      "diff": null
+     },
+     "weighted_mean_prev": {
+      "value": 44.638484,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the sample-size-weighted mean lies inside P95's 95% CI (42.58-53.96)",
+   "observed": {
+    "items": {
+     "unweighted_mean_prev": {
+      "value": 49.917241,
+      "printed": null,
+      "diff": null
+     },
+     "weighted_mean_prev": {
+      "value": 44.638484,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "unweighted_mean_prev": {
+      "value": 49.917241,
+      "printed": null,
+      "diff": null
+     },
+     "weighted_mean_prev": {
+      "value": 44.638484,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

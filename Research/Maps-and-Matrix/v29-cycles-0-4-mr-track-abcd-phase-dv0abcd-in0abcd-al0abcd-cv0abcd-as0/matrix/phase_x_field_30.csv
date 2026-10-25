@@ -1,0 +1,31 @@
+phase,field,n_claims,E,P,PS,H,cycle,flag
+Divergence,Natural-Sciences,23,8,14,0,1,DVD,populated
+Divergence,Formal-Sciences,20,6,13,0,1,DVD,populated
+Divergence,Social-Sciences,20,5,15,0,0,DVD,populated
+Divergence,Applied-Sciences,22,4,17,0,1,DVD,populated
+Divergence,Humanities,20,6,14,0,0,DVD,populated
+Divergence,Philosophy-Spirituality,27,11,11,4,1,DVD,populated
+Insurgence,Natural-Sciences,14,3,11,0,0,IND,populated
+Insurgence,Formal-Sciences,14,3,11,0,0,IND,populated
+Insurgence,Social-Sciences,19,1,17,0,1,IND,populated
+Insurgence,Applied-Sciences,15,3,12,0,0,IND,populated
+Insurgence,Humanities,13,1,10,1,1,IND,populated
+Insurgence,Philosophy-Spirituality,14,0,10,4,0,IND,populated
+Allegiance,Natural-Sciences,19,2,17,0,0,ALD,populated
+Allegiance,Formal-Sciences,12,4,8,0,0,ALD,populated
+Allegiance,Social-Sciences,16,0,11,0,5,ALD,populated
+Allegiance,Applied-Sciences,14,1,13,0,0,ALD,populated
+Allegiance,Humanities,13,0,11,0,2,ALD,populated
+Allegiance,Philosophy-Spirituality,14,0,0,4,10,ALD,UNDER-RESEARCHED (no E/P claim)
+Convergence,Natural-Sciences,16,7,9,0,0,CVD,populated
+Convergence,Formal-Sciences,15,15,0,0,0,CVD,populated
+Convergence,Social-Sciences,12,3,9,0,0,CVD,populated
+Convergence,Applied-Sciences,11,10,1,0,0,CVD,populated
+Convergence,Humanities,11,2,2,0,7,CVD,populated
+Convergence,Philosophy-Spirituality,15,2,3,3,7,CVD,populated
+Ascendence,Natural-Sciences,2,0,2,0,0,AS0,populated
+Ascendence,Formal-Sciences,2,2,0,0,0,AS0,populated
+Ascendence,Social-Sciences,2,1,1,0,0,AS0,populated
+Ascendence,Applied-Sciences,2,1,1,0,0,AS0,populated
+Ascendence,Humanities,2,1,1,0,0,AS0,populated
+Ascendence,Philosophy-Spirituality,2,0,0,1,1,AS0,UNDER-RESEARCHED (no E/P claim)

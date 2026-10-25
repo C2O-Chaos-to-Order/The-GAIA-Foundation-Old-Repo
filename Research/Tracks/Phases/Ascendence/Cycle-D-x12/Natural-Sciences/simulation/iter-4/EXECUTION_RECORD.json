@@ -1,0 +1,112 @@
+{
+ "sim_id": "SIM-AS-NAT-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:59:51.422031+00:00",
+ "finished_utc": "2026-10-24T23:59:52.286383+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-4  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "5accede5af080e3e077103fd16fa49ed1a539d16902124702f3efa711b73b013",
+ "params_sha256": "c287df1c125d1c7dd2a273355609fec10935e12aa142e27f4f8bcf7351686d26",
+ "results_sha256": "47aefd85b72f82c017a63b0de9ba4926c7fd013e5b07954680279bbe15678bd2",
+ "results": {
+  "by_L": {
+   "6": {
+    "rmf": {
+     "mean_paths": 0.966,
+     "se": 0.1201,
+     "P_none": 0.79,
+     "max_paths": 21.0,
+     "reps": 500
+    }
+   },
+   "10": {
+    "rmf": {
+     "mean_paths": 1.78,
+     "se": 0.2899,
+     "P_none": 0.828,
+     "max_paths": 57.0,
+     "reps": 500
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no landscape has more accessible paths than the L! shortest paths",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "RMF theta 0.1 (weak correlation): probability of no path lower at L 10 than at L 6 (P94's conjecture for any theta > 0)",
+   "observed": {
+    "by_L": {
+     "6": {
+      "rmf": {
+       "mean_paths": 0.966,
+       "se": 0.1201,
+       "P_none": 0.79,
+       "max_paths": 21.0,
+       "reps": 500
+      }
+     },
+     "10": {
+      "rmf": {
+       "mean_paths": 1.78,
+       "se": 0.2899,
+       "P_none": 0.828,
+       "max_paths": 57.0,
+       "reps": 500
+      }
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "6": {
+      "rmf": {
+       "mean_paths": 0.966,
+       "se": 0.1201,
+       "P_none": 0.79,
+       "max_paths": 21.0,
+       "reps": 500
+      }
+     },
+     "10": {
+      "rmf": {
+       "mean_paths": 1.78,
+       "se": 0.2899,
+       "P_none": 0.828,
+       "max_paths": 57.0,
+       "reps": 500
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

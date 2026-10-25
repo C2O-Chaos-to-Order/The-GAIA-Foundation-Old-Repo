@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-AS-NAT-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:00:05.296627+00:00",
+ "finished_utc": "2026-10-25T00:00:05.727410+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-12  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "31567ae613e7193244af0e69b7b917e86522acfc24e0127d7f852691bc052400",
+ "params_sha256": "cd1823047b61fedc8da020b17e422512f042eab01f593243f364015d7aff5ebb",
+ "results_sha256": "5b2015c1ef18653c543c19169edf8f1311905d121ce1b3b9b9ed63bc09856753",
+ "results": {
+  "by_L": {
+   "8": {
+    "nk_K0": {
+     "mean_paths": 40320.0,
+     "se": 0.0,
+     "P_none": 0.0,
+     "max_paths": 40320.0,
+     "reps": 200
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no landscape has more accessible paths than the L! shortest paths",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "binary NK K 0 (additive): every landscape has all 8! = 40320 shortest paths accessible",
+   "observed": {
+    "by_L": {
+     "8": {
+      "nk_K0": {
+       "mean_paths": 40320.0,
+       "se": 0.0,
+       "P_none": 0.0,
+       "max_paths": 40320.0,
+       "reps": 200
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "8": {
+      "nk_K0": {
+       "mean_paths": 40320.0,
+       "se": 0.0,
+       "P_none": 0.0,
+       "max_paths": 40320.0,
+       "reps": 200
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,328 @@
+{
+ "sim_id": "SIM-AS-SOC-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:17.600055+00:00",
+ "finished_utc": "2026-10-24T23:22:18.034151+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "752c1c599c702e8cdbc19cfd183848a3ba541d58befe7c619eeb45c97f02243e",
+ "params_sha256": "158d8896585870aa03d7b84de353dd4aa73d722fb756f3601fdb1e938bcb6d1b",
+ "results_sha256": "4c88dc9b5b773dd6ecc1b1b69904801a7729337663b20eaa3b89ae80d7b01bf8",
+ "results": {
+  "items": {
+   "growth_1901_2001_per_decade": {
+    "value": 1.5,
+    "printed": 1.5,
+    "diff": 0.0
+   },
+   "growth_1901_1974_per_decade": {
+    "value": 1.643836,
+    "printed": null,
+    "diff": null
+   },
+   "growth_1974_2001_per_decade": {
+    "value": 1.111111,
+    "printed": 1.0,
+    "diff": 0.111111
+   },
+   "unidiff_1974_z": {
+    "value": 3.287671,
+    "printed": null,
+    "diff": null
+   },
+   "unidiff_2001_z": {
+    "value": 5.581395,
+    "printed": null,
+    "diff": null
+   },
+   "unidiff_diff_z_indep": {
+    "value": 2.127563,
+    "printed": null,
+    "diff": null
+   },
+   "T6_inheritance_odds_agri_self": {
+    "value": 16.28102,
+    "printed": null,
+    "diff": null
+   },
+   "T6_inheritance_odds_semi": {
+    "value": 1.377128,
+    "printed": null,
+    "diff": null
+   },
+   "constant_fluidity_dev_p": {
+    "value": 0.0,
+    "printed": null,
+    "diff": null
+   },
+   "unidiff_dev_p": {
+    "value": 0.0,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P87's 'about 1.5 percentage points per decade' follows from Table 1 (52 to 67 over 100 years) within 0.05",
+   "observed": {
+    "items": {
+     "growth_1901_2001_per_decade": {
+      "value": 1.5,
+      "printed": 1.5,
+      "diff": 0.0
+     },
+     "growth_1901_1974_per_decade": {
+      "value": 1.643836,
+      "printed": null,
+      "diff": null
+     },
+     "growth_1974_2001_per_decade": {
+      "value": 1.111111,
+      "printed": 1.0,
+      "diff": 0.111111
+     },
+     "unidiff_1974_z": {
+      "value": 3.287671,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_2001_z": {
+      "value": 5.581395,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_diff_z_indep": {
+      "value": 2.127563,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_agri_self": {
+      "value": 16.28102,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_semi": {
+      "value": 1.377128,
+      "printed": null,
+      "diff": null
+     },
+     "constant_fluidity_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "growth was slower after 1974 than before (per-decade rates from Table 1), as P87's 'possibly slowing to 1 point per decade' says",
+   "observed": {
+    "items": {
+     "growth_1901_2001_per_decade": {
+      "value": 1.5,
+      "printed": 1.5,
+      "diff": 0.0
+     },
+     "growth_1901_1974_per_decade": {
+      "value": 1.643836,
+      "printed": null,
+      "diff": null
+     },
+     "growth_1974_2001_per_decade": {
+      "value": 1.111111,
+      "printed": 1.0,
+      "diff": 0.111111
+     },
+     "unidiff_1974_z": {
+      "value": 3.287671,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_2001_z": {
+      "value": 5.581395,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_diff_z_indep": {
+      "value": 2.127563,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_agri_self": {
+      "value": 16.28102,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_semi": {
+      "value": 1.377128,
+      "printed": null,
+      "diff": null
+     },
+     "constant_fluidity_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "both unidiff parameters are more than 3 standard errors from zero",
+   "observed": {
+    "items": {
+     "growth_1901_2001_per_decade": {
+      "value": 1.5,
+      "printed": 1.5,
+      "diff": 0.0
+     },
+     "growth_1901_1974_per_decade": {
+      "value": 1.643836,
+      "printed": null,
+      "diff": null
+     },
+     "growth_1974_2001_per_decade": {
+      "value": 1.111111,
+      "printed": 1.0,
+      "diff": 0.111111
+     },
+     "unidiff_1974_z": {
+      "value": 3.287671,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_2001_z": {
+      "value": 5.581395,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_diff_z_indep": {
+      "value": 2.127563,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_agri_self": {
+      "value": 16.28102,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_semi": {
+      "value": 1.377128,
+      "printed": null,
+      "diff": null
+     },
+     "constant_fluidity_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "growth_1901_2001_per_decade": {
+      "value": 1.5,
+      "printed": 1.5,
+      "diff": 0.0
+     },
+     "growth_1901_1974_per_decade": {
+      "value": 1.643836,
+      "printed": null,
+      "diff": null
+     },
+     "growth_1974_2001_per_decade": {
+      "value": 1.111111,
+      "printed": 1.0,
+      "diff": 0.111111
+     },
+     "unidiff_1974_z": {
+      "value": 3.287671,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_2001_z": {
+      "value": 5.581395,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_diff_z_indep": {
+      "value": 2.127563,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_agri_self": {
+      "value": 16.28102,
+      "printed": null,
+      "diff": null
+     },
+     "T6_inheritance_odds_semi": {
+      "value": 1.377128,
+      "printed": null,
+      "diff": null
+     },
+     "constant_fluidity_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     },
+     "unidiff_dev_p": {
+      "value": 0.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

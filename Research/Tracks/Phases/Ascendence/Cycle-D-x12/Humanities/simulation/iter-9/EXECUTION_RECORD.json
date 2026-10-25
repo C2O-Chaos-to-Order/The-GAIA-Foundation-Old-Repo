@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-HUM-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:50.302458+00:00",
+ "finished_utc": "2026-10-25T00:01:50.316911+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-9  (run from Humanities/simulation/)",
+ "spec_sha256": "0fbebf907e1f91b2911efd3fe4d5bdde5bf85d124c2dd764e34ac7344dcb2012",
+ "params_sha256": "ef276d258689e068262fc3f5eb72b3058c23eb75a9d918d242f763a367bc7b97",
+ "results_sha256": "2cdee7e2943bf20ee09c3a8ac43fa2fede852dfbe909ad2a374a7c8b61ae2e6d",
+ "results": {
+  "by_x0": {
+   "0.5": {
+    "p_fix": 0.4985,
+    "p_lost": 0.5015,
+    "p_unresolved": 0.0,
+    "mean_gens": 11.403
+   }
+  },
+  "N": 200,
+  "c": 1.5,
+  "b": 0.0,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.2501125,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "c 1.5 without selection from 50%: fixation within 0.05 of 0.5 (symmetry)",
+   "observed": {
+    "by_x0": {
+     "0.5": {
+      "p_fix": 0.4985,
+      "p_lost": 0.5015,
+      "p_unresolved": 0.0,
+      "mean_gens": 11.403
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.5": {
+      "p_fix": 0.4985,
+      "p_lost": 0.5015,
+      "p_unresolved": 0.0,
+      "mean_gens": 11.403
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

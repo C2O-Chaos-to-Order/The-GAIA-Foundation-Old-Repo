@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-HUM-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:50.515949+00:00",
+ "finished_utc": "2026-10-25T00:01:50.527634+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-11  (run from Humanities/simulation/)",
+ "spec_sha256": "d71c01c6ce2b369904d4ff86fdc9b45428cd00e56b5ccb811a1eb8d5aa00dc62",
+ "params_sha256": "3430882431e467654c3e75416e183423f44f935644a3460c4ba76889c683c16e",
+ "results_sha256": "43c1ccf8b9e8fa39c6fb1e09f59cfe1edf7a8510bc2a6e93c58708a4cbebb40d",
+ "results": {
+  "by_x0": {
+   "0.3": {
+    "p_fix": 0.24225,
+    "p_lost": 0.75775,
+    "p_unresolved": 0.0,
+    "mean_gens": 6.354
+   }
+  },
+  "N": 200,
+  "c": 2.0,
+  "b": 1.0,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.249789,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "c 2.0, b 1.0 from 30%: fixation above one half",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.24225,
+      "p_lost": 0.75775,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.354
+     }
+    },
+    "N": 200,
+    "c": 2.0,
+    "b": 1.0,
+    "se_max": 0.00791
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.24225,
+      "p_lost": 0.75775,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.354
+     }
+    },
+    "N": 200,
+    "c": 2.0,
+    "b": 1.0,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

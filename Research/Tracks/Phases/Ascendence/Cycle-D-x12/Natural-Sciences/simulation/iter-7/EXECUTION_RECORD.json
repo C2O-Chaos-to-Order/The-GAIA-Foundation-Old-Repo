@@ -1,0 +1,112 @@
+{
+ "sim_id": "SIM-AS-NAT-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:00:01.308469+00:00",
+ "finished_utc": "2026-10-25T00:00:01.616432+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-7  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "35f5aa0533acadb7288b04cc2d03916268ce16cd0ccfda70a3e0b5f9ce2bbd30",
+ "params_sha256": "d3b0be6c5469193fa47dcc239aada2eb2132d3f094fcf2a73b1dc2f5faed4bff",
+ "results_sha256": "9e32043f17fc3c487e4607f0fa72615edb62dbad3bb195d08f450cdb31121c78",
+ "results": {
+  "by_L": {
+   "6": {
+    "holey": {
+     "mean_paths": 1.778,
+     "se": 0.076,
+     "P_none": 0.5675,
+     "max_paths": 41.0,
+     "reps": 2000
+    }
+   },
+   "8": {
+    "holey": {
+     "mean_paths": 8.6345,
+     "se": 0.3223,
+     "P_none": 0.2975,
+     "max_paths": 153.0,
+     "reps": 2000
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no landscape has more accessible paths than the L! shortest paths",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "holey p 0.3: mean connected shortest paths within 3 SE of L! p^(L-1) (1.75 at L 6; 88.2 at L 8)",
+   "observed": {
+    "by_L": {
+     "6": {
+      "holey": {
+       "mean_paths": 1.778,
+       "se": 0.076,
+       "P_none": 0.5675,
+       "max_paths": 41.0,
+       "reps": 2000
+      }
+     },
+     "8": {
+      "holey": {
+       "mean_paths": 8.6345,
+       "se": 0.3223,
+       "P_none": 0.2975,
+       "max_paths": 153.0,
+       "reps": 2000
+      }
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "6": {
+      "holey": {
+       "mean_paths": 1.778,
+       "se": 0.076,
+       "P_none": 0.5675,
+       "max_paths": 41.0,
+       "reps": 2000
+      }
+     },
+     "8": {
+      "holey": {
+       "mean_paths": 8.6345,
+       "se": 0.3223,
+       "P_none": 0.2975,
+       "max_paths": 153.0,
+       "reps": 2000
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

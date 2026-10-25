@@ -1,0 +1,156 @@
+{
+ "sim_id": "SIM-AS-HUM-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:19.620907+00:00",
+ "finished_utc": "2026-10-24T23:22:19.638666+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "837816df964c001be13956f00bd56376597c5c92dedf885e769e35f56b69bf19",
+ "params_sha256": "56e1d25a0fdc539c2f1d7fc46b78482bce4b2d8833e7790843f45a90a825967e",
+ "results_sha256": "311b59837b7674f087fee760c1f9a386bfd2e0793e3d12e74f573a559576ef50",
+ "results": {
+  "by_x0": {
+   "0.15": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 3.462
+   },
+   "0.3": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 5.189
+   },
+   "0.5": {
+    "p_fix": 0.507,
+    "p_lost": 0.493,
+    "p_unresolved": 0.0,
+    "mean_gens": 11.452
+   }
+  },
+  "N": 200,
+  "c": 1.5,
+  "b": 0.0,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.249792,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "majority-amplifying copying (c 1.5): a variant starting at 15% (P89: Irish share of Liverpool 1871) is lost in at least 99% of runs",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.462
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.189
+     },
+     "0.5": {
+      "p_fix": 0.507,
+      "p_lost": 0.493,
+      "p_unresolved": 0.0,
+      "mean_gens": 11.452
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "c 1.5: a 30% variant is also lost in at least 95% of runs",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.462
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.189
+     },
+     "0.5": {
+      "p_fix": 0.507,
+      "p_lost": 0.493,
+      "p_unresolved": 0.0,
+      "mean_gens": 11.452
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.462
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.189
+     },
+     "0.5": {
+      "p_fix": 0.507,
+      "p_lost": 0.493,
+      "p_unresolved": 0.0,
+      "mean_gens": 11.452
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 0.0,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

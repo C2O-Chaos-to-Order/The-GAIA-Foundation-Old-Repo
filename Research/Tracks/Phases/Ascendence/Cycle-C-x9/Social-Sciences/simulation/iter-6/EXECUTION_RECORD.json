@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-AS-SOC-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:47.649224+00:00",
+ "finished_utc": "2026-10-24T23:50:47.654082+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-6  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "1f1b2b797c62f24e38fc8dabc7d310fba56eafba08165918045f4f71b1340c60",
+ "params_sha256": "11dc671cbf87352ca0d7b3caa9d0edee7fc00e777917909a12679dfbe71d7443",
+ "results_sha256": "c4313b2cecdc047227b6005aa7f57d696dacdd97683247b07aaf9f1d37d4149f",
+ "results": {
+  "by_year": {
+   "1901": {
+    "fixed": {
+     "pct_mobile": 57.516
+    },
+    "independence": {
+     "pct_mobile": 76.449
+    },
+    "min_mobility_pct": 11.744
+   },
+   "2001": {
+    "fixed": {
+     "pct_mobile": 59.423
+    },
+    "independence": {
+     "pct_mobile": 76.402
+    },
+    "min_mobility_pct": 23.19
+   }
+  },
+  "max_margin_err": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "IPF reproduces both margins within 1e-9 in every fit",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the structural minimum rises from 1901 to 2001 margins (more change forced by changing class shares)",
+   "observed": {
+    "by_year": {
+     "1901": {
+      "fixed": {
+       "pct_mobile": 57.516
+      },
+      "independence": {
+       "pct_mobile": 76.449
+      },
+      "min_mobility_pct": 11.744
+     },
+     "2001": {
+      "fixed": {
+       "pct_mobile": 59.423
+      },
+      "independence": {
+       "pct_mobile": 76.402
+      },
+      "min_mobility_pct": 23.19
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_year": {
+     "1901": {
+      "fixed": {
+       "pct_mobile": 57.516
+      },
+      "independence": {
+       "pct_mobile": 76.449
+      },
+      "min_mobility_pct": 11.744
+     },
+     "2001": {
+      "fixed": {
+       "pct_mobile": 59.423
+      },
+      "independence": {
+       "pct_mobile": 76.402
+      },
+      "min_mobility_pct": 23.19
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,268 @@
+{
+ "sim_id": "SIM-AS-SOC-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:40.380903+00:00",
+ "finished_utc": "2026-10-24T23:40:40.807055+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-5  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "85b68833ba4aac052c0c327cd7e3be97d277ca14cb59a5e2458eababc3f7d1ee",
+ "params_sha256": "d75ce5545d10512d4ef380c82dc5e7ca30a235154f9d99553fc2d9e2310ea2f7",
+ "results_sha256": "0da5fc979d6362125cf785e05ad030d7ed0d4c3a07499566f70f89f109325005",
+ "results": {
+  "items": {
+   "T3_row_prof": {
+    "value": 100.0,
+    "printed": 100,
+    "diff": 0.0
+   },
+   "T3_row_routine": {
+    "value": 99.0,
+    "printed": 100,
+    "diff": -1.0
+   },
+   "T3_row_selfemp": {
+    "value": 101.0,
+    "printed": 100,
+    "diff": 1.0
+   },
+   "T3_row_selfagri": {
+    "value": 99.0,
+    "printed": 100,
+    "diff": -1.0
+   },
+   "T3_row_skilled": {
+    "value": 99.0,
+    "printed": 100,
+    "diff": -1.0
+   },
+   "T3_row_semi": {
+    "value": 100.0,
+    "printed": 100,
+    "diff": 0.0
+   },
+   "T3_row_agriw": {
+    "value": 100.0,
+    "printed": 100,
+    "diff": 0.0
+   },
+   "T4_col_salariat": {
+    "value": 99.0,
+    "printed": 100,
+    "diff": -1.0
+   },
+   "T4_col_routine": {
+    "value": 100.0,
+    "printed": 100,
+    "diff": 0.0
+   },
+   "T4_col_selfemp": {
+    "value": 99.0,
+    "printed": 100,
+    "diff": -1.0
+   },
+   "T4_col_selfagri": {
+    "value": 101.0,
+    "printed": 100,
+    "diff": 1.0
+   },
+   "T4_col_skilled": {
+    "value": 100.0,
+    "printed": 100,
+    "diff": 0.0
+   },
+   "T4_col_semi": {
+    "value": 101.0,
+    "printed": 100,
+    "diff": 1.0
+   },
+   "T4_col_agriw": {
+    "value": 100.05,
+    "printed": 100,
+    "diff": 0.05
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "every Table 3 row and Table 4 column sums to 100 within 2 (rounding of seven whole percentages; '<0.1' as 0.05)",
+   "observed": {
+    "items": {
+     "T3_row_prof": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T3_row_routine": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T3_row_selfemp": {
+      "value": 101.0,
+      "printed": 100,
+      "diff": 1.0
+     },
+     "T3_row_selfagri": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T3_row_skilled": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T3_row_semi": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T3_row_agriw": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T4_col_salariat": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T4_col_routine": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T4_col_selfemp": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T4_col_selfagri": {
+      "value": 101.0,
+      "printed": 100,
+      "diff": 1.0
+     },
+     "T4_col_skilled": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T4_col_semi": {
+      "value": 101.0,
+      "printed": 100,
+      "diff": 1.0
+     },
+     "T4_col_agriw": {
+      "value": 100.05,
+      "printed": 100,
+      "diff": 0.05
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "T3_row_prof": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T3_row_routine": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T3_row_selfemp": {
+      "value": 101.0,
+      "printed": 100,
+      "diff": 1.0
+     },
+     "T3_row_selfagri": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T3_row_skilled": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T3_row_semi": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T3_row_agriw": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T4_col_salariat": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T4_col_routine": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T4_col_selfemp": {
+      "value": 99.0,
+      "printed": 100,
+      "diff": -1.0
+     },
+     "T4_col_selfagri": {
+      "value": 101.0,
+      "printed": 100,
+      "diff": 1.0
+     },
+     "T4_col_skilled": {
+      "value": 100.0,
+      "printed": 100,
+      "diff": 0.0
+     },
+     "T4_col_semi": {
+      "value": 101.0,
+      "printed": 100,
+      "diff": 1.0
+     },
+     "T4_col_agriw": {
+      "value": 100.05,
+      "printed": 100,
+      "diff": 0.05
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

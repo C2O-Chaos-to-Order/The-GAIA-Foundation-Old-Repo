@@ -8,7 +8,7 @@ Owner request (2026-10-24): five phase reports — **Divergence, Insurgence, All
 | Insurgence | `Insurgence/` | in progress |
 | Allegiance | `Allegiance/` | in progress |
 | Convergence | `Convergence/` | in progress |
-| Ascendence | `Ascendence/` | planned |
+| Ascendence | `Ascendence/` | in progress |
 | Synthesis | `SYNTHESIS.md` | planned |
 
 ## Fields

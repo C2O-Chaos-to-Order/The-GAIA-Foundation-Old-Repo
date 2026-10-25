@@ -1,0 +1,176 @@
+{
+ "sim_id": "SIM-AS-NAT-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:06.585750+00:00",
+ "finished_utc": "2026-10-24T23:40:23.821568+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-6  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "22f27c538e2a430b81c9821dde2a51f9fdb790fb2d4ad3068e631665ef1307b2",
+ "params_sha256": "e235ffce0ea338e3b0cd438504f0cd5ed0e5a6b728fb0e83a7b8b540f1abd42b",
+ "results_sha256": "b09e862922d6b313bf6f8605d7669a8dd3a95c2fb0eb82e458556d0921cdea1d",
+ "results": {
+  "landscapes": {
+   "rmf_s1": {
+    "n_peaks": 379.6667,
+    "frac_peaks": 0.0232,
+    "P0.14": 0.6451,
+    "P_global": 0.0331,
+    "R_ph_bs": 0.9292,
+    "R_ph_bs_min": 0.9266,
+    "P0.14_min": 0.623
+   },
+   "hoc": {
+    "n_peaks": 746.0,
+    "frac_peaks": 0.0455,
+    "P0.14": 0.2177,
+    "P_global": 0.0012,
+    "R_ph_bs": 0.5038,
+    "R_ph_bs_min": 0.4847,
+    "P0.14_min": 0.2039
+   },
+   "V1_smooth": {
+    "n_peaks": 1,
+    "frac_peaks": 6e-05,
+    "P0.14": 1.0,
+    "P_global": 1.0,
+    "R_ph_bs": null
+   }
+  },
+  "G": 16384
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "an RMF landscape with sigma = 0 (additive) has exactly one peak and every walk ends on it",
+   "observed": {
+    "n_peaks": 1,
+    "frac_peaks": 6e-05,
+    "P0.14": 1.0,
+    "P_global": 1.0,
+    "R_ph_bs": null
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "7 sites: peak height and basin size positively correlated in every landscape (minimum r > 0)",
+   "observed": {
+    "landscapes": {
+     "rmf_s1": {
+      "n_peaks": 379.6667,
+      "frac_peaks": 0.0232,
+      "P0.14": 0.6451,
+      "P_global": 0.0331,
+      "R_ph_bs": 0.9292,
+      "R_ph_bs_min": 0.9266,
+      "P0.14_min": 0.623
+     },
+     "hoc": {
+      "n_peaks": 746.0,
+      "frac_peaks": 0.0455,
+      "P0.14": 0.2177,
+      "P_global": 0.0012,
+      "R_ph_bs": 0.5038,
+      "R_ph_bs_min": 0.4847,
+      "P0.14_min": 0.2039
+     },
+     "V1_smooth": {
+      "n_peaks": 1,
+      "frac_peaks": 6e-05,
+      "P0.14": 1.0,
+      "P_global": 1.0,
+      "R_ph_bs": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "7 sites: the correlation is higher for RMF sigma 1 than for HoC (mean r)",
+   "observed": {
+    "landscapes": {
+     "rmf_s1": {
+      "n_peaks": 379.6667,
+      "frac_peaks": 0.0232,
+      "P0.14": 0.6451,
+      "P_global": 0.0331,
+      "R_ph_bs": 0.9292,
+      "R_ph_bs_min": 0.9266,
+      "P0.14_min": 0.623
+     },
+     "hoc": {
+      "n_peaks": 746.0,
+      "frac_peaks": 0.0455,
+      "P0.14": 0.2177,
+      "P_global": 0.0012,
+      "R_ph_bs": 0.5038,
+      "R_ph_bs_min": 0.4847,
+      "P0.14_min": 0.2039
+     },
+     "V1_smooth": {
+      "n_peaks": 1,
+      "frac_peaks": 6e-05,
+      "P0.14": 1.0,
+      "P_global": 1.0,
+      "R_ph_bs": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "landscapes": {
+     "rmf_s1": {
+      "n_peaks": 379.6667,
+      "frac_peaks": 0.0232,
+      "P0.14": 0.6451,
+      "P_global": 0.0331,
+      "R_ph_bs": 0.9292,
+      "R_ph_bs_min": 0.9266,
+      "P0.14_min": 0.623
+     },
+     "hoc": {
+      "n_peaks": 746.0,
+      "frac_peaks": 0.0455,
+      "P0.14": 0.2177,
+      "P_global": 0.0012,
+      "R_ph_bs": 0.5038,
+      "R_ph_bs_min": 0.4847,
+      "P0.14_min": 0.2039
+     },
+     "V1_smooth": {
+      "n_peaks": 1,
+      "frac_peaks": 6e-05,
+      "P0.14": 1.0,
+      "P_global": 1.0,
+      "R_ph_bs": null
+     }
+    },
+    "G": 16384
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,168 @@
+{
+ "sim_id": "SIM-AS-APP-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:18.290430+00:00",
+ "finished_utc": "2026-10-24T23:22:18.348022+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "0f3d6d7aada3c3014589dfe8d04bed82a744705b96af1d7fe0e6e00e2d26a1ff",
+ "params_sha256": "dc4f98090bc5f78dab74f8b63b41f35df1238f58df7accb8bd6387330917ff5b",
+ "results_sha256": "500fddf61a44813c0e7ef1a5074e98238fef825541e6204f03ae5990979e4728",
+ "results": {
+  "by_days": {
+   "3": {
+    "mean_rr": 1.9735,
+    "median_rr": 2.0345,
+    "q05": 1.6203,
+    "q95": 2.141,
+    "ratio_of_means": 1.9612,
+    "point_rr": 2.0953,
+    "se_mean_rr": 0.0004
+   },
+   "2": {
+    "mean_rr": 1.509,
+    "median_rr": 1.5425,
+    "q05": 1.2567,
+    "q95": 1.6544,
+    "ratio_of_means": 1.4885,
+    "point_rr": 1.5671,
+    "se_mean_rr": 0.0003
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the point-estimate risk ratio for the first k equals the AS0 audit value within 1e-3",
+   "observed": 2.0953,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "with only the ascent-rate coefficient uncertain (N(1.14, 0.40)), the mean 1-day/3-day risk ratio is within 0.05 of P88's 2.069",
+   "observed": {
+    "by_days": {
+     "3": {
+      "mean_rr": 1.9735,
+      "median_rr": 2.0345,
+      "q05": 1.6203,
+      "q95": 2.141,
+      "ratio_of_means": 1.9612,
+      "point_rr": 2.0953,
+      "se_mean_rr": 0.0004
+     },
+     "2": {
+      "mean_rr": 1.509,
+      "median_rr": 1.5425,
+      "q05": 1.2567,
+      "q95": 1.6544,
+      "ratio_of_means": 1.4885,
+      "point_rr": 1.5671,
+      "se_mean_rr": 0.0003
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the ratio of mean probabilities is within 0.05 of 2.069",
+   "observed": {
+    "by_days": {
+     "3": {
+      "mean_rr": 1.9735,
+      "median_rr": 2.0345,
+      "q05": 1.6203,
+      "q95": 2.141,
+      "ratio_of_means": 1.9612,
+      "point_rr": 2.0953,
+      "se_mean_rr": 0.0004
+     },
+     "2": {
+      "mean_rr": 1.509,
+      "median_rr": 1.5425,
+      "q05": 1.2567,
+      "q95": 1.6544,
+      "ratio_of_means": 1.4885,
+      "point_rr": 1.5671,
+      "se_mean_rr": 0.0003
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the 90% interval of the 1-day/3-day risk ratio excludes 1",
+   "observed": {
+    "by_days": {
+     "3": {
+      "mean_rr": 1.9735,
+      "median_rr": 2.0345,
+      "q05": 1.6203,
+      "q95": 2.141,
+      "ratio_of_means": 1.9612,
+      "point_rr": 2.0953,
+      "se_mean_rr": 0.0004
+     },
+     "2": {
+      "mean_rr": 1.509,
+      "median_rr": 1.5425,
+      "q05": 1.2567,
+      "q95": 1.6544,
+      "ratio_of_means": 1.4885,
+      "point_rr": 1.5671,
+      "se_mean_rr": 0.0003
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_days": {
+     "3": {
+      "mean_rr": 1.9735,
+      "median_rr": 2.0345,
+      "q05": 1.6203,
+      "q95": 2.141,
+      "ratio_of_means": 1.9612,
+      "point_rr": 2.0953,
+      "se_mean_rr": 0.0004
+     },
+     "2": {
+      "mean_rr": 1.509,
+      "median_rr": 1.5425,
+      "q05": 1.2567,
+      "q95": 1.6544,
+      "ratio_of_means": 1.4885,
+      "point_rr": 1.5671,
+      "se_mean_rr": 0.0003
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

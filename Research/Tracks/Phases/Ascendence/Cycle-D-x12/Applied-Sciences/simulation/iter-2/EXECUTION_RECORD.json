@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-AS-APP-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:44.241852+00:00",
+ "finished_utc": "2026-10-25T00:01:44.283214+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "7b10406acbc9da68287965203d78f446355c00a6805339208b1e7d5992559097",
+ "params_sha256": "2ac8be9b1bece2d95faf50aad6119ca26e2170f9b5e11fa85a0e84db7daf2467",
+ "results_sha256": "26b2153ad471b1d497dc8228df24f5d3fe438ecb8c47de73c12a062cf2481244",
+ "results": {
+  "by_days": {
+   "4": {
+    "mean_rr": 2.3308,
+    "median_rr": 2.4101,
+    "q05": 1.9037,
+    "q95": 2.5089,
+    "ratio_of_means": 2.3328,
+    "point_rr": 2.495,
+    "se_mean_rr": 0.0005
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the point-estimate risk ratio for the first k equals the AS0 audit value within 1e-3",
+   "observed": 2.495,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P88 model: 1-day vs 4-day risk ratio (point) above P95's rapid-ascent RR 1.60",
+   "observed": {
+    "by_days": {
+     "4": {
+      "mean_rr": 2.3308,
+      "median_rr": 2.4101,
+      "q05": 1.9037,
+      "q95": 2.5089,
+      "ratio_of_means": 2.3328,
+      "point_rr": 2.495,
+      "se_mean_rr": 0.0005
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_days": {
+     "4": {
+      "mean_rr": 2.3308,
+      "median_rr": 2.4101,
+      "q05": 1.9037,
+      "q95": 2.5089,
+      "ratio_of_means": 2.3328,
+      "point_rr": 2.495,
+      "se_mean_rr": 0.0005
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

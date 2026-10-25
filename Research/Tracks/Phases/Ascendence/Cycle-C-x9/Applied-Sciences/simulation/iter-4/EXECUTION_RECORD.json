@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-APP-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:50.309630+00:00",
+ "finished_utc": "2026-10-24T23:50:50.743830+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-4  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "2c9aed43f20d44e528d063021d93f7e697935714c4d19466cb1435582add0d64",
+ "params_sha256": "5071c023558c2f3f298325f51e8de187a46e0a10739f0214d099a2d24ea986ec",
+ "results_sha256": "9c4281afc7a34f361d87a07806bfdfb627d3655928a48260456dd2552ff9c1e9",
+ "results": {
+  "items": {
+   "T1_max_prev": {
+    "value": 84.0,
+    "printed": 83,
+    "diff": 1.0
+   },
+   "T1_min_prev": {
+    "value": 5.5,
+    "printed": 5.5,
+    "diff": 0.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P95's stated range 5.5%-83% matches Table 1's minimum and maximum",
+   "observed": {
+    "items": {
+     "T1_max_prev": {
+      "value": 84.0,
+      "printed": 83,
+      "diff": 1.0
+     },
+     "T1_min_prev": {
+      "value": 5.5,
+      "printed": 5.5,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "T1_max_prev": {
+      "value": 84.0,
+      "printed": 83,
+      "diff": 1.0
+     },
+     "T1_min_prev": {
+      "value": 5.5,
+      "printed": 5.5,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

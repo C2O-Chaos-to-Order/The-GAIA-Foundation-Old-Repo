@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-AS-SOC-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:47.129120+00:00",
+ "finished_utc": "2026-10-24T23:50:47.134175+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "2853df2c4deea050719f0bd749ada9a6e2360e54486a55b27c9172699f1abbac",
+ "params_sha256": "a8d176a3744d8a9b1d532a476b85153af6fb91403e5f6301d450de264aa3193f",
+ "results_sha256": "47c79113d2560284eeee7cb7113c7f1933d31574071b60b32ae540bc2041c05c",
+ "results": {
+  "by_year": {
+   "1974": {
+    "x0.5": {
+     "pct_mobile": 70.021
+    },
+    "x0.6": {
+     "pct_mobile": 68.512
+    },
+    "x0.7": {
+     "pct_mobile": 66.953
+    },
+    "x0.8": {
+     "pct_mobile": 65.347
+    },
+    "independence": {
+     "pct_mobile": 76.732
+    },
+    "min_mobility_pct": 16.14
+   }
+  },
+  "max_margin_err": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "IPF reproduces both margins within 1e-9 in every fit",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "1974 margins: some inheritance scale in 0.5-0.8 gives % mobile within 1 point of Table 1's 64%",
+   "observed": {
+    "by_year": {
+     "1974": {
+      "x0.5": {
+       "pct_mobile": 70.021
+      },
+      "x0.6": {
+       "pct_mobile": 68.512
+      },
+      "x0.7": {
+       "pct_mobile": 66.953
+      },
+      "x0.8": {
+       "pct_mobile": 65.347
+      },
+      "independence": {
+       "pct_mobile": 76.732
+      },
+      "min_mobility_pct": 16.14
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_year": {
+     "1974": {
+      "x0.5": {
+       "pct_mobile": 70.021
+      },
+      "x0.6": {
+       "pct_mobile": 68.512
+      },
+      "x0.7": {
+       "pct_mobile": 66.953
+      },
+      "x0.8": {
+       "pct_mobile": 65.347
+      },
+      "independence": {
+       "pct_mobile": 76.732
+      },
+      "min_mobility_pct": 16.14
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
