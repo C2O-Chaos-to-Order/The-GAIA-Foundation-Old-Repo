@@ -67,6 +67,7 @@ Branches already merged and kept for history: `research/cycle-0-baseline`, `cycl
 
 ## Key principles observed in this corpus
 
+- **Founding principle: Truth with Integrity.** "A Truth That Is Never Twisted." See [`PRINCIPLES.md`](PRINCIPLES.md) (owner commitment, 2026-10-25).
 - Preserve prior versions; do not silently overwrite. (Previous versions of this README are kept at [`docs/history/README-2026-10-23.md`](docs/history/README-2026-10-23.md), [`docs/history/README-2026-10-24-pre-reconcile.md`](docs/history/README-2026-10-24-pre-reconcile.md) and [`docs/history/README-2026-10-25-pre-status-reconcile.md`](docs/history/README-2026-10-25-pre-status-reconcile.md).)
 - Never invent sources, data, results or validations. Unreachable evidence is INDETERMINATE.
 - A citation supports only the claims it directly addresses.
