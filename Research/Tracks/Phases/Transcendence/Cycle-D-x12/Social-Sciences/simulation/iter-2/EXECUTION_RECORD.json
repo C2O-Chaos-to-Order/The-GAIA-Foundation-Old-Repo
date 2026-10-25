@@ -1,0 +1,613 @@
+{
+ "sim_id": "SIM-TR-SOC-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:10.572913+00:00",
+ "finished_utc": "2026-10-25T01:30:11.045718+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "a8ceb2be85a52d18a43bf2aba132e85bae81a2015eb4b2f0cc6d4eed99b7351f",
+ "params_sha256": "15dd9d356ba9e7508ce002acb60e4a616e871f35d559d254b231d4409f54069f",
+ "results_sha256": "c0d5ff456695f950c349ca3862c63d2c7947d613c5e6cb7bf960571198417216",
+ "results": {
+  "items": {
+   "edu_noqual": {
+    "value": 0.29,
+    "printed": 0.29,
+    "diff": 0.0
+   },
+   "edu_gcse": {
+    "value": 4.2,
+    "printed": 4.2,
+    "diff": 0.0
+   },
+   "edu_hs": {
+    "value": 9.84,
+    "printed": 9.84,
+    "diff": 0.0
+   },
+   "edu_someuni": {
+    "value": 24.31,
+    "printed": 24.31,
+    "diff": 0.0
+   },
+   "edu_ba": {
+    "value": 33.14,
+    "printed": 33.14,
+    "diff": 0.0
+   },
+   "edu_pg": {
+    "value": 28.22,
+    "printed": 28.22,
+    "diff": 0.0
+   },
+   "ps_never": {
+    "value": 15.48,
+    "printed": 15.48,
+    "diff": 0.0
+   },
+   "ps_once": {
+    "value": 3.76,
+    "printed": 3.76,
+    "diff": 0.0
+   },
+   "ps_2_5": {
+    "value": 15.34,
+    "printed": 15.34,
+    "diff": 0.0
+   },
+   "ps_6_10": {
+    "value": 13.31,
+    "printed": 13.31,
+    "diff": 0.0
+   },
+   "ps_11_15": {
+    "value": 9.99,
+    "printed": 9.99,
+    "diff": 0.0
+   },
+   "ps_16_25": {
+    "value": 9.99,
+    "printed": 9.99,
+    "diff": 0.0
+   },
+   "ps_26_50": {
+    "value": 12.59,
+    "printed": 12.59,
+    "diff": 0.0
+   },
+   "ps_51_100": {
+    "value": 9.84,
+    "printed": 9.84,
+    "diff": 0.0
+   },
+   "ps_gt100": {
+    "value": 9.7,
+    "printed": 9.7,
+    "diff": 0.0
+   },
+   "co_never": {
+    "value": 34.15,
+    "printed": 34.15,
+    "diff": 0.0
+   },
+   "co_once": {
+    "value": 10.13,
+    "printed": 10.13,
+    "diff": 0.0
+   },
+   "co_2_5": {
+    "value": 15.34,
+    "printed": 15.34,
+    "diff": 0.0
+   },
+   "co_6_10": {
+    "value": 8.54,
+    "printed": 8.54,
+    "diff": 0.0
+   },
+   "co_11_15": {
+    "value": 5.07,
+    "printed": 5.07,
+    "diff": 0.0
+   },
+   "co_16_25": {
+    "value": 6.51,
+    "printed": 6.51,
+    "diff": 0.0
+   },
+   "co_26_50": {
+    "value": 6.08,
+    "printed": 6.08,
+    "diff": 0.0
+   },
+   "co_51_100": {
+    "value": 6.8,
+    "printed": 6.8,
+    "diff": 0.0
+   },
+   "co_gt100": {
+    "value": 7.38,
+    "printed": 7.38,
+    "diff": 0.0
+   },
+   "al_0": {
+    "value": 27.64,
+    "printed": 27.64,
+    "diff": 0.0
+   },
+   "al_1_6": {
+    "value": 30.82,
+    "printed": 30.82,
+    "diff": 0.0
+   },
+   "al_7_12": {
+    "value": 17.8,
+    "printed": 17.8,
+    "diff": 0.0
+   },
+   "al_13_18": {
+    "value": 8.39,
+    "printed": 8.39,
+    "diff": 0.0
+   },
+   "al_19_24": {
+    "value": 5.5,
+    "printed": 5.5,
+    "diff": 0.0
+   },
+   "al_25_30": {
+    "value": 2.75,
+    "printed": 2.75,
+    "diff": 0.0
+   },
+   "al_31_36": {
+    "value": 2.46,
+    "printed": 2.46,
+    "diff": 0.0
+   },
+   "al_37_42": {
+    "value": 1.16,
+    "printed": 1.16,
+    "diff": 0.0
+   },
+   "al_43_48": {
+    "value": 1.01,
+    "printed": 1.01,
+    "diff": 0.0
+   },
+   "al_49_54": {
+    "value": 0.87,
+    "printed": 0.89,
+    "diff": -0.02
+   },
+   "al_55_60": {
+    "value": 0.58,
+    "printed": 0.58,
+    "diff": 0.0
+   },
+   "al_gt60": {
+    "value": 1.01,
+    "printed": 1.01,
+    "diff": 0.0
+   },
+   "female": {
+    "value": 34.44,
+    "printed": 34.44,
+    "diff": 0.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108 Table 2: every printed percentage equals count/691 to two decimals (within 0.01)",
+   "observed": {
+    "items": {
+     "edu_noqual": {
+      "value": 0.29,
+      "printed": 0.29,
+      "diff": 0.0
+     },
+     "edu_gcse": {
+      "value": 4.2,
+      "printed": 4.2,
+      "diff": 0.0
+     },
+     "edu_hs": {
+      "value": 9.84,
+      "printed": 9.84,
+      "diff": 0.0
+     },
+     "edu_someuni": {
+      "value": 24.31,
+      "printed": 24.31,
+      "diff": 0.0
+     },
+     "edu_ba": {
+      "value": 33.14,
+      "printed": 33.14,
+      "diff": 0.0
+     },
+     "edu_pg": {
+      "value": 28.22,
+      "printed": 28.22,
+      "diff": 0.0
+     },
+     "ps_never": {
+      "value": 15.48,
+      "printed": 15.48,
+      "diff": 0.0
+     },
+     "ps_once": {
+      "value": 3.76,
+      "printed": 3.76,
+      "diff": 0.0
+     },
+     "ps_2_5": {
+      "value": 15.34,
+      "printed": 15.34,
+      "diff": 0.0
+     },
+     "ps_6_10": {
+      "value": 13.31,
+      "printed": 13.31,
+      "diff": 0.0
+     },
+     "ps_11_15": {
+      "value": 9.99,
+      "printed": 9.99,
+      "diff": 0.0
+     },
+     "ps_16_25": {
+      "value": 9.99,
+      "printed": 9.99,
+      "diff": 0.0
+     },
+     "ps_26_50": {
+      "value": 12.59,
+      "printed": 12.59,
+      "diff": 0.0
+     },
+     "ps_51_100": {
+      "value": 9.84,
+      "printed": 9.84,
+      "diff": 0.0
+     },
+     "ps_gt100": {
+      "value": 9.7,
+      "printed": 9.7,
+      "diff": 0.0
+     },
+     "co_never": {
+      "value": 34.15,
+      "printed": 34.15,
+      "diff": 0.0
+     },
+     "co_once": {
+      "value": 10.13,
+      "printed": 10.13,
+      "diff": 0.0
+     },
+     "co_2_5": {
+      "value": 15.34,
+      "printed": 15.34,
+      "diff": 0.0
+     },
+     "co_6_10": {
+      "value": 8.54,
+      "printed": 8.54,
+      "diff": 0.0
+     },
+     "co_11_15": {
+      "value": 5.07,
+      "printed": 5.07,
+      "diff": 0.0
+     },
+     "co_16_25": {
+      "value": 6.51,
+      "printed": 6.51,
+      "diff": 0.0
+     },
+     "co_26_50": {
+      "value": 6.08,
+      "printed": 6.08,
+      "diff": 0.0
+     },
+     "co_51_100": {
+      "value": 6.8,
+      "printed": 6.8,
+      "diff": 0.0
+     },
+     "co_gt100": {
+      "value": 7.38,
+      "printed": 7.38,
+      "diff": 0.0
+     },
+     "al_0": {
+      "value": 27.64,
+      "printed": 27.64,
+      "diff": 0.0
+     },
+     "al_1_6": {
+      "value": 30.82,
+      "printed": 30.82,
+      "diff": 0.0
+     },
+     "al_7_12": {
+      "value": 17.8,
+      "printed": 17.8,
+      "diff": 0.0
+     },
+     "al_13_18": {
+      "value": 8.39,
+      "printed": 8.39,
+      "diff": 0.0
+     },
+     "al_19_24": {
+      "value": 5.5,
+      "printed": 5.5,
+      "diff": 0.0
+     },
+     "al_25_30": {
+      "value": 2.75,
+      "printed": 2.75,
+      "diff": 0.0
+     },
+     "al_31_36": {
+      "value": 2.46,
+      "printed": 2.46,
+      "diff": 0.0
+     },
+     "al_37_42": {
+      "value": 1.16,
+      "printed": 1.16,
+      "diff": 0.0
+     },
+     "al_43_48": {
+      "value": 1.01,
+      "printed": 1.01,
+      "diff": 0.0
+     },
+     "al_49_54": {
+      "value": 0.87,
+      "printed": 0.89,
+      "diff": -0.02
+     },
+     "al_55_60": {
+      "value": 0.58,
+      "printed": 0.58,
+      "diff": 0.0
+     },
+     "al_gt60": {
+      "value": 1.01,
+      "printed": 1.01,
+      "diff": 0.0
+     },
+     "female": {
+      "value": 34.44,
+      "printed": 34.44,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "edu_noqual": {
+      "value": 0.29,
+      "printed": 0.29,
+      "diff": 0.0
+     },
+     "edu_gcse": {
+      "value": 4.2,
+      "printed": 4.2,
+      "diff": 0.0
+     },
+     "edu_hs": {
+      "value": 9.84,
+      "printed": 9.84,
+      "diff": 0.0
+     },
+     "edu_someuni": {
+      "value": 24.31,
+      "printed": 24.31,
+      "diff": 0.0
+     },
+     "edu_ba": {
+      "value": 33.14,
+      "printed": 33.14,
+      "diff": 0.0
+     },
+     "edu_pg": {
+      "value": 28.22,
+      "printed": 28.22,
+      "diff": 0.0
+     },
+     "ps_never": {
+      "value": 15.48,
+      "printed": 15.48,
+      "diff": 0.0
+     },
+     "ps_once": {
+      "value": 3.76,
+      "printed": 3.76,
+      "diff": 0.0
+     },
+     "ps_2_5": {
+      "value": 15.34,
+      "printed": 15.34,
+      "diff": 0.0
+     },
+     "ps_6_10": {
+      "value": 13.31,
+      "printed": 13.31,
+      "diff": 0.0
+     },
+     "ps_11_15": {
+      "value": 9.99,
+      "printed": 9.99,
+      "diff": 0.0
+     },
+     "ps_16_25": {
+      "value": 9.99,
+      "printed": 9.99,
+      "diff": 0.0
+     },
+     "ps_26_50": {
+      "value": 12.59,
+      "printed": 12.59,
+      "diff": 0.0
+     },
+     "ps_51_100": {
+      "value": 9.84,
+      "printed": 9.84,
+      "diff": 0.0
+     },
+     "ps_gt100": {
+      "value": 9.7,
+      "printed": 9.7,
+      "diff": 0.0
+     },
+     "co_never": {
+      "value": 34.15,
+      "printed": 34.15,
+      "diff": 0.0
+     },
+     "co_once": {
+      "value": 10.13,
+      "printed": 10.13,
+      "diff": 0.0
+     },
+     "co_2_5": {
+      "value": 15.34,
+      "printed": 15.34,
+      "diff": 0.0
+     },
+     "co_6_10": {
+      "value": 8.54,
+      "printed": 8.54,
+      "diff": 0.0
+     },
+     "co_11_15": {
+      "value": 5.07,
+      "printed": 5.07,
+      "diff": 0.0
+     },
+     "co_16_25": {
+      "value": 6.51,
+      "printed": 6.51,
+      "diff": 0.0
+     },
+     "co_26_50": {
+      "value": 6.08,
+      "printed": 6.08,
+      "diff": 0.0
+     },
+     "co_51_100": {
+      "value": 6.8,
+      "printed": 6.8,
+      "diff": 0.0
+     },
+     "co_gt100": {
+      "value": 7.38,
+      "printed": 7.38,
+      "diff": 0.0
+     },
+     "al_0": {
+      "value": 27.64,
+      "printed": 27.64,
+      "diff": 0.0
+     },
+     "al_1_6": {
+      "value": 30.82,
+      "printed": 30.82,
+      "diff": 0.0
+     },
+     "al_7_12": {
+      "value": 17.8,
+      "printed": 17.8,
+      "diff": 0.0
+     },
+     "al_13_18": {
+      "value": 8.39,
+      "printed": 8.39,
+      "diff": 0.0
+     },
+     "al_19_24": {
+      "value": 5.5,
+      "printed": 5.5,
+      "diff": 0.0
+     },
+     "al_25_30": {
+      "value": 2.75,
+      "printed": 2.75,
+      "diff": 0.0
+     },
+     "al_31_36": {
+      "value": 2.46,
+      "printed": 2.46,
+      "diff": 0.0
+     },
+     "al_37_42": {
+      "value": 1.16,
+      "printed": 1.16,
+      "diff": 0.0
+     },
+     "al_43_48": {
+      "value": 1.01,
+      "printed": 1.01,
+      "diff": 0.0
+     },
+     "al_49_54": {
+      "value": 0.87,
+      "printed": 0.89,
+      "diff": -0.02
+     },
+     "al_55_60": {
+      "value": 0.58,
+      "printed": 0.58,
+      "diff": 0.0
+     },
+     "al_gt60": {
+      "value": 1.01,
+      "printed": 1.01,
+      "diff": 0.0
+     },
+     "female": {
+      "value": 34.44,
+      "printed": 34.44,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
