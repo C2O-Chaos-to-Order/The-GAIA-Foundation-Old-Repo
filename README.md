@@ -57,7 +57,7 @@ Merged means accepted by the owner, not verified: every one of these stays INDET
 
 ## Work in progress (not on `main`; the owner reviews and merges)
 
-**Update 2026-10-25:** `research/tog1-filed` (PR PR_PLACEHOLDER) files ToG 1 (Baseline–x12), adds Maps v44, restructures the Work Queue's ToG checklist and removes live references to deleted repositories. The paragraph below is kept as written at PR #38.
+**Update 2026-10-25:** `research/tog1-filed` (PR #40) files ToG 1 (Baseline–x12), adds Maps v44, restructures the Work Queue's ToG checklist and removes live references to deleted repositories. The paragraph below is kept as written at PR #38.
 
 As of 2026-10-25 (`main` @ `bd3a085a`, PR #37) there were **no open research pull requests** before this README update (checked with the GitHub pull-request list). PR #28 (`research/work-queue-gaiadoc`) and PR #29 (`research/work-queue-phases-done`), listed here before, are both merged. This wording reconcile is on `research/authority-reconcile` until the owner merges it.
 

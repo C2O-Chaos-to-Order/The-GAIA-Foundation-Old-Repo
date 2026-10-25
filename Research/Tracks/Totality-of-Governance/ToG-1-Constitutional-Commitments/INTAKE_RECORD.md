@@ -1,6 +1,6 @@
 # ToG 1 — Constitutional Commitments: intake record
 
-**Filed:** 2026-10-25 by Grok Bot (agent) for the owner, Kyle Alexander Steen · **Branch:** `research/tog1-filed` off `main` @ `fdec378a` · **PR:** PR_PLACEHOLDER
+**Filed:** 2026-10-25 by Grok Bot (agent) for the owner, Kyle Alexander Steen · **Branch:** `research/tog1-filed` off `main` @ `fdec378a` · **PR:** PR #40
 
 ## What this is
 

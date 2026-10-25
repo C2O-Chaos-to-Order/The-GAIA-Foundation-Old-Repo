@@ -4,7 +4,7 @@ Reports that research and test the owner's draft charter, **GAIA-GOV-TOG-001 v0.
 
 | Report | Folder | Cycles present | Manifests | Gate (as recorded) | Maps | Status |
 |---|---|---|---|---|---|---|
-| ToG 1 — Constitutional Commitments (§4.1–§4.11) | [`ToG-1-Constitutional-Commitments/`](ToG-1-Constitutional-Commitments/) | Baseline, x3, x6, x9, x12 | 5/5 PASS | INDETERMINATE; x9 external-input validator reuse FAIL; x12 spec-count check A1 FAIL | v44 | Filed 2026-10-25 (PR_PLACEHOLDER); owner-supplied, produced outside this repo by Perplexity (AI) per the files; see `INTAKE_RECORD.md` |
+| ToG 1 — Constitutional Commitments (§4.1–§4.11) | [`ToG-1-Constitutional-Commitments/`](ToG-1-Constitutional-Commitments/) | Baseline, x3, x6, x9, x12 | 5/5 PASS | INDETERMINATE; x9 external-input validator reuse FAIL; x12 spec-count check A1 FAIL | v44 | Filed 2026-10-25 (PR #40); owner-supplied, produced outside this repo by Perplexity (AI) per the files; see `INTAKE_RECORD.md` |
 | ToG 2 — Hierarchy, Authority and Separation of Duties | — | none | — | — | — | Not started |
 | ToG 3 — Governance Domains and the Control Matrix | — | none | — | — | — | Not started |
 | ToG 4 — Decision States, Evidence and Risk | — | none | — | — | — | Not started |

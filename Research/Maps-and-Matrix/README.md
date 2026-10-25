@@ -51,7 +51,7 @@ Each version is a separate folder and is never overwritten; a later cycle adds a
 | v41 | `v41-cycles-0-4-mr-track-abcd-phases-x12-conn0ab/` | The Connection (E1), cycle x6 | added in commit `bb6ac628`; manifest passes (2026-10-25) | in `main` |
 | v42 | `v42-cycles-0-4-mr-track-abcd-phases-x12-conn0abc/` | The Connection (E1), cycle x9 | added in commit `ed34484e`; manifest passes (2026-10-25) | in `main` |
 | v43 | `v43-cycles-0-4-mr-track-abcd-phases-x12-conn0abcd/` | The Connection (E1), cycle x12 | added in commit `a4c6eeba`; manifest passes (2026-10-25) | in `main` |
-| v44 | `v44-cycles-0-4-mr-track-abcd-phases-x12-conn0abcd-tog1/` | ToG 1 Constitutional Commitments, Baseline–x12 (overlay on v43; owner-supplied package, gate INDETERMINATE as recorded) | `Research/Tracks/Totality-of-Governance/tools/build_maps_v44.py`; manifest passes (2026-10-25) | Branch `research/tog1-filed` (PR PR_PLACEHOLDER), until the owner merges |
+| v44 | `v44-cycles-0-4-mr-track-abcd-phases-x12-conn0abcd-tog1/` | ToG 1 Constitutional Commitments, Baseline–x12 (overlay on v43; owner-supplied package, gate INDETERMINATE as recorded) | `Research/Tracks/Totality-of-Governance/tools/build_maps_v44.py`; manifest passes (2026-10-25) | Branch `research/tog1-filed` (PR #40), until the owner merges |
 
 Everything here is generated from the cycle folders by `Research/tools` (`python -m gaia_tools.maps`), so the maps can be regenerated and checked. The labels used are the framework's four: **E** Established · **P** Plausible · **PS** Philosophical/Spiritual · **H** Hypothetical. GAIA as motherthread is a Philosophical/Spiritual organizing principle and is kept separate from scientific findings.
 
