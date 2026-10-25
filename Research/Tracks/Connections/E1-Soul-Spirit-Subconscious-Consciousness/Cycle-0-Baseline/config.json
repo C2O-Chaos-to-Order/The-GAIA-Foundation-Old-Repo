@@ -1,0 +1,145 @@
+{
+ "cycle": "Baseline",
+ "repo_root": "../../../../..",
+ "sssc_cycle": "Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12",
+ "phase_cycle": "Cycle-D-x12",
+ "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+ "boundary_window": 80,
+ "judgments": {
+  "factors": "../judgments/factors_c0.csv",
+  "claims": "../judgments/claims_c0.csv",
+  "links": "../judgments/links_c0.csv"
+ },
+ "read_in_full": [
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/FRAMEWORK.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/README.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/SUMMARY.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Soul/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Spirit/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Subconscious/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Consciousness/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Links/link_register.csv",
+  "Research/Tracks/Phases/SYNTHESIS.md",
+  "Research/README.md",
+  "Research/WORK_QUEUE.md"
+ ],
+ "maps": {
+  "base_version": "v38-cycles-0-4-mr-track-abcd-phase-dv0abcd-in0abcd-al0abcd-cv0abcd-as0abcd-tr0abcd",
+  "version": "v39-cycles-0-4-mr-track-abcd-phases-x12-conn0"
+ },
+ "iterations": {
+  "1": {
+   "rule": "as_judged"
+  }
+ },
+ "checks": [
+  {
+   "id": "C0-1",
+   "hypothesis": "Every source listed as read in full exists (hashes recorded)",
+   "metric": "missing_inputs",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-2",
+   "hypothesis": "Every basis ID resolves to an existing claim, link, factor or source",
+   "metric": "dangling_basis",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-3",
+   "hypothesis": "Every source ID resolves to an existing register entry (no invented sources)",
+   "metric": "unresolved_sources",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-4",
+   "hypothesis": "Every source a claim lists is cited by one of its basis items",
+   "metric": "sources_not_in_basis",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-5",
+   "hypothesis": "No claim or link is labelled above its weakest ranked basis",
+   "metric": "label_rule_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-6",
+   "hypothesis": "Every owner claim is marked as the owner's, labelled H or PS, and quotes the Work Queue verbatim",
+   "metric": "owner_rule_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-7",
+   "hypothesis": "Every census claim states the value the tool computes",
+   "metric": "census_claim_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-8",
+   "hypothesis": "Judgment rows are well-formed (labels, kinds, topics, link types, factor bases from the topic's own ledger)",
+   "metric": "problems",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-9",
+   "hypothesis": "Earlier claim (Work Queue §L): the SSSC link register has no link between two of the four topics",
+   "metric": "topic_topic_links_in_track",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-10",
+   "hypothesis": "The SSSC source register has no source registered twice (same DOI or PMID)",
+   "metric": "register_duplicate_groups",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-11",
+   "hypothesis": "Every pair of topics shares at least one cited evidence source (framing source G03 excluded) in the existing ledgers",
+   "metric": "pairs_without_shared_evidence_source",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-12",
+   "hypothesis": "Every pair of topics has at least one cross-citation in the existing ledgers",
+   "metric": "pairs_without_cross_citation",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-13",
+   "hypothesis": "At least one judged factor is present in all four topics",
+   "metric": "unity_factors",
+   "op": "ge",
+   "threshold": 1
+  },
+  {
+   "id": "C0-14",
+   "hypothesis": "Every pair of topics has at least one Connection link",
+   "metric": "pairs_without_connection_link",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-15",
+   "hypothesis": "No 80-character overlap with the Totality Suite",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "threshold": 0
+  }
+ ],
+ "framing_sources": [
+  "G03"
+ ]
+}

@@ -1,0 +1,40 @@
+factor_id,factor,kind,topic,basis_claims,note
+F01,What is measured is a report or a belief,method,SOUL,TD-SOUL-10;TD-SOUL-01,The empirical object is belief about souls (continuity judgments); nothing measures a soul.
+F01,What is measured is a report or a belief,method,SPIRIT,TD-SPIRIT-07;TD-SPIRIT-01,Questionnaires such as the MEQ measure how people report mystical experience.
+F01,What is measured is a report or a belief,method,SUBC,TD-SUBC-18;TD-SUBC-01,Unconscious processing is inferred from awareness tests whose thresholds depend on how awareness is reported.
+F01,What is measured is a report or a belief,method,CONS,TD-CONS-01;TD-CONS-04,Report demands themselves produce 'markers' of consciousness; contemplative states are known through structured reports.
+F02,Cut-offs and thresholds misclassify,method,SOUL,TD-SOUL-26,A cut-off on an imperfect NDE scale classes true non-cases as cases.
+F02,Cut-offs and thresholds misclassify,method,SPIRIT,TD-SPIRIT-05;TD-SPIRIT-27,A 'complete mystical experience' is a noisy dichotomy of a continuous score.
+F02,Cut-offs and thresholds misclassify,method,SUBC,TD-SUBC-27;TD-SUBC-19,Staircases put 'subliminal' stimuli above chance; 'unseen' trials can show accuracy with no unconscious route.
+F02,Cut-offs and thresholds misclassify,method,CONS,TD-CONS-11;TD-CONS-02,A negative covert-consciousness test leaves a real chance of consciousness; visible/invisible contrasts depend on report gating.
+F03,Headline effects are fragile under replication or testing,method,SOUL,TD-SOUL-15;TD-SOUL-02,Mortality-salience and analytic-priming effects did not replicate.
+F03,Headline effects are fragile under replication or testing,method,SPIRIT,TD-SPIRIT-02;TD-SPIRIT-03,Induced-awe effects did not reproduce; publication filtering inflates effects.
+F03,Headline effects are fragile under replication or testing,method,SUBC,TD-SUBC-03;TD-SUBC-32,Behavioural priming did not replicate; a multi-lab registered replication of unconscious working memory.
+F03,Headline effects are fragile under replication or testing,method,CONS,TD-CONS-17;TD-CONS-19,Adversarial testing challenged predictions of both leading theories; a true theory often fails single predictions.
+F04,Association is not cause,method,SOUL,TD-SOUL-31,Published correlations alone do not separate the predictors of approval of mind upload.
+F04,Association is not cause,method,SPIRIT,TD-SPIRIT-10;TD-SPIRIT-18,A modest confounder could explain the spirituality-drug use association; a common cause can produce experience-outcome correlations.
+F04,Association is not cause,method,SUBC,TD-SUBC-38;TD-SUBC-31,Aggregation turns a weak individual correlation into a strong ecological one; a non-causal 'intention' signal can still predict action.
+F04,Association is not cause,method,CONS,TD-CONS-13,Decodability on unseen trials is not a marker of consciousness.
+F05,Sleep dreaming and unresponsive states,substantive,SOUL,TD-SOUL-13,Nearly half of end-of-life experiences occurred during sleep.
+F05,Sleep dreaming and unresponsive states,substantive,SUBC,TD-SUBC-05;TD-SUBC-06;TD-SUBC-10,Memory reactivation in sleep (a proposal) and the Advaita account of dreaming and deep sleep (descriptive).
+F05,Sleep dreaming and unresponsive states,substantive,CONS,TD-CONS-20;TD-CONS-08,Anaesthesia dreaming as disconnected consciousness; cognitive motor dissociation in unresponsive patients.
+F06,Death and the end of life,substantive,SOUL,TD-SOUL-27;TD-SOUL-13;TD-SOUL-20,Beliefs about continuity after death; end-of-life and near-death experiences.
+F06,Death and the end of life,substantive,SPIRIT,TD-SPIRIT-31,Death anxiety fell after psychedelic experiences.
+F06,Death and the end of life,substantive,CONS,TD-CONS-29;TD-CONS-10,Possible awareness during circulatory arrest; existential suffering in disorders of consciousness.
+F07,The self and what persists,tradition,SOUL,TD-SOUL-09;TD-SOUL-36,Persistence of the person: soul organism and continuity views compete; beliefs about the soul behave as person-level stances.
+F07,The self and what persists,tradition,SPIRIT,TD-SPIRIT-07,Mystical experience described as realisation of a reality beyond ordinary experience.
+F07,The self and what persists,tradition,SUBC,TD-SUBC-10,Advaita: turiya to be realised as the true self (descriptive).
+F07,The self and what persists,tradition,CONS,TD-CONS-06,Pure awareness without content in contemplative traditions (interpretive).
+F08,Contemplative and nondual awareness,tradition,SPIRIT,TD-SPIRIT-07,Traditions describe contact with a reality beyond ordinary experience.
+F08,Contemplative and nondual awareness,tradition,SUBC,TD-SUBC-09,Yogacara: the store consciousness as a subliminal form of awareness (descriptive).
+F08,Contemplative and nondual awareness,tradition,CONS,TD-CONS-04;TD-CONS-16,Minimal phenomenal experience in meditators; nondual awareness proposed as consciousness-as-such.
+F09,Responsibility care and justice,ethics,SOUL,TD-SOUL-30,Afterlife certainty goes with least approval of 'digital immortality' (a moral attitude).
+F09,Responsibility care and justice,ethics,SPIRIT,TD-SPIRIT-16;TD-SPIRIT-14,Spirituality as collective practice of resisting oppression (described).
+F09,Responsibility care and justice,ethics,SUBC,TD-SUBC-28;TD-SUBC-36,Free-will belief and punishment; bias with or without awareness.
+F09,Responsibility care and justice,ethics,CONS,TD-CONS-22;TD-CONS-24,Who is judged conscious bears on treatment decisions; a presumption of consciousness proposed.
+F10,Degrees rather than a binary,substantive,SPIRIT,TD-SPIRIT-27,'Complete' is a dichotomy of a continuous score.
+F10,Degrees rather than a binary,substantive,SUBC,TD-SUBC-11;TD-SUBC-08,Leibniz's degrees of consciousness (descriptive); automatic processes interact with awareness rather than forming a sealed module.
+F10,Degrees rather than a binary,substantive,CONS,TD-CONS-09;TD-CONS-29,Covert consciousness in unresponsive patients; 'a spectrum of consciousness may be present'.
+F11,Beliefs about the topic shape moral judgment,substantive,SOUL,TD-SOUL-30,Belief in a soul or afterlife goes with lower approval of mind upload.
+F11,Beliefs about the topic shape moral judgment,substantive,SUBC,TD-SUBC-28,Belief in free will predicts harsher judgments of deserved punishment.
+F11,Beliefs about the topic shape moral judgment,substantive,CONS,TD-CONS-22,Neurologists' beliefs about pain and consciousness go with treatment preferences.

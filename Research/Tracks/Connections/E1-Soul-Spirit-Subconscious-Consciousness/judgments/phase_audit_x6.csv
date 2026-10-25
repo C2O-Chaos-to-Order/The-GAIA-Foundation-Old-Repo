@@ -1,0 +1,26 @@
+topic,claim_id,verdict,reason
+SOUL,ASD-PHI-01,genuine,Diotima's ascent passes through beautiful souls (Plato's sense of soul)
+SPIRIT,CVD-PHI-06,genuine,perennialism and mystical experience
+SPIRIT,CVD-PHI-09,genuine,complete mystical experience in chanters
+SPIRIT,CVD-PHI-13,genuine,origin of the MEQ in Pahnke's typology
+SPIRIT,TRD-APP-01,related_sense,Reed's self-transcendence scale in nursing; spiritual well-being as a correlate
+SPIRIT,TRD-APP-03,related_sense,self-transcendence programme in nursing
+SPIRIT,TRD-APP-04,related_sense,statistical audit; spiritual well-being as an outcome
+SPIRIT,TRD-APP-06,related_sense,statistical audit of the nursing programme
+SPIRIT,TRD-APP-08,genuine,dose and mystical-type experience
+SPIRIT,TRD-APP-09,genuine,MEQ30 mystical factor and dose (audit)
+SPIRIT,TRD-HUM-01,genuine,self-transcendent emotion (vastness) in nature and art
+SPIRIT,TRD-HUM-04,related_sense,Bayes factors for the nursing programme
+SPIRIT,TRD-HUM-05,related_sense,Bayes factor conventions
+SPIRIT,TRD-HUM-06,genuine,Pahnke's complete mystical experience count
+SPIRIT,TRD-PHI-01,genuine,common-core dispute over mystical experience
+SPIRIT,TRD-PHI-04,genuine,template in mystical-experience measures
+SPIRIT,TRD-PHI-06,genuine,universality of spiritual experience
+SPIRIT,TRD-SOC-01,related_sense,"Schwartz self-transcendence values, not experience"
+SPIRIT,TRD-SOC-04,related_sense,power audit of the values study
+SPIRIT,TRD-SOC-06,genuine,five dimensions of spirituality
+SUBC,DVD-APP-11,false_positive,'semi-implicit Euler' is a numerical method
+SUBC,DVD-HUM-02,genuine,possible implicit geographic bias in classification
+CONS,CVD-APP-01,false_positive,'cost-aware' tolerance in quadrature
+CONS,CVD-PHI-13,instrument_name,'Mystical Consciousness Typology' is an instrument name
+CONS,TRD-PHI-04,instrument_name,'Mystical Consciousness Typology' is an instrument name

@@ -1,0 +1,275 @@
+{
+ "cycle": "x6",
+ "repo_root": "../../../../..",
+ "sssc_cycle": "Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12",
+ "phase_cycle": "Cycle-D-x12",
+ "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+ "boundary_window": 80,
+ "judgments": {
+  "factors": "../judgments/factors_x6.csv",
+  "claims": "../judgments/claims_x6.csv",
+  "links": "../judgments/links_x6.csv",
+  "phase_audit": "../judgments/phase_audit_x6.csv"
+ },
+ "read_in_full": [
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/FRAMEWORK.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/README.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/SUMMARY.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Soul/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Spirit/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Subconscious/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Consciousness/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Links/link_register.csv",
+  "Research/Tracks/Phases/SYNTHESIS.md",
+  "Research/README.md",
+  "Research/WORK_QUEUE.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Soul/claims/claims.csv",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Spirit/claims/claims.csv",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Subconscious/claims/claims.csv",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Consciousness/claims/claims.csv",
+  "Research/Tracks/Phases/Convergence/Cycle-D-x12/Philosophy-Spirituality/REPORT.md",
+  "Research/Tracks/Phases/Convergence/Cycle-D-x12/Applied-Sciences/REPORT.md",
+  "Research/Tracks/Phases/Transcendence/Cycle-D-x12/Philosophy-Spirituality/REPORT.md",
+  "Research/Tracks/Phases/Transcendence/Cycle-D-x12/Applied-Sciences/REPORT.md",
+  "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Provenance/SOURCE_REGISTER.csv",
+  "Research/Cycles/Cycle-4-x12/Report-3-Soul/REPORT.md",
+  "Research/Cycles/Cycle-4-x12/Report-4-Spirit/REPORT.md",
+  "Research/Cycles/Cycle-4-x12/Report-5-Consciousness/REPORT.md",
+  "Research/Cycles/Cycle-4-x12/Report-3-Soul/claims/claims.csv",
+  "Research/Cycles/Cycle-4-x12/Report-4-Spirit/claims/claims.csv",
+  "Research/Cycles/Cycle-4-x12/Report-5-Consciousness/claims/claims.csv",
+  "Research/Cycles/Cycle-4-x12/Report-7-Unified/maps/link_register.csv"
+ ],
+ "maps": {
+  "base_version": "v38-cycles-0-4-mr-track-abcd-phase-dv0abcd-in0abcd-al0abcd-cv0abcd-as0abcd-tr0abcd",
+  "version": "v41-cycles-0-4-mr-track-abcd-phases-x12-conn0ab"
+ },
+ "iterations": {
+  "1": {
+   "rule": "as_judged"
+  },
+  "2": {
+   "rule": "strict"
+  },
+  "3": {
+   "rule": "established_only"
+  },
+  "4": {
+   "rule": "no_method"
+  },
+  "5": {
+   "rule": "no_tradition"
+  },
+  "6": {
+   "rule": "as_judged",
+   "merge_duplicates": true
+  }
+ },
+ "checks": [
+  {
+   "id": "C6-1",
+   "hypothesis": "Every source listed as read in full exists (hashes recorded)",
+   "metric": "missing_inputs",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-2",
+   "hypothesis": "Every basis ID resolves (SSSC Cycles A-D, phases, main reports, links, factors, sources)",
+   "metric": "dangling_basis",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-3",
+   "hypothesis": "Every source ID resolves to an existing register entry (no invented sources)",
+   "metric": "unresolved_sources",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-4",
+   "hypothesis": "Every source a claim lists is cited by one of its basis items",
+   "metric": "sources_not_in_basis",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-5",
+   "hypothesis": "No claim or link is labelled above its weakest ranked basis",
+   "metric": "label_rule_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-6",
+   "hypothesis": "Every owner claim is marked as the owner's, labelled H or PS, and quotes the Work Queue verbatim",
+   "metric": "owner_rule_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-7",
+   "hypothesis": "Every census claim states the value the tool computes",
+   "metric": "census_claim_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-8",
+   "hypothesis": "Judgment rows are well-formed (incl. factor bases from the topic's own ledger or main report, audit verdicts)",
+   "metric": "problems",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-9",
+   "hypothesis": "Every non-census, non-owner, non-framing claim has an anchor phrase found verbatim in a basis item",
+   "metric": "anchor_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-10",
+   "hypothesis": "No source ID means different sources in the main and track registers",
+   "metric": "source_id_conflicts",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-11",
+   "hypothesis": "No tradition claim is labelled Plausible or Hypothetical, and every Established one is marked descriptive",
+   "metric": "tradition_rule_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-12",
+   "hypothesis": "Every topic-term match in the phase claims has an audit verdict",
+   "metric": "phase_audit_missing",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-13",
+   "hypothesis": "After the audit, every topic has at least one genuine phase-claim match",
+   "metric": "topics_without_genuine_phase_match",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-14",
+   "hypothesis": "Every topic has at least one tradition claim and one science claim among the shared, difference and unity claims",
+   "metric": "topics_lacking_tradition_or_science",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-15",
+   "hypothesis": "Every configured tradition family is named in at least one tradition claim",
+   "metric": "tradition_families_absent",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-16",
+   "hypothesis": "Every topic pair is joined by at least one main-report link (Reports 2-5)",
+   "metric": "main_pairs_without_link",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-17",
+   "hypothesis": "Every main-report link among Reports 2-5 is carried into this report",
+   "metric": "main_links_among_topics_not_used",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-18",
+   "hypothesis": "At least one factor is present in all four topics under this iteration's rule",
+   "metric": "unity_factors",
+   "op": "ge",
+   "threshold": 1
+  },
+  {
+   "id": "C6-19",
+   "hypothesis": "At least one substantive or tradition factor is present in all four topics under this iteration's rule",
+   "metric": "unity_factors_substantive",
+   "op": "ge",
+   "threshold": 1
+  },
+  {
+   "id": "C6-20",
+   "hypothesis": "Every pair of topics has at least one Connection link",
+   "metric": "pairs_without_connection_link",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C6-21",
+   "hypothesis": "No 80-character overlap with the Totality Suite",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "threshold": 0
+  }
+ ],
+ "framing_sources": [
+  "G03"
+ ],
+ "x3": {
+  "previous": {
+   "factors": "../judgments/factors_x3.csv",
+   "claims": "../judgments/claims_x3.csv",
+   "links": "../judgments/links_x3.csv"
+  },
+  "sssc_earlier_cycles": [
+   "Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-A-x3",
+   "Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-B-x6",
+   "Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-C-x9"
+  ],
+  "topic_terms": {
+   "SOUL": "\\bsouls?\\b|\\bafterlife\\b|\\bnear-death\\b|\\bNDEs?\\b|\\bend-of-life experience",
+   "SPIRIT": "\\bspirit(s|ual|uality)?\\b|\\bmystical\\b|\\bawe\\b|\\bself-transcend",
+   "SUBC": "\\bsubconscious\\b|\\bunconscious(ly)?\\b|\\bimplicit\\b|\\bsubliminal\\b",
+   "CONS": "\\bconscious(ness)?\\b|\\baware(ness)?\\b"
+  },
+  "limitation_families": {
+   "self_report": "self-report|retrospective|\\brecall",
+   "small_sample": "\\bsmall\\b|underpowered|\\bpower\\b|few (studies|participants|patients|cases)",
+   "observational": "cross-sectional|correlational|observational|confound",
+   "selected_sample": "online|convenience|self-selected|\\bWEIRD\\b|\\bselected\\b",
+   "toy_model": "\\btoy\\b|illustrative|simulation",
+   "replication": "replicat"
+  }
+ },
+ "x6": {
+  "main_cycle": "Cycles/Cycle-4-x12",
+  "main_links": "Report-7-Unified/maps/link_register.csv",
+  "report_topic": {
+   "R2": "SUBC",
+   "R3": "SOUL",
+   "R4": "SPIRIT",
+   "R5": "CONS"
+  },
+  "phase_audit": "../judgments/phase_audit_x6.csv",
+  "audit_verdicts": [
+   "genuine",
+   "related_sense",
+   "false_positive",
+   "instrument_name"
+  ],
+  "tradition_families": {
+   "Greek": "Greek|psuche|pneuma|Stoic|Plato",
+   "Hebrew Bible": "Hebrew|nefesh|ruach",
+   "Christian": "Christian|Aquinas|John 3",
+   "Islamic": "Qur'an|\\bruh\\b",
+   "Hindu (Vedanta)": "Advaita|Vedanta|atman|turiya",
+   "Jain": "Jain",
+   "Buddhist": "Buddhis|Yogacara|anatman",
+   "Chinese": "Chinese|\\bqi\\b",
+   "African": "African",
+   "Indigenous": "Indigenous|animis"
+  }
+ }
+}

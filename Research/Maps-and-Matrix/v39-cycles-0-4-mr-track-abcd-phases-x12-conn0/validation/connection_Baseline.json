@@ -1,0 +1,146 @@
+{
+ "checks": [
+  {
+   "hypothesis": "Every source listed as read in full exists (hashes recorded)",
+   "id": "C0-1",
+   "metric": "missing_inputs",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every basis ID resolves to an existing claim, link, factor or source",
+   "id": "C0-2",
+   "metric": "dangling_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source ID resolves to an existing register entry (no invented sources)",
+   "id": "C0-3",
+   "metric": "unresolved_sources",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source a claim lists is cited by one of its basis items",
+   "id": "C0-4",
+   "metric": "sources_not_in_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No claim or link is labelled above its weakest ranked basis",
+   "id": "C0-5",
+   "metric": "label_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every owner claim is marked as the owner's, labelled H or PS, and quotes the Work Queue verbatim",
+   "id": "C0-6",
+   "metric": "owner_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every census claim states the value the tool computes",
+   "id": "C0-7",
+   "metric": "census_claim_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Judgment rows are well-formed (labels, kinds, topics, link types, factor bases from the topic's own ledger)",
+   "id": "C0-8",
+   "metric": "problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Earlier claim (Work Queue §L): the SSSC link register has no link between two of the four topics",
+   "id": "C0-9",
+   "metric": "topic_topic_links_in_track",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 1
+  },
+  {
+   "hypothesis": "The SSSC source register has no source registered twice (same DOI or PMID)",
+   "id": "C0-10",
+   "metric": "register_duplicate_groups",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 4
+  },
+  {
+   "hypothesis": "Every pair of topics shares at least one cited evidence source (framing source G03 excluded) in the existing ledgers",
+   "id": "C0-11",
+   "metric": "pairs_without_shared_evidence_source",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 5
+  },
+  {
+   "hypothesis": "Every pair of topics has at least one cross-citation in the existing ledgers",
+   "id": "C0-12",
+   "metric": "pairs_without_cross_citation",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 3
+  },
+  {
+   "hypothesis": "At least one judged factor is present in all four topics",
+   "id": "C0-13",
+   "metric": "unity_factors",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 6
+  },
+  {
+   "hypothesis": "Every pair of topics has at least one Connection link",
+   "id": "C0-14",
+   "metric": "pairs_without_connection_link",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No 80-character overlap with the Totality Suite",
+   "id": "C0-15",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  }
+ ],
+ "cycle": "Baseline",
+ "iteration": 1,
+ "outputs": {
+  "cross_citations.csv": "6389f4459e823dd0d804ed36562f14a1950d97628e0eb56eb9bf00b0292c810e",
+  "factor_topic.csv": "cdf35e4b371244d135a3271dc2369d769ec7441014e3d4c45c99175000054ee4",
+  "pairs.csv": "ccd9446b13a89156f4713b67bc1ae0a542923b6b66c9242ef181a49e56d91e24"
+ }
+}
