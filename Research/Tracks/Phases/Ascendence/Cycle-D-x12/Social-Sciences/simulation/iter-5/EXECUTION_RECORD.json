@@ -1,0 +1,97 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:40.242937+00:00",
+ "finished_utc": "2026-10-25T00:01:40.890081+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-5  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "5ed2686b029ce38dd86827e582d3d76f2c40449735a2e8516376ac1f07d52afa",
+ "params_sha256": "7e338f8f1979ee8fe5e47da8e1f4d2734bdab6b948c84cbee687a3d2528a4b3e",
+ "results_sha256": "317849c7be1273bfc2f3d4c18cfde24a0d0f6b046fd44e48db440b94b69085c1",
+ "results": {
+  "cells": {
+   "rho0.32_up0.0": {
+    "rank_corr": 0.3094,
+    "up": 0.3992,
+    "down": 0.3999,
+    "stay": 0.2009
+   },
+   "rho0.32_up0.3": {
+    "rank_corr": 0.3089,
+    "up": 0.5003,
+    "down": 0.3026,
+    "stay": 0.197
+   }
+  },
+  "n": 200000,
+  "K": 70,
+  "thr": 7.5
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "independent latent statuses give |rank correlation| < 0.01 (n 200,000)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "upgrading by 0.3 SD changes the rank-rank correlation by less than 0.02",
+   "observed": {
+    "cells": {
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3094,
+      "up": 0.3992,
+      "down": 0.3999,
+      "stay": 0.2009
+     },
+     "rho0.32_up0.3": {
+      "rank_corr": 0.3089,
+      "up": 0.5003,
+      "down": 0.3026,
+      "stay": 0.197
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cells": {
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3094,
+      "up": 0.3992,
+      "down": 0.3999,
+      "stay": 0.2009
+     },
+     "rho0.32_up0.3": {
+      "rank_corr": 0.3089,
+      "up": 0.5003,
+      "down": 0.3026,
+      "stay": 0.197
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
