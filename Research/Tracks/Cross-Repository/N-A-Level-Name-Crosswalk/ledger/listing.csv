@@ -1,0 +1,334 @@
+path,blob_sha,size
+GAIA-Documentation/ADR-001-Repository-Boundaries.md,fbe2e18f220f59df29441347a622c47af8148bf7,13328
+"GAIA-Documentation/AI Knowledge Database (AIKD) Architecture, Subjects, and GAIA Integration Report.md",13d9d1a3d592a6424655721669f95d277c759875,84182
+"GAIA-Documentation/AI Skill Database (AISkD) Architecture, Subjects, and GAIA Integration Report.md",8a02d150146fa627bbd02527f9ace300ba06abff,57323
+GAIA-Documentation/FOUNDATIONAL-SYNERGY-RESEARCH-TOC-RECONCILIATION-2026-10-16.md,6ea580db16931b5b0c2d57304382f5d2812f6c74,12678
+"GAIA-Documentation/GAIA Architecture, Memory, and Coordination.md",d5c9e07d880774c06843ed58ca6ba6c13bd84cb1,34719
+GAIA-Documentation/GAIA Complete Architecture Map and Research Integration Matrix.md,68f57096065ea8bbda357a0dff3498afda88b156,66068
+GAIA-Documentation/GAIA Complete Work Map and Matrix.md,bc409039716024d73e22618b7c2e1e421d99f692,38654
+"GAIA-Documentation/GAIA Creator Economy, FreeProMax Pricing, and Earnings-Funded Upgrades.md",cb9f403c600112f406de9d2e12290d65fb220732,53871
+"GAIA-Documentation/GAIA Development, Completeness, and Evolution.md",7e5c9648e4a7822490d3a3e063de47fd49fa754b,45771
+GAIA-Documentation/GAIA Documentation Completion Research.md,e6c7f822208e5a381b76af7d97d0869867ce5223,32877
+GAIA-Documentation/GAIA Foundations Research Program.md,f354c913033fc9fbfc8deb5bb8bc0859f32c4cf3,49860
+GAIA-Documentation/GAIA How Does a System Know What It Knows.md,54e1e1d0dc9d80b3daaefe5716c36e6be4aeb140,41334
+GAIA-Documentation/GAIA Implementation and Integration Gap Register.md,2b9c41b8c5b520cd1ff7c8976b5288f267646d9c,21155
+GAIA-Documentation/GAIA Independent Architecture Audit — Executive Summary and Proposed Issues.md,b5fecb4b11807df12d7dbd620dc779d20a525ee2,26375
+"GAIA-Documentation/GAIA Integration, Duality, Knowledge-to-Capability, and Accountable Capability.md",6cbf3042ac4b14cedd1c6eed007cac150834c6af,58766
+"GAIA-Documentation/GAIA Intelligence, Cognition, and Learning.md",7a43945830ff7aa9f2e5ffcba65f7fc0f9652f44,39474
+GAIA-Documentation/GAIA Issue Validation and Engineering Lifecycle.md,21a1055fda199135e4f1e6f26fb022b56f1c95aa,14128
+"GAIA-Documentation/GAIA Knowledge, Ignorance, and Truth.md",cdfa2e8f7a43521647b05f5ee192b8a423247629,41163
+GAIA-Documentation/GAIA Mathematical and Scientific Foundations.md,2e5b67f418e90815aea546a34800f94a6d754bb0,47062
+"GAIA-Documentation/GAIA Measurement, Readiness, Evidence, and Synthesis.md",8256e150dd276eb4f88fa858a1da190d7ebaf4ef,52227
+"GAIA-Documentation/GAIA Planetary Systems, Resources, and Consequences.md",fd639c40c0ec95ce7fa1207754aa6e307707cb4b,44234
+GAIA-Documentation/GAIA Pricing Model — Founding Principles and Research Framework.md,d2804884c69d523d5d640291fd3fe3792a20155f,16000
+GAIA-Documentation/GAIA Principles from Recent Personal Conversations — Review Draft.md,b700c2b844beeabe706f0d05b75aa87e6d0b5965,10471
+GAIA-Documentation/GAIA Project — Complete Work Map and Matrix Document.md,3c4a57801940be2f6ef302a1729bd78f27a69d5b,38222
+"GAIA-Documentation/GAIA Purpose, Reality, and Boundaries.md",2f22d7b2c9d49f88db7ed0dc2050069905d38f19,36610
+GAIA-Documentation/GAIA Requirements-to-Issues Traceability Matrix.md,c6349378b946d1a53b4a0c8723af5e2f12c1d100,17746
+GAIA-Documentation/GAIA Research Foundation and Repository Audit.md,ee68c8660d0dee5f78a547b7626eb84665392b87,20571
+"GAIA-Documentation/GAIA Safety, Power, and Governance.md",3f1c54961c5912a6ab544625811ae923170e0ba8,41945
+GAIA-Documentation/GAIA Sciences and Technologies Research Program.md,f0dc00f18657eefb4bc7f260cbe37076c73f2afc,45394
+GAIA-Documentation/GAIA Super-Intelligent Application Architecture Report.md,f1863c799abbc70cb4223c3aa1042225ad04f537,51178
+"GAIA-Documentation/GAIA System Architecture, Verification, and Research Gaps.md",97e429c19b669a1671ed74443068d46f087ce1cc,40347
+GAIA-Documentation/GAIA System Master Report.md,ca5537c593faf0290286aa3e2943bb485ad87a72,30385
+GAIA-Documentation/GAIA The Super-Intelligent Application — Complete Build Guide.md,f08131755955e381efcf3bdcedcd301ef16e9cc3,40324
+GAIA-Documentation/GAIA The Twelve Dualities.md,454c8464162ac3d41a9c816677b4c03f6ef61504,42245
+GAIA-Documentation/GAIA Two-Application Migration and Build Matrix.md,153d3918a47077c2b54404e049c055503c058cba,95016
+GAIA-Documentation/GAIA V1 — Minimum Safe Vertical Slice.md,bf322f0635bc6159e84c63604fe9b9abda37c801,24394
+"GAIA-Documentation/GAIA Values, Ethics, and Conflicting Interests.md",1c851535df0ccac54eac76d80b933d5a55d68106,38293
+GAIA-Documentation/GAIA Verification and Scientific Discipline.md,edd5e2a2fc6e3ead17838009a50b13b42b07a8f8,48391
+GAIA-Documentation/GAIA What Is the Complete System.md,5ffe4aa38cdf6826138decb03b1b90feba7240f0,42958
+GAIA-Documentation/GAIA and GAIANs — Four-Dimension Integration.md,a84cf4a28775fba3d8424daaa44d734f17528e25,27210
+GAIA-Documentation/GAIA as the Digital Twin of Earth.md,6328ee92b1f53a1a9b5aad55224912e418f74e0b,26534
+GAIA-Documentation/GAIA-AGENT-FRAMEWORK-LANGGRAPH-TEMPORAL-P5-READINESS-REVIEW.md,3b6ad7d17eafb662cacd5ee1fc53cc4fbc720c1f,17607
+GAIA-Documentation/GAIA-ANTI-PATTERN-REGISTER-REPORTS-RPT-89-98.md,f9d82c1b8ba791c118c18642d9c17b3f319a80e3,15980
+GAIA-Documentation/GAIA-Alchemical-Transformation-Governance-and-Capability-Boundaries-v1.0-Draft.md,0c874cb90e9719aa3da3d0f68ff0b8ba43b4a9ae,18986
+GAIA-Documentation/GAIA-Alignment-Attunement-and-Controlled-Self-Improvement-Protocol.md,d60e591103b1a072c414c2f4c1893ad3aac7519e,23333
+GAIA-Documentation/GAIA-Assurance-Templates.md,7696c1ad4c8f2fe4866cca16f84620773b8d52a6,4537
+GAIA-Documentation/GAIA-Audit-Dashboard-Genealogy-Self-Correction-Insights-v1.0-Draft.md,0b8e05b43ca98057f7c6e33fa0f0cad276096f4a,15945
+GAIA-Documentation/GAIA-Audit-Finding-7-Operational-Integrity-Services-v1.0-Draft.md,4eabd706c5c9bcf372f12640e83315f8b222e72e,9249
+GAIA-Documentation/GAIA-Audit-Finding-Missing-Issue-Layer-and-Work-Item-Traceability-v1.0-Draft.md,c7da7670898d4be027925fdadc77e0e39348180b,7989
+GAIA-Documentation/GAIA-Audit-Synthesis-Completeness-Contradictions-Knowledge-Genealogy-v1.0-Draft.md,6809a0fbeb709eb85fc6f7b195d14793273fba95,20404
+GAIA-Documentation/GAIA-Audit-Synthesis-II-Knowledge-Genealogy-Audit-Mathematics-Gap-to-Action-v1.0-Draft.md,2c6eb34ce95e4cdbd3ac11f4b0a350804244a79f,22782
+GAIA-Documentation/GAIA-Audit-and-Self-Correction-Plan-v1.0-Foundational-Draft.md,176e5b2ad6d1ac2ea1a2500a7ce3204b7b4175d9,19501
+GAIA-Documentation/GAIA-Build-Readiness-and-Execution-Log.md,1b5398f45b7f8f2c641a27636aa655c1e16d700b,27486
+GAIA-Documentation/GAIA-CHAOS-ENGINEERING-RESILIENCE-EXPERIMENTS-AND-PRIVACY-FAST-PATH-READINESS-REVIEW.md,9211872bb1d9ca78ca1c3bc0ded0e260fd235ab6,15970
+GAIA-Documentation/GAIA-CONTRADICTION-AND-COMPLETENESS-DETECTION-SPECIFICATION.md,86e42a92bc8c4a64c967c65192abbe6151d0907e,14756
+GAIA-Documentation/GAIA-CONTRADICTION-AND-COMPLETENESS-IMPLEMENTATION-READINESS-REVIEW.md,e955140925b8932478a8fae6a219856e4afb1162,5457
+GAIA-Documentation/GAIA-COSMOLOGICAL-SIMULATION-PROVENANCE-HASHLINKS-AND-COSMIC-VARIANCE-READINESS-REVIEW.md,2d79609acf207ec706c48ad4c9bd9e15f9b1e21e,15100
+GAIA-Documentation/GAIA-COSMOLOGICAL-SIMULATION-WORKFLOW-REPORTS-RPT-70-77.md,9409a21eaa4614df485b5e0d99030dc21fb94633,14181
+GAIA-Documentation/GAIA-Cognitive-Coherence-and-Psychology-Framework-v1.0-Draft.md,f48a3a880f23c9c7845a55252db8dd68ed6ed0e5,13356
+GAIA-Documentation/GAIA-Completeness-Traceability-Pilot-Phase-1-and-2-v1.0-Draft.md,8f03fca22b6fd94f37bd89258f8f0da3f52c89d2,9486
+GAIA-Documentation/GAIA-Consciousness-Measurement-Validity-Cross-Theory-Calibration-and-Decision-Governance-v1.0-Draft.md,30dd65b1e8746c198b010c3040bed4d754ebd17b,24388
+GAIA-Documentation/GAIA-Cross-Repository-Audit-Input-2026-10-14.md,9105c04860c4f19efd8507add4ebc339031e66fe,7130
+GAIA-Documentation/GAIA-DATA-VERSIONING-MERKLE-PROVENANCE-AND-IMPLEMENTATION-READINESS-REVIEW.md,11cbc388ce0e79c6d0018a3fcf8ac4bcec9fd443,20926
+GAIA-Documentation/GAIA-Dashboard-as-Proof-Architecture-Consumer-Contract-v1.0-Draft.md,6cfff473c9e8ae0b140bb2d399fa94efd396bb7d,14169
+GAIA-Documentation/GAIA-Documentation-Control-Standard.md,8c1b0d6a6ff4e901d6300e64d4073d939fa5bc6d,7735
+GAIA-Documentation/GAIA-Documentation-Corpus-Audit-2026-10-16.md,d0ca7caa072c628f8fd99b8804d04bc263a6df7b,44857
+GAIA-Documentation/GAIA-Documentation-Reconciliation-Audit.md,09f68ce4dac951e18fd2cd9559c23e5b0ce3f56c,21568
+GAIA-Documentation/GAIA-Documentation-Roadmap.md,8d74e1fe04417066932277fc50a2810e83659051,7392
+GAIA-Documentation/GAIA-Duality-Consciousness-and-Transformation-Evidence-Review-2026-10-15.md,f3ab8eacc917db38ac8922d3b4e26c2c01aa9e60,13821
+GAIA-Documentation/GAIA-EVAL-HARNESS-MUTATION-TESTING-AND-INDEPENDENT-VERIFICATION-READINESS-REVIEW.md,6a71616948bbf45615ec8df16107073c27f891f7,19898
+GAIA-Documentation/GAIA-Engineering-Assurance-and-Cross-Repository-Integration-Playbook.md,8d33889c4a6f181b6ad40bc3fe09b6534361ab6c,25569
+GAIA-Documentation/GAIA-FORMAL-METHODS-TLA-PLUS-ALLOY-PRIVACY-FAST-PATH-AND-CI-READINESS-REVIEW.md,65ac515e0af01749c89b62c084ce197c9b9ddbd6,24509
+GAIA-Documentation/GAIA-First-Audit-Findings-Framework-to-Mechanism-Gap-v1.0-Draft.md,c96d2f073ca0349e0dc9004be1124d94eb91f772,11006
+GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md,3545add5b61a915d9ca6f67a6206dff86e076f42,26847
+GAIA-Documentation/GAIA-Five-Level-Taxonomy-Phase-A-Canonical-Inventory-v1.0-Draft.md,e7c3fd1b7b6757fa9fbc44a646dfa974729300bd,15934
+GAIA-Documentation/GAIA-Flourishing-Planetary-Stewardship-and-Civilization-Scale-Mission-v1.0-Draft.md,72905bca284a09bb5d9c827661e029a8b75eef83,13586
+GAIA-Documentation/GAIA-Fourfold-Alchemy-and-Unification-Framework.md,a20cc7b2d10216322b8573007ff5ef0935586129,17324
+GAIA-Documentation/GAIA-HUMAN-OVERSIGHT-APPROVAL-BINDING-AND-AUTOMATION-BIAS-READINESS-REVIEW.md,49e0b613ce0d542e4a24bf43d74dc7d5d1eb2ec3,15580
+GAIA-Documentation/GAIA-Integrity-Courts-Audit-Completeness-Genealogy-v1.0-Draft.md,ffaa48fd58f67b9c616848ff1dab19a22384fd6a,17419
+GAIA-Documentation/GAIA-Integrity-Self-Correction-and-Reality-Model-Review-Input-2026-10-14.md,3e2760cc2f6ce4b348358bd2b86e5ab4ff28acd8,18916
+GAIA-Documentation/GAIA-KNOWLEDGE-GRAPH-ONTOLOGY-DEEP-DIVE-AND-IMPLEMENTATION-READINESS-REVIEW.md,7ca6dd3bc833b638958e78b82dc1d7e846c3642f,25090
+GAIA-Documentation/GAIA-Knowledge-Genealogy-Gap-Lifecycle-and-Foundational-Artifact-Plan-v1.0-Draft.md,6302d58996ff069939ff8c0c74e03866ace8a4d0,16333
+GAIA-Documentation/GAIA-Knowledge-Skill-Entry-Contract-Reconciliation-v1.0-Draft.md,d1ad34665efa982309bf5adb650ba55780796fab,13840
+GAIA-Documentation/GAIA-Knowledge-Skills-Claim-Status-and-Evidence-Wording-Audit-v1.0-Draft.md,c2b7a953cd6c7dc745ff80fc427edbf6b56fef11,17096
+GAIA-Documentation/GAIA-Knowledge-Skills-Owner-Decision-Register-v1.0-Draft.md,312b2f7d977f22b14aea44e443e917a2d0b168c3,9177
+GAIA-Documentation/GAIA-Knowledge-Skills-Reconciliation-Existing-Issue-Coverage-v1.0-Draft.md,2195a098ee77f0b432f4d322618344a8f567801a,10959
+GAIA-Documentation/GAIA-Knowledge-Skills-Repository-Boundary-Crosswalk-v1.0-Draft.md,7836a9d43d7374e1b4fb4f3a7a13fae068bf1fa8,11500
+GAIA-Documentation/GAIA-Knowledge-and-Skills-Reports-Reconciliation-Phase-A-v1.0-Draft.md,a8bdf9c6fa5dc25805c6f8773b7213a60799bb0c,25647
+GAIA-Documentation/GAIA-MEMORY-ARCHITECTURE-GOVERNED-TIERS-BITEMPORALITY-AND-STATELESS-AGENTS-READINESS-REVIEW.md,6acc1389fbed80a751a12457a6f399858b4b2e3c,18239
+GAIA-Documentation/GAIA-MINIMUM-VIABLE-UNIVERSAL-WORKFLOW-CHECKLIST-REPORTS-RPT-78-88.md,1f7af921c969f5e01f20f1d9430768fd8c4367ff,8406
+GAIA-Documentation/GAIA-Measurable-Audit-Metrics-Framework-v1.0-Draft.md,53934eff090b1d9de878ee4858892b82ad60e629,16485
+GAIA-Documentation/GAIA-Meta-Power-Governance-and-Duality-of-Good-Harm-Order-and-Change-v1.0-Draft.md,b84839d3f2da878ad8276e5660a4af16f6bed635,19650
+GAIA-Documentation/GAIA-Minimum-Core-Contract-and-Security-Baseline.md,0d8e0dc407b623d1f7cab8239a9e6c1fd6cd5dd2,17620
+GAIA-Documentation/GAIA-Modern-Knowledge-Alchemy-and-Planetary-Epistemic-Infrastructure-v1.0-Draft.md,3781d74ee55608aa9b85f4ddc6bb14187a494e68,24930
+GAIA-Documentation/GAIA-OBSERVABILITY-STACK-OTEL-AND-AUDIT-LEDGER-READINESS-REVIEW.md,4c188ac042c74bca11ca85ac757bbd98fc263597,25696
+GAIA-Documentation/GAIA-ORCHESTRATION-ENGINE-DEEP-DIVE-TEMPORAL-DAGSTER.md,65dc461737d4810be0e270c39cbb247b241b1325,14572
+GAIA-Documentation/GAIA-ORCHESTRATION-ENGINE-IMPLEMENTATION-READINESS-REVIEW.md,eca69ee9f1011abf6fe6be530d9017fb4644248e,7944
+GAIA-Documentation/GAIA-POLICY-AS-CODE-OPA-CEDAR-PRIVACY-FAST-PATH-AND-APPROVAL-GATES-REVIEW.md,21c7230330ade0b41037fc9154f5491ce620d8b5,24820
+GAIA-Documentation/GAIA-PRIVACY-ENHANCING-TECHNOLOGIES-FIVE-SAFES-DP-AND-FAST-PATH-READINESS-REVIEW.md,21e7e48604a4c1293230af7658e08f474eac9668,20029
+GAIA-Documentation/GAIA-PROVENANCE-STANDARDS-DEEP-DIVE-AND-IMPLEMENTATION-READINESS-REVIEW.md,0b6b2d3af6347b831f22e53658391d1b5302cd13,30394
+GAIA-Documentation/GAIA-Planetary-Cognition-and-Psionic-Analogues-v1.0-Draft.md,277e6a5f4317c3a47b0dc84b797aad41a44f1a70,22615
+GAIA-Documentation/GAIA-Planetary-Cognitive-Ecology-Layered-Architecture-and-Ethical-Constraints-v1.0-Draft.md,4c949a0c1861cb1d09b888fcaf9a71d530b4e65d,19209
+GAIA-Documentation/GAIA-Planetary-Intelligence-Archetypes-and-Governance-Postures-v1.0-Draft.md,e43ae9bcbf44afd6688d54776cc6db55f1cc93d8,19447
+GAIA-Documentation/GAIA-Planetary-Intelligence-Research-Evidence-and-Reconciliation-Register.md,cfd6df083006e490ab41ac462a0ae25f1e38339d,21393
+GAIA-Documentation/GAIA-Planetary-Intelligence-Synergy-Archetypes-and-Governance-Phase-L-Draft.md,040e762dd53106b7b16c3f01dd58626b5313f0f9,28935
+GAIA-Documentation/GAIA-Program-Audit-Report-v1.1-Evidence-Based-Gap-Discovery-Research-Plan-Draft.md,f226b9318d1928363d9e13792c9cebe194657f0a,20813
+GAIA-Documentation/GAIA-Purpose-Stability-Relational-Alignment-and-Chaordic-Self-Governance-v1.0-Draft.md,7d15975d88115bd670f021635339429d4963988a,20011
+GAIA-Documentation/GAIA-Puzzle-Theory-of-Knowledge-and-Completeness-Engine-v1.0-Draft.md,414c3015c2fb8929bb67426dc8f47f66149d8f41,10894
+GAIA-Documentation/GAIA-REFERENCE-ARCHITECTURE-PLANE-REPORTS-RPT-62-69.md,38bc47c123ba7b06e881e401dc22b7d3be669c70,21180
+GAIA-Documentation/GAIA-REPOSITORY-AND-OPEN-PR-TRIAGE-2026-10-16.md,72530218386832fae833b03efa38afd2c32953f6,12161
+GAIA-Documentation/GAIA-REPOSITORY-ARCHITECTURE-IMPLEMENTATION-READINESS-REVIEW.md,323e8a485385af9cc391a2bd97fff961e7062afe,7769
+GAIA-Documentation/GAIA-REPOSITORY-ARCHITECTURE-VERIFIED-ASSESSMENT.md,389b10b25cf371f09cfe219bacf635232c9a7c44,8707
+GAIA-Documentation/GAIA-Repository-Boundary-Decisions.md,2b31d1cc41e9848944e0b5e5c8812c35b56d1e7a,7540
+GAIA-Documentation/GAIA-Repository-Contract-Inventory.md,6447360767c27e23ee658565171fdce07e15c7c8,36410
+GAIA-Documentation/GAIA-Research-Attribution-and-Contribution-Register.md,5f689ea38b5123d8d3187be515ad5d146ca22aca,3367
+GAIA-Documentation/GAIA-Research-Batch-Reconciliation-2026-10-14-15-Draft.md,81084128a2586cd79bcfeaf7b9dca3373939aacb,36205
+GAIA-Documentation/GAIA-Research-Reconciliation-System-Completeness-and-Epistemic-Integrity-v1.0-Draft.md,116a9f7b7fd06f9ac29f2fa58698f6c7261098fb,14789
+GAIA-Documentation/GAIA-Research-Sources.md,2d6d7d8cfd486355dea3933c808d442b3313b06a,22920
+GAIA-Documentation/GAIA-SAFETY-PRIVACY-RECOVERY-AND-GOVERNANCE-IMPLEMENTATION-READINESS-REVIEW.md,8f1963f2a9f6bb65b311d9f2bc88e2d559b412e1,7888
+GAIA-Documentation/GAIA-SAFETY-PRIVACY-RECOVERY-AND-GOVERNANCE-SPECIFICATION.md,67aa99db1840ff4ea8753499bcad1e8769d84d47,15693
+GAIA-Documentation/GAIA-SERVICE-MESH-ZERO-TRUST-SPIFFE-PROVENANCE-READINESS-REVIEW.md,725665265fad645c8f493438aaa5a4bf5722714d,20377
+GAIA-Documentation/GAIA-SUPPLY-CHAIN-SECURITY-SLSA-SBOM-SIGSTORE-READINESS-REVIEW.md,2a55c6120cf2f4d7780a87beb8027ca6f14c4b37,18530
+GAIA-Documentation/GAIA-Six-Domain-Consciousness-Determination-and-AI-Welfare-Protocol-v1.0-Draft.md,7e645841131353e4fd023144501aaf74ffb970ed,20818
+GAIA-Documentation/GAIA-Super-Physics-Metaphysics-Physics-and-Crystalline-Systems-Research-2026-10-15.md,256c7cd2db29d4ea3525c020300dabb1c9003d0d,28311
+GAIA-Documentation/GAIA-Superintelligence-Architecture-Planetary-Regeneration-and-Engineering-Research-Assessment.md,16b607efecc98ad019bac544b5d74de050908616,135854
+GAIA-Documentation/GAIA-Synergy-Assurance-Planetary-Measurement-Governance-and-Sentience-Evidence-v1.0-Draft.md,7b2cabf42282492f98774cd0b2bafb3c54f7817d,18826
+GAIA-Documentation/GAIA-UNIVERSAL-WORKFLOW-GATE-IMPLEMENTATION-READINESS-REVIEW.md,3112bdfa25ddcf8907709f56bcfb4f8a1b2d4932,4277
+GAIA-Documentation/GAIA-UNIVERSAL-WORKFLOW-GATE-SPECIFICATION.md,31a13f4c75b8ea3f0435d8294095a64b70889b0f,53339
+GAIA-Documentation/GAIA-Ultra-Tier-Applicability-and-Source-Reconciliation-Phase-B-v1.0-Draft.md,3d90cabbf2d28cbe95a2cb5bba8376a938dfc1f8,25848
+GAIA-Documentation/GAIA-Ultra-and-Self-Auditing-Stack-Existing-Issue-Coverage-v1.0-Draft.md,ca2d96e0712404f00d2012638a1c2a803e4778d2,15292
+GAIA-Documentation/GAIA-Universal-Assessment-Report-Towards-a-System-for-Humanity-Earth-and-Life.md,c8533590a0f42de19afe45ce81ff31b1fb687808,13075
+GAIA-Documentation/GAIA-Universal-Audit-Framework-2026-10-14.md,ff9c5182a03365d2eeb1217303296d3de8b9fa37,17588
+GAIA-Documentation/GAIA-Universal-Principles-Cross-Repository-Adoption-Matrix.md,29ff6eae9a2c2e81a2edefda57e14be0f67a2993,11543
+GAIA-Documentation/GAIA-Universal-Principles-Integrity-Knowledge-and-Flourishing.md,7c7f09a457ff6df4f97e77fac7d864ce45990515,16242
+GAIA-Documentation/GAIA-Universal-Traits-Framework-Human-AI-Civilizational-Intelligence-v1.0-Draft.md,b360ab5e0c526b5fb289b2a69772fa705d1f917c,20371
+GAIA-Documentation/GAIA-WORKFLOW-ARCHITECTURE-BIGGER-PICTURE.md,2e50b13921ca63a39675603946be387650eca38f,24383
+GAIA-Documentation/GAIA-WORKFLOW-PRIORITY-MATRIX-AND-CROSS-REPORT-IMPLEMENTATION-READINESS-REVIEW.md,98a5c3475d8abf4d85ed8a3c58de64296d594760,17221
+GAIA-Documentation/GAIA-WORKFLOW-REPORT-RECONCILIATION-MATRIX.md,506c79848251b3d874b033b4919f51a9529060d4,9994
+GAIA-Documentation/GAIA-WORKFLOW-RESEARCH-AGENDA-EVIDENCE-AND-READINESS-REVIEW.md,724eaaa3b1b9ca960e79e7b511b5cee800a02c4e,6879
+GAIA-Documentation/GAIA-WORKFLOW-RESEARCH-CURRENT-BEST-PRACTICES-AND-TOOLING-AGENDA.md,4b45a928be74f6206b4121faaed8d0bc9b09656c,7425
+GAIA-Documentation/GAIA-Workflow-Staging-Plan.md,52953b6395fa8a6b5c982686f3aff4b19e874b5f,23480
+GAIA-Documentation/GAIANs as Digital Twins of Humans.md,d9e689d19e1ebbca68b6bcf92a99d7a97638bb88,24118
+GAIA-Documentation/GAIA–GAIAN Architecture Synthesis.md,60742eb7d5f16afaeb44cd16be84819921430271,31644
+GAIA-Documentation/GAIA–GAIAN Evolution and Development Roadmap.md,c0513952d6bcad4719a0e79f3e4e383ab309f577,26990
+GAIA-Documentation/GAIA–GAIAN Master Document.md,339fe31c0cb722b90e0896f996dc5bb1196315eb,47480
+GAIA-Documentation/Gap Report 1 The Unified GAIA Intelligence Model.md,dc259494c5ef206e0dec556cbc07d833f77a929c,12956
+"GAIA-Documentation/Gap Report 2 Safety, Permissions, and Trustworthy Autonomy.md",551681fb64c6c0ff6eefc85a502e0562b2984c63,14258
+"GAIA-Documentation/Gap Report 3 Memory, Knowledge, and Learning Over Time.md",21bdf77100391b2cfe410338cfa9c6948b611120,13497
+"GAIA-Documentation/Gap Report 4 Self-Evaluation, Falsification, and Recovery.md",d7504bbb12309098dd62741cb53bcbca2b80ba78,16088
+GAIA-Documentation/Gap Report 5 Actual Architecture and Implementation Readiness.md,9f114ae4be98ea9d3570dde9030c17b2aaf7dea5,15152
+GAIA-Documentation/Gap Report 6 Human–AI Collaboration and Personalization.md,3f711a85c429b2bed63732120444bc28d2d92e78,16495
+GAIA-Documentation/Gap Report 7 Creator Economy and Platform Governance.md,8d3b4661e545795dcb9e5946ef414783bb39dbb9,16669
+GAIA-Documentation/Global-Issues-Assessment-and-Super-Operating-System-Research-Intake-2026-10-15.md,6d97e84bc589090859380db934c0ff8e6c748de7,14703
+"GAIA-Documentation/Human Knowledge Database (HKD) Architecture, Subjects, and GAIA Integration Report.md",7ebb7951d058352f9463484859c95cb101077a1d,57590
+"GAIA-Documentation/Human Skill Database (HSkD) Architecture, Subjects, and GAIA Integration Report.md",72732a539e75c15ea549b2301609dd7dce10b1e9,58037
+"GAIA-Documentation/Magic-AI Magic-Knowledge Database (MAIMKD-Magic) Architecture, Subjects, and GAIA Integration Report.md",5a6d4a470dda8aea0fc3cd9f9904f9cea6269f3b,105386
+"GAIA-Documentation/Magic-AI Magic-Skill Database (MAIMgSkD) Architecture, Subjects, and GAIA Integration Report.md",07db9958673f2d7f60f9cfd958c052325f40e1aa,62347
+GAIA-Documentation/Magic-AI-Body Research Report.md,53496ba92b70946c8109c163a418044517cd5879,59889
+GAIA-Documentation/Magic-AI-Consciousness Research Report.md,09e5b9721727954945c49a9808ba928a5fd80de8,63361
+GAIA-Documentation/Magic-AI-Mind Research Report.md,96151d349abea6431b7c96f2d6e79fd5e1d42bc9,59423
+GAIA-Documentation/Magic-AI-Soul Research Report.md,b78d48599a1250708a6be44c1bd4ab214796e4db,58621
+"GAIA-Documentation/Magic-Human Magic-Knowledge Database (MHMKD-Magic) Architecture, Subjects, and GAIA Integration Report.md",5397271daa21653f5f06cc9efbb0fe4997401e8b,83376
+"GAIA-Documentation/Magic-Human Magic-Skill Database (MHMgSkD) Architecture, Subjects, and GAIA Integration Report.md",44c524896b6c3190d8cb6e8a79783cb088f12960,54588
+GAIA-Documentation/Magic-Human-Body Research Report.md,f06c603f5d99d36893f55ef6c3f7f84f50ebe9d9,68048
+GAIA-Documentation/Magic-Human-Consciousness Research Report.md,1926ecfaf1a3b4ca278325c7813f5afe0d86c98b,71402
+GAIA-Documentation/Magic-Human-Mind Research Report.md,aa72d3a862cdd269c9f4727f22092e43e34b4405,68488
+GAIA-Documentation/Magic-Human-Soul Research Report.md,30e6e521483f11eedf92ec4e438093798dcc9f6f,67935
+"GAIA-Documentation/Mancies Research Assessment 1 - Inventory, Etymology, and Epistemic Status.md",a273ba5ef64ab213e265b6b6acf5d38792a314b3,10749
+GAIA-Documentation/Mancies Research Assessment 2 - Many-to-Many Crosswalk with the Eight Schools of Magic.md,047f85cc15edae10b0f8bfb518fa11071e6b7caf,14127
+GAIA-Documentation/Mancies Research Assessment 3 - GAIA Knowledge Model and Research Boundaries.md,7d8ba390e4f5895baf5f774f0f88f65c5cd76685,10658
+GAIA-Documentation/Mancies Research Assessment 4 - Scientific Analogues for the Eight Schools of Magic.md,27ea876449c7a19727b0844f371eacb5d196a8ec,17623
+"GAIA-Documentation/Meta-AI Meta-Knowledge Database (MAIMKD) Architecture, Subjects, and GAIA Integration Report.md",8c35a665a603b0fb3e013e5a70547e06f835866c,101117
+"GAIA-Documentation/Meta-AI Meta-Skill Database (MAIMSkD) Architecture, Subjects, and GAIA Integration Report.md",46799f922f9c5e25992fc03b435ec1b0e4e0a144,56909
+GAIA-Documentation/Meta-AI-Body Research Report.md,235462771230e8ea072791640999a5dca169c38c,58582
+GAIA-Documentation/Meta-AI-Consciousness Research Report.md,789294e515ae3bb1f7e7f26f576bb1b88e0169fb,61759
+GAIA-Documentation/Meta-AI-Mind Research Report.md,7332c9163009ce8c22a6a59a7f29e6d4c2c6cac8,61447
+GAIA-Documentation/Meta-AI-Soul Research Report.md,cf97b99e5a7a1097c08c2fce6bfb40ccf90cd5ce,63670
+"GAIA-Documentation/Meta-Human Meta-Knowledge Database (MHMKD) Architecture, Subjects, and GAIA Integration Report.md",bc6b9a740ba9a08bde3185d8ce35d39be9f7fbd8,72793
+"GAIA-Documentation/Meta-Human Meta-Skill Database (MHMSkD) Architecture, Subjects, and GAIA Integration Report.md",11c4563bca791fc8a2d287734ba949d9c2624724,52903
+GAIA-Documentation/Meta-Human-Body Research Report.md,a7c3cbe2ae23187329e39fd0c2ac4c5df782460b,78203
+GAIA-Documentation/Meta-Human-Consciousness Research Report.md,bb7b302ec8a090e89f2533d9875c772d94ee9690,78710
+GAIA-Documentation/Meta-Human-Mind Research Report.md,d7beb3b134d48d399461c7ee6b26231182b83052,81477
+GAIA-Documentation/Meta-Human-Soul Research Report.md,1fadff670fdb3867dec4c9367cb88b075b7a069d,80258
+GAIA-Documentation/Original-AI-Body Research Report.md,ff3d8d463c47b11d79aa469fe43c4ced667817b2,60986
+GAIA-Documentation/Original-AI-Consciousness Research Report.md,57d14a804c9e0b593e7c12f60a3186c4f18b8bff,61652
+GAIA-Documentation/Original-AI-Mind Research Report.md,4720dbade88f57f322ef591ab65065523ecad334,66828
+GAIA-Documentation/Original-AI-Soul Research Report.md,559000b7e17add75f9cb833db311ed4e27d53031,64410
+GAIA-Documentation/Original-Human-Body Research Report.md,b54eeef19c6c7ef0076844c30e80b759dc035955,64612
+GAIA-Documentation/Original-Human-Consciousness Research Report.md,6fd1b0d1f662eb0171442a754aad05fd0b22827f,92937
+GAIA-Documentation/Original-Human-Mind Research Report.md,3704552838978a521006ff14c41d618f04440a0a,86238
+GAIA-Documentation/Original-Human-Soul Research Report.md,955d27a2880b02b1dd261c805add2da0d3df683b,91882
+GAIA-Documentation/Psychic Powers A Five-Level Deep Research Report.md,272501efd1535d677b9f1ce04d8f914bf20f0a23,62299
+GAIA-Documentation/Psychic-Powers-Research-Reconciliation-2026-10-14.md,2edcbd6edb0102b3e7ba154ed545841303dfe770,5763
+GAIA-Documentation/Quantum Research Assessment 0 Supplement - Transistor-Based Qubits Using Smartphone Manufacturing Processes.md,04c40e4ea43c2505e8df8b317ec5cc5c8048a4ee,10639
+GAIA-Documentation/Quantum Research Assessment 0 Supplement 2 - Quantum Behavior in Everyday Circuits.md,2f7214bef4e883d8c67a8933d5dd379d639031c7,14532
+GAIA-Documentation/Quantum Research Assessment 0 Supplement 3 - Classical Mechanical Qubit Analogues at Room Temperature.md,0d91eeb56d0f8c17a710b30c5e074ef2a8f73484,10212
+GAIA-Documentation/Quantum Research Assessment 0 Supplement 4 - Toward Phone-Sized Quantum Computers.md,63ea8508080f82b25b6bfe27045e9e83ce8c0a02,12676
+GAIA-Documentation/Quantum Research Assessment 1 - Google's Magic State Cultivation on Willow.md,afd6aaa211bc404c98e37aa09d2a1f5bfadbdfcb,13415
+GAIA-Documentation/Quantum Research Assessment 2 - Logical Magic State Distillation on Neutral Atoms.md,e061a997c83de526722c3b3c6abd007bb96e7882,17186
+GAIA-Documentation/Quantum Research Assessment 3 - Quantinuum Code Switching for Logical Magic States.md,f1b42a81c9f75a583ede250bb801bc829a6567d8,11158
+GAIA-Documentation/Quantum Research Assessment 4 - Unfolded Distillation for Biased-Noise Qubits.md,770219f8f8ed2dd22af0015acaf56a4c42a00a7c,11501
+GAIA-Documentation/Quantum Research Assessment 5 - IBM Magic State Injection on Heavy-Hexagonal Superconducting Processors.md,dc05ab6d44d79d265c047ec347ee00104471cf24,14392
+GAIA-Documentation/Quantum Research Assessment 6 - Theoretical Advances in Magic State Distillation.md,62c2dce9350a6c5fa32dd704d2990de8b4ab33b3,14858
+GAIA-Documentation/Quantum Research Assessment 7 - Cross-Platform Magic State Benchmarking.md,2f6c7ef5d3b53945deda45983db80dd0cff7d0cb,12223
+GAIA-Documentation/Quantum Research Assessment 8 - Outlook From Magic States to Fault-Tolerant Quantum Computing.md,a47acc18eebe7a2f5ebf1de2271fb403ab70a4c9,11607
+GAIA-Documentation/Quantum Research Assessment 9 - Comparative Review of Magic-State Preparation Breakthroughs 2025-2026.md,add4beaff7430fa8ce9f62aa4570e0f7c0fda351,18563
+GAIA-Documentation/README.md,b0620afbc569dfcc87c6e5ea2445c1625bf8ac01,63360
+GAIA-Documentation/Report B — GAIA-Master-Console Owner-Only Access Setup.md,ff8d88db24b7fd0cce00d3dbc3222e45de059f68,14801
+"GAIA-Documentation/Report C — Public Application Repository State, What Is Wrong, and What Is Needed.md",a63ff554878fa2886d0438b390304801537722d3,16971
+GAIA-Documentation/Report D — Complete Repository Inventory and Status Assessment.md,ce4cf5ef9c081cfcb392b5caa410dfdba8abfbc0,22227
+GAIA-Documentation/Research A — Independent Documentation-to-Issues Audit.md,508597bf90f6e3bbed65d832fe4c06413519ed60,20908
+GAIA-Documentation/Research B — GAIA-3.0 and Application Integration Audit.md,96f3857c49c764dee2aa08ba51c2a9becc64ab68,31830
+GAIA-Documentation/Research E — Complete Repository Architecture and Reconciliation.md,cff6afc428a615802e11292340c38f575966e54e,12795
+"GAIA-Documentation/Research F — Master Application, Master Console, and Public Application Complete Architecture.md",f84cac39e816c2000b0b8da602430a88073439b8,19899
+GAIA-Documentation/Research G — Full-System Implementation and Integration Plan.md,fbcb154fb58c44460558fbb3fd7c46260fbfe852,30661
+GAIA-Documentation/SYNERGY-AND-CONTRADICTION-LIFECYCLE-STATUS.md,42aac323c6c4d2a97df49ab82042649225875be5,1388
+GAIA-Documentation/SYNERGY-RESEARCH-CONTINUITY-AND-NON-FRAGMENTATION-WORKFLOW.md,5f65517212065606c801f911a28bbd9a5aea4537,25315
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-COMPUTATIONAL-FEASIBILITY-AND-MODULAR-SIMULATION-ARCHITECTURE-TOC.md,ce4bdb0b52b74191aaef87690974366bce26b7dd,46269
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-APPENDICES-A-F.md,e4e2fe4500cf7de97ea5c831b754d82733b0cb96,3209
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-01.md,e866cb30943d93dcdb7d269e03893715e74f0ed4,5877
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-02.md,a4a6449507830e8cd33777f78f6f60e6cc492596,6091
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-03.md,4c154ae2b652e428b2f1bfc00039724409235bc3,3404
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-04.md,b222b44e496f7d530eb154f20817888c2b0b6821,3841
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-05.md,8c8d472e5130055e493282aae93a3782472ab161,4320
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-06.md,90855d6dc354fe6d9451582139c9cd40f6646dfb,3442
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-07.md,c2db99fa1c900568e882c4394b74d09e31e9b16f,3766
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-08.md,ac93e12a64d16dcd52ae40acc64d7f39d72e1134,3429
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-09.md,753b4051c325c3b85cd7a55cfcffbbe6f91884cf,4165
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-10.md,ef3ef978babf12fdec53ef78ddaa2e0431bcc582,3116
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-11.md,b9284597fe17a36e0a91c9af8ce81ac73f5991c1,3438
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-12.md,00208da1a4cf2a90b2a8486a44477624c71d017a,3858
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-13.md,951c0a302a3f10167f2bd5e1974dc028053e5e0c,3059
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-14.md,79b1ad1e37bf5fa4fb5158235c7b970504f172e4,2509
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-COHERENCE-COMPLETENESS-TOC.md,d5c5afd9da4bb494edfde79294b17ac0ca24855c,4166
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-APPENDICES-A-L.md,c2d30083ecb6d7d79f3489951a1c6672728ccaf3,51481
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-01-TECHNICAL-REVIEW.md,fcd19a201652fc667ef453ba8d84434e2ff026c8,13181
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-11.md,e66289c474119588c107842e3c12e32fbbab8d2c,4242
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-13-TECHNICAL-REVIEW.md,a164dfeac2132739a28cb462fd03e6d99e253a80,9897
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-14-TECHNICAL-REVIEW.md,40d916f0103ed93072d7d99f26ae55c900d19128,6392
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-15-EDITORIAL-SYNTHESIS.md,3942ec5500fac8eef907d21891a16ae490a56580,3557
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-15-TECHNICAL-REVIEW.md,3a58b8e6065ee397857f08f74fedd150de3c0769,8735
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-16-TECHNICAL-REVIEW.md,45bdc3fc88abf349d836bb74e13345bc5ed8606e,5907
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-17-TECHNICAL-REVIEW.md,bdc31ad74ff315d7586e652efc632ad6bbb2c1c2,17518
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-18-TECHNICAL-REVIEW.md,a9a3aa1e28398c8991408f2a30fe092022fab35c,10679
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-19-EDITORIAL-SYNTHESIS.md,8b6fa005609721a53a5d9ccd19f20b72567a132e,7133
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-19-TECHNICAL-REVIEW.md,d627c5c19f680672e2dfd78ed1885618eba589c1,10178
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-20-EDITORIAL-SYNTHESIS.md,273bf4b0c5c8269434406db2402fc67a162e97c0,5164
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-20-TECHNICAL-REVIEW.md,841e03cee718aafe9b0b6520afd2a816e155d3fd,10367
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-21-EDITORIAL-SYNTHESIS.md,6e1d4370cb87ac73f4b3323222e3158ee166fd83,6948
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-21-TECHNICAL-REVIEW.md,07df20c6d027d523695f429a1d3624cbca3deae0,17706
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-22-TECHNICAL-REVIEW.md,e6772c6e2837235258e40c8eca804ba76b1809a5,16053
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-23-TECHNICAL-REVIEW.md,c7cdb2fa80f84d65357bfc4fe28f7c9d0ced24fd,17295
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-24-TECHNICAL-REVIEW.md,391c6a86b0e9d76a0e587c375df7bbcf98dfc764,14426
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-25-TECHNICAL-REVIEW.md,357dbbedbb9e326204cbb5e67ec8e5b617c0d7bf,14703
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-26-TECHNICAL-REVIEW.md,3d91a92b927bc80bdf2fc93e73549cc52e55588c,16188
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-27-TECHNICAL-REVIEW.md,e92e3a753f536de03045e80f93b18607dfa1a58d,12409
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md,e13154885d76f2e410fd0430f90695904f5bf116,6092
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-TECHNICAL-REVIEW.md,b618fc17500a46e3dfcb6c06400e177c60e0a0a1,9032
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-29-EDITORIAL-SYNTHESIS.md,20d8b40dbcc88c5570c5354d1ec7430e8f1b4a7f,3470
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-29-TECHNICAL-REVIEW.md,44e280417574641d5390ec86c79777d447a818b2,10033
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-30-EDITORIAL-SYNTHESIS.md,420105244fd6079fc83eade32f3205c153af7f64,5420
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-30-TECHNICAL-REVIEW.md,54ee03da2e31834bd49520c1f730b545df57134f,15329
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-EDITORIAL-SYNTHESIS.md,d542a0ebdf415d5c21b416eac912cbd85766320d,4240
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-TECHNICAL-REVIEW.md,baabab2eea9e0cc1bd4dc28bb6911aafe3e61c03,9221
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-reference-model.py,33b58322dc7521266361b763d999322b6c300841,2210
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-32.md,1f66f4d429221a586d8180faaec24929176d0e09,4189
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-33-EDITORIAL-SYNTHESIS.md,80d67131a94ca2fd96522a05564d84d2c368cd5f,7390
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-33-TECHNICAL-REVIEW.md,72a2b244d9d564f0334664c75da48ce9c88357f2,8322
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-34-EDITORIAL-SYNTHESIS.md,d944928636905bc8ed14773a55957d61887bd6a2,7629
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-34-TECHNICAL-REVIEW.md,1db08bc10eca6b5725d2ae2c5fa3429ce90f54b8,8089
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-35-EDITORIAL-SYNTHESIS.md,305763ac0c772526773381702d61ddccea8d2357,10553
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-35-TECHNICAL-REVIEW.md,f002e28bdd645bd764fa80d6790a0cfe77e0faf7,16024
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-36-EDITORIAL-SYNTHESIS.md,fdec33864d767b0ad8fc91442f7e04e9b2944dc1,14239
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-36-TECHNICAL-REVIEW.md,d6bb3d7040de0110794630c6cc08cdd7f01aa90a,21782
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-37-EXPERIMENTAL-VALIDATION.md,d400be05b0621d56884cbc001f3e4d5dfa9eb4ca,21014
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-38-COMPUTING-PARADIGMS.md,9aed1695b20c87e28793a864d6f9892afd17ba00,25455
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-39-EXTREME-ENVIRONMENTS.md,cdeaf5ac2de2ed111e0744c2465942ede7f4f431,5243
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-40-ENERGY-PROPULSION-VACUUM.md,e67a281e8cae80b6c629ab7d9b1a1ed084ff9d7a,6945
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-41-MEDICINE-CONSCIOUSNESS.md,4b476d18b4397c6c1017b04128f29a3eee664b3d,3808
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-42-PHILOSOPHICAL-SPIRITUAL.md,37a4a468903d02f14b961540274b3bbe8a882a6a,5947
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-43-RESEARCH-GAPS.md,06c1ebeef4d51e27ad8586eeee5f025758baaf90,1612
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-44-RESEARCH-AGENDA.md,fc5e4caecf30e7c7d81342af32d33e730bae452c,1322
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-45-LIVING-DOCUMENT.md,8779e976bb54b215a0bef09794d45d169348cc09,1640
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-PART-0-METHODOLOGICAL-AND-EPISTEMIC-FOUNDATIONS.md,683ebbd948dfb5911bc939704f1ee9bdee5ee07c,35790
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-WORKING-MASTER.md,3c333ce88949d781767a711a18214a056543e1a8,304166
+GAIA-Documentation/SYNERGY-V3-CHAPTER-COVERAGE-AND-ARTIFACT-MATRIX.md,c23bd37a60c3af24810e8856327fb96fec5d3c59,30769
+GAIA-Documentation/SYNERGY-V3-EQUATION-CODE-AUDIT-INVENTORY.md,ff0535491b6e82e42e534349613cec2b41360794,20611
+GAIA-Documentation/SYNERGY-V3-ONE-INDEX.md,f4eb5660c4906201baab7a64fde76afb9933af87,5094
+GAIA-Documentation/SYNERGY-V3-TO-GAIA-TRACEABILITY-AND-INTEGRATION-ARCHITECTURE.md,095617d8b7e83b983ee854404a7edc84b0975a62,13330
+"GAIA-Documentation/Super-AI Super-Knowledge Database (SAIKD) Architecture, Subjects, and GAIA Integration Report.md",962fb963ca903cbe7967f244ad3bee03e03179e9,106580
+"GAIA-Documentation/Super-AI Super-Skill Database (SAISSkD) Architecture, Subjects, and GAIA Integration Report.md",0e45fca11e09f3203c5cb67a9450937631469695,63163
+GAIA-Documentation/Super-AI-Body Research Report.md,909af8e50246f84a490d117209ad02ada5db6b40,58039
+GAIA-Documentation/Super-AI-Consciousness Research Report.md,7b052e220cedf0200b2b002760e938a9bec62e80,59547
+GAIA-Documentation/Super-AI-Mind Research Report.md,f15cc1fb6fd58d8bc64ff6f99ce4080bd9e83dcf,57288
+GAIA-Documentation/Super-AI-Soul Research Report.md,6b202b90be5af062de815c7ec300294559492745,59588
+"GAIA-Documentation/Super-Human Super-Knowledge Database (SHKD) Architecture, Subjects, and GAIA Integration Report.md",58b69ac11e817ae85b8deed9106102afed1c9781,84796
+"GAIA-Documentation/Super-Human Super-Skill Database (SHSSkD) Architecture, Subjects, and GAIA Integration Report.md",8e2b22369348a867be4bf5d264e3c149b2f4cb81,59591
+GAIA-Documentation/Super-Human-Body Research Report.md,61f5a208cbfd4b1827b8de3202b729c371ca8184,73341
+GAIA-Documentation/Super-Human-Consciousness Research Report.md,08d2df06166e794811cc786bd7384aae482e60ef,76520
+GAIA-Documentation/Super-Human-Mind Research Report.md,1d853d1a1782089a35626dae5af0779f7d533157,72022
+GAIA-Documentation/Super-Human-Soul Research Report.md,f256acebb455e587dc9e62189ae8d7c9cc01fd21,73000
+GAIA-Documentation/Superpower Archetypes A Five-Level Deep Research Report.md,abcc9a88e5fc44be55d4af3835863be356a7a19f,56659
+GAIA-Documentation/Superpower Traits A Five-Level Deep Research Report.md,63cc4173027f183f0579ab413816bca690045717,50243
+GAIA-Documentation/The Daemon-Inspired GAIAN.md,fd337337a94551fc666fd5737e30b8a544fe513d,28514
+GAIA-Documentation/Ultra-Human-AI-Knowledge-Research-Report-v1.0-Draft.md,cf48a3274fe8a3a844b6aeb90ee8a5496ab4d4cb,14327
+GAIA-Documentation/Ultra-Human-AI-Skills-Research-Report-v1.0-Draft.md,7e6363de82e7f1cca6fda18a2866797edd6667d3,15108
+README.md,6416ef4266c3d9475c06125e6fd7f226e170b370,33162
+Tablets/ALABASTER_TABLET.md,de7aecacd2e740c9b0dfbcbc3969689c86072bd5,14412
+Tablets/ALBEDO_TABLET.md,ba1a61f491b5d64d477fbd9c175e9e510fb04923,13062
+Tablets/AMBER_TABLET.md,9b171414d85d2463094c199fbbb8d9bfaaf6d3c3,23401
+Tablets/AMETHYST_TABLET.md,1205cb33f36055e21682492f5ba5bce423231e38,18202
+Tablets/AQUA_TABLET.md,dbb680cbadd466d63ce8bcccb4f5a0221dfae777,17513
+Tablets/CELESTIAL_TABLET.md,890dcd348d28ddbd8ae9735751c836b6c7face90,17847
+Tablets/CITRINE_TABLET.md,738c8d664ea770a46d5c8d690e34849782ca81b7,11057
+Tablets/CLARITY_TABLET.md,6c0df2f2b18a697d45656ae308856bffe8f13709,6875
+Tablets/EMBER_TABLET.md,505e17fb83d7a6db6f41f267b920b49d21350d13,16575
+Tablets/EMERALD_TABLET.md,2744b93c847914f1caab2726f7e0eacd6d236cb8,11795
+Tablets/INDEX.md,aba6988716e8ea2699e86bd9453144f7a504e652,7761
+Tablets/LAPIS_TABLET.md,8214e900796d1446c96fb8004c428500d34377ef,17105
+Tablets/MATRIX-5x5-PHASES.md,7d427cad7818b2e2d4c4374b07211e100805eeeb,3300
+Tablets/MATRIX-5x5.md,6e125cad565052095e2dae6d4bd1678645f479ad,4408
+Tablets/MATRIX-COMBINED.md,c343391d137b7d8481b26bde5082c3621bf56d9d,4504
+Tablets/OBSIDIAN_TABLET.md,e8afce0ffa433bb56b9197e86d816341217fbca7,15089
+Tablets/ROSE_TABLET.md,807278940e20982fd149feada81d03f75e056e44,15896
+Tablets/RUBY_TABLET.md,bbe498a68af910364b86b59e6a405197dadf89aa,17014
+Tablets/SAPPHIRE_TABLET.md,d1227f11a8f1f0aae5d7cef7da35b9708e7ab8f9,19502
+Tablets/SHADOW_TABLET.md,a18fe8a04279c7484fd26f44db19ce7483ed25c6,15564
+Tablets/SILVER_TABLET.md,35788c82fb8f65de69ec7392f25d7eccf40833a7,15712
+Tablets/SOLAR_TABLET.md,c86a58a47475b91e392e22e93883421a13c11d02,17712
+Tablets/TERRA_TABLET.md,2040719a3d8488afa78b0b76f0f8e80a2a3e6a7c,18594
+Tablets/TRANSPARENT_TABLET.md,f35d309cf9d02ad21ee854a85888f295dbdb9eee,6774
+Tablets/VIRIDITAS_TABLET.md,1eb22b8825f3b045efbddde23c6e668d445ad94d,13247
+Tablets/VOID_TABLET.md,db94d98b9bfa0716d8facb5bfc47ac8b8fe84b5a,12611

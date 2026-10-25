@@ -1,0 +1,149 @@
+{
+ "cycle": "Baseline",
+ "repo_root": "../../../../..",
+ "gaia_doc_src": "/workspace/na/src",
+ "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+ "ledger": "../ledger/ledger_c0.csv",
+ "listing": "../ledger/listing.csv",
+ "judgments": {
+  "schemes": "../judgments/schemes_c0.csv",
+  "crosswalk": "../judgments/crosswalk_c0.csv",
+  "conflicts": "../judgments/conflicts_c0.csv",
+  "options": "../judgments/options_c0.csv"
+ },
+ "vocab_patterns": [
+  [
+   "canonical_home_gaiadoc",
+   "\\*\\*Canonical home:\\*\\*.*GAIA-Documentation"
+  ],
+  [
+   "hyper_level",
+   "\\bHyper(physical)?\\b"
+  ],
+  [
+   "quantum_level_term",
+   "\\bQuantum (level|tier|Power)\\b"
+  ],
+  [
+   "ultra_term",
+   "\\bUltra\\b"
+  ],
+  [
+   "spirit_term",
+   "\\bSpirit\\b"
+  ],
+  [
+   "metaphysical_term",
+   "\\b[Mm]etaphysical\\b"
+  ],
+  [
+   "foundation_phase_names",
+   "\\b(Insurgence|Allegiance|Ascendence)\\b"
+  ],
+  [
+   "transcendence_term",
+   "\\bTranscendence\\b"
+  ],
+  [
+   "five_level_term",
+   "Five-Level"
+  ],
+  [
+   "four_dimension_term",
+   "Four-Dimension"
+  ]
+ ],
+ "boundary_window": 80,
+ "iterations": {
+  "1": {
+   "rule": "as_judged",
+   "min_options": 2
+  }
+ },
+ "checks": [
+  {
+   "id": "C0-1",
+   "hypothesis": "Every ledger and listing file in the mirror matches its recorded git blob SHA",
+   "metric": "ledger_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-2",
+   "hypothesis": "Every ledger path is in the repository listing",
+   "metric": "ledger_not_in_listing",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-3",
+   "hypothesis": "Each judged scheme equals the term list the tool extracts from its source",
+   "metric": "scheme_extraction_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-4",
+   "hypothesis": "Every term of every scheme is in at least one crosswalk row",
+   "metric": "crosswalk_unmapped_terms",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-5",
+   "hypothesis": "Every judgment row is well-formed and labelled",
+   "metric": "problems",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-6",
+   "hypothesis": "Each conflict has at least two options including a defer option, and no option records a decision",
+   "metric": "options_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-7",
+   "hypothesis": "The Work Queue records six conflicts for N-A/N-B",
+   "metric": "wq_conflict_bullets",
+   "op": "eq",
+   "threshold": 6
+  },
+  {
+   "id": "C0-8",
+   "hypothesis": "The Work Queue's 'Phase 1-7' is right: the highest self-labelled phase in the 32 reports is 7",
+   "metric": "phase_max",
+   "op": "eq",
+   "threshold": 7
+  },
+  {
+   "id": "C0-9",
+   "hypothesis": "The reports' next-phase statements agree with the reports' own phase labels",
+   "metric": "phase_next_mislabels",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-10",
+   "hypothesis": "The Work Queue's '8 flagged sealing discrepancies' is reproduced from Tablets/INDEX.md",
+   "metric": "index_flagged_discrepancies",
+   "op": "eq",
+   "threshold": 8
+  },
+  {
+   "id": "C0-11",
+   "hypothesis": "The Foundation's two level ladders (README §2 and WQ §C) name the same levels",
+   "metric": "foundation_ladder_symdiff",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "C0-12",
+   "hypothesis": "No 80-character overlap with the Totality Suite or with any GAIA-Documentation file",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "threshold": 0
+  }
+ ]
+}
