@@ -3,7 +3,7 @@
 Status: **Proposed research output, not adopted.** Work Queue item PC-4 and gap b7. Owner approval to start: Kyle, 2026-10-25. Author: Grok Bot, with the Kyle Steen trailer.
 Domains: the owner-provided **GAIA Totality Suite v0.1.0** (Proposed, not adopted). It is **not filed in this repository**; it was read externally and checked by SHA-256 (register `057efb54…2c8e72`). Mapping labels (`PLAN.md` §4): **Established** means the Work Queue text names the domain, directly or through a b7 cluster line or PC-4's examples. **Plausible** is agent judgment with a stated basis. **Hypothetical** is a weak fit or an undefined subject.
 
-Method and history: Baseline → x3 → x6 → x9 → x12 (`Cycle-*/`). Each cycle has a spec pushed before its run, pre-registered checks, EXECUTION_RECORDs reproducible from a fresh clone, and a manifest. Generated tables: §6, from `Cycle-x12/iter-2`.
+Method and history: Baseline → x3 → x6 → x9 → x12 (`Cycle-*/`). Each cycle has a spec pushed before its run, pre-registered checks, EXECUTION_RECORDs reproducible from a fresh clone, and a manifest. Generated tables: §7, from `Cycle-x12/iter-2`.
 
 ## 1. What was mapped
 193 Work Queue checkboxes were inventoried. 91 are reports: §A–§K, ToG 1–10 and the ToG Synthesis, PC-1 to PC-9, and §N 1–8 with N-A and N-B. Also mapped: 15 candidate reports, 5 governance stages, 7 level boxes and 53 non-report items. Report labels: 29 Established, 59 Plausible, 3 Hypothetical.
@@ -38,7 +38,7 @@ Method and history: Baseline → x3 → x6 → x9 → x12 (`Cycle-*/`). Each cyc
 2. Define the scope of KL-01 and the meaning of "Supremacy" (G-10).
 3. TOT-032: assign a report, or accept that its Wave 3 domain report starts from the dependency-pinning item alone.
 4. Whether to approve the candidates that would fill primary gaps (KR-03, s2, s4, s5, s6 or s7).
-5. Tensions where the queue's grouping and the judged home differ (§6, "Tensions"). Examples: H-01 at TOT-021 rather than the AI cluster; ToG-06 and ToG-08 at TOT-036 and TOT-011 rather than vulnerability disclosure; ToG-SYN at TOT-045 and PC-7 at TOT-008 rather than TOT-039; the §K series at TOT-023 rather than TOT-038.
+5. Tensions where the queue's grouping and the judged home differ (§7, "Tensions"). Examples: H-01 at TOT-021 rather than the AI cluster; ToG-06 and ToG-08 at TOT-036 and TOT-011 rather than vulnerability disclosure; ToG-SYN at TOT-045 and PC-7 at TOT-008 rather than TOT-039; the §K series at TOT-023 rather than TOT-038.
 6. Tidy-up: A-05 restates B-01 to B-07 (all finished) in the queue.
 7. Supply the owner files for gap b6 and define §C (b2): the D-01 and ToG-10 homes depend on them.
 8. For the c4 "24 ↔ 45" map in PC-2: the ToG §6 domains do not reach TOT-021, 027 and 037.
