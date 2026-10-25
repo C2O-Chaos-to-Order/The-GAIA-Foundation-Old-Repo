@@ -1,0 +1,22 @@
+{
+  "cycle": "Baseline",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "judgment_map": "../judgments/map_c0.csv",
+  "clusters": "../judgments/clusters_c0.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "map_kinds": ["report", "candidate", "governance", "level"],
+  "report_kinds": ["report"],
+  "candidate_kinds": ["candidate"],
+  "iterations": {
+    "1": {"variant": "charter", "stem": true, "k": 3}
+  },
+  "checks": [
+    {"id": "C0-1", "hypothesis": "The inventory captures every Work Queue checkbox outside the change log", "metric": "inventory_gap", "op": "eq", "threshold": 0},
+    {"id": "C0-2", "hypothesis": "Every in-scope item is mapped and every row passes integrity checks (valid IDs, labels, Established only where the text names the domain, NONE has a reason)", "metric": "problems", "op": "eq", "threshold": 0},
+    {"id": "C0-3", "hypothesis": "The independent lexical matcher puts the judged primary domain in its top 3 for at least 40% of reports", "metric": "topk_primary_rate", "op": "ge", "threshold": 0.40},
+    {"id": "C0-4", "hypothesis": "The matcher's top 3 contains at least one judged domain (primary or secondary) for at least 55% of reports", "metric": "topk_any_rate", "op": "ge", "threshold": 0.55},
+    {"id": "C0-5", "hypothesis": "Coverage is concentrated: at least 10 of the 45 domains have no report as primary home", "metric": "domains_no_report_primary", "op": "ge", "threshold": 10},
+    {"id": "C0-6", "hypothesis": "At most 3 reports have no domain", "metric": "reports_no_domain", "op": "le", "threshold": 3},
+    {"id": "C0-7", "hypothesis": "All 9 b7 single-home proposals pass the structural checks (home is a member, home domain among the home item's judged domains, every domain the cluster names is listed)", "metric": "clusters_ok", "op": "eq", "threshold": 9}
+  ]
+}

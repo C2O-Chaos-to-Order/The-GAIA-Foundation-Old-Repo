@@ -1,0 +1,25 @@
+tog_id,tog_domain,primary,secondary,label,basis
+ToG6-01,Constitutional and strategic governance,GAIA-TOT-001,,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 1 matched to the register title and scope
+ToG6-02,Moral and ethical governance,GAIA-TOT-003,GAIA-TOT-010 GAIA-TOT-042,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 2 matched to the register title and scope
+ToG6-03,Epistemic governance,GAIA-TOT-005,GAIA-TOT-014,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 3 matched to the register title and scope
+ToG6-04,Scientific and methodological governance,GAIA-TOT-006,GAIA-TOT-007 GAIA-TOT-041,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 4 matched to the register title and scope
+ToG6-05,Legal and regulatory governance,GAIA-TOT-019,GAIA-TOT-020,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 5 matched to the register title and scope
+ToG6-06,Authority and decision-rights governance,GAIA-TOT-002,,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 6 matched to the register title and scope
+ToG6-07,Risk and assurance governance,GAIA-TOT-008,GAIA-TOT-034,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 7 matched to the register title and scope
+ToG6-08,Human-rights and social-impact governance,GAIA-TOT-004,GAIA-TOT-022,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 8 matched to the register title and scope
+ToG6-09,"Consent, privacy, and data governance",GAIA-TOT-012,GAIA-TOT-004,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 9 matched to the register title and scope
+ToG6-10,Security and resilience governance,GAIA-TOT-009,GAIA-TOT-013 GAIA-TOT-040 GAIA-TOT-018 GAIA-TOT-043,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 10 matched to the register title and scope
+ToG6-11,AI and model governance,GAIA-TOT-016,GAIA-TOT-028,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 11 matched to the register title and scope
+ToG6-12,Technical and architecture governance,GAIA-TOT-015,GAIA-TOT-033,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 12 matched to the register title and scope
+ToG6-13,Knowledge and information governance,GAIA-TOT-014,GAIA-TOT-033 GAIA-TOT-044,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 13 matched to the register title and scope
+ToG6-14,Cultural and Indigenous knowledge governance,GAIA-TOT-024,GAIA-TOT-023,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 14 matched to the register title and scope
+ToG6-15,Environmental and living-systems governance,GAIA-TOT-025,GAIA-TOT-026,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 15 matched to the register title and scope
+ToG6-16,Operational governance,GAIA-TOT-017,,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 16 matched to the register title and scope
+ToG6-17,Financial and resource stewardship,GAIA-TOT-031,GAIA-TOT-032 GAIA-TOT-035,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 17 matched to the register title and scope
+ToG6-18,Communication and publication governance,GAIA-TOT-029,,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 18 matched to the register title and scope
+ToG6-19,People and organizational governance,GAIA-TOT-035,GAIA-TOT-030,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 19 matched to the register title and scope
+ToG6-20,"Incident, correction, and remediation governance",GAIA-TOT-018,GAIA-TOT-010,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 20 matched to the register title and scope
+ToG6-21,"Dispute, grievance, and appeal governance",GAIA-TOT-011,,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 21 matched to the register title and scope
+ToG6-22,Lifecycle and continuity governance,GAIA-TOT-036,GAIA-TOT-044,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 22 matched to the register title and scope
+ToG6-23,External and supply-chain governance,GAIA-TOT-032,GAIA-TOT-020,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 23 matched to the register title and scope
+ToG6-24,Governance-of-governance,GAIA-TOT-045,GAIA-TOT-039,Plausible,GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md §6 item 24 matched to the register title and scope

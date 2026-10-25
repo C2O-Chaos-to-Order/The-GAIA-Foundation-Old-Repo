@@ -1,0 +1,16 @@
+# PC-4 x12: passes
+
+| Pass | What was done | Result | Added |
+|---|---|---|---|
+| 1 Fold x9 proposals | NEW-3 God and Lucifer (home KL-07) added; G-07 joins b7.1. | 12 cluster proposals. Unclustered similar pairs fall from 25 to 9; all 9 were judged not to be duplicates in x9. | Yes (bookkeeping) |
+| 2 Source check, governance | Read ToG draft §12 and §13 and the Universal Regulation header. | **ToG-06 moves from TOT-017 to TOT-036.** §12 is full lifecycle governance (gates G0 intake to G12 retirement), matching ToG §6 item 22, which pass 4 of x6 mapped to TOT-036. A-04 stays at TOT-002; the register lists GAIA-GOV-UR-001 among TOT-002's dependencies. | Yes: 1 primary |
+| 3 Gap check comparison | The map compared with gap check §1. | Two corrections. (a) **K-02 and K-03 revert from TOT-030 to TOT-023.** The gap check reads the series as "research, not competency governance", and that reading is better than x3's. (b) **TOT-032 does have non-report work.** The open audit items (L-13, and Audit v3 in b17) include UR-L4-05, unpinned dependencies (`AUDIT_UNIVERSAL_REGULATION_v2.md` l.81). This corrects x6's "no work of any kind": TOT-032 has no *report*, but it has one piece of dependency work. | Yes: 2 primaries and 1 correction |
+| 4 The no-primary domains | Each of the domains with no primary report re-examined for a report that should be re-homed to it. | None beyond pass 2's ToG-06 (which fills TOT-036 and empties TOT-017). Still 24. | Nothing new |
+| 5 Cross-cutting domains | Domains that apply to every report whatever its home. | 6: TOT-005 (claim labels), 007 (verification), 014 (records and provenance), 029 (public claims in reports and READMEs), 039 (portfolio and cycles) and 044 (archives and agent logs). Four of them (005, 007, 029, 044) are in the no-primary list. They are covered by practice in every report, not missing, so **20 no-primary domains are substantive**. | Yes (interpretation) |
+| 6 One home per report | Replication: every report has exactly one primary or NONE with a reason. | Holds (integrity check, X12-2). | Nothing new |
+| 7 Reverse map | Per domain, the reports its domain report must read first. | In `iter-*/data/coverage_domains.csv` and `../MAP.md`. | Restatement |
+| 8 Owner decision list | Every open decision PC-4 raises. | In `../MAP.md` §5. | Restatement |
+| 9 Stability across variants | 12 matcher iterations. | Top-3 primary agreement: charter 0.556, title and purpose 0.444, titles 0.467; without stemming 0.544, 0.433 and 0.467. Every k = 3 iteration beats chance (p = 0.002). | Confirms |
+| 10 Drift since x9 | Primaries changed. | 3 (ToG-06, K-02, K-03), exactly the pre-registered ceiling. | Report |
+| 11 Adoption boundary | Mechanical 120-character overlap scan against every suite file. | **FAIL (1 file): `Cycle-x3/PASSES.md`** quotes TOT-038's scope sentence verbatim (about 140 characters, cited as a quotation). No suite file is filed. The quotation is a citation inside an earlier cycle's record and is left unedited. The check is reported as failed, as pre-registered. Every other file is clean. | Yes (a finding) |
+| 12 Consolidation | `../MAP.md` written from x12 outputs; track README updated. | Done. | Deliverable |

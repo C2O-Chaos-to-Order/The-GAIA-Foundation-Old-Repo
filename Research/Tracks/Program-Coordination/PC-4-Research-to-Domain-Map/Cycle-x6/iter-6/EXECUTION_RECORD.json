@@ -1,0 +1,429 @@
+{
+  "track": "PC-4 Research-to-Domain Map",
+  "cycle": "x6",
+  "iteration": 6,
+  "variant": {
+    "variant": "charter",
+    "stem": false,
+    "k": 5
+  },
+  "inputs": {
+    "work_queue": "../../../../WORK_QUEUE.md",
+    "work_queue_sha256": "0a7d4dd5a01c002d19c261d5b9ecc008b0858696c45387070c03287341666d88",
+    "judgment_map": "../judgments/map_x6.csv",
+    "judgment_map_sha256": "8cf179966d8f30be6492422018af16dbd82cda7fb414b06c678c31bd055cc4ce",
+    "suite": "GAIA Totality Suite v0.1.0 (owner-provided, Proposed, not adopted; external, not filed)",
+    "register_sha256": "057efb5489305f99280f9b350771058686e35fef753682449f2901b152fe8c72"
+  },
+  "metrics": {
+    "n_items": 193,
+    "n_boxes": 193,
+    "n_reports": 91,
+    "n_mapped": 118,
+    "n_matcher_items": 90,
+    "k": 5,
+    "variant": "charter",
+    "stem": false,
+    "top1_rate": 0.4222,
+    "topk_primary_rate": 0.6333,
+    "topk_any_rate": 0.7778,
+    "zero_score_items": 9,
+    "topk_by_label": {
+      "Established": [
+        27,
+        29,
+        0.931
+      ],
+      "Hypothetical": [
+        0,
+        2,
+        0.0
+      ],
+      "Plausible": [
+        30,
+        59,
+        0.5085
+      ]
+    },
+    "report_label_counts": {
+      "Established": 29,
+      "Hypothetical": 3,
+      "Plausible": 59
+    },
+    "domains_no_report_primary": [
+      "GAIA-TOT-004",
+      "GAIA-TOT-005",
+      "GAIA-TOT-006",
+      "GAIA-TOT-007",
+      "GAIA-TOT-009",
+      "GAIA-TOT-010",
+      "GAIA-TOT-012",
+      "GAIA-TOT-013",
+      "GAIA-TOT-015",
+      "GAIA-TOT-018",
+      "GAIA-TOT-019",
+      "GAIA-TOT-020",
+      "GAIA-TOT-022",
+      "GAIA-TOT-026",
+      "GAIA-TOT-027",
+      "GAIA-TOT-028",
+      "GAIA-TOT-029",
+      "GAIA-TOT-031",
+      "GAIA-TOT-032",
+      "GAIA-TOT-034",
+      "GAIA-TOT-035",
+      "GAIA-TOT-036",
+      "GAIA-TOT-037",
+      "GAIA-TOT-041",
+      "GAIA-TOT-044"
+    ],
+    "domains_no_report_any": [
+      "GAIA-TOT-032"
+    ],
+    "domains_no_report_with_candidates": [],
+    "reports_no_domain": [
+      "KL-01"
+    ],
+    "inventory_gap": 0,
+    "clusters_ok": 11,
+    "clusters": [
+      {
+        "cluster_id": "M-b7.1",
+        "home_item": "D-01",
+        "home_domain": "GAIA-TOT-003",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.2",
+        "home_item": "D-01",
+        "home_domain": "GAIA-TOT-010",
+        "n_members": 2,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.3",
+        "home_item": "D-04",
+        "home_domain": "GAIA-TOT-040",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.4",
+        "home_item": "ToG-07",
+        "home_domain": "GAIA-TOT-016",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.5",
+        "home_item": "PC-2",
+        "home_domain": "GAIA-TOT-045",
+        "n_members": 6,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.6",
+        "home_item": "PC-6",
+        "home_domain": "GAIA-TOT-002",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.7",
+        "home_item": "PC-5",
+        "home_domain": "GAIA-TOT-039",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.8",
+        "home_item": "G-01",
+        "home_domain": "GAIA-TOT-038",
+        "n_members": 20,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.9",
+        "home_item": "ToG-10",
+        "home_domain": "GAIA-TOT-030",
+        "n_members": 15,
+        "ok": 1
+      },
+      {
+        "cluster_id": "NEW-1",
+        "home_item": "N-1",
+        "home_domain": "GAIA-TOT-016",
+        "n_members": 6,
+        "ok": 1
+      },
+      {
+        "cluster_id": "NEW-2",
+        "home_item": "N-4",
+        "home_domain": "GAIA-TOT-025",
+        "n_members": 6,
+        "ok": 1
+      }
+    ],
+    "problems": [],
+    "domains_no_work_any": [
+      "GAIA-TOT-032"
+    ],
+    "nonreport_only_domains": [],
+    "dependency_gaps": [
+      "GAIA-TOT-040 -> GAIA-TOT-032",
+      "GAIA-TOT-043 -> GAIA-TOT-032"
+    ],
+    "tog24_unreached": [
+      "GAIA-TOT-021",
+      "GAIA-TOT-027",
+      "GAIA-TOT-037",
+      "GAIA-TOT-038"
+    ],
+    "sensitivity_no_report_counts": {
+      "primary_only": 25,
+      "primary_or_secondary": 1,
+      "with_candidates": 0,
+      "excluding_hypothetical": 2,
+      "excluding_hypothetical_primary_only": 25,
+      "open_reports_only": 1,
+      "open_reports_primary_only": 25,
+      "established_only_primary": 34,
+      "with_nonreport_work": 1
+    },
+    "sensitivity_no_report": {
+      "primary_only": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-006",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-015",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-036",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044"
+      ],
+      "primary_or_secondary": [
+        "GAIA-TOT-032"
+      ],
+      "with_candidates": [],
+      "excluding_hypothetical": [
+        "GAIA-TOT-032",
+        "GAIA-TOT-037"
+      ],
+      "excluding_hypothetical_primary_only": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-006",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-015",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-036",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044"
+      ],
+      "open_reports_only": [
+        "GAIA-TOT-032"
+      ],
+      "open_reports_primary_only": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-006",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-015",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-036",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044"
+      ],
+      "established_only_primary": [
+        "GAIA-TOT-001",
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-006",
+        "GAIA-TOT-007",
+        "GAIA-TOT-008",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-011",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-014",
+        "GAIA-TOT-015",
+        "GAIA-TOT-017",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-021",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-030",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-033",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-036",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044",
+        "GAIA-TOT-045"
+      ],
+      "with_nonreport_work": [
+        "GAIA-TOT-032"
+      ]
+    },
+    "queue_named_missing": [],
+    "queue_named_not_primary": [
+      "H-01: primary GAIA-TOT-021 not among queue-named GAIA-TOT-016,GAIA-TOT-028",
+      "K-01: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "K-02: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "K-03: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "K-04: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "PC-7: primary GAIA-TOT-008 not among queue-named GAIA-TOT-039",
+      "ToG-06: primary GAIA-TOT-017 not among queue-named GAIA-TOT-040",
+      "ToG-08: primary GAIA-TOT-011 not among queue-named GAIA-TOT-040",
+      "ToG-10: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "ToG-SYN: primary GAIA-TOT-045 not among queue-named GAIA-TOT-039"
+    ]
+  },
+  "checks": [
+    {
+      "id": "X6-1",
+      "hypothesis": "Inventory still complete",
+      "metric": "inventory_gap",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-2",
+      "hypothesis": "Every row (reports, candidates, governance, levels and non-report items) passes integrity",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-3",
+      "hypothesis": "With the pre-registered example rule (PC-4, b8, b9 name domains as examples for other items), no queue-named domain is missing",
+      "metric": "queue_named_missing",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-4",
+      "hypothesis": "All 9 b7 proposals and the 2 new candidate clusters pass the structural checks",
+      "metric": "clusters_ok",
+      "op": "eq",
+      "threshold": 11,
+      "value": 11,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-5",
+      "hypothesis": "Counting non-report work (updates, settings, gaps, recommendations, afterwards), at most 1 domain has no work of any kind",
+      "metric": "domains_no_work_any",
+      "op": "le",
+      "threshold": 1,
+      "value": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-6",
+      "hypothesis": "At least one dependency gap exists: a domain that homes a report depends on a domain with no report at all",
+      "metric": "dependency_gaps",
+      "op": "ge",
+      "threshold": 1,
+      "value": 2,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-7",
+      "hypothesis": "At least 3 TOT domains are reached by no ToG section 6 governance domain (as primary or secondary)",
+      "metric": "tog24_unreached",
+      "op": "ge",
+      "threshold": 3,
+      "value": 4,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-8",
+      "hypothesis": "Reports with no domain stay at or below 1",
+      "metric": "reports_no_domain",
+      "op": "le",
+      "threshold": 1,
+      "value": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "X6-9c",
+      "hypothesis": "Top-5 agreement >= 0.60 (k = 5)",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.6,
+      "value": 0.6333,
+      "result": "PASS"
+    }
+  ],
+  "outputs": {
+    "data/coverage_domains.csv": "3575f1eb61530883b9d5030b8269e4f79906e706317b5b0caa16dcd25c0796b1",
+    "data/item_domain_map.csv": "db57bacaabd3c1f934ce7afcd4bc70b6330cdc97bcd3fb627ef055eea5f2db73",
+    "data/matcher.csv": "218a20a352f9b3ec10ac262c8c76a227c7f05225084945f9e85ebaee20beb403"
+  }
+}

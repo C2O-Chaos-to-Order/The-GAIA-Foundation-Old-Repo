@@ -1,0 +1,348 @@
+# PC-4 Research-to-Domain Map: consolidated result (after x12)
+
+Status: **Proposed research output, not adopted.** Work Queue item PC-4 and gap b7. Owner approval to start: Kyle, 2026-10-25. Author: Grok Bot, with the Kyle Steen trailer.
+Domains: the owner-provided **GAIA Totality Suite v0.1.0** (Proposed, not adopted). It is **not filed in this repository**; it was read externally and checked by SHA-256 (register `057efb54…2c8e72`). Mapping labels (`PLAN.md` §4): **Established** means the Work Queue text names the domain, directly or through a b7 cluster line or PC-4's examples. **Plausible** is agent judgment with a stated basis. **Hypothetical** is a weak fit or an undefined subject.
+
+Method and history: Baseline → x3 → x6 → x9 → x12 (`Cycle-*/`). Each cycle has a spec pushed before its run, pre-registered checks, EXECUTION_RECORDs reproducible from a fresh clone, and a manifest. Generated tables: §7, from `Cycle-x12/iter-2`.
+
+## 1. What was mapped
+193 Work Queue checkboxes were inventoried. 91 are reports: §A–§K, ToG 1–10 and the ToG Synthesis, PC-1 to PC-9, and §N 1–8 with N-A and N-B. Also mapped: 15 candidate reports, 5 governance stages, 7 level boxes and 53 non-report items. Report labels: 29 Established, 59 Plausible, 3 Hypothetical.
+
+## 2. Domains with no report
+- **No report at all (primary or secondary): 1**: 032 Totality of Procurement, Supply Chain, and Third-Party Dependencies. Its only queue work is the dependency-pinning audit item UR-L4-05 (in L-13 and Audit v3). Three domains with reports depend on it in the register: 036 -> 032, 040 -> 032, 043 -> 032. No candidate report homes it [Plausible].
+- **No report as primary home: 24.** Four of these are cross-cutting and practised in every report (005 claim labels, 007 verification, 029 public claims, 044 archives and logs). That leaves **20 substantive gaps**: 004, 009, 010, 012, 013, 015, 017, 018, 019, 020, 022, 026, 027, 028, 031, 032, 034, 035, 037, 041. By priority, the P0 domains without a primary report are 004, 005, 007, 009, 010, 012, 013 [Plausible].
+- TOT-037 (Physical Infrastructure and Technological-Grid Concepts) is reached only by a Hypothetical fit (H-03). PC-4's own example ("the grid to TOT-037") has no report behind it.
+- Approving candidates KR-03, s2, s4, s5 and s6 or s7 would give primary reports to TOT-009, 026, 019, 031 and 037.
+
+## 3. Reports with no domain
+- **1: KL-01** (The Echo That Began the Light). The owner has not yet defined its scope [Hypothetical]. G-10 (The Supremacy and the Quantum Entanglement) is homed at TOT-038 for its quantum half, but "Supremacy" is still undefined.
+
+## 4. Single-home proposals (proposals, not decisions)
+| Cluster | Proposed single home | Domain | Notes |
+|---|---|---|---|
+| b7.1 Good and Greater Good | D-01 Good and Greater Good Framework | 003 | needs the owner's source files (gap b6); G-07 joined in x12 |
+| b7.2 Transforming harm | D-01 (its companion GAIA-GG-TPF-001) | 010 | starting point for TOT-010, which has no material (b8) |
+| b7.3 Vulnerability disclosure | D-04 CVD reports | 040 | ToG 6 and 8 cite it |
+| b7.4 AI, TI and synthetic media | ToG-07 | 016 (028 for media) | H-02 stays a subject report; N-2 joined |
+| b7.5 Control matrix and crosswalk | PC-2 | 045 | ToG-03, ToG-09, Stage 2 and PC-1 feed one table; N-6 is its research basis |
+| b7.6 Roles, reviewers and authority | PC-6 | 002 | ToG-02 is its ToG part |
+| b7.7 Gap register and dashboard | PC-5 | 039 | PC-7 and Stage 0 become tables in it |
+| b7.8 Quantum | G-01 | 038 | read N-3 (Quantum Baseline) first |
+| b7.9 Seven levels and the ladder | ToG-10 | 030 | needs the §C definition (b2) and N-A |
+| NEW-1 Sentience and consciousness | N-1 | 016 | G-11, E-01, A-03, N-2 and s2 cite it |
+| NEW-2 The Earth as mind, soul or spirit | N-4 | 025 | the §E reports keep their interpretive readings |
+| NEW-3 God and Lucifer | KL-07 | 023 | I-01 keeps the consciousness angle |
+
+## 5. Decisions for the owner
+1. Accept, change or reject each of the 12 single-home proposals in §4.
+2. Define the scope of KL-01 and the meaning of "Supremacy" (G-10).
+3. TOT-032: assign a report, or accept that its Wave 3 domain report starts from the dependency-pinning item alone.
+4. Whether to approve the candidates that would fill primary gaps (KR-03, s2, s4, s5, s6 or s7).
+5. Tensions where the queue's grouping and the judged home differ (§7, "Tensions"). Examples: H-01 at TOT-021 rather than the AI cluster; ToG-06 and ToG-08 at TOT-036 and TOT-011 rather than vulnerability disclosure; ToG-SYN at TOT-045 and PC-7 at TOT-008 rather than TOT-039; the §K series at TOT-023 rather than TOT-038.
+6. Tidy-up: A-05 restates B-01 to B-07 (all finished) in the queue.
+7. Supply the owner files for gap b6 and define §C (b2): the D-01 and ToG-10 homes depend on them.
+8. For the c4 "24 ↔ 45" map in PC-2: the ToG §6 domains do not reach TOT-021, 027 and 037.
+9. For the §N items that name several domains, which one is primary (for example N-5: TOT-043 chosen, TOT-025 named first).
+
+## 6. Limits
+- One agent made every judgment. The lexical matcher is a cross-check (far above chance, p = 0.002), not an independent rater, and the judgments have moved toward the charters' wording. Most mappings rest on the Work Queue line; only the finished phase reports and the ToG sections were read at source.
+- The suite is Proposed. If the owner changes the domain set, rerun `tools/pc4.py` (it refuses to run on a different register).
+- The x3 check X3-3 (a check design flaw) and the x12 check X12-7 (a 140-character verbatim quotation of one scope sentence in `Cycle-x3/PASSES.md`) are recorded as FAIL.
+
+## 7. Generated tables (x12)
+
+_Generated by `tools/pc4.py render` from iter-2 (matcher variant `charter`)._
+
+### Pre-registered checks
+
+| ID | Hypothesis | Value | Test | Result |
+|---|---|---|---|---|
+| X12-1 | Inventory still complete | 0 | eq 0 | **PASS** |
+| X12-2 | Every row passes integrity | 0 | eq 0 | **PASS** |
+| X12-3 | No queue-named domain missing (example rule as x6) | 0 | eq 0 | **PASS** |
+| X12-4 | Every cluster proposal passes the structural checks | 0 | eq 0 | **PASS** |
+| X12-5 | The final cluster file holds 12 proposals: the 9 b7 clusters and NEW-1 to NEW-3 | 12 | eq 12 | **PASS** |
+| X12-6 | The map has converged: at most 3 report primaries differ from x9 | 3 | le 3 | **PASS** |
+| X12-7 | Adoption boundary: no file in the PC-4 folder shares a 120-character window with any Totality Suite file | 1 | eq 0 | **FAIL** |
+| X12-8 | The matcher beats chance at k = 3 (p <= 0.01) | 0.002 | le 0.01 | **PASS** |
+| X12-9 | Reports with no domain stay at or below 1 | 1 | le 1 | **PASS** |
+| X12-10 | After folding the x9 scan proposals, at most 10 similar pairs remain unclustered | 9 | le 10 | **PASS** |
+
+Matcher: top-1 0.4222, top-3 primary 0.5556, top-3 any 0.7333 over 90 reports; 8 reports share no word with any domain text.
+
+### Coverage by domain (reports only)
+
+| Domain | Title | Pri. | Primary home of | Also secondary for | With candidates |
+|---|---|---|---|---|---|
+| 001 | Totality of Purpose, Identity, Scope, and Boundaries | P0 | ToG-01 | A-04, K-04 | 3 |
+| 002 | Totality of Governance, Authority, and Decision Rights | P0 | A-04, ToG-02, PC-6 | PC-1, N-4 | 6 |
+| 003 | Morals, Ethics, Values, and Virtues | P0 | D-01, J-01, ToG-05 | A-02, G-07, G-08, H-02, ToG-01 | 9 |
+| 004 | Totality of Rights, Duties, Consent, and Human Agency | P0 | — | ToG-01 | 1 |
+| 005 | Totality of Truth, Evidence, Knowledge, and Epistemic Integrity | P0 | — | A-01, A-03, A-05, B-01, B-02, B-03, B-04, B-05, B-06, B-07, E-01, G-06, ToG-04, K-01, N-1, N-6 | 17 |
+| 006 | Totality of Research, Methodology, and Scientific Integrity | P0 | A-05, B-01, B-02, B-03, B-04, B-05, B-06, B-07 | F-07, N-3 | 11 |
+| 007 | Totality of Verification, Validation, Falsification, and Reproducibility | P0 | — | ToG-04, PC-5, N-3, N-6 | 4 |
+| 008 | Totality of Risk, Impact, and Assurance | P0 | ToG-04, PC-7 | ToG-SYN, PC-9, N-5 | 5 |
+| 009 | Totality of Safety, Security, and Protective Boundaries | P0 | — | D-04, ToG-01, ToG-06, ToG-10, K-03, K-04, N-8 | 9 |
+| 010 | Totality of Transforming Harm, Repair, and Protective Exclusion | P0 | — | D-01, D-02, ToG-05 | 4 |
+| 011 | Totality of Accountability, Audit, Grievance, Appeals, and Redress | P0 | ToG-08 | A-04, D-04, ToG-03, PC-6, PC-9 | 6 |
+| 012 | Totality of Privacy, Data, and Information Governance | P0 | — | ToG-06 | 1 |
+| 013 | Totality of Identity, Access, Permissions, and Authorization | P0 | — | ToG-02, PC-6 | 2 |
+| 014 | Totality of Provenance, Records, and Knowledge Architecture | P0 | PC-8, N-B | ToG-09, PC-1, PC-4, PC-5, N-A | 8 |
+| 015 | Totality of Software, Systems Architecture, and Engineering | P1 | — | H-01 | 2 |
+| 016 | Totality of AI, Intelligence, Models, and Autonomy | P1 | H-02, ToG-07, N-1, N-2 | D-01, G-11, H-01, N-4 | 8 |
+| 017 | Totality of Operations, Deployment, Change, and Release | P1 | — | ToG-06 | 1 |
+| 018 | Totality of Incident Response, Continuity, and Recovery | P1 | — | ToG-06, ToG-08 | 2 |
+| 019 | Totality of Legal, Regulatory, Contractual, and Jurisdictional Compliance | P1 | — | ToG-09 | 2 |
+| 020 | Totality of Intellectual Property, Licensing, and Third-Party Rights | P1 | — | K-05 | 2 |
+| 021 | Totality of Human Factors, Well-Being, and Human–Technology Interaction | P1 | H-01 | A-01, N-1, N-2, N-8 | 6 |
+| 022 | Totality of Equity, Accessibility, Inclusion, and Fairness | P1 | — | N-5 | 2 |
+| 023 | Totality of Cultural, Philosophical, Spiritual, and Theological Knowledge | P1 | A-01, A-02, A-03, D-02, E-01, E-04, E-05, F-01, F-02, F-03, F-04, F-05, F-07, I-01, I-02, K-01, K-02, K-03, K-04, KL-02, KL-03, KL-04, KL-05, KL-06, KL-07, KL-08, N-8 | A-05, B-01, B-02, B-03, B-04, B-05, B-06, B-07, D-03, E-02, E-03, F-06, G-01, G-02, G-03, G-04, G-05, G-06, G-07, G-08, G-09, G-11, I-03, I-04, ToG-10, K-05, K-06, N-2, N-4, N-7, N-A | 63 |
+| 024 | Totality of Indigenous Knowledge, Data Sovereignty, and Cultural Stewardship | P1 | K-05 | — | 2 |
+| 025 | Totality of Environmental, Ecological, and Planetary Stewardship | P1 | H-03, N-4 | E-02, E-03, E-04, F-02, F-04, G-04, N-5 | 12 |
+| 026 | Totality of Animal Welfare and Nonhuman Life | P2 | — | G-11, N-1 | 4 |
+| 027 | Totality of Health, Biomedical, and Clinical Safety | P2 | — | N-1, N-5 | 3 |
+| 028 | Totality of Synthetic Media, Image, Video, and Content Generation | P1 | — | D-01, H-02, ToG-07 | 4 |
+| 029 | Totality of Communication, Transparency, and Public Claims | P1 | — | G-06, ToG-08 | 2 |
+| 030 | Totality of Education, Training, Competency, and Responsibility | P2 | ToG-10 | PC-6, K-01, K-04, K-06 | 9 |
+| 031 | Totality of Economics, Finance, and Resource Stewardship | P2 | — | N-5 | 3 |
+| 032 | Totality of Procurement, Supply Chain, and Third-Party Dependencies | P2 | — | — | 1 |
+| 033 | Totality of Interoperability, Standards, and Semantics | P2 | N-A | ToG-03, ToG-09, PC-2, PC-8, N-B | 7 |
+| 034 | Totality of Evaluation, Metrics, Outcomes, and Impact | P1 | — | J-01, PC-5, PC-9 | 3 |
+| 035 | Totality of Organization, Collaboration, Conflicts of Interest, and Succession | P2 | — | ToG-02, PC-6 | 3 |
+| 036 | Totality of Lifecycle, Maintenance, Deprecation, and Decommissioning | P2 | ToG-06 | — | 1 |
+| 037 | Totality of Physical Infrastructure and Technological-Grid Concepts | P3 | — | H-03 | 3 |
+| 038 | Totality of Mathematics, Physics, Cosmology, and Quantum-Claim Boundaries | P2 | D-03, E-02, E-03, F-06, G-01, G-02, G-03, G-04, G-05, G-06, G-07, G-08, G-09, G-10, G-11, I-03, I-04, K-06, N-3, N-7 | E-05, F-01, F-02, F-03, F-04, F-05, F-07, H-03, ToG-10, K-01, K-02, K-03, K-04 | 34 |
+| 039 | Totality of Research Portfolio, Work Queue, and Dependency Management | P1 | PC-3, PC-4, PC-5 | A-05, B-01, B-02, B-03, B-04, B-05, B-06, B-07, J-01, ToG-SYN, PC-7 | 14 |
+| 040 | Totality of Security Testing and Coordinated Vulnerability Disclosure | P1 | D-04 | ToG-06, ToG-08 | 3 |
+| 041 | Totality of Human-Participant and Human-Subject Research Ethics | P1 | — | N-1 | 1 |
+| 042 | Totality of Decision-Making, Conflict Resolution, and Trade-Offs | P1 | N-6 | PC-2 | 3 |
+| 043 | Totality of Resilience, Emergency Preparedness, and Disaster Readiness | P2 | N-5 | N-4 | 2 |
+| 044 | Totality of Archives, Preservation, and Long-Term Knowledge Continuity | P2 | — | PC-8, N-B | 3 |
+| 045 | Totality of Governance Review and Governance-of-Governance | P0 | ToG-03, ToG-09, ToG-SYN, PC-1, PC-2, PC-9 | A-04, PC-3, PC-7, PC-8, N-6, N-B | 12 |
+
+### Domains with no report
+
+- As primary home (24): 004, 005, 007, 009, 010, 012, 013, 015, 017, 018, 019, 020, 022, 026, 027, 028, 029, 031, 032, 034, 035, 037, 041, 044
+- As primary or secondary (1): 032
+- Counting candidate reports too (0): none
+
+### Reports with no domain
+
+- KL-01: The Echo That Began the Light — owner-requested 2026-10-24; scope to be confirmed with the — scope to be confirmed with the owner; no domain can be assigned until defined [Hypothetical]
+
+### Counting non-report work too
+
+- Domains with no work of any kind (0): none
+- Dependency gaps (a domain that homes a report depends on a domain with no report): 036 -> 032, 040 -> 032, 043 -> 032
+- TOT domains reached by no ToG §6 governance domain (3): 021, 027, 037
+
+### Sensitivity: number of domains with no report under each counting rule
+
+| Rule | Domains with no report |
+|---|---|
+| primary_only | 24 |
+| primary_or_secondary | 1 |
+| with_candidates | 0 |
+| excluding_hypothetical | 2 |
+| excluding_hypothetical_primary_only | 24 |
+| open_reports_only | 1 |
+| open_reports_primary_only | 25 |
+| established_only_primary | 34 |
+| with_nonreport_work | 0 |
+
+Chance baseline (500 permutations): null mean 0.1312, null max 0.2333, p = 0.002.
+
+### Similar report pairs (cosine ≥ threshold)
+
+| A | B | Cosine | Already clustered |
+|---|---|---|---|
+| KL-04 | KL-06 | 0.964654 | yes |
+| KL-03 | KL-05 | 0.960455 | yes |
+| KL-03 | KL-04 | 0.945421 | yes |
+| KL-05 | KL-06 | 0.945421 | yes |
+| KL-04 | KL-07 | 0.938011 | yes |
+| KL-06 | KL-07 | 0.938011 | yes |
+| KL-03 | KL-06 | 0.908035 | yes |
+| KL-04 | KL-05 | 0.908035 | yes |
+| KL-03 | KL-07 | 0.896266 | yes |
+| KL-05 | KL-07 | 0.896266 | yes |
+| K-01 | K-04 | 0.860984 | yes |
+| K-02 | K-04 | 0.860984 | yes |
+| K-03 | K-04 | 0.860984 | yes |
+| K-01 | K-02 | 0.854376 | yes |
+| K-01 | K-03 | 0.854376 | yes |
+| K-02 | K-03 | 0.854376 | yes |
+| N-B | PC-8 | 0.758037 | no |
+| I-01 | KL-07 | 0.68604 | yes |
+| K-04 | ToG-10 | 0.652677 | yes |
+| K-01 | ToG-10 | 0.647668 | yes |
+| K-02 | ToG-10 | 0.647668 | yes |
+| K-03 | ToG-10 | 0.647668 | yes |
+| A-02 | G-08 | 0.646199 | no |
+| I-01 | KL-03 | 0.645647 | yes |
+| I-01 | KL-05 | 0.645647 | yes |
+| A-05 | B-07 | 0.628893 | no |
+| I-01 | KL-04 | 0.610409 | yes |
+| I-01 | KL-06 | 0.610409 | yes |
+| KL-02 | KL-03 | 0.605874 | no |
+| KL-02 | KL-05 | 0.583902 | no |
+| KL-02 | KL-04 | 0.572806 | no |
+| KL-02 | KL-06 | 0.552033 | no |
+| KL-02 | KL-07 | 0.538552 | no |
+| F-02 | G-04 | 0.536231 | no |
+| H-02 | ToG-07 | 0.526074 | yes |
+| E-02 | E-03 | 0.505446 | yes |
+| G-07 | ToG-05 | 0.502628 | yes |
+
+### Tensions: the queue names a domain that is not the judged primary
+
+- H-01: primary 021 not among queue-named 016,028
+- K-01: primary 023 not among queue-named 038
+- K-02: primary 023 not among queue-named 038
+- K-03: primary 023 not among queue-named 038
+- K-04: primary 023 not among queue-named 038
+- PC-7: primary 008 not among queue-named 039
+- ToG-06: primary 036 not among queue-named 040
+- ToG-08: primary 011 not among queue-named 040
+- ToG-10: primary 030 not among queue-named 038
+- ToG-SYN: primary 045 not among queue-named 039
+
+### b7 single-home proposals (proposals, not decisions)
+
+| Cluster | Members | Proposed home | Home domain | Label | Why | Alternative |
+|---|---|---|---|---|---|---|
+| M-b7.1 Good and Greater Good (§D, ToG 5, TOT-003, §L ethics lenses, | D-01, ToG-05, L-03, GOV-05, G-07 | **D-01** | 003 | Plausible | The framework itself is D-01 (from the owner's Universal Master List v1.0); ToG-05 applies it to governance, TOT-003 is its domain charter, L-03 and Stage 7 (GOV-05) consume it. Research the framework once in D-01; the others cite it. x12: G-07 (Good and Greater Good, Bad and Evil: The Quantum Entanglement) joins from the x9 scan; home unchanged. | ToG-05 as home (governance-first); rejected because ToG-05 depends on the framework's content |
+| M-b7.2 Transforming harm (§D companion, ToG 5, TOT-010) | D-01, ToG-05 | **D-01** | 010 | Plausible | Transforming harm is the D-01 companion (GAIA-GG-TPF-001); research it there and let ToG-05 §11 and the TOT-010 domain report cite it. TOT-010 has no existing material (b8), so D-01 becomes its starting point. | A separate Transforming Harm report under TOT-010 |
+| M-b7.3 Vulnerability disclosure (§D CVD reports, TOT-040, ToG 6/8) | D-04, ToG-06, ToG-08 | **D-04** | 040 | Plausible | D-04 is the only item whose whole subject is coordinated vulnerability disclosure (TOT-040 title); ToG-06 §14 and ToG-08 §17 reference it. | ToG-06 as home; rejected because security is one of three topics there |
+| M-b7.4 AI, Transformative Intelligence and synthetic media (§H, ToG | H-01, H-02, ToG-07, N-2 | **ToG-07** | 016 | Plausible | The overlap is AI governance including images and video; ToG-07 is defined as exactly that (§15) and maps to TOT-016 with TOT-028 for media. H-02 keeps Transformative Intelligence as a research subject without governance; H-01 keeps human-technology interaction (TOT-021). x6: N-2 (The AI Being) joins; it is an AI subject report and does not change the governance home. | H-02 as home (subject-first) |
+| M-b7.5 Control matrix and crosswalk (ToG 3, ToG 9, Stage 2, PC-1, P | ToG-03, ToG-09, GOV-04, PC-1, PC-2, N-6 | **PC-2** | 045 | Plausible | PC-2 crosswalks every domain against existing clauses with the package's fields and a conflict log; ToG-03 (control matrix), ToG-09 (standards crosswalk), Stage 2 (GOV-04) and PC-1 (register reconciliation) become inputs or views of one crosswalk table. x6: N-6 (Higher-Order Contradiction, the research basis for PC-2's conflict log) joins as an input to PC-2. | ToG-03 as home; narrower (ToG clauses only) |
+| M-b7.6 Roles, reviewers and authority (ToG 2, Stage 3, PC-6, TOT-00 | ToG-02, GOV-05, PC-6 | **PC-6** | 002 | Plausible | PC-6 covers decision authority, named reviewers and the no-self-approval test across the program; ToG-02 is its ToG-specific part and Stage 3 (in GOV-05) executes it. | ToG-02 as home |
+| M-b7.7 Gap register and status dashboard (ToG Synthesis, PC-5, PC-7 | ToG-SYN, PC-5, PC-7, GOV-02 | **PC-5** | 039 | Plausible | PC-5 is defined as one generated source of truth; the gap register (PC-7) and the baseline snapshot (Stage 0, GOV-02) become tables in it, and ToG-SYN reads from it. | PC-7 as home for the register with PC-5 as a view |
+| M-b7.8 Quantum (§C, §G, §K, ToG 10, TOT-038) | C-07, G-01, G-02, G-03, G-04, G-05, G-06, G-07, G-08, G-09, G-10, G-11, K-01, K-02, K-03, K-04, K-06, ToG-10, N-3, N-7 | **G-01** | 038 | Plausible | G-01 (Quantum, Baseline to x12) is the series root; the claim boundary is TOT-038; C-07, the entanglement reports, K-06 and ToG-10 cite G-01 for what Quantum means. x3: K-01 to K-04 added as members (each has a Quantum level). x6: N-3 (Quantum Baseline) joins as G-01's Established-physics baseline, to be read first; N-7 joins for the physics ladder. | C-07 (the Quantum level box) as home |
+| M-b7.9 Seven levels and the responsibility ladder (§C, ToG 10, §K,  | C-01, C-02, C-03, C-04, C-05, C-06, C-07, ToG-10, K-01, K-02, K-03, K-04, KR-02, N-A, N-7 | **ToG-10** | 030 | Plausible | ToG-10 is the only report whose subject is the seven levels entangled with the responsibility ladder; conditional on the owner's §C definition (gap b2). Research/README.md §2 (L-02) then summarises it. x6: N-A (level-name crosswalk) and N-7 (Ladder of Physics and the Seven Levels) join; N-A settles the names before ToG-10 uses them. | Owner's §C definition as a standalone document; KR-02 Responsibilities if approved |
+| NEW-1  | N-1, G-11, E-01, A-03, N-2, M-s2 | **N-1** | 016 | Plausible | New overlap created by §N: sentience and consciousness are studied in N-1 (measurement and welfare), G-11 (quantum entanglement), E-01 and the SSSC track (A-03), N-2 (AI) and candidate s2 (animal sentience). N-1 calls itself the Established/Plausible baseline beneath G-11, so it is proposed as the single home of the evidence base; the others cite it. | A-03 (the finished SSSC track) as home; rejected because it is interpretive, not a measurement baseline |
+| NEW-2  | N-4, A-01, E-02, E-03, E-04, L-05 | **N-4** | 025 | Plausible | New overlap created by §N: the Earth as mind, soul or spirit appears in N-4 (planetary intelligence, functional and testable), Report 6 in A-01 and its update L-05, and E-02 to E-04 (interpretive). N-4 is proposed as the single home of the shared Earth-system evidence (what the Earth measurably does); the §E reports keep their interpretive readings and cite it. | No single home: split by claim type (N-4 testable, §E interpretive) |
+| NEW-3  | I-01, KL-03, KL-04, KL-05, KL-06, KL-07 | **KL-07** | 023 | Plausible | From the x9 similarity scan: I-01 (God and Lucifer: The Duality of Consciousness) and KL-07 (The Duality and the Connection of God and Lucifer, and of their Creations) cover the same duality; KL-03 to KL-06 are the owner-requested series feeding KL-07. KL-07 is proposed as the single home of the duality; I-01 keeps only the consciousness angle and cites it. | I-01 as home (it is older, in §I) |
+
+### Item → domain map
+
+| Item | Kind | Primary | Secondary | Label | Basis |
+|---|---|---|---|---|---|
+| A-01 | report | 023 | 005, 021 | Plausible | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; human-being topics touch TOT-021; x9 P5 source check: report keeps science and tradition separate under the four labels; TOT-023 kept |
+| A-02 | report | 023 | 003 | Plausible | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; love as a value touches TOT-003; x9 P5 source check: report keeps science and tradition separate under the four labels; TOT-023 kept |
+| A-03 | report | 023 | 005 | Plausible | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; evidence labels per TOT-005; x9 P5 source check: report keeps science and tradition separate under the four labels; TOT-023 kept |
+| A-04 | report | 002 | 001, 011, 045 | Plausible | Universal Regulation and gate/audit fixes are governance and decision rights; audit TOT-011; rule review TOT-045; x12 P2: the register lists GAIA-GOV-UR-001 among TOT-002 dependencies |
+| A-05 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-01 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-02 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-03 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-04 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-05 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-06 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| B-07 | report | 006 | 023, 039, 005 | Plausible | x9 P5 source check: Research/Tracks/Phases/README.md says each phase covers six fields (natural, formal, social and applied sciences, humanities, philosophy-spirituality) with per-field definitions and verified cycles; TOT-006 scope names "multidisciplinary projects"; the philosophy-spirituality field keeps TOT-023; cycles TOT-039; claim labels TOT-005 |
+| C-01 | level | 023 | 039 | Plausible | level box of the upgrade ladder: interpretive level scheme; portfolio sequencing TOT-039 |
+| C-02 | level | 023 | 039 | Plausible | Metaphysical level: interpretive |
+| C-03 | level | 023 | 039 | Plausible | Superphysical level: interpretive |
+| C-04 | level | 023 | 039 | Plausible | Hyperphysical level: interpretive |
+| C-05 | level | 023 | 039 | Plausible | Ultraphysical level: interpretive |
+| C-06 | level | 023 | 039 | Plausible | Magic level: interpretive |
+| C-07 | level | 038 | 023, 039 | Established | Quantum level: physics or mathematics claims need the TOT-038 claim boundary; P2: named in M-b7.8 |
+| D-01 | report | 003 | 010, 016, 028 | Established | framework of morals, ethics, values and virtues = TOT-003 purpose; companion Transforming Harm = TOT-010; image/video TI = TOT-016/028; P2: named in M-b7.1 |
+| D-02 | report | 023 | 010 | Hypothetical | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; transformation toward order echoes TOT-010 (weak); x6 P6: downgraded, the subject is defined only by its title, so TOT-023 is a catch-all fit |
+| D-03 | report | 038 | 023 | Plausible | numerical pattern hypothesis: mathematics claim boundary TOT-038; Hebrews citation is interpretive TOT-023 |
+| D-04 | report | 040 | 009, 011 | Established | coordinated vulnerability disclosure = TOT-040 title; P2: named in M-b7.3 |
+| E-01 | report | 023 | 005 | Plausible | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims |
+| E-02 | report | 038 | 023, 025 | Plausible | P1 scope: TOT-038 scope names "electromagnetic/geomagnetic concepts"; the Spirit-of-the-Earth reading is interpretive (TOT-023); Earth TOT-025 |
+| E-03 | report | 038 | 023, 025 | Plausible | P1 scope: TOT-038 scope names "electromagnetic/geomagnetic concepts"; the Soul-of-the-Earth reading is interpretive (TOT-023); Earth TOT-025 |
+| E-04 | report | 023 | 025 | Plausible | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; Earth/Terra stewardship context TOT-025 |
+| E-05 | report | 023 | 038 | Plausible | interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; alchemical/physical claims TOT-038 |
+| F-01 | report | 023 | 038 | Plausible | classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; physics or mathematics claims need the TOT-038 claim boundary |
+| F-02 | report | 023 | 038, 025 | Plausible | classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; Earth TOT-025 |
+| F-03 | report | 023 | 038 | Plausible | classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims |
+| F-04 | report | 023 | 038, 025 | Plausible | classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; water systems TOT-025 |
+| F-05 | report | 023 | 038 | Plausible | classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims |
+| F-06 | report | 038 | 023 | Plausible | P1 scope: TOT-038 scope names "cosmology, energy"; dark elements interpretive (TOT-023) |
+| F-07 | report | 023 | 038, 006 | Plausible | alchemy as tradition (TOT-023) and its modern science (TOT-038, method TOT-006) |
+| G-01 | report | 038 | 023 | Established | Quantum series: physics or mathematics claims need the TOT-038 claim boundary; P2: named in M-b7.8 |
+| G-02 | report | 038 | 023 | Established | entanglement types are physics: TOT-038; P2: named in M-b7.8 |
+| G-03 | report | 038 | 023 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-04 | report | 038 | 023, 025 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-05 | report | 038 | 023 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-06 | report | 038 | 005, 029, 023 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-07 | report | 038 | 003, 023 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-08 | report | 038 | 023, 003 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-09 | report | 038 | 023 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| G-10 | report | 038 | — | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; the quantum half of the title is clear; the meaning of "Supremacy" is still unconfirmed by the owner, so a second domain may follow |
+| G-11 | report | 038 | 023, 016, 026 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| H-01 | report | 021 | 016, 015 | Plausible | human-technology interaction = TOT-021 title |
+| H-02 | report | 016 | 028, 003 | Established | transformative intelligence = AI and intelligence (TOT-016); images/video TOT-028; P2: named in M-b7.4 |
+| H-03 | report | 025 | 038, 037 | Hypothetical | planetary models and terraformation: planetary stewardship TOT-025; physics TOT-038; infrastructure TOT-037; x6 P6: downgraded, TOT-025 scope covers project infrastructure impacts (energy, land, water, climate), not speculative planetary engineering; no domain fits well |
+| I-01 | report | 023 | — | Plausible | God and Lucifer: theological |
+| I-02 | report | 023 | — | Plausible | Yin/Yang symbol: philosophical tradition |
+| I-03 | report | 038 | 023 | Plausible | theory of everything is physics (TOT-038) with interpretive duality |
+| I-04 | report | 038 | 023 | Plausible | P1 scope: TOT-038 scope names "cosmology" and "consciousness claims"; interpretive reading TOT-023 |
+| J-01 | report | 003 | 039, 034 | Plausible | x13 cycle through the Good and Greater Good Framework (TOT-003) across all work (portfolio TOT-039; outcome evaluation TOT-034) |
+| GOV-01 | governance | 045 | 002, 001 | Plausible | Totality of Governance draft is governance of governance |
+| GOV-02 | governance | 039 | 014, 045 | Established | baseline snapshot of commits, manifests, PRs and settings: status sync TOT-039; records TOT-014; P2: named in M-b7.7 |
+| GOV-03 | governance | 002 | 045 | Plausible | owner review of title, ID and non-waivable commitments: decision rights |
+| GOV-04 | governance | 045 | 033, 011 | Plausible | clause-level crosswalk of governance texts: governance review; standards crosswalk TOT-033 |
+| GOV-05 | governance | 002 | 011, 003, 045, 017 | Plausible | roles, controls, audit closure, tooling validation, GGG pilot and adoption |
+| ToG-01 | report | 001 | 003, 004, 009 | Plausible | constitutional commitments = purpose and boundaries; dignity, consent, safety |
+| ToG-02 | report | 002 | 013, 035 | Established | hierarchy, authority, separation of duties = TOT-002; P2: named in M-b7.6 |
+| ToG-03 | report | 045 | 011, 033 | Plausible | 24 governance domains and control matrix: governance of governance; control-to-evidence audit TOT-011 |
+| ToG-04 | report | 008 | 005, 007 | Plausible | decision states, claim labels and risk governance: TOT-008 with TOT-005/007 |
+| ToG-05 | report | 003 | 010 | Established | Good and Greater Good governance (TOT-003) and transformation of harm (TOT-010); P2: named in M-b7.1 |
+| ToG-06 | report | 036 | 017, 009, 018, 012, 040 | Plausible | x12 P2 source check: ToG draft §12 is full lifecycle governance, gates G0 (intake) to G12 (suspension, retirement and learning), the largest of §12–§14; ToG §6 item 22 (lifecycle and continuity) maps to TOT-036; change and release TOT-017; security TOT-009; resilience TOT-018; privacy TOT-012; b7.3 names ToG 6 with TOT-040 |
+| ToG-07 | report | 016 | 028 | Established | AI and TI governance = TOT-016; images and video = TOT-028; P2: named in M-b7.4 |
+| ToG-08 | report | 011 | 029, 018, 040 | Plausible | appeal, remedy, audit = TOT-011; transparency TOT-029; incidents TOT-018; x3 run 1 (X3-3): b7.3 names ToG 6/8 with TOT-040 (vulnerability disclosure), which the Baseline omitted |
+| ToG-09 | report | 045 | 033, 014, 019 | Plausible | repository architecture and crosswalk to standards: governance review; standards TOT-033; legal/regulatory TOT-019 |
+| ToG-10 | report | 030 | 023, 038, 009 | Plausible | governance across levels entangled with the responsibility ladder: role/competence/responsibility TOT-030 |
+| ToG-SYN | report | 045 | 039, 008 | Plausible | synthesis of ToG with gap register and adoption roadmap |
+| PC-1 | report | 045 | 002, 014 | Plausible | program charter and register reconciliation against existing governance |
+| PC-2 | report | 045 | 042, 033 | Plausible | interfaces, precedence and conflict crosswalk: governance coherence; conflicts TOT-042 |
+| PC-3 | report | 039 | 045 | Plausible | dependency graph and wave sequencing = TOT-039 purpose |
+| PC-4 | report | 039 | 014 | Plausible | research-to-domain map keeps portfolio and scope synchronized = TOT-039 |
+| PC-5 | report | 039 | 007, 014, 034 | Established | status and evidence dashboard = TOT-039 status/evidence sync; P2: named in M-b7.7 |
+| PC-6 | report | 002 | 013, 035, 011, 030 | Established | roles, reviewers and authority boundaries = TOT-002; TOT-030 scope names "reviewer independence"; P2: named in M-b7.6 |
+| PC-7 | report | 008 | 039, 045 | Plausible | gap, risk and stop-condition register: risk TOT-008 |
+| PC-8 | report | 014 | 033, 044, 045 | Plausible | cross-repository authority map: canonical identity and provenance TOT-014 |
+| PC-9 | report | 045 | 034, 008, 011 | Plausible | program synthesis and integrated assurance: governance audit TOT-045 |
+| K-01 | report | 023 | 005, 030, 038 | Plausible | knowledge across seven levels incl. metaphysical: interpretive; epistemics TOT-005; Quantum level TOT-038 (b7.8) |
+| K-02 | report | 023 | 023, 038 | Plausible | x12 P3: reverted from TOT-030 (x3). The gap check §1 row for TOT-030 reads the Knowledge/Skills/Capabilities series as "research, not competency governance"; TOT-030 governs who may do work, not the study of skills across the seven levels. TOT-023 primary for the interpretive levels; TOT-030 kept as secondary; Quantum level TOT-038 (b7.8) |
+| K-03 | report | 023 | 023, 009, 038 | Plausible | x12 P3: reverted from TOT-030 (x3). The gap check §1 row for TOT-030 reads the Knowledge/Skills/Capabilities series as "research, not competency governance"; TOT-030 governs who may do work, not the study of skills across the seven levels. TOT-023 primary for the interpretive levels; TOT-030 kept as secondary; Quantum level TOT-038 (b7.8) |
+| K-04 | report | 023 | 009, 030, 001, 038 | Plausible | powers across seven levels: interpretive; protective boundaries TOT-009; TOT-001 scope: "the boundary between metaphor, design, and deployed capability"; Quantum level TOT-038 (b7.8) |
+| K-05 | report | 024 | 023, 020 | Established | Indigenous knowledge under CARE = TOT-024 title; P2: named in PC-4 |
+| K-06 | report | 038 | 023, 030 | Established | P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names "quantum mechanics, consciousness claims"; subject reading kept as secondary |
+| KR-01 | candidate | 023 | 042, 030 | Plausible | wisdom through judgment: interpretive; decision science TOT-042 |
+| KR-02 | candidate | 030 | 009, 002 | Plausible | responsibilities per power level = TOT-030 responsibility |
+| KR-03 | candidate | 009 | 010 | Plausible | safeguards and limits per level = TOT-009 protective boundaries |
+| KR-04 | candidate | 003 | 030 | Plausible | virtues and character = TOT-003 virtues |
+| KL-01 | report | NONE | — | Hypothetical | scope to be confirmed with the owner; no domain can be assigned until defined |
+| KL-02 | report | 023 | — | Plausible | Theotokos and the second reading: theological |
+| KL-03 | report | 023 | — | Plausible | God: theological |
+| KL-04 | report | 023 | — | Plausible | Creations of God: theological |
+| KL-05 | report | 023 | — | Plausible | Lucifer: theological |
+| KL-06 | report | 023 | — | Plausible | Creations of Lucifer: theological |
+| KL-07 | report | 023 | — | Plausible | duality of God and Lucifer: theological |
+| KL-08 | report | 023 | — | Plausible | the Ages and the Golden Age: traditions (Hesiod, yugas) |
+| M-s1 | candidate | 025 | 026, 031 | Plausible | agriculture, forestry, fisheries: living systems TOT-025 |
+| M-s2 | candidate | 026 | 027 | Plausible | animal life and sentience = TOT-026 |
+| M-s3 | candidate | 023 | 020, 028 | Plausible | arts as cultural knowledge; IP TOT-020; media TOT-028 |
+| M-s4 | candidate | 019 | — | Plausible | law and jurisprudence = TOT-019 |
+| M-s5 | candidate | 031 | 035 | Plausible | business and economics = TOT-031; organization TOT-035 |
+| M-s6 | candidate | 037 | 025, 015 | Plausible | built environment and construction: physical infrastructure TOT-037 |
+| M-s7 | candidate | 037 | 025, 032 | Plausible | manufacturing, energy and transport: infrastructure TOT-037 |
+| M-s8 | candidate | 023 | 024, 005 | Plausible | history and historical method: interpretive knowledge; Indigenous peoples TOT-024 |
+| M-s9 | candidate | 038 | 006 | Plausible | physics and cosmology foundations = TOT-038 |
+| M-s10 | candidate | 030 | 021, 022 | Plausible | education and learning = TOT-030 education |
+| M-s11 | candidate | 014 | 044, 033 | Plausible | knowledge organization = TOT-014 knowledge architecture |
+| N-1 | report | 016 | 026, 041, 027, 005, 021 | Established | text names TOT-016, 026, 041, 027, 005; AI welfare protocol is the driving source |
+| N-2 | report | 016 | 023, 021 | Established | text names TOT-016, 023, 021 |
+| N-3 | report | 038 | 006, 007 | Established | text names TOT-038, 006, 007 |
+| N-4 | report | 025 | 016, 002, 043, 023 | Established | text names TOT-025, 016, 002, 043 |
+| N-5 | report | 043 | 025, 022, 027, 031, 008 | Established | text names TOT-025, 043, 022, 027, 031; interconnected risk fits resilience TOT-043 best |
+| N-6 | report | 042 | 007, 005, 045 | Established | text names TOT-042, 007, 005, 045 |
+| N-7 | report | 038 | 023 | Established | text names TOT-038, 023 |
+| N-8 | report | 023 | 021, 009 | Established | text names TOT-023, 021, 009 |
+| N-A | report | 033 | 014, 023 | Plausible | vocabulary crosswalk = interoperability and semantics TOT-033 |
+| N-B | report | 014 | 045, 044, 033 | Plausible | canonical-home map: identity/provenance TOT-014 |
