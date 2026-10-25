@@ -1,0 +1,97 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:37.040068+00:00",
+ "finished_utc": "2026-10-25T00:01:37.671303+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "24ef198afbe38e471e823cecb72d4a039e56a522d552e2a89bd0ecff05bee7e7",
+ "params_sha256": "dd7fa320fe2cb1d285173342b8c4e4f9e7ca387d9b2baa666579605cef74e690",
+ "results_sha256": "b4aca850d3cf27ebfd046abf45ca54959621faf4622f9383881bb0acc37853a4",
+ "results": {
+  "cells": {
+   "rho0.17_up0.0": {
+    "rank_corr": 0.1655,
+    "up": 0.4128,
+    "down": 0.4129,
+    "stay": 0.1744
+   },
+   "rho0.32_up0.0": {
+    "rank_corr": 0.3081,
+    "up": 0.3976,
+    "down": 0.4014,
+    "stay": 0.201
+   }
+  },
+  "n": 200000,
+  "K": 70,
+  "thr": 7.5
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "independent latent statuses give |rank correlation| < 0.01 (n 200,000)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no structural change: the share moving up at least 7.5 points is lower at rho 0.32 (P96 1980 cohort) than at 0.17 (1830)",
+   "observed": {
+    "cells": {
+     "rho0.17_up0.0": {
+      "rank_corr": 0.1655,
+      "up": 0.4128,
+      "down": 0.4129,
+      "stay": 0.1744
+     },
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3081,
+      "up": 0.3976,
+      "down": 0.4014,
+      "stay": 0.201
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cells": {
+     "rho0.17_up0.0": {
+      "rank_corr": 0.1655,
+      "up": 0.4128,
+      "down": 0.4129,
+      "stay": 0.1744
+     },
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3081,
+      "up": 0.3976,
+      "down": 0.4014,
+      "stay": 0.201
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
