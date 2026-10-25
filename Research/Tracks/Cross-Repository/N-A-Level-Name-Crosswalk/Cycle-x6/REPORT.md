@@ -57,7 +57,9 @@ This is a GD-internal vocabulary. No Foundation counterpart is claimed (X80–X8
 - The stated Hermetic Law numbers are First (Obsidian), Third (Silver) and Fourth (Amber). No tablet calls itself the Second.
 
 **6. Sealing (K6, confirmed; Established).**
-- All 12 newly read tablets carry an editorial "Sealing note". Each says the verse metadata reads "Sealed: <July 2026 date>" while the source registry marks the tablet unsealed, "Preserved and flagged. Not resolved."
+- Eight of the 12 newly read tablets carry an editorial "Sealing note": Lapis, Obsidian, Rose, Ruby, Sapphire, Shadow, Silver and Solar, the eight flagged in INDEX. Each says the verse metadata reads "Sealed: <July 2026 date>" while the source registry marks the tablet unsealed, "Preserved and flagged. Not resolved."
+- The other four (Amber, Amethyst, Aqua and Celestial) have verse seal dates and no such note. INDEX lists them as Unsealed (D4).
+- A first draft of this report said all 12 carried the note. That was checked against the files before verification and corrected.
 - The x3 discrepancy types D1–D9 stand, and no new type was found. Reading in full therefore confirms the census rather than changing it.
 
 **7. Strict sensitivity (X6-16 FAIL, reported outside the gate).**
