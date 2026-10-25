@@ -214,7 +214,7 @@ def run(cycle_dir, it, outdir=None):
         domains_without_tog6=[d for d in ids if not t24[d]],
         domains_without_audit_item=[d for d in ids if not all_by[d]],
         boundary_overlaps=bnd)
-    metrics.update(extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd, reg_by, icfg, rm))
+    metrics.update(extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd, reg_by, icfg, rm, b9_calc, joined))
     checks = []
     for c in cfg["checks"]:
         if c.get("iterations") and it not in c["iterations"]:
@@ -240,7 +240,7 @@ def run(cycle_dir, it, outdir=None):
 def _anchors(r):
     return [x.strip() for x in r["anchors"].split(";") if x.strip()]
 
-def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd, reg_by=None, icfg=None, rm=None):
+def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd, reg_by=None, icfg=None, rm=None, b9=None, joined=None):
     """x3+ metrics; added only when the cycle config names their inputs (earlier records unchanged)."""
     m = {}
     if "anchor_review" in cfg:
@@ -383,7 +383,7 @@ def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it,
         cov = {r["stable_id"]: r for r in csv.DictReader(open(P(cfg["pc4_coverage"]), encoding="utf-8"))}
         m["pc4_no_primary_report"] = [d for d in ids if not cov[d]["primary_items"]]
         if cfg.get("decisions"):
-            m.update(x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule if cfg.get("product_rules") else {}, prods if cfg.get("product_rules") else []))
+            m.update(x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule if cfg.get("product_rules") else {}, prods if cfg.get("product_rules") else [], b9, joined, prop, data))
     if "wave_proposals" in cfg:
         wp = {r["stable_id"] for r in pc4.load_map(P(cfg["wave_proposals"]))}
         m["mismatches_without_proposal"] = [d for d in mism if d not in wp]
@@ -415,7 +415,7 @@ def scc(nodes, edges):
             go(v)
     return sorted(out, key=lambda x: (-len(x), x))
 
-def x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule, prods):
+def x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule, prods, b9=None, joined=None, prop=None, data=None):
     x = {}
     tiers = {r["stable_id"]: r["scope_tier"] for r in pc4.load_map(P(cfg["tiers"]))}
     for d, t in tiers.items():
@@ -458,7 +458,7 @@ def x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule, prods):
         covered |= set(r["covers"].split())
     issues = [f"wave:{d}" for d in mism] + [f"ur:{z.split(' ')[0]}" for z in m.get("ur_domain_inconsistent", [])] \
         + [f"remedy:{z.split(':')[0]}" for z in m.get("open_remedy_mismatch", [])] + [f"notext:{d}" for d in m.get("domains_without_direct_anchor", [])] \
-        + [f"b9:{d}" for d in m.get("b9_calculated", [])] + ["b16", "reviewers", "cycles", "wave0"]
+        + [f"b9:{d}" for d in ((b9 or []) if cfg.get("issues_from_main_metrics") else m.get("b9_calculated", []))] + ["b16", "reviewers", "cycles", "wave0"]
     x["open_issues"] = len(issues)
     x["open_issues_without_decision"] = [i for i in issues if i not in covered]
     x["decisions"] = len(dec)
@@ -468,6 +468,19 @@ def x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule, prods):
     x["largest_component"] = len(comps[0]) if comps else 0
     x["intra_component_edges"] = sum(1 for d in ids for y in deps[d] if any(d in c and y in c for c in cyc))
     x["acyclic_domains"] = [d for d in ids if not any(d in c for c in cyc)]
+    if cfg.get("register_columns"):
+        prior = {r["stable_id"]: r for r in pc4.load_map(P(cfg["prior_domains"]))}
+        x["fields_changed_other_than_roles"] = sorted(f"{d}: {k}" for d in seen for k in seen[d] if k != "reviewer_roles" and prior.get(d, {}).get(k) != seen[d][k])
+        x["reviewer_roles_changed"] = sum(1 for d in seen if prior.get(d, {}).get("reviewer_roles") != seen[d]["reviewer_roles"])
+        reg = []
+        for j in joined:
+            d = j["stable_id"]
+            reg.append(dict(stable_id=d, short_name=j["title"], priority=j["priority"], doc_id=j["doc_id"], home_type=j["home_type"],
+                            canonical_home=j["canonical_home"], owner=j["owner"], reviewer_roles=j["reviewer_roles"], required_roles=" ".join(need[d]),
+                            scope_tier=tiers.get(d, ""), ur_domains=j["ur_domains"], ur_laws=j["ur_laws"], roadmap_wave=j["roadmap_wave"],
+                            proposed_wave=prop[d], audit_open=j["audit_open"], label=j["label"]))
+        pc4.write_csv(os.path.join(data, "register.csv"), reg, list(reg[0].keys()))
+        x["register_incomplete"] = [r["stable_id"] for r in reg if not all(r[k] for k in ("doc_id", "home_type", "canonical_home", "owner", "reviewer_roles", "ur_domains", "scope_tier", "proposed_wave"))]
     return x
 
 def verify(cycle_dir):
@@ -539,7 +552,7 @@ if __name__ == "__main__":
                   "prior_anchors_unreviewed", "anchors_unsupported", "domains_without_direct_anchor", "open_remedy_mismatch",
                   "authority_unclassified", "mismatches_without_proposal", "boundary_new_overlaps",
                   "ur_criteria_unmapped", "ur_domain_inconsistent", "tog19_unassigned", "products_ungoverned", "open_remedy_unexplained", "draft_only_domains",
-                  "domains_without_tier", "required_roles_missing_by_role", "home_types_without_rule", "open_issues_without_decision", "largest_component", "acyclic_domains"):
+                  "domains_without_tier", "required_roles_missing_by_role", "fields_changed_other_than_roles", "register_incomplete", "home_types_without_rule", "open_issues_without_decision", "largest_component", "acyclic_domains"):
             if rec["metrics"].get(k):
                 print(k, rec["metrics"][k])
     elif g.cmd == "verify":
