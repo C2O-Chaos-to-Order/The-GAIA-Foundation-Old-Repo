@@ -543,6 +543,16 @@ def run(cycle_dir, it, outdir=None):
             sens["with_nonreport_work"] = metrics["domains_no_work_any"]
         metrics["sensitivity_no_report_counts"] = {k: len(v) for k, v in sens.items()}
         metrics["sensitivity_no_report"] = sens
+    if cfg.get("previous_map"):
+        pm = {r["item_id"]: r["primary"] for r in load_map(os.path.normpath(os.path.join(cycle_dir, cfg["previous_map"])))}
+        metrics["primaries_changed_since_previous"] = [
+            f"{i['item_id']}: {pm.get(i['item_id'])} -> {jmap[i['item_id']]['primary']}"
+            for i in reports if i["item_id"] in jmap and pm.get(i["item_id"]) != jmap[i["item_id"]]["primary"]]
+        metrics["n_clusters"] = len(cl_rows)
+    if cfg.get("boundary_check"):
+        here = os.path.relpath(os.path.abspath(cycle_dir), ROOT)
+        metrics["boundary_overlaps"] = boundary_scan(
+            suite, ROOT, cfg["boundary_check"]["window"], exclude=(here + os.sep,))
     if cfg.get("baseline_map"):
         bm = {r["item_id"]: r["primary"] for r in load_map(os.path.normpath(os.path.join(cycle_dir, cfg["baseline_map"])))}
         ch = [f"{i['item_id']}: {bm.get(i['item_id'])} -> {jmap[i['item_id']]['primary']}"
@@ -657,6 +667,35 @@ def verify(cycle_dir):
             shutil.rmtree(tmp)
     return res
 
+def _norm(t):
+    return re.sub(r"\s+", " ", t).strip().lower()
+
+def boundary_scan(suite, root, window=120, exclude=()):
+    """Files under root sharing any `window`-character span (whitespace-normalised,
+    case-folded) with any file of the external suite. Returns sorted file list."""
+    grams = set()
+    for dp, _, fns in os.walk(suite):
+        for fn in sorted(fns):
+            if fn.endswith((".md", ".csv", ".txt")):
+                t = _norm(open(os.path.join(dp, fn), encoding="utf-8-sig", errors="replace").read())
+                for i in range(0, max(len(t) - window + 1, 0), 1):
+                    grams.add(hash(t[i:i + window]))
+    hits = []
+    for dp, dns, fns in os.walk(root):
+        dns[:] = sorted(d for d in dns if d != "__pycache__")
+        for fn in sorted(fns):
+            fp = os.path.join(dp, fn)
+            rel = os.path.relpath(fp, root)
+            if any(rel.startswith(e) for e in exclude):
+                continue
+            try:
+                t = _norm(open(fp, encoding="utf-8").read())
+            except UnicodeDecodeError:
+                continue
+            if any(hash(t[i:i + window]) in grams for i in range(0, max(len(t) - window + 1, 0))):
+                hits.append(rel)
+    return hits
+
 def render(cycle_dir, it):
     """Markdown tables from one iteration's outputs (deterministic)."""
     cfg = json.load(open(os.path.join(cycle_dir, "config.json")))
@@ -722,6 +761,7 @@ if __name__ == "__main__":
     a = sp.add_parser("inventory"); a.add_argument("--wq", required=True); a.add_argument("--out", required=True)
     b = sp.add_parser("run"); b.add_argument("--cycle", required=True); b.add_argument("--iter", type=int, required=True)
     c = sp.add_parser("verify"); c.add_argument("--cycle", required=True)
+    bnd = sp.add_parser("boundary"); bnd.add_argument("--suite", default=os.environ.get("PC4_SUITE", "/workspace/coord/zip/gaia_totality_suite_v0_1")); bnd.add_argument("--window", type=int, default=120)
     e = sp.add_parser("render"); e.add_argument("--cycle", required=True); e.add_argument("--iter", type=int, required=True); e.add_argument("--out", required=True)
     args = ap.parse_args()
     if args.cmd == "inventory":
@@ -736,6 +776,10 @@ if __name__ == "__main__":
             print(c["id"], c["result"], c["value"])
         if rec["metrics"]["problems"]:
             print("PROBLEMS:", *rec["metrics"]["problems"], sep="\n  ")
+    elif args.cmd == "boundary":
+        hits = boundary_scan(args.suite, ROOT, args.window)
+        print(f"files sharing a {args.window}-character window with the suite: {len(hits)}", *hits, sep="\n  ")
+        sys.exit(1 if hits else 0)
     elif args.cmd == "render":
         with open(args.out, "w", encoding="utf-8") as f:
             f.write(render(args.cycle, args.iter))

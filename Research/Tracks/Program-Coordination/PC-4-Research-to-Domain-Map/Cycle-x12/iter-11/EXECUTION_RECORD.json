@@ -1,0 +1,844 @@
+{
+  "track": "PC-4 Research-to-Domain Map",
+  "cycle": "x12",
+  "iteration": 11,
+  "variant": {
+    "variant": "title_purpose",
+    "stem": false,
+    "k": 3,
+    "permutations": 500,
+    "seed": 20261025
+  },
+  "inputs": {
+    "work_queue": "../../../../WORK_QUEUE.md",
+    "work_queue_sha256": "0a7d4dd5a01c002d19c261d5b9ecc008b0858696c45387070c03287341666d88",
+    "judgment_map": "../judgments/map_x12.csv",
+    "judgment_map_sha256": "0f0fceb61822c132cc1459419b1e12bd37daa521c4d7d6ee3e731715cfb1ef00",
+    "suite": "GAIA Totality Suite v0.1.0 (owner-provided, Proposed, not adopted; external, not filed)",
+    "register_sha256": "057efb5489305f99280f9b350771058686e35fef753682449f2901b152fe8c72"
+  },
+  "metrics": {
+    "n_items": 193,
+    "n_boxes": 193,
+    "n_reports": 91,
+    "n_mapped": 118,
+    "n_matcher_items": 90,
+    "k": 3,
+    "variant": "title_purpose",
+    "stem": false,
+    "top1_rate": 0.3,
+    "topk_primary_rate": 0.4444,
+    "topk_any_rate": 0.6333,
+    "zero_score_items": 23,
+    "topk_by_label": {
+      "Established": [
+        24,
+        29,
+        0.8276
+      ],
+      "Hypothetical": [
+        0,
+        2,
+        0.0
+      ],
+      "Plausible": [
+        16,
+        59,
+        0.2712
+      ]
+    },
+    "report_label_counts": {
+      "Established": 29,
+      "Hypothetical": 3,
+      "Plausible": 59
+    },
+    "domains_no_report_primary": [
+      "GAIA-TOT-004",
+      "GAIA-TOT-005",
+      "GAIA-TOT-007",
+      "GAIA-TOT-009",
+      "GAIA-TOT-010",
+      "GAIA-TOT-012",
+      "GAIA-TOT-013",
+      "GAIA-TOT-015",
+      "GAIA-TOT-017",
+      "GAIA-TOT-018",
+      "GAIA-TOT-019",
+      "GAIA-TOT-020",
+      "GAIA-TOT-022",
+      "GAIA-TOT-026",
+      "GAIA-TOT-027",
+      "GAIA-TOT-028",
+      "GAIA-TOT-029",
+      "GAIA-TOT-031",
+      "GAIA-TOT-032",
+      "GAIA-TOT-034",
+      "GAIA-TOT-035",
+      "GAIA-TOT-037",
+      "GAIA-TOT-041",
+      "GAIA-TOT-044"
+    ],
+    "domains_no_report_any": [
+      "GAIA-TOT-032"
+    ],
+    "domains_no_report_with_candidates": [],
+    "reports_no_domain": [
+      "KL-01"
+    ],
+    "inventory_gap": 0,
+    "clusters_ok": 12,
+    "clusters": [
+      {
+        "cluster_id": "M-b7.1",
+        "home_item": "D-01",
+        "home_domain": "GAIA-TOT-003",
+        "n_members": 5,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.2",
+        "home_item": "D-01",
+        "home_domain": "GAIA-TOT-010",
+        "n_members": 2,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.3",
+        "home_item": "D-04",
+        "home_domain": "GAIA-TOT-040",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.4",
+        "home_item": "ToG-07",
+        "home_domain": "GAIA-TOT-016",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.5",
+        "home_item": "PC-2",
+        "home_domain": "GAIA-TOT-045",
+        "n_members": 6,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.6",
+        "home_item": "PC-6",
+        "home_domain": "GAIA-TOT-002",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.7",
+        "home_item": "PC-5",
+        "home_domain": "GAIA-TOT-039",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.8",
+        "home_item": "G-01",
+        "home_domain": "GAIA-TOT-038",
+        "n_members": 20,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.9",
+        "home_item": "ToG-10",
+        "home_domain": "GAIA-TOT-030",
+        "n_members": 15,
+        "ok": 1
+      },
+      {
+        "cluster_id": "NEW-1",
+        "home_item": "N-1",
+        "home_domain": "GAIA-TOT-016",
+        "n_members": 6,
+        "ok": 1
+      },
+      {
+        "cluster_id": "NEW-2",
+        "home_item": "N-4",
+        "home_domain": "GAIA-TOT-025",
+        "n_members": 6,
+        "ok": 1
+      },
+      {
+        "cluster_id": "NEW-3",
+        "home_item": "KL-07",
+        "home_domain": "GAIA-TOT-023",
+        "n_members": 6,
+        "ok": 1
+      }
+    ],
+    "problems": [],
+    "domains_no_work_any": [],
+    "nonreport_only_domains": [
+      "GAIA-TOT-032"
+    ],
+    "dependency_gaps": [
+      "GAIA-TOT-036 -> GAIA-TOT-032",
+      "GAIA-TOT-040 -> GAIA-TOT-032",
+      "GAIA-TOT-043 -> GAIA-TOT-032"
+    ],
+    "tog24_unreached": [
+      "GAIA-TOT-021",
+      "GAIA-TOT-027",
+      "GAIA-TOT-037"
+    ],
+    "sensitivity_no_report_counts": {
+      "primary_only": 24,
+      "primary_or_secondary": 1,
+      "with_candidates": 0,
+      "excluding_hypothetical": 2,
+      "excluding_hypothetical_primary_only": 24,
+      "open_reports_only": 1,
+      "open_reports_primary_only": 25,
+      "established_only_primary": 34,
+      "with_nonreport_work": 0
+    },
+    "sensitivity_no_report": {
+      "primary_only": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-015",
+        "GAIA-TOT-017",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044"
+      ],
+      "primary_or_secondary": [
+        "GAIA-TOT-032"
+      ],
+      "with_candidates": [],
+      "excluding_hypothetical": [
+        "GAIA-TOT-032",
+        "GAIA-TOT-037"
+      ],
+      "excluding_hypothetical_primary_only": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-015",
+        "GAIA-TOT-017",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044"
+      ],
+      "open_reports_only": [
+        "GAIA-TOT-032"
+      ],
+      "open_reports_primary_only": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-006",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-015",
+        "GAIA-TOT-017",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044"
+      ],
+      "established_only_primary": [
+        "GAIA-TOT-001",
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-006",
+        "GAIA-TOT-007",
+        "GAIA-TOT-008",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-011",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013",
+        "GAIA-TOT-014",
+        "GAIA-TOT-015",
+        "GAIA-TOT-017",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-021",
+        "GAIA-TOT-022",
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-030",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-033",
+        "GAIA-TOT-034",
+        "GAIA-TOT-035",
+        "GAIA-TOT-036",
+        "GAIA-TOT-037",
+        "GAIA-TOT-041",
+        "GAIA-TOT-044",
+        "GAIA-TOT-045"
+      ],
+      "with_nonreport_work": []
+    },
+    "primaries_changed_since_previous": [
+      "ToG-06: GAIA-TOT-017 -> GAIA-TOT-036",
+      "K-02: GAIA-TOT-030 -> GAIA-TOT-023",
+      "K-03: GAIA-TOT-030 -> GAIA-TOT-023"
+    ],
+    "n_clusters": 12,
+    "boundary_overlaps": [
+      "Cycle-x3/PASSES.md"
+    ],
+    "primaries_changed_since_baseline": [
+      "A-05: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-01: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-02: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-03: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-04: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-05: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-06: GAIA-TOT-023 -> GAIA-TOT-006",
+      "B-07: GAIA-TOT-023 -> GAIA-TOT-006",
+      "E-02: GAIA-TOT-023 -> GAIA-TOT-038",
+      "E-03: GAIA-TOT-023 -> GAIA-TOT-038",
+      "F-06: GAIA-TOT-023 -> GAIA-TOT-038",
+      "G-03: GAIA-TOT-023 -> GAIA-TOT-038",
+      "G-04: GAIA-TOT-023 -> GAIA-TOT-038",
+      "G-05: GAIA-TOT-023 -> GAIA-TOT-038",
+      "G-06: GAIA-TOT-005 -> GAIA-TOT-038",
+      "G-07: GAIA-TOT-003 -> GAIA-TOT-038",
+      "G-08: GAIA-TOT-023 -> GAIA-TOT-038",
+      "G-09: GAIA-TOT-023 -> GAIA-TOT-038",
+      "G-10: NONE -> GAIA-TOT-038",
+      "G-11: GAIA-TOT-023 -> GAIA-TOT-038",
+      "I-04: GAIA-TOT-023 -> GAIA-TOT-038",
+      "ToG-06: GAIA-TOT-017 -> GAIA-TOT-036",
+      "K-06: GAIA-TOT-023 -> GAIA-TOT-038"
+    ],
+    "clusters_failed": 0,
+    "no_primary_by_priority": {
+      "P0": [
+        "GAIA-TOT-004",
+        "GAIA-TOT-005",
+        "GAIA-TOT-007",
+        "GAIA-TOT-009",
+        "GAIA-TOT-010",
+        "GAIA-TOT-012",
+        "GAIA-TOT-013"
+      ],
+      "P1": [
+        "GAIA-TOT-015",
+        "GAIA-TOT-017",
+        "GAIA-TOT-018",
+        "GAIA-TOT-019",
+        "GAIA-TOT-020",
+        "GAIA-TOT-022",
+        "GAIA-TOT-028",
+        "GAIA-TOT-029",
+        "GAIA-TOT-034",
+        "GAIA-TOT-041"
+      ],
+      "P2": [
+        "GAIA-TOT-026",
+        "GAIA-TOT-027",
+        "GAIA-TOT-031",
+        "GAIA-TOT-032",
+        "GAIA-TOT-035",
+        "GAIA-TOT-044"
+      ],
+      "P3": [
+        "GAIA-TOT-037"
+      ]
+    },
+    "candidate_fills_primary": {
+      "GAIA-TOT-009": [
+        "KR-03"
+      ],
+      "GAIA-TOT-019": [
+        "M-s4"
+      ],
+      "GAIA-TOT-026": [
+        "M-s2"
+      ],
+      "GAIA-TOT-031": [
+        "M-s5"
+      ],
+      "GAIA-TOT-037": [
+        "M-s6",
+        "M-s7"
+      ]
+    },
+    "perm_null_mean_rate": 0.1072,
+    "perm_null_max_rate": 0.2,
+    "perm_p": 0.002,
+    "topk_by_section": {
+      "A": [
+        0,
+        5,
+        0.0
+      ],
+      "B": [
+        0,
+        7,
+        0.0
+      ],
+      "D": [
+        2,
+        4,
+        0.5
+      ],
+      "E": [
+        0,
+        5,
+        0.0
+      ],
+      "F": [
+        0,
+        7,
+        0.0
+      ],
+      "G": [
+        10,
+        11,
+        0.9091
+      ],
+      "H": [
+        2,
+        3,
+        0.6667
+      ],
+      "I": [
+        0,
+        4,
+        0.0
+      ],
+      "J": [
+        0,
+        1,
+        0.0
+      ],
+      "K": [
+        2,
+        6,
+        0.3333
+      ],
+      "KL": [
+        7,
+        7,
+        1.0
+      ],
+      "N": [
+        5,
+        8,
+        0.625
+      ],
+      "NX": [
+        0,
+        2,
+        0.0
+      ],
+      "PC": [
+        6,
+        9,
+        0.6667
+      ],
+      "TOG": [
+        6,
+        11,
+        0.5455
+      ]
+    },
+    "similar_pairs": [
+      {
+        "a": "KL-04",
+        "b": "KL-06",
+        "cosine": 0.964654,
+        "clustered": 1
+      },
+      {
+        "a": "KL-03",
+        "b": "KL-05",
+        "cosine": 0.960455,
+        "clustered": 1
+      },
+      {
+        "a": "KL-03",
+        "b": "KL-04",
+        "cosine": 0.945421,
+        "clustered": 1
+      },
+      {
+        "a": "KL-05",
+        "b": "KL-06",
+        "cosine": 0.945421,
+        "clustered": 1
+      },
+      {
+        "a": "KL-04",
+        "b": "KL-07",
+        "cosine": 0.938011,
+        "clustered": 1
+      },
+      {
+        "a": "KL-06",
+        "b": "KL-07",
+        "cosine": 0.938011,
+        "clustered": 1
+      },
+      {
+        "a": "KL-03",
+        "b": "KL-06",
+        "cosine": 0.908035,
+        "clustered": 1
+      },
+      {
+        "a": "KL-04",
+        "b": "KL-05",
+        "cosine": 0.908035,
+        "clustered": 1
+      },
+      {
+        "a": "KL-03",
+        "b": "KL-07",
+        "cosine": 0.896266,
+        "clustered": 1
+      },
+      {
+        "a": "KL-05",
+        "b": "KL-07",
+        "cosine": 0.896266,
+        "clustered": 1
+      },
+      {
+        "a": "K-01",
+        "b": "K-04",
+        "cosine": 0.860984,
+        "clustered": 1
+      },
+      {
+        "a": "K-02",
+        "b": "K-04",
+        "cosine": 0.860984,
+        "clustered": 1
+      },
+      {
+        "a": "K-03",
+        "b": "K-04",
+        "cosine": 0.860984,
+        "clustered": 1
+      },
+      {
+        "a": "K-01",
+        "b": "K-02",
+        "cosine": 0.854376,
+        "clustered": 1
+      },
+      {
+        "a": "K-01",
+        "b": "K-03",
+        "cosine": 0.854376,
+        "clustered": 1
+      },
+      {
+        "a": "K-02",
+        "b": "K-03",
+        "cosine": 0.854376,
+        "clustered": 1
+      },
+      {
+        "a": "N-B",
+        "b": "PC-8",
+        "cosine": 0.758037,
+        "clustered": 0
+      },
+      {
+        "a": "I-01",
+        "b": "KL-07",
+        "cosine": 0.68604,
+        "clustered": 1
+      },
+      {
+        "a": "K-04",
+        "b": "ToG-10",
+        "cosine": 0.652677,
+        "clustered": 1
+      },
+      {
+        "a": "K-01",
+        "b": "ToG-10",
+        "cosine": 0.647668,
+        "clustered": 1
+      },
+      {
+        "a": "K-02",
+        "b": "ToG-10",
+        "cosine": 0.647668,
+        "clustered": 1
+      },
+      {
+        "a": "K-03",
+        "b": "ToG-10",
+        "cosine": 0.647668,
+        "clustered": 1
+      },
+      {
+        "a": "A-02",
+        "b": "G-08",
+        "cosine": 0.646199,
+        "clustered": 0
+      },
+      {
+        "a": "I-01",
+        "b": "KL-03",
+        "cosine": 0.645647,
+        "clustered": 1
+      },
+      {
+        "a": "I-01",
+        "b": "KL-05",
+        "cosine": 0.645647,
+        "clustered": 1
+      },
+      {
+        "a": "A-05",
+        "b": "B-07",
+        "cosine": 0.628893,
+        "clustered": 0
+      },
+      {
+        "a": "I-01",
+        "b": "KL-04",
+        "cosine": 0.610409,
+        "clustered": 1
+      },
+      {
+        "a": "I-01",
+        "b": "KL-06",
+        "cosine": 0.610409,
+        "clustered": 1
+      },
+      {
+        "a": "KL-02",
+        "b": "KL-03",
+        "cosine": 0.605874,
+        "clustered": 0
+      },
+      {
+        "a": "KL-02",
+        "b": "KL-05",
+        "cosine": 0.583902,
+        "clustered": 0
+      },
+      {
+        "a": "KL-02",
+        "b": "KL-04",
+        "cosine": 0.572806,
+        "clustered": 0
+      },
+      {
+        "a": "KL-02",
+        "b": "KL-06",
+        "cosine": 0.552033,
+        "clustered": 0
+      },
+      {
+        "a": "KL-02",
+        "b": "KL-07",
+        "cosine": 0.538552,
+        "clustered": 0
+      },
+      {
+        "a": "F-02",
+        "b": "G-04",
+        "cosine": 0.536231,
+        "clustered": 0
+      },
+      {
+        "a": "H-02",
+        "b": "ToG-07",
+        "cosine": 0.526074,
+        "clustered": 1
+      },
+      {
+        "a": "E-02",
+        "b": "E-03",
+        "cosine": 0.505446,
+        "clustered": 1
+      },
+      {
+        "a": "G-07",
+        "b": "ToG-05",
+        "cosine": 0.502628,
+        "clustered": 1
+      }
+    ],
+    "similar_pairs_unclustered": [
+      "N-B~PC-8 0.758037",
+      "A-02~G-08 0.646199",
+      "A-05~B-07 0.628893",
+      "KL-02~KL-03 0.605874",
+      "KL-02~KL-05 0.583902",
+      "KL-02~KL-04 0.572806",
+      "KL-02~KL-06 0.552033",
+      "KL-02~KL-07 0.538552",
+      "F-02~G-04 0.536231"
+    ],
+    "queue_named_missing": [],
+    "queue_named_not_primary": [
+      "H-01: primary GAIA-TOT-021 not among queue-named GAIA-TOT-016,GAIA-TOT-028",
+      "K-01: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "K-02: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "K-03: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "K-04: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "PC-7: primary GAIA-TOT-008 not among queue-named GAIA-TOT-039",
+      "ToG-06: primary GAIA-TOT-036 not among queue-named GAIA-TOT-040",
+      "ToG-08: primary GAIA-TOT-011 not among queue-named GAIA-TOT-040",
+      "ToG-10: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "ToG-SYN: primary GAIA-TOT-045 not among queue-named GAIA-TOT-039"
+    ]
+  },
+  "checks": [
+    {
+      "id": "X12-1",
+      "hypothesis": "Inventory still complete",
+      "metric": "inventory_gap",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-2",
+      "hypothesis": "Every row passes integrity",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-3",
+      "hypothesis": "No queue-named domain missing (example rule as x6)",
+      "metric": "queue_named_missing",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-4",
+      "hypothesis": "Every cluster proposal passes the structural checks",
+      "metric": "clusters_failed",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-5",
+      "hypothesis": "The final cluster file holds 12 proposals: the 9 b7 clusters and NEW-1 to NEW-3",
+      "metric": "n_clusters",
+      "op": "eq",
+      "threshold": 12,
+      "value": 12,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-6",
+      "hypothesis": "The map has converged: at most 3 report primaries differ from x9",
+      "metric": "primaries_changed_since_previous",
+      "op": "le",
+      "threshold": 3,
+      "value": 3,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-7",
+      "hypothesis": "Adoption boundary: no file in the PC-4 folder shares a 120-character window with any Totality Suite file",
+      "metric": "boundary_overlaps",
+      "op": "eq",
+      "threshold": 0,
+      "value": 1,
+      "result": "FAIL"
+    },
+    {
+      "id": "X12-8",
+      "hypothesis": "The matcher beats chance at k = 3 (p <= 0.01)",
+      "metric": "perm_p",
+      "op": "le",
+      "threshold": 0.01,
+      "value": 0.002,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-9",
+      "hypothesis": "Reports with no domain stay at or below 1",
+      "metric": "reports_no_domain",
+      "op": "le",
+      "threshold": 1,
+      "value": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "X12-10",
+      "hypothesis": "After folding the x9 scan proposals, at most 10 similar pairs remain unclustered",
+      "metric": "similar_pairs_unclustered",
+      "op": "le",
+      "threshold": 10,
+      "value": 9,
+      "result": "PASS"
+    }
+  ],
+  "outputs": {
+    "data/coverage_domains.csv": "b00a6e73b80832c24fdbee3f2698d930c3c8f882c28db24172db2479ec5a74a8",
+    "data/item_domain_map.csv": "2a6df9f5416c3a1922f18e90c1b609b5d832defb1d176969da53a3c2d5824adb",
+    "data/matcher.csv": "c82eb4aea535507e655f4b917f6b38ad79b92fc41ec3d84aa276d29c0a4f7339"
+  }
+}
