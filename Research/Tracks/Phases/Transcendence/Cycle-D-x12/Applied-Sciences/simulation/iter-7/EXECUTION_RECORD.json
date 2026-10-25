@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-TR-APP-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:21.906058+00:00",
+ "finished_utc": "2026-10-25T01:30:22.338335+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-7  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "a9c573502e3487aca236245f321c3a2c479b85a5ea75d17eb6df00b9ce4f709a",
+ "params_sha256": "29ed229fd17b1ca4a9fe33cee4f043534e7e2f9e3131410658a6d3dac9f064a2",
+ "results_sha256": "715b5f426341f8ada798438186a93a37d6e0671d8c092586a7236dd811098c65",
+ "results": {
+  "items": {
+   "r_from_R2_psy": {
+    "value": 0.572713,
+    "printed": null,
+    "diff": null
+   },
+   "r_from_R2_coc": {
+    "value": 0.279285,
+    "printed": null,
+    "diff": null
+   },
+   "r_from_R2_alc": {
+    "value": 0.289828,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108: intensity-EDI R^2 values imply Pearson r within 0.1 of the printed Spearman rho (0.577, 0.279, 0.334)",
+   "observed": {
+    "items": {
+     "r_from_R2_psy": {
+      "value": 0.572713,
+      "printed": null,
+      "diff": null
+     },
+     "r_from_R2_coc": {
+      "value": 0.279285,
+      "printed": null,
+      "diff": null
+     },
+     "r_from_R2_alc": {
+      "value": 0.289828,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "r_from_R2_psy": {
+      "value": 0.572713,
+      "printed": null,
+      "diff": null
+     },
+     "r_from_R2_coc": {
+      "value": 0.279285,
+      "printed": null,
+      "diff": null
+     },
+     "r_from_R2_alc": {
+      "value": 0.289828,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
