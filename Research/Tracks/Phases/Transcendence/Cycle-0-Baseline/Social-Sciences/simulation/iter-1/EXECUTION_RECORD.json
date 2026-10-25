@@ -1,0 +1,2468 @@
+{
+ "sim_id": "SIM-TR-SOC-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:29:09.233398+00:00",
+ "finished_utc": "2026-10-25T00:29:09.714503+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "20705d013e657854f040c7c8e3a8afaa3c945dc5cce53300468de58601dab329",
+ "params_sha256": "d038baab81d3c33f7017b45d7629b1fa8de5bb803709bef134c07ef64eb117f6",
+ "results_sha256": "7881963298e13f3484a7a8eb574e8d979ce87adead9eb375527c2ed8ec0a67ca",
+ "results": {
+  "items": {
+   "svo_total": {
+    "value": 1655.0,
+    "printed": 1655,
+    "diff": 0.0
+   },
+   "pct_prosocial": {
+    "value": 69.546828,
+    "printed": 69.5,
+    "diff": 0.046828
+   },
+   "pct_individualist": {
+    "value": 23.021148,
+    "printed": 23.0,
+    "diff": 0.021148
+   },
+   "pct_competitor": {
+    "value": 7.432024,
+    "printed": 7.4,
+    "diff": 0.032024
+   },
+   "pct_competitor_text": {
+    "value": 7.432024,
+    "printed": 7.3,
+    "diff": 0.132024
+   },
+   "method_flow_classified": {
+    "value": 1677.0,
+    "printed": 1677,
+    "diff": 0.0
+   },
+   "method_flow_final": {
+    "value": 1655.0,
+    "printed": 1655,
+    "diff": 0.0
+   },
+   "results_flow_classified": {
+    "value": 1683.0,
+    "printed": 1683,
+    "diff": 0.0
+   },
+   "results_flow_final": {
+    "value": 1660.0,
+    "printed": 1655,
+    "diff": 5.0
+   },
+   "shared_variance_pct": {
+    "value": 27.6676,
+    "printed": 28,
+    "diff": -0.3324
+   },
+   "r_crit_05": {
+    "value": 0.048208,
+    "printed": 0.049,
+    "diff": -0.000792
+   },
+   "r_crit_01": {
+    "value": 0.063359,
+    "printed": 0.064,
+    "diff": -0.000641
+   },
+   "bene_competitor_text_vs_table": {
+    "value": 0.667,
+    "printed": 0.679,
+    "diff": -0.012
+   },
+   "wmean_Universalism": {
+    "value": 0.468937,
+    "printed": 0.469,
+    "diff": -6.3e-05
+   },
+   "p_main_Universalism": {
+    "value": 0.0,
+    "printed": 0.0,
+    "diff": 0.0
+   },
+   "eta2_main_Universalism": {
+    "value": 0.037014,
+    "printed": 0.037,
+    "diff": 1.4e-05
+   },
+   "p_pc_Universalism": {
+    "value": 0.0,
+    "printed": 0.0,
+    "diff": 0.0
+   },
+   "eta2_pc_Universalism": {
+    "value": 0.032689,
+    "printed": 0.033,
+    "diff": -0.000311
+   },
+   "wmean_Benevolence": {
+    "value": 0.700326,
+    "printed": 0.7,
+    "diff": 0.000326
+   },
+   "p_main_Benevolence": {
+    "value": 0.0,
+    "printed": 0.0,
+    "diff": 0.0
+   },
+   "eta2_main_Benevolence": {
+    "value": 0.018977,
+    "printed": 0.019,
+    "diff": -2.3e-05
+   },
+   "p_pc_Benevolence": {
+    "value": 6.8e-05,
+    "printed": 0.0,
+    "diff": 6.8e-05
+   },
+   "eta2_pc_Benevolence": {
+    "value": 0.009597,
+    "printed": 0.01,
+    "diff": -0.000403
+   },
+   "wmean_BeneGeneral": {
+    "value": 0.804896,
+    "printed": 0.805,
+    "diff": -0.000104
+   },
+   "p_main_BeneGeneral": {
+    "value": 1e-06,
+    "printed": 0.0,
+    "diff": 1e-06
+   },
+   "eta2_main_BeneGeneral": {
+    "value": 0.017475,
+    "printed": 0.017,
+    "diff": 0.000475
+   },
+   "p_pc_BeneGeneral": {
+    "value": 1e-06,
+    "printed": 0.0,
+    "diff": 1e-06
+   },
+   "eta2_pc_BeneGeneral": {
+    "value": 0.014081,
+    "printed": 0.014,
+    "diff": 8.1e-05
+   },
+   "wmean_Conformity": {
+    "value": -0.566248,
+    "printed": -0.567,
+    "diff": 0.000752
+   },
+   "p_main_Conformity": {
+    "value": 0.001397,
+    "printed": 0.001,
+    "diff": 0.000397
+   },
+   "eta2_main_Conformity": {
+    "value": 0.007956,
+    "printed": 0.008,
+    "diff": -4.4e-05
+   },
+   "p_pc_Conformity": {
+    "value": 0.001568,
+    "printed": 0.002,
+    "diff": -0.000432
+   },
+   "eta2_pc_Conformity": {
+    "value": 0.006057,
+    "printed": 0.006,
+    "diff": 5.7e-05
+   },
+   "wmean_Tradition": {
+    "value": -0.272729,
+    "printed": -0.273,
+    "diff": 0.000271
+   },
+   "wmean_Security": {
+    "value": -0.149738,
+    "printed": -0.15,
+    "diff": 0.000262
+   },
+   "p_main_Security": {
+    "value": 0.103635,
+    "printed": 0.104,
+    "diff": -0.000365
+   },
+   "eta2_main_Security": {
+    "value": 0.002747,
+    "printed": 0.003,
+    "diff": -0.000253
+   },
+   "p_pc_Security": {
+    "value": 0.102447,
+    "printed": 0.103,
+    "diff": -0.000553
+   },
+   "eta2_pc_Security": {
+    "value": 0.001618,
+    "printed": 0.002,
+    "diff": -0.000382
+   },
+   "wmean_SelfDirection": {
+    "value": -0.011571,
+    "printed": -0.012,
+    "diff": 0.000429
+   },
+   "wmean_Stimulation": {
+    "value": -0.218324,
+    "printed": -0.218,
+    "diff": -0.000324
+   },
+   "p_main_Stimulation": {
+    "value": 0.214688,
+    "printed": 0.214,
+    "diff": 0.000688
+   },
+   "p_pc_Stimulation": {
+    "value": 0.087675,
+    "printed": 0.088,
+    "diff": -0.000325
+   },
+   "eta2_pc_Stimulation": {
+    "value": 0.001762,
+    "printed": 0.002,
+    "diff": -0.000238
+   },
+   "wmean_Hedonism": {
+    "value": -0.202761,
+    "printed": -0.203,
+    "diff": 0.000239
+   },
+   "p_main_Hedonism": {
+    "value": 0.000578,
+    "printed": 0.001,
+    "diff": -0.000422
+   },
+   "eta2_main_Hedonism": {
+    "value": 0.009003,
+    "printed": 0.009,
+    "diff": 3e-06
+   },
+   "p_pc_Hedonism": {
+    "value": 0.001264,
+    "printed": 0.001,
+    "diff": 0.000264
+   },
+   "eta2_pc_Hedonism": {
+    "value": 0.006285,
+    "printed": 0.006,
+    "diff": 0.000285
+   },
+   "wmean_Achievement": {
+    "value": 0.169379,
+    "printed": 0.17,
+    "diff": -0.000621
+   },
+   "p_main_Achievement": {
+    "value": 5.8e-05,
+    "printed": 0.0,
+    "diff": 5.8e-05
+   },
+   "eta2_main_Achievement": {
+    "value": 0.011777,
+    "printed": 0.012,
+    "diff": -0.000223
+   },
+   "p_pc_Achievement": {
+    "value": 0.002431,
+    "printed": 0.002,
+    "diff": 0.000431
+   },
+   "eta2_pc_Achievement": {
+    "value": 0.005564,
+    "printed": 0.006,
+    "diff": -0.000436
+   },
+   "wmean_Power": {
+    "value": -0.524362,
+    "printed": 0.469,
+    "diff": -0.993362
+   },
+   "p_main_Power": {
+    "value": 0.0,
+    "printed": 0.0,
+    "diff": 0.0
+   },
+   "eta2_main_Power": {
+    "value": 0.040038,
+    "printed": 0.04,
+    "diff": 3.8e-05
+   },
+   "p_pc_Power": {
+    "value": 0.0,
+    "printed": 0.0,
+    "diff": 0.0
+   },
+   "eta2_pc_Power": {
+    "value": 0.034164,
+    "printed": 0.034,
+    "diff": 0.000164
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the three SVO groups add to 1655 and give the printed 69.5 / 23.0 / 7.4% within 0.05",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "both participant flows printed (Method: 1903 - 226 - 22; Results: 1906 - 223 - 23) arrive at the analysed 1655",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "every printed main-effect eta^2 reproduces from F and df (2, n - 3) within 0.0006",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "every printed planned-comparison eta^2 reproduces from F and df (1, n - 3) within 0.0006",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "every printed p reproduces from F within 0.002 (a printed .000 read as < 0.0005)",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "the n-weighted Table 3 group means reproduce Table 2's means within 0.005 for all 11 values",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "svo_total": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "pct_prosocial": {
+      "value": 69.546828,
+      "printed": 69.5,
+      "diff": 0.046828
+     },
+     "pct_individualist": {
+      "value": 23.021148,
+      "printed": 23.0,
+      "diff": 0.021148
+     },
+     "pct_competitor": {
+      "value": 7.432024,
+      "printed": 7.4,
+      "diff": 0.032024
+     },
+     "pct_competitor_text": {
+      "value": 7.432024,
+      "printed": 7.3,
+      "diff": 0.132024
+     },
+     "method_flow_classified": {
+      "value": 1677.0,
+      "printed": 1677,
+      "diff": 0.0
+     },
+     "method_flow_final": {
+      "value": 1655.0,
+      "printed": 1655,
+      "diff": 0.0
+     },
+     "results_flow_classified": {
+      "value": 1683.0,
+      "printed": 1683,
+      "diff": 0.0
+     },
+     "results_flow_final": {
+      "value": 1660.0,
+      "printed": 1655,
+      "diff": 5.0
+     },
+     "shared_variance_pct": {
+      "value": 27.6676,
+      "printed": 28,
+      "diff": -0.3324
+     },
+     "r_crit_05": {
+      "value": 0.048208,
+      "printed": 0.049,
+      "diff": -0.000792
+     },
+     "r_crit_01": {
+      "value": 0.063359,
+      "printed": 0.064,
+      "diff": -0.000641
+     },
+     "bene_competitor_text_vs_table": {
+      "value": 0.667,
+      "printed": 0.679,
+      "diff": -0.012
+     },
+     "wmean_Universalism": {
+      "value": 0.468937,
+      "printed": 0.469,
+      "diff": -6.3e-05
+     },
+     "p_main_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Universalism": {
+      "value": 0.037014,
+      "printed": 0.037,
+      "diff": 1.4e-05
+     },
+     "p_pc_Universalism": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Universalism": {
+      "value": 0.032689,
+      "printed": 0.033,
+      "diff": -0.000311
+     },
+     "wmean_Benevolence": {
+      "value": 0.700326,
+      "printed": 0.7,
+      "diff": 0.000326
+     },
+     "p_main_Benevolence": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Benevolence": {
+      "value": 0.018977,
+      "printed": 0.019,
+      "diff": -2.3e-05
+     },
+     "p_pc_Benevolence": {
+      "value": 6.8e-05,
+      "printed": 0.0,
+      "diff": 6.8e-05
+     },
+     "eta2_pc_Benevolence": {
+      "value": 0.009597,
+      "printed": 0.01,
+      "diff": -0.000403
+     },
+     "wmean_BeneGeneral": {
+      "value": 0.804896,
+      "printed": 0.805,
+      "diff": -0.000104
+     },
+     "p_main_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_main_BeneGeneral": {
+      "value": 0.017475,
+      "printed": 0.017,
+      "diff": 0.000475
+     },
+     "p_pc_BeneGeneral": {
+      "value": 1e-06,
+      "printed": 0.0,
+      "diff": 1e-06
+     },
+     "eta2_pc_BeneGeneral": {
+      "value": 0.014081,
+      "printed": 0.014,
+      "diff": 8.1e-05
+     },
+     "wmean_Conformity": {
+      "value": -0.566248,
+      "printed": -0.567,
+      "diff": 0.000752
+     },
+     "p_main_Conformity": {
+      "value": 0.001397,
+      "printed": 0.001,
+      "diff": 0.000397
+     },
+     "eta2_main_Conformity": {
+      "value": 0.007956,
+      "printed": 0.008,
+      "diff": -4.4e-05
+     },
+     "p_pc_Conformity": {
+      "value": 0.001568,
+      "printed": 0.002,
+      "diff": -0.000432
+     },
+     "eta2_pc_Conformity": {
+      "value": 0.006057,
+      "printed": 0.006,
+      "diff": 5.7e-05
+     },
+     "wmean_Tradition": {
+      "value": -0.272729,
+      "printed": -0.273,
+      "diff": 0.000271
+     },
+     "wmean_Security": {
+      "value": -0.149738,
+      "printed": -0.15,
+      "diff": 0.000262
+     },
+     "p_main_Security": {
+      "value": 0.103635,
+      "printed": 0.104,
+      "diff": -0.000365
+     },
+     "eta2_main_Security": {
+      "value": 0.002747,
+      "printed": 0.003,
+      "diff": -0.000253
+     },
+     "p_pc_Security": {
+      "value": 0.102447,
+      "printed": 0.103,
+      "diff": -0.000553
+     },
+     "eta2_pc_Security": {
+      "value": 0.001618,
+      "printed": 0.002,
+      "diff": -0.000382
+     },
+     "wmean_SelfDirection": {
+      "value": -0.011571,
+      "printed": -0.012,
+      "diff": 0.000429
+     },
+     "wmean_Stimulation": {
+      "value": -0.218324,
+      "printed": -0.218,
+      "diff": -0.000324
+     },
+     "p_main_Stimulation": {
+      "value": 0.214688,
+      "printed": 0.214,
+      "diff": 0.000688
+     },
+     "p_pc_Stimulation": {
+      "value": 0.087675,
+      "printed": 0.088,
+      "diff": -0.000325
+     },
+     "eta2_pc_Stimulation": {
+      "value": 0.001762,
+      "printed": 0.002,
+      "diff": -0.000238
+     },
+     "wmean_Hedonism": {
+      "value": -0.202761,
+      "printed": -0.203,
+      "diff": 0.000239
+     },
+     "p_main_Hedonism": {
+      "value": 0.000578,
+      "printed": 0.001,
+      "diff": -0.000422
+     },
+     "eta2_main_Hedonism": {
+      "value": 0.009003,
+      "printed": 0.009,
+      "diff": 3e-06
+     },
+     "p_pc_Hedonism": {
+      "value": 0.001264,
+      "printed": 0.001,
+      "diff": 0.000264
+     },
+     "eta2_pc_Hedonism": {
+      "value": 0.006285,
+      "printed": 0.006,
+      "diff": 0.000285
+     },
+     "wmean_Achievement": {
+      "value": 0.169379,
+      "printed": 0.17,
+      "diff": -0.000621
+     },
+     "p_main_Achievement": {
+      "value": 5.8e-05,
+      "printed": 0.0,
+      "diff": 5.8e-05
+     },
+     "eta2_main_Achievement": {
+      "value": 0.011777,
+      "printed": 0.012,
+      "diff": -0.000223
+     },
+     "p_pc_Achievement": {
+      "value": 0.002431,
+      "printed": 0.002,
+      "diff": 0.000431
+     },
+     "eta2_pc_Achievement": {
+      "value": 0.005564,
+      "printed": 0.006,
+      "diff": -0.000436
+     },
+     "wmean_Power": {
+      "value": -0.524362,
+      "printed": 0.469,
+      "diff": -0.993362
+     },
+     "p_main_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_main_Power": {
+      "value": 0.040038,
+      "printed": 0.04,
+      "diff": 3.8e-05
+     },
+     "p_pc_Power": {
+      "value": 0.0,
+      "printed": 0.0,
+      "diff": 0.0
+     },
+     "eta2_pc_Power": {
+      "value": 0.034164,
+      "printed": 0.034,
+      "diff": 0.000164
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 8,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 6,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
