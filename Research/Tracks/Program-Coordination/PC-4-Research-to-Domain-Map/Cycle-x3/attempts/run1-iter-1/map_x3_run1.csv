@@ -1,0 +1,119 @@
+item_id,primary,secondary,label,named_in,basis
+A-01,GAIA-TOT-023,GAIA-TOT-005 GAIA-TOT-021,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; human-being topics touch TOT-021
+A-02,GAIA-TOT-023,GAIA-TOT-003,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; love as a value touches TOT-003
+A-03,GAIA-TOT-023,GAIA-TOT-005,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; evidence labels per TOT-005
+A-04,GAIA-TOT-002,GAIA-TOT-001 GAIA-TOT-011 GAIA-TOT-045,Plausible,,Universal Regulation and gate/audit fixes are governance and decision rights; audit TOT-011; rule review TOT-045
+A-05,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"owner-defined phase framework (interpretive) studied with reruns and verification (TOT-006 method); TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-01,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"phase report: owner-defined interpretive framework; cycle method TOT-006; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-02,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"phase report: as B-01; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-03,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"phase report: as B-01; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-04,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"phase report: as B-01; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-05,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"phase report: as B-01; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-06,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-039,Plausible,,"phase report: as B-01; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+B-07,GAIA-TOT-023,GAIA-TOT-006 GAIA-TOT-005 GAIA-TOT-039,Plausible,,"synthesis of the six phases; evidence-strength audit touches TOT-005; TOT-039 scope names ""phases, ×3/×6/×9/×12 cycles"""
+C-01,GAIA-TOT-023,GAIA-TOT-039,Plausible,,level box of the upgrade ladder: interpretive level scheme; portfolio sequencing TOT-039
+C-02,GAIA-TOT-023,GAIA-TOT-039,Plausible,,Metaphysical level: interpretive
+C-03,GAIA-TOT-023,GAIA-TOT-039,Plausible,,Superphysical level: interpretive
+C-04,GAIA-TOT-023,GAIA-TOT-039,Plausible,,Hyperphysical level: interpretive
+C-05,GAIA-TOT-023,GAIA-TOT-039,Plausible,,Ultraphysical level: interpretive
+C-06,GAIA-TOT-023,GAIA-TOT-039,Plausible,,Magic level: interpretive
+C-07,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-039,Established,M-b7.8,Quantum level: physics or mathematics claims need the TOT-038 claim boundary; P2: named in M-b7.8
+D-01,GAIA-TOT-003,GAIA-TOT-010 GAIA-TOT-016 GAIA-TOT-028,Established,M-b7.1,"framework of morals, ethics, values and virtues = TOT-003 purpose; companion Transforming Harm = TOT-010; image/video TI = TOT-016/028; P2: named in M-b7.1"
+D-02,GAIA-TOT-023,GAIA-TOT-010,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; transformation toward order echoes TOT-010 (weak)
+D-03,GAIA-TOT-038,GAIA-TOT-023,Plausible,,numerical pattern hypothesis: mathematics claim boundary TOT-038; Hebrews citation is interpretive TOT-023
+D-04,GAIA-TOT-040,GAIA-TOT-009 GAIA-TOT-011,Established,M-b7.3,coordinated vulnerability disclosure = TOT-040 title; P2: named in M-b7.3
+E-01,GAIA-TOT-023,GAIA-TOT-005,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims
+E-02,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-025,Plausible,,"P1 scope: TOT-038 scope names ""electromagnetic/geomagnetic concepts""; the Spirit-of-the-Earth reading is interpretive (TOT-023); Earth TOT-025"
+E-03,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-025,Plausible,,"P1 scope: TOT-038 scope names ""electromagnetic/geomagnetic concepts""; the Soul-of-the-Earth reading is interpretive (TOT-023); Earth TOT-025"
+E-04,GAIA-TOT-023,GAIA-TOT-025,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; Earth/Terra stewardship context TOT-025
+E-05,GAIA-TOT-023,GAIA-TOT-038,Plausible,,interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; alchemical/physical claims TOT-038
+F-01,GAIA-TOT-023,GAIA-TOT-038,Plausible,,classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; physics or mathematics claims need the TOT-038 claim boundary
+F-02,GAIA-TOT-023,GAIA-TOT-038 GAIA-TOT-025,Plausible,,classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; Earth TOT-025
+F-03,GAIA-TOT-023,GAIA-TOT-038,Plausible,,classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims
+F-04,GAIA-TOT-023,GAIA-TOT-038 GAIA-TOT-025,Plausible,,classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims; water systems TOT-025
+F-05,GAIA-TOT-023,GAIA-TOT-038,Plausible,,classical element: interpretive/spiritual subject; TOT-023 represents traditions without converting them into empirical claims
+F-06,GAIA-TOT-038,GAIA-TOT-023,Plausible,,"P1 scope: TOT-038 scope names ""cosmology, energy""; dark elements interpretive (TOT-023)"
+F-07,GAIA-TOT-023,GAIA-TOT-038 GAIA-TOT-006,Plausible,,"alchemy as tradition (TOT-023) and its modern science (TOT-038, method TOT-006)"
+G-01,GAIA-TOT-038,GAIA-TOT-023,Established,M-b7.8,Quantum series: physics or mathematics claims need the TOT-038 claim boundary; P2: named in M-b7.8
+G-02,GAIA-TOT-038,GAIA-TOT-023,Established,M-b7.8,entanglement types are physics: TOT-038; P2: named in M-b7.8
+G-03,GAIA-TOT-038,GAIA-TOT-023,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-04,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-025,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-05,GAIA-TOT-038,GAIA-TOT-023,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-06,GAIA-TOT-038,GAIA-TOT-005 GAIA-TOT-029 GAIA-TOT-023,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-07,GAIA-TOT-038,GAIA-TOT-003 GAIA-TOT-023,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-08,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-003,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-09,GAIA-TOT-038,GAIA-TOT-023,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+G-10,GAIA-TOT-038,,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; the quantum half of the title is clear; the meaning of ""Supremacy"" is still unconfirmed by the owner, so a second domain may follow"
+G-11,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-016 GAIA-TOT-026,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+H-01,GAIA-TOT-021,GAIA-TOT-016 GAIA-TOT-015,Plausible,,human-technology interaction = TOT-021 title
+H-02,GAIA-TOT-016,GAIA-TOT-028 GAIA-TOT-003,Established,M-b7.4,transformative intelligence = AI and intelligence (TOT-016); images/video TOT-028; P2: named in M-b7.4
+H-03,GAIA-TOT-025,GAIA-TOT-038 GAIA-TOT-037,Plausible,,planetary models and terraformation: planetary stewardship TOT-025; physics TOT-038; infrastructure TOT-037
+I-01,GAIA-TOT-023,,Plausible,,God and Lucifer: theological
+I-02,GAIA-TOT-023,,Plausible,,Yin/Yang symbol: philosophical tradition
+I-03,GAIA-TOT-038,GAIA-TOT-023,Plausible,,theory of everything is physics (TOT-038) with interpretive duality
+I-04,GAIA-TOT-038,GAIA-TOT-023,Plausible,,"P1 scope: TOT-038 scope names ""cosmology"" and ""consciousness claims""; interpretive reading TOT-023"
+J-01,GAIA-TOT-003,GAIA-TOT-039 GAIA-TOT-034,Plausible,,x13 cycle through the Good and Greater Good Framework (TOT-003) across all work (portfolio TOT-039; outcome evaluation TOT-034)
+GOV-01,GAIA-TOT-045,GAIA-TOT-002 GAIA-TOT-001,Plausible,,Totality of Governance draft is governance of governance
+GOV-02,GAIA-TOT-039,GAIA-TOT-014 GAIA-TOT-045,Established,M-b7.7,"baseline snapshot of commits, manifests, PRs and settings: status sync TOT-039; records TOT-014; P2: named in M-b7.7"
+GOV-03,GAIA-TOT-002,GAIA-TOT-045,Plausible,,"owner review of title, ID and non-waivable commitments: decision rights"
+GOV-04,GAIA-TOT-045,GAIA-TOT-033 GAIA-TOT-011,Plausible,,clause-level crosswalk of governance texts: governance review; standards crosswalk TOT-033
+GOV-05,GAIA-TOT-002,GAIA-TOT-011 GAIA-TOT-003 GAIA-TOT-045 GAIA-TOT-017,Plausible,,"roles, controls, audit closure, tooling validation, GGG pilot and adoption"
+ToG-01,GAIA-TOT-001,GAIA-TOT-003 GAIA-TOT-004 GAIA-TOT-009,Plausible,,"constitutional commitments = purpose and boundaries; dignity, consent, safety"
+ToG-02,GAIA-TOT-002,GAIA-TOT-013 GAIA-TOT-035,Established,M-b7.6,"hierarchy, authority, separation of duties = TOT-002; P2: named in M-b7.6"
+ToG-03,GAIA-TOT-045,GAIA-TOT-011 GAIA-TOT-033,Plausible,,24 governance domains and control matrix: governance of governance; control-to-evidence audit TOT-011
+ToG-04,GAIA-TOT-008,GAIA-TOT-005 GAIA-TOT-007,Plausible,,"decision states, claim labels and risk governance: TOT-008 with TOT-005/007"
+ToG-05,GAIA-TOT-003,GAIA-TOT-010,Established,M-b7.1,Good and Greater Good governance (TOT-003) and transformation of harm (TOT-010); P2: named in M-b7.1
+ToG-06,GAIA-TOT-017,GAIA-TOT-036 GAIA-TOT-009 GAIA-TOT-018 GAIA-TOT-012,Plausible,,"lifecycle gates, change control, security/privacy/resilience minimums"
+ToG-07,GAIA-TOT-016,GAIA-TOT-028,Established,M-b7.4,AI and TI governance = TOT-016; images and video = TOT-028; P2: named in M-b7.4
+ToG-08,GAIA-TOT-011,GAIA-TOT-029 GAIA-TOT-018,Plausible,,"appeal, remedy, audit = TOT-011; transparency TOT-029; incidents TOT-018"
+ToG-09,GAIA-TOT-045,GAIA-TOT-033 GAIA-TOT-014 GAIA-TOT-019,Plausible,,repository architecture and crosswalk to standards: governance review; standards TOT-033; legal/regulatory TOT-019
+ToG-10,GAIA-TOT-030,GAIA-TOT-023 GAIA-TOT-038 GAIA-TOT-009,Plausible,,governance across levels entangled with the responsibility ladder: role/competence/responsibility TOT-030
+ToG-SYN,GAIA-TOT-045,GAIA-TOT-039 GAIA-TOT-008,Plausible,,synthesis of ToG with gap register and adoption roadmap
+PC-1,GAIA-TOT-045,GAIA-TOT-002 GAIA-TOT-014,Plausible,,program charter and register reconciliation against existing governance
+PC-2,GAIA-TOT-045,GAIA-TOT-042 GAIA-TOT-033,Plausible,,"interfaces, precedence and conflict crosswalk: governance coherence; conflicts TOT-042"
+PC-3,GAIA-TOT-039,GAIA-TOT-045,Plausible,,dependency graph and wave sequencing = TOT-039 purpose
+PC-4,GAIA-TOT-039,GAIA-TOT-014,Plausible,,research-to-domain map keeps portfolio and scope synchronized = TOT-039
+PC-5,GAIA-TOT-039,GAIA-TOT-007 GAIA-TOT-014 GAIA-TOT-034,Established,M-b7.7,status and evidence dashboard = TOT-039 status/evidence sync; P2: named in M-b7.7
+PC-6,GAIA-TOT-002,GAIA-TOT-013 GAIA-TOT-035 GAIA-TOT-011 GAIA-TOT-030,Established,M-b7.6,"roles, reviewers and authority boundaries = TOT-002; TOT-030 scope names ""reviewer independence""; P2: named in M-b7.6"
+PC-7,GAIA-TOT-008,GAIA-TOT-039 GAIA-TOT-045,Plausible,,"gap, risk and stop-condition register: risk TOT-008"
+PC-8,GAIA-TOT-014,GAIA-TOT-033 GAIA-TOT-044 GAIA-TOT-045,Plausible,,cross-repository authority map: canonical identity and provenance TOT-014
+PC-9,GAIA-TOT-045,GAIA-TOT-034 GAIA-TOT-008 GAIA-TOT-011,Plausible,,program synthesis and integrated assurance: governance audit TOT-045
+K-01,GAIA-TOT-023,GAIA-TOT-005 GAIA-TOT-030 GAIA-TOT-038,Plausible,,knowledge across seven levels incl. metaphysical: interpretive; epistemics TOT-005; Quantum level TOT-038 (b7.8)
+K-02,GAIA-TOT-030,GAIA-TOT-023 GAIA-TOT-038,Plausible,,"P1 scope: TOT-030 scope names ""capability levels"" and role qualification; higher levels interpretive (TOT-023); Quantum level TOT-038 (b7.8)"
+K-03,GAIA-TOT-030,GAIA-TOT-023 GAIA-TOT-009 GAIA-TOT-038,Plausible,,"P1 scope: TOT-030 ""capability levels""; capability safeguards TOT-009; Quantum level TOT-038 (b7.8)"
+K-04,GAIA-TOT-023,GAIA-TOT-009 GAIA-TOT-030 GAIA-TOT-001 GAIA-TOT-038,Plausible,,"powers across seven levels: interpretive; protective boundaries TOT-009; TOT-001 scope: ""the boundary between metaphor, design, and deployed capability""; Quantum level TOT-038 (b7.8)"
+K-05,GAIA-TOT-024,GAIA-TOT-023 GAIA-TOT-020,Established,PC-4,Indigenous knowledge under CARE = TOT-024 title; P2: named in PC-4
+K-06,GAIA-TOT-038,GAIA-TOT-023 GAIA-TOT-030,Established,M-b7.8,"P2: the b7 Quantum cluster names TOT-038 for §G; TOT-038 scope names ""quantum mechanics, consciousness claims""; subject reading kept as secondary"
+KR-01,GAIA-TOT-023,GAIA-TOT-042 GAIA-TOT-030,Plausible,,wisdom through judgment: interpretive; decision science TOT-042
+KR-02,GAIA-TOT-030,GAIA-TOT-009 GAIA-TOT-002,Plausible,,responsibilities per power level = TOT-030 responsibility
+KR-03,GAIA-TOT-009,GAIA-TOT-010,Plausible,,safeguards and limits per level = TOT-009 protective boundaries
+KR-04,GAIA-TOT-003,GAIA-TOT-030,Plausible,,virtues and character = TOT-003 virtues
+KL-01,NONE,,Hypothetical,,scope to be confirmed with the owner; no domain can be assigned until defined
+KL-02,GAIA-TOT-023,,Plausible,,Theotokos and the second reading: theological
+KL-03,GAIA-TOT-023,,Plausible,,God: theological
+KL-04,GAIA-TOT-023,,Plausible,,Creations of God: theological
+KL-05,GAIA-TOT-023,,Plausible,,Lucifer: theological
+KL-06,GAIA-TOT-023,,Plausible,,Creations of Lucifer: theological
+KL-07,GAIA-TOT-023,,Plausible,,duality of God and Lucifer: theological
+KL-08,GAIA-TOT-023,,Plausible,,"the Ages and the Golden Age: traditions (Hesiod, yugas)"
+N-1,GAIA-TOT-016,GAIA-TOT-026 GAIA-TOT-041 GAIA-TOT-027 GAIA-TOT-005 GAIA-TOT-021,Established,N-1,"text names TOT-016, 026, 041, 027, 005; AI welfare protocol is the driving source"
+N-2,GAIA-TOT-016,GAIA-TOT-023 GAIA-TOT-021,Established,N-2,"text names TOT-016, 023, 021"
+N-3,GAIA-TOT-038,GAIA-TOT-006 GAIA-TOT-007,Established,N-3,"text names TOT-038, 006, 007"
+N-4,GAIA-TOT-025,GAIA-TOT-016 GAIA-TOT-002 GAIA-TOT-043 GAIA-TOT-023,Established,N-4,"text names TOT-025, 016, 002, 043"
+N-5,GAIA-TOT-043,GAIA-TOT-025 GAIA-TOT-022 GAIA-TOT-027 GAIA-TOT-031 GAIA-TOT-008,Established,N-5,"text names TOT-025, 043, 022, 027, 031; interconnected risk fits resilience TOT-043 best"
+N-6,GAIA-TOT-042,GAIA-TOT-007 GAIA-TOT-005 GAIA-TOT-045,Established,N-6,"text names TOT-042, 007, 005, 045"
+N-7,GAIA-TOT-038,GAIA-TOT-023,Established,N-7,"text names TOT-038, 023"
+N-8,GAIA-TOT-023,GAIA-TOT-021 GAIA-TOT-009,Established,N-8,"text names TOT-023, 021, 009"
+N-A,GAIA-TOT-033,GAIA-TOT-014 GAIA-TOT-023,Plausible,,vocabulary crosswalk = interoperability and semantics TOT-033
+N-B,GAIA-TOT-014,GAIA-TOT-045 GAIA-TOT-044 GAIA-TOT-033,Plausible,,canonical-home map: identity/provenance TOT-014
+M-s1,GAIA-TOT-025,GAIA-TOT-026 GAIA-TOT-031,Plausible,,"agriculture, forestry, fisheries: living systems TOT-025"
+M-s2,GAIA-TOT-026,GAIA-TOT-027,Plausible,,animal life and sentience = TOT-026
+M-s3,GAIA-TOT-023,GAIA-TOT-020 GAIA-TOT-028,Plausible,,arts as cultural knowledge; IP TOT-020; media TOT-028
+M-s4,GAIA-TOT-019,,Plausible,,law and jurisprudence = TOT-019
+M-s5,GAIA-TOT-031,GAIA-TOT-035,Plausible,,business and economics = TOT-031; organization TOT-035
+M-s6,GAIA-TOT-037,GAIA-TOT-025 GAIA-TOT-015,Plausible,,built environment and construction: physical infrastructure TOT-037
+M-s7,GAIA-TOT-037,GAIA-TOT-025 GAIA-TOT-032,Plausible,,"manufacturing, energy and transport: infrastructure TOT-037"
+M-s8,GAIA-TOT-023,GAIA-TOT-024 GAIA-TOT-005,Plausible,,history and historical method: interpretive knowledge; Indigenous peoples TOT-024
+M-s9,GAIA-TOT-038,GAIA-TOT-006,Plausible,,physics and cosmology foundations = TOT-038
+M-s10,GAIA-TOT-030,GAIA-TOT-021 GAIA-TOT-022,Plausible,,education and learning = TOT-030 education
+M-s11,GAIA-TOT-014,GAIA-TOT-044 GAIA-TOT-033,Plausible,,knowledge organization = TOT-014 knowledge architecture

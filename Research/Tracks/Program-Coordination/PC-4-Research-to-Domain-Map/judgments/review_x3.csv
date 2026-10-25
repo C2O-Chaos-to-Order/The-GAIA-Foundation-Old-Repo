@@ -1,0 +1,30 @@
+item_id,baseline_primary,baseline_matcher_top3,decision
+A-01,GAIA-TOT-023,GAIA-TOT-039;GAIA-TOT-026;GAIA-TOT-037,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+A-02,GAIA-TOT-023,GAIA-TOT-039;GAIA-TOT-020;GAIA-TOT-010,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+A-03,GAIA-TOT-023,GAIA-TOT-039;GAIA-TOT-020;GAIA-TOT-029,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+A-05,GAIA-TOT-023,GAIA-TOT-039;GAIA-TOT-020;GAIA-TOT-040,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-01,GAIA-TOT-023,,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-02,GAIA-TOT-023,,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-03,GAIA-TOT-023,,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-04,GAIA-TOT-023,GAIA-TOT-031;GAIA-TOT-034,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-05,GAIA-TOT-023,GAIA-TOT-031;GAIA-TOT-034,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-06,GAIA-TOT-023,GAIA-TOT-031;GAIA-TOT-034,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+B-07,GAIA-TOT-023,GAIA-TOT-020;GAIA-TOT-039,"keep primary TOT-023; P1 added TOT-039 as secondary (scope names ""phases, ×3/×6/×9/×12 cycles""); phase names (Divergence … Transcendence) are not in any charter"
+D-03,GAIA-TOT-038,GAIA-TOT-021;GAIA-TOT-020;GAIA-TOT-010,"keep: TOT-038 scope names ""Matrix hypothesis"" and ""numerical patterns""; the matcher keyed on generic words"
+E-01,GAIA-TOT-023,GAIA-TOT-021;GAIA-TOT-012;GAIA-TOT-024,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+E-05,GAIA-TOT-023,,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+F-01,GAIA-TOT-023,,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+F-03,GAIA-TOT-023,,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+F-05,GAIA-TOT-023,,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+F-06,GAIA-TOT-023,GAIA-TOT-037;GAIA-TOT-031;GAIA-TOT-025,"changed in P1 to TOT-038 (scope: ""cosmology, energy""); the matcher still prefers TOT-037/031 on the word ""energy"""
+F-07,GAIA-TOT-023,,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+H-03,GAIA-TOT-025,GAIA-TOT-016;GAIA-TOT-032;GAIA-TOT-015,"keep TOT-025: the matcher keyed on ""models"" (AI models, TOT-016); planetary models are not AI"
+I-01,GAIA-TOT-023,GAIA-TOT-029;GAIA-TOT-038,"keep: lexical artefact; the subject's words are not in any charter, and TOT-023 scope names ""religions, philosophies, metaphysics"""
+I-03,GAIA-TOT-038,GAIA-TOT-034,keep TOT-038: a theory of everything is physics; the matcher has no word for it
+PC-4,GAIA-TOT-039,GAIA-TOT-045;GAIA-TOT-024;GAIA-TOT-028,"keep TOT-039 (scope names ""volume/report mapping""): the matcher keyed on the example domains PC-4 cites"
+K-01,GAIA-TOT-023,GAIA-TOT-038;GAIA-TOT-024;GAIA-TOT-045,"P1: TOT-038 added (each series has a Quantum level); K-02 moved to TOT-030 (scope: ""capability levels"")"
+K-02,GAIA-TOT-023,GAIA-TOT-038;GAIA-TOT-045,"P1: TOT-038 added (each series has a Quantum level); K-02 moved to TOT-030 (scope: ""capability levels"")"
+K-04,GAIA-TOT-023,GAIA-TOT-038;GAIA-TOT-002;GAIA-TOT-045,"P1: TOT-038 added (each series has a Quantum level); K-02 moved to TOT-030 (scope: ""capability levels"")"
+N-2,GAIA-TOT-016,GAIA-TOT-020;GAIA-TOT-005;GAIA-TOT-039,keep: Established (the item names its domains); the matcher is distracted by long source file names
+N-5,GAIA-TOT-043,GAIA-TOT-005;GAIA-TOT-013;GAIA-TOT-011,keep: Established (the item names its domains); the matcher is distracted by long source file names
+N-8,GAIA-TOT-023,GAIA-TOT-005;GAIA-TOT-032;GAIA-TOT-022,keep: Established (the item names its domains); the matcher is distracted by long source file names

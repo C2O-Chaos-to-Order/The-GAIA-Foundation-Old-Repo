@@ -299,7 +299,8 @@ def run(cycle_dir, it, outdir=None):
                 problems.append(f"{iid}: Established but {src} text does not name {prim}")
         if prim == "NONE" and not r["basis"].strip():
             problems.append(f"{iid}: NONE needs a reason")
-        jmap[iid] = dict(primary=prim, secondary=sec, label=r["label"], basis=r["basis"])
+        jmap[iid] = dict(primary=prim, secondary=sec, label=r["label"], basis=r["basis"],
+                         named_in=r.get("named_in", "").strip())
     unmapped = [i["item_id"] for i in items
                 if i["kind"] in cfg["map_kinds"] and i["item_id"] not in jmap]
     for u in unmapped:
@@ -362,11 +363,14 @@ def run(cycle_dir, it, outdir=None):
     no_domain = [i["item_id"] for i in reports if i["item_id"] in jmap
                  and jmap[i["item_id"]]["primary"] == "NONE"]
     # b7 cluster single-home proposals
-    clusters_ok, cl_rows = 0, []
+    clusters_ok, cl_rows, cl_named = 0, [], {}
     cpath = cfg.get("clusters")
     if cpath:
         for c in load_map(os.path.normpath(os.path.join(cycle_dir, cpath))):
             cid, mem = c["cluster_id"], split_ids(c["members"])
+            if cid in byid:
+                for m in mem:
+                    cl_named.setdefault(m, []).append((cid, named_tots(byid[cid]["text"])))
             errs = []
             if cid not in byid:
                 errs.append("unknown cluster id")
@@ -393,6 +397,25 @@ def run(cycle_dir, it, outdir=None):
             cl_rows.append(dict(cluster_id=cid, home_item=c["home_item"],
                                 home_domain=c["home_domain"], n_members=len(mem),
                                 ok=int(not errs)))
+    # queue-named consistency (x3 onward)
+    qn_missing, qn_not_primary = [], []
+    if cfg.get("queue_named_checks"):
+        for iid, j in sorted(jmap.items()):
+            src = j["named_in"]
+            if src.startswith("M-b7.") and src not in [c for c, _ in cl_named.get(iid, [])]:
+                problems.append(f"{iid}: named_in {src} but not a member of that cluster")
+            judged = set(([j["primary"]] if j["primary"] != "NONE" else []) + j["secondary"])
+            own = named_tots(byid[iid]["text"])
+            for d in sorted(own - judged):
+                qn_missing.append(f"{iid}: own text names {d}")
+            named_all = set(own)
+            for cid, nd in cl_named.get(iid, []):
+                named_all |= nd
+                if nd and not (nd & judged):
+                    qn_missing.append(f"{iid}: carries none of {cid}'s domains")
+            if named_all and j["primary"] not in named_all:
+                qn_not_primary.append(f"{iid}: primary {j['primary']} not among queue-named "
+                                      + ",".join(sorted(named_all)))
     # outputs
     out = outdir or os.path.join(cycle_dir, f"iter-{it}")
     os.makedirs(out, exist_ok=True)
@@ -438,6 +461,9 @@ def run(cycle_dir, it, outdir=None):
         clusters_ok=clusters_ok, clusters=cl_rows,
         problems=problems,
     )
+    if cfg.get("queue_named_checks"):
+        metrics["queue_named_missing"] = qn_missing
+        metrics["queue_named_not_primary"] = qn_not_primary
     # pre-registered checks
     checks = []
     for c in cfg["checks"]:

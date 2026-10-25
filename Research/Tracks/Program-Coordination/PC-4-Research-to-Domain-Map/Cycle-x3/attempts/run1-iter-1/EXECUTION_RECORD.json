@@ -1,0 +1,242 @@
+{
+  "track": "PC-4 Research-to-Domain Map",
+  "cycle": "x3",
+  "iteration": 1,
+  "variant": {
+    "variant": "charter",
+    "stem": true,
+    "k": 3
+  },
+  "inputs": {
+    "work_queue": "../../../../WORK_QUEUE.md",
+    "work_queue_sha256": "0a7d4dd5a01c002d19c261d5b9ecc008b0858696c45387070c03287341666d88",
+    "judgment_map": "../judgments/map_x3.csv",
+    "judgment_map_sha256": "96f983aad77baf3127dd63394bc31bd2e626cd215fba027d874ddb2784c57e3c",
+    "suite": "GAIA Totality Suite v0.1.0 (owner-provided, Proposed, not adopted; external, not filed)",
+    "register_sha256": "057efb5489305f99280f9b350771058686e35fef753682449f2901b152fe8c72"
+  },
+  "metrics": {
+    "n_items": 193,
+    "n_boxes": 193,
+    "n_reports": 91,
+    "n_mapped": 118,
+    "n_matcher_items": 90,
+    "k": 3,
+    "variant": "charter",
+    "stem": true,
+    "top1_rate": 0.4333,
+    "topk_primary_rate": 0.5556,
+    "topk_any_rate": 0.7333,
+    "zero_score_items": 8,
+    "topk_by_label": {
+      "Established": [
+        24,
+        29,
+        0.8276
+      ],
+      "Plausible": [
+        26,
+        61,
+        0.4262
+      ]
+    },
+    "report_label_counts": {
+      "Established": 29,
+      "Hypothetical": 1,
+      "Plausible": 61
+    },
+    "domains_no_report_primary": [
+      "GAIA-TOT-004",
+      "GAIA-TOT-005",
+      "GAIA-TOT-006",
+      "GAIA-TOT-007",
+      "GAIA-TOT-009",
+      "GAIA-TOT-010",
+      "GAIA-TOT-012",
+      "GAIA-TOT-013",
+      "GAIA-TOT-015",
+      "GAIA-TOT-018",
+      "GAIA-TOT-019",
+      "GAIA-TOT-020",
+      "GAIA-TOT-022",
+      "GAIA-TOT-026",
+      "GAIA-TOT-027",
+      "GAIA-TOT-028",
+      "GAIA-TOT-029",
+      "GAIA-TOT-031",
+      "GAIA-TOT-032",
+      "GAIA-TOT-034",
+      "GAIA-TOT-035",
+      "GAIA-TOT-036",
+      "GAIA-TOT-037",
+      "GAIA-TOT-041",
+      "GAIA-TOT-044"
+    ],
+    "domains_no_report_any": [
+      "GAIA-TOT-032"
+    ],
+    "domains_no_report_with_candidates": [],
+    "reports_no_domain": [
+      "KL-01"
+    ],
+    "inventory_gap": 0,
+    "clusters_ok": 9,
+    "clusters": [
+      {
+        "cluster_id": "M-b7.1",
+        "home_item": "D-01",
+        "home_domain": "GAIA-TOT-003",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.2",
+        "home_item": "D-01",
+        "home_domain": "GAIA-TOT-010",
+        "n_members": 2,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.3",
+        "home_item": "D-04",
+        "home_domain": "GAIA-TOT-040",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.4",
+        "home_item": "ToG-07",
+        "home_domain": "GAIA-TOT-016",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.5",
+        "home_item": "PC-2",
+        "home_domain": "GAIA-TOT-045",
+        "n_members": 5,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.6",
+        "home_item": "PC-6",
+        "home_domain": "GAIA-TOT-002",
+        "n_members": 3,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.7",
+        "home_item": "PC-5",
+        "home_domain": "GAIA-TOT-039",
+        "n_members": 4,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.8",
+        "home_item": "G-01",
+        "home_domain": "GAIA-TOT-038",
+        "n_members": 18,
+        "ok": 1
+      },
+      {
+        "cluster_id": "M-b7.9",
+        "home_item": "ToG-10",
+        "home_domain": "GAIA-TOT-030",
+        "n_members": 13,
+        "ok": 1
+      }
+    ],
+    "problems": [],
+    "queue_named_missing": [
+      "PC-4: own text names GAIA-TOT-024",
+      "PC-4: own text names GAIA-TOT-028",
+      "PC-4: own text names GAIA-TOT-037",
+      "PC-4: own text names GAIA-TOT-038",
+      "ToG-06: carries none of M-b7.3's domains",
+      "ToG-08: carries none of M-b7.3's domains"
+    ],
+    "queue_named_not_primary": [
+      "H-01: primary GAIA-TOT-021 not among queue-named GAIA-TOT-016,GAIA-TOT-028",
+      "K-01: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "K-02: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "K-03: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "K-04: primary GAIA-TOT-023 not among queue-named GAIA-TOT-038",
+      "PC-4: primary GAIA-TOT-039 not among queue-named GAIA-TOT-024,GAIA-TOT-028,GAIA-TOT-037,GAIA-TOT-038",
+      "PC-7: primary GAIA-TOT-008 not among queue-named GAIA-TOT-039",
+      "ToG-06: primary GAIA-TOT-017 not among queue-named GAIA-TOT-040",
+      "ToG-08: primary GAIA-TOT-011 not among queue-named GAIA-TOT-040",
+      "ToG-10: primary GAIA-TOT-030 not among queue-named GAIA-TOT-038",
+      "ToG-SYN: primary GAIA-TOT-045 not among queue-named GAIA-TOT-039"
+    ]
+  },
+  "checks": [
+    {
+      "id": "X3-1",
+      "hypothesis": "Inventory still complete",
+      "metric": "inventory_gap",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X3-2",
+      "hypothesis": "Every in-scope row passes the integrity checks, including Established-by-reference (named_in) checks",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0,
+      "value": 0,
+      "result": "PASS"
+    },
+    {
+      "id": "X3-3",
+      "hypothesis": "Every domain an item's own text names is among its judged domains, and every cluster member carries at least one of the domains its cluster names",
+      "metric": "queue_named_missing",
+      "op": "eq",
+      "threshold": 0,
+      "value": 6,
+      "result": "FAIL"
+    },
+    {
+      "id": "X3-4",
+      "hypothesis": "After the review the charter matcher agrees at least as well as at Baseline (top-3 primary >= 0.427)",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.427,
+      "value": 0.5556,
+      "result": "PASS"
+    },
+    {
+      "id": "X3-7",
+      "hypothesis": "At least 15 reports are Established (named in the Work Queue text, directly or by a b7 cluster or PC-4 example)",
+      "metric": "report_label_counts.Established",
+      "op": "ge",
+      "threshold": 15,
+      "value": 29,
+      "result": "PASS"
+    },
+    {
+      "id": "X3-8",
+      "hypothesis": "Reports with no domain do not increase (<= 2)",
+      "metric": "reports_no_domain",
+      "op": "le",
+      "threshold": 2,
+      "value": 1,
+      "result": "PASS"
+    },
+    {
+      "id": "X3-9",
+      "hypothesis": "All 9 b7 proposals still pass the structural checks",
+      "metric": "clusters_ok",
+      "op": "eq",
+      "threshold": 9,
+      "value": 9,
+      "result": "PASS"
+    }
+  ],
+  "outputs": {
+    "data/coverage_domains.csv": "163f7ffec92341bb8380fb00f77621c8acade420c52ef8edaf21e1e4d495aeb6",
+    "data/item_domain_map.csv": "2891525e770bd2d9c2fb88964e596c6bde78b129ffdc83091b5f48d702dcc35f",
+    "data/matcher.csv": "612efe5a113a06145f665e4050c62ec925a6daf66d2951e5e53d885f84ac5178"
+  }
+}
