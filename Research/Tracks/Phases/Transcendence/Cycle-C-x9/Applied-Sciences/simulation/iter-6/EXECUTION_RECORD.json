@@ -1,0 +1,168 @@
+{
+ "sim_id": "SIM-TR-APP-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:55.937866+00:00",
+ "finished_utc": "2026-10-25T01:20:56.395112+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-6  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "f39c2d668d9ebc0458b168880f058cd90e84947b9df837ffbb2d59824d249528",
+ "params_sha256": "e081cd870549776ea374e2571fdb212aab987edd810434d4da529862d0a7977f",
+ "results_sha256": "be8fe94ee79e6181a58402af5a2119cf871d22fa0112e75d4511135cb2e26160",
+ "results": {
+  "items": {
+   "obs_5DASC": {
+    "value": 13.0,
+    "printed": 14,
+    "diff": -1.0
+   },
+   "samples_5DASC": {
+    "value": 7.0,
+    "printed": 7,
+    "diff": 0.0
+   },
+   "obs_11ASC_4scales": {
+    "value": 10.0,
+    "printed": 10,
+    "diff": 0.0
+   },
+   "obs_MEQ30": {
+    "value": 11.0,
+    "printed": 11,
+    "diff": 0.0
+   },
+   "studies_table1": {
+    "value": 17.0,
+    "printed": 17,
+    "diff": 0.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P106 Table 1: the 5D-ASC dose conditions of the included samples add to the 14 observations the text reports",
+   "observed": {
+    "items": {
+     "obs_5DASC": {
+      "value": 13.0,
+      "printed": 14,
+      "diff": -1.0
+     },
+     "samples_5DASC": {
+      "value": 7.0,
+      "printed": 7,
+      "diff": 0.0
+     },
+     "obs_11ASC_4scales": {
+      "value": 10.0,
+      "printed": 10,
+      "diff": 0.0
+     },
+     "obs_MEQ30": {
+      "value": 11.0,
+      "printed": 11,
+      "diff": 0.0
+     },
+     "studies_table1": {
+      "value": 17.0,
+      "printed": 17,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the MEQ30 (11) and 11-ASC (10) observation counts match Table 1",
+   "observed": {
+    "items": {
+     "obs_5DASC": {
+      "value": 13.0,
+      "printed": 14,
+      "diff": -1.0
+     },
+     "samples_5DASC": {
+      "value": 7.0,
+      "printed": 7,
+      "diff": 0.0
+     },
+     "obs_11ASC_4scales": {
+      "value": 10.0,
+      "printed": 10,
+      "diff": 0.0
+     },
+     "obs_MEQ30": {
+      "value": 11.0,
+      "printed": 11,
+      "diff": 0.0
+     },
+     "studies_table1": {
+      "value": 17.0,
+      "printed": 17,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "obs_5DASC": {
+      "value": 13.0,
+      "printed": 14,
+      "diff": -1.0
+     },
+     "samples_5DASC": {
+      "value": 7.0,
+      "printed": 7,
+      "diff": 0.0
+     },
+     "obs_11ASC_4scales": {
+      "value": 10.0,
+      "printed": 10,
+      "diff": 0.0
+     },
+     "obs_MEQ30": {
+      "value": 11.0,
+      "printed": 11,
+      "diff": 0.0
+     },
+     "studies_table1": {
+      "value": 17.0,
+      "printed": 17,
+      "diff": 0.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
