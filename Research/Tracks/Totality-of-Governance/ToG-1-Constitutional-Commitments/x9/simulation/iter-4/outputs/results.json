@@ -1,0 +1,30 @@
+{
+  "reviewer_cases": 648,
+  "observed_outcomes": {
+    "FAIL": 584,
+    "INDETERMINATE": 62,
+    "PASS": 2
+  },
+  "unknown_factor_passes": 0,
+  "self_review_passes": 0,
+  "stale_review_passes": 0,
+  "hidden_conflict_passes": 1,
+  "checks": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "R3": "PASS",
+    "R4": "PASS",
+    "R5": "PASS",
+    "R6": "PASS",
+    "R7": "PASS"
+  },
+  "hypotheses": {
+    "H4": {
+      "statement": "Metadata PASS always establishes genuine independence",
+      "result": "NOT SUPPORTED",
+      "counterexamples": 1,
+      "scope": "Constructed information-limit witness,not empirical reviewer failure rate"
+    }
+  },
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

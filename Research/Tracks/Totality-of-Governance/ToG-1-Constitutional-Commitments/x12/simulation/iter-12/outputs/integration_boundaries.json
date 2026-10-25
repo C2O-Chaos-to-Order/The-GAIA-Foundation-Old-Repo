@@ -1,0 +1,983 @@
+[
+  {
+    "slot": "authenticity",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "authenticity",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "authenticity",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "applicability",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "applicability",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "support",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "support",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "review",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "review",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "delegation",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "delegation",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "freshness",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "freshness",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "atomicity",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "atomicity",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "remedy",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "remedy",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "UNRECOGNIZED",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": null,
+    "decision": "INDETERMINATE"
+  },
+  {
+    "slot": "human_approval",
+    "input": true,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": false,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": 0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": 1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": -1,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": 0.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": 1.0,
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": " ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "pass",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": " PASS ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "FAIL ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "INDETERMINATE ",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "PASS\u0000",
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": [],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": {},
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": [
+      "PASS"
+    ],
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": {
+      "state": "PASS"
+    },
+    "decision": "FAIL"
+  },
+  {
+    "slot": "human_approval",
+    "input": "\uff30\uff21\uff33\uff33",
+    "decision": "FAIL"
+  }
+]

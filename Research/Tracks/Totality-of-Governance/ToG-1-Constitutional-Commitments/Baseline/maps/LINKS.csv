@@ -1,0 +1,24 @@
+link_id,target,relationship,label,basis,target_audit
+TOG1-C0-LINK-R1,Foundational Report 1: Body,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-R2,Foundational Report 2: Mind,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-R3,Foundational Report 3: Soul,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-R4,Foundational Report 4: Spirit,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-R5,Foundational Report 5: Consciousness,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-R6,Foundational Report 6: Earth,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-R7,Foundational Report 7: Unified Framework,proposed governance applicability,Philosophical/Spiritual,"S06 scope; constitutional commitments should constrain claims and actions in each report, not validate its findings",NOT PERFORMED
+TOG1-C0-LINK-UR,GOVERNANCE/UNIVERSAL_REGULATION.md,references/dependency;not supersedes,Plausible,reconcile all seven laws and preserve authorization law7,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-GATE,GOVERNANCE/GATE_AUTHORITY.md,references/dependency;not supersedes,Plausible,preserve owner authority and mandatory independent review,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-RISK,GOVERNANCE/RISK_LEVELS.md,references/dependency;not supersedes,Plausible,preserve RL ladder; no R-scale replacement,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-PC4,PC-4 Research-to-Domain Map,references/dependency;not supersedes,Plausible,proposed domain homes; no duplicate domain-charter authorship,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-PC1,PC-1 Register Reconciliation,references/dependency;not supersedes,Plausible,stable ID and owner decisions not resolved here,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-PHASES,Six-phase synthesis,references/dependency;not supersedes,Plausible,repetition is not independence; no phase mapping asserted,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-E1,The Connection,references/dependency;not supersedes,Plausible,self-audit precedent is not independent verification,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-LOVE,Master Report: Unconditional and Conditional Love,references/dependency;not supersedes,Plausible,greater-good/love framing must not waive rights or evidence,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-SSSC,Soul-Spirit-Subconscious-Consciousness track,references/dependency;not supersedes,Plausible,non-exemption applies to interpretive and consciousness claims,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-NA,N-A Level-Name Crosswalk,references/dependency;not supersedes,Plausible,level names remain distinct from authority and empirical validation,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-TOG2,ToG 2;PC-6,references/dependency;not supersedes,Plausible,authority/reviewer implementation belongs downstream,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-TOG4,ToG 4;PC-5,references/dependency;not supersedes,Plausible,decision-state formalization and dashboard belong downstream,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-TOG5,ToG 5;Good and Greater Good,references/dependency;not supersedes,Plausible,ethical framework source files not reconstructed here,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-TOG6,ToG 6,references/dependency;not supersedes,Plausible,operational security and release controls remain downstream,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-TOG8,ToG 8,references/dependency;not supersedes,Plausible,appeal and incident mechanisms remain downstream,Scope-level relation only; no full target-claim review
+TOG1-C0-LINK-TOG9,ToG 9;PC-2,references/dependency;not supersedes,Plausible,full legal/standards conflict reconciliation remains downstream,Scope-level relation only; no full target-claim review

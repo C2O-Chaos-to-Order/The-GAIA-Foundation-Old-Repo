@@ -1,0 +1,33 @@
+id,question,state,needed_evidence,responsible_role
+B01,Independent content/rights reviewer,NONE,Qualified review/findings,Owner
+B02,Ethics review,NONE,Appropriate independent rights/ethics review,Owner
+B03,R/RL scale reconciliation,UNRESOLVED,Explicit owner-led reconciliation,Owner;ToG4;PC2
+B04,Non-waivable/emergency authority,UNRESOLVED,Qualified bounded owner decisions and appeals,Owner
+B05,Source archives/access,PARTIAL,Authorized actualversions and missing sourceportions,Information steward
+B06,Independent reproduction,NOT PERFORMED,Different qualifiedactor rerun,Independent reviewer
+B07,Canonical all-work integration,NOT PERFORMED,"Priorledgers,generators,IDs,schema validation",Owner-approved integrator
+B08,Legal applicability/bases,NOT DETERMINED,Jurisdiction/use-specific legalreview,Counsel
+B09,Affected/community participation,NOT CONSULTED,Appropriate rights/cultural participation,Owner;representatives
+B10,Operational effectiveness,NOT ASSESSED,Ethical outcome/operational evaluation,Qualified evaluator
+B11,GitHub/WorkQueue disposition,NOT WRITTEN,Exactpath/contentapproval;not whole-seriescheckoff,Owner
+B12,Unseen source/study portions,PARTIAL,"RelevantPROVnorms,GP31body,articleconclusion/underlyingstudies",Researcher
+B13,Retention/privacy/correction,UNRESOLVED,"Purpose,minimization,authority andcorrectionprocedure",Privacy/cultural reviewers
+X301,Original priorarchives/capsules,UNAVAILABLE,Recover45/41/54row packages andverifydigests,Owner;researcher
+X302,Attestation truth,ASSUMED,"Authenticity,entailment,qualificationgrounds",Qualified reviewer
+X303,Unbounded lifecycle correctness,UNPROVEN,Beyond boundedhorizons/operational tests,Independent verifier
+X304,Actual audit benefit,UNTESTED,"Errors,harms,burden/outcomes study",Qualified evaluator
+X601,Applicability rationale quality,PARTIALLY ADDRESSED LOCALLY,Fields/text checked;actual soundness unresolved,Owner;reviewers
+X602,Derivation semanticvalidity,NOT VERIFIED,Actualsupport andrelevantnorms,Domain reviewer
+X603,Undisclosed conflicts,LIMITATION DEMONSTRATED,"H4is witness,not realinvestigation",Independent reviewer
+X604,Issuer/grant authenticity,ASSUMED,Credential/basis/implementation assessment,Security/legal reviewer
+X605,Distributed atomicity/clocks,NOT TESTED OPERATIONALLY,Actualnetwork/storage/clock evaluation,Authorized engineer
+X606,Remedy effectiveness/legal scope,NOT ASSESSED,Actualparticipation/redress andlegalcontext,Rights/legal reviewer
+X901,Record verification quality,NOT ESTABLISHED,Beyond typednonemptyfields,Qualified reviewer
+X902,Hidden review facts,LIMITATION DEMONSTRATED,Do not infer clearancefromnondisclosure,Independent reviewer
+X903,Lease window/offline burden,LIMITATION DEMONSTRATED,Contextualrisk/availabilitydecision,Owner;reviewers
+X904,Clock/delivery/observation bounds,ASSUMED,Measure/enforcebounds beforeclaims,Authorized engineer
+X905,Ancestorrevocation knowledge,ASSUMED COMPLETE IN MODEL5,Observedfreshness overwholechain,Security reviewer
+X906,Atomic primitive/replay,NOT IMPLEMENTED,Storage/CAS/nonce/liveness implementationevidence,Authorized engineer
+X907,Actual grievanceoutcome,NOT EVALUATED,Affectedpartyfeedback/verifiedremedy,Rights/affected reviewers
+X908,End-to-end composition,UNPROVEN,Independent assurance ofactualsystemcomposition,Independent reviewer
+X909,Invalid verification enum/type handling,FAIL FOR EXTERNAL-INPUT VALIDATOR REUSE,"Explicit allowlist/type validation,pre-specified revised tests and qualified review;do not silently edit frozen x9 evidence",Owner-approved tooling author/reviewer

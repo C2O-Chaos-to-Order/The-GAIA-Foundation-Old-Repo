@@ -1,0 +1,16 @@
+{
+  "legacy_cases": 6,
+  "historical_invalid_inputs_accepted": 3,
+  "legacy_external_input_criterion": "FAIL",
+  "artifact_status": "Labelled reconstruction,not originalbytes",
+  "checks": {
+    "L1": "PASS",
+    "L2": "PASS",
+    "L3": "PASS",
+    "L4": "PASS",
+    "L5": "PASS",
+    "L6": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+}

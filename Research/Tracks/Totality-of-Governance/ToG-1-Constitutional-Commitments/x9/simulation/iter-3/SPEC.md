@@ -1,0 +1,4 @@
+# Iteration3 — time/version/evidence consistency
+ID TOG1-X9-SIM3. Read iter2actualtransfer andrecord.
+Generation,use,invalidation timestamps each0..3:64triples. Currentversion matchbool2 andverificationP/F/I3=>384cases. This localapplication requiresgen<=use<invalidation,strict cutoff chosen here,not claimed as exactW3Cnormativeconstraint or fullPROVvalidator. Badtimeorder orverificationF=>FAIL;else staleversion orverificationI=>INDETERMINATE;elsePASS. Provenance consistency not truth. Compute independentlyexpressedoracle via admissibletimepairs. Persist allrows.
+Checks P1 predecessorfictionalresearchscope;P2 count384;P3 nooracle differences;P4 noPASS useafter/equalinvalidation;P5 staleversionneverPASS;P6 unknownverificationneverPASS;P7 validfutureinvalidation canPASS and resultdoesnotassertsemantictruth. Emit synthetic current-supportcontract.

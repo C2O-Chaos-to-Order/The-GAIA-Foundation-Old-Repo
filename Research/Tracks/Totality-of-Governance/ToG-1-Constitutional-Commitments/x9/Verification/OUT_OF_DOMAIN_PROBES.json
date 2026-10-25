@@ -1,0 +1,38 @@
+{
+  "scope": "Post-run direct-function robustness probes beyond the specified P/F/I verification domain;not extra full model process executions",
+  "function_extraction": "Exact assess FunctionDef and fields literal parsed from delivered runner;other runner code not executed",
+  "runner_sha256": "ca2b3b3a95d34cd245b352b2fdb99e5f5e4370a2cd3e3b09f41c833346623356",
+  "initial_function_calls": 3,
+  "same_author_repeat_function_calls": 3,
+  "cases": [
+    {
+      "verification_input": "UNRECOGNIZED",
+      "input_type": "str",
+      "expected": "Must not PASS for unrecognized/missing/wrong-type verification label",
+      "actual": "PASS",
+      "reasons": [],
+      "result": "FAIL",
+      "same_author_repeat_identical": true
+    },
+    {
+      "verification_input": null,
+      "input_type": "NoneType",
+      "expected": "Must not PASS for unrecognized/missing/wrong-type verification label",
+      "actual": "PASS",
+      "reasons": [],
+      "result": "FAIL",
+      "same_author_repeat_identical": true
+    },
+    {
+      "verification_input": true,
+      "input_type": "bool",
+      "expected": "Must not PASS for unrecognized/missing/wrong-type verification label",
+      "actual": "PASS",
+      "reasons": [],
+      "result": "FAIL",
+      "same_author_repeat_identical": true
+    }
+  ],
+  "external_input_validator_scope_gate": "FAIL",
+  "actual_deployed_service": "NONE"
+}

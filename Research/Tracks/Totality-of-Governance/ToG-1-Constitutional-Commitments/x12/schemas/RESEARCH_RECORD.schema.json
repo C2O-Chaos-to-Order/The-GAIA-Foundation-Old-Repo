@@ -1,0 +1,40 @@
+{
+  "title": "Illustrative six-field research record structure",
+  "type": "object",
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "authority": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_ref": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "record_id",
+    "scope",
+    "rationale",
+    "authority",
+    "version",
+    "evidence_ref"
+  ],
+  "additionalProperties": false,
+  "$comment": "Informative structuralschema only. Helper adds whitespace/null/NUL/scope/version semantics. Not a fullJSONSchemavalidator or permissionproof."
+}

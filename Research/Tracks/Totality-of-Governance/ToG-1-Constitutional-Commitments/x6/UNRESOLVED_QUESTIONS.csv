@@ -1,0 +1,24 @@
+id,question,state,evidence_needed,responsible_role
+B01,Independent content/rights reviewer,NONE,Name qualified reviewer and obtain findings,Owner
+B02,Ethics review,NONE,Independent appropriate rights/ethics review,Owner
+B03,R versus RL scale reconciliation,UNRESOLVED,Explicit owner-led reconciliation without weakening existing safeguards,Owner;ToG4;PC2
+B04,Non-waivable commitments and emergency authority,UNRESOLVED,Owner and qualified reviewers define bounds and appeals,Owner
+B05,Source completeness/authorized archives,PARTIAL,Capture actual versions where authorized;retain access limits,Information steward
+B06,Independent model reproduction,NOT PERFORMED,Different qualified actor reruns supplied artifacts,Independent reviewer
+B07,Global map/schema integration,NOT PERFORMED,"Recover prior ledgers,inspect canonical generators,approve IDs and validate all work",Owner-approved integrator
+B08,Legal applicability and processing bases,NOT DETERMINED,Qualified jurisdiction/use-specific review,Qualified counsel
+B09,Affected parties and community authority,NOT CONSULTED,Appropriate rights/cultural participation before consequential adoption,Owner;affected representatives
+B10,Operational control effectiveness,NOT ASSESSED,"Independent ethical operational evaluation,not synthetic enumeration alone",Operators;independent evaluator
+B11,GitHub publication and WorkQueue status,NOT WRITTEN,Approve exact branch/files/PR;do not check entire series for localx6,Owner
+B12,Unseen source portions/full scholarship,PARTIAL,"Read needed control bodies,normative PROVsections and fullpaper before stronger claims",Researcher
+B13,Retention versus privacy/correction,UNRESOLVED,"Purpose,minimization,access,legal/cultural retention and correction procedures",Owner;privacy/cultural reviewers
+X301,Original Baseline/x3 byte continuity,UNAVAILABLE,"Recover original45/41row packages,verify manifests and previously reported digests",Owner;researcher
+X302,Trustworthy evidence/role attestations,ASSUMED,"Establish real authenticity,entailment,competence and conflicts",Qualified reviewers
+X303,Arbitrary-time lifecycle correctness,UNPROVEN,Horizon5is bounded;formal/operational tests under authority needed,Independent verifier
+X304,Actual audit-effectiveness hypothesis,UNTESTED,Ethically designed comparison with real outcomes and burden,Qualified evaluator
+X601,Applicability authority and fraud,UNRESOLVED,"Define mandatory/conditional control applicability and verify rationales,not trusted flags",Owner;qualified reviewers
+X602,Dependency semantic validity,NOT VERIFIED,Inspect actual support/derivation relations and full standards before conformance claims,Researcher;domain reviewers
+X603,Undisclosed institutional conflicts,NOT ASSESSED,Appropriate conflict investigation beyond fictional identity/edge declarations,Qualified independent reviewer
+X604,Issuer authentication and scoped grants,ASSUMED,"Credential,basis and deployment-specific threat assessment before use",Security/privacy/legal reviewers
+X605,Distributed check/use atomicity and clocks,NOT TESTED,"Qualified isolated tests of races,network/clock behavior and revocation latency",Authorized engineer
+X606,Remedy effectiveness and legal scope,NOT ASSESSED,Do not generalize gross-violations instrument;evaluate relevant real remedy with qualified input,Rights/legal/affected-party reviewers

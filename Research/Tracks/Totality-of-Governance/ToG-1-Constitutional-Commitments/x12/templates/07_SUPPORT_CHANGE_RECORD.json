@@ -1,0 +1,12 @@
+{
+  "source_ids_versions": null,
+  "dependencies": null,
+  "local_failure_evidence": null,
+  "currentness": null,
+  "affected_claims": null,
+  "semantic_support_review": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

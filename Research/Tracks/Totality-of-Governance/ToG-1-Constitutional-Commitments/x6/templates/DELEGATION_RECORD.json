@@ -1,0 +1,17 @@
+{
+  "record_id": null,
+  "parent_grant_id": null,
+  "issuer_identity_and_verification": null,
+  "delegate_subject": null,
+  "resources": [],
+  "actions": [],
+  "purpose": null,
+  "policy_version": null,
+  "valid_from": null,
+  "expires": null,
+  "parent_scope_and_expiry": null,
+  "revocation_status": null,
+  "qualified_legal_cultural_basis_if_needed": null,
+  "proposed_gate": "INDETERMINATE",
+  "note": "No scope amplification or presumed approval;not a connector confirmation"
+}

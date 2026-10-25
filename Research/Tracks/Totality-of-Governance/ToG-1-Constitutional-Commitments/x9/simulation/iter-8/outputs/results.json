@@ -1,0 +1,27 @@
+{
+  "remedy_vectors": 59049,
+  "process_ready_outcomes": {
+    "PASS": 3,
+    "FAIL": 57513,
+    "INDETERMINATE": 1533
+  },
+  "remedy_supported_outcomes": {
+    "PASS": 1,
+    "FAIL": 58025,
+    "INDETERMINATE": 1023
+  },
+  "oracle_mismatches": 0,
+  "unsupported_remedy_passes": 0,
+  "process_only_false_remedy_passes": 2,
+  "checks": {
+    "M1": "PASS",
+    "M2": "PASS",
+    "M3": "PASS",
+    "M4": "PASS",
+    "M5": "PASS",
+    "M6": "PASS",
+    "M7": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

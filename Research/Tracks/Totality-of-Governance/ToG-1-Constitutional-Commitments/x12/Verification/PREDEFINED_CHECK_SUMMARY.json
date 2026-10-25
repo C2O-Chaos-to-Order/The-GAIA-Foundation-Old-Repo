@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "PASS": 73,
+    "FAIL": 1
+  },
+  "failed_checks": [
+    {
+      "iteration": 6,
+      "check": "A1"
+    }
+  ],
+  "cardinality_audit": {
+    "specified_count": 5346,
+    "actual_factor_product": 1782,
+    "actual_cases": 1782,
+    "disposition": "OriginalA1FAILretained;specarithmeticerror,not correctedafteroutcome"
+  },
+  "additional_direct_function_probes": {
+    "candidate_nul_line": [
+      "        elif '\\x00' in record[name]:"
+    ],
+    "actual_nul_decision": [
+      "FAIL",
+      [
+        "rationale:nul"
+      ]
+    ],
+    "literal_escape_decision": [
+      "PASS",
+      []
+    ],
+    "spec_case_product": 1782,
+    "declared_spec_case_count": 5346
+  }
+}

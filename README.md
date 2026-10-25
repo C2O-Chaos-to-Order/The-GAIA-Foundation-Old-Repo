@@ -13,7 +13,7 @@ This repository holds the foundational research corpus for GAIA and the governan
 - **Implementation is not authorized.** Research, successful tests and technical capability do not grant permission to deploy (Universal Regulation, Law 7).
 - **Universal Regulation standard:** Proposed, not adopted, not implemented. Audit v2 gate: INDETERMINATE (see [`GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md`](GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md)).
 
-## What is on `main` (as of commit `bd3a085a`, PR #37)
+## What is on `main` (as of commit `fdec378a`, PR #39)
 
 | Area | Path | Contents | Gate |
 |---|---|---|---|
@@ -24,9 +24,10 @@ This repository holds the foundational research corpus for GAIA and the governan
 | Soul / Spirit / Subconscious / Consciousness track | [`Research/Tracks/Soul-Spirit-Subconscious-Consciousness/`](Research/Tracks/Soul-Spirit-Subconscious-Consciousness/) | Track Cycles A (x3), B (x6), C (x9), D (x12) | INDETERMINATE |
 | Phases track | [`Research/Tracks/Phases/`](Research/Tracks/Phases/) | Six phases (Divergence, Insurgence, Allegiance, Convergence, Ascendence, Transcendence), each Baseline, x3, x6, x9, x12, and the six-phase synthesis (`SYNTHESIS.md`) | INDETERMINATE |
 | Program Coordination track | [`Research/Tracks/Program-Coordination/`](Research/Tracks/Program-Coordination/) | PC-4 Research-to-Domain Map (`PC-4-Research-to-Domain-Map/MAP.md`, PR #30) and PC-1 Program Charter and Master Register Reconciliation (`PC-1-Register-Reconciliation/REGISTER.md`, PR #31), each Baseline, x3, x6, x9, x12; owner decisions open | INDETERMINATE |
-| Cross-repository reports | [`Research/Tracks/Cross-Repository/`](Research/Tracks/Cross-Repository/) | N-A Level-Name Crosswalk, GAIA-Documentation ↔ Foundation (`N-A-Level-Name-Crosswalk/CROSSWALK.md`, PR #32), Baseline, x3, x6, x9, x12; options open for the owner | INDETERMINATE |
+| Cross-repository reports | [`Research/Tracks/Cross-Repository/`](Research/Tracks/Cross-Repository/) | N-A Level-Name Crosswalk, GAIA-Documentation ↔ Foundation (`N-A-Level-Name-Crosswalk/CROSSWALK.md`, PR #32), Baseline, x3, x6, x9, x12; options open for the owner. GAIA-Documentation: *Removed 2026-10-25: repository deleted by owner; to be uploaded later.* The report's files are kept as they were. | INDETERMINATE |
 | Connections | [`Research/Tracks/Connections/`](Research/Tracks/Connections/) | The Connection: Soul, Spirit, Subconscious and Consciousness (`E1-Soul-Spirit-Subconscious-Consciousness/CONNECTION.md`, PR #33), Baseline, x3, x6, x9, x12, with a self-audit note (`AUDIT_2026-10-25.md`) | INDETERMINATE |
-| Maps and Matrix | [`Research/Maps-and-Matrix/`](Research/Maps-and-Matrix/) | Versions v1–v43 (v39–v43: the Connection overlay): claim maps, 625-cell matrix (Transcendence in phases-track overlay files; 625 -> 750 pending owner approval), link graphs, simulation index | derived; no gate of their own |
+| Totality of Governance track | [`Research/Tracks/Totality-of-Governance/`](Research/Tracks/Totality-of-Governance/) | ToG 1 Constitutional Commitments, Baseline, x3, x6, x9, x12 (owner-supplied; produced outside this repo by Perplexity (AI) per the files; `INTAKE_RECORD.md`). On branch `research/tog1-filed` until the owner merges | INDETERMINATE; x9 validator-reuse FAIL and x12 check A1 FAIL recorded |
+| Maps and Matrix | [`Research/Maps-and-Matrix/`](Research/Maps-and-Matrix/) | Versions v1–v44 (v39–v43: the Connection overlay; v44: the ToG 1 overlay, on `research/tog1-filed` until merged): claim maps, 625-cell matrix (Transcendence in phases-track overlay files; 625 -> 750 pending owner approval), link graphs, simulation index | derived; no gate of their own |
 | Governance | [`GOVERNANCE/`](GOVERNANCE/) | Universal Regulation standard 0.1.0 (Proposed), Totality of Governance draft v0.1.0 (`TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md`), audits v1 and v2, risk levels, gate authority, Law 2 crosswalk, product register, change log, agent push log | INDETERMINATE |
 | Research tooling | [`Research/tools/`](Research/tools/) | `gaia_tools` 0.6.0 (data model 1.5.0): validators, reruns, claim-source checks, maps (research tooling only; no service, no deployment) | — |
 
@@ -51,8 +52,12 @@ Merged means accepted by the owner, not verified: every one of these stays INDET
 | #35 | Removed committed `__pycache__` files; added `.gitignore` |
 | #36 | `PRINCIPLES.md`: founding principle 1, Truth with Integrity |
 | #37 | GAIA repositories section: links to the ten new GAIA repositories (Human and Intelligence Knowledge, Capabilities, Skills and Powers; Ontology; Map and Matrix) |
+| #38 | Wording reconcile: the Foundation is the active source of truth, the Encyclopedia backup only; Map v1.2 latest |
+| #39 | Maps & Matrix index: all 43 versions (v1–v43) listed from the actual folders |
 
 ## Work in progress (not on `main`; the owner reviews and merges)
+
+**Update 2026-10-25:** `research/tog1-filed` (PR PR_PLACEHOLDER) files ToG 1 (Baseline–x12), adds Maps v44, restructures the Work Queue's ToG checklist and removes live references to deleted repositories. The paragraph below is kept as written at PR #38.
 
 As of 2026-10-25 (`main` @ `bd3a085a`, PR #37) there were **no open research pull requests** before this README update (checked with the GitHub pull-request list). PR #28 (`research/work-queue-gaiadoc`) and PR #29 (`research/work-queue-phases-done`), listed here before, are both merged. This wording reconcile is on `research/authority-reconcile` until the owner merges it.
 
@@ -62,11 +67,11 @@ Branches already merged and kept for history: `research/cycle-0-baseline`, `cycl
 
 ## GAIA repositories (added 2026-10-25)
 
-The-GAIA-Foundation is the active source of truth. The-Official-GAIA-Encyclopedia is a backup only. The founding principle for every repository is [Truth with Integrity](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/main/PRINCIPLES.md): "A Truth That Is Never Twisted."
+The-GAIA-Foundation is the active source of truth. The-Official-GAIA-Encyclopedia is a backup only (*Removed 2026-10-25: repository deleted by owner; to be uploaded later.*). The founding principle for every repository is [Truth with Integrity](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/main/PRINCIPLES.md): "A Truth That Is Never Twisted."
 
 | Repository | What it holds |
 |---|---|
-| [The-GAIA-Foundation](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation) | Primary source: the research corpus (reports, tracks, cycles, Maps and Matrix v1–v43), governance and `PRINCIPLES.md`. Every research gate is INDETERMINATE |
+| [The-GAIA-Foundation](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation) | Primary source: the research corpus (reports, tracks, cycles, Maps and Matrix v1–v44), governance and `PRINCIPLES.md`. Every research gate is INDETERMINATE |
 | [The-GAIA-Human-Knowledge](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Knowledge) | Human Subjects of Knowledge (H-K) |
 | [The-GAIA-Human-Capabilities](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Capabilities) | Human Capabilities (H-C) |
 | [The-GAIA-Human-Skills](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Skills) | Human Skills (H-S) |
@@ -97,7 +102,7 @@ How they connect is recorded in Map and Matrix v1.2, the latest version (`v1.2/`
 ## Key principles observed in this corpus
 
 - **Founding principle: Truth with Integrity.** "A Truth That Is Never Twisted." See [`PRINCIPLES.md`](PRINCIPLES.md) (owner commitment, 2026-10-25).
-- Preserve prior versions; do not silently overwrite. (Previous versions of this README are kept at [`docs/history/README-2026-10-23.md`](docs/history/README-2026-10-23.md), [`docs/history/README-2026-10-24-pre-reconcile.md`](docs/history/README-2026-10-24-pre-reconcile.md) and [`docs/history/README-2026-10-25-pre-status-reconcile.md`](docs/history/README-2026-10-25-pre-status-reconcile.md).)
+- Preserve prior versions; do not silently overwrite. (Previous versions of this README are kept at [`docs/history/README-2026-10-23.md`](docs/history/README-2026-10-23.md), [`docs/history/README-2026-10-24-pre-reconcile.md`](docs/history/README-2026-10-24-pre-reconcile.md) and [`docs/history/README-2026-10-25-pre-status-reconcile.md`](docs/history/README-2026-10-25-pre-status-reconcile.md); before ToG 1: [`docs/history/README-2026-10-25-pre-tog1.md`](docs/history/README-2026-10-25-pre-tog1.md).)
 - Never invent sources, data, results or validations. Unreachable evidence is INDETERMINATE.
 - A citation supports only the claims it directly addresses.
 - Write the specification before running a simulation, and keep an execution record for every run.

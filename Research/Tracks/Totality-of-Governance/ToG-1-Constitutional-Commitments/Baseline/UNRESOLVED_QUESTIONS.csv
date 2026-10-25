@@ -1,0 +1,14 @@
+id,question,state,resolution_evidence,responsible_role
+U01,Independent content/rights reviewer,NONE,Name qualified reviewer and obtain signed scope-specific findings,Owner
+U02,Ethics review,NONE,Obtain appropriate independent ethical/rights review,Owner
+U03,R0–R4 versus RL-1–RL-5,UNRESOLVED,Record explicit reconciliation; do not replace existing scale implicitly,Owner;ToG4;PC2
+U04,Non-waivable clauses and emergency exceptions,UNRESOLVED,Review commitments and exception/appeal criteria,Owner;qualified reviewers
+U05,Source completeness and archival digests,PARTIAL,Capture authorized source versions and access logs for replication,Information steward
+U06,Independent model rerun,NOT PERFORMED,Run delivered script in isolated environment; compare output hashes and interpret differences,Independent reviewer
+U07,Global Maps/schema integration,NOT PERFORMED,"Inspect generators, canonical identities and all corpus inputs; regenerate and validate new version",Owner-approved integrator
+U08,Legal applicability and lawful bases,NOT DETERMINED,Qualified jurisdiction/use-specific legal review where necessary,Qualified counsel
+U09,Affected parties/community authority,NOT CONSULTED,Seek appropriate participation before consequential adoption/use,Owner;affected representatives
+U10,Operational implementation evidence,NOT ASSESSED,Design and evaluate controls using independent operational evidence,Owner;operators;reviewers
+U11,GitHub publication and queue status,NOT WRITTEN,Approve exact branch/files/PR; preserve main; do not tick whole ToG1 series after Baseline alone,Owner
+U12,Unseen later charter sections and full scholarly article,NOT READ,Read before making claims about those sections or stronger scholarly conclusions,Researcher
+U13,Privacy versus durable records,UNRESOLVED,"Define minimization, retention, legal/community constraints and correction path",Owner;privacy/cultural reviewers

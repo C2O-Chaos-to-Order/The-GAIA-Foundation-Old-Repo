@@ -1,0 +1,21 @@
+{
+  "prior_ids": [
+    "GAIA-RES-TOG1-C0-001",
+    "GAIA-RES-TOG1-X3-001",
+    "GAIA-RES-TOG1-X6-001",
+    "GAIA-RES-TOG1-X9-001"
+  ],
+  "prior_archives_available": false,
+  "prior_reported_claim_counts": [
+    45,
+    41,
+    54,
+    71
+  ],
+  "prior_ledgers_imported": false,
+  "basis": "Prior conversation findings and visible code/results;not recovered original artifacts",
+  "previously_reported_x9_archive_sha256": "da74dad7cd0f6ff0c17fe28b671dfa7bd3a4ac80437150f8094f95eeb5ac77d2",
+  "reported_digest_reverified": false,
+  "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+  "legacy_function": "Explicit reconstruction of visible x9assess logic,not byte-identical recovered runner"
+}

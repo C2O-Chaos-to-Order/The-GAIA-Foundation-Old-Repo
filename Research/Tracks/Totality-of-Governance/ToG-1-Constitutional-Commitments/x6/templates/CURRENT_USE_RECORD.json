@@ -1,0 +1,14 @@
+{
+  "record_id": null,
+  "request_subject_resource_action_purpose": null,
+  "checked_version_and_epoch": null,
+  "current_version_and_epoch": null,
+  "basis_active": null,
+  "review_current": null,
+  "approval_current": null,
+  "current_time_and_expiry": null,
+  "race_or_revocation_observed": null,
+  "reauthorization_record": null,
+  "proposed_gate": "INDETERMINATE",
+  "note": "Historical checks do not imply permission at execution"
+}

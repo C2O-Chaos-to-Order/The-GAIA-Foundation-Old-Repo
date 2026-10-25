@@ -1,0 +1,28 @@
+# x12 iteration 4: executed result
+
+One initial execution andone same-authorisolated-copyreproduction;not independentreview. Specifications fixed beforefirstmodelrun. Originalpayloads retained,predecessors/implementations hashed.
+
+## Results
+```json
+{
+  "seed": 12012,
+  "corpus_cases": 839,
+  "oracle_mismatches": 0,
+  "candidate_invalid_passes": 0,
+  "exceptions": 0,
+  "legacy_false_passes_against_oracle": 835,
+  "checks": {
+    "F1": "PASS",
+    "F2": "PASS",
+    "F3": "PASS",
+    "F4": "PASS",
+    "F5": "PASS",
+    "F6": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+}
+```
+
+## Meaning and limits
+Finite/reconstructed code testonly;no realpermissions,reviewers,rightsoutcomes,sourceauthenticity orstandardsconformance. Synthetictransferfixture remainsunapproved. Seeded839cases are notallpossible inputs orindependentobservations. LegacyfalsePASS835is a constructedcomparison,not fieldfailurerate.

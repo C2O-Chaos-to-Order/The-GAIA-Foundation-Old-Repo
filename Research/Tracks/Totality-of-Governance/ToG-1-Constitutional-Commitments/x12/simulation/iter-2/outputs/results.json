@@ -1,0 +1,17 @@
+{
+  "enum_cases": 24,
+  "invalid_verification_passes": 0,
+  "exceptions": 0,
+  "candidate_known_boundary_criterion": "PASS",
+  "candidate_version": "0.2.0",
+  "checks": {
+    "E1": "PASS",
+    "E2": "PASS",
+    "E3": "PASS",
+    "E4": "PASS",
+    "E5": "PASS",
+    "E6": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+}

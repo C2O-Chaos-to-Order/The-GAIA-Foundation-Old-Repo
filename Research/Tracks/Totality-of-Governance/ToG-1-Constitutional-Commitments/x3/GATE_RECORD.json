@@ -1,0 +1,48 @@
+{
+  "gate_id": "TOG1-X3-PROPOSED-GATE",
+  "recorded_utc": "2026-10-25T19:45:03.606200+00:00",
+  "scope": "Local ToG1x3 research package;not constitutional compliance or implementation",
+  "criteria": [
+    "Trace all11clauses",
+    "3distinct research passes",
+    "3specified chained finite-model iterations",
+    "Record actual runs and negative findings",
+    "Inspect local structure and hashes",
+    "Independent content and ethics review",
+    "Original baseline continuity",
+    "Canonical all-work mapping and owner disposition"
+  ],
+  "evidence": [
+    "claims/CLAIMS_X3.csv",
+    "research/PASS_REGISTER.csv",
+    "simulation/",
+    "Verification/",
+    "Provenance/"
+  ],
+  "proposed_decision": "INDETERMINATE",
+  "authority": "KyleAlexanderSteen",
+  "recorded_by": "Perplexity (agent)",
+  "owner_decision": "NOT RECORDED",
+  "independent_review": "NONE",
+  "ethics_review": "NONE",
+  "remaining_blockers": [
+    "Independent content/rights reviewer",
+    "Ethics review",
+    "R0\u2013R4 versus RL-1\u2013RL-5",
+    "Non-waivable commitments/emergency exceptions",
+    "Source completeness and archival digests",
+    "Independent reproduction",
+    "Global maps and schema integration",
+    "Legal applicability and lawful bases",
+    "Affected parties/community authority",
+    "Operational implementation effectiveness",
+    "GitHub publication and series/work-queue status",
+    "Unseen charter sections/full scholarly material",
+    "Privacy versus durable records",
+    "Original Baseline archive continuity",
+    "Trustworthy evidence/role attestations",
+    "Arbitrary-length lifecycle correctness",
+    "Actual audit effectiveness hypothesis"
+  ],
+  "authorization": "NONE"
+}

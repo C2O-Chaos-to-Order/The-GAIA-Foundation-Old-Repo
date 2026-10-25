@@ -1,0 +1,149 @@
+{
+  "initial_model_executions": 9,
+  "same_author_rerun_model_executions": 9,
+  "total_successful_model_process_executions": 18,
+  "failed_model_launches": 0,
+  "independent_executions": 0,
+  "iterations": [
+    {
+      "iteration": 1,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "malformed_fixtures.json": true,
+        "record_cases.jsonl": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:21.675151+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:44.950083+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 2,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "applicability_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:21.720649+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:44.995640+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 3,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "provenance_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:21.767377+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.041017+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 4,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "hidden_conflict_counterexample.json": true,
+        "results.json": true,
+        "reviewer_cases.csv": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:21.807716+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.080203+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 5,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "delegation_chain_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:21.848462+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.119840+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 6,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "freshness_cases.csv": true,
+        "indistinguishability_witness.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:21.964098+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.241310+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 7,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "atomic_counterexamples.json": true,
+        "atomic_traces.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:22.015539+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.300871+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 8,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "remedy_vectors.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:22.253147+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.547629+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    },
+    {
+      "iteration": 9,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "integrated_counterexamples.json": true,
+        "integrated_vectors.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:05:22.514821+00:00",
+      "repeat_started_utc": "2026-10-25T20:05:45.825353+00:00",
+      "note": "Deterministic payloads compared;record times/predecessor-record hashes change."
+    }
+  ]
+}

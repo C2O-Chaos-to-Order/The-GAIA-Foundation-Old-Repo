@@ -1,0 +1,18 @@
+{
+  "prior_ids": [
+    "GAIA-RES-TOG1-C0-001",
+    "GAIA-RES-TOG1-X3-001",
+    "GAIA-RES-TOG1-X6-001"
+  ],
+  "prior_archives_or_capsules_available": false,
+  "basis": "Prior conversation findings and visible execution records;governing charter/gate re-read at unchanged commit",
+  "prior_reported_claim_counts": [
+    45,
+    41,
+    54
+  ],
+  "prior_claim_ledgers_imported": false,
+  "previously_reported_x6_archive_sha256": "e2102fa2063aa0f15fd7b3ecc1006dc89c637550add85d32b059c05aaf09e9b1",
+  "x6_digest_reverified": false,
+  "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d"
+}

@@ -1,0 +1,23 @@
+{
+  "time_version_cases": 384,
+  "outcomes": {
+    "FAIL": 344,
+    "INDETERMINATE": 30,
+    "PASS": 10
+  },
+  "oracle_mismatches": 0,
+  "at_or_after_invalidation_passes": 0,
+  "stale_version_passes": 0,
+  "unknown_verification_passes": 0,
+  "checks": {
+    "P1": "PASS",
+    "P2": "PASS",
+    "P3": "PASS",
+    "P4": "PASS",
+    "P5": "PASS",
+    "P6": "PASS",
+    "P7": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

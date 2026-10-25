@@ -1,0 +1,17 @@
+{
+  "record_id": null,
+  "evidence": null,
+  "rights": null,
+  "safety": null,
+  "independent_review": null,
+  "human_authority": null,
+  "remedy_and_appeal": null,
+  "legal_scope_limitations": null,
+  "affected_parties_and_privacy": null,
+  "sensitive_payload_retention_basis": null,
+  "risk_tier_and_overlays": null,
+  "residual_uncertainties": [],
+  "proposed_gate": "INDETERMINATE",
+  "owner_gate_disposition": "NOT RECORDED",
+  "note": "Not an adopted constitution,actual remediation or operational safety case"
+}

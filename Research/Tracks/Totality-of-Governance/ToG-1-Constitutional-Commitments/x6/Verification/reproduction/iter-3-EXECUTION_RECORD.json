@@ -1,0 +1,35 @@
+{
+  "id": "TOG1-X6-RUN-3",
+  "iteration": 3,
+  "started_utc": "2026-10-25T19:50:56.246807+00:00",
+  "ended_utc": "2026-10-25T19:50:56.420507+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "seed": null,
+  "deterministic": true,
+  "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+  "spec_before_sha256": "889827449d0fad6aee4019dd9a4a8e605488df84e4ccda140f831ae8cc5ae187",
+  "spec_after_sha256": "889827449d0fad6aee4019dd9a4a8e605488df84e4ccda140f831ae8cc5ae187",
+  "inputs_sha256": {
+    "iter-2/outputs/transfer.json": "b54d25627f316d4fd7b4bf412fd208defb1a65f872a5a60c188a32921d2cdbee",
+    "iter-2/EXECUTION_RECORD.json": "6252060281cf1d270242067243e3cff43d9f1192d677746c64f92fdf5128f0d6"
+  },
+  "outputs_sha256": {
+    "identity_mutant_counterexample.json": "2d9d507969610a903ba766170ec9477972d3840d8244dce7f24e94dd2bd78887",
+    "results.json": "9c6b7fc2638459a5fbafd8f247aa5be4103c34a2b4ff9963cd19413b24972532",
+    "role_cases.csv": "1dd75f50cc58b7bc2722abe81b79cde6ca98fde10cc0e5c1c9188b64303030d4",
+    "transfer.json": "be554b63353d2eccc3137583c4d17d46abd353bf87fef680fdc635534886e7e6"
+  },
+  "checks": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "R3": "PASS",
+    "R4": "PASS",
+    "R5": "PASS",
+    "R6": "PASS",
+    "R7": "PASS"
+  },
+  "independent_review": false,
+  "overall_gate": "INDETERMINATE",
+  "external_actions": 0
+}

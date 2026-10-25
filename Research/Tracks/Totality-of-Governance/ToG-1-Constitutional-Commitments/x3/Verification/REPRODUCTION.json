@@ -1,0 +1,54 @@
+{
+  "initial_executions": 3,
+  "same_author_rerun_executions": 3,
+  "total_successful_model_process_executions": 6,
+  "failed_model_launches": 0,
+  "iterations": [
+    {
+      "iteration": 1,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "defect_fixtures.json": true,
+        "results.json": true,
+        "screened_valid.json": true,
+        "state_vectors.csv": true
+      },
+      "all_outputs_identical": true,
+      "original_started_utc": "2026-10-25T19:39:19.829877+00:00",
+      "repeat_started_utc": "2026-10-25T19:39:54.451470+00:00",
+      "execution_record_identical": false,
+      "note": "Record timestamps and predecessor-record digests change; deterministic output payloads compared, not whole records."
+    },
+    {
+      "iteration": 2,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "ready_state.json": true,
+        "results.json": true,
+        "review_vectors.csv": true
+      },
+      "all_outputs_identical": true,
+      "original_started_utc": "2026-10-25T19:39:20.559057+00:00",
+      "repeat_started_utc": "2026-10-25T19:39:55.174344+00:00",
+      "execution_record_identical": false,
+      "note": "Record timestamps and predecessor-record digests change; deterministic output payloads compared, not whole records."
+    },
+    {
+      "iteration": 3,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "lifecycle_traces.jsonl": true,
+        "mutation_counterexamples.json": true,
+        "results.json": true
+      },
+      "all_outputs_identical": true,
+      "original_started_utc": "2026-10-25T19:39:20.599289+00:00",
+      "repeat_started_utc": "2026-10-25T19:39:55.213040+00:00",
+      "execution_record_identical": false,
+      "note": "Record timestamps and predecessor-record digests change; deterministic output payloads compared, not whole records."
+    }
+  ]
+}

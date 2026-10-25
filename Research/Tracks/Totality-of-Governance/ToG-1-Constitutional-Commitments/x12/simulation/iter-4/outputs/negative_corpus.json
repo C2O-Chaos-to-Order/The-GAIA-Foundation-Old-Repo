@@ -1,0 +1,5947 @@
+[
+  {
+    "input": "PASS",
+    "input_type": "str",
+    "candidate": "PASS",
+    "oracle": "PASS",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "FAIL"
+  },
+  {
+    "input": "INDETERMINATE",
+    "input_type": "str",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "INDETERMINATE"
+  },
+  {
+    "input": "LADAFNAN R\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IDINIA\u0000ARI \nAFARAIMEEM\tA\nETE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000I\tFIAES ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SETPAS\nSIINASIFM\tADEFRIEII \tTLPEE\tEIILT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " E\tS\u0000MI\nPLAN MTEIA\u0000NEAR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SSAENRMT\nNEA\n\u0000N\u0000SIIAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TES\n\u0000EL\u0000ATAETN\u0000ETLA\u0000IRMTIIEE\tI\tMMAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nNMI\tRAAINE\tEDFINEMISAAAI\u0000 \nNTDEA\tDAEM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAANIRN\u0000TEMAATEE\n TIEPFETAPILT ENAAFTL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PITN\u0000II\nPTETMT\tFTD\tFDRSMERF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETA\u0000ETIDDN RD RFA\nEA\tAILIAESA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DAEIPSSNM\n\tEL\nAR\nD\tNRLFMNFDTTT\n\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RAILITN\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NAT\u0000EIMPLINATFAI \tS\tS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T ITFAIFN\tLFENSIAFS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " TARM\u0000E INNAMI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RIMNMNNERMAMFEPPATAESSIA\n\u0000ASNIDTPMSRLEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PASTMEIT EATADTIESI\nT\nTA\n TP\u0000AD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LRIST AIM\nMRILIN\u0000NMNN\u0000\u0000SSRSREEIMD\nAF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EN\nT\u0000MADTLTADADMASREI\nE\nAAAR\nEE A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SF\nAIRSI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LST \u0000\u0000\n\tNEEMAIA E\nN\nN\tD\t NENTI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\t\nIA\tTEEEE TPIRIE\nNAA\u0000E A IE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ISAIIF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TE\nRLNF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RAIEAPPASAN\tNEIPLS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EIDEIEESND\tLI\tDIN\u0000\nAEEISRP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "METMASP\nANRPR\u0000\u0000NTLTTNIIISENNLPNEEI DL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IAAIEEENR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NADITDAFD\tILINTIESF\u0000 TR\tE\u0000AFIAIAENI\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PITT\u0000AIEDM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nF\nSNFTETSTTLNMISAR\u0000NEA ATLALNS\u0000A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EN\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "S\tAIAATT\tFSFL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "P\tRRSMNDMIATI\tMM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NAP\u0000ISIENEE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "M\u0000DEP\tPE\tTTRIME\tERIAIEAADTNIAAN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " FN\nIF FE\u0000FMIAAREDSPSAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A\n\t\nSSM\u0000S TI\t\nI\n\u0000ESIESAEADNIMI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAILE IELN AN\u0000ES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SIT\nI \u0000I T",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PEAAPRA\u0000AEIARTAANS\tP\tE PISNE\u0000AS\nD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "APSEEPNLIE\u0000LAI\n\tEISSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EM S\tIAFNDR PT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NT\nINNEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\u0000\u0000TANLMA\tNEF\u0000\nLRP\u0000NA\tETMR\u0000\tSLE\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nIMLSNAPLSTEE\t\u0000PA\u0000 RE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MAINDSSRA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "REEIAAADAERAAPMS\u0000IE\nSNAIIT\nAA\u0000RAS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AA\u0000I NS IISAL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AMASS\u0000LITEANIRSENAENT\u0000SLNEA\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MLFIS I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A TL\u0000ERNNTS\t \nPSN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAA\tIIIST\t\t\tD\tMTLEEEETANNIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EFTTTETDEM\tI ASRE\t\u0000TTDPARRLILN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LNN\nRAIEI \u0000A \nT\tIFPTRMPE\tP\u0000ASA\nDAAELN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NNP PDIN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AL\u0000AILI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SLPARENN \nTAIRIAEFPA\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NE\n\nI IRLSN\nTIR\nATEASTFIPSSTEMA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IIATM\u0000IILLNST\u0000SAISE\tSE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\nSNLITEEAIIAEADN LIM\u0000MMATTS\nRLTSAAEFSNA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FMNAN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NDTPSAES PMIA\tNSSTR\tMNTEE\nT\nFEAEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SEFSIPIRMEEFIEE\u0000FETTENS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tEIIISFEFEIASRSAIIF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TLNIPTEAAAEIPT AAMD\tNEILNE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NLEA E\u0000I ITEASTI\u0000P\u0000TIEINMM ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FERFNNSNSSEM PFETTI ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NNFNS\t\nSSMD\n\nERSRFIDINN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "APAPL\nIL\nFEPFDSSA RTENNA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " NS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " IS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AST\tI NPDEPIAS S",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DAISNEN ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAPEID",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TSIEASTTAAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000ATLEAEDESE I NAISETSFLMPERIRATE\u0000E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NNEL\nSEMST\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EESN PA\tEFIDASE IPINAMEEFT M ISN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "REIDRSEDRFSI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "F\t\u0000NTASILFPD\u0000SE\t\nS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SMASI\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T A\n\tEDSRPDTTLISPMEARRTNDIP IE\u0000\nE\nISSALA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LDITA\u0000SSEM\t\u0000\u0000LNAMSN\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INEENSTP\u0000\tNAFEAIIRI\u0000E\nDIAE IPEESISARDED",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ATNIIP\n\u0000T\u0000SETLMLSIDINEN AIT I\nSTAIS\nDIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nE\tASNP\u0000P ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IIT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MNARIEFASEP\nEE \u0000E\u0000SSF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " \nAEDTPEAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ELIEAAR\nRSFIT DF EELI\u0000LRN\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " ASNTMRASFE\nEFITAAIET\tDE\u0000TAETAATT \u0000TSLF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "F \u0000ID IEA\n\tPN \u0000SAMAPII RA\n A  A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LEAIN\u0000NAA\tE\tRTEPNI\nITN\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IAIPATIARIEIMEILR\nTN  N\u0000\tI\nIAINED\nFA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " DINA\n\tS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\n\tEIMAID ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAESAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INMDA\nDRAI\u0000MLAETR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ISE ANPAP  PA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NATNASN\u0000NERPRAFESIEDDT\u0000IAF\u0000TIANTIA TI\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PM\tPNTEDSAA\tN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "S\nIATMEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tIMIMFAAENSSAITI IFIEEA\tFIPI LISN\nA\tF\u0000AI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ANANPPETAS N\u0000IIFTEEELMTASIISNAFAS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nSST  \tTEI\nETE\u0000SNF S A AE\nAII\tATAITPFT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LA ISPIS\u0000SN AN\tMAA\tAESDFF\tA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SSDRTITS\nALFD\u0000IENNENEASNSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MAN\u0000TN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T \tDDITITF\nP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NE\tPE\u0000T",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SESILMSFNS\tESILSAS\tD\nD\t\u0000S\tETNF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IERAE\nL\u0000\n NPS EM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NRF\u0000FRAII ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RRRNNRAANF\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EATLA\tP EFNA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tNINETTI DD I\u0000LINPT\tIPNIAFA\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\u0000ET \tMM\tSAIEIAIIN\u0000NNPN IASIPSNMR \u0000\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PAEA MS MN TSES\t AE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ILE PTFMDANLEASAMI\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T FREELSSESPD\u0000\u0000SA\tE\u0000IIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NNIITNETA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LAI\tAAAENIL IESASAAINRLANTRA\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PIP DSEIEIALM\tDR\u0000NL\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E TIPAT\u0000IIAEA ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DSM\nT\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LI\n NTEISESAIISSINP\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " IIIIINADAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000T\u0000TEDRFPT\nSAEFEAINT AANI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tNIR\tLNFE\tETS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A\tEIPFRSSTIIMAITEII\nIAIITEAI\t AFLPEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tRDNDI\nIN\u0000AIPAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LEFTAMIIEITAEI  IRA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TSI\u0000DRD\nIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ELINRAAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NIMA\tA\tT\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\tSE\nNTSFNE ITFEAD\u0000SENLME NNSIE\nEAANPNNA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SRESLAAENTSEDI ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TDNAMELATN \nSSNLT DINANNLEIRIN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000\tP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TEMSSI\n\u0000 E\u0000IIDEINFASSS\tESRDSRN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NP\tI\tNAPN\tSLIRESAAET\n\tTLMFANE\u0000TII\u0000TNAN ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NIT SANIIMMSIAAAPTPNTEISSSLSMTAELE LTAT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NNSA\u0000A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IRSFD TI\u0000AEFPNTME\nET ETIRARE ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DT\n\nETSNATDLT\u0000ME SNEL\tED PIEP\nER\nEM N",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LADTIERFI\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LTESN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\n\tEEAM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T A\tNTTET NAEIISE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ALINFT\nNL I F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "STTTR\nTAERRNFSSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EADRPIANA\tANI FDARIAD\nITDEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000NLEES MEFLDFIEPEP\nIMTMA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SI\nESI\u0000IDAS\nR\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\u0000I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TM\nE M\nFDI\u0000NRDES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nM\u0000IMFFN\u0000AI  EATM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INSMIIFIIL\u0000TS\u0000\u0000\nPF\tFT\tERAL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TA\u0000NNEMANENME",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tTS\u0000RINENRPFTSMI MRD\tEFIPT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETLEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DMMITNL I\u0000NF\tS\tLSI\u0000A\tE\u0000SI\tD\nNLINSDM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "N TFAIEE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NT\u0000TT \nDTSENEFSNIRIPILTIM\nSN\u0000IDE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AA\nFAIIAP\tFNIEAAEDIIANIDA\tMNIR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DITSEN\tALET\nSNIN\nMA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "  ASA\u0000S",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RDNIERSE\nN\u0000LIA\n\nFA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MEARDSMEEAEEEMEI TIPIAIINE\u0000A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MERN\nLRS\u0000R\u0000SAR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000DILE\tMISAM\u0000\tASPE\u0000\tI\u0000LFMAI\nLPEPN\u0000AATNMD ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tIA\t\tAIAMAM\nFT\nT\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PIEEA\nLAI\nIINTP\nA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " ISSMIIAMSIIAL\n TINSRPRALFES\nI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FA \nIFET\tLAEELTEAMIAPLESE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IENIDFFSIPA SLDIMASDE\tEIEELTENR\u0000SLTAEE ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PAAM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MR\tALS\tN\nMIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ASNAEEPNTNND\nAEA\nITDSFASILIN IR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AT SILA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ESPT\tAMES DDSLNTETAR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AIEE\tASNSFASSSI\u0000NA\u0000S EIEFPMSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nER AT\n\nATIAAT\nIIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PTL TRESNS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " T\tAELEAIP\u0000TEAE\u0000MN\nMIAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DEN\n NPN\u0000 AAS\tTLP\u0000TNM\u0000NSIIESEI\tL E N\tS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\tENALATLE\tSI\t\tRAPSL\nRLNI\u0000NISMME\tEDSIRL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAIINNTNTADAIEELDESADA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "REIDFAINT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " \tTAE \tS\u0000 S\tPN\nITMEAI\t\tRNEAELE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FIAILMLSA\u0000 I\tPIE\nFT\nSTRNID\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "STMI DAMNES\tNITM RTF\tPDSSEESAPI\u0000IAERFRST",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TISA\u0000AEATTDSNI R\tPT EMAMDEIP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " ATISAT\u0000NM\t\nSFS\n S",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SIPS\tPINSFP\nAMALTAMESNRIEIPRAAMNPAN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NESNTTALD\nNAIIPEII",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FIP\t\u0000EERITSS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EASTDNE\tENAAATDAPT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FTIPMPNEE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A AENT\tT\n RSELLADMMM\u0000AEASAP\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PI \t\u0000N",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LME IIR R",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DIR\tI\u0000TAAET\u0000A\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AELIELDNEAADMRSSEPPEAIINSIANAAFIITPEA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RDTA N\u0000DI\tMEISIE\u0000EDARIIIENNMMSPEILA\nIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DAAID\t EF\u0000TSI PIT\u0000PREADMR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IE DDRPRAII",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MLE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NEDE\n\t\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TNAINAET AFNINDFRAPR\u0000L\u0000TF\u0000NINFPFL\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MPNNET TTENANE\tET\n\nNLAFI LE DSEAT\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ITR\u0000MENE\u0000S ARDEPSA ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E\n\u0000MLTSS\u0000\tA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAE\nI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "M\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NNSP\nEN\tFE\nL\nIEDFPLIPPADIARIL\nLNAT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETFA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PNN\tNREENANTMENR  ELLI\u0000DETL\u0000\u0000N\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ID",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RNSSEI\tTAL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SPE\nMSMEPSND RI\nIASDPILEIFMPSENA\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000FSEETESTMNTFND",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ESAAAPAAA\nAEIIF\nPTESER\t SA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PAENETSSIPEM\nT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "APN\u0000R\u0000INDNRA\nEEMPT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NE\tIEILRDN\nNIMA\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LTIISAAS\nDRSEAISTE\nTEDRILET",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\nAL\tMM\nPSEEIIN\nMIEL\nDETEE ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ISERI\nAESNISEFE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RPTA\u0000TEL\nM\tRAILLIT\u0000SALMFAIMIIT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAMEPLAIFE \nNISTAAD\nLAES\tMATID",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PTFL\u0000EINST",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nME",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TREINTM\nSSFN\u0000AADT\u0000ATLSAET\u0000I T DT\tSE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ET\nAEENIISNMTAEEDFTI\t\tENEEIIL PA F ETNI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000PEM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IE\tFTN AR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ME\nI\nNEDIANTE\n\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DTIEEPTIIR\tSTAIADNIEP\tFSEA\nT\nIIATTLEP ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IISERI\tEMNTTRIIEMAR\u0000SLTPD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000RS\tALTTP PIADTDD \u0000P\n\nI\u0000EIAD\u0000A\nR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000IIP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\n MLRST\u0000NS\tPEIATFT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ASFS\u0000SI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EESLEPFEI\n\u0000N\u0000S NIPASIN\tNEM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TDI \tIPTFASS\nDTPIIIAAM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IRDFLFNRLTAMRE\u0000\tETEIIAETN\tSI\tSIIFEN\u0000P",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AST\n\u0000EEERF\tPIAE\u0000DNNPSRTMRPE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000\u0000FSI\tSATR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "R\u0000PAME\tLI\tEIEP\u0000NEASP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " NINAATTP\nSSDPTTADANNI ATETDRIAS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AFAAFDAI\tSINTEELE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FTATREESEEFFEAN\n \tAATIA\u0000RTRR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EN\t\tESTPDTE NPN T\n APNELFT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nPI\tR RASR SSPNFAM F\u0000\nFSIENTP TDIMM\n\tL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ATMPETALITEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SNNA\nPMITA AFF \u0000\u0000EISSTTA\nDS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IEAISLETETT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T IN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I TAETMTEI\tA EPIAS\tANE\u0000N\u0000NDE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SII\nINADSLE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TIIEAE\tEISPIRAA\u0000I \tS\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RT\tNESS\tANFR\u0000\u0000APREANIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DSIADSI DE \u0000ETINA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SILM\t\nIF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DNT\tSAAPASAEARSTEFISFIL\u0000  NSII AREEASEPA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TDAEPSTIT\u0000T\nIREAID IIFPAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NRFMAIRTITSS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FFLRTTI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000AE\u0000EIINADLL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LM\nEPEIIATANFFAEAMSTFT\u0000SEIAEIES TANSIIIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RERNIN\n\u0000SAEEAFET NAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PIATEIIRNRSANTPNAN\t\nNTR\nEAMIIMEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A\tSEILFA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SMSRDENESSALIISTN\u0000PESE\nS\nI\u0000TEINIRESAM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NI ASSFIISF\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000TESAA\nTSNMIRPATISNEEEILA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TL\tIDEE PAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LN TDTID\nLAS\nNNTEPD TIEFPD\tEDE EA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SE\nSDPFSF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RINLNAILE RN\u0000TITLIANLAN LERFAEL\t\n\nEMAI\u0000I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "N\tET\tRISTEIDNIDA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000LE\u0000AAEE\nANT\t\nNI\nTNAA\tIT\tAMT I\u0000NESII\tE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\nE NSTEESIFPLEANRAEEILNPAILATA\tIIIAIP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NEA\tFRIMR\u0000TF A\n MFILEN  A\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LEI A\u0000APAIRPIMNN\nND\nLEINI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MDSTSRSRRT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FA\nDMIEN \u0000LSANTPRTNPNLAAF APPSFEEIE I\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NAAMT\tINIMNNRNSDEEESN\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SR\nITSI \n\tELEI\nL\u0000NNEES\u0000AE\nLA\tA\nI\tMME A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000 TE\nNSDIANLE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ASRIFI\tIDSTTN\nILSDMMSP\u0000P\t\nA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAN\tAAN\tIRFRAFD\t\u0000T\nINI ENNNAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " LSTR\tTDIAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SPTM\u0000DSIA\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LTAPDNM\nINLLERITMATL\nFDSNSNRTILTILRNI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DI LEA\u0000I\u0000ARAAIL\u0000SDAL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EIIESETTTNLENASAEFES\nL\nML",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETDF\nRIESAIA\nR\tAPLNE\nNT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IEATTIEEAE  TFEEIMENTN\nLFT\n\u0000A EN\nANNNE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAAENDLLN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SPTASDEE\u0000AIA\tA\u0000AMN\u0000EN\u0000\tTM\tFIF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000P TS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nTTR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " R TLEMIAAAEP\nAEI\t\u0000ENFT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SL\nIIASAESIAENAFA LMSF NI\nA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LISTRAPTENPEAI\u0000ADI\u0000RN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SNISRFDRAL\u0000PI ERT\u0000FLE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ISIIETINAM\nMNENRM\nSIIALTPDAI\nESDIII\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tDIIMDTSEESN\u0000ASSIPPETMI T\u0000RMSE ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TEANAERDESLANA\u0000ILMENA\tE\u0000T\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SISISPF\nIMP\nTETPMR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "M\nSNIAREAEIAFE\t\nRMF\u0000NE\tASTISS\nIEAAT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PE\u0000AANN AEIL A EI\u0000I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " IIELI\tTIMSARPIISEDD\n\tASRI\tA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NDESIASE\u0000\tSFESRSSD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\t\tRNEAIAFSFSEIF  MSEERIFFEE\nDEISF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AIAINPPISAESE NASPIDFSDNF\u0000FP\u0000\u0000ILL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SNEN PNEANERENEE\u0000\nTAN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AINENEDRDAE\nLLSLSFSAATLLTSII\u0000TNS\tN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EEINIDPNEE FI\nANAATRATFAILSMI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AADTTPESAT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DEANTP EIAD\nADDNET INANIRDR\u0000\nIDT\nEIEIL\u0000A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "L\n\u0000ELSTISEA\u0000\nETEFNFFSEAEIEM\tLAPI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EDAMDFD\nMLI\u0000APEI\n I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ES\tNTANP\u0000 IPIEPLLNTMMSRF MI\tLEEESSE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETIATFA\u0000T\nAMINNS\tF AL\tMSSIE\tRFRIIITA A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NFMARI\t\tNFPTT\u0000IA\u0000\tEN\nN S TMII IMAES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DS\tELMRIIEDT IERNESSSTAIET\nTSMINIDTEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IMISPAELIITAA RAANFNEDIADPTPRSSSDLA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SI\nIIEMPFTDSSMN A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TLTLF\tIDSIFNP\nERDTTNIEIIILIS SAMANSFS\tDL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AM\tDEMAPP\nAFS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TESMNNNI\u0000RIENIRST\nAT\u0000E \nSP\nRD AF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DA\u0000ISIEIREESIASIFEPNNS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000ATA\nMR\nEENNILF P\nPI MP\u0000LS\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EPEFDPT DE\u0000M DMAT\tENNA\t\nIMDIETF STI\tNFA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAPMRMTDDEIA\tAML\tI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DSNIT\tNSLSEREEM\u0000A\u0000LNAMRNTS\nDTFDETEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " ASEIAIIAFDEPFD MFDSE\nDEITIEDA\u0000ENIEE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A IMFRPSLEIT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LTISMEELASINSST\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ANDADES\u0000\tSSINIAA\u0000NND LEEPSEISAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AD\u0000P\nI\nTSEA\nD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NIIT\u0000SFILM\nET EFEIRSIASPRDEAMAS\tDASAEEAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "STEEDMADITFIEFADSAAIEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TAPSIATEIAP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TL\tAASA\nEN \u0000LINFTIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EANP\nEAFFSPI\u0000P\tTEATDM\t\tRI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TT SIA\u0000NDMEALE IAEMSPIEAIIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SPTNL\nAA\nSEIESIMRAFESNT\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LAA\tTERAMPI ITEFIREAS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ENDPNAMTIII S EPTAATILR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nAL I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " MEEAMSSAANAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AA\tERPAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " EANNAEAPTI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FNTTIAILTRALSIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NDE \nI\tA\nM DT EMNAITATR\tASITADRIELAE\u0000FI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TTFN\u0000\nDALTNSISSNTSESMIIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "D",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TA  IT\tAI\nISN\u0000I EESPA\tDT\nS\tPSI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DRPN\tMIMDETDSTDN\u0000AIS\u0000AAIP\nSEESELD\tMFNAL ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000R",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DN\t\tNSS T A\u0000LSETTSIEII\tNSENAMLTAIATPSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ESTAEIATNNAADR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DMAAIFAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "L\tTETPIIEDSLTA\n\tENTALS\u0000DE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAIRMEE\u0000ISI\tILEENEP\nEL\nN TTTES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AA\nA\u0000AAAAAAI\u0000E\u0000ASIAAASP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DSFSEANSSETRRA\nTEAPE\tES\u0000\tLALSEIFM\nP\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IEAAISIDP\t\tIETLEETTE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IER\nTAAASMINLS\u0000TSA\nP\nAT TTAF\tSEEPIATDFNE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETIPDPFEITMAA\u0000STEIEAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INADSSMTS PELML\u0000AA E EN ARI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ANTLNESDASSTM\n\tIMME FASILLEAAPTS\u0000SEEIM\u0000R",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\t\u0000ASLISSILAMLSIA\u0000FENREAL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "D\nME",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ISFANTI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IPAL\u0000EA IASANL\n\u0000\nITPNS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MAASR\t\u0000SETTA\nDREEIN\tE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tEIAIDE\u0000IE\n\tITSITAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000AAR\u0000FRREE\nIAPEIIMDA\u0000F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E\tIAPIDT  LII\u0000E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ASLPFS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nR\t\nP\nNEE AENA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TLELAREIIDII\tE T \tTES SNA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E\u0000ITAA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000TPI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MRISRS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INE\t\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SLSETII\tTSN\u0000N RIES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FSLERE DFSIEAEF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DEMTT\t\n\tAAISIASTAD\tSM\tLAAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NE ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ALET\u0000N",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PI\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AIT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SA\nPPS I\nIIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AFSE RSPN RPATTSEEPADLFFNEETEPLMENI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nSPMAIPIDSNSESSSMNSNENA  IMI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAR\tSATMRR\u0000IMMEPRFEEILRNAISMN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000LSA\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TIIRRIEESRAISEEM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A\nN\tF\u0000TREAEL\t ES\tL\tTA\nI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EI IAIAEIEMEEIDIMTD AISPSSEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TAIANAIT\u0000AIENRDISDAPIL\n RFFNFME\nI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EFT\tLAIPR\nNILRSDIFAIEMEFIS\u0000L\n\nM\tASAAEATA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DTD\nE PANSA IS\u0000PSINA\nE \u0000D PINFASS\u0000IEEIF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NSAFFPPPRN\u0000SAE\nESEN MR\tEERLI\tNA\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PM MI\nPFINI\tEPA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " PINRE\u0000APTFEISPASI EINPDE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "R",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DPF EIS\nDR\u0000NPASIIPTLT\nAIL\u0000FNAN\tNN\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EIE \u0000TMIAT\u0000 ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NFAETTSEAFERMSI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DFFNAETNEPTSELSF\n\tSFFIENSPLT\nT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TMSTALIIMEMPNED\tE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LADPASSRPNIMTAF\u0000DI\nENSAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AIPSAI\tSN MA TNTLA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ES\tAIATE\u0000\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E\nE\nIALN\nA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tTT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PA E\tNDMDS\u0000TSINF PNSPTS EEATF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PNIT DSAITLMM\u0000ESIRIDDNM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EINTTNDNSTIFLRALEAFP\tNPT\tSRM\u0000PA MSFT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ALMINEL\u0000\nETFTRDEDMAEAAEPDTES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " ISNIE\tRIISAREANEPP\u0000LITRINM NNFM\nTE\tMS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T IE\u0000\u0000TIIPINAF\t\t\u0000ELID\tLE\n N",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\t\u0000AMTENTTST\u0000A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "R\nSTSEMSTAMNEAAISS\tIATMINMR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\u0000N\u0000IM IMPN\u0000ESTFIS\u0000EFAEETAP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETANTSFTA NNR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SDNA\tNSLAM\tAISNSIN\tNLAATSN\u0000FSTE TA\u0000ANIPI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ATMMEITNASIA\u0000EI\u0000A\u0000DSI\t\u0000ARETEELIAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TMNSSNDREED\u0000AIMEEDERTIMEN\tELR\tATEEAE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RIAN\tLTNEEE\n\nRDELPIN MTENSEII",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IIAISMT\nFPN  T",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TTSNPNEA \nE\tADAANPAIMENNAA\u0000P S",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TANID\u0000ETNM\nATENIAAFL\u0000FF\u0000MN\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ERL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "P\u0000EE\tSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ENSI\u0000SISAEA\tPA\t\u0000T",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SLI ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\n\u0000F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IEI\u0000SAN\u0000\nASTEFAIEETT FEALTNTF A\u0000NNINP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tDPEE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RFN\nTNA PD \nSSIS\nAIPS TFMTSAE\nANE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ISIIFT\u0000I\nS I\nELFA\u0000ETAI\u0000\tFEAN\nN\nA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I\u0000IL\u0000SP NAETAAILIDMIEL\nADMTNE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SEAAFILR\n ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EISI\tI\tNIIL II\tSFIIIAD\u0000EIPANEIAE\tEASTRE\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAETNMET",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tSITTETD\nTAETEP\u0000PAD\nEA ESAEM\nRNLIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SNLFS\t\tD\tFNPRFFDTE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "D\u0000\t\u0000AAT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nTDSMARESI EPFIAAIIAES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INTTDPEIAMI\tNNAAEAFAM NNSS ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ELFAII\u0000SLAIDSRERS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PN\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tN\tT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AFMMPI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " N\tTTTFITTRILE\nMN SFNPMEEITIDF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tM\u0000ARN\u0000IIAETRAIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FI\tAESTPMNF\t\tPFN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DDMNTNIA\nSDIEM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AAASEA\nSSSMSSIDDD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IFPFIATEITTMFRFL\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SE\n\tATT\u0000\n\u0000\tMAAI\tSE\u0000N\nTLLA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TIETIASRITIESENNL\tISIRPPPPA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AS\n\tDIN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A I\nL\tN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NN\nIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ADDEAFAI\u0000\nENTII ETM\nAIAAINASRPSE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ASEE\tIERAASIFFE I\tEASRE  E\nENL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SANAAEEMNAAPDT\tAEMA RAERNANI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tEREEN\tI\u0000E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ELSAR IL\nN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AMALTSPDAESS\u0000SNMITIFPTIAAIELEP\nT\nMP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SEESIIFENRENTNTIERMR\tE\nENE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " IFIREIA\tIMNTL\t\u0000EAELFEPE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IAENS\u0000PNS\nNERAN\nTFA\tTS LIASS \tNSA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "R\tLFIAFPLNNEEIPSASR\tITSFT ST",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EMINATSRMRNEMNSERTE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ES\u0000MR MAIRFPFF ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IRATESES\tNASA\tIAISNL ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FNTRT \u0000EPIPN IT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IEENSNSS\tFETTIRANINN INLPETS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAD\u0000IATTIIL\tI\u0000MA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000 IELASLEA  AAEL N DPID\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ALRF\u0000\u0000\u0000\nLDDMFNETEA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TIEPTNAF ES\tERSFEL\tNDPEAN\u0000ETTMF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AINM\tNNNT T\u0000IEASS P\u0000NRAEAATNLARA\tLFA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TSF\tAMN\n\tP\nT ILI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A \nLEAIME\tSII\u0000S\u0000ELFI\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AANMNIFL\nSA\u0000PEINA\t \nSDRS\u0000FMLP\u0000TTN\tEE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NES",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EITM\nM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AES\nAFFNNSIALNF\nIEASMATA\u0000 EAEAAEAD",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " \tAIETMATSS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\u0000\tISS \u0000TIDDAEAISTEI ETFMI\u0000PML",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AIA\u0000\nI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TITM RNEIIFM\n\n I\nDMSAAENTNDE\u0000\nMNETATA\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IE\tASATRA IA \u0000ASIDARFA\nF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EAMIIEI\nT SE\u0000RI LN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DFEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IF\n\nIMAEDEAEAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "D\n\tTDEMTEAEISADAINANETAE\tNRNIFER",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AA\nARISNIIS\nATPRF\tATE\u0000FDSL\nAMSANATLARF I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000ESEPS MNIEI\tNPA EEFSEESEPNN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " PTI\tNSF ATLAT\u0000\u0000FERDIIF\u0000E\u0000AT\nTDENSERDAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AE TPE\nNT\tENISE\u0000\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAAEE\tASNSIERIEENLESTP\n\t\nI\tS\u0000TEEFSPALE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AL\u0000NIAIIRIPTAIAII FRAILT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NIEIATMTMEIFDENSEEISLFNTPE\u0000N\nAT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\u0000NTTAIEAEELLTID\t\u0000RTAIIEADNE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NENTASASEE IDRTEDSNFEA\u0000I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EEAAA\u0000NPNS\n\nTAEI\nSARTIIPTAMRASSIEEPE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " II\tNAIITASIL\tPEAREAF\nD \u0000TSSTPIN  NATT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TAE\nILPMDT\u0000MDSELEENT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IEPI\u0000\t\tIIEPFITIPF\tEAILEIEDMFDIL \tT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NI\nINPFI\tTDAATMS\u0000IMM\u0000ALTESAALSSITA\tNI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ANRAENIIPAMTMPNLAI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tA\u0000TFMATDAM\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NEDI \nED",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " \tEEAAP\tTS AN\u0000AIA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NE\t\u0000MNTTAES\nMDALIET\n\tRL\u0000 FSTT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PAETNNARFE\nDD\nM\tTIAIAEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NF\tTIMAATRALLENAITEDE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ILA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\n\u0000TASILS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "P ATENRFI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DAEFT\tADERD EAEI\tDMTAFNFETNDEIF SEDF\nP\tI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "T\u0000 IAPTSALS\u0000ISITA\u0000PA\tLDSSEEN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IIAIE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "AETEINLMRNEIE\tAEEAEERI NTE AAEA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "RFLIE AARTERINF\tFRS IN TENA\u0000AISN\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "A RMENTEIISSIR\nSDIM IFSI\n S\u0000PMSPIE\n ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\tSPTTALESNMEIIFRLAPEEADPS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TE\nSSIRAPLANNMI S",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IRIIED\tETEESFTN\u0000IRF\nMPAPIEEFS T",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "S ERNII\t TTPIE\nAS\u0000S IFIENAA\nRT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SSSESMMEDFDAN\tDARN\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "APIAREFAMTIESL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NMME AR\tPRL\u0000ME\u0000E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EPA \u0000EAI\tP\tSSNNT\u0000E",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SRAAASIA\n\n\u0000ANDNP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " II\u0000EEMDESRSIA\tTNN\tI\nLESLAIDITEL IEAAS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PET\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SFMIPT\nNDRLEI\n\nISNFISRIM\u0000A",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "MEERNARSM \u0000TDSI\tALA ILSL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "DITDIP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " I\tNM\u0000\tFEI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EISTAA\nENEPAIPADRI\nRF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "REAT\tDEP NNNAMFLAIS\u0000TTIMP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PESAMA EN\t \nAPASAPF\u0000\u0000MNSN\u0000ITM",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "TIN\nSFNRFDSMTESAPMPEIEP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IA\nE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LNIETALM\u0000DIARI\n\t\nSNLEFEMP\u0000\tIAINA MA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "EALAD\u0000S\nTPNRR",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nPEESTELR EEATIEM\t\t",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "NRPDIAS \u0000T\tLTASMAAFIN RPNT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ELSEA",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "\nET\tTDSTPENAFN",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "IIAITPFE\nNILSLADT\u0000EN\u0000TE\tT",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": -1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": null,
+    "input_type": "NoneType",
+    "candidate": "INDETERMINATE",
+    "oracle": "INDETERMINATE",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {},
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": false,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 0,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1,
+    "input_type": "int",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": true,
+    "input_type": "bool",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": [],
+    "input_type": "list",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "input_type": "dict",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": 1.0,
+    "input_type": "float",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "pass",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PASS ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " PASS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PASS\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PASS\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PSS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "SSAP",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "P",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PASSPASS",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "PASS",
+    "input_type": "str",
+    "candidate": "PASS",
+    "oracle": "PASS",
+    "legacy": "PASS"
+  },
+  {
+    "input": "pass",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "fail",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAIL ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " FAIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAIL\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAIL\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "LIAF",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "F",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FAILFAIL",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "FA1L",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "fail",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "indeterminate",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INDETERMINATE ",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": " INDETERMINATE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INDETERMINATE\u0000",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INDETERMINATE\n",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INDETERMINTE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "ETANIMRETEDNI",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "I",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "INDETERMINATEINDETERMINATE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "1NDETERM1NATE",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  },
+  {
+    "input": "indeterminate",
+    "input_type": "str",
+    "candidate": "FAIL",
+    "oracle": "FAIL",
+    "legacy": "PASS"
+  }
+]

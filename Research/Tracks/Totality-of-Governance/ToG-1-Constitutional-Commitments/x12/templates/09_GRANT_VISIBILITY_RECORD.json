@@ -1,0 +1,13 @@
+{
+  "ancestor_grants": null,
+  "subset_bounds": null,
+  "subject_resource_action_purpose": null,
+  "expiry": null,
+  "visibility_evidence": null,
+  "issuer_verification": null,
+  "basis": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

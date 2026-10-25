@@ -1,0 +1,18 @@
+id,question,state,required_evidence,responsible_role
+B-U01,Independent content/rights reviewer,NONE,Name qualified reviewer and obtain scope-specific findings;not satisfied by same-author reruns,Owner
+B-U02,Ethics review,NONE,Obtain independent appropriately qualified ethics review,Owner
+B-U03,R0–R4 versus RL-1–RL-5,UNRESOLVED,Explicit owner-led reconciliation;no silent conversion,Owner;ToG4;PC2
+B-U04,Non-waivable commitments/emergency exceptions,UNRESOLVED,"Define bounded authority,review,appeal and non-waivable obligations",Owner;qualified reviewers
+B-U05,Source completeness and archival digests,PARTIAL,Capture authorized versions;external source-byte SHA256 absent,Information steward
+B-U06,Independent reproduction,NOT PERFORMED,Different qualified actor reruns original/new packages;this cycle adds same-author reproduction only,Independent reviewer
+B-U07,Global maps and schema integration,NOT PERFORMED,"Inspect generators/canonical IDs,regenerate isolated new version,validate allwork",Owner-approved integrator
+B-U08,Legal applicability and lawful bases,NOT DETERMINED,Qualified jurisdiction/use-specific review before consequential decisions,Qualified counsel
+B-U09,Affected parties/community authority,NOT CONSULTED,Appropriate participation/cultural authority before consequential adoption,Owner;affected representatives
+B-U10,Operational implementation effectiveness,NOT ASSESSED,Real control evaluation and outcomes;toy results do not suffice,Operators;independent evaluators
+B-U11,GitHub publication and series/work-queue status,NOT WRITTEN,Approve exact paths/files/branch/PR separately;do not tick whole series for localx3,Owner
+B-U12,Unseen charter sections/full scholarly material,PARTIALLY READ,Read missing portions before stronger source claims;new paper abstract-only,Researcher
+B-U13,Privacy versus durable records,UNRESOLVED,"Define retention,purpose,cultural/legal constraints,restricted payloads and correction",Owner;privacy/cultural reviewers
+X-U01,Original Baseline archive continuity,UNAVAILABLE,"Recover original45-row package,validate manifest and reported archive digest;do not reconstruct it as original",Owner;researcher
+X-U02,Trustworthy evidence/role attestations,ASSUMED IN TOY,"Assess authenticity,entailment,competence,conflicts and scope using real review records",Qualified reviewers
+X-U03,Arbitrary-length lifecycle correctness,UNPROVEN,Formal specification/verification or expanded justified horizon;length4 is bounded,Researcher;independent verifier
+X-U04,Actual audit effectiveness hypothesis,UNTESTED,Compare audit performance/harms using an ethical study design before causal claims,Qualified evaluator

@@ -1,0 +1,7 @@
+raw_code,meaning,contribution_conditional,contribution_mandatory_4_1_4_11,real_authority
+P,Stipulated positive control evidence,PASS,PASS,NONE;synthetic assumption only
+F,Stipulated known failed control,FAIL,FAIL,NONE;synthetic assumption only
+I,Stipulated unresolved evidence,INDETERMINATE,INDETERMINATE,NONE;synthetic assumption only
+NA_OK,Synthetic assumption of authorized explained conditional applicability;not real approval,PASS,FAIL,NONE;synthetic assumption only
+NA_UNSUPPORTED,Missing modeled authority/rationale,INDETERMINATE,INDETERMINATE,NONE;synthetic assumption only
+NA_FORBIDDEN,Known attempted prohibited waiver,FAIL,FAIL,NONE;synthetic assumption only

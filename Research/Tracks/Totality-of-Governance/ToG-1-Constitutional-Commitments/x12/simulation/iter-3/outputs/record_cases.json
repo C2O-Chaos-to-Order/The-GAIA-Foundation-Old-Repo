@@ -1,0 +1,978 @@
+[
+  {
+    "id": "record_id:str:''",
+    "record": {
+      "record_id": "",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "record_id:blank"
+    ]
+  },
+  {
+    "id": "record_id:str:' '",
+    "record": {
+      "record_id": " ",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "record_id:blank"
+    ]
+  },
+  {
+    "id": "record_id:NoneType:None",
+    "record": {
+      "record_id": null,
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "record_id:missing_or_null"
+    ]
+  },
+  {
+    "id": "record_id:bool:True",
+    "record": {
+      "record_id": true,
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_id:wrong_type"
+    ]
+  },
+  {
+    "id": "record_id:int:0",
+    "record": {
+      "record_id": 0,
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_id:wrong_type"
+    ]
+  },
+  {
+    "id": "record_id:list:[]",
+    "record": {
+      "record_id": [],
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_id:wrong_type"
+    ]
+  },
+  {
+    "id": "record_id:dict:{}",
+    "record": {
+      "record_id": {},
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_id:wrong_type"
+    ]
+  },
+  {
+    "id": "record_id:str:'\\x00'",
+    "record": {
+      "record_id": "\u0000",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_id:nul"
+    ]
+  },
+  {
+    "id": "scope:str:''",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "scope:blank",
+      "scope_mismatch"
+    ]
+  },
+  {
+    "id": "scope:str:' '",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": " ",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "scope:blank",
+      "scope_mismatch"
+    ]
+  },
+  {
+    "id": "scope:NoneType:None",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": null,
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "scope:missing_or_null",
+      "scope_mismatch"
+    ]
+  },
+  {
+    "id": "scope:bool:True",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": true,
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "scope:wrong_type"
+    ]
+  },
+  {
+    "id": "scope:int:0",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": 0,
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "scope:wrong_type"
+    ]
+  },
+  {
+    "id": "scope:list:[]",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": [],
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "scope:wrong_type"
+    ]
+  },
+  {
+    "id": "scope:dict:{}",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": {},
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "scope:wrong_type"
+    ]
+  },
+  {
+    "id": "scope:str:'\\x00'",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "\u0000",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "scope:nul"
+    ]
+  },
+  {
+    "id": "rationale:str:''",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "rationale:blank"
+    ]
+  },
+  {
+    "id": "rationale:str:' '",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": " ",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "rationale:blank"
+    ]
+  },
+  {
+    "id": "rationale:NoneType:None",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": null,
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "rationale:missing_or_null"
+    ]
+  },
+  {
+    "id": "rationale:bool:True",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": true,
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "rationale:wrong_type"
+    ]
+  },
+  {
+    "id": "rationale:int:0",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": 0,
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "rationale:wrong_type"
+    ]
+  },
+  {
+    "id": "rationale:list:[]",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": [],
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "rationale:wrong_type"
+    ]
+  },
+  {
+    "id": "rationale:dict:{}",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": {},
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "rationale:wrong_type"
+    ]
+  },
+  {
+    "id": "rationale:str:'\\x00'",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "\u0000",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "rationale:nul"
+    ]
+  },
+  {
+    "id": "authority:str:''",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "authority:blank"
+    ]
+  },
+  {
+    "id": "authority:str:' '",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": " ",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "authority:blank"
+    ]
+  },
+  {
+    "id": "authority:NoneType:None",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": null,
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "authority:missing_or_null"
+    ]
+  },
+  {
+    "id": "authority:bool:True",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": true,
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "authority:wrong_type"
+    ]
+  },
+  {
+    "id": "authority:int:0",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": 0,
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "authority:wrong_type"
+    ]
+  },
+  {
+    "id": "authority:list:[]",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": [],
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "authority:wrong_type"
+    ]
+  },
+  {
+    "id": "authority:dict:{}",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": {},
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "authority:wrong_type"
+    ]
+  },
+  {
+    "id": "authority:str:'\\x00'",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "\u0000",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "authority:nul"
+    ]
+  },
+  {
+    "id": "version:str:''",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "version:blank",
+      "version_mismatch"
+    ]
+  },
+  {
+    "id": "version:str:' '",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": " ",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "version:blank",
+      "version_mismatch"
+    ]
+  },
+  {
+    "id": "version:NoneType:None",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": null,
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "version:missing_or_null",
+      "version_mismatch"
+    ]
+  },
+  {
+    "id": "version:bool:True",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": true,
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "version:wrong_type"
+    ]
+  },
+  {
+    "id": "version:int:0",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": 0,
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "version:wrong_type"
+    ]
+  },
+  {
+    "id": "version:list:[]",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": [],
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "version:wrong_type"
+    ]
+  },
+  {
+    "id": "version:dict:{}",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": {},
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "version:wrong_type"
+    ]
+  },
+  {
+    "id": "version:str:'\\x00'",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "\u0000",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "version:nul"
+    ]
+  },
+  {
+    "id": "evidence_ref:str:''",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": ""
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "evidence_ref:blank"
+    ]
+  },
+  {
+    "id": "evidence_ref:str:' '",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": " "
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "evidence_ref:blank"
+    ]
+  },
+  {
+    "id": "evidence_ref:NoneType:None",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": null
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "evidence_ref:missing_or_null"
+    ]
+  },
+  {
+    "id": "evidence_ref:bool:True",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": true
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "evidence_ref:wrong_type"
+    ]
+  },
+  {
+    "id": "evidence_ref:int:0",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": 0
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "evidence_ref:wrong_type"
+    ]
+  },
+  {
+    "id": "evidence_ref:list:[]",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": []
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "evidence_ref:wrong_type"
+    ]
+  },
+  {
+    "id": "evidence_ref:dict:{}",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": {}
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "evidence_ref:wrong_type"
+    ]
+  },
+  {
+    "id": "evidence_ref:str:'\\x00'",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "\u0000"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "evidence_ref:nul"
+    ]
+  },
+  {
+    "id": "missing:record_id",
+    "record": {
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "record_id:missing_or_null"
+    ]
+  },
+  {
+    "id": "missing:scope",
+    "record": {
+      "record_id": "SYN-REC",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "scope:missing_or_null",
+      "scope_mismatch"
+    ]
+  },
+  {
+    "id": "missing:rationale",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "rationale:missing_or_null"
+    ]
+  },
+  {
+    "id": "missing:authority",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "authority:missing_or_null"
+    ]
+  },
+  {
+    "id": "missing:version",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "version:missing_or_null",
+      "version_mismatch"
+    ]
+  },
+  {
+    "id": "missing:evidence_ref",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1"
+    },
+    "expected_positive": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "evidence_ref:missing_or_null"
+    ]
+  },
+  {
+    "id": "extra:gate",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1",
+      "gate": "PASS"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "unexpected_fields"
+    ]
+  },
+  {
+    "id": "extra:approved",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1",
+      "approved": true
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "unexpected_fields"
+    ]
+  },
+  {
+    "id": "extra:verification",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1",
+      "verification": "PASS"
+    },
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "unexpected_fields"
+    ]
+  },
+  {
+    "id": "top:NoneType",
+    "record": null,
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_not_exact_dict"
+    ]
+  },
+  {
+    "id": "top:list",
+    "record": [],
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_not_exact_dict"
+    ]
+  },
+  {
+    "id": "top:bool",
+    "record": true,
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_not_exact_dict"
+    ]
+  },
+  {
+    "id": "top:int",
+    "record": 0,
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_not_exact_dict"
+    ]
+  },
+  {
+    "id": "top:str",
+    "record": "record",
+    "expected_positive": false,
+    "decision": "FAIL",
+    "reasons": [
+      "record_not_exact_dict"
+    ]
+  },
+  {
+    "id": "valid",
+    "record": {
+      "record_id": "SYN-REC",
+      "scope": "research-only",
+      "rationale": "Synthetic bounded rationale",
+      "authority": "fictional-owner",
+      "version": "v1",
+      "evidence_ref": "synthetic://evidence/1"
+    },
+    "expected_positive": true,
+    "decision": "PASS",
+    "reasons": []
+  }
+]

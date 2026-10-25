@@ -1,0 +1,61 @@
+{
+ "cycle": "AS0",
+ "n_runs": 6,
+ "all_identical": true,
+ "runs": [
+  {
+   "sim_id": "SIM-AS-NAT-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-AS-FOR-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-AS-SOC-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-AS-APP-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-AS-HUM-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-AS-PHI-0",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  }
+ ]
+}

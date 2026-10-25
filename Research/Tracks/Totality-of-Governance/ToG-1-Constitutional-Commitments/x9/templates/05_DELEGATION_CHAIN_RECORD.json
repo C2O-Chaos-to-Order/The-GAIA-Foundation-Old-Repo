@@ -1,0 +1,15 @@
+{
+  "root_grant": null,
+  "middle_grant": null,
+  "leaf_grant": null,
+  "capability_subsets": null,
+  "subject_resource_action_purpose": null,
+  "ancestor_expiries": null,
+  "revocation_observation_source": null,
+  "issuer_verification": null,
+  "scope_version": null,
+  "status": "TEMPLATE;NOT AN APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Unfilled fields are unknown,notPASS. This record is not proof of truth,competence,rights protection or authority."
+}

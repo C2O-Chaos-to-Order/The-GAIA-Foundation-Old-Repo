@@ -1,0 +1,13 @@
+{
+  "accepted_labels": null,
+  "type_policy": null,
+  "missing_value_policy": null,
+  "invalid_value_policy": null,
+  "candidate_version": null,
+  "case_results": null,
+  "authenticity_evidence": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

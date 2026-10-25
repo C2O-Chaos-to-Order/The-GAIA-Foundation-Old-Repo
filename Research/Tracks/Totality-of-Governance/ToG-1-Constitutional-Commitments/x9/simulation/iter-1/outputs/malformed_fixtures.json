@@ -1,0 +1,83 @@
+[
+  {
+    "field": "rationale",
+    "value": "",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "rationale:missing_or_invalid_type"
+    ]
+  },
+  {
+    "field": "authority",
+    "value": " ",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "authority:missing_or_invalid_type"
+    ]
+  },
+  {
+    "field": "scope",
+    "value": "production",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "scope_mismatch"
+    ]
+  },
+  {
+    "field": "version",
+    "value": "v0",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "version_mismatch"
+    ]
+  },
+  {
+    "field": "record_id",
+    "value": 1,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "record_id:missing_or_invalid_type"
+    ]
+  },
+  {
+    "field": "rationale",
+    "value": false,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "rationale:missing_or_invalid_type"
+    ]
+  },
+  {
+    "field": "authority",
+    "value": [],
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "authority:missing_or_invalid_type"
+    ]
+  },
+  {
+    "field": "version",
+    "value": null,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "version:missing_or_invalid_type",
+      "version_mismatch"
+    ]
+  },
+  {
+    "field": "evidence_ref",
+    "value": null,
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "evidence_ref:missing_or_invalid_type"
+    ]
+  },
+  {
+    "field": "record_id",
+    "value": "",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "record_id:missing_or_invalid_type"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+# Framework and status distinctions
+
+ID GAIA-RES-TOG1-X3-001;ToG1§4 scope only. Owner KyleAlexanderSteen;author Perplexity (AI). Base,Meta,etc are levels;Divergence,etc are phases;Baseline,x3,x6,x9,x12 are research-cycle labels. None is a permission or confidence multiplier. Motherthread/extraordinary framing is philosophical,not empirical evidence or exemption. No Quantum placement or extra phase inferred.
+
+Six primary claim classes are kept distinct:Empirical;Mathematical/computational;Historical/textual;Interpretive/philosophical;Spiritual/theological;Hypothesis/speculation. No human-subject empirical findings were generated here. Four labels:Established = inspected descriptive text or bounded executed and same-author reproduced result;Plausible = provisional synthesis;Philosophical/Spiritual = normative philosophical proposals here;Hypothetical = untested causal mechanism. Class,source access,claim status,workflow status,assurance gate,adoption and authorization are separate fields.
+
+Established computation is explicitly not independent verification. Internal consistency,reproduction,independent content challenge,ethics review,security review and owner authorization cannot substitute for each other. ModelPASS fixtures are fictional values. Charter,current gate/risk documents retain Proposed status as read. This package does not adopt any of them.
+
+Baseline artifact bytes unavailable:prior findings used from conversation,not a verified cumulative ledger. Stage3mutation counterexamples are fixed analytical fixtures,not broad mutation coverage. All3model specs local-before-run,not published preregistration. Total6successful model executions =3initial+3same-author reproductions. Research scope executed locally;overall gateINDETERMINATE and repository workflow incomplete.

@@ -1,0 +1,38 @@
+{
+  "id": "GAIA-RES-TOG1-X12-001",
+  "version": "0.1.0",
+  "date": "2026-10-25",
+  "owner": "KyleAlexanderSteen",
+  "producer": "Perplexity(AI)",
+  "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+  "research_passes": 12,
+  "distinct_iterations": 12,
+  "initial_model_processes": 12,
+  "same_author_rerun_processes": 12,
+  "successful_full_model_processes": 24,
+  "failed_model_launches": 0,
+  "independent_executions": 0,
+  "auxiliary_direct_function_calls": 2,
+  "claim_entries": 85,
+  "documentary_sources": 10,
+  "conversational_records": 1,
+  "predefined_checks": {
+    "PASS": 73,
+    "FAIL": 1
+  },
+  "legacy_reconstruction_boundary": "FAIL",
+  "candidate_v0_2_known_boundary": "PASS,bounded",
+  "specification_count_conformance": "FAIL",
+  "negative_hypotheses": {
+    "H8": "NOT SUPPORTED",
+    "H10": "NOT SUPPORTED"
+  },
+  "independent_review": false,
+  "ethics_review": false,
+  "research_assurance_proposal": "INDETERMINATE",
+  "owner_disposition": "NOT RECORDED",
+  "actual_authorization": "NONE",
+  "github_writes": 0,
+  "canonical_integration": "NOT COMPLETE",
+  "prior_archives_available": false
+}

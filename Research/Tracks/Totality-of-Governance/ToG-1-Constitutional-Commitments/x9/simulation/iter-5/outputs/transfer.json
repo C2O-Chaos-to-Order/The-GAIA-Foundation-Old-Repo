@@ -1,0 +1,29 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 5,
+  "decision": "PASS",
+  "root_capabilities": [
+    "read:docA",
+    "draft:docA",
+    "read:docB"
+  ],
+  "middle_capabilities": [
+    "read:docA",
+    "draft:docA"
+  ],
+  "leaf_capabilities": [
+    "read:docA"
+  ],
+  "root_expiry": 3,
+  "middle_expiry": 2,
+  "leaf_expiry": 1,
+  "revocation_observation_assumed_complete": true,
+  "hypothesis_H4": "NOT SUPPORTED"
+}

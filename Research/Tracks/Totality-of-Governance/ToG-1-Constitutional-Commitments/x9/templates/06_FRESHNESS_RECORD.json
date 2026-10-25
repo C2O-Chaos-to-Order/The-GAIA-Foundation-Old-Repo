@@ -1,0 +1,16 @@
+{
+  "authority_source": null,
+  "last_policy_observation": null,
+  "replication_delay_bound": null,
+  "clock_uncertainty": null,
+  "lease_bound": null,
+  "known_revocation": null,
+  "online_query_status": null,
+  "residual_window": null,
+  "availability_cost": null,
+  "risk_acceptance_authority": null,
+  "status": "TEMPLATE;NOT AN APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Unfilled fields are unknown,notPASS. This record is not proof of truth,competence,rights protection or authority."
+}

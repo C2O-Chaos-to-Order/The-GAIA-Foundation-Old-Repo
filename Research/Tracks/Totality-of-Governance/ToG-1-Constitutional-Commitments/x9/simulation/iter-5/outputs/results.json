@@ -1,0 +1,24 @@
+{
+  "delegation_chain_cases": 36864,
+  "outcomes": {
+    "FAIL": 36608,
+    "PASS": 128,
+    "INDETERMINATE": 128
+  },
+  "oracle_mismatches": 0,
+  "revoked_ancestor_or_leaf_passes": 0,
+  "scope_amplification_passes": 0,
+  "unknown_issuer_passes": 0,
+  "leaf_only_mutant_false_passes": 2944,
+  "checks": {
+    "D1": "PASS",
+    "D2": "PASS",
+    "D3": "PASS",
+    "D4": "PASS",
+    "D5": "PASS",
+    "D6": "PASS",
+    "D7": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

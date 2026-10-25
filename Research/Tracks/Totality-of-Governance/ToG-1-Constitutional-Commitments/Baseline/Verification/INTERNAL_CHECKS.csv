@@ -1,0 +1,15 @@
+check_id,result,scope
+A01_unique_claim_ids,PASS,Local artifact structure/consistency only; not independent assurance
+A02_all_claim_sources_resolve,PASS,Local artifact structure/consistency only; not independent assurance
+A03_exact_eleven_clauses,PASS,Local artifact structure/consistency only; not independent assurance
+A04_three_claim_roles_each_clause,PASS,Local artifact structure/consistency only; not independent assurance
+A05_625_unique_local_tuples,PASS,Local artifact structure/consistency only; not independent assurance
+A06_no_unsupported_exact_placements,PASS,Local artifact structure/consistency only; not independent assurance
+A07_normative_labels_distinct,PASS,Local artifact structure/consistency only; not independent assurance
+A08_spec_unchanged,PASS,Local artifact structure/consistency only; not independent assurance
+A09_execution_output_hashes_match,PASS,Local artifact structure/consistency only; not independent assurance
+A10_raw_vector_count,PASS,Local artifact structure/consistency only; not independent assurance
+A11_twelve_fixed_checks_recorded,PASS,Local artifact structure/consistency only; not independent assurance
+A12_all_eleven_annexes_present,PASS,Local artifact structure/consistency only; not independent assurance
+A13_failed_launch_disclosed,PASS,Local artifact structure/consistency only; not independent assurance
+A14_core_deliverables_present,PASS,Local artifact structure/consistency only; not independent assurance

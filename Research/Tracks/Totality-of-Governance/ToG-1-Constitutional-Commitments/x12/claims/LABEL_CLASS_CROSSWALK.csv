@@ -1,0 +1,6 @@
+label,class,meaning
+Established,Historical/textual,"Inspected or explicitlyinherited source wording,not currentlegalcompliance"
+Established,Mathematical/computational,"Finite executed same-authorreproduced result/failure,not independent orfieldvalidation"
+Plausible,Interpretive/philosophical,Single-author or access-limited interpretation
+Philosophical/Spiritual,Interpretive/philosophical,"Normative philosophicalproposal,not causalmechanism"
+Hypothetical,Hypothesis/speculation,Untested actualeffectiveness;distinct from H8/H10counterexample findings

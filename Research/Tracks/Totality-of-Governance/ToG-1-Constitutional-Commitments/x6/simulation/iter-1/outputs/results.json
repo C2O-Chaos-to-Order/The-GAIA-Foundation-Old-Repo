@@ -1,0 +1,22 @@
+{
+  "fixtures": 2046,
+  "unique_raw_vectors": 1431,
+  "outcomes": {
+    "PASS": 201,
+    "FAIL": 1203,
+    "INDETERMINATE": 642
+  },
+  "oracle_mismatches": 0,
+  "unsupported_na_passes": 0,
+  "mandatory_waiver_passes": 0,
+  "checks": {
+    "A1": "PASS",
+    "A2": "PASS",
+    "A3": "PASS",
+    "A4": "PASS",
+    "A5": "PASS",
+    "A6": "PASS",
+    "A7": "PASS"
+  },
+  "scope": "Synthetic model outputs,not independent/empirical assurance"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "GAIA-RES-TOG1-X3-001",
+  "revision": "0.1.0",
+  "date": "2026-10-25",
+  "owner": "KyleAlexanderSteen",
+  "author": "Perplexity (AI assistant)",
+  "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+  "research_passes": 3,
+  "distinct_simulation_iterations": 3,
+  "initial_model_executions": 3,
+  "same_author_reproduction_executions": 3,
+  "total_successful_model_executions": 6,
+  "independent_review": false,
+  "ethics_review": false,
+  "gate_proposal": "INDETERMINATE",
+  "adoption": "NOT ADOPTED",
+  "github_writes": 0,
+  "global_maps_integration": "NOT PERFORMED",
+  "baseline_archive_available": false
+}

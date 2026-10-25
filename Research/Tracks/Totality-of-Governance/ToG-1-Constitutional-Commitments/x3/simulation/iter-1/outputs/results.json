@@ -1,0 +1,26 @@
+{
+  "vector_count": 177147,
+  "outcomes": {
+    "PASS": 1,
+    "FAIL": 175099,
+    "INDETERMINATE": 2047
+  },
+  "oracle_mismatches": 0,
+  "unsafe_passes": 0,
+  "defect_fixtures": 55,
+  "defect_outcomes": {
+    "INDETERMINATE": 44,
+    "FAIL": 11
+  },
+  "novelty": "Reconstructed rule plus a metadata screen; no original Baseline bytes available",
+  "checks": {
+    "E1": "PASS",
+    "E2": "PASS",
+    "E3": "PASS",
+    "E4": "PASS",
+    "E5": "PASS",
+    "E6": "PASS",
+    "E7": "PASS"
+  },
+  "scope": "Synthetic consistency testing only; no independent review or real-world authorization"
+}

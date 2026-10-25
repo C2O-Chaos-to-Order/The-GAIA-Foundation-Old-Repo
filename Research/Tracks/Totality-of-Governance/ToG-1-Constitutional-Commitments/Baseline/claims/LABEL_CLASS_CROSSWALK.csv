@@ -1,0 +1,5 @@
+label,allowed_class,meaning,not_meant
+Established,Historical/textual;Empirical;Mathematical/computational,Directly supported descriptive text or appropriately reproduced result,"Normative truth, deployment permission or moral legitimacy"
+Plausible,Interpretive/philosophical;Mathematical/computational,Provisional synthesis or internally executed result awaiting reproduction,Independent verification
+Philosophical/Spiritual,Interpretive/philosophical;Spiritual/theological,Here used for philosophical normative prescriptions; no theological claim made,Untestable fact or authority
+Hypothetical,Hypothesis/speculation,Untested mechanisms if later proposed,All engineering proposals automatically empirical hypotheses

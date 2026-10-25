@@ -1,0 +1,14 @@
+{
+  "source_authenticity": null,
+  "control_results": null,
+  "known_failures": null,
+  "spec_conformance": null,
+  "independent_content_review": null,
+  "ethics_review": null,
+  "residual_risk": null,
+  "owner_disposition": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

@@ -1,0 +1,22 @@
+{
+  "valid_gate_vectors": 177147,
+  "outcomes": {
+    "PASS": 1,
+    "FAIL": 175099,
+    "INDETERMINATE": 2047
+  },
+  "oracle_mismatches": 0,
+  "element_boundary_cases": 231,
+  "outer_cases": 6,
+  "boundary_passes": 0,
+  "checks": {
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "PASS",
+    "G4": "PASS",
+    "G5": "PASS",
+    "G6": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+}

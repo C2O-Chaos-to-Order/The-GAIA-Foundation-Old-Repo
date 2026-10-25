@@ -1,0 +1,23 @@
+{
+  "record_patterns": 192,
+  "malformed_fixtures": 10,
+  "pattern_outcomes": {
+    "INDETERMINATE": 127,
+    "FAIL": 64,
+    "PASS": 1
+  },
+  "invalid_or_missing_passes": 0,
+  "unknown_verification_passes": 0,
+  "known_forgery_misclassified": 0,
+  "checks": {
+    "V1": "PASS",
+    "V2": "PASS",
+    "V3": "PASS",
+    "V4": "PASS",
+    "V5": "PASS",
+    "V6": "PASS",
+    "V7": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

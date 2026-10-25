@@ -1,0 +1,7 @@
+# x12 access and continuity
+
+11records:10documentary references plus1conversational continuityrecord. GitHublistcommits confirmed unchangedmainfdec378a859f2accdc7e2d9cfe11040a0c34545d. G01–G04are explicitlyinherited prior-conversation text at that immutablecommit,not newfilefetches. No sourceupdates claimed. Priorarchives/capsules absent;no originalledgers imported.
+
+No Academicconnector returned;publicprimary andscholarly retrievalused. NewJSONSchema enum/objectreferencepages fullyread. NISThistorical minimumverificationwebtable fullyread withoutdated-pagewarningpreserved. SP800-192returned throughpartp8;laterformalcoverage/mutationchapters notread. NISTAI RMFCore completefourtables read. Scholarly2021article substantiallyread throughpartStatessection,not entireconclusion/rightsholdersection. Citedunderlyingempiricalstudies not separatelyinspected;historiclaw/numbers not current2026facts.
+
+No externalpublicationbytes archivedinofflinePython;no externalSHA256fabricated. UpstreamGitblob IDs are sourceversionlocators,not localrehashes. Generatednotes/schema/manifest identifyourartifacts,not sourceauthenticity. Legacyassessor reconstructed from visiblecode,not byte-identical recoveredrunner. Candidatev0.2.0separate. Preserve originalknownfailure andpredeclaredcountFAIL.

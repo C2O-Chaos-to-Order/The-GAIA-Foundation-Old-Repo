@@ -1,0 +1,19 @@
+{
+  "record_id": null,
+  "prior_record_and_version": null,
+  "change_or_incident": null,
+  "affected_scope": null,
+  "basis_and_withdrawal_status": null,
+  "review_invalidated": null,
+  "authorization_invalidated": null,
+  "protected_audit_metadata": [],
+  "sensitive_payload_access": null,
+  "retention_purpose_and_legal_cultural_basis": null,
+  "deletion_or_restriction_decision": null,
+  "remediation_and_recovery_evidence": null,
+  "new_review_record": null,
+  "new_explicit_human_authorization": null,
+  "expiry_and_reassessment_triggers": [],
+  "proposed_gate": "INDETERMINATE",
+  "note": "Historical evidence retention is not continuing processing permission;no automatic deletion or substitution of legal basis"
+}

@@ -1,0 +1,20 @@
+{
+  "atomic_traces": 16807,
+  "event_steps": 84035,
+  "permitted_commit_steps": 2372,
+  "unsafe_hardened_commit_steps": 0,
+  "same_nonce_double_successes": 0,
+  "cache_only_false_allow_steps": 1548,
+  "replay_false_allow_steps": 378,
+  "checks": {
+    "C1": "PASS",
+    "C2": "PASS",
+    "C3": "PASS",
+    "C4": "PASS",
+    "C5": "PASS",
+    "C6": "PASS",
+    "C7": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

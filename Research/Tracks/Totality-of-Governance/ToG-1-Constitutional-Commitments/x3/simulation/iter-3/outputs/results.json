@@ -1,0 +1,31 @@
+{
+  "trace_count": 2401,
+  "event_steps": 9604,
+  "post_event_outcomes": {
+    "PASS": 1764,
+    "INDETERMINATE": 2676,
+    "FAIL": 5164
+  },
+  "final_outcomes": {
+    "INDETERMINATE": 527,
+    "FAIL": 1776,
+    "PASS": 98
+  },
+  "oracle_mismatches": 0,
+  "unsafe_passes": 0,
+  "post_revocation_or_incident_passes": 0,
+  "novelty": "Extends static iter2 readiness to bounded time/version/event traces",
+  "checks": {
+    "L1": "PASS",
+    "L2": "PASS",
+    "L3": "PASS",
+    "L4": "PASS",
+    "L5": "PASS",
+    "L6": "PASS",
+    "L7": "PASS",
+    "L8": "PASS",
+    "L9": "PASS",
+    "L10": "PASS"
+  },
+  "scope": "Synthetic consistency testing only; no independent review or real-world authorization"
+}

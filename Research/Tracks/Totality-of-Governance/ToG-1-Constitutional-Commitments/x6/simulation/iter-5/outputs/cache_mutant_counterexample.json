@@ -1,0 +1,26 @@
+{
+  "events": [
+    "CHECK",
+    "CHECK",
+    "CHECK",
+    "REVOKE",
+    "COMMIT"
+  ],
+  "at_event": 0,
+  "old_state": {
+    "clock": 0,
+    "expiry": 2,
+    "version": 1,
+    "reviewed": 1,
+    "approved": null,
+    "epoch": 1,
+    "basis": false,
+    "cache": [
+      0,
+      1,
+      0
+    ]
+  },
+  "proper": false,
+  "mutant": true
+}

@@ -1,0 +1,16 @@
+{
+  "request_id": null,
+  "worker": null,
+  "resource_action_subject": null,
+  "check_epoch_version": null,
+  "current_epoch_version": null,
+  "nonce": null,
+  "nonce_consumption_state": null,
+  "atomicity_primitive_evidence": null,
+  "commit_decision": null,
+  "implementation_limits": null,
+  "status": "TEMPLATE;NOT AN APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Unfilled fields are unknown,notPASS. This record is not proof of truth,competence,rights protection or authority."
+}

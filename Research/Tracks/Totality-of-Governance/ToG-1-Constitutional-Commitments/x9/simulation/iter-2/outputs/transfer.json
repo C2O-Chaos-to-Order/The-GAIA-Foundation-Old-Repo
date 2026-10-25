@@ -1,0 +1,25 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 2,
+  "decision": "PASS",
+  "application_disposition_record": {
+    "record_id": "SYN-REC-1",
+    "scope": "research-only",
+    "rationale": "Synthetic bounded scope determination",
+    "authority": "fictional-owner",
+    "version": "v1",
+    "evidence_ref": "synthetic://record/1"
+  },
+  "toy_nonwaivable_clauses": [
+    "4.1",
+    "4.11"
+  ],
+  "owner_adoption": "NONE"
+}

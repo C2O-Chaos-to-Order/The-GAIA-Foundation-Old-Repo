@@ -1,0 +1,16 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 8,
+  "actual_remedy": "NONE",
+  "actual_affected_party_consultation": "NONE",
+  "process_is_not_outcome": true,
+  "hypothesis_H4": "NOT SUPPORTED",
+  "hypothesis_H6": "NOT SUPPORTED"
+}

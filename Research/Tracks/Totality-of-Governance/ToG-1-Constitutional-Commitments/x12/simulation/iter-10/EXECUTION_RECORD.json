@@ -1,0 +1,45 @@
+{
+  "id": "TOG1-X12-RUN-10",
+  "iteration": 10,
+  "started_utc": "2026-10-25T20:34:46.545254+00:00",
+  "ended_utc": "2026-10-25T20:34:46.568654+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "deterministic": true,
+  "seed": null,
+  "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+  "implementation_sha256": {
+    "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+    "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+  },
+  "spec_before_sha256": "81dc838e5cce7dd7e07c28cf14cce134130ee857895cdb2a001fc470bba1698f",
+  "spec_after_sha256": "81dc838e5cce7dd7e07c28cf14cce134130ee857895cdb2a001fc470bba1698f",
+  "inputs_sha256": {
+    "iter-9/outputs/transfer.json": "85b2512b32c80f10647b4d143ab8ecb4784e502720e34a5ad974c8028f888b17",
+    "iter-9/EXECUTION_RECORD.json": "c2eb92e788c669a817f3b533513af3341eb74c491182d8daeaf69c652dd7a73b"
+  },
+  "outputs_sha256": {
+    "freshness_cases.csv": "e546e4cba8acf3e68fedd9d9e6d066243dc3e48032c42ec264b4544656eecc0a",
+    "nonce_traces.csv": "b08f68e2a245d1c6a9321c012ad73b0f573a0bd0880760887aeee3e9dab82b99",
+    "results.json": "0dafa3778ec80ed3056561585b28a21cb8b0f1501d971b9217d0933d7cbad3b5",
+    "transfer.json": "4b830b804ecb05cd0f22758ad15e0943acc2655bffee49b59d4fe3802b6fb2be"
+  },
+  "checks": {
+    "T1": "PASS",
+    "T2": "PASS",
+    "T3": "PASS",
+    "T4": "PASS",
+    "T5": "PASS",
+    "T6": "PASS"
+  },
+  "hypotheses": {
+    "H10": {
+      "statement": "Local lease validity eliminates all globally revoked access",
+      "result": "NOT SUPPORTED",
+      "counterexample_grid_entries": 246
+    }
+  },
+  "independent_review": false,
+  "overall_gate": "INDETERMINATE",
+  "actual_external_actions": 0
+}

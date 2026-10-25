@@ -1,0 +1,387 @@
+[
+  {
+    "id": "E-1-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.1",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-1-expired",
+    "defect": "expired",
+    "clause": "4.1",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-1-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.1",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-1-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.1",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-1-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.1",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-2-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.2",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-2-expired",
+    "defect": "expired",
+    "clause": "4.2",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-2-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.2",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-2-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.2",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-2-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.2",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-3-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.3",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-3-expired",
+    "defect": "expired",
+    "clause": "4.3",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-3-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.3",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-3-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.3",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-3-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.3",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-4-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.4",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-4-expired",
+    "defect": "expired",
+    "clause": "4.4",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-4-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.4",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-4-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.4",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-4-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.4",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-5-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.5",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-5-expired",
+    "defect": "expired",
+    "clause": "4.5",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-5-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.5",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-5-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.5",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-5-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.5",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-6-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.6",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-6-expired",
+    "defect": "expired",
+    "clause": "4.6",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-6-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.6",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-6-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.6",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-6-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.6",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-7-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.7",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-7-expired",
+    "defect": "expired",
+    "clause": "4.7",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-7-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.7",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-7-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.7",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-7-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.7",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-8-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.8",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-8-expired",
+    "defect": "expired",
+    "clause": "4.8",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-8-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.8",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-8-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.8",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-8-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.8",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-9-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.9",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-9-expired",
+    "defect": "expired",
+    "clause": "4.9",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-9-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.9",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-9-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.9",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-9-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.9",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-10-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.10",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-10-expired",
+    "defect": "expired",
+    "clause": "4.10",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-10-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.10",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-10-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.10",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-10-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.10",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  },
+  {
+    "id": "E-11-missing_locator",
+    "defect": "missing_locator",
+    "clause": "4.11",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-11-expired",
+    "defect": "expired",
+    "clause": "4.11",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-11-wrong_scope",
+    "defect": "wrong_scope",
+    "clause": "4.11",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-11-wrong_version",
+    "defect": "wrong_version",
+    "clause": "4.11",
+    "actual": "INDETERMINATE",
+    "expected": "INDETERMINATE"
+  },
+  {
+    "id": "E-11-known_forgery",
+    "defect": "known_forgery",
+    "clause": "4.11",
+    "actual": "FAIL",
+    "expected": "FAIL"
+  }
+]

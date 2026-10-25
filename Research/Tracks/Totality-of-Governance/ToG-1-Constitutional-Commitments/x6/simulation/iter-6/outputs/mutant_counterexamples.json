@@ -1,0 +1,50 @@
+{
+  "majority": {
+    "states": {
+      "evidence": "PASS",
+      "rights": "PASS",
+      "safety": "PASS",
+      "independent_review": "PASS",
+      "authority": "PASS",
+      "remedy": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "owner_override": {
+    "states": {
+      "evidence": "PASS",
+      "rights": "PASS",
+      "safety": "PASS",
+      "independent_review": "PASS",
+      "authority": "PASS",
+      "remedy": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "metadata_is_proof": {
+    "states": {
+      "evidence": "PASS",
+      "rights": "PASS",
+      "safety": "PASS",
+      "independent_review": "PASS",
+      "authority": "PASS",
+      "remedy": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "ignore_unknown": {
+    "states": {
+      "evidence": "PASS",
+      "rights": "PASS",
+      "safety": "PASS",
+      "independent_review": "PASS",
+      "authority": "PASS",
+      "remedy": "INDETERMINATE"
+    },
+    "proper": "INDETERMINATE",
+    "mutant": "PASS"
+  }
+}

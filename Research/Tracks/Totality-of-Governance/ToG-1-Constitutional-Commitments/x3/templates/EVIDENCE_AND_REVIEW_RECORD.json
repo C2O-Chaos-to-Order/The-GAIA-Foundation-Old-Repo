@@ -1,0 +1,22 @@
+{
+  "record_id": null,
+  "claim_ids": [],
+  "source_locator": null,
+  "source_passage": null,
+  "source_version": null,
+  "source_access_mode": null,
+  "evidence_scope": null,
+  "evidence_digest_if_actual_bytes_captured": null,
+  "producer_identity": null,
+  "reviewer_identity": null,
+  "competence_basis": null,
+  "conflicts_and_independence_assessment": null,
+  "reviewed_version": null,
+  "review_timestamp": null,
+  "review_findings": null,
+  "unresolved_findings": [],
+  "ethics_review_record": null,
+  "owner_authorization_record": null,
+  "approval_scope_and_expiry": null,
+  "proposed_gate": "INDETERMINATE"
+}

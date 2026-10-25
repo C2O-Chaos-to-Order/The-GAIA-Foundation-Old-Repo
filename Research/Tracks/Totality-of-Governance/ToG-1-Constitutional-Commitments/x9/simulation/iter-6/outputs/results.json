@@ -1,0 +1,26 @@
+{
+  "freshness_cases": 6750,
+  "strict_query_globally_unauthorized_passes": 0,
+  "offline_strict_passes": 0,
+  "lease_allowed_cases": 1554,
+  "globally_unauthorized_lease_allow_cases": 594,
+  "offline_active_cases_blocked": 750,
+  "checks": {
+    "F1": "PASS",
+    "F2": "PASS",
+    "F3": "PASS",
+    "F4": "PASS",
+    "F5": "PASS",
+    "F6": "PASS",
+    "F7": "PASS"
+  },
+  "hypotheses": {
+    "H6": {
+      "statement": "A locally valid lease eliminates every globally revoked access",
+      "result": "NOT SUPPORTED",
+      "globally_unauthorized_lease_allow_cases": 594,
+      "scope": "Finite delay/skew witness,not measured latency or a deployment failure rate"
+    }
+  },
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

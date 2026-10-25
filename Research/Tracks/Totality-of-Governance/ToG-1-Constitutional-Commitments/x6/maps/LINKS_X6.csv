@@ -1,0 +1,28 @@
+link_id,target,relationship,label,scope
+TOG1-X6-LINK-BASELINE,GAIA-RES-TOG1-C0-001,Conversational foundation;original archive unavailable,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-X3,GAIA-RES-TOG1-X3-001,Deepens recorded results;no original byte-level replay,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-CHARTER,GAIA-GOV-TOG-001§4,"Clause-specific proposed control research,not adoption",Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-UR,GAIA Universal Regulation,Seven-law/non-exemption/authorization boundaries carried from prior conversation;not reaudited,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-AUTHORITY,GOVERNANCE/GATE_AUTHORITY.md,Human owner disposition and mandatory reviews remain separate,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-RISK,GOVERNANCE/RISK_LEVELS.md,No R0–R4 to RL-1–RL-5 substitution,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-MAPS,Research/Maps-and-Matrix/README.md,Canonical v1–v43 untouched;local indexes only,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-PC1,PC1,Canonical identities/owner register decisions not resolved,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-PC4,PC4,"Provisional domain homes,not new approved charters",Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-PC2,PC2 andToG9,Formal precedence/legal/standard crosswalk remains downstream,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-PC6,PC6 andToG2,Role/conflict proposals not reviewer appointments,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-PC5,PC5 andToG4,Assurance-state proposals not an implemented dashboard,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-TOG5,ToG5;Good/Greater Good,No unrelated-benefit waiver of rights,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-TOG6,ToG6,No deployed access-control/security implementation,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-TOG8,ToG8,Remedy/retention/incident fields not actual remedy delivery,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-NA,N-A Level-Name Crosswalk,Levels not permissions or evidence labels,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-PHASES,Six-phase synthesis,Research-cycle counts not independent methods,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-E1,The Connection,Same-author verification/reproduction not independent review,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-LOVE,Master Report Unconditional and Conditional Love,Ethical framing not authorization,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-SSSC,Soul/Spirit/Subconscious/Consciousness track,Extraordinary framing remains subject to evidence and non-exemption,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R1,Foundational Report1:Body,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R2,Foundational Report2:Mind,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R3,Foundational Report3:Soul,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R4,Foundational Report4:Spirit,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R5,Foundational Report5:Consciousness,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R6,Foundational Report6:Earth,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census
+TOG1-X6-LINK-R7,Foundational Report7:Unified Framework,Proposed governance applicability;underlying claims not reread,Plausible,Report-family/dependency scope only;not a full claim-level corpus census

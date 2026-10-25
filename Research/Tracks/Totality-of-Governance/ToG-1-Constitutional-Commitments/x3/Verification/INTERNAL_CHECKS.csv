@@ -1,0 +1,21 @@
+check_id,result,scope
+A01_unique_41_claim_ids,PASS,Package-local internal consistency;not independent or ethical validation
+A02_claim_sources_resolve,PASS,Package-local internal consistency;not independent or ethical validation
+A03_all_11_clauses_covered,PASS,Package-local internal consistency;not independent or ethical validation
+A04_three_distinct_pass_notes,PASS,Package-local internal consistency;not independent or ethical validation
+A05_three_unchanged_specs,PASS,Package-local internal consistency;not independent or ethical validation
+A06_all_25_predefined_predicates_pass,PASS,Package-local internal consistency;not independent or ethical validation
+A07_execution_output_hashes_match,PASS,Package-local internal consistency;not independent or ethical validation
+A08_predecessor_input_hashes_match,PASS,Package-local internal consistency;not independent or ethical validation
+A09_three_same_author_reproductions,PASS,Package-local internal consistency;not independent or ethical validation
+A10_ten_deterministic_output_files_match,PASS,Package-local internal consistency;not independent or ethical validation
+A11_625_unique_unplaced_tuples,PASS,Package-local internal consistency;not independent or ethical validation
+A12_eleven_clause_annexes,PASS,Package-local internal consistency;not independent or ethical validation
+A13_25_unique_scope_links,PASS,Package-local internal consistency;not independent or ethical validation
+A14_normative_claims_not_empirical,PASS,Package-local internal consistency;not independent or ethical validation
+A15_known_baseline_gap_explicit,PASS,Package-local internal consistency;not independent or ethical validation
+A16_known_gate_blockers_explicit,PASS,Package-local internal consistency;not independent or ethical validation
+A17_template_defaults_not_approvals,PASS,Package-local internal consistency;not independent or ethical validation
+A18_raw_output_counts_match,PASS,Package-local internal consistency;not independent or ethical validation
+A19_failed_scholarly_fetch_disclosed,PASS,Package-local internal consistency;not independent or ethical validation
+A20_runner_identity_matches_records,PASS,Package-local internal consistency;not independent or ethical validation

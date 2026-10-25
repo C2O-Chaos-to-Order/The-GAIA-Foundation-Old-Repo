@@ -1,0 +1,38 @@
+[
+  {
+    "input": "PASS",
+    "decision": "PASS",
+    "reasons": [],
+    "historical_invalid_case": false
+  },
+  {
+    "input": "FAIL",
+    "decision": "FAIL",
+    "reasons": [],
+    "historical_invalid_case": false
+  },
+  {
+    "input": "INDETERMINATE",
+    "decision": "INDETERMINATE",
+    "reasons": [],
+    "historical_invalid_case": false
+  },
+  {
+    "input": "UNRECOGNIZED",
+    "decision": "PASS",
+    "reasons": [],
+    "historical_invalid_case": true
+  },
+  {
+    "input": null,
+    "decision": "PASS",
+    "reasons": [],
+    "historical_invalid_case": true
+  },
+  {
+    "input": true,
+    "decision": "PASS",
+    "reasons": [],
+    "historical_invalid_case": true
+  }
+]

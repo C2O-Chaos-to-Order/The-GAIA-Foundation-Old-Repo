@@ -1,0 +1,13 @@
+{
+  "observed_states": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "identity_distinct": true,
+  "hidden_conflict": true,
+  "metadata_decision": "PASS",
+  "genuine_independence": false
+}

@@ -1,0 +1,6 @@
+id,scope,finding,classification,disposition
+L01,Iteration1A7,"The predicate checks file presence and fictional transfer status,not completeness/truth of case-specific rationale or authority. Code semantics are retained in SPEC/codebook;no real applicability decision exists.",LIMITATION,Do not describe A7 as proof of real rationale quality;future stronger record-schema tests needed
+L02,Iteration5T3,Safety predicate tests no unsafe allowedCOMMITs;it is not a complete liveness/availability/deadlock or distributed-concurrency proof.,LIMITATION,State bounded safety scope and test operational properties only under authority
+L03,Sourceaccess,NISTcontrol bodies and laternormativePROVsections not retrieved;primarysearch excerpts/overviews explicitlylimited.,INDETERMINATE,No fullcontrol/conformance claims;retrieve exact missing portions before stronger use
+L04,Continuity/integration,Original Baseline/x3bytes absent;canonical all-work graph not regenerated.,INDETERMINATE,No cumulativeledger or full repository-workflow completion claim
+L05,Review/authority,"All assumptions,oracles and reproduction are same-author;real rights judgments,authenticity and reviewer qualifications are unverified.",INDETERMINATE,Gate remainsINDETERMINATE;qualified independent review and owner disposition required

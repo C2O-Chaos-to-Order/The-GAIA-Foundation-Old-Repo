@@ -1,0 +1,27 @@
+check_id,result,scope
+A01_54_unique_claim_ids,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A02_all_claim_sources_resolve,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A03_eleven_clause_scopes,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A04_six_distinct_pass_records,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A05_six_unchanged_specs,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A06_43_predicates_recorded_pass,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A07_all_original_output_hashes_match,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A08_predecessor_inputs_bound,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A09_six_same_author_reproductions,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A10_21_payloads_match,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A11_625_unique_unplaced_tuples,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A12_eleven_annexes,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A13_27_unique_links,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A14_normative_proposals_philosophical,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A15_continuity_gap_visible,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A16_23_open_questions_recorded,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A17_templates_not_approvals,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A18_runner_hash_matches,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A19_applicability_raw_count,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A20_dependency_raw_count,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A21_role_raw_count,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A22_delegation_raw_count,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A23_race_trace_count,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A24_integrated_vector_count,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A25_no_broken_url_placeholders,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance
+A26_limitations_explicit,PASS,Local artifact structure/identity/count/hash only;not source truth or independent assurance

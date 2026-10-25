@@ -1,0 +1,26 @@
+{
+  "fictional": true,
+  "decision": "PASS",
+  "review_factors": {
+    "reviewer_distinct": "PASS",
+    "competence": "PASS",
+    "conflict_clear": "PASS",
+    "review_current": "PASS",
+    "owner_approval": "PASS",
+    "scope_correct": "PASS"
+  },
+  "clause_states": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "warning": "Fictional all-valid fixture, not owner approval or independent review"
+}

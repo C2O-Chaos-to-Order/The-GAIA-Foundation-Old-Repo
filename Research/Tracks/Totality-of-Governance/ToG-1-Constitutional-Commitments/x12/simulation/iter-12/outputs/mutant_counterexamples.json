@@ -1,0 +1,92 @@
+{
+  "majority": {
+    "states": {
+      "authenticity": "PASS",
+      "applicability": "PASS",
+      "support": "PASS",
+      "review": "PASS",
+      "delegation": "PASS",
+      "freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy": "PASS",
+      "human_approval": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "form_only": {
+    "states": {
+      "authenticity": "PASS",
+      "applicability": "PASS",
+      "support": "PASS",
+      "review": "PASS",
+      "delegation": "PASS",
+      "freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy": "PASS",
+      "human_approval": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "cycle_label_proof": {
+    "states": {
+      "authenticity": "PASS",
+      "applicability": "PASS",
+      "support": "PASS",
+      "review": "PASS",
+      "delegation": "PASS",
+      "freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy": "PASS",
+      "human_approval": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "ignore_unknown": {
+    "states": {
+      "authenticity": "PASS",
+      "applicability": "PASS",
+      "support": "PASS",
+      "review": "PASS",
+      "delegation": "PASS",
+      "freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy": "PASS",
+      "human_approval": "INDETERMINATE"
+    },
+    "proper": "INDETERMINATE",
+    "mutant": "PASS"
+  },
+  "owner_override": {
+    "states": {
+      "authenticity": "PASS",
+      "applicability": "PASS",
+      "support": "PASS",
+      "review": "PASS",
+      "delegation": "PASS",
+      "freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy": "FAIL",
+      "human_approval": "PASS"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "omit_remedy": {
+    "states": {
+      "authenticity": "PASS",
+      "applicability": "PASS",
+      "support": "PASS",
+      "review": "PASS",
+      "delegation": "PASS",
+      "freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy": "FAIL",
+      "human_approval": "PASS"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  }
+}

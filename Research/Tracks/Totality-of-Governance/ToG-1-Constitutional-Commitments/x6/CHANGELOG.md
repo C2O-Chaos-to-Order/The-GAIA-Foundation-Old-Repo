@@ -1,0 +1,3 @@
+# x6 change history
+
+2026-10-25v0.1.0:original localx6extension of conversational ToG1Baseline/x3. Six focused documentary analyses;11clause annexes;54cycle-local claims;6specified chained models plus6same-author reproductions. Adds applicability safeguards,dependency invalidation,declared reviewer-conflict matrix,bounded delegation and actual executable check/use/cache counterexamples,then integrated callablemutants. No inherited claim silently upgraded,no original artifact reconstructed as original,no normative standard adopted,no prior map/report overwritten. Global integration and independent review remainopen.

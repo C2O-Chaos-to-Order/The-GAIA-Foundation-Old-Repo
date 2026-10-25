@@ -1,0 +1,5 @@
+# Provenance boundary
+
+Pinnedmainfdec378a859f2accdc7e2d9cfe11040a0c34545d. G01–G04explicitlyinheritedprior source textat thatcommit;upstreamblob IDs notlocallyrehashedsourcefiles. Externalsourcebytes notcaptured;priorarchives/digests unavailable/unverified. Legacycode labelledreconstruction,candidate0.2.0separate.
+
+MANIFEST.sha256 hashesalllocalpackagefiles exceptitself,not scientifictruth orapproval. Modelrecords bindrunner,bothimplementations,specs,predecessorfiles/outputpayloads. Same-authorreruns matchpayloads;recordmetadata differ. A1FAILretained;artifactintegrityPASSdoesnotoverride it. No circulararchivehashincapsule.

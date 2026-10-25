@@ -1,0 +1,34 @@
+{
+  "integrated_vectors": 19683,
+  "outcomes": {
+    "PASS": 1,
+    "FAIL": 19171,
+    "INDETERMINATE": 511
+  },
+  "oracle_mismatches": 0,
+  "callable_mutant_false_passes": {
+    "majority": 2850,
+    "form_only": 19682,
+    "cycle_count_override": 19682,
+    "ignore_unknown": 511,
+    "owner_override": 6560,
+    "process_without_remedy": 2
+  },
+  "missing_review_remedy_or_authority_passes": 0,
+  "retained_hypothesis_findings": {
+    "H4": "NOT SUPPORTED",
+    "H6": "NOT SUPPORTED"
+  },
+  "checks": {
+    "I1": "PASS",
+    "I2": "PASS",
+    "I3": "PASS",
+    "I4": "PASS",
+    "I5": "PASS",
+    "I6": "PASS",
+    "I7": "PASS",
+    "I8": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

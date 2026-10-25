@@ -1,0 +1,21 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 12,
+  "final_research_gate": "INDETERMINATE",
+  "actual_ethics_review": "NONE",
+  "owner_decision": "NOT RECORDED",
+  "canonical_integration": "NOT COMPLETE",
+  "negative_hypotheses": {
+    "H8": "NOT SUPPORTED",
+    "H10": "NOT SUPPORTED"
+  },
+  "candidate_version": "0.2.0",
+  "candidate_scope": "Known bounded regression passed;not independent/generalproductionassurance"
+}

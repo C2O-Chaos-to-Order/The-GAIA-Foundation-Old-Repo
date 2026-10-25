@@ -1,0 +1,4 @@
+# Iteration5 — multihop scope and ancestorrevocation
+ID TOG1-X9-SIM5. Read iter4actualfixture,notactualreview.
+Threecapabilityatoms read:docA,draft:docA,read:docB. Root/middle/leaf subsets8^3=512. Revokednode none/root/middle/leaf4;time0/1/2 three;versionmatchbool2;issuerverificationP/F/I3=>36864cases. Rootexpiry3,middle2,leaf1. FAIL for any subsetwidening,anyancestor-orleafrevocation,time>1,versionmismatch orissuerF;elseIifissuerI;elsePASS. Empty validleaf authorizesnoaction. Knownstate is assumed complete;notreal revocationdelivery orcryptographic proof. Actuallyevaluate leaf-onlymutant ignoringancestorbounds/revocations.
+Checks D1 predecessorfictional,actualreviewNONE;D2 count36864;D3 nooracle differences;D4 noancestor-revokedleafPASS;D5 no scopeamplificationPASS;D6 unknownissuerneverPASS;D7 leaf-onlymutantfalsePASS>0. Emit fictional read:docA boundedchain.

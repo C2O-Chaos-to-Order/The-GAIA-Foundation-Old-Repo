@@ -1,0 +1,43 @@
+{
+  "id": "TOG1-X9-RUN-4",
+  "iteration": 4,
+  "started_utc": "2026-10-25T20:05:21.807716+00:00",
+  "ended_utc": "2026-10-25T20:05:21.809712+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "deterministic": true,
+  "seed": null,
+  "runner_sha256": "ca2b3b3a95d34cd245b352b2fdb99e5f5e4370a2cd3e3b09f41c833346623356",
+  "spec_before_sha256": "98353e4a085528dac4e7d24424db21c32a0f056125448d51fcf6e967a5f58a8f",
+  "spec_after_sha256": "98353e4a085528dac4e7d24424db21c32a0f056125448d51fcf6e967a5f58a8f",
+  "inputs_sha256": {
+    "iter-3/outputs/transfer.json": "fc83731f8ae6b939844e6bc2c6f1522162a868850af9cf1fc32d8e7f7ac3a08b",
+    "iter-3/EXECUTION_RECORD.json": "e1620b0d77717f965eca65527460adc05bfd50accf8bafd0a50e59a3a4ed4449"
+  },
+  "outputs_sha256": {
+    "hidden_conflict_counterexample.json": "c3487e38a9de09f873cc871faacbf43d3c344a97820fec06e59fd4cfea7d60e3",
+    "results.json": "80bb603e9bb8b28d4efb9cf01c7302fb2eaf1a8d3c095f275fdafd334bcf1ba6",
+    "reviewer_cases.csv": "f4a7a922908b27b5100b1f03ca1c80fa83c2092c088797212ffd78d46dce6252",
+    "transfer.json": "22b6e0313e5888a9ec29ddff8b6abeb3c146449bd77788e6aa21efa3e45f9d19"
+  },
+  "checks": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "R3": "PASS",
+    "R4": "PASS",
+    "R5": "PASS",
+    "R6": "PASS",
+    "R7": "PASS"
+  },
+  "hypothesis_results": {
+    "H4": {
+      "statement": "Metadata PASS always establishes genuine independence",
+      "result": "NOT SUPPORTED",
+      "counterexamples": 1,
+      "scope": "Constructed information-limit witness,not empirical reviewer failure rate"
+    }
+  },
+  "independent_review": false,
+  "overall_gate": "INDETERMINATE",
+  "external_actions": 0
+}

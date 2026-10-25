@@ -1,0 +1,13 @@
+# x12 internal verification and scoped failures
+
+Date2026-10-25. SameauthorPerplexity(AI). AuthorityKyleAlexanderSteen;ownerdispositionnotrecorded. Independent/ethicsreviewnone. ResearchassuranceINDETERMINATE;stage6specificationcountconformanceFAIL;legacyreconstructedcriterionFAIL;candidateknownenum/typecriterionPASS within declaredscope.
+
+74predefinedmodelpredicates:73PASS/1FAIL(A1countdeclared5346versusactualfactorproduct1782). Alllistedfactors exercised. No lateSPEC/runner/threshold/resultchange. The originalFAILreproduced,not hiddenby artifactPASS. H8/H10NOTSUPPORTEDretained. No independent orfieldassurance claimed.
+
+12initial+12same-authorisolated-copyreruns=24successfulfullmodelprocesses,0failedlaunches,0independentexecutions.41deterministicpayloads identical. Recordtimestamps/predecessor-recorddigests differ. Twoextra directfunctioncontrolcharacterchecks not fullmodelprocesses.
+
+36localartifact checksPASS:IDs/references/counts/hashes/source-locator integrity andaccuratefailurepreservation.85unique cycle-localclaims,11annexes,12notes,29links,625uniqueUNPLACEDtuples,33openissues. Legacy/candidate sourcesseparate andhash-bound. Spec/code/output/predecessorhashesmatch. Raw1782applicabilityrows include explicitpositiveNAfields. These checksdoNOT establish semantictruth,independence,fullconformance orproductionapproval.
+
+SELF_REVIEW_FINDINGS.csv preservesnarrowness,missingpriorbytes,partial/inheritedsources,realoutcome/review gaps andcanonicalintegration. Stage7P5byconstruction;intermediateH8defaultnot independentproof;finalstage directlyhash-reads stage8/10actualresults. No hiddenactualapproval.
+
+Manifest/ZIPchecks occur after thisrecord. They identifylocalgeneratedbytes only. ExternalpublicationSHA256absent,not invented. No GitHubwrite,WorkQueuecheckbox,adoption or deployment.

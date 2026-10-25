@@ -1,0 +1,22 @@
+{
+  "applicability_cases": 1782,
+  "outcomes": {
+    "INDETERMINATE": 495,
+    "FAIL": 1258,
+    "PASS": 29
+  },
+  "unsupported_na_passes": 0,
+  "mandatory_na_passes": 0,
+  "known_failures_masked": 0,
+  "explicit_positive_na_record_cases": 18,
+  "checks": {
+    "A1": "FAIL",
+    "A2": "PASS",
+    "A3": "PASS",
+    "A4": "PASS",
+    "A5": "PASS",
+    "A6": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+}

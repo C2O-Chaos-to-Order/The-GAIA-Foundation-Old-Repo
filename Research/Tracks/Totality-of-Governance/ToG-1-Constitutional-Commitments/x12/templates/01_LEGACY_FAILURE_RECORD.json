@@ -1,0 +1,13 @@
+{
+  "legacy_source_identity": null,
+  "reconstructed_or_original": null,
+  "case_input": null,
+  "expected_constraint": null,
+  "actual_output": null,
+  "failure_preservation": null,
+  "upstream_impact": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

@@ -1,0 +1,9 @@
+# x12 framework and scoped states
+
+GAIA-RES-TOG1-X12-001,v0.1.0,2026-10-25. OwnerKyleAlexanderSteen;producerPerplexity(AI). ToG1§4only. Levels,phases,cycles,evidencelabels,gates,adoption andauthority are separate. NoQuantum orcategorical mechanism inferred. Furtherresearch doesnot advance blocked operationalgates.
+
+Sixprimaryclasses/fourlabels distinct. Establishedtext=inspected/explicitlyinheritedsource observation;Establishedcomputation=bounded executedsame-authorreproducedoutcome includingFAIL. Plausible=provisional interpretation;Philosophical/Spiritual=normative philosophicalproposal;Hypothetical=untested actualeffectiveness. No human-subjectdata.
+
+12focusedanalyses,12designs,12initial+12same-authorisolatedreruns=24successfulfullmodelprocesses.0failedlaunches,0independentexecutions.41deterministicpayloadsmatch.74predefinedpredicates:73PASS,1FAIL(A1countarithmetic). H8/H10NOTSUPPORTED retained.2extra directfunctionchecks,notfullmodelprocesses.
+
+LegacyreconstructedcriterionFAIL preserved.Newcandidate0.2.0knownboundarycriterionPASS,notgeneralproductionapproval.SpecificationcountconformanceFAIL. IndependentresearchassuranceINDETERMINATE,review/ethics/ownerdispositionNONE. Priorbytes unavailable,canonicalintegrationopen. No sourceauthenticity,fieldoutcome,distributedimplementation,completeconformance,GitHubwrite,adoption ordeployment claimed.

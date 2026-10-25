@@ -1,0 +1,21 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 4,
+  "candidate_version": "0.2.0",
+  "negative_corpus_cases": 839,
+  "valid_record": {
+    "record_id": "SYN-REC",
+    "scope": "research-only",
+    "rationale": "Synthetic bounded rationale",
+    "authority": "fictional-owner",
+    "version": "v1",
+    "evidence_ref": "synthetic://evidence/1"
+  }
+}

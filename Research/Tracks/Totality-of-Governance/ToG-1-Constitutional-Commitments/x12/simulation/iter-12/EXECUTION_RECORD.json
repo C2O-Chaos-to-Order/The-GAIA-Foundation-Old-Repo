@@ -1,0 +1,47 @@
+{
+  "id": "TOG1-X12-RUN-12",
+  "iteration": 12,
+  "started_utc": "2026-10-25T20:34:46.655800+00:00",
+  "ended_utc": "2026-10-25T20:34:46.843999+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "deterministic": true,
+  "seed": null,
+  "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+  "implementation_sha256": {
+    "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+    "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+  },
+  "spec_before_sha256": "2b0e40b980b99875364dfa4e41d6818405348a1bbf20136d40a02857ea5c47c5",
+  "spec_after_sha256": "2b0e40b980b99875364dfa4e41d6818405348a1bbf20136d40a02857ea5c47c5",
+  "inputs_sha256": {
+    "iter-11/outputs/transfer.json": "55dffa1a63926eb2c48c932aa1e4aa72a62de43063cf12cc5c70b83f500b3bdb",
+    "iter-11/EXECUTION_RECORD.json": "9ed710cb799499eea59da389d9e42daeb3c6c0845bedaf574d10c7725af0ae95",
+    "iter-1/outputs/results.json": "24b713c0617439380e65b9e532279445ba73c30013a081a251c074e648caa79f",
+    "iter-2/outputs/results.json": "27c4b8d27558b336bc5d4944226cba272ac1fbe1a5ad7a293c2cb9ee593d1417",
+    "iter-4/outputs/results.json": "26590cb07adf433eb934f27b2b741923ec0006b533dc411bc2a8b93870c4c724",
+    "iter-8/outputs/results.json": "a8902409ea419b1c1e18c72439980891cbac158f81ba90fa2ce9eaa7d0bf3b46",
+    "iter-10/outputs/results.json": "0dafa3778ec80ed3056561585b28a21cb8b0f1501d971b9217d0933d7cbad3b5"
+  },
+  "outputs_sha256": {
+    "integration_boundaries.json": "ff3a92d4198e36a96185ea25e02333e743f548b87848576480659b12025250ef",
+    "integration_vectors.csv": "0a64a67236b5c5d281c76b29f1717f0616801b8e2674d4ebfc3eb35bdd1b4e3e",
+    "mutant_counterexamples.json": "6d73b5405e8d7a19095a3f6f4ba303be4d6c8122581f043beed7f51232909042",
+    "results.json": "54154a62cf7093c3c5883b1781fcc4fa6065bdc3a3527b2833761549ad35d016",
+    "transfer.json": "676324fdfa132e5fa0f8d6958799930dc2cc08a8fc3efd87d2634412e9d7c297"
+  },
+  "checks": {
+    "I1": "PASS",
+    "I2": "PASS",
+    "I3": "PASS",
+    "I4": "PASS",
+    "I5": "PASS",
+    "I6": "PASS",
+    "I7": "PASS",
+    "I8": "PASS"
+  },
+  "hypotheses": {},
+  "independent_review": false,
+  "overall_gate": "INDETERMINATE",
+  "actual_external_actions": 0
+}

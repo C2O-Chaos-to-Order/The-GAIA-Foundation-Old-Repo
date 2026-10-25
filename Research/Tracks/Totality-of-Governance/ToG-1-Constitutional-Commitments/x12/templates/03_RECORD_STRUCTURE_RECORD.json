@@ -1,0 +1,12 @@
+{
+  "required_fields": null,
+  "null_and_missing_policy": null,
+  "extra_fields_policy": null,
+  "type_checks": null,
+  "scope_version_checks": null,
+  "semantic_review": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

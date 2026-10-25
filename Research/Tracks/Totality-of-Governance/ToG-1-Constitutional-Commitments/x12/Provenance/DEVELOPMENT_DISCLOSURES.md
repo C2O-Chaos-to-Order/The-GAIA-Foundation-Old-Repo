@@ -1,0 +1,9 @@
+# Development and execution disclosures
+
+No failedinitial/rerunmodelprocesslaunches.12initial+12same-authorisolated-copyreruns=24successfulfullmodelprocesses,12designs,0independentexecutions.41deterministicpayloads reproducedbyte-for-byte. Recordtimestamps andpredecessor-recordhashes differ;originals preserved.12specs fixedbefore execution,localordering notpublishedpreregistration.
+
+74predefinedpredicates yield73PASS/1FAIL:stage6A1declared5346instead of actualfactorproduct1782. OriginalFAILretained,not rethresholded or force-expandedwithduplicatecases. LegacycriterionFAILandnegativeH8/H10also retained. CandidateknownboundaryPASSis scoped,not deploymentapproval. Twoextra directfunctionprobes verified actualNULrejection/literalescapetextbehavior;not morefullmodelprocesses.
+
+Priorarchives/capsules absent. Legacy reconstructed fromvisibleconversationcode,not originalartifactbytes. Candidate separateversion. Academicconnector absent;publicsources used. HistoricalNISTpageoutdatedwarning,SP800-192partialbody,scholarlyarticlepartialreading andinheritedG01–G04sources labelled. External sourcebytes/hashes notfabricated.
+
+Knownnarrowness:P5rootunchanged is byconstruction,not an independentobservation. IntermediateH8transfer can use a literaldefault;finalstage insteadreads/hashes actualstage8result,so no claim everyintermediatetransfer independentlyverifies H8. Alloracles shareauthor. No signatureproof,fieldstudy,affectedpartyconsultation,distributedCAS,realremedy,canonicalintegration,standardadoption orGitHubwrite.

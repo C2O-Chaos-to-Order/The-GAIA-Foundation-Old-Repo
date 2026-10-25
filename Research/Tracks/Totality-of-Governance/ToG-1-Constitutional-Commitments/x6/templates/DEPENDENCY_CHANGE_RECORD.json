@@ -1,0 +1,15 @@
+{
+  "record_id": null,
+  "entity_id_and_version": null,
+  "generating_activity": null,
+  "responsible_agent": null,
+  "source_passage": null,
+  "usage_and_derivation_basis": null,
+  "upstream_dependencies": [],
+  "invalidation_reason_and_time": null,
+  "affected_downstream_claims": [],
+  "reassessment_state": "INDETERMINATE",
+  "restricted_provenance_access": null,
+  "proposed_gate": "INDETERMINATE",
+  "note": "Provenance consistency is not proof of truth;not fullPROVconformance"
+}

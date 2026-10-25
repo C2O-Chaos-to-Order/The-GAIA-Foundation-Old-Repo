@@ -1,0 +1,27 @@
+check_id,result,scope
+A01_54_unique_claim_ids,PASS,Initial local artifact validation before reference formatting correction
+A02_all_claim_sources_resolve,PASS,Initial local artifact validation before reference formatting correction
+A03_eleven_clause_scopes,PASS,Initial local artifact validation before reference formatting correction
+A04_six_distinct_pass_records,PASS,Initial local artifact validation before reference formatting correction
+A05_six_unchanged_specs,PASS,Initial local artifact validation before reference formatting correction
+A06_43_predicates_recorded_pass,PASS,Initial local artifact validation before reference formatting correction
+A07_all_original_output_hashes_match,PASS,Initial local artifact validation before reference formatting correction
+A08_predecessor_inputs_bound,PASS,Initial local artifact validation before reference formatting correction
+A09_six_same_author_reproductions,PASS,Initial local artifact validation before reference formatting correction
+A10_21_payloads_match,PASS,Initial local artifact validation before reference formatting correction
+A11_625_unique_unplaced_tuples,PASS,Initial local artifact validation before reference formatting correction
+A12_eleven_annexes,PASS,Initial local artifact validation before reference formatting correction
+A13_27_unique_links,PASS,Initial local artifact validation before reference formatting correction
+A14_normative_proposals_philosophical,PASS,Initial local artifact validation before reference formatting correction
+A15_continuity_gap_visible,PASS,Initial local artifact validation before reference formatting correction
+A16_23_open_questions_recorded,PASS,Initial local artifact validation before reference formatting correction
+A17_templates_not_approvals,PASS,Initial local artifact validation before reference formatting correction
+A18_runner_hash_matches,PASS,Initial local artifact validation before reference formatting correction
+A19_applicability_raw_count,PASS,Initial local artifact validation before reference formatting correction
+A20_dependency_raw_count,PASS,Initial local artifact validation before reference formatting correction
+A21_role_raw_count,PASS,Initial local artifact validation before reference formatting correction
+A22_delegation_raw_count,PASS,Initial local artifact validation before reference formatting correction
+A23_race_trace_count,PASS,Initial local artifact validation before reference formatting correction
+A24_integrated_vector_count,PASS,Initial local artifact validation before reference formatting correction
+A25_no_broken_url_placeholders,FAIL,Initial local artifact validation before reference formatting correction
+A26_limitations_explicit,PASS,Initial local artifact validation before reference formatting correction

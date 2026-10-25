@@ -1,0 +1,20 @@
+{
+  "role_cases": 65536,
+  "outcomes": {
+    "FAIL": 64768,
+    "PASS": 768
+  },
+  "oracle_mismatches": 0,
+  "same_author_review_passes": 0,
+  "identity_only_false_passes": 23808,
+  "checks": {
+    "R1": "PASS",
+    "R2": "PASS",
+    "R3": "PASS",
+    "R4": "PASS",
+    "R5": "PASS",
+    "R6": "PASS",
+    "R7": "PASS"
+  },
+  "scope": "Synthetic model outputs,not independent/empirical assurance"
+}

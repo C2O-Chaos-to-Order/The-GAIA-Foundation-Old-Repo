@@ -1,0 +1,64 @@
+{
+  "cache_only": {
+    "events": [
+      "CHECK_A",
+      "CHECK_A",
+      "CHECK_A",
+      "CHANGE",
+      "COMMIT_A"
+    ],
+    "at_event": 5,
+    "old_state": {
+      "version": 2,
+      "epoch": 1,
+      "basis": true,
+      "approved": null,
+      "nonce": 3,
+      "cache": {
+        "A": [
+          0,
+          1,
+          3
+        ],
+        "B": null
+      },
+      "used": {
+        "A": false,
+        "B": false
+      }
+    },
+    "proper": false,
+    "mutant": true
+  },
+  "replay": {
+    "events": [
+      "CHECK_A",
+      "CHECK_A",
+      "CHECK_A",
+      "COMMIT_A",
+      "COMMIT_A"
+    ],
+    "at_event": 5,
+    "old_state": {
+      "version": 1,
+      "epoch": 0,
+      "basis": true,
+      "approved": 1,
+      "nonce": 3,
+      "cache": {
+        "A": [
+          0,
+          1,
+          3
+        ],
+        "B": null
+      },
+      "used": {
+        "A": true,
+        "B": false
+      }
+    },
+    "proper": false,
+    "mutant": true
+  }
+}

@@ -1,0 +1,8 @@
+id,scope,state,finding,disposition
+F01,External verificationlabel boundary,FAIL,"Exactrecordassessor accepts unknownstring,None,boolverification inputs withvalid fields. Threeinitial andthree repeat directcalls agree.",No untrustedexternal-input reuse;allowlist/typeguard andprespecified revision required;freeze original evidence
+L02,Authenticity and latentreview facts,LIMITATION DEMONSTRATED,Positive metadata stilldepends on actualverificationtruth;H4NOTSUPPORTED.,"Qualified investigation/review,not fabricatedassurance"
+L03,Replicafreshness and clocks,LIMITATION DEMONSTRATED,H6NOTSUPPORTED;strictquery uses currentansweroracle.,Do not claim distributedglobalrevocation guarantee
+L04,Atomicity/liveness,INDETERMINATE,Localatomicprimitive assumed;boundedtraces notactualnetwork/storageimplementation orlivenessproof.,Authorizedoperational validation needed
+L05,Process and redress,INDETERMINATE,"Processcriteria/evidence vectorsnotactualcomplaints,outcomes orparticipation.",Affectedpartyinput andindependentoutcome evidence
+L06,Sources/continuity/integration,INDETERMINATE,"Partialsourcebodies,missingpriorarchives andcanonicalallworkintegration gaps persist.",Recover/read/integratewithapproval
+L07,Review/authority,INDETERMINATE,"Sameauthor writes oracles/reproduction;no reviewer,ethicsapproval orownergate disposition.",No deployment/adoption/independentassurance claim

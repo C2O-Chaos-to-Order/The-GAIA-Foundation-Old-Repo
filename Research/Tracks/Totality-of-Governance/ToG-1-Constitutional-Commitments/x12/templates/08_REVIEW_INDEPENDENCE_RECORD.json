@@ -1,0 +1,13 @@
+{
+  "reviewer": null,
+  "producer": null,
+  "competence": null,
+  "conflict_disclosure": null,
+  "conflict_investigation": null,
+  "version_scope": null,
+  "independent_review_evidence": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

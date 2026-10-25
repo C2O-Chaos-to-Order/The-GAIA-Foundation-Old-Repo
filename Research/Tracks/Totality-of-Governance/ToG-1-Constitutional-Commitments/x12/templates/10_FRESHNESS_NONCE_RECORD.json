@@ -1,0 +1,13 @@
+{
+  "last_policy_observation": null,
+  "clock_delay_bounds": null,
+  "residual_window": null,
+  "epoch_version": null,
+  "nonce_consumption": null,
+  "atomicity_evidence": null,
+  "availability_effects": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

@@ -1,0 +1,10 @@
+{
+  "baseline_id": "GAIA-RES-TOG1-C0-001",
+  "baseline_archive_available": false,
+  "continuity_basis": "Previous conversation report and visible execution records; governing GitHub sources re-read at the same commit. No recovery or rehash of baseline archive. Original 45 claim rows are not imported or counted as independently verified.",
+  "previously_reported_archive_sha256": "a28520bedbe86d000805dfb4e318d2cc4e153b8a6730aecb830ad482b3dbd4e7",
+  "previously_reported_hash_verified_this_turn": false,
+  "current_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+  "producer": "Perplexity (AI assistant)",
+  "owner": "KyleAlexanderSteen"
+}

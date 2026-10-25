@@ -1,0 +1,18 @@
+{
+  "fictional": true,
+  "decision": "PASS",
+  "roles": {
+    "producer": 0,
+    "reviewer1": 1,
+    "reviewer2": 2,
+    "owner": 0
+  },
+  "declared_conflicts": [],
+  "competence_assumed": [
+    true,
+    true
+  ],
+  "scope": "research-only",
+  "actual_review": "NONE",
+  "authorization": "NOT REAL"
+}

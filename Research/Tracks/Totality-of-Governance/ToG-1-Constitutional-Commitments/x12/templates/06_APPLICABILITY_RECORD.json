@@ -1,0 +1,13 @@
+{
+  "clause": null,
+  "disposition": null,
+  "authority_record": null,
+  "rationale_text": null,
+  "scope_and_version": null,
+  "control_state": null,
+  "nonwaivable_owner_decision": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

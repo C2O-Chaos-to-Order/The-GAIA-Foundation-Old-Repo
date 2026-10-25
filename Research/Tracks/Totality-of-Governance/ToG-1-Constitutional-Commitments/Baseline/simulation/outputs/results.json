@@ -1,0 +1,461 @@
+{
+  "vectors": 177147,
+  "outcomes": {
+    "PASS": 1,
+    "FAIL": 175099,
+    "INDETERMINATE": 2047
+  },
+  "oracle_mismatches": 0,
+  "unsafe_passes": 0,
+  "checks": {
+    "V1": "PASS",
+    "V2": "PASS",
+    "V3": "PASS",
+    "V4": "PASS",
+    "V5": "PASS",
+    "V6": "PASS",
+    "V7": "PASS",
+    "V8": "PASS",
+    "V9": "PASS",
+    "V10": "PASS",
+    "V11": "PASS",
+    "V12": "PASS"
+  },
+  "mutation_controls": {
+    "ignore_unknown_rejected": true,
+    "majority_rejected": true
+  },
+  "fixtures": [
+    {
+      "id": "FAIL-01",
+      "states": [
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-02",
+      "states": [
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-03",
+      "states": [
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-04",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-05",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-06",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-07",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-08",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-09",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-10",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL",
+        "PASS"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "FAIL-11",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "FAIL"
+      ],
+      "expected": "FAIL",
+      "actual": "FAIL"
+    },
+    {
+      "id": "INDETERMINATE-01",
+      "states": [
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-02",
+      "states": [
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-03",
+      "states": [
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-04",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-05",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-06",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-07",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-08",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-09",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-10",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE",
+        "PASS"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "id": "INDETERMINATE-11",
+      "states": [
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "PASS",
+        "INDETERMINATE"
+      ],
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    }
+  ],
+  "identity_fixtures": [
+    {
+      "author": "agent-a",
+      "reviewer": "agent-a",
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "author": "agent-a",
+      "reviewer": " AGENT-A ",
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "author": "agent-a",
+      "reviewer": "",
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "author": "",
+      "reviewer": "reviewer-b",
+      "expected": "INDETERMINATE",
+      "actual": "INDETERMINATE"
+    },
+    {
+      "author": "agent-a",
+      "reviewer": "reviewer-b",
+      "expected": "PASS",
+      "actual": "PASS"
+    }
+  ],
+  "empirical_validation": false,
+  "independent_review": false,
+  "research_gate": "INDETERMINATE"
+}

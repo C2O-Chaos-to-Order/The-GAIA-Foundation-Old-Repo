@@ -1,0 +1,23 @@
+{
+  "grant_chain_cases": 9216,
+  "outcomes": {
+    "PASS": 32,
+    "FAIL": 8800,
+    "INDETERMINATE": 384
+  },
+  "scope_or_expiry_passes": 0,
+  "unknown_visibility_passes": 0,
+  "malformed_issuer_passes": 0,
+  "known_revocation_passes": 0,
+  "visibility_truth_assumed": true,
+  "checks": {
+    "D1": "PASS",
+    "D2": "PASS",
+    "D3": "PASS",
+    "D4": "PASS",
+    "D5": "PASS",
+    "D6": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+}

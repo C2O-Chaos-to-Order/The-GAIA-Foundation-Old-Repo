@@ -1,0 +1,117 @@
+{
+ "version": "v44-cycles-0-4-mr-track-abcd-phases-x12-conn0abcd-tog1",
+ "built_on": "v43-cycles-0-4-mr-track-abcd-phases-x12-conn0abcd",
+ "checks": [
+  {
+   "id": "T1",
+   "check": "Each ToG 1 cycle Provenance/MANIFEST.sha256 verifies",
+   "result": "PASS",
+   "detail": {
+    "Baseline": {
+     "entries": 39,
+     "result": "PASS"
+    },
+    "x3": {
+     "entries": 69,
+     "result": "PASS"
+    },
+    "x6": {
+     "entries": 104,
+     "result": "PASS"
+    },
+    "x9": {
+     "entries": 136,
+     "result": "PASS"
+    },
+    "x12": {
+     "entries": 166,
+     "result": "PASS"
+    }
+   }
+  },
+  {
+   "id": "T2",
+   "check": "Claim IDs unique across all five cycles",
+   "result": "PASS",
+   "value": 296
+  },
+  {
+   "id": "T3",
+   "check": "Every claim label is one of the four framework labels",
+   "result": "PASS"
+  },
+  {
+   "id": "T4",
+   "check": "Every x12 local 625 tuple matches exactly one v43 intersection by category names",
+   "result": "PASS",
+   "value": 625
+  },
+  {
+   "id": "T5",
+   "check": "Every graph edge added resolves to an existing v43 node",
+   "result": "PASS",
+   "value": 12
+  },
+  {
+   "id": "T6",
+   "check": "All 625 x12 local tuples remain UNPLACED (no placement asserted)",
+   "result": "PASS"
+  },
+  {
+   "id": "T7",
+   "check": "v43 base files copied byte-identical",
+   "result": "PASS",
+   "value": 140
+  }
+ ],
+ "unresolved_links_not_added": [
+  "TOG1-X12-LINK-BASELINE",
+  "TOG1-X12-LINK-X3",
+  "TOG1-X12-LINK-X6",
+  "TOG1-X12-LINK-X9",
+  "TOG1-X12-LINK-CHARTER",
+  "TOG1-X12-LINK-UR",
+  "TOG1-X12-LINK-GATE",
+  "TOG1-X12-LINK-RISK",
+  "TOG1-X12-LINK-MAPS",
+  "TOG1-X12-LINK-PC1",
+  "TOG1-X12-LINK-PC4",
+  "TOG1-X12-LINK-PC2",
+  "TOG1-X12-LINK-PC6",
+  "TOG1-X12-LINK-PC5",
+  "TOG1-X12-LINK-TOG5",
+  "TOG1-X12-LINK-TOG6",
+  "TOG1-X12-LINK-TOG8",
+  "TOG1-X12-LINK-NA",
+  "TOG1-X12-LINK-PHASES",
+  "TOG1-X12-LINK-E1"
+ ],
+ "inputs_sha256": {
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/Baseline/claims/CLAIMS.csv": "0f0607bd6447a5ed83b7af15d0ecf5f8874e2c81a86463757ca37fa20e5b8d60",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x3/claims/CLAIMS_X3.csv": "d76c076bb01979fc2db437791ae6243524580b1744b9bb721c46ff0c0b933716",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x6/claims/CLAIMS_X6.csv": "26dbba6badc5e3513c7aed42b9482e322d995f52845d4afc0bb7d3bc3ee2d461",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x9/claims/CLAIMS_X9.csv": "94e52caab5b3aee78a1d429d3582342509b3510d2a046a5895645183008c5662",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x12/claims/CLAIMS_X12.csv": "dff562368aeb6312da8878150f4af534fff3411e3219666594cd3a4affe1011c",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/Baseline/maps/DOMAIN_MAP.csv": "503ab086414eac16ee058e01888a95f3a88fc652c770c858a3b978abd65757a4",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x3/maps/DOMAIN_MAP_X3.csv": "b15a794a3ab3a233592be13a69abfbc67b6f90d41c028c53da69fc383cb3907a",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x6/maps/DOMAIN_MAP_X6.csv": "30c3b4562a8c881abbb86af4853a2162f2ba2ca91d1b01a39b31544fdb38cb83",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x9/maps/DOMAIN_MAP_X9.csv": "4ea8153fd5a3563ff7df345865f6314aa0754bb609f36d0991089ba55daa2638",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x12/maps/DOMAIN_MAP_X12.csv": "e157063f577e66d51bf68fa20ccd3da12211ce0a8aac58e310a285d78bf86aa3",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x12/maps/CLAUSE_CROSSWALK_X12.csv": "27ea223d875c77e23b706301455b23d30f56a486fed476b5bcc6ebd4f6c8a8a4",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/Baseline/maps/CLAUSE_CROSSWALK.csv": "eb4bb8aed02e763ccd410d223ebd0760d188f1081cc38d48612d6540ef19c94a",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x3/maps/CLAUSE_CROSSWALK_X3.csv": "e94059fed2ea1a22a1570ff292f71790c59227c6182e41fb72be197e7c4d93b4",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x6/maps/CLAUSE_CROSSWALK_X6.csv": "5e43ca448413cbe6d412553591a5f6f54dd0fb45501dbc52af4bc8992faf6c99",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x9/maps/CLAUSE_CROSSWALK_X9.csv": "31b3ae98248a0287dda71e05a61663f2cca41682c755193beb9e4f09a33c313b",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/Baseline/maps/LINKS.csv": "b2df3317a09620d7711712fada05567154afedc1850d3c0809774fa0714c872b",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x3/maps/LINKS_X3.csv": "5ad4454412014ea8a16229cba44712bb2f4f78d9dc8e8a701c748e2643e66aa5",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x6/maps/LINKS_X6.csv": "807851c5a7f72e8d7915b07a885846910d25e6f78fe9c091f6e7f86d3b20146f",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x9/maps/LINKS_X9.csv": "641799ce7a7cef263e575b8337378189229662df72427a7ac10828cae359a946",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x12/maps/LINKS_X12.csv": "c8d6422df69140ab6baedb5e7dd6b18ade84744f3a8df0d3739e50a79382e03a",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x12/maps/MATRIX_625_LOCAL_INDEX.csv": "e1e08b0c9c94431e54b49a5af4fad250bf1248f4729b13fc4cc0dcb38da5991f",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/Baseline/maps/MATRIX_625_LOCAL_INDEX.csv": "2e97f4061b0e3537a047035c92e0bf9dd4916863f443bd28c9b5737ac5678a95",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x3/maps/MATRIX_625_LOCAL_INDEX.csv": "df257972ca26a8965187e6a0cf0455bf7bbda35b491bdfee1469d2730b2c8888",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x6/maps/MATRIX_625_LOCAL_INDEX.csv": "747b3b85c69970d2fd9eef7e8ec71de17b0f45608151083fd53549e660704e44",
+  "Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x9/maps/MATRIX_625_LOCAL_INDEX.csv": "2f8da66b27ea20c4cb4c6cfc447657278352969d8494e612996fa1ef1cf6df28"
+ },
+ "scope": "Grok Bot self-check of the overlay only. Not independent review. ToG 1 gate stays INDETERMINATE as recorded."
+}

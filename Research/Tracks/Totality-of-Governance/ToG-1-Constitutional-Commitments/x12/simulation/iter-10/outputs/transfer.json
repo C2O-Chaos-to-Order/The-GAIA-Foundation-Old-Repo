@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 10,
+  "hypothesis_H10": "NOT SUPPORTED",
+  "hypothesis_H8": "NOT SUPPORTED",
+  "actual_atomic_implementation": "NONE",
+  "freshness_residual": 246
+}

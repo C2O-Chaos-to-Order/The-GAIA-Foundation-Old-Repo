@@ -1,0 +1,16 @@
+{
+  "reviewer_identity": null,
+  "producer_identity": null,
+  "competence_evidence": null,
+  "conflict_disclosure": null,
+  "conflict_assessment_basis": null,
+  "reviewed_scope": null,
+  "reviewed_version": null,
+  "review_timestamp": null,
+  "unknowns": null,
+  "human_approval_record": null,
+  "status": "TEMPLATE;NOT AN APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Unfilled fields are unknown,notPASS. This record is not proof of truth,competence,rights protection or authority."
+}

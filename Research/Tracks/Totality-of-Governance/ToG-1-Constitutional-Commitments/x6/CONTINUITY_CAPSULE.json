@@ -1,0 +1,1614 @@
+{
+  "metadata": {
+    "id": "GAIA-RES-TOG1-X6-001",
+    "version": "0.1.0",
+    "date": "2026-10-25",
+    "owner": "KyleAlexanderSteen",
+    "producer": "Perplexity(AI)",
+    "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+    "research_passes": 6,
+    "distinct_model_iterations": 6,
+    "initial_model_executions": 6,
+    "same_author_reproduction_executions": 6,
+    "successful_model_process_executions": 12,
+    "failed_model_launches": 0,
+    "independent_executions": 0,
+    "claim_entries": 54,
+    "documentary_sources": 11,
+    "conversational_records": 1,
+    "independent_review": false,
+    "ethics_review": false,
+    "assurance_proposal": "INDETERMINATE",
+    "adoption": "NOT ADOPTED",
+    "github_writes": 0,
+    "global_maps_integration": "NOT COMPLETE",
+    "prior_archives_available": false
+  },
+  "continuity_limit": {
+    "baseline_id": "GAIA-RES-TOG1-C0-001",
+    "x3_id": "GAIA-RES-TOG1-X3-001",
+    "prior_archives_available": false,
+    "basis": "Visible prior conversation reports,source findings and execution records;no prior artifact byte recovery",
+    "previously_reported_baseline_archive_sha256": "a28520bedbe86d000805dfb4e318d2cc4e153b8a6730aecb830ad482b3dbd4e7",
+    "previously_reported_x3_archive_sha256": "a16e2f16d9876150ecaea6d4551bf01cc3e6b16d97a3e751b0d1206410a79f28",
+    "reported_hashes_reverified": false,
+    "prior_45_and_41_claim_ledgers_imported": false,
+    "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+    "owner": "KyleAlexanderSteen",
+    "producer": "Perplexity (AI)"
+  },
+  "claims": [
+    {
+      "claim_id": "TOG1-X6-T01",
+      "clause": "4.1",
+      "claim": "The Proposed charter \u00a74.1 identifies 'Dignity and life'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.1",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C01",
+      "clause": "4.1",
+      "claim": "Keep rights constraints and affected-party harms visible;do not generalize a specialized gross-violations remedy instrument into blanket project legal authority. Applicability judgments do not decide a person\u2019s worth.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;H01",
+      "supporting_location": "\u00a74.1;remedy preamble,10\u201312,26\u201327",
+      "limits": "No affected-party consultation or real rights-impact study.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T02",
+      "clause": "4.2",
+      "claim": "The Proposed charter \u00a74.2 identifies 'Integrity before intelligence'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.2",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C02",
+      "clause": "4.2",
+      "claim": "Disclose unavailable prior artifacts,partial source access,duplicate synthetic fixtures and same-author reuse. A larger case count is not stronger independence.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;P02;C01",
+      "supporting_location": "\u00a74.2;Constraints\u00a71.2;prior-cycle records",
+      "limits": "No original45/41row byte-level reconciliation.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T03",
+      "clause": "4.3",
+      "claim": "The Proposed charter \u00a74.3 identifies 'Evidence before assertion'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.3",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C03",
+      "clause": "4.3",
+      "claim": "Record entity/version,source passage,producer and activity relations;trace downstream consequences of invalidated support without claiming graph consistency proves factual entailment.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;P01;P02",
+      "supporting_location": "\u00a74.3;DM\u00a7\u00a72.1\u20132.2;Constraints\u00a71.2,\u00a72.1",
+      "limits": "No completePROVvalidator or source authenticity checker.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T04",
+      "clause": "4.4",
+      "claim": "The Proposed charter \u00a74.4 identifies 'Verification before advancement'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.4",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C04",
+      "clause": "4.4",
+      "claim": "Separate applicability,dependency checks,role/conflict assessment,grant bounds,current-use revalidation and independent assurance. Preserve pre-execution specs,raw outputs and reproduced-byte evidence.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G02;N03",
+      "supporting_location": "\u00a74.4;Gate\u00a7\u00a71\u20133;MEASURE1.3,2.1\u20132.3",
+      "limits": "Reproduction remains same-author,not independent review.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T05",
+      "clause": "4.5",
+      "claim": "The Proposed charter \u00a74.5 identifies 'Safety before capability'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.5",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C05",
+      "clause": "4.5",
+      "claim": "Reassess context and permissions when impact,reach,autonomy or irreversibility changes;never use the toy\u2019s two non-waivable assumptions to weaken unmodeled safeguards.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G03;N03",
+      "supporting_location": "\u00a74.5,\u00a79;Risk\u00a71;GOVERN1.5,MAP1",
+      "limits": "No real risk-case acceptance or R/RL conversion.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T06",
+      "clause": "4.6",
+      "claim": "The Proposed charter \u00a74.6 identifies 'Accountability before authority'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.6",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C06",
+      "clause": "4.6",
+      "claim": "Bind human authority and reviewer roles to specific decisions;declared conflicts and competence are separate from a different identity string,while the owner remains distinct from an automatic gate function.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G02;N03;A01",
+      "supporting_location": "\u00a74.6,\u00a77;Gate\u00a71;GOVERN2,3.2;abstract",
+      "limits": "Fictional role assignments do not establish real independence or qualifications.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T07",
+      "clause": "4.7",
+      "claim": "The Proposed charter \u00a74.7 identifies 'Consent before access'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.7",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C07",
+      "clause": "4.7",
+      "claim": "Keep resource,action,subject,purpose,version,basis and expiry explicit. Withdrawn sole modeled authority cannot be replaced by a cached old approval or by inferred new permission.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;N01;N03",
+      "supporting_location": "\u00a74.7;revocation search excerpts;MAP3.3,MANAGE4.1",
+      "limits": "No legal-basis,signature or consent-law determination.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T08",
+      "clause": "4.8",
+      "claim": "The Proposed charter \u00a74.8 identifies 'Least harmful effective action'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.8",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C08",
+      "clause": "4.8",
+      "claim": "Consider context,alternatives,scope and remedy without reducing severe harm to a compensating project score;make conditional operational applicability reviewable rather than a shortcut.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;H01;N03",
+      "supporting_location": "\u00a74.8,\u00a710;remedy\u00a7\u00a715,18,26\u201327;MANAGE2.1",
+      "limits": "No actual intervention optimization or effectiveness comparison.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T09",
+      "clause": "4.9",
+      "claim": "The Proposed charter \u00a74.9 identifies 'Truthful uncertainty'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.9",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C09",
+      "clause": "4.9",
+      "claim": "Mark descendants of unusable supportINDETERMINATE unless stronger evidence warrants a distinct judgment. Keep unsupported applicability and absent issuer/reviewer evidence from becomingPASS.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G02;P02",
+      "supporting_location": "\u00a74.9,\u00a78;Gate\u00a72;Constraints\u00a71.2",
+      "limits": "Truth does not follow fromwell-formed metadata or expected-count tests.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T10",
+      "clause": "4.10",
+      "claim": "The Proposed charter \u00a74.10 identifies 'Stewardship and continuity'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.10",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C10",
+      "clause": "4.10",
+      "claim": "Preserve versions and restricted provenance while invalidating stale approvals. Minimize sensitive audit payloads,consider correction/remedy and keep retention authority separate from future access permission.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;P01;N03;H01",
+      "supporting_location": "\u00a74.10,\u00a713;DM\u00a72.2.2;GOVERN1.5,1.7,MANAGE4.1;remedy\u00a7\u00a710,12,22",
+      "limits": "No archival restore,privacy anonymization or actual reparation tested.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-T11",
+      "clause": "4.11",
+      "claim": "The Proposed charter \u00a74.11 identifies 'Non-exemption'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a74.11",
+      "limits": "Textual identity,not adoption or moral truth",
+      "continuity": "Rechecked clause identity;prior rows not imported"
+    },
+    {
+      "claim_id": "TOG1-X6-C11",
+      "clause": "4.11",
+      "claim": "Reject score-,owner-,metadata- or cache-based shortcuts around required evidence,rights,review and scoped authority. Capability,urgency and philosophical framing remain non-authorizing.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G02;N03",
+      "supporting_location": "\u00a74.11,\u00a7\u00a77\u20138;Gate\u00a7\u00a71\u20133;MEASURE2,MANAGE4",
+      "limits": "No live agent audit or proof of a complete ethical framework.",
+      "continuity": "x6operational proposal;no inherited label upgrade"
+    },
+    {
+      "claim_id": "TOG1-X6-S1A",
+      "clause": "cross-cutting",
+      "claim": "The OHCHR remedy document expressly targets gross violations of international human rights law and serious violations of international humanitarian law,and states it does not entail new legal obligations.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "H01",
+      "supporting_location": "preamble",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S1B",
+      "clause": "cross-cutting",
+      "claim": "Its principles address victim dignity/privacy,access to remedies,forms of reparation and preservation of others\u2019 rights/due process.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "H01",
+      "supporting_location": "paras10\u201312,18\u201323,26\u201327",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S2A",
+      "clause": "cross-cutting",
+      "claim": "PROV-DM describes entities,activities,agents,derivation and provenance-of-provenance;its overview says usage/generation alone is not sufficient for derivation.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "P01",
+      "supporting_location": "\u00a7\u00a71,2.1.1\u20132.1.3,2.2.2",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S2B",
+      "clause": "cross-cutting",
+      "claim": "PROV-Constraints distinguishes consistent recorded histories from a universal notion of truth,and describes event order,types and invalidation in its rationale.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "P02",
+      "supporting_location": "\u00a7\u00a71.2,2.1\u20132.4",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S3A",
+      "clause": "cross-cutting",
+      "claim": "NISTCore separately specifies role responsibility,training,leadership responsibility and contextual independent/non-front-line review.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "N03",
+      "supporting_location": "GOVERN2.1\u20132.3,3.2;MEASURE1.3",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S3B",
+      "clause": "cross-cutting",
+      "claim": "NISTprimary search excerpts discuss separation of duties and limiting privileges;the fullcontrol bodies were not returned by the PDF fetches.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "N01;N02",
+      "supporting_location": "primarysearch excerpts;N01pI\u2013II;N02cover/TOC",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S4A",
+      "clause": "cross-cutting",
+      "claim": "PROV-DM\u2019s delegation overview describes representation/responsibility,but does not implement an authorization-token validity check.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "P01",
+      "supporting_location": "\u00a72.1.3",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S4B",
+      "clause": "cross-cutting",
+      "claim": "The normative NISTPDF permits voluntary nongovernmental use;the OSCALderived PDF explicitly defers discrepancies to the normative publication.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "N01;N02",
+      "supporting_location": "N01authoritypI;N02cover",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S5A",
+      "clause": "cross-cutting",
+      "claim": "NISTCore includes ongoing review,deactivation responsibilities and post-deployment change/incident management.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "N03",
+      "supporting_location": "GOVERN1.5,1.7;MANAGE2.4,4.1\u20134.3",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S5B",
+      "clause": "cross-cutting",
+      "claim": "The charter distinguishes authorization from monitoring/change and requires retained prior versions and attributable change records.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "G01",
+      "supporting_location": "\u00a7\u00a77,12\u201313",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S6A",
+      "clause": "cross-cutting",
+      "claim": "NISTCore is not an ordered checklist and calls for evaluation of metrics/process effectiveness and impacted-party feedback.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "N03",
+      "supporting_location": "intro;MEASURE2.13,3.3,4",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-S6B",
+      "clause": "cross-cutting",
+      "claim": "The team-in-the-loop abstract explicitly describes institutional/team oversight complexity and says further empirical research is needed.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "A01",
+      "supporting_location": "abstractonly",
+      "limits": "Inspected text/access-limited description,not implementation or empirical validation",
+      "continuity": "New source or newly examined source detail;not cumulative ledger import"
+    },
+    {
+      "claim_id": "TOG1-X6-P1",
+      "clause": "cross-cutting",
+      "claim": "An applicability disposition must retain its authority,rationale and scope rather than acting as a fourth gate state. A gross/serious-violations remedy text offers limited analogies about dignity,privacy and non-repetition,but its legal scope cannot be imported wholesale into ordinary project governance.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "G01;H01;N03",
+      "supporting_location": "G01\u00a7\u00a74\u20135;H01preamble,10\u201312,18\u201323,26\u201327;N03MAP1,MANAGE1",
+      "limits": "Toy non-waivable4.1/4.11 are assumptions,not an owner decision;all eleven overarching commitments remain under owner review. No real remedy or affected-party assessment performed.",
+      "continuity": "Single-author x6synthesis,not independent review"
+    },
+    {
+      "claim_id": "TOG1-X6-N1",
+      "clause": "cross-cutting",
+      "claim": "Proposed output: Applicability record;remedy/scope warning;iteration1cases",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;H01;N03",
+      "supporting_location": "G01\u00a7\u00a74\u20135;H01preamble,10\u201312,18\u201323,26\u201327;N03MAP1,MANAGE1",
+      "limits": "Toy non-waivable4.1/4.11 are assumptions,not an owner decision;all eleven overarching commitments remain under owner review. No real remedy or affected-party assessment performed.",
+      "continuity": "Proposed record/control,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X6-SIM1",
+      "clause": "cross-cutting",
+      "claim": "{\"fixtures\": 2046, \"mandatory_waiver_passes\": 0, \"oracle_mismatches\": 0, \"outcomes\": {\"FAIL\": 1203, \"INDETERMINATE\": 642, \"PASS\": 201}, \"unique_raw_vectors\": 1431, \"unsupported_na_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "RUN1",
+      "supporting_location": "simulation/iter-1/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Bounded synthetic rule result,executed and same-author reproduced;not independent/empirical assurance",
+      "continuity": "New x6iteration design;not replay of prior original bytes"
+    },
+    {
+      "claim_id": "TOG1-X6-P2",
+      "clause": "cross-cutting",
+      "claim": "Versioned evidence and provenance-of-provenance motivate tracing dependency impacts. Consistency of recorded history does not establish factual truth. An invalidated support should reopen affected conclusions;it does not automatically prove them false.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "P01;P02",
+      "supporting_location": "P01\u00a7\u00a71,2.1.1\u20132.1.3,2.2.2;P02\u00a7\u00a71.2,2.1\u20132.4",
+      "limits": "Only retrieved overviews/rationale read;no fullPROVconformance. Dependency DAG is a toy application restriction,not a claim that every provenance relation must be acyclic.",
+      "continuity": "Single-author x6synthesis,not independent review"
+    },
+    {
+      "claim_id": "TOG1-X6-N2",
+      "clause": "cross-cutting",
+      "claim": "Proposed output: Dependency/change record;iteration2closure tests",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "P01;P02",
+      "supporting_location": "P01\u00a7\u00a71,2.1.1\u20132.1.3,2.2.2;P02\u00a7\u00a71.2,2.1\u20132.4",
+      "limits": "Only retrieved overviews/rationale read;no fullPROVconformance. Dependency DAG is a toy application restriction,not a claim that every provenance relation must be acyclic.",
+      "continuity": "Proposed record/control,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X6-SIM2",
+      "clause": "cross-cutting",
+      "claim": "{\"closure_mismatches\": 0, \"dependency_graphs\": 64, \"invalidated_or_dependent_passes\": 0, \"root_invalidation_cases\": 384, \"unrelated_state_errors\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "RUN2",
+      "supporting_location": "simulation/iter-2/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Bounded synthetic rule result,executed and same-author reproduced;not independent/empirical assurance",
+      "continuity": "New x6iteration design;not replay of prior original bytes"
+    },
+    {
+      "claim_id": "TOG1-X6-P3",
+      "clause": "cross-cutting",
+      "claim": "The distinction between author,reviewer and owner must be recorded along with qualifications and declared conflicts. Source discussion of institutional oversight warns against treating a name check as independence. NISTpermits contextual assessment;the two-reviewer toy is not attributed to NISTas universal.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "G01;G02;N03;A01;N01",
+      "supporting_location": "G01\u00a77;G02\u00a7\u00a71\u20133;N03GOVERN2,3.2,MEASURE1.3;A01abstract;N01search excerpts",
+      "limits": "No real identities,qualifications,organizational conflicts or independent reviewer assessed. Search excerpts do not substitute for unread control bodies.",
+      "continuity": "Single-author x6synthesis,not independent review"
+    },
+    {
+      "claim_id": "TOG1-X6-N3",
+      "clause": "cross-cutting",
+      "claim": "Proposed output: Role/conflict record;iteration3identity/conflict matrix",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G02;N03;A01;N01",
+      "supporting_location": "G01\u00a77;G02\u00a7\u00a71\u20133;N03GOVERN2,3.2,MEASURE1.3;A01abstract;N01search excerpts",
+      "limits": "No real identities,qualifications,organizational conflicts or independent reviewer assessed. Search excerpts do not substitute for unread control bodies.",
+      "continuity": "Proposed record/control,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X6-SIM3",
+      "clause": "cross-cutting",
+      "claim": "{\"identity_only_false_passes\": 23808, \"oracle_mismatches\": 0, \"outcomes\": {\"FAIL\": 64768, \"PASS\": 768}, \"role_cases\": 65536, \"same_author_review_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "RUN3",
+      "supporting_location": "simulation/iter-3/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Bounded synthetic rule result,executed and same-author reproduced;not independent/empirical assurance",
+      "continuity": "New x6iteration design;not replay of prior original bytes"
+    },
+    {
+      "claim_id": "TOG1-X6-P4",
+      "clause": "cross-cutting",
+      "claim": "A provenance description of delegation is not authorization. A proposed capability model separately bounds actor,resource,action,purpose,version andexpiry,and rejects childgrants wider than parentgrants.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "P01;N01;N02;N03",
+      "supporting_location": "P01\u00a72.1.3;N01authority/abstract and primarysearch excerpts;N02cover/TOC;N03MAP3.3",
+      "limits": "No signature or issuer-authenticity test,no deployment,no claim ofNISTcontrol implementation. Empty grants can validate structurally but authorize no action.",
+      "continuity": "Single-author x6synthesis,not independent review"
+    },
+    {
+      "claim_id": "TOG1-X6-N4",
+      "clause": "cross-cutting",
+      "claim": "Proposed output: Delegation record;iteration4subset/expiry cases",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "P01;N01;N02;N03",
+      "supporting_location": "P01\u00a72.1.3;N01authority/abstract and primarysearch excerpts;N02cover/TOC;N03MAP3.3",
+      "limits": "No signature or issuer-authenticity test,no deployment,no claim ofNISTcontrol implementation. Empty grants can validate structurally but authorize no action.",
+      "continuity": "Proposed record/control,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X6-SIM4",
+      "clause": "cross-cutting",
+      "claim": "{\"child_only_mutant_false_passes\": 431, \"delegation_cases\": 9216, \"oracle_mismatches\": 0, \"outcomes\": {\"FAIL\": 9054, \"INDETERMINATE\": 81, \"PASS\": 81}, \"unknown_issuer_passes\": 0, \"unsafe_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "RUN4",
+      "supporting_location": "simulation/iter-4/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Bounded synthetic rule result,executed and same-author reproduced;not independent/empirical assurance",
+      "continuity": "New x6iteration design;not replay of prior original bytes"
+    },
+    {
+      "claim_id": "TOG1-X6-P5",
+      "clause": "cross-cutting",
+      "claim": "A current-use check is a different predicate from a historical permission check. The new toy separates CHECKfromCOMMITand includes real executable stale-cache counterexamples,not just predicted fixed outputs.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "G01;N03;N01",
+      "supporting_location": "G01\u00a7\u00a74.7,4.10,7,12\u201313;N03GOVERN1.5,MANAGE2.4,4.1;N01revocation search excerpt",
+      "limits": "Sequential interleavings,horizon5,not a real distributed-concurrency/latency test;clock,updates and enforcement are idealized. Sole-basis withdrawal is not a universal deletion doctrine.",
+      "continuity": "Single-author x6synthesis,not independent review"
+    },
+    {
+      "claim_id": "TOG1-X6-N5",
+      "clause": "cross-cutting",
+      "claim": "Proposed output: Current-use record;iteration5race traces",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;N03;N01",
+      "supporting_location": "G01\u00a7\u00a74.7,4.10,7,12\u201313;N03GOVERN1.5,MANAGE2.4,4.1;N01revocation search excerpt",
+      "limits": "Sequential interleavings,horizon5,not a real distributed-concurrency/latency test;clock,updates and enforcement are idealized. Sole-basis withdrawal is not a universal deletion doctrine.",
+      "continuity": "Proposed record/control,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X6-SIM5",
+      "clause": "cross-cutting",
+      "claim": "{\"commit_attempt_steps\": 20480, \"event_steps\": 163840, \"permitted_commit_steps\": 1260, \"review_auto_approval_errors\": 0, \"trace_count\": 32768, \"unsafe_cache_only_commit_steps\": 1443, \"unsafe_hardened_commit_steps\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "RUN5",
+      "supporting_location": "simulation/iter-5/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Bounded synthetic rule result,executed and same-author reproduced;not independent/empirical assurance",
+      "continuity": "New x6iteration design;not replay of prior original bytes"
+    },
+    {
+      "claim_id": "TOG1-X6-P6",
+      "clause": "cross-cutting",
+      "claim": "Combine source/version/rights/review/authority evidence without allowing missing review or projected benefits to be offset by scores. Execute intentionally unsafe alternative policies and preserve examples. Broader effectiveness remains an empirical question.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "source_ids": "G01;G02;N03;P02;H01",
+      "supporting_location": "G01\u00a7\u00a78\u201310;G02\u00a72;N03MEASURE2.3,2.13,3.3,MANAGE4;P02\u00a71.2;H01\u00a7\u00a726\u201327",
+      "limits": "Same author produces specifications,oracles and reproduction. No independent review,legal certification,source authenticity proof,field validation or complete global mapping.",
+      "continuity": "Single-author x6synthesis,not independent review"
+    },
+    {
+      "claim_id": "TOG1-X6-N6",
+      "clause": "cross-cutting",
+      "claim": "Proposed output: Integrated assurance record;iteration6callablemutants;open-question update",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "source_ids": "G01;G02;N03;P02;H01",
+      "supporting_location": "G01\u00a7\u00a78\u201310;G02\u00a72;N03MEASURE2.3,2.13,3.3,MANAGE4;P02\u00a71.2;H01\u00a7\u00a726\u201327",
+      "limits": "Same author produces specifications,oracles and reproduction. No independent review,legal certification,source authenticity proof,field validation or complete global mapping.",
+      "continuity": "Proposed record/control,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X6-SIM6",
+      "clause": "cross-cutting",
+      "claim": "{\"assurance_vectors\": 729, \"callable_mutant_false_passes\": {\"ignore_unknown\": 63, \"majority\": 72, \"metadata_is_proof\": 728, \"owner_override\": 242}, \"missing_review_or_authority_passes\": 0, \"oracle_mismatches\": 0, \"outcomes\": {\"FAIL\": 665, \"INDETERMINATE\": 63, \"PASS\": 1}}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "source_ids": "RUN6",
+      "supporting_location": "simulation/iter-6/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Bounded synthetic rule result,executed and same-author reproduced;not independent/empirical assurance",
+      "continuity": "New x6iteration design;not replay of prior original bytes"
+    },
+    {
+      "claim_id": "TOG1-X6-H1",
+      "clause": "cross-cutting",
+      "claim": "Explicit applicability,dependency and current-use records may improve actual audit error detection compared with free-form attestations.",
+      "class": "Hypothesis/speculation",
+      "label": "Hypothetical",
+      "status": "Hypothetical",
+      "source_ids": "N03;A01;P01",
+      "supporting_location": "MEASURE2.13,3.3;abstract;DM\u00a71",
+      "limits": "Untested causal effectiveness hypothesis;no field study,control group or real harm measurement",
+      "continuity": "Future falsifiable question,not established by toyenumeration"
+    },
+    {
+      "claim_id": "TOG1-X6-H2",
+      "clause": "cross-cutting",
+      "claim": "Version-bound authorization and protected provenance may reduce real unauthorized-use and correction harms without imposing disproportionate barriers.",
+      "class": "Hypothesis/speculation",
+      "label": "Hypothetical",
+      "status": "Hypothetical",
+      "source_ids": "N03;A01;P01",
+      "supporting_location": "MEASURE2.13,3.3;abstract;DM\u00a71",
+      "limits": "Untested causal effectiveness hypothesis;no field study,control group or real harm measurement",
+      "continuity": "Future falsifiable question,not established by toyenumeration"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "G01",
+      "title": "GAIA Totality of Governance Charter",
+      "author_issuer": "Kyle Alexander Steen;repository draft",
+      "publication_date": "2026-10-24",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md",
+      "upstream_git_blob_sha": "8058353ad85bacc81c8deb7ca2cfc0576686bbd4",
+      "access_mode": "Re-read via GitHub;\u00a74 and \u00a7\u00a71\u201313 returned;later content truncated",
+      "supporting_locations": "\u00a7\u00a72,4.1\u20134.11,5,7\u20139,12\u201313",
+      "limitations": "Proposed;unread later text not reconstructed",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "G02",
+      "title": "Gate authority",
+      "author_issuer": "Grok Bot for KyleAlexanderSteen",
+      "publication_date": "2026-10-24",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/GOVERNANCE/GATE_AUTHORITY.md",
+      "upstream_git_blob_sha": "4fdc3454fe88a15e6b0b0d464d2bb0ac202c8ebc",
+      "access_mode": "Re-read via GitHub,full response",
+      "supporting_locations": "\u00a7\u00a71\u20133,5",
+      "limitations": "Historical register not a new live reviewer/settings audit",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "G03",
+      "title": "Risk levels for GAIA reports and simulations",
+      "author_issuer": "Grok Bot for KyleAlexanderSteen",
+      "publication_date": "2026-10-24",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/GOVERNANCE/RISK_LEVELS.md",
+      "upstream_git_blob_sha": "7ae518809c23c83f4902186080f8819dd57839d3",
+      "access_mode": "Prior conversation source text;not re-fetched this turn;same pinned commit",
+      "supporting_locations": "\u00a7\u00a71,4",
+      "limitations": "No refreshed product counts or R/RL conversion",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "G04",
+      "title": "Maps & Matrix index",
+      "author_issuer": "The GAIA Foundation",
+      "publication_date": "2026-10-25",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/Research/Maps-and-Matrix/README.md",
+      "upstream_git_blob_sha": "dd7d9296904964bd91dafea2b52d005563c9c199",
+      "access_mode": "Prior conversation source text;not re-fetched this turn;same pinned commit",
+      "supporting_locations": "intro;v1\u2013v43;generation notes",
+      "limitations": "Index/manifest assertions not re-executed;no complete corpus inventory",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "P01",
+      "title": "PROV-DM: The PROV Data Model",
+      "author_issuer": "W3C;editors Luc Moreau,Paolo Missier",
+      "publication_date": "2013-04-30",
+      "locator": "https://www.w3.org/TR/prov-dm/",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary HTML through part of\u00a74.2 returned",
+      "supporting_locations": "abstract;\u00a71;\u00a72.1.1\u20132.1.3;\u00a72.2.1\u20132.2.3",
+      "limitations": "Overview portions non-normative;normative\u00a75 not read;no full conformance claimed",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "P02",
+      "title": "Constraints of the PROV Data Model",
+      "author_issuer": "W3C;editors James Cheney,Paolo Missier,Luc Moreau",
+      "publication_date": "2013-04-30",
+      "locator": "https://www.w3.org/TR/prov-constraints/",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary HTML through part of\u00a72.4 returned",
+      "supporting_locations": "abstract;\u00a71.2;\u00a72.1\u20132.4",
+      "limitations": "Selected rationale/process overview;later normative constraints not fully read;toy is not complete validator",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "N01",
+      "title": "Security and Privacy Controls for Information Systems and Organizations,SP800-53Rev5",
+      "author_issuer": "NIST Joint Task Force",
+      "publication_date": "2020-09;PDF includes updates2020-12-10",
+      "locator": "https://nvlpubs.nist.gov/nistpubs/specialpublications/NIST.SP.800-53r5.pdf",
+      "upstream_git_blob_sha": "",
+      "access_mode": "PDF front matter through part oferrata printedpXVII;primary search excerpts also returned",
+      "supporting_locations": "authoritypI;abstractpII;frontmatterppVI,X,XII;search excerpts on separation/least privilege/revocation",
+      "limitations": "Control bodies not returned by fetch;do not present search excerpts as full-control reading",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "N02",
+      "title": "SP800-53Revision5.1 control-only derivative produced from OSCAL",
+      "author_issuer": "NIST",
+      "publication_date": "Date not established from fetched cover",
+      "locator": "https://csrc.nist.gov/CSRC/media/Projects/risk-management/800-53%20Downloads/800-53r5/SP_800-53_v5_1-derived-OSCAL.pdf",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Cover/TOC through part ofpVII returned;primary search excerpts available",
+      "supporting_locations": "cover status note;TOC AC-3,AC-5,AC-6,AU,CA",
+      "limitations": "Derivative explicitly defers discrepancies to normative publication;TOC entries are not inspected control bodies",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "N03",
+      "title": "AI RMF Core excerpt from AI RMF1.0",
+      "author_issuer": "NIST AIRC",
+      "publication_date": "2023 framework;page accessed2026-10-25",
+      "locator": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary HTML full Core tables returned",
+      "supporting_locations": "intro;GOVERN1.5,2,3.2,5;MAP1,3.3;MEASURE1.3,2,3.3;MANAGE2.4,4.1\u20134.3",
+      "limitations": "Voluntary and contextual;not an ordered checklist;not a finding of GAIA implementation",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "H01",
+      "title": "Basic Principles and Guidelines on the Right to a Remedy and Reparation for Victims of Gross Violations of International Human Rights Law and Serious Violations of International Humanitarian Law",
+      "author_issuer": "UN General Assembly/OHCHR",
+      "publication_date": "2005-12-16",
+      "locator": "https://www.ohchr.org/en/instruments-mechanisms/instruments/basic-principles-and-guidelines-right-remedy-and-reparation",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary HTML complete27principles returned",
+      "supporting_locations": "preamble;paras10\u201312,15,18\u201323,26\u201327",
+      "limitations": "Specific gross/serious-violations scope;not a blanket project-grievance law or grant of judicial authority",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "A01",
+      "title": "'Team-in-the-loop':Ostrom's IAD framework 'rules in use' to map and measure contextual impacts of AI",
+      "author_issuer": "Deborah Morgan,Youmna Hashem,John Francis,Saba Esnaashari,Vincent J.Straub,Jonathan Bright",
+      "publication_date": "arXivv2 2024-06-30",
+      "locator": "https://arxiv.org/abs/2303.14007",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Abstract/metadata re-read;full paper not read",
+      "supporting_locations": "abstract",
+      "limitations": "Preprint abstract only;further empirical research explicitly needed",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "C01",
+      "title": "ToG1 Baseline/x3 prior conversation findings and visible execution records",
+      "author_issuer": "Perplexity for KyleAlexanderSteen",
+      "publication_date": "2026-10-25",
+      "locator": "preceding conversation:GAIA-RES-TOG1-C0-001;GAIA-RES-TOG1-X3-001",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Conversation only;prior archives absent",
+      "supporting_locations": "baseline/x3summaries,limits,models and claimed file digests",
+      "limitations": "No original45/41row import,byte recovery or reverified hashes",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    }
+  ],
+  "research_passes": [
+    {
+      "pass": 1,
+      "title": "Applicability,rights and remedy boundaries",
+      "question": "How can applicability be justified without inventing a waiver or misapplying a specialized legal instrument?",
+      "source_locations": "G01\u00a7\u00a74\u20135;H01preamble,10\u201312,18\u201323,26\u201327;N03MAP1,MANAGE1",
+      "contribution": "An applicability disposition must retain its authority,rationale and scope rather than acting as a fourth gate state. A gross/serious-violations remedy text offers limited analogies about dignity,privacy and non-repetition,but its legal scope cannot be imported wholesale into ordinary project governance.",
+      "limits": "Toy non-waivable4.1/4.11 are assumptions,not an owner decision;all eleven overarching commitments remain under owner review. No real remedy or affected-party assessment performed.",
+      "outputs": "Applicability record;remedy/scope warning;iteration1cases"
+    },
+    {
+      "pass": 2,
+      "title": "Provenance and downstream evidence invalidation",
+      "question": "What changes when support is revised,invalidated or only structurally consistent?",
+      "source_locations": "P01\u00a7\u00a71,2.1.1\u20132.1.3,2.2.2;P02\u00a7\u00a71.2,2.1\u20132.4",
+      "contribution": "Versioned evidence and provenance-of-provenance motivate tracing dependency impacts. Consistency of recorded history does not establish factual truth. An invalidated support should reopen affected conclusions;it does not automatically prove them false.",
+      "limits": "Only retrieved overviews/rationale read;no fullPROVconformance. Dependency DAG is a toy application restriction,not a claim that every provenance relation must be acyclic.",
+      "outputs": "Dependency/change record;iteration2closure tests"
+    },
+    {
+      "pass": 3,
+      "title": "Reviewer independence,roles and disclosed conflicts",
+      "question": "Can different names conceal the conflicts or insufficient competence that matter to review?",
+      "source_locations": "G01\u00a77;G02\u00a7\u00a71\u20133;N03GOVERN2,3.2,MEASURE1.3;A01abstract;N01search excerpts",
+      "contribution": "The distinction between author,reviewer and owner must be recorded along with qualifications and declared conflicts. Source discussion of institutional oversight warns against treating a name check as independence. NISTpermits contextual assessment;the two-reviewer toy is not attributed to NISTas universal.",
+      "limits": "No real identities,qualifications,organizational conflicts or independent reviewer assessed. Search excerpts do not substitute for unread control bodies.",
+      "outputs": "Role/conflict record;iteration3identity/conflict matrix"
+    },
+    {
+      "pass": 4,
+      "title": "Scoped delegation and least privilege",
+      "question": "How can delegated capabilities remain inside parent scope rather than amplify it?",
+      "source_locations": "P01\u00a72.1.3;N01authority/abstract and primarysearch excerpts;N02cover/TOC;N03MAP3.3",
+      "contribution": "A provenance description of delegation is not authorization. A proposed capability model separately bounds actor,resource,action,purpose,version andexpiry,and rejects childgrants wider than parentgrants.",
+      "limits": "No signature or issuer-authenticity test,no deployment,no claim ofNISTcontrol implementation. Empty grants can validate structurally but authorize no action.",
+      "outputs": "Delegation record;iteration4subset/expiry cases"
+    },
+    {
+      "pass": 5,
+      "title": "Authorization changes between check and use",
+      "question": "Can cached approval survive a scope,version,time or basis change before the modeled action?",
+      "source_locations": "G01\u00a7\u00a74.7,4.10,7,12\u201313;N03GOVERN1.5,MANAGE2.4,4.1;N01revocation search excerpt",
+      "contribution": "A current-use check is a different predicate from a historical permission check. The new toy separates CHECKfromCOMMITand includes real executable stale-cache counterexamples,not just predicted fixed outputs.",
+      "limits": "Sequential interleavings,horizon5,not a real distributed-concurrency/latency test;clock,updates and enforcement are idealized. Sole-basis withdrawal is not a universal deletion doctrine.",
+      "outputs": "Current-use record;iteration5race traces"
+    },
+    {
+      "pass": 6,
+      "title": "Integrated assurance,negative findings and proportionality",
+      "question": "Which conclusions can the evidence actually support,and what remains unknown after more cycles?",
+      "source_locations": "G01\u00a7\u00a78\u201310;G02\u00a72;N03MEASURE2.3,2.13,3.3,MANAGE4;P02\u00a71.2;H01\u00a7\u00a726\u201327",
+      "contribution": "Combine source/version/rights/review/authority evidence without allowing missing review or projected benefits to be offset by scores. Execute intentionally unsafe alternative policies and preserve examples. Broader effectiveness remains an empirical question.",
+      "limits": "Same author produces specifications,oracles and reproduction. No independent review,legal certification,source authenticity proof,field validation or complete global mapping.",
+      "outputs": "Integrated assurance record;iteration6callablemutants;open-question update"
+    }
+  ],
+  "preexecution_spec_hashes": {
+    "1": "fc25addda9d70ac8854a8eb77ebc5990d5381db63b2f3a668e80320dfdf94685",
+    "2": "c0ee96b717360799c3cead2858e4d3c687724a8b32bc4cd2f83a832a3bd8b9ec",
+    "3": "889827449d0fad6aee4019dd9a4a8e605488df84e4ccda140f831ae8cc5ae187",
+    "4": "e8572d8763d00fe8cecd8ec3a67e49601af3f687a691fbd80dc0f4201b7618e6",
+    "5": "4e8c144f10b96b4d0f1ea35afc9307f2ef60462e5a614ab822baa266416ccfa4",
+    "6": "3ff45fcf8abd485b25d472135ae1edee73cfbac99b99485a8404f3088013cb34"
+  },
+  "model_results": [
+    {
+      "fixtures": 2046,
+      "unique_raw_vectors": 1431,
+      "outcomes": {
+        "PASS": 201,
+        "FAIL": 1203,
+        "INDETERMINATE": 642
+      },
+      "oracle_mismatches": 0,
+      "unsupported_na_passes": 0,
+      "mandatory_waiver_passes": 0,
+      "checks": {
+        "A1": "PASS",
+        "A2": "PASS",
+        "A3": "PASS",
+        "A4": "PASS",
+        "A5": "PASS",
+        "A6": "PASS",
+        "A7": "PASS"
+      },
+      "scope": "Synthetic model outputs,not independent/empirical assurance"
+    },
+    {
+      "dependency_graphs": 64,
+      "root_invalidation_cases": 384,
+      "closure_mismatches": 0,
+      "invalidated_or_dependent_passes": 0,
+      "unrelated_state_errors": 0,
+      "checks": {
+        "D1": "PASS",
+        "D2": "PASS",
+        "D3": "PASS",
+        "D4": "PASS",
+        "D5": "PASS",
+        "D6": "PASS",
+        "D7": "PASS"
+      },
+      "scope": "Synthetic model outputs,not independent/empirical assurance"
+    },
+    {
+      "role_cases": 65536,
+      "outcomes": {
+        "FAIL": 64768,
+        "PASS": 768
+      },
+      "oracle_mismatches": 0,
+      "same_author_review_passes": 0,
+      "identity_only_false_passes": 23808,
+      "checks": {
+        "R1": "PASS",
+        "R2": "PASS",
+        "R3": "PASS",
+        "R4": "PASS",
+        "R5": "PASS",
+        "R6": "PASS",
+        "R7": "PASS"
+      },
+      "scope": "Synthetic model outputs,not independent/empirical assurance"
+    },
+    {
+      "delegation_cases": 9216,
+      "outcomes": {
+        "FAIL": 9054,
+        "PASS": 81,
+        "INDETERMINATE": 81
+      },
+      "oracle_mismatches": 0,
+      "unsafe_passes": 0,
+      "unknown_issuer_passes": 0,
+      "child_only_mutant_false_passes": 431,
+      "checks": {
+        "G1": "PASS",
+        "G2": "PASS",
+        "G3": "PASS",
+        "G4": "PASS",
+        "G5": "PASS",
+        "G6": "PASS",
+        "G7": "PASS"
+      },
+      "scope": "Synthetic model outputs,not independent/empirical assurance"
+    },
+    {
+      "trace_count": 32768,
+      "event_steps": 163840,
+      "commit_attempt_steps": 20480,
+      "permitted_commit_steps": 1260,
+      "unsafe_hardened_commit_steps": 0,
+      "unsafe_cache_only_commit_steps": 1443,
+      "review_auto_approval_errors": 0,
+      "checks": {
+        "T1": "PASS",
+        "T2": "PASS",
+        "T3": "PASS",
+        "T4": "PASS",
+        "T5": "PASS",
+        "T6": "PASS",
+        "T7": "PASS"
+      },
+      "scope": "Synthetic model outputs,not independent/empirical assurance"
+    },
+    {
+      "assurance_vectors": 729,
+      "outcomes": {
+        "PASS": 1,
+        "FAIL": 665,
+        "INDETERMINATE": 63
+      },
+      "oracle_mismatches": 0,
+      "callable_mutant_false_passes": {
+        "majority": 72,
+        "owner_override": 242,
+        "metadata_is_proof": 728,
+        "ignore_unknown": 63
+      },
+      "missing_review_or_authority_passes": 0,
+      "checks": {
+        "I1": "PASS",
+        "I2": "PASS",
+        "I3": "PASS",
+        "I4": "PASS",
+        "I5": "PASS",
+        "I6": "PASS",
+        "I7": "PASS",
+        "I8": "PASS"
+      },
+      "scope": "Synthetic model outputs,not independent/empirical assurance"
+    }
+  ],
+  "execution_records": [
+    {
+      "id": "TOG1-X6-RUN-1",
+      "iteration": 1,
+      "started_utc": "2026-10-25T19:50:34.572941+00:00",
+      "ended_utc": "2026-10-25T19:50:34.590708+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "seed": null,
+      "deterministic": true,
+      "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+      "spec_before_sha256": "fc25addda9d70ac8854a8eb77ebc5990d5381db63b2f3a668e80320dfdf94685",
+      "spec_after_sha256": "fc25addda9d70ac8854a8eb77ebc5990d5381db63b2f3a668e80320dfdf94685",
+      "inputs_sha256": {},
+      "outputs_sha256": {
+        "applicability_fixtures.csv": "591891ec26e6e5e49c4e9d82517a6e6bd39d514656bbd1d6638b1a4db17db560",
+        "results.json": "84c27221a1c5a863f69f0a8dec53162f600608dff68a344541212b5ed778b171",
+        "transfer.json": "c612e9f920d26ca49422e089dbf206b22a1c40f791a4e32595955adf594c2195"
+      },
+      "checks": {
+        "A1": "PASS",
+        "A2": "PASS",
+        "A3": "PASS",
+        "A4": "PASS",
+        "A5": "PASS",
+        "A6": "PASS",
+        "A7": "PASS"
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "external_actions": 0
+    },
+    {
+      "id": "TOG1-X6-RUN-2",
+      "iteration": 2,
+      "started_utc": "2026-10-25T19:50:34.632242+00:00",
+      "ended_utc": "2026-10-25T19:50:34.638619+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "seed": null,
+      "deterministic": true,
+      "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+      "spec_before_sha256": "c0ee96b717360799c3cead2858e4d3c687724a8b32bc4cd2f83a832a3bd8b9ec",
+      "spec_after_sha256": "c0ee96b717360799c3cead2858e4d3c687724a8b32bc4cd2f83a832a3bd8b9ec",
+      "inputs_sha256": {
+        "iter-1/outputs/transfer.json": "c612e9f920d26ca49422e089dbf206b22a1c40f791a4e32595955adf594c2195",
+        "iter-1/EXECUTION_RECORD.json": "bee16b4ee2fd051fd08a50c83ac6a8e98017ce526a8d287ad733afb487e83a38"
+      },
+      "outputs_sha256": {
+        "dependency_cases.jsonl": "e2cc51d42c119fc9229e48f74f780d2d286c140b26f76cc4e0de5810e5814af9",
+        "results.json": "7bc3ea49c6fc1f92ed007f83be53736a12ca2922b256522ea216b5ab87c40923",
+        "transfer.json": "b54d25627f316d4fd7b4bf412fd208defb1a65f872a5a60c188a32921d2cdbee"
+      },
+      "checks": {
+        "D1": "PASS",
+        "D2": "PASS",
+        "D3": "PASS",
+        "D4": "PASS",
+        "D5": "PASS",
+        "D6": "PASS",
+        "D7": "PASS"
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "external_actions": 0
+    },
+    {
+      "id": "TOG1-X6-RUN-3",
+      "iteration": 3,
+      "started_utc": "2026-10-25T19:50:34.675579+00:00",
+      "ended_utc": "2026-10-25T19:50:34.851755+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "seed": null,
+      "deterministic": true,
+      "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+      "spec_before_sha256": "889827449d0fad6aee4019dd9a4a8e605488df84e4ccda140f831ae8cc5ae187",
+      "spec_after_sha256": "889827449d0fad6aee4019dd9a4a8e605488df84e4ccda140f831ae8cc5ae187",
+      "inputs_sha256": {
+        "iter-2/outputs/transfer.json": "b54d25627f316d4fd7b4bf412fd208defb1a65f872a5a60c188a32921d2cdbee",
+        "iter-2/EXECUTION_RECORD.json": "ba9721a4fd046eafe6e72091585248277e91db809df6ac24ebb6596321e9fcb7"
+      },
+      "outputs_sha256": {
+        "identity_mutant_counterexample.json": "2d9d507969610a903ba766170ec9477972d3840d8244dce7f24e94dd2bd78887",
+        "results.json": "9c6b7fc2638459a5fbafd8f247aa5be4103c34a2b4ff9963cd19413b24972532",
+        "role_cases.csv": "1dd75f50cc58b7bc2722abe81b79cde6ca98fde10cc0e5c1c9188b64303030d4",
+        "transfer.json": "be554b63353d2eccc3137583c4d17d46abd353bf87fef680fdc635534886e7e6"
+      },
+      "checks": {
+        "R1": "PASS",
+        "R2": "PASS",
+        "R3": "PASS",
+        "R4": "PASS",
+        "R5": "PASS",
+        "R6": "PASS",
+        "R7": "PASS"
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "external_actions": 0
+    },
+    {
+      "id": "TOG1-X6-RUN-4",
+      "iteration": 4,
+      "started_utc": "2026-10-25T19:50:34.909210+00:00",
+      "ended_utc": "2026-10-25T19:50:34.933531+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "seed": null,
+      "deterministic": true,
+      "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+      "spec_before_sha256": "e8572d8763d00fe8cecd8ec3a67e49601af3f687a691fbd80dc0f4201b7618e6",
+      "spec_after_sha256": "e8572d8763d00fe8cecd8ec3a67e49601af3f687a691fbd80dc0f4201b7618e6",
+      "inputs_sha256": {
+        "iter-3/outputs/transfer.json": "be554b63353d2eccc3137583c4d17d46abd353bf87fef680fdc635534886e7e6",
+        "iter-3/EXECUTION_RECORD.json": "1d6f3e23d4d9cef156229a0c5fcb1c6a6b924bb3b3fbccafb74b22fc2effe4e1"
+      },
+      "outputs_sha256": {
+        "delegation_cases.csv": "a8b87ac34a63fec37009061f9b35a03b4b622f96831cf730a021c39a701732be",
+        "results.json": "f228d1b0910cf8a3a64763d59d586ba2a56ea17769d689ca9e431ed12fedbebd",
+        "transfer.json": "a359104637d043d1182836ee3c0f89f77f6e000554ef1657b35e5c5d9bfc0459"
+      },
+      "checks": {
+        "G1": "PASS",
+        "G2": "PASS",
+        "G3": "PASS",
+        "G4": "PASS",
+        "G5": "PASS",
+        "G6": "PASS",
+        "G7": "PASS"
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "external_actions": 0
+    },
+    {
+      "id": "TOG1-X6-RUN-5",
+      "iteration": 5,
+      "started_utc": "2026-10-25T19:50:34.971497+00:00",
+      "ended_utc": "2026-10-25T19:50:35.210874+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "seed": null,
+      "deterministic": true,
+      "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+      "spec_before_sha256": "4e8c144f10b96b4d0f1ea35afc9307f2ef60462e5a614ab822baa266416ccfa4",
+      "spec_after_sha256": "4e8c144f10b96b4d0f1ea35afc9307f2ef60462e5a614ab822baa266416ccfa4",
+      "inputs_sha256": {
+        "iter-4/outputs/transfer.json": "a359104637d043d1182836ee3c0f89f77f6e000554ef1657b35e5c5d9bfc0459",
+        "iter-4/EXECUTION_RECORD.json": "9f4141aa7df3d03f63bcc11d82960c72d7461f0f21c89e70ea5b6609ecc1a530"
+      },
+      "outputs_sha256": {
+        "cache_mutant_counterexample.json": "d467a8b1baab06409375092eac8351dec909e15f0d88d31b54bb4eeceb589a0e",
+        "race_traces.csv": "2a6e839f2809edf5d6b7f2a99e0c2d573b55c2c0d3861e4bb96611eceeab5a76",
+        "results.json": "beeb72f1f39c1c7ccc71432d82a91ce8d6c71deab14307f9042d5dc48cced719",
+        "transfer.json": "bac023e63a7498ce7726ff2a4dfb4c09db58c7412326903a05c710c128a60577"
+      },
+      "checks": {
+        "T1": "PASS",
+        "T2": "PASS",
+        "T3": "PASS",
+        "T4": "PASS",
+        "T5": "PASS",
+        "T6": "PASS",
+        "T7": "PASS"
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "external_actions": 0
+    },
+    {
+      "id": "TOG1-X6-RUN-6",
+      "iteration": 6,
+      "started_utc": "2026-10-25T19:50:35.329228+00:00",
+      "ended_utc": "2026-10-25T19:50:35.333590+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "seed": null,
+      "deterministic": true,
+      "runner_sha256": "c771069021a3e4d787a57838ed2fe71fdb6a904a6aa8a21abe6e86f62cc1d513",
+      "spec_before_sha256": "3ff45fcf8abd485b25d472135ae1edee73cfbac99b99485a8404f3088013cb34",
+      "spec_after_sha256": "3ff45fcf8abd485b25d472135ae1edee73cfbac99b99485a8404f3088013cb34",
+      "inputs_sha256": {
+        "iter-5/outputs/transfer.json": "bac023e63a7498ce7726ff2a4dfb4c09db58c7412326903a05c710c128a60577",
+        "iter-5/EXECUTION_RECORD.json": "913cd7b058473f97b60bcd4191e4db9d0fd554c5b04d59661c4cea3fd0099830"
+      },
+      "outputs_sha256": {
+        "assurance_vectors.csv": "53cca75ff664b8d4ea7d2947a4d76892334fc23707de872d4849e2fdfa5d38e1",
+        "mutant_counterexamples.json": "f1bc836ff94db61e6e8c8001cd9f479eb0d6fdffa74e4a8ab18a44db0ac4a911",
+        "results.json": "43fe429f1b99356b9f7297f227a5df1e734cb6ee0890184f2a0075c0f9afeeb2",
+        "transfer.json": "2de5a8445b133c0adb3d76faeb1e2d6f4acea1e9d7eb143938bb18b66caec14f"
+      },
+      "checks": {
+        "I1": "PASS",
+        "I2": "PASS",
+        "I3": "PASS",
+        "I4": "PASS",
+        "I5": "PASS",
+        "I6": "PASS",
+        "I7": "PASS",
+        "I8": "PASS"
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "external_actions": 0
+    }
+  ],
+  "reproduction_summary": [
+    {
+      "iteration": 1,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "applicability_fixtures.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T19:50:34.572941+00:00",
+      "repeat_started_utc": "2026-10-25T19:50:56.143433+00:00",
+      "note": "Timestamps and predecessor-record digests differ;deterministic payload hashes compared."
+    },
+    {
+      "iteration": 2,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "dependency_cases.jsonl": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T19:50:34.632242+00:00",
+      "repeat_started_utc": "2026-10-25T19:50:56.202705+00:00",
+      "note": "Timestamps and predecessor-record digests differ;deterministic payload hashes compared."
+    },
+    {
+      "iteration": 3,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "identity_mutant_counterexample.json": true,
+        "results.json": true,
+        "role_cases.csv": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T19:50:34.675579+00:00",
+      "repeat_started_utc": "2026-10-25T19:50:56.246807+00:00",
+      "note": "Timestamps and predecessor-record digests differ;deterministic payload hashes compared."
+    },
+    {
+      "iteration": 4,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "delegation_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T19:50:34.909210+00:00",
+      "repeat_started_utc": "2026-10-25T19:50:56.466948+00:00",
+      "note": "Timestamps and predecessor-record digests differ;deterministic payload hashes compared."
+    },
+    {
+      "iteration": 5,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "cache_mutant_counterexample.json": true,
+        "race_traces.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T19:50:34.971497+00:00",
+      "repeat_started_utc": "2026-10-25T19:50:56.527371+00:00",
+      "note": "Timestamps and predecessor-record digests differ;deterministic payload hashes compared."
+    },
+    {
+      "iteration": 6,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "assurance_vectors.csv": true,
+        "mutant_counterexamples.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T19:50:35.329228+00:00",
+      "repeat_started_utc": "2026-10-25T19:50:56.794998+00:00",
+      "note": "Timestamps and predecessor-record digests differ;deterministic payload hashes compared."
+    }
+  ],
+  "gate": {
+    "gate_id": "TOG1-X6-PROPOSED-GATE",
+    "recorded_utc": "2026-10-25T19:57:11.674256+00:00",
+    "scope": "Local x6 research/model package,not constitutional compliance or implementation",
+    "criteria": [
+      "11clauses traceable",
+      "6distinct bounded research passes",
+      "6specified chained models",
+      "Actual results/negative findings retained",
+      "Same-author reproduction and local integrity checked",
+      "Prior original artifact continuity",
+      "Independent content/rights and ethics review",
+      "Canonical all-work map/schema integration",
+      "Owner gate disposition"
+    ],
+    "evidence": [
+      "research/PASS_REGISTER.csv",
+      "claims/CLAIMS_X6.csv",
+      "sources/SOURCE_REGISTER.csv",
+      "simulation/",
+      "Verification/",
+      "Provenance/"
+    ],
+    "proposed_decision": "INDETERMINATE",
+    "authority": "KyleAlexanderSteen",
+    "recorded_by": "Perplexity(agent)",
+    "owner_decision": "NOT RECORDED",
+    "independent_review": "NONE",
+    "ethics_review": "NONE",
+    "authorization": "NONE",
+    "blockers": [
+      "Independent content/rights reviewer",
+      "Ethics review",
+      "R versus RL scale reconciliation",
+      "Non-waivable commitments and emergency authority",
+      "Source completeness/authorized archives",
+      "Independent model reproduction",
+      "Global map/schema integration",
+      "Legal applicability and processing bases",
+      "Affected parties and community authority",
+      "Operational control effectiveness",
+      "GitHub publication and WorkQueue status",
+      "Unseen source portions/full scholarship",
+      "Retention versus privacy/correction",
+      "Original Baseline/x3 byte continuity",
+      "Trustworthy evidence/role attestations",
+      "Arbitrary-time lifecycle correctness",
+      "Actual audit-effectiveness hypothesis",
+      "Applicability authority and fraud",
+      "Dependency semantic validity",
+      "Undisclosed institutional conflicts",
+      "Issuer authentication and scoped grants",
+      "Distributed check/use atomicity and clocks",
+      "Remedy effectiveness and legal scope"
+    ]
+  },
+  "open_questions": [
+    {
+      "id": "B01",
+      "question": "Independent content/rights reviewer",
+      "state": "NONE",
+      "evidence_needed": "Name qualified reviewer and obtain findings",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B02",
+      "question": "Ethics review",
+      "state": "NONE",
+      "evidence_needed": "Independent appropriate rights/ethics review",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B03",
+      "question": "R versus RL scale reconciliation",
+      "state": "UNRESOLVED",
+      "evidence_needed": "Explicit owner-led reconciliation without weakening existing safeguards",
+      "responsible_role": "Owner;ToG4;PC2"
+    },
+    {
+      "id": "B04",
+      "question": "Non-waivable commitments and emergency authority",
+      "state": "UNRESOLVED",
+      "evidence_needed": "Owner and qualified reviewers define bounds and appeals",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B05",
+      "question": "Source completeness/authorized archives",
+      "state": "PARTIAL",
+      "evidence_needed": "Capture actual versions where authorized;retain access limits",
+      "responsible_role": "Information steward"
+    },
+    {
+      "id": "B06",
+      "question": "Independent model reproduction",
+      "state": "NOT PERFORMED",
+      "evidence_needed": "Different qualified actor reruns supplied artifacts",
+      "responsible_role": "Independent reviewer"
+    },
+    {
+      "id": "B07",
+      "question": "Global map/schema integration",
+      "state": "NOT PERFORMED",
+      "evidence_needed": "Recover prior ledgers,inspect canonical generators,approve IDs and validate all work",
+      "responsible_role": "Owner-approved integrator"
+    },
+    {
+      "id": "B08",
+      "question": "Legal applicability and processing bases",
+      "state": "NOT DETERMINED",
+      "evidence_needed": "Qualified jurisdiction/use-specific review",
+      "responsible_role": "Qualified counsel"
+    },
+    {
+      "id": "B09",
+      "question": "Affected parties and community authority",
+      "state": "NOT CONSULTED",
+      "evidence_needed": "Appropriate rights/cultural participation before consequential adoption",
+      "responsible_role": "Owner;affected representatives"
+    },
+    {
+      "id": "B10",
+      "question": "Operational control effectiveness",
+      "state": "NOT ASSESSED",
+      "evidence_needed": "Independent ethical operational evaluation,not synthetic enumeration alone",
+      "responsible_role": "Operators;independent evaluator"
+    },
+    {
+      "id": "B11",
+      "question": "GitHub publication and WorkQueue status",
+      "state": "NOT WRITTEN",
+      "evidence_needed": "Approve exact branch/files/PR;do not check entire series for localx6",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B12",
+      "question": "Unseen source portions/full scholarship",
+      "state": "PARTIAL",
+      "evidence_needed": "Read needed control bodies,normative PROVsections and fullpaper before stronger claims",
+      "responsible_role": "Researcher"
+    },
+    {
+      "id": "B13",
+      "question": "Retention versus privacy/correction",
+      "state": "UNRESOLVED",
+      "evidence_needed": "Purpose,minimization,access,legal/cultural retention and correction procedures",
+      "responsible_role": "Owner;privacy/cultural reviewers"
+    },
+    {
+      "id": "X301",
+      "question": "Original Baseline/x3 byte continuity",
+      "state": "UNAVAILABLE",
+      "evidence_needed": "Recover original45/41row packages,verify manifests and previously reported digests",
+      "responsible_role": "Owner;researcher"
+    },
+    {
+      "id": "X302",
+      "question": "Trustworthy evidence/role attestations",
+      "state": "ASSUMED",
+      "evidence_needed": "Establish real authenticity,entailment,competence and conflicts",
+      "responsible_role": "Qualified reviewers"
+    },
+    {
+      "id": "X303",
+      "question": "Arbitrary-time lifecycle correctness",
+      "state": "UNPROVEN",
+      "evidence_needed": "Horizon5is bounded;formal/operational tests under authority needed",
+      "responsible_role": "Independent verifier"
+    },
+    {
+      "id": "X304",
+      "question": "Actual audit-effectiveness hypothesis",
+      "state": "UNTESTED",
+      "evidence_needed": "Ethically designed comparison with real outcomes and burden",
+      "responsible_role": "Qualified evaluator"
+    },
+    {
+      "id": "X601",
+      "question": "Applicability authority and fraud",
+      "state": "UNRESOLVED",
+      "evidence_needed": "Define mandatory/conditional control applicability and verify rationales,not trusted flags",
+      "responsible_role": "Owner;qualified reviewers"
+    },
+    {
+      "id": "X602",
+      "question": "Dependency semantic validity",
+      "state": "NOT VERIFIED",
+      "evidence_needed": "Inspect actual support/derivation relations and full standards before conformance claims",
+      "responsible_role": "Researcher;domain reviewers"
+    },
+    {
+      "id": "X603",
+      "question": "Undisclosed institutional conflicts",
+      "state": "NOT ASSESSED",
+      "evidence_needed": "Appropriate conflict investigation beyond fictional identity/edge declarations",
+      "responsible_role": "Qualified independent reviewer"
+    },
+    {
+      "id": "X604",
+      "question": "Issuer authentication and scoped grants",
+      "state": "ASSUMED",
+      "evidence_needed": "Credential,basis and deployment-specific threat assessment before use",
+      "responsible_role": "Security/privacy/legal reviewers"
+    },
+    {
+      "id": "X605",
+      "question": "Distributed check/use atomicity and clocks",
+      "state": "NOT TESTED",
+      "evidence_needed": "Qualified isolated tests of races,network/clock behavior and revocation latency",
+      "responsible_role": "Authorized engineer"
+    },
+    {
+      "id": "X606",
+      "question": "Remedy effectiveness and legal scope",
+      "state": "NOT ASSESSED",
+      "evidence_needed": "Do not generalize gross-violations instrument;evaluate relevant real remedy with qualified input",
+      "responsible_role": "Rights/legal/affected-party reviewers"
+    }
+  ],
+  "limitations": [
+    {
+      "id": "L01",
+      "scope": "Iteration1A7",
+      "finding": "The predicate checks file presence and fictional transfer status,not completeness/truth of case-specific rationale or authority. Code semantics are retained in SPEC/codebook;no real applicability decision exists.",
+      "classification": "LIMITATION",
+      "disposition": "Do not describe A7 as proof of real rationale quality;future stronger record-schema tests needed"
+    },
+    {
+      "id": "L02",
+      "scope": "Iteration5T3",
+      "finding": "Safety predicate tests no unsafe allowedCOMMITs;it is not a complete liveness/availability/deadlock or distributed-concurrency proof.",
+      "classification": "LIMITATION",
+      "disposition": "State bounded safety scope and test operational properties only under authority"
+    },
+    {
+      "id": "L03",
+      "scope": "Sourceaccess",
+      "finding": "NISTcontrol bodies and laternormativePROVsections not retrieved;primarysearch excerpts/overviews explicitlylimited.",
+      "classification": "INDETERMINATE",
+      "disposition": "No fullcontrol/conformance claims;retrieve exact missing portions before stronger use"
+    },
+    {
+      "id": "L04",
+      "scope": "Continuity/integration",
+      "finding": "Original Baseline/x3bytes absent;canonical all-work graph not regenerated.",
+      "classification": "INDETERMINATE",
+      "disposition": "No cumulativeledger or full repository-workflow completion claim"
+    },
+    {
+      "id": "L05",
+      "scope": "Review/authority",
+      "finding": "All assumptions,oracles and reproduction are same-author;real rights judgments,authenticity and reviewer qualifications are unverified.",
+      "classification": "INDETERMINATE",
+      "disposition": "Gate remainsINDETERMINATE;qualified independent review and owner disposition required"
+    }
+  ],
+  "artifact_correction": "Initial C01literal-locator mismatch corrected;initial failedcheck retained;no model changes.",
+  "report_sha256": "60e489112d1eef5e5ecd2bc21e10f3c8bf78fbffc548f17f7d1264c0f79d1d75",
+  "archive_hash_note": "Not embedded:archive contains capsule;use externally observed archive digest."
+}

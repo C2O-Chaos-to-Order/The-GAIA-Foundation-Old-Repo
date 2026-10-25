@@ -1,0 +1,13 @@
+{
+  "observed": {
+    "competence": "PASS",
+    "declared_conflict_clear": "PASS",
+    "review_current": "PASS",
+    "independence_assessment": "PASS"
+  },
+  "identity_distinct": true,
+  "version_match": true,
+  "latent_actual_conflict": true,
+  "policy": "PASS",
+  "genuine_independence": false
+}

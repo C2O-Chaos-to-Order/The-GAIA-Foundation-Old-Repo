@@ -1,0 +1,120 @@
+{
+  "fictional": true,
+  "records": [
+    {
+      "clause": "4.1",
+      "state": "PASS",
+      "locator": "synthetic://evidence/1",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.2",
+      "state": "PASS",
+      "locator": "synthetic://evidence/2",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.3",
+      "state": "PASS",
+      "locator": "synthetic://evidence/3",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.4",
+      "state": "PASS",
+      "locator": "synthetic://evidence/4",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.5",
+      "state": "PASS",
+      "locator": "synthetic://evidence/5",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.6",
+      "state": "PASS",
+      "locator": "synthetic://evidence/6",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.7",
+      "state": "PASS",
+      "locator": "synthetic://evidence/7",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.8",
+      "state": "PASS",
+      "locator": "synthetic://evidence/8",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.9",
+      "state": "PASS",
+      "locator": "synthetic://evidence/9",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.10",
+      "state": "PASS",
+      "locator": "synthetic://evidence/10",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    },
+    {
+      "clause": "4.11",
+      "state": "PASS",
+      "locator": "synthetic://evidence/11",
+      "evidence_version": "v1",
+      "evidence_scope": "tog1-research",
+      "valid_until": 101,
+      "known_forgery": false
+    }
+  ],
+  "screened_states": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "decision": "PASS",
+  "scope": "tog1-research",
+  "warning": "Synthetic metadata accepted by assumption; not authenticated evidence"
+}

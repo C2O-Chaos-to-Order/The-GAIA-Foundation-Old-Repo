@@ -1,0 +1,3 @@
+# Artifact correction before final packaging
+
+Initial local checkA25failed because prose spacing normalization inserted a space after the semicolon in C01’s conversational locator. No publicURL was broken and no source disappeared;the check correctly detected a literal reference mismatch. Restored canonical spelling in REPORT.md,reran the same predicate and it passed. Initial26checkresults retained in INITIAL_ARTIFACT_CHECKS.csv. Finalchecks in INTERNAL_CHECKS.csv. No threshold changed,no resultdeleted and no model/spec rerun or edit. This was an artifactvalidation failure,not a failed model process launch.

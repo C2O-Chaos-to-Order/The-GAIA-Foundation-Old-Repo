@@ -1,0 +1,35 @@
+{
+  "id": "TOG1-X12-RUN-1",
+  "iteration": 1,
+  "started_utc": "2026-10-25T20:35:39.002114+00:00",
+  "ended_utc": "2026-10-25T20:35:39.002597+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "deterministic": true,
+  "seed": null,
+  "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+  "implementation_sha256": {
+    "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+    "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+  },
+  "spec_before_sha256": "70a1450d6811c88fa00bc05ea1bb05cbba7b796a72f0b5040eac4072644b0da8",
+  "spec_after_sha256": "70a1450d6811c88fa00bc05ea1bb05cbba7b796a72f0b5040eac4072644b0da8",
+  "inputs_sha256": {},
+  "outputs_sha256": {
+    "legacy_cases.json": "5f1ace9d310d628cad4a21bab81ecdc1e3b10a13fb0b744af56b68e22b387162",
+    "results.json": "24b713c0617439380e65b9e532279445ba73c30013a081a251c074e648caa79f",
+    "transfer.json": "bba7f7987337f33442c4ad6bb64ee38e5f40e161273df4351167b63273a0e3aa"
+  },
+  "checks": {
+    "L1": "PASS",
+    "L2": "PASS",
+    "L3": "PASS",
+    "L4": "PASS",
+    "L5": "PASS",
+    "L6": "PASS"
+  },
+  "hypotheses": {},
+  "independent_review": false,
+  "overall_gate": "INDETERMINATE",
+  "actual_external_actions": 0
+}

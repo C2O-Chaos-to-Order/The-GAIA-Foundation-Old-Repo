@@ -1,0 +1,27 @@
+{
+  "assurance_vectors": 729,
+  "outcomes": {
+    "PASS": 1,
+    "FAIL": 665,
+    "INDETERMINATE": 63
+  },
+  "oracle_mismatches": 0,
+  "callable_mutant_false_passes": {
+    "majority": 72,
+    "owner_override": 242,
+    "metadata_is_proof": 728,
+    "ignore_unknown": 63
+  },
+  "missing_review_or_authority_passes": 0,
+  "checks": {
+    "I1": "PASS",
+    "I2": "PASS",
+    "I3": "PASS",
+    "I4": "PASS",
+    "I5": "PASS",
+    "I6": "PASS",
+    "I7": "PASS",
+    "I8": "PASS"
+  },
+  "scope": "Synthetic model outputs,not independent/empirical assurance"
+}

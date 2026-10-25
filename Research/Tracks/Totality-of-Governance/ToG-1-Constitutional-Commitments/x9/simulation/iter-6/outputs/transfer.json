@@ -1,0 +1,17 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 6,
+  "freshness_limit": true,
+  "lease_residual_cases": 594,
+  "strict_query_bad_cases": 0,
+  "actual_distributed_network": "NONE",
+  "hypothesis_H4": "NOT SUPPORTED",
+  "hypothesis_H6": "NOT SUPPORTED"
+}

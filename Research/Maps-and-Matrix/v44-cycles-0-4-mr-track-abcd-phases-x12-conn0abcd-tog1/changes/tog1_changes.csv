@@ -1,0 +1,297 @@
+kind,id,tog1_cycle,label,continuity_as_stated
+claim,TOG1-C0-01-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-01-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-01-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-02-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-02-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-02-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-03-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-03-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-03-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-04-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-04-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-04-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-05-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-05-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-05-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-06-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-06-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-06-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-07-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-07-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-07-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-08-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-08-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-08-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-09-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-09-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-09-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-10-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-10-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-10-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-11-T,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-11-A,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-11-N,Baseline,Philosophical/Spiritual,Baseline (first cycle)
+claim,TOG1-C0-E01,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E02,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E03,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E04,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E05,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E06,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E07,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E08,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E09,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-E10,Baseline,Established,Baseline (first cycle)
+claim,TOG1-C0-L01,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-C0-SIM01,Baseline,Plausible,Baseline (first cycle)
+claim,TOG1-X3-T01,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C01,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T02,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C02,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T03,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C03,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T04,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C04,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T05,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C05,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T06,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C06,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T07,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C07,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T08,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C08,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T09,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C09,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T10,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C10,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-T11,x3,Established,Source rechecked; original baseline ledger not imported
+claim,TOG1-X3-C11,x3,Philosophical/Spiritual,Operational deepening; no inherited label silently upgraded
+claim,TOG1-X3-E01,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E02,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E03,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E04,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E05,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E06,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E07,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E08,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-E09,x3,Established,"New/retrieved source detail,not full literature census"
+claim,TOG1-X3-P01,x3,Plausible,Refines baseline controls;does not establish effectiveness
+claim,TOG1-X3-P02,x3,Plausible,Refines baseline controls;does not establish effectiveness
+claim,TOG1-X3-P03,x3,Plausible,Refines baseline controls;does not establish effectiveness
+claim,TOG1-X3-N01,x3,Philosophical/Spiritual,Proposed control/template;not adopted
+claim,TOG1-X3-N02,x3,Philosophical/Spiritual,Proposed control/template;not adopted
+claim,TOG1-X3-N03,x3,Philosophical/Spiritual,Proposed control/template;not adopted
+claim,TOG1-X3-SIM1,x3,Established,New bounded model/iteration;not rerun of original baseline bytes
+claim,TOG1-X3-SIM2,x3,Established,New bounded model/iteration;not rerun of original baseline bytes
+claim,TOG1-X3-SIM3,x3,Established,New bounded model/iteration;not rerun of original baseline bytes
+claim,TOG1-X3-H01,x3,Hypothetical,"Testable future effectiveness question,not conclusion of toy runs"
+claim,TOG1-X6-T01,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C01,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T02,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C02,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T03,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C03,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T04,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C04,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T05,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C05,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T06,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C06,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T07,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C07,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T08,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C08,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T09,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C09,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T10,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C10,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-T11,x6,Established,Rechecked clause identity;prior rows not imported
+claim,TOG1-X6-C11,x6,Philosophical/Spiritual,x6operational proposal;no inherited label upgrade
+claim,TOG1-X6-S1A,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S1B,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S2A,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S2B,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S3A,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S3B,x6,Plausible,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S4A,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S4B,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S5A,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S5B,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S6A,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-S6B,x6,Established,New source or newly examined source detail;not cumulative ledger import
+claim,TOG1-X6-P1,x6,Plausible,"Single-author x6synthesis,not independent review"
+claim,TOG1-X6-N1,x6,Philosophical/Spiritual,"Proposed record/control,not adopted"
+claim,TOG1-X6-SIM1,x6,Established,New x6iteration design;not replay of prior original bytes
+claim,TOG1-X6-P2,x6,Plausible,"Single-author x6synthesis,not independent review"
+claim,TOG1-X6-N2,x6,Philosophical/Spiritual,"Proposed record/control,not adopted"
+claim,TOG1-X6-SIM2,x6,Established,New x6iteration design;not replay of prior original bytes
+claim,TOG1-X6-P3,x6,Plausible,"Single-author x6synthesis,not independent review"
+claim,TOG1-X6-N3,x6,Philosophical/Spiritual,"Proposed record/control,not adopted"
+claim,TOG1-X6-SIM3,x6,Established,New x6iteration design;not replay of prior original bytes
+claim,TOG1-X6-P4,x6,Plausible,"Single-author x6synthesis,not independent review"
+claim,TOG1-X6-N4,x6,Philosophical/Spiritual,"Proposed record/control,not adopted"
+claim,TOG1-X6-SIM4,x6,Established,New x6iteration design;not replay of prior original bytes
+claim,TOG1-X6-P5,x6,Plausible,"Single-author x6synthesis,not independent review"
+claim,TOG1-X6-N5,x6,Philosophical/Spiritual,"Proposed record/control,not adopted"
+claim,TOG1-X6-SIM5,x6,Established,New x6iteration design;not replay of prior original bytes
+claim,TOG1-X6-P6,x6,Plausible,"Single-author x6synthesis,not independent review"
+claim,TOG1-X6-N6,x6,Philosophical/Spiritual,"Proposed record/control,not adopted"
+claim,TOG1-X6-SIM6,x6,Established,New x6iteration design;not replay of prior original bytes
+claim,TOG1-X6-H1,x6,Hypothetical,"Future falsifiable question,not established by toyenumeration"
+claim,TOG1-X6-H2,x6,Hypothetical,"Future falsifiable question,not established by toyenumeration"
+claim,TOG1-X9-T01,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C01,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T02,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C02,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T03,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C03,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T04,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C04,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T05,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C05,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T06,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C06,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T07,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C07,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T08,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C08,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T09,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C09,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T10,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C10,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-T11,x9,Established,"Rechecked identity,not imported priorledger"
+claim,TOG1-X9-C11,x9,Philosophical/Spiritual,"Normative x9extension,not adopted"
+claim,TOG1-X9-S1A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S1B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S2A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S2B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S3A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S3B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S4A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S4B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S5A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S5B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S6A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S6B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S7A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S7B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S8A,x9,Plausible,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S8B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S9A,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-S9B,x9,Established,"Newly examined or rechecked passage,not netcorpusclaim count"
+claim,TOG1-X9-P1,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N1,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM1,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P2,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N2,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM2,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P3,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N3,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM3,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P4,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N4,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM4,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P5,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N5,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM5,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P6,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N6,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM6,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P7,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N7,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM7,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P8,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N8,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM8,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-P9,x9,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X9-N9,x9,Philosophical/Spiritual,Proposed/not implemented
+claim,TOG1-X9-SIM9,x9,Established,"New x9design,not replay of original priorbytes"
+claim,TOG1-X9-H1,x9,Hypothetical,"Futureeffectivenessquestion,not established by model"
+claim,TOG1-X9-H2,x9,Hypothetical,"Futureeffectivenessquestion,not established by model"
+claim,TOG1-X9-H3,x9,Hypothetical,"Futureeffectivenessquestion,not established by model"
+claim,TOG1-X9-ROBUST01,x9,Established,Newly discovered defect preserved;no spec/model/code/output changed afteroutcome
+claim,TOG1-X12-T01,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C01,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T02,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C02,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T03,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C03,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T04,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C04,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T05,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C05,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T06,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C06,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T07,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C07,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T08,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C08,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T09,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C09,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T10,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C10,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-T11,x12,Established,"Inheritedsourceidentity,not priorledgerimport"
+claim,TOG1-X12-C11,x12,Philosophical/Spiritual,"Proposedx12extension,not adopted"
+claim,TOG1-X12-S1A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S1B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S2A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S2B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S3A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S3B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S4A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S4B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S5A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S5B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S6A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S6B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S7A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S7B,x12,Plausible,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S8A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S8B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S9A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S9B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S10A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S10B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S11A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S11B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S12A,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-S12B,x12,Established,"Cycle-local textualobservation,not netnewscientificfinding"
+claim,TOG1-X12-P1,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N1,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM1,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P2,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N2,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM2,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P3,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N3,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM3,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P4,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N4,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM4,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P5,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N5,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM5,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P6,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N6,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM6,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P7,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N7,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM7,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P8,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N8,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM8,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P9,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N9,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM9,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P10,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N10,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM10,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P11,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N11,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM11,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-P12,x12,Plausible,"Single-author synthesis,not independentchallenge"
+claim,TOG1-X12-N12,x12,Philosophical/Spiritual,"Researchcontrol/recordproposal,not adoption"
+claim,TOG1-X12-SIM12,x12,Established,Newx12iteration;A1FAILretained whereapplicable
+claim,TOG1-X12-H1,x12,Hypothetical,"Untestedfuturehypothesis,not a modelresult"
+claim,TOG1-X12-H2,x12,Hypothetical,"Untestedfuturehypothesis,not a modelresult"
+claim,TOG1-X12-H3,x12,Hypothetical,"Untestedfuturehypothesis,not a modelresult"

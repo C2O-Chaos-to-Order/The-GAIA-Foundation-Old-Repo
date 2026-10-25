@@ -1,0 +1,43 @@
+{
+  "id": "TOG1-X9-RUN-6",
+  "iteration": 6,
+  "started_utc": "2026-10-25T20:05:21.964098+00:00",
+  "ended_utc": "2026-10-25T20:05:21.977376+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "deterministic": true,
+  "seed": null,
+  "runner_sha256": "ca2b3b3a95d34cd245b352b2fdb99e5f5e4370a2cd3e3b09f41c833346623356",
+  "spec_before_sha256": "48ee0169d7fdae859daae8fa0d067c79abda342f77062fc83192957514dd0f77",
+  "spec_after_sha256": "48ee0169d7fdae859daae8fa0d067c79abda342f77062fc83192957514dd0f77",
+  "inputs_sha256": {
+    "iter-5/outputs/transfer.json": "64543ac7b123e143ae7df27141e91e9e35a87e116eda8b7d87fc2b1104297ec6",
+    "iter-5/EXECUTION_RECORD.json": "e080409ff8c1aa3865a45c2a19a3682fb0537674514a716aaa67cb9bc84199d5"
+  },
+  "outputs_sha256": {
+    "freshness_cases.csv": "19ac30d4d218a52bf8b41e7055788e43ac6b3501a057415f8f4c8f3fdd28abd1",
+    "indistinguishability_witness.json": "644e14ae99e96a5f17aa7c502eb55b3d73e16c9d8630706c0dc65b63f5c56bcb",
+    "results.json": "eec72958ce37ea4d04178c4b4560f9dd9363fc1a70b672eeeb51b98fc3b94262",
+    "transfer.json": "afdcc9861530c04d4e532c58b2d922a1720fa86e0765cd53e8941668a5b20f4b"
+  },
+  "checks": {
+    "F1": "PASS",
+    "F2": "PASS",
+    "F3": "PASS",
+    "F4": "PASS",
+    "F5": "PASS",
+    "F6": "PASS",
+    "F7": "PASS"
+  },
+  "hypothesis_results": {
+    "H6": {
+      "statement": "A locally valid lease eliminates every globally revoked access",
+      "result": "NOT SUPPORTED",
+      "globally_unauthorized_lease_allow_cases": 594,
+      "scope": "Finite delay/skew witness,not measured latency or a deployment failure rate"
+    }
+  },
+  "independent_review": false,
+  "overall_gate": "INDETERMINATE",
+  "external_actions": 0
+}

@@ -1,0 +1,23 @@
+{
+  "applicability_cases": 1782,
+  "outcomes": {
+    "PASS": 216,
+    "FAIL": 774,
+    "INDETERMINATE": 792
+  },
+  "oracle_mismatches": 0,
+  "unsupported_na_passes": 0,
+  "mandatory_na_passes": 0,
+  "known_failure_masked": 0,
+  "checks": {
+    "A1": "PASS",
+    "A2": "PASS",
+    "A3": "PASS",
+    "A4": "PASS",
+    "A5": "PASS",
+    "A6": "PASS",
+    "A7": "PASS"
+  },
+  "hypotheses": {},
+  "scope": "Finite synthetic rules only;not independent,legal or empirical effectiveness assurance"
+}

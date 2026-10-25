@@ -1,0 +1,2739 @@
+{
+  "metadata": {
+    "id": "GAIA-RES-TOG1-X12-001",
+    "version": "0.1.0",
+    "date": "2026-10-25",
+    "owner": "KyleAlexanderSteen",
+    "producer": "Perplexity(AI)",
+    "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+    "research_passes": 12,
+    "distinct_iterations": 12,
+    "initial_model_processes": 12,
+    "same_author_rerun_processes": 12,
+    "successful_full_model_processes": 24,
+    "failed_model_launches": 0,
+    "independent_executions": 0,
+    "auxiliary_direct_function_calls": 2,
+    "claim_entries": 85,
+    "documentary_sources": 10,
+    "conversational_records": 1,
+    "predefined_checks": {
+      "PASS": 73,
+      "FAIL": 1
+    },
+    "legacy_reconstruction_boundary": "FAIL",
+    "candidate_v0_2_known_boundary": "PASS,bounded",
+    "specification_count_conformance": "FAIL",
+    "negative_hypotheses": {
+      "H8": "NOT SUPPORTED",
+      "H10": "NOT SUPPORTED"
+    },
+    "independent_review": false,
+    "ethics_review": false,
+    "research_assurance_proposal": "INDETERMINATE",
+    "owner_disposition": "NOT RECORDED",
+    "actual_authorization": "NONE",
+    "github_writes": 0,
+    "canonical_integration": "NOT COMPLETE",
+    "prior_archives_available": false
+  },
+  "continuity": {
+    "prior_ids": [
+      "GAIA-RES-TOG1-C0-001",
+      "GAIA-RES-TOG1-X3-001",
+      "GAIA-RES-TOG1-X6-001",
+      "GAIA-RES-TOG1-X9-001"
+    ],
+    "prior_archives_available": false,
+    "prior_reported_claim_counts": [
+      45,
+      41,
+      54,
+      71
+    ],
+    "prior_ledgers_imported": false,
+    "basis": "Prior conversation findings and visible code/results;not recovered original artifacts",
+    "previously_reported_x9_archive_sha256": "da74dad7cd0f6ff0c17fe28b671dfa7bd3a4ac80437150f8094f95eeb5ac77d2",
+    "reported_digest_reverified": false,
+    "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+    "legacy_function": "Explicit reconstruction of visible x9assess logic,not byte-identical recovered runner"
+  },
+  "claims": [
+    {
+      "claim_id": "TOG1-X12-T01",
+      "clause": "4.1",
+      "claim": "The Proposedcharter\u00a74.1 identifies 'Dignity and life'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.1",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C01",
+      "clause": "4.1",
+      "claim": "Protect rights and privacy while distinguishing processreadiness from actualremedy;no testscore creates rights-holder benefit or permission to harm.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;A01;N03",
+      "location": "\u00a74.1;EffectivenessofHRDD/Business;MEASURE3.3",
+      "limits": "No actualrightsimpactassessment orparticipation.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T02",
+      "clause": "4.2",
+      "claim": "The Proposedcharter\u00a74.2 identifies 'Integrity before intelligence'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.2",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C02",
+      "clause": "4.2",
+      "claim": "Retain thelegacyFAIL,newcandidateversion,negativehypotheses andfailedpredeclaredcardinalitycheck rather than rewriting history for agreensummary.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;N01;C01",
+      "location": "\u00a74.2;historical/negative tests;priorfailures",
+      "limits": "No originalartifactbytecontinuity orindependentaudit.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T03",
+      "clause": "4.3",
+      "claim": "The Proposedcharter\u00a74.3 identifies 'Evidence before assertion'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.3",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C03",
+      "clause": "4.3",
+      "claim": "Require typedfields,explicitverificationlabels andtraceablepassages while separating schema-validrecords from trustworthyevidence.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;J01;J02",
+      "location": "\u00a74.3;enum;objectrequired/null",
+      "limits": "No signature/authenticity orsemantic-entailment proof.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T04",
+      "clause": "4.4",
+      "claim": "The Proposedcharter\u00a74.4 identifies 'Verification before advancement'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.4",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C04",
+      "clause": "4.4",
+      "claim": "Keep reconstruction,prospectivecorrection,differentialtests,failedspecificationcheck,same-authorreproduction andindependentreview distinct.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;G02;N01;N02",
+      "location": "\u00a74.4;Gate\u00a7\u00a71\u20133;negative/historicaltests;models/mechanisms",
+      "limits": "Knownboundaryfix is not generalproductionapproval.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T05",
+      "clause": "4.5",
+      "claim": "The Proposedcharter\u00a74.5 identifies 'Safety before capability'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.5",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C05",
+      "clause": "4.5",
+      "claim": "Treat unknownvisibility,scopeerrors,malformedissuerstates andresidualavailability risks as explicitconstraints,not erasedby a codefix orx12label.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;N02;N03",
+      "location": "\u00a74.5,\u00a79;dynamicmodels;MEASURE2.6\u20132.7",
+      "limits": "No realnetworklatency,fieldriskrate orriskacceptance.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T06",
+      "clause": "4.6",
+      "claim": "The Proposedcharter\u00a74.6 identifies 'Accountability before authority'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.6",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C06",
+      "clause": "4.6",
+      "claim": "Keep realhumanauthority/reviewercompetence separate from stringsin a record;typedpositive metadata cannotclear latentconflicts.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;G02;N03",
+      "location": "\u00a74.6,\u00a77;Gate\u00a71;MEASURE1.3",
+      "limits": "No actualreviewerappointment,qualification orownerdisposition.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T07",
+      "clause": "4.7",
+      "claim": "The Proposedcharter\u00a74.7 identifies 'Consent before access'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.7",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C07",
+      "clause": "4.7",
+      "claim": "Block invalidverificationtypes andunknownpermissions;require boundedgrants,currentbasis/visibility andpropernonce/epochuse without inventing consent oranotherbasis.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;J01;N02",
+      "location": "\u00a74.7;enum;\u00a7\u00a72.1\u20132.2",
+      "limits": "No cryptographiccredentials orlegalconsent determination.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T08",
+      "clause": "4.8",
+      "claim": "The Proposedcharter\u00a74.8 identifies 'Least harmful effective action'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.8",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C08",
+      "clause": "4.8",
+      "claim": "Record both blockingbenefits andavailability/accessibility burdens;selectedprocesschecks do notprove an effective orproportionateresponse.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;A01;N03",
+      "location": "\u00a74.8,\u00a710;EffectivenessofHRDD;MANAGE2.1",
+      "limits": "No actualinterventionoptimization oroutcomecomparison.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T09",
+      "clause": "4.9",
+      "claim": "The Proposedcharter\u00a74.9 identifies 'Truthful uncertainty'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.9",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C09",
+      "clause": "4.9",
+      "claim": "Missing/nullverification staysunknown;malformedtokens failknownrepresentationconstraints;knownFAILandfailedhypotheses remainvisible,not promotedby repetition.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;G02;J02",
+      "location": "\u00a74.9,\u00a78;Gate\u00a72;null/required",
+      "limits": "Validinputrepresentation doesnot make anattestation true.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T10",
+      "clause": "4.10",
+      "claim": "The Proposedcharter\u00a74.10 identifies 'Stewardship and continuity'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.10",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C10",
+      "clause": "4.10",
+      "claim": "Preserve olddefect evidence,separatecandidatefiles,versionedrecords,specdigests,reproduction metadata andprivacy-boundprovenance;recoveractualpriorarchives before claimingcumulativeclosure.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;N01;N03",
+      "location": "\u00a74.10,\u00a713;historicaltests;MANAGE4",
+      "limits": "No restoredpriorarchives,actualerasure ordistributedimplementation.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-T11",
+      "clause": "4.11",
+      "claim": "The Proposedcharter\u00a74.11 identifies 'Non-exemption'.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.11",
+      "limits": "Textualdescription at unchangedcommit,not newadoption",
+      "continuity": "Inheritedsourceidentity,not priorledgerimport"
+    },
+    {
+      "claim_id": "TOG1-X12-C11",
+      "clause": "4.11",
+      "claim": "No ownerflag,form,cyclelabel orlocallygreenregression waives rights,evidence,review,law oraction-specificauthorization.",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;G02;N03",
+      "location": "\u00a74.11,\u00a78.3;Gate\u00a7\u00a71\u20133;MEASURE2.13",
+      "limits": "No moralcompleteness,adoption,fieldassurance ordeployment.",
+      "continuity": "Proposedx12extension,not adopted"
+    },
+    {
+      "claim_id": "TOG1-X12-S1A",
+      "clause": "cross-cutting",
+      "claim": "Thecharterrequires honest evidence/status and distinct verification activities.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a7\u00a74.2\u20134.4",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S1B",
+      "clause": "cross-cutting",
+      "claim": "NISThistoricaltestguidance recommends retaining tests created to expose previousbugs.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N01",
+      "location": "historicaltests\u00a72.8description",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S2A",
+      "clause": "cross-cutting",
+      "claim": "JSONSchemaenum restrictsvalues to a fixedset and can include differenttypes only when specified.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "J01",
+      "location": "definition;extendedmixedtypes",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S2B",
+      "clause": "cross-cutting",
+      "claim": "JSONSchemaobjectreference distinguishesnull from absentproperties and requiredproperties from optionalones.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "J02",
+      "location": "RequiredProperties",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S3A",
+      "clause": "cross-cutting",
+      "claim": "Theobjectreference says properties are optional bydefault unlessrequired.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "J02",
+      "location": "Properties;RequiredProperties",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S3B",
+      "clause": "cross-cutting",
+      "claim": "Additionalproperties are allowed bydefault and canbe explicitlyrestricted.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "J02",
+      "location": "AdditionalProperties",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S4A",
+      "clause": "cross-cutting",
+      "claim": "NISTnegative/boundarytests include invalidinputs and whatsoftware shouldnot do.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N01",
+      "location": "blackbox\u00a72.6description",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S4B",
+      "clause": "cross-cutting",
+      "claim": "NISTdescribes fuzzing,long/empty/specialcharacter inputs and automatedrepeatedtesting.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N01",
+      "location": "automation\u00a72.2;fuzzing\u00a72.9",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S5A",
+      "clause": "cross-cutting",
+      "claim": "SP800-192distinguishes policy,formalmodel andmechanism,and describes initiallydeniedstaticFSMauthorization.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N02",
+      "location": "abstract;\u00a72.2staticmodel",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S5B",
+      "clause": "cross-cutting",
+      "claim": "SP800-192warns models andcombinedconstraints maynot explicitlyexpress allpolicyrequirements.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N02",
+      "location": "executivesummary;\u00a72.2p7",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S6A",
+      "clause": "cross-cutting",
+      "claim": "Thecharter says templates/procedures cannotwaive higherrequirements anduncertainauthority isnot presumedpermission.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a75conflictrules",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S6B",
+      "clause": "cross-cutting",
+      "claim": "NISTCore asks that targetedapplicationscope/context be documented.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N03",
+      "location": "MAP1,3.3",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S7A",
+      "clause": "cross-cutting",
+      "claim": "Thecharterrequires traceableevidence,visibleunknowns andpreservedversions.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G01",
+      "location": "\u00a74.3,4.9\u20134.10;\u00a713",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S7B",
+      "clause": "cross-cutting",
+      "claim": "SP800-192models bridge policyandmechanism rather than establishingfactualtruth ofall inputs.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "N02",
+      "location": "abstract;\u00a7\u00a71.2,2.2",
+      "limits": "Interpretation of model/mechanism distinction,not explicit proof about source truth",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S8A",
+      "clause": "cross-cutting",
+      "claim": "NISTCore differentiates producers from relevantnon-front-line/internal orindependentassessors.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N03",
+      "location": "MEASURE1.3",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S8B",
+      "clause": "cross-cutting",
+      "claim": "Thegateauthorityfile excludes AIagents asgateauthorities and doesnot treat theirselfchecks asindependentreview.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "G02",
+      "location": "\u00a71",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S9A",
+      "clause": "cross-cutting",
+      "claim": "SP800-192discusses accesspolicies involvingcompetence,authority andconflictofinterest,and theircontextdependence.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N02",
+      "location": "\u00a72.1p3",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S9B",
+      "clause": "cross-cutting",
+      "claim": "SP800-192distinguishes static,dynamic andhistoricalpolicyclasses.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N02",
+      "location": "\u00a72.2pp5\u20137",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S10A",
+      "clause": "cross-cutting",
+      "claim": "Dynamic/historical models inSP800-192include temporalevents,counters andhistorydependentpermissions.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N02",
+      "location": "\u00a72.2pp5\u20137",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S10B",
+      "clause": "cross-cutting",
+      "claim": "NISTCore requires ongoingreview and post-deploymentincident/change processes.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N03",
+      "location": "GOVERN1.5;MANAGE4",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S11A",
+      "clause": "cross-cutting",
+      "claim": "The2021HRDDarticle distinguishes formalcompliance,changedbehavior andpreventionoutcomes.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "A01",
+      "location": "EffectivenessofHRDD",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S11B",
+      "clause": "cross-cutting",
+      "claim": "Thearticlewarns thatdisclosure alone isnotHRDD and socialauditing isnot interchangeable with HRDD.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "A01",
+      "location": "HRDDEffectivenessandBusiness",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S12A",
+      "clause": "cross-cutting",
+      "claim": "NISTCore asks that TEVVmetric/process effectiveness itselfbe assessed.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N03",
+      "location": "MEASURE2.13",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-S12B",
+      "clause": "cross-cutting",
+      "claim": "TheNISTminimumverificationwebpage warns itisnolongerupdated andinformationmaybeoutofdate.",
+      "class": "Historical/textual",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "N01",
+      "location": "topofpagewarning",
+      "limits": "Inspected/inheritedsource description,not currentlegalmandate orGAIAeffectiveness",
+      "continuity": "Cycle-local textualobservation,not netnewscientificfinding"
+    },
+    {
+      "claim_id": "TOG1-X12-P1",
+      "clause": "cross-cutting",
+      "claim": "Reconstruct the visiblebranchlogic separately and preserve thethree invalidlabelPASSresults asFAIL for external-inputreuse.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "C01;G01;N01",
+      "location": "C01x9visibleassess/results;G01\u00a74.2\u20134.4;N01historicaltestcases",
+      "limits": "Reconstruction is not originalartifact/hashreplay;do not relabel theold failure asfixed.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N1",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: Legacyreconstruction andfailure register",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "C01;G01;N01",
+      "location": "C01x9visibleassess/results;G01\u00a74.2\u20134.4;N01historicaltestcases",
+      "limits": "Reconstruction is not originalartifact/hashreplay;do not relabel theold failure asfixed.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM1",
+      "clause": "cross-cutting",
+      "claim": "{\"artifact_status\": \"Labelled reconstruction,not originalbytes\", \"failed_predefined_checks\": [], \"historical_invalid_inputs_accepted\": 3, \"hypotheses\": {}, \"legacy_cases\": 6, \"legacy_external_input_criterion\": \"FAIL\"}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN1",
+      "location": "simulation/iter-1/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P2",
+      "clause": "cross-cutting",
+      "claim": "Validate exactstringtype andallowlist beforesemanticuse;missingNone remainsunknown while invalidtypes/tokens failclosed.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "J01;J02;N01",
+      "location": "J01definition/mixedtypes;J02required/null;N01negativeinputs",
+      "limits": "An enumguard validatesrepresentation,not truth ofa verificationjudgment.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N2",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: Newcandidatev0.2.0and24valueboundarytest",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "J01;J02;N01",
+      "location": "J01definition/mixedtypes;J02required/null;N01negativeinputs",
+      "limits": "An enumguard validatesrepresentation,not truth ofa verificationjudgment.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM2",
+      "clause": "cross-cutting",
+      "claim": "{\"candidate_known_boundary_criterion\": \"PASS\", \"candidate_version\": \"0.2.0\", \"enum_cases\": 24, \"exceptions\": 0, \"failed_predefined_checks\": [], \"hypotheses\": {}, \"invalid_verification_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN2",
+      "location": "simulation/iter-2/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P3",
+      "clause": "cross-cutting",
+      "claim": "Inspect actualfields andtypes,retain reasons,and block missing/null/blank/wrongscope/version evidence without treatingunfilledfields aspositive.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "J02;G01",
+      "location": "J02Properties/AdditionalProperties/RequiredProperties;G01\u00a74.3",
+      "limits": "Closedshape/trim/NUL rules are ourcontract,not universalJSONSchema orlegalrequirements.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N3",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 63recordfixtures andrecordschema",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "J02;G01",
+      "location": "J02Properties/AdditionalProperties/RequiredProperties;G01\u00a74.3",
+      "limits": "Closedshape/trim/NUL rules are ourcontract,not universalJSONSchema orlegalrequirements.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM3",
+      "clause": "cross-cutting",
+      "claim": "{\"exceptions\": 0, \"failed_predefined_checks\": [], \"hypotheses\": {}, \"outcomes\": {\"FAIL\": 38, \"INDETERMINATE\": 24, \"PASS\": 1}, \"record_cases\": 63, \"unexpected_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN3",
+      "location": "simulation/iter-3/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P4",
+      "clause": "cross-cutting",
+      "claim": "Use a seededfinitecorpus,independentexpressionoracle andparallellegacycomparison rather than threehand-pickedpositives alone.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "N01;J01",
+      "location": "N01blackbox/historical/fuzzmethods;J01enum",
+      "limits": "Finitefuzzing is not allinputcoverage or anindependentoracle;nofielddeploymentstudy.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N4",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 839casecorpus andfuzzrecord",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "N01;J01",
+      "location": "N01blackbox/historical/fuzzmethods;J01enum",
+      "limits": "Finitefuzzing is not allinputcoverage or anindependentoracle;nofielddeploymentstudy.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM4",
+      "clause": "cross-cutting",
+      "claim": "{\"candidate_invalid_passes\": 0, \"corpus_cases\": 839, \"exceptions\": 0, \"failed_predefined_checks\": [], \"hypotheses\": {}, \"legacy_false_passes_against_oracle\": 835, \"oracle_mismatches\": 0, \"seed\": 12012}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN4",
+      "location": "simulation/iter-4/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P5",
+      "clause": "cross-cutting",
+      "claim": "Guard everyaggregateelement andoutercontainer,retain knownFAILover unknowns,and distinguish incompleteslotcounts.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "J01;N02;G02",
+      "location": "J01enum;N02\u00a72.2staticmodel;G02\u00a72",
+      "limits": "The stipulatedconjunction is not a universalethic oractualownerdecision.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N5",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 177147gatevectors andboundaryfixtures",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "J01;N02;G02",
+      "location": "J01enum;N02\u00a72.2staticmodel;G02\u00a72",
+      "limits": "The stipulatedconjunction is not a universalethic oractualownerdecision.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM5",
+      "clause": "cross-cutting",
+      "claim": "{\"boundary_passes\": 0, \"element_boundary_cases\": 231, \"failed_predefined_checks\": [], \"hypotheses\": {}, \"oracle_mismatches\": 0, \"outcomes\": {\"FAIL\": 175099, \"INDETERMINATE\": 2047, \"PASS\": 1}, \"outer_cases\": 6, \"valid_gate_vectors\": 177147}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN5",
+      "location": "simulation/iter-5/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P6",
+      "clause": "cross-cutting",
+      "claim": "Evaluate actualrecords throughcandidate andpreserve authority/rationale/scope columns rather than onlyNAlabels.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "G01;J02;N03",
+      "location": "G01\u00a7\u00a74\u20135;J02required;N03MAP1,3.3",
+      "limits": "Toymandatoryclauses unadopted. Pre-executioncasecount5346wasarithmeticallywrong;1782actualfactorcombinations,originalA1FAILretained.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N6",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: Applicabilitycases andexplicitcardinalityfinding",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;J02;N03",
+      "location": "G01\u00a7\u00a74\u20135;J02required;N03MAP1,3.3",
+      "limits": "Toymandatoryclauses unadopted. Pre-executioncasecount5346wasarithmeticallywrong;1782actualfactorcombinations,originalA1FAILretained.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM6",
+      "clause": "cross-cutting",
+      "claim": "{\"applicability_cases\": 1782, \"explicit_positive_na_record_cases\": 18, \"failed_predefined_checks\": [\"A1\"], \"hypotheses\": {}, \"known_failures_masked\": 0, \"mandatory_na_passes\": 0, \"outcomes\": {\"FAIL\": 1258, \"INDETERMINATE\": 495, \"PASS\": 29}, \"unsupported_na_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN6",
+      "location": "simulation/iter-6/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P7",
+      "clause": "cross-cutting",
+      "claim": "Preserve knownlocalfailures,markdependentsunknown when support/versionisnotcurrent,and leaveunrelatedroots unchanged.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "G01;N02",
+      "location": "G01\u00a74.3,4.9\u20134.10;N02model/implementation distinction",
+      "limits": "Applicationgraph only;no semanticentailment orfullPROVvalidator.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N7",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 162supportpropagationcases",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;N02",
+      "location": "G01\u00a74.3,4.9\u20134.10;N02model/implementation distinction",
+      "limits": "Applicationgraph only;no semanticentailment orfullPROVvalidator.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM7",
+      "clause": "cross-cutting",
+      "claim": "{\"failed_predefined_checks\": [], \"hypotheses\": {}, \"known_local_failures_lost\": 0, \"oracle_mismatches\": 0, \"semantic_truth_verified\": false, \"support_cases\": 162, \"unsupported_dependent_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN7",
+      "location": "simulation/iter-7/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P8",
+      "clause": "cross-cutting",
+      "claim": "Re-test observedreviewfactors andhiddenfact witness;guardingTrueasFAILdoesnotmakepositiveflags true.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "G02;N03;A01",
+      "location": "G02\u00a71;N03MEASURE1.3;A01audit/due-diligencedistinction",
+      "limits": "No actualreviewer,qualificationcheck,conflictinvestigation orindependentreview.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N8",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 972reviewcases;H8NOTSUPPORTED",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G02;N03;A01",
+      "location": "G02\u00a71;N03MEASURE1.3;A01audit/due-diligencedistinction",
+      "limits": "No actualreviewer,qualificationcheck,conflictinvestigation orindependentreview.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM8",
+      "clause": "cross-cutting",
+      "claim": "{\"failed_predefined_checks\": [], \"hidden_conflict_passes\": 1, \"hypotheses\": {\"H8\": {\"hidden_conflict_passes\": 1, \"result\": \"NOT SUPPORTED\", \"statement\": \"Syntax-correct positive metadata proves genuine independence\"}}, \"observed_outcomes\": {\"FAIL\": 908, \"INDETERMINATE\": 62, \"PASS\": 2}, \"review_cases\": 972, \"self_review_passes\": 0, \"unknown_factor_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN8",
+      "location": "simulation/iter-8/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P9",
+      "clause": "cross-cutting",
+      "claim": "Combine ancestorbounds,expiry,visibilitystate andguardedissuerinput;unknownvisibilitydoesnot authorizeaccess.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "N02;G01;N03",
+      "location": "N02\u00a7\u00a72.1\u20132.2;G01\u00a74.6\u20134.7;N03MAP3.3",
+      "limits": "CompleteobservationwhenflaggedPASS remainsassumed,not cryptographic/globalknowledge.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N9",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 9216grantchaincases",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "N02;G01;N03",
+      "location": "N02\u00a7\u00a72.1\u20132.2;G01\u00a74.6\u20134.7;N03MAP3.3",
+      "limits": "CompleteobservationwhenflaggedPASS remainsassumed,not cryptographic/globalknowledge.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM9",
+      "clause": "cross-cutting",
+      "claim": "{\"failed_predefined_checks\": [], \"grant_chain_cases\": 9216, \"hypotheses\": {}, \"known_revocation_passes\": 0, \"malformed_issuer_passes\": 0, \"outcomes\": {\"FAIL\": 8800, \"INDETERMINATE\": 384, \"PASS\": 32}, \"scope_or_expiry_passes\": 0, \"unknown_visibility_passes\": 0, \"visibility_truth_assumed\": true}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN9",
+      "location": "simulation/iter-9/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P10",
+      "clause": "cross-cutting",
+      "claim": "Retain lease-delay counterexamples andavailabilitycosts;recheck boundedepoch/nonce behavior withactualunsafealternatives.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "C01;N02;N03",
+      "location": "C01x9H6/atomiclimits;N02dynamic/historicalmodels;N03MANAGE4",
+      "limits": "Currentauthorityoracle/localatomicityassumed;horizon4doesnotcoveralllongtimingpatterns ornetworks.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N10",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 2688freshnesscases;2401nonce traces;H10NOTSUPPORTED",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "C01;N02;N03",
+      "location": "C01x9H6/atomiclimits;N02dynamic/historicalmodels;N03MANAGE4",
+      "limits": "Currentauthorityoracle/localatomicityassumed;horizon4doesnotcoveralllongtimingpatterns ornetworks.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM10",
+      "clause": "cross-cutting",
+      "claim": "{\"active_offline_entries_blocked\": 288, \"cache_only_false_allows\": 72, \"double_nonce_successes\": 0, \"failed_predefined_checks\": [], \"freshness_cases\": 2688, \"globally_revoked_current_query_passes\": 0, \"globally_revoked_lease_allows\": 246, \"hypotheses\": {\"H10\": {\"counterexample_grid_entries\": 246, \"result\": \"NOT SUPPORTED\", \"statement\": \"Local lease validity eliminates all globally revoked access\"}}, \"nonce_event_steps\": 9604, \"nonce_traces\": 2401, \"replay_false_allows\": 14, \"unsafe_proper_commits\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN10",
+      "location": "simulation/iter-10/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P11",
+      "clause": "cross-cutting",
+      "claim": "Separate selectedprocessreadiness and outcomeevidence;source-guidedfields do not make a realcomplaintresolved.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "A01;N03;G01",
+      "location": "A01EffectivenessofHRDD/Business;N03MEASURE3.3,4;G01\u00a74.1,4.8",
+      "limits": "No affectedparty,consultation,interventionorremedy actuallyperformed.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N11",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: 243selectedprocess/outcomevectors",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "A01;N03;G01",
+      "location": "A01EffectivenessofHRDD/Business;N03MEASURE3.3,4;G01\u00a74.1,4.8",
+      "limits": "No affectedparty,consultation,interventionorremedy actuallyperformed.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM11",
+      "clause": "cross-cutting",
+      "claim": "{\"failed_predefined_checks\": [], \"hypotheses\": {}, \"oracle_mismatches\": 0, \"process_only_false_remedy_claims\": 2, \"process_ready\": {\"FAIL\": 195, \"INDETERMINATE\": 45, \"PASS\": 3}, \"remedy_cases\": 243, \"remedy_supported\": {\"FAIL\": 211, \"INDETERMINATE\": 31, \"PASS\": 1}, \"unsupported_remedy_passes\": 0}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN11",
+      "location": "simulation/iter-11/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-P12",
+      "clause": "cross-cutting",
+      "claim": "Audit typedintegration,knownlegacyFAIL,candidateboundedPASS,predefinedcountFAIL,negativehypotheses andunresolvedreview/integration boundaries separately.",
+      "class": "Interpretive/philosophical",
+      "label": "Plausible",
+      "status": "Indeterminate",
+      "sources": "G01;G02;N03;N01",
+      "location": "G01\u00a78;G02\u00a72;N03MEASURE2.13;N01fixbugs/limitations",
+      "limits": "No priorartifactrecovery,independentassurance,fieldrobustness orcanonicalallworkcompletion.",
+      "continuity": "Single-author synthesis,not independentchallenge"
+    },
+    {
+      "claim_id": "TOG1-X12-N12",
+      "clause": "cross-cutting",
+      "claim": "Proposedoutput: Integratedresults,scopedgates andfinalgapregister",
+      "class": "Interpretive/philosophical",
+      "label": "Philosophical/Spiritual",
+      "status": "Interpretive",
+      "sources": "G01;G02;N03;N01",
+      "location": "G01\u00a78;G02\u00a72;N03MEASURE2.13;N01fixbugs/limitations",
+      "limits": "No priorartifactrecovery,independentassurance,fieldrobustness orcanonicalallworkcompletion.",
+      "continuity": "Researchcontrol/recordproposal,not adoption"
+    },
+    {
+      "claim_id": "TOG1-X12-SIM12",
+      "clause": "cross-cutting",
+      "claim": "{\"boundary_exceptions\": 0, \"candidate_known_boundary_regression\": \"PASS\", \"failed_predefined_checks\": [], \"hypotheses\": {}, \"integration_vectors\": 19683, \"legacy_reconstruction_regression\": \"FAIL\", \"malformed_factor_fixtures\": 189, \"malformed_factor_passes\": 0, \"mutant_false_passes\": {\"cycle_label_proof\": 19682, \"form_only\": 19682, \"ignore_unknown\": 511, \"majority\": 2850, \"omit_remedy\": 2, \"owner_override\": 6560}, \"negative_hypotheses\": {\"H10\": \"NOT SUPPORTED\", \"H8\": \"NOT SUPPORTED\"}, \"oracle_mismatches\": 0, \"outcomes\": {\"FAIL\": 19171, \"INDETERMINATE\": 511, \"PASS\": 1}, \"production_authorization\": \"NONE\"}",
+      "class": "Mathematical/computational",
+      "label": "Established",
+      "status": "Supported",
+      "sources": "RUN12",
+      "location": "simulation/iter-12/outputs/results.json;Verification/REPRODUCTION.json",
+      "limits": "Finite/reconstructed executedsame-authorreproducedoutcomes,includingfailures,not originalbytereplay orproductionassurance",
+      "continuity": "Newx12iteration;A1FAILretained whereapplicable"
+    },
+    {
+      "claim_id": "TOG1-X12-H1",
+      "clause": "cross-cutting",
+      "claim": "Explicit state/type validation may improve actual auditerror detection.",
+      "class": "Hypothesis/speculation",
+      "label": "Hypothetical",
+      "status": "Hypothetical",
+      "sources": "N03;A01",
+      "location": "MEASURE2.13,3.3,4;EffectivenessofHRDD",
+      "limits": "No GAIAfieldstudy,affectedpartyconsultation orcomparativecausaldata",
+      "continuity": "Untestedfuturehypothesis,not a modelresult"
+    },
+    {
+      "claim_id": "TOG1-X12-H2",
+      "clause": "cross-cutting",
+      "claim": "Freshness andnoncecontrols may reduce realunauthorizeduse without disproportionateavailability/accessibility harm.",
+      "class": "Hypothesis/speculation",
+      "label": "Hypothetical",
+      "status": "Hypothetical",
+      "sources": "N03;A01",
+      "location": "MEASURE2.13,3.3,4;EffectivenessofHRDD",
+      "limits": "No GAIAfieldstudy,affectedpartyconsultation orcomparativecausaldata",
+      "continuity": "Untestedfuturehypothesis,not a modelresult"
+    },
+    {
+      "claim_id": "TOG1-X12-H3",
+      "clause": "cross-cutting",
+      "claim": "Outcome-focusedrights-holder participation may improve actualremedy beyond processdocumentation.",
+      "class": "Hypothesis/speculation",
+      "label": "Hypothetical",
+      "status": "Hypothetical",
+      "sources": "N03;A01",
+      "location": "MEASURE2.13,3.3,4;EffectivenessofHRDD",
+      "limits": "No GAIAfieldstudy,affectedpartyconsultation orcomparativecausaldata",
+      "continuity": "Untestedfuturehypothesis,not a modelresult"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "G01",
+      "title": "GAIA Totality of Governance Charter",
+      "author_issuer": "Kyle Alexander Steen;repository draft",
+      "publication_date": "2026-10-24",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md",
+      "upstream_git_blob_sha": "8058353ad85bacc81c8deb7ca2cfc0576686bbd4",
+      "access_mode": "Inherited prior-conversation source text at unchanged pinnedcommit;not refetched thisturn",
+      "supporting_locations": "\u00a7\u00a72,4.1\u20134.11,5,7\u20139,12\u201313",
+      "limitations": "\u00a74previouslyreturned completely;laterunreadsections not reconstructed;Proposed",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "G02",
+      "title": "Gate authority",
+      "author_issuer": "Grok Bot for KyleAlexanderSteen",
+      "publication_date": "2026-10-24",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/GOVERNANCE/GATE_AUTHORITY.md",
+      "upstream_git_blob_sha": "4fdc3454fe88a15e6b0b0d464d2bb0ac202c8ebc",
+      "access_mode": "Inherited prior-conversation fullresponse;unchangedcommit",
+      "supporting_locations": "\u00a7\u00a71\u20133,5",
+      "limitations": "No new live reviewer/settings audit;ownerdisposition distinct",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "G03",
+      "title": "Risk levels for GAIA reports and simulations",
+      "author_issuer": "Grok Bot for KyleAlexanderSteen",
+      "publication_date": "2026-10-24",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/GOVERNANCE/RISK_LEVELS.md",
+      "upstream_git_blob_sha": "7ae518809c23c83f4902186080f8819dd57839d3",
+      "access_mode": "Inherited prior-conversation source;unchangedcommit",
+      "supporting_locations": "\u00a7\u00a71,4",
+      "limitations": "No refreshedproductregister orR/RL conversion",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "G04",
+      "title": "Maps & Matrix index",
+      "author_issuer": "The GAIA Foundation",
+      "publication_date": "2026-10-25",
+      "locator": "https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/fdec378a859f2accdc7e2d9cfe11040a0c34545d/Research/Maps-and-Matrix/README.md",
+      "upstream_git_blob_sha": "dd7d9296904964bd91dafea2b52d005563c9c199",
+      "access_mode": "Inherited prior-conversation source;unchangedcommit",
+      "supporting_locations": "intro;v1\u2013v43;generationnotes",
+      "limitations": "No globalregeneration/schema/manifestcensus",
+      "access_date": "2026-10-25",
+      "repository_commit": "fdec378a859f2accdc7e2d9cfe11040a0c34545d",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "J01",
+      "title": "Enumerated values",
+      "author_issuer": "JSON Schema project",
+      "publication_date": "Publicationdate not established",
+      "locator": "https://json-schema.org/understanding-json-schema/reference/enum",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary reference page read completely",
+      "supporting_locations": "definition;basicenum;extendedmixedtypes examples",
+      "limitations": "Reference guidance,not proof of our fullJSONSchemaimplementation",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "J02",
+      "title": "object reference",
+      "author_issuer": "JSON Schema project",
+      "publication_date": "Publicationdate not established",
+      "locator": "https://json-schema.org/understanding-json-schema/reference/object",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary reference page read completely",
+      "supporting_locations": "Properties;AdditionalProperties;RequiredProperties;nullversusabsent",
+      "limitations": "Our helper adds separate trim/NUL/scope semantics;no fullvalidatorconformance claim",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "N01",
+      "title": "Recommended Minimum Standard for Vendor or Developer Verification of Code",
+      "author_issuer": "NIST",
+      "publication_date": "Created2021-07-07;page showsupdated2026-10-06",
+      "locator": "https://www.nist.gov/itl/executive-order-14028-improving-nations-cybersecurity/software-supply-chain-security-guidance-3",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Primary webtable read completely",
+      "supporting_locations": "automation;blackboxnegative/boundarytests;historicaltests;fuzzing;fixbugs",
+      "limitations": "Page explicitlynotbeingupdated/maybeoutofdate;methodreference not claimlatestmandatoryminimum",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "N02",
+      "title": "Verification and Test Methods for Access Control Policies/Models,NISTSP800-192",
+      "author_issuer": "Vincent C.Hu,Rick Kuhn,Dylan Yaga;NIST",
+      "publication_date": "2017-06",
+      "locator": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-192.pdf",
+      "upstream_git_blob_sha": "",
+      "access_mode": "PrimaryPDF throughpart printedp8 returned",
+      "supporting_locations": "abstract;executivesummary;\u00a7\u00a71,2.1\u20132.2,opening3",
+      "limitations": "Latercoverage/mutationchapters not read;no full68page orNISTconformance claim",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "N03",
+      "title": "AI RMF Core excerpt from AI RMF1.0",
+      "author_issuer": "NIST AIRC",
+      "publication_date": "2023framework;accessed2026-10-25",
+      "locator": "https://airc.nist.gov/airmf-resources/airmf/5-sec-core/",
+      "upstream_git_blob_sha": "",
+      "access_mode": "PrimaryHTML completefourfunctiontables returned",
+      "supporting_locations": "intro;GOVERN1.5,2,3.2;MAP1,3.3;MEASURE1.3,2.1\u20132.3,2.13,3.3;MANAGE4",
+      "limitations": "Voluntary/contextual,notorderedchecklist orrealfieldvalidation",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "A01",
+      "title": "The Effectiveness of Human Rights Due Diligence for Preventing Business Human Rights Abuses",
+      "author_issuer": "Robert McCorquodale andJustine Nolan",
+      "publication_date": "2021-11-25",
+      "locator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8612825/",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Substantial articlebody read throughpartStatessection;latersections/conclusion not returned",
+      "supporting_locations": "abstract;HRDD;EffectivenessofHRDD;Businesssection;partialStatessection",
+      "limitations": "Historical2021analysis;underlyingstudies not separatelyverified;notcurrent2026law census orGAIAfieldstudy",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    },
+    {
+      "source_id": "C01",
+      "title": "ToG1 Baseline/x3/x6/x9 priorconversation findings and visiblecode/results",
+      "author_issuer": "Perplexity for KyleAlexanderSteen",
+      "publication_date": "2026-10-25",
+      "locator": "preceding conversation:GAIA-RES-TOG1-C0-001;GAIA-RES-TOG1-X3-001;GAIA-RES-TOG1-X6-001;GAIA-RES-TOG1-X9-001",
+      "upstream_git_blob_sha": "",
+      "access_mode": "Conversationonly;archives/capsules absent",
+      "supporting_locations": "priorreported45/41/54/71counts,enumfailure andlimits",
+      "limitations": "No originalartifactrecovery/import/hashverification;legacyfunction reconstructionlabelled",
+      "access_date": "2026-10-25",
+      "repository_commit": "",
+      "external_source_byte_sha256": "NOT CAPTURED"
+    }
+  ],
+  "research_passes": [
+    {
+      "pass": 1,
+      "title": "Preserve the legacy defect",
+      "question": "What was actually wrong,and what can be reconstructed without originalbytes?",
+      "source_portions": "C01x9visibleassess/results;G01\u00a74.2\u20134.4;N01historicaltestcases",
+      "contribution": "Reconstruct the visiblebranchlogic separately and preserve thethree invalidlabelPASSresults asFAIL for external-inputreuse.",
+      "limits": "Reconstruction is not originalartifact/hashreplay;do not relabel theold failure asfixed.",
+      "outputs": "Legacyreconstruction andfailure register"
+    },
+    {
+      "pass": 2,
+      "title": "Explicit enum and exact type validation",
+      "question": "Which values can enter theverificationstate machine?",
+      "source_portions": "J01definition/mixedtypes;J02required/null;N01negativeinputs",
+      "contribution": "Validate exactstringtype andallowlist beforesemanticuse;missingNone remainsunknown while invalidtypes/tokens failclosed.",
+      "limits": "An enumguard validatesrepresentation,not truth ofa verificationjudgment.",
+      "outputs": "Newcandidatev0.2.0and24valueboundarytest"
+    },
+    {
+      "pass": 3,
+      "title": "Closed records,missing/null and malformed fields",
+      "question": "How do recordshape,missingfacts,wrongtypes andextensions differ?",
+      "source_portions": "J02Properties/AdditionalProperties/RequiredProperties;G01\u00a74.3",
+      "contribution": "Inspect actualfields andtypes,retain reasons,and block missing/null/blank/wrongscope/version evidence without treatingunfilledfields aspositive.",
+      "limits": "Closedshape/trim/NUL rules are ourcontract,not universalJSONSchema orlegalrequirements.",
+      "outputs": "63recordfixtures andrecordschema"
+    },
+    {
+      "pass": 4,
+      "title": "Deterministic negative inputs and differential checking",
+      "question": "Does a correctedexample generalize over a boundednegative corpus?",
+      "source_portions": "N01blackbox/historical/fuzzmethods;J01enum",
+      "contribution": "Use a seededfinitecorpus,independentexpressionoracle andparallellegacycomparison rather than threehand-pickedpositives alone.",
+      "limits": "Finitefuzzing is not allinputcoverage or anindependentoracle;nofielddeploymentstudy.",
+      "outputs": "839casecorpus andfuzzrecord"
+    },
+    {
+      "pass": 5,
+      "title": "Gate aggregation also needs input guards",
+      "question": "Can malformedtri-state inputs bypass an otherwisecorrect conjunction?",
+      "source_portions": "J01enum;N02\u00a72.2staticmodel;G02\u00a72",
+      "contribution": "Guard everyaggregateelement andoutercontainer,retain knownFAILover unknowns,and distinguish incompleteslotcounts.",
+      "limits": "The stipulatedconjunction is not a universalethic oractualownerdecision.",
+      "outputs": "177147gatevectors andboundaryfixtures"
+    },
+    {
+      "pass": 6,
+      "title": "Applicability bound to corrected evidence",
+      "question": "Can not-applicable conceal incompleteorinvalid authority/rationale?",
+      "source_portions": "G01\u00a7\u00a74\u20135;J02required;N03MAP1,3.3",
+      "contribution": "Evaluate actualrecords throughcandidate andpreserve authority/rationale/scope columns rather than onlyNAlabels.",
+      "limits": "Toymandatoryclauses unadopted. Pre-executioncasecount5346wasarithmeticallywrong;1782actualfactorcombinations,originalA1FAILretained.",
+      "outputs": "Applicabilitycases andexplicitcardinalityfinding"
+    },
+    {
+      "pass": 7,
+      "title": "Support/currentness is not semantictruth",
+      "question": "What does a currentrecord imply about dependentclaims?",
+      "source_portions": "G01\u00a74.3,4.9\u20134.10;N02model/implementation distinction",
+      "contribution": "Preserve knownlocalfailures,markdependentsunknown when support/versionisnotcurrent,and leaveunrelatedroots unchanged.",
+      "limits": "Applicationgraph only;no semanticentailment orfullPROVvalidator.",
+      "outputs": "162supportpropagationcases"
+    },
+    {
+      "pass": 8,
+      "title": "Independence remains a real-worldproperty",
+      "question": "Does syntaxrepair eliminate hiddenconflicts?",
+      "source_portions": "G02\u00a71;N03MEASURE1.3;A01audit/due-diligencedistinction",
+      "contribution": "Re-test observedreviewfactors andhiddenfact witness;guardingTrueasFAILdoesnotmakepositiveflags true.",
+      "limits": "No actualreviewer,qualificationcheck,conflictinvestigation orindependentreview.",
+      "outputs": "972reviewcases;H8NOTSUPPORTED"
+    },
+    {
+      "pass": 9,
+      "title": "Permission bounds and visibility",
+      "question": "Can issuerinput orunknownrevocation be safelyignored?",
+      "source_portions": "N02\u00a7\u00a72.1\u20132.2;G01\u00a74.6\u20134.7;N03MAP3.3",
+      "contribution": "Combine ancestorbounds,expiry,visibilitystate andguardedissuerinput;unknownvisibilitydoesnot authorizeaccess.",
+      "limits": "CompleteobservationwhenflaggedPASS remainsassumed,not cryptographic/globalknowledge.",
+      "outputs": "9216grantchaincases"
+    },
+    {
+      "pass": 10,
+      "title": "Residual freshness,availability and replay",
+      "question": "Which x9limits survive a syntaxrepair?",
+      "source_portions": "C01x9H6/atomiclimits;N02dynamic/historicalmodels;N03MANAGE4",
+      "contribution": "Retain lease-delay counterexamples andavailabilitycosts;recheck boundedepoch/nonce behavior withactualunsafealternatives.",
+      "limits": "Currentauthorityoracle/localatomicityassumed;horizon4doesnotcoveralllongtimingpatterns ornetworks.",
+      "outputs": "2688freshnesscases;2401nonce traces;H10NOTSUPPORTED"
+    },
+    {
+      "pass": 11,
+      "title": "Process and outcomes remain distinct",
+      "question": "What would support saying a harm was actuallyaddressed?",
+      "source_portions": "A01EffectivenessofHRDD/Business;N03MEASURE3.3,4;G01\u00a74.1,4.8",
+      "contribution": "Separate selectedprocessreadiness and outcomeevidence;source-guidedfields do not make a realcomplaintresolved.",
+      "limits": "No affectedparty,consultation,interventionorremedy actuallyperformed.",
+      "outputs": "243selectedprocess/outcomevectors"
+    },
+    {
+      "pass": 12,
+      "title": "Cycle completion is not assurance/adoption",
+      "question": "Which statuses must remain visible at x12?",
+      "source_portions": "G01\u00a78;G02\u00a72;N03MEASURE2.13;N01fixbugs/limitations",
+      "contribution": "Audit typedintegration,knownlegacyFAIL,candidateboundedPASS,predefinedcountFAIL,negativehypotheses andunresolvedreview/integration boundaries separately.",
+      "limits": "No priorartifactrecovery,independentassurance,fieldrobustness orcanonicalallworkcompletion.",
+      "outputs": "Integratedresults,scopedgates andfinalgapregister"
+    }
+  ],
+  "spec_hashes": {
+    "1": "70a1450d6811c88fa00bc05ea1bb05cbba7b796a72f0b5040eac4072644b0da8",
+    "2": "2f511674e2409c5c1cf741b1719503757bb1e57626bf65e568ad82b45d25918c",
+    "3": "420cdc64866e7dc1be1f5addb8422f5e07c6bf830a3baa4a0f06922b24fecda3",
+    "4": "ec9dc39267a461604c83adb962807996217e09f779394ee0bdfe240b97b87d51",
+    "5": "511af30b5b049d5911c4e42b14d184632774f31e554ff27d17e5afc4d5d5c963",
+    "6": "764a0e499e0c2bb2ce41c9a0da900caf9466b8b4eea9f40c1cc7381681d9c1c6",
+    "7": "342110b4bbb9f5e2d6a1ef74ef61ecb7e758829e96d406ff6ba9db63da90acba",
+    "8": "bed96e23bb13b2d213333b9cb88a50a7c19826308161b7469dcb1e2e28127803",
+    "9": "53025c0081d55698bde0cdbe9451e2b498a60c20584d8d8b5e7f09f97b871630",
+    "10": "81dc838e5cce7dd7e07c28cf14cce134130ee857895cdb2a001fc470bba1698f",
+    "11": "80d3df8a5dc853e93d0e137d406fb7ae73790309af8eab1694f89c818158c5fe",
+    "12": "2b0e40b980b99875364dfa4e41d6818405348a1bbf20136d40a02857ea5c47c5"
+  },
+  "model_results": [
+    {
+      "legacy_cases": 6,
+      "historical_invalid_inputs_accepted": 3,
+      "legacy_external_input_criterion": "FAIL",
+      "artifact_status": "Labelled reconstruction,not originalbytes",
+      "checks": {
+        "L1": "PASS",
+        "L2": "PASS",
+        "L3": "PASS",
+        "L4": "PASS",
+        "L5": "PASS",
+        "L6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "enum_cases": 24,
+      "invalid_verification_passes": 0,
+      "exceptions": 0,
+      "candidate_known_boundary_criterion": "PASS",
+      "candidate_version": "0.2.0",
+      "checks": {
+        "E1": "PASS",
+        "E2": "PASS",
+        "E3": "PASS",
+        "E4": "PASS",
+        "E5": "PASS",
+        "E6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "record_cases": 63,
+      "unexpected_passes": 0,
+      "exceptions": 0,
+      "outcomes": {
+        "INDETERMINATE": 24,
+        "FAIL": 38,
+        "PASS": 1
+      },
+      "checks": {
+        "S1": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "seed": 12012,
+      "corpus_cases": 839,
+      "oracle_mismatches": 0,
+      "candidate_invalid_passes": 0,
+      "exceptions": 0,
+      "legacy_false_passes_against_oracle": 835,
+      "checks": {
+        "F1": "PASS",
+        "F2": "PASS",
+        "F3": "PASS",
+        "F4": "PASS",
+        "F5": "PASS",
+        "F6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "valid_gate_vectors": 177147,
+      "outcomes": {
+        "PASS": 1,
+        "FAIL": 175099,
+        "INDETERMINATE": 2047
+      },
+      "oracle_mismatches": 0,
+      "element_boundary_cases": 231,
+      "outer_cases": 6,
+      "boundary_passes": 0,
+      "checks": {
+        "G1": "PASS",
+        "G2": "PASS",
+        "G3": "PASS",
+        "G4": "PASS",
+        "G5": "PASS",
+        "G6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "applicability_cases": 1782,
+      "outcomes": {
+        "INDETERMINATE": 495,
+        "FAIL": 1258,
+        "PASS": 29
+      },
+      "unsupported_na_passes": 0,
+      "mandatory_na_passes": 0,
+      "known_failures_masked": 0,
+      "explicit_positive_na_record_cases": 18,
+      "checks": {
+        "A1": "FAIL",
+        "A2": "PASS",
+        "A3": "PASS",
+        "A4": "PASS",
+        "A5": "PASS",
+        "A6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "support_cases": 162,
+      "oracle_mismatches": 0,
+      "known_local_failures_lost": 0,
+      "unsupported_dependent_passes": 0,
+      "semantic_truth_verified": false,
+      "checks": {
+        "P1": "PASS",
+        "P2": "PASS",
+        "P3": "PASS",
+        "P4": "PASS",
+        "P5": "PASS",
+        "P6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "review_cases": 972,
+      "observed_outcomes": {
+        "FAIL": 908,
+        "PASS": 2,
+        "INDETERMINATE": 62
+      },
+      "unknown_factor_passes": 0,
+      "self_review_passes": 0,
+      "hidden_conflict_passes": 1,
+      "checks": {
+        "R1": "PASS",
+        "R2": "PASS",
+        "R3": "PASS",
+        "R4": "PASS",
+        "R5": "PASS",
+        "R6": "PASS"
+      },
+      "hypotheses": {
+        "H8": {
+          "statement": "Syntax-correct positive metadata proves genuine independence",
+          "result": "NOT SUPPORTED",
+          "hidden_conflict_passes": 1
+        }
+      },
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "grant_chain_cases": 9216,
+      "outcomes": {
+        "PASS": 32,
+        "FAIL": 8800,
+        "INDETERMINATE": 384
+      },
+      "scope_or_expiry_passes": 0,
+      "unknown_visibility_passes": 0,
+      "malformed_issuer_passes": 0,
+      "known_revocation_passes": 0,
+      "visibility_truth_assumed": true,
+      "checks": {
+        "D1": "PASS",
+        "D2": "PASS",
+        "D3": "PASS",
+        "D4": "PASS",
+        "D5": "PASS",
+        "D6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "freshness_cases": 2688,
+      "globally_revoked_lease_allows": 246,
+      "globally_revoked_current_query_passes": 0,
+      "active_offline_entries_blocked": 288,
+      "nonce_traces": 2401,
+      "nonce_event_steps": 9604,
+      "unsafe_proper_commits": 0,
+      "double_nonce_successes": 0,
+      "cache_only_false_allows": 72,
+      "replay_false_allows": 14,
+      "checks": {
+        "T1": "PASS",
+        "T2": "PASS",
+        "T3": "PASS",
+        "T4": "PASS",
+        "T5": "PASS",
+        "T6": "PASS"
+      },
+      "hypotheses": {
+        "H10": {
+          "statement": "Local lease validity eliminates all globally revoked access",
+          "result": "NOT SUPPORTED",
+          "counterexample_grid_entries": 246
+        }
+      },
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "remedy_cases": 243,
+      "process_ready": {
+        "PASS": 3,
+        "FAIL": 195,
+        "INDETERMINATE": 45
+      },
+      "remedy_supported": {
+        "PASS": 1,
+        "FAIL": 211,
+        "INDETERMINATE": 31
+      },
+      "oracle_mismatches": 0,
+      "unsupported_remedy_passes": 0,
+      "process_only_false_remedy_claims": 2,
+      "checks": {
+        "M1": "PASS",
+        "M2": "PASS",
+        "M3": "PASS",
+        "M4": "PASS",
+        "M5": "PASS",
+        "M6": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    },
+    {
+      "integration_vectors": 19683,
+      "outcomes": {
+        "PASS": 1,
+        "FAIL": 19171,
+        "INDETERMINATE": 511
+      },
+      "oracle_mismatches": 0,
+      "malformed_factor_fixtures": 189,
+      "malformed_factor_passes": 0,
+      "boundary_exceptions": 0,
+      "mutant_false_passes": {
+        "majority": 2850,
+        "form_only": 19682,
+        "cycle_label_proof": 19682,
+        "ignore_unknown": 511,
+        "owner_override": 6560,
+        "omit_remedy": 2
+      },
+      "negative_hypotheses": {
+        "H8": "NOT SUPPORTED",
+        "H10": "NOT SUPPORTED"
+      },
+      "candidate_known_boundary_regression": "PASS",
+      "legacy_reconstruction_regression": "FAIL",
+      "production_authorization": "NONE",
+      "checks": {
+        "I1": "PASS",
+        "I2": "PASS",
+        "I3": "PASS",
+        "I4": "PASS",
+        "I5": "PASS",
+        "I6": "PASS",
+        "I7": "PASS",
+        "I8": "PASS"
+      },
+      "hypotheses": {},
+      "scope": "Finite synthetic or reconstructed-code checks;not independent,field,legal ordeploymentassurance"
+    }
+  ],
+  "execution_records": [
+    {
+      "id": "TOG1-X12-RUN-1",
+      "iteration": 1,
+      "started_utc": "2026-10-25T20:34:45.338909+00:00",
+      "ended_utc": "2026-10-25T20:34:45.339387+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "70a1450d6811c88fa00bc05ea1bb05cbba7b796a72f0b5040eac4072644b0da8",
+      "spec_after_sha256": "70a1450d6811c88fa00bc05ea1bb05cbba7b796a72f0b5040eac4072644b0da8",
+      "inputs_sha256": {},
+      "outputs_sha256": {
+        "legacy_cases.json": "5f1ace9d310d628cad4a21bab81ecdc1e3b10a13fb0b744af56b68e22b387162",
+        "results.json": "24b713c0617439380e65b9e532279445ba73c30013a081a251c074e648caa79f",
+        "transfer.json": "bba7f7987337f33442c4ad6bb64ee38e5f40e161273df4351167b63273a0e3aa"
+      },
+      "checks": {
+        "L1": "PASS",
+        "L2": "PASS",
+        "L3": "PASS",
+        "L4": "PASS",
+        "L5": "PASS",
+        "L6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-2",
+      "iteration": 2,
+      "started_utc": "2026-10-25T20:34:45.396018+00:00",
+      "ended_utc": "2026-10-25T20:34:45.396746+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "2f511674e2409c5c1cf741b1719503757bb1e57626bf65e568ad82b45d25918c",
+      "spec_after_sha256": "2f511674e2409c5c1cf741b1719503757bb1e57626bf65e568ad82b45d25918c",
+      "inputs_sha256": {
+        "iter-1/outputs/transfer.json": "bba7f7987337f33442c4ad6bb64ee38e5f40e161273df4351167b63273a0e3aa",
+        "iter-1/EXECUTION_RECORD.json": "a903cde4b21fa6384e10c4f95f1f868706421a6fb9a9ab71b4c3f2003420776d"
+      },
+      "outputs_sha256": {
+        "enum_cases.json": "d5ee78db7e568cdfe1468d419dbed79ce5810116b6f3c6e5f36999089e6cfe7b",
+        "results.json": "27c4b8d27558b336bc5d4944226cba272ac1fbe1a5ad7a293c2cb9ee593d1417",
+        "transfer.json": "5af636f25c45ddcba72566d2efc2c0110f094bda84ad405385697ae13cacf717"
+      },
+      "checks": {
+        "E1": "PASS",
+        "E2": "PASS",
+        "E3": "PASS",
+        "E4": "PASS",
+        "E5": "PASS",
+        "E6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-3",
+      "iteration": 3,
+      "started_utc": "2026-10-25T20:34:45.441951+00:00",
+      "ended_utc": "2026-10-25T20:34:45.443184+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "420cdc64866e7dc1be1f5addb8422f5e07c6bf830a3baa4a0f06922b24fecda3",
+      "spec_after_sha256": "420cdc64866e7dc1be1f5addb8422f5e07c6bf830a3baa4a0f06922b24fecda3",
+      "inputs_sha256": {
+        "iter-2/outputs/transfer.json": "5af636f25c45ddcba72566d2efc2c0110f094bda84ad405385697ae13cacf717",
+        "iter-2/EXECUTION_RECORD.json": "137a689cc1409102eadbf29f5bcf0d16f3a6a76177b37298f13eb7984f2b62b3"
+      },
+      "outputs_sha256": {
+        "record_cases.json": "5c00f82b2df9700e40cd327bdf4df0ce3ce2ed27bcef17b451c86fd979ece5b9",
+        "results.json": "fff722f9e6ab2a923382b14836176a4f64af3910e3da609d0f33708c95f4a6c6",
+        "transfer.json": "1f9724e231398abace61312f51d1f85c411f76564352e1214508682f74112dd4"
+      },
+      "checks": {
+        "S1": "PASS",
+        "S2": "PASS",
+        "S3": "PASS",
+        "S4": "PASS",
+        "S5": "PASS",
+        "S6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-4",
+      "iteration": 4,
+      "started_utc": "2026-10-25T20:34:45.485801+00:00",
+      "ended_utc": "2026-10-25T20:34:45.494261+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": 12012,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "ec9dc39267a461604c83adb962807996217e09f779394ee0bdfe240b97b87d51",
+      "spec_after_sha256": "ec9dc39267a461604c83adb962807996217e09f779394ee0bdfe240b97b87d51",
+      "inputs_sha256": {
+        "iter-3/outputs/transfer.json": "1f9724e231398abace61312f51d1f85c411f76564352e1214508682f74112dd4",
+        "iter-3/EXECUTION_RECORD.json": "61b53e80594fd790de1b0d66dd4c81255ced1b4c1de40891deefc46c08624bbe"
+      },
+      "outputs_sha256": {
+        "negative_corpus.json": "5fc9777e25bb1e2f121879e7bd3401887dd3a39ccea1e430b83c3ce25b639d35",
+        "results.json": "26590cb07adf433eb934f27b2b741923ec0006b533dc411bc2a8b93870c4c724",
+        "transfer.json": "588fc2962ceb207cbc484bbdf1bef80e26b6a6f690b94460529ac6d5020267a5"
+      },
+      "checks": {
+        "F1": "PASS",
+        "F2": "PASS",
+        "F3": "PASS",
+        "F4": "PASS",
+        "F5": "PASS",
+        "F6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-5",
+      "iteration": 5,
+      "started_utc": "2026-10-25T20:34:45.535586+00:00",
+      "ended_utc": "2026-10-25T20:34:46.273336+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "511af30b5b049d5911c4e42b14d184632774f31e554ff27d17e5afc4d5d5c963",
+      "spec_after_sha256": "511af30b5b049d5911c4e42b14d184632774f31e554ff27d17e5afc4d5d5c963",
+      "inputs_sha256": {
+        "iter-4/outputs/transfer.json": "588fc2962ceb207cbc484bbdf1bef80e26b6a6f690b94460529ac6d5020267a5",
+        "iter-4/EXECUTION_RECORD.json": "af34d917c8623c492a99d7b3bcbd71f3fd2059236b18e9098f18cf68d4c3ecc2"
+      },
+      "outputs_sha256": {
+        "gate_boundary_cases.json": "bfd491c969e01fcefa659533f8c2f7a99132f2af457b7e3727e404a3fef22f77",
+        "gate_vectors.csv": "e3af92aeff9db0170919008126f36aa0de58c27b1574c183d22ed0d9fb0f0233",
+        "results.json": "e5a07c714f339e9dc6e892f572ff5de17996e269e8abfe8b1adb51f83767c748",
+        "transfer.json": "a985768c049603ca945dffc10fc023d217d690601580afe37446945e0471b2f8"
+      },
+      "checks": {
+        "G1": "PASS",
+        "G2": "PASS",
+        "G3": "PASS",
+        "G4": "PASS",
+        "G5": "PASS",
+        "G6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-6",
+      "iteration": 6,
+      "started_utc": "2026-10-25T20:34:46.338958+00:00",
+      "ended_utc": "2026-10-25T20:34:46.347521+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "764a0e499e0c2bb2ce41c9a0da900caf9466b8b4eea9f40c1cc7381681d9c1c6",
+      "spec_after_sha256": "764a0e499e0c2bb2ce41c9a0da900caf9466b8b4eea9f40c1cc7381681d9c1c6",
+      "inputs_sha256": {
+        "iter-5/outputs/transfer.json": "a985768c049603ca945dffc10fc023d217d690601580afe37446945e0471b2f8",
+        "iter-5/EXECUTION_RECORD.json": "dc637eb0846fae19ccdc669ee0ac545ee660732e3728d80b4decbfd89503a5da"
+      },
+      "outputs_sha256": {
+        "applicability_cases.csv": "52ea1255d16dd8e064a73d3c173cb77adcbbd6067512b70f38c65dc6965bcdf8",
+        "results.json": "2b928f40c23744b5cbc3bc1f4b9e8d6d4aaf02f4c784829d6adb6bb535b08c9c",
+        "transfer.json": "0423bbdbaa89687b83dcf95ad00a8b0f8caac56e61e0e63815d8f7a71f2de4eb"
+      },
+      "checks": {
+        "A1": "FAIL",
+        "A2": "PASS",
+        "A3": "PASS",
+        "A4": "PASS",
+        "A5": "PASS",
+        "A6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-7",
+      "iteration": 7,
+      "started_utc": "2026-10-25T20:34:46.390325+00:00",
+      "ended_utc": "2026-10-25T20:34:46.391380+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "342110b4bbb9f5e2d6a1ef74ef61ecb7e758829e96d406ff6ba9db63da90acba",
+      "spec_after_sha256": "342110b4bbb9f5e2d6a1ef74ef61ecb7e758829e96d406ff6ba9db63da90acba",
+      "inputs_sha256": {
+        "iter-6/outputs/transfer.json": "0423bbdbaa89687b83dcf95ad00a8b0f8caac56e61e0e63815d8f7a71f2de4eb",
+        "iter-6/EXECUTION_RECORD.json": "4f06b8b0f528be4a5754cbfe62490d59235298a115fce92a877edd4ea37d4d5e"
+      },
+      "outputs_sha256": {
+        "results.json": "bab0805ff57e2ca7ec5614d89f7fc3abaea2a4e0d01c13998db5218e4df0c14c",
+        "support_cases.csv": "c5fa5503ed21163512174ea9ed12842664769f2910d7e4918515a80f68a45e28",
+        "transfer.json": "e0c0bd60df407bfea64168bc934a6d631d1fd24217ef5961026c5a77f32ad3ba"
+      },
+      "checks": {
+        "P1": "PASS",
+        "P2": "PASS",
+        "P3": "PASS",
+        "P4": "PASS",
+        "P5": "PASS",
+        "P6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-8",
+      "iteration": 8,
+      "started_utc": "2026-10-25T20:34:46.432375+00:00",
+      "ended_utc": "2026-10-25T20:34:46.435244+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "bed96e23bb13b2d213333b9cb88a50a7c19826308161b7469dcb1e2e28127803",
+      "spec_after_sha256": "bed96e23bb13b2d213333b9cb88a50a7c19826308161b7469dcb1e2e28127803",
+      "inputs_sha256": {
+        "iter-7/outputs/transfer.json": "e0c0bd60df407bfea64168bc934a6d631d1fd24217ef5961026c5a77f32ad3ba",
+        "iter-7/EXECUTION_RECORD.json": "d1576823d0a8309785860818f486a9068fe13eeccbca5c92590bd80e45ebc24d"
+      },
+      "outputs_sha256": {
+        "hidden_conflict_witness.json": "7718b7fa6a3db9ce0bf6d6f83be077d3fa8301b458ff98434a7bbeb6b595eac5",
+        "results.json": "a8902409ea419b1c1e18c72439980891cbac158f81ba90fa2ce9eaa7d0bf3b46",
+        "review_cases.csv": "9f4c98be40cbd1dd04ceac6dc3f9a6e36a2b3a09f0a31318412b2a51f75b87af",
+        "transfer.json": "4bbae6b2e20f9a6e123b8bbba5c27fdbe9db694a9f3d573137c20bf68b8fd628"
+      },
+      "checks": {
+        "R1": "PASS",
+        "R2": "PASS",
+        "R3": "PASS",
+        "R4": "PASS",
+        "R5": "PASS",
+        "R6": "PASS"
+      },
+      "hypotheses": {
+        "H8": {
+          "statement": "Syntax-correct positive metadata proves genuine independence",
+          "result": "NOT SUPPORTED",
+          "hidden_conflict_passes": 1
+        }
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-9",
+      "iteration": 9,
+      "started_utc": "2026-10-25T20:34:46.476112+00:00",
+      "ended_utc": "2026-10-25T20:34:46.502207+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "53025c0081d55698bde0cdbe9451e2b498a60c20584d8d8b5e7f09f97b871630",
+      "spec_after_sha256": "53025c0081d55698bde0cdbe9451e2b498a60c20584d8d8b5e7f09f97b871630",
+      "inputs_sha256": {
+        "iter-8/outputs/transfer.json": "4bbae6b2e20f9a6e123b8bbba5c27fdbe9db694a9f3d573137c20bf68b8fd628",
+        "iter-8/EXECUTION_RECORD.json": "26633a33b18adf297d5bbd083002df176ae3781df0004022445584b0b3297151"
+      },
+      "outputs_sha256": {
+        "grant_chain_cases.csv": "294063e2b71e15a7759c5973cb400323cdf1a7f0c5fb5753c4796d621d1c02f9",
+        "results.json": "91892863ae291a446dccab186b1419e1e3807ade33ccbe2d47091cfca5c6acbb",
+        "transfer.json": "85b2512b32c80f10647b4d143ab8ecb4784e502720e34a5ad974c8028f888b17"
+      },
+      "checks": {
+        "D1": "PASS",
+        "D2": "PASS",
+        "D3": "PASS",
+        "D4": "PASS",
+        "D5": "PASS",
+        "D6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-10",
+      "iteration": 10,
+      "started_utc": "2026-10-25T20:34:46.545254+00:00",
+      "ended_utc": "2026-10-25T20:34:46.568654+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "81dc838e5cce7dd7e07c28cf14cce134130ee857895cdb2a001fc470bba1698f",
+      "spec_after_sha256": "81dc838e5cce7dd7e07c28cf14cce134130ee857895cdb2a001fc470bba1698f",
+      "inputs_sha256": {
+        "iter-9/outputs/transfer.json": "85b2512b32c80f10647b4d143ab8ecb4784e502720e34a5ad974c8028f888b17",
+        "iter-9/EXECUTION_RECORD.json": "c2eb92e788c669a817f3b533513af3341eb74c491182d8daeaf69c652dd7a73b"
+      },
+      "outputs_sha256": {
+        "freshness_cases.csv": "e546e4cba8acf3e68fedd9d9e6d066243dc3e48032c42ec264b4544656eecc0a",
+        "nonce_traces.csv": "b08f68e2a245d1c6a9321c012ad73b0f573a0bd0880760887aeee3e9dab82b99",
+        "results.json": "0dafa3778ec80ed3056561585b28a21cb8b0f1501d971b9217d0933d7cbad3b5",
+        "transfer.json": "4b830b804ecb05cd0f22758ad15e0943acc2655bffee49b59d4fe3802b6fb2be"
+      },
+      "checks": {
+        "T1": "PASS",
+        "T2": "PASS",
+        "T3": "PASS",
+        "T4": "PASS",
+        "T5": "PASS",
+        "T6": "PASS"
+      },
+      "hypotheses": {
+        "H10": {
+          "statement": "Local lease validity eliminates all globally revoked access",
+          "result": "NOT SUPPORTED",
+          "counterexample_grid_entries": 246
+        }
+      },
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-11",
+      "iteration": 11,
+      "started_utc": "2026-10-25T20:34:46.612906+00:00",
+      "ended_utc": "2026-10-25T20:34:46.614319+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "80d3df8a5dc853e93d0e137d406fb7ae73790309af8eab1694f89c818158c5fe",
+      "spec_after_sha256": "80d3df8a5dc853e93d0e137d406fb7ae73790309af8eab1694f89c818158c5fe",
+      "inputs_sha256": {
+        "iter-10/outputs/transfer.json": "4b830b804ecb05cd0f22758ad15e0943acc2655bffee49b59d4fe3802b6fb2be",
+        "iter-10/EXECUTION_RECORD.json": "07e424e50e02cf7820fb1e31e099638faa4398054ad79ba49148268ddd1d5927"
+      },
+      "outputs_sha256": {
+        "remedy_cases.csv": "b67a49dc9f7cef5beb4ca51def92c82f9814e40134c21e088d70746f08b7cd5b",
+        "results.json": "5df8b14afc99466b636e27b209d48137918380a298123469c7650f52ea686400",
+        "transfer.json": "55dffa1a63926eb2c48c932aa1e4aa72a62de43063cf12cc5c70b83f500b3bdb"
+      },
+      "checks": {
+        "M1": "PASS",
+        "M2": "PASS",
+        "M3": "PASS",
+        "M4": "PASS",
+        "M5": "PASS",
+        "M6": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    },
+    {
+      "id": "TOG1-X12-RUN-12",
+      "iteration": 12,
+      "started_utc": "2026-10-25T20:34:46.655800+00:00",
+      "ended_utc": "2026-10-25T20:34:46.843999+00:00",
+      "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+      "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+      "deterministic": true,
+      "seed": null,
+      "runner_sha256": "bef5608e1c517e021586e5192f2073c4f11b096b7400649724d5fab11021d598",
+      "implementation_sha256": {
+        "legacy_reconstruction.py": "3a9e6f409ffe7c6714b6161e9cf7457c417b9daf4bc9dc45160c8bd68dc307b6",
+        "assessor_candidate_v0_2.py": "c611856188f88fe3c6f397e5e6a7a2d055e0fa4709620a58dfb58059f20c4d9b"
+      },
+      "spec_before_sha256": "2b0e40b980b99875364dfa4e41d6818405348a1bbf20136d40a02857ea5c47c5",
+      "spec_after_sha256": "2b0e40b980b99875364dfa4e41d6818405348a1bbf20136d40a02857ea5c47c5",
+      "inputs_sha256": {
+        "iter-11/outputs/transfer.json": "55dffa1a63926eb2c48c932aa1e4aa72a62de43063cf12cc5c70b83f500b3bdb",
+        "iter-11/EXECUTION_RECORD.json": "9ed710cb799499eea59da389d9e42daeb3c6c0845bedaf574d10c7725af0ae95",
+        "iter-1/outputs/results.json": "24b713c0617439380e65b9e532279445ba73c30013a081a251c074e648caa79f",
+        "iter-2/outputs/results.json": "27c4b8d27558b336bc5d4944226cba272ac1fbe1a5ad7a293c2cb9ee593d1417",
+        "iter-4/outputs/results.json": "26590cb07adf433eb934f27b2b741923ec0006b533dc411bc2a8b93870c4c724",
+        "iter-8/outputs/results.json": "a8902409ea419b1c1e18c72439980891cbac158f81ba90fa2ce9eaa7d0bf3b46",
+        "iter-10/outputs/results.json": "0dafa3778ec80ed3056561585b28a21cb8b0f1501d971b9217d0933d7cbad3b5"
+      },
+      "outputs_sha256": {
+        "integration_boundaries.json": "ff3a92d4198e36a96185ea25e02333e743f548b87848576480659b12025250ef",
+        "integration_vectors.csv": "0a64a67236b5c5d281c76b29f1717f0616801b8e2674d4ebfc3eb35bdd1b4e3e",
+        "mutant_counterexamples.json": "6d73b5405e8d7a19095a3f6f4ba303be4d6c8122581f043beed7f51232909042",
+        "results.json": "54154a62cf7093c3c5883b1781fcc4fa6065bdc3a3527b2833761549ad35d016",
+        "transfer.json": "676324fdfa132e5fa0f8d6958799930dc2cc08a8fc3efd87d2634412e9d7c297"
+      },
+      "checks": {
+        "I1": "PASS",
+        "I2": "PASS",
+        "I3": "PASS",
+        "I4": "PASS",
+        "I5": "PASS",
+        "I6": "PASS",
+        "I7": "PASS",
+        "I8": "PASS"
+      },
+      "hypotheses": {},
+      "independent_review": false,
+      "overall_gate": "INDETERMINATE",
+      "actual_external_actions": 0
+    }
+  ],
+  "reproduction_summary": [
+    {
+      "iteration": 1,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "legacy_cases.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:45.338909+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:39.002114+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 2,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "enum_cases.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:45.396018+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:39.049876+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 3,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "record_cases.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:45.441951+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:39.093500+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 4,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "negative_corpus.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:45.485801+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:39.139777+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 5,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "gate_boundary_cases.json": true,
+        "gate_vectors.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:45.535586+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:39.191655+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 6,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "applicability_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.338958+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:39.990621+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 7,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "results.json": true,
+        "support_cases.csv": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.390325+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:40.082421+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 8,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "hidden_conflict_witness.json": true,
+        "results.json": true,
+        "review_cases.csv": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.432375+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:40.128748+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 9,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "grant_chain_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.476112+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:40.175171+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 10,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "freshness_cases.csv": true,
+        "nonce_traces.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.545254+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:40.249228+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 11,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "remedy_cases.csv": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.612906+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:40.316347+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    },
+    {
+      "iteration": 12,
+      "same_author": true,
+      "independent": false,
+      "output_hash_matches": {
+        "integration_boundaries.json": true,
+        "integration_vectors.csv": true,
+        "mutant_counterexamples.json": true,
+        "results.json": true,
+        "transfer.json": true
+      },
+      "all_outputs_identical": true,
+      "record_bytes_identical": false,
+      "original_started_utc": "2026-10-25T20:34:46.655800+00:00",
+      "repeat_started_utc": "2026-10-25T20:35:40.362446+00:00",
+      "note": "Payloads compared;timestamps/predecessor-record digests differ."
+    }
+  ],
+  "scoped_gates": {
+    "id": "TOG1-X12-PROPOSED-GATE",
+    "recorded_utc": "2026-10-25T20:42:41.719099+00:00",
+    "scope": "Localresearch-output assurance,not projectconstitutionalcompliance",
+    "proposed_decision": "INDETERMINATE",
+    "authority": "KyleAlexanderSteen",
+    "recorded_by": "Perplexity(agent)",
+    "owner_disposition": "NOT RECORDED",
+    "independent_review": "NONE",
+    "ethics_review": "NONE",
+    "authorization": "NONE",
+    "separate_known_scopes": {
+      "legacy_reconstructed_verification_label_criterion": "FAIL",
+      "candidate_known_boundary_criterion": "PASS within specifiedtests only",
+      "predeclared_specification_count_conformance": "FAIL atRUN6A1",
+      "canonical_corpus_integration": "NOT COMPLETE"
+    },
+    "evidence": [
+      "research/PASS_REGISTER.csv",
+      "claims/CLAIMS_X12.csv",
+      "simulation/",
+      "Verification/",
+      "Provenance/"
+    ],
+    "open_issues": [
+      "Independent content/rights review",
+      "Ethics review",
+      "R/RL scale reconciliation",
+      "Non-waivable/emergency authority",
+      "Authorized source archives",
+      "Independent reproduction",
+      "Canonical all-work integration",
+      "Legal applicability/bases",
+      "Affected/community participation",
+      "Operational effectiveness",
+      "GitHub/WorkQueue disposition",
+      "Unseen source portions",
+      "Retention/privacy/correction",
+      "Original prior artifacts",
+      "Attestation truth",
+      "Unbounded lifecycle correctness",
+      "Actual audit benefit",
+      "Applicability rationale quality",
+      "Derivation semanticvalidity",
+      "Undisclosed conflicts",
+      "Issuer/grant authenticity",
+      "Distributed atomicity/clocks",
+      "Remedy/legal scope",
+      "Record verificationquality",
+      "Hidden reviewfacts",
+      "Lease/offline burden",
+      "Clock/deliverybounds",
+      "Ancestorrevocation knowledge",
+      "Atomic/replay implementation",
+      "Actual grievanceoutcome",
+      "End-to-end composition",
+      "Verification enum/type defect",
+      "Predeclared applicability casecount"
+    ]
+  },
+  "known_failure": {
+    "iteration": 6,
+    "check": "A1",
+    "specified": 5346,
+    "factor_product": 1782,
+    "original_fail_preserved": true
+  },
+  "negative_probes": {
+    "H8": {
+      "statement": "Syntax-correct positive metadata proves genuine independence",
+      "result": "NOT SUPPORTED",
+      "hidden_conflict_passes": 1
+    },
+    "H10": {
+      "statement": "Local lease validity eliminates all globally revoked access",
+      "result": "NOT SUPPORTED",
+      "counterexample_grid_entries": 246
+    }
+  },
+  "auxiliary_direct_function_probes": {
+    "candidate_nul_line": [
+      "        elif '\\x00' in record[name]:"
+    ],
+    "actual_nul_decision": [
+      "FAIL",
+      [
+        "rationale:nul"
+      ]
+    ],
+    "literal_escape_decision": [
+      "PASS",
+      []
+    ],
+    "spec_case_product": 1782,
+    "declared_spec_case_count": 5346
+  },
+  "open_questions": [
+    {
+      "id": "B01",
+      "question": "Independent content/rights review",
+      "state": "NONE",
+      "needed_evidence": "Qualified independent findings",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B02",
+      "question": "Ethics review",
+      "state": "NONE",
+      "needed_evidence": "Appropriate independent rights/ethics review",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B03",
+      "question": "R/RL scale reconciliation",
+      "state": "UNRESOLVED",
+      "needed_evidence": "Explicit scoped owner decision",
+      "responsible_role": "Owner;ToG4;PC2"
+    },
+    {
+      "id": "B04",
+      "question": "Non-waivable/emergency authority",
+      "state": "UNRESOLVED",
+      "needed_evidence": "Qualified bounded owner decisions and appeals",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B05",
+      "question": "Authorized source archives",
+      "state": "PARTIAL",
+      "needed_evidence": "Actual versions/access logs and needed unreadportions",
+      "responsible_role": "Information steward"
+    },
+    {
+      "id": "B06",
+      "question": "Independent reproduction",
+      "state": "NOT PERFORMED",
+      "needed_evidence": "Different qualified actor replays artifacts",
+      "responsible_role": "Independent reviewer"
+    },
+    {
+      "id": "B07",
+      "question": "Canonical all-work integration",
+      "state": "NOT PERFORMED",
+      "needed_evidence": "Prior ledgers,generators,IDs,schemas and approved regeneration",
+      "responsible_role": "Owner-approved integrator"
+    },
+    {
+      "id": "B08",
+      "question": "Legal applicability/bases",
+      "state": "NOT DETERMINED",
+      "needed_evidence": "Jurisdiction/use-specific qualified assessment",
+      "responsible_role": "Counsel"
+    },
+    {
+      "id": "B09",
+      "question": "Affected/community participation",
+      "state": "NOT CONSULTED",
+      "needed_evidence": "Appropriate rights/cultural participation",
+      "responsible_role": "Owner;representatives"
+    },
+    {
+      "id": "B10",
+      "question": "Operational effectiveness",
+      "state": "NOT ASSESSED",
+      "needed_evidence": "Ethical field/operational outcome evaluation",
+      "responsible_role": "Qualified evaluator"
+    },
+    {
+      "id": "B11",
+      "question": "GitHub/WorkQueue disposition",
+      "state": "NOT WRITTEN",
+      "needed_evidence": "Exact branch/path/contentapproval;no whole-seriescheckoff",
+      "responsible_role": "Owner"
+    },
+    {
+      "id": "B12",
+      "question": "Unseen source portions",
+      "state": "PARTIAL",
+      "needed_evidence": "Needed normative/control portions and underlying studies",
+      "responsible_role": "Researcher"
+    },
+    {
+      "id": "B13",
+      "question": "Retention/privacy/correction",
+      "state": "UNRESOLVED",
+      "needed_evidence": "Minimization,purpose,authority and correction procedures",
+      "responsible_role": "Privacy/cultural reviewers"
+    },
+    {
+      "id": "X301",
+      "question": "Original prior artifacts",
+      "state": "UNAVAILABLE",
+      "needed_evidence": "Recover45/41/54/71rowpackages/capsules andverifyhashes",
+      "responsible_role": "Owner;researcher"
+    },
+    {
+      "id": "X302",
+      "question": "Attestation truth",
+      "state": "ASSUMED",
+      "needed_evidence": "Authenticity,entailment and actual qualification grounds",
+      "responsible_role": "Qualified reviewer"
+    },
+    {
+      "id": "X303",
+      "question": "Unbounded lifecycle correctness",
+      "state": "UNPROVEN",
+      "needed_evidence": "Beyond boundedhorizons;authorized operational tests",
+      "responsible_role": "Independent verifier"
+    },
+    {
+      "id": "X304",
+      "question": "Actual audit benefit",
+      "state": "UNTESTED",
+      "needed_evidence": "Errors/harms/burden/outcome study",
+      "responsible_role": "Qualified evaluator"
+    },
+    {
+      "id": "X601",
+      "question": "Applicability rationale quality",
+      "state": "PARTIALLY ADDRESSED",
+      "needed_evidence": "Typedfields/columns tested;actual soundness unresolved",
+      "responsible_role": "Owner;reviewers"
+    },
+    {
+      "id": "X602",
+      "question": "Derivation semanticvalidity",
+      "state": "NOT VERIFIED",
+      "needed_evidence": "Actual support and relevantnorms",
+      "responsible_role": "Domain reviewer"
+    },
+    {
+      "id": "X603",
+      "question": "Undisclosed conflicts",
+      "state": "LIMITATION DEMONSTRATED",
+      "needed_evidence": "H8negativewitness,not realinvestigation",
+      "responsible_role": "Independent reviewer"
+    },
+    {
+      "id": "X604",
+      "question": "Issuer/grant authenticity",
+      "state": "ASSUMED",
+      "needed_evidence": "Credential/basis/implementation assessment",
+      "responsible_role": "Security/legal reviewer"
+    },
+    {
+      "id": "X605",
+      "question": "Distributed atomicity/clocks",
+      "state": "NOT TESTED OPERATIONALLY",
+      "needed_evidence": "Actual network/storage/clock evidence",
+      "responsible_role": "Authorized engineer"
+    },
+    {
+      "id": "X606",
+      "question": "Remedy/legal scope",
+      "state": "NOT ASSESSED",
+      "needed_evidence": "Actual participation/redress/legal context",
+      "responsible_role": "Rights/legal reviewer"
+    },
+    {
+      "id": "X901",
+      "question": "Record verificationquality",
+      "state": "NOT ESTABLISHED",
+      "needed_evidence": "Beyond syntactic/types/enum checks",
+      "responsible_role": "Qualified reviewer"
+    },
+    {
+      "id": "X902",
+      "question": "Hidden reviewfacts",
+      "state": "LIMITATION DEMONSTRATED",
+      "needed_evidence": "Do not infer clearance from nondisclosure",
+      "responsible_role": "Independent reviewer"
+    },
+    {
+      "id": "X903",
+      "question": "Lease/offline burden",
+      "state": "LIMITATION DEMONSTRATED",
+      "needed_evidence": "Contextual residual-risk/availability decision",
+      "responsible_role": "Owner;reviewers"
+    },
+    {
+      "id": "X904",
+      "question": "Clock/deliverybounds",
+      "state": "ASSUMED",
+      "needed_evidence": "Measure and enforce actualbounds",
+      "responsible_role": "Authorized engineer"
+    },
+    {
+      "id": "X905",
+      "question": "Ancestorrevocation knowledge",
+      "state": "ASSUMED WHEN VISIBILITY PASS",
+      "needed_evidence": "Observation/evidence freshness acrosschain",
+      "responsible_role": "Security reviewer"
+    },
+    {
+      "id": "X906",
+      "question": "Atomic/replay implementation",
+      "state": "NOT IMPLEMENTED",
+      "needed_evidence": "Storage/CAS/nonce/liveness evidence",
+      "responsible_role": "Authorized engineer"
+    },
+    {
+      "id": "X907",
+      "question": "Actual grievanceoutcome",
+      "state": "NOT EVALUATED",
+      "needed_evidence": "Affectedpartyfeedback and verifiedremedy",
+      "responsible_role": "Rights/affected reviewers"
+    },
+    {
+      "id": "X908",
+      "question": "End-to-end composition",
+      "state": "UNPROVEN",
+      "needed_evidence": "Independent assurance ofrealcomposition",
+      "responsible_role": "Independent reviewer"
+    },
+    {
+      "id": "X909",
+      "question": "Verification enum/type defect",
+      "state": "SCOPED CORRECTION TESTED",
+      "needed_evidence": "Candidate0.2.0knownboundaryPASS;legacyFAILpreserved;generalproductionreview pending",
+      "responsible_role": "Tooling author/independent reviewer"
+    },
+    {
+      "id": "X1201",
+      "question": "Predeclared applicability casecount",
+      "state": "FAIL",
+      "needed_evidence": "Originalexpected5346versus1782factorproduct;futureapprovedtraceable correction,notretroactivePASS",
+      "responsible_role": "Owner;method reviewer"
+    }
+  ],
+  "self_review_findings": [
+    {
+      "id": "F01",
+      "scope": "Iteration6A1specification cardinality",
+      "state": "FAIL",
+      "finding": "Declared5346versuslistedfactorproduct/actual1782;full listedcartesian product executed.",
+      "disposition": "Retain originalFAIL;futureapprovedcorrection version,not post-runchange"
+    },
+    {
+      "id": "F02",
+      "scope": "Legacy reconstructed external-input criterion",
+      "state": "FAIL",
+      "finding": "Threehistorical invalidverificationinputs returnPASS.",
+      "disposition": "Preserved separate reconstruction;not substitute candidate intooldrecords"
+    },
+    {
+      "id": "P03",
+      "scope": "Candidate known enum/type boundary",
+      "state": "PASS,bounded",
+      "finding": "24values,63recordfixtures,839seededcorpus plusaggregate/integrationboundaries block invalidPASS withnoexceptions.",
+      "disposition": "Knownregressionaddressed only;no generalproductionapproval"
+    },
+    {
+      "id": "L04",
+      "scope": "Attestation truth/reviewer independence",
+      "state": "LIMITATION DEMONSTRATED",
+      "finding": "H8NOTSUPPORTED;typeguarddoesnot reveal latentconflicts.",
+      "disposition": "Genuinequalified review/ethics evidence needed"
+    },
+    {
+      "id": "L05",
+      "scope": "Freshness/atomicity",
+      "state": "LIMITATION DEMONSTRATED",
+      "finding": "H10NOTSUPPORTED;freshqueryoracle/localatomicstep assumptions andhorizonlimits persist.",
+      "disposition": "No distributeddeploymentguarantee"
+    },
+    {
+      "id": "L06",
+      "scope": "Predicate/provenance narrowness",
+      "state": "LIMITATION",
+      "finding": "Stage7rootunchanged byconstruction;intermediateH8defaultnot independentverification;finalstagehash-reads actualstage8result.",
+      "disposition": "Do not inflate predicatecoverage/provenance claims"
+    },
+    {
+      "id": "L07",
+      "scope": "Sources/continuity/integration",
+      "state": "INDETERMINATE",
+      "finding": "Partial/inheritedsources,missingpriorbytes andcanonicalallworkintegration.",
+      "disposition": "Recover/read/approve/integrate explicitly"
+    },
+    {
+      "id": "L08",
+      "scope": "Independent/outcome assurance",
+      "state": "INDETERMINATE",
+      "finding": "Sameauthororacles/reproduction,no affectedpartyoutcomes,revieworownerdisposition.",
+      "disposition": "No adoption,deployment,realremedy orindependentapproval claim"
+    }
+  ],
+  "closure_register": [
+    {
+      "item": "x9enum/type defect",
+      "legacy_scope": "FAIL,conversational reconstruction",
+      "x12_candidate_scope": "PASS on specified24boundary/63record/839corpus andaggregatefixtures",
+      "broader_status": "INDETERMINATE,not productionauthorization",
+      "evidence": "RUN1\u20135,RUN12"
+    },
+    {
+      "item": "x12specification cardinality",
+      "legacy_scope": "Notapplicable",
+      "x12_candidate_scope": "FAIL A1:declared5346;factorproduct1782",
+      "broader_status": "Futureapprovedcorrectionpending;do notrethreshold",
+      "evidence": "RUN6;CARDINALITY_FINDING.md"
+    },
+    {
+      "item": "Reviewertruth/hidden conflicts",
+      "legacy_scope": "x9negativefinding",
+      "x12_candidate_scope": "H8NOTSUPPORTEDagain",
+      "broader_status": "Actual reviewer/ethicsreviewNONE",
+      "evidence": "RUN8"
+    },
+    {
+      "item": "Lease/global freshness",
+      "legacy_scope": "x9negativefinding",
+      "x12_candidate_scope": "H10NOTSUPPORTEDagain",
+      "broader_status": "Actual visibility/clock/network evidenceNONE",
+      "evidence": "RUN10"
+    },
+    {
+      "item": "Actual remedy",
+      "legacy_scope": "Process/outcome distinction",
+      "x12_candidate_scope": "Selectedfinitevectors only",
+      "broader_status": "Actualconsultation/redressNONE",
+      "evidence": "RUN11"
+    },
+    {
+      "item": "Priorarchives/globalmaps",
+      "legacy_scope": "Priorbytesmissing/integrationopen",
+      "x12_candidate_scope": "Localmaps/capsule only",
+      "broader_status": "NOTCOMPLETE",
+      "evidence": "CONTINUITY.json;INTEGRATION_STATUS.md"
+    }
+  ],
+  "report_sha256": "babc4f6c053e75b128329600eced873134e6911339e588b3a2699c128299b95f",
+  "archive_hash_note": "Not embedded becausearchivecontainscapsule;useexternaldigestforarchiveverification."
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "fixture": [
+      "REVOKE"
+    ],
+    "mutant": "PASS",
+    "correct": "FAIL"
+  },
+  {
+    "fixture": [
+      "EXPIRE",
+      "REVIEW"
+    ],
+    "mutant": "PASS",
+    "correct": "INDETERMINATE"
+  }
+]

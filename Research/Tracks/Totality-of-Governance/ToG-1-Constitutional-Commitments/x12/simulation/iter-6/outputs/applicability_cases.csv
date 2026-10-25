@@ -1,0 +1,1783 @@
+clause,disposition,verification,rationale_kind,version_match,control,record_state,rationale,authority,decision
+4.1,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.1,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.1,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.1,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.1,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.1,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.1,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.1,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.1,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.1,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.1,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.1,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.1,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.1,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.1,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.1,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.1,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.1,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.1,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.1,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.1,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.1,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.2,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.2,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.2,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.2,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.2,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.2,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.2,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.2,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.2,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.2,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.2,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.2,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.2,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.2,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.2,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.2,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.2,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.2,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.2,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.2,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.2,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.2,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.2,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.3,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.3,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.3,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.3,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.3,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.3,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.3,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.3,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.3,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.3,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.3,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.3,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.3,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.3,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.3,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.3,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.3,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.3,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.3,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.3,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.3,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.3,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.3,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.4,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.4,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.4,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.4,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.4,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.4,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.4,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.4,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.4,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.4,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.4,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.4,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.4,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.4,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.4,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.4,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.4,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.4,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.4,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.4,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.4,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.4,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.4,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.5,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.5,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.5,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.5,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.5,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.5,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.5,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.5,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.5,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.5,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.5,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.5,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.5,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.5,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.5,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.5,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.5,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.5,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.5,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.5,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.5,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.5,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.5,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.6,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.6,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.6,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.6,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.6,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.6,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.6,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.6,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.6,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.6,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.6,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.6,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.6,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.6,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.6,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.6,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.6,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.6,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.6,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.6,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.6,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.6,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.6,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.7,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.7,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.7,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.7,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.7,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.7,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.7,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.7,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.7,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.7,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.7,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.7,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.7,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.7,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.7,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.7,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.7,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.7,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.7,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.7,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.7,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.7,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.7,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.8,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.8,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.8,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.8,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.8,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.8,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.8,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.8,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.8,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.8,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.8,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.8,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.8,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.8,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.8,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.8,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.8,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.8,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.8,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.8,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.8,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.8,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.8,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.9,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.9,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.9,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.9,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.9,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.9,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.9,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.9,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.9,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.9,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.9,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.9,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.9,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.9,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.9,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.9,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.9,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.9,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.9,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.9,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.9,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.9,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.9,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.10,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.10,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.10,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.10,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.10,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.10,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.10,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.10,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.10,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.10,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.10,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.10,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.10,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.10,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.10,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.10,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.10,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.10,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.10,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.10,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.10,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.10,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.10,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,applicable,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,PASS
+4.11,applicable,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,applicable,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,applicable,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,applicable,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,applicable,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,applicable,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,applicable,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,applicable,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,applicable,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.11,applicable,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.11,applicable,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.11,applicable,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.11,applicable,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.11,applicable,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.11,applicable,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,applicable,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,applicable,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,applicable,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,applicable,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,applicable,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,applicable,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,applicable,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,NA,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,NA,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,NA,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,NA,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,NA,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,NA,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,NA,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,NA,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,NA,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,NA,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,NA,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.11,NA,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.11,NA,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.11,NA,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.11,NA,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.11,NA,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.11,NA,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,NA,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,NA,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,NA,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,NA,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,NA,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,NA,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,NA,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,unknown,PASS,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,PASS,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,valid,True,PASS,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,valid,True,FAIL,PASS,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,PASS,valid,True,INDETERMINATE,PASS,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,unknown,PASS,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,unknown,PASS,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,PASS,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,unknown,PASS,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,unknown,PASS,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,unknown,PASS,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,unknown,PASS,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,unknown,PASS,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,unknown,FAIL,valid,False,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,FAIL,valid,False,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,FAIL,valid,False,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,FAIL,valid,True,PASS,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,FAIL,valid,True,FAIL,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,FAIL,valid,True,INDETERMINATE,FAIL,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,FAIL,missing,False,PASS,FAIL,,fictional-owner,FAIL
+4.11,unknown,FAIL,missing,False,FAIL,FAIL,,fictional-owner,FAIL
+4.11,unknown,FAIL,missing,False,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.11,unknown,FAIL,missing,True,PASS,FAIL,,fictional-owner,FAIL
+4.11,unknown,FAIL,missing,True,FAIL,FAIL,,fictional-owner,FAIL
+4.11,unknown,FAIL,missing,True,INDETERMINATE,FAIL,,fictional-owner,FAIL
+4.11,unknown,FAIL,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,unknown,FAIL,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,unknown,FAIL,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,unknown,FAIL,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,unknown,FAIL,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,unknown,FAIL,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,valid,False,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,False,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,valid,False,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,True,PASS,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,True,FAIL,INDETERMINATE,Synthetic scope rationale,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,valid,True,INDETERMINATE,INDETERMINATE,Synthetic scope rationale,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,False,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,False,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,missing,False,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,True,PASS,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,True,FAIL,INDETERMINATE,,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,missing,True,INDETERMINATE,INDETERMINATE,,fictional-owner,INDETERMINATE
+4.11,unknown,INDETERMINATE,wrongtype,False,PASS,FAIL,True,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,wrongtype,False,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,wrongtype,False,INDETERMINATE,FAIL,True,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,wrongtype,True,PASS,FAIL,True,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,wrongtype,True,FAIL,FAIL,True,fictional-owner,FAIL
+4.11,unknown,INDETERMINATE,wrongtype,True,INDETERMINATE,FAIL,True,fictional-owner,FAIL

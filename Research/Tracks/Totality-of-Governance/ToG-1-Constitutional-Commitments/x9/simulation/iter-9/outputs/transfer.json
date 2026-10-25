@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 9,
+  "overall_research_gate": "INDETERMINATE",
+  "independent_review": "NONE",
+  "ethics_review": "NONE",
+  "owner_decision": "NOT RECORDED",
+  "actual_remedy": "NONE",
+  "hypothesis_findings": {
+    "H4": "NOT SUPPORTED",
+    "H6": "NOT SUPPORTED"
+  }
+}

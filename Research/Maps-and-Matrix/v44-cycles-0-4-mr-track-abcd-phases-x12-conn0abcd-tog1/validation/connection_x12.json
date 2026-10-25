@@ -1,0 +1,258 @@
+{
+ "checks": [
+  {
+   "hypothesis": "Every source listed as read in full exists (hashes recorded)",
+   "id": "C12-1",
+   "metric": "missing_inputs",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every basis ID resolves (SSSC Cycles A-D, phases, main reports, links, factors, sources)",
+   "id": "C12-2",
+   "metric": "dangling_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source ID resolves to an existing register entry (no invented sources)",
+   "id": "C12-3",
+   "metric": "unresolved_sources",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source a claim lists is cited by one of its basis items",
+   "id": "C12-4",
+   "metric": "sources_not_in_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No claim or link is labelled above its weakest ranked basis",
+   "id": "C12-5",
+   "metric": "label_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every owner claim is marked as the owner's, labelled H or PS, and quotes the Work Queue verbatim",
+   "id": "C12-6",
+   "metric": "owner_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every census claim states the value the tool computes",
+   "id": "C12-7",
+   "metric": "census_claim_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Judgment rows are well-formed (incl. factor bases from the topic's own ledger or main report, audit verdicts)",
+   "id": "C12-8",
+   "metric": "problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every non-census, non-owner, non-framing claim has an anchor phrase found verbatim in a basis item",
+   "id": "C12-9",
+   "metric": "anchor_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No source ID means different sources in the main and track registers",
+   "id": "C12-10",
+   "metric": "source_id_conflicts",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No tradition claim is labelled Plausible or Hypothetical, and every Established one is marked descriptive",
+   "id": "C12-11",
+   "metric": "tradition_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every claim and link of the previous cycle has a review verdict",
+   "id": "C12-12",
+   "metric": "review_missing",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every review verdict matches the change made (keep unchanged, revise same label, downgrade lower label, withdraw absent; new items marked new)",
+   "id": "C12-13",
+   "metric": "review_inconsistencies",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every tradition claim (framing aside) cites a source other than the owner's framework",
+   "id": "C12-14",
+   "metric": "tradition_claims_without_source",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No Established claim or link has a basis item below Established (Report 7's strict rule)",
+   "id": "C12-15",
+   "metric": "strict_e_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No Established claim or link rests on a PS or H basis or on the framing source (Report 7's separability test)",
+   "id": "C12-16",
+   "metric": "gaia_separability_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every main-report link among Reports 2-5 is carried by a non-census claim or link",
+   "id": "C12-17",
+   "metric": "main_links_not_used_substantive",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  },
+  {
+   "hypothesis": "Every claim and link ID appears in CONNECTION.md",
+   "id": "C12-18",
+   "metric": "document_missing_ids",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "CONNECTION.md names no claim or link ID that is not in the judgments",
+   "id": "C12-19",
+   "metric": "document_unknown_ids",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "CONNECTION.md's label totals and register rows match the judgments",
+   "id": "C12-20",
+   "metric": "document_label_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every claim and link has a register row in CONNECTION.md",
+   "id": "C12-21",
+   "metric": "document_items_without_register_row",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "From x6 on, the number of new evidence claims plus new links does not rise from one cycle to the next",
+   "id": "C12-22",
+   "metric": "yield_nonincreasing_from",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 1
+  },
+  {
+   "hypothesis": "x12 adds or changes no claim, link or factor row (consolidation only)",
+   "id": "C12-23",
+   "metric": "this_cycle_new_or_changed",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "At least one factor is present in all four topics under this iteration's rule",
+   "id": "C12-24",
+   "metric": "unity_factors",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 4
+  },
+  {
+   "hypothesis": "At least one substantive or tradition factor is present in all four topics under this iteration's rule",
+   "id": "C12-25",
+   "metric": "unity_factors_substantive",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 1
+  },
+  {
+   "hypothesis": "Every pair of topics has at least one Connection link",
+   "id": "C12-26",
+   "metric": "pairs_without_connection_link",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No 80-character overlap with the Totality Suite",
+   "id": "C12-27",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  }
+ ],
+ "cycle": "x12",
+ "iteration": 7,
+ "outputs": {
+  "cross_citations.csv": "6389f4459e823dd0d804ed36562f14a1950d97628e0eb56eb9bf00b0292c810e",
+  "cross_mentions.csv": "1e6d8c9b83146eacb3c1d78c9f080570df2c60fb86f1ccaa37cbd19142acb252",
+  "factor_topic.csv": "0260003b3f14782347edb1e8b367129d8b85d817ae8b7b450dd374fb667b214c",
+  "limitation_families.csv": "96c2a9d13b3753faf6cc3ebd063e7ae3a83a5332b4a13af5ccc9b8954899ce68",
+  "pairs.csv": "39e90eeb87bd3f8a0165117d54a488a4a0af8bead7716b91a3f0931027ceb0ad",
+  "phase_audit.csv": "adf0d5b8a52d138af5039daee285b9a00b9f5f1a61447aac87b51a49d9e1abb5",
+  "phase_topic.csv": "a7c03e83e5ca4493c1bb260ed34e366953f62cb2f82b50b9b65a413e74662bd2"
+ }
+}

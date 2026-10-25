@@ -1,0 +1,14 @@
+{
+  "record_id": null,
+  "clause_id": null,
+  "action_and_scope": null,
+  "applicability": "UNRESOLVED",
+  "nonwaivable_status": "OWNER DECISION REQUIRED",
+  "rationale": null,
+  "supporting_evidence": [],
+  "qualified_reviewer": null,
+  "owner_disposition": null,
+  "impact_on_other_controls": [],
+  "proposed_gate": "INDETERMINATE",
+  "note": "Not-applicable is not a gate state or self-issued exemption"
+}

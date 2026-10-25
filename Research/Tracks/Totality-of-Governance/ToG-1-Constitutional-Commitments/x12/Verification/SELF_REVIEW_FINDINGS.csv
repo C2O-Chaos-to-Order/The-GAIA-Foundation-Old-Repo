@@ -1,0 +1,9 @@
+id,scope,state,finding,disposition
+F01,Iteration6A1specification cardinality,FAIL,Declared5346versuslistedfactorproduct/actual1782;full listedcartesian product executed.,"Retain originalFAIL;futureapprovedcorrection version,not post-runchange"
+F02,Legacy reconstructed external-input criterion,FAIL,Threehistorical invalidverificationinputs returnPASS.,Preserved separate reconstruction;not substitute candidate intooldrecords
+P03,Candidate known enum/type boundary,"PASS,bounded","24values,63recordfixtures,839seededcorpus plusaggregate/integrationboundaries block invalidPASS withnoexceptions.",Knownregressionaddressed only;no generalproductionapproval
+L04,Attestation truth/reviewer independence,LIMITATION DEMONSTRATED,H8NOTSUPPORTED;typeguarddoesnot reveal latentconflicts.,Genuinequalified review/ethics evidence needed
+L05,Freshness/atomicity,LIMITATION DEMONSTRATED,H10NOTSUPPORTED;freshqueryoracle/localatomicstep assumptions andhorizonlimits persist.,No distributeddeploymentguarantee
+L06,Predicate/provenance narrowness,LIMITATION,Stage7rootunchanged byconstruction;intermediateH8defaultnot independentverification;finalstagehash-reads actualstage8result.,Do not inflate predicatecoverage/provenance claims
+L07,Sources/continuity/integration,INDETERMINATE,"Partial/inheritedsources,missingpriorbytes andcanonicalallworkintegration.",Recover/read/approve/integrate explicitly
+L08,Independent/outcome assurance,INDETERMINATE,"Sameauthororacles/reproduction,no affectedpartyoutcomes,revieworownerdisposition.","No adoption,deployment,realremedy orindependentapproval claim"

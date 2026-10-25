@@ -1,0 +1,13 @@
+{
+  "legitimacy": null,
+  "accessibility": null,
+  "privacy": null,
+  "rights_compatibility": null,
+  "process_evidence": null,
+  "outcome_evidence": null,
+  "affected_party_feedback": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

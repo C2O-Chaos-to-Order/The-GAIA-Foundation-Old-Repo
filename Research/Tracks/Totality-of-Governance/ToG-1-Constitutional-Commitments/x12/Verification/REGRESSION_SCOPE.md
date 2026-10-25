@@ -1,0 +1,7 @@
+# Scoped repair conclusion
+
+Legacyreconstruction:external-inputcriterionFAIL,threehistorical invalidlabels accepted. Priorx9artifactbytes unavailable,so this is not a byte-for-byteoriginalregression.
+
+Separatecandidatev0.2.0:specified enum/typeboundarycriterionPASS,24values noinvalidPASS/noexceptions;63recordfixtures noinvalidPASS;839seedednegativecorpus zerooracle differences,legacyfalsePASS835. Aggregatorand finalintegrationmalformedvalues blockPASS. ActualNULadditionaldirectprobe rejected;literalbackslashescape is ordinarytext andcanpass. Twoextra directfunctioncalls,not extra fullmodelprocesses.
+
+Thisaddresses the knownenum/typefailcondition within declaredscope. It doesnot establish fullinputspacecoverage,semantictruth,issuer/signatureauthenticity,independentreview orproductionreadiness. PriorFAILpreserved;newcandidate not silently substituted inoldrecords. Stage6countconformanceFAIL andH8/H10negativefindings also remainopen/visible.

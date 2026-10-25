@@ -1,0 +1,22 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 1,
+  "decision": "PASS",
+  "structured_record": {
+    "record_id": "SYN-REC-1",
+    "scope": "research-only",
+    "rationale": "Synthetic bounded scope determination",
+    "authority": "fictional-owner",
+    "version": "v1",
+    "evidence_ref": "synthetic://record/1"
+  },
+  "verification_assumed": "PASS",
+  "rationale_quality_not_empirically_verified": true
+}

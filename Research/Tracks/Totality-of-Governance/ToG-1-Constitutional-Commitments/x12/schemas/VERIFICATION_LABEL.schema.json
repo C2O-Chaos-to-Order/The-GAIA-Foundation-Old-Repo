@@ -1,0 +1,10 @@
+{
+  "title": "Fully specified verification label",
+  "type": "string",
+  "enum": [
+    "PASS",
+    "FAIL",
+    "INDETERMINATE"
+  ],
+  "$comment": "Helper treats absent/null evidence asINDETERMINATE/non-advancing,not as a valid positiveverificationlabel. Schema conformance andgate decision are distinct."
+}

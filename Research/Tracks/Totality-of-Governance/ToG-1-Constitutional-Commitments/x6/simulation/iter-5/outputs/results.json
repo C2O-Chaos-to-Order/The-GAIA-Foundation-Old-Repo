@@ -1,0 +1,19 @@
+{
+  "trace_count": 32768,
+  "event_steps": 163840,
+  "commit_attempt_steps": 20480,
+  "permitted_commit_steps": 1260,
+  "unsafe_hardened_commit_steps": 0,
+  "unsafe_cache_only_commit_steps": 1443,
+  "review_auto_approval_errors": 0,
+  "checks": {
+    "T1": "PASS",
+    "T2": "PASS",
+    "T3": "PASS",
+    "T4": "PASS",
+    "T5": "PASS",
+    "T6": "PASS",
+    "T7": "PASS"
+  },
+  "scope": "Synthetic model outputs,not independent/empirical assurance"
+}

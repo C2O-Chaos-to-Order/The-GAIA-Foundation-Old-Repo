@@ -1,0 +1,22 @@
+{
+  "record_id": null,
+  "status": "TEMPLATE;NOT AN APPROVAL",
+  "legitimate_objective": null,
+  "action_scope": null,
+  "affected_parties": [],
+  "rights_and_standards": [],
+  "actual_or_potential_impact": null,
+  "severity": {
+    "scale": null,
+    "scope": null,
+    "irremediability": null
+  },
+  "meaningful_consultation_evidence": [],
+  "alternatives_including_no_action_and_non_AI": [],
+  "effectiveness_and_limitations": null,
+  "least_intrusive_adequate_option_rationale": null,
+  "residual_risks_and_remedy": null,
+  "qualified_review_record": null,
+  "human_decision_authority": null,
+  "proposed_gate": "INDETERMINATE"
+}

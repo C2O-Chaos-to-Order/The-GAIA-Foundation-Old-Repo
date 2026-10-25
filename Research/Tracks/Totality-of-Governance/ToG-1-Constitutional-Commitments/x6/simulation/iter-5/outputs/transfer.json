@@ -1,0 +1,9 @@
+{
+  "fictional": true,
+  "hardening_unsafe_commits": 0,
+  "cache_only_unsafe_commits": 1443,
+  "traces": 32768,
+  "horizon": 5,
+  "actual_execution_of_external_action": false,
+  "overall_gate": "INDETERMINATE"
+}

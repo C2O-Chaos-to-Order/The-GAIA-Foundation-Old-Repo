@@ -1,0 +1,8 @@
+{
+  "fictional": true,
+  "decision": "PASS",
+  "support_current": true,
+  "scope": "research-only",
+  "provenance_conformance": "NOT A FULL PROV VALIDATOR",
+  "authorization": "NOT REAL"
+}

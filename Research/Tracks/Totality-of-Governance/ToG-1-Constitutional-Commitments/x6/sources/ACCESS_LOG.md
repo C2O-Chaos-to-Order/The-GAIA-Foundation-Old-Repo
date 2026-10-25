@@ -1,0 +1,7 @@
+# Access and provenance limits
+
+12source records:11documentary references plus1conversational continuity record. G01/G02re-read at pinned commit;G03/G04remain the exact prior-conversation references at the unchanged commit but were not refetched. Previous archives absent. No Academic connector discovered;public scholarly/primary-source tools used. A01abstract re-read,not full scholarly paper.
+
+Search batch:OHCHR guiding principles human rights grievance remedy severity;NIST access control authorization revocation separation duties least privilege;W3C provenance invalidation derivation revision. Primary pages/PDFs fetched. W3CPROV-DM extraction ends during§4.2;PROV-Constraints during§2.4. NISTnormativePDF extraction ends infrontmatterpXVII;control-only derivative ends inTOC pVII. Selected access-control search excerpts were read;fullcontrol bodies were NOT. Further fetch of the derivative did not solve body access;that negative access result is retained. NISTCore and OHCHRremedy document returned full selected pages. No source generalization beyond retrieved passages.
+
+No external source bytes downloaded into offline Python;no external file SHA256invented. Upstream Git blob IDs identify returned repository versions,not locally rehashed source files. Manual excerpts/notes,claims and package manifests are generated artifacts,not full-source snapshots. Local output hashes prove byte identity relative to local originals,not the truth or lawful use of evidence.

@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "scope": "research-only",
+  "subject": "fictional-agent",
+  "resource": "docA",
+  "action": "read",
+  "actual_review": "NONE",
+  "actual_authorization": "NONE",
+  "overall_gate": "INDETERMINATE",
+  "stage": 6,
+  "current_record": {
+    "record_id": "SYN-REC",
+    "scope": "research-only",
+    "rationale": "Synthetic bounded rationale",
+    "authority": "fictional-owner",
+    "version": "v1",
+    "evidence_ref": "synthetic://evidence/1"
+  },
+  "actual_applicability_approval": "NONE"
+}

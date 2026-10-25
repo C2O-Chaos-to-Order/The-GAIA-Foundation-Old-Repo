@@ -1,0 +1,33 @@
+{
+  "fictional": true,
+  "decision": "PASS",
+  "clauses": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "4.7",
+    "4.8",
+    "4.9",
+    "4.10",
+    "4.11"
+  ],
+  "states": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "scope": "research-only",
+  "applicability_policy": "Toy nonwaivable4.1,4.11;other applicability determinations need explicit authorized rationale",
+  "authorization": "NOT REAL"
+}

@@ -1,0 +1,17 @@
+{
+  "dependency_graphs": 64,
+  "root_invalidation_cases": 384,
+  "closure_mismatches": 0,
+  "invalidated_or_dependent_passes": 0,
+  "unrelated_state_errors": 0,
+  "checks": {
+    "D1": "PASS",
+    "D2": "PASS",
+    "D3": "PASS",
+    "D4": "PASS",
+    "D5": "PASS",
+    "D6": "PASS",
+    "D7": "PASS"
+  },
+  "scope": "Synthetic model outputs,not independent/empirical assurance"
+}

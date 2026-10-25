@@ -1,0 +1,5 @@
+# Provenance boundary
+
+Pinnedrepositorycommitfdec378a859f2accdc7e2d9cfe11040a0c34545d. UpstreamGitblob IDs are versionlocators,not locallyrecomputedSHA256sourcehashes. G03/G04inherited aslabelled. External sourcebytes not captured,priorarchives absent/digestsnotreverified.
+
+MANIFEST.sha256 coversalllocalpackagefiles exceptitself. Hashes identify bytes,nottruth,independentreview orlawfulauthority. Executionrecordsbindrunner,specs,predecessoroutputs/records andpayloads. Reproductionpayloadsmatch;recordmetadata differs. Post-runASTprobes retainknownFAILwithunchangedrunnerhash. No circulararchivehash embeddedincapsule.

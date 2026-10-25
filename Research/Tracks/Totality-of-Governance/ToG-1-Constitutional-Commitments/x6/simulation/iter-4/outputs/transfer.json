@@ -1,0 +1,20 @@
+{
+  "fictional": true,
+  "decision": "PASS",
+  "parent_capabilities": [
+    "read:docA",
+    "draft:docA"
+  ],
+  "child_capabilities": [
+    "read:docA"
+  ],
+  "parent_expiry": 10,
+  "child_expiry": 8,
+  "checked_at": 5,
+  "next_model_clock_origin": 6,
+  "next_model_relative_expiry": 2,
+  "subject": "fictional-agent",
+  "purpose": "research-only",
+  "policy_version": 1,
+  "actual_authorization": "NONE"
+}

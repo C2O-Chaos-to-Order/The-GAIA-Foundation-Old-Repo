@@ -1,0 +1,12 @@
+{
+  "seed": null,
+  "corpus_generation": null,
+  "expected_oracle": null,
+  "legacy_comparison": null,
+  "exceptions": null,
+  "finite_coverage_limits": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

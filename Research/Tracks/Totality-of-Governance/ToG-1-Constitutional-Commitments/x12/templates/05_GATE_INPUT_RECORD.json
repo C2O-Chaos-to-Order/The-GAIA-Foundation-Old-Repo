@@ -1,0 +1,12 @@
+{
+  "outer_container": null,
+  "slot_count": null,
+  "normalized_states": null,
+  "known_failures": null,
+  "missing_evidence": null,
+  "proposed_decision": null,
+  "status": "TEMPLATE;NOT APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Missingfields are notPASS;structuralvalidity isnot truth orpermission."
+}

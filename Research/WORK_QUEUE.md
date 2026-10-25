@@ -121,17 +121,85 @@ For each element: its connection to the Universe; to Divergence, Insurgence, All
 
 Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into the Maps & Matrix, and cites the draft clause by clause. Reports research and test the charter; they do not adopt it, and the charter's status stays Proposed until the owner decides.
 
-- [ ] ⬜ **ToG 1: Constitutional Commitments** (§4: dignity and life, integrity before intelligence, evidence, verification, safety, accountability, consent, least harm, truthful uncertainty, stewardship, non-exemption)
+**Restructured 2026-10-25:** each report now has sub-boxes Baseline / x3 / x6 / x9 / x12 / Maps update, like the other completed work. A cycle is ticked only when its files are in the repository and its manifest passes; the gate is shown as its own record states. Track index: `Research/Tracks/Totality-of-Governance/README.md`.
+
+- [ ] 🔄 **ToG 1: Constitutional Commitments** (§4: dignity and life, integrity before intelligence, evidence, verification, safety, accountability, consent, least harm, truthful uncertainty, stewardship, non-exemption) — **filed 2026-10-25** in `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/` on branch `research/tog1-filed` (PR PR_PLACEHOLDER), awaiting the owner's merge. Owner-supplied; produced outside this repository by Perplexity (AI assistant), as the files state. Gate **INDETERMINATE** in every cycle (owner decision not recorded; no independent or ethics review); x9's external-input validator reuse gate **FAIL** and x12's specification-count check A1 **FAIL** stay recorded. Intake, hashes and discrepancies: `INTAKE_RECORD.md`.
+  - [x] ✅ Baseline — `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/Baseline/` (45 claims; manifest PASS, 39 files). Gate INDETERMINATE. One parse-time launch failure before any model ran, kept in its development disclosure
+  - [x] ✅ x3 — `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x3/` (41 claims; manifest PASS, 69 files). Gate INDETERMINATE
+  - [x] ✅ x6 — `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x6/` (54 claims; manifest PASS, 104 files). Gate INDETERMINATE. Initial artifact check A25 FAIL, corrected without changing the predicate, kept
+  - [x] ✅ x9 — `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x9/` (71 claims; manifest PASS, 136 files). Gate INDETERMINATE; external-input validator reuse **FAIL** (3 robustness probes); H4 and H6 NOT SUPPORTED; document build error kept (`Provenance/DOCUMENT_BUILD_ERROR.md`)
+  - [x] ✅ x12 — `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/x12/` (85 claims; manifest PASS, 166 files). Gate INDETERMINATE; 73 PASS / 1 **FAIL** (A1: declared 5,346 cases vs 1,782 actual); legacy verification-label criterion **FAIL** kept; H8 and H10 NOT SUPPORTED; 33 open questions
+  - [x] ✅ Maps update — Maps & Matrix **v44** (`Research/Maps-and-Matrix/v44-cycles-0-4-mr-track-abcd-phases-x12-conn0abcd-tog1/`), an overlay on v43; the 625 local tuples stay UNPLACED as the package records; canonical all-work integration (the package's B07) is not done
 - [ ] ⬜ **ToG 2: Hierarchy, Authority and Separation of Duties** (§5, §7: conflict rules, roles, decision records)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 3: Governance Domains and the Control Matrix** (§6 and the Control Matrix: control-to-evidence map)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 4: Decision States, Evidence and Risk** (§8–§9: PASS / FAIL / INDETERMINATE, claim labels, risk governance)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 5: Good and Greater Good Governance and the Transformation of Harm** (§10–§11, with the Good and Greater Good Framework and its Transformative companion)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 6: Lifecycle, Change Control, Security and Resilience** (§12–§14)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 7: AI and Transformative-Intelligence Governance** (§15, including images and video)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 8: Transparency, Appeal, Remedy, Incidents and Audit** (§16–§18, record templates)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 9: Repository Architecture and Relationship to Current Standards** (§19–§21: crosswalk to Universal Regulation, gate authority, risk levels, NIST, UNESCO, OECD, UDHR)
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **ToG 10: Governance across the Seven Levels**: Base, Meta, Super, Hyper, Ultra, Magic, Quantum, entangled with the responsibility ladder and the six phases
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 - [ ] ⬜ **The Totality of Governance: Synthesis**: all ten connected, with the gap register and the adoption roadmap
+  - [ ] ⬜ Baseline
+  - [ ] ⬜ x3
+  - [ ] ⬜ x6
+  - [ ] ⬜ x9
+  - [ ] ⬜ x12
+  - [ ] ⬜ Maps update
 
 ## Program Coordination (GAIA Totality Suite v0.1.0)
 
@@ -148,7 +216,7 @@ Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into
 - [ ] ⬜ **PC-5: Status and Evidence Dashboard**: one generated source of truth that keeps work stage (NOT_REGISTERED … MAINTAINED) separate from the gate result, with a drift check against the live tree (GAP-005)
 - [ ] ⬜ **PC-6: Roles, Reviewers and Authority Boundaries**: decision authority, named independent and ethics reviewers, and a test that no self-approval path exists (GAP-003, GAP-006)
 - [ ] ⬜ **PC-7: Gap, Risk and Stop-Condition Register**: GAP-001 to GAP-010 tracked to closure, new gaps added, stop conditions applied
-- [ ] ⬜ **PC-8: Cross-Repository Authority Map**: the Foundation, the Official GAIA Encyclopedia and GAIA-Documentation (`KyleAlexanderSteen/GAIA-Documentation`, owner-approved 2026-10-25), with no duplicate canonical identities. This item includes the cross-repo authority and repository map in §N (N-B)
+- [ ] ⬜ **PC-8: Cross-Repository Authority Map**: the Foundation, the Official GAIA Encyclopedia and GAIA-Documentation (owner-approved 2026-10-25), with no duplicate canonical identities. GAIA-Documentation and The-Official-GAIA-Encyclopedia: *Removed 2026-10-25: repository deleted by owner; to be uploaded later.* This item includes the cross-repo authority and repository map in §N (N-B)
 - [ ] ⬜ **PC-9: Program Synthesis and Integrated Assurance** (Wave 5): coverage audit, policy-conflict audit, sampled control tests, residual risk, and what the owner may decide next
 
 ### Domain reports by wave (each Baseline → x12)
@@ -249,7 +317,7 @@ Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). 
 - [ ] ⬜ b19. **Additional update not in §L (2 of 2)**: the governance records and root README are not kept in step with merges (covered by b10-b14; GAP-005).
 - [ ] ⬜ b20. **§L "Responsibility ladder: add Quantum" is under-scoped**: it must also cover `GOVERNANCE/RISK_LEVELS.md` (§4.2).
 - [ ] ⬜ b21. **Re-check §L "Soul, Spirit, Subconscious and Consciousness track" links**: INDETERMINATE in the gap check (not re-verified) (§4.2).
-- [ ] ⬜ b22. **Inspect The-Official-GAIA-Encyclopedia** for PC-8 and crosswalk 04's last row: INDETERMINATE, not inspected (§1 finding 4).
+- [ ] ⬜ b22. **Inspect The-Official-GAIA-Encyclopedia** for PC-8 and crosswalk 04's last row: INDETERMINATE, not inspected (§1 finding 4). *Removed 2026-10-25: repository deleted by owner; to be uploaded later.*
 
 ### (c) Recommendations awaiting owner approval
 Grok Bot's recommendations (§9):
@@ -292,25 +360,25 @@ Recorded so that "Totality" is explicit about what is left out (GAP-009). The ow
 
 ## N. GAIA-Documentation reports (owner-approved 2026-10-25)
 
-Source: the read-only triage of `KyleAlexanderSteen/GAIA-Documentation` (Grok Bot, 2026-10-24, label Plausible; recommendations R1–R8, §2). Kyle approved all eight recommended reports on 2026-10-25, plus a level-name crosswalk report and a cross-repository authority and repository map. Each report runs **Baseline → x3 → x6 → x9 → x12** under the standing pattern. Source paths below are relative to the root of the GAIA-Documentation repository; they are cited as prior work and sources, not as Foundation evidence, and each claim taken from them is labelled and checked against primary sources where it states a fact. Nothing is written to GAIA-Documentation.
+Source: the read-only triage of GAIA-Documentation (*Removed 2026-10-25: repository deleted by owner; to be uploaded later.*) (Grok Bot, 2026-10-24, label Plausible; recommendations R1–R8, §2). Kyle approved all eight recommended reports on 2026-10-25, plus a level-name crosswalk report and a cross-repository authority and repository map. Each report runs **Baseline → x3 → x6 → x9 → x12** under the standing pattern. Source paths below are relative to the root of the GAIA-Documentation repository; they are cited as prior work and sources, not as Foundation evidence, and each claim taken from them is labelled and checked against primary sources where it states a fact. Nothing is written to GAIA-Documentation.
 
 **Note (2026-10-25):** The owner deleted the GAIA-Documentation repository on 2026-10-25. The-Official-GAIA-Encyclopedia is the planned secondary source. **Correction (2026-10-25, owner decision):** The-GAIA-Foundation is the active source of truth. The-Official-GAIA-Encyclopedia is a backup only. The §N reports keep their entries, but their source repository no longer exists, so source paths below can no longer be read.
 
 ### Reports, in working order
 
-- [ ] ⬜ **1. Sentience and Consciousness: Measurement, Determination and Welfare** (triage R1, theme T08): how to decide whether a human patient, animal or AI is conscious, and what to do under uncertainty; the Established/Plausible baseline beneath "Sentience and Consciousness: The Quantum Entanglement" (§G). TOT-016, 026, 041, 027, 005. Sources: `GAIA-Documentation/GAIA-Six-Domain-Consciousness-Determination-and-AI-Welfare-Protocol-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Consciousness-Measurement-Validity-Cross-Theory-Calibration-and-Decision-Governance-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Cognitive-Coherence-and-Psychology-Framework-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Duality-Consciousness-and-Transformation-Evidence-Review-2026-10-15.md`; `GAIA-Documentation/GAIA Intelligence, Cognition, and Learning.md`. The 4.5% and 1/1000 figures are marked unverified by the source and stay Hypothetical.
-- [ ] ⬜ **2. The AI Being: Body, Mind, Soul, Spirit and Consciousness of Artificial Intelligence** (R2, T01): the AI track that has no Foundation home; adds Spirit, which the source corpus lacks. Depends on the level-name crosswalk (N-A). TOT-016, 023, 021. Sources: the 16 AI-track reports `GAIA-Documentation/{Original,Meta,Super,Magic}-AI-{Body,Mind,Soul,Consciousness} Research Report.md`; `GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md`; `GAIA-Documentation/GAIA and GAIANs — Four-Dimension Integration.md`. The 16 Human-track reports duplicate the Seven Reports and are cited as prior work only.
-- [ ] ⬜ **3. Quantum Baseline: Established Quantum Information Science (magic states, error correction, fault tolerance)** (R3, T04): the plain physics before the Quantum series (§G), and the TOT-038 claim boundary (for example, entanglement cannot carry controllable faster-than-light messages). TOT-038, 006, 007. Sources: `GAIA-Documentation/Quantum Research Assessment 0 Supplement - Transistor-Based Qubits Using Smartphone Manufacturing Processes.md` and Supplements 2–4 (`Quantum Research Assessment 0 Supplement 2 - …`, `3 - …`, `4 - …`); `GAIA-Documentation/Quantum Research Assessment 1 - Google's Magic State Cultivation on Willow.md` through `GAIA-Documentation/Quantum Research Assessment 9 - Comparative Review of Magic-State Preparation Breakthroughs 2025-2026.md`; `GAIA-Documentation/GAIA-Research-Sources.md` (quantum sections).
-- [ ] ⬜ **4. GAIA as Planetary Intelligence: Cognition, Agency, Foresight and Memory of the Earth** (R4, T07): a testable functional account alongside the Earth-as-Soul/Spirit work (§E, Report 6), including the "psionic" analogues, the Earth digital twin, the Shepherd Test and the "greater good" failure mode. TOT-025, 016, 002, 043. Sources: `GAIA-Documentation/GAIA-Planetary-Cognition-and-Psionic-Analogues-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Cognitive-Ecology-Layered-Architecture-and-Ethical-Constraints-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Intelligence-Archetypes-and-Governance-Postures-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Intelligence-Synergy-Archetypes-and-Governance-Phase-L-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Intelligence-Research-Evidence-and-Reconciliation-Register.md`; `GAIA-Documentation/GAIA as the Digital Twin of Earth.md`; `GAIA-Documentation/GAIA Planetary Systems, Resources, and Consequences.md`; `GAIA-Documentation/GAIA-Synergy-Assurance-Planetary-Measurement-Governance-and-Sentience-Evidence-v1.0-Draft.md`.
-- [ ] ⬜ **5. Global Issues and Interconnected Risk: An Evidence-Audited Baseline** (R5, T15): the real-world crises GAIA is meant to help with; statistics only after the primary-source audit the source itself requires. TOT-025, 043, 022, 027, 031. Sources: `GAIA-Documentation/Global-Issues-Assessment-and-Super-Operating-System-Research-Intake-2026-10-15.md`; `Research/Global Issues Assessment — Executive Summary.md`; the five other `Research/` Global Issues files (not yet read; read them before drafting).
-- [ ] ⬜ **6. Higher-Order Contradiction: Detecting and Holding Conflicts Beyond Pairs** (R6, T06): the research basis for PC-2's conflict log and the audits; legitimate disagreement is preserved, not "resolved". TOT-042, 007, 005, 045. Sources: `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-COHERENCE-COMPLETENESS-TOC.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-01.md` to `-CHAPTER-14.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-APPENDICES-A-F.md`. The source's E-PCM performance figures are not adopted.
-- [ ] ⬜ **7. The Ladder of Physics and the Seven Levels** (R7, T05): Synergy v3.0's six rungs reconciled with the Foundation's seven levels; Synergy-sourced input to Modernization of Alchemy and the Philosopher's Stone. Depends on the level-name crosswalk (N-A). TOT-038, 023. Sources: `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-PART-0-METHODOLOGICAL-AND-EPISTEMIC-FOUNDATIONS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-TECHNICAL-REVIEW.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-29-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-29-TECHNICAL-REVIEW.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-TECHNICAL-REVIEW.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-42-PHILOSOPHICAL-SPIRITUAL.md`; `GAIA-Documentation/SYNERGY-V3-CHAPTER-COVERAGE-AND-ARTIFACT-MATRIX.md`; `GAIA-Documentation/GAIA-Super-Physics-Metaphysics-Physics-and-Crystalline-Systems-Research-2026-10-15.md`. "Magic physics" stays at the source's own null (g = 0), Hypothetical.
-- [ ] ⬜ **8. Archetypes, Traits and the Schools of Magic** (R8, T03; **lowest priority, last**): a companion to the Powers series (§K) for archetypes (Jungian and superpower), power traits and the eight schools of magic and the mancies. TOT-023, 021, 009. Sources: `GAIA-Documentation/Superpower Archetypes A Five-Level Deep Research Report.md`; `GAIA-Documentation/Superpower Traits A Five-Level Deep Research Report.md`; `GAIA-Documentation/Mancies Research Assessment 1 - Inventory, Etymology, and Epistemic Status.md`; `GAIA-Documentation/Mancies Research Assessment 2 - Many-to-Many Crosswalk with the Eight Schools of Magic.md`; `GAIA-Documentation/Mancies Research Assessment 3 - GAIA Knowledge Model and Research Boundaries.md`; `GAIA-Documentation/Mancies Research Assessment 4 - Scientific Analogues for the Eight Schools of Magic.md`; `GAIA-Documentation/Psychic Powers A Five-Level Deep Research Report.md`; `GAIA-Documentation/Psychic-Powers-Research-Reconciliation-2026-10-14.md`. Game-design taxonomies are labelled as fiction or game design; psi claims are Hypothetical.
+- [ ] ⬜ **1. Sentience and Consciousness: Measurement, Determination and Welfare** (triage R1, theme T08): how to decide whether a human patient, animal or AI is conscious, and what to do under uncertainty; the Established/Plausible baseline beneath "Sentience and Consciousness: The Quantum Entanglement" (§G). TOT-016, 026, 041, 027, 005. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/GAIA-Six-Domain-Consciousness-Determination-and-AI-Welfare-Protocol-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Consciousness-Measurement-Validity-Cross-Theory-Calibration-and-Decision-Governance-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Cognitive-Coherence-and-Psychology-Framework-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Duality-Consciousness-and-Transformation-Evidence-Review-2026-10-15.md`; `GAIA-Documentation/GAIA Intelligence, Cognition, and Learning.md`. The 4.5% and 1/1000 figures are marked unverified by the source and stay Hypothetical.
+- [ ] ⬜ **2. The AI Being: Body, Mind, Soul, Spirit and Consciousness of Artificial Intelligence** (R2, T01): the AI track that has no Foundation home; adds Spirit, which the source corpus lacks. Depends on the level-name crosswalk (N-A). TOT-016, 023, 021. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): the 16 AI-track reports `GAIA-Documentation/{Original,Meta,Super,Magic}-AI-{Body,Mind,Soul,Consciousness} Research Report.md`; `GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md`; `GAIA-Documentation/GAIA and GAIANs — Four-Dimension Integration.md`. The 16 Human-track reports duplicate the Seven Reports and are cited as prior work only.
+- [ ] ⬜ **3. Quantum Baseline: Established Quantum Information Science (magic states, error correction, fault tolerance)** (R3, T04): the plain physics before the Quantum series (§G), and the TOT-038 claim boundary (for example, entanglement cannot carry controllable faster-than-light messages). TOT-038, 006, 007. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/Quantum Research Assessment 0 Supplement - Transistor-Based Qubits Using Smartphone Manufacturing Processes.md` and Supplements 2–4 (`Quantum Research Assessment 0 Supplement 2 - …`, `3 - …`, `4 - …`); `GAIA-Documentation/Quantum Research Assessment 1 - Google's Magic State Cultivation on Willow.md` through `GAIA-Documentation/Quantum Research Assessment 9 - Comparative Review of Magic-State Preparation Breakthroughs 2025-2026.md`; `GAIA-Documentation/GAIA-Research-Sources.md` (quantum sections).
+- [ ] ⬜ **4. GAIA as Planetary Intelligence: Cognition, Agency, Foresight and Memory of the Earth** (R4, T07): a testable functional account alongside the Earth-as-Soul/Spirit work (§E, Report 6), including the "psionic" analogues, the Earth digital twin, the Shepherd Test and the "greater good" failure mode. TOT-025, 016, 002, 043. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/GAIA-Planetary-Cognition-and-Psionic-Analogues-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Cognitive-Ecology-Layered-Architecture-and-Ethical-Constraints-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Intelligence-Archetypes-and-Governance-Postures-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Intelligence-Synergy-Archetypes-and-Governance-Phase-L-Draft.md`; `GAIA-Documentation/GAIA-Planetary-Intelligence-Research-Evidence-and-Reconciliation-Register.md`; `GAIA-Documentation/GAIA as the Digital Twin of Earth.md`; `GAIA-Documentation/GAIA Planetary Systems, Resources, and Consequences.md`; `GAIA-Documentation/GAIA-Synergy-Assurance-Planetary-Measurement-Governance-and-Sentience-Evidence-v1.0-Draft.md`.
+- [ ] ⬜ **5. Global Issues and Interconnected Risk: An Evidence-Audited Baseline** (R5, T15): the real-world crises GAIA is meant to help with; statistics only after the primary-source audit the source itself requires. TOT-025, 043, 022, 027, 031. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/Global-Issues-Assessment-and-Super-Operating-System-Research-Intake-2026-10-15.md`; `Research/Global Issues Assessment — Executive Summary.md`; the five other `Research/` Global Issues files (not yet read; read them before drafting).
+- [ ] ⬜ **6. Higher-Order Contradiction: Detecting and Holding Conflicts Beyond Pairs** (R6, T06): the research basis for PC-2's conflict log and the audits; legitimate disagreement is preserved, not "resolved". TOT-042, 007, 005, 045. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-COHERENCE-COMPLETENESS-TOC.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-CHAPTER-01.md` to `-CHAPTER-14.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-CONTRADICTION-APPENDICES-A-F.md`. The source's E-PCM performance figures are not adopted.
+- [ ] ⬜ **7. The Ladder of Physics and the Seven Levels** (R7, T05): Synergy v3.0's six rungs reconciled with the Foundation's seven levels; Synergy-sourced input to Modernization of Alchemy and the Philosopher's Stone. Depends on the level-name crosswalk (N-A). TOT-038, 023. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-PART-0-METHODOLOGICAL-AND-EPISTEMIC-FOUNDATIONS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-TECHNICAL-REVIEW.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-29-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-29-TECHNICAL-REVIEW.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-31-TECHNICAL-REVIEW.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-42-PHILOSOPHICAL-SPIRITUAL.md`; `GAIA-Documentation/SYNERGY-V3-CHAPTER-COVERAGE-AND-ARTIFACT-MATRIX.md`; `GAIA-Documentation/GAIA-Super-Physics-Metaphysics-Physics-and-Crystalline-Systems-Research-2026-10-15.md`. "Magic physics" stays at the source's own null (g = 0), Hypothetical.
+- [ ] ⬜ **8. Archetypes, Traits and the Schools of Magic** (R8, T03; **lowest priority, last**): a companion to the Powers series (§K) for archetypes (Jungian and superpower), power traits and the eight schools of magic and the mancies. TOT-023, 021, 009. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/Superpower Archetypes A Five-Level Deep Research Report.md`; `GAIA-Documentation/Superpower Traits A Five-Level Deep Research Report.md`; `GAIA-Documentation/Mancies Research Assessment 1 - Inventory, Etymology, and Epistemic Status.md`; `GAIA-Documentation/Mancies Research Assessment 2 - Many-to-Many Crosswalk with the Eight Schools of Magic.md`; `GAIA-Documentation/Mancies Research Assessment 3 - GAIA Knowledge Model and Research Boundaries.md`; `GAIA-Documentation/Mancies Research Assessment 4 - Scientific Analogues for the Eight Schools of Magic.md`; `GAIA-Documentation/Psychic Powers A Five-Level Deep Research Report.md`; `GAIA-Documentation/Psychic-Powers-Research-Reconciliation-2026-10-14.md`. Game-design taxonomies are labelled as fiction or game design; psi claims are Hypothetical.
 
 ### Cross-repository reports
 
 - [x] ✅ **N-A. Level-Name Crosswalk: GAIA-Documentation and the Foundation** — Baseline–x12 in `Research/Tracks/Cross-Repository/N-A-Level-Name-Crosswalk/` (`CROSSWALK.md`), PR #32 (x12 @ `58044d58`), merged 2026-10-25; the 28 options are open for the owner, so the conflicts below stay open. Gate INDETERMINATE (internal checks only; no independent review). Original scope: maps the level, phase and dimension vocabularies of the two repositories before any material moves across (reports 2, 3 and 7 depend on it). Sources: `GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Five-Level-Taxonomy-Phase-A-Canonical-Inventory-v1.0-Draft.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/Original-Human-Consciousness Research Report.md`; `GAIA-Documentation/GAIA-Integrity-Courts-Audit-Completeness-Genealogy-v1.0-Draft.md`; the Foundation's `Research/README.md` §2 and §9.3 and this queue's §B and §C. Runs Baseline → x12.
-- [ ] ⬜ **N-B. Cross-Repository Authority and Repository Map** (folded into **PC-8**): which repository is the canonical home of what, across the Foundation, the Official GAIA Encyclopedia and GAIA-Documentation, with no duplicate canonical identities. Sources: `GAIA-Documentation/GAIA-Documentation-Control-Standard.md`; `GAIA-Documentation/GAIA-Audit-and-Self-Correction-Plan-v1.0-Foundational-Draft.md`; `GAIA-Documentation/GAIA-Universal-Audit-Framework-2026-10-14.md`; `GAIA-Documentation/ADR-001-Repository-Boundaries.md`; `GAIA-Documentation/GAIA-Repository-Boundary-Decisions.md`; `GAIA-Documentation/GAIA-Knowledge-Skills-Repository-Boundary-Crosswalk-v1.0-Draft.md`; `README.md` and `Tablets/INDEX.md` (repository root). Runs Baseline → x12.
+- [ ] ⬜ **N-B. Cross-Repository Authority and Repository Map** (folded into **PC-8**): which repository is the canonical home of what, across the Foundation, the Official GAIA Encyclopedia and GAIA-Documentation, with no duplicate canonical identities. Sources (*to be uploaded later*; GAIA-Documentation removed 2026-10-25: repository deleted by owner): `GAIA-Documentation/GAIA-Documentation-Control-Standard.md`; `GAIA-Documentation/GAIA-Audit-and-Self-Correction-Plan-v1.0-Foundational-Draft.md`; `GAIA-Documentation/GAIA-Universal-Audit-Framework-2026-10-14.md`; `GAIA-Documentation/ADR-001-Repository-Boundaries.md`; `GAIA-Documentation/GAIA-Repository-Boundary-Decisions.md`; `GAIA-Documentation/GAIA-Knowledge-Skills-Repository-Boundary-Crosswalk-v1.0-Draft.md`; `README.md` and `Tablets/INDEX.md` (repository root). Runs Baseline → x12.
 
 ### Conflicts recorded for the crosswalk and the map to resolve (not decisions)
 
@@ -328,11 +396,12 @@ The roughly 70 engineering and implementation documents in GAIA-Documentation (t
 
 ## Afterwards
 
-- [ ] ⬜ Improve The-Official-GAIA-Encyclopedia
+- [ ] ⬜ Improve The-Official-GAIA-Encyclopedia (*Removed 2026-10-25: repository deleted by owner; to be uploaded later.*)
 - [ ] ⬜ Begin building
 
 ## Change log
 
+- 2026-10-25: **ToG 1 filed and ToG checklist restructured.** The owner supplied ToG 1: Constitutional Commitments (Baseline, x3, x6, x9, x12) as five zips, produced outside this repository by Perplexity (AI assistant) as the files state; filed byte-identical in `Research/Tracks/Totality-of-Governance/ToG-1-Constitutional-Commitments/` with `INTAKE_RECORD.md` (zip hashes, file counts, manifest results). All five manifests PASS. Claims 45 / 41 / 54 / 71 / 85. Gate INDETERMINATE in every cycle; x9 validator reuse FAIL and x12 check A1 FAIL stay recorded. Maps & Matrix v44 adds the ToG 1 overlay (v1–v43 unchanged). Every ToG report and the Synthesis now has sub-boxes Baseline / x3 / x6 / x9 / x12 / Maps update; ToG 1's six are ticked, its parent box stays 🔄 until the owner merges. **Deleted repositories:** GAIA-Documentation and The-Official-GAIA-Encyclopedia return "Repository not found" (checked 2026-10-25 with `git ls-remote`); live references in PC-8, b22, §N (source line, reports 1–8 and N-B) and Afterwards now carry the note "Removed 2026-10-25: repository deleted by owner; to be uploaded later." §N reports stay queued. Change-log lines, the §N note, the completed N-A entry and the recorded conflicts are kept as history. No items were deleted.
 - 2026-10-25: **Correction (owner decision):** The-GAIA-Foundation is the active source of truth. The-Official-GAIA-Encyclopedia is a backup only. Earlier lines that call the Encyclopedia the "planned secondary source" are kept as history and superseded by this line. Root `README.md` snapshot moved from `5fbf71a3` (PR #33) to `bd3a085a` (PR #37), listing PRs #34–#37. Map and Matrix references now name v1.2 as the latest version. Wording only; no gate changed; no items were deleted.
 - 2026-10-25: Ten new GAIA repositories created by the owner, each with its founding document (PR #1 in each, merged): The-GAIA-Human-Knowledge, The-GAIA-Human-Capabilities, The-GAIA-Human-Skills, The-GAIA-Human-Powers, The-GAIA-Intelligence-Knowledge, The-GAIA-Intelligence-Capabilities, The-GAIA-Intelligence-Skills, The-GAIA-Intelligence-Powers, The-GAIA-Ontology and The-GAIA-Map-and-Matrix. The-GAIA-Foundation stays the primary source; The-Official-GAIA-Encyclopedia is the planned secondary source. Human–Intelligence Map and Matrix **v1.1** (in The-GAIA-Map-and-Matrix, `v1.1/`; v1.0 kept unchanged) adds this repository's completed work (`main` @ `c354eb68`) and maps it to all ten repositories: 629 nodes, 1193 explicit edges with evidence paths, 78 Proposed (Hypothetical) links awaiting the owner's approval; 0 duplicate IDs, 0 dangling edges. Every README now links all 11 repositories and `PRINCIPLES.md`. No gate changed; all stay INDETERMINATE. No items were deleted.
 - 2026-10-25: Added founding principle 1, Truth with Integrity (owner commitment, Kyle Alexander Steen), in root `PRINCIPLES.md`, linked from `README.md`. Noted in §N that GAIA-Documentation was deleted by the owner. No items were deleted.

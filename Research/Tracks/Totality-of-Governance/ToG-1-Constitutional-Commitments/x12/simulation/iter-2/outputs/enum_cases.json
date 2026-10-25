@@ -1,0 +1,220 @@
+[
+  {
+    "input": "PASS",
+    "type": "str",
+    "decision": "PASS",
+    "reasons": [],
+    "invalid_verification": false
+  },
+  {
+    "input": "FAIL",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_failed"
+    ],
+    "invalid_verification": false
+  },
+  {
+    "input": "INDETERMINATE",
+    "type": "str",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "verification_indeterminate"
+    ],
+    "invalid_verification": false
+  },
+  {
+    "input": "UNRECOGNIZED",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": null,
+    "type": "NoneType",
+    "decision": "INDETERMINATE",
+    "reasons": [
+      "verification_missing"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": true,
+    "type": "bool",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": false,
+    "type": "bool",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": 0,
+    "type": "int",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": 1,
+    "type": "int",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": -1,
+    "type": "int",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": 0.0,
+    "type": "float",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": 1.0,
+    "type": "float",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": "",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": " ",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": "pass",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": " PASS ",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": "FAIL ",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": "INDETERMINATE ",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": "PASS\u0000",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": [],
+    "type": "list",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": {},
+    "type": "dict",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": [
+      "PASS"
+    ],
+    "type": "list",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": {
+      "state": "PASS"
+    },
+    "type": "dict",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  },
+  {
+    "input": "\uff30\uff21\uff33\uff33",
+    "type": "str",
+    "decision": "FAIL",
+    "reasons": [
+      "verification_invalid"
+    ],
+    "invalid_verification": true
+  }
+]

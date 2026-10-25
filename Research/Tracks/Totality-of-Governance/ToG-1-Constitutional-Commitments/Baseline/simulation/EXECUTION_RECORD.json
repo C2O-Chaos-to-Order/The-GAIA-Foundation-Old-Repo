@@ -1,0 +1,33 @@
+{
+  "execution_id": "GAIA-RES-TOG1-C0-RUN-001",
+  "baseline_executions": 1,
+  "started_utc": "2026-10-25T19:30:01.252210+00:00",
+  "ended_utc": "2026-10-25T19:30:01.947877+00:00",
+  "python": "3.12.8 (main, Aug 11 2026, 02:20:20) [GCC 15.2.0]",
+  "platform": "Linux-6.1.155+-x86_64-with-glibc2.43",
+  "seed": null,
+  "deterministic": true,
+  "spec_sha256": "2db6e037977a5d093740c4454bfad111a85724dffd1fd7d609cff9d5a18b23c5",
+  "spec_after_sha256": "2db6e037977a5d093740c4454bfad111a85724dffd1fd7d609cff9d5a18b23c5",
+  "script_sha256": "0650d634830b0b4cc09629a9714a7eeab2e35f2c66cd2672a93c00cb58af18c1",
+  "outputs": {
+    "exhaustive.csv": "37939e7e324e22165d123c2d1435ad34296594a9f9977472dfac675aefb1fcab",
+    "results.json": "02bb4d8b73bf44e24286b76d7291ecb27d7a39cecdbc1fd35b8148d0e002cb99"
+  },
+  "test_results": {
+    "V1": "PASS",
+    "V2": "PASS",
+    "V3": "PASS",
+    "V4": "PASS",
+    "V5": "PASS",
+    "V6": "PASS",
+    "V7": "PASS",
+    "V8": "PASS",
+    "V9": "PASS",
+    "V10": "PASS",
+    "V11": "PASS",
+    "V12": "PASS"
+  },
+  "independent_rerun": "NOT PERFORMED",
+  "gate_authorization": "NOT GRANTED"
+}

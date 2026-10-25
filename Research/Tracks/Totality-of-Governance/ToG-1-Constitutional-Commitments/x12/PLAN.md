@@ -1,0 +1,9 @@
+# ToG 1 x12 pre-execution plan
+
+ID GAIA-RES-TOG1-X12-001,v0.1.0,2026-10-25. Owner KyleAlexanderSteen;producer Perplexity(AI). Twelve focused documentary analyses and twelve distinct chained computational iterations. One initial execution and one same-author isolated-copy rerun periteration:24planned successful fullmodelprocesses,not independentstudies. All12specs fixed and hashed before thefirst modelrun;private ordering,not publicpreregistration. Retain failedlegacy behavior,negative probes and residual risks. Do not retrofit thresholds.
+
+Priorarchives absent;no45/41/54/71row imports or byte-level priorregression. Legacyassessor is a labelled reconstruction of visible code,not originalartifact. Newcandidate is separate version0.2.0,not an overwrite of x9evidence. No productiondeployment,networkactions,realpermission,standardadoption,canonicalmapping orGitHubwrite.
+
+Pass/iteration sequence:1legacydefect reconstruction;2verificationenum correction;3recordstructure/null/extrafields;4deterministic boundedfuzz/differentialoracle;5strictgate-state validation;6applicabilityrecord regression;7versioned support propagation;8reviewertruth/unknownlimits;9delegation/revocation visibility;10freshness plus nonce/epochregression;11process-versus-outcome remedy;12integrated assurance and completion audit. Sharedsources use distinctquestions,not12independentliteraturesearches. Allpositive transferfixtures fictional. Laterstages read/hash actualpredecessor transfer/record;finalaudit reads selectedearlier rawresults.
+
+Validationchecks separate from hypotheses. Legacy externalinputcriterion expectedFAIL;candidate knownboundarycriterion testedprospectively. Hidden-conflict and lease sufficiency hypotheses may remainNOTSUPPORTED even if implementationpredicates pass. Broader independence,realoutcomes,fieldrobustness and all-workintegration are not inferred from tests.

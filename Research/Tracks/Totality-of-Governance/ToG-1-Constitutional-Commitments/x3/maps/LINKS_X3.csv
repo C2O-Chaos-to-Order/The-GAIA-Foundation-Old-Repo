@@ -1,0 +1,26 @@
+link_id,target,relationship,source_basis,label,scope_limit
+TOG1-X3-LINK-BASELINE,GAIA-RES-TOG1-C0-001,Extends conversational baseline findings;original archive unavailable,C00,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-CHARTER,GAIA-GOV-TOG-001§4,"Clause-by-clause research,not adoption",R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-AUTHORITY,GOVERNANCE/GATE_AUTHORITY.md,Preserves human authority and independent-review blockers,R02,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-RISK,GOVERNANCE/RISK_LEVELS.md,Preserves RL ladder;no silent substitution,R03,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-MAPS,Research/Maps-and-Matrix/README.md,Local indexes only;v1–v43 remain untouched,R04,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-TOG2,ToG2 and PC6,"Reviewer/authority proposals are downstream inputs,not duplicated reports",C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-TOG4,ToG4 and PC5,"Tri-state models supply research inputs,not an adopted dashboard",C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-TOG5,ToG5 and Good/Greater Good,Rights constraints and non-offsetting;primary owner framework not reconstructed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-TOG6,ToG6,"Lifecycle record fields are proposed controls,not operational security implementation",R01;E03,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-TOG8,ToG8,"Appeal,incident and correction questions remain downstream",R01;E03,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-TOG9,ToG9 and PC2,Formal cross-standard/legal reconciliation still pending,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-PC1,PC1,Canonical identities and owner decisions not resolved here,C00,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-PC4,PC4,Provisional domain homes require owner confirmation,C00,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-NA,N-A Level-Name Crosswalk,Levels distinct from review authority and empirical validation,C00,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-PHASES,Six-phase synthesis,Cycle counts not independence;no phase assignment inferred,C00,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-E1,The Connection,Same-author integrity/reproduction checks not independent content review,C00,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-LOVE,Master Report Unconditional and Conditional Love,Benefit/love framing not a waiver of rights,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-SSSC,Soul/Spirit/Subconscious/Consciousness track,Extraordinary framing not exemption from evidence or authority,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R1,Foundational Report1:Body,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R2,Foundational Report2:Mind,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R3,Foundational Report3:Soul,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R4,Foundational Report4:Spirit,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R5,Foundational Report5:Consciousness,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R6,Foundational Report6:Earth,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration
+TOG1-X3-LINK-R7,Foundational Report7:Unified Framework,Proposed governance applicability only;source claims of prior report not reassessed,C00;R01,Plausible,Scope-level only;not a claim-level corpus census or canonical integration

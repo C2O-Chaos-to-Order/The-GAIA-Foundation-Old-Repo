@@ -1,0 +1,18 @@
+{
+  "evidence_authenticity": null,
+  "applicability_authority": null,
+  "support_currentness": null,
+  "reviewer_independence": null,
+  "delegation_bounds": null,
+  "policy_freshness": null,
+  "atomicity": null,
+  "remedy_outcome": null,
+  "human_approval": null,
+  "residual_findings": null,
+  "independent_ethics_review": null,
+  "owner_disposition": null,
+  "status": "TEMPLATE;NOT AN APPROVAL",
+  "proposed_gate": "INDETERMINATE",
+  "actual_authorization": "NONE",
+  "note": "Unfilled fields are unknown,notPASS. This record is not proof of truth,competence,rights protection or authority."
+}

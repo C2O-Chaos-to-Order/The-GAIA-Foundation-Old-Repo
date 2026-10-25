@@ -1,0 +1,92 @@
+{
+  "majority": {
+    "states": {
+      "evidence_authenticity": "PASS",
+      "applicability_authority": "PASS",
+      "support_currentness": "PASS",
+      "reviewer_independence": "PASS",
+      "delegation_bounds": "PASS",
+      "policy_freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy_outcome": "PASS",
+      "human_approval": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "form_only": {
+    "states": {
+      "evidence_authenticity": "PASS",
+      "applicability_authority": "PASS",
+      "support_currentness": "PASS",
+      "reviewer_independence": "PASS",
+      "delegation_bounds": "PASS",
+      "policy_freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy_outcome": "PASS",
+      "human_approval": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "cycle_count_override": {
+    "states": {
+      "evidence_authenticity": "PASS",
+      "applicability_authority": "PASS",
+      "support_currentness": "PASS",
+      "reviewer_independence": "PASS",
+      "delegation_bounds": "PASS",
+      "policy_freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy_outcome": "PASS",
+      "human_approval": "FAIL"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "ignore_unknown": {
+    "states": {
+      "evidence_authenticity": "PASS",
+      "applicability_authority": "PASS",
+      "support_currentness": "PASS",
+      "reviewer_independence": "PASS",
+      "delegation_bounds": "PASS",
+      "policy_freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy_outcome": "PASS",
+      "human_approval": "INDETERMINATE"
+    },
+    "proper": "INDETERMINATE",
+    "mutant": "PASS"
+  },
+  "owner_override": {
+    "states": {
+      "evidence_authenticity": "PASS",
+      "applicability_authority": "PASS",
+      "support_currentness": "PASS",
+      "reviewer_independence": "PASS",
+      "delegation_bounds": "PASS",
+      "policy_freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy_outcome": "FAIL",
+      "human_approval": "PASS"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  },
+  "process_without_remedy": {
+    "states": {
+      "evidence_authenticity": "PASS",
+      "applicability_authority": "PASS",
+      "support_currentness": "PASS",
+      "reviewer_independence": "PASS",
+      "delegation_bounds": "PASS",
+      "policy_freshness": "PASS",
+      "atomicity": "PASS",
+      "remedy_outcome": "FAIL",
+      "human_approval": "PASS"
+    },
+    "proper": "FAIL",
+    "mutant": "PASS"
+  }
+}

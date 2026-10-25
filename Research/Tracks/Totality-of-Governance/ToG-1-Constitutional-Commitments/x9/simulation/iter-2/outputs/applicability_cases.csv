@@ -1,0 +1,1783 @@
+clause,disposition,authority,rationale_kind,scope_fresh,control_state,rationale_text,authority_record,decision,oracle
+4.1,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.1,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.1,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.1,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.1,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.1,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.1,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.1,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.1,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.1,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.1,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.1,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.1,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.1,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.1,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.1,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.1,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.1,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.1,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.1,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.1,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.1,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.1,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.1,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.1,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.1,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.1,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.1,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.1,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.1,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.1,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,missing,False,PASS,,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,missing,True,PASS,,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.1,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.1,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.1,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.1,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.1,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.1,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.1,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.1,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.1,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.1,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.1,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.2,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.2,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.2,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.2,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.2,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.2,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.2,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.2,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.2,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.2,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.2,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.2,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.2,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.2,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.2,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.2,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.2,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.2,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.2,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.2,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.2,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.2,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.2,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.2,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.2,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.2,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.2,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.2,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.2,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.2,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.2,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.2,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.2,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.2,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.2,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.2,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.2,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.2,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.2,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.2,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.2,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.2,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.2,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.2,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.3,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.3,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.3,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.3,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.3,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.3,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.3,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.3,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.3,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.3,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.3,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.3,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.3,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.3,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.3,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.3,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.3,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.3,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.3,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.3,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.3,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.3,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.3,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.3,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.3,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.3,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.3,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.3,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.3,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.3,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.3,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.3,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.3,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.3,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.3,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.3,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.3,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.3,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.3,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.3,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.3,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.3,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.3,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.3,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.4,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.4,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.4,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.4,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.4,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.4,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.4,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.4,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.4,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.4,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.4,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.4,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.4,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.4,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.4,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.4,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.4,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.4,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.4,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.4,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.4,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.4,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.4,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.4,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.4,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.4,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.4,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.4,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.4,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.4,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.4,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.4,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.4,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.4,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.4,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.4,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.4,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.4,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.4,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.4,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.4,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.4,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.4,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.4,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.5,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.5,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.5,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.5,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.5,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.5,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.5,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.5,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.5,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.5,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.5,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.5,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.5,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.5,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.5,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.5,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.5,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.5,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.5,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.5,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.5,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.5,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.5,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.5,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.5,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.5,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.5,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.5,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.5,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.5,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.5,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.5,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.5,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.5,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.5,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.5,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.5,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.5,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.5,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.5,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.5,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.5,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.5,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.5,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.6,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.6,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.6,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.6,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.6,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.6,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.6,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.6,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.6,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.6,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.6,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.6,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.6,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.6,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.6,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.6,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.6,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.6,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.6,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.6,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.6,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.6,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.6,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.6,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.6,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.6,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.6,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.6,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.6,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.6,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.6,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.6,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.6,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.6,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.6,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.6,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.6,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.6,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.6,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.6,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.6,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.6,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.6,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.6,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.7,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.7,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.7,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.7,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.7,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.7,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.7,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.7,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.7,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.7,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.7,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.7,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.7,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.7,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.7,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.7,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.7,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.7,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.7,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.7,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.7,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.7,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.7,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.7,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.7,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.7,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.7,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.7,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.7,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.7,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.7,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.7,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.7,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.7,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.7,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.7,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.7,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.7,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.7,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.7,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.7,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.7,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.7,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.7,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.8,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.8,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.8,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.8,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.8,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.8,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.8,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.8,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.8,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.8,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.8,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.8,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.8,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.8,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.8,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.8,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.8,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.8,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.8,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.8,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.8,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.8,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.8,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.8,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.8,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.8,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.8,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.8,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.8,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.8,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.8,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.8,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.8,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.8,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.8,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.8,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.8,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.8,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.8,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.8,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.8,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.8,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.8,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.8,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.9,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.9,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.9,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.9,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.9,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.9,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.9,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.9,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.9,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.9,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.9,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.9,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.9,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.9,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.9,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.9,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.9,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.9,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.9,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.9,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.9,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.9,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.9,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.9,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.9,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.9,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.9,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.9,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.9,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.9,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.9,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.9,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.9,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.9,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.9,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.9,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.9,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.9,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.9,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.9,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.9,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.9,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.9,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.9,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.10,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.10,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.10,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.10,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.10,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.10,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.10,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.10,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.10,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.10,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.10,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.10,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.10,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.10,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.10,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.10,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.10,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.10,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.10,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.10,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.10,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.10,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.10,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.10,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.10,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.10,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.10,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.10,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.10,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.10,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.10,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.10,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.10,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.10,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.10,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.10,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.10,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.10,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.10,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.10,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.10,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.10,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.10,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.10,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.11,applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,PASS,PASS
+4.11,applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,PASS,PASS
+4.11,applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.11,applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,PASS,PASS
+4.11,applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.11,applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.11,applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,PASS,PASS
+4.11,applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.11,applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.11,applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,FAIL,missing,False,PASS,,,PASS,PASS
+4.11,applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.11,applicable,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,applicable,FAIL,missing,True,PASS,,,PASS,PASS
+4.11,applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.11,applicable,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.11,applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.11,applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.11,applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,PASS,PASS
+4.11,applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,INDETERMINATE,missing,False,PASS,,,PASS,PASS
+4.11,applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.11,applicable,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,applicable,INDETERMINATE,missing,True,PASS,,,PASS,PASS
+4.11,applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.11,applicable,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,PASS,PASS
+4.11,applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,PASS,PASS
+4.11,applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,not_applicable,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,missing,False,PASS,,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,missing,True,PASS,,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,not_applicable,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,missing,False,PASS,,,FAIL,FAIL
+4.11,not_applicable,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.11,not_applicable,FAIL,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.11,not_applicable,FAIL,missing,True,PASS,,,FAIL,FAIL
+4.11,not_applicable,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.11,not_applicable,FAIL,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.11,not_applicable,FAIL,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,missing,False,PASS,,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,missing,False,INDETERMINATE,,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,missing,True,PASS,,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,missing,True,INDETERMINATE,,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,not_applicable,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,FAIL,FAIL
+4.11,unknown,PASS,valid,False,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,valid,False,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,unknown,PASS,valid,False,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,valid,True,PASS,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,valid,True,FAIL,Synthetic conditional scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,unknown,PASS,valid,True,INDETERMINATE,Synthetic conditional scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,missing,False,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,missing,False,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.11,unknown,PASS,missing,False,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,missing,True,PASS,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,missing,True,FAIL,,synthetic://owner/disposition,FAIL,FAIL
+4.11,unknown,PASS,missing,True,INDETERMINATE,,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,wrong_scope,False,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,wrong_scope,False,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,unknown,PASS,wrong_scope,False,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,wrong_scope,True,PASS,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,PASS,wrong_scope,True,FAIL,Different scope rationale,synthetic://owner/disposition,FAIL,FAIL
+4.11,unknown,PASS,wrong_scope,True,INDETERMINATE,Different scope rationale,synthetic://owner/disposition,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,unknown,FAIL,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,unknown,FAIL,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,missing,False,FAIL,,,FAIL,FAIL
+4.11,unknown,FAIL,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,missing,True,FAIL,,,FAIL,FAIL
+4.11,unknown,FAIL,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,unknown,FAIL,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,FAIL,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,unknown,FAIL,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,False,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,False,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,unknown,INDETERMINATE,valid,False,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,True,PASS,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,valid,True,FAIL,Synthetic conditional scope rationale,,FAIL,FAIL
+4.11,unknown,INDETERMINATE,valid,True,INDETERMINATE,Synthetic conditional scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,False,PASS,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,False,FAIL,,,FAIL,FAIL
+4.11,unknown,INDETERMINATE,missing,False,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,True,PASS,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,missing,True,FAIL,,,FAIL,FAIL
+4.11,unknown,INDETERMINATE,missing,True,INDETERMINATE,,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,wrong_scope,False,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,wrong_scope,False,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,unknown,INDETERMINATE,wrong_scope,False,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,wrong_scope,True,PASS,Different scope rationale,,INDETERMINATE,INDETERMINATE
+4.11,unknown,INDETERMINATE,wrong_scope,True,FAIL,Different scope rationale,,FAIL,FAIL
+4.11,unknown,INDETERMINATE,wrong_scope,True,INDETERMINATE,Different scope rationale,,INDETERMINATE,INDETERMINATE
