@@ -1,0 +1,12 @@
+factor_id,factor,kind,SOUL,SPIRIT,SUBC,CONS
+F01,What is measured is a report or a belief,method,TD-SOUL-10;TD-SOUL-01,TD-SPIRIT-07;TD-SPIRIT-01,TD-SUBC-18;TD-SUBC-01,TD-CONS-01;TD-CONS-04
+F02,Cut-offs and thresholds misclassify,method,TD-SOUL-26,TD-SPIRIT-05;TD-SPIRIT-27,TD-SUBC-27;TD-SUBC-19,TD-CONS-11;TD-CONS-02
+F03,Headline effects are fragile under replication or testing,method,TD-SOUL-15;TD-SOUL-02,TD-SPIRIT-02;TD-SPIRIT-03,TD-SUBC-03;TD-SUBC-32,TD-CONS-17;TD-CONS-19
+F04,Association is not cause,method,TD-SOUL-31,TD-SPIRIT-10;TD-SPIRIT-18,TD-SUBC-38;TD-SUBC-31,TD-CONS-13
+F05,Sleep dreaming and unresponsive states,substantive,TD-SOUL-13,,TD-SUBC-05;TD-SUBC-06;TD-SUBC-10,TD-CONS-20;TD-CONS-08
+F06,Death and the end of life,substantive,TD-SOUL-27;TD-SOUL-13;TD-SOUL-20,TD-SPIRIT-31,,TD-CONS-29;TD-CONS-10
+F07,The self and what persists,tradition,TD-SOUL-09;TD-SOUL-36,TD-SPIRIT-07,TD-SUBC-10,TD-CONS-06
+F08,Contemplative and nondual awareness,tradition,,TD-SPIRIT-07,TD-SUBC-09,TD-CONS-04;TD-CONS-16
+F09,Responsibility care and justice,ethics,TD-SOUL-30,TD-SPIRIT-16;TD-SPIRIT-14,TD-SUBC-28;TD-SUBC-36,TD-CONS-22;TD-CONS-24
+F10,Degrees rather than a binary,substantive,,TD-SPIRIT-27,TD-SUBC-11;TD-SUBC-08,TD-CONS-09;TD-CONS-29
+F11,Beliefs about the topic shape moral judgment,substantive,TD-SOUL-30,,TD-SUBC-28,TD-CONS-22

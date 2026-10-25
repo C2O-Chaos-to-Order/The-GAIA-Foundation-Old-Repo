@@ -1,0 +1,169 @@
+{
+ "cycle": "DVA",
+ "n_runs": 18,
+ "all_identical": true,
+ "runs": [
+  {
+   "sim_id": "SIM-DV-NAT-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-NAT-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-NAT-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-FOR-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-FOR-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-FOR-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-SOC-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-SOC-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-SOC-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-APP-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-APP-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-APP-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-HUM-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-HUM-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-HUM-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-PHI-A",
+   "iteration": 1,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-PHI-A",
+   "iteration": 2,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  },
+  {
+   "sim_id": "SIM-DV-PHI-A",
+   "iteration": 3,
+   "exit": 0,
+   "results_identical": true,
+   "checks_identical": true,
+   "params_identical": true,
+   "spec_identical": true
+  }
+ ]
+}
