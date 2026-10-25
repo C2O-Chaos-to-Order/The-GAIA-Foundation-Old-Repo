@@ -1,0 +1,79 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:39.513614+00:00",
+ "finished_utc": "2026-10-25T00:01:40.091403+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-4  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "cb8906ee80a0cfd7d02556d4688650e99762f3b98afe31b41fd4957b4d284888",
+ "params_sha256": "fdc1327ef58ef745e269d034907917f6b630913c1fca3ff53eb479690ce947ef",
+ "results_sha256": "6fa2dc8b5365e486678411f40b34dfd72e286f152f2bc6b128f0839629a98cf8",
+ "results": {
+  "cells": {
+   "rho0.32_up0.3": {
+    "rank_corr": 0.31,
+    "up": 0.4989,
+    "down": 0.3021,
+    "stay": 0.1991
+   }
+  },
+  "n": 200000,
+  "K": 70,
+  "thr": 7.5
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "independent latent statuses give |rank correlation| < 0.01 (n 200,000)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "structural upgrading (sons shifted up 0.3 SD): up exceeds down by at least 0.10",
+   "observed": {
+    "cells": {
+     "rho0.32_up0.3": {
+      "rank_corr": 0.31,
+      "up": 0.4989,
+      "down": 0.3021,
+      "stay": 0.1991
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cells": {
+     "rho0.32_up0.3": {
+      "rank_corr": 0.31,
+      "up": 0.4989,
+      "down": 0.3021,
+      "stay": 0.1991
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
