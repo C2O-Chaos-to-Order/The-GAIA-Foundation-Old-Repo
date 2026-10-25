@@ -340,6 +340,16 @@ def render(cycle_dir, it):
     L.append("\n### Proposed register (proposals; Wave 0 approval is the owner's alone)\n\n| Domain | Pri. | Doc ID | Home | Owner | Reviewer roles | UR (laws) | ToG §6 | Audit (open) | PC-4 primary reports | Label |\n|---|---|---|---|---|---|---|---|---|---|---|")
     for r in rows:
         L.append(f"| {sh(r['stable_id'])} {r['title']} | {r['priority']} | {r['doc_id']} | {r['home_type']}: `{r['canonical_home']}` | {r['owner'].split(' (')[0]} | {r['reviewer_roles']} | {r['ur_domains']} ({r['ur_laws']}) | {r['tog6'].replace('ToG6-', '')} | {r['audit_open'] or '—'} | {r['pc4_primary_reports'] or '—'} | {r['label']} |")
+    if "anchor_support_counts" in m:
+        L.append(f"\n### Anchor review\n\n- Support of cited anchors: {m['anchor_support_counts']}\n- Baseline anchors replaced: " + ("; ".join(m["anchors_replaced"]) or "none") + "\n- Domains with no anchor reviewed `direct`: " + (", ".join(sh(x) for x in m["domains_without_direct_anchor"]) or "none"))
+    if "open_remedy_mismatch" in m:
+        L.append("\n### Non-PASS audit items whose remedy home is not the primary domain's home\n\n| Item | Remedy home vs primary domain's home |\n|---|---|")
+        for x in m["open_remedy_mismatch"]:
+            a, _, b = x.partition(": ")
+            L.append(f"| {a} | {b} |")
+        L.append("\nPrimary audit load per domain: " + ", ".join(f"{sh(k)} {v}" for k, v in m["primary_audit_load"].items()))
+    if "authority_relation_counts" in m:
+        L.append(f"\n### Authority register\n\n- Relations: {m['authority_relation_counts']}\n- Parent sources (domains citing each): " + ", ".join(f"`{k}` {v}" for k, v in m["parent_sources"].items()))
     return "\n".join(L) + "\n"
 
 if __name__ == "__main__":
