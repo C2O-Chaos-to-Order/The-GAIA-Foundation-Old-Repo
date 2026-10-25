@@ -1,0 +1,65 @@
+item_id,item_type,verdict,challenge,response
+CN0-01,claim,keep,Is 'not exact' fair to the Work Queue?,"The queue says 'none among the four topics' (line 203); TL-08 is one Hypothetical link, which the wording states."
+CN0-02,claim,keep,Are the duplicate pairs really the same works?,Same DOI and PMID in each pair (tool census); recorded as register hygiene only.
+CN0-03,claim,keep,Is grouping four facts as one factor an inference that E overstates?,The claim is the conjunction of four Established ledger facts; the grouping is named in its limits as judgment.
+CN0-04,claim,revise,"'The track showed the cut-off misclassifies' reads as an empirical error rate, but the four results are simulations.",Wording now says the simulations showed the cut-off can misclassify; E kept as a statement about simulation results.
+CN0-05,claim,keep,"Consciousness fragility is of theory predictions, not effect replication.",Already Plausible for this reason; factor row F03/CONS dropped under the reviewed rule.
+CN0-06,claim,keep,Does the end-of-life evidence carry the factor?,"Plausible, with TD-CONS-29's weakness in the limits."
+CN0-07,claim,revise,The claim mixes a tradition description (Advaita) into a science claim without marking it.,"Marked descriptive and flagged as a tradition claim; E kept, since every part is an Established description or finding."
+CN0-08,claim,keep,Is 'different empirical object' measured or framed?,Limits say it follows the SSSC FRAMEWORK; Plausible.
+CN0-09,claim,keep,Could Soul/Spirit also be a dependent pair?,Limits point to x6; CN6-02 records no single cross-tradition boundary.
+CN0-10,claim,keep,Does E make the traditions' view true?,Limits: Established as a description only; passes the tradition rule.
+CN0-11,claim,revise,"The limits cite 'Yogacara's no-self view, x6', but x6 cites Indian Buddhist anatman (CN6-03), not Yogacara specifically.",Limits corrected to Indian Buddhist philosophy's no-self view (CN6-03).
+CN0-12,claim,keep,An absence in these ledgers is not an absence in the world.,Limits already say so and point to CN3-03.
+CN0-13,claim,keep,Census of the phase track's own Being placements.,Value checked by the tool.
+CN0-14,claim,keep,Owner's claim; is it marked and untested?,"Marked as the owner's, Hypothetical, quoted verbatim from the Work Queue."
+CN0-15,claim,keep,Owner's claim; alternative views kept?,Limits note Report 6's Life as the Soul of the Earth (Work Queue §L).
+CN0-16,claim,keep,Does it imply physical entanglement?,README §9.2 disclaimer quoted; nothing tests it.
+CN0-17,claim,keep,Is GAIA kept separate from the science?,"Framing, never evidence; checked by the separability metric."
+CN0-18,claim,downgrade,"A factor this broad (responsibility, care or justice) would fit almost any four topics about human life; the Spirit row rests on six focus groups and a PS claim.",Downgraded to Hypothetical; factor row F09/SPIRIT dropped under the reviewed rule.
+CN3-01,claim,keep,Census of implicit dependencies.,Value checked by the tool.
+CN3-02,claim,keep,Would merging duplicates change it?,x6 iteration 6 showed it does not.
+CN3-03,claim,keep,A toy lesson transferred by analogy.,"Hypothetical, with the analogy in the limits."
+CN3-04,claim,keep,A toy shows possibility only.,"Hypothetical; limits say P84 and P105 are arguments, not tests."
+CN3-05,claim,revise,"The Soul part (ego dissolution as the Soul topic's question of the self) is this report's reading, carried by a PS basis, inside a Plausible claim.",Soul topic and TD-SOUL-09 removed; the reading is noted in the limits as PS; Plausible kept for Spirit-Consciousness.
+CN6-01,claim,keep,Lexical overlap is not shared meaning.,"Limits say so; E as a description of texts, as in L10."
+CN6-02,claim,keep,Does the typology instability (C4-R3-01) bear on traditions or on the agent's coding?,"On the coding; the claim says tradition-level categories are not robust partitions, PS."
+CN6-03,claim,revise,Kind 'unity' inflates unity when the claim reports that one tradition denies what others teach.,Kind changed to difference; label and wording kept.
+CN6-04,claim,keep,Is the interpretive dispute fairly balanced?,"Both readings given; PS, no decisive test."
+CN6-05,claim,keep,No entropy study of mystical states was read.,"Hypothetical, stated in the limits."
+CN6-06,claim,keep,S13 abstract only.,Plausible for this reason.
+CN6-07,claim,revise,'Nearer to pure consciousness' is the agent's gloss; TD-SUBC-10 says deep sleep is partial experience of turiya's bliss.,Gloss replaced by the source's own description; E kept.
+CN6-08,claim,keep,One theory family presented as the account?,Limits: one family among several; Plausible.
+CN6-09,claim,keep,Thin sources for African and Indigenous traditions; outsider synthesis.,"PS, with the source limits stated; Report 4's own interpretation."
+CN6-10,claim,keep,"Report 2 is Mind, not the Subconscious.",Stated in the limits; Plausible.
+CN6-11,claim,keep,Census of main links among Reports 2-5.,Value checked by the tool; its basis use does not count as carrying (x9 metric).
+CL-01,link,keep,Dependence or definition?,Plausible; the boundary dependence is argued in TD-SUBC-08 and TL-02.
+CL-02,link,keep,Mechanism proposal.,Hypothetical.
+CL-03,link,keep,Do both really change conclusions with the threshold?,Each basis is an Established ledger result.
+CL-04,link,keep,Report-dependence shared.,Plausible.
+CL-05,link,keep,One thing or two?,PS by construction.
+CL-06,link,keep,"Folk beliefs track the mental side: dependence of beliefs, not of souls on consciousness.",Statement is about beliefs; Plausible.
+CL-07,link,revise,'Interaction' claims more than the basis shows: the same events are studied by two topics.,Type changed to shared factor.
+CL-08,link,keep,"Common cause rests on Terror Management, which failed replication in places.",Hypothetical.
+CL-09,link,keep,Framework distinction.,PS.
+CL-10,link,keep,Implicit measures of soul beliefs.,Plausible.
+CL-11,link,keep,Sleep timing coincidence.,Hypothetical.
+CL-12,link,keep,Two failed replications make a shared method weakness?,"Both Established; the link is about method, not objects."
+CL-13,link,keep,Vocabulary of realisation.,PS.
+CL-14,link,downgrade,An Established 'dependence' link asserts a relation between the topics that holds only within the described teachings.,Downgraded to PS; CN0-10 keeps the description Established.
+CL-15,link,downgrade,"One feasibility study (9 usable EEGs, 3 correct guesses) carries an 'interaction'.",Downgraded to Hypothetical.
+CL-16,link,keep,Beliefs and moral judgment in two topics.,Plausible; narrower than CN0-18.
+CL-17,link,keep,Judgments about minds in justice.,Plausible; specific to freedom and consciousness judgments.
+CL-18,link,keep,Ego dissolution measured in both.,Plausible.
+CL-19,link,keep,Track's own filing.,Plausible.
+CL-20,link,keep,As strong as the NDE hypothesis.,Hypothetical.
+CL-21,link,keep,Lexical description as a link.,E as in L10; shared vocabulary is a fact about texts.
+CL-22,link,keep,Carried from L11.,PS.
+CL-23,link,keep,Carried from L12 and L27.,PS.
+CL-24,link,keep,Carried from L18.,Hypothetical.
+CL-25,link,keep,Teachings described.,PS.
+CL-26,link,keep,Higher-order relational definition.,Plausible.
+CL-27,link,keep,Thin sources.,PS.
+CL-28,link,keep,Carried from L08.,Plausible.
+F03/CONS,factor_row,drop,"For Consciousness, 'fragile effects' is challenged theory predictions, not failed replication of an effect.",Row dropped under the reviewed rule.
+F09/SPIRIT,factor_row,drop,"The Spirit row rests on six focus groups (TD-SPIRIT-14, Plausible) and a PS claim (TD-SPIRIT-16).",Row dropped under the reviewed rule.

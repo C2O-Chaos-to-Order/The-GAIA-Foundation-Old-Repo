@@ -128,6 +128,9 @@ def run(cycle_dir, it, outdir=None):
         if cr: return set(split(cr["source_ids"])) | set().union(*[cited_by(b) for b in split(cr["basis"]) if b != bid] or [set()])
         if bid in allsrc: return {bid}
         return set()
+    x9 = cfg.get("x9")
+    review = csvrows(P(x9["review"])) if x9 else []
+    dropped = {r["item_id"] for r in review if r["item_type"] == "factor_row" and r["verdict"] == "drop"}
     # 1 factor rows
     fac_rows = []
     for r in fac:
@@ -145,7 +148,8 @@ def run(cycle_dir, it, outdir=None):
         ep = any(l in ("Established", "Plausible") for l in labs)
         eo = any(l == "Established" for l in labs)
         counts = {"as_judged": True, "strict": ep, "established_only": eo,
-                  "no_method": r["kind"] != "method", "no_tradition": r["kind"] != "tradition"}[rule]
+                  "no_method": r["kind"] != "method", "no_tradition": r["kind"] != "tradition",
+                  "reviewed": f"{r['factor_id']}/{r['topic']}" not in dropped}[rule]
         fac_rows.append([r["factor_id"], r["factor"], r["kind"], r["topic"], ";".join(labs), ep, counts])
     wcsv(os.path.join(data, "factor_topic.csv"), ["factor_id", "factor", "kind", "topic", "basis_labels", "has_E_or_P_basis", "counted"], fac_rows)
     inc = {}
@@ -366,6 +370,58 @@ def run(cycle_dir, it, outdir=None):
                 v = m.get(r["metric"]); v = len(v) if isinstance(v, (list, dict)) else v
                 if str(v) != r["value"]: cens3.append(f"{r['claim_id']}: {r['metric']}={v} vs stated {r['value']}")
         m["census_claim_mismatches"] = sorted(cens3)
+    # 3d x9 additions: adversarial review, Report 7's strict rule, separability (behind config key)
+    if x9:
+        pvc = {r["claim_id"]: r for r in csvrows(P(x3["previous"]["claims"]))}
+        pvl = {r["link_id"]: r for r in csvrows(P(x3["previous"]["links"]))}
+        cur = {**{r["claim_id"]: r for r in cl}, **{r["link_id"]: r for r in lk}}
+        prev = {**pvc, **pvl}
+        rv = {r["item_id"]: r for r in review if r["item_type"] in ("claim", "link")}
+        m["review_missing"] = sorted(set(prev) - set(rv))
+        m["review_verdicts"] = {v: sum(1 for r in review if r["verdict"] == v) for v in x9["verdicts"]}
+        fr_ids = {f"{r['factor_id']}/{r['topic']}" for r in fac}
+        inc_ = []
+        for r in review:
+            if r["verdict"] not in x9["verdicts"]: problems.append(f"review {r['item_id']} bad verdict")
+            if not r["challenge"].strip() or not r["response"].strip(): problems.append(f"review {r['item_id']} missing challenge or response")
+            if r["item_type"] == "factor_row":
+                if r["item_id"] not in fr_ids: inc_.append(f"{r['item_id']}: no such factor row")
+                if r["verdict"] not in ("keep", "drop"): inc_.append(f"{r['item_id']}: factor rows are kept or dropped")
+                continue
+            iid, v = r["item_id"], r["verdict"]
+            if iid not in prev: inc_.append(f"{iid}: not in the previous cycle"); continue
+            a, b = prev[iid], cur.get(iid)
+            if v == "withdraw":
+                if b: inc_.append(f"{iid}: withdrawn but still present")
+                continue
+            if not b: inc_.append(f"{iid}: missing without a withdraw verdict"); continue
+            same = {k: x for k, x in a.items() if k != "change_vs_prev"} == {k: x for k, x in b.items() if k != "change_vs_prev"}
+            la, lb = a["framework_label"], b["framework_label"]
+            lower = (la in RANK and lb in RANK and RANK[lb] < RANK[la]) or (la in ("Established", "Plausible") and lb == "Philosophical/Spiritual")
+            if v == "keep" and not same: inc_.append(f"{iid}: kept but changed")
+            if v == "revise" and (same or la != lb): inc_.append(f"{iid}: revise must change the row and keep the label")
+            if v == "downgrade" and not lower: inc_.append(f"{iid}: downgrade without a lower label")
+            if v != "downgrade" and lower: inc_.append(f"{iid}: label lowered without a downgrade verdict")
+        for iid in set(cur) - set(prev):
+            if (cur[iid].get("change_vs_prev") or "") != "new": inc_.append(f"{iid}: new item not marked new")
+        m["review_inconsistencies"] = sorted(inc_)
+        m["review_downgrades"] = sorted(r["item_id"] for r in review if r["verdict"] == "downgrade")
+        m["review_factor_rows_dropped"] = sorted(dropped)
+        sev, sep = [], []
+        for r in cl + lk:
+            iid = r.get("claim_id") or r["link_id"]
+            if r["framework_label"] != "Established" or r.get("kind") in ("census", "owner"): continue
+            bl = [(b, lab[b]) for b in split(r["basis"]) if b in lab]
+            if any(l != "Established" for _, l in bl): sev.append(f"{iid}: " + ",".join(b for b, l in bl if l != "Established"))
+            if any(l in ("Philosophical/Spiritual", "Hypothetical") for _, l in bl) or set(split(r.get("source_ids", ""))) & set(x9["framing_ids"]):
+                sep.append(iid)
+        m["strict_e_violations"] = sorted(sev); m["gaia_separability_violations"] = sorted(sep)
+        m["tradition_claims_without_source"] = sorted(r["claim_id"] for r in cl if r.get("tradition") == "yes" and r["kind"] != "framing"
+                                                      and not set(split(r["source_ids"])) - set(x9["framing_ids"]))
+        used2 = set()
+        for r in [r for r in cl if r["kind"] != "census"] + lk: used2 |= {b for b in split(r["basis"]) if b in D["mlinks"]}
+        m["main_links_not_used_substantive"] = sorted(set(m["main_links_among_topics"]) - used2)
+        m["problems"] = sorted(problems)
     # 4 boundary scan against the Totality Suite (this report's folder, plus this run's outputs)
     W = cfg["boundary_window"]; here = os.path.abspath(cycle_dir)
     bs = pc4.boundary_scan(cfg["suite_path"], ROOT, W, exclude=(os.path.relpath(here, ROOT) + os.sep,))
@@ -429,6 +485,10 @@ def render(cycle_dir, it):
         L.append(f"\nPhase-audit verdicts: " + ", ".join(f"{k} {v}" for k, v in m["phase_audit_verdicts"].items()) + f". Unaudited matches: {', '.join(m['phase_audit_missing']) or 'none'}; audit rows without a match: {', '.join(m['phase_audit_extra']) or 'none'}.")
         L.append(f"\nTradition families named in tradition claims: {', '.join(m['tradition_families_named']) or 'none'}; absent: {', '.join(m['tradition_families_absent']) or 'none'}. Tradition-rule violations: {', '.join(m['tradition_rule_violations']) or 'none'}.")
         L.append(f"\nMain-report links among the four topics' reports: {', '.join(m['main_links_among_topics'])}; used here: {', '.join(m['main_links_used']) or 'none'}; not used: {', '.join(m['main_links_among_topics_not_used']) or 'none'}; topic pairs without a main-report link: {', '.join(m['main_pairs_without_link']) or 'none'}. Source-ID conflicts between registers: {', '.join(m['source_id_conflicts']) or 'none'}.")
+    if "review_verdicts" in m:
+        L.append("\n### x9: adversarial review and the Master Report's rules\n")
+        L.append("Review verdicts: " + ", ".join(f"{k} {v}" for k, v in m["review_verdicts"].items()) + f". Downgrades: {', '.join(m['review_downgrades']) or 'none'}. Factor rows dropped under the reviewed rule: {', '.join(m['review_factor_rows_dropped']) or 'none'}. Not reviewed: {', '.join(m['review_missing']) or 'none'}. Inconsistencies: {', '.join(m['review_inconsistencies']) or 'none'}.")
+        L.append(f"\nReport 7's strict Established rule (every basis Established): {', '.join(m['strict_e_violations']) or 'no violation'}. GAIA separability (no Established item on a PS/H basis or the framing source): {', '.join(m['gaia_separability_violations']) or 'no violation'}. Tradition claims without a non-framing source: {', '.join(m['tradition_claims_without_source']) or 'none'}. Main links among Reports 2-5 not carried by a non-census claim or link: {', '.join(m['main_links_not_used_substantive']) or 'none'}.")
     for key in ("dangling_basis", "unresolved_sources", "sources_not_in_basis", "label_rule_violations", "owner_rule_violations", "census_claim_mismatches", "problems"):
         L.append(f"\n{key}: {', '.join(m[key]) or 'none'}")
     return "\n".join(L) + "\n"
