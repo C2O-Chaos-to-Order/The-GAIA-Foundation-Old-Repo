@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-FOR-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:00:41.084740+00:00",
+ "finished_utc": "2026-10-25T00:00:44.694023+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-10  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "9ecd1a2b2857b81183b05bb0f291e2bcb81d7594c551d733c871daf95d3aee0c",
+ "params_sha256": "2591e4f91b18d4f090858649fe3665505b21d8b40ee3a995e4f2fe209faec810",
+ "results_sha256": "74b31b0beaf563e70343854a3a580e99a8f2ae18e8f25c291b19ebe11280d6a4",
+ "results": {
+  "ex3_h_maxrelerr": 0.0,
+  "ex3_contraction_maxrelerr": 0.0,
+  "ex5_max_gen_eig": -4.0,
+  "z_ratio_t1": 0.13533528,
+  "e_minus2": 0.13533528,
+  "t_natural": 5.486,
+  "t_gradient": 23.4678,
+  "gd_end": [
+   0.999955,
+   0.999911
+  ]
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Example 3 in z-coordinates: |z(1)|/|z(0)| = e^-2 within 1e-6 (natural gradient flow, RK4)",
+   "observed": [
+    0.13533528,
+    0.13533528
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "box [-50, 50]^2: Example 3 identity and Example 5 rate hold",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "ex3_h_maxrelerr": 0.0,
+    "ex3_contraction_maxrelerr": 0.0,
+    "ex5_max_gen_eig": -4.0,
+    "z_ratio_t1": 0.13533528,
+    "e_minus2": 0.13533528,
+    "t_natural": 5.486,
+    "t_gradient": 23.4678,
+    "gd_end": [
+     0.999955,
+     0.999911
+    ]
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
