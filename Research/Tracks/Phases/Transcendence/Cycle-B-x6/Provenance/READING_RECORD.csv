@@ -1,0 +1,3 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P104,yes,TRB,6908,217c29398df20e35469ac7baaab643aff071115969260424c0763dcde7265e59,"Read end to end (abstract to discussion, Tables 1-3, figure captions; supplementary code and reference list not read; equations 2.1-2.3 absent from the extracted text)."
+P105,yes,TRB,9401,349e11b2c082748e9ae940de35426d7c8510b0c103d0007861f60123e539f151,"Read end to end (abstract to conclusion, Table 1, footnote; reference list not read)."
