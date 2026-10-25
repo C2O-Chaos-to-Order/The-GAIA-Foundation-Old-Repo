@@ -1,0 +1,167 @@
+{
+ "checks": [
+  {
+   "hypothesis": "Every source listed as read in full exists (hashes recorded)",
+   "id": "C3-1",
+   "metric": "missing_inputs",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every basis ID resolves (SSSC Cycles A-D, phases, links, factors, sources)",
+   "id": "C3-2",
+   "metric": "dangling_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source ID resolves to an existing register entry (no invented sources)",
+   "id": "C3-3",
+   "metric": "unresolved_sources",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source a claim lists is cited by one of its basis items",
+   "id": "C3-4",
+   "metric": "sources_not_in_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No claim or link is labelled above its weakest ranked basis",
+   "id": "C3-5",
+   "metric": "label_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every owner claim is marked as the owner's, labelled H or PS, and quotes the Work Queue verbatim",
+   "id": "C3-6",
+   "metric": "owner_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every census claim states the value the tool computes",
+   "id": "C3-7",
+   "metric": "census_claim_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Judgment rows are well-formed",
+   "id": "C3-8",
+   "metric": "problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every non-census, non-owner, non-framing claim has an anchor phrase found verbatim in a basis item",
+   "id": "C3-9",
+   "metric": "anchor_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every pair of topics has at least one claim that mentions the other topic's terms (wording or limits)",
+   "id": "C3-10",
+   "metric": "pairs_without_cross_mention",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 1
+  },
+  {
+   "hypothesis": "Every topic's terms match at least one phase-track claim",
+   "id": "C3-11",
+   "metric": "topics_without_phase_match",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Transcendence has more topic-matching claims than any other phase",
+   "id": "C3-12",
+   "metric": "transcendence_most_matches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 1
+  },
+  {
+   "hypothesis": "At least three limitation families occur in all four topics' limits",
+   "id": "C3-13",
+   "metric": "limitation_families_in_all_four",
+   "op": "ge",
+   "result": "FAIL",
+   "threshold": 3,
+   "value": 2
+  },
+  {
+   "hypothesis": "At least one factor is present in all four topics under this iteration's rule",
+   "id": "C3-14",
+   "metric": "unity_factors",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 4
+  },
+  {
+   "hypothesis": "At least one substantive or tradition factor is present in all four topics under this iteration's rule",
+   "id": "C3-15",
+   "metric": "unity_factors_substantive",
+   "op": "ge",
+   "result": "FAIL",
+   "threshold": 1,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every pair of topics has at least one Connection link",
+   "id": "C3-16",
+   "metric": "pairs_without_connection_link",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No 80-character overlap with the Totality Suite",
+   "id": "C3-17",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  }
+ ],
+ "cycle": "x3",
+ "iteration": 3,
+ "outputs": {
+  "cross_citations.csv": "6389f4459e823dd0d804ed36562f14a1950d97628e0eb56eb9bf00b0292c810e",
+  "cross_mentions.csv": "1e6d8c9b83146eacb3c1d78c9f080570df2c60fb86f1ccaa37cbd19142acb252",
+  "factor_topic.csv": "0c389785e12c5cf7c3efa875a6fe7fb13e057cb7e3f8e6f2e39c0a98db170ac3",
+  "limitation_families.csv": "96c2a9d13b3753faf6cc3ebd063e7ae3a83a5332b4a13af5ccc9b8954899ce68",
+  "pairs.csv": "9ef233eaa9b95c57176d77908439be364331893290d6f2109c47eafc605881f8",
+  "phase_topic.csv": "a7c03e83e5ca4493c1bb260ed34e366953f62cb2f82b50b9b65a413e74662bd2"
+ }
+}

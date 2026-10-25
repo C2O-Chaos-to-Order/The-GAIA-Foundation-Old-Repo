@@ -1,0 +1,191 @@
+{
+ "cycle": "TRB",
+ "checked_utc": "2026-10-25T01:01:56+00:00",
+ "summary": {
+  "Pass": 26
+ },
+ "checks": [
+  {
+   "claim_id": "TRB-NAT-01",
+   "source_id": "P97",
+   "phrase": "we show that fitness of particles and collectives can never decouple",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-NAT-01",
+   "source_id": "P97",
+   "phrase": "is always a null investment in collective survival",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-NAT-01",
+   "source_id": "P97",
+   "phrase": "away from such a tradeoff could be used to detect an ETI",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-NAT-05",
+   "source_id": "P104",
+   "phrase": "both types of ratcheting mutations act to stabilize the multicellular state",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-NAT-05",
+   "source_id": "P104",
+   "phrase": "Cells initially switch with probability p = 0.1 and evolve to switch 100-fold less frequently",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-NAT-05",
+   "source_id": "P104",
+   "phrase": "multicellularity has evolved at least 25 times",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-FOR-01",
+   "source_id": "P98",
+   "phrase": "irrationality measure",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-FOR-01",
+   "source_id": "P98",
+   "phrase": "x is said to be uniformly sane if there exists a non-decreasing and unbounded map",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-FOR-01",
+   "source_id": "P98",
+   "phrase": "7.60630852",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-SOC-01",
+   "source_id": "P99",
+   "phrase": "1151 (69.5%) were classified as prosocial",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-SOC-01",
+   "source_id": "P99",
+   "phrase": "typically labelled as Self-transcendence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-SOC-01",
+   "source_id": "P99",
+   "phrase": "pro-socials endorsed Conformity, Hedonism, Achievement, and Power values less strongly",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-APP-01",
+   "source_id": "P100",
+   "phrase": "global content validity coefficient (S-CVI) = 0.92",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-APP-01",
+   "source_id": "P100",
+   "phrase": "df = 1,050",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-APP-01",
+   "source_id": "P100",
+   "phrase": "three factors explained 42.3% of the variance",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-APP-03",
+   "source_id": "P103",
+   "phrase": "the program was tested on a group of 40 elderly women aged 75 to 84 years living alone",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-APP-03",
+   "source_id": "P103",
+   "phrase": "increased significantly from 43.26 points before participation in the program to 48.91 points",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-APP-03",
+   "source_id": "P103",
+   "phrase": "but it was not statistically significant (t=1.72, p =.470)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-HUM-01",
+   "source_id": "P101",
+   "phrase": "showed no evidence for H 0 (i.e., strong evidence for H 1 )",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-HUM-01",
+   "source_id": "P101",
+   "phrase": "perception of vastness (BF 01 = 1.033",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-PHI-01",
+   "source_id": "P102",
+   "phrase": "there cannot be a common experience across cultural traditions",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-PHI-01",
+   "source_id": "P102",
+   "phrase": "Meditative techniques promote a pronounced inhibition of ordinary cognitive processes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-PHI-01",
+   "source_id": "P102",
+   "phrase": "we can never get to the experiences themselves",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-PHI-04",
+   "source_id": "P105",
+   "phrase": "fail to historicize the concept and therefore fail to acknowledge its perennialist and specifically Christian bias",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-PHI-04",
+   "source_id": "P105",
+   "phrase": "4 out of 10 experimental subjects reached the 60",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "TRB-PHI-04",
+   "source_id": "P105",
+   "phrase": "we are not arguing for a wholesale removal of the term",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}
