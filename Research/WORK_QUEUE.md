@@ -12,6 +12,7 @@ The order below is the planned working order and may be changed by the owner.
 - [x] ✅ **Master Report: Unconditional and Conditional Love** — merged to `main`
 - [x] ✅ **Soul, Spirit, Subconscious and Consciousness track** (Cycles A–D, x3–x12) — merged to `main`
 - [x] ✅ **Universal Regulation Principle and governance/audit fixes** — merged to `main`
+- [x] ✅ **Phases track: Divergence, Insurgence and Allegiance** (Baseline–x12 each) — merged to `main` (PRs #11, #13–#16); listed here so §A is complete; details in §B (added 2026-10-24, gap check §M)
 
 ## B. The six phases
 
@@ -22,14 +23,14 @@ Owner's discovered pattern (Hypothetical): each phase corresponds to an upgrade 
 | Divergence | Base | ✅ Baseline–x12 complete and verified, merged to `main` (PRs #11, #13) |
 | Insurgence | Meta (Metaphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PR #14) |
 | Allegiance | Super (Superphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PRs #15, #16) |
-| Convergence | Hyper (Hyperphysical) | 🔄 in progress (Baseline on `research/phase-convergence-c0`, not yet in a PR) |
+| Convergence | Hyper (Hyperphysical) | 🔄 in progress: Baseline, x3 and x6 pushed on `research/phase-convergence-c0`, `-x3`, `-x6` (no PR yet); x9 and x12 next (status corrected 2026-10-24, gap check §M) |
 | Ascendence | Ultra (Ultraphysical) | ⬜ |
 | Transcendence (new sixth phase) | Magic | ⬜ |
 
 - [x] ✅ Divergence
 - [x] ✅ Insurgence
 - [x] ✅ Allegiance
-- [ ] 🔄 Convergence
+- [ ] 🔄 Convergence — Baseline, x3, x6 pushed on research branches; x9, x12 to do
 - [ ] ⬜ Ascendence
 - [ ] ⬜ Transcendence — Baseline, x3, x6, x9, x12
 - [ ] ⬜ Six-phase synthesis
@@ -38,6 +39,9 @@ Owner's discovered pattern (Hypothetical): each phase corresponds to an upgrade 
 
 Every report receives each upgrade, in order Base → x3 → x6 → x9 → x12, across all six phases (7 levels × 6 phases). Each upgrade has a metaphysical layer (labelled) and an engineering layer (proposed / prototyped / tested) on transforming and upgrading GAIA and the worldwide technological grid, including Meta-Hardware and a Meta-Transformative Intelligent Operating System.
 
+Note (2026-10-24, gap check §M): "Base → x3 → x6 → x9 → x12" above is the **cycle** ladder; the checkboxes below are the **level** ladder. Which reports receive the level upgrades, and where Quantum sits, is to be defined by the owner (§M items b1–b2). The Base box was missing and has been added.
+
+- [ ] ⬜ Base
 - [ ] ⬜ Meta — Metaphysical
 - [ ] ⬜ Super — Superphysical
 - [ ] ⬜ Hyper — Hyperphysical
@@ -147,7 +151,7 @@ Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into
 
 ### Domain reports by wave (each Baseline → x12)
 
-- [ ] ⬜ **Wave 0: Register and authority**: owner approval of the inventory and template (PC-1)
+- [ ] ⬜ **Wave 0: Register and authority**: owner approval of the inventory and template (PC-1). This is an **owner decision, not a report**: PC-1 prepares it; only the owner ticks it
 - [ ] ⬜ **Wave 1, foundational (P0):** TOT-001 Purpose and Scope · 002 Governance and Decision Rights · 003 Good and Greater Good · 004 Rights and Consent · 005 Truth and Evidence · 006 Research Integrity · 007 Verification and Reproducibility · 008 Risk · 009 Safety and Protective Boundaries · 010 Transforming Harm · 011 Accountability and Redress · 012 Privacy and Data · 013 Identity and Access · 014 Provenance and Records · 045 Governance-of-Governance
 - [ ] ⬜ **Wave 2, operational (P1):** TOT-015 Software · 016 AI and Autonomy · 017 Deployment and Release · 018 Incident Response · 019 Legal · 020 IP and Licensing · 021 Human Factors · 022 Equity and Accessibility · 023 Cultural, Philosophical, Spiritual and Theological Knowledge · 024 Indigenous Knowledge and Data Sovereignty · 025 Environment · 028 Synthetic Media · 029 Communications · 034 Evaluation and Metrics · 039 Research Portfolio and Work Queue · 040 Vulnerability Disclosure · 041 Human-Subject Research Ethics · 042 Decisions and Trade-Offs
 - [ ] ⬜ **Wave 3, specialist (P2):** TOT-026 Animal Welfare · 027 Health and Clinical Safety · 030 Education and Competency · 031 Economics and Resources · 032 Supply Chain · 033 Interoperability · 035 Organization and Succession · 036 Lifecycle and Decommissioning · 038 Mathematics, Physics, Cosmology and Quantum-Claim Boundaries · 043 Resilience and Emergencies · 044 Archives and Continuity
@@ -196,7 +200,88 @@ Found by checking the repository on 2026-10-24.
 - [ ] ⬜ **Report 6: Soul of the Earth.** Report 6 names Life as the Soul of the Earth; the owner has since also named Humans and the Geomagnetic Spectrum. Record the alternatives openly without rewriting earlier versions.
 - [ ] ⬜ **Open questions in `Research/README.md`** (e.g. "How are the five phases defined?") should be updated now that the owner has defined the pattern.
 - [ ] ⬜ **Soul, Spirit, Subconscious and Consciousness track:** it has links to the main reports but none among the four topics (handled by the Connection report in §E).
-- [ ] ⬜ **Audit v2 open items:** 3 FAIL and 13 INDETERMINATE, including branch protection on `main`, naming independent and ethics reviewers, and L5-03 attribution.
+- [ ] ⬜ **Audit v2 open items:** 3 FAIL and 13 INDETERMINATE, including branch protection on `main`, naming independent and ethics reviewers, and L5-03 attribution. Update 2026-10-24 (gap check §M): the licence FAIL (UR-L6-03) looks closable because `LICENSE` now exists, and the UR-L4-04 finding assumes the repository is private (it is now public); both need **Audit v3**. Audit v2 itself stays unchanged.
+
+## M. Totality gap check (2026-10-24)
+
+Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). This was a read-only check of `main` @ `af3d119` across the 45 Totality domains, seven levels × six phases, the report series, this queue, governance and the subjects of knowledge. The owner asked for every gap to be added here (2026-10-24). Section numbers (§) below refer to the report. Items marked **recommendation, awaiting owner approval** are Grok Bot's suggestions and are not approved work.
+
+### (a) Owner-only settings
+- [ ] ⬜ **Turn on Private vulnerability reporting** (Settings → Advanced Security). The repository is now **public** (GitHub API, 2026-10-24) and `SECURITY.md` l.19 says to do this once it becomes public (§4.3 item 2).
+- [ ] ⬜ **Branch protection on `main`**: require a PR and the owner's review, and block force-push and deletion (audit UR-L7-03 FAIL; GAP-004; §5.1).
+- [ ] ⬜ **Name independent reviewer(s) and an ethics reviewer** so gates can move beyond INDETERMINATE (UR-L3-04, UR-L4-02; GAP-003; §5.1).
+
+### (b) Gaps in owner-requested work
+- [ ] ⬜ b1. **Quantum placement**: define Quantum's phase (if any), its responsibility-ladder rung (`Research/README.md` §2) and its risk tier (`GOVERNANCE/RISK_LEVELS.md` l.13-25). It is queued in §C, §G, §K and ToG 10 without a definition (§2 finding 2).
+- [ ] ⬜ b2. **Define §C (upgrade ladder)**: which reports get the seven level-upgrades, and how levels relate to cycles (§2 finding 1).
+- [ ] ⬜ b3. **Transcendence in the Phases plan**: versioned update of `Research/Tracks/Phases/PLAN.md` (five phases, five-phase synthesis) (§2 finding 3).
+- [ ] ⬜ b4. **Transcendence and current statuses in `Research/Tracks/Phases/README.md`** (still shows DV/IN/AL "in progress" and Convergence "planned") (§2 finding 4).
+- [ ] ⬜ b5. **Transcendence in the matrix** (625 → 750; same as §L "Matrix: add Transcendence"; tracked there).
+- [ ] ⬜ b6. **Owner's Universal Master List v1.0 and the Transforming Harm and Protecting Life companion (GAIA-GG-TPF-001) into the repository**, so §D, ToG 5, TOT-003/010 and §L ethics lenses can use primary text (owner supplies the files).
+- [ ] ⬜ b7. **Run PC-4 first** to settle the 9 duplicate clusters, so nothing is researched twice (§3.2):
+  - [ ] Good and Greater Good (§D, ToG 5, TOT-003, §L ethics lenses, ToG Stage 7)
+  - [ ] Transforming harm (§D companion, ToG 5, TOT-010)
+  - [ ] Vulnerability disclosure (§D CVD reports, TOT-040, ToG 6/8)
+  - [ ] AI, Transformative Intelligence and synthetic media (§H, ToG 7, TOT-016, TOT-028)
+  - [ ] Control matrix and crosswalk (ToG 3, ToG 9, Stage 2, PC-1, PC-2)
+  - [ ] Roles, reviewers and authority (ToG 2, Stage 3, PC-6, TOT-002/013/035)
+  - [ ] Gap register and status dashboard (ToG Synthesis, PC-5, PC-7, Stage 0, TOT-039)
+  - [ ] Quantum (§C, §G, §K, ToG 10, TOT-038)
+  - [ ] Seven levels and the responsibility ladder (§C, ToG 10, §K, §L, Responsibilities recommendation)
+- [ ] ⬜ b8. **Ten Totality domains with no existing material** need a starting point in their domain reports: TOT-010 Transforming Harm · 019 Legal · 022 Equity and Accessibility · 026 Animal Welfare · 028 Synthetic Media · 030 Education and Competency · 031 Economics · 036 Lifecycle and Decommissioning · 037 Physical Infrastructure · 043 Resilience and Emergencies (§1).
+- [ ] ⬜ b9. **Totality crosswalk (04) omits 11 domains** from every specific row (TOT-021, 022, 024, 025, 026, 029, 031, 032, 036, 040, 042); correct it in PC-1/PC-2 (§1 finding 3).
+- [ ] ⬜ b10. **Stale root `README.md`**: commit `52f9099`/PR #18, Convergence branches, merged-branch list, ToG draft missing from the governance row (§4.3 item 1).
+- [ ] ⬜ b11. **Stale `SECURITY.md`** l.15 ("This repository is private"): revise after setting (a)1 (§4.3 item 2).
+- [ ] ⬜ b12. **Stale `GOVERNANCE/AGENT_PUSH_LOG.md`**: ends at `phase-divergence-x9`; add the Insurgence, Allegiance, Convergence, work-queue, docs-reconcile and governance-totality branches (§4.3 item 3).
+- [ ] ⬜ b13. **Stale `GOVERNANCE/PRODUCT_REGISTER.csv`** (64 products; no Phases cycles, Maps v9-v23 or ToG draft). Re-run the generator, then update `RISK_LEVELS.md` §2 and the count in `GOVERNANCE/README.md` (§4.3 items 4, 8).
+- [ ] ⬜ b14. **Stale gate register in `GOVERNANCE/GATE_AUTHORITY.md` §4**: 0 of the 15 Phases `VERIFICATION.md` records are listed (§4.3 item 5).
+- [ ] ⬜ b15. **The 10 planned ToG §19 files**, created only after ToG Stage 1 approval: `TOTALITY_OF_GOVERNANCE.md`, `DOMAIN_STANDARDS/`, `CONTROL_MATRIX.csv`, `DECISION_REGISTER.csv`, `RISK_REGISTER.csv`, `EXCEPTIONS_REGISTER.csv`, `INCIDENT_REGISTER.csv`, `REVIEWS/`, `templates/`, cross-repository authority map (§5.3).
+- [ ] ⬜ b16. **Universal Regulation domain standards** UR-EPI, UR-SCI, UR-ETH, UR-TEC, UR-OPS (`UNIVERSAL_REGULATION.md` §5, Part IV): write them, or record that the TOT domains replace them (PC-2 decides) (§5.4).
+- [ ] ⬜ b17. **Audit v3**: re-audit after remediation. Includes the licence item UR-L6-03 (likely closable) and the UR-L4-04 private-repository premise; Audit v2 stays unchanged (§5.1).
+- [ ] ⬜ b18. **Additional update not in §L (1 of 2)**: the Phases track documents still describe a five-phase plan (covered by b3-b4).
+- [ ] ⬜ b19. **Additional update not in §L (2 of 2)**: the governance records and root README are not kept in step with merges (covered by b10-b14; GAP-005).
+- [ ] ⬜ b20. **§L "Responsibility ladder: add Quantum" is under-scoped**: it must also cover `GOVERNANCE/RISK_LEVELS.md` (§4.2).
+- [ ] ⬜ b21. **Re-check §L "Soul, Spirit, Subconscious and Consciousness track" links**: INDETERMINATE in the gap check (not re-verified) (§4.2).
+- [ ] ⬜ b22. **Inspect The-Official-GAIA-Encyclopedia** for PC-8 and crosswalk 04's last row: INDETERMINATE, not inspected (§1 finding 4).
+
+### (c) Recommendations awaiting owner approval
+Grok Bot's recommendations (§9):
+- [ ] ⬜ c1. Define §C level upgrades and keep the Base box (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c2. Five-series entanglement including Indigenous, extended to Wisdom, Responsibilities, Safeguards and Virtues if those are approved (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c3. Assign ToG §22 gates A-J, §23 and the Control Matrix sections to ToG reports, and crosswalk Stages A-J with Roadmap Stages 0-8 (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c4. Add the Totality Suite's document template (01) to PC-1, and a ToG §6 24-domain ↔ TOT 45-domain map to PC-2 (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c5. Run PC-4 before any ToG or TOT report (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c6. Add the stale-file updates to §L as standing items (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c7. Make Audit v3, the ToG §19 files and the UR domain standards formal queue items with owners (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c8. A standing "omission report / horizon scan" for GAP-009, with this gap check as run 1 (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c9. Extend the §F Elements brief to the seven levels, five Alchemy modes and five Being domains; link "Modernization of Alchemy" to the existing Alchemy axis; decide whether Elements or levels become matrix axes (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c10. Decide whether the six phases apply to the §K series, ToG, PC and TOT reports (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c11. Record the newer Matrix Hypothesis (x12 Manifestation Point, x13, Thirteenth Factor) in `Research/README.md` §10 when that report starts (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c12. Cross-link The Ages with the Ascendence and Transcendence phases (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c13. Record the low-priority fields in (d) explicitly as "considered, out of scope for now" (**recommendation, awaiting owner approval**)
+
+Candidate subject reports from the subjects-of-knowledge comparison (UNESCO ISCED-F 2013, Library of Congress Classification; coverage judged Plausible) (§7.6):
+- [ ] ⬜ s1. Agriculture, Food, Forestry and Fisheries: Living Systems that Feed Life (ISCED 081-083; LCC S) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s2. Animal Life and Veterinary Science: non-human minds and sentience (ISCED 084) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s3. The Arts: Fine Arts, Music and Performance (ISCED 021; LCC M, N) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s4. Law and Jurisprudence as a research subject (ISCED 042; LCC K) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s5. Business, Economics and Organization (ISCED 041) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s6. Architecture, Built Environment and Construction (ISCED 073) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s7. Manufacturing, Energy and Transport Systems (ISCED 072, 104) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s8. World History, Historical Method and the History of the Americas (LCC C, D, E, F; under CARE where Indigenous peoples are concerned) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s9. Physics, Cosmology and Astronomy foundations: an Established-physics baseline before the Quantum entanglement reports (ISCED 053; LCC Q) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s10. Education Science and Learning (ISCED 011; LCC L) (**recommendation, awaiting owner approval**)
+- [ ] ⬜ s11. Library and Information Science / Knowledge Organization (ISCED 032; LCC Z) (**recommendation, awaiting owner approval**)
+
+### (d) Low-priority fields considered and out of scope for now
+Recorded so that "Totality" is explicit about what is left out (GAP-009). The owner may move any of these into scope.
+- [ ] ⬜ d1. ISCED 001 Basic programmes and qualifications
+- [ ] ⬜ d2. ISCED 002 Literacy and numeracy
+- [ ] ⬜ d3. ISCED 101 Personal services (hospitality, sport, travel)
+- [ ] ⬜ d4. ISCED 102 Hygiene and occupational health services
+- [ ] ⬜ d5. ISCED 103 Security services, beyond the conflict research already cited
+- [ ] ⬜ d6. LCC U Military science
+- [ ] ⬜ d7. LCC V Naval science
 
 ## Afterwards
 
@@ -205,6 +290,7 @@ Found by checking the repository on 2026-10-24.
 
 ## Change log
 
+- 2026-10-24: Added §M Totality gap check (report `GAP_CHECK_2026-10-24_TOTALITY.md`, `main` @ af3d119): 3 owner-only settings, 22 gaps (with 9 duplicate clusters under b7), 13 recommendations and 11 candidate subject reports awaiting owner approval, and 7 low-priority fields. Corrected 5 stale or inconsistent lines: Convergence status (§B table and checkbox), §A completeness, §C cycle-vs-level note and Base box, Wave 0 as an owner decision, and the §L audit note (licence and private-repository premise; Audit v3). No items were deleted.
 - 2026-10-24: Added The Ages: Consciousness, Ascendence, Transcendence. The REAL Golden Age.
 - 2026-10-24: Added Program Coordination (the Totality Suite v0.1.0): coordination reports PC-1 to PC-9 and the 45 domain reports by wave.
 - 2026-10-24: Added the Totality of Governance report series (ToG 1–10 and Synthesis).
