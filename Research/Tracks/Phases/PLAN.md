@@ -56,3 +56,12 @@ After Ascendence x12: `Research/Tracks/Phases/SYNTHESIS.md` — cross-phase, cro
 
 ## 8. Governance (UNIVERSAL_REGULATION.md, Proposed)
 Laws 1-3 apply directly (labels, sources read, specs before runs, reruns). Law 4/6: no human-subject data; public open-access texts only; licences recorded. Law 5/7: every commit is by the agent on research branches; the owner merges. Responsibility-ladder level: Power (research documents only).
+
+## 9. Amendment v2 (2026-10-25): sixth phase Transcendence
+Sections 1-8 above are the v1 five-phase plan, kept unchanged (frozen copy: `PLAN_v1_five_phases.md`). This amendment adds to them; where it differs, it takes precedence.
+- **Owner update (2026-10-25):** Transcendence is the owner's new **sixth phase**. Code `TR`, folder `Research/Tracks/Phases/Transcendence/`, cycles as in §3 (Baseline, x3, x6, x9, x12; 186 runs; 1,116 runs for six phases). Claims `TR<L>-<FIELD>-nn`, simulations `SIM-TR-<FIELD>-<L>`. Branches `research/phase-transcendence-<c0|x3|x6|x9|x12>`, the first from `research/phase-ascendence-x12` @54d6f083.
+- **Owner context (Hypothetical):** in the owner's pattern (Base = Divergence, Meta = Insurgence, Super = Allegiance, Hyper = Convergence, Ultra = Ascendence), **Magic = Transcendence**. Recorded as the owner's Hypothetical claim; not tested; no ledger claim depends on it; methods unchanged.
+- **Maps versions:** v34 = Transcendence Baseline; v35 = TR x3; v36 = TR x6; v37 = TR x9; v38 = TR x12.
+- **Matrix, pending owner-approved update 625 -> 750.** Adding a sixth value to the Phase axis would make the four-axis matrix 5 x 5 x 6 x 5 = 750 cells. This re-dimension is **pending owner approval** and is **not** applied: `maps.AXES`, `intersections_625.csv`, `phase_x_field_30.csv` and `phase_x_lens_25.csv` keep the five canonical phases. Transcendence claims are placed (Phase = Transcendence) in `claim_placement.csv` and recorded only in phases-track overlay files in each Maps version: `matrix/phase_track_transcendence_x_field_6.csv`, `matrix/phase_track_transcendence_x_lens_5.csv`, `matrix/phase_track_transcendence_cells_125.csv` (the 125 Alchemy x Being x Lens cells that a 750 grid would add; each row marked "pending").
+- **Synthesis (§7):** moves to after Transcendence x12 and becomes a six-phase synthesis. **Not yet written** (owner: do not write it yet).
+- Tooling: `gaia_tools.phases` registers `TR` and writes the overlay files; `build15/sims/sim_app.py` `ordlogit_mc` takes an optional `v1_label` (the default text is unchanged so earlier records reproduce).
