@@ -1,0 +1,46 @@
+stable_id,priority,implied_wave,roadmap_wave,mismatch,basis
+GAIA-TOT-001,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-002,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-003,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-004,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-005,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-006,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-007,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-008,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-009,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-010,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-011,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-012,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-013,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-014,P0,1,1,0,Wave 1 list (foundational boundaries)
+GAIA-TOT-015,P1,2,2,0,Wave 2 phrase: software architecture
+GAIA-TOT-016,P1,2,2,0,Wave 2 phrase: AI/model governance
+GAIA-TOT-017,P1,2,2,0,Wave 2 phrase: deployment/change control
+GAIA-TOT-018,P1,2,2,0,Wave 2 phrase: incident response
+GAIA-TOT-019,P1,2,2,0,Wave 2 phrase: legal/IP/licensing
+GAIA-TOT-020,P1,2,2,0,Wave 2 phrase: legal/IP/licensing
+GAIA-TOT-021,P1,2,2,0,Wave 2 phrase: human factors
+GAIA-TOT-022,P1,2,2,0,Wave 2 phrase: equity/accessibility
+GAIA-TOT-023,P1,2,2,0,Wave 2 phrase: cultural and spiritual knowledge integrity
+GAIA-TOT-024,P1,2,3,1,Wave 3 phrase: Indigenous knowledge/data sovereignty
+GAIA-TOT-025,P1,2,unnamed,1,named in no wave list of the roadmap
+GAIA-TOT-026,P2,3,3,0,Wave 3 phrase: animal welfare
+GAIA-TOT-027,P2,3,3,0,Wave 3 phrase: health/biomedical review
+GAIA-TOT-028,P1,2,unnamed,1,named in no wave list of the roadmap
+GAIA-TOT-029,P1,2,2,0,Wave 2 phrase: communications/public claims
+GAIA-TOT-030,P2,3,3,0,Wave 3 phrase: education/competence
+GAIA-TOT-031,P2,3,3,0,Wave 3 phrase: economic/resource governance
+GAIA-TOT-032,P2,3,3,0,Wave 3 phrase: procurement/supply chains
+GAIA-TOT-033,P2,3,3,0,Wave 3 phrase: interoperability
+GAIA-TOT-034,P1,2,2,0,Wave 2 phrase: evaluation/metrics
+GAIA-TOT-035,P2,3,unnamed,1,named in no wave list of the roadmap
+GAIA-TOT-036,P2,3,3,0,Wave 3 phrase: lifecycle/retirement
+GAIA-TOT-037,P3,4,4,0,Wave 4 phrase: physical infrastructure
+GAIA-TOT-038,P2,3,4,1,"Wave 4 phrase: cosmology, physics, quantum"
+GAIA-TOT-039,P1,2,2,0,Wave 2 phrase: research portfolio
+GAIA-TOT-040,P1,2,2,0,Wave 2 phrase: security disclosure
+GAIA-TOT-041,P1,2,2,0,Wave 2 phrase: human-participant research ethics
+GAIA-TOT-042,P1,2,2,0,Wave 2 phrase: decisions/trade-offs
+GAIA-TOT-043,P2,3,3,0,Wave 3 phrase: resilience
+GAIA-TOT-044,P2,3,3,0,Wave 3 phrase: archives/continuity
+GAIA-TOT-045,P0,1,1,0,Wave 1 list (foundational boundaries)

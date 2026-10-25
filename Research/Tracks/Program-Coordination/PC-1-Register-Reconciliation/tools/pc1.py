@@ -431,6 +431,14 @@ def render(cycle_dir, it):
         L.append("\nPrimary audit load per domain: " + ", ".join(f"{sh(k)} {v}" for k, v in m["primary_audit_load"].items()))
     if "authority_relation_counts" in m:
         L.append(f"\n### Authority register\n\n- Relations: {m['authority_relation_counts']}\n- Parent sources (domains citing each): " + ", ".join(f"`{k}` {v}" for k, v in m["parent_sources"].items()))
+    if "ur_criteria_unmapped" in m:
+        L.append(f"\n### UR §5 criteria → TOT domains (b16)\n\n- {m['ur_criteria']} criteria; unmapped: {len(m['ur_criteria_unmapped'])}; UR-domain inconsistencies: " + ("; ".join(m["ur_domain_inconsistent"]) or "none") + "\n- Criteria per primary domain: " + ", ".join(f"{sh(k)} {v}" for k, v in m["ur_criteria_per_domain"].items()))
+    if "products_per_domain" in m:
+        L.append(f"\n### Product Register join\n\n- {m['products']} products; ungoverned: {len(m['products_ungoverned'])}\n- Products per domain: " + ", ".join(f"{sh(k)} {v}" for k, v in m["products_per_domain"].items()))
+    if "inversions_delta" in m:
+        both = sorted(set(m["draft_only_domains"]) & set(m["pc4_no_primary_report"]))
+        L.append(f"\n### Dependency order\n\n- Named dependency edges: {m['dependency_edges']}\n- Inversions (a domain scheduled before a dependency, or the dependency unscheduled): roadmap {len(m['inversions_roadmap'])}, proposed {len(m['inversions_proposed'])} (delta {m['inversions_delta']})\n- Removed by the proposals: " + ", ".join(sh(x) for x in sorted(set(m["inversions_roadmap"]) - set(m["inversions_proposed"]))) + "\n- Remaining under the proposals: " + ", ".join(sh(x) for x in m["inversions_proposed"]))
+        L.append(f"\n### Draft-only and report-less domains\n\n- Draft-only (every direct anchor is in the ToG draft): {len(m['draft_only_domains'])}: " + ", ".join(sh(x) for x in m["draft_only_domains"]) + f"\n- No PC-4 primary report: {len(m['pc4_no_primary_report'])}\n- Both: {len(both)}: " + ", ".join(sh(x) for x in both))
     return "\n".join(L) + "\n"
 
 if __name__ == "__main__":
