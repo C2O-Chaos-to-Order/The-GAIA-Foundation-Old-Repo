@@ -173,6 +173,11 @@ def run(cycle_dir, it, outdir=None):
     m["phase_being_claim_ids"] = sorted(k for k, r in D["pclaims"].items() if r.get("being"))
     # 3 judged claims and links: resolution, sources, label rule, owner rule, census
     known = set(D["claims"]) | set(D["links"]) | set(D["pclaims"]) | set(D["plinks"]) | {r["claim_id"] for r in cl} | fids | allsrc
+    if cfg.get("x3"):
+        for ecp in cfg["x3"].get("sssc_earlier_cycles", []):
+            for t, d in TOPIC_DIR.items():
+                for r in csvrows(os.path.join(repo, "Research", ecp, d, "claims", "claims.csv")):
+                    known.add(r["claim_id"]); lab.setdefault(r["claim_id"], r["framework_label"])
     dangling, unres, notin, labv, ownv, cens = [], [], [], [], [], []
     def check_item(iid, label, basis, srcs, kind):
         for b in basis:
@@ -220,6 +225,76 @@ def run(cycle_dir, it, outdir=None):
         row.append(len(m["links_by_pair"][row[0]]))
     wcsv(os.path.join(data, "pairs.csv"), ["pair", "shared_factors", "only_first", "only_second", "jaccard", "shared_factor_ids",
                                            "shared_sources", "cross_citations", "connection_links"], pair_rows)
+    # 3b x3 additions (behind config key; earlier records unchanged)
+    x3 = cfg.get("x3")
+    if x3:
+        m["cross_citations_total"] = sum(xc.values())
+        m["pairs_with_shared_evidence_source"] = len(PAIRS) - len(m["pairs_without_shared_evidence_source"])
+        earlier = {}
+        for ecp in x3.get("sssc_earlier_cycles", []):
+            for t, d in TOPIC_DIR.items():
+                for r in csvrows(os.path.join(repo, "Research", ecp, d, "claims", "claims.csv")):
+                    earlier[r["claim_id"]] = r
+        text_of = {}
+        for src in (D["claims"], D["pclaims"], earlier):
+            for k, r in src.items(): text_of.setdefault(k, r["wording"])
+        for src in (D["links"], D["plinks"]):
+            for k, r in src.items(): text_of.setdefault(k, r["statement"])
+        anch = []
+        for r in cl:
+            a = r.get("anchor", "").strip()
+            if not a:
+                if r["kind"] not in ("census", "owner", "framing"): anch.append(f"{r['claim_id']}: no anchor")
+                continue
+            bid, _, phrase = a.partition(": ")
+            if bid not in split(r["basis"]): anch.append(f"{r['claim_id']}: anchor {bid} not in basis")
+            elif phrase not in text_of.get(bid, ""): anch.append(f"{r['claim_id']}: phrase not in {bid}")
+        m["anchor_mismatches"] = sorted(anch)
+        trx = {t: re.compile(x, re.I) for t, x in x3["topic_terms"].items()}
+        cm = {a: {b: 0 for b in TOPICS} for a in TOPICS}
+        for r in D["claims"].values():
+            txt = r["wording"] + " " + r["counterevidence_limits"]
+            for b in TOPICS:
+                if b != r["_topic"] and trx[b].search(txt): cm[r["_topic"]][b] += 1
+        wcsv(os.path.join(data, "cross_mentions.csv"), ["from_topic_claims"] + [f"mention_{b}" for b in TOPICS], [[a] + [cm[a][b] for b in TOPICS] for a in TOPICS])
+        m["cross_mentions"] = {a: dict(cm[a]) for a in TOPICS}
+        m["pair_cross_mentions"] = {pair_key(a, b): cm[a][b] + cm[b][a] for a, b in PAIRS}
+        m["pairs_without_cross_mention"] = sorted(k for k, v in m["pair_cross_mentions"].items() if v == 0)
+        pt = {t: {ph: [] for ph in PHASES} for t in TOPICS}
+        for k, r in sorted(D["pclaims"].items()):
+            for t in TOPICS:
+                if trx[t].search(r["wording"]): pt[t][r["_phase"]].append(k)
+        wcsv(os.path.join(data, "phase_topic.csv"), ["topic"] + PHASES, [[t] + [";".join(pt[t][ph]) for ph in PHASES] for t in TOPICS])
+        m["phase_topic_counts"] = {t: {ph: len(pt[t][ph]) for ph in PHASES} for t in TOPICS}
+        m["topics_without_phase_match"] = sorted(t for t in TOPICS if not any(pt[t].values()))
+        per_phase = {ph: len({c for t in TOPICS for c in pt[t][ph]}) for ph in PHASES}
+        m["phase_matching_claims"] = per_phase
+        top = max(per_phase.values())
+        m["transcendence_most_matches"] = int(per_phase["Transcendence"] == top and sum(v == top for v in per_phase.values()) == 1)
+        lrx = {f: re.compile(x, re.I) for f, x in x3["limitation_families"].items()}
+        lim = {f: {t: 0 for t in TOPICS} for f in lrx}
+        for r in D["claims"].values():
+            for f, rx_ in lrx.items():
+                if rx_.search(r["counterevidence_limits"]): lim[f][r["_topic"]] += 1
+        wcsv(os.path.join(data, "limitation_families.csv"), ["family"] + TOPICS, [[f] + [lim[f][t] for t in TOPICS] for f in lrx])
+        m["limitation_families"] = lim
+        m["limitation_families_in_all_four"] = sorted(f for f in lrx if all(lim[f][t] for t in TOPICS))
+        def diff(a, b, key):
+            A = {r[key]: r for r in csvrows(P(a))}; B = {r[key]: r for r in csvrows(P(b))}
+            strip = lambda r: {k: v for k, v in r.items() if k not in ("anchor", "change_vs_prev")} if r else r
+            return sorted(k for k in set(A) | set(B) if strip(A.get(k)) != strip(B.get(k)))
+        pv = x3["previous"]
+        m["claims_changed_vs_previous"] = diff(pv["claims"], cfg["judgments"]["claims"], "claim_id")
+        m["links_changed_vs_previous"] = diff(pv["links"], cfg["judgments"]["links"], "link_id")
+        fk = lambda p_: {(r["factor_id"], r["topic"]): r for r in csvrows(P(p_))}
+        FA, FB = fk(pv["factors"]), fk(cfg["judgments"]["factors"])
+        m["factor_rows_changed_vs_previous"] = sorted(f"{a}/{b}" for a, b in set(FA) | set(FB) if FA.get((a, b)) != FB.get((a, b)))
+        cens2 = []
+        for r in cl:
+            if r["kind"] == "census":
+                v = m.get(r["metric"]); v = len(v) if isinstance(v, (list, dict)) else v
+                if str(v) != r["value"]: cens2.append(f"{r['claim_id']}: {r['metric']}={v} vs stated {r['value']}")
+        m["census_claim_mismatches"] = sorted(cens2)
     # 4 boundary scan against the Totality Suite (this report's folder, plus this run's outputs)
     W = cfg["boundary_window"]; here = os.path.abspath(cycle_dir)
     bs = pc4.boundary_scan(cfg["suite_path"], ROOT, W, exclude=(os.path.relpath(here, ROOT) + os.sep,))
