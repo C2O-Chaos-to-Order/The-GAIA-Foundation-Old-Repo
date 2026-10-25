@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-TR-APP-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:23.313823+00:00",
+ "finished_utc": "2026-10-25T01:30:23.783722+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-11  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "3a261e2eb7e179ed0aba3e83752b23fd21806efe9cab2ed6faac69bb5d3a96d5",
+ "params_sha256": "f7b298f3b6e730f066e8a1ac61051888edae2765be2e070bd3a5ee7737ad5b33",
+ "results_sha256": "b6981b1e7f78ac7641fb0059f79c356c2fc84d3f08ca06bd2e24a63676c23d53",
+ "results": {
+  "items": {
+   "n_for_80_d45": {
+    "value": 32.0,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P103's d .45 needs at most 34 completers for 80% one-sided power",
+   "observed": {
+    "items": {
+     "n_for_80_d45": {
+      "value": 32.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "n_for_80_d45": {
+      "value": 32.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
