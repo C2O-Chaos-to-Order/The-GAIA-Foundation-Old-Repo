@@ -13,7 +13,7 @@ This repository holds the foundational research corpus for GAIA and the governan
 - **Implementation is not authorized.** Research, successful tests and technical capability do not grant permission to deploy (Universal Regulation, Law 7).
 - **Universal Regulation standard:** Proposed, not adopted, not implemented. Audit v2 gate: INDETERMINATE (see [`GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md`](GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md)).
 
-## What is on `main` (as of commit `5fbf71a3`, PR #33)
+## What is on `main` (as of commit `bd3a085a`, PR #37)
 
 | Area | Path | Contents | Gate |
 |---|---|---|---|
@@ -43,9 +43,18 @@ Claims carry one of four labels: **Established, Plausible, Philosophical/Spiritu
 
 Merged means accepted by the owner, not verified: every one of these stays INDETERMINATE.
 
+### Merged after PR #33 (housekeeping, no new research)
+
+| PR | Change |
+|---|---|
+| #34 | README status reconcile, branch-protection check recorded (not active), self-audit of The Connection |
+| #35 | Removed committed `__pycache__` files; added `.gitignore` |
+| #36 | `PRINCIPLES.md`: founding principle 1, Truth with Integrity |
+| #37 | GAIA repositories section: links to the ten new GAIA repositories (Human and Intelligence Knowledge, Capabilities, Skills and Powers; Ontology; Map and Matrix) |
+
 ## Work in progress (not on `main`; the owner reviews and merges)
 
-As of 2026-10-25 there were **no open research pull requests** before this README update (checked with the GitHub pull-request list). PR #28 (`research/work-queue-gaiadoc`) and PR #29 (`research/work-queue-phases-done`), listed here before, are both merged. This README update is itself on `research/readme-status-reconcile` until the owner merges it.
+As of 2026-10-25 (`main` @ `bd3a085a`, PR #37) there were **no open research pull requests** before this README update (checked with the GitHub pull-request list). PR #28 (`research/work-queue-gaiadoc`) and PR #29 (`research/work-queue-phases-done`), listed here before, are both merged. This wording reconcile is on `research/authority-reconcile` until the owner merges it.
 
 The full list of incoming reports is in [`Research/WORK_QUEUE.md`](Research/WORK_QUEUE.md).
 
@@ -53,7 +62,7 @@ Branches already merged and kept for history: `research/cycle-0-baseline`, `cycl
 
 ## GAIA repositories (added 2026-10-25)
 
-The-GAIA-Foundation is the **primary source** for GAIA. The-Official-GAIA-Encyclopedia is the **planned secondary source** (not yet published). The founding principle for every repository is [Truth with Integrity](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/main/PRINCIPLES.md): "A Truth That Is Never Twisted."
+The-GAIA-Foundation is the active source of truth. The-Official-GAIA-Encyclopedia is a backup only. The founding principle for every repository is [Truth with Integrity](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/main/PRINCIPLES.md): "A Truth That Is Never Twisted."
 
 | Repository | What it holds |
 |---|---|
@@ -67,9 +76,9 @@ The-GAIA-Foundation is the **primary source** for GAIA. The-Official-GAIA-Encycl
 | [The-GAIA-Intelligence-Skills](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Skills) | Intelligence Skills (I-S) |
 | [The-GAIA-Intelligence-Powers](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Powers) | Intelligence Powers (I-P) |
 | [The-GAIA-Ontology](https://github.com/KyleAlexanderSteen/The-GAIA-Ontology) | Master Ontology: the eight documents above compiled, with a shared source register |
-| [The-GAIA-Map-and-Matrix](https://github.com/KyleAlexanderSteen/The-GAIA-Map-and-Matrix) | Human–Intelligence Map and Matrix: v1.0 (unchanged) and v1.1, which maps the Foundation's completed work onto all ten repositories |
+| [The-GAIA-Map-and-Matrix](https://github.com/KyleAlexanderSteen/The-GAIA-Map-and-Matrix) | Human–Intelligence Map and Matrix: v1.2 is the latest version mapping the Foundation's completed work across all ten repositories (v1.1 and v1.0 kept as prior versions) |
 
-How they connect is recorded in Map and Matrix v1.1 (`v1.1/`, sheet `Foundation x Repositories`): explicit links carry an evidence path; inferred links are on the `Proposed` sheet, labelled Hypothetical, until the owner approves them.
+How they connect is recorded in Map and Matrix v1.2, the latest version (`v1.2/`, sheet `Foundation x Repositories`): explicit links carry an evidence path; inferred links are on the `Proposed` sheet, labelled Hypothetical, until the owner approves them.
 
 ## Governance and safety
 
