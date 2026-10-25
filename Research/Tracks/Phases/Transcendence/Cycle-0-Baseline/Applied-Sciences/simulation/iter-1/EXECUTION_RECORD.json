@@ -1,0 +1,1148 @@
+{
+ "sim_id": "SIM-TR-APP-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:29:09.886112+00:00",
+ "finished_utc": "2026-10-25T00:29:10.358081+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "0e2944d668f1933074c46116915bccf2aaf2e8b4c5a2b39ea4b00a0c6521df28",
+ "params_sha256": "3282a67907c1003d34861b77f4216b7c66613a4e13dd199290cf6b7950adc749",
+ "results_sha256": "30632664821f465db77f8df9951b424fefce28664413e1b259c76a304931b5d1",
+ "results": {
+  "items": {
+   "icvi_18_19": {
+    "value": 0.947368,
+    "printed": 0.9473,
+    "diff": 6.8e-05
+   },
+   "icvi_17_19": {
+    "value": 0.894737,
+    "printed": 0.8947,
+    "diff": 3.7e-05
+   },
+   "icvi_16_19": {
+    "value": 0.842105,
+    "printed": 0.8421,
+    "diff": 5e-06
+   },
+   "icvi_15_18": {
+    "value": 0.833333,
+    "printed": 0.8333,
+    "diff": 3.3e-05
+   },
+   "pc_19_19": {
+    "value": 2e-06,
+    "printed": 1.91e-06,
+    "diff": -0.0
+   },
+   "pc_18_19": {
+    "value": 3.6e-05,
+    "printed": 3.624e-05,
+    "diff": 0.0
+   },
+   "pc_17_19": {
+    "value": 0.000326,
+    "printed": 0.0013,
+    "diff": -0.000974
+   },
+   "pc_16_19": {
+    "value": 0.001848,
+    "printed": 0.0665,
+    "diff": -0.064652
+   },
+   "pc_15_18": {
+    "value": 0.003113,
+    "printed": 0.112,
+    "diff": -0.108887
+   },
+   "kappa_17_19": {
+    "value": 0.894563,
+    "printed": 0.8945,
+    "diff": 6.3e-05
+   },
+   "kappa_16_19": {
+    "value": 0.830852,
+    "printed": 0.8308,
+    "diff": 5.2e-05
+   },
+   "kappa_15_18": {
+    "value": 0.812275,
+    "printed": 0.8122,
+    "diff": 7.5e-05
+   },
+   "scvi_mean": {
+    "value": 0.922193,
+    "printed": 0.92,
+    "diff": 0.002193
+   },
+   "rmsea_4f": {
+    "value": 0.053391,
+    "printed": 0.053,
+    "diff": 0.000391
+   },
+   "rmsea_3f": {
+    "value": 0.04966,
+    "printed": 0.049,
+    "diff": 0.00066
+   },
+   "rmsea_2f": {
+    "value": 0.05284,
+    "printed": 0.053,
+    "diff": -0.00016
+   },
+   "rmsea_1f": {
+    "value": 0.077632,
+    "printed": 0.077,
+    "diff": 0.000632
+   },
+   "p_4f": {
+    "value": 0.023917,
+    "printed": 0.023,
+    "diff": 0.000917
+   },
+   "p_3f": {
+    "value": 0.038564,
+    "printed": 0.038,
+    "diff": 0.000564
+   },
+   "p_2f": {
+    "value": 0.02293,
+    "printed": 0.022,
+    "diff": 0.00093
+   },
+   "p_1f": {
+    "value": 4.5e-05,
+    "printed": 0.001,
+    "diff": -0.000955
+   },
+   "bartlett_df_15_items": {
+    "value": 105.0,
+    "printed": 1050,
+    "diff": -945.0
+   },
+   "pct_women": {
+    "value": 77.586207,
+    "printed": 77.59,
+    "diff": -0.003793
+   },
+   "pct_noncomplete": {
+    "value": 15.942029,
+    "printed": 15.94,
+    "diff": 0.002029
+   },
+   "marital_total": {
+    "value": 116.0,
+    "printed": 116,
+    "diff": 0.0
+   },
+   "children0_total": {
+    "value": 61.0,
+    "printed": 16,
+    "diff": 45.0
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the printed I-CVIs equal the share of agreeing raters (18/19, 17/19, 16/19, 15/18) within 0.0001",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the printed chance-agreement probabilities Pc equal the binomial C(N, A) 0.5^N within 5% (relative) for all five rating patterns",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the printed modified kappas follow from the printed I-CVI and Pc as (I-CVI - Pc)/(1 - Pc) within 0.0005",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "S-CVI (mean of the 15 printed I-CVIs) is within 0.005 of the printed 0.92",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "RMSEA reproduces from chi-square, df and N 116 within 0.001 for all four factor models, and their chi-square p within 0.002 (1-factor '<0.001' read as < 0.001)",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "Bartlett's sphericity df equals p(p - 1)/2 = 105 for 15 items, as printed ('df = 1,050')",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "icvi_18_19": {
+      "value": 0.947368,
+      "printed": 0.9473,
+      "diff": 6.8e-05
+     },
+     "icvi_17_19": {
+      "value": 0.894737,
+      "printed": 0.8947,
+      "diff": 3.7e-05
+     },
+     "icvi_16_19": {
+      "value": 0.842105,
+      "printed": 0.8421,
+      "diff": 5e-06
+     },
+     "icvi_15_18": {
+      "value": 0.833333,
+      "printed": 0.8333,
+      "diff": 3.3e-05
+     },
+     "pc_19_19": {
+      "value": 2e-06,
+      "printed": 1.91e-06,
+      "diff": -0.0
+     },
+     "pc_18_19": {
+      "value": 3.6e-05,
+      "printed": 3.624e-05,
+      "diff": 0.0
+     },
+     "pc_17_19": {
+      "value": 0.000326,
+      "printed": 0.0013,
+      "diff": -0.000974
+     },
+     "pc_16_19": {
+      "value": 0.001848,
+      "printed": 0.0665,
+      "diff": -0.064652
+     },
+     "pc_15_18": {
+      "value": 0.003113,
+      "printed": 0.112,
+      "diff": -0.108887
+     },
+     "kappa_17_19": {
+      "value": 0.894563,
+      "printed": 0.8945,
+      "diff": 6.3e-05
+     },
+     "kappa_16_19": {
+      "value": 0.830852,
+      "printed": 0.8308,
+      "diff": 5.2e-05
+     },
+     "kappa_15_18": {
+      "value": 0.812275,
+      "printed": 0.8122,
+      "diff": 7.5e-05
+     },
+     "scvi_mean": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "rmsea_4f": {
+      "value": 0.053391,
+      "printed": 0.053,
+      "diff": 0.000391
+     },
+     "rmsea_3f": {
+      "value": 0.04966,
+      "printed": 0.049,
+      "diff": 0.00066
+     },
+     "rmsea_2f": {
+      "value": 0.05284,
+      "printed": 0.053,
+      "diff": -0.00016
+     },
+     "rmsea_1f": {
+      "value": 0.077632,
+      "printed": 0.077,
+      "diff": 0.000632
+     },
+     "p_4f": {
+      "value": 0.023917,
+      "printed": 0.023,
+      "diff": 0.000917
+     },
+     "p_3f": {
+      "value": 0.038564,
+      "printed": 0.038,
+      "diff": 0.000564
+     },
+     "p_2f": {
+      "value": 0.02293,
+      "printed": 0.022,
+      "diff": 0.00093
+     },
+     "p_1f": {
+      "value": 4.5e-05,
+      "printed": 0.001,
+      "diff": -0.000955
+     },
+     "bartlett_df_15_items": {
+      "value": 105.0,
+      "printed": 1050,
+      "diff": -945.0
+     },
+     "pct_women": {
+      "value": 77.586207,
+      "printed": 77.59,
+      "diff": -0.003793
+     },
+     "pct_noncomplete": {
+      "value": 15.942029,
+      "printed": 15.94,
+      "diff": 0.002029
+     },
+     "marital_total": {
+      "value": 116.0,
+      "printed": 116,
+      "diff": 0.0
+     },
+     "children0_total": {
+      "value": 61.0,
+      "printed": 16,
+      "diff": 45.0
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 8,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 6,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
