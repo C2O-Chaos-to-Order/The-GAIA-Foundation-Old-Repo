@@ -1,0 +1,170 @@
+{
+  "cycle": "x9",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "judgment_map": "../judgments/map_x9.csv",
+  "clusters": "../judgments/clusters_x9.csv",
+  "nonreport_map": "../judgments/nonreport_x9.csv",
+  "tog24_map": "../judgments/tog24_x9.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "map_kinds": [
+    "report",
+    "candidate",
+    "governance",
+    "level"
+  ],
+  "report_kinds": [
+    "report"
+  ],
+  "candidate_kinds": [
+    "candidate"
+  ],
+  "nonreport_kinds": [
+    "update",
+    "setting",
+    "gap",
+    "recommendation",
+    "afterwards"
+  ],
+  "queue_named_checks": true,
+  "named_examples": [
+    "PC-4",
+    "M-b8",
+    "M-b9"
+  ],
+  "dependency_check": true,
+  "sensitivity": true,
+  "iterations": {
+    "1": {
+      "variant": "charter",
+      "stem": true,
+      "k": 1,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "2": {
+      "variant": "charter",
+      "stem": true,
+      "k": 3,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "3": {
+      "variant": "charter",
+      "stem": true,
+      "k": 5,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "4": {
+      "variant": "title_purpose",
+      "stem": true,
+      "k": 1,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "5": {
+      "variant": "title_purpose",
+      "stem": true,
+      "k": 3,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "6": {
+      "variant": "title_purpose",
+      "stem": true,
+      "k": 5,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "7": {
+      "variant": "title",
+      "stem": true,
+      "k": 1,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "8": {
+      "variant": "title",
+      "stem": true,
+      "k": 3,
+      "permutations": 500,
+      "seed": 20261025
+    },
+    "9": {
+      "variant": "title",
+      "stem": true,
+      "k": 5,
+      "permutations": 500,
+      "seed": 20261025
+    }
+  },
+  "checks": [
+    {
+      "id": "X9-1",
+      "hypothesis": "Inventory still complete",
+      "metric": "inventory_gap",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-2",
+      "hypothesis": "Every row passes integrity",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-3",
+      "hypothesis": "No queue-named domain missing (example rule as x6)",
+      "metric": "queue_named_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-4",
+      "hypothesis": "Every cluster proposal (b7 and NEW) passes the structural checks",
+      "metric": "clusters_failed",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X9-5",
+      "hypothesis": "The matcher beats chance: permutation p-value <= 0.01 for top-3 agreement",
+      "metric": "perm_p",
+      "op": "le",
+      "threshold": 0.01,
+      "iterations": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "id": "X9-6",
+      "hypothesis": "The similarity scan finds at least 1 pair of reports (cosine >= 0.5) that no cluster yet groups",
+      "metric": "similar_pairs_unclustered",
+      "op": "ge",
+      "threshold": 1
+    },
+    {
+      "id": "X9-7",
+      "hypothesis": "The map is stable: at most 25 report primaries differ from Baseline",
+      "metric": "primaries_changed_since_baseline",
+      "op": "le",
+      "threshold": 25
+    },
+    {
+      "id": "X9-8",
+      "hypothesis": "Reports with no domain stay at or below 1",
+      "metric": "reports_no_domain",
+      "op": "le",
+      "threshold": 1
+    }
+  ],
+  "baseline_map": "../judgments/map_c0.csv",
+  "similarity_scan": {
+    "threshold": 0.5,
+    "strip_sources": true
+  },
+  "per_section": true
+}
