@@ -1,0 +1,67 @@
+{
+ "sim_id": "SIM-TR-PHI-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:19.408035+00:00",
+ "finished_utc": "2026-10-25T00:59:19.488244+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-3  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "3aeb2e33bb66a5a071ea101a26d0608c03de2e171b3aa9de1ab4be01beb1dd82",
+ "params_sha256": "0f8916f5db3799158fa1a4702af725af978d91d503639d1f3b7d15a72995b278",
+ "results_sha256": "30a43e98ebd7d0e9806f8b5037feff47d7bb0c8ad5c34a5268961825326d0be7",
+ "results": {
+  "template_advantage": {
+   "d0": 1.962,
+   "d8": 0.6164
+  },
+  "V1_pure_core_no_noise": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1 and no noise: every mystic has the same experience, so the template advantage is 0 within 1e-9",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "deautomatization (d 0.8) shrinks the template advantage relative to d 0 under a mixed model",
+   "observed": {
+    "template_advantage": {
+     "d0": 1.962,
+     "d8": 0.6164
+    },
+    "V1_pure_core_no_noise": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "template_advantage": {
+     "d0": 1.962,
+     "d8": 0.6164
+    },
+    "V1_pure_core_no_noise": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
