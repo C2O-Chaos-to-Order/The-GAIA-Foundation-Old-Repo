@@ -48,3 +48,17 @@ Source: GAIA Totality Suite v0.1.0 (owner-provided, Proposed, not adopted). It i
 - The anchors prove that a cited heading or phrase exists. They do not prove that the passage supports the judgment. x3 re-reads the anchors for exactly this reason.
 - The audit mapping is one agent's reading of each criterion.
 - The roadmap waves were taken from short phrases by hand.
+
+## Verification addendum: the boundary check missed the cycle's own output
+
+C0-9 passed, but by design it skipped the current cycle so that reruns stay deterministic. The full-folder scan in VERIFICATION.md (80-character windows) then flagged two files from this cycle:
+- `TABLES.md`
+- `iter-1/data/reconciliation.csv`
+
+The shared spans are only the register's own titles for 024 and 035, together with their table punctuation. Both titles are about 78 characters long, so an 80-character window catches them.
+
+Titles are within the adoption boundary, and no charter or standard text is reproduced. Even so, the scan still flags these files, and C0-9 could not have seen them. The record stays as it fell: C0-9 PASS as computed, and the full scan shows 2 files.
+
+Fix carried into x3:
+- Output tables will use the domain short name (truncated title) instead of the full title.
+- A check that also scans every earlier cycle will be pre-registered.
