@@ -31,7 +31,7 @@ Both failures stay failed. Each one is a finding.
    - **UR-GOV-01** (UR adoption) is primary domain 045, but UR Part IV holds the adoption path. Proposal: UR adoption stays a UR record, and 045 governs review of the whole system.
 
    Rule: where an existing owner-text or gate file already holds the duty, the domain standard cross-refers and does not move the duty. This gives **"no competing source"** a concrete meaning.
-3. **The Baseline had one wrong anchor.** 033 cited the numerical-matrix section, which says nothing about interoperability. It was replaced with ToG §6 item 13. Of the 108 anchors now cited, 69 are direct and 39 partial.
+3. **The Baseline had one wrong anchor.** 033 cited the numerical-matrix section, which says nothing about interoperability. It was replaced with ToG §6 item 13. Of the 108 anchors now cited, 69 are direct and 39 partial. One review note (018) wrongly says an anchor was replaced; see PASSES.md.
 4. **Most citations of authority point to a draft.** 34 of the 68 `parent` relations point to the ToG draft, which binds only once the owner approves it. UR comes next with 20. So until Stage 1 approval, most domains have no binding parent text beyond UR's stub criteria.
 5. **Wave proposals** (for the owner):
    - 024: move to Wave 2.
