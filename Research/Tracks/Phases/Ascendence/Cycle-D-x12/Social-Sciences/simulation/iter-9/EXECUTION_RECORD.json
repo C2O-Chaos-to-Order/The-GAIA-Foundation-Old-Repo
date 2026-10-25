@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:43.075306+00:00",
+ "finished_utc": "2026-10-25T00:01:43.080028+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-9  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "f60617a446e6829781ebd83ab8ce272b6bb78daba43c7a1d865b8aa376ca663d",
+ "params_sha256": "e0ffc64fa45f114cc49767896135acc1c07720284fdeea356f0f7034fb4a5875",
+ "results_sha256": "623387a271999fe621579e7cc83ef3a2b8c693edd0deb6c98c6e9bd72c695bd7",
+ "results": {
+  "by_year": {
+   "1901": {
+    "x1.3": {
+     "pct_mobile": 51.183
+    },
+    "independence": {
+     "pct_mobile": 76.449
+    },
+    "min_mobility_pct": 11.744
+   }
+  },
+  "max_margin_err": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "IPF reproduces both margins within 1e-9 in every fit",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "1901 margins, inheritance scale 1.3: % mobile below Table 1's 52%",
+   "observed": {
+    "by_year": {
+     "1901": {
+      "x1.3": {
+       "pct_mobile": 51.183
+      },
+      "independence": {
+       "pct_mobile": 76.449
+      },
+      "min_mobility_pct": 11.744
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_year": {
+     "1901": {
+      "x1.3": {
+       "pct_mobile": 51.183
+      },
+      "independence": {
+       "pct_mobile": 76.449
+      },
+      "min_mobility_pct": 11.744
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
