@@ -372,7 +372,7 @@ def run(cycle_dir, it, outdir=None):
                 for m in mem:
                     cl_named.setdefault(m, []).append((cid, named_tots(byid[cid]["text"])))
             errs = []
-            if cid not in byid:
+            if cid not in byid and not cid.startswith("NEW-"):
                 errs.append("unknown cluster id")
             for m in mem:
                 if m not in byid:
@@ -397,15 +397,41 @@ def run(cycle_dir, it, outdir=None):
             cl_rows.append(dict(cluster_id=cid, home_item=c["home_item"],
                                 home_domain=c["home_domain"], n_members=len(mem),
                                 ok=int(not errs)))
+    # non-report work map (x6 onward)
+    nrmap = {}
+    if cfg.get("nonreport_map"):
+        for r in load_map(os.path.normpath(os.path.join(cycle_dir, cfg["nonreport_map"]))):
+            iid = r["item_id"]
+            if iid not in byid:
+                problems.append(f"nonreport row for unknown item {iid}"); continue
+            if iid in jmap or iid in nrmap:
+                problems.append(f"nonreport duplicate {iid}")
+            prim = r["primary"].strip(); sec = split_ids(r["secondary"])
+            for d in ([prim] if prim != "NONE" else []) + sec:
+                if d not in reg_ids:
+                    problems.append(f"{iid}: unknown domain {d}")
+            if r["label"] not in LABELS:
+                problems.append(f"{iid}: bad label {r['label']}")
+            if prim == "NONE" and not r["basis"].strip():
+                problems.append(f"{iid}: NONE needs a reason")
+            if r["label"] == "Established":
+                src = r.get("named_in", "").strip() or iid
+                if src not in byid or prim not in named_tots(byid[src]["text"]):
+                    problems.append(f"{iid}: Established but {src} text does not name {prim}")
+            nrmap[iid] = dict(primary=prim, secondary=sec, label=r["label"], basis=r["basis"],
+                              named_in=r.get("named_in", "").strip())
+        for i in items:
+            if i["kind"] in cfg.get("nonreport_kinds", []) and i["item_id"] not in nrmap:
+                problems.append(f"non-report item not in nonreport map: {i['item_id']}")
     # queue-named consistency (x3 onward)
     qn_missing, qn_not_primary = [], []
     if cfg.get("queue_named_checks"):
-        for iid, j in sorted(jmap.items()):
+        for iid, j in sorted(list(jmap.items()) + list(nrmap.items())):
             src = j["named_in"]
             if src.startswith("M-b7.") and src not in [c for c, _ in cl_named.get(iid, [])]:
                 problems.append(f"{iid}: named_in {src} but not a member of that cluster")
             judged = set(([j["primary"]] if j["primary"] != "NONE" else []) + j["secondary"])
-            own = named_tots(byid[iid]["text"])
+            own = set() if iid in cfg.get("named_examples", []) else named_tots(byid[iid]["text"])
             for d in sorted(own - judged):
                 qn_missing.append(f"{iid}: own text names {d}")
             named_all = set(own)
@@ -461,6 +487,62 @@ def run(cycle_dir, it, outdir=None):
         clusters_ok=clusters_ok, clusters=cl_rows,
         problems=problems,
     )
+    if cfg.get("nonreport_map"):
+        work = {d: set(cov_ps[d]) for d in reg_ids}
+        for iid, j in nrmap.items():
+            for d in ([j["primary"]] if j["primary"] != "NONE" else []) + j["secondary"]:
+                work[d].add(iid)
+        metrics["domains_no_work_any"] = [d for d in reg_ids if not work[d]]
+        metrics["nonreport_only_domains"] = [d for d in reg_ids if not cov_ps[d] and work[d]]
+    if cfg.get("dependency_check"):
+        gaps = []
+        for r in reg:
+            d = r["stable_id"]
+            if not cov_p[d]:
+                continue
+            for dep in sorted(named_tots(r["dependencies"])):
+                if dep in reg_ids and dep != d and not cov_ps[dep]:
+                    gaps.append(f"{d} -> {dep}")
+        metrics["dependency_gaps"] = gaps
+    if cfg.get("tog24_map"):
+        rows24 = load_map(os.path.normpath(os.path.join(cycle_dir, cfg["tog24_map"])))
+        if len(rows24) != 24:
+            problems.append(f"tog24 map has {len(rows24)} rows, expected 24")
+        reached = set()
+        for r in rows24:
+            ds = [r["primary"]] + split_ids(r["secondary"])
+            for d in ds:
+                if d not in reg_ids:
+                    problems.append(f"tog24 {r['tog_id']}: unknown domain {d}")
+            if r["label"] not in LABELS:
+                problems.append(f"tog24 {r['tog_id']}: bad label")
+            reached |= set(ds)
+        metrics["tog24_unreached"] = [d for d in reg_ids if d not in reached]
+    if cfg.get("sensitivity"):
+        def nores(pred, prim_only=False):
+            hit = set()
+            for i in items:
+                j = jmap.get(i["item_id"])
+                if not j or not pred(i, j):
+                    continue
+                ds = ([j["primary"]] if j["primary"] != "NONE" else []) + ([] if prim_only else j["secondary"])
+                hit |= set(ds)
+            return [d for d in reg_ids if d not in hit]
+        rk, ck = report_kinds, report_kinds | set(cfg.get("candidate_kinds", []))
+        sens = dict(
+            primary_only=nores(lambda i, j: i["kind"] in rk, True),
+            primary_or_secondary=nores(lambda i, j: i["kind"] in rk),
+            with_candidates=nores(lambda i, j: i["kind"] in ck),
+            excluding_hypothetical=nores(lambda i, j: i["kind"] in rk and j["label"] != "Hypothetical"),
+            excluding_hypothetical_primary_only=nores(lambda i, j: i["kind"] in rk and j["label"] != "Hypothetical", True),
+            open_reports_only=nores(lambda i, j: i["kind"] in rk and i["status"] == "open"),
+            open_reports_primary_only=nores(lambda i, j: i["kind"] in rk and i["status"] == "open", True),
+            established_only_primary=nores(lambda i, j: i["kind"] in rk and j["label"] == "Established", True),
+        )
+        if cfg.get("nonreport_map"):
+            sens["with_nonreport_work"] = metrics["domains_no_work_any"]
+        metrics["sensitivity_no_report_counts"] = {k: len(v) for k, v in sens.items()}
+        metrics["sensitivity_no_report"] = sens
     if cfg.get("queue_named_checks"):
         metrics["queue_named_missing"] = qn_missing
         metrics["queue_named_not_primary"] = qn_not_primary
@@ -538,6 +620,20 @@ def render(cycle_dir, it):
         L.append(f"- {x}: {byid[x]['text'][:90]} — {byid[x]['basis']} [{byid[x]['label']}]")
     if not m["reports_no_domain"]:
         L.append("- none")
+    if "domains_no_work_any" in m:
+        L.append(f"\n### Counting non-report work too\n\n- Domains with no work of any kind ({len(m['domains_no_work_any'])}): " + (", ".join(sh(x) for x in m["domains_no_work_any"]) or "none"))
+    if "dependency_gaps" in m:
+        L.append(f"- Dependency gaps (a domain that homes a report depends on a domain with no report): " + (", ".join(sh(x) for x in m["dependency_gaps"]) or "none"))
+    if "tog24_unreached" in m:
+        L.append(f"- TOT domains reached by no ToG §6 governance domain ({len(m['tog24_unreached'])}): " + (", ".join(sh(x) for x in m["tog24_unreached"]) or "none"))
+    if "sensitivity_no_report_counts" in m:
+        L.append("\n### Sensitivity: number of domains with no report under each counting rule\n\n| Rule | Domains with no report |\n|---|---|")
+        for k, v in m["sensitivity_no_report_counts"].items():
+            L.append(f"| {k} | {v} |")
+    if m.get("queue_named_not_primary"):
+        L.append("\n### Tensions: the queue names a domain that is not the judged primary\n")
+        for x in m["queue_named_not_primary"]:
+            L.append("- " + sh(x))
     if cfg.get("clusters"):
         cl = list(csv.DictReader(open(os.path.normpath(os.path.join(cycle_dir, cfg["clusters"])), encoding="utf-8")))
         L.append("\n### b7 single-home proposals (proposals, not decisions)\n\n| Cluster | Members | Proposed home | Home domain | Label | Why | Alternative |\n|---|---|---|---|---|---|---|")

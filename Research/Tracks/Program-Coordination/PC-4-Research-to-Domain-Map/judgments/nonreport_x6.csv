@@ -1,0 +1,54 @@
+item_id,primary,secondary,label,named_in,basis
+L-01,GAIA-TOT-033,GAIA-TOT-039,Plausible,,"matrix axis update: TOT-033 scope names ""matrix dimensions"""
+L-02,GAIA-TOT-030,GAIA-TOT-038,Plausible,,"responsibility ladder rung for Quantum: TOT-030 ""capability levels"""
+L-03,GAIA-TOT-003,,Plausible,,ethics lenses → Good and Greater Good Framework
+L-04,GAIA-TOT-039,GAIA-TOT-023,Plausible,,"phase-to-level mapping in earlier phase reports: TOT-039 ""phases"""
+L-05,GAIA-TOT-023,GAIA-TOT-025,Plausible,,Report 6 Soul of the Earth wording
+L-06,GAIA-TOT-029,,Plausible,,README open questions: TOT-029 scope names README files
+L-07,GAIA-TOT-014,,Plausible,,"cross-links among track reports: TOT-014 ""links"""
+L-08,GAIA-TOT-039,,Plausible,,synthesis carried issues tracked in the queue
+L-09,GAIA-TOT-014,,Plausible,,"duplicate source registrations: TOT-014 ""sources"""
+L-10,GAIA-TOT-005,,Plausible,,over-labelled links: claim labels TOT-005
+L-11,GAIA-TOT-038,GAIA-TOT-029,Plausible,,"README §10 numerical-pattern ambiguity: TOT-038 ""numerical patterns"""
+L-12,GAIA-TOT-006,GAIA-TOT-007,Plausible,,pass-counting rule: research method TOT-006
+L-13,GAIA-TOT-011,GAIA-TOT-045 GAIA-TOT-002,Plausible,,audit v2 open items: audit TOT-011
+Ma-01,GAIA-TOT-040,GAIA-TOT-029,Plausible,,private vulnerability reporting: TOT-040
+Ma-02,GAIA-TOT-013,GAIA-TOT-017,Plausible,,branch protection: access and permissions TOT-013; release TOT-017
+Ma-03,GAIA-TOT-002,GAIA-TOT-030 GAIA-TOT-011,Plausible,,naming independent and ethics reviewers: decision rights; reviewer independence TOT-030
+M-b1,GAIA-TOT-038,GAIA-TOT-030 GAIA-TOT-039,Plausible,,Quantum placement in phases and ladder
+M-b2,GAIA-TOT-023,GAIA-TOT-039 GAIA-TOT-030,Plausible,,defining the §C level upgrades
+M-b3,GAIA-TOT-039,,Plausible,,Phases plan versioned update (done)
+M-b4,GAIA-TOT-039,GAIA-TOT-029,Plausible,,Phases README statuses (done)
+M-b5,GAIA-TOT-033,GAIA-TOT-039,Plausible,,matrix 625 → 750: matrix dimensions
+M-b6,GAIA-TOT-003,GAIA-TOT-010 GAIA-TOT-014,Established,M-b6,owner primary texts into the repository; text names TOT-003/010
+M-b7,GAIA-TOT-039,,Plausible,,run PC-4 first: portfolio de-duplication
+M-b8,GAIA-TOT-039,,Plausible,,starting points for ten domains: portfolio; its TOT list is a list for other items (named_examples)
+M-b9,GAIA-TOT-045,GAIA-TOT-033,Plausible,,crosswalk 04 omissions: governance coherence; its TOT list is a list for other items (named_examples)
+M-b10,GAIA-TOT-029,GAIA-TOT-044,Plausible,,stale root README (done)
+M-b11,GAIA-TOT-040,GAIA-TOT-029,Plausible,,stale SECURITY.md
+M-b12,GAIA-TOT-044,,Plausible,,"stale agent push log: TOT-044 ""agent logs"""
+M-b13,GAIA-TOT-014,GAIA-TOT-039,Plausible,,stale product register
+M-b14,GAIA-TOT-002,GAIA-TOT-011,Plausible,,stale gate register
+M-b15,GAIA-TOT-045,GAIA-TOT-014,Plausible,,ToG §19 files after Stage 1
+M-b16,GAIA-TOT-045,GAIA-TOT-005 GAIA-TOT-006 GAIA-TOT-003 GAIA-TOT-015 GAIA-TOT-017,Plausible,,"UR domain standards (epistemic, scientific, ethical, technical, operational) or their replacement by TOT domains"
+M-b17,GAIA-TOT-011,GAIA-TOT-020 GAIA-TOT-045,Plausible,,Audit v3 incl. licence item UR-L6-03 (TOT-020)
+M-b18,GAIA-TOT-039,GAIA-TOT-029,Plausible,,Phases documents still describe five phases
+M-b19,GAIA-TOT-044,GAIA-TOT-029 GAIA-TOT-014,Plausible,,"governance records not kept in step: TOT-044 ""decision records"""
+M-b20,GAIA-TOT-030,GAIA-TOT-008,Plausible,,ladder update must cover RISK_LEVELS.md: risk TOT-008
+M-b21,GAIA-TOT-014,,Plausible,,re-check track links
+M-b22,GAIA-TOT-014,GAIA-TOT-045,Plausible,,inspect the Encyclopedia for PC-8
+M-c1,GAIA-TOT-023,GAIA-TOT-039,Plausible,,define §C upgrades
+M-c2,GAIA-TOT-024,GAIA-TOT-023 GAIA-TOT-030,Plausible,,five-series entanglement including Indigenous
+M-c3,GAIA-TOT-045,GAIA-TOT-002,Plausible,,assign ToG gates and control-matrix sections to ToG reports
+M-c4,GAIA-TOT-045,GAIA-TOT-033,Plausible,,template to PC-1 and a 24 ↔ 45 domain map to PC-2
+M-c5,GAIA-TOT-039,,Plausible,,run PC-4 before ToG and TOT reports
+M-c6,GAIA-TOT-044,GAIA-TOT-029,Plausible,,stale-file updates as standing items
+M-c7,GAIA-TOT-011,GAIA-TOT-045,Plausible,,"audit v3, ToG §19 files and UR standards as owned queue items"
+M-c8,GAIA-TOT-045,GAIA-TOT-039,Plausible,,"omission report / horizon scan: TOT-045 scope names ""missing domains"""
+M-c9,GAIA-TOT-023,GAIA-TOT-038,Plausible,,extend the Elements brief
+M-c10,GAIA-TOT-039,,Plausible,,"whether the six phases apply to §K, ToG, PC and TOT reports"
+M-c11,GAIA-TOT-038,GAIA-TOT-029,Plausible,,record the newer Matrix Hypothesis
+M-c12,GAIA-TOT-023,GAIA-TOT-039,Plausible,,cross-link The Ages with the phases
+M-c13,GAIA-TOT-045,GAIA-TOT-039,Plausible,,record low-priority fields as out of scope (missing domains)
+AFT-01,GAIA-TOT-014,GAIA-TOT-029 GAIA-TOT-044,Plausible,,improve the Official GAIA Encyclopedia: knowledge architecture
+AFT-02,GAIA-TOT-015,GAIA-TOT-017 GAIA-TOT-037,Hypothetical,,"""Begin building"": engineering is the likely home, but what is built is undefined"
