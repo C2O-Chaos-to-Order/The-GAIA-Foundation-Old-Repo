@@ -1,0 +1,156 @@
+{
+ "sim_id": "SIM-TR-APP-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:16.203051+00:00",
+ "finished_utc": "2026-10-25T00:59:16.223012+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "a6a39a353f7f6ca51e1aa18ffa8b58ed1669310c2c0b58046ed2e053f042910d",
+ "params_sha256": "a6755a3294f230f4a449342fb83f212f544a0ac36f5432e180a8481f958d3c76",
+ "results_sha256": "a97955b8b4f336c36e363cf8eb3d74636d6f575c8326a5fa228a16f9707474d0",
+ "results": {
+  "by_A": {
+   "4": {
+    "pc": 0.234375,
+    "freq": 0.2341225,
+    "se": 0.00066978,
+    "icvi": 0.66666667,
+    "kappa": 0.56462585
+   },
+   "5": {
+    "pc": 0.09375,
+    "freq": 0.09389,
+    "se": 0.00046087,
+    "icvi": 0.83333333,
+    "kappa": 0.81609195
+   },
+   "6": {
+    "pc": 0.015625,
+    "freq": 0.0158125,
+    "se": 0.00019609,
+    "icvi": 1.0,
+    "kappa": 1.0
+   }
+  },
+  "N": 6
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "binomial probabilities C(N, a) 0.5^N sum to 1 over a = 0..N",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "6 raters: Monte Carlo within 4 SE of the formula",
+   "observed": {
+    "by_A": {
+     "4": {
+      "pc": 0.234375,
+      "freq": 0.2341225,
+      "se": 0.00066978,
+      "icvi": 0.66666667,
+      "kappa": 0.56462585
+     },
+     "5": {
+      "pc": 0.09375,
+      "freq": 0.09389,
+      "se": 0.00046087,
+      "icvi": 0.83333333,
+      "kappa": 0.81609195
+     },
+     "6": {
+      "pc": 0.015625,
+      "freq": 0.0158125,
+      "se": 0.00019609,
+      "icvi": 1.0,
+      "kappa": 1.0
+     }
+    },
+    "N": 6
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with 6 raters, 5 agreeing (I-CVI 0.83) still gives kappa above 0.74 but 4 agreeing (0.67) does not",
+   "observed": {
+    "by_A": {
+     "4": {
+      "pc": 0.234375,
+      "freq": 0.2341225,
+      "se": 0.00066978,
+      "icvi": 0.66666667,
+      "kappa": 0.56462585
+     },
+     "5": {
+      "pc": 0.09375,
+      "freq": 0.09389,
+      "se": 0.00046087,
+      "icvi": 0.83333333,
+      "kappa": 0.81609195
+     },
+     "6": {
+      "pc": 0.015625,
+      "freq": 0.0158125,
+      "se": 0.00019609,
+      "icvi": 1.0,
+      "kappa": 1.0
+     }
+    },
+    "N": 6
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_A": {
+     "4": {
+      "pc": 0.234375,
+      "freq": 0.2341225,
+      "se": 0.00066978,
+      "icvi": 0.66666667,
+      "kappa": 0.56462585
+     },
+     "5": {
+      "pc": 0.09375,
+      "freq": 0.09389,
+      "se": 0.00046087,
+      "icvi": 0.83333333,
+      "kappa": 0.81609195
+     },
+     "6": {
+      "pc": 0.015625,
+      "freq": 0.0158125,
+      "se": 0.00019609,
+      "icvi": 1.0,
+      "kappa": 1.0
+     }
+    },
+    "N": 6
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
