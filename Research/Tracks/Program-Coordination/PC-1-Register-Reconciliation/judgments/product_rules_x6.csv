@@ -1,0 +1,9 @@
+field,value,domains,basis
+kind,report+simulations,GAIA-TOT-006 GAIA-TOT-007 GAIA-TOT-005,"research products: methods, verification, claims"
+kind,derived map,GAIA-TOT-014 GAIA-TOT-005,derived maps: records and claims
+kind,research tooling,GAIA-TOT-015,software
+kind,verification automation,GAIA-TOT-015 GAIA-TOT-007,CI
+kind,governance standard,GAIA-TOT-045 GAIA-TOT-001,the UR standard
+kind,governance audit,GAIA-TOT-011 GAIA-TOT-045,the UR audits
+overlay,M,GAIA-TOT-023,Magic Power discipline overlay
+overlay,W,GAIA-TOT-021 GAIA-TOT-027,well-being overlay

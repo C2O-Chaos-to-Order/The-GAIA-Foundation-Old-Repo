@@ -214,7 +214,7 @@ def run(cycle_dir, it, outdir=None):
         domains_without_tog6=[d for d in ids if not t24[d]],
         domains_without_audit_item=[d for d in ids if not all_by[d]],
         boundary_overlaps=bnd)
-    metrics.update(extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd))
+    metrics.update(extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd, reg_by, icfg, rm))
     checks = []
     for c in cfg["checks"]:
         if c.get("iterations") and it not in c["iterations"]:
@@ -240,7 +240,7 @@ def run(cycle_dir, it, outdir=None):
 def _anchors(r):
     return [x.strip() for x in r["anchors"].split(";") if x.strip()]
 
-def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd):
+def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd, reg_by=None, icfg=None, rm=None):
     """x3+ metrics; added only when the cycle config names their inputs (earlier records unchanged)."""
     m = {}
     if "anchor_review" in cfg:
@@ -258,7 +258,7 @@ def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it,
     if am and "primary" in am[0]:
         dec = {a["id"]: a["decision"] for a in aud}
         home = {d: seen[d]["canonical_home"] for d in seen}
-        mis = []
+        mis, mis_t = [], []
         for r in am:
             pr = pc4.split_ids(r["primary"])
             if len(pr) != 1 or pr[0] not in home:
@@ -269,6 +269,7 @@ def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it,
             if dec.get(r["audit_id"]) != "PASS":
                 if r["remedy_home"] != home[pr[0]]:
                     mis.append(f"{r['audit_id']}: {r['remedy_home'] or '(none)'} vs {home[pr[0]]}")
+                    mis_t.append((r["audit_id"], pr[0], r["remedy_home"]))
             elif r["remedy_home"]:
                 problems.append(f"audit {r['audit_id']}: PASS item has a remedy home")
         m["open_remedy_mismatch"] = mis
@@ -301,6 +302,86 @@ def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it,
             if v == "parent":
                 par.setdefault(f, []).append(d)
         m["parent_sources"] = {f: len(v) for f, v in sorted(par.items())}
+        if cfg.get("remedy_rule") == "authority":
+            m["open_remedy_unexplained"] = [f"{a}: {d} {f}" for a, d, f in mis_t if (d, f) not in au]
+    if "anchor_review" in cfg:
+        draft = "GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md"
+        if cfg.get("ur_criteria"):
+            m["draft_only_domains"] = [d for d in ids if d in seen and all(a.partition("#")[0] == draft for a in _anchors(seen[d]) if rv.get((d, a)) == "direct") and any(rv.get((d, a)) == "direct" for a in _anchors(seen[d]))]
+    if cfg.get("ur_criteria"):
+        crit = re.findall(r"^- ((EPI|SCI|ETH|TEC|OPS)-\d+) ", rd(os.path.join(repo, "GOVERNANCE/UNIVERSAL_REGULATION.md")), re.M)
+        uc = {r["criterion"]: r["primary"] for r in pc4.load_map(P(cfg["ur_criteria"]))}
+        m["ur_criteria"] = len(crit)
+        m["ur_criteria_unmapped"] = [c for c, _ in crit if c not in uc]
+        m["ur_domain_inconsistent"] = []
+        for c, u in crit:
+            d = uc.get(c)
+            if d and d not in seen:
+                problems.append(f"UR {c}: unknown domain {d}")
+            elif d:
+                urs = pc4.split_ids(seen[d]["ur_domains"])
+                if u not in urs and "ALL" not in urs:
+                    m["ur_domain_inconsistent"].append(f"{c} -> {d} ({' '.join(urs)})")
+        m["ur_domains_uncovered"] = [u for u in ("EPI", "SCI", "ETH", "TEC", "OPS") if not any(u in pc4.split_ids(seen[d]["ur_domains"]) for d in seen)]
+        load = {}
+        for c, d in uc.items():
+            load[d] = load.get(d, 0) + 1
+        m["ur_criteria_per_domain"] = dict(sorted(load.items()))
+    if cfg.get("tog19"):
+        planned = tog19_planned(repo)
+        tg = pc4.load_map(P(cfg["tog19"]))
+        for r in tg:
+            if r["planned_file"] not in planned or r["relation"] not in ("home", "companion", "index", "record"):
+                problems.append(f"ToG19 row {r['planned_file']}: unknown file or relation")
+            if r["domains"] != "NEW" and any(d not in seen for d in pc4.split_ids(r["domains"])):
+                problems.append(f"ToG19 row {r['planned_file']}: unknown domain")
+        m["tog19_unassigned"] = sorted(planned - {r["planned_file"] for r in tg})
+        m["tog19_records_per_domain"] = dict(sorted({d: sum(1 for r in tg if r["domains"] != "NEW" and d in pc4.split_ids(r["domains"])) for r in tg for d in pc4.split_ids(r["domains"]) if r["domains"] != "NEW"}.items()))
+    if cfg.get("product_rules"):
+        pr_ = pc4.load_map(P(cfg["product_rules"]))
+        rule = {(r["field"], r["value"]): pc4.split_ids(r["domains"]) for r in pr_}
+        prods = list(csv.DictReader(open(os.path.join(repo, "GOVERNANCE/PRODUCT_REGISTER.csv"), encoding="utf-8")))
+        ung, pc = [], {}
+        for p_ in prods:
+            ds = set(rule.get(("kind", p_["kind"]), []))
+            for o in p_["overlays"].split("+"):
+                ds |= set(rule.get(("overlay", o.strip()), []))
+            if not ds:
+                ung.append(p_["product_id"])
+            for d in ds:
+                pc[d] = pc.get(d, 0) + 1
+        m["products"] = len(prods)
+        m["products_ungoverned"] = ung
+        m["products_per_domain"] = dict(sorted(pc.items()))
+    if reg_by is not None and cfg.get("ur_criteria"):
+        deps = {}
+        for d in ids:
+            ds = sorted(x for x in pc4.named_tots(reg_by[d]["dependencies"]) if x != d)
+            for x in ds:
+                if x not in reg_by:
+                    problems.append(f"{d}: unknown dependency {x}")
+            deps[d] = ds
+        road = {d: rm[d]["roadmap_wave"] for d in ids}
+        prop = dict(road)
+        for r in pc4.load_map(P(cfg["wave_proposals"])):
+            prop[r["stable_id"]] = icfg.get("wave_038", "4") if r["proposed_wave"] == "owner" else r["proposed_wave"]
+        def inv(sch):
+            out = []
+            for d in ids:
+                if not sch[d].isdigit():
+                    continue
+                for x in deps[d]:
+                    if not sch[x].isdigit() or int(sch[x]) > int(sch[d]):
+                        out.append(f"{d}<-{x}")
+            return out
+        ir, ip = inv(road), inv(prop)
+        m["dependency_edges"] = sum(len(v) for v in deps.values())
+        m["inversions_roadmap"] = ir
+        m["inversions_proposed"] = ip
+        m["inversions_delta"] = len(ip) - len(ir)
+        m["unscheduled_under_proposal"] = [d for d in ids if not prop[d].isdigit()]
+        cov = {r["stable_id"]: r for r in csv.DictReader(open(P(cfg["pc4_coverage"]), encoding="utf-8"))}
+        m["pc4_no_primary_report"] = [d for d in ids if not cov[d]["primary_items"]]
     if "wave_proposals" in cfg:
         wp = {r["stable_id"] for r in pc4.load_map(P(cfg["wave_proposals"]))}
         m["mismatches_without_proposal"] = [d for d in mism if d not in wp]
@@ -365,7 +446,8 @@ if __name__ == "__main__":
             print(c_["id"], c_["result"], c_["value"])
         for k in ("problems", "anchors_unresolved", "duplicate_homes", "id_collisions", "b9_symmetric_difference", "audit_unmapped", "boundary_overlaps",
                   "prior_anchors_unreviewed", "anchors_unsupported", "domains_without_direct_anchor", "open_remedy_mismatch",
-                  "authority_unclassified", "mismatches_without_proposal", "boundary_new_overlaps"):
+                  "authority_unclassified", "mismatches_without_proposal", "boundary_new_overlaps",
+                  "ur_criteria_unmapped", "ur_domain_inconsistent", "tog19_unassigned", "products_ungoverned", "open_remedy_unexplained", "draft_only_domains"):
             if rec["metrics"].get(k):
                 print(k, rec["metrics"][k])
     elif g.cmd == "verify":
