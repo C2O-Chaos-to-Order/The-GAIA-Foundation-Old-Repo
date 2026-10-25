@@ -12,7 +12,7 @@ The order below is the planned working order and may be changed by the owner.
 - [x] ✅ **Master Report: Unconditional and Conditional Love** — merged to `main`
 - [x] ✅ **Soul, Spirit, Subconscious and Consciousness track** (Cycles A–D, x3–x12) — merged to `main`
 - [x] ✅ **Universal Regulation Principle and governance/audit fixes** — merged to `main`
-- [x] ✅ **Phases track: Divergence, Insurgence and Allegiance** (Baseline–x12 each) — merged to `main` (PRs #11, #13–#16); listed here so §A is complete; details in §B (added 2026-10-24, gap check §M)
+- [x] ✅ **Phases track: all six phases and the six-phase synthesis** (Baseline–x12 each) — merged to `main` (Divergence, Insurgence, Allegiance PRs #11, #13–#16; Convergence #24; Ascendence #25; Transcendence #26; synthesis #27); details in §B (updated 2026-10-25)
 
 ## B. The six phases
 
@@ -23,17 +23,18 @@ Owner's discovered pattern (Hypothetical): each phase corresponds to an upgrade 
 | Divergence | Base | ✅ Baseline–x12 complete and verified, merged to `main` (PRs #11, #13) |
 | Insurgence | Meta (Metaphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PR #14) |
 | Allegiance | Super (Superphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PRs #15, #16) |
-| Convergence | Hyper (Hyperphysical) | 🔄 in progress: Baseline, x3 and x6 pushed on `research/phase-convergence-c0`, `-x3`, `-x6` (no PR yet); x9 and x12 next (status corrected 2026-10-24, gap check §M) |
-| Ascendence | Ultra (Ultraphysical) | ⬜ |
-| Transcendence (new sixth phase) | Magic | ⬜ |
+| Convergence | Hyper (Hyperphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PR #24; x12 `research/phase-convergence-x12` @ `bbf85f11`) |
+| Ascendence | Ultra (Ultraphysical) | ✅ Baseline–x12 complete and verified, merged to `main` (PR #25; x12 `research/phase-ascendence-x12` @ `54d6f083`) |
+| Transcendence (new sixth phase) | Magic | ✅ Baseline–x12 complete and verified, merged to `main` (PR #26; x12 `research/phase-transcendence-x12` @ `3ae9bf57`) |
+| Six-phase synthesis | — | ✅ written and checked, merged to `main` (PR #27; `research/phase-synthesis` @ `84b382bf`); gate INDETERMINATE; one pre-registered check (V3) failed and is reported |
 
 - [x] ✅ Divergence
 - [x] ✅ Insurgence
 - [x] ✅ Allegiance
-- [ ] 🔄 Convergence — Baseline, x3, x6 pushed on research branches; x9, x12 to do
-- [ ] ⬜ Ascendence
-- [ ] ⬜ Transcendence — Baseline, x3, x6, x9, x12
-- [ ] ⬜ Six-phase synthesis
+- [x] ✅ Convergence — Baseline–x12, PR #24 (x12 @ `bbf85f11`)
+- [x] ✅ Ascendence — Baseline–x12, PR #25 (x12 @ `54d6f083`)
+- [x] ✅ Transcendence — Baseline, x3, x6, x9, x12, PR #26 (x12 @ `3ae9bf57`)
+- [x] ✅ Six-phase synthesis — `Research/Tracks/Phases/SYNTHESIS.md`, PR #27 (@ `84b382bf`)
 
 ## C. The upgrade ladder
 
@@ -200,6 +201,11 @@ Found by checking the repository on 2026-10-24.
 - [ ] ⬜ **Report 6: Soul of the Earth.** Report 6 names Life as the Soul of the Earth; the owner has since also named Humans and the Geomagnetic Spectrum. Record the alternatives openly without rewriting earlier versions.
 - [ ] ⬜ **Open questions in `Research/README.md`** (e.g. "How are the five phases defined?") should be updated now that the owner has defined the pattern.
 - [ ] ⬜ **Soul, Spirit, Subconscious and Consciousness track:** it has links to the main reports but none among the four topics (handled by the Connection report in §E).
+- [ ] ⬜ **Six-phase synthesis carried issues (awaiting the owner; from `Research/Tracks/Phases/SYNTHESIS.md` §3, §5, §6, §8, PR #27).** None is fixed by this entry, and the frozen registers are not edited without the owner's approval:
+  - [ ] ⬜ **Duplicate source registrations:** P51 = P59 (Kleinig, "Loyalty", Stanford Encyclopedia of Philosophy) and P84 = P105 (Mosurinjohn, Roseman and Girn 2023). Approve a correction cycle that marks P59 and P105 as duplicates.
+  - [ ] ⬜ **Over-labelled links:** PL-06 (Established), PL-11 (Established) and PL-42 (Plausible) carry a label stronger than their weakest cited claim and should be reviewed. PL-51, PL-54, PL-61 and PL-73 state mathematical identities and are flagged for information only.
+  - [ ] ⬜ **README §10 later-pattern ambiguity (×D or ×E):** A·B·C element-wise is (0, 18, 90, 252, 0); multiplying by D = 1 leaves it unchanged, and only multiplying by E = 0 gives the all-zero vector that `Research/README.md` §10 reports. The owner to say which scalar is meant (synthesis check V3 failed on the ×D reading).
+  - [ ] ⬜ **Empty-pass counting rule:** Divergence to Convergence marked replication-only passes "Added nothing", while Ascendence and Transcendence credited them with the run's claim, so they report 0 empty passes. The owner to fix one rule for future cycles; the synthesis uses "Read: nothing new" as the comparable measure.
 - [ ] ⬜ **Audit v2 open items:** 3 FAIL and 13 INDETERMINATE, including branch protection on `main`, naming independent and ethics reviewers, and L5-03 attribution. Update 2026-10-24 (gap check §M): the licence FAIL (UR-L6-03) looks closable because `LICENSE` now exists, and the UR-L4-04 finding assumes the repository is private (it is now public); both need **Audit v3**. Audit v2 itself stays unchanged.
 
 ## M. Totality gap check (2026-10-24)
@@ -214,8 +220,8 @@ Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). 
 ### (b) Gaps in owner-requested work
 - [ ] ⬜ b1. **Quantum placement**: define Quantum's phase (if any), its responsibility-ladder rung (`Research/README.md` §2) and its risk tier (`GOVERNANCE/RISK_LEVELS.md` l.13-25). It is queued in §C, §G, §K and ToG 10 without a definition (§2 finding 2).
 - [ ] ⬜ b2. **Define §C (upgrade ladder)**: which reports get the seven level-upgrades, and how levels relate to cycles (§2 finding 1).
-- [ ] ⬜ b3. **Transcendence in the Phases plan**: versioned update of `Research/Tracks/Phases/PLAN.md` (five phases, five-phase synthesis) (§2 finding 3).
-- [ ] ⬜ b4. **Transcendence and current statuses in `Research/Tracks/Phases/README.md`** (still shows DV/IN/AL "in progress" and Convergence "planned") (§2 finding 4).
+- [x] ✅ b3. **Transcendence in the Phases plan**: versioned update of `Research/Tracks/Phases/PLAN.md` (five phases, five-phase synthesis) (§2 finding 3). Done 2026-10-25: amendment v2 (§9, Transcendence) and amendment v3 (§10, completion record); the v2 text is frozen as `PLAN_v2_six_phases.md`, v1 as `PLAN_v1_five_phases.md`.
+- [x] ✅ b4. **Transcendence and current statuses in `Research/Tracks/Phases/README.md`** (still shows DV/IN/AL "in progress" and Convergence "planned") (§2 finding 4). Done 2026-10-25: all six phases and the synthesis show their merged status and PR.
 - [ ] ⬜ b5. **Transcendence in the matrix** (625 → 750; same as §L "Matrix: add Transcendence"; tracked there).
 - [ ] ⬜ b6. **Owner's Universal Master List v1.0 and the Transforming Harm and Protecting Life companion (GAIA-GG-TPF-001) into the repository**, so §D, ToG 5, TOT-003/010 and §L ethics lenses can use primary text (owner supplies the files).
 - [ ] ⬜ b7. **Run PC-4 first** to settle the 9 duplicate clusters, so nothing is researched twice (§3.2):
@@ -230,7 +236,7 @@ Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). 
   - [ ] Seven levels and the responsibility ladder (§C, ToG 10, §K, §L, Responsibilities recommendation)
 - [ ] ⬜ b8. **Ten Totality domains with no existing material** need a starting point in their domain reports: TOT-010 Transforming Harm · 019 Legal · 022 Equity and Accessibility · 026 Animal Welfare · 028 Synthetic Media · 030 Education and Competency · 031 Economics · 036 Lifecycle and Decommissioning · 037 Physical Infrastructure · 043 Resilience and Emergencies (§1).
 - [ ] ⬜ b9. **Totality crosswalk (04) omits 11 domains** from every specific row (TOT-021, 022, 024, 025, 026, 029, 031, 032, 036, 040, 042); correct it in PC-1/PC-2 (§1 finding 3).
-- [ ] ⬜ b10. **Stale root `README.md`**: commit `52f9099`/PR #18, Convergence branches, merged-branch list, ToG draft missing from the governance row (§4.3 item 1).
+- [x] ✅ b10. **Stale root `README.md`**: commit `52f9099`/PR #18, Convergence branches, merged-branch list, ToG draft missing from the governance row (§4.3 item 1). Done 2026-10-25: now `main` @ `10b4d82a` (PR #27), six phases and synthesis, Maps v1–v38, ToG draft in the governance row, open PR #28 listed, merged-branch list updated.
 - [ ] ⬜ b11. **Stale `SECURITY.md`** l.15 ("This repository is private"): revise after setting (a)1 (§4.3 item 2).
 - [ ] ⬜ b12. **Stale `GOVERNANCE/AGENT_PUSH_LOG.md`**: ends at `phase-divergence-x9`; add the Insurgence, Allegiance, Convergence, work-queue, docs-reconcile and governance-totality branches (§4.3 item 3).
 - [ ] ⬜ b13. **Stale `GOVERNANCE/PRODUCT_REGISTER.csv`** (64 products; no Phases cycles, Maps v9-v23 or ToG draft). Re-run the generator, then update `RISK_LEVELS.md` §2 and the count in `GOVERNANCE/README.md` (§4.3 items 4, 8).
@@ -324,6 +330,7 @@ The roughly 70 engineering and implementation documents in GAIA-Documentation (t
 
 ## Change log
 
+- 2026-10-25: Six phases and synthesis complete (merged as PRs #24–#27, `main` @ `10b4d82a`): ticked Convergence, Ascendence, Transcendence and the six-phase synthesis in §A and §B (status table and checkboxes) with PR numbers and x12 SHAs. Closed gaps b3 (Phases `PLAN.md` amendment v3; v2 frozen as `PLAN_v2_six_phases.md`), b4 (Phases `README.md` statuses) and b10 (root `README.md`). Added the synthesis's carried issues to §L as items awaiting the owner. No items were deleted.
 - 2026-10-25: Added §N GAIA-Documentation reports (owner-approved): the eight triage reports in the owner's order (1 Sentience and Consciousness … 8 Archetypes, Traits and the Schools of Magic, lowest priority), N-A Level-Name Crosswalk and N-B Cross-Repository Authority and Repository Map (folded into PC-8, which now names GAIA-Documentation). Recorded six conflicts as open questions for N-A and N-B, not decisions. About 70 engineering documents stay held until the coding go-ahead. No items were deleted.
 - 2026-10-24: Added §M Totality gap check (report `GAP_CHECK_2026-10-24_TOTALITY.md`, `main` @ af3d119): 3 owner-only settings, 22 gaps (with 9 duplicate clusters under b7), 13 recommendations and 11 candidate subject reports awaiting owner approval, and 7 low-priority fields. Corrected 5 stale or inconsistent lines: Convergence status (§B table and checkbox), §A completeness, §C cycle-vs-level note and Base box, Wave 0 as an owner decision, and the §L audit note (licence and private-repository premise; Audit v3). No items were deleted.
 - 2026-10-24: Added The Ages: Consciousness, Ascendence, Transcendence. The REAL Golden Age.

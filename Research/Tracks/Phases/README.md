@@ -4,13 +4,15 @@ Owner request (2026-10-24): five phase reports — **Divergence, Insurgence, All
 
 | phase | folder | status |
 |---|---|---|
-| Divergence | `Divergence/` | in progress |
-| Insurgence | `Insurgence/` | in progress |
-| Allegiance | `Allegiance/` | in progress |
-| Convergence | `Convergence/` | in progress |
-| Ascendence | `Ascendence/` | in progress |
-| Transcendence | `Transcendence/` | in progress |
-| Synthesis | `SYNTHESIS.md` | written 2026-10-25 (six phases; Proposed; gate INDETERMINATE); method and checks in `Synthesis/` |
+| Divergence | `Divergence/` | complete: Baseline–x12 verified; merged to `main` (PRs #11, #13) |
+| Insurgence | `Insurgence/` | complete: Baseline–x12 verified; merged to `main` (PR #14) |
+| Allegiance | `Allegiance/` | complete: Baseline–x12 verified; merged to `main` (PRs #15, #16) |
+| Convergence | `Convergence/` | complete: Baseline–x12 verified; merged to `main` (PR #24; x12 @ `bbf85f11`) |
+| Ascendence | `Ascendence/` | complete: Baseline–x12 verified; merged to `main` (PR #25; x12 @ `54d6f083`) |
+| Transcendence | `Transcendence/` | complete: Baseline–x12 verified; merged to `main` (PR #26; x12 @ `3ae9bf57`) |
+| Synthesis | `SYNTHESIS.md` | written 2026-10-25 (six phases; Proposed); method and checks in `Synthesis/`; merged to `main` (PR #27; @ `84b382bf`) |
+
+Status updated 2026-10-25. "Complete" means all cycles were run and verified by the agent; every gate stays **INDETERMINATE** (independent review pending).
 
 ## Fields
 NAT Natural-Sciences · FOR Formal-Sciences · SOC Social-Sciences · APP Applied-Sciences · HUM Humanities · PHI Philosophy-Spirituality. The six-field list is a convention (owner choice), not a natural kind.
