@@ -1,0 +1,70 @@
+{
+ "sim_id": "SIM-TR-SOC-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:15.078549+00:00",
+ "finished_utc": "2026-10-25T01:30:15.641284+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-9  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "f2e3cccbb74391da1b96994fe622462bc713f06f7451c5d8c031d70a2ac55944",
+ "params_sha256": "6d1cd3dcd3c74e55d490b0e953508795629978c5b13ae63c3070116545cfeecd",
+ "results_sha256": "aecdf24d8cc48696f0c3903f87974b2a7f3054939d6d4247b6504ed257b6f4fc",
+ "results": {
+  "power_mc": 0.81725,
+  "power_analytic": 0.81673777,
+  "se": 0.00611713,
+  "mean_eta2_hat": 0.01448772,
+  "N": 829
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Monte Carlo rejection rate within 4 SE of the noncentral-F (or alpha) value",
+   "observed": [
+    0.81725,
+    0.81673777
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Achievement-sized effect with halved groups: power below 0.90",
+   "observed": {
+    "power_mc": 0.81725,
+    "power_analytic": 0.81673777,
+    "se": 0.00611713,
+    "mean_eta2_hat": 0.01448772,
+    "N": 829
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "power_mc": 0.81725,
+    "power_analytic": 0.81673777,
+    "se": 0.00611713,
+    "mean_eta2_hat": 0.01448772,
+    "N": 829
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
