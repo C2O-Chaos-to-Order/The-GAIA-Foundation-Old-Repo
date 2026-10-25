@@ -26,7 +26,7 @@ The two iterations give the same result. 038's wave has no effect on dependency 
    - **Remaining:** of the 34 inversions left, many are Wave 1 (P0) domains depending on Wave 2 or 3 domains, for example 012 → 019, 020 and 009 → 016, 018.
 
    This suggests the dependency graph has mutual or circular dependencies that no wave order removes. x9 will measure this directly.
-3. **21 of 45 domains are draft-only.** Their only direct support is the unapproved ToG draft. **Twelve of these also have no PC-4 primary report:** 004, 009, 010, 012, 019, 022, 026, 028, 031, 032, 034, 035. These twelve start from nothing on both the governance and the research side. Five of them are P0 (004, 009, 010, 012, plus 019 at P1) and would need the most new writing in Wave 1–2.
+3. **21 of 45 domains are draft-only.** Their only direct support is the unapproved ToG draft. **Twelve of these also have no PC-4 primary report:** 004, 009, 010, 012, 019, 022, 026, 028, 031, 032, 034, 035. These twelve start from nothing on both the governance and the research side. Four of them are P0 (004, 009, 010, 012) and so are due in Wave 1 with the least to build on.
 4. **The Product Register concentrates on a few domains.** Through kind and overlay rules:
    - 005, 006, 007 and 023 govern 52–60 products each.
    - 021 and 027 govern 44 products through the W overlay. These are the two domains x3 found to have no direct governing text.
