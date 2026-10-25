@@ -8,7 +8,7 @@ One of the GAIA phase reports (Divergence, Insurgence, Allegiance, Convergence, 
 | Cycle-A-x3 | `Cycle-A-x3/` | 24 | 13/8/1/2 | 18 | Done (gate INDETERMINATE) |
 | Cycle-B-x6 | `Cycle-B-x6/` | 36 | 19/12/2/3 | 36 | Done (gate INDETERMINATE) |
 | Cycle-C-x9 | `Cycle-C-x9/` | 50 | 27/17/2/4 | 54 | Done (gate INDETERMINATE) |
-| Cycle-D-x12 | — | | | | Planned |
+| Cycle-D-x12 | `Cycle-D-x12/` | 63 | 34/22/2/5 | 72 | Done (gate INDETERMINATE) |
 
 Method per cycle: N research passes and N simulation iterations per field (N = 1, 3, 6, 9, 12), each simulation specified before execution (`SPEC.md`) with an `EXECUTION_RECORD.json`; one verification per cycle; a new Maps version per cycle. Plan: `../PLAN.md`; track overview: `../README.md`.
 
