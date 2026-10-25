@@ -1,0 +1,296 @@
+{
+ "checks": [
+  {
+   "hypothesis": "Every ledger and listing file in the mirror matches its recorded git blob SHA",
+   "id": "C0-1",
+   "metric": "ledger_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every ledger path is in the repository listing",
+   "id": "C0-2",
+   "metric": "ledger_not_in_listing",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Each judged scheme equals the term list the tool extracts from its source",
+   "id": "C0-3",
+   "metric": "scheme_extraction_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every term of every scheme is in at least one crosswalk row",
+   "id": "C0-4",
+   "metric": "crosswalk_unmapped_terms",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every judgment row is well-formed and labelled",
+   "id": "C0-5",
+   "metric": "problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Each conflict has at least two options including a defer option, and no option records a decision",
+   "id": "C0-6",
+   "metric": "options_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "The Work Queue records six conflicts for N-A/N-B",
+   "id": "C0-7",
+   "metric": "wq_conflict_bullets",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 6,
+   "value": 6
+  },
+  {
+   "hypothesis": "The Work Queue's 'Phase 1-7' is right: the highest self-labelled phase in the 32 reports is 7",
+   "id": "C0-8",
+   "metric": "phase_max",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 7,
+   "value": 8
+  },
+  {
+   "hypothesis": "The reports' next-phase statements agree with the reports' own phase labels",
+   "id": "C0-9",
+   "metric": "phase_next_mislabels",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  },
+  {
+   "hypothesis": "The Work Queue's '8 flagged sealing discrepancies' is reproduced from Tablets/INDEX.md",
+   "id": "C0-10",
+   "metric": "index_flagged_discrepancies",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 8,
+   "value": 8
+  },
+  {
+   "hypothesis": "The Foundation's two level ladders (README §2 and WQ §C) name the same levels",
+   "id": "C0-11",
+   "metric": "foundation_ladder_symdiff",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 3
+  },
+  {
+   "hypothesis": "No 80-character overlap with the Totality Suite or with any GAIA-Documentation file",
+   "id": "C0-12",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  }
+ ],
+ "cycle": "Baseline",
+ "gaia_documentation": "read-only; verified mirror; nothing written",
+ "inputs": {
+  "conflicts": "add7b5bed012306b9607466ce14f4be43aad4da3dcddb7e8766d3dbeb5870c7e",
+  "crosswalk": "7c0bb167fffb2057942114e9167e72888990b1ddec98f6c25ba2e5daac0def8a",
+  "foundation_readme_blob": "141824b184929e5ffb49796cac8b4d6a0311f999",
+  "ledger": "b6f6bb3e1bf83f60ec78ce3af911301ec87e2a647f5443c82f329d854c5de4e5",
+  "listing": "8b23ee77623d0bc9debea0315e7af1848b92f41925f8952309d6f1a06d10e24e",
+  "options": "0adbe5e1b8354cba2c53b6ae77cea4938079aebfad209ef30959d12a6212ebca",
+  "schemes": "ecbc4a124e7ee7e12cad27b043518d7609b2d3c63b39ad6ccb5b1ab55b2b870d",
+  "work_queue_blob": "589fe1665c77f986b566c30328e8dbf81d20e335"
+ },
+ "iteration": 1,
+ "metrics": {
+  "boundary_gaiadoc": [],
+  "boundary_overlaps": 0,
+  "boundary_suite": [],
+  "conflicts": 6,
+  "crosswalk_rows": 79,
+  "crosswalk_unmapped_terms": [],
+  "foundation_ladder_symdiff": [
+   "Base",
+   "Power",
+   "Quantum"
+  ],
+  "index_flagged_discrepancies": 8,
+  "index_rows": 22,
+  "ledger_files": 64,
+  "ledger_mismatches": [],
+  "ledger_not_in_listing": [],
+  "listing_files": 333,
+  "options": 24,
+  "options_violations": [],
+  "owner_phase_level_pattern": [
+   "Divergence=Base",
+   "Insurgence=Meta (Metaphysical)",
+   "Allegiance=Super (Superphysical)",
+   "Convergence=Hyper (Hyperphysical)",
+   "Ascendence=Ultra (Ultraphysical)",
+   "Transcendence=Magic"
+  ],
+  "phase_max": 8,
+  "phase_next_mislabels": 2,
+  "phase_next_statements": 2,
+  "phase_numbers": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "phase_self_label_missing": [
+   "Original-Human-Body Research Report.md",
+   "Original-Human-Mind Research Report.md"
+  ],
+  "phase_self_label_wrong": [],
+  "phase_tracks": {
+   "1": "Human Original",
+   "2": "AI Original",
+   "3": "Human Meta",
+   "4": "AI Meta",
+   "5": "Human Super",
+   "6": "AI Super",
+   "7": "Human Magic",
+   "8": "AI Magic"
+  },
+  "problems": [],
+  "relation_counts": {
+   "different-kind": 18,
+   "internal-variant": 4,
+   "no-counterpart": 11,
+   "partial-overlap": 9,
+   "same-name-different-sense": 6,
+   "same-name-same-sense": 31
+  },
+  "scheme_extraction_mismatches": [],
+  "scheme_sizes": {
+   "D-4D": 4,
+   "D-4L": 4,
+   "D-5L": 5,
+   "D-6D": 6,
+   "D-8T": 8,
+   "D-AD": 4,
+   "D-IC6": 6,
+   "D-S6": 6,
+   "D-TB": 5,
+   "D-TP": 5,
+   "F-7R": 7,
+   "F-93B": 5,
+   "F-93P": 5,
+   "F-B": 6,
+   "F-C": 7,
+   "F-R2": 6
+  },
+  "tablet_discrepancies": {
+   "D1": [
+    "Lapis",
+    "Obsidian",
+    "Rose",
+    "Ruby",
+    "Sapphire",
+    "Shadow",
+    "Silver",
+    "Solar"
+   ],
+   "D2": [
+    "Alabaster",
+    "Albedo",
+    "Clarity",
+    "Transparent"
+   ],
+   "D3": [
+    "Alabaster",
+    "Albedo",
+    "Clarity",
+    "Transparent"
+   ],
+   "D4": [
+    "Amber",
+    "Amethyst",
+    "Aqua",
+    "Celestial"
+   ],
+   "D5": [
+    "rows=22 vs stated=18",
+    "sealed_rows=10 vs stated=6"
+   ],
+   "D6": [
+    "Terra"
+   ],
+   "D7": [
+    "MATRIX-5x5.md",
+    "MATRIX-5x5-PHASES.md",
+    "MATRIX-COMBINED.md"
+   ],
+   "D8": [
+    "stated=3 listed=4"
+   ],
+   "D9": [
+    "Alabaster: table Insurgence × Divergence vs mapping Divergence × Insurgence"
+   ]
+  },
+  "tablet_discrepancy_types_found": 9,
+  "tablet_files": 22,
+  "tablet_header_classes": {
+   "consistent": 3,
+   "discrepancy": 8,
+   "draft-sealed-1017": 4,
+   "sealed-in-source": 3,
+   "unsealed": 4
+  },
+  "variant": {
+   "min_options": 2,
+   "rule": "as_judged"
+  },
+  "vocab": {
+   "canonical_home_gaiadoc": 7,
+   "five_level_term": 14,
+   "foundation_phase_names": 4,
+   "four_dimension_term": 43,
+   "hyper_level": 0,
+   "metaphysical_term": 52,
+   "quantum_level_term": 0,
+   "spirit_term": 17,
+   "transcendence_term": 9,
+   "ultra_term": 45
+  },
+  "wq_conflict_bullets": 6
+ },
+ "outputs": {
+  "phase_census.csv": "7b0b4a42515d33bb0fa5601bb9d2d943a81cbb828e72322659c4df65354f6907",
+  "phase_next_mislabels.csv": "7447173c981f7af39fb278686e8715e94a69bf617012da08a74e50d50a89b8e7",
+  "schemes_extracted.csv": "d9df7da8753e1a777e9ce620e2882b1c17f9736571cabc8da2bb657ef22fec8f",
+  "tablet_census.csv": "70bfa3aefd856b79b05e3b1050654b30a45af789aa66855fb407e5c7097e22fe",
+  "vocab_census.csv": "6fea581688a02d64f2730f0beabe5b92000c491c7d646b08b098476e712ca609"
+ },
+ "report": "N-A Level-Name Crosswalk",
+ "variant": {
+  "min_options": 2,
+  "rule": "as_judged"
+ }
+}
