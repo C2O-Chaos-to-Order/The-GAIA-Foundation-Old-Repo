@@ -1,0 +1,766 @@
+{
+ "checks": [
+  {
+   "hypothesis": "Every source listed as read in full exists (hashes recorded)",
+   "id": "C9-1",
+   "metric": "missing_inputs",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every basis ID resolves (SSSC Cycles A-D, phases, main reports, links, factors, sources)",
+   "id": "C9-2",
+   "metric": "dangling_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source ID resolves to an existing register entry (no invented sources)",
+   "id": "C9-3",
+   "metric": "unresolved_sources",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every source a claim lists is cited by one of its basis items",
+   "id": "C9-4",
+   "metric": "sources_not_in_basis",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No claim or link is labelled above its weakest ranked basis",
+   "id": "C9-5",
+   "metric": "label_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every owner claim is marked as the owner's, labelled H or PS, and quotes the Work Queue verbatim",
+   "id": "C9-6",
+   "metric": "owner_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every census claim states the value the tool computes",
+   "id": "C9-7",
+   "metric": "census_claim_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Judgment rows are well-formed (incl. factor bases from the topic's own ledger or main report, audit verdicts)",
+   "id": "C9-8",
+   "metric": "problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every non-census, non-owner, non-framing claim has an anchor phrase found verbatim in a basis item",
+   "id": "C9-9",
+   "metric": "anchor_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No source ID means different sources in the main and track registers",
+   "id": "C9-10",
+   "metric": "source_id_conflicts",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No tradition claim is labelled Plausible or Hypothetical, and every Established one is marked descriptive",
+   "id": "C9-11",
+   "metric": "tradition_rule_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every claim and link of the previous cycle has a review verdict",
+   "id": "C9-12",
+   "metric": "review_missing",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every review verdict matches the change made (keep unchanged, revise same label, downgrade lower label, withdraw absent; new items marked new)",
+   "id": "C9-13",
+   "metric": "review_inconsistencies",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every tradition claim (framing aside) cites a source other than the owner's framework",
+   "id": "C9-14",
+   "metric": "tradition_claims_without_source",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No Established claim or link has a basis item below Established (Report 7's strict rule)",
+   "id": "C9-15",
+   "metric": "strict_e_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No Established claim or link rests on a PS or H basis or on the framing source (Report 7's separability test)",
+   "id": "C9-16",
+   "metric": "gaia_separability_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every main-report link among Reports 2-5 is carried by a non-census claim or link",
+   "id": "C9-17",
+   "metric": "main_links_not_used_substantive",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  },
+  {
+   "hypothesis": "At least one factor is present in all four topics under this iteration's rule",
+   "id": "C9-18",
+   "metric": "unity_factors",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 4
+  },
+  {
+   "hypothesis": "At least one substantive or tradition factor is present in all four topics under this iteration's rule",
+   "id": "C9-19",
+   "metric": "unity_factors_substantive",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 1
+  },
+  {
+   "hypothesis": "Every pair of topics has at least one Connection link",
+   "id": "C9-20",
+   "metric": "pairs_without_connection_link",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "No 80-character overlap with the Totality Suite",
+   "id": "C9-21",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  }
+ ],
+ "cycle": "x9",
+ "inputs": {
+  "claims": "a8163002b859385be5dda92d783233bf757e054676452a7baaf75ad623bd3db2",
+  "factors": "54c997118ff94c314e84a0b92b29bda114b11330461a30a1ac913ca5a66bdaa9",
+  "links": "e89d06ebfbc2925e04376c5768489cadeec41079b255a1c7b0251d5e82665e04",
+  "phase_audit": "edf98c220179e440a7f521b7c603a79fe621864422ddae424001c00e4658a9f7",
+  "read_in_full": {
+   "Research/Cycles/Cycle-4-x12/Report-3-Soul/REPORT.md": "160d48a95e4c600bc27a9b63854ce545790dba22f907d4b764877db080a657ca",
+   "Research/Cycles/Cycle-4-x12/Report-3-Soul/claims/claims.csv": "3c671862441f7c61ed3af0bdd230c6f6c3297fe4e60ce56a390bbc6246cbc3e3",
+   "Research/Cycles/Cycle-4-x12/Report-4-Spirit/REPORT.md": "5a9a83e280c15de559edf2241cce9286ce191175b28b0400a74c6b0d01c8558c",
+   "Research/Cycles/Cycle-4-x12/Report-4-Spirit/claims/claims.csv": "4efd341f3064a5b1bc3310ff9695d6a34a3aadd4d0b9df7a5c2307441f4408c4",
+   "Research/Cycles/Cycle-4-x12/Report-5-Consciousness/REPORT.md": "704028eb5e4b092d95cc67158e90b6338735b3811990891f3d0f6d1aede977b8",
+   "Research/Cycles/Cycle-4-x12/Report-5-Consciousness/claims/claims.csv": "3857efe2e819cbaba32129323f065666636edfffd68dd19e0b52203882806206",
+   "Research/Cycles/Cycle-4-x12/Report-7-Unified/REPORT.md": "b8c42227bb31374ed9770da9edc30e0cc01cf5d4b9b26db8a61932d55fdb9568",
+   "Research/Cycles/Cycle-4-x12/Report-7-Unified/claims/claims.csv": "3e7ac874f08fdd6fcc942d2121cc99352b6962cf003ab6544642540558ade195",
+   "Research/Cycles/Cycle-4-x12/Report-7-Unified/maps/link_register.csv": "6604ced6206f49def1ec7da1560a4dd3071be73f207de51548bc838e71231b29",
+   "Research/README.md": "4fc20feb3ab6d9e9b60f7efc16414ead4aafbc4e8d46533ee8f4874d840ec4b1",
+   "Research/Tracks/Phases/Convergence/Cycle-D-x12/Applied-Sciences/REPORT.md": "f15cf5b5ee58582de7002bae120a80b705a158a1c4966054be59b3bee8f9a998",
+   "Research/Tracks/Phases/Convergence/Cycle-D-x12/Philosophy-Spirituality/REPORT.md": "b4953cd6cdee053d838ee0379cf3ee9da2b47a50c9288bf47ce3137cdc02523f",
+   "Research/Tracks/Phases/SYNTHESIS.md": "a09fd1b5aed6669357af59be14e54f9a97bdb8c6ade4e45e7970159fac0b9ca0",
+   "Research/Tracks/Phases/Transcendence/Cycle-D-x12/Applied-Sciences/REPORT.md": "31fa8a17628b26d6c80c38fb15278f8a2fff8618aecc3763aca915545d162781",
+   "Research/Tracks/Phases/Transcendence/Cycle-D-x12/Philosophy-Spirituality/REPORT.md": "6ccdac239a184312b34a26278bcd91588bc53f0bd1a1d67fa8288d7f2b399772",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Consciousness/REPORT.md": "90f1941dc045d75ca63c61f7c4231f64add1af368e87dd5fe9cd3184ade50e5b",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Consciousness/claims/claims.csv": "c5475e43bdb8d1ebf9404eba726b63a62ee2622f0ea13594e0229ce9096e2e31",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Links/link_register.csv": "7c9b20b395be8c1e7cbc00a8a67484b2ee43944e375f4cc4ef5cae40a6b14e57",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Provenance/SOURCE_REGISTER.csv": "d36ad8ad9c1858c6eb079478d36d7e5cc13835972663bedc575b245fb03a2d25",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/SUMMARY.md": "a6e333112e9470458e64e2e202d1bfc0e445bf9a41516e8cd286862f19ee5d9c",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Soul/REPORT.md": "a9a91a629c1f406ae027d1c183429efdb6f5a92d45e05d9df8c0c29908650d2b",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Soul/claims/claims.csv": "05613f401b9eef6acba20b32b6d172051a46b238afca3ad3a2016df1548e1347",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Spirit/REPORT.md": "8ba14e2fa8f61213dc8b5cb02d7240083e3c1cff176f455c8eedb51354c5a356",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Spirit/claims/claims.csv": "142615cf75ec0cd39cae711f2ca37e588008eec33f75303ee4f50567b8c69a20",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Subconscious/REPORT.md": "1f74c99b0fad15cef7498617f9acb6bef7f1a8d9fd46b718923715a364c56ea9",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/Cycle-D-x12/Subconscious/claims/claims.csv": "38e8952b6700c86daa55bb936c37ed812f57cd49efbb6c879952a6723dd54e71",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/FRAMEWORK.md": "352b08234b18c02cd2d4cf0e2e234879d7cdeef15db86005bb28ddb4d1763d44",
+   "Research/Tracks/Soul-Spirit-Subconscious-Consciousness/README.md": "e753adfd6c9fdd0e4ba88e5e5453109e7214f50241353c78c66fd4fff2ef91ac",
+   "Research/WORK_QUEUE.md": "0a7d4dd5a01c002d19c261d5b9ecc008b0858696c45387070c03287341666d88"
+  },
+  "review": "356249d7500c4d229f22b2dc5bb842be8025cbdc02d66f6e6f9c61076370bebd"
+ },
+ "iteration": 4,
+ "metrics": {
+  "anchor_mismatches": [],
+  "boundary_overlaps": 0,
+  "boundary_suite": [],
+  "census_claim_mismatches": [],
+  "claims_by_kind": {
+   "census": 6,
+   "difference": 7,
+   "framing": 2,
+   "owner": 3,
+   "phase": 2,
+   "shared": 13,
+   "unity": 2
+  },
+  "claims_by_label": {
+   "Established": 13,
+   "Hypothetical": 7,
+   "Philosophical/Spiritual": 6,
+   "Plausible": 9
+  },
+  "claims_changed_vs_previous": [
+   "CN0-04",
+   "CN0-07",
+   "CN0-11",
+   "CN0-18",
+   "CN3-05",
+   "CN6-03",
+   "CN6-07",
+   "CN9-01"
+  ],
+  "claims_using_main_reports": [
+   "CN6-01",
+   "CN6-02",
+   "CN6-03",
+   "CN6-04",
+   "CN6-05",
+   "CN6-06",
+   "CN6-07",
+   "CN6-08",
+   "CN6-09",
+   "CN6-10",
+   "CN6-11",
+   "CN9-01"
+  ],
+  "cross_citations_total": 3,
+  "cross_mentions": {
+   "CONS": {
+    "CONS": 0,
+    "SOUL": 0,
+    "SPIRIT": 0,
+    "SUBC": 2
+   },
+   "SOUL": {
+    "CONS": 1,
+    "SOUL": 0,
+    "SPIRIT": 2,
+    "SUBC": 2
+   },
+   "SPIRIT": {
+    "CONS": 1,
+    "SOUL": 0,
+    "SPIRIT": 0,
+    "SUBC": 0
+   },
+   "SUBC": {
+    "CONS": 18,
+    "SOUL": 0,
+    "SPIRIT": 0,
+    "SUBC": 0
+   }
+  },
+  "dangling_basis": [],
+  "factor_rows_changed_vs_previous": [],
+  "factors_by_ntopics": {
+   "1": [],
+   "2": [
+    "F12",
+    "F13"
+   ],
+   "3": [
+    "F03",
+    "F05",
+    "F06",
+    "F08",
+    "F09",
+    "F10",
+    "F11"
+   ],
+   "4": [
+    "F01",
+    "F02",
+    "F04",
+    "F07"
+   ]
+  },
+  "factors_total": 13,
+  "gaia_separability_violations": [],
+  "label_rule_violations": [],
+  "limitation_families": {
+   "observational": {
+    "CONS": 0,
+    "SOUL": 3,
+    "SPIRIT": 5,
+    "SUBC": 2
+   },
+   "replication": {
+    "CONS": 0,
+    "SOUL": 0,
+    "SPIRIT": 0,
+    "SUBC": 0
+   },
+   "selected_sample": {
+    "CONS": 2,
+    "SOUL": 5,
+    "SPIRIT": 2,
+    "SUBC": 3
+   },
+   "self_report": {
+    "CONS": 0,
+    "SOUL": 1,
+    "SPIRIT": 1,
+    "SUBC": 0
+   },
+   "small_sample": {
+    "CONS": 0,
+    "SOUL": 4,
+    "SPIRIT": 2,
+    "SUBC": 0
+   },
+   "toy_model": {
+    "CONS": 7,
+    "SOUL": 8,
+    "SPIRIT": 9,
+    "SUBC": 12
+   }
+  },
+  "limitation_families_in_all_four": [
+   "selected_sample",
+   "toy_model"
+  ],
+  "links_by_label": {
+   "Established": 3,
+   "Hypothetical": 6,
+   "Philosophical/Spiritual": 8,
+   "Plausible": 11
+  },
+  "links_by_pair": {
+   "SOUL-CONS": [
+    "CL-06",
+    "CL-07",
+    "CL-20",
+    "CL-23",
+    "CL-25"
+   ],
+   "SOUL-SPIRIT": [
+    "CL-08",
+    "CL-09",
+    "CL-19",
+    "CL-21",
+    "CL-22",
+    "CL-27"
+   ],
+   "SOUL-SUBC": [
+    "CL-10",
+    "CL-11",
+    "CL-16"
+   ],
+   "SPIRIT-CONS": [
+    "CL-04",
+    "CL-05",
+    "CL-18",
+    "CL-24"
+   ],
+   "SPIRIT-SUBC": [
+    "CL-12",
+    "CL-13"
+   ],
+   "SUBC-CONS": [
+    "CL-01",
+    "CL-02",
+    "CL-03",
+    "CL-14",
+    "CL-15",
+    "CL-17",
+    "CL-26",
+    "CL-28"
+   ]
+  },
+  "links_changed_vs_previous": [
+   "CL-07",
+   "CL-14",
+   "CL-15"
+  ],
+  "main_links_among_topics": [
+   "L07",
+   "L08",
+   "L09",
+   "L10",
+   "L11",
+   "L12",
+   "L18",
+   "L27"
+  ],
+  "main_links_among_topics_n": 8,
+  "main_links_among_topics_not_used": [],
+  "main_links_not_used_substantive": [
+   "L07",
+   "L09"
+  ],
+  "main_links_used": [
+   "L07",
+   "L08",
+   "L09",
+   "L10",
+   "L11",
+   "L12",
+   "L18",
+   "L27"
+  ],
+  "main_pairs_without_link": [
+   "SPIRIT-SUBC"
+  ],
+  "missing_inputs": [],
+  "owner_rule_violations": [],
+  "pair_cross_citations": {
+   "SOUL-CONS": 1,
+   "SOUL-SPIRIT": 1,
+   "SOUL-SUBC": 0,
+   "SPIRIT-CONS": 0,
+   "SPIRIT-SUBC": 0,
+   "SUBC-CONS": 1
+  },
+  "pair_cross_mentions": {
+   "SOUL-CONS": 1,
+   "SOUL-SPIRIT": 2,
+   "SOUL-SUBC": 2,
+   "SPIRIT-CONS": 1,
+   "SPIRIT-SUBC": 0,
+   "SUBC-CONS": 20
+  },
+  "pair_shared_factors": {
+   "SOUL-CONS": [
+    "F01",
+    "F02",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F09",
+    "F11",
+    "F13"
+   ],
+   "SOUL-SPIRIT": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F06",
+    "F07",
+    "F12"
+   ],
+   "SOUL-SUBC": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F07",
+    "F09",
+    "F11"
+   ],
+   "SPIRIT-CONS": [
+    "F01",
+    "F02",
+    "F04",
+    "F06",
+    "F07",
+    "F08",
+    "F10"
+   ],
+   "SPIRIT-SUBC": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F07",
+    "F08",
+    "F10"
+   ],
+   "SUBC-CONS": [
+    "F01",
+    "F02",
+    "F04",
+    "F05",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11"
+   ]
+  },
+  "pair_shared_sources": {
+   "SOUL-CONS": [
+    "G03"
+   ],
+   "SOUL-SPIRIT": [
+    "G03"
+   ],
+   "SOUL-SUBC": [
+    "G03"
+   ],
+   "SPIRIT-CONS": [
+    "G03"
+   ],
+   "SPIRIT-SUBC": [
+    "G03"
+   ],
+   "SUBC-CONS": [
+    "G03",
+    "S16",
+    "S31",
+    "S32"
+   ]
+  },
+  "pairs_with_shared_evidence_source": 1,
+  "pairs_without_connection_link": [],
+  "pairs_without_cross_citation": [
+   "SOUL-SUBC",
+   "SPIRIT-CONS",
+   "SPIRIT-SUBC"
+  ],
+  "pairs_without_cross_mention": [
+   "SPIRIT-SUBC"
+  ],
+  "pairs_without_shared_evidence_source": [
+   "SOUL-CONS",
+   "SOUL-SPIRIT",
+   "SOUL-SUBC",
+   "SPIRIT-CONS",
+   "SPIRIT-SUBC"
+  ],
+  "pairs_without_shared_source": [],
+  "phase_audit_extra": [],
+  "phase_audit_missing": [],
+  "phase_audit_verdicts": {
+   "false_positive": 2,
+   "genuine": 13,
+   "instrument_name": 2,
+   "related_sense": 8
+  },
+  "phase_being_claim_ids": [
+   "CVD-PHI-06",
+   "CVD-PHI-09"
+  ],
+  "phase_being_claims": 2,
+  "phase_genuine_by_topic": {
+   "CONS": [],
+   "SOUL": [
+    "ASD-PHI-01"
+   ],
+   "SPIRIT": [
+    "CVD-PHI-06",
+    "CVD-PHI-09",
+    "CVD-PHI-13",
+    "TRD-APP-08",
+    "TRD-APP-09",
+    "TRD-HUM-01",
+    "TRD-HUM-06",
+    "TRD-PHI-01",
+    "TRD-PHI-04",
+    "TRD-PHI-06",
+    "TRD-SOC-06"
+   ],
+   "SUBC": [
+    "DVD-HUM-02"
+   ]
+  },
+  "phase_matching_claims": {
+   "Allegiance": 0,
+   "Ascendence": 1,
+   "Convergence": 4,
+   "Divergence": 2,
+   "Insurgence": 0,
+   "Transcendence": 16
+  },
+  "phase_topic_counts": {
+   "CONS": {
+    "Allegiance": 0,
+    "Ascendence": 0,
+    "Convergence": 2,
+    "Divergence": 0,
+    "Insurgence": 0,
+    "Transcendence": 1
+   },
+   "SOUL": {
+    "Allegiance": 0,
+    "Ascendence": 1,
+    "Convergence": 0,
+    "Divergence": 0,
+    "Insurgence": 0,
+    "Transcendence": 0
+   },
+   "SPIRIT": {
+    "Allegiance": 0,
+    "Ascendence": 0,
+    "Convergence": 3,
+    "Divergence": 0,
+    "Insurgence": 0,
+    "Transcendence": 16
+   },
+   "SUBC": {
+    "Allegiance": 0,
+    "Ascendence": 0,
+    "Convergence": 0,
+    "Divergence": 2,
+    "Insurgence": 0,
+    "Transcendence": 0
+   }
+  },
+  "problems": [],
+  "register_duplicate_groups": 4,
+  "register_duplicates": [
+   [
+    "K04",
+    "K43"
+   ],
+   [
+    "K12",
+    "K58"
+   ],
+   [
+    "K20",
+    "K52"
+   ],
+   [
+    "K26",
+    "K64"
+   ]
+  ],
+  "review_downgrades": [
+   "CL-14",
+   "CL-15",
+   "CN0-18"
+  ],
+  "review_factor_rows_dropped": [
+   "F03/CONS",
+   "F09/SPIRIT"
+  ],
+  "review_inconsistencies": [],
+  "review_missing": [],
+  "review_verdicts": {
+   "downgrade": 3,
+   "drop": 2,
+   "keep": 52,
+   "revise": 7,
+   "withdraw": 0
+  },
+  "source_id_conflicts": [],
+  "sources_not_in_basis": [],
+  "strict_e_violations": [],
+  "topic_balance": {
+   "CONS": {
+    "science": 14,
+    "tradition": 5
+   },
+   "SOUL": {
+    "science": 8,
+    "tradition": 6
+   },
+   "SPIRIT": {
+    "science": 10,
+    "tradition": 3
+   },
+   "SUBC": {
+    "science": 9,
+    "tradition": 4
+   }
+  },
+  "topic_sources": {
+   "CONS": 21,
+   "SOUL": 17,
+   "SPIRIT": 18,
+   "SUBC": 21
+  },
+  "topic_topic_links": [
+   "TL-08"
+  ],
+  "topic_topic_links_in_track": 1,
+  "topics_lacking_tradition_or_science": [],
+  "topics_without_genuine_phase_match": [
+   "CONS"
+  ],
+  "topics_without_phase_match": [],
+  "tradition_claims_without_source": [],
+  "tradition_families_absent": [],
+  "tradition_families_named": [
+   "African",
+   "Buddhist",
+   "Chinese",
+   "Christian",
+   "Greek",
+   "Hebrew Bible",
+   "Hindu (Vedanta)",
+   "Indigenous",
+   "Islamic",
+   "Jain"
+  ],
+  "tradition_rule_violations": [],
+  "transcendence_most_matches": 1,
+  "unity_factors": [
+   "F01",
+   "F02",
+   "F04",
+   "F07"
+  ],
+  "unity_factors_substantive": [
+   "F07"
+  ],
+  "unresolved_sources": []
+ },
+ "outputs": {
+  "cross_citations.csv": "6389f4459e823dd0d804ed36562f14a1950d97628e0eb56eb9bf00b0292c810e",
+  "cross_mentions.csv": "1e6d8c9b83146eacb3c1d78c9f080570df2c60fb86f1ccaa37cbd19142acb252",
+  "factor_topic.csv": "0260003b3f14782347edb1e8b367129d8b85d817ae8b7b450dd374fb667b214c",
+  "limitation_families.csv": "96c2a9d13b3753faf6cc3ebd063e7ae3a83a5332b4a13af5ccc9b8954899ce68",
+  "pairs.csv": "39e90eeb87bd3f8a0165117d54a488a4a0af8bead7716b91a3f0931027ceb0ad",
+  "phase_audit.csv": "adf0d5b8a52d138af5039daee285b9a00b9f5f1a61447aac87b51a49d9e1abb5",
+  "phase_topic.csv": "a7c03e83e5ca4493c1bb260ed34e366953f62cb2f82b50b9b65a413e74662bd2"
+ },
+ "report": "The Connection: Soul, Spirit, Subconscious and Consciousness",
+ "variant": {
+  "rule": "reviewed"
+ }
+}
