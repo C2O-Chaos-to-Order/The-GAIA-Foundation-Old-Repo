@@ -320,7 +320,7 @@ def maps(cycle_dir, it, outdir, label):
          [["link", r["link_id"], cfg["cycle"], r["framework_label"], r.get("change_vs_prev", "new")] for r in lk])
     json.dump({"cycle": cfg["cycle"], "iteration": it, "checks": rec["checks"], "outputs": rec["outputs"]},
               open(os.path.join(outdir, "validation", f"connection_{cfg['cycle']}.json"), "w"), indent=1, ensure_ascii=False, sort_keys=True)
-    m = rec["metrics"]; ver = os.path.basename(os.path.normpath(outdir))
+    m = rec["metrics"]; ver = label
     nproj = sum(int(r["connection_claims_in_being_lens_projection"]) for r in rows)
     readme = f"""# Maps & Matrix — {ver.split('-')[0]} (adds the Connection report, {cfg['cycle']}, to {cfg['maps']['base_version'].split('-')[0]})
 
