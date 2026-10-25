@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-TR-FOR-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:29:24.786531+00:00",
+ "finished_utc": "2026-10-25T01:29:25.213087+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "66c40bffedab31ac2a35a7f564214a94e123a9fcd874b3a8419937aca1d938eb",
+ "params_sha256": "f7fb056998c46377ece94931b8da48b5259a232e17134d2c966526823bd8ff9a",
+ "results_sha256": "8dd65227f269726df0363a07a53a059585949b5b38001addb76fc5c4ca40a2b0",
+ "results": {
+  "by_number": {
+   "liouville": {
+    "max_ratio": 4.61666667,
+    "max_excess": 434,
+    "argmax_excess": 120,
+    "head": [
+     2,
+     5,
+     5,
+     5,
+     6,
+     19,
+     19,
+     19,
+     19,
+     19
+    ]
+   }
+  },
+  "base": 20,
+  "digits": 600
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Machin's formula in integer arithmetic gives pi = 3.14159265358979...",
+   "observed": "314159265358979",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "TRC reading (lookahead tracks closeness to base-b fractions): liouville in base 20 reaches d_n/n = 5",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 4.61666667,
+      "max_excess": 434,
+      "argmax_excess": 120,
+      "head": [
+       2,
+       5,
+       5,
+       5,
+       6,
+       19,
+       19,
+       19,
+       19,
+       19
+      ]
+     }
+    },
+    "base": 20,
+    "digits": 600
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 4.61666667,
+      "max_excess": 434,
+      "argmax_excess": 120,
+      "head": [
+       2,
+       5,
+       5,
+       5,
+       6,
+       19,
+       19,
+       19,
+       19,
+       19
+      ]
+     }
+    },
+    "base": 20,
+    "digits": 600
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
