@@ -347,6 +347,80 @@ def meta_census(F, cfgm):
                 rep["reflexive"] += a; rep["metaphysical"] += b
     return tot, rep, dict(sorted(by.items()))
 
+VERDICTS = {"survives", "survives-qualified", "weakened", "superseded"}
+
+def _foundation_files(F, exts):
+    here = os.path.relpath(ROOT, F["repo"]) + os.sep
+    out = []
+    for d, dirs, fs in os.walk(F["repo"]):
+        dirs[:] = sorted(x for x in dirs if x != ".git" and x != "__pycache__")
+        for f in sorted(fs):
+            rp = os.path.relpath(os.path.join(d, f), F["repo"])
+            if rp.startswith(here) or not any(rp.endswith(e) for e in exts):
+                continue
+            out.append(rp)
+    return out
+
+def repro_dependents(F, target):
+    """config.json / *.py files under Research/ that name the target (they read or hash it)."""
+    needle = target if os.path.basename(target) == "README.md" else os.path.basename(target)
+    deps = []
+    for d, dirs, fs in os.walk(os.path.join(F["repo"], "Research")):
+        dirs[:] = sorted(x for x in dirs if x not in (".git", "__pycache__"))
+        for f in sorted(fs):
+            if f == "config.json" or f.endswith(".py"):
+                fp = os.path.join(d, f)
+                if needle in rd(fp):
+                    deps.append(os.path.relpath(fp, F["repo"]))
+    return deps
+
+def option_review(F, rev, op, rule):
+    md = _foundation_files(F, (".md",))
+    texts = {}
+    def T(p):
+        if p not in texts: texts[p] = rd(os.path.join(F["repo"], p))
+        return texts[p]
+    rows, probs, deps_cache = [], [], {}
+    ids_o = {o["option_id"] for o in op}; ids_r = [r["option_id"] for r in rev]
+    mism = sorted((ids_o ^ set(ids_r)) | {i for i in ids_r if ids_r.count(i) > 1})
+    for r in rev:
+        if r["verdict"] not in VERDICTS: probs.append(f"{r['option_id']}: verdict")
+        if r["objection_label"] not in LABELS: probs.append(f"{r['option_id']}: label")
+        if not r["objection"].strip(): probs.append(f"{r['option_id']}: empty objection")
+        if (r["verdict"] == "superseded") != bool(r["superseded_by"].strip()): probs.append(f"{r['option_id']}: superseded_by")
+        if r["superseded_by"].strip() and r["superseded_by"] not in ids_o: probs.append(f"{r['option_id']}: unknown superseded_by")
+        tg = [t for t in r["ripple_targets"].split(";") if t and t != "(none)"]
+        for t in tg:
+            if not os.path.exists(os.path.join(F["repo"], t)): probs.append(f"{r['option_id']}: target {t} missing")
+            if t not in deps_cache: deps_cache[t] = repro_dependents(F, t)
+        dep = sorted({x for t in tg for x in deps_cache[t]})
+        rx = re.compile(r["ripple_regex"]) if r["ripple_regex"] else None
+        hits = [p for p in md if rx.search(T(p))] if rx else []
+        rows.append([r["option_id"], r["verdict"], ";".join(tg) or "(none)", len(dep), len(hits)])
+    typ = {o["option_id"]: (o["conflict_id"], o["type"]) for o in op}
+    ok = {"survives"} | ({"survives-qualified"} if rule != "adversarial" else set())
+    conf = sorted({c for c, _ in typ.values()})
+    surv = {c: [r["option_id"] for r in rev if r["option_id"] in typ and typ[r["option_id"]][0] == c
+                and typ[r["option_id"]][1] != "defer" and r["verdict"] in ok] for c in conf}
+    af = sorted(r[0] for r in rows if typ.get(r[0], ("", ""))[1] == "align-foundation" and r[3] > 0)
+    return rows, probs, mism, surv, af, deps_cache
+
+def evidence_check(F, cf, xw, m, jdir):
+    ids = {r["row_id"] for r in xw}; bad = []
+    for c in cf:
+        for part in [x.strip() for x in c["evidence"].split(";")]:
+            part = re.sub(r"^(x\d+ )?metrics? ", "", part)
+            for tok in [t.strip() for t in part.split(",")]:
+                for x in re.findall(r"\bX\d+\b", tok):
+                    if x not in ids: bad.append(f"{c['conflict_id']}: {x}")
+                if re.fullmatch(r"[a-z][a-z0-9_]*(\.[a-z0-9_]+)?", tok):
+                    k, _, sub = tok.partition(".")
+                    if k not in m or (sub and (not isinstance(m[k], dict) or sub not in m[k])):
+                        bad.append(f"{c['conflict_id']}: metric {tok}")
+                if tok.endswith(".csv") and not os.path.exists(os.path.join(jdir, tok)):
+                    bad.append(f"{c['conflict_id']}: file {tok}")
+    return bad
+
 def vocab_census(F, patterns):
     files = [r["path"] for r in F["all_listing"]]
     out = []
@@ -532,6 +606,23 @@ def run(cycle_dir, it, outdir=None):
         tot, rep, by = meta_census(F, x6["meta_patterns"])
         m["meta_sense_files"] = tot; m["meta_reports_counts"] = rep; m["meta_counts_by_report_level"] = by
         m["meta_reports_reflexive_minus_metaphysical"] = rep["reflexive"] - rep["metaphysical"]
+    # 6d x9 additions (behind config key)
+    if cfg.get("x9"):
+        x9 = cfg["x9"]
+        rev = csvrows(P(x9["option_review"]))
+        rows, probs, mism, surv, af, deps = option_review(F, rev, op, icfg.get("rule"))
+        wcsv(os.path.join(data, "option_ripple.csv"), ["option_id", "verdict", "targets", "repro_dependents", "foundation_md_files_matching"], rows)
+        m["review_mismatches"] = mism; m["review_problems"] = probs
+        m["review_verdicts"] = dict(sorted({v: sum(1 for r in rev if r["verdict"] == v) for v in {r["verdict"] for r in rev}}.items()))
+        m["surviving_options_by_conflict"] = surv
+        m["conflicts_without_surviving_option"] = sorted(c for c, v in surv.items() if not v)
+        m["align_foundation_with_repro_dependents"] = af
+        m["repro_dependents"] = {t: v for t, v in sorted(deps.items())}
+        mm = re.search(r"The (\d+) tablet files", F["wq"])
+        n_tab = sum(1 for r in F["all_listing"] if r["path"].endswith("_TABLET.md"))
+        m["wq_tablet_files_claim"] = int(mm.group(1)) if mm else None
+        m["listing_tablet_files"] = n_tab
+        m["wq_tablet_files_claim_diff"] = abs((m["wq_tablet_files_claim"] or 0) - n_tab)
     # 7 vocabulary census across the whole listed corpus
     vc = vocab_census(F, cfg["vocab_patterns"])
     wcsv(os.path.join(data, "vocab_census.csv"), ["key", "regex", "files", "of"], vc)
@@ -541,6 +632,8 @@ def run(cycle_dir, it, outdir=None):
     na_ = [x.replace(" Power", "") for x in a]
     m["foundation_ladder_symdiff"] = sorted(set(na_) ^ set(b))
     m["problems"] = problems
+    if cfg.get("x9"):
+        m["evidence_dangling"] = evidence_check(F, cf, xw, m, os.path.dirname(P(cfg["judgments"]["conflicts"])))
     # 9 boundary: own folder vs suite and vs GAIA-Documentation mirror (current cycle outputs included via data dir)
     W = cfg["boundary_window"]
     here = os.path.abspath(cycle_dir)
@@ -561,6 +654,8 @@ def run(cycle_dir, it, outdir=None):
         checks.append({"id": c["id"], "hypothesis": c["hypothesis"], "metric": c["metric"], "value": v,
                        "op": c["op"], "threshold": c["threshold"], "result": "PASS" if res else "FAIL"})
     inputs = {k: hashlib.sha256(open(P(v), "rb").read()).hexdigest() for k, v in sorted(cfg["judgments"].items())}
+    if cfg.get("x9"):
+        inputs["option_review"] = hashlib.sha256(open(P(cfg["x9"]["option_review"]), "rb").read()).hexdigest()
     if cfg.get("x6"):
         inputs["phase_senses"] = hashlib.sha256(open(P(cfg["x6"]["phase_senses"]), "rb").read()).hexdigest()
     inputs["ledger"] = hashlib.sha256(open(P(cfg["ledger"]), "rb").read()).hexdigest()
@@ -628,6 +723,15 @@ def render(cycle_dir, it):
         L.append("\n| Report level | Reflexive meta- markers | Metaphysic- terms |\n|---|---|---|")
         L += [f"| {k} | {a} | {b} |" for k, (a, b) in m["meta_counts_by_report_level"].items()]
         L.append(f"\nFiles with any reflexive marker: {m['meta_sense_files']['reflexive_files']}; with any metaphysic- term: {m['meta_sense_files']['metaphysical_files']}.")
+    if "review_verdicts" in m:
+        L.append("\n### x9 option review\n\n| Verdict | Options |\n|---|---|")
+        L += [f"| {k} | {v} |" for k, v in m["review_verdicts"].items()]
+        L.append("\n| Conflict | Surviving non-defer options (this rule) |\n|---|---|")
+        L += [f"| {k} | {', '.join(v) or '(none)'} |" for k, v in m["surviving_options_by_conflict"].items()]
+        L.append("\n| Foundation file an option would edit | Config or tool files that name it |\n|---|---|")
+        L += [f"| {k} | {len(v)}: {', '.join(v)} |" for k, v in m["repro_dependents"].items()]
+        L.append(f"\nalign-foundation options whose targets are named by other records' configs or tools: {', '.join(m['align_foundation_with_repro_dependents']) or 'none'}. Per-option ripple in `option_ripple.csv`.")
+        L.append(f"\nWork Queue tablet-file claim: {m['wq_tablet_files_claim']}; tablet files in the listing: {m['listing_tablet_files']}. Dangling conflict evidence citations: {', '.join(m['evidence_dangling']) or 'none'}.")
     L.append(f"\nFoundation ladder difference (README §2 vs Work Queue §C): {', '.join(m['foundation_ladder_symdiff']) or 'none'}.")
     return "\n".join(L) + "\n"
 

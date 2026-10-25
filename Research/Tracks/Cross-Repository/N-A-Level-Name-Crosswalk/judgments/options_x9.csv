@@ -1,0 +1,28 @@
+option_id,conflict_id,type,option,consequence,reversible,decision,label
+K1-A,K1,crosswalk-only,Keep both repositories' level names; cite GAIA-Documentation levels through this crosswalk only,No renames anywhere; every cross-repository citation must carry the crosswalk row,yes,open (Kyle),Plausible
+K1-B,K1,namespace,Prefix borrowed terms (for example 'GD-Original'; 'GD-Ultra'; 'Synergy-super') in Foundation reports,Removes ambiguity in reports 2 and 7 at a small readability cost,yes,open (Kyle),Plausible
+K1-C,K1,align-foundation,Reconcile the Foundation's own two ladders (README §2 Power-Magic vs WQ §C Base-Quantum) before mapping outward,Touches README §2 or WQ §C; an owner edit outside N-A,partly,open (Kyle),Plausible
+K1-D,K1,defer,Defer any naming decision until reports 2 and 7 have used the crosswalk once,Reports proceed with K1-A as the working rule,yes,open (Kyle),Plausible
+K2-A,K2,namespace,"Always qualify: 'Meta (reflexive)', 'Meta (Metaphysical)', 'metaphysical (Synergy rung)'",No sense is lost; small wording cost,yes,open (Kyle),Plausible
+K2-B,K2,align-foundation,Use the full word 'Metaphysical' for the Foundation level and keep bare 'Meta' for the reflexive sense,Changes Foundation wording in §B/§C; README §2 Meta Power would need a separate decision,partly,open (Kyle),Plausible
+K2-C,K2,align-gaiadoc,Adopt the reflexive sense for Foundation 'Meta' (as README §2 already reads),Conflicts with the owner's Hypothetical phase-level pattern (Insurgence = Meta (Metaphysical)),partly,open (Kyle),Hypothetical
+K2-D,K2,defer,Keep the current wording and record the three senses only in this crosswalk,Ambiguity persists in prose outside the crosswalk,yes,open (Kyle),Plausible
+K3-A,K3,namespace,Cite GAIA-Documentation 'Phase N' as 'GD Track N' (1-8) in all Foundation work,Prevents confusion with Divergence ... Transcendence,yes,open (Kyle),Plausible
+K3-B,K3,align-foundation,Correct the WQ conflict wording from 'Phase 1-7' to 'Phase 1-8' and note the two mislabelled next-phase lines,A one-line WQ edit (owner-approved); no GAIA-Documentation edit,yes,open (Kyle),Established
+K3-C,K3,crosswalk-only,Treat the Tablets' five phase names as same-name candidates for the Foundation phases pending a sense comparison,Lets the Tablets be cited in phase reports only after the comparison,yes,open (Kyle),Hypothetical
+K3-D,K3,defer,Defer; leave all non-Foundation phase schemes unmapped,Report 2 cannot reuse GD track numbering safely,yes,open (Kyle),Plausible
+K4-A,K4,crosswalk-only,Import the four GD dimensions as-is and mark Spirit; Earth and Unified as gaps (report 2 adds Spirit for AI as already planned),Matches WQ §N report 2,yes,open (Kyle),Plausible
+K4-B,K4,route,Treat Knowledge and Skills as the Foundation's §K report series rather than new dimensions,Keeps the Seven Reports unchanged,yes,open (Kyle),Plausible
+K4-C,K4,crosswalk-only,Use the Tablets' five-level Being axis as the bridge because it equals README §9.3,Bridges both repositories without new terms; Tablet placements stay Proposed,yes,open (Kyle),Hypothetical
+K4-D,K4,defer,Defer the dimension mapping to report 2,No change now,yes,open (Kyle),Plausible
+K5-A,K5,crosswalk-only,Cite 'Canonical home: GAIA-Documentation' as that repository's self-description only,No authority transfers; N-B decides authority,yes,open (Kyle),Plausible
+K5-B,K5,owner-act,Kyle states which repository is canonical for which class of material (for example GD for its own drafts; Foundation for Foundation reports),Settles authority by owner statement; recorded in N-B / PC-8,partly,open (Kyle),Plausible
+K5-C,K5,route,Route the whole question to N-B / PC-8 and keep N-A vocabulary-only,N-A carries no authority finding beyond the counts,yes,open (Kyle),Plausible
+K5-D,K5,defer,Defer until the Control Standard leaves Proposed status,The standard stays non-normative,yes,open (Kyle),Plausible
+K6-A,K6,crosswalk-only,Treat the Tablets as GAIA-Documentation material; the Foundation keeps no tablet record until the sealing statuses are reconciled,No Foundation change,yes,open (Kyle),Plausible
+K6-B,K6,owner-act,"Kyle states the sealing status of each of the 22 tablets (sealed, unsealed or draft) as an owner act; the Foundation cites that statement",Resolves D1-D5 for Foundation purposes without editing GAIA-Documentation; sealing remains Philosophical/Spiritual in meaning,partly,open (Kyle),Plausible
+K6-C,K6,crosswalk-only,Create a Foundation tablet register that cites each file by blob SHA and preserves every discrepancy,Makes the contradiction auditable; does not resolve it,yes,open (Kyle),Plausible
+K6-D,K6,defer,Defer to N-B,No change now,yes,open (Kyle),Plausible
+K6-E,K6,namespace,Treat the Tablets' alchemical stages (Nigredo ... Rubedo/Celestial) as a separate GD vocabulary and never as Foundation phases,Prevents a stage being read as a phase in report 7 (Modernization of Alchemy); needs no edit,yes,open (Kyle),Plausible
+K3-F,K3,crosswalk-only,"Where Foundation phase reports cite the Tablets phase columns, treat Divergence, Allegiance and Convergence as same-sense and mark Insurgence and Ascendence as partial, with Ascendence also read against Transcendence",No file outside this track changes; citations become sense-qualified; depends on the Plausible sense judgments in phase_senses_x6.csv,yes,open (Kyle),Plausible
+K6-F,K6,owner-act,"Kyle states which stage sequence (four, with Celestial, or with Ember) and which position numbering (tablet or law) the Tablets intend, in GAIA-Documentation, as his own act",Resolves the GD-internal variants at source; nothing in the Foundation changes; N-A records the choice only if Kyle makes it,yes,open (Kyle),Established
