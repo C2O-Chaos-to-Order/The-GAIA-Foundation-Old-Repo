@@ -1,0 +1,23 @@
+tablet,header_status,draft_notice_in_body,says_not_in_INDEX,verse_seal_dates,original_sealed_note,INDEX_status,MATRIX_COMBINED_status
+Alabaster,draft-sealed-1017,yes,yes,,no,Sealed 2026-10-17. Refusal preserved: No,Draft
+Albedo,draft-sealed-1017,yes,yes,,no,Sealed 2026-10-17. Refusal preserved: No,Draft
+Amber,unsealed,no,no,2026-07-15,yes,Unsealed. Improved edition proposed on b,Unsealed
+Amethyst,unsealed,no,no,2026-07-15,yes,Unsealed. Improved edition proposed on t,Unsealed
+Aqua,unsealed,no,no,2026-07-15,yes,Unsealed. Improved edition proposed on t,Unsealed
+Celestial,unsealed,no,no,"July 23, 2026",yes,Unsealed. Improved edition proposed on t,Unsealed
+Citrine,sealed-in-source,no,no,,no,Sealed in source registry. Improved edit,Sealed in source
+Clarity,draft-sealed-1017,yes,yes,,no,Sealed 2026-10-17. Refusal preserved: No,Draft
+Ember,sealed-in-source,no,no,2026-09-23,no,Sealed in source registry. Improved edit,Sealed in source
+Emerald,sealed-in-source,no,no,,no,Sealed in source registry. Tier 0. Impro,Sealed in source
+Lapis,discrepancy,no,no,"July 15, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Obsidian,discrepancy,no,no,"July 15, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Rose,discrepancy,no,no,"July 15, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Ruby,discrepancy,no,no,"July 23, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Sapphire,discrepancy,no,no,"July 23, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Shadow,discrepancy,no,no,"July 23, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Silver,discrepancy,no,no,"July 15, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Solar,discrepancy,no,no,"July 16, 2026",no,Sealing discrepancy: metadata says seale,Sealing discrepancy
+Terra,consistent,no,no,,no,Sealed consistently: metadata and Engine,Sealed consistently
+Transparent,draft-sealed-1017,yes,yes,,no,Sealed 2026-10-17. Refusal preserved: No,Draft
+Viriditas,consistent,no,no,,no,Sealed consistently: metadata and Engine,Sealed consistently
+Void,consistent,no,no,,no,Sealed consistently: metadata and Engine,Sealed consistently

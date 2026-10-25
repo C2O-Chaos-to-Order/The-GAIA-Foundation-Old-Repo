@@ -1,0 +1,291 @@
+{
+ "cycle": "x9",
+ "repo_root": "../../../../..",
+ "gaia_doc_src": "/workspace/na/src",
+ "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+ "ledger": "../ledger/ledger_x9.csv",
+ "listing": "../ledger/listing.csv",
+ "judgments": {
+  "schemes": "../judgments/schemes_x9.csv",
+  "crosswalk": "../judgments/crosswalk_x9.csv",
+  "conflicts": "../judgments/conflicts_x9.csv",
+  "options": "../judgments/options_x9.csv"
+ },
+ "vocab_patterns": [
+  [
+   "canonical_home_gaiadoc",
+   "\\*\\*Canonical home:\\*\\*.*GAIA-Documentation"
+  ],
+  [
+   "hyper_level",
+   "\\bHyper(physical)?\\b"
+  ],
+  [
+   "quantum_level_term",
+   "\\bQuantum (level|tier|Power)\\b"
+  ],
+  [
+   "ultra_term",
+   "\\bUltra\\b"
+  ],
+  [
+   "spirit_term",
+   "\\bSpirit\\b"
+  ],
+  [
+   "metaphysical_term",
+   "\\b[Mm]etaphysical\\b"
+  ],
+  [
+   "foundation_phase_names",
+   "\\b(Insurgence|Allegiance|Ascendence)\\b"
+  ],
+  [
+   "transcendence_term",
+   "\\bTranscendence\\b"
+  ],
+  [
+   "five_level_term",
+   "Five-Level"
+  ],
+  [
+   "four_dimension_term",
+   "Four-Dimension"
+  ]
+ ],
+ "boundary_window": 80,
+ "iterations": {
+  "1": {
+   "rule": "as_judged",
+   "min_options": 2
+  },
+  "2": {
+   "rule": "strict",
+   "min_options": 2
+  },
+  "3": {
+   "rule": "adversarial",
+   "min_options": 2
+  }
+ },
+ "checks": [
+  {
+   "id": "X9-1",
+   "hypothesis": "Every ledger and listing file in the mirror matches its recorded git blob SHA",
+   "metric": "ledger_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-2",
+   "hypothesis": "Every ledger path is in the repository listing",
+   "metric": "ledger_not_in_listing",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-3",
+   "hypothesis": "Each judged scheme equals the term list the tool extracts from its source",
+   "metric": "scheme_extraction_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-4",
+   "hypothesis": "Every term of every scheme is in at least one crosswalk row",
+   "metric": "crosswalk_unmapped_terms",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-5",
+   "hypothesis": "Every judgment row is well-formed and labelled",
+   "metric": "problems",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-6",
+   "hypothesis": "Each conflict has at least two options including a defer option, and no option records a decision",
+   "metric": "options_violations",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-7",
+   "hypothesis": "The Work Queue records six conflicts for N-A/N-B",
+   "metric": "wq_conflict_bullets",
+   "op": "eq",
+   "threshold": 6
+  },
+  {
+   "id": "X9-8",
+   "hypothesis": "The Work Queue's 'Phase 1-7' is right: the highest self-labelled phase in the 32 reports is 7",
+   "metric": "phase_max",
+   "op": "eq",
+   "threshold": 7
+  },
+  {
+   "id": "X9-9",
+   "hypothesis": "The reports' next-phase statements agree with the reports' own phase labels",
+   "metric": "phase_next_mislabels",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-10",
+   "hypothesis": "The Work Queue's '8 flagged sealing discrepancies' is reproduced from Tablets/INDEX.md",
+   "metric": "index_flagged_discrepancies",
+   "op": "eq",
+   "threshold": 8
+  },
+  {
+   "id": "X9-11",
+   "hypothesis": "The Foundation's two level ladders (README §2 and WQ §C) name the same levels",
+   "metric": "foundation_ladder_symdiff",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-12",
+   "hypothesis": "No 80-character overlap with the Totality Suite or with any GAIA-Documentation file",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-13",
+   "hypothesis": "Every 'Baseline preserved' v1.0.0 file named in a tablet exists in the listing",
+   "metric": "dangling_baseline_refs",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-14",
+   "hypothesis": "The tablets state one alchemical stage sequence (v2 extractor)",
+   "metric": "stage_sequence_variants_v2",
+   "op": "eq",
+   "threshold": 1
+  },
+  {
+   "id": "X9-15",
+   "hypothesis": "The Tablets files state one set size",
+   "metric": "tablet_set_size_claims",
+   "op": "eq",
+   "threshold": 1
+  },
+  {
+   "id": "X9-16",
+   "hypothesis": "Under the strict rule (same-sense rows kept only if Established) every term still has a crosswalk row",
+   "metric": "strict_unmapped_terms",
+   "op": "eq",
+   "threshold": 0,
+   "iters": [
+    2
+   ]
+  },
+  {
+   "id": "X9-17",
+   "hypothesis": "Each judged Tablets phase gloss equals the gloss extracted from MATRIX-COMBINED, and each Foundation anchor phrase is found in its DEFINITIONS file",
+   "metric": "phase_sense_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-18",
+   "hypothesis": "In the eight Meta-level reports, reflexive meta- markers outnumber metaphysic- terms",
+   "metric": "meta_reports_reflexive_minus_metaphysical",
+   "op": "ge",
+   "threshold": 1
+  },
+  {
+   "id": "X9-19",
+   "hypothesis": "Exactly one tablet is given position 0 across the Tablets files",
+   "metric": "position0_claimants",
+   "op": "eq",
+   "threshold": 1
+  },
+  {
+   "id": "X9-20",
+   "hypothesis": "The Hermetic Law numbers stated in the tablets have no gaps from 1",
+   "metric": "hermetic_law_gaps",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-21",
+   "hypothesis": "Every option has exactly one review row and every review row an option",
+   "metric": "review_mismatches",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-22",
+   "hypothesis": "Every review row has a valid verdict and label, a non-empty objection and consistent supersession",
+   "metric": "review_problems",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-23",
+   "hypothesis": "Every crosswalk row, metric and file cited as evidence in the conflicts exists",
+   "metric": "evidence_dangling",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-24",
+   "hypothesis": "The Work Queue's tablet-file count equals the listing's",
+   "metric": "wq_tablet_files_claim_diff",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-25",
+   "hypothesis": "No align-foundation option edits a file that other records' configs or tools name",
+   "metric": "align_foundation_with_repro_dependents",
+   "op": "eq",
+   "threshold": 0
+  },
+  {
+   "id": "X9-26",
+   "hypothesis": "Every conflict keeps at least one surviving non-defer option (qualified survival counts)",
+   "metric": "conflicts_without_surviving_option",
+   "op": "eq",
+   "threshold": 0,
+   "iters": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "X9-27",
+   "hypothesis": "Every conflict keeps at least one unqualified surviving non-defer option",
+   "metric": "conflicts_without_surviving_option",
+   "op": "eq",
+   "threshold": 0,
+   "iters": [
+    3
+   ]
+  }
+ ],
+ "x3_census": {
+  "set_size_keys": [
+   "set_is_N",
+   "N_registry_listed",
+   "N_tablet_registry",
+   "N_Hermetic_Tablets",
+   "the_N_remain"
+  ]
+ },
+ "x6": {
+  "phase_senses": "../judgments/phase_senses_x9.csv",
+  "meta_patterns": {
+   "reflexive": "\\bmeta-?(level|cogniti\\w*|analys[ie]s|knowledge|learning|research|review|representations?|evaluation|reasoning|awareness|reflection)\\b",
+   "metaphysical": "\\bmetaphysic\\w*"
+  }
+ },
+ "x9": {
+  "option_review": "../judgments/option_review_x9.csv"
+ }
+}

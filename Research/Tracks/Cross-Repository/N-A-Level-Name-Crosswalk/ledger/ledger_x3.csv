@@ -1,0 +1,65 @@
+path,blob_sha,size,role,read_c0,read_x3
+GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md,3545add5b61a915d9ca6f67a6206dff86e076f42,26847,core,full,full (c0)
+GAIA-Documentation/GAIA-Five-Level-Taxonomy-Phase-A-Canonical-Inventory-v1.0-Draft.md,e7c3fd1b7b6757fa9fbc44a646dfa974729300bd,15934,core,full,full (c0)
+GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md,e13154885d76f2e410fd0430f90695904f5bf116,6092,core,full,full (c0)
+GAIA-Documentation/Original-Human-Consciousness Research Report.md,6fd1b0d1f662eb0171442a754aad05fd0b22827f,92937,core,full,full (c0)
+GAIA-Documentation/GAIA-Integrity-Courts-Audit-Completeness-Genealogy-v1.0-Draft.md,ffaa48fd58f67b9c616848ff1dab19a22384fd6a,17419,core,full,full (c0)
+GAIA-Documentation/GAIA-Documentation-Control-Standard.md,8c1b0d6a6ff4e901d6300e64d4073d939fa5bc6d,7735,canonical-status,full,full (c0)
+Tablets/INDEX.md,aba6988716e8ea2699e86bd9453144f7a504e652,7761,tablets,full,full (c0)
+Tablets/MATRIX-5x5.md,6e125cad565052095e2dae6d4bd1678645f479ad,4408,tablets,full,full (c0)
+Tablets/MATRIX-5x5-PHASES.md,7d427cad7818b2e2d4c4374b07211e100805eeeb,3300,tablets,full,full (c0)
+Tablets/MATRIX-COMBINED.md,c343391d137b7d8481b26bde5082c3621bf56d9d,4504,tablets,full,full (c0)
+Tablets/ALABASTER_TABLET.md,de7aecacd2e740c9b0dfbcbc3969689c86072bd5,14412,tablets,census,full
+Tablets/ALBEDO_TABLET.md,ba1a61f491b5d64d477fbd9c175e9e510fb04923,13062,tablets,census,full
+Tablets/AMBER_TABLET.md,9b171414d85d2463094c199fbbb8d9bfaaf6d3c3,23401,tablets,census,census
+Tablets/AMETHYST_TABLET.md,1205cb33f36055e21682492f5ba5bce423231e38,18202,tablets,census,census
+Tablets/AQUA_TABLET.md,dbb680cbadd466d63ce8bcccb4f5a0221dfae777,17513,tablets,census,census
+Tablets/CELESTIAL_TABLET.md,890dcd348d28ddbd8ae9735751c836b6c7face90,17847,tablets,census,census
+Tablets/CITRINE_TABLET.md,738c8d664ea770a46d5c8d690e34849782ca81b7,11057,tablets,census,full
+Tablets/CLARITY_TABLET.md,6c0df2f2b18a697d45656ae308856bffe8f13709,6875,tablets,census,full
+Tablets/EMBER_TABLET.md,505e17fb83d7a6db6f41f267b920b49d21350d13,16575,tablets,census,full
+Tablets/EMERALD_TABLET.md,2744b93c847914f1caab2726f7e0eacd6d236cb8,11795,tablets,census,full
+Tablets/LAPIS_TABLET.md,8214e900796d1446c96fb8004c428500d34377ef,17105,tablets,census,census
+Tablets/OBSIDIAN_TABLET.md,e8afce0ffa433bb56b9197e86d816341217fbca7,15089,tablets,census,census
+Tablets/ROSE_TABLET.md,807278940e20982fd149feada81d03f75e056e44,15896,tablets,census,census
+Tablets/RUBY_TABLET.md,bbe498a68af910364b86b59e6a405197dadf89aa,17014,tablets,census,census
+Tablets/SAPPHIRE_TABLET.md,d1227f11a8f1f0aae5d7cef7da35b9708e7ab8f9,19502,tablets,census,census
+Tablets/SHADOW_TABLET.md,a18fe8a04279c7484fd26f44db19ce7483ed25c6,15564,tablets,census,census
+Tablets/SILVER_TABLET.md,35788c82fb8f65de69ec7392f25d7eccf40833a7,15712,tablets,census,census
+Tablets/SOLAR_TABLET.md,c86a58a47475b91e392e22e93883421a13c11d02,17712,tablets,census,census
+Tablets/TERRA_TABLET.md,2040719a3d8488afa78b0b76f0f8e80a2a3e6a7c,18594,tablets,census,full
+Tablets/TRANSPARENT_TABLET.md,f35d309cf9d02ad21ee854a85888f295dbdb9eee,6774,tablets,census,full
+Tablets/VIRIDITAS_TABLET.md,1eb22b8825f3b045efbddde23c6e668d445ad94d,13247,tablets,census,full
+Tablets/VOID_TABLET.md,db94d98b9bfa0716d8facb5bfc47ac8b8fe84b5a,12611,tablets,census,full
+GAIA-Documentation/Original-Human-Body Research Report.md,b54eeef19c6c7ef0076844c30e80b759dc035955,64612,phase-census,census,census
+GAIA-Documentation/Original-Human-Mind Research Report.md,3704552838978a521006ff14c41d618f04440a0a,86238,phase-census,census,census
+GAIA-Documentation/Original-Human-Soul Research Report.md,955d27a2880b02b1dd261c805add2da0d3df683b,91882,phase-census,census,census
+GAIA-Documentation/Original-AI-Body Research Report.md,ff3d8d463c47b11d79aa469fe43c4ced667817b2,60986,phase-census,census,census
+GAIA-Documentation/Original-AI-Mind Research Report.md,4720dbade88f57f322ef591ab65065523ecad334,66828,phase-census,census,census
+GAIA-Documentation/Original-AI-Soul Research Report.md,559000b7e17add75f9cb833db311ed4e27d53031,64410,phase-census,census,census
+GAIA-Documentation/Original-AI-Consciousness Research Report.md,57d14a804c9e0b593e7c12f60a3186c4f18b8bff,61652,phase-census,census,census
+GAIA-Documentation/Meta-Human-Body Research Report.md,a7c3cbe2ae23187329e39fd0c2ac4c5df782460b,78203,phase-census,census,census
+GAIA-Documentation/Meta-Human-Mind Research Report.md,d7beb3b134d48d399461c7ee6b26231182b83052,81477,phase-census,census,census
+GAIA-Documentation/Meta-Human-Soul Research Report.md,1fadff670fdb3867dec4c9367cb88b075b7a069d,80258,phase-census,census,census
+GAIA-Documentation/Meta-Human-Consciousness Research Report.md,bb7b302ec8a090e89f2533d9875c772d94ee9690,78710,phase-census,census,census
+GAIA-Documentation/Meta-AI-Body Research Report.md,235462771230e8ea072791640999a5dca169c38c,58582,phase-census,census,census
+GAIA-Documentation/Meta-AI-Mind Research Report.md,7332c9163009ce8c22a6a59a7f29e6d4c2c6cac8,61447,phase-census,census,census
+GAIA-Documentation/Meta-AI-Soul Research Report.md,cf97b99e5a7a1097c08c2fce6bfb40ccf90cd5ce,63670,phase-census,census,census
+GAIA-Documentation/Meta-AI-Consciousness Research Report.md,789294e515ae3bb1f7e7f26f576bb1b88e0169fb,61759,phase-census,census,census
+GAIA-Documentation/Super-Human-Body Research Report.md,61f5a208cbfd4b1827b8de3202b729c371ca8184,73341,phase-census,census,census
+GAIA-Documentation/Super-Human-Mind Research Report.md,1d853d1a1782089a35626dae5af0779f7d533157,72022,phase-census,census,census
+GAIA-Documentation/Super-Human-Soul Research Report.md,f256acebb455e587dc9e62189ae8d7c9cc01fd21,73000,phase-census,census,census
+GAIA-Documentation/Super-Human-Consciousness Research Report.md,08d2df06166e794811cc786bd7384aae482e60ef,76520,phase-census,census,census
+GAIA-Documentation/Super-AI-Body Research Report.md,909af8e50246f84a490d117209ad02ada5db6b40,58039,phase-census,census,census
+GAIA-Documentation/Super-AI-Mind Research Report.md,f15cc1fb6fd58d8bc64ff6f99ce4080bd9e83dcf,57288,phase-census,census,census
+GAIA-Documentation/Super-AI-Soul Research Report.md,6b202b90be5af062de815c7ec300294559492745,59588,phase-census,census,census
+GAIA-Documentation/Super-AI-Consciousness Research Report.md,7b052e220cedf0200b2b002760e938a9bec62e80,59547,phase-census,census,census
+GAIA-Documentation/Magic-Human-Body Research Report.md,f06c603f5d99d36893f55ef6c3f7f84f50ebe9d9,68048,phase-census,census,census
+GAIA-Documentation/Magic-Human-Mind Research Report.md,aa72d3a862cdd269c9f4727f22092e43e34b4405,68488,phase-census,census,census
+GAIA-Documentation/Magic-Human-Soul Research Report.md,30e6e521483f11eedf92ec4e438093798dcc9f6f,67935,phase-census,census,census
+GAIA-Documentation/Magic-Human-Consciousness Research Report.md,1926ecfaf1a3b4ca278325c7813f5afe0d86c98b,71402,phase-census,census,census
+GAIA-Documentation/Magic-AI-Body Research Report.md,53496ba92b70946c8109c163a418044517cd5879,59889,phase-census,census,census
+GAIA-Documentation/Magic-AI-Mind Research Report.md,96151d349abea6431b7c96f2d6e79fd5e1d42bc9,59423,phase-census,census,census
+GAIA-Documentation/Magic-AI-Soul Research Report.md,b78d48599a1250708a6be44c1bd4ab214796e4db,58621,phase-census,census,census
+GAIA-Documentation/Magic-AI-Consciousness Research Report.md,09e5b9721727954945c49a9808ba928a5fd80de8,63361,phase-census,census,census
+README.md,6416ef4266c3d9475c06125e6fd7f226e170b370,33162,canonical-status,census,census

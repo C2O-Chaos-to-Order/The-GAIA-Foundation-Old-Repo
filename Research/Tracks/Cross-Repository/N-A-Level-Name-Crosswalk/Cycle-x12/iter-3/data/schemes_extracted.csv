@@ -1,0 +1,21 @@
+scheme_id,repo,n_terms,extracted,matches_judged
+F-R2,Foundation,6,Power|Meta Power|Super Power|Hyper Power|Ultra Power|Magic Power,yes
+F-C,Foundation,7,Base|Meta|Super|Hyper|Ultra|Magic|Quantum,yes
+F-B,Foundation,6,Divergence|Insurgence|Allegiance|Convergence|Ascendence|Transcendence,yes
+F-93P,Foundation,5,Divergence|Insurgence|Allegiance|Convergence|Ascendence,yes
+F-93B,Foundation,5,Body|Mind|Soul|Spirit|Consciousness,yes
+F-7R,Foundation,7,Body|Mind|Soul|Spirit|Consciousness|Earth|Unified,yes
+D-5L,GAIA-Documentation,5,Original|Meta|Super|Ultra|Magic,yes
+D-6D,GAIA-Documentation,6,Body|Mind|Soul|Consciousness|Knowledge|Skills,yes
+D-4L,GAIA-Documentation,4,Original|Meta|Super|Magic,yes
+D-4D,GAIA-Documentation,4,Body|Mind|Soul|Consciousness,yes
+D-8T,GAIA-Documentation,8,Human Original|AI Original|Human Meta|AI Meta|Human Super|AI Super|Human Magic|AI Magic,yes
+D-AD,GAIA-Documentation,4,Phase A|Phase B|Phase C|Phase D,yes
+D-IC6,GAIA-Documentation,6,Knowledge|Trust|Audit|Completeness|Genealogy|Self-Correction,yes
+D-S6,GAIA-Documentation,6,classical|quantum|super|ultra|metaphysical|magic,yes
+D-TB,GAIA-Documentation,5,Body|Mind|Soul|Spirit|Consciousness,yes
+D-TP,GAIA-Documentation,5,Divergence|Insurgence|Allegiance|Convergence|Ascendence,yes
+D-ST4,GAIA-Documentation,4,Nigredo|Albedo|Citrinitas|Rubedo,yes
+D-ST5,GAIA-Documentation,5,Nigredo|Albedo|Citrinitas|Rubedo|Celestial,yes
+D-GEM,GAIA-Documentation,5,Ruby|Citrine|Emerald|Sapphire|Amethyst,yes
+D-ST5E,GAIA-Documentation,5,Nigredo|Albedo|Citrinitas|Ember|Rubedo,yes

@@ -1,0 +1,99 @@
+row_id,from_scheme,from_term,to_scheme,to_term,relation,label,basis
+X01,D-5L,Original,F-C,Base,partial-overlap,Plausible,both are the first rung; 5L L1 = foundational form of a domain; Foundation Base is undefined beyond its pairing with Divergence in §B
+X02,D-5L,Original,F-R2,Power,partial-overlap,Plausible,README §2 first rung is a responsibility minimum (purpose; effects; accountability) not a domain level
+X03,D-5L,Meta,F-C,Meta,same-name-different-sense,Established,5L L2 is reflexive (study or regulation of the domain itself); Foundation §B/§C gloss Meta as Metaphysical
+X04,D-5L,Meta,F-R2,Meta Power,partial-overlap,Plausible,README §2 Meta Power concerns the systems that govern or amplify power: a second-order sense close to the 5L reflexive sense
+X05,D-5L,Super,F-C,Super,same-name-different-sense,Plausible,5L L3 = advanced integration or synthesis beyond a stated baseline; Foundation §B glosses Super as Superphysical
+X06,D-5L,Super,F-R2,Super Power,partial-overlap,Plausible,README §2 Super Power = cross-domain consequences and misuse; overlaps the 5L integration sense
+X07,D-5L,Ultra,F-C,Ultra,same-name-different-sense,Plausible,5L L4 = exceptional scale beyond Super and must prove it is distinct; Foundation §B glosses Ultra as Ultraphysical
+X08,D-5L,Ultra,F-R2,Ultra Power,partial-overlap,Plausible,README §2 Ultra Power = independent scrutiny and containment; scale overlaps but 5L has no responsibility rule
+X09,D-5L,Magic,F-C,Magic,same-name-same-sense,Plausible,both treat extraordinary or spiritual claims as documented and labelled without bypassing evidence (5L L5; README §2)
+X10,D-5L,Magic,F-R2,Magic Power,same-name-same-sense,Plausible,README §2 Magic Power applies the same discipline to extraordinary claims; 5L L5 likewise
+X11,F-C,Hyper,D-5L,(none),no-counterpart,Established,no Hyper level in 5L; vocab census finds no Hyper level term in the listed corpus
+X12,F-C,Quantum,D-5L,(none),no-counterpart,Established,no Quantum level in 5L
+X13,F-C,Quantum,D-S6,quantum,same-name-different-sense,Plausible,Synergy rung 2 is Schrödinger-level physics; Foundation Quantum is the seventh level and its §G series includes spiritual entanglement topics
+X14,F-C,Quantum,F-R2,(none),no-counterpart,Established,README §2 ladder has no Quantum rung (Foundation-internal)
+X15,F-R2,Power,F-C,Base,internal-variant,Established,README §2 starts at Power; WQ §C starts at Base (Foundation-internal naming)
+X16,F-R2,Hyper Power,F-C,Hyper,internal-variant,Established,same rung under two Foundation lists
+X17,D-S6,classical,F-C,Base,partial-overlap,Hypothetical,only if Base is read as the ordinary physical level; the Foundation does not define Base
+X18,D-S6,super,F-C,Super,same-name-different-sense,Plausible,Synergy super = supersymmetry or supergravity (theoretical physics); Foundation Super = Superphysical
+X19,D-S6,ultra,F-C,Ultra,same-name-different-sense,Plausible,Synergy ultra = quantum gravity and holography; Foundation Ultra = Ultraphysical
+X20,D-S6,metaphysical,F-C,Meta,partial-overlap,Plausible,Foundation glosses Meta as Metaphysical; Synergy metaphysical = formal ontology consistency and sits fifth not second
+X21,D-S6,magic,F-C,Magic,partial-overlap,Plausible,Synergy keeps the magic coupling at its null (g = 0) as a placeholder model; Foundation Magic is a responsibility discipline
+X22,D-S6,quantum,D-5L,(none),no-counterpart,Established,5L has no quantum rung
+X23,D-4L,Original,D-5L,Original,same-name-same-sense,Established,the 32 reports instantiate 5L levels
+X24,D-4L,Meta,D-5L,Meta,same-name-same-sense,Plausible,Meta reports are reflexive (e.g. H-08 is how consciousness is represented; studied and measured per the H-04 scope note)
+X25,D-4L,Super,D-5L,Super,same-name-same-sense,Established,the 32 reports instantiate 5L levels
+X26,D-4L,Magic,D-5L,Magic,same-name-same-sense,Established,the 32 reports instantiate 5L levels
+X27,D-5L,Ultra,D-4L,(none),no-counterpart,Established,no Ultra report exists (Phase A inventory §1)
+X28,D-8T,Human Original,F-B,(none),different-kind,Plausible,GAIA-Documentation Phase N numbers work packages (tracks) not transformation phases
+X29,D-8T,AI Original,F-B,(none),different-kind,Plausible,as X28
+X30,D-8T,Human Meta,F-B,(none),different-kind,Plausible,as X28
+X31,D-8T,AI Meta,F-B,(none),different-kind,Plausible,as X28
+X32,D-8T,Human Super,F-B,(none),different-kind,Plausible,as X28
+X33,D-8T,AI Super,F-B,(none),different-kind,Plausible,as X28
+X34,D-8T,Human Magic,F-B,(none),different-kind,Plausible,as X28
+X35,D-8T,AI Magic,F-B,(none),different-kind,Plausible,as X28
+X36,D-AD,Phase A,F-B,(none),different-kind,Plausible,5L §10 phases are steps of a research programme (inventory; coverage; batches; review)
+X37,D-AD,Phase B,F-B,(none),different-kind,Plausible,as X36
+X38,D-AD,Phase C,F-B,(none),different-kind,Plausible,as X36
+X39,D-AD,Phase D,F-B,(none),different-kind,Plausible,as X36
+X40,D-IC6,Knowledge,F-B,(none),different-kind,Plausible,Integrity Courts §8 is a governance capability roadmap and says it is a candidate to test
+X41,D-IC6,Trust,F-B,(none),different-kind,Plausible,as X40
+X42,D-IC6,Audit,F-B,(none),different-kind,Plausible,as X40
+X43,D-IC6,Completeness,F-B,(none),different-kind,Plausible,as X40
+X44,D-IC6,Genealogy,F-B,(none),different-kind,Plausible,as X40
+X45,D-IC6,Self-Correction,F-B,(none),different-kind,Plausible,as X40
+X46,D-TP,Divergence,F-93P,Divergence,same-name-same-sense,Plausible,Tablets gloss: splitting; Foundation working readings are separation and fragmentation (Divergence DEFINITIONS); see phase_senses_x6.csv
+X47,D-TP,Insurgence,F-93P,Insurgence,partial-overlap,Plausible,"Tablets gloss: rising; the Foundation reading is threshold-triggered sudden emergence, which ""rising"" does not carry, and ""rising"" also fits Ascendence; see phase_senses_x6.csv"
+X48,D-TP,Allegiance,F-93P,Allegiance,same-name-same-sense,Plausible,Tablets gloss: committing; Foundation readings are loyalty and persistent attachment; see phase_senses_x6.csv
+X49,D-TP,Convergence,F-93P,Convergence,same-name-same-sense,Plausible,Tablets gloss: coming together; Foundation readings are approach to a common estimate or limit; see phase_senses_x6.csv
+X50,D-TP,Ascendence,F-93P,Ascendence,partial-overlap,Plausible,Tablets gloss: rising beyond; the Foundation reads Ascendence as ascent toward a higher level or peak and Transcendence as going beyond a level; the gloss straddles both; see phase_senses_x6.csv
+X51,D-TP,Divergence,F-B,Divergence,same-name-same-sense,Plausible,Tablets gloss: splitting; Foundation working readings are separation and fragmentation (Divergence DEFINITIONS); see phase_senses_x6.csv (F-B is F-93P plus Transcendence)
+X52,D-TP,Insurgence,F-B,Insurgence,partial-overlap,Plausible,"Tablets gloss: rising; the Foundation reading is threshold-triggered sudden emergence, which ""rising"" does not carry, and ""rising"" also fits Ascendence; see phase_senses_x6.csv (F-B is F-93P plus Transcendence)"
+X53,D-TP,Allegiance,F-B,Allegiance,same-name-same-sense,Plausible,Tablets gloss: committing; Foundation readings are loyalty and persistent attachment; see phase_senses_x6.csv (F-B is F-93P plus Transcendence)
+X54,D-TP,Convergence,F-B,Convergence,same-name-same-sense,Plausible,Tablets gloss: coming together; Foundation readings are approach to a common estimate or limit; see phase_senses_x6.csv (F-B is F-93P plus Transcendence)
+X55,D-TP,Ascendence,F-B,Ascendence,partial-overlap,Plausible,Tablets gloss: rising beyond; the Foundation reads Ascendence as ascent toward a higher level or peak and Transcendence as going beyond a level; the gloss straddles both; see phase_senses_x6.csv (F-B is F-93P plus Transcendence)
+X56,F-B,Transcendence,D-TP,Ascendence,partial-overlap,Plausible,"the Tablets have no Transcendence column, but their Ascendence gloss ""rising beyond"" and the Celestial tablet (Spirit x Ascendence; transcends its own design) overlap the Foundation Transcendence reading of going beyond a level; x3 recorded no-counterpart"
+X57,D-4D,Body,F-7R,Body,same-name-same-sense,Plausible,Human track; WQ §N notes the 16 Human-track reports duplicate the Seven Reports; AI Body is an engineering analogy (5L §3.2)
+X58,D-4D,Mind,F-7R,Mind,same-name-same-sense,Plausible,as X57
+X59,D-4D,Soul,F-7R,Soul,same-name-same-sense,Plausible,as X57; AI Soul is philosophical or metaphorical (5L §3.2)
+X60,D-4D,Consciousness,F-7R,Consciousness,same-name-same-sense,Plausible,as X57
+X61,F-7R,Spirit,D-4D,(none),no-counterpart,Established,no Spirit report among the 32
+X62,F-7R,Earth,D-4D,(none),no-counterpart,Established,no Earth dimension in the 32 reports
+X63,F-7R,Unified,D-4D,(none),no-counterpart,Established,no unified report in the 32-report set
+X64,F-7R,Spirit,D-TB,Spirit,partial-overlap,Plausible,the Tablets matrix has a Spirit row (glossed forging); the Foundation Spirit report is broader
+X65,D-6D,Knowledge,F-7R,(none),no-counterpart,Established,not one of the Seven Reports; the Foundation queue §K treats Knowledge as a report series not a dimension
+X66,D-6D,Skills,F-7R,(none),no-counterpart,Established,as X65
+X67,D-6D,Body,D-4D,Body,same-name-same-sense,Established,5L §3.1 domain instantiated in the 32 reports
+X68,D-6D,Mind,D-4D,Mind,same-name-same-sense,Established,as X67
+X69,D-6D,Soul,D-4D,Soul,same-name-same-sense,Established,as X67
+X70,D-6D,Consciousness,D-4D,Consciousness,same-name-same-sense,Established,as X67
+X71,D-TB,Body,F-93B,Body,same-name-same-sense,Plausible,identical ordered five-term list; §9.3 gives no glosses; the Tablets gloss Body as ground
+X72,D-TB,Mind,F-93B,Mind,same-name-same-sense,Plausible,as X71 (Tablets: seeing)
+X73,D-TB,Soul,F-93B,Soul,same-name-same-sense,Plausible,as X71 (Tablets: living)
+X74,D-TB,Spirit,F-93B,Spirit,same-name-same-sense,Plausible,as X71 (Tablets: forging)
+X75,D-TB,Consciousness,F-93B,Consciousness,same-name-same-sense,Plausible,as X71 (Tablets: knowing)
+X76,F-93B,Body,F-7R,Body,same-name-same-sense,Established,Foundation-internal: §9.3 Being axis equals the first five Seven Reports
+X77,F-93B,Spirit,F-7R,Spirit,same-name-same-sense,Established,as X76
+X78,F-93P,Divergence,F-B,Divergence,internal-variant,Established,Foundation-internal: §9.3 lists five phases; §B six (Transcendence added)
+X79,F-R2,Meta Power,F-C,Meta,internal-variant,Established,Foundation-internal: README §2 defines Meta Power as second-order; §B/§C gloss Meta as Metaphysical
+X80,D-ST4,Nigredo,F-B,(none),different-kind,Plausible,alchemical stages describe transformation of the Work; the Foundation phases are a separate research axis; the Foundation once used Nigredo and Albedo as project checkpoint names (docs/history; archived)
+X81,D-ST4,Albedo,F-B,(none),different-kind,Plausible,as X80
+X82,D-ST4,Citrinitas,F-B,(none),different-kind,Plausible,as X80
+X83,D-ST4,Rubedo,F-B,(none),different-kind,Plausible,as X80
+X84,D-ST5,Nigredo,D-ST4,Nigredo,same-name-same-sense,Established,both tablets give the same first four stages
+X85,D-ST5,Albedo,D-ST4,Albedo,same-name-same-sense,Established,as X84
+X86,D-ST5,Citrinitas,D-ST4,Citrinitas,same-name-same-sense,Established,as X84
+X87,D-ST5,Rubedo,D-ST4,Rubedo,same-name-same-sense,Established,as X84
+X88,D-ST5,Celestial,D-ST4,(none),no-counterpart,Established,Citrine adds a fifth stage that the Albedo sequence lacks (GD-internal variant)
+X89,D-GEM,Ruby,F-93B,(none),different-kind,Plausible,gem tablets are named laws (colours and forces) not domains; the Tablets matrix places Ruby under Spirit
+X90,D-GEM,Citrine,F-93B,(none),different-kind,Plausible,as X89 (matrix: Mind)
+X91,D-GEM,Emerald,F-93B,(none),different-kind,Plausible,as X89 (matrix: Consciousness)
+X92,D-GEM,Sapphire,F-93B,(none),different-kind,Plausible,as X89 (matrix: Mind)
+X93,D-GEM,Amethyst,F-93B,(none),different-kind,Plausible,as X89 (matrix: Consciousness)
+X94,D-ST5E,Nigredo,D-ST4,Nigredo,same-name-same-sense,Established,same stage name in the same order in Ruby and Albedo
+X95,D-ST5E,Albedo,D-ST4,Albedo,same-name-same-sense,Established,same stage name in the same order in Ruby and Albedo
+X96,D-ST5E,Citrinitas,D-ST4,Citrinitas,same-name-same-sense,Established,same stage name in the same order in Ruby and Albedo
+X97,D-ST5E,Rubedo,D-ST4,Rubedo,same-name-same-sense,Established,same stage name in the same order in Ruby and Albedo
+X98,D-ST5E,Ember,D-ST4,(none),no-counterpart,Established,Ruby inserts Ember between Citrinitas and Rubedo; neither the Albedo nor the Citrine sequence has it (GD-internal variant)

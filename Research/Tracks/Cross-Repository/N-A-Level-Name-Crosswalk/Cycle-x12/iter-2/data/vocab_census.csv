@@ -1,0 +1,11 @@
+key,regex,files,of
+canonical_home_gaiadoc,\*\*Canonical home:\*\*.*GAIA-Documentation,7,333
+hyper_level,\bHyper(physical)?\b,0,333
+quantum_level_term,\bQuantum (level|tier|Power)\b,0,333
+ultra_term,\bUltra\b,45,333
+spirit_term,\bSpirit\b,17,333
+metaphysical_term,\b[Mm]etaphysical\b,52,333
+foundation_phase_names,\b(Insurgence|Allegiance|Ascendence)\b,4,333
+transcendence_term,\bTranscendence\b,9,333
+five_level_term,Five-Level,14,333
+four_dimension_term,Four-Dimension,43,333
