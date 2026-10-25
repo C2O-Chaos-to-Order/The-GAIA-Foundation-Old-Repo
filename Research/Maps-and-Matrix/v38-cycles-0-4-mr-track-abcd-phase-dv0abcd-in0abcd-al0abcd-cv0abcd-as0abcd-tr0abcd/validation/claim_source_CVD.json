@@ -1,0 +1,904 @@
+{
+ "cycle": "CVD",
+ "n_claims": 80,
+ "summary": {
+  "K-resolve": {
+   "Pass": 80
+  },
+  "K-access": {
+   "Pass": 6,
+   "n/a": 74
+  },
+  "K-sim": {
+   "n/a": 16,
+   "Pass": 64
+  },
+  "K-phrase": {
+   "Pass": 17,
+   "n/a": 63
+  }
+ },
+ "n_fail": 0,
+ "claims": [
+  {
+   "claim_id": "CVD-NAT-01",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "Pass",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-02",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-03",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-04",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-05",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-06",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-07",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "Pass",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-08",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-09",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-10",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-11",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-12",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-13",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-14",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-15",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-NAT-16",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-01",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "Pass",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-02",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-03",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-04",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-05",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-06",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "Pass",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-07",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-08",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-09",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-10",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-11",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-12",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-13",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-14",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-FOR-15",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-01",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-02",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-03",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-04",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-05",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-06",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-07",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-08",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-09",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-10",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "Pass",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-11",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-SOC-12",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-01",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-02",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-03",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-04",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "Pass",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-05",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-06",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-07",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-08",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-09",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-10",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-APP-11",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-01",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-02",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-03",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-04",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-05",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-06",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-07",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-08",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-09",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-10",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-HUM-11",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-01",
+   "label": "Philosophical/Spiritual",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-02",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-03",
+   "label": "Philosophical/Spiritual",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-04",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-05",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-06",
+   "label": "Philosophical/Spiritual",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-07",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-08",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-09",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-10",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-11",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-12",
+   "label": "Established",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-13",
+   "label": "Plausible",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "n/a",
+    "K-phrase": "Pass"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-14",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  },
+  {
+   "claim_id": "CVD-PHI-15",
+   "label": "Hypothetical",
+   "results": {
+    "K-resolve": "Pass",
+    "K-access": "n/a",
+    "K-sim": "Pass",
+    "K-phrase": "n/a"
+   },
+   "unresolved": []
+  }
+ ]
+}
