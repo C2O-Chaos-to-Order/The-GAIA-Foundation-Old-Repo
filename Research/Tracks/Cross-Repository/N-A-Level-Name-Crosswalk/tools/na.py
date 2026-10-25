@@ -125,6 +125,31 @@ def ex_tab_being(F):
 def ex_tab_phase(F):
     return _matrix_a(F)[0]
 
+def _stage_sequences(F):
+    """Ordered alchemical stage sequences stated in tablet prose ('sequence ...: A, B, C' or 'A → B → C')."""
+    out = {}
+    for r in F["ledger"]:
+        if not r["path"].endswith("_TABLET.md"):
+            continue
+        for line in F["doc"](r["path"]).splitlines():
+            m = re.search(r"sequence[^:\n]*: (.+)", line)
+            if not m:
+                continue
+            seq = re.findall(r"\b(Nigredo|Albedo|Citrinitas|Rubedo|Celestial|Ariditas|Viriditas|Calcination|Iosis|Caerulitas)\b", m.group(1))
+            if len(seq) >= 3:
+                out.setdefault(tuple(seq), []).append(os.path.basename(r["path"]).split("_")[0].title())
+    return out
+
+def ex_stage4(F):
+    return list(min(_stage_sequences(F), key=len))
+
+def ex_stage5(F):
+    return list(max(_stage_sequences(F), key=len))
+
+def ex_gem5(F):
+    t = F["doc"]("Tablets/TERRA_TABLET.md")
+    return re.findall(r"^\| \d \| (\w+) \| \w+ \| \*", t, re.M)
+
 EXTRACTORS = {k[3:]: v for k, v in globals().items() if k.startswith("ex_")}
 
 # ---------------- censuses ----------------
@@ -198,6 +223,34 @@ def tablet_census(F):
         if mm.group(1) in cell and cell[mm.group(1)] != mm.group(2):
             D["D9"].append(f"{mm.group(1)}: table {cell[mm.group(1)]} vs mapping {mm.group(2)}")
     return {"rows": rows, "D": D, "index_rows": len(irows), "set_is_22": "The set is 22" in idx}
+
+NUMW = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8}
+COUNT_CLAIMS = [("set_is_N", r"[Tt]he set is (\d+)"), ("N_registry_listed", r"(\d+) registry-listed"),
+                ("N_tablet_registry", r"(\d+)-tablet registry"), ("N_Hermetic_Tablets", r"the (\d+) Hermetic Tablets"),
+                ("N_Tablets_of_NEXUS", r"[Tt]he (\w+) Tablets of NEXUS"), ("N_gem_tablets", r"[Tt]he (\w+) gem tablets"),
+                ("the_N_remain", r"[Tt]he (\d+) remain the \d+")]
+
+def tablet_census_x3(F):
+    listing = {r["path"] for r in F["all_listing"]}
+    tabs = sorted(r["path"] for r in F["listing_tablets"])
+    stages, dangling, phase2, claims = [], [], [], {}
+    for p in tabs:
+        t = F["doc"](p); name = os.path.basename(p).split("_")[0].title() if p.endswith("_TABLET.md") else os.path.basename(p)
+        if p.endswith("_TABLET.md"):
+            m = re.search(r"\*\*Governing Stage:?\*\*:? ([^\n]+)|\| Governing Stage \| ([^|]+) \|", t)
+            st = (m.group(1) or m.group(2)).strip() if m else ""
+            stages.append([name, st.split(" — ")[0].strip()])
+            for mm in re.finditer(r"Baseline preserved:\*\* (Tablets/\S+?\.md)", t):
+                if mm.group(1) not in listing:
+                    dangling.append(f"{name}: {mm.group(1)}")
+            if re.search(r"proceed to Phase 2", t):
+                phase2.append(name)
+        for key, rx in COUNT_CLAIMS:
+            for mm in re.finditer(rx, t):
+                v = mm.group(1).lower(); v = NUMW.get(v, v)
+                claims.setdefault(f"{key}={v}", set()).add(name)
+    return {"stages": stages, "dangling": dangling, "phase2": phase2,
+            "claims": {k: sorted(v) for k, v in sorted(claims.items())}, "sequences": _stage_sequences(F)}
 
 def vocab_census(F, patterns):
     files = [r["path"] for r in F["all_listing"]]
@@ -339,6 +392,29 @@ def run(cycle_dir, it, outdir=None):
     m["tablet_discrepancies"] = {k: v for k, v in tc["D"].items()}
     m["index_flagged_discrepancies"] = len(tc["D"]["D1"])
     m["tablet_discrepancy_types_found"] = sum(1 for v in tc["D"].values() if v)
+    # 6b x3 additions (behind config key, so earlier records are unchanged)
+    if cfg.get("x3_census"):
+        F["listing_tablets"] = [r for r in F["all_listing"] if r["path"].startswith("Tablets/")]
+        t3 = tablet_census_x3(F)
+        wcsv(os.path.join(data, "tablet_stages.csv"), ["tablet", "governing_stage"], t3["stages"])
+        m["tablet_governing_stages"] = dict(sorted({st: sum(1 for _, x in t3["stages"] if x == st) for _, st in t3["stages"]}.items()))
+        m["stage_sequences"] = {" > ".join(k): sorted(v) for k, v in sorted(t3["sequences"].items())}
+        m["stage_sequence_variants"] = len(t3["sequences"])
+        m["dangling_baseline_refs"] = sorted(t3["dangling"])
+        m["tablets_awaiting_phase2"] = len(t3["phase2"])
+        m["tablet_count_claims"] = t3["claims"]
+        m["tablet_set_size_claims"] = sorted({v for k, v in (x.split("=") for x in t3["claims"]) if k in cfg["x3_census"]["set_size_keys"]}, key=str)
+        # sensitivity: same-sense rows that survive a strict rule (label Established only)
+        ss = [r for r in xw if r["relation"] == "same-name-same-sense"]
+        m["same_sense_rows"] = len(ss)
+        m["same_sense_rows_strict"] = sum(1 for r in ss if r["label"] == "Established")
+        if icfg.get("rule") == "strict":
+            keep = [r for r in xw if r["relation"] != "same-name-same-sense" or r["label"] == "Established"]
+            cov = set()
+            for r in keep:
+                cov.add((r["from_scheme"], r["from_term"]))
+                if r["to_term"] != "(none)": cov.add((r["to_scheme"], r["to_term"]))
+            m["strict_unmapped_terms"] = sorted(f"{a}:{t}" for a, ts in terms.items() for t in ts if (a, t) not in cov)
     # 7 vocabulary census across the whole listed corpus
     vc = vocab_census(F, cfg["vocab_patterns"])
     wcsv(os.path.join(data, "vocab_census.csv"), ["key", "regex", "files", "of"], vc)
@@ -360,6 +436,8 @@ def run(cycle_dir, it, outdir=None):
     # checks
     checks = []
     for c in cfg["checks"]:
+        if "iters" in c and it not in c["iters"]:
+            continue
         v = m[c["metric"]]
         v = len(v) if isinstance(v, (list, dict)) else v
         res = {"eq": v == c["threshold"], "ge": v >= c["threshold"], "le": v <= c["threshold"]}[c["op"]]
