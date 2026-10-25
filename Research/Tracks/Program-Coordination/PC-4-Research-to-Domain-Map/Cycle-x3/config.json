@@ -1,0 +1,111 @@
+{
+  "cycle": "x3",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "judgment_map": "../judgments/map_x3.csv",
+  "clusters": "../judgments/clusters_x3.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "map_kinds": [
+    "report",
+    "candidate",
+    "governance",
+    "level"
+  ],
+  "report_kinds": [
+    "report"
+  ],
+  "candidate_kinds": [
+    "candidate"
+  ],
+  "queue_named_checks": true,
+  "iterations": {
+    "1": {
+      "variant": "charter",
+      "stem": true,
+      "k": 3
+    },
+    "2": {
+      "variant": "title_purpose",
+      "stem": true,
+      "k": 3
+    },
+    "3": {
+      "variant": "title",
+      "stem": true,
+      "k": 3
+    }
+  },
+  "checks": [
+    {
+      "id": "X3-1",
+      "hypothesis": "Inventory still complete",
+      "metric": "inventory_gap",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-2",
+      "hypothesis": "Every in-scope row passes the integrity checks, including Established-by-reference (named_in) checks",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-3",
+      "hypothesis": "Every domain an item's own text names is among its judged domains, and every cluster member carries at least one of the domains its cluster names",
+      "metric": "queue_named_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X3-4",
+      "hypothesis": "After the review the charter matcher agrees at least as well as at Baseline (top-3 primary >= 0.427)",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.427,
+      "iterations": [
+        1
+      ]
+    },
+    {
+      "id": "X3-5",
+      "hypothesis": "Title-and-purpose text alone still gives top-3 primary agreement >= 0.35",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.35,
+      "iterations": [
+        2
+      ]
+    },
+    {
+      "id": "X3-6",
+      "hypothesis": "Titles alone give top-3 primary agreement >= 0.25",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.25,
+      "iterations": [
+        3
+      ]
+    },
+    {
+      "id": "X3-7",
+      "hypothesis": "At least 15 reports are Established (named in the Work Queue text, directly or by a b7 cluster or PC-4 example)",
+      "metric": "report_label_counts.Established",
+      "op": "ge",
+      "threshold": 15
+    },
+    {
+      "id": "X3-8",
+      "hypothesis": "Reports with no domain do not increase (<= 2)",
+      "metric": "reports_no_domain",
+      "op": "le",
+      "threshold": 2
+    },
+    {
+      "id": "X3-9",
+      "hypothesis": "All 9 b7 proposals still pass the structural checks",
+      "metric": "clusters_ok",
+      "op": "eq",
+      "threshold": 9
+    }
+  ]
+}
