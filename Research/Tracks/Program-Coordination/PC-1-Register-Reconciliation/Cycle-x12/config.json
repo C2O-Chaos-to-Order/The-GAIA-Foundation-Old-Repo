@@ -1,0 +1,155 @@
+{
+  "cycle": "x12",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "repo_root": "../../../../..",
+  "domains": "../judgments/domains_x12.csv",
+  "audit_map": "../judgments/audit_map_x6.csv",
+  "roadmap": "../judgments/roadmap_c0.csv",
+  "pc4_coverage": "../../PC-4-Research-to-Domain-Map/Cycle-x12/iter-2/data/coverage_domains.csv",
+  "pc4_tog24": "../../PC-4-Research-to-Domain-Map/judgments/tog24_x12.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "expected_mismatches": [
+    "GAIA-TOT-024",
+    "GAIA-TOT-025",
+    "GAIA-TOT-035",
+    "GAIA-TOT-038"
+  ],
+  "boundary_window": 80,
+  "iterations": {
+    "1": {
+      "home_rule": "as_judged",
+      "wave_038": "3",
+      "w_overlay_rule": true
+    },
+    "2": {
+      "home_rule": "as_judged",
+      "wave_038": "3",
+      "w_overlay_rule": false
+    }
+  },
+  "checks": [
+    {
+      "id": "X12-1",
+      "hypothesis": "Exactly one row for each of the 45 register domains",
+      "metric": "domain_rows_ok",
+      "op": "eq",
+      "threshold": 45
+    },
+    {
+      "id": "X12-2",
+      "hypothesis": "Integrity (as X9-2)",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-3",
+      "hypothesis": "Every cited anchor resolves",
+      "metric": "anchors_unresolved",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-4",
+      "hypothesis": "No cited anchor is unreviewed or reviewed 'none'",
+      "metric": "anchors_unsupported",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-5",
+      "hypothesis": "Every reviewer role required by Risk Levels is among the proposed roles",
+      "metric": "required_roles_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-6",
+      "hypothesis": "Every open issue, the 11 b9 domains included, is covered by an owner decision",
+      "metric": "open_issues_without_decision",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-7",
+      "hypothesis": "The issue list has all 29 issues (x9 enumeration fixed)",
+      "metric": "open_issues",
+      "op": "eq",
+      "threshold": 29
+    },
+    {
+      "id": "X12-8",
+      "hypothesis": "b9 reproduces exactly",
+      "metric": "b9_symmetric_difference",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-9",
+      "hypothesis": "The four Work Queue mismatches are all found",
+      "metric": "expected_mismatches_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-10",
+      "hypothesis": "No two domains share a canonical home",
+      "metric": "duplicate_homes",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-11",
+      "hypothesis": "Proposed IDs collide with no existing ID",
+      "metric": "id_collisions",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-12",
+      "hypothesis": "Adoption boundary: no new overlap (own outputs included)",
+      "metric": "boundary_new_overlaps",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-13",
+      "hypothesis": "Every register row is complete (home, IDs, owner, roles, UR domains, tier, proposed wave)",
+      "metric": "register_incomplete",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-14",
+      "hypothesis": "x12 changed no domain field other than reviewer_roles relative to x6",
+      "metric": "fields_changed_other_than_roles",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X12-15",
+      "hypothesis": "Final wave proposals do not add inversions over the roadmap",
+      "metric": "inversions_delta",
+      "op": "le",
+      "threshold": 0
+    }
+  ],
+  "prior_domains": "../judgments/domains_x6.csv",
+  "anchor_review": "../judgments/anchor_review_x6.csv",
+  "authority": "../judgments/authority_x6.csv",
+  "wave_proposals": "../judgments/wave_proposals_x12.csv",
+  "title_style": "short",
+  "boundary_known": [
+    "Cycle-0-Baseline/TABLES.md",
+    "Cycle-0-Baseline/iter-1/data/reconciliation.csv"
+  ],
+  "ur_criteria": "../judgments/ur_criteria_x6.csv",
+  "tog19": "../judgments/tog19_x6.csv",
+  "product_rules": "../judgments/product_rules_x6.csv",
+  "remedy_rule": "authority",
+  "tiers": "../judgments/domain_tiers_x9.csv",
+  "change_control": "../judgments/change_control_x9.csv",
+  "decisions": "../judgments/decisions_x9.csv",
+  "issues_from_main_metrics": true,
+  "register_columns": true
+}
