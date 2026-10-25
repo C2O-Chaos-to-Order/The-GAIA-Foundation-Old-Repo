@@ -1,0 +1,650 @@
+{
+ "checks": [
+  {
+   "hypothesis": "Every ledger and listing file in the mirror matches its recorded git blob SHA",
+   "id": "X9-1",
+   "metric": "ledger_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every ledger path is in the repository listing",
+   "id": "X9-2",
+   "metric": "ledger_not_in_listing",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Each judged scheme equals the term list the tool extracts from its source",
+   "id": "X9-3",
+   "metric": "scheme_extraction_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every term of every scheme is in at least one crosswalk row",
+   "id": "X9-4",
+   "metric": "crosswalk_unmapped_terms",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every judgment row is well-formed and labelled",
+   "id": "X9-5",
+   "metric": "problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Each conflict has at least two options including a defer option, and no option records a decision",
+   "id": "X9-6",
+   "metric": "options_violations",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "The Work Queue records six conflicts for N-A/N-B",
+   "id": "X9-7",
+   "metric": "wq_conflict_bullets",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 6,
+   "value": 6
+  },
+  {
+   "hypothesis": "The Work Queue's 'Phase 1-7' is right: the highest self-labelled phase in the 32 reports is 7",
+   "id": "X9-8",
+   "metric": "phase_max",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 7,
+   "value": 8
+  },
+  {
+   "hypothesis": "The reports' next-phase statements agree with the reports' own phase labels",
+   "id": "X9-9",
+   "metric": "phase_next_mislabels",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  },
+  {
+   "hypothesis": "The Work Queue's '8 flagged sealing discrepancies' is reproduced from Tablets/INDEX.md",
+   "id": "X9-10",
+   "metric": "index_flagged_discrepancies",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 8,
+   "value": 8
+  },
+  {
+   "hypothesis": "The Foundation's two level ladders (README §2 and WQ §C) name the same levels",
+   "id": "X9-11",
+   "metric": "foundation_ladder_symdiff",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 3
+  },
+  {
+   "hypothesis": "No 80-character overlap with the Totality Suite or with any GAIA-Documentation file",
+   "id": "X9-12",
+   "metric": "boundary_overlaps",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every 'Baseline preserved' v1.0.0 file named in a tablet exists in the listing",
+   "id": "X9-13",
+   "metric": "dangling_baseline_refs",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 20
+  },
+  {
+   "hypothesis": "The tablets state one alchemical stage sequence (v2 extractor)",
+   "id": "X9-14",
+   "metric": "stage_sequence_variants_v2",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 1,
+   "value": 3
+  },
+  {
+   "hypothesis": "The Tablets files state one set size",
+   "id": "X9-15",
+   "metric": "tablet_set_size_claims",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 1,
+   "value": 2
+  },
+  {
+   "hypothesis": "Each judged Tablets phase gloss equals the gloss extracted from MATRIX-COMBINED, and each Foundation anchor phrase is found in its DEFINITIONS file",
+   "id": "X9-17",
+   "metric": "phase_sense_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "In the eight Meta-level reports, reflexive meta- markers outnumber metaphysic- terms",
+   "id": "X9-18",
+   "metric": "meta_reports_reflexive_minus_metaphysical",
+   "op": "ge",
+   "result": "PASS",
+   "threshold": 1,
+   "value": 369
+  },
+  {
+   "hypothesis": "Exactly one tablet is given position 0 across the Tablets files",
+   "id": "X9-19",
+   "metric": "position0_claimants",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 1,
+   "value": 2
+  },
+  {
+   "hypothesis": "The Hermetic Law numbers stated in the tablets have no gaps from 1",
+   "id": "X9-20",
+   "metric": "hermetic_law_gaps",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 1
+  },
+  {
+   "hypothesis": "Every option has exactly one review row and every review row an option",
+   "id": "X9-21",
+   "metric": "review_mismatches",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every review row has a valid verdict and label, a non-empty objection and consistent supersession",
+   "id": "X9-22",
+   "metric": "review_problems",
+   "op": "eq",
+   "result": "PASS",
+   "threshold": 0,
+   "value": 0
+  },
+  {
+   "hypothesis": "Every crosswalk row, metric and file cited as evidence in the conflicts exists",
+   "id": "X9-23",
+   "metric": "evidence_dangling",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  },
+  {
+   "hypothesis": "The Work Queue's tablet-file count equals the listing's",
+   "id": "X9-24",
+   "metric": "wq_tablet_files_claim_diff",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  },
+  {
+   "hypothesis": "No align-foundation option edits a file that other records' configs or tools name",
+   "id": "X9-25",
+   "metric": "align_foundation_with_repro_dependents",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 3
+  },
+  {
+   "hypothesis": "Every conflict keeps at least one unqualified surviving non-defer option",
+   "id": "X9-27",
+   "metric": "conflicts_without_surviving_option",
+   "op": "eq",
+   "result": "FAIL",
+   "threshold": 0,
+   "value": 2
+  }
+ ],
+ "cycle": "x9",
+ "gaia_documentation": "read-only; verified mirror; nothing written",
+ "inputs": {
+  "conflicts": "a017b6cfeb1599a0bbf14f80152f6cc6aca191b128f45dfe9a3c1f97a5c6dcf1",
+  "crosswalk": "4d466ee9dcf77ee61779cabc80fb93b26f1aa19e95e287007c715f2af3efc1e2",
+  "foundation_readme_blob": "141824b184929e5ffb49796cac8b4d6a0311f999",
+  "ledger": "88f05b6836ff7340e80a4b56d4ceb2a679cbece7e7861c84d304d4b0682998b3",
+  "listing": "8b23ee77623d0bc9debea0315e7af1848b92f41925f8952309d6f1a06d10e24e",
+  "option_review": "19129f350cdf6abf315d56763eb7ce153993bf36fbfcba6a8a37693d6f7ba331",
+  "options": "08f01088ee9768911683a3d62b564b38ca8ce6dc28ae657bd55c93f357af4e61",
+  "phase_senses": "aec9a6c56b4450dfdf2ec9e9216df5be2472f8ac3547cf89993576e98dc6180d",
+  "schemes": "f3fefe210162394b93bb177adf67c87098f213c2b69c1c1be1a12afe00e9da76",
+  "work_queue_blob": "589fe1665c77f986b566c30328e8dbf81d20e335"
+ },
+ "iteration": 3,
+ "metrics": {
+  "align_foundation_with_repro_dependents": [
+   "K1-C",
+   "K2-B",
+   "K3-B"
+  ],
+  "boundary_gaiadoc": [],
+  "boundary_overlaps": 0,
+  "boundary_suite": [],
+  "conflicts": 6,
+  "conflicts_without_surviving_option": [
+   "K3",
+   "K6"
+  ],
+  "crosswalk_rows": 98,
+  "crosswalk_unmapped_terms": [],
+  "dangling_baseline_refs": [
+   "Alabaster: Tablets/ALABASTER_TABLET.v1.0.0.md",
+   "Albedo: Tablets/ALBEDO_TABLET.v1.0.0.md",
+   "Amber: Tablets/AMBER_TABLET.v1.0.0.md",
+   "Amethyst: Tablets/AMETHYST_TABLET.v1.0.0.md",
+   "Aqua: Tablets/AQUA_TABLET.v1.0.0.md",
+   "Celestial: Tablets/CELESTIAL_TABLET.v1.0.0.md",
+   "Citrine: Tablets/CITRINE_TABLET.v1.0.0.md",
+   "Ember: Tablets/EMBER_TABLET.v1.0.0.md",
+   "Emerald: Tablets/EMERALD_TABLET.v1.0.0.md",
+   "Lapis: Tablets/LAPIS_TABLET.v1.0.0.md",
+   "Obsidian: Tablets/OBSIDIAN_TABLET.v1.0.0.md",
+   "Rose: Tablets/ROSE_TABLET.v1.0.0.md",
+   "Ruby: Tablets/RUBY_TABLET.v1.0.0.md",
+   "Sapphire: Tablets/SAPPHIRE_TABLET.v1.0.0.md",
+   "Shadow: Tablets/SHADOW_TABLET.v1.0.0.md",
+   "Silver: Tablets/SILVER_TABLET.v1.0.0.md",
+   "Solar: Tablets/SOLAR_TABLET.v1.0.0.md",
+   "Terra: Tablets/TERRA_TABLET.v1.0.0.md",
+   "Viriditas: Tablets/VIRIDITAS_TABLET.v1.0.0.md",
+   "Void: Tablets/VOID_TABLET.v1.0.0.md"
+  ],
+  "evidence_dangling": [
+   "K3: metric phase_senses_x6.csv",
+   "K5: metric vocab.canonical_home"
+  ],
+  "foundation_ladder_symdiff": [
+   "Base",
+   "Power",
+   "Quantum"
+  ],
+  "hermetic_law_gaps": [
+   2
+  ],
+  "hermetic_law_numbers": [
+   [
+    "Amber",
+    4
+   ],
+   [
+    "Obsidian",
+    1
+   ],
+   [
+    "Silver",
+    3
+   ]
+  ],
+  "index_flagged_discrepancies": 8,
+  "index_rows": 22,
+  "ledger_files": 64,
+  "ledger_mismatches": [],
+  "ledger_not_in_listing": [],
+  "listing_files": 333,
+  "listing_tablet_files": 22,
+  "meta_counts_by_report_level": {
+   "Magic": [
+    27,
+    11
+   ],
+   "Meta": [
+    386,
+    17
+   ],
+   "Original": [
+    64,
+    46
+   ],
+   "Super": [
+    18,
+    4
+   ]
+  },
+  "meta_reports_counts": {
+   "metaphysical": 17,
+   "reflexive": 386
+  },
+  "meta_reports_reflexive_minus_metaphysical": 369,
+  "meta_sense_files": {
+   "metaphysical_files": 62,
+   "reflexive_files": 92
+  },
+  "options": 27,
+  "options_violations": [],
+  "owner_phase_level_pattern": [
+   "Divergence=Base",
+   "Insurgence=Meta (Metaphysical)",
+   "Allegiance=Super (Superphysical)",
+   "Convergence=Hyper (Hyperphysical)",
+   "Ascendence=Ultra (Ultraphysical)",
+   "Transcendence=Magic"
+  ],
+  "phase_max": 8,
+  "phase_next_mislabels": 2,
+  "phase_next_statements": 2,
+  "phase_numbers": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "phase_self_label_missing": [
+   "Original-Human-Body Research Report.md",
+   "Original-Human-Mind Research Report.md"
+  ],
+  "phase_self_label_wrong": [],
+  "phase_sense_mismatches": [],
+  "phase_sense_relations": {
+   "Allegiance": "same-name-same-sense",
+   "Ascendence": "partial-overlap",
+   "Convergence": "same-name-same-sense",
+   "Divergence": "same-name-same-sense",
+   "Insurgence": "partial-overlap",
+   "Transcendence": "partial-overlap"
+  },
+  "phase_tracks": {
+   "1": "Human Original",
+   "2": "AI Original",
+   "3": "Human Meta",
+   "4": "AI Meta",
+   "5": "Human Super",
+   "6": "AI Super",
+   "7": "Human Magic",
+   "8": "AI Magic"
+  },
+  "position0_claimants": [
+   "Emerald",
+   "Terra"
+  ],
+  "problems": [],
+  "relation_counts": {
+   "different-kind": 27,
+   "internal-variant": 4,
+   "no-counterpart": 12,
+   "partial-overlap": 14,
+   "same-name-different-sense": 6,
+   "same-name-same-sense": 35
+  },
+  "repro_dependents": {
+   "Research/README.md": [
+    "Research/Tracks/Cross-Repository/N-A-Level-Name-Crosswalk/tools/na.py"
+   ],
+   "Research/WORK_QUEUE.md": [
+    "Research/Tracks/Cross-Repository/N-A-Level-Name-Crosswalk/tools/na.py",
+    "Research/Tracks/Program-Coordination/PC-1-Register-Reconciliation/Cycle-0-Baseline/config.json",
+    "Research/Tracks/Program-Coordination/PC-1-Register-Reconciliation/Cycle-x12/config.json",
+    "Research/Tracks/Program-Coordination/PC-1-Register-Reconciliation/Cycle-x3/config.json",
+    "Research/Tracks/Program-Coordination/PC-1-Register-Reconciliation/Cycle-x6/config.json",
+    "Research/Tracks/Program-Coordination/PC-1-Register-Reconciliation/Cycle-x9/config.json",
+    "Research/Tracks/Program-Coordination/PC-4-Research-to-Domain-Map/Cycle-0-Baseline/config.json",
+    "Research/Tracks/Program-Coordination/PC-4-Research-to-Domain-Map/Cycle-x12/config.json",
+    "Research/Tracks/Program-Coordination/PC-4-Research-to-Domain-Map/Cycle-x3/config.json",
+    "Research/Tracks/Program-Coordination/PC-4-Research-to-Domain-Map/Cycle-x6/config.json",
+    "Research/Tracks/Program-Coordination/PC-4-Research-to-Domain-Map/Cycle-x9/config.json"
+   ]
+  },
+  "review_mismatches": [],
+  "review_problems": [],
+  "review_verdicts": {
+   "superseded": 1,
+   "survives": 6,
+   "survives-qualified": 16,
+   "weakened": 4
+  },
+  "same_sense_rows": 35,
+  "same_sense_rows_strict": 17,
+  "scheme_extraction_mismatches": [],
+  "scheme_sizes": {
+   "D-4D": 4,
+   "D-4L": 4,
+   "D-5L": 5,
+   "D-6D": 6,
+   "D-8T": 8,
+   "D-AD": 4,
+   "D-GEM": 5,
+   "D-IC6": 6,
+   "D-S6": 6,
+   "D-ST4": 4,
+   "D-ST5": 5,
+   "D-ST5E": 5,
+   "D-TB": 5,
+   "D-TP": 5,
+   "F-7R": 7,
+   "F-93B": 5,
+   "F-93P": 5,
+   "F-B": 6,
+   "F-C": 7,
+   "F-R2": 6
+  },
+  "stage_none_stated_v2": [
+   "Terra"
+  ],
+  "stage_sequence_variants": 2,
+  "stage_sequence_variants_v2": 3,
+  "stage_sequences": {
+   "Nigredo > Albedo > Citrinitas > Rubedo > Celestial > Citrinitas": [
+    "Citrine"
+   ],
+   "Nigredo > Albedo > Citrinitas > Rubedo > Nigredo > Albedo": [
+    "Albedo"
+   ]
+  },
+  "stage_sequences_v2": {
+   "Nigredo > Albedo > Citrinitas > Ember > Rubedo": [
+    "Ruby"
+   ],
+   "Nigredo > Albedo > Citrinitas > Rubedo": [
+    "Albedo",
+    "Celestial",
+    "Ruby",
+    "Solar"
+   ],
+   "Nigredo > Albedo > Citrinitas > Rubedo > Celestial": [
+    "Citrine"
+   ]
+  },
+  "surviving_options_by_conflict": {
+   "K1": [
+    "K1-B"
+   ],
+   "K2": [
+    "K2-A"
+   ],
+   "K3": [],
+   "K4": [
+    "K4-B"
+   ],
+   "K5": [
+    "K5-A",
+    "K5-C"
+   ],
+   "K6": []
+  },
+  "tablet_count_claims": {
+   "N_Hermetic_Tablets=18": [
+    "Emerald"
+   ],
+   "N_Tablets_of_NEXUS=7": [
+    "Emerald"
+   ],
+   "N_gem_tablets=5": [
+    "Terra"
+   ],
+   "N_registry_listed=18": [
+    "INDEX.md"
+   ],
+   "N_tablet_registry=18": [
+    "Alabaster",
+    "Albedo",
+    "Clarity",
+    "Transparent"
+   ],
+   "set_is_N=22": [
+    "INDEX.md",
+    "MATRIX-5x5-PHASES.md",
+    "MATRIX-5x5.md",
+    "MATRIX-COMBINED.md"
+   ],
+   "the_N_remain=18": [
+    "MATRIX-5x5-PHASES.md",
+    "MATRIX-5x5.md",
+    "MATRIX-COMBINED.md"
+   ]
+  },
+  "tablet_discrepancies": {
+   "D1": [
+    "Lapis",
+    "Obsidian",
+    "Rose",
+    "Ruby",
+    "Sapphire",
+    "Shadow",
+    "Silver",
+    "Solar"
+   ],
+   "D2": [
+    "Alabaster",
+    "Albedo",
+    "Clarity",
+    "Transparent"
+   ],
+   "D3": [
+    "Alabaster",
+    "Albedo",
+    "Clarity",
+    "Transparent"
+   ],
+   "D4": [
+    "Amber",
+    "Amethyst",
+    "Aqua",
+    "Celestial"
+   ],
+   "D5": [
+    "rows=22 vs stated=18",
+    "sealed_rows=10 vs stated=6"
+   ],
+   "D6": [
+    "Terra"
+   ],
+   "D7": [
+    "MATRIX-5x5.md",
+    "MATRIX-5x5-PHASES.md",
+    "MATRIX-COMBINED.md"
+   ],
+   "D8": [
+    "stated=3 listed=4"
+   ],
+   "D9": [
+    "Alabaster: table Insurgence × Divergence vs mapping Divergence × Insurgence"
+   ]
+  },
+  "tablet_discrepancy_types_found": 9,
+  "tablet_files": 22,
+  "tablet_governing_stages": {
+   "": 5,
+   "Akashic": 1,
+   "Albedo": 2,
+   "All Stages": 1,
+   "Calcination": 1,
+   "Citrinitas": 1,
+   "Cross-stage": 2,
+   "Nigredo": 1,
+   "Nigredo (Stage I)": 1,
+   "Nigredo Absolute": 1,
+   "Perception Layer": 1,
+   "Proliferatio": 1,
+   "Rosa Mystica / Soft Rubedo / Compassionate Completion": 1,
+   "Rubedo (IV)": 1,
+   "Rubedo / Citrinitas / Magnum Opus Completion": 1,
+   "Transition": 1
+  },
+  "tablet_header_classes": {
+   "consistent": 3,
+   "discrepancy": 8,
+   "draft-sealed-1017": 4,
+   "sealed-in-source": 3,
+   "unsealed": 4
+  },
+  "tablet_set_size_claims": [
+   "18",
+   "22"
+  ],
+  "tablets_awaiting_phase2": 19,
+  "tablets_phase_glosses": {
+   "Allegiance": "committing",
+   "Ascendence": "rising beyond",
+   "Convergence": "coming together",
+   "Divergence": "splitting",
+   "Insurgence": "rising"
+  },
+  "variant": {
+   "min_options": 2,
+   "rule": "adversarial"
+  },
+  "vocab": {
+   "canonical_home_gaiadoc": 7,
+   "five_level_term": 14,
+   "foundation_phase_names": 4,
+   "four_dimension_term": 43,
+   "hyper_level": 0,
+   "metaphysical_term": 52,
+   "quantum_level_term": 0,
+   "spirit_term": 17,
+   "transcendence_term": 9,
+   "ultra_term": 45
+  },
+  "wq_conflict_bullets": 6,
+  "wq_tablet_files_claim": 24,
+  "wq_tablet_files_claim_diff": 2
+ },
+ "outputs": {
+  "option_ripple.csv": "6cf1485605301c11d914c5a5d2d73963acd34c3d8daefe29d4337b8903429895",
+  "phase_census.csv": "7b0b4a42515d33bb0fa5601bb9d2d943a81cbb828e72322659c4df65354f6907",
+  "phase_next_mislabels.csv": "7447173c981f7af39fb278686e8715e94a69bf617012da08a74e50d50a89b8e7",
+  "schemes_extracted.csv": "359dc7a36eb7ecc0a107d3eabbb335ed9d685dc40e8b91b33cca2328880645dc",
+  "tablet_census.csv": "70bfa3aefd856b79b05e3b1050654b30a45af789aa66855fb407e5c7097e22fe",
+  "tablet_stages.csv": "318ae343afb6e3cf2011ee670e16f4e6f9b5afb2f3890b1fb5aed15dfbbc6a43",
+  "tablet_stages_v2.csv": "7281e6db4e8a85c0b5f7ff17b72427ca74064f13a5916ab7d5cb3cac62f48089",
+  "vocab_census.csv": "6fea581688a02d64f2730f0beabe5b92000c491c7d646b08b098476e712ca609"
+ },
+ "report": "N-A Level-Name Crosswalk",
+ "variant": {
+  "min_options": 2,
+  "rule": "adversarial"
+ }
+}
