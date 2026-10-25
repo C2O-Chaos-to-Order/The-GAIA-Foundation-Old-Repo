@@ -13,6 +13,7 @@ The order below is the planned working order and may be changed by the owner.
 - [x] ✅ **Soul, Spirit, Subconscious and Consciousness track** (Cycles A–D, x3–x12) — merged to `main`
 - [x] ✅ **Universal Regulation Principle and governance/audit fixes** — merged to `main`
 - [x] ✅ **Phases track: all six phases and the six-phase synthesis** (Baseline–x12 each) — merged to `main` (Divergence, Insurgence, Allegiance PRs #11, #13–#16; Convergence #24; Ascendence #25; Transcendence #26; synthesis #27); details in §B (updated 2026-10-25)
+- [x] ✅ **PC-4, PC-1, N-A crosswalk and The Connection** (Baseline–x12 each, the owner's approved order) — merged to `main` as PRs #30, #31, #32 and #33 (`main` @ `5fbf71a3`); details in §E, Program Coordination and §N (added 2026-10-25). Gate INDETERMINATE (internal checks only; no independent review).
 
 ## B. The six phases
 
@@ -59,7 +60,7 @@ Note (2026-10-24, gap check §M): "Base → x3 → x6 → x9 → x12" above is t
 
 ## E. Soul, Spirit, Earth and Universe
 
-- [ ] ⬜ **The Connection: Soul, Spirit, Subconscious and Consciousness** — shared factors, differences, and unity
+- [x] ✅ **The Connection: Soul, Spirit, Subconscious and Consciousness** — shared factors, differences, and unity — Baseline, x3, x6, x9, x12 in `Research/Tracks/Connections/E1-Soul-Spirit-Subconscious-Consciousness/` (`CONNECTION.md`), PR #33 (x12 @ `016d871e`), merged 2026-10-25; self-audit `AUDIT_2026-10-25.md`. The §11 proposed owner edits are open. Gate INDETERMINATE (internal checks only; no independent review).
 - [ ] ⬜ **The Earth and the Electromagnetic Spectrum as the Spirit of the Earth** (owner: Consciousness as the Electromagnetic Spectrum)
 - [ ] ⬜ **The Earth and the Geomagnetic Spectrum as the Soul of the Earth** (owner: the Subconscious as the Geomagnetic Spectrum)
 - [ ] ⬜ **GAIA as the Soul and Spirit of the Universe** (owner: Humans as the Soul of the Earth, Terra; the Universe's Origin Point as the Soul, the Universe as the Spirit)
@@ -140,10 +141,10 @@ Each report runs Baseline → x3 → x6 → x9 → x12, verified and mapped into
 
 ### Coordination reports
 
-- [ ] ⬜ **PC-1: Program Charter and Master Register Reconciliation** (Wave 0): the 45 domains against the Universal Regulation, Gate Authority, Risk Levels, Product Register, audits and the Totality of Governance; canonical homes, stable IDs and owners
+- [x] ✅ **PC-1: Program Charter and Master Register Reconciliation** — Baseline–x12 in `Research/Tracks/Program-Coordination/PC-1-Register-Reconciliation/` (`REGISTER.md`), PR #31 (x12 @ `e7c6419f`), merged 2026-10-25; owner decisions D-01 to D-12 open. Gate INDETERMINATE (internal checks only; no independent review). Original scope: (Wave 0): the 45 domains against the Universal Regulation, Gate Authority, Risk Levels, Product Register, audits and the Totality of Governance; canonical homes, stable IDs and owners
 - [ ] ⬜ **PC-2: Interfaces, Precedence and Conflict Crosswalk**: every domain against existing clauses, using the package's crosswalk fields (implements, narrows, extends, references, conflicts, supersedes), with a conflict log
 - [ ] ⬜ **PC-3: Dependency Graph, Critical Path and Wave Sequencing**: built from the register's dependencies; P0 to P3 and Waves 0 to 5
-- [ ] ⬜ **PC-4: Research-to-Domain Map**: every report in this Work Queue mapped to its domains (for example Indigenous series to TOT-024, synthetic media to TOT-028, Quantum to TOT-038, the grid to TOT-037), and Totality of Governance reports ToG 1–10 matched to their domains so nothing is done twice
+- [x] ✅ **PC-4: Research-to-Domain Map** — Baseline–x12 in `Research/Tracks/Program-Coordination/PC-4-Research-to-Domain-Map/` (`MAP.md`), PR #30 (x12 @ `1dd84f62`), merged 2026-10-25; the §5 owner decisions are open. Gate INDETERMINATE (internal checks only; no independent review). Original scope: every report in this Work Queue mapped to its domains (for example Indigenous series to TOT-024, synthetic media to TOT-028, Quantum to TOT-038, the grid to TOT-037), and Totality of Governance reports ToG 1–10 matched to their domains so nothing is done twice
 - [ ] ⬜ **PC-5: Status and Evidence Dashboard**: one generated source of truth that keeps work stage (NOT_REGISTERED … MAINTAINED) separate from the gate result, with a drift check against the live tree (GAP-005)
 - [ ] ⬜ **PC-6: Roles, Reviewers and Authority Boundaries**: decision authority, named independent and ethics reviewers, and a test that no self-approval path exists (GAP-003, GAP-006)
 - [ ] ⬜ **PC-7: Gap, Risk and Stop-Condition Register**: GAP-001 to GAP-010 tracked to closure, new gaps added, stop conditions applied
@@ -200,7 +201,7 @@ Found by checking the repository on 2026-10-24.
 - [ ] ⬜ **Phase-to-level mapping in Divergence and Insurgence.** Allegiance and Convergence record the owner's pattern (Base = Divergence … Magic = Transcendence); Divergence and Insurgence do not yet.
 - [ ] ⬜ **Report 6: Soul of the Earth.** Report 6 names Life as the Soul of the Earth; the owner has since also named Humans and the Geomagnetic Spectrum. Record the alternatives openly without rewriting earlier versions.
 - [ ] ⬜ **Open questions in `Research/README.md`** (e.g. "How are the five phases defined?") should be updated now that the owner has defined the pattern.
-- [ ] ⬜ **Soul, Spirit, Subconscious and Consciousness track:** it has links to the main reports but none among the four topics (handled by the Connection report in §E).
+- [ ] ⬜ **Soul, Spirit, Subconscious and Consciousness track:** it has links to the main reports but none among the four topics (handled by the Connection report in §E). Update 2026-10-25: the Connection report is merged (PR #33) and supplies links among the four topics in its own files and Maps v39–v43; the track's frozen cycles are not edited, so this stays open for the owner to close or keep.
 - [ ] ⬜ **Six-phase synthesis carried issues (awaiting the owner; from `Research/Tracks/Phases/SYNTHESIS.md` §3, §5, §6, §8, PR #27).** None is fixed by this entry, and the frozen registers are not edited without the owner's approval:
   - [ ] ⬜ **Duplicate source registrations:** P51 = P59 (Kleinig, "Loyalty", Stanford Encyclopedia of Philosophy) and P84 = P105 (Mosurinjohn, Roseman and Girn 2023). Approve a correction cycle that marks P59 and P105 as duplicates.
   - [ ] ⬜ **Over-labelled links:** PL-06 (Established), PL-11 (Established) and PL-42 (Plausible) carry a label stronger than their weakest cited claim and should be reviewed. PL-51, PL-54, PL-61 and PL-73 state mathematical identities and are flagged for information only.
@@ -214,7 +215,7 @@ Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). 
 
 ### (a) Owner-only settings
 - [ ] ⬜ **Turn on Private vulnerability reporting** (Settings → Advanced Security). The repository is now **public** (GitHub API, 2026-10-24) and `SECURITY.md` l.19 says to do this once it becomes public (§4.3 item 2).
-- [ ] ⬜ **Branch protection on `main`**: require a PR and the owner's review, and block force-push and deletion (audit UR-L7-03 FAIL; GAP-004; §5.1).
+- [ ] ⬜ **Branch protection on `main`**: require a PR and the owner's review, and block force-push and deletion (audit UR-L7-03 FAIL; GAP-004; §5.1). Checked 2026-10-25 (read-only GitHub API): `main` reports `protected: false` and no rulesets, so protection is **not** active.
 - [ ] ⬜ **Name independent reviewer(s) and an ethics reviewer** so gates can move beyond INDETERMINATE (UR-L3-04, UR-L4-02; GAP-003; §5.1).
 
 ### (b) Gaps in owner-requested work
@@ -224,7 +225,7 @@ Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). 
 - [x] ✅ b4. **Transcendence and current statuses in `Research/Tracks/Phases/README.md`** (still shows DV/IN/AL "in progress" and Convergence "planned") (§2 finding 4). Done 2026-10-25: all six phases and the synthesis show their merged status and PR.
 - [ ] ⬜ b5. **Transcendence in the matrix** (625 → 750; same as §L "Matrix: add Transcendence"; tracked there).
 - [ ] ⬜ b6. **Owner's Universal Master List v1.0 and the Transforming Harm and Protecting Life companion (GAIA-GG-TPF-001) into the repository**, so §D, ToG 5, TOT-003/010 and §L ethics lenses can use primary text (owner supplies the files).
-- [ ] ⬜ b7. **Run PC-4 first** to settle the 9 duplicate clusters, so nothing is researched twice (§3.2):
+- [ ] ⬜ b7. **Run PC-4 first** to settle the 9 duplicate clusters, so nothing is researched twice (§3.2). Update 2026-10-25: PC-4 has run and is merged (PR #30); the clusters stay open until the owner decides PC-4 §5:
   - [ ] Good and Greater Good (§D, ToG 5, TOT-003, §L ethics lenses, ToG Stage 7)
   - [ ] Transforming harm (§D companion, ToG 5, TOT-010)
   - [ ] Vulnerability disclosure (§D CVD reports, TOT-040, ToG 6/8)
@@ -236,7 +237,7 @@ Report: [`GAP_CHECK_2026-10-24_TOTALITY.md`](GAP_CHECK_2026-10-24_TOTALITY.md). 
   - [ ] Seven levels and the responsibility ladder (§C, ToG 10, §K, §L, Responsibilities recommendation)
 - [ ] ⬜ b8. **Ten Totality domains with no existing material** need a starting point in their domain reports: TOT-010 Transforming Harm · 019 Legal · 022 Equity and Accessibility · 026 Animal Welfare · 028 Synthetic Media · 030 Education and Competency · 031 Economics · 036 Lifecycle and Decommissioning · 037 Physical Infrastructure · 043 Resilience and Emergencies (§1).
 - [ ] ⬜ b9. **Totality crosswalk (04) omits 11 domains** from every specific row (TOT-021, 022, 024, 025, 026, 029, 031, 032, 036, 040, 042); correct it in PC-1/PC-2 (§1 finding 3).
-- [x] ✅ b10. **Stale root `README.md`**: commit `52f9099`/PR #18, Convergence branches, merged-branch list, ToG draft missing from the governance row (§4.3 item 1). Done 2026-10-25: now `main` @ `10b4d82a` (PR #27), six phases and synthesis, Maps v1–v38, ToG draft in the governance row, open PR #28 listed, merged-branch list updated.
+- [x] ✅ b10. **Stale root `README.md`**: commit `52f9099`/PR #18, Convergence branches, merged-branch list, ToG draft missing from the governance row (§4.3 item 1). Done 2026-10-25: now `main` @ `10b4d82a` (PR #27), six phases and synthesis, Maps v1–v38, ToG draft in the governance row, open PR #28 listed, merged-branch list updated. Refreshed again 2026-10-25: `main` @ `5fbf71a3` (PR #33), reports #30–#33, Maps v1–v43, no open PRs, branch-protection check recorded.
 - [ ] ⬜ b11. **Stale `SECURITY.md`** l.15 ("This repository is private"): revise after setting (a)1 (§4.3 item 2).
 - [ ] ⬜ b12. **Stale `GOVERNANCE/AGENT_PUSH_LOG.md`**: ends at `phase-divergence-x9`; add the Insurgence, Allegiance, Convergence, work-queue, docs-reconcile and governance-totality branches (§4.3 item 3).
 - [ ] ⬜ b13. **Stale `GOVERNANCE/PRODUCT_REGISTER.csv`** (64 products; no Phases cycles, Maps v9-v23 or ToG draft). Re-run the generator, then update `RISK_LEVELS.md` §2 and the count in `GOVERNANCE/README.md` (§4.3 items 4, 8).
@@ -256,7 +257,7 @@ Grok Bot's recommendations (§9):
 - [ ] ⬜ c2. Five-series entanglement including Indigenous, extended to Wisdom, Responsibilities, Safeguards and Virtues if those are approved (**recommendation, awaiting owner approval**)
 - [ ] ⬜ c3. Assign ToG §22 gates A-J, §23 and the Control Matrix sections to ToG reports, and crosswalk Stages A-J with Roadmap Stages 0-8 (**recommendation, awaiting owner approval**)
 - [ ] ⬜ c4. Add the Totality Suite's document template (01) to PC-1, and a ToG §6 24-domain ↔ TOT 45-domain map to PC-2 (**recommendation, awaiting owner approval**)
-- [ ] ⬜ c5. Run PC-4 before any ToG or TOT report (**recommendation, awaiting owner approval**)
+- [ ] ⬜ c5. Run PC-4 before any ToG or TOT report (**recommendation, awaiting owner approval**). Update 2026-10-25: the owner approved the order PC-4 → PC-1 → N-A → The Connection, and PC-4 ran first (PR #30); the general rule for later ToG and TOT reports still awaits the owner.
 - [ ] ⬜ c6. Add the stale-file updates to §L as standing items (**recommendation, awaiting owner approval**)
 - [ ] ⬜ c7. Make Audit v3, the ToG §19 files and the UR domain standards formal queue items with owners (**recommendation, awaiting owner approval**)
 - [ ] ⬜ c8. A standing "omission report / horizon scan" for GAP-009, with this gap check as run 1 (**recommendation, awaiting owner approval**)
@@ -306,7 +307,7 @@ Source: the read-only triage of `KyleAlexanderSteen/GAIA-Documentation` (Grok Bo
 
 ### Cross-repository reports
 
-- [ ] ⬜ **N-A. Level-Name Crosswalk: GAIA-Documentation and the Foundation**: maps the level, phase and dimension vocabularies of the two repositories before any material moves across (reports 2, 3 and 7 depend on it). Sources: `GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Five-Level-Taxonomy-Phase-A-Canonical-Inventory-v1.0-Draft.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/Original-Human-Consciousness Research Report.md`; `GAIA-Documentation/GAIA-Integrity-Courts-Audit-Completeness-Genealogy-v1.0-Draft.md`; the Foundation's `Research/README.md` §2 and §9.3 and this queue's §B and §C. Runs Baseline → x12.
+- [x] ✅ **N-A. Level-Name Crosswalk: GAIA-Documentation and the Foundation** — Baseline–x12 in `Research/Tracks/Cross-Repository/N-A-Level-Name-Crosswalk/` (`CROSSWALK.md`), PR #32 (x12 @ `58044d58`), merged 2026-10-25; the 28 options are open for the owner, so the conflicts below stay open. Gate INDETERMINATE (internal checks only; no independent review). Original scope: maps the level, phase and dimension vocabularies of the two repositories before any material moves across (reports 2, 3 and 7 depend on it). Sources: `GAIA-Documentation/GAIA-Five-Level-Knowledge-Skills-and-Intelligence-Taxonomy-Research-Matrix-v1.0-Draft.md`; `GAIA-Documentation/GAIA-Five-Level-Taxonomy-Phase-A-Canonical-Inventory-v1.0-Draft.md`; `GAIA-Documentation/SYNERGY-RESEARCH-REPORT-v3.0-CHAPTER-28-EDITORIAL-SYNTHESIS.md`; `GAIA-Documentation/Original-Human-Consciousness Research Report.md`; `GAIA-Documentation/GAIA-Integrity-Courts-Audit-Completeness-Genealogy-v1.0-Draft.md`; the Foundation's `Research/README.md` §2 and §9.3 and this queue's §B and §C. Runs Baseline → x12.
 - [ ] ⬜ **N-B. Cross-Repository Authority and Repository Map** (folded into **PC-8**): which repository is the canonical home of what, across the Foundation, the Official GAIA Encyclopedia and GAIA-Documentation, with no duplicate canonical identities. Sources: `GAIA-Documentation/GAIA-Documentation-Control-Standard.md`; `GAIA-Documentation/GAIA-Audit-and-Self-Correction-Plan-v1.0-Foundational-Draft.md`; `GAIA-Documentation/GAIA-Universal-Audit-Framework-2026-10-14.md`; `GAIA-Documentation/ADR-001-Repository-Boundaries.md`; `GAIA-Documentation/GAIA-Repository-Boundary-Decisions.md`; `GAIA-Documentation/GAIA-Knowledge-Skills-Repository-Boundary-Crosswalk-v1.0-Draft.md`; `README.md` and `Tablets/INDEX.md` (repository root). Runs Baseline → x12.
 
 ### Conflicts recorded for the crosswalk and the map to resolve (not decisions)
@@ -330,6 +331,7 @@ The roughly 70 engineering and implementation documents in GAIA-Documentation (t
 
 ## Change log
 
+- 2026-10-25: Reconciled with `main` @ `5fbf71a3` after PRs #30–#33 merged: ticked PC-4 (#30), PC-1 (#31), N-A (#32) and The Connection (#33), each still gate INDETERMINATE; added a §A line; recorded the 2026-10-25 branch-protection check (not active); noted the merge on b7, c5, b10 and the §B Soul–Spirit–Subconscious–Consciousness line. Owner decisions from these reports stay open. No items were deleted.
 - 2026-10-25: Six phases and synthesis complete (merged as PRs #24–#27, `main` @ `10b4d82a`): ticked Convergence, Ascendence, Transcendence and the six-phase synthesis in §A and §B (status table and checkboxes) with PR numbers and x12 SHAs. Closed gaps b3 (Phases `PLAN.md` amendment v3; v2 frozen as `PLAN_v2_six_phases.md`), b4 (Phases `README.md` statuses) and b10 (root `README.md`). Added the synthesis's carried issues to §L as items awaiting the owner. No items were deleted.
 - 2026-10-25: Added §N GAIA-Documentation reports (owner-approved): the eight triage reports in the owner's order (1 Sentience and Consciousness … 8 Archetypes, Traits and the Schools of Magic, lowest priority), N-A Level-Name Crosswalk and N-B Cross-Repository Authority and Repository Map (folded into PC-8, which now names GAIA-Documentation). Recorded six conflicts as open questions for N-A and N-B, not decisions. About 70 engineering documents stay held until the coding go-ahead. No items were deleted.
 - 2026-10-24: Added §M Totality gap check (report `GAP_CHECK_2026-10-24_TOTALITY.md`, `main` @ af3d119): 3 owner-only settings, 22 gaps (with 9 duplicate clusters under b7), 13 recommendations and 11 candidate subject reports awaiting owner approval, and 7 low-priority fields. Corrected 5 stale or inconsistent lines: Convergence status (§B table and checkbox), §A completeness, §C cycle-vs-level note and Base box, Wave 0 as an owner decision, and the §L audit note (licence and private-repository premise; Audit v3). No items were deleted.
