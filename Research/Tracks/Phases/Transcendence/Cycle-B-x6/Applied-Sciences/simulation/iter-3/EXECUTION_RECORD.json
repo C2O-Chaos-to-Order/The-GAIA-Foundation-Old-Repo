@@ -1,0 +1,128 @@
+{
+ "sim_id": "SIM-TR-APP-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:15.509572+00:00",
+ "finished_utc": "2026-10-25T00:59:15.933158+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "2489fcd717bb2df6624fb15dc5ea1773f216fcb94dc483ab49cd6d83eeef946f",
+ "params_sha256": "4da928345edbbd70319bdef220f6c32d502e031976a80c543e194a114355b7b2",
+ "results_sha256": "9b289afb24176489fec792b69d445cc502230d0a4a718a7181d493318605db70",
+ "results": {
+  "items": {
+   "scvi_ua": {
+    "value": 0.266667,
+    "printed": null,
+    "diff": null
+   },
+   "scvi_ave": {
+    "value": 0.922193,
+    "printed": 0.92,
+    "diff": 0.002193
+   },
+   "min_icvi": {
+    "value": 0.8333,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P100's universal-agreement S-CVI (share of items all experts rate relevant) is below 0.80, unlike its S-CVI/Ave 0.92 (P100 reports only the average)",
+   "observed": {
+    "items": {
+     "scvi_ua": {
+      "value": 0.266667,
+      "printed": null,
+      "diff": null
+     },
+     "scvi_ave": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "min_icvi": {
+      "value": 0.8333,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "every printed I-CVI is at least 0.78 (Polit et al.'s item threshold)",
+   "observed": {
+    "items": {
+     "scvi_ua": {
+      "value": 0.266667,
+      "printed": null,
+      "diff": null
+     },
+     "scvi_ave": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "min_icvi": {
+      "value": 0.8333,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "scvi_ua": {
+      "value": 0.266667,
+      "printed": null,
+      "diff": null
+     },
+     "scvi_ave": {
+      "value": 0.922193,
+      "printed": 0.92,
+      "diff": 0.002193
+     },
+     "min_icvi": {
+      "value": 0.8333,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

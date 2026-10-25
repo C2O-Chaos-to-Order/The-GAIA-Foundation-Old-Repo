@@ -1,0 +1,657 @@
+{
+ "maps_version": "v38-cycles-0-4-mr-track-abcd-phase-dv0abcd-in0abcd-al0abcd-cv0abcd-as0abcd-tr0abcd",
+ "phase_x_field": [
+  {
+   "phase": "Divergence",
+   "field": "Natural-Sciences",
+   "n_claims": "23",
+   "E": "8",
+   "P": "14",
+   "PS": "0",
+   "H": "1",
+   "flag": "populated"
+  },
+  {
+   "phase": "Divergence",
+   "field": "Formal-Sciences",
+   "n_claims": "20",
+   "E": "6",
+   "P": "13",
+   "PS": "0",
+   "H": "1",
+   "flag": "populated"
+  },
+  {
+   "phase": "Divergence",
+   "field": "Social-Sciences",
+   "n_claims": "20",
+   "E": "5",
+   "P": "15",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Divergence",
+   "field": "Applied-Sciences",
+   "n_claims": "22",
+   "E": "4",
+   "P": "17",
+   "PS": "0",
+   "H": "1",
+   "flag": "populated"
+  },
+  {
+   "phase": "Divergence",
+   "field": "Humanities",
+   "n_claims": "20",
+   "E": "6",
+   "P": "14",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Divergence",
+   "field": "Philosophy-Spirituality",
+   "n_claims": "27",
+   "E": "11",
+   "P": "11",
+   "PS": "4",
+   "H": "1",
+   "flag": "populated"
+  },
+  {
+   "phase": "Insurgence",
+   "field": "Natural-Sciences",
+   "n_claims": "14",
+   "E": "3",
+   "P": "11",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Insurgence",
+   "field": "Formal-Sciences",
+   "n_claims": "14",
+   "E": "3",
+   "P": "11",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Insurgence",
+   "field": "Social-Sciences",
+   "n_claims": "19",
+   "E": "1",
+   "P": "17",
+   "PS": "0",
+   "H": "1",
+   "flag": "populated"
+  },
+  {
+   "phase": "Insurgence",
+   "field": "Applied-Sciences",
+   "n_claims": "15",
+   "E": "3",
+   "P": "12",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Insurgence",
+   "field": "Humanities",
+   "n_claims": "13",
+   "E": "1",
+   "P": "10",
+   "PS": "1",
+   "H": "1",
+   "flag": "populated"
+  },
+  {
+   "phase": "Insurgence",
+   "field": "Philosophy-Spirituality",
+   "n_claims": "14",
+   "E": "0",
+   "P": "10",
+   "PS": "4",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Allegiance",
+   "field": "Natural-Sciences",
+   "n_claims": "19",
+   "E": "2",
+   "P": "17",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Allegiance",
+   "field": "Formal-Sciences",
+   "n_claims": "12",
+   "E": "4",
+   "P": "8",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Allegiance",
+   "field": "Social-Sciences",
+   "n_claims": "16",
+   "E": "0",
+   "P": "11",
+   "PS": "0",
+   "H": "5",
+   "flag": "populated"
+  },
+  {
+   "phase": "Allegiance",
+   "field": "Applied-Sciences",
+   "n_claims": "14",
+   "E": "1",
+   "P": "13",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Allegiance",
+   "field": "Humanities",
+   "n_claims": "13",
+   "E": "0",
+   "P": "11",
+   "PS": "0",
+   "H": "2",
+   "flag": "populated"
+  },
+  {
+   "phase": "Allegiance",
+   "field": "Philosophy-Spirituality",
+   "n_claims": "14",
+   "E": "0",
+   "P": "0",
+   "PS": "4",
+   "H": "10",
+   "flag": "UNDER-RESEARCHED (no E/P claim)"
+  },
+  {
+   "phase": "Convergence",
+   "field": "Natural-Sciences",
+   "n_claims": "16",
+   "E": "7",
+   "P": "9",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Convergence",
+   "field": "Formal-Sciences",
+   "n_claims": "15",
+   "E": "15",
+   "P": "0",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Convergence",
+   "field": "Social-Sciences",
+   "n_claims": "12",
+   "E": "3",
+   "P": "9",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Convergence",
+   "field": "Applied-Sciences",
+   "n_claims": "11",
+   "E": "10",
+   "P": "1",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Convergence",
+   "field": "Humanities",
+   "n_claims": "11",
+   "E": "2",
+   "P": "2",
+   "PS": "0",
+   "H": "7",
+   "flag": "populated"
+  },
+  {
+   "phase": "Convergence",
+   "field": "Philosophy-Spirituality",
+   "n_claims": "15",
+   "E": "2",
+   "P": "3",
+   "PS": "3",
+   "H": "7",
+   "flag": "populated"
+  },
+  {
+   "phase": "Ascendence",
+   "field": "Natural-Sciences",
+   "n_claims": "11",
+   "E": "0",
+   "P": "11",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Ascendence",
+   "field": "Formal-Sciences",
+   "n_claims": "10",
+   "E": "10",
+   "P": "0",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Ascendence",
+   "field": "Social-Sciences",
+   "n_claims": "10",
+   "E": "2",
+   "P": "8",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Ascendence",
+   "field": "Applied-Sciences",
+   "n_claims": "11",
+   "E": "5",
+   "P": "6",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Ascendence",
+   "field": "Humanities",
+   "n_claims": "9",
+   "E": "2",
+   "P": "2",
+   "PS": "0",
+   "H": "5",
+   "flag": "populated"
+  },
+  {
+   "phase": "Ascendence",
+   "field": "Philosophy-Spirituality",
+   "n_claims": "9",
+   "E": "0",
+   "P": "0",
+   "PS": "1",
+   "H": "8",
+   "flag": "UNDER-RESEARCHED (no E/P claim)"
+  },
+  {
+   "phase": "Transcendence",
+   "field": "Natural-Sciences",
+   "n_claims": "12",
+   "E": "0",
+   "P": "12",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Transcendence",
+   "field": "Formal-Sciences",
+   "n_claims": "9",
+   "E": "8",
+   "P": "1",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Transcendence",
+   "field": "Social-Sciences",
+   "n_claims": "10",
+   "E": "8",
+   "P": "2",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Transcendence",
+   "field": "Applied-Sciences",
+   "n_claims": "12",
+   "E": "9",
+   "P": "3",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Transcendence",
+   "field": "Humanities",
+   "n_claims": "11",
+   "E": "9",
+   "P": "2",
+   "PS": "0",
+   "H": "0",
+   "flag": "populated"
+  },
+  {
+   "phase": "Transcendence",
+   "field": "Philosophy-Spirituality",
+   "n_claims": "9",
+   "E": "0",
+   "P": "2",
+   "PS": "2",
+   "H": "5",
+   "flag": "populated"
+  }
+ ],
+ "phase_x_lens": [
+  {
+   "phase": "Divergence",
+   "lens": "Truth",
+   "n_claims": "62",
+   "E": "9",
+   "P": "51",
+   "PS": "1",
+   "H": "1"
+  },
+  {
+   "phase": "Divergence",
+   "lens": "Integrity",
+   "n_claims": "9",
+   "E": "6",
+   "P": "2",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Divergence",
+   "lens": "Love",
+   "n_claims": "5",
+   "E": "3",
+   "P": "1",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Divergence",
+   "lens": "Justice",
+   "n_claims": "6",
+   "E": "3",
+   "P": "3",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Divergence",
+   "lens": "Wisdom",
+   "n_claims": "10",
+   "E": "4",
+   "P": "6",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Insurgence",
+   "lens": "Truth",
+   "n_claims": "35",
+   "E": "2",
+   "P": "32",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Insurgence",
+   "lens": "Integrity",
+   "n_claims": "7",
+   "E": "1",
+   "P": "4",
+   "PS": "2",
+   "H": "0"
+  },
+  {
+   "phase": "Insurgence",
+   "lens": "Love",
+   "n_claims": "2",
+   "E": "0",
+   "P": "1",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Insurgence",
+   "lens": "Justice",
+   "n_claims": "0",
+   "E": "0",
+   "P": "0",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Insurgence",
+   "lens": "Wisdom",
+   "n_claims": "1",
+   "E": "0",
+   "P": "0",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Allegiance",
+   "lens": "Truth",
+   "n_claims": "30",
+   "E": "2",
+   "P": "26",
+   "PS": "1",
+   "H": "1"
+  },
+  {
+   "phase": "Allegiance",
+   "lens": "Integrity",
+   "n_claims": "8",
+   "E": "1",
+   "P": "6",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Allegiance",
+   "lens": "Love",
+   "n_claims": "16",
+   "E": "3",
+   "P": "9",
+   "PS": "3",
+   "H": "1"
+  },
+  {
+   "phase": "Allegiance",
+   "lens": "Justice",
+   "n_claims": "0",
+   "E": "0",
+   "P": "0",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Allegiance",
+   "lens": "Wisdom",
+   "n_claims": "1",
+   "E": "0",
+   "P": "1",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Convergence",
+   "lens": "Truth",
+   "n_claims": "48",
+   "E": "18",
+   "P": "16",
+   "PS": "3",
+   "H": "11"
+  },
+  {
+   "phase": "Convergence",
+   "lens": "Integrity",
+   "n_claims": "15",
+   "E": "9",
+   "P": "5",
+   "PS": "0",
+   "H": "1"
+  },
+  {
+   "phase": "Convergence",
+   "lens": "Love",
+   "n_claims": "5",
+   "E": "2",
+   "P": "1",
+   "PS": "0",
+   "H": "2"
+  },
+  {
+   "phase": "Convergence",
+   "lens": "Justice",
+   "n_claims": "0",
+   "E": "0",
+   "P": "0",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Convergence",
+   "lens": "Wisdom",
+   "n_claims": "2",
+   "E": "0",
+   "P": "0",
+   "PS": "2",
+   "H": "0"
+  },
+  {
+   "phase": "Ascendence",
+   "lens": "Truth",
+   "n_claims": "15",
+   "E": "7",
+   "P": "7",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Ascendence",
+   "lens": "Integrity",
+   "n_claims": "12",
+   "E": "7",
+   "P": "4",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Ascendence",
+   "lens": "Love",
+   "n_claims": "6",
+   "E": "1",
+   "P": "2",
+   "PS": "1",
+   "H": "2"
+  },
+  {
+   "phase": "Ascendence",
+   "lens": "Justice",
+   "n_claims": "0",
+   "E": "0",
+   "P": "0",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Ascendence",
+   "lens": "Wisdom",
+   "n_claims": "3",
+   "E": "0",
+   "P": "3",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Transcendence",
+   "lens": "Truth",
+   "n_claims": "28",
+   "E": "19",
+   "P": "8",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Transcendence",
+   "lens": "Integrity",
+   "n_claims": "15",
+   "E": "7",
+   "P": "7",
+   "PS": "1",
+   "H": "0"
+  },
+  {
+   "phase": "Transcendence",
+   "lens": "Love",
+   "n_claims": "4",
+   "E": "2",
+   "P": "2",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Transcendence",
+   "lens": "Justice",
+   "n_claims": "0",
+   "E": "0",
+   "P": "0",
+   "PS": "0",
+   "H": "0"
+  },
+  {
+   "phase": "Transcendence",
+   "lens": "Wisdom",
+   "n_claims": "7",
+   "E": "3",
+   "P": "4",
+   "PS": "0",
+   "H": "0"
+  }
+ ],
+ "phase_claims_placed": 512,
+ "phase_claims_on_being_axis": 2,
+ "phase_claims_being_ids": [
+  "CVD-PHI-06 Spirit",
+  "CVD-PHI-09 Consciousness"
+ ],
+ "phase_claims_alchemy_assigned": 0,
+ "intersections_625": 625,
+ "intersections_flags": {
+  "UNPLACED": 550,
+  "UNDER-RESEARCHED": 50,
+  "EMPTY": 25
+ },
+ "intersections_claims_placed_exactly": 0,
+ "intersections_phase_claims_nonzero": 10,
+ "transcendence_overlay_cells": 125,
+ "transcendence_overlay_status": [
+  "pending owner-approved re-dimension 625 -> 750; not part of the canonical matrix"
+ ],
+ "transcendence_overlay_nonzero": 0
+}

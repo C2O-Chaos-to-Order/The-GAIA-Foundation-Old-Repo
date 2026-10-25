@@ -1,0 +1,260 @@
+{
+ "sim_id": "SIM-CV-FOR-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:40.284431+00:00",
+ "finished_utc": "2026-10-24T20:44:40.320690+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "ebb6532514114ca2aad64b4127297554ef9b4c8cc6f09052972fd2c113ca3402",
+ "params_sha256": "89c12a3956348dfd0115c1bdde171e3fc2471e47b1ed39522fd3f243a516bbe9",
+ "results_sha256": "7ad12bfd6c41fe1eccbda2ec90aa27be93030a51566d2478c0847a8c0e6dc3d2",
+ "results": {
+  "chains": {
+   "cycle8": {
+    "n": 8,
+    "tmix": {
+     "0.25": 6,
+     "0.125": 10,
+     "0.0625": 15,
+     "0.01": 26
+    },
+    "lambda2": 0.85355339,
+    "t_rel": 6.8284,
+    "d_at": {}
+   },
+   "cycle16": {
+    "n": 16,
+    "tmix": {
+     "0.25": 25,
+     "0.125": 42,
+     "0.0625": 60,
+     "0.01": 107
+    },
+    "lambda2": 0.96193977,
+    "t_rel": 26.2741,
+    "d_at": {}
+   },
+   "cycle32": {
+    "n": 32,
+    "tmix": {
+     "0.25": 98,
+     "0.125": 169,
+     "0.0625": 241,
+     "0.01": 430
+    },
+    "lambda2": 0.99039264,
+    "t_rel": 104.0869,
+    "d_at": {}
+   },
+   "cycle64": {
+    "n": 64,
+    "tmix": {
+     "0.25": 389,
+     "0.125": 676,
+     "0.0625": 963,
+     "0.01": 1723
+    },
+    "lambda2": 0.99759236,
+    "t_rel": 415.3451,
+    "d_at": {}
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "lazy cycle walk: t_mix(1/4) grows like n^2 (ratio per doubling in [3, 5])",
+   "observed": {
+    "chains": {
+     "cycle8": {
+      "n": 8,
+      "tmix": {
+       "0.25": 6,
+       "0.125": 10,
+       "0.0625": 15,
+       "0.01": 26
+      },
+      "lambda2": 0.85355339,
+      "t_rel": 6.8284,
+      "d_at": {}
+     },
+     "cycle16": {
+      "n": 16,
+      "tmix": {
+       "0.25": 25,
+       "0.125": 42,
+       "0.0625": 60,
+       "0.01": 107
+      },
+      "lambda2": 0.96193977,
+      "t_rel": 26.2741,
+      "d_at": {}
+     },
+     "cycle32": {
+      "n": 32,
+      "tmix": {
+       "0.25": 98,
+       "0.125": 169,
+       "0.0625": 241,
+       "0.01": 430
+      },
+      "lambda2": 0.99039264,
+      "t_rel": 104.0869,
+      "d_at": {}
+     },
+     "cycle64": {
+      "n": 64,
+      "tmix": {
+       "0.25": 389,
+       "0.125": 676,
+       "0.0625": 963,
+       "0.01": 1723
+      },
+      "lambda2": 0.99759236,
+      "t_rel": 415.3451,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "P78's 'constant factor': t_mix(eps) <= ceil(log2(1/eps)) t_mix(1/4) for every chain and eps",
+   "observed": {
+    "chains": {
+     "cycle8": {
+      "n": 8,
+      "tmix": {
+       "0.25": 6,
+       "0.125": 10,
+       "0.0625": 15,
+       "0.01": 26
+      },
+      "lambda2": 0.85355339,
+      "t_rel": 6.8284,
+      "d_at": {}
+     },
+     "cycle16": {
+      "n": 16,
+      "tmix": {
+       "0.25": 25,
+       "0.125": 42,
+       "0.0625": 60,
+       "0.01": 107
+      },
+      "lambda2": 0.96193977,
+      "t_rel": 26.2741,
+      "d_at": {}
+     },
+     "cycle32": {
+      "n": 32,
+      "tmix": {
+       "0.25": 98,
+       "0.125": 169,
+       "0.0625": 241,
+       "0.01": 430
+      },
+      "lambda2": 0.99039264,
+      "t_rel": 104.0869,
+      "d_at": {}
+     },
+     "cycle64": {
+      "n": 64,
+      "tmix": {
+       "0.25": 389,
+       "0.125": 676,
+       "0.0625": 963,
+       "0.01": 1723
+      },
+      "lambda2": 0.99759236,
+      "t_rel": 415.3451,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "cycle8": {
+      "n": 8,
+      "tmix": {
+       "0.25": 6,
+       "0.125": 10,
+       "0.0625": 15,
+       "0.01": 26
+      },
+      "lambda2": 0.85355339,
+      "t_rel": 6.8284,
+      "d_at": {}
+     },
+     "cycle16": {
+      "n": 16,
+      "tmix": {
+       "0.25": 25,
+       "0.125": 42,
+       "0.0625": 60,
+       "0.01": 107
+      },
+      "lambda2": 0.96193977,
+      "t_rel": 26.2741,
+      "d_at": {}
+     },
+     "cycle32": {
+      "n": 32,
+      "tmix": {
+       "0.25": 98,
+       "0.125": 169,
+       "0.0625": 241,
+       "0.01": 430
+      },
+      "lambda2": 0.99039264,
+      "t_rel": 104.0869,
+      "d_at": {}
+     },
+     "cycle64": {
+      "n": 64,
+      "tmix": {
+       "0.25": 389,
+       "0.125": 676,
+       "0.0625": 963,
+       "0.01": 1723
+      },
+      "lambda2": 0.99759236,
+      "t_rel": 415.3451,
+      "d_at": {}
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

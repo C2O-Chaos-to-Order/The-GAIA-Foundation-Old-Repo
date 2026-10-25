@@ -1,0 +1,225 @@
+{
+ "sim_id": "SIM-AS-PHI-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:54:12.681007+00:00",
+ "finished_utc": "2026-10-24T22:54:32.373475+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "38ffd3672aa1f8a42e6b99508bee941baaf35ccec948f7dbff8626eb781c11aa",
+ "params_sha256": "349b9b97b7ddbc7397da8f768ec7b301b034c8752973c4f1793b8078a781aeb9",
+ "results_sha256": "fd0b67d19ba0bf055fa0e49ba306dab54a15734b23f4ca52ebb74fdc8503bbe2",
+ "results": {
+  "by_q": {
+   "1.0": {
+    "frac_top": 1.0,
+    "mean_steps": 30.241,
+    "se": 0.14,
+    "analytic_mean": 30.417
+   },
+   "0.5": {
+    "frac_top": 1.0,
+    "mean_steps": 60.471,
+    "se": 0.288,
+    "analytic_mean": 60.833
+   },
+   "0.0": {
+    "frac_top": 0.0,
+    "mean_steps": null,
+    "se": null,
+    "analytic_mean": null
+   }
+  },
+  "first_beloved_weight": {
+   "kick": 0.0,
+   "inclusive": 0.01
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "for the first q the simulated mean number of encounters to the top is within 4 SE of the analytic sum 1/(q(1 - c_k))",
+   "observed": {
+    "frac_top": 1.0,
+    "mean_steps": 30.241,
+    "se": 0.14,
+    "analytic_mean": 30.417
+   },
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "q = 0 (inconsistency met but no rational desire to resolve it; an Alcibiades-like case in the toy): nobody reaches the top",
+   "observed": {
+    "by_q": {
+     "1.0": {
+      "frac_top": 1.0,
+      "mean_steps": 30.241,
+      "se": 0.14,
+      "analytic_mean": 30.417
+     },
+     "0.5": {
+      "frac_top": 1.0,
+      "mean_steps": 60.471,
+      "se": 0.288,
+      "analytic_mean": 60.833
+     },
+     "0.0": {
+      "frac_top": 0.0,
+      "mean_steps": null,
+      "se": null,
+      "analytic_mean": null
+     }
+    },
+    "first_beloved_weight": {
+     "kick": 0.0,
+     "inclusive": 0.01
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "q = 1: everyone reaches the top within 2000 encounters",
+   "observed": {
+    "by_q": {
+     "1.0": {
+      "frac_top": 1.0,
+      "mean_steps": 30.241,
+      "se": 0.14,
+      "analytic_mean": 30.417
+     },
+     "0.5": {
+      "frac_top": 1.0,
+      "mean_steps": 60.471,
+      "se": 0.288,
+      "analytic_mean": 60.833
+     },
+     "0.0": {
+      "frac_top": 0.0,
+      "mean_steps": null,
+      "se": null,
+      "analytic_mean": null
+     }
+    },
+    "first_beloved_weight": {
+     "kick": 0.0,
+     "inclusive": 0.01
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "halving q roughly doubles the encounters needed (ratio of means between 1.9 and 2.1)",
+   "observed": {
+    "by_q": {
+     "1.0": {
+      "frac_top": 1.0,
+      "mean_steps": 30.241,
+      "se": 0.14,
+      "analytic_mean": 30.417
+     },
+     "0.5": {
+      "frac_top": 1.0,
+      "mean_steps": 60.471,
+      "se": 0.288,
+      "analytic_mean": 60.833
+     },
+     "0.0": {
+      "frac_top": 0.0,
+      "mean_steps": null,
+      "se": null,
+      "analytic_mean": null
+     }
+    },
+    "first_beloved_weight": {
+     "kick": 0.0,
+     "inclusive": 0.01
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "the encounters needed are dominated by the last non-top rung (c 0.95): its analytic share 1/(1 - 0.95) of the q = 1 analytic mean exceeds 0.5",
+   "observed": {
+    "by_q": {
+     "1.0": {
+      "frac_top": 1.0,
+      "mean_steps": 30.241,
+      "se": 0.14,
+      "analytic_mean": 30.417
+     },
+     "0.5": {
+      "frac_top": 1.0,
+      "mean_steps": 60.471,
+      "se": 0.288,
+      "analytic_mean": 60.833
+     },
+     "0.0": {
+      "frac_top": 0.0,
+      "mean_steps": null,
+      "se": null,
+      "analytic_mean": null
+     }
+    },
+    "first_beloved_weight": {
+     "kick": 0.0,
+     "inclusive": 0.01
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_q": {
+     "1.0": {
+      "frac_top": 1.0,
+      "mean_steps": 30.241,
+      "se": 0.14,
+      "analytic_mean": 30.417
+     },
+     "0.5": {
+      "frac_top": 1.0,
+      "mean_steps": 60.471,
+      "se": 0.288,
+      "analytic_mean": 60.833
+     },
+     "0.0": {
+      "frac_top": 0.0,
+      "mean_steps": null,
+      "se": null,
+      "analytic_mean": null
+     }
+    },
+    "first_beloved_weight": {
+     "kick": 0.0,
+     "inclusive": 0.01
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

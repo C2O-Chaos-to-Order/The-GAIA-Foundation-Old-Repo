@@ -1,0 +1,217 @@
+{
+ "sim_id": "SIM-TR-FOR-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:08.178680+00:00",
+ "finished_utc": "2026-10-25T01:30:09.053903+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-10  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "c67584dfbb5598e64e1d4b20525313fde7a09972b0466993d86798cfe22a982e",
+ "params_sha256": "166a669c9bb47afb8c98ebfad814bdbd5dff3bd4c75d56eefef33cb53a6d49bd",
+ "results_sha256": "cfe77c306fe1851f2dab47a9041f37215490de37b7a4dd13960246d402ae74c9",
+ "results": {
+  "by_number": {
+   "sqrt2": {
+    "max_ratio": 3.0,
+    "max_excess": 7,
+    "argmax_excess": 314,
+    "head": [
+     3,
+     4,
+     5,
+     5,
+     6,
+     9,
+     9,
+     9,
+     13,
+     13
+    ]
+   },
+   "e": {
+    "max_ratio": 3.0,
+    "max_excess": 6,
+    "argmax_excess": 41,
+    "head": [
+     3,
+     3,
+     4,
+     6,
+     6,
+     7,
+     9,
+     9,
+     12,
+     12
+    ]
+   },
+   "pi": {
+    "max_ratio": 2.0,
+    "max_excess": 6,
+    "argmax_excess": 30,
+    "head": [
+     2,
+     4,
+     5,
+     5,
+     6,
+     8,
+     8,
+     13,
+     13,
+     13
+    ]
+   }
+  },
+  "base": 3,
+  "digits": 400
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Machin's formula in integer arithmetic gives pi = 3.14159265358979...",
+   "observed": "314159265358979",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "base 3, 400 digits: d_n <= n + 9",
+   "observed": {
+    "by_number": {
+     "sqrt2": {
+      "max_ratio": 3.0,
+      "max_excess": 7,
+      "argmax_excess": 314,
+      "head": [
+       3,
+       4,
+       5,
+       5,
+       6,
+       9,
+       9,
+       9,
+       13,
+       13
+      ]
+     },
+     "e": {
+      "max_ratio": 3.0,
+      "max_excess": 6,
+      "argmax_excess": 41,
+      "head": [
+       3,
+       3,
+       4,
+       6,
+       6,
+       7,
+       9,
+       9,
+       12,
+       12
+      ]
+     },
+     "pi": {
+      "max_ratio": 2.0,
+      "max_excess": 6,
+      "argmax_excess": 30,
+      "head": [
+       2,
+       4,
+       5,
+       5,
+       6,
+       8,
+       8,
+       13,
+       13,
+       13
+      ]
+     }
+    },
+    "base": 3,
+    "digits": 400
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_number": {
+     "sqrt2": {
+      "max_ratio": 3.0,
+      "max_excess": 7,
+      "argmax_excess": 314,
+      "head": [
+       3,
+       4,
+       5,
+       5,
+       6,
+       9,
+       9,
+       9,
+       13,
+       13
+      ]
+     },
+     "e": {
+      "max_ratio": 3.0,
+      "max_excess": 6,
+      "argmax_excess": 41,
+      "head": [
+       3,
+       3,
+       4,
+       6,
+       6,
+       7,
+       9,
+       9,
+       12,
+       12
+      ]
+     },
+     "pi": {
+      "max_ratio": 2.0,
+      "max_excess": 6,
+      "argmax_excess": 30,
+      "head": [
+       2,
+       4,
+       5,
+       5,
+       6,
+       8,
+       8,
+       13,
+       13,
+       13
+      ]
+     }
+    },
+    "base": 3,
+    "digits": 400
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

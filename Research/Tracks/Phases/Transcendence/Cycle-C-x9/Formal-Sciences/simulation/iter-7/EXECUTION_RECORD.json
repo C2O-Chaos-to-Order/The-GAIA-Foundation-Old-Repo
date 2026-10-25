@@ -1,0 +1,166 @@
+{
+ "sim_id": "SIM-TR-FOR-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:31.640433+00:00",
+ "finished_utc": "2026-10-25T01:20:32.334432+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-7  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "e7d28e0bf84b4e7d92cdf4475fdf1fad273e9912b3a4d635b042f50f41fa5665",
+ "params_sha256": "4b576700f84687d195ae109eee69998be0a0f7fcdfcb217bdd12a8ff9b09dfc5",
+ "results_sha256": "c8ef2e414f1d6110756501806f4d0ca9edc7e1230bb08d7aa5717b223d431d0f",
+ "results": {
+  "by_number": {
+   "liouville": {
+    "max_ratio": 2.0,
+    "max_excess": 5,
+    "argmax_excess": 245,
+    "head": [
+     2,
+     3,
+     4,
+     6,
+     6,
+     7,
+     8,
+     10,
+     11,
+     12
+    ]
+   },
+   "prop3": {
+    "max_ratio": 3.0,
+    "max_excess": 4,
+    "argmax_excess": 275,
+    "head": [
+     3,
+     3,
+     5,
+     5,
+     7,
+     7,
+     10,
+     10,
+     10,
+     11
+    ]
+   }
+  },
+  "base": 7,
+  "digits": 400
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Machin's formula in integer arithmetic gives pi = 3.14159265358979...",
+   "observed": "314159265358979",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "base 7, 400 digits: both Liouville-type numbers reach d_n/n >= 5",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 2.0,
+      "max_excess": 5,
+      "argmax_excess": 245,
+      "head": [
+       2,
+       3,
+       4,
+       6,
+       6,
+       7,
+       8,
+       10,
+       11,
+       12
+      ]
+     },
+     "prop3": {
+      "max_ratio": 3.0,
+      "max_excess": 4,
+      "argmax_excess": 275,
+      "head": [
+       3,
+       3,
+       5,
+       5,
+       7,
+       7,
+       10,
+       10,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 7,
+    "digits": 400
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_number": {
+     "liouville": {
+      "max_ratio": 2.0,
+      "max_excess": 5,
+      "argmax_excess": 245,
+      "head": [
+       2,
+       3,
+       4,
+       6,
+       6,
+       7,
+       8,
+       10,
+       11,
+       12
+      ]
+     },
+     "prop3": {
+      "max_ratio": 3.0,
+      "max_excess": 4,
+      "argmax_excess": 275,
+      "head": [
+       3,
+       3,
+       5,
+       5,
+       7,
+       7,
+       10,
+       10,
+       10,
+       11
+      ]
+     }
+    },
+    "base": 7,
+    "digits": 400
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

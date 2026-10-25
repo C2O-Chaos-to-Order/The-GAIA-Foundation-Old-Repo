@@ -1,0 +1,97 @@
+{
+ "sim_id": "SIM-CV-PHI-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:14:06.616109+00:00",
+ "finished_utc": "2026-10-24T21:14:06.620744+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-7  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "3b110fc27bd4824f3b33bf74b38216d6dc4c10a4f5c3cf81d1d5baabf9539cba",
+ "params_sha256": "98009087aa3e55bd2d737e2e93c13b47fd3424863082f70363396dc27afd0096",
+ "results_sha256": "75c61a5f1d3552c025448866660b12b69325868797a03bbc8edf8e687346ee1d",
+ "results": {
+  "rounds": {
+   "0": {
+    "spread_rel": 0.069017,
+    "mean_err_rel": 0.001414
+   },
+   "100": {
+    "spread_rel": 0.000455,
+    "mean_err_rel": 3.9e-05
+   },
+   "200": {
+    "spread_rel": 2e-06,
+    "mean_err_rel": 0.0
+   }
+  },
+  "common_bias": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "noise-free spread at round 0 equals max(b) - min(b)",
+   "observed": 0.06,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "rho 0.95: spread at round 200 below 1% of initial",
+   "observed": {
+    "rounds": {
+     "0": {
+      "spread_rel": 0.069017,
+      "mean_err_rel": 0.001414
+     },
+     "100": {
+      "spread_rel": 0.000455,
+      "mean_err_rel": 3.9e-05
+     },
+     "200": {
+      "spread_rel": 2e-06,
+      "mean_err_rel": 0.0
+     }
+    },
+    "common_bias": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "rounds": {
+     "0": {
+      "spread_rel": 0.069017,
+      "mean_err_rel": 0.001414
+     },
+     "100": {
+      "spread_rel": 0.000455,
+      "mean_err_rel": 3.9e-05
+     },
+     "200": {
+      "spread_rel": 2e-06,
+      "mean_err_rel": 0.0
+     }
+    },
+    "common_bias": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

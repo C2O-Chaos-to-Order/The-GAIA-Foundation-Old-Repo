@@ -1,0 +1,6 @@
+phase,lens,n_claims,E,P,PS,H,claim_ids
+Transcendence,Truth,5,4,1,0,0,TR0-FOR-01;TR0-SOC-02;TR0-APP-01;TR0-APP-02;TR0-HUM-02
+Transcendence,Integrity,5,1,4,0,0,TR0-NAT-01;TR0-SOC-01;TR0-APP-01;TR0-HUM-01;TR0-HUM-02
+Transcendence,Love,1,0,1,0,0,TR0-SOC-01
+Transcendence,Justice,0,0,0,0,0,
+Transcendence,Wisdom,1,0,1,0,0,TR0-APP-01

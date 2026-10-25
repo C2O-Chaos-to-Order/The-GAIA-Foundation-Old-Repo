@@ -1,0 +1,4 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P76,yes,CVB,4782,9d6d617c757f8a513459253ccb6e48bb9cf6619a653dd7707826c9d2d6f0126d,Read end to end (all sections incl. Hamiltonian connection and variations; reference list read as a list; navigation skipped).
+P78,yes,CVB,909,6f591fada681701a34f44302f9a2a5078695978171476d354de96e37f528a014,Read end to end (909 words incl. references).
+P79,yes,CVB,5688,27eb7c5ace51357686e89deae1092880272414e81c1cfceb8cc5c9f5f3be04f3,"Read end to end (history, implementation, error analysis and proof, periodic/peak and rough functions, alternatives, algorithm, both worked examples; navigation boxes skipped)."

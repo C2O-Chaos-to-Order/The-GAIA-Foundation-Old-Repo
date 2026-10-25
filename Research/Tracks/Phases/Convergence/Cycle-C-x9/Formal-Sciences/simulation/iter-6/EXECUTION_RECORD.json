@@ -1,0 +1,279 @@
+{
+ "sim_id": "SIM-CV-FOR-C",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:34.631681+00:00",
+ "finished_utc": "2026-10-24T21:13:34.639558+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-6  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "2c2c0507f9ee1500293468ba6fde658faf506824aeb44077e33608ac1576ef8c",
+ "params_sha256": "f1e95b3d36e299b34dbd315b684e2e06bbc01e5d84e8f1c55c0533dfc0a363c4",
+ "results_sha256": "f64dff0d66f0809bfb9fc4c028d4cc0ce2328802aefc1e50d9ece42539e5a16d",
+ "results": {
+  "E": [
+   1.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "V": {
+   "10": [
+    0.490625,
+    0.00625,
+    0.00625,
+    0.00625,
+    0.490625
+   ],
+   "100": [
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ]
+  },
+  "lambda2": 1.0,
+  "err_n20": 0.50029297,
+  "ET_minus_E": 0.0,
+  "degroot": {
+   "x_end": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+   ],
+   "weighted_mean": 0.0,
+   "spread": 1.0
+  },
+  "alt": {
+   "V_alt": [
+    0.75,
+    0.0,
+    0.0,
+    0.0,
+    0.25
+   ],
+   "V_main": [
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+   ],
+   "max_diff": 0.25
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "E T = E within 1e-12, E sums to 1, rows of T sum to 1",
+   "observed": [
+    0.0,
+    1.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "gambler's-ruin chain with two absorbing ends: the limit depends on the start (max difference > 0.1)",
+   "observed": {
+    "E": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "V": {
+     "10": [
+      0.490625,
+      0.00625,
+      0.00625,
+      0.00625,
+      0.490625
+     ],
+     "100": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ]
+    },
+    "lambda2": 1.0,
+    "err_n20": 0.50029297,
+    "ET_minus_E": 0.0,
+    "degroot": {
+     "x_end": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+     ],
+     "weighted_mean": 0.0,
+     "spread": 1.0
+    },
+    "alt": {
+     "V_alt": [
+      0.75,
+      0.0,
+      0.0,
+      0.0,
+      0.25
+     ],
+     "V_main": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ],
+     "max_diff": 0.25
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "two stubborn agents at 0 and 1: no consensus (final spread > 0.5)",
+   "observed": {
+    "E": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "V": {
+     "10": [
+      0.490625,
+      0.00625,
+      0.00625,
+      0.00625,
+      0.490625
+     ],
+     "100": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ]
+    },
+    "lambda2": 1.0,
+    "err_n20": 0.50029297,
+    "ET_minus_E": 0.0,
+    "degroot": {
+     "x_end": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+     ],
+     "weighted_mean": 0.0,
+     "spread": 1.0
+    },
+    "alt": {
+     "V_alt": [
+      0.75,
+      0.0,
+      0.0,
+      0.0,
+      0.25
+     ],
+     "V_main": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ],
+     "max_diff": 0.25
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "E": [
+     1.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "V": {
+     "10": [
+      0.490625,
+      0.00625,
+      0.00625,
+      0.00625,
+      0.490625
+     ],
+     "100": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ]
+    },
+    "lambda2": 1.0,
+    "err_n20": 0.50029297,
+    "ET_minus_E": 0.0,
+    "degroot": {
+     "x_end": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+     ],
+     "weighted_mean": 0.0,
+     "spread": 1.0
+    },
+    "alt": {
+     "V_alt": [
+      0.75,
+      0.0,
+      0.0,
+      0.0,
+      0.25
+     ],
+     "V_main": [
+      0.5,
+      0.0,
+      0.0,
+      0.0,
+      0.5
+     ],
+     "max_diff": 0.25
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

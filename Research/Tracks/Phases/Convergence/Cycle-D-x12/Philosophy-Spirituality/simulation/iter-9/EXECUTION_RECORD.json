@@ -1,0 +1,58 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:21.003343+00:00",
+ "finished_utc": "2026-10-24T22:15:21.733829+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-9  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "c6e69e6e1c586aa0b35f027f1ee37e8a0636c46252a4efe3493217aaf77fd1d4",
+ "params_sha256": "6178677862c02a76dbdb86507e5766bd2e95f635c05b82459c951bb0c8cca5ee",
+ "results_sha256": "be3641c116b1d9cbb299910dad7cb29c3e9b00798644685ff49f9f5855a1826c",
+ "results": {
+  "frac_sig_instrument": 0.03,
+  "frac_sig_unmeasured": 0.06
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with no tradition differences on the measured dimensions the instrument's false-positive rate is within 0.03 of 0.05",
+   "observed": 0.03,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no differences anywhere: unmeasured dimensions significant in at most 10% of studies",
+   "observed": {
+    "frac_sig_instrument": 0.03,
+    "frac_sig_unmeasured": 0.06
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "frac_sig_instrument": 0.03,
+    "frac_sig_unmeasured": 0.06
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

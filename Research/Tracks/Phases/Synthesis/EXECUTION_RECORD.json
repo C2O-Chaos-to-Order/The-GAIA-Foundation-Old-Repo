@@ -1,0 +1,111 @@
+{
+ "sim_id": "SIM-PH-SYN",
+ "iteration": 1,
+ "status": "completed",
+ "layout": "Phases synthesis (aggregation, no randomness)",
+ "finished_utc": "2026-10-25T01:44:58Z",
+ "environment": {
+  "python": "3.13.5"
+ },
+ "command": "python3 tools/synth.py aggregate && render && check --base 3ae9bf57",
+ "inputs": {
+  "maps": "v38-cycles-0-4-mr-track-abcd-phase-dv0abcd-in0abcd-al0abcd-cv0abcd-as0abcd-tr0abcd",
+  "ledgers": 30,
+  "execution_records": 1116
+ },
+ "spec_sha256": "675aa24d6eaff9c1e1cb17d7022ea7eb3130a782b8061aecd4c92d790940a652",
+ "synthesis_sha256": "a09fd1b5aed6669357af59be14e54f9a97bdb8c6ade4e45e7970159fac0b9ca0",
+ "outputs_sha256": {
+  "SPEC.md": "675aa24d6eaff9c1e1cb17d7022ea7eb3130a782b8061aecd4c92d790940a652",
+  "tools/synth.py": "8f93e2593b4d0808f183f1efc5f6650e0a963fcf749ea01395d3006690791a93",
+  "tools/SYNTHESIS.template.md": "52329b5233ff1851e51d8d401a80a38aa66d0c32b16885f0d49117a1b630adda",
+  "data/arithmetic.json": "95ad0c833f53804c1c976f53fe86982d7db8aa86166ba66466c52257abfaea42",
+  "data/cycle_totals.csv": "65cc3db0c370fe1789a946f0d0ee0b9418b4f25e3372a9a3c89d1e070904a7db",
+  "data/field_footprint.csv": "64328958d5db4dcb383ebbd1a62ac8c504ba4c9748da9a740dc55ea47e680649",
+  "data/field_track.csv": "9d242353d27cbdec05a596a8e9c649764ab5f4305e2f6e1bc9afc4bf2826da78",
+  "data/matrix_v38.json": "2defcdc08044b95a7c9e0232d874b756e24e4a17a8c597fa5d86e73fcd70a039",
+  "data/phase_links.csv": "2ed7087e28f7d79fd46af964f4ef974714536b7d469e16586012ecde2c2cd912",
+  "data/registry_checks.json": "46dd960f9fa7ba5415b812016e9581cbf7808ac1470b0788469fd57b094fc2a4"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "statement": "x12 per-field label counts from ledgers equal Maps v38 phase x field (30 canonical + 6 Transcendence overlay rows)",
+   "value": "36/36",
+   "mismatches": [],
+   "result": "Pass"
+  },
+  {
+   "id": "V2",
+   "kind": "validation",
+   "statement": "1,116 EXECUTION_RECORD.json files, 186 per phase, each with status and pre_registered_checks",
+   "value": "1116 ({'DV': 186, 'IN': 186, 'AL': 186, 'CV': 186, 'AS': 186, 'TR': 186}), malformed 0",
+   "result": "Pass"
+  },
+  {
+   "id": "V3",
+   "kind": "validation",
+   "statement": "README section 10 arithmetic reproduces; 5^4 = 625; 5x5x6x5 = 750; later pattern is all zero",
+   "value": "M==printed True, 625 625, 750 750, later [0, 18, 90, 252, 0]",
+   "result": "Fail"
+  },
+  {
+   "id": "C1",
+   "kind": "validation",
+   "statement": "every claim ID in SYNTHESIS.md resolves in its cycle ledger and carries its ledger label",
+   "value": "56 of 56 mentions (51 distinct IDs)",
+   "errors": [],
+   "result": "Pass"
+  },
+  {
+   "id": "C2",
+   "kind": "validation",
+   "statement": "every link ID in SYNTHESIS.md resolves and carries its register label",
+   "value": "47 of 47 mentions (31 distinct IDs)",
+   "errors": [],
+   "result": "Pass"
+  },
+  {
+   "id": "C3",
+   "kind": "validation",
+   "statement": "every source ID in SYNTHESIS.md resolves in a Phases SOURCE_REGISTER",
+   "value": "102 of 102 distinct IDs",
+   "errors": [],
+   "result": "Pass"
+  },
+  {
+   "id": "C4",
+   "kind": "validation",
+   "statement": "no claims.csv, link register or source register changed against the base",
+   "value": "git diff 3ae9bf57: 0 such files",
+   "errors": [],
+   "result": "Pass"
+  },
+  {
+   "id": "R2",
+   "kind": "reporting",
+   "statement": "registry checks added after SPEC.md (duplicates, links labelled above their weakest basis claim, unassigned IDs)",
+   "value": "duplicates [['P51', 'P59'], ['P84', 'P105']]; links above basis 7 of 84; unassigned IDs in P01-P108 6",
+   "result": "Reported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "statement": "synthesis citation counts",
+   "value": "51 claim IDs, 31 link IDs, 102 source IDs",
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 9,
+ "n_validation": 7,
+ "n_validation_pass": 6,
+ "disclosed": [
+  "V3 failed as pre-registered: SPEC.md read README section 10's later pattern as A*B*C times D; that gives (0, 18, 90, 252, 0), not the all-zero vector README reports, which follows only from multiplying by E = 0. The SPEC's reading was the agent's; README does not say which scalar is meant. Kept as Fail and reported in SYNTHESIS sections 6 and 8; not re-specified.",
+  "Added after SPEC.md and before the first check run: registry_checks() (data/registry_checks.json; reporting item R2). It found two duplicate source registrations (P51/P59, P84/P105) not disclosed in their cycles; registers were not edited (C4).",
+  "First check run (before any commit): C2 failed on four link mentions written without a label (PL-51, PL-54, PL-61, PL-73) and C4 was Indeterminate because the check ran outside the git worktree. The labels were added to the text (citation typo, allowed by SPEC) and the checks were re-run in the git worktree against base 3ae9bf57.",
+  "The first draft said the later pattern gives the zero vector; corrected to the computed result before the first commit. The Divergence x12 attribution statement in this synthesis was checked against git log (commits authored by Grok Bot with a Co-authored-by: Kyle Steen trailer).",
+  "No new source was read, no claims.csv, link or source register was changed, and no Maps version was made (PLAN sections 6 and 9 assign Maps versions to cycles only)."
+ ],
+ "all_validation_passed": false
+}

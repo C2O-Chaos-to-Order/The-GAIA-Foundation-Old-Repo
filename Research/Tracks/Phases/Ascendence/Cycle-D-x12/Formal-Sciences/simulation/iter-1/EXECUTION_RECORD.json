@@ -1,0 +1,514 @@
+{
+ "sim_id": "SIM-AS-FOR-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:00:05.829091+00:00",
+ "finished_utc": "2026-10-25T00:00:09.550706+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "7ff09a1a3e9536a8a36ead05ba7ecbc34d3b778f6953127ecea954162a6f517b",
+ "params_sha256": "3b0a5830d1cdb95ddf51b8c413795f99e47b0fbb41cdbe9da2f8b2f4d290194d",
+ "results_sha256": "6079fa61f13f492c14e92b0a407c077000e23e3974cbc4b9a35454feec8d10ff",
+ "results": {
+  "results": {
+   "0.0012": {
+    "[-1.95, -1.95]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[-1.95, -0.95]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[-1.95, 0.05]": {
+     "conv": true,
+     "steps": 24842,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-1.95, 1.05]": {
+     "conv": true,
+     "steps": 27147,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-1.95, 2.05]": {
+     "conv": true,
+     "steps": 28868,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-0.95, -1.95]": {
+     "conv": true,
+     "steps": 28002,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-0.95, -0.95]": {
+     "conv": true,
+     "steps": 28019,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-0.95, 0.05]": {
+     "conv": true,
+     "steps": 28237,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-0.95, 1.05]": {
+     "conv": true,
+     "steps": 28619,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[-0.95, 2.05]": {
+     "conv": true,
+     "steps": 29017,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[0.05, -1.95]": {
+     "conv": true,
+     "steps": 28008,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[0.05, -0.95]": {
+     "conv": true,
+     "steps": 28003,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[0.05, 0.05]": {
+     "conv": true,
+     "steps": 27977,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[0.05, 1.05]": {
+     "conv": true,
+     "steps": 27839,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[0.05, 2.05]": {
+     "conv": true,
+     "steps": 27225,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[1.05, -1.95]": {
+     "conv": true,
+     "steps": 28015,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[1.05, -0.95]": {
+     "conv": true,
+     "steps": 28002,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[1.05, 0.05]": {
+     "conv": true,
+     "steps": 27534,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[1.05, 1.05]": {
+     "conv": true,
+     "steps": 23243,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[1.05, 2.05]": {
+     "conv": true,
+     "steps": 29353,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[2.05, -1.95]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[2.05, -0.95]": {
+     "conv": false,
+     "steps": null,
+     "err": null,
+     "diverged": true
+    },
+    "[2.05, 0.05]": {
+     "conv": true,
+     "steps": 28813,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[2.05, 1.05]": {
+     "conv": true,
+     "steps": 28962,
+     "err": 1e-06,
+     "diverged": false
+    },
+    "[2.05, 2.05]": {
+     "conv": true,
+     "steps": 28512,
+     "err": 1e-06,
+     "diverged": false
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "plain steps eta 0.0012: at least 20 of 25 grid starts converge",
+   "observed": {
+    "results": {
+     "0.0012": {
+      "[-1.95, -1.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[-1.95, -0.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[-1.95, 0.05]": {
+       "conv": true,
+       "steps": 24842,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-1.95, 1.05]": {
+       "conv": true,
+       "steps": 27147,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-1.95, 2.05]": {
+       "conv": true,
+       "steps": 28868,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, -1.95]": {
+       "conv": true,
+       "steps": 28002,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, -0.95]": {
+       "conv": true,
+       "steps": 28019,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, 0.05]": {
+       "conv": true,
+       "steps": 28237,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, 1.05]": {
+       "conv": true,
+       "steps": 28619,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, 2.05]": {
+       "conv": true,
+       "steps": 29017,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, -1.95]": {
+       "conv": true,
+       "steps": 28008,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, -0.95]": {
+       "conv": true,
+       "steps": 28003,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, 0.05]": {
+       "conv": true,
+       "steps": 27977,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, 1.05]": {
+       "conv": true,
+       "steps": 27839,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, 2.05]": {
+       "conv": true,
+       "steps": 27225,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, -1.95]": {
+       "conv": true,
+       "steps": 28015,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, -0.95]": {
+       "conv": true,
+       "steps": 28002,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, 0.05]": {
+       "conv": true,
+       "steps": 27534,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, 1.05]": {
+       "conv": true,
+       "steps": 23243,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, 2.05]": {
+       "conv": true,
+       "steps": 29353,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.05, -1.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.05, -0.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.05, 0.05]": {
+       "conv": true,
+       "steps": 28813,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.05, 1.05]": {
+       "conv": true,
+       "steps": 28962,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.05, 2.05]": {
+       "conv": true,
+       "steps": 28512,
+       "err": 1e-06,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "0.0012": {
+      "[-1.95, -1.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[-1.95, -0.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[-1.95, 0.05]": {
+       "conv": true,
+       "steps": 24842,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-1.95, 1.05]": {
+       "conv": true,
+       "steps": 27147,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-1.95, 2.05]": {
+       "conv": true,
+       "steps": 28868,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, -1.95]": {
+       "conv": true,
+       "steps": 28002,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, -0.95]": {
+       "conv": true,
+       "steps": 28019,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, 0.05]": {
+       "conv": true,
+       "steps": 28237,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, 1.05]": {
+       "conv": true,
+       "steps": 28619,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[-0.95, 2.05]": {
+       "conv": true,
+       "steps": 29017,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, -1.95]": {
+       "conv": true,
+       "steps": 28008,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, -0.95]": {
+       "conv": true,
+       "steps": 28003,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, 0.05]": {
+       "conv": true,
+       "steps": 27977,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, 1.05]": {
+       "conv": true,
+       "steps": 27839,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[0.05, 2.05]": {
+       "conv": true,
+       "steps": 27225,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, -1.95]": {
+       "conv": true,
+       "steps": 28015,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, -0.95]": {
+       "conv": true,
+       "steps": 28002,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, 0.05]": {
+       "conv": true,
+       "steps": 27534,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, 1.05]": {
+       "conv": true,
+       "steps": 23243,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[1.05, 2.05]": {
+       "conv": true,
+       "steps": 29353,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.05, -1.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.05, -0.95]": {
+       "conv": false,
+       "steps": null,
+       "err": null,
+       "diverged": true
+      },
+      "[2.05, 0.05]": {
+       "conv": true,
+       "steps": 28813,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.05, 1.05]": {
+       "conv": true,
+       "steps": 28962,
+       "err": 1e-06,
+       "diverged": false
+      },
+      "[2.05, 2.05]": {
+       "conv": true,
+       "steps": 28512,
+       "err": 1e-06,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

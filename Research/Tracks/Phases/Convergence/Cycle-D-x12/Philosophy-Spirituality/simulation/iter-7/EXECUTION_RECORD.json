@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:19.420643+00:00",
+ "finished_utc": "2026-10-24T22:15:19.869291+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-7  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "24078340edf827c297a1303e0c7af05a943bf6314dfda723f7821c239d0e4363",
+ "params_sha256": "7aa241ecacf73179adcd4c622d5f583cf69ce5c4fb281f602e91ff1347ecb1b2",
+ "results_sha256": "4f1361fb14c3121113e284a3e501ac3319329069f5e358c7a40103d9ccad0474",
+ "results": {
+  "items": {
+   "power_traditions": {
+    "type": "power_anova",
+    "power": {
+     "0.1": 0.2337,
+     "0.15": 0.5251,
+     "0.25": 0.9654
+    },
+    "f80": 0.1955,
+    "printed": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83's one-way ANOVA across 9 traditions (N 401) had >= 80% power only for effects f >= 0.15 (a null result does not exclude small differences)",
+   "observed": {
+    "items": {
+     "power_traditions": {
+      "type": "power_anova",
+      "power": {
+       "0.1": 0.2337,
+       "0.15": 0.5251,
+       "0.25": 0.9654
+      },
+      "f80": 0.1955,
+      "printed": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "power_traditions": {
+      "type": "power_anova",
+      "power": {
+       "0.1": 0.2337,
+       "0.15": 0.5251,
+       "0.25": 0.9654
+      },
+      "f80": 0.1955,
+      "printed": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

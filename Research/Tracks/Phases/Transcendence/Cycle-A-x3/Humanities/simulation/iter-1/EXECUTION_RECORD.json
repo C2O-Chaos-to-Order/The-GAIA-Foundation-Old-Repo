@@ -1,0 +1,323 @@
+{
+ "sim_id": "SIM-TR-HUM-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:10.681713+00:00",
+ "finished_utc": "2026-10-25T00:52:10.911930+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "991c981e43c4b4702c8442241d3fa8650e2169a17f2c105c1b46409a9c836334",
+ "params_sha256": "0117a589237abc8a18ffff5cb11deb285d3235bc1cb0ab7247e3e19985ab7ef3",
+ "results_sha256": "5ee46baa4de2b3363f7e5c16c37a5817c17d46ebc42cafd7de3427f12914f800",
+ "results": {
+  "items": {
+   "Rarity": {
+    "0.707": {
+     "BF01": 6.30457948,
+     "ratio_to_printed": 1.00009192
+    }
+   },
+   "BeautyPerception": {
+    "0.707": {
+     "BF01": 6.49662101,
+     "ratio_to_printed": 1.00271971
+    }
+   },
+   "SelfTranscendence": {
+    "0.707": {
+     "BF01": 6.12161766,
+     "ratio_to_printed": 1.00010091
+    }
+   },
+   "ConceptualComplexity": {
+    "0.707": {
+     "BF01": 1.17145515,
+     "ratio_to_printed": 1.00038869
+    }
+   },
+   "ExistentialDanger": {
+    "0.707": {
+     "BF01": 3.961e-05,
+     "ratio_to_printed": 1.00003629
+    }
+   },
+   "Vastness": {
+    "0.707": {
+     "BF01": 0.9676497,
+     "ratio_to_printed": 0.99963812
+    }
+   },
+   "NeedToShare": {
+    "0.707": {
+     "BF01": 1.4099431,
+     "ratio_to_printed": 0.99925096
+    }
+   },
+   "ExistentialSafety": {
+    "0.707": {
+     "BF01": 1.13968753,
+     "ratio_to_printed": 0.9997259
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "default JZS BF01 (Cauchy scale 0.707) from t and n 50 is within 10% of Table 2's printed BF01 for all eight dimensions",
+   "observed": {
+    "items": {
+     "Rarity": {
+      "0.707": {
+       "BF01": 6.30457948,
+       "ratio_to_printed": 1.00009192
+      }
+     },
+     "BeautyPerception": {
+      "0.707": {
+       "BF01": 6.49662101,
+       "ratio_to_printed": 1.00271971
+      }
+     },
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 6.12161766,
+       "ratio_to_printed": 1.00010091
+      }
+     },
+     "ConceptualComplexity": {
+      "0.707": {
+       "BF01": 1.17145515,
+       "ratio_to_printed": 1.00038869
+      }
+     },
+     "ExistentialDanger": {
+      "0.707": {
+       "BF01": 3.961e-05,
+       "ratio_to_printed": 1.00003629
+      }
+     },
+     "Vastness": {
+      "0.707": {
+       "BF01": 0.9676497,
+       "ratio_to_printed": 0.99963812
+      }
+     },
+     "NeedToShare": {
+      "0.707": {
+       "BF01": 1.4099431,
+       "ratio_to_printed": 0.99925096
+      }
+     },
+     "ExistentialSafety": {
+      "0.707": {
+       "BF01": 1.13968753,
+       "ratio_to_printed": 0.9997259
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "recomputed vastness BF01 is above 1/3 (not strong evidence for a difference)",
+   "observed": {
+    "items": {
+     "Rarity": {
+      "0.707": {
+       "BF01": 6.30457948,
+       "ratio_to_printed": 1.00009192
+      }
+     },
+     "BeautyPerception": {
+      "0.707": {
+       "BF01": 6.49662101,
+       "ratio_to_printed": 1.00271971
+      }
+     },
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 6.12161766,
+       "ratio_to_printed": 1.00010091
+      }
+     },
+     "ConceptualComplexity": {
+      "0.707": {
+       "BF01": 1.17145515,
+       "ratio_to_printed": 1.00038869
+      }
+     },
+     "ExistentialDanger": {
+      "0.707": {
+       "BF01": 3.961e-05,
+       "ratio_to_printed": 1.00003629
+      }
+     },
+     "Vastness": {
+      "0.707": {
+       "BF01": 0.9676497,
+       "ratio_to_printed": 0.99963812
+      }
+     },
+     "NeedToShare": {
+      "0.707": {
+       "BF01": 1.4099431,
+       "ratio_to_printed": 0.99925096
+      }
+     },
+     "ExistentialSafety": {
+      "0.707": {
+       "BF01": 1.13968753,
+       "ratio_to_printed": 0.9997259
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "recomputed existential-danger BF01 is below 1/100 (extreme evidence for a difference)",
+   "observed": {
+    "items": {
+     "Rarity": {
+      "0.707": {
+       "BF01": 6.30457948,
+       "ratio_to_printed": 1.00009192
+      }
+     },
+     "BeautyPerception": {
+      "0.707": {
+       "BF01": 6.49662101,
+       "ratio_to_printed": 1.00271971
+      }
+     },
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 6.12161766,
+       "ratio_to_printed": 1.00010091
+      }
+     },
+     "ConceptualComplexity": {
+      "0.707": {
+       "BF01": 1.17145515,
+       "ratio_to_printed": 1.00038869
+      }
+     },
+     "ExistentialDanger": {
+      "0.707": {
+       "BF01": 3.961e-05,
+       "ratio_to_printed": 1.00003629
+      }
+     },
+     "Vastness": {
+      "0.707": {
+       "BF01": 0.9676497,
+       "ratio_to_printed": 0.99963812
+      }
+     },
+     "NeedToShare": {
+      "0.707": {
+       "BF01": 1.4099431,
+       "ratio_to_printed": 0.99925096
+      }
+     },
+     "ExistentialSafety": {
+      "0.707": {
+       "BF01": 1.13968753,
+       "ratio_to_printed": 0.9997259
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "Rarity": {
+      "0.707": {
+       "BF01": 6.30457948,
+       "ratio_to_printed": 1.00009192
+      }
+     },
+     "BeautyPerception": {
+      "0.707": {
+       "BF01": 6.49662101,
+       "ratio_to_printed": 1.00271971
+      }
+     },
+     "SelfTranscendence": {
+      "0.707": {
+       "BF01": 6.12161766,
+       "ratio_to_printed": 1.00010091
+      }
+     },
+     "ConceptualComplexity": {
+      "0.707": {
+       "BF01": 1.17145515,
+       "ratio_to_printed": 1.00038869
+      }
+     },
+     "ExistentialDanger": {
+      "0.707": {
+       "BF01": 3.961e-05,
+       "ratio_to_printed": 1.00003629
+      }
+     },
+     "Vastness": {
+      "0.707": {
+       "BF01": 0.9676497,
+       "ratio_to_printed": 0.99963812
+      }
+     },
+     "NeedToShare": {
+      "0.707": {
+       "BF01": 1.4099431,
+       "ratio_to_printed": 0.99925096
+      }
+     },
+     "ExistentialSafety": {
+      "0.707": {
+       "BF01": 1.13968753,
+       "ratio_to_printed": 0.9997259
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

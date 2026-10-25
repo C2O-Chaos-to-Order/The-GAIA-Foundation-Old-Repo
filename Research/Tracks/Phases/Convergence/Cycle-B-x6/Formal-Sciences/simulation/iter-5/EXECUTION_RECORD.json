@@ -1,0 +1,239 @@
+{
+ "sim_id": "SIM-CV-FOR-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:40.547343+00:00",
+ "finished_utc": "2026-10-24T20:44:44.482639+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-5  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "4c8a2975ceb15ab129252ce6d0ce173bb612c09626ead4e5fd51b607ff3a66fa",
+ "params_sha256": "673cf62699128181602144c283d8ce031ab3e3faf912450ad6967b329bc90d20",
+ "results_sha256": "3ddef5a09a6d5c452f7b76ab2c2813e1d27432d54720666b07907dd84be61ffd",
+ "results": {
+  "E": [
+   1.0,
+   0.0
+  ],
+  "V": {
+   "1": [
+    0.44,
+    0.56
+   ],
+   "50": [
+    0.99999999,
+    1e-08
+   ]
+  },
+  "lambda2": 0.7,
+  "err_n20": 0.00063834,
+  "ET_minus_E": 0.0,
+  "wielandt": {
+   "10": {
+    "exponent": 82,
+    "bound": 82
+   },
+   "11": {
+    "exponent": 101,
+    "bound": 101
+   }
+  },
+  "random_primitive": {
+   "8": {
+    "max_exponent": 10,
+    "mean_exponent": 4.698,
+    "bound": 50
+   },
+   "9": {
+    "max_exponent": 9,
+    "mean_exponent": 4.67,
+    "bound": 65
+   },
+   "10": {
+    "max_exponent": 10,
+    "mean_exponent": 4.648,
+    "bound": 82
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "E T = E within 1e-12, E sums to 1, rows of T sum to 1",
+   "observed": [
+    0.0,
+    1.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the Wielandt matrix attains (n - 1)^2 + 1 for n = 10, 11",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "wielandt": {
+     "10": {
+      "exponent": 82,
+      "bound": 82
+     },
+     "11": {
+      "exponent": 101,
+      "bound": 101
+     }
+    },
+    "random_primitive": {
+     "8": {
+      "max_exponent": 10,
+      "mean_exponent": 4.698,
+      "bound": 50
+     },
+     "9": {
+      "max_exponent": 9,
+      "mean_exponent": 4.67,
+      "bound": 65
+     },
+     "10": {
+      "max_exponent": 10,
+      "mean_exponent": 4.648,
+      "bound": 82
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "no random primitive pattern (n = 8-10, 1000 each) reaches the bound",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "wielandt": {
+     "10": {
+      "exponent": 82,
+      "bound": 82
+     },
+     "11": {
+      "exponent": 101,
+      "bound": 101
+     }
+    },
+    "random_primitive": {
+     "8": {
+      "max_exponent": 10,
+      "mean_exponent": 4.698,
+      "bound": 50
+     },
+     "9": {
+      "max_exponent": 9,
+      "mean_exponent": 4.67,
+      "bound": 65
+     },
+     "10": {
+      "max_exponent": 10,
+      "mean_exponent": 4.648,
+      "bound": 82
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "wielandt": {
+     "10": {
+      "exponent": 82,
+      "bound": 82
+     },
+     "11": {
+      "exponent": 101,
+      "bound": 101
+     }
+    },
+    "random_primitive": {
+     "8": {
+      "max_exponent": 10,
+      "mean_exponent": 4.698,
+      "bound": 50
+     },
+     "9": {
+      "max_exponent": 9,
+      "mean_exponent": 4.67,
+      "bound": 65
+     },
+     "10": {
+      "max_exponent": 10,
+      "mean_exponent": 4.648,
+      "bound": 82
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

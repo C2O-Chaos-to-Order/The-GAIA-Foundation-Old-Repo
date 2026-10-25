@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-HUM-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:54.368362+00:00",
+ "finished_utc": "2026-10-24T23:50:54.386172+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-5  (run from Humanities/simulation/)",
+ "spec_sha256": "cca42d951d707ed8e0fb80b1fd898e593e001d8af2350d25226050a8c9538d4d",
+ "params_sha256": "5d5f9dbad3a76b2d203cbfcf6c5ecc328cb83091b24ee6f26c8b696613ff5690",
+ "results_sha256": "1fd219d57a22d9d080f1abfbf103d98cb2959035ade62fec885b1c7e6595090d",
+ "results": {
+  "by_x0": {
+   "0.15": {
+    "p_fix": 0.97225,
+    "p_lost": 0.02775,
+    "p_unresolved": 0.0,
+    "mean_gens": 16.493
+   }
+  },
+  "N": 500,
+  "c": 1.2,
+  "b": 0.5,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.2498795,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N 500, c 1.2, b 0.5: a 15% variant fixes in more than half of runs",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.97225,
+      "p_lost": 0.02775,
+      "p_unresolved": 0.0,
+      "mean_gens": 16.493
+     }
+    },
+    "N": 500,
+    "c": 1.2,
+    "b": 0.5,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.97225,
+      "p_lost": 0.02775,
+      "p_unresolved": 0.0,
+      "mean_gens": 16.493
+     }
+    },
+    "N": 500,
+    "c": 1.2,
+    "b": 0.5,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

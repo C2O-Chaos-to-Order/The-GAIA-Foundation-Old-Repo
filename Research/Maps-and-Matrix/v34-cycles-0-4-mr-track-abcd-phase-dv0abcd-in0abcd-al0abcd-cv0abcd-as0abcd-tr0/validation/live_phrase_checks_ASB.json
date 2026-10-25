@@ -1,0 +1,170 @@
+{
+ "cycle": "ASB",
+ "checked_utc": "2026-10-24T23:44:20+00:00",
+ "summary": {
+  "Pass": 23
+ },
+ "checks": [
+  {
+   "claim_id": "ASB-NAT-01",
+   "source_id": "P85",
+   "phrase": "lowering landscape ruggedness boosts P HP",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-NAT-01",
+   "source_id": "P85",
+   "phrase": "which is always around 25%",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-NAT-01",
+   "source_id": "P85",
+   "phrase": "ranges from 0.69 to 0.97 in the six empirical landscapes",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-FOR-01",
+   "source_id": "P86",
+   "phrase": "is the direction of steepest ascent on the manifold",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-FOR-01",
+   "source_id": "P86",
+   "phrase": "This function has a unique global optimum at",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-SOC-01",
+   "source_id": "P87",
+   "phrase": "The increase in upward mobility was driven by structural change",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-SOC-01",
+   "source_id": "P87",
+   "phrase": "The rate of that growth was about 1.5 percentage points per decade",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-SOC-01",
+   "source_id": "P87",
+   "phrase": "Fully 57% of men in the salariat came from manual",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-SOC-06",
+   "source_id": "P93",
+   "phrase": "considerable intergenerational stability",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-SOC-06",
+   "source_id": "P93",
+   "phrase": "26 per cent of all subjects",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-APP-01",
+   "source_id": "P88",
+   "phrase": "None, Mild, and Moderate or Severe",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-APP-01",
+   "source_id": "P88",
+   "phrase": "ascent rate (odds ratio 3.13)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-APP-01",
+   "source_id": "P88",
+   "phrase": "is twice that of making the ascent in three days",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-APP-03",
+   "source_id": "P91",
+   "phrase": "fast ascent protocol posed a risk during the initial phase of the ascent, but transformed into a protective effect upon further ascent to a higher altitude",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-APP-03",
+   "source_id": "P91",
+   "phrase": "subjects from the fast ascent group underwent a longer period of acclimatization",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-HUM-01",
+   "source_id": "P89",
+   "phrase": "L* L-H% represents what Knowles (1973) refers to as the",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-HUM-01",
+   "source_id": "P89",
+   "phrase": "phrase-final contours in Liverpool (L* H-H%)",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-HUM-01",
+   "source_id": "P89",
+   "phrase": "suggests a population increase of 1349%",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-HUM-04",
+   "source_id": "P92",
+   "phrase": "uptalk was rated more negatively overall",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-HUM-04",
+   "source_id": "P92",
+   "phrase": "the availability of iconic associations of pitch depends on social factors",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-PHI-01",
+   "source_id": "P90",
+   "phrase": "to climb to the next stage",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-PHI-01",
+   "source_id": "P90",
+   "phrase": "valuing appropriately is still valuing",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "ASB-PHI-01",
+   "source_id": "P90",
+   "phrase": "At the top of the scala amoris lies the beautiful itself",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

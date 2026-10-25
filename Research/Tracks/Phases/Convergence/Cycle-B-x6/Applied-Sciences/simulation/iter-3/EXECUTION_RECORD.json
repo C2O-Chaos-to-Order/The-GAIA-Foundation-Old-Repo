@@ -1,0 +1,322 @@
+{
+ "sim_id": "SIM-CV-APP-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:46.001835+00:00",
+ "finished_utc": "2026-10-24T20:44:46.052137+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "2dfccf2104a094f0dba35cd1dbecafcb741d3bbe58563b4216aed5b600bb3ee7",
+ "params_sha256": "358f8729ffbd762d10224935f05690c336a2d41520e29e232c63ae1282aa3fcf",
+ "results_sha256": "352b9d2a0e290302f1b52e6bd9d5aa21817ad3b9e397322ce5b03fd456008041",
+ "results": {
+  "exact": 0.74682413,
+  "M2": 2.0,
+  "fprime_diff": -0.73575888,
+  "rows": {
+   "8": {
+    "T": 0.74586561,
+    "E": 0.00095852,
+    "abs_err": 0.00095852,
+    "rel_pct": 0.128346,
+    "bound": 0.00260417,
+    "asym": 0.00095802,
+    "overestimates": false
+   },
+   "16": {
+    "T": 0.7465846,
+    "E": 0.00023954,
+    "abs_err": 0.00023954,
+    "rel_pct": 0.032074,
+    "bound": 0.00065104,
+    "asym": 0.0002395,
+    "overestimates": false
+   },
+   "32": {
+    "T": 0.74676425,
+    "E": 5.988e-05,
+    "abs_err": 5.988e-05,
+    "rel_pct": 0.008018,
+    "bound": 0.00016276,
+    "asym": 5.988e-05,
+    "overestimates": false
+   }
+  },
+  "tol": {
+   "tol": 1e-08,
+   "N_bound": 4083,
+   "N_asym": 2477,
+   "N_actual": 2477,
+   "evals_bound": 4084,
+   "evals_actual": 2478,
+   "printed_evals": 256
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the trapezoidal rule integrates 2x + 1 on [0, 1] exactly (2) with N = 4",
+   "observed": 2.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the N actually needed for 1e-8 does not exceed the N guaranteed by P79's bound",
+   "observed": {
+    "exact": 0.74682413,
+    "M2": 2.0,
+    "fprime_diff": -0.73575888,
+    "rows": {
+     "8": {
+      "T": 0.74586561,
+      "E": 0.00095852,
+      "abs_err": 0.00095852,
+      "rel_pct": 0.128346,
+      "bound": 0.00260417,
+      "asym": 0.00095802,
+      "overestimates": false
+     },
+     "16": {
+      "T": 0.7465846,
+      "E": 0.00023954,
+      "abs_err": 0.00023954,
+      "rel_pct": 0.032074,
+      "bound": 0.00065104,
+      "asym": 0.0002395,
+      "overestimates": false
+     },
+     "32": {
+      "T": 0.74676425,
+      "E": 5.988e-05,
+      "abs_err": 5.988e-05,
+      "rel_pct": 0.008018,
+      "bound": 0.00016276,
+      "asym": 5.988e-05,
+      "overestimates": false
+     }
+    },
+    "tol": {
+     "tol": 1e-08,
+     "N_bound": 4083,
+     "N_asym": 2477,
+     "N_actual": 2477,
+     "evals_bound": 4084,
+     "evals_actual": 2478,
+     "printed_evals": 256
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "P79's asymptotic estimate predicts the needed N within 1%",
+   "observed": {
+    "exact": 0.74682413,
+    "M2": 2.0,
+    "fprime_diff": -0.73575888,
+    "rows": {
+     "8": {
+      "T": 0.74586561,
+      "E": 0.00095852,
+      "abs_err": 0.00095852,
+      "rel_pct": 0.128346,
+      "bound": 0.00260417,
+      "asym": 0.00095802,
+      "overestimates": false
+     },
+     "16": {
+      "T": 0.7465846,
+      "E": 0.00023954,
+      "abs_err": 0.00023954,
+      "rel_pct": 0.032074,
+      "bound": 0.00065104,
+      "asym": 0.0002395,
+      "overestimates": false
+     },
+     "32": {
+      "T": 0.74676425,
+      "E": 5.988e-05,
+      "abs_err": 5.988e-05,
+      "rel_pct": 0.008018,
+      "bound": 0.00016276,
+      "asym": 5.988e-05,
+      "overestimates": false
+     }
+    },
+    "tol": {
+     "tol": 1e-08,
+     "N_bound": 4083,
+     "N_asym": 2477,
+     "N_actual": 2477,
+     "evals_bound": 4084,
+     "evals_actual": 2478,
+     "printed_evals": 256
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "P70 Table's printed trapezoid count 256 is at least the evaluations actually needed",
+   "observed": {
+    "exact": 0.74682413,
+    "M2": 2.0,
+    "fprime_diff": -0.73575888,
+    "rows": {
+     "8": {
+      "T": 0.74586561,
+      "E": 0.00095852,
+      "abs_err": 0.00095852,
+      "rel_pct": 0.128346,
+      "bound": 0.00260417,
+      "asym": 0.00095802,
+      "overestimates": false
+     },
+     "16": {
+      "T": 0.7465846,
+      "E": 0.00023954,
+      "abs_err": 0.00023954,
+      "rel_pct": 0.032074,
+      "bound": 0.00065104,
+      "asym": 0.0002395,
+      "overestimates": false
+     },
+     "32": {
+      "T": 0.74676425,
+      "E": 5.988e-05,
+      "abs_err": 5.988e-05,
+      "rel_pct": 0.008018,
+      "bound": 0.00016276,
+      "asym": 5.988e-05,
+      "overestimates": false
+     }
+    },
+    "tol": {
+     "tol": 1e-08,
+     "N_bound": 4083,
+     "N_asym": 2477,
+     "N_actual": 2477,
+     "evals_bound": 4084,
+     "evals_actual": 2478,
+     "printed_evals": 256
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "P70's printed 256 within 10% of the bound-guaranteed evaluations (P70 used the bound)",
+   "observed": {
+    "exact": 0.74682413,
+    "M2": 2.0,
+    "fprime_diff": -0.73575888,
+    "rows": {
+     "8": {
+      "T": 0.74586561,
+      "E": 0.00095852,
+      "abs_err": 0.00095852,
+      "rel_pct": 0.128346,
+      "bound": 0.00260417,
+      "asym": 0.00095802,
+      "overestimates": false
+     },
+     "16": {
+      "T": 0.7465846,
+      "E": 0.00023954,
+      "abs_err": 0.00023954,
+      "rel_pct": 0.032074,
+      "bound": 0.00065104,
+      "asym": 0.0002395,
+      "overestimates": false
+     },
+     "32": {
+      "T": 0.74676425,
+      "E": 5.988e-05,
+      "abs_err": 5.988e-05,
+      "rel_pct": 0.008018,
+      "bound": 0.00016276,
+      "asym": 5.988e-05,
+      "overestimates": false
+     }
+    },
+    "tol": {
+     "tol": 1e-08,
+     "N_bound": 4083,
+     "N_asym": 2477,
+     "N_actual": 2477,
+     "evals_bound": 4084,
+     "evals_actual": 2478,
+     "printed_evals": 256
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 0.74682413,
+    "M2": 2.0,
+    "fprime_diff": -0.73575888,
+    "rows": {
+     "8": {
+      "T": 0.74586561,
+      "E": 0.00095852,
+      "abs_err": 0.00095852,
+      "rel_pct": 0.128346,
+      "bound": 0.00260417,
+      "asym": 0.00095802,
+      "overestimates": false
+     },
+     "16": {
+      "T": 0.7465846,
+      "E": 0.00023954,
+      "abs_err": 0.00023954,
+      "rel_pct": 0.032074,
+      "bound": 0.00065104,
+      "asym": 0.0002395,
+      "overestimates": false
+     },
+     "32": {
+      "T": 0.74676425,
+      "E": 5.988e-05,
+      "abs_err": 5.988e-05,
+      "rel_pct": 0.008018,
+      "bound": 0.00016276,
+      "asym": 5.988e-05,
+      "overestimates": false
+     }
+    },
+    "tol": {
+     "tol": 1e-08,
+     "N_bound": 4083,
+     "N_asym": 2477,
+     "N_actual": 2477,
+     "evals_bound": 4084,
+     "evals_actual": 2478,
+     "printed_evals": 256
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

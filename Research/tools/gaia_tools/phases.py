@@ -18,9 +18,11 @@ from .claimsource import parse_phrases, phrase_found
 
 FIELDS = {"NAT": "Natural-Sciences", "FOR": "Formal-Sciences", "SOC": "Social-Sciences", "APP": "Applied-Sciences",
           "HUM": "Humanities", "PHI": "Philosophy-Spirituality"}
-PHASES = {"DV": "Divergence", "IN": "Insurgence", "AL": "Allegiance", "CV": "Convergence", "AS": "Ascendence"}
+PHASES = {"DV": "Divergence", "IN": "Insurgence", "AL": "Allegiance", "CV": "Convergence", "AS": "Ascendence", "TR": "Transcendence"}
+# Transcendence (TR) is the owner's sixth phase (added 2026-10-25). The canonical matrix keeps five phases (625 cells);
+# re-dimensioning to 750 is a pending owner-approved update, so TR claims are recorded in separate phases-track overlay files.
 CYCLE_DIR = re.compile(r"^Cycle-(?P<l>[0A-D])-(Baseline|x(3|6|9|12))$")
-SIM_REF = re.compile(r"^SIM-(?P<ph>DV|IN|AL|CV|AS)-(?P<f>NAT|FOR|SOC|APP|HUM|PHI)-(?P<l>[0A-D])/iter-(?P<it>\d+)#(?P<chk>[A-Za-z0-9_.]+)$")
+SIM_REF = re.compile(r"^SIM-(?P<ph>DV|IN|AL|CV|AS|TR)-(?P<f>NAT|FOR|SOC|APP|HUM|PHI)-(?P<l>[0A-D])/iter-(?P<it>\d+)#(?P<chk>[A-Za-z0-9_.]+)$")
 CLAIM_FIELDS = ["claim_id", "field", "wording", "claim_class", "framework_label", "conclusion_status", "source_ids", "locator", "confidence",
                 "counterevidence_limits", "operationalization", "being", "cross_links", "verification_phrases", "change_vs_prev_cycle"]
 CLASSES = ("Empirical", "Mathematical/computational", "Historical", "Interpretive/philosophical", "Spiritual/theological", "Simulation")
@@ -170,8 +172,9 @@ def maps(research_dir, out_dir, label):
                             being=c["being"] or f"outside Being axis (field {c['field']})", lenses=";".join(ls) or "Unassigned",
                             alchemy="Unassigned (undefined: G01 9.3 / 12 Q3)", phase=ph, source_set=f"phase cycle {cid}"))
     M._csv(pl_p, place + new, ["claim_id", "report", "label", "being", "lenses", "alchemy", "phase", "source_set"])
+    CANON = [ph for ph in PHASES.values() if ph in M.AXES["Phase"]]; EXTRA = [ph for ph in PHASES.values() if ph not in M.AXES["Phase"]]
     pf = []
-    for ph in PHASES.values():
+    for ph in CANON:
         for f, fd in FIELDS.items():
             cs = [p for p in new if p["phase"] == ph and p["report"].endswith(fd)]
             cnt = collections.Counter(D.LABELS[p["label"]] for p in cs)
@@ -179,12 +182,30 @@ def maps(research_dir, out_dir, label):
                            cycle=latest.get(ph, ("", ""))[0], flag="EMPTY (not yet researched)" if ph not in latest else ("EMPTY" if not cs else ("UNDER-RESEARCHED (no E/P claim)" if cnt["E"] + cnt["P"] == 0 else "populated"))))
     M._csv(os.path.join(out_dir, "matrix", "phase_x_field_30.csv"), pf, ["phase", "field", "n_claims", "E", "P", "PS", "H", "cycle", "flag"])
     pl = []
-    for ph in PHASES.values():
+    for ph in CANON:
         for l in M.AXES["Lens"]:
             cs = [p for p in new if p["phase"] == ph and l in p["lenses"].split(";")]
             cnt = collections.Counter(D.LABELS[p["label"]] for p in cs)
             pl.append(dict(phase=ph, lens=l, n_claims=len(cs), E=cnt["E"], P=cnt["P"], PS=cnt["PS"], H=cnt["H"], claim_ids=";".join(p["claim_id"] for p in cs)))
     M._csv(os.path.join(out_dir, "matrix", "phase_x_lens_25.csv"), pl, ["phase", "lens", "n_claims", "E", "P", "PS", "H", "claim_ids"])
+    for ph in EXTRA:   # phases outside the canonical 5-phase matrix: overlay files only (pending 750-cell re-dimension)
+        slug = ph.lower(); xf, xl, xc = [], [], []
+        for f, fd in FIELDS.items():
+            cs = [p for p in new if p["phase"] == ph and p["report"].endswith(fd)]; cnt = collections.Counter(D.LABELS[p["label"]] for p in cs)
+            xf.append(dict(phase=ph, field=fd, n_claims=len(cs), E=cnt["E"], P=cnt["P"], PS=cnt["PS"], H=cnt["H"], cycle=latest.get(ph, ("", ""))[0],
+                           flag="EMPTY (not yet researched)" if ph not in latest else ("EMPTY" if not cs else ("UNDER-RESEARCHED (no E/P claim)" if cnt["E"] + cnt["P"] == 0 else "populated"))))
+        for l in M.AXES["Lens"]:
+            cs = [p for p in new if p["phase"] == ph and l in p["lenses"].split(";")]; cnt = collections.Counter(D.LABELS[p["label"]] for p in cs)
+            xl.append(dict(phase=ph, lens=l, n_claims=len(cs), E=cnt["E"], P=cnt["P"], PS=cnt["PS"], H=cnt["H"], claim_ids=";".join(p["claim_id"] for p in cs)))
+        for a in M.AXES["Alchemy"]:
+            for b in M.AXES["Being"]:
+                for l in M.AXES["Lens"]:
+                    cs = [p for p in new if p["phase"] == ph and l in p["lenses"].split(";") and p["being"] == b]
+                    xc.append(dict(alchemy=a, being=b, phase=ph, lens=l, phase_claims_in_being_phase_lens_projection=len(cs),
+                                   status="pending owner-approved re-dimension 625 -> 750; not part of the canonical matrix"))
+        M._csv(os.path.join(out_dir, "matrix", f"phase_track_{slug}_x_field_6.csv"), xf, ["phase", "field", "n_claims", "E", "P", "PS", "H", "cycle", "flag"])
+        M._csv(os.path.join(out_dir, "matrix", f"phase_track_{slug}_x_lens_5.csv"), xl, ["phase", "lens", "n_claims", "E", "P", "PS", "H", "claim_ids"])
+        M._csv(os.path.join(out_dir, "matrix", f"phase_track_{slug}_cells_125.csv"), xc, ["alchemy", "being", "phase", "lens", "phase_claims_in_being_phase_lens_projection", "status"])
     cells = D.read_csv(os.path.join(out_dir, "matrix", "intersections_625.csv"))
     for c in cells:
         cs = [p for p in new if p["phase"] == c["phase"] and c["lens"] in p["lenses"].split(";") and p["being"] == c["being"]]

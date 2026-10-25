@@ -1,0 +1,79 @@
+{
+ "sim_id": "SIM-TR-HUM-D",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:26.813951+00:00",
+ "finished_utc": "2026-10-25T01:30:27.045387+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-7  (run from Humanities/simulation/)",
+ "spec_sha256": "e004da73d275b84d7ff4b62a871ce458d23e0f249a19c5853ab1c4e4f9a907a7",
+ "params_sha256": "2c5fb1f95df4f95a9177545c1a77c6c76f025e84bc08a66f31528a90f59e2729",
+ "results_sha256": "6d6e95de93ca7164db0e4d7d9aa8e70621806204cae9a9f223daaa3660b32a7a",
+ "results": {
+  "items": {
+   "psy_dose_edi": {
+    "0.707": {
+     "BF01": 0.0,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108's rho 0.371 (n 1043): BF01 below 1/100",
+   "observed": {
+    "items": {
+     "psy_dose_edi": {
+      "0.707": {
+       "BF01": 0.0,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "psy_dose_edi": {
+      "0.707": {
+       "BF01": 0.0,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

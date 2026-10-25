@@ -1,0 +1,7 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P97,yes,TR0,29931,82b49717859b69a034ed1367963d1c7442560eee6d8a4b4898512128fd6b16a3,"Read end to end (abstract to methods, Figs. 1-7 captions, appendix equations, eLife decision letter and author response; reference list not read)."
+P98,yes,TR0,10154,6a6419d9e0c50a6768b836f46773dbfd7af06312e95d6983363a536d3059735d,"Read end to end (all sections, definitions, lemmas, theorem and propositions; LaTeX boilerplate stripped before reading; reference list not read)."
+P99,yes,TR0,8222,2ee82b02894649f7a7f25cf11be7f99b91fdd69b8c62e0f796ba1170bdd1afc0,"Read end to end (abstract to discussion, Tables 1-3; reference list not read)."
+P100,yes,TR0,5320,a1b1e5c90cb8135e190c158f033ebf39caa5b559893df26462598266b78c7130,"Read end to end (abstract to conclusion, Tables 1-3; reference list not read)."
+P101,yes,TR0,4565,e1463b05ce6b9f236ea4cd32cbeae41b19a9040b3ebc49527fe4fc53d5a2213a,"Read end to end (abstract to conclusion, Tables 1-3; reference list not read)."
+P102,yes,TR0,18513,3f1ce2bd4e8ec0b98017ac2d666ddcfdf7dc0b6a11d24a12a470d4de2ecb4b55,Read end to end (all sections and bibliography).

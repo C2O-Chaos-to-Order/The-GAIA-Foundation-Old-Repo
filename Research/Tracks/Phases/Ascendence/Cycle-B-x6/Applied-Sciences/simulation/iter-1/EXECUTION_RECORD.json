@@ -1,0 +1,128 @@
+{
+ "sim_id": "SIM-AS-APP-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:41.049676+00:00",
+ "finished_utc": "2026-10-24T23:40:41.462444+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "6d00ed635d6fec465a5f63e321f8c7accadf06f25ce2bb426a8079c00fd74df5",
+ "params_sha256": "022aac38f39f05e0dc3bbb8714eee92fa4773eee91325a9bc9b67ccbde6e7ab0",
+ "results_sha256": "a019a6e1cfd6535394cd00f50d8973599b254902727870bb23c7aa127c530fb6",
+ "results": {
+  "items": {
+   "P1_fast_old_unpaired": {
+    "value": 0.593669,
+    "printed": 0.594,
+    "diff": -0.000331
+   },
+   "P1_fast_new_unpaired": {
+    "value": 1.0,
+    "printed": 1.0,
+    "diff": 0.0
+   },
+   "P2_slow_old_unpaired": {
+    "value": 1.1e-05,
+    "printed": 0.001,
+    "diff": -0.000989
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P91's within-cohort P1 values (same subjects at two altitudes) equal an unpaired 2x2 chi-square within 0.005 (0.594, 1.000)",
+   "observed": {
+    "items": {
+     "P1_fast_old_unpaired": {
+      "value": 0.593669,
+      "printed": 0.594,
+      "diff": -0.000331
+     },
+     "P1_fast_new_unpaired": {
+      "value": 1.0,
+      "printed": 1.0,
+      "diff": 0.0
+     },
+     "P2_slow_old_unpaired": {
+      "value": 1.1e-05,
+      "printed": 0.001,
+      "diff": -0.000989
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "slow cohort 72 vs 121: unpaired p below 0.001 as printed",
+   "observed": {
+    "items": {
+     "P1_fast_old_unpaired": {
+      "value": 0.593669,
+      "printed": 0.594,
+      "diff": -0.000331
+     },
+     "P1_fast_new_unpaired": {
+      "value": 1.0,
+      "printed": 1.0,
+      "diff": 0.0
+     },
+     "P2_slow_old_unpaired": {
+      "value": 1.1e-05,
+      "printed": 0.001,
+      "diff": -0.000989
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "P1_fast_old_unpaired": {
+      "value": 0.593669,
+      "printed": 0.594,
+      "diff": -0.000331
+     },
+     "P1_fast_new_unpaired": {
+      "value": 1.0,
+      "printed": 1.0,
+      "diff": 0.0
+     },
+     "P2_slow_old_unpaired": {
+      "value": 1.1e-05,
+      "printed": 0.001,
+      "diff": -0.000989
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

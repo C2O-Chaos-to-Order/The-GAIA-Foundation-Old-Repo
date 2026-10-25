@@ -1,0 +1,568 @@
+{
+ "sim_id": "SIM-AS-HUM-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:54:12.076823+00:00",
+ "finished_utc": "2026-10-24T22:54:12.514227+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "0208e1724f91bec2b792aca8485fcfeaf0b724583f8097bace192eb370285a0c",
+ "params_sha256": "f019988bca977479c6a6512f04f3ec21eda9021601a6bbefb85de670c70c18ff",
+ "results_sha256": "d3c5d08ac6f24fd3e4c7e93b45167a2109d335d5127f17b0dafe9ce42903ed06",
+ "results": {
+  "items": {
+   "T1_city_p": {
+    "value": 0.0,
+    "printed": 0.001,
+    "diff": -0.001
+   },
+   "T1_task_p": {
+    "value": 0.0,
+    "printed": 0.001,
+    "diff": -0.001
+   },
+   "T1_gender_p": {
+    "value": 0.023993,
+    "printed": 0.02,
+    "diff": 0.003993
+   },
+   "T1_cityxgender_p": {
+    "value": 0.01292,
+    "printed": 0.01,
+    "diff": 0.00292
+   },
+   "T1_cityxtask_p": {
+    "value": 0.0,
+    "printed": 0.001,
+    "diff": -0.001
+   },
+   "T2_city_p": {
+    "value": 0.0,
+    "printed": 0.001,
+    "diff": -0.001
+   },
+   "T2_task_p": {
+    "value": 0.0,
+    "printed": 0.001,
+    "diff": -0.001
+   },
+   "T2_gender_p": {
+    "value": 0.2334,
+    "printed": 0.23,
+    "diff": 0.0034
+   },
+   "T2_cityxgender_p": {
+    "value": 0.698535,
+    "printed": 0.69,
+    "diff": 0.008535
+   },
+   "T2_cityxtask_p": {
+    "value": 0.020675,
+    "printed": 0.02,
+    "diff": 0.000675
+   },
+   "F0_gender_p": {
+    "value": 0.093096,
+    "printed": 0.09,
+    "diff": 0.003096
+   },
+   "Lawton_increase_pct": {
+    "value": 1349.275362,
+    "printed": 1349,
+    "diff": 0.275362
+   },
+   "Cruttenden_sum": {
+    "value": 43.2,
+    "printed": 43.2,
+    "diff": 0.0
+   },
+   "tokens_per_male_RPS": {
+    "value": 47.385621,
+    "printed": null,
+    "diff": null
+   },
+   "tokens_per_female_RPS": {
+    "value": 46.153846,
+    "printed": null,
+    "diff": null
+   },
+   "F0_implied_female_n": {
+    "value": 71.009709,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "every LRT p-value printed as a number is reproduced within 0.01, and every '<0.001' is below 0.001",
+   "observed": {
+    "items": {
+     "T1_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_gender_p": {
+      "value": 0.023993,
+      "printed": 0.02,
+      "diff": 0.003993
+     },
+     "T1_cityxgender_p": {
+      "value": 0.01292,
+      "printed": 0.01,
+      "diff": 0.00292
+     },
+     "T1_cityxtask_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_gender_p": {
+      "value": 0.2334,
+      "printed": 0.23,
+      "diff": 0.0034
+     },
+     "T2_cityxgender_p": {
+      "value": 0.698535,
+      "printed": 0.69,
+      "diff": 0.008535
+     },
+     "T2_cityxtask_p": {
+      "value": 0.020675,
+      "printed": 0.02,
+      "diff": 0.000675
+     },
+     "F0_gender_p": {
+      "value": 0.093096,
+      "printed": 0.09,
+      "diff": 0.003096
+     },
+     "Lawton_increase_pct": {
+      "value": 1349.275362,
+      "printed": 1349,
+      "diff": 0.275362
+     },
+     "Cruttenden_sum": {
+      "value": 43.2,
+      "printed": 43.2,
+      "diff": 0.0
+     },
+     "tokens_per_male_RPS": {
+      "value": 47.385621,
+      "printed": null,
+      "diff": null
+     },
+     "tokens_per_female_RPS": {
+      "value": 46.153846,
+      "printed": null,
+      "diff": null
+     },
+     "F0_implied_female_n": {
+      "value": 71.009709,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Lawton's 1349% follows from 34,500 to 500,000 within 1 point",
+   "observed": {
+    "items": {
+     "T1_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_gender_p": {
+      "value": 0.023993,
+      "printed": 0.02,
+      "diff": 0.003993
+     },
+     "T1_cityxgender_p": {
+      "value": 0.01292,
+      "printed": 0.01,
+      "diff": 0.00292
+     },
+     "T1_cityxtask_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_gender_p": {
+      "value": 0.2334,
+      "printed": 0.23,
+      "diff": 0.0034
+     },
+     "T2_cityxgender_p": {
+      "value": 0.698535,
+      "printed": 0.69,
+      "diff": 0.008535
+     },
+     "T2_cityxtask_p": {
+      "value": 0.020675,
+      "printed": 0.02,
+      "diff": 0.000675
+     },
+     "F0_gender_p": {
+      "value": 0.093096,
+      "printed": 0.09,
+      "diff": 0.003096
+     },
+     "Lawton_increase_pct": {
+      "value": 1349.275362,
+      "printed": 1349,
+      "diff": 0.275362
+     },
+     "Cruttenden_sum": {
+      "value": 43.2,
+      "printed": 43.2,
+      "diff": 0.0
+     },
+     "tokens_per_male_RPS": {
+      "value": 47.385621,
+      "printed": null,
+      "diff": null
+     },
+     "tokens_per_female_RPS": {
+      "value": 46.153846,
+      "printed": null,
+      "diff": null
+     },
+     "F0_implied_female_n": {
+      "value": 71.009709,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the printed rise-plateau-slump percentages imply token totals per Liverpool speaker within 10% for males (145, 34%, 9 speakers) and females (48, 13%, 8 speakers)",
+   "observed": {
+    "items": {
+     "T1_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_gender_p": {
+      "value": 0.023993,
+      "printed": 0.02,
+      "diff": 0.003993
+     },
+     "T1_cityxgender_p": {
+      "value": 0.01292,
+      "printed": 0.01,
+      "diff": 0.00292
+     },
+     "T1_cityxtask_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_gender_p": {
+      "value": 0.2334,
+      "printed": 0.23,
+      "diff": 0.0034
+     },
+     "T2_cityxgender_p": {
+      "value": 0.698535,
+      "printed": 0.69,
+      "diff": 0.008535
+     },
+     "T2_cityxtask_p": {
+      "value": 0.020675,
+      "printed": 0.02,
+      "diff": 0.000675
+     },
+     "F0_gender_p": {
+      "value": 0.093096,
+      "printed": 0.09,
+      "diff": 0.003096
+     },
+     "Lawton_increase_pct": {
+      "value": 1349.275362,
+      "printed": 1349,
+      "diff": 0.275362
+     },
+     "Cruttenden_sum": {
+      "value": 43.2,
+      "printed": 43.2,
+      "diff": 0.0
+     },
+     "tokens_per_male_RPS": {
+      "value": 47.385621,
+      "printed": null,
+      "diff": null
+     },
+     "tokens_per_female_RPS": {
+      "value": 46.153846,
+      "printed": null,
+      "diff": null
+     },
+     "F0_implied_female_n": {
+      "value": 71.009709,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "the F0-excursion means (overall 18, female 23.0, male 12.7, 138 values) imply a female count between 0 and 138",
+   "observed": {
+    "items": {
+     "T1_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_gender_p": {
+      "value": 0.023993,
+      "printed": 0.02,
+      "diff": 0.003993
+     },
+     "T1_cityxgender_p": {
+      "value": 0.01292,
+      "printed": 0.01,
+      "diff": 0.00292
+     },
+     "T1_cityxtask_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_gender_p": {
+      "value": 0.2334,
+      "printed": 0.23,
+      "diff": 0.0034
+     },
+     "T2_cityxgender_p": {
+      "value": 0.698535,
+      "printed": 0.69,
+      "diff": 0.008535
+     },
+     "T2_cityxtask_p": {
+      "value": 0.020675,
+      "printed": 0.02,
+      "diff": 0.000675
+     },
+     "F0_gender_p": {
+      "value": 0.093096,
+      "printed": 0.09,
+      "diff": 0.003096
+     },
+     "Lawton_increase_pct": {
+      "value": 1349.275362,
+      "printed": 1349,
+      "diff": 0.275362
+     },
+     "Cruttenden_sum": {
+      "value": 43.2,
+      "printed": 43.2,
+      "diff": 0.0
+     },
+     "tokens_per_male_RPS": {
+      "value": 47.385621,
+      "printed": null,
+      "diff": null
+     },
+     "tokens_per_female_RPS": {
+      "value": 46.153846,
+      "printed": null,
+      "diff": null
+     },
+     "F0_implied_female_n": {
+      "value": 71.009709,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "T1_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T1_gender_p": {
+      "value": 0.023993,
+      "printed": 0.02,
+      "diff": 0.003993
+     },
+     "T1_cityxgender_p": {
+      "value": 0.01292,
+      "printed": 0.01,
+      "diff": 0.00292
+     },
+     "T1_cityxtask_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_city_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_task_p": {
+      "value": 0.0,
+      "printed": 0.001,
+      "diff": -0.001
+     },
+     "T2_gender_p": {
+      "value": 0.2334,
+      "printed": 0.23,
+      "diff": 0.0034
+     },
+     "T2_cityxgender_p": {
+      "value": 0.698535,
+      "printed": 0.69,
+      "diff": 0.008535
+     },
+     "T2_cityxtask_p": {
+      "value": 0.020675,
+      "printed": 0.02,
+      "diff": 0.000675
+     },
+     "F0_gender_p": {
+      "value": 0.093096,
+      "printed": 0.09,
+      "diff": 0.003096
+     },
+     "Lawton_increase_pct": {
+      "value": 1349.275362,
+      "printed": 1349,
+      "diff": 0.275362
+     },
+     "Cruttenden_sum": {
+      "value": 43.2,
+      "printed": 43.2,
+      "diff": 0.0
+     },
+     "tokens_per_male_RPS": {
+      "value": 47.385621,
+      "printed": null,
+      "diff": null
+     },
+     "tokens_per_female_RPS": {
+      "value": 46.153846,
+      "printed": null,
+      "diff": null
+     },
+     "F0_implied_female_n": {
+      "value": 71.009709,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

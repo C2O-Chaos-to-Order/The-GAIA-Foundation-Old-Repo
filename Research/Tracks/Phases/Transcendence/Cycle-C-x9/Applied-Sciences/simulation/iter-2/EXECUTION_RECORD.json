@@ -1,0 +1,178 @@
+{
+ "sim_id": "SIM-TR-APP-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:53.639327+00:00",
+ "finished_utc": "2026-10-25T01:20:54.061455+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "57a34b04fd1fb26025f36e5f9111aa6dddbaae7969718fdb2bcfdf9aac961693",
+ "params_sha256": "9265f46e9fecfbe6f76877a51784c02e1ad05600da7dc4d44c98e713c0565a22",
+ "results_sha256": "560552064a71144b72eb0e60fb36b778b5013c6e80aa6f01b61464a1ecca7e8a",
+ "results": {
+  "items": {
+   "t_Ineffability": {
+    "value": 3.004115,
+    "printed": 3.0,
+    "diff": 0.004115
+   },
+   "tol_Ineffability": {
+    "value": 0.070576,
+    "printed": null,
+    "diff": null
+   },
+   "t_Mystical": {
+    "value": 3.068182,
+    "printed": 3.1,
+    "diff": -0.031818
+   },
+   "tol_Mystical": {
+    "value": 0.068939,
+    "printed": null,
+    "diff": null
+   },
+   "t_PositiveMood": {
+    "value": 2.426778,
+    "printed": 2.4,
+    "diff": 0.026778
+   },
+   "tol_PositiveMood": {
+    "value": 0.070921,
+    "printed": null,
+    "diff": null
+   },
+   "t_TranscTimeSpace": {
+    "value": 3.964758,
+    "printed": 3.9,
+    "diff": 0.064758
+   },
+   "tol_TranscTimeSpace": {
+    "value": 0.072026,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P106 Table 2 (MEQ30): every printed t equals slope/SE within rounding",
+   "observed": {
+    "items": {
+     "t_Ineffability": {
+      "value": 3.004115,
+      "printed": 3.0,
+      "diff": 0.004115
+     },
+     "tol_Ineffability": {
+      "value": 0.070576,
+      "printed": null,
+      "diff": null
+     },
+     "t_Mystical": {
+      "value": 3.068182,
+      "printed": 3.1,
+      "diff": -0.031818
+     },
+     "tol_Mystical": {
+      "value": 0.068939,
+      "printed": null,
+      "diff": null
+     },
+     "t_PositiveMood": {
+      "value": 2.426778,
+      "printed": 2.4,
+      "diff": 0.026778
+     },
+     "tol_PositiveMood": {
+      "value": 0.070921,
+      "printed": null,
+      "diff": null
+     },
+     "t_TranscTimeSpace": {
+      "value": 3.964758,
+      "printed": 3.9,
+      "diff": 0.064758
+     },
+     "tol_TranscTimeSpace": {
+      "value": 0.072026,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "t_Ineffability": {
+      "value": 3.004115,
+      "printed": 3.0,
+      "diff": 0.004115
+     },
+     "tol_Ineffability": {
+      "value": 0.070576,
+      "printed": null,
+      "diff": null
+     },
+     "t_Mystical": {
+      "value": 3.068182,
+      "printed": 3.1,
+      "diff": -0.031818
+     },
+     "tol_Mystical": {
+      "value": 0.068939,
+      "printed": null,
+      "diff": null
+     },
+     "t_PositiveMood": {
+      "value": 2.426778,
+      "printed": 2.4,
+      "diff": 0.026778
+     },
+     "tol_PositiveMood": {
+      "value": 0.070921,
+      "printed": null,
+      "diff": null
+     },
+     "t_TranscTimeSpace": {
+      "value": 3.964758,
+      "printed": 3.9,
+      "diff": 0.064758
+     },
+     "tol_TranscTimeSpace": {
+      "value": 0.072026,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

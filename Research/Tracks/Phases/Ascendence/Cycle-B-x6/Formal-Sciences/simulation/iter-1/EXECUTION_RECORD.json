@@ -1,0 +1,178 @@
+{
+ "sim_id": "SIM-AS-FOR-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:23.921841+00:00",
+ "finished_utc": "2026-10-24T23:40:23.942508+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "1696f1a0dde48cefc4407f89494ca8e1a55fe0c7adc60190d73ead772729ead3",
+ "params_sha256": "1b5a0f5fcaa8682a008ee64729dfdce137c1e3ee102a55b1e58e8b9fb31f1ee7",
+ "results_sha256": "a4c1bc5c7d901699be73fe5f8beb0c62807f2d017523f78f0415e71c0475292f",
+ "results": {
+  "results": {
+   "0.95": {
+    "[-1.5, 2.0]": {
+     "conv": true,
+     "steps": 152,
+     "err": 9.2e-07,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": true,
+     "steps": 134,
+     "err": 9.9e-07,
+     "diverged": false
+    },
+    "[0.0, 0.0]": {
+     "conv": true,
+     "steps": 132,
+     "err": 9.2e-07,
+     "diverged": false
+    }
+   },
+   "0.99": {
+    "[-1.5, 2.0]": {
+     "conv": true,
+     "steps": 786,
+     "err": 9.9e-07,
+     "diverged": false
+    },
+    "[2.0, -1.0]": {
+     "conv": true,
+     "steps": 701,
+     "err": 9.9e-07,
+     "diverged": false
+    },
+    "[0.0, 0.0]": {
+     "conv": true,
+     "steps": 684,
+     "err": 1e-06,
+     "diverged": false
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Euler natural-gradient steps converge from all starts at dt 0.95 and 0.99 (just below the limit)",
+   "observed": {
+    "results": {
+     "0.95": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 152,
+       "err": 9.2e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 134,
+       "err": 9.9e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 132,
+       "err": 9.2e-07,
+       "diverged": false
+      }
+     },
+     "0.99": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 786,
+       "err": 9.9e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 701,
+       "err": 9.9e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 684,
+       "err": 1e-06,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "0.95": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 152,
+       "err": 9.2e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 134,
+       "err": 9.9e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 132,
+       "err": 9.2e-07,
+       "diverged": false
+      }
+     },
+     "0.99": {
+      "[-1.5, 2.0]": {
+       "conv": true,
+       "steps": 786,
+       "err": 9.9e-07,
+       "diverged": false
+      },
+      "[2.0, -1.0]": {
+       "conv": true,
+       "steps": 701,
+       "err": 9.9e-07,
+       "diverged": false
+      },
+      "[0.0, 0.0]": {
+       "conv": true,
+       "steps": 684,
+       "err": 1e-06,
+       "diverged": false
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

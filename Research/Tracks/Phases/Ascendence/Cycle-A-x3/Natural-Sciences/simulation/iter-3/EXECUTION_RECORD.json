@@ -1,0 +1,356 @@
+{
+ "sim_id": "SIM-AS-NAT-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:22:05.761481+00:00",
+ "finished_utc": "2026-10-24T23:22:07.207459+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "ba1aa54ed4985571c61452752c5192ed30055012b56f2f9a05835564402b17db",
+ "params_sha256": "385bb374ac9a4203e209c6a5cdb157e0a2b6b21fe71f88834197cfe4bbe4d0ad",
+ "results_sha256": "fce4d3f58617cdb8de6bf96c857ce3233737f296d44065f390d45765f1fc148f",
+ "results": {
+  "by_L": {
+   "5": {
+    "hoc": {
+     "n_peaks": 63.6,
+     "frac_peaks": 0.0621,
+     "P0.14": 0.1953,
+     "P_global": 0.0199,
+     "R_ph_bs": null,
+     "R_ph_bs_min": null,
+     "P0.14_min": 0.1484
+    },
+    "V1_smooth": {
+     "n_peaks": 1,
+     "frac_peaks": 0.00098,
+     "P0.14": 1.0,
+     "P_global": 1.0,
+     "R_ph_bs": null
+    }
+   },
+   "6": {
+    "hoc": {
+     "n_peaks": 211.2,
+     "frac_peaks": 0.0516,
+     "P0.14": 0.1983,
+     "P_global": 0.0086,
+     "R_ph_bs": null,
+     "R_ph_bs_min": null,
+     "P0.14_min": 0.167
+    },
+    "V1_smooth": {
+     "n_peaks": 1,
+     "frac_peaks": 0.00024,
+     "P0.14": 1.0,
+     "P_global": 1.0,
+     "R_ph_bs": null
+    }
+   },
+   "7": {
+    "hoc": {
+     "n_peaks": 752.0,
+     "frac_peaks": 0.0459,
+     "P0.14": 0.2184,
+     "P_global": 0.0013,
+     "R_ph_bs": null,
+     "R_ph_bs_min": null,
+     "P0.14_min": 0.2095
+    },
+    "V1_smooth": {
+     "n_peaks": 1,
+     "frac_peaks": 6e-05,
+     "P0.14": 1.0,
+     "P_global": 1.0,
+     "R_ph_bs": null
+    }
+   },
+   "8": {
+    "hoc": {
+     "n_peaks": 2621.8,
+     "frac_peaks": 0.04,
+     "P0.14": 0.214,
+     "P_global": 0.0005,
+     "R_ph_bs": null,
+     "R_ph_bs_min": null,
+     "P0.14_min": 0.2072
+    },
+    "V1_smooth": {
+     "n_peaks": 1,
+     "frac_peaks": 2e-05,
+     "P0.14": 1.0,
+     "P_global": 1.0,
+     "R_ph_bs": null
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "for every L an additive RMF landscape (sigma 0) has one peak reached by every walk",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "HoC: mean P14% between 0.15 and 0.35 at every size 5-8 sites",
+   "observed": {
+    "by_L": {
+     "5": {
+      "hoc": {
+       "n_peaks": 63.6,
+       "frac_peaks": 0.0621,
+       "P0.14": 0.1953,
+       "P_global": 0.0199,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.1484
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.00098,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "6": {
+      "hoc": {
+       "n_peaks": 211.2,
+       "frac_peaks": 0.0516,
+       "P0.14": 0.1983,
+       "P_global": 0.0086,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.167
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.00024,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "7": {
+      "hoc": {
+       "n_peaks": 752.0,
+       "frac_peaks": 0.0459,
+       "P0.14": 0.2184,
+       "P_global": 0.0013,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.2095
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 6e-05,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "8": {
+      "hoc": {
+       "n_peaks": 2621.8,
+       "frac_peaks": 0.04,
+       "P0.14": 0.214,
+       "P_global": 0.0005,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.2072
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 2e-05,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "HoC: the range of mean P14% across sizes is below 0.08 (P85: 'minimal impacts')",
+   "observed": {
+    "by_L": {
+     "5": {
+      "hoc": {
+       "n_peaks": 63.6,
+       "frac_peaks": 0.0621,
+       "P0.14": 0.1953,
+       "P_global": 0.0199,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.1484
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.00098,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "6": {
+      "hoc": {
+       "n_peaks": 211.2,
+       "frac_peaks": 0.0516,
+       "P0.14": 0.1983,
+       "P_global": 0.0086,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.167
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.00024,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "7": {
+      "hoc": {
+       "n_peaks": 752.0,
+       "frac_peaks": 0.0459,
+       "P0.14": 0.2184,
+       "P_global": 0.0013,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.2095
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 6e-05,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "8": {
+      "hoc": {
+       "n_peaks": 2621.8,
+       "frac_peaks": 0.04,
+       "P0.14": 0.214,
+       "P_global": 0.0005,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.2072
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 2e-05,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "5": {
+      "hoc": {
+       "n_peaks": 63.6,
+       "frac_peaks": 0.0621,
+       "P0.14": 0.1953,
+       "P_global": 0.0199,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.1484
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.00098,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "6": {
+      "hoc": {
+       "n_peaks": 211.2,
+       "frac_peaks": 0.0516,
+       "P0.14": 0.1983,
+       "P_global": 0.0086,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.167
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.00024,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "7": {
+      "hoc": {
+       "n_peaks": 752.0,
+       "frac_peaks": 0.0459,
+       "P0.14": 0.2184,
+       "P_global": 0.0013,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.2095
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 6e-05,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     },
+     "8": {
+      "hoc": {
+       "n_peaks": 2621.8,
+       "frac_peaks": 0.04,
+       "P0.14": 0.214,
+       "P_global": 0.0005,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.2072
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 2e-05,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

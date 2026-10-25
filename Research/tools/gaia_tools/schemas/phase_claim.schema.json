@@ -25,7 +25,7 @@
  "properties": {
   "claim_id": {
    "type": "string",
-   "pattern": "^(DV|IN|AL|CV|AS)[0A-D]-(NAT|FOR|SOC|APP|HUM|PHI)-[0-9]{2}$"
+   "pattern": "^(DV|IN|AL|CV|AS|TR)[0A-D]-(NAT|FOR|SOC|APP|HUM|PHI)-[0-9]{2}$"
   },
   "field": {
    "enum": [
@@ -70,7 +70,7 @@
   },
   "source_ids": {
    "type": "string",
-   "pattern": "^((P[0-9]{2,3}|K[0-9]{2}|[GSTUVWXYZ][0-9]{2}[a-z]?|SIM-(DV|IN|AL|CV|AS)-(NAT|FOR|SOC|APP|HUM|PHI)-[0A-D]/iter-[0-9]+#[A-Za-z0-9_.]+)(;|$))+$"
+   "pattern": "^((P[0-9]{2,3}|K[0-9]{2}|[GSTUVWXYZ][0-9]{2}[a-z]?|SIM-(DV|IN|AL|CV|AS|TR)-(NAT|FOR|SOC|APP|HUM|PHI)-[0A-D]/iter-[0-9]+#[A-Za-z0-9_.]+)(;|$))+$"
   },
   "locator": {
    "type": "string"

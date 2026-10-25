@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-AS-HUM-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:49.162055+00:00",
+ "finished_utc": "2026-10-25T00:01:49.186521+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "e476a1a02ac8a7aea1a447108e060d7d577013c2bb37aad5618b3dabbc96a1ef",
+ "params_sha256": "4eff4b5d0f2a894099cdeeaeb890e26cf600360efbade04da3d7aa9298f975b1",
+ "results_sha256": "692117d8814be0e05e7238e6ee1598c4b0569b5146a3b803fa0e516bc324a8ef",
+ "results": {
+  "by_x0": {
+   "0.17": {
+    "p_fix": 0.2625,
+    "p_lost": 0.7375,
+    "p_unresolved": 0.0,
+    "mean_gens": 8.851
+   },
+   "0.18": {
+    "p_fix": 0.4295,
+    "p_lost": 0.5705,
+    "p_unresolved": 0.0,
+    "mean_gens": 9.185
+   },
+   "0.19": {
+    "p_fix": 0.598,
+    "p_lost": 0.402,
+    "p_unresolved": 0.0,
+    "mean_gens": 9.162
+   }
+  },
+  "N": 200,
+  "c": 1.5,
+  "b": 1.0,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.24976475,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "c 1.5, b 1.0: fixation exceeds one half from 19%",
+   "observed": {
+    "by_x0": {
+     "0.17": {
+      "p_fix": 0.2625,
+      "p_lost": 0.7375,
+      "p_unresolved": 0.0,
+      "mean_gens": 8.851
+     },
+     "0.18": {
+      "p_fix": 0.4295,
+      "p_lost": 0.5705,
+      "p_unresolved": 0.0,
+      "mean_gens": 9.185
+     },
+     "0.19": {
+      "p_fix": 0.598,
+      "p_lost": 0.402,
+      "p_unresolved": 0.0,
+      "mean_gens": 9.162
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 1.0,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.17": {
+      "p_fix": 0.2625,
+      "p_lost": 0.7375,
+      "p_unresolved": 0.0,
+      "mean_gens": 8.851
+     },
+     "0.18": {
+      "p_fix": 0.4295,
+      "p_lost": 0.5705,
+      "p_unresolved": 0.0,
+      "mean_gens": 9.185
+     },
+     "0.19": {
+      "p_fix": 0.598,
+      "p_lost": 0.402,
+      "p_unresolved": 0.0,
+      "mean_gens": 9.162
+     }
+    },
+    "N": 200,
+    "c": 1.5,
+    "b": 1.0,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

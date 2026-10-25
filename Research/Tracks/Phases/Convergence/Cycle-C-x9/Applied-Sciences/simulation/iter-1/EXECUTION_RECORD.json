@@ -1,0 +1,144 @@
+{
+ "sim_id": "SIM-CV-APP-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:44.832582+00:00",
+ "finished_utc": "2026-10-24T21:13:44.837079+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "9fb18b2670e7eb9a2c338fdc09239cfa814e152414c61c4921e0dd8afe607601",
+ "params_sha256": "03de13d1c7fb59b114f12a7c4aeb44df061ee3f0474707c4c8102ca9961cb85d",
+ "results_sha256": "f35f07fb950189ccec0dabc0005f7111488eada85b494bfffd99554db4fa45df",
+ "results": {
+  "exact": 7.95492652,
+  "rows": {
+   "5": {
+    "trap_err": 0.03439692,
+    "simp_err": 0.53431579
+   },
+   "9": {
+    "trap_err": 1.25e-06,
+    "simp_err": 0.01146397
+   },
+   "17": {
+    "trap_err": 0.0,
+    "simp_err": 4.2e-07
+   },
+   "33": {
+    "trap_err": 0.0,
+    "simp_err": 0.0
+   }
+  },
+  "order_trap": null,
+  "order_simp": 28.8073
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson's rule integrates x^3 on [0, 1] exactly (1/4) with 5 nodes",
+   "observed": 0.25,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P79: periodic integrand over its period (e^cos x) - trapezoid error below 1e-12 with 17 nodes",
+   "observed": {
+    "exact": 7.95492652,
+    "rows": {
+     "5": {
+      "trap_err": 0.03439692,
+      "simp_err": 0.53431579
+     },
+     "9": {
+      "trap_err": 1.25e-06,
+      "simp_err": 0.01146397
+     },
+     "17": {
+      "trap_err": 0.0,
+      "simp_err": 4.2e-07
+     },
+     "33": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": null,
+    "order_simp": 28.8073
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "trapezoid beats Simpson at equal evaluations (9 and 17 nodes)",
+   "observed": {
+    "exact": 7.95492652,
+    "rows": {
+     "5": {
+      "trap_err": 0.03439692,
+      "simp_err": 0.53431579
+     },
+     "9": {
+      "trap_err": 1.25e-06,
+      "simp_err": 0.01146397
+     },
+     "17": {
+      "trap_err": 0.0,
+      "simp_err": 4.2e-07
+     },
+     "33": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": null,
+    "order_simp": 28.8073
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 7.95492652,
+    "rows": {
+     "5": {
+      "trap_err": 0.03439692,
+      "simp_err": 0.53431579
+     },
+     "9": {
+      "trap_err": 1.25e-06,
+      "simp_err": 0.01146397
+     },
+     "17": {
+      "trap_err": 0.0,
+      "simp_err": 4.2e-07
+     },
+     "33": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": null,
+    "order_simp": 28.8073
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,118 @@
+{
+ "sim_id": "SIM-TR-APP-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:16.310517+00:00",
+ "finished_utc": "2026-10-25T00:59:16.739506+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-6  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "b0c8566733af11f25d89a775f165e35030e789ac45fd8b46ddba9c9cf559571b",
+ "params_sha256": "c3936e87fde9d7e8d1b7c15a8c22d606fda90a34c576e88430eb3cc7c44b26cc",
+ "results_sha256": "11a4209f88293560bd96df4c9f229e9720dbc8f1b827a87587b5a1608768e666",
+ "results": {
+  "items": {
+   "rmsea_N_4f": {
+    "value": 0.053161,
+    "printed": 0.053,
+    "diff": 0.000161
+   },
+   "rmsea_N_3f": {
+    "value": 0.049445,
+    "printed": 0.049,
+    "diff": 0.000445
+   },
+   "rmsea_N_2f": {
+    "value": 0.052612,
+    "printed": 0.053,
+    "diff": -0.000388
+   },
+   "rmsea_N_1f": {
+    "value": 0.077297,
+    "printed": 0.077,
+    "diff": 0.000297
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P100's RMSEA also reproduces within 0.001 with N instead of N - 1 in the denominator (the convention does not matter at N 116)",
+   "observed": {
+    "items": {
+     "rmsea_N_4f": {
+      "value": 0.053161,
+      "printed": 0.053,
+      "diff": 0.000161
+     },
+     "rmsea_N_3f": {
+      "value": 0.049445,
+      "printed": 0.049,
+      "diff": 0.000445
+     },
+     "rmsea_N_2f": {
+      "value": 0.052612,
+      "printed": 0.053,
+      "diff": -0.000388
+     },
+     "rmsea_N_1f": {
+      "value": 0.077297,
+      "printed": 0.077,
+      "diff": 0.000297
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "rmsea_N_4f": {
+      "value": 0.053161,
+      "printed": 0.053,
+      "diff": 0.000161
+     },
+     "rmsea_N_3f": {
+      "value": 0.049445,
+      "printed": 0.049,
+      "diff": 0.000445
+     },
+     "rmsea_N_2f": {
+      "value": 0.052612,
+      "printed": 0.053,
+      "diff": -0.000388
+     },
+     "rmsea_N_1f": {
+      "value": 0.077297,
+      "printed": 0.077,
+      "diff": 0.000297
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

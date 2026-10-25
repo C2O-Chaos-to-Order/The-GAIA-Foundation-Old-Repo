@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-CV-APP-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:12.866178+00:00",
+ "finished_utc": "2026-10-24T22:15:12.871232+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-11  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "167a21be6d2174cd8e4d9a631388dd8fcc277e4fafcca28f219779a5a7a8e41d",
+ "params_sha256": "cb6da94a1b83e32b1da37ce4e58493b203d4ba61f760d426eee2c95c2e4a555d",
+ "results_sha256": "afe59eec259277f8b07637b6f089323cc499746fddc71ba2788e85ef4009e2d1",
+ "results": {
+  "exact": 1.71828183,
+  "rows": {
+   "9": {
+    "trap_err": 0.00223676,
+    "simp_err": 2.33e-06
+   },
+   "17": {
+    "trap_err": 0.0005593,
+    "simp_err": 1.5e-07
+   },
+   "33": {
+    "trap_err": 0.00013983,
+    "simp_err": 1e-08
+   }
+  },
+  "order_trap": 1.9999,
+  "order_simp": 3.9995
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson's rule integrates x^3 on [0, 1] exactly (1/4) with 5 nodes",
+   "observed": 0.25,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication of the smooth contrast on [0, 1]: orders within 0.1 of 2 and 0.2 of 4",
+   "observed": {
+    "exact": 1.71828183,
+    "rows": {
+     "9": {
+      "trap_err": 0.00223676,
+      "simp_err": 2.33e-06
+     },
+     "17": {
+      "trap_err": 0.0005593,
+      "simp_err": 1.5e-07
+     },
+     "33": {
+      "trap_err": 0.00013983,
+      "simp_err": 1e-08
+     }
+    },
+    "order_trap": 1.9999,
+    "order_simp": 3.9995
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 1.71828183,
+    "rows": {
+     "9": {
+      "trap_err": 0.00223676,
+      "simp_err": 2.33e-06
+     },
+     "17": {
+      "trap_err": 0.0005593,
+      "simp_err": 1.5e-07
+     },
+     "33": {
+      "trap_err": 0.00013983,
+      "simp_err": 1e-08
+     }
+    },
+    "order_trap": 1.9999,
+    "order_simp": 3.9995
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

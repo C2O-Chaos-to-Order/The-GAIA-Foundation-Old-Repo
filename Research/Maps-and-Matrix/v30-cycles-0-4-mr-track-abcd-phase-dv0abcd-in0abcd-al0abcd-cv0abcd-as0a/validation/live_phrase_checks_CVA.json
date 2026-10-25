@@ -1,0 +1,149 @@
+{
+ "cycle": "CVA",
+ "checked_utc": "2026-10-24T20:26:06+00:00",
+ "summary": {
+  "Pass": 20
+ },
+ "checks": [
+  {
+   "claim_id": "CVA-NAT-01",
+   "source_id": "P68",
+   "phrase": "Linear stability analysis reveals that this solution is stable when",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-NAT-01",
+   "source_id": "P68",
+   "phrase": "the proportion of cooperators and cheaters at equilibrium is always 50",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-NAT-01",
+   "source_id": "P68",
+   "phrase": "we recover the classical Kuramoto model",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-NAT-03",
+   "source_id": "P74",
+   "phrase": "Given two vectors of n loci, the expected proportion of overlap due to random chance is simply the product of the proportions of ones in each vector",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-NAT-03",
+   "source_id": "P74",
+   "phrase": "lineages sharing repeatedly evolved phenotypes (eyes, medusa loss, and upright colonies) do not exhibit elevated molecular convergence",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-NAT-03",
+   "source_id": "P74",
+   "phrase": "n = 3 , 570 species pairs",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-FOR-01",
+   "source_id": "P73",
+   "phrase": "A Markov chain is said to be a regular Markov chain if some power of its transition matrix T has only positive entries",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-FOR-01",
+   "source_id": "P73",
+   "phrase": "we need only examine powers T m up to",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-FOR-01",
+   "source_id": "P73",
+   "phrase": "condition for having an equilibrium, but is not a necessary condition",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-SOC-01",
+   "source_id": "P69",
+   "phrase": "this relationship is reversed when the initial-estimate distribution is characterized by low dispersion and underestimation bias",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-SOC-01",
+   "source_id": "P69",
+   "phrase": "is substantially explained by R (z-statistic = 4.16",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-APP-01",
+   "source_id": "P70",
+   "phrase": "40-62% reduction in function evaluations compared to adaptive Simpson method",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-APP-01",
+   "source_id": "P70",
+   "phrase": "AHQS achieves 20 − 35 % reduction in evaluations compared to Gauss-Kronrod",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-HUM-01",
+   "source_id": "P71",
+   "phrase": "Selected final model: M4",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-HUM-01",
+   "source_id": "P71",
+   "phrase": "This significantly improved the fit, χ 2 (1) = 6.82, p = 0.0090",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-PHI-01",
+   "source_id": "P72",
+   "phrase": "The opinion which is fated to be ultimately agreed to by all who investigate, is what we mean by the truth",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-PHI-01",
+   "source_id": "P72",
+   "phrase": "what Peirce called buried secrets",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-PHI-03",
+   "source_id": "P75",
+   "phrase": "results will move steadily together toward a destined centre",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-PHI-03",
+   "source_id": "P75",
+   "phrase": "so completely has the idea of loyalty replaced that of truth-seeking",
+   "http_status": "200",
+   "result": "Pass"
+  },
+  {
+   "claim_id": "CVA-PHI-03",
+   "source_id": "P75",
+   "phrase": "to the lost books of the ancients, to the buried secrets",
+   "http_status": "200",
+   "result": "Pass"
+  }
+ ]
+}

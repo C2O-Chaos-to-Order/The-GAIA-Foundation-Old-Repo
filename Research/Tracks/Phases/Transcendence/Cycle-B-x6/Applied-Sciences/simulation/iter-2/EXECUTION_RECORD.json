@@ -1,0 +1,193 @@
+{
+ "sim_id": "SIM-TR-APP-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:14.928763+00:00",
+ "finished_utc": "2026-10-25T00:59:15.355562+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "086fb4c0ae6ba8566104d03a3b7eeae9d01191ef8a6319365279dca0506594fe",
+ "params_sha256": "b950dda35da41cd63ef0d11eb35ea1744b3c01db3bfac0d8603560ec517939a7",
+ "results_sha256": "a651c75ddf93b81a92c9bf797bc5786cc66582e869683078b5d16e37d22c2f4c",
+ "results": {
+  "items": {
+   "pow_SelfTranscendence": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "pow_SpiritualWB": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "pow_ReligiousSWB": {
+    "value": 0.543113,
+    "printed": null,
+    "diff": null
+   },
+   "pow_ExistentialSWB": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "pow_Depression": {
+    "value": 1.0,
+    "printed": null,
+    "diff": null
+   },
+   "pow_LifeSatisfaction": {
+    "value": 0.515851,
+    "printed": null,
+    "diff": null
+   },
+   "pow_PositiveAffect": {
+    "value": 0.979634,
+    "printed": null,
+    "diff": null
+   },
+   "pow_NegativeAffect": {
+    "value": 0.999994,
+    "printed": null,
+    "diff": null
+   },
+   "pow_design_d45_n34": {
+    "value": 0.82243,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the design power at d .45 with the 34 completers is still at least .80 (P103 planned 32)",
+   "observed": {
+    "items": {
+     "pow_SelfTranscendence": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_SpiritualWB": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_ReligiousSWB": {
+      "value": 0.543113,
+      "printed": null,
+      "diff": null
+     },
+     "pow_ExistentialSWB": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_Depression": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_LifeSatisfaction": {
+      "value": 0.515851,
+      "printed": null,
+      "diff": null
+     },
+     "pow_PositiveAffect": {
+      "value": 0.979634,
+      "printed": null,
+      "diff": null
+     },
+     "pow_NegativeAffect": {
+      "value": 0.999994,
+      "printed": null,
+      "diff": null
+     },
+     "pow_design_d45_n34": {
+      "value": 0.82243,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "pow_SelfTranscendence": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_SpiritualWB": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_ReligiousSWB": {
+      "value": 0.543113,
+      "printed": null,
+      "diff": null
+     },
+     "pow_ExistentialSWB": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_Depression": {
+      "value": 1.0,
+      "printed": null,
+      "diff": null
+     },
+     "pow_LifeSatisfaction": {
+      "value": 0.515851,
+      "printed": null,
+      "diff": null
+     },
+     "pow_PositiveAffect": {
+      "value": 0.979634,
+      "printed": null,
+      "diff": null
+     },
+     "pow_NegativeAffect": {
+      "value": 0.999994,
+      "printed": null,
+      "diff": null
+     },
+     "pow_design_d45_n34": {
+      "value": 0.82243,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

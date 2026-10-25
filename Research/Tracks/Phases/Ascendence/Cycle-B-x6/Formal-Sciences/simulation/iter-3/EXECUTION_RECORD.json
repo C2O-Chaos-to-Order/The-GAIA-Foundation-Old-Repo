@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-AS-FOR-B",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:25.213584+00:00",
+ "finished_utc": "2026-10-24T23:40:28.253981+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-3  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "d3454b2bad66fca2a0ff6af8f60315f1664c0ace9d4f0d1c62d21cda2c78f9d5",
+ "params_sha256": "319ef667bea920407c9f623e34e9f0b66e1a8b3e9dd1ff0756fccdb710e6f1e3",
+ "results_sha256": "cf5f50bc577f7e36194a92d429bae739959cf499208d04c9a3314094219014b9",
+ "results": {
+  "results": {
+   "nat_conv": 1.0,
+   "gd_conv": 1.0,
+   "nat_t_q": [
+    4.965,
+    5.893,
+    6.388
+   ],
+   "gd_t_q": [
+    22.084,
+    22.213,
+    28.2
+   ],
+   "nat_faster_share": 1.0,
+   "nat_t_minus_zpred_max": -0.165
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "box [-6, 6]^2: natural gradient flow converges from all 100 starts",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      4.965,
+      5.893,
+      6.388
+     ],
+     "gd_t_q": [
+      22.084,
+      22.213,
+      28.2
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.165
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "natural gradient flow faster from every start",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      4.965,
+      5.893,
+      6.388
+     ],
+     "gd_t_q": [
+      22.084,
+      22.213,
+      28.2
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.165
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      4.965,
+      5.893,
+      6.388
+     ],
+     "gd_t_q": [
+      22.084,
+      22.213,
+      28.2
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.165
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

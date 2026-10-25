@@ -1,0 +1,118 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:16.782670+00:00",
+ "finished_utc": "2026-10-24T22:15:17.224579+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-3  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "580fbd410a3fff88da61b6ef7788feceb6a24a621c6728c0f41ed775e78bbfda",
+ "params_sha256": "e3f3d17ef7e1abbf5d17943e3ad3d3b62ea81be91e39c5e62038746030d090cf",
+ "results_sha256": "8d6e9685caed012284fada452acd84dc57037519ac35253e82b4c9703144758c",
+ "results": {
+  "items": {
+   "chi2_traditions": {
+    "type": "p_chi2",
+    "p": 0.1274,
+    "printed": 0.127
+   },
+   "F_traditions": {
+    "type": "p_F",
+    "p": 0.2093,
+    "printed": 0.209
+   },
+   "F_interaction": {
+    "type": "p_F",
+    "p": 0.0088,
+    "printed": 0.009
+   },
+   "F_vocal": {
+    "type": "p_F",
+    "p": 0.6377,
+    "printed": 0.637
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83's p-values (0.127, 0.209, 0.009, 0.637) recomputed within 0.002 from the printed statistics and df",
+   "observed": {
+    "items": {
+     "chi2_traditions": {
+      "type": "p_chi2",
+      "p": 0.1274,
+      "printed": 0.127
+     },
+     "F_traditions": {
+      "type": "p_F",
+      "p": 0.2093,
+      "printed": 0.209
+     },
+     "F_interaction": {
+      "type": "p_F",
+      "p": 0.0088,
+      "printed": 0.009
+     },
+     "F_vocal": {
+      "type": "p_F",
+      "p": 0.6377,
+      "printed": 0.637
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "chi2_traditions": {
+      "type": "p_chi2",
+      "p": 0.1274,
+      "printed": 0.127
+     },
+     "F_traditions": {
+      "type": "p_F",
+      "p": 0.2093,
+      "printed": 0.209
+     },
+     "F_interaction": {
+      "type": "p_F",
+      "p": 0.0088,
+      "printed": 0.009
+     },
+     "F_vocal": {
+      "type": "p_F",
+      "p": 0.6377,
+      "printed": 0.637
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

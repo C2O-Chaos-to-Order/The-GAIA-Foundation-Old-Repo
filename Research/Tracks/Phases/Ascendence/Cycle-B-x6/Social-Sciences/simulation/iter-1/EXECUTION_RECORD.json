@@ -1,0 +1,97 @@
+{
+ "sim_id": "SIM-AS-SOC-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:39.508983+00:00",
+ "finished_utc": "2026-10-24T23:40:39.514098+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "ddb68866441c1457094998fb6b712466bdccb9ef2849354888750cd501f5ffde",
+ "params_sha256": "36b6869a5382c7159cfa1b2f3837421e30581e4f2b0ee61b8a6e598b3f75df7d",
+ "results_sha256": "76d6c27dd76d2b7b82197e9720b03315cb30afd416458d17abf57b9aad8a69d2",
+ "results": {
+  "by_year": {
+   "1974": {
+    "fixed": {
+     "pct_mobile": 62.015
+    },
+    "unidiff": {
+     "pct_mobile": 65.565
+    },
+    "independence": {
+     "pct_mobile": 76.732
+    },
+    "min_mobility_pct": 16.14
+   }
+  },
+  "max_margin_err": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "IPF reproduces both margins within 1e-9 in every fit",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "1974 margins: scaling 1901 inheritance by exp(-0.24) (P87's unidiff) raises % mobile by at least 3 points over fixed inheritance",
+   "observed": {
+    "by_year": {
+     "1974": {
+      "fixed": {
+       "pct_mobile": 62.015
+      },
+      "unidiff": {
+       "pct_mobile": 65.565
+      },
+      "independence": {
+       "pct_mobile": 76.732
+      },
+      "min_mobility_pct": 16.14
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_year": {
+     "1974": {
+      "fixed": {
+       "pct_mobile": 62.015
+      },
+      "unidiff": {
+       "pct_mobile": 65.565
+      },
+      "independence": {
+       "pct_mobile": 76.732
+      },
+      "min_mobility_pct": 16.14
+     }
+    },
+    "max_margin_err": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

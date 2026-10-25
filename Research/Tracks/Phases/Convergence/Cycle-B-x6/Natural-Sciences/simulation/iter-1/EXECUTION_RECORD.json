@@ -1,0 +1,334 @@
+{
+ "sim_id": "SIM-CV-NAT-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:49.373994+00:00",
+ "finished_utc": "2026-10-24T20:45:44.338926+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "e445d0f611bafa82f4296479ba34e955d30d58aefa8fba17387ad4133ab21ce5",
+ "params_sha256": "68b967535242d218560a4a8263a41a3289c8268487afe976417a7b89748ec57d",
+ "results_sha256": "329ad0ea3a4a0fb28c5978ce6022d656030c4a1be3651ff9902aa07e4409e8f4",
+ "results": {
+  "Kc": 1.0,
+  "N": 2000,
+  "dist": "lorentz",
+  "width": 0.5,
+  "by_K": {
+   "0.5": {
+    "r_sim": 0.02995,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "0.8": {
+    "r_sim": 0.04115,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "1.2": {
+    "r_sim": 0.40875,
+    "r_selfconsistent": 0.40825,
+    "r_small_mu": 0.44721,
+    "r_lorentz_exact": 0.40825
+   },
+   "1.5": {
+    "r_sim": 0.57742,
+    "r_selfconsistent": 0.57735,
+    "r_small_mu": 0.70711,
+    "r_lorentz_exact": 0.57735
+   },
+   "2.0": {
+    "r_sim": 0.70721,
+    "r_selfconsistent": 0.70711,
+    "r_small_mu": 1.0,
+    "r_lorentz_exact": 0.70711
+   },
+   "3.0": {
+    "r_sim": 0.81655,
+    "r_selfconsistent": 0.8165,
+    "r_small_mu": 1.41421,
+    "r_lorentz_exact": 0.8165
+   }
+  },
+  "V1_r_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "identical frequencies with K = 1 synchronise from random phases: time-averaged r > 0.99 over the second half",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P76's K_c = 2/(pi g(0)) equals 2 gamma = 1.0 for the Lorentzian (within 1e-9)",
+   "observed": {
+    "Kc": 1.0,
+    "N": 2000,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.02995,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.04115,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.2": {
+      "r_sim": 0.40875,
+      "r_selfconsistent": 0.40825,
+      "r_small_mu": 0.44721,
+      "r_lorentz_exact": 0.40825
+     },
+     "1.5": {
+      "r_sim": 0.57742,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "2.0": {
+      "r_sim": 0.70721,
+      "r_selfconsistent": 0.70711,
+      "r_small_mu": 1.0,
+      "r_lorentz_exact": 0.70711
+     },
+     "3.0": {
+      "r_sim": 0.81655,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "self-consistency solution within 0.01 of the closed form sqrt(1 - K_c/K) for K = 1.2-3",
+   "observed": {
+    "Kc": 1.0,
+    "N": 2000,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.02995,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.04115,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.2": {
+      "r_sim": 0.40875,
+      "r_selfconsistent": 0.40825,
+      "r_small_mu": 0.44721,
+      "r_lorentz_exact": 0.40825
+     },
+     "1.5": {
+      "r_sim": 0.57742,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "2.0": {
+      "r_sim": 0.70721,
+      "r_selfconsistent": 0.70711,
+      "r_small_mu": 1.0,
+      "r_lorentz_exact": 0.70711
+     },
+     "3.0": {
+      "r_sim": 0.81655,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "simulated r within 0.05 of sqrt(1 - K_c/K) for K = 1.2-3",
+   "observed": {
+    "Kc": 1.0,
+    "N": 2000,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.02995,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.04115,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.2": {
+      "r_sim": 0.40875,
+      "r_selfconsistent": 0.40825,
+      "r_small_mu": 0.44721,
+      "r_lorentz_exact": 0.40825
+     },
+     "1.5": {
+      "r_sim": 0.57742,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "2.0": {
+      "r_sim": 0.70721,
+      "r_selfconsistent": 0.70711,
+      "r_small_mu": 1.0,
+      "r_lorentz_exact": 0.70711
+     },
+     "3.0": {
+      "r_sim": 0.81655,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "below K_c (K = 0.5, 0.8) the simulated r stays below 0.1",
+   "observed": {
+    "Kc": 1.0,
+    "N": 2000,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.02995,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.04115,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.2": {
+      "r_sim": 0.40875,
+      "r_selfconsistent": 0.40825,
+      "r_small_mu": 0.44721,
+      "r_lorentz_exact": 0.40825
+     },
+     "1.5": {
+      "r_sim": 0.57742,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "2.0": {
+      "r_sim": 0.70721,
+      "r_selfconsistent": 0.70711,
+      "r_small_mu": 1.0,
+      "r_lorentz_exact": 0.70711
+     },
+     "3.0": {
+      "r_sim": 0.81655,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.0,
+    "N": 2000,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.02995,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.04115,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.2": {
+      "r_sim": 0.40875,
+      "r_selfconsistent": 0.40825,
+      "r_small_mu": 0.44721,
+      "r_lorentz_exact": 0.40825
+     },
+     "1.5": {
+      "r_sim": 0.57742,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "2.0": {
+      "r_sim": 0.70721,
+      "r_selfconsistent": 0.70711,
+      "r_small_mu": 1.0,
+      "r_lorentz_exact": 0.70711
+     },
+     "3.0": {
+      "r_sim": 0.81655,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

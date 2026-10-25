@@ -1,0 +1,85 @@
+{
+ "sim_id": "SIM-AS-NAT-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:59:59.793642+00:00",
+ "finished_utc": "2026-10-25T00:00:01.191128+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-6  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "4d34bc8d63ea13d87b66d60775e6c28d638d7be84e8f7ee1008107fedf80037b",
+ "params_sha256": "258c92f3a44f6efbc82699bd6f35ba6f790bba5bebb4dad63b74e7050b37eb39",
+ "results_sha256": "a1f31f25eb89dcb2cbb608f0c57c3bd098a4cc3d1515e65cc9e17193b37c3045",
+ "results": {
+  "by_L": {
+   "8": {
+    "nk_K4": {
+     "mean_paths": 16.988,
+     "se": 2.4516,
+     "P_none": 0.592,
+     "max_paths": 593.0,
+     "reps": 500
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "no landscape has more accessible paths than the L! shortest paths",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "binary NK K 4 at L 8 (P94's estimate for A. niger: each locus interacts with about half the others): mean accessible paths above 1",
+   "observed": {
+    "by_L": {
+     "8": {
+      "nk_K4": {
+       "mean_paths": 16.988,
+       "se": 2.4516,
+       "P_none": 0.592,
+       "max_paths": 593.0,
+       "reps": 500
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "8": {
+      "nk_K4": {
+       "mean_paths": 16.988,
+       "se": 2.4516,
+       "P_none": 0.592,
+       "max_paths": 593.0,
+       "reps": 500
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

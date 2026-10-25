@@ -1,0 +1,133 @@
+{
+ "sim_id": "SIM-TR-APP-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:20:55.367240+00:00",
+ "finished_utc": "2026-10-25T01:20:55.792566+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "2675cb1691aad1698aba2de46f6f2d6d7eb8a97620042ea4dcd3ea57aaf1b274",
+ "params_sha256": "2ddc00e28c5aec4d3f5d69ef3a97c01e72a5f71e8433245373be600b557cc297",
+ "results_sha256": "7d81e1c098443385aff7b3f412f98aa3aabc37e8d53dcbb804fd597788293535",
+ "results": {
+  "items": {
+   "dose60_Ineffability": {
+    "value": 161.643836,
+    "printed": null,
+    "diff": null
+   },
+   "dose60_Mystical": {
+    "value": 334.567901,
+    "printed": null,
+    "diff": null
+   },
+   "dose60_PositiveMood": {
+    "value": 175.862069,
+    "printed": null,
+    "diff": null
+   },
+   "dose60_TranscTimeSpace": {
+    "value": 308.888889,
+    "printed": null,
+    "diff": null
+   },
+   "dose60_all_four": {
+    "value": 334.567901,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P106: the dose at which all four MEQ30 factors exceed 60% (fitted lines) is between 300 and 400 ug/kg ('approximately 350 ug/kg')",
+   "observed": {
+    "items": {
+     "dose60_Ineffability": {
+      "value": 161.643836,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_Mystical": {
+      "value": 334.567901,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_PositiveMood": {
+      "value": 175.862069,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_TranscTimeSpace": {
+      "value": 308.888889,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_all_four": {
+      "value": 334.567901,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "dose60_Ineffability": {
+      "value": 161.643836,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_Mystical": {
+      "value": 334.567901,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_PositiveMood": {
+      "value": 175.862069,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_TranscTimeSpace": {
+      "value": 308.888889,
+      "printed": null,
+      "diff": null
+     },
+     "dose60_all_four": {
+      "value": 334.567901,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-TR-SOC-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:11.207667+00:00",
+ "finished_utc": "2026-10-25T01:30:11.643518+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "a4c606a584d37d29d6d0b359e12afe9f30642b399d14fac70d2d6b8f8c402298",
+ "params_sha256": "51f766ef8649865497d5474ca650f96bf359293b7f08712c8c53dc16152ce5c1",
+ "results_sha256": "61993935b7ca3d783934665ea7295e404abac253d5dca9a5e25229305dee3831",
+ "results": {
+  "items": {
+   "experiences": {
+    "value": 1828.0,
+    "printed": 1828,
+    "diff": 0.0
+   },
+   "psy_split": {
+    "value": 1043.0,
+    "printed": 1043,
+    "diff": 0.0
+   },
+   "mean_per_subject": {
+    "value": 2.645441,
+    "printed": 2.65,
+    "diff": -0.004559
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P108's experience counts add up and give a mean of 2.65 per subject (within 0.005)",
+   "observed": {
+    "items": {
+     "experiences": {
+      "value": 1828.0,
+      "printed": 1828,
+      "diff": 0.0
+     },
+     "psy_split": {
+      "value": 1043.0,
+      "printed": 1043,
+      "diff": 0.0
+     },
+     "mean_per_subject": {
+      "value": 2.645441,
+      "printed": 2.65,
+      "diff": -0.004559
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "experiences": {
+      "value": 1828.0,
+      "printed": 1828,
+      "diff": 0.0
+     },
+     "psy_split": {
+      "value": 1043.0,
+      "printed": 1043,
+      "diff": 0.0
+     },
+     "mean_per_subject": {
+      "value": 2.645441,
+      "printed": 2.65,
+      "diff": -0.004559
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

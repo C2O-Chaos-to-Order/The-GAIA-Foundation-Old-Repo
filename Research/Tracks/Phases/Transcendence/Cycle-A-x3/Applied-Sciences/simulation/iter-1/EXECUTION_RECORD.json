@@ -1,0 +1,1028 @@
+{
+ "sim_id": "SIM-TR-APP-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:52:09.822127+00:00",
+ "finished_utc": "2026-10-25T00:52:10.269805+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "d700a3c584c4c02cbd389506c73ada390c6bd3f4e202bb388750889975d8645a",
+ "params_sha256": "4f90e834fcaa259ce370e523c4bfa14149753d3bfedeb2b832832be929b61596",
+ "results_sha256": "fbe7520191d5edaa232b95fb7f24d49a66048280fa105d1b4941f7f7a2d03277",
+ "results": {
+  "items": {
+   "p1_SelfTranscendence": {
+    "value": 0.0,
+    "printed": 0.0005,
+    "diff": -0.0005
+   },
+   "p1_SpiritualWB": {
+    "value": 0.0,
+    "printed": 0.002,
+    "diff": -0.002
+   },
+   "p1_ReligiousSWB": {
+    "value": 0.041317,
+    "printed": 0.04,
+    "diff": 0.001317
+   },
+   "p1_ExistentialSWB": {
+    "value": 0.0,
+    "printed": 0.002,
+    "diff": -0.002
+   },
+   "p1_Depression": {
+    "value": 0.0,
+    "printed": 0.0005,
+    "diff": -0.0005
+   },
+   "p1_LifeSatisfaction": {
+    "value": 0.0474,
+    "printed": 0.47,
+    "diff": -0.4226
+   },
+   "p1_PositiveAffect": {
+    "value": 0.000322,
+    "printed": 0.001,
+    "diff": -0.000678
+   },
+   "p1_NegativeAffect": {
+    "value": 0.0,
+    "printed": 0.0005,
+    "diff": -0.0005
+   },
+   "swb_pre_sum": {
+    "value": 57.31,
+    "printed": 56.52,
+    "diff": 0.79
+   },
+   "swb_post_sum": {
+    "value": 64.28,
+    "printed": 64.29,
+    "diff": -0.01
+   },
+   "retention": {
+    "value": 85.0,
+    "printed": 85,
+    "diff": 0.0
+   },
+   "dropout_reasons_sum": {
+    "value": 4.0,
+    "printed": 6,
+    "diff": -2.0
+   },
+   "pct_age_75_80": {
+    "value": 55.882353,
+    "printed": 55.9,
+    "diff": -0.017647
+   },
+   "pct_alone_6_10": {
+    "value": 55.882353,
+    "printed": 55.8,
+    "diff": 0.082353
+   },
+   "pct_health_good": {
+    "value": 26.470588,
+    "printed": 26.6,
+    "diff": -0.129412
+   },
+   "pct_guardian_children": {
+    "value": 82.352941,
+    "printed": 82.3,
+    "diff": 0.052941
+   },
+   "pct_visit_week": {
+    "value": 17.647059,
+    "printed": 17.7,
+    "diff": -0.052941
+   },
+   "pct_no_hobby": {
+    "value": 64.705882,
+    "printed": 64.7,
+    "diff": 0.005882
+   },
+   "pa_post_per_item": {
+    "value": 3.555556,
+    "printed": 3.37,
+    "diff": 0.185556
+   },
+   "na_post_per_item": {
+    "value": 2.750909,
+    "printed": 3.1,
+    "diff": -0.349091
+   },
+   "n_required_d45": {
+    "value": 32.0,
+    "printed": 32,
+    "diff": 0.0
+   },
+   "dz_SelfTranscendence": {
+    "value": 1.505758,
+    "printed": null,
+    "diff": null
+   },
+   "existential_vs_religious_gain": {
+    "value": 2.592784,
+    "printed": 2,
+    "diff": 0.592784
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "one-tailed p from t(33) reproduces every printed p in P103's Table 3 within 0.005 (printed '<.001' read as < 0.001)",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "overall spiritual well-being equals religious + existential at pretest and posttest within 0.05",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the reasons given for discontinuation add up to the six who discontinued",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "Table 2's percentages reproduce from n/34 within 0.06",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "the post-program per-item affect means in the Discussion (3.37, 3.10) equal Table 3's posttest sums divided by 9 and 11 items within 0.01",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "the a priori sample size (one-sided paired t, d .45, alpha .05, power .80) is 32 as printed",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "p1_SelfTranscendence": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_SpiritualWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_ReligiousSWB": {
+      "value": 0.041317,
+      "printed": 0.04,
+      "diff": 0.001317
+     },
+     "p1_ExistentialSWB": {
+      "value": 0.0,
+      "printed": 0.002,
+      "diff": -0.002
+     },
+     "p1_Depression": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "p1_LifeSatisfaction": {
+      "value": 0.0474,
+      "printed": 0.47,
+      "diff": -0.4226
+     },
+     "p1_PositiveAffect": {
+      "value": 0.000322,
+      "printed": 0.001,
+      "diff": -0.000678
+     },
+     "p1_NegativeAffect": {
+      "value": 0.0,
+      "printed": 0.0005,
+      "diff": -0.0005
+     },
+     "swb_pre_sum": {
+      "value": 57.31,
+      "printed": 56.52,
+      "diff": 0.79
+     },
+     "swb_post_sum": {
+      "value": 64.28,
+      "printed": 64.29,
+      "diff": -0.01
+     },
+     "retention": {
+      "value": 85.0,
+      "printed": 85,
+      "diff": 0.0
+     },
+     "dropout_reasons_sum": {
+      "value": 4.0,
+      "printed": 6,
+      "diff": -2.0
+     },
+     "pct_age_75_80": {
+      "value": 55.882353,
+      "printed": 55.9,
+      "diff": -0.017647
+     },
+     "pct_alone_6_10": {
+      "value": 55.882353,
+      "printed": 55.8,
+      "diff": 0.082353
+     },
+     "pct_health_good": {
+      "value": 26.470588,
+      "printed": 26.6,
+      "diff": -0.129412
+     },
+     "pct_guardian_children": {
+      "value": 82.352941,
+      "printed": 82.3,
+      "diff": 0.052941
+     },
+     "pct_visit_week": {
+      "value": 17.647059,
+      "printed": 17.7,
+      "diff": -0.052941
+     },
+     "pct_no_hobby": {
+      "value": 64.705882,
+      "printed": 64.7,
+      "diff": 0.005882
+     },
+     "pa_post_per_item": {
+      "value": 3.555556,
+      "printed": 3.37,
+      "diff": 0.185556
+     },
+     "na_post_per_item": {
+      "value": 2.750909,
+      "printed": 3.1,
+      "diff": -0.349091
+     },
+     "n_required_d45": {
+      "value": 32.0,
+      "printed": 32,
+      "diff": 0.0
+     },
+     "dz_SelfTranscendence": {
+      "value": 1.505758,
+      "printed": null,
+      "diff": null
+     },
+     "existential_vs_religious_gain": {
+      "value": 2.592784,
+      "printed": 2,
+      "diff": 0.592784
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 8,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 6,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

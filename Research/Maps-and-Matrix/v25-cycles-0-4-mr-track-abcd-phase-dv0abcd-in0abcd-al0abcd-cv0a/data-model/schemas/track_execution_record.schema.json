@@ -1,0 +1,18 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "gaia/track_execution_record.schema.json",
+ "title": "Track execution record (data model 1.4.0, track run layout)",
+ "type": "object",
+ "required": ["sim_id", "iteration", "status", "started_utc", "finished_utc", "environment", "command", "spec_sha256", "params_sha256", "results_sha256", "results", "pre_registered_checks", "all_validation_passed"],
+ "properties": {
+  "sim_id": {"type": "string", "pattern": "^SIM-(SOUL|SPIRIT|SUBC|CONS)-[A-Z]$"},
+  "iteration": {"type": "integer", "minimum": 1},
+  "status": {"const": "executed"},
+  "spec_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "params_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "results_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+  "results": {"type": "object"},
+  "pre_registered_checks": {"type": "array", "items": {"type": "object", "required": ["id", "kind", "expect", "observed", "result"],
+    "properties": {"id": {"type": "string", "pattern": "^[A-Za-z0-9_.]+$"}, "kind": {"enum": ["validation", "hypothesis", "reporting"]},
+                   "result": {"enum": ["Pass", "Fail", "Supported", "Not supported", "Reported", "Indeterminate"]}}}},
+  "all_validation_passed": {"type": "boolean"}
+ }
+}

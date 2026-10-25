@@ -1,0 +1,100 @@
+{
+ "sim_id": "SIM-AS-FOR-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:00:39.344373+00:00",
+ "finished_utc": "2026-10-25T00:00:40.938585+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-9  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "85f877490dc55a521af11a322f309549b8835a683de59cd203fc992a1771d357",
+ "params_sha256": "1eb41f1243324bd0ffad90c527f7ea0d6b7537a7df574ac3c58207772d47a1c0",
+ "results_sha256": "04116f77c60d5f7c9e51c0f21478ee38617cd5ec1d5068ae133ffb90b2cbb11f",
+ "results": {
+  "results": {
+   "nat_conv": 1.0,
+   "gd_conv": 1.0,
+   "nat_t_q": [
+    5.738,
+    6.485,
+    7.142
+   ],
+   "gd_t_q": [
+    22.088,
+    24.09,
+    42.271
+   ],
+   "nat_faster_share": 1.0,
+   "nat_t_minus_zpred_max": -0.01
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "linear map z -> (1 - 2 dt) z with dt 0.25 shrinks |z| by 0.5 per step (10 steps, 1e-12)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "50 starts in [-15, 15]^2: natural gradient flow converges from all and faster than plain flow from all",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      5.738,
+      6.485,
+      7.142
+     ],
+     "gd_t_q": [
+      22.088,
+      24.09,
+      42.271
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.01
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "results": {
+     "nat_conv": 1.0,
+     "gd_conv": 1.0,
+     "nat_t_q": [
+      5.738,
+      6.485,
+      7.142
+     ],
+     "gd_t_q": [
+      22.088,
+      24.09,
+      42.271
+     ],
+     "nat_faster_share": 1.0,
+     "nat_t_minus_zpred_max": -0.01
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

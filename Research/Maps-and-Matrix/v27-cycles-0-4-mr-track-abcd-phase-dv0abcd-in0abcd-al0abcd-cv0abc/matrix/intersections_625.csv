@@ -1,0 +1,626 @@
+id,alchemy,being,phase,lens,reports_on_being,claims_placed_exactly,claims_in_being_lens_projection,flag,status,track_claims_in_projection,mr_claims_in_projection,topics_on_being,phase_claims_in_being_phase_lens_projection
+X-A1-B1-P1-L1,Body Alchemy,Body,Divergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P1-L2,Body Alchemy,Body,Divergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P1-L3,Body Alchemy,Body,Divergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A1-B1-P1-L4,Body Alchemy,Body,Divergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P1-L5,Body Alchemy,Body,Divergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P2-L1,Body Alchemy,Body,Insurgence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P2-L2,Body Alchemy,Body,Insurgence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P2-L3,Body Alchemy,Body,Insurgence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A1-B1-P2-L4,Body Alchemy,Body,Insurgence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P2-L5,Body Alchemy,Body,Insurgence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P3-L1,Body Alchemy,Body,Allegiance,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P3-L2,Body Alchemy,Body,Allegiance,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P3-L3,Body Alchemy,Body,Allegiance,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A1-B1-P3-L4,Body Alchemy,Body,Allegiance,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P3-L5,Body Alchemy,Body,Allegiance,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P4-L1,Body Alchemy,Body,Convergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P4-L2,Body Alchemy,Body,Convergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P4-L3,Body Alchemy,Body,Convergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A1-B1-P4-L4,Body Alchemy,Body,Convergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P4-L5,Body Alchemy,Body,Convergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P5-L1,Body Alchemy,Body,Ascendence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P5-L2,Body Alchemy,Body,Ascendence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P5-L3,Body Alchemy,Body,Ascendence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A1-B1-P5-L4,Body Alchemy,Body,Ascendence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B1-P5-L5,Body Alchemy,Body,Ascendence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A1-B2-P1-L1,Body Alchemy,Mind,Divergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A1-B2-P1-L2,Body Alchemy,Mind,Divergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A1-B2-P1-L3,Body Alchemy,Mind,Divergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A1-B2-P1-L4,Body Alchemy,Mind,Divergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A1-B2-P1-L5,Body Alchemy,Mind,Divergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A1-B2-P2-L1,Body Alchemy,Mind,Insurgence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A1-B2-P2-L2,Body Alchemy,Mind,Insurgence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A1-B2-P2-L3,Body Alchemy,Mind,Insurgence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A1-B2-P2-L4,Body Alchemy,Mind,Insurgence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A1-B2-P2-L5,Body Alchemy,Mind,Insurgence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A1-B2-P3-L1,Body Alchemy,Mind,Allegiance,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A1-B2-P3-L2,Body Alchemy,Mind,Allegiance,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A1-B2-P3-L3,Body Alchemy,Mind,Allegiance,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A1-B2-P3-L4,Body Alchemy,Mind,Allegiance,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A1-B2-P3-L5,Body Alchemy,Mind,Allegiance,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A1-B2-P4-L1,Body Alchemy,Mind,Convergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A1-B2-P4-L2,Body Alchemy,Mind,Convergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A1-B2-P4-L3,Body Alchemy,Mind,Convergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A1-B2-P4-L4,Body Alchemy,Mind,Convergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A1-B2-P4-L5,Body Alchemy,Mind,Convergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A1-B2-P5-L1,Body Alchemy,Mind,Ascendence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A1-B2-P5-L2,Body Alchemy,Mind,Ascendence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A1-B2-P5-L3,Body Alchemy,Mind,Ascendence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A1-B2-P5-L4,Body Alchemy,Mind,Ascendence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A1-B2-P5-L5,Body Alchemy,Mind,Ascendence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A1-B3-P1-L1,Body Alchemy,Soul,Divergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A1-B3-P1-L2,Body Alchemy,Soul,Divergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A1-B3-P1-L3,Body Alchemy,Soul,Divergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A1-B3-P1-L4,Body Alchemy,Soul,Divergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A1-B3-P1-L5,Body Alchemy,Soul,Divergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A1-B3-P2-L1,Body Alchemy,Soul,Insurgence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A1-B3-P2-L2,Body Alchemy,Soul,Insurgence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A1-B3-P2-L3,Body Alchemy,Soul,Insurgence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A1-B3-P2-L4,Body Alchemy,Soul,Insurgence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A1-B3-P2-L5,Body Alchemy,Soul,Insurgence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A1-B3-P3-L1,Body Alchemy,Soul,Allegiance,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A1-B3-P3-L2,Body Alchemy,Soul,Allegiance,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A1-B3-P3-L3,Body Alchemy,Soul,Allegiance,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A1-B3-P3-L4,Body Alchemy,Soul,Allegiance,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A1-B3-P3-L5,Body Alchemy,Soul,Allegiance,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A1-B3-P4-L1,Body Alchemy,Soul,Convergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A1-B3-P4-L2,Body Alchemy,Soul,Convergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A1-B3-P4-L3,Body Alchemy,Soul,Convergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A1-B3-P4-L4,Body Alchemy,Soul,Convergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A1-B3-P4-L5,Body Alchemy,Soul,Convergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A1-B3-P5-L1,Body Alchemy,Soul,Ascendence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A1-B3-P5-L2,Body Alchemy,Soul,Ascendence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A1-B3-P5-L3,Body Alchemy,Soul,Ascendence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A1-B3-P5-L4,Body Alchemy,Soul,Ascendence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A1-B3-P5-L5,Body Alchemy,Soul,Ascendence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A1-B4-P1-L1,Body Alchemy,Spirit,Divergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A1-B4-P1-L2,Body Alchemy,Spirit,Divergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A1-B4-P1-L3,Body Alchemy,Spirit,Divergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A1-B4-P1-L4,Body Alchemy,Spirit,Divergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A1-B4-P1-L5,Body Alchemy,Spirit,Divergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A1-B4-P2-L1,Body Alchemy,Spirit,Insurgence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A1-B4-P2-L2,Body Alchemy,Spirit,Insurgence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A1-B4-P2-L3,Body Alchemy,Spirit,Insurgence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A1-B4-P2-L4,Body Alchemy,Spirit,Insurgence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A1-B4-P2-L5,Body Alchemy,Spirit,Insurgence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A1-B4-P3-L1,Body Alchemy,Spirit,Allegiance,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A1-B4-P3-L2,Body Alchemy,Spirit,Allegiance,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A1-B4-P3-L3,Body Alchemy,Spirit,Allegiance,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A1-B4-P3-L4,Body Alchemy,Spirit,Allegiance,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A1-B4-P3-L5,Body Alchemy,Spirit,Allegiance,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A1-B4-P4-L1,Body Alchemy,Spirit,Convergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,1
+X-A1-B4-P4-L2,Body Alchemy,Spirit,Convergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A1-B4-P4-L3,Body Alchemy,Spirit,Convergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A1-B4-P4-L4,Body Alchemy,Spirit,Convergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A1-B4-P4-L5,Body Alchemy,Spirit,Convergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A1-B4-P5-L1,Body Alchemy,Spirit,Ascendence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A1-B4-P5-L2,Body Alchemy,Spirit,Ascendence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A1-B4-P5-L3,Body Alchemy,Spirit,Ascendence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A1-B4-P5-L4,Body Alchemy,Spirit,Ascendence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A1-B4-P5-L5,Body Alchemy,Spirit,Ascendence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A1-B5-P1-L1,Body Alchemy,Consciousness,Divergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A1-B5-P1-L2,Body Alchemy,Consciousness,Divergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A1-B5-P1-L3,Body Alchemy,Consciousness,Divergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A1-B5-P1-L4,Body Alchemy,Consciousness,Divergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P1-L5,Body Alchemy,Consciousness,Divergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P2-L1,Body Alchemy,Consciousness,Insurgence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A1-B5-P2-L2,Body Alchemy,Consciousness,Insurgence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A1-B5-P2-L3,Body Alchemy,Consciousness,Insurgence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A1-B5-P2-L4,Body Alchemy,Consciousness,Insurgence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P2-L5,Body Alchemy,Consciousness,Insurgence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P3-L1,Body Alchemy,Consciousness,Allegiance,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A1-B5-P3-L2,Body Alchemy,Consciousness,Allegiance,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A1-B5-P3-L3,Body Alchemy,Consciousness,Allegiance,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A1-B5-P3-L4,Body Alchemy,Consciousness,Allegiance,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P3-L5,Body Alchemy,Consciousness,Allegiance,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P4-L1,Body Alchemy,Consciousness,Convergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A1-B5-P4-L2,Body Alchemy,Consciousness,Convergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A1-B5-P4-L3,Body Alchemy,Consciousness,Convergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A1-B5-P4-L4,Body Alchemy,Consciousness,Convergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P4-L5,Body Alchemy,Consciousness,Convergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P5-L1,Body Alchemy,Consciousness,Ascendence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A1-B5-P5-L2,Body Alchemy,Consciousness,Ascendence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A1-B5-P5-L3,Body Alchemy,Consciousness,Ascendence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A1-B5-P5-L4,Body Alchemy,Consciousness,Ascendence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A1-B5-P5-L5,Body Alchemy,Consciousness,Ascendence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B1-P1-L1,Mind Alchemy,Body,Divergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P1-L2,Mind Alchemy,Body,Divergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P1-L3,Mind Alchemy,Body,Divergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A2-B1-P1-L4,Mind Alchemy,Body,Divergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P1-L5,Mind Alchemy,Body,Divergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P2-L1,Mind Alchemy,Body,Insurgence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P2-L2,Mind Alchemy,Body,Insurgence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P2-L3,Mind Alchemy,Body,Insurgence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A2-B1-P2-L4,Mind Alchemy,Body,Insurgence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P2-L5,Mind Alchemy,Body,Insurgence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P3-L1,Mind Alchemy,Body,Allegiance,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P3-L2,Mind Alchemy,Body,Allegiance,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P3-L3,Mind Alchemy,Body,Allegiance,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A2-B1-P3-L4,Mind Alchemy,Body,Allegiance,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P3-L5,Mind Alchemy,Body,Allegiance,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P4-L1,Mind Alchemy,Body,Convergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P4-L2,Mind Alchemy,Body,Convergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P4-L3,Mind Alchemy,Body,Convergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A2-B1-P4-L4,Mind Alchemy,Body,Convergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P4-L5,Mind Alchemy,Body,Convergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P5-L1,Mind Alchemy,Body,Ascendence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P5-L2,Mind Alchemy,Body,Ascendence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P5-L3,Mind Alchemy,Body,Ascendence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A2-B1-P5-L4,Mind Alchemy,Body,Ascendence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B1-P5-L5,Mind Alchemy,Body,Ascendence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A2-B2-P1-L1,Mind Alchemy,Mind,Divergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A2-B2-P1-L2,Mind Alchemy,Mind,Divergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A2-B2-P1-L3,Mind Alchemy,Mind,Divergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A2-B2-P1-L4,Mind Alchemy,Mind,Divergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A2-B2-P1-L5,Mind Alchemy,Mind,Divergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A2-B2-P2-L1,Mind Alchemy,Mind,Insurgence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A2-B2-P2-L2,Mind Alchemy,Mind,Insurgence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A2-B2-P2-L3,Mind Alchemy,Mind,Insurgence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A2-B2-P2-L4,Mind Alchemy,Mind,Insurgence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A2-B2-P2-L5,Mind Alchemy,Mind,Insurgence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A2-B2-P3-L1,Mind Alchemy,Mind,Allegiance,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A2-B2-P3-L2,Mind Alchemy,Mind,Allegiance,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A2-B2-P3-L3,Mind Alchemy,Mind,Allegiance,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A2-B2-P3-L4,Mind Alchemy,Mind,Allegiance,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A2-B2-P3-L5,Mind Alchemy,Mind,Allegiance,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A2-B2-P4-L1,Mind Alchemy,Mind,Convergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A2-B2-P4-L2,Mind Alchemy,Mind,Convergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A2-B2-P4-L3,Mind Alchemy,Mind,Convergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A2-B2-P4-L4,Mind Alchemy,Mind,Convergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A2-B2-P4-L5,Mind Alchemy,Mind,Convergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A2-B2-P5-L1,Mind Alchemy,Mind,Ascendence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A2-B2-P5-L2,Mind Alchemy,Mind,Ascendence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A2-B2-P5-L3,Mind Alchemy,Mind,Ascendence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A2-B2-P5-L4,Mind Alchemy,Mind,Ascendence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A2-B2-P5-L5,Mind Alchemy,Mind,Ascendence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A2-B3-P1-L1,Mind Alchemy,Soul,Divergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A2-B3-P1-L2,Mind Alchemy,Soul,Divergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A2-B3-P1-L3,Mind Alchemy,Soul,Divergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A2-B3-P1-L4,Mind Alchemy,Soul,Divergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A2-B3-P1-L5,Mind Alchemy,Soul,Divergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A2-B3-P2-L1,Mind Alchemy,Soul,Insurgence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A2-B3-P2-L2,Mind Alchemy,Soul,Insurgence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A2-B3-P2-L3,Mind Alchemy,Soul,Insurgence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A2-B3-P2-L4,Mind Alchemy,Soul,Insurgence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A2-B3-P2-L5,Mind Alchemy,Soul,Insurgence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A2-B3-P3-L1,Mind Alchemy,Soul,Allegiance,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A2-B3-P3-L2,Mind Alchemy,Soul,Allegiance,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A2-B3-P3-L3,Mind Alchemy,Soul,Allegiance,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A2-B3-P3-L4,Mind Alchemy,Soul,Allegiance,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A2-B3-P3-L5,Mind Alchemy,Soul,Allegiance,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A2-B3-P4-L1,Mind Alchemy,Soul,Convergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A2-B3-P4-L2,Mind Alchemy,Soul,Convergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A2-B3-P4-L3,Mind Alchemy,Soul,Convergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A2-B3-P4-L4,Mind Alchemy,Soul,Convergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A2-B3-P4-L5,Mind Alchemy,Soul,Convergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A2-B3-P5-L1,Mind Alchemy,Soul,Ascendence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A2-B3-P5-L2,Mind Alchemy,Soul,Ascendence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A2-B3-P5-L3,Mind Alchemy,Soul,Ascendence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A2-B3-P5-L4,Mind Alchemy,Soul,Ascendence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A2-B3-P5-L5,Mind Alchemy,Soul,Ascendence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A2-B4-P1-L1,Mind Alchemy,Spirit,Divergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A2-B4-P1-L2,Mind Alchemy,Spirit,Divergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A2-B4-P1-L3,Mind Alchemy,Spirit,Divergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A2-B4-P1-L4,Mind Alchemy,Spirit,Divergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A2-B4-P1-L5,Mind Alchemy,Spirit,Divergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A2-B4-P2-L1,Mind Alchemy,Spirit,Insurgence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A2-B4-P2-L2,Mind Alchemy,Spirit,Insurgence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A2-B4-P2-L3,Mind Alchemy,Spirit,Insurgence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A2-B4-P2-L4,Mind Alchemy,Spirit,Insurgence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A2-B4-P2-L5,Mind Alchemy,Spirit,Insurgence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A2-B4-P3-L1,Mind Alchemy,Spirit,Allegiance,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A2-B4-P3-L2,Mind Alchemy,Spirit,Allegiance,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A2-B4-P3-L3,Mind Alchemy,Spirit,Allegiance,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A2-B4-P3-L4,Mind Alchemy,Spirit,Allegiance,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A2-B4-P3-L5,Mind Alchemy,Spirit,Allegiance,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A2-B4-P4-L1,Mind Alchemy,Spirit,Convergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,1
+X-A2-B4-P4-L2,Mind Alchemy,Spirit,Convergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A2-B4-P4-L3,Mind Alchemy,Spirit,Convergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A2-B4-P4-L4,Mind Alchemy,Spirit,Convergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A2-B4-P4-L5,Mind Alchemy,Spirit,Convergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A2-B4-P5-L1,Mind Alchemy,Spirit,Ascendence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A2-B4-P5-L2,Mind Alchemy,Spirit,Ascendence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A2-B4-P5-L3,Mind Alchemy,Spirit,Ascendence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A2-B4-P5-L4,Mind Alchemy,Spirit,Ascendence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A2-B4-P5-L5,Mind Alchemy,Spirit,Ascendence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A2-B5-P1-L1,Mind Alchemy,Consciousness,Divergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A2-B5-P1-L2,Mind Alchemy,Consciousness,Divergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A2-B5-P1-L3,Mind Alchemy,Consciousness,Divergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A2-B5-P1-L4,Mind Alchemy,Consciousness,Divergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P1-L5,Mind Alchemy,Consciousness,Divergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P2-L1,Mind Alchemy,Consciousness,Insurgence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A2-B5-P2-L2,Mind Alchemy,Consciousness,Insurgence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A2-B5-P2-L3,Mind Alchemy,Consciousness,Insurgence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A2-B5-P2-L4,Mind Alchemy,Consciousness,Insurgence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P2-L5,Mind Alchemy,Consciousness,Insurgence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P3-L1,Mind Alchemy,Consciousness,Allegiance,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A2-B5-P3-L2,Mind Alchemy,Consciousness,Allegiance,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A2-B5-P3-L3,Mind Alchemy,Consciousness,Allegiance,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A2-B5-P3-L4,Mind Alchemy,Consciousness,Allegiance,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P3-L5,Mind Alchemy,Consciousness,Allegiance,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P4-L1,Mind Alchemy,Consciousness,Convergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A2-B5-P4-L2,Mind Alchemy,Consciousness,Convergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A2-B5-P4-L3,Mind Alchemy,Consciousness,Convergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A2-B5-P4-L4,Mind Alchemy,Consciousness,Convergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P4-L5,Mind Alchemy,Consciousness,Convergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P5-L1,Mind Alchemy,Consciousness,Ascendence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A2-B5-P5-L2,Mind Alchemy,Consciousness,Ascendence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A2-B5-P5-L3,Mind Alchemy,Consciousness,Ascendence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A2-B5-P5-L4,Mind Alchemy,Consciousness,Ascendence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A2-B5-P5-L5,Mind Alchemy,Consciousness,Ascendence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B1-P1-L1,Soul Alchemy,Body,Divergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P1-L2,Soul Alchemy,Body,Divergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P1-L3,Soul Alchemy,Body,Divergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A3-B1-P1-L4,Soul Alchemy,Body,Divergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P1-L5,Soul Alchemy,Body,Divergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P2-L1,Soul Alchemy,Body,Insurgence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P2-L2,Soul Alchemy,Body,Insurgence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P2-L3,Soul Alchemy,Body,Insurgence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A3-B1-P2-L4,Soul Alchemy,Body,Insurgence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P2-L5,Soul Alchemy,Body,Insurgence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P3-L1,Soul Alchemy,Body,Allegiance,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P3-L2,Soul Alchemy,Body,Allegiance,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P3-L3,Soul Alchemy,Body,Allegiance,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A3-B1-P3-L4,Soul Alchemy,Body,Allegiance,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P3-L5,Soul Alchemy,Body,Allegiance,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P4-L1,Soul Alchemy,Body,Convergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P4-L2,Soul Alchemy,Body,Convergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P4-L3,Soul Alchemy,Body,Convergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A3-B1-P4-L4,Soul Alchemy,Body,Convergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P4-L5,Soul Alchemy,Body,Convergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P5-L1,Soul Alchemy,Body,Ascendence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P5-L2,Soul Alchemy,Body,Ascendence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P5-L3,Soul Alchemy,Body,Ascendence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A3-B1-P5-L4,Soul Alchemy,Body,Ascendence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B1-P5-L5,Soul Alchemy,Body,Ascendence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A3-B2-P1-L1,Soul Alchemy,Mind,Divergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A3-B2-P1-L2,Soul Alchemy,Mind,Divergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A3-B2-P1-L3,Soul Alchemy,Mind,Divergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A3-B2-P1-L4,Soul Alchemy,Mind,Divergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A3-B2-P1-L5,Soul Alchemy,Mind,Divergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A3-B2-P2-L1,Soul Alchemy,Mind,Insurgence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A3-B2-P2-L2,Soul Alchemy,Mind,Insurgence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A3-B2-P2-L3,Soul Alchemy,Mind,Insurgence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A3-B2-P2-L4,Soul Alchemy,Mind,Insurgence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A3-B2-P2-L5,Soul Alchemy,Mind,Insurgence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A3-B2-P3-L1,Soul Alchemy,Mind,Allegiance,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A3-B2-P3-L2,Soul Alchemy,Mind,Allegiance,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A3-B2-P3-L3,Soul Alchemy,Mind,Allegiance,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A3-B2-P3-L4,Soul Alchemy,Mind,Allegiance,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A3-B2-P3-L5,Soul Alchemy,Mind,Allegiance,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A3-B2-P4-L1,Soul Alchemy,Mind,Convergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A3-B2-P4-L2,Soul Alchemy,Mind,Convergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A3-B2-P4-L3,Soul Alchemy,Mind,Convergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A3-B2-P4-L4,Soul Alchemy,Mind,Convergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A3-B2-P4-L5,Soul Alchemy,Mind,Convergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A3-B2-P5-L1,Soul Alchemy,Mind,Ascendence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A3-B2-P5-L2,Soul Alchemy,Mind,Ascendence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A3-B2-P5-L3,Soul Alchemy,Mind,Ascendence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A3-B2-P5-L4,Soul Alchemy,Mind,Ascendence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A3-B2-P5-L5,Soul Alchemy,Mind,Ascendence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A3-B3-P1-L1,Soul Alchemy,Soul,Divergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A3-B3-P1-L2,Soul Alchemy,Soul,Divergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A3-B3-P1-L3,Soul Alchemy,Soul,Divergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A3-B3-P1-L4,Soul Alchemy,Soul,Divergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A3-B3-P1-L5,Soul Alchemy,Soul,Divergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A3-B3-P2-L1,Soul Alchemy,Soul,Insurgence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A3-B3-P2-L2,Soul Alchemy,Soul,Insurgence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A3-B3-P2-L3,Soul Alchemy,Soul,Insurgence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A3-B3-P2-L4,Soul Alchemy,Soul,Insurgence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A3-B3-P2-L5,Soul Alchemy,Soul,Insurgence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A3-B3-P3-L1,Soul Alchemy,Soul,Allegiance,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A3-B3-P3-L2,Soul Alchemy,Soul,Allegiance,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A3-B3-P3-L3,Soul Alchemy,Soul,Allegiance,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A3-B3-P3-L4,Soul Alchemy,Soul,Allegiance,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A3-B3-P3-L5,Soul Alchemy,Soul,Allegiance,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A3-B3-P4-L1,Soul Alchemy,Soul,Convergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A3-B3-P4-L2,Soul Alchemy,Soul,Convergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A3-B3-P4-L3,Soul Alchemy,Soul,Convergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A3-B3-P4-L4,Soul Alchemy,Soul,Convergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A3-B3-P4-L5,Soul Alchemy,Soul,Convergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A3-B3-P5-L1,Soul Alchemy,Soul,Ascendence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A3-B3-P5-L2,Soul Alchemy,Soul,Ascendence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A3-B3-P5-L3,Soul Alchemy,Soul,Ascendence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A3-B3-P5-L4,Soul Alchemy,Soul,Ascendence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A3-B3-P5-L5,Soul Alchemy,Soul,Ascendence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A3-B4-P1-L1,Soul Alchemy,Spirit,Divergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A3-B4-P1-L2,Soul Alchemy,Spirit,Divergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A3-B4-P1-L3,Soul Alchemy,Spirit,Divergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A3-B4-P1-L4,Soul Alchemy,Spirit,Divergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A3-B4-P1-L5,Soul Alchemy,Spirit,Divergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A3-B4-P2-L1,Soul Alchemy,Spirit,Insurgence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A3-B4-P2-L2,Soul Alchemy,Spirit,Insurgence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A3-B4-P2-L3,Soul Alchemy,Spirit,Insurgence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A3-B4-P2-L4,Soul Alchemy,Spirit,Insurgence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A3-B4-P2-L5,Soul Alchemy,Spirit,Insurgence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A3-B4-P3-L1,Soul Alchemy,Spirit,Allegiance,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A3-B4-P3-L2,Soul Alchemy,Spirit,Allegiance,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A3-B4-P3-L3,Soul Alchemy,Spirit,Allegiance,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A3-B4-P3-L4,Soul Alchemy,Spirit,Allegiance,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A3-B4-P3-L5,Soul Alchemy,Spirit,Allegiance,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A3-B4-P4-L1,Soul Alchemy,Spirit,Convergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,1
+X-A3-B4-P4-L2,Soul Alchemy,Spirit,Convergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A3-B4-P4-L3,Soul Alchemy,Spirit,Convergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A3-B4-P4-L4,Soul Alchemy,Spirit,Convergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A3-B4-P4-L5,Soul Alchemy,Spirit,Convergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A3-B4-P5-L1,Soul Alchemy,Spirit,Ascendence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A3-B4-P5-L2,Soul Alchemy,Spirit,Ascendence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A3-B4-P5-L3,Soul Alchemy,Spirit,Ascendence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A3-B4-P5-L4,Soul Alchemy,Spirit,Ascendence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A3-B4-P5-L5,Soul Alchemy,Spirit,Ascendence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A3-B5-P1-L1,Soul Alchemy,Consciousness,Divergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A3-B5-P1-L2,Soul Alchemy,Consciousness,Divergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A3-B5-P1-L3,Soul Alchemy,Consciousness,Divergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A3-B5-P1-L4,Soul Alchemy,Consciousness,Divergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P1-L5,Soul Alchemy,Consciousness,Divergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P2-L1,Soul Alchemy,Consciousness,Insurgence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A3-B5-P2-L2,Soul Alchemy,Consciousness,Insurgence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A3-B5-P2-L3,Soul Alchemy,Consciousness,Insurgence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A3-B5-P2-L4,Soul Alchemy,Consciousness,Insurgence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P2-L5,Soul Alchemy,Consciousness,Insurgence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P3-L1,Soul Alchemy,Consciousness,Allegiance,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A3-B5-P3-L2,Soul Alchemy,Consciousness,Allegiance,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A3-B5-P3-L3,Soul Alchemy,Consciousness,Allegiance,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A3-B5-P3-L4,Soul Alchemy,Consciousness,Allegiance,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P3-L5,Soul Alchemy,Consciousness,Allegiance,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P4-L1,Soul Alchemy,Consciousness,Convergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A3-B5-P4-L2,Soul Alchemy,Consciousness,Convergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A3-B5-P4-L3,Soul Alchemy,Consciousness,Convergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A3-B5-P4-L4,Soul Alchemy,Consciousness,Convergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P4-L5,Soul Alchemy,Consciousness,Convergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P5-L1,Soul Alchemy,Consciousness,Ascendence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A3-B5-P5-L2,Soul Alchemy,Consciousness,Ascendence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A3-B5-P5-L3,Soul Alchemy,Consciousness,Ascendence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A3-B5-P5-L4,Soul Alchemy,Consciousness,Ascendence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A3-B5-P5-L5,Soul Alchemy,Consciousness,Ascendence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B1-P1-L1,Spirit Alchemy,Body,Divergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P1-L2,Spirit Alchemy,Body,Divergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P1-L3,Spirit Alchemy,Body,Divergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A4-B1-P1-L4,Spirit Alchemy,Body,Divergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P1-L5,Spirit Alchemy,Body,Divergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P2-L1,Spirit Alchemy,Body,Insurgence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P2-L2,Spirit Alchemy,Body,Insurgence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P2-L3,Spirit Alchemy,Body,Insurgence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A4-B1-P2-L4,Spirit Alchemy,Body,Insurgence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P2-L5,Spirit Alchemy,Body,Insurgence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P3-L1,Spirit Alchemy,Body,Allegiance,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P3-L2,Spirit Alchemy,Body,Allegiance,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P3-L3,Spirit Alchemy,Body,Allegiance,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A4-B1-P3-L4,Spirit Alchemy,Body,Allegiance,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P3-L5,Spirit Alchemy,Body,Allegiance,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P4-L1,Spirit Alchemy,Body,Convergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P4-L2,Spirit Alchemy,Body,Convergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P4-L3,Spirit Alchemy,Body,Convergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A4-B1-P4-L4,Spirit Alchemy,Body,Convergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P4-L5,Spirit Alchemy,Body,Convergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P5-L1,Spirit Alchemy,Body,Ascendence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P5-L2,Spirit Alchemy,Body,Ascendence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P5-L3,Spirit Alchemy,Body,Ascendence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A4-B1-P5-L4,Spirit Alchemy,Body,Ascendence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B1-P5-L5,Spirit Alchemy,Body,Ascendence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A4-B2-P1-L1,Spirit Alchemy,Mind,Divergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A4-B2-P1-L2,Spirit Alchemy,Mind,Divergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A4-B2-P1-L3,Spirit Alchemy,Mind,Divergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A4-B2-P1-L4,Spirit Alchemy,Mind,Divergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A4-B2-P1-L5,Spirit Alchemy,Mind,Divergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A4-B2-P2-L1,Spirit Alchemy,Mind,Insurgence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A4-B2-P2-L2,Spirit Alchemy,Mind,Insurgence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A4-B2-P2-L3,Spirit Alchemy,Mind,Insurgence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A4-B2-P2-L4,Spirit Alchemy,Mind,Insurgence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A4-B2-P2-L5,Spirit Alchemy,Mind,Insurgence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A4-B2-P3-L1,Spirit Alchemy,Mind,Allegiance,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A4-B2-P3-L2,Spirit Alchemy,Mind,Allegiance,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A4-B2-P3-L3,Spirit Alchemy,Mind,Allegiance,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A4-B2-P3-L4,Spirit Alchemy,Mind,Allegiance,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A4-B2-P3-L5,Spirit Alchemy,Mind,Allegiance,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A4-B2-P4-L1,Spirit Alchemy,Mind,Convergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A4-B2-P4-L2,Spirit Alchemy,Mind,Convergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A4-B2-P4-L3,Spirit Alchemy,Mind,Convergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A4-B2-P4-L4,Spirit Alchemy,Mind,Convergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A4-B2-P4-L5,Spirit Alchemy,Mind,Convergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A4-B2-P5-L1,Spirit Alchemy,Mind,Ascendence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A4-B2-P5-L2,Spirit Alchemy,Mind,Ascendence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A4-B2-P5-L3,Spirit Alchemy,Mind,Ascendence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A4-B2-P5-L4,Spirit Alchemy,Mind,Ascendence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A4-B2-P5-L5,Spirit Alchemy,Mind,Ascendence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A4-B3-P1-L1,Spirit Alchemy,Soul,Divergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A4-B3-P1-L2,Spirit Alchemy,Soul,Divergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A4-B3-P1-L3,Spirit Alchemy,Soul,Divergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A4-B3-P1-L4,Spirit Alchemy,Soul,Divergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A4-B3-P1-L5,Spirit Alchemy,Soul,Divergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A4-B3-P2-L1,Spirit Alchemy,Soul,Insurgence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A4-B3-P2-L2,Spirit Alchemy,Soul,Insurgence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A4-B3-P2-L3,Spirit Alchemy,Soul,Insurgence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A4-B3-P2-L4,Spirit Alchemy,Soul,Insurgence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A4-B3-P2-L5,Spirit Alchemy,Soul,Insurgence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A4-B3-P3-L1,Spirit Alchemy,Soul,Allegiance,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A4-B3-P3-L2,Spirit Alchemy,Soul,Allegiance,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A4-B3-P3-L3,Spirit Alchemy,Soul,Allegiance,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A4-B3-P3-L4,Spirit Alchemy,Soul,Allegiance,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A4-B3-P3-L5,Spirit Alchemy,Soul,Allegiance,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A4-B3-P4-L1,Spirit Alchemy,Soul,Convergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A4-B3-P4-L2,Spirit Alchemy,Soul,Convergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A4-B3-P4-L3,Spirit Alchemy,Soul,Convergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A4-B3-P4-L4,Spirit Alchemy,Soul,Convergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A4-B3-P4-L5,Spirit Alchemy,Soul,Convergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A4-B3-P5-L1,Spirit Alchemy,Soul,Ascendence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A4-B3-P5-L2,Spirit Alchemy,Soul,Ascendence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A4-B3-P5-L3,Spirit Alchemy,Soul,Ascendence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A4-B3-P5-L4,Spirit Alchemy,Soul,Ascendence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A4-B3-P5-L5,Spirit Alchemy,Soul,Ascendence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A4-B4-P1-L1,Spirit Alchemy,Spirit,Divergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A4-B4-P1-L2,Spirit Alchemy,Spirit,Divergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A4-B4-P1-L3,Spirit Alchemy,Spirit,Divergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A4-B4-P1-L4,Spirit Alchemy,Spirit,Divergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A4-B4-P1-L5,Spirit Alchemy,Spirit,Divergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A4-B4-P2-L1,Spirit Alchemy,Spirit,Insurgence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A4-B4-P2-L2,Spirit Alchemy,Spirit,Insurgence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A4-B4-P2-L3,Spirit Alchemy,Spirit,Insurgence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A4-B4-P2-L4,Spirit Alchemy,Spirit,Insurgence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A4-B4-P2-L5,Spirit Alchemy,Spirit,Insurgence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A4-B4-P3-L1,Spirit Alchemy,Spirit,Allegiance,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A4-B4-P3-L2,Spirit Alchemy,Spirit,Allegiance,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A4-B4-P3-L3,Spirit Alchemy,Spirit,Allegiance,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A4-B4-P3-L4,Spirit Alchemy,Spirit,Allegiance,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A4-B4-P3-L5,Spirit Alchemy,Spirit,Allegiance,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A4-B4-P4-L1,Spirit Alchemy,Spirit,Convergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,1
+X-A4-B4-P4-L2,Spirit Alchemy,Spirit,Convergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A4-B4-P4-L3,Spirit Alchemy,Spirit,Convergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A4-B4-P4-L4,Spirit Alchemy,Spirit,Convergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A4-B4-P4-L5,Spirit Alchemy,Spirit,Convergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A4-B4-P5-L1,Spirit Alchemy,Spirit,Ascendence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A4-B4-P5-L2,Spirit Alchemy,Spirit,Ascendence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A4-B4-P5-L3,Spirit Alchemy,Spirit,Ascendence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A4-B4-P5-L4,Spirit Alchemy,Spirit,Ascendence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A4-B4-P5-L5,Spirit Alchemy,Spirit,Ascendence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A4-B5-P1-L1,Spirit Alchemy,Consciousness,Divergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A4-B5-P1-L2,Spirit Alchemy,Consciousness,Divergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A4-B5-P1-L3,Spirit Alchemy,Consciousness,Divergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A4-B5-P1-L4,Spirit Alchemy,Consciousness,Divergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P1-L5,Spirit Alchemy,Consciousness,Divergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P2-L1,Spirit Alchemy,Consciousness,Insurgence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A4-B5-P2-L2,Spirit Alchemy,Consciousness,Insurgence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A4-B5-P2-L3,Spirit Alchemy,Consciousness,Insurgence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A4-B5-P2-L4,Spirit Alchemy,Consciousness,Insurgence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P2-L5,Spirit Alchemy,Consciousness,Insurgence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P3-L1,Spirit Alchemy,Consciousness,Allegiance,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A4-B5-P3-L2,Spirit Alchemy,Consciousness,Allegiance,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A4-B5-P3-L3,Spirit Alchemy,Consciousness,Allegiance,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A4-B5-P3-L4,Spirit Alchemy,Consciousness,Allegiance,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P3-L5,Spirit Alchemy,Consciousness,Allegiance,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P4-L1,Spirit Alchemy,Consciousness,Convergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A4-B5-P4-L2,Spirit Alchemy,Consciousness,Convergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A4-B5-P4-L3,Spirit Alchemy,Consciousness,Convergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A4-B5-P4-L4,Spirit Alchemy,Consciousness,Convergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P4-L5,Spirit Alchemy,Consciousness,Convergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P5-L1,Spirit Alchemy,Consciousness,Ascendence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A4-B5-P5-L2,Spirit Alchemy,Consciousness,Ascendence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A4-B5-P5-L3,Spirit Alchemy,Consciousness,Ascendence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A4-B5-P5-L4,Spirit Alchemy,Consciousness,Ascendence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A4-B5-P5-L5,Spirit Alchemy,Consciousness,Ascendence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B1-P1-L1,Consciousness Alchemy,Body,Divergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P1-L2,Consciousness Alchemy,Body,Divergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P1-L3,Consciousness Alchemy,Body,Divergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A5-B1-P1-L4,Consciousness Alchemy,Body,Divergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P1-L5,Consciousness Alchemy,Body,Divergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P2-L1,Consciousness Alchemy,Body,Insurgence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P2-L2,Consciousness Alchemy,Body,Insurgence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P2-L3,Consciousness Alchemy,Body,Insurgence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A5-B1-P2-L4,Consciousness Alchemy,Body,Insurgence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P2-L5,Consciousness Alchemy,Body,Insurgence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P3-L1,Consciousness Alchemy,Body,Allegiance,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P3-L2,Consciousness Alchemy,Body,Allegiance,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P3-L3,Consciousness Alchemy,Body,Allegiance,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A5-B1-P3-L4,Consciousness Alchemy,Body,Allegiance,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P3-L5,Consciousness Alchemy,Body,Allegiance,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P4-L1,Consciousness Alchemy,Body,Convergence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P4-L2,Consciousness Alchemy,Body,Convergence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P4-L3,Consciousness Alchemy,Body,Convergence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A5-B1-P4-L4,Consciousness Alchemy,Body,Convergence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P4-L5,Consciousness Alchemy,Body,Convergence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P5-L1,Consciousness Alchemy,Body,Ascendence,Truth,R1,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P5-L2,Consciousness Alchemy,Body,Ascendence,Integrity,R1,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P5-L3,Consciousness Alchemy,Body,Ascendence,Love,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,1,,0
+X-A5-B1-P5-L4,Consciousness Alchemy,Body,Ascendence,Justice,R1,0,0,EMPTY (Being x Lens projection has no claim),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B1-P5-L5,Consciousness Alchemy,Body,Ascendence,Wisdom,R1,0,2,UNDER-RESEARCHED (Being x Lens projection: <3 claims),Proposed - category only (G01 9.4),0,0,,0
+X-A5-B2-P1-L1,Consciousness Alchemy,Mind,Divergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A5-B2-P1-L2,Consciousness Alchemy,Mind,Divergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A5-B2-P1-L3,Consciousness Alchemy,Mind,Divergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A5-B2-P1-L4,Consciousness Alchemy,Mind,Divergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A5-B2-P1-L5,Consciousness Alchemy,Mind,Divergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A5-B2-P2-L1,Consciousness Alchemy,Mind,Insurgence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A5-B2-P2-L2,Consciousness Alchemy,Mind,Insurgence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A5-B2-P2-L3,Consciousness Alchemy,Mind,Insurgence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A5-B2-P2-L4,Consciousness Alchemy,Mind,Insurgence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A5-B2-P2-L5,Consciousness Alchemy,Mind,Insurgence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A5-B2-P3-L1,Consciousness Alchemy,Mind,Allegiance,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A5-B2-P3-L2,Consciousness Alchemy,Mind,Allegiance,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A5-B2-P3-L3,Consciousness Alchemy,Mind,Allegiance,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A5-B2-P3-L4,Consciousness Alchemy,Mind,Allegiance,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A5-B2-P3-L5,Consciousness Alchemy,Mind,Allegiance,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A5-B2-P4-L1,Consciousness Alchemy,Mind,Convergence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A5-B2-P4-L2,Consciousness Alchemy,Mind,Convergence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A5-B2-P4-L3,Consciousness Alchemy,Mind,Convergence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A5-B2-P4-L4,Consciousness Alchemy,Mind,Convergence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A5-B2-P4-L5,Consciousness Alchemy,Mind,Convergence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A5-B2-P5-L1,Consciousness Alchemy,Mind,Ascendence,Truth,R2,0,46,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),23,2,SUBC,0
+X-A5-B2-P5-L2,Consciousness Alchemy,Mind,Ascendence,Integrity,R2,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,1,SUBC,0
+X-A5-B2-P5-L3,Consciousness Alchemy,Mind,Ascendence,Love,R2,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),2,4,SUBC,0
+X-A5-B2-P5-L4,Consciousness Alchemy,Mind,Ascendence,Justice,R2,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,SUBC,0
+X-A5-B2-P5-L5,Consciousness Alchemy,Mind,Ascendence,Wisdom,R2,0,9,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,SUBC,0
+X-A5-B3-P1-L1,Consciousness Alchemy,Soul,Divergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A5-B3-P1-L2,Consciousness Alchemy,Soul,Divergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A5-B3-P1-L3,Consciousness Alchemy,Soul,Divergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A5-B3-P1-L4,Consciousness Alchemy,Soul,Divergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A5-B3-P1-L5,Consciousness Alchemy,Soul,Divergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A5-B3-P2-L1,Consciousness Alchemy,Soul,Insurgence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A5-B3-P2-L2,Consciousness Alchemy,Soul,Insurgence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A5-B3-P2-L3,Consciousness Alchemy,Soul,Insurgence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A5-B3-P2-L4,Consciousness Alchemy,Soul,Insurgence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A5-B3-P2-L5,Consciousness Alchemy,Soul,Insurgence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A5-B3-P3-L1,Consciousness Alchemy,Soul,Allegiance,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A5-B3-P3-L2,Consciousness Alchemy,Soul,Allegiance,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A5-B3-P3-L3,Consciousness Alchemy,Soul,Allegiance,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A5-B3-P3-L4,Consciousness Alchemy,Soul,Allegiance,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A5-B3-P3-L5,Consciousness Alchemy,Soul,Allegiance,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A5-B3-P4-L1,Consciousness Alchemy,Soul,Convergence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A5-B3-P4-L2,Consciousness Alchemy,Soul,Convergence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A5-B3-P4-L3,Consciousness Alchemy,Soul,Convergence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A5-B3-P4-L4,Consciousness Alchemy,Soul,Convergence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A5-B3-P4-L5,Consciousness Alchemy,Soul,Convergence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A5-B3-P5-L1,Consciousness Alchemy,Soul,Ascendence,Truth,R3,0,19,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),15,0,SOUL,0
+X-A5-B3-P5-L2,Consciousness Alchemy,Soul,Ascendence,Integrity,R3,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SOUL,0
+X-A5-B3-P5-L3,Consciousness Alchemy,Soul,Ascendence,Love,R3,0,10,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,4,SOUL,0
+X-A5-B3-P5-L4,Consciousness Alchemy,Soul,Ascendence,Justice,R3,0,7,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),1,2,SOUL,0
+X-A5-B3-P5-L5,Consciousness Alchemy,Soul,Ascendence,Wisdom,R3,0,18,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),13,0,SOUL,0
+X-A5-B4-P1-L1,Consciousness Alchemy,Spirit,Divergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A5-B4-P1-L2,Consciousness Alchemy,Spirit,Divergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A5-B4-P1-L3,Consciousness Alchemy,Spirit,Divergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A5-B4-P1-L4,Consciousness Alchemy,Spirit,Divergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A5-B4-P1-L5,Consciousness Alchemy,Spirit,Divergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A5-B4-P2-L1,Consciousness Alchemy,Spirit,Insurgence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A5-B4-P2-L2,Consciousness Alchemy,Spirit,Insurgence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A5-B4-P2-L3,Consciousness Alchemy,Spirit,Insurgence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A5-B4-P2-L4,Consciousness Alchemy,Spirit,Insurgence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A5-B4-P2-L5,Consciousness Alchemy,Spirit,Insurgence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A5-B4-P3-L1,Consciousness Alchemy,Spirit,Allegiance,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A5-B4-P3-L2,Consciousness Alchemy,Spirit,Allegiance,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A5-B4-P3-L3,Consciousness Alchemy,Spirit,Allegiance,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A5-B4-P3-L4,Consciousness Alchemy,Spirit,Allegiance,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A5-B4-P3-L5,Consciousness Alchemy,Spirit,Allegiance,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A5-B4-P4-L1,Consciousness Alchemy,Spirit,Convergence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,1
+X-A5-B4-P4-L2,Consciousness Alchemy,Spirit,Convergence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A5-B4-P4-L3,Consciousness Alchemy,Spirit,Convergence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A5-B4-P4-L4,Consciousness Alchemy,Spirit,Convergence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A5-B4-P4-L5,Consciousness Alchemy,Spirit,Convergence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A5-B4-P5-L1,Consciousness Alchemy,Spirit,Ascendence,Truth,R4,0,45,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),22,1,SPIRIT,0
+X-A5-B4-P5-L2,Consciousness Alchemy,Spirit,Ascendence,Integrity,R4,0,5,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,1,SPIRIT,0
+X-A5-B4-P5-L3,Consciousness Alchemy,Spirit,Ascendence,Love,R4,0,16,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,6,SPIRIT,0
+X-A5-B4-P5-L4,Consciousness Alchemy,Spirit,Ascendence,Justice,R4,0,4,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),3,0,SPIRIT,0
+X-A5-B4-P5-L5,Consciousness Alchemy,Spirit,Ascendence,Wisdom,R4,0,15,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),12,0,SPIRIT,0
+X-A5-B5-P1-L1,Consciousness Alchemy,Consciousness,Divergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A5-B5-P1-L2,Consciousness Alchemy,Consciousness,Divergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A5-B5-P1-L3,Consciousness Alchemy,Consciousness,Divergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A5-B5-P1-L4,Consciousness Alchemy,Consciousness,Divergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P1-L5,Consciousness Alchemy,Consciousness,Divergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P2-L1,Consciousness Alchemy,Consciousness,Insurgence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A5-B5-P2-L2,Consciousness Alchemy,Consciousness,Insurgence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A5-B5-P2-L3,Consciousness Alchemy,Consciousness,Insurgence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A5-B5-P2-L4,Consciousness Alchemy,Consciousness,Insurgence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P2-L5,Consciousness Alchemy,Consciousness,Insurgence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P3-L1,Consciousness Alchemy,Consciousness,Allegiance,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A5-B5-P3-L2,Consciousness Alchemy,Consciousness,Allegiance,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A5-B5-P3-L3,Consciousness Alchemy,Consciousness,Allegiance,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A5-B5-P3-L4,Consciousness Alchemy,Consciousness,Allegiance,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P3-L5,Consciousness Alchemy,Consciousness,Allegiance,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P4-L1,Consciousness Alchemy,Consciousness,Convergence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A5-B5-P4-L2,Consciousness Alchemy,Consciousness,Convergence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A5-B5-P4-L3,Consciousness Alchemy,Consciousness,Convergence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A5-B5-P4-L4,Consciousness Alchemy,Consciousness,Convergence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P4-L5,Consciousness Alchemy,Consciousness,Convergence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P5-L1,Consciousness Alchemy,Consciousness,Ascendence,Truth,R5,0,33,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),18,0,CONS,0
+X-A5-B5-P5-L2,Consciousness Alchemy,Consciousness,Ascendence,Integrity,R5,0,12,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),6,0,CONS,0
+X-A5-B5-P5-L3,Consciousness Alchemy,Consciousness,Ascendence,Love,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),4,1,CONS,0
+X-A5-B5-P5-L4,Consciousness Alchemy,Consciousness,Ascendence,Justice,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0
+X-A5-B5-P5-L5,Consciousness Alchemy,Consciousness,Ascendence,Wisdom,R5,0,6,UNPLACED (projection populated; Alchemy/Phase undefined),Proposed - category only (G01 9.4),5,0,CONS,0

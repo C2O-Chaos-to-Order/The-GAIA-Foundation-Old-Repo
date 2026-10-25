@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-CV-SOC-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:23:24.323722+00:00",
+ "finished_utc": "2026-10-24T20:23:24.370353+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "517ec6adb78ce36e29848d330d741dd12000649d6e182c4d01468513e07b1fbe",
+ "params_sha256": "7c4cd79a94ddba382cca703671407d194b22ef688d348c125bd3b494d2dcf238",
+ "results_sha256": "e6547eb124a3ec15af49ee627423d43af04f634fbd4d8baaf1a9976bb6a0ec8b",
+ "results": {
+  "Omega": {
+   "mu-0.045_s0.3": 0.23255,
+   "mu-0.5_s1.0": 0.2833
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mean-unbiased log-normal (mu = -sigma^2/2): centralization hurts (Omega < 0.5) at sigma 0.3 and 1.0",
+   "observed": {
+    "Omega": {
+     "mu-0.045_s0.3": 0.23255,
+     "mu-0.5_s1.0": 0.2833
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu-0.045_s0.3": 0.23255,
+     "mu-0.5_s1.0": 0.2833
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

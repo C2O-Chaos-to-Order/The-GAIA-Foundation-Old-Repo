@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-TR-HUM-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:25.651977+00:00",
+ "finished_utc": "2026-10-25T01:30:25.907015+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-4  (run from Humanities/simulation/)",
+ "spec_sha256": "bdeb796954eec737b3ea9657a6e7843cf61a947a157201b71263eee02c08b356",
+ "params_sha256": "9cd0bae7e5e72619d589d4a39bd0f5a4c702dc7840552723e072e3306c5bdda8",
+ "results_sha256": "3ad051f185e38f910dcf27df9ad1b18505f488cb779a4cb3bd12e43e466fc07d",
+ "results": {
+  "items": {
+   "t2.0": {
+    "0.5": {
+     "BF01": 0.83256433,
+     "ratio_to_printed": null
+    }
+   },
+   "t2.5": {
+    "0.5": {
+     "BF01": 0.32857294,
+     "ratio_to_printed": null
+    }
+   },
+   "t3.0": {
+    "0.5": {
+     "BF01": 0.11020337,
+     "ratio_to_printed": null
+    }
+   }
+  },
+  "prior_mass": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the inverse-gamma(1/2, 1/2) mixing density of the JZS prior integrates to 1 within 1e-6",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "n 50, narrow prior (0.5): t 2.5 gives BF01 below 1/3",
+   "observed": {
+    "items": {
+     "t2.0": {
+      "0.5": {
+       "BF01": 0.83256433,
+       "ratio_to_printed": null
+      }
+     },
+     "t2.5": {
+      "0.5": {
+       "BF01": 0.32857294,
+       "ratio_to_printed": null
+      }
+     },
+     "t3.0": {
+      "0.5": {
+       "BF01": 0.11020337,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "t2.0": {
+      "0.5": {
+       "BF01": 0.83256433,
+       "ratio_to_printed": null
+      }
+     },
+     "t2.5": {
+      "0.5": {
+       "BF01": 0.32857294,
+       "ratio_to_printed": null
+      }
+     },
+     "t3.0": {
+      "0.5": {
+       "BF01": 0.11020337,
+       "ratio_to_printed": null
+      }
+     }
+    },
+    "prior_mass": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

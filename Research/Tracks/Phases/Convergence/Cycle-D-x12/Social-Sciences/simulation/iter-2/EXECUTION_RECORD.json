@@ -1,0 +1,180 @@
+{
+ "sim_id": "SIM-CV-SOC-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:01.546976+00:00",
+ "finished_utc": "2026-10-24T22:15:04.589786+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "2ce84347fa5fe68baca488f47bd9691bde38d46afecdd5b9d6977a8312bd6de4",
+ "params_sha256": "ef114a698717556d7fb2bdf736178139f93f2022959210fc4c2510738432e5e7",
+ "results_sha256": "0cca580d6580ed93b8a466b77bc9f7055d9e1297f45cb9b45cf5d9d4bdbdd03d",
+ "results": {
+  "by_case": {
+   "mu0.0_s3.5_n10": {
+    "bound": 0.50126,
+    "mc": 0.792,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.5_n100": {
+    "bound": 0.68088,
+    "mc": 0.916,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.5_n1000": {
+    "bound": 0.74281,
+    "mc": 0.94,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.5_n10000": {
+    "bound": 0.75238,
+    "mc": 0.958,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.5_n100000": {
+    "bound": 0.73126,
+    "mc": 0.964,
+    "bound_le_mc_plus_3se": true
+   }
+  },
+  "theta": 2.0,
+  "omega": 0.33333333,
+  "reps": 500
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the log-normal CDF at the truth with mu = 0 is exactly 1/2",
+   "observed": 0.5,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P69's bound never exceeds Monte Carlo Omega_n (3 SE) in any case",
+   "observed": {
+    "by_case": {
+     "mu0.0_s3.5_n10": {
+      "bound": 0.50126,
+      "mc": 0.792,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n100": {
+      "bound": 0.68088,
+      "mc": 0.916,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n1000": {
+      "bound": 0.74281,
+      "mc": 0.94,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n10000": {
+      "bound": 0.75238,
+      "mc": 0.958,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n100000": {
+      "bound": 0.73126,
+      "mc": 0.964,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 500
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "sigma 3.5: the bound at n 10^5 exceeds 0.5",
+   "observed": {
+    "by_case": {
+     "mu0.0_s3.5_n10": {
+      "bound": 0.50126,
+      "mc": 0.792,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n100": {
+      "bound": 0.68088,
+      "mc": 0.916,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n1000": {
+      "bound": 0.74281,
+      "mc": 0.94,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n10000": {
+      "bound": 0.75238,
+      "mc": 0.958,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n100000": {
+      "bound": 0.73126,
+      "mc": 0.964,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 500
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "mu0.0_s3.5_n10": {
+      "bound": 0.50126,
+      "mc": 0.792,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n100": {
+      "bound": 0.68088,
+      "mc": 0.916,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n1000": {
+      "bound": 0.74281,
+      "mc": 0.94,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n10000": {
+      "bound": 0.75238,
+      "mc": 0.958,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.5_n100000": {
+      "bound": 0.73126,
+      "mc": 0.964,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 500
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,118 @@
+{
+ "sim_id": "SIM-TR-HUM-D",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:30:27.510823+00:00",
+ "finished_utc": "2026-10-25T01:30:27.948893+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-9  (run from Humanities/simulation/)",
+ "spec_sha256": "30916743696b37eb635957fa1a694d483f65d7b04f3e7cf8921549f1995b3747",
+ "params_sha256": "27150872bdc93066ac3c06f64de664cd1b62cc1fd0907a987a71b943dc0a452c",
+ "results_sha256": "d88066dcc75e4296fa7c2c4ae32fc139650a2041b56d656deb52fb1bb0055d44",
+ "results": {
+  "items": {
+   "fisher2_3of8_vs_0of8": {
+    "value": 0.2,
+    "printed": null,
+    "diff": null
+   },
+   "fisher2_4of8_vs_0of8": {
+    "value": 0.076923,
+    "printed": null,
+    "diff": null
+   },
+   "fisher2_5of8_vs_0of8": {
+    "value": 0.025641,
+    "printed": null,
+    "diff": null
+   },
+   "fisher2_6of8_vs_0of8": {
+    "value": 0.006993,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "8 vs 8, no placebo cases: 5 of 8 are needed for two-sided Fisher p < .05",
+   "observed": {
+    "items": {
+     "fisher2_3of8_vs_0of8": {
+      "value": 0.2,
+      "printed": null,
+      "diff": null
+     },
+     "fisher2_4of8_vs_0of8": {
+      "value": 0.076923,
+      "printed": null,
+      "diff": null
+     },
+     "fisher2_5of8_vs_0of8": {
+      "value": 0.025641,
+      "printed": null,
+      "diff": null
+     },
+     "fisher2_6of8_vs_0of8": {
+      "value": 0.006993,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "fisher2_3of8_vs_0of8": {
+      "value": 0.2,
+      "printed": null,
+      "diff": null
+     },
+     "fisher2_4of8_vs_0of8": {
+      "value": 0.076923,
+      "printed": null,
+      "diff": null
+     },
+     "fisher2_5of8_vs_0of8": {
+      "value": 0.025641,
+      "printed": null,
+      "diff": null
+     },
+     "fisher2_6of8_vs_0of8": {
+      "value": 0.006993,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

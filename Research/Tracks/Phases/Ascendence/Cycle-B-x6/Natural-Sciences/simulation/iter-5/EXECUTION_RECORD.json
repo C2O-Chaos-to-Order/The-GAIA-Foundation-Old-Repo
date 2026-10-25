@@ -1,0 +1,112 @@
+{
+ "sim_id": "SIM-AS-NAT-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:40:02.345160+00:00",
+ "finished_utc": "2026-10-24T23:40:06.479191+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-5  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "a381b3542757b59318dca83998640dd70623ca898a28b1f32363442f5ca61e83",
+ "params_sha256": "0d4328a6bb11ab3770401153821f8de11554874b1e55280271c7d82a2658710d",
+ "results_sha256": "5681e5ee29b5e275fe13ebf92e7def7a0b7285a771c14558fb60130a493e80e9",
+ "results": {
+  "by_L": {
+   "9": {
+    "nk_K8": {
+     "n_peaks": 9390.5,
+     "frac_peaks": 0.0358,
+     "P0.14": 0.2175,
+     "P_global": 0.0001,
+     "R_ph_bs": null,
+     "R_ph_bs_min": null,
+     "P0.14_min": 0.215
+    },
+    "V1_smooth": {
+     "n_peaks": 1,
+     "frac_peaks": 0.0,
+     "P0.14": 1.0,
+     "P_global": 1.0,
+     "R_ph_bs": null
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "for every L an additive RMF landscape (sigma 0) has one peak reached by every walk",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "NK K 8 at 9 sites (maximally rugged): P14% within 0.10 of P85's 24.8%",
+   "observed": {
+    "by_L": {
+     "9": {
+      "nk_K8": {
+       "n_peaks": 9390.5,
+       "frac_peaks": 0.0358,
+       "P0.14": 0.2175,
+       "P_global": 0.0001,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.215
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.0,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_L": {
+     "9": {
+      "nk_K8": {
+       "n_peaks": 9390.5,
+       "frac_peaks": 0.0358,
+       "P0.14": 0.2175,
+       "P_global": 0.0001,
+       "R_ph_bs": null,
+       "R_ph_bs_min": null,
+       "P0.14_min": 0.215
+      },
+      "V1_smooth": {
+       "n_peaks": 1,
+       "frac_peaks": 0.0,
+       "P0.14": 1.0,
+       "P_global": 1.0,
+       "R_ph_bs": null
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

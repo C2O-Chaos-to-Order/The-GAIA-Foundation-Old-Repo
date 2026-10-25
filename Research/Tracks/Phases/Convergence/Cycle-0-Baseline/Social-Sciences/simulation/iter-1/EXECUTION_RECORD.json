@@ -1,0 +1,113 @@
+{
+ "sim_id": "SIM-CV-SOC-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:08:58.164719+00:00",
+ "finished_utc": "2026-10-24T20:08:58.248718+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-1  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "3fc1b0e10344627c05fc48e1e6eb33d56e872f2cd24b4bc96ea8ac4941eb7e54",
+ "params_sha256": "4c5a2a15c47859f183066c51e00422402fa35fafc3745e9c66780cc897c03968",
+ "results_sha256": "d4dfb0fa6d4bca8f84cfacac1752ee7a3b5f9a56712c7adb8cb3d500cf1bafc6",
+ "results": {
+  "Omega": {
+   "mu0.5_s1.0": 0.6807,
+   "mu0.0_s1.5": 0.7535,
+   "mu-0.3_s0.3": 0.4403,
+   "mu0.0_s0.3": 0.34
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "overestimation (mu 0.5, sigma 1): Omega > 0.5",
+   "observed": {
+    "Omega": {
+     "mu0.5_s1.0": 0.6807,
+     "mu0.0_s1.5": 0.7535,
+     "mu-0.3_s0.3": 0.4403,
+     "mu0.0_s0.3": 0.34
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "large dispersion (mu 0, sigma 1.5): Omega > 0.5",
+   "observed": {
+    "Omega": {
+     "mu0.5_s1.0": 0.6807,
+     "mu0.0_s1.5": 0.7535,
+     "mu-0.3_s0.3": 0.4403,
+     "mu0.0_s0.3": 0.34
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "underestimation, low dispersion (mu -0.3, sigma 0.3): Omega < 0.5",
+   "observed": {
+    "Omega": {
+     "mu0.5_s1.0": 0.6807,
+     "mu0.0_s1.5": 0.7535,
+     "mu-0.3_s0.3": 0.4403,
+     "mu0.0_s0.3": 0.34
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu0.5_s1.0": 0.6807,
+     "mu0.0_s1.5": 0.7535,
+     "mu-0.3_s0.3": 0.4403,
+     "mu0.0_s0.3": 0.34
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

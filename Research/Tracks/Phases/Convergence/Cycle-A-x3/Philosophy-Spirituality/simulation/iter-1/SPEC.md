@@ -1,0 +1,72 @@
+# SIM-CV-PHI-A - iteration 1 SPEC
+
+Written before execution. The parameters are the JSON block below (hashed as `params_sha256` in EXECUTION_RECORD.json; this file's bytes as `spec_sha256`).
+
+## Purpose
+Peirce's velocity-of-light passage (P75) as a toy: nine investigators with biases -3% to +3% perfect their methods (bias and noise x 0.9 per round): does their spread fall below 1% of the initial spread by round 100 and their mean come within 1e-4 of the truth?
+
+## Phase operationalization tested
+PHI Convergence = Peircean convergence of inquiry: 'the results will move steadily together toward a destined centre' (P75).
+
+## Sources this run draws on
+P75 (Peirce, C. S. 1878, 'Illustrations of the Logic of Science II: How to Make Our Ideas Clear', Popular Science Monthly 12:286-302; public domain; Wikisource transcription, CC BY-SA; read in full in CVA): investigators of the velocity of light by different methods 'may at first obtain different results, but, as each perfects his method and his processes, the results will move steadily together toward a destined centre'; 'The opinion which is fated to be ultimately agreed to by all who investigate, is what we mean by the truth'; buried secrets. P72 (Capps, 'The Pragmatic Theory of Truth', Stanford Encyclopedia of Philosophy, first published 21 Mar 2019, substantive revision 22 May 2023; read in full in CV0): Peirce 1878 'The opinion which is fated to be ultimately agreed to by all who investigate'; Peirce 1901 'ideal limit towards which endless investigation would tend'; 'buried secrets' objection; Misak 'never in a position to judge'.
+
+## Refinement from previous iteration
+First iteration of this run family in this cycle.
+
+## Pre-registered checks
+| id | kind | expectation |
+|---|---|---|
+| V1 | validation | noise-free spread at round 0 equals max(b) - min(b) |
+| H1 | hypothesis | the investigators' spread at round 100 is below 1% of the round-0 spread |
+| H2 | hypothesis | their mean is within 1e-4 (relative) of the truth at round 100 |
+| R1 | reporting | values |
+
+Kinds: *validation* = code/analytic correctness (must Pass); *hypothesis* = substantive test that may go either way (Supported / Not supported; 'Not supported' is a finding, not an error); *reporting* = value recorded.
+
+## Limits
+Hypothetical toy of a philosophical passage; rates and biases are the agent's. Statistical tolerance (owner standard, set before running): Monte Carlo validation checks use a band of 4 standard errors computed from the run itself; deterministic checks use explicit numerical bounds. Smoke test (seed 99, temporary directory, before this SPEC) used this exact configuration, so the outcome was seen in advance (disclosed); hypotheses and thresholds were written before the smoke test and not changed after it.
+
+## Parameters
+```json
+{
+ "sim_id": "SIM-CV-PHI-A",
+ "iteration": 1,
+ "kind": "peirce_methods",
+ "seed": 30601,
+ "truth": 299792.458,
+ "biases": [
+  -0.03,
+  -0.02,
+  -0.01,
+  0.005,
+  0.01,
+  0.015,
+  0.02,
+  0.025,
+  0.03
+ ],
+ "rho_all": 0.9,
+ "noise": 0.01,
+ "rounds": 100,
+ "checkpoints": [
+  0,
+  10,
+  50,
+  100
+ ],
+ "hyps": [
+  [
+   "the investigators' spread at round 100 is below 1% of the round-0 spread",
+   "o['rounds']['100']['spread_rel'] < 0.01*o['rounds']['0']['spread_rel']"
+  ],
+  [
+   "their mean is within 1e-4 (relative) of the truth at round 100",
+   "o['rounds']['100']['mean_err_rel'] < 1e-4"
+  ]
+ ]
+}
+```
+
+## Command
+`python sim_phi.py iter-1` (run from `Philosophy-Spirituality/simulation/`)

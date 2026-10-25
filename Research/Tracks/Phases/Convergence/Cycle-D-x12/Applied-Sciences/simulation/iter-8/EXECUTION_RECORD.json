@@ -1,0 +1,128 @@
+{
+ "sim_id": "SIM-CV-APP-D",
+ "iteration": 8,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:12.371196+00:00",
+ "finished_utc": "2026-10-24T22:15:12.375793+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-8  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "45c1228d2c3705a6d39770997423b2fd8d111400cee7a9ca153ee8bf96644eec",
+ "params_sha256": "8670b4847d6fa9766c7d37d5c026bf7e8714f5fff99b4e0d140ab7c6d7e865b3",
+ "results_sha256": "f5486f5d289711426a38a328f4aec21737a53fb6aeae98a13ffd83f017c2c6b5",
+ "results": {
+  "exact": 0.28571429,
+  "rows": {
+   "65": {
+    "trap_err": 5.087e-05,
+    "simp_err": 1e-08
+   },
+   "129": {
+    "trap_err": 1.272e-05,
+    "simp_err": 0.0
+   },
+   "257": {
+    "trap_err": 3.18e-06,
+    "simp_err": 0.0
+   }
+  },
+  "order_trap": 2.0,
+  "order_simp": 3.4805
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson's rule integrates x^3 on [0, 1] exactly (1/4) with 5 nodes",
+   "observed": 0.25,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "x^2.5 (C2, not C3): trapezoid order within 0.1 of 2",
+   "observed": {
+    "exact": 0.28571429,
+    "rows": {
+     "65": {
+      "trap_err": 5.087e-05,
+      "simp_err": 1e-08
+     },
+     "129": {
+      "trap_err": 1.272e-05,
+      "simp_err": 0.0
+     },
+     "257": {
+      "trap_err": 3.18e-06,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": 2.0,
+    "order_simp": 3.4805
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Simpson order below 4",
+   "observed": {
+    "exact": 0.28571429,
+    "rows": {
+     "65": {
+      "trap_err": 5.087e-05,
+      "simp_err": 1e-08
+     },
+     "129": {
+      "trap_err": 1.272e-05,
+      "simp_err": 0.0
+     },
+     "257": {
+      "trap_err": 3.18e-06,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": 2.0,
+    "order_simp": 3.4805
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 0.28571429,
+    "rows": {
+     "65": {
+      "trap_err": 5.087e-05,
+      "simp_err": 1e-08
+     },
+     "129": {
+      "trap_err": 1.272e-05,
+      "simp_err": 0.0
+     },
+     "257": {
+      "trap_err": 3.18e-06,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": 2.0,
+    "order_simp": 3.4805
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

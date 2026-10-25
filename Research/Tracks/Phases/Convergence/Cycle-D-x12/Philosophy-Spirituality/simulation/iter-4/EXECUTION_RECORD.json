@@ -1,0 +1,244 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:17.416720+00:00",
+ "finished_utc": "2026-10-24T22:15:17.872247+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-4  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "fbce2bb39f4f579579e524e2ab1cf2039a2bdbc1bb5ac3236dd53ee13a722333",
+ "params_sha256": "ae1a16845bcc3f363dda3a2bc9ab22c1c0ff18674742ab684081ee85988e779a",
+ "results_sha256": "30a3737431ad3bc0082e8f8e90e5e23b969c1e3ed9312a0d6f5611570263cb93",
+ "results": {
+  "items": {
+   "constant": {
+    "type": "coef",
+    "t": 2.45,
+    "lo": 3.719,
+    "hi": 33.883,
+    "printed": {
+     "t": 2.45,
+     "lo": 3.719,
+     "hi": 33.883
+    }
+   },
+   "absorption": {
+    "type": "coef",
+    "t": 11.292,
+    "lo": 0.448,
+    "hi": 0.636,
+    "printed": {
+     "t": 11.35,
+     "lo": 0.449,
+     "hi": 0.636
+    }
+   },
+   "altruism": {
+    "type": "coef",
+    "t": 2.654,
+    "lo": 0.092,
+    "hi": 0.614,
+    "printed": {
+     "t": 2.65,
+     "lo": 0.091,
+     "hi": 0.614
+    }
+   },
+   "religiosity": {
+    "type": "coef",
+    "t": 4.848,
+    "lo": 0.19,
+    "hi": 0.45,
+    "printed": {
+     "t": 4.88,
+     "lo": 0.191,
+     "hi": 0.449
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83 Table 1: every t = B/SE within 0.1 of the printed t",
+   "observed": {
+    "items": {
+     "constant": {
+      "type": "coef",
+      "t": 2.45,
+      "lo": 3.719,
+      "hi": 33.883,
+      "printed": {
+       "t": 2.45,
+       "lo": 3.719,
+       "hi": 33.883
+      }
+     },
+     "absorption": {
+      "type": "coef",
+      "t": 11.292,
+      "lo": 0.448,
+      "hi": 0.636,
+      "printed": {
+       "t": 11.35,
+       "lo": 0.449,
+       "hi": 0.636
+      }
+     },
+     "altruism": {
+      "type": "coef",
+      "t": 2.654,
+      "lo": 0.092,
+      "hi": 0.614,
+      "printed": {
+       "t": 2.65,
+       "lo": 0.091,
+       "hi": 0.614
+      }
+     },
+     "religiosity": {
+      "type": "coef",
+      "t": 4.848,
+      "lo": 0.19,
+      "hi": 0.45,
+      "printed": {
+       "t": 4.88,
+       "lo": 0.191,
+       "hi": 0.449
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "every 95% CI bound within 0.003 of the printed bound",
+   "observed": {
+    "items": {
+     "constant": {
+      "type": "coef",
+      "t": 2.45,
+      "lo": 3.719,
+      "hi": 33.883,
+      "printed": {
+       "t": 2.45,
+       "lo": 3.719,
+       "hi": 33.883
+      }
+     },
+     "absorption": {
+      "type": "coef",
+      "t": 11.292,
+      "lo": 0.448,
+      "hi": 0.636,
+      "printed": {
+       "t": 11.35,
+       "lo": 0.449,
+       "hi": 0.636
+      }
+     },
+     "altruism": {
+      "type": "coef",
+      "t": 2.654,
+      "lo": 0.092,
+      "hi": 0.614,
+      "printed": {
+       "t": 2.65,
+       "lo": 0.091,
+       "hi": 0.614
+      }
+     },
+     "religiosity": {
+      "type": "coef",
+      "t": 4.848,
+      "lo": 0.19,
+      "hi": 0.45,
+      "printed": {
+       "t": 4.88,
+       "lo": 0.191,
+       "hi": 0.449
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "constant": {
+      "type": "coef",
+      "t": 2.45,
+      "lo": 3.719,
+      "hi": 33.883,
+      "printed": {
+       "t": 2.45,
+       "lo": 3.719,
+       "hi": 33.883
+      }
+     },
+     "absorption": {
+      "type": "coef",
+      "t": 11.292,
+      "lo": 0.448,
+      "hi": 0.636,
+      "printed": {
+       "t": 11.35,
+       "lo": 0.449,
+       "hi": 0.636
+      }
+     },
+     "altruism": {
+      "type": "coef",
+      "t": 2.654,
+      "lo": 0.092,
+      "hi": 0.614,
+      "printed": {
+       "t": 2.65,
+       "lo": 0.091,
+       "hi": 0.614
+      }
+     },
+     "religiosity": {
+      "type": "coef",
+      "t": 4.848,
+      "lo": 0.19,
+      "hi": 0.45,
+      "printed": {
+       "t": 4.88,
+       "lo": 0.191,
+       "hi": 0.449
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

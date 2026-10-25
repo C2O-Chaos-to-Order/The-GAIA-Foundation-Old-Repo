@@ -1,0 +1,283 @@
+{
+ "sim_id": "SIM-AS-APP-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T23:50:49.120782+00:00",
+ "finished_utc": "2026-10-24T23:50:49.555072+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "535123b7c52a3975680f0b7b603ec8ae8ebb8ef032490f67829a2ae3a0f9e13e",
+ "params_sha256": "7a01c4e15a76a37419d3c4eca7d060c592aa694814a77b6770c1bff1aad109af",
+ "results_sha256": "412512a6d4dc54bc9c380c0c00c99919bac50ce6351f2d11e661bbab3423cbb1",
+ "results": {
+  "items": {
+   "T2_n_1": {
+    "value": 425.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_2": {
+    "value": 120.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_3": {
+    "value": 1180.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_4": {
+    "value": 1270.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_5": {
+    "value": 2550.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_6": {
+    "value": 430.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_7": {
+    "value": 692.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_8": {
+    "value": 1012.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_9": {
+    "value": 692.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_10": {
+    "value": 1012.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_11": {
+    "value": 2895.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_12": {
+    "value": 1023.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_13": {
+    "value": 1842.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_14": {
+    "value": 428.0,
+    "printed": null,
+    "diff": null
+   },
+   "T2_n_15": {
+    "value": 2250.0,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no P95 Table 2 factor has more participants than the 2,705 in the meta-analysis",
+   "observed": {
+    "items": {
+     "T2_n_1": {
+      "value": 425.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_2": {
+      "value": 120.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_3": {
+      "value": 1180.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_4": {
+      "value": 1270.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_5": {
+      "value": 2550.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_6": {
+      "value": 430.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_7": {
+      "value": 692.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_8": {
+      "value": 1012.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_9": {
+      "value": 692.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_10": {
+      "value": 1012.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_11": {
+      "value": 2895.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_12": {
+      "value": 1023.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_13": {
+      "value": 1842.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_14": {
+      "value": 428.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_15": {
+      "value": 2250.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "T2_n_1": {
+      "value": 425.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_2": {
+      "value": 120.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_3": {
+      "value": 1180.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_4": {
+      "value": 1270.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_5": {
+      "value": 2550.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_6": {
+      "value": 430.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_7": {
+      "value": 692.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_8": {
+      "value": 1012.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_9": {
+      "value": 692.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_10": {
+      "value": 1012.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_11": {
+      "value": 2895.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_12": {
+      "value": 1023.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_13": {
+      "value": 1842.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_14": {
+      "value": 428.0,
+      "printed": null,
+      "diff": null
+     },
+     "T2_n_15": {
+      "value": 2250.0,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

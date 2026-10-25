@@ -1,0 +1,208 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 8,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:42.486801+00:00",
+ "finished_utc": "2026-10-25T00:01:42.924575+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-8  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "be41940e42edae65d9b5c97caf641a9c8ec7e98265f64f6d74169b541b79cf4e",
+ "params_sha256": "3a33416c68b81cd328e31934deea7fecb77f41b46ccc30fdb6c034fef3b89bd3",
+ "results_sha256": "59e7f7bf1365437f1071930e62c6ada46658852751af7107ee9c91945de7fef7",
+ "results": {
+  "items": {
+   "corr_rise_per_decade": {
+    "value": 0.01,
+    "printed": 0.01,
+    "diff": 0.0
+   },
+   "years_1850_2015": {
+    "value": 165.0,
+    "printed": 165,
+    "diff": 0.0
+   },
+   "cohorts_1830_1980": {
+    "value": 16.0,
+    "printed": 16,
+    "diff": 0.0
+   },
+   "farm_pop_rise": {
+    "value": 6.632653,
+    "printed": null,
+    "diff": null
+   },
+   "farm_share_fall": {
+    "value": 44.0,
+    "printed": null,
+    "diff": null
+   },
+   "threshold_in_ranks": {
+    "value": 5.175,
+    "printed": null,
+    "diff": null
+   },
+   "pre1900_share_of_rise": {
+    "value": 0.666667,
+    "printed": null,
+    "diff": null
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival at 3.8415 with 1 df equals 0.05 within 1e-9",
+   "observed": 0.05,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P96's 'average increase of 0.01 in every 10 y', '165 y' and '16 cohorts' follow from its endpoints",
+   "observed": {
+    "items": {
+     "corr_rise_per_decade": {
+      "value": 0.01,
+      "printed": 0.01,
+      "diff": 0.0
+     },
+     "years_1850_2015": {
+      "value": 165.0,
+      "printed": 165,
+      "diff": 0.0
+     },
+     "cohorts_1830_1980": {
+      "value": 16.0,
+      "printed": 16,
+      "diff": 0.0
+     },
+     "farm_pop_rise": {
+      "value": 6.632653,
+      "printed": null,
+      "diff": null
+     },
+     "farm_share_fall": {
+      "value": 44.0,
+      "printed": null,
+      "diff": null
+     },
+     "threshold_in_ranks": {
+      "value": 5.175,
+      "printed": null,
+      "diff": null
+     },
+     "pre1900_share_of_rise": {
+      "value": 0.666667,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "most of the rise in rank-rank correlation (0.17 to 0.32) happened by the 1900 cohort (0.27): share above one half",
+   "observed": {
+    "items": {
+     "corr_rise_per_decade": {
+      "value": 0.01,
+      "printed": 0.01,
+      "diff": 0.0
+     },
+     "years_1850_2015": {
+      "value": 165.0,
+      "printed": 165,
+      "diff": 0.0
+     },
+     "cohorts_1830_1980": {
+      "value": 16.0,
+      "printed": 16,
+      "diff": 0.0
+     },
+     "farm_pop_rise": {
+      "value": 6.632653,
+      "printed": null,
+      "diff": null
+     },
+     "farm_share_fall": {
+      "value": 44.0,
+      "printed": null,
+      "diff": null
+     },
+     "threshold_in_ranks": {
+      "value": 5.175,
+      "printed": null,
+      "diff": null
+     },
+     "pre1900_share_of_rise": {
+      "value": 0.666667,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "corr_rise_per_decade": {
+      "value": 0.01,
+      "printed": 0.01,
+      "diff": 0.0
+     },
+     "years_1850_2015": {
+      "value": 165.0,
+      "printed": 165,
+      "diff": 0.0
+     },
+     "cohorts_1830_1980": {
+      "value": 16.0,
+      "printed": 16,
+      "diff": 0.0
+     },
+     "farm_pop_rise": {
+      "value": 6.632653,
+      "printed": null,
+      "diff": null
+     },
+     "farm_share_fall": {
+      "value": 44.0,
+      "printed": null,
+      "diff": null
+     },
+     "threshold_in_ranks": {
+      "value": 5.175,
+      "printed": null,
+      "diff": null
+     },
+     "pre1900_share_of_rise": {
+      "value": 0.666667,
+      "printed": null,
+      "diff": null
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

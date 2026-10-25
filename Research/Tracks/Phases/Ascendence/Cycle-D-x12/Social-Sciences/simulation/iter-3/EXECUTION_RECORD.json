@@ -1,0 +1,79 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:38.688946+00:00",
+ "finished_utc": "2026-10-25T00:01:39.341123+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-3  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "bc0c52106d213eb9aa473108fd1e5a34a6ad9ff8ad445d02d6ac8aec0344d941",
+ "params_sha256": "6f89241fccc0f7c6af0fad9b38624fdf2c2b75ae1d222842e2a2ded6a895f0f4",
+ "results_sha256": "5c80ccfc2f3b43e430e451e11c7d3f74ae73a2f49656deba955fa7ee64b9dd04",
+ "results": {
+  "cells": {
+   "rho0.32_up0.0": {
+    "rank_corr": 0.3065,
+    "up": 0.4026,
+    "down": 0.3967,
+    "stay": 0.2007
+   }
+  },
+  "n": 200000,
+  "K": 70,
+  "thr": 7.5
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "independent latent statuses give |rank correlation| < 0.01 (n 200,000)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "no structural change: up and down shares equal within 0.01",
+   "observed": {
+    "cells": {
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3065,
+      "up": 0.4026,
+      "down": 0.3967,
+      "stay": 0.2007
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cells": {
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3065,
+      "up": 0.4026,
+      "down": 0.3967,
+      "stay": 0.2007
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

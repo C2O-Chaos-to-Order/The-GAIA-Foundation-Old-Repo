@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-AS-HUM-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:49.388296+00:00",
+ "finished_utc": "2026-10-25T00:01:49.408080+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "dda37a882cd16a12032c43de2d6b178448415e89cc49d16357c1a7e44a37b04b",
+ "params_sha256": "366ad777d4833f147aec98bbeb931ab4eee94ab49a896701462eb9b26e00bbe1",
+ "results_sha256": "5d5a67374729138b71f013848cfbb136dad1d138db2649dbf1e1ce3098edcd32",
+ "results": {
+  "by_x0": {
+   "0.15": {
+    "p_fix": 0.66825,
+    "p_lost": 0.33175,
+    "p_unresolved": 0.0,
+    "mean_gens": 12.952
+   }
+  },
+  "N": 200,
+  "c": 1.3,
+  "b": 0.7,
+  "se_max": 0.00791
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.2499315,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "c 1.3, b 0.7 from 15%: fixation above one half",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.66825,
+      "p_lost": 0.33175,
+      "p_unresolved": 0.0,
+      "mean_gens": 12.952
+     }
+    },
+    "N": 200,
+    "c": 1.3,
+    "b": 0.7,
+    "se_max": 0.00791
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.15": {
+      "p_fix": 0.66825,
+      "p_lost": 0.33175,
+      "p_unresolved": 0.0,
+      "mean_gens": 12.952
+     }
+    },
+    "N": 200,
+    "c": 1.3,
+    "b": 0.7,
+    "se_max": 0.00791
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
