@@ -10,7 +10,7 @@ Owner request (2026-10-24): five phase reports — **Divergence, Insurgence, All
 | Convergence | `Convergence/` | in progress |
 | Ascendence | `Ascendence/` | in progress |
 | Transcendence | `Transcendence/` | in progress |
-| Synthesis | `SYNTHESIS.md` | planned (six-phase synthesis not yet written) |
+| Synthesis | `SYNTHESIS.md` | written 2026-10-25 (six phases; Proposed; gate INDETERMINATE); method and checks in `Synthesis/` |
 
 ## Fields
 NAT Natural-Sciences · FOR Formal-Sciences · SOC Social-Sciences · APP Applied-Sciences · HUM Humanities · PHI Philosophy-Spirituality. The six-field list is a convention (owner choice), not a natural kind.
