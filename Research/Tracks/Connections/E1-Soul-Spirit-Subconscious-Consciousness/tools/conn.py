@@ -91,6 +91,16 @@ def run(cycle_dir, it, outdir=None):
     out = outdir or os.path.join(cycle_dir, f"iter-{it}")
     data = os.path.join(out, "data"); os.makedirs(data, exist_ok=True)
     D = load_records(repo, cfg)
+    x6 = cfg.get("x6")
+    D["mclaims"], D["mlinks"], D["msources"] = {}, {}, {}
+    if x6:  # main seven reports (x6 on; earlier records unchanged)
+        mc = os.path.join(repo, "Research", x6["main_cycle"])
+        for f in sorted(os.listdir(mc)):
+            cf = os.path.join(mc, f, "claims", "claims.csv")
+            if f.startswith("Report-") and os.path.exists(cf):
+                for r in csvrows(cf): D["mclaims"][r["claim_id"]] = r
+        D["mlinks"] = {r["link_id"]: r for r in csvrows(os.path.join(mc, x6["main_links"]))}
+        D["msources"] = {r["source_id"]: r for r in csvrows(os.path.join(mc, "Provenance", "SOURCE_REGISTER.csv"))}
     J = {k: csvrows(P(v)) for k, v in sorted(cfg["judgments"].items())}
     fac, cl, lk = J["factors"], J["claims"], J["links"]
     m, problems = {}, []
@@ -102,14 +112,18 @@ def run(cycle_dir, it, outdir=None):
     for k, r in D["links"].items(): lab[k] = r["framework_label"]
     for k, r in D["pclaims"].items(): lab[k] = r["framework_label"]
     for k, r in D["plinks"].items(): lab[k] = r["framework_label"]
+    for k, r in D["mclaims"].items(): lab.setdefault(k, r["framework_label"])
+    for k, r in D["mlinks"].items(): lab.setdefault(k, r["framework_label"])
     for r in cl: lab[r["claim_id"]] = r["framework_label"]
     fids = {r["factor_id"] for r in fac}
-    allsrc = set(D["sources"]) | set(D["psources"])
+    allsrc = set(D["sources"]) | set(D["psources"]) | set(D["msources"])
     def cited_by(bid):
         if bid in D["claims"]: return set(split(D["claims"][bid]["source_ids"]))
         if bid in D["pclaims"]: return set(split(D["pclaims"][bid]["source_ids"]))
         if bid in D["links"]: return set(split(D["links"][bid]["basis"]))
         if bid in D["plinks"]: return set(split(D["plinks"][bid]["basis"]))
+        if bid in D["mclaims"]: return set(split(D["mclaims"][bid]["source_ids"]))
+        if bid in D["mlinks"]: return set().union(*[cited_by(b) for b in split(D["mlinks"][bid]["basis"])] or [set()])
         cr = next((r for r in cl if r["claim_id"] == bid), None)
         if cr: return set(split(cr["source_ids"])) | set().union(*[cited_by(b) for b in split(cr["basis"]) if b != bid] or [set()])
         if bid in allsrc: return {bid}
@@ -121,12 +135,17 @@ def run(cycle_dir, it, outdir=None):
         if r["kind"] not in {"method", "substantive", "tradition", "ethics"}: problems.append(f"factor {r['factor_id']} bad kind")
         labs = []
         for b in split(r["basis_claims"]):
+            if x6 and b in D["mclaims"]:
+                mt = x6["report_topic"].get(D["mclaims"][b]["report"])
+                if mt != r["topic"]: problems.append(f"factor {r['factor_id']}/{r['topic']} basis {b} from another topic's main report")
+                labs.append(D["mclaims"][b]["framework_label"]); continue
             if b not in D["claims"]: problems.append(f"factor {r['factor_id']}/{r['topic']} basis {b} not in SSSC ledger"); continue
             if D["claims"][b]["_topic"] != r["topic"]: problems.append(f"factor {r['factor_id']}/{r['topic']} basis {b} from another topic")
             labs.append(D["claims"][b]["framework_label"])
         ep = any(l in ("Established", "Plausible") for l in labs)
         eo = any(l == "Established" for l in labs)
-        counts = {"as_judged": True, "strict": ep, "established_only": eo}[rule]
+        counts = {"as_judged": True, "strict": ep, "established_only": eo,
+                  "no_method": r["kind"] != "method", "no_tradition": r["kind"] != "tradition"}[rule]
         fac_rows.append([r["factor_id"], r["factor"], r["kind"], r["topic"], ";".join(labs), ep, counts])
     wcsv(os.path.join(data, "factor_topic.csv"), ["factor_id", "factor", "kind", "topic", "basis_labels", "has_E_or_P_basis", "counted"], fac_rows)
     inc = {}
@@ -172,7 +191,7 @@ def run(cycle_dir, it, outdir=None):
     m["phase_being_claims"] = len([r for r in D["pclaims"].values() if r.get("being")])
     m["phase_being_claim_ids"] = sorted(k for k, r in D["pclaims"].items() if r.get("being"))
     # 3 judged claims and links: resolution, sources, label rule, owner rule, census
-    known = set(D["claims"]) | set(D["links"]) | set(D["pclaims"]) | set(D["plinks"]) | {r["claim_id"] for r in cl} | fids | allsrc
+    known = set(D["claims"]) | set(D["links"]) | set(D["pclaims"]) | set(D["plinks"]) | {r["claim_id"] for r in cl} | fids | allsrc | set(D["mclaims"]) | set(D["mlinks"])
     if cfg.get("x3"):
         for ecp in cfg["x3"].get("sssc_earlier_cycles", []):
             for t, d in TOPIC_DIR.items():
@@ -236,9 +255,9 @@ def run(cycle_dir, it, outdir=None):
                 for r in csvrows(os.path.join(repo, "Research", ecp, d, "claims", "claims.csv")):
                     earlier[r["claim_id"]] = r
         text_of = {}
-        for src in (D["claims"], D["pclaims"], earlier):
+        for src in (D["claims"], D["pclaims"], earlier, D["mclaims"]):
             for k, r in src.items(): text_of.setdefault(k, r["wording"])
-        for src in (D["links"], D["plinks"]):
+        for src in (D["links"], D["plinks"], D["mlinks"]):
             for k, r in src.items(): text_of.setdefault(k, r["statement"])
         anch = []
         for r in cl:
@@ -295,6 +314,58 @@ def run(cycle_dir, it, outdir=None):
                 v = m.get(r["metric"]); v = len(v) if isinstance(v, (list, dict)) else v
                 if str(v) != r["value"]: cens2.append(f"{r['claim_id']}: {r['metric']}={v} vs stated {r['value']}")
         m["census_claim_mismatches"] = sorted(cens2)
+    # 3c x6 additions (behind config key; earlier records unchanged)
+    if x6:
+        old = {**D["sources"], **D["psources"]}
+        m["source_id_conflicts"] = sorted(k for k in D["msources"] if k in old and D["msources"][k]["citation"] != old[k]["citation"])
+        matches = {(t, c) for t in TOPICS for ph in PHASES for c in pt[t][ph]}
+        audit = csvrows(P(x6["phase_audit"])); akeys = {(r["topic"], r["claim_id"]) for r in audit}
+        for r in audit:
+            if r["verdict"] not in x6["audit_verdicts"]: problems.append(f"audit {r['topic']}/{r['claim_id']} bad verdict")
+            if not r["reason"].strip(): problems.append(f"audit {r['topic']}/{r['claim_id']} no reason")
+        m["phase_audit_missing"] = sorted(f"{t}/{c}" for t, c in matches - akeys)
+        m["phase_audit_extra"] = sorted(f"{t}/{c}" for t, c in akeys - matches)
+        m["phase_audit_verdicts"] = {v: sum(1 for r in audit if r["verdict"] == v) for v in x6["audit_verdicts"]}
+        m["phase_genuine_by_topic"] = {t: sorted(r["claim_id"] for r in audit if r["topic"] == t and r["verdict"] == "genuine") for t in TOPICS}
+        m["topics_without_genuine_phase_match"] = sorted(t for t in TOPICS if not m["phase_genuine_by_topic"][t])
+        wcsv(os.path.join(data, "phase_audit.csv"), ["topic", "claim_id", "verdict", "phase"],
+             sorted([r["topic"], r["claim_id"], r["verdict"], next((ph for ph in PHASES if r["claim_id"] in pt.get(r["topic"], {}).get(ph, [])), "")] for r in audit))
+        trv = []
+        for r in cl:
+            if r.get("tradition") not in ("yes", "no"): problems.append(f"{r['claim_id']} tradition flag missing"); continue
+            if r["tradition"] != "yes": continue
+            if r["framework_label"] in ("Plausible", "Hypothetical"): trv.append(f"{r['claim_id']}: tradition claim labelled {r['framework_label']}")
+            if r["framework_label"] == "Established" and "descriptive" not in r["wording"]: trv.append(f"{r['claim_id']}: Established tradition claim not marked descriptive")
+        m["tradition_rule_violations"] = sorted(trv)
+        bal = {t: {"tradition": 0, "science": 0} for t in TOPICS}
+        for r in cl:
+            if r["kind"] not in ("shared", "difference", "unity"): continue
+            for t in split(r["topics"]):
+                if t in bal: bal[t]["tradition" if r["tradition"] == "yes" else "science"] += 1
+        m["topic_balance"] = bal
+        m["topics_lacking_tradition_or_science"] = sorted(t for t in TOPICS if not bal[t]["tradition"] or not bal[t]["science"])
+        fam = {f: re.compile(x) for f, x in x6["tradition_families"].items()}
+        ttext = " ".join(r["wording"] for r in cl if r.get("tradition") == "yes")
+        m["tradition_families_named"] = sorted(f for f, rx_ in fam.items() if rx_.search(ttext))
+        m["tradition_families_absent"] = sorted(f for f in fam if f not in m["tradition_families_named"])
+        rt = x6["report_topic"]
+        ml = [r for r in D["mlinks"].values() if r["from"].split()[0] in rt and r["to"].split()[0] in rt and r["from"].split()[0] != r["to"].split()[0]]
+        m["main_links_among_topics"] = sorted(r["link_id"] for r in ml)
+        m["main_links_among_topics_n"] = len(ml)
+        mp = {pair_key(x6["report_topic"][r["from"].split()[0]], x6["report_topic"][r["to"].split()[0]]) for r in ml}
+        m["main_pairs_without_link"] = sorted(pair_key(a, b) for a, b in PAIRS if pair_key(a, b) not in mp)
+        used = set()
+        for r in cl + lk: used |= {b for b in split(r["basis"]) if b in D["mlinks"]}
+        m["main_links_used"] = sorted(used)
+        m["main_links_among_topics_not_used"] = sorted(set(m["main_links_among_topics"]) - used)
+        m["claims_using_main_reports"] = sorted(r["claim_id"] for r in cl if any(b in D["mclaims"] or b in D["mlinks"] for b in split(r["basis"])))
+        m["problems"] = sorted(problems)
+        cens3 = []
+        for r in cl:
+            if r["kind"] == "census":
+                v = m.get(r["metric"]); v = len(v) if isinstance(v, (list, dict)) else v
+                if str(v) != r["value"]: cens3.append(f"{r['claim_id']}: {r['metric']}={v} vs stated {r['value']}")
+        m["census_claim_mismatches"] = sorted(cens3)
     # 4 boundary scan against the Totality Suite (this report's folder, plus this run's outputs)
     W = cfg["boundary_window"]; here = os.path.abspath(cycle_dir)
     bs = pc4.boundary_scan(cfg["suite_path"], ROOT, W, exclude=(os.path.relpath(here, ROOT) + os.sep,))
@@ -352,6 +423,12 @@ def render(cycle_dir, it):
         L += [f"| {f} | " + " | ".join(str(v[t]) for t in TOPICS) + " |" for f, v in m["limitation_families"].items()]
         L.append(f"\nIn all four topics: {', '.join(m['limitation_families_in_all_four']) or 'none'}. Anchor mismatches: {', '.join(m['anchor_mismatches']) or 'none'}.")
         L.append(f"\nChanged against the previous cycle: claims {', '.join(m['claims_changed_vs_previous']) or 'none'}; links {', '.join(m['links_changed_vs_previous']) or 'none'}; factor rows {', '.join(m['factor_rows_changed_vs_previous']) or 'none'}.")
+    if "phase_audit_verdicts" in m:
+        L.append("\n### x6: main reports, phase audit, traditions and science\n\n| Topic | Genuine phase matches | Tradition claims | Science claims |\n|---|---|---|---|")
+        L += [f"| {t} | {', '.join(m['phase_genuine_by_topic'][t]) or '(none)'} | {m['topic_balance'][t]['tradition']} | {m['topic_balance'][t]['science']} |" for t in TOPICS]
+        L.append(f"\nPhase-audit verdicts: " + ", ".join(f"{k} {v}" for k, v in m["phase_audit_verdicts"].items()) + f". Unaudited matches: {', '.join(m['phase_audit_missing']) or 'none'}; audit rows without a match: {', '.join(m['phase_audit_extra']) or 'none'}.")
+        L.append(f"\nTradition families named in tradition claims: {', '.join(m['tradition_families_named']) or 'none'}; absent: {', '.join(m['tradition_families_absent']) or 'none'}. Tradition-rule violations: {', '.join(m['tradition_rule_violations']) or 'none'}.")
+        L.append(f"\nMain-report links among the four topics' reports: {', '.join(m['main_links_among_topics'])}; used here: {', '.join(m['main_links_used']) or 'none'}; not used: {', '.join(m['main_links_among_topics_not_used']) or 'none'}; topic pairs without a main-report link: {', '.join(m['main_pairs_without_link']) or 'none'}. Source-ID conflicts between registers: {', '.join(m['source_id_conflicts']) or 'none'}.")
     for key in ("dangling_basis", "unresolved_sources", "sources_not_in_basis", "label_rule_violations", "owner_rule_violations", "census_claim_mismatches", "problems"):
         L.append(f"\n{key}: {', '.join(m[key]) or 'none'}")
     return "\n".join(L) + "\n"
