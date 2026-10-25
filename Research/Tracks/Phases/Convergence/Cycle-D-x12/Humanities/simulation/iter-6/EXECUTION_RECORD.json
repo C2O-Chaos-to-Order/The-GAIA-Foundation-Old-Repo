@@ -1,0 +1,106 @@
+{
+ "sim_id": "SIM-CV-HUM-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:14.021399+00:00",
+ "finished_utc": "2026-10-24T22:15:14.030612+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-6  (run from Humanities/simulation/)",
+ "spec_sha256": "9b5bcc508787e6cd6591459dcf5e5717e45a8db9c199bfab638c9fbc798cfe58",
+ "params_sha256": "b26c36cfe3b4f71fb127e05637c35139e9a1cc019fd34242f653caba19e9eb1a",
+ "results_sha256": "cb5aaa75ebc656e0a024ca0f521c9ce411690a991e273e2fce02d01fba9ad34f",
+ "results": {
+  "by_x0": {
+   "0.6": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 2.001
+   },
+   "0.7": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 1.998
+   }
+  },
+  "N": 1000,
+  "c": 6.0,
+  "b": 0.0,
+  "se_max": 0.01118
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.249996,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "very strong conformity (c 6): levelling from 70% within 2 generations on average (P82's New Zealand pace)",
+   "observed": {
+    "by_x0": {
+     "0.6": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.001
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 1.998
+     }
+    },
+    "N": 1000,
+    "c": 6.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.6": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.001
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 1.998
+     }
+    },
+    "N": 1000,
+    "c": 6.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

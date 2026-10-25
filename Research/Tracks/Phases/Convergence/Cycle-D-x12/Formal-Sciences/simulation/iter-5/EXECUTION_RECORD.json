@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-CV-FOR-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:12.902535+00:00",
+ "finished_utc": "2026-10-24T22:14:12.911056+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-5  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "98d2f659535db080e82a30eedf1bd8b5c2bda527ef96333581dd4b560b02f6cd",
+ "params_sha256": "1d82ecc5e905d89bbcfe0dac188efd34415a4e05e5c79071a28854373c93391c",
+ "results_sha256": "4cf89c86d1901095562bc919a721276b3dcd6b1b16de1a4d2400a26bf97ac57d",
+ "results": {
+  "chains": {
+   "rot4": {
+    "n": 4,
+    "tmix": {
+     "0.25": null
+    },
+    "lambda2": 1.0,
+    "t_rel": 9007199254740992.0,
+    "d_at": {
+     "1": 0.75,
+     "200": 0.75
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the deterministic 4-cycle never mixes: d stays at 3/4",
+   "observed": {
+    "chains": {
+     "rot4": {
+      "n": 4,
+      "tmix": {
+       "0.25": null
+      },
+      "lambda2": 1.0,
+      "t_rel": 9007199254740992.0,
+      "d_at": {
+       "1": 0.75,
+       "200": 0.75
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "rot4": {
+      "n": 4,
+      "tmix": {
+       "0.25": null
+      },
+      "lambda2": 1.0,
+      "t_rel": 9007199254740992.0,
+      "d_at": {
+       "1": 0.75,
+       "200": 0.75
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

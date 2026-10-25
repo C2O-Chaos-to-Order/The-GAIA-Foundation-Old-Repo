@@ -1,0 +1,136 @@
+{
+ "sim_id": "SIM-CV-PHI-B",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:48.792105+00:00",
+ "finished_utc": "2026-10-24T20:44:48.796771+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "232a5c43a4c1e55ce2f248ec92dd4e47fbd82a60afe621032505a061d5cf7a1e",
+ "params_sha256": "ec82db44d651e89f780652d75d204fe6f29527fca416b5335685b8b8e7f7d816",
+ "results_sha256": "61d81f9218a366f32dfe603e93c8139902aec507ae79ceafd8ce8347f033b7d1",
+ "results": {
+  "rounds": {
+   "0": {
+    "spread_rel": 0.195568,
+    "mean_err_rel": 0.000561
+   },
+   "10": {
+    "spread_rel": 0.080993,
+    "mean_err_rel": 0.011886
+   },
+   "50": {
+    "spread_rel": 0.001063,
+    "mean_err_rel": 0.000255
+   },
+   "100": {
+    "spread_rel": 4e-06,
+    "mean_err_rel": 1e-06
+   }
+  },
+  "common_bias": 0.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "noise-free spread at round 0 equals max(b) - min(b)",
+   "observed": 0.06,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "the investigators' spread at round 100 is below 1% of the round-0 spread",
+   "observed": {
+    "rounds": {
+     "0": {
+      "spread_rel": 0.195568,
+      "mean_err_rel": 0.000561
+     },
+     "10": {
+      "spread_rel": 0.080993,
+      "mean_err_rel": 0.011886
+     },
+     "50": {
+      "spread_rel": 0.001063,
+      "mean_err_rel": 0.000255
+     },
+     "100": {
+      "spread_rel": 4e-06,
+      "mean_err_rel": 1e-06
+     }
+    },
+    "common_bias": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "mean within 1e-4 of the truth at round 100",
+   "observed": {
+    "rounds": {
+     "0": {
+      "spread_rel": 0.195568,
+      "mean_err_rel": 0.000561
+     },
+     "10": {
+      "spread_rel": 0.080993,
+      "mean_err_rel": 0.011886
+     },
+     "50": {
+      "spread_rel": 0.001063,
+      "mean_err_rel": 0.000255
+     },
+     "100": {
+      "spread_rel": 4e-06,
+      "mean_err_rel": 1e-06
+     }
+    },
+    "common_bias": 0.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "rounds": {
+     "0": {
+      "spread_rel": 0.195568,
+      "mean_err_rel": 0.000561
+     },
+     "10": {
+      "spread_rel": 0.080993,
+      "mean_err_rel": 0.011886
+     },
+     "50": {
+      "spread_rel": 0.001063,
+      "mean_err_rel": 0.000255
+     },
+     "100": {
+      "spread_rel": 4e-06,
+      "mean_err_rel": 1e-06
+     }
+    },
+    "common_bias": 0.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

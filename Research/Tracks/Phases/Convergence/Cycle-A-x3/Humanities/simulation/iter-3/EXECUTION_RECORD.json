@@ -1,0 +1,514 @@
+{
+ "sim_id": "SIM-CV-HUM-A",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:23:26.372387+00:00",
+ "finished_utc": "2026-10-24T20:23:26.818417+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-3  (run from Humanities/simulation/)",
+ "spec_sha256": "1988364f7cce02be408a777861bd9a7501a05e9a6bb1484c07d0b6c55dad021e",
+ "params_sha256": "92ea5afd442c895e9ffb1b14ff975cafd9369c8f8c0d1ff02c64e0fe7d52d002",
+ "results_sha256": "ad9822714408ba0ad18bddf116d4a413edc84aeb4d5afc48cb9cbf9cadf1870a",
+ "results": {
+  "bic": {},
+  "lr": {},
+  "coefs": {},
+  "percents": {},
+  "sums": {
+   "shadowing_female": {
+    "computed": 21,
+    "printed": 21
+   },
+   "shadowing_male": {
+    "computed": 9,
+    "printed": 9
+   },
+   "shadowing_PF": {
+    "computed": 23,
+    "printed": 23
+   },
+   "shadowing_FP": {
+    "computed": 7,
+    "printed": 7
+   },
+   "shadowing_total": {
+    "computed": 30,
+    "printed": 30
+   },
+   "interaction_female": {
+    "computed": 20,
+    "printed": 20
+   },
+   "interaction_male": {
+    "computed": 11,
+    "printed": 11
+   },
+   "interaction_PF": {
+    "computed": 23,
+    "printed": 23
+   },
+   "interaction_FP": {
+    "computed": 8,
+    "printed": 8
+   },
+   "interaction_total": {
+    "computed": 31,
+    "printed": 31
+   },
+   "questionnaire_tenths": {
+    "computed": 1000,
+    "printed": 1000
+   }
+  },
+  "chi2_text": {
+   "frequency_x_direction": {
+    "p": 0.4274,
+    "printed_p": 0.4277,
+    "diff": -0.0003
+   },
+   "M4_vs_M3_text": {
+    "p": 0.009,
+    "printed_p": 0.009,
+    "diff": 0.0
+   }
+  },
+  "mix": {
+   "frequency": {
+    "implied_w": 0.5217
+   },
+   "direction_PF": {
+    "implied_w": 0.8125
+   },
+   "gender_female": {
+    "implied_w": 0.6944
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "chi-square survival function: P(chi2_1 > 3.8415) = 0.05",
+   "observed": 0.04999999,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P71 Table 1 rows and totals and the questionnaire shares (82.1 + 14.8 + 3.1) add up exactly",
+   "observed": {
+    "bic": {},
+    "lr": {},
+    "coefs": {},
+    "percents": {},
+    "sums": {
+     "shadowing_female": {
+      "computed": 21,
+      "printed": 21
+     },
+     "shadowing_male": {
+      "computed": 9,
+      "printed": 9
+     },
+     "shadowing_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "shadowing_FP": {
+      "computed": 7,
+      "printed": 7
+     },
+     "shadowing_total": {
+      "computed": 30,
+      "printed": 30
+     },
+     "interaction_female": {
+      "computed": 20,
+      "printed": 20
+     },
+     "interaction_male": {
+      "computed": 11,
+      "printed": 11
+     },
+     "interaction_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "interaction_FP": {
+      "computed": 8,
+      "printed": 8
+     },
+     "interaction_total": {
+      "computed": 31,
+      "printed": 31
+     },
+     "questionnaire_tenths": {
+      "computed": 1000,
+      "printed": 1000
+     }
+    },
+    "chi2_text": {
+     "frequency_x_direction": {
+      "p": 0.4274,
+      "printed_p": 0.4277,
+      "diff": -0.0003
+     },
+     "M4_vs_M3_text": {
+      "p": 0.009,
+      "printed_p": 0.009,
+      "diff": 0.0
+     }
+    },
+    "mix": {
+     "frequency": {
+      "implied_w": 0.5217
+     },
+     "direction_PF": {
+      "implied_w": 0.8125
+     },
+     "gender_female": {
+      "implied_w": 0.6944
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "in-text chi-square p values within 0.002 of recomputed",
+   "observed": {
+    "bic": {},
+    "lr": {},
+    "coefs": {},
+    "percents": {},
+    "sums": {
+     "shadowing_female": {
+      "computed": 21,
+      "printed": 21
+     },
+     "shadowing_male": {
+      "computed": 9,
+      "printed": 9
+     },
+     "shadowing_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "shadowing_FP": {
+      "computed": 7,
+      "printed": 7
+     },
+     "shadowing_total": {
+      "computed": 30,
+      "printed": 30
+     },
+     "interaction_female": {
+      "computed": 20,
+      "printed": 20
+     },
+     "interaction_male": {
+      "computed": 11,
+      "printed": 11
+     },
+     "interaction_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "interaction_FP": {
+      "computed": 8,
+      "printed": 8
+     },
+     "interaction_total": {
+      "computed": 31,
+      "printed": 31
+     },
+     "questionnaire_tenths": {
+      "computed": 1000,
+      "printed": 1000
+     }
+    },
+    "chi2_text": {
+     "frequency_x_direction": {
+      "p": 0.4274,
+      "printed_p": 0.4277,
+      "diff": -0.0003
+     },
+     "M4_vs_M3_text": {
+      "p": 0.009,
+      "printed_p": 0.009,
+      "diff": 0.0
+     }
+    },
+    "mix": {
+     "frequency": {
+      "implied_w": 0.5217
+     },
+     "direction_PF": {
+      "implied_w": 0.8125
+     },
+     "gender_female": {
+      "implied_w": 0.6944
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "every overall-vs-subgroup questionnaire percentage implies a mixing weight in [0, 1]",
+   "observed": {
+    "bic": {},
+    "lr": {},
+    "coefs": {},
+    "percents": {},
+    "sums": {
+     "shadowing_female": {
+      "computed": 21,
+      "printed": 21
+     },
+     "shadowing_male": {
+      "computed": 9,
+      "printed": 9
+     },
+     "shadowing_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "shadowing_FP": {
+      "computed": 7,
+      "printed": 7
+     },
+     "shadowing_total": {
+      "computed": 30,
+      "printed": 30
+     },
+     "interaction_female": {
+      "computed": 20,
+      "printed": 20
+     },
+     "interaction_male": {
+      "computed": 11,
+      "printed": 11
+     },
+     "interaction_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "interaction_FP": {
+      "computed": 8,
+      "printed": 8
+     },
+     "interaction_total": {
+      "computed": 31,
+      "printed": 31
+     },
+     "questionnaire_tenths": {
+      "computed": 1000,
+      "printed": 1000
+     }
+    },
+    "chi2_text": {
+     "frequency_x_direction": {
+      "p": 0.4274,
+      "printed_p": 0.4277,
+      "diff": -0.0003
+     },
+     "M4_vs_M3_text": {
+      "p": 0.009,
+      "printed_p": 0.009,
+      "diff": 0.0
+     }
+    },
+    "mix": {
+     "frequency": {
+      "implied_w": 0.5217
+     },
+     "direction_PF": {
+      "implied_w": 0.8125
+     },
+     "gender_female": {
+      "implied_w": 0.6944
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "implied P->F weight within 0.05 of Table 1's session share 46/61 (exploratory; questionnaire counts not reported)",
+   "observed": {
+    "bic": {},
+    "lr": {},
+    "coefs": {},
+    "percents": {},
+    "sums": {
+     "shadowing_female": {
+      "computed": 21,
+      "printed": 21
+     },
+     "shadowing_male": {
+      "computed": 9,
+      "printed": 9
+     },
+     "shadowing_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "shadowing_FP": {
+      "computed": 7,
+      "printed": 7
+     },
+     "shadowing_total": {
+      "computed": 30,
+      "printed": 30
+     },
+     "interaction_female": {
+      "computed": 20,
+      "printed": 20
+     },
+     "interaction_male": {
+      "computed": 11,
+      "printed": 11
+     },
+     "interaction_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "interaction_FP": {
+      "computed": 8,
+      "printed": 8
+     },
+     "interaction_total": {
+      "computed": 31,
+      "printed": 31
+     },
+     "questionnaire_tenths": {
+      "computed": 1000,
+      "printed": 1000
+     }
+    },
+    "chi2_text": {
+     "frequency_x_direction": {
+      "p": 0.4274,
+      "printed_p": 0.4277,
+      "diff": -0.0003
+     },
+     "M4_vs_M3_text": {
+      "p": 0.009,
+      "printed_p": 0.009,
+      "diff": 0.0
+     }
+    },
+    "mix": {
+     "frequency": {
+      "implied_w": 0.5217
+     },
+     "direction_PF": {
+      "implied_w": 0.8125
+     },
+     "gender_female": {
+      "implied_w": 0.6944
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "bic": {},
+    "lr": {},
+    "coefs": {},
+    "percents": {},
+    "sums": {
+     "shadowing_female": {
+      "computed": 21,
+      "printed": 21
+     },
+     "shadowing_male": {
+      "computed": 9,
+      "printed": 9
+     },
+     "shadowing_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "shadowing_FP": {
+      "computed": 7,
+      "printed": 7
+     },
+     "shadowing_total": {
+      "computed": 30,
+      "printed": 30
+     },
+     "interaction_female": {
+      "computed": 20,
+      "printed": 20
+     },
+     "interaction_male": {
+      "computed": 11,
+      "printed": 11
+     },
+     "interaction_PF": {
+      "computed": 23,
+      "printed": 23
+     },
+     "interaction_FP": {
+      "computed": 8,
+      "printed": 8
+     },
+     "interaction_total": {
+      "computed": 31,
+      "printed": 31
+     },
+     "questionnaire_tenths": {
+      "computed": 1000,
+      "printed": 1000
+     }
+    },
+    "chi2_text": {
+     "frequency_x_direction": {
+      "p": 0.4274,
+      "printed_p": 0.4277,
+      "diff": -0.0003
+     },
+     "M4_vs_M3_text": {
+      "p": 0.009,
+      "printed_p": 0.009,
+      "diff": 0.0
+     }
+    },
+    "mix": {
+     "frequency": {
+      "implied_w": 0.5217
+     },
+     "direction_PF": {
+      "implied_w": 0.8125
+     },
+     "gender_female": {
+      "implied_w": 0.6944
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

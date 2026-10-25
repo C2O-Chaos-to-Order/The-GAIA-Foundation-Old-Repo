@@ -1,0 +1,88 @@
+{
+ "sim_id": "SIM-CV-SOC-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:45.275166+00:00",
+ "finished_utc": "2026-10-24T20:44:45.421157+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-4  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "2e92180c36e6d5fcb152278e2be57201c445b4a536c102b9d9a0fe6231e2d7b9",
+ "params_sha256": "36e2beefe4214a5159962f99a9b9dc8ee53605a0fd3ca6ad7577ce4421d902df",
+ "results_sha256": "0eb3333fa83dd6aa277beed4d4c6518b08e6acf8714a5159040517057949705c",
+ "results": {
+  "Omega": {
+   "mu-0.5_s1.0": 0.2795
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354,
+  "by_n": {
+   "5": 0.42205,
+   "10": 0.37895,
+   "50": 0.2827,
+   "200": 0.1731
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "mean-unbiased (mu -0.5, sigma 1): Omega < 0.5 for n = 5, 10, 50, 200",
+   "observed": {
+    "Omega": {
+     "mu-0.5_s1.0": 0.2795
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "5": 0.42205,
+     "10": 0.37895,
+     "50": 0.2827,
+     "200": 0.1731
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu-0.5_s1.0": 0.2795
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354,
+    "by_n": {
+     "5": 0.42205,
+     "10": 0.37895,
+     "50": 0.2827,
+     "200": 0.1731
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

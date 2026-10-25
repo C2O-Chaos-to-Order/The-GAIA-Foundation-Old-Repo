@@ -1,0 +1,320 @@
+{
+ "sim_id": "SIM-CV-SOC-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:36.021608+00:00",
+ "finished_utc": "2026-10-24T21:13:39.282752+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "9e459586aac0e57137f7a3aec4bbc5a08de224e729356ba307d95d93a220489f",
+ "params_sha256": "971e767aaa4bab13724a05209a0a66f8f5dc619b3b4bbf322a0452a8fb66b1a9",
+ "results_sha256": "48f52ebdaa12d382b6a8c424c85c544b01aa312c15c4f6adde4534506c62e767",
+ "results": {
+  "by_case": {
+   "mu0.0_s1.0_n10": {
+    "bound": 0.01975,
+    "mc": 0.5515,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s1.0_n100": {
+    "bound": 2e-05,
+    "mc": 0.6935,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s1.0_n1000": {
+    "bound": 0.0,
+    "mc": 0.7005,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s1.0_n10000": {
+    "bound": 0.0,
+    "mc": 0.7055,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s2.0_n10": {
+    "bound": 0.32669,
+    "mc": 0.7115,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s2.0_n100": {
+    "bound": 0.2642,
+    "mc": 0.8045,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s2.0_n1000": {
+    "bound": 0.06955,
+    "mc": 0.8505,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s2.0_n10000": {
+    "bound": 0.00441,
+    "mc": 0.8375,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.0_n10": {
+    "bound": 0.46705,
+    "mc": 0.784,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.0_n100": {
+    "bound": 0.6104,
+    "mc": 0.888,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.0_n1000": {
+    "bound": 0.63879,
+    "mc": 0.9295,
+    "bound_le_mc_plus_3se": true
+   },
+   "mu0.0_s3.0_n10000": {
+    "bound": 0.60922,
+    "mc": 0.933,
+    "bound_le_mc_plus_3se": true
+   }
+  },
+  "theta": 2.0,
+  "omega": 0.33333333,
+  "reps": 2000
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the log-normal CDF at the truth with mu = 0 is exactly 1/2",
+   "observed": 0.5,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P69's lower bound never exceeds the Monte Carlo Omega_n (by more than 3 SE) in any case",
+   "observed": {
+    "by_case": {
+     "mu0.0_s1.0_n10": {
+      "bound": 0.01975,
+      "mc": 0.5515,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n100": {
+      "bound": 2e-05,
+      "mc": 0.6935,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n1000": {
+      "bound": 0.0,
+      "mc": 0.7005,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n10000": {
+      "bound": 0.0,
+      "mc": 0.7055,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n10": {
+      "bound": 0.32669,
+      "mc": 0.7115,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n100": {
+      "bound": 0.2642,
+      "mc": 0.8045,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n1000": {
+      "bound": 0.06955,
+      "mc": 0.8505,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n10000": {
+      "bound": 0.00441,
+      "mc": 0.8375,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n10": {
+      "bound": 0.46705,
+      "mc": 0.784,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n100": {
+      "bound": 0.6104,
+      "mc": 0.888,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n1000": {
+      "bound": 0.63879,
+      "mc": 0.9295,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n10000": {
+      "bound": 0.60922,
+      "mc": 0.933,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 2000
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "with sigma fixed (1, 2, 3) the bound at n = 10000 is below the bound at n = 100 (agent arithmetic: n (1 - F(n beta)) -> 0 for fixed sigma)",
+   "observed": {
+    "by_case": {
+     "mu0.0_s1.0_n10": {
+      "bound": 0.01975,
+      "mc": 0.5515,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n100": {
+      "bound": 2e-05,
+      "mc": 0.6935,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n1000": {
+      "bound": 0.0,
+      "mc": 0.7005,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n10000": {
+      "bound": 0.0,
+      "mc": 0.7055,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n10": {
+      "bound": 0.32669,
+      "mc": 0.7115,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n100": {
+      "bound": 0.2642,
+      "mc": 0.8045,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n1000": {
+      "bound": 0.06955,
+      "mc": 0.8505,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n10000": {
+      "bound": 0.00441,
+      "mc": 0.8375,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n10": {
+      "bound": 0.46705,
+      "mc": 0.784,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n100": {
+      "bound": 0.6104,
+      "mc": 0.888,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n1000": {
+      "bound": 0.63879,
+      "mc": 0.9295,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n10000": {
+      "bound": 0.60922,
+      "mc": 0.933,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 2000
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "mu0.0_s1.0_n10": {
+      "bound": 0.01975,
+      "mc": 0.5515,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n100": {
+      "bound": 2e-05,
+      "mc": 0.6935,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n1000": {
+      "bound": 0.0,
+      "mc": 0.7005,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s1.0_n10000": {
+      "bound": 0.0,
+      "mc": 0.7055,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n10": {
+      "bound": 0.32669,
+      "mc": 0.7115,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n100": {
+      "bound": 0.2642,
+      "mc": 0.8045,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n1000": {
+      "bound": 0.06955,
+      "mc": 0.8505,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s2.0_n10000": {
+      "bound": 0.00441,
+      "mc": 0.8375,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n10": {
+      "bound": 0.46705,
+      "mc": 0.784,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n100": {
+      "bound": 0.6104,
+      "mc": 0.888,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n1000": {
+      "bound": 0.63879,
+      "mc": 0.9295,
+      "bound_le_mc_plus_3se": true
+     },
+     "mu0.0_s3.0_n10000": {
+      "bound": 0.60922,
+      "mc": 0.933,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 2000
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

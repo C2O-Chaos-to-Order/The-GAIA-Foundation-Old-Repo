@@ -1,0 +1,172 @@
+{
+ "sim_id": "SIM-CV-NAT-C",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:21:12.445038+00:00",
+ "finished_utc": "2026-10-24T21:21:46.305136+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-4  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "c3b8c8a0831a467cadcc6b45aae6c59e87490744d41d6337896353f307449ab2",
+ "params_sha256": "fa24e9ed59e441244faaf4943e7d8ee72fdd1e7e1b0c2f141a8a9511d7923d85",
+ "results_sha256": "d9c428bd10fee13e4a35c44e15da7bc1253341737b4e572c909fc83da50db72b",
+ "results": {
+  "Kc": 1.595769,
+  "by_K": {
+   "0.8": {
+    "r_inf": 0.0,
+    "by_N": {
+     "100": {
+      "r_mean": 0.12911,
+      "r_sqrtN": 1.2911,
+      "r_sd": 0.01811
+     },
+     "400": {
+      "r_mean": 0.06689,
+      "r_sqrtN": 1.3379,
+      "r_sd": 0.01007
+     },
+     "1600": {
+      "r_mean": 0.03438,
+      "r_sqrtN": 1.3754,
+      "r_sd": 0.00543
+     },
+     "6400": {
+      "r_mean": 0.01793,
+      "r_sqrtN": 1.4347,
+      "r_sd": 0.00241
+     }
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "uniform random phases (N = 100000) give r below 0.02 (expected ~ N^-1/2 = 0.003)",
+   "observed": 0.00106673,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "below K_c (K = 0.8): r sqrt(N) stays within a factor 1.5 across N = 100-6400 (incoherent N^-1/2 scaling)",
+   "observed": {
+    "Kc": 1.595769,
+    "by_K": {
+     "0.8": {
+      "r_inf": 0.0,
+      "by_N": {
+       "100": {
+        "r_mean": 0.12911,
+        "r_sqrtN": 1.2911,
+        "r_sd": 0.01811
+       },
+       "400": {
+        "r_mean": 0.06689,
+        "r_sqrtN": 1.3379,
+        "r_sd": 0.01007
+       },
+       "1600": {
+        "r_mean": 0.03438,
+        "r_sqrtN": 1.3754,
+        "r_sd": 0.00543
+       },
+       "6400": {
+        "r_mean": 0.01793,
+        "r_sqrtN": 1.4347,
+        "r_sd": 0.00241
+       }
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "below K_c the mean r decreases with every quadrupling of N",
+   "observed": {
+    "Kc": 1.595769,
+    "by_K": {
+     "0.8": {
+      "r_inf": 0.0,
+      "by_N": {
+       "100": {
+        "r_mean": 0.12911,
+        "r_sqrtN": 1.2911,
+        "r_sd": 0.01811
+       },
+       "400": {
+        "r_mean": 0.06689,
+        "r_sqrtN": 1.3379,
+        "r_sd": 0.01007
+       },
+       "1600": {
+        "r_mean": 0.03438,
+        "r_sqrtN": 1.3754,
+        "r_sd": 0.00543
+       },
+       "6400": {
+        "r_mean": 0.01793,
+        "r_sqrtN": 1.4347,
+        "r_sd": 0.00241
+       }
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.595769,
+    "by_K": {
+     "0.8": {
+      "r_inf": 0.0,
+      "by_N": {
+       "100": {
+        "r_mean": 0.12911,
+        "r_sqrtN": 1.2911,
+        "r_sd": 0.01811
+       },
+       "400": {
+        "r_mean": 0.06689,
+        "r_sqrtN": 1.3379,
+        "r_sd": 0.01007
+       },
+       "1600": {
+        "r_mean": 0.03438,
+        "r_sqrtN": 1.3754,
+        "r_sd": 0.00543
+       },
+       "6400": {
+        "r_mean": 0.01793,
+        "r_sqrtN": 1.4347,
+        "r_sd": 0.00241
+       }
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

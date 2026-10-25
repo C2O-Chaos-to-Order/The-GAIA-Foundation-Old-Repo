@@ -1,0 +1,109 @@
+{
+ "sim_id": "SIM-CV-NAT-C",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:05.962499+00:00",
+ "finished_utc": "2026-10-24T21:16:01.678103+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-1  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "0ea7b95737f28f1a3217bfbfd6ff4b50a6290322175c605dd862c51bcef8894f",
+ "params_sha256": "2323c7e9a4790aade559057adf7806450bd84f6637f0627c2428a75666e3bf8d",
+ "results_sha256": "6297df756ab20947b6d10291746e9d7ee3a603f45ad953e08bffada2c00bad7b",
+ "results": {
+  "by_case": {
+   "N3_K0.5": {
+    "max_lyap": 0.00536,
+    "frac_above_thr": 0.0,
+    "median": -5e-05
+   },
+   "N3_K1.0": {
+    "max_lyap": 0.004,
+    "frac_above_thr": 0.0,
+    "median": -0.0018
+   },
+   "N3_K1.5": {
+    "max_lyap": 0.00513,
+    "frac_above_thr": 0.0,
+    "median": -1.20137
+   }
+  },
+  "thr": 0.01,
+  "V1_pair_identical": -1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "N = 2, identical frequencies, K = 1: the transverse exponent equals the analytic -K = -1 within 0.02",
+   "observed": -1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P76: N = 3 cannot be chaotic - the largest Lyapunov exponent stays below 0.01 in all 90 settings",
+   "observed": {
+    "by_case": {
+     "N3_K0.5": {
+      "max_lyap": 0.00536,
+      "frac_above_thr": 0.0,
+      "median": -5e-05
+     },
+     "N3_K1.0": {
+      "max_lyap": 0.004,
+      "frac_above_thr": 0.0,
+      "median": -0.0018
+     },
+     "N3_K1.5": {
+      "max_lyap": 0.00513,
+      "frac_above_thr": 0.0,
+      "median": -1.20137
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "N3_K0.5": {
+      "max_lyap": 0.00536,
+      "frac_above_thr": 0.0,
+      "median": -5e-05
+     },
+     "N3_K1.0": {
+      "max_lyap": 0.004,
+      "frac_above_thr": 0.0,
+      "median": -0.0018
+     },
+     "N3_K1.5": {
+      "max_lyap": 0.00513,
+      "frac_above_thr": 0.0,
+      "median": -1.20137
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

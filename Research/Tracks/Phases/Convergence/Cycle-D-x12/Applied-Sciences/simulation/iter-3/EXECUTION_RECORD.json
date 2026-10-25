@@ -1,0 +1,253 @@
+{
+ "sim_id": "SIM-CV-APP-D",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:11.285916+00:00",
+ "finished_utc": "2026-10-24T22:15:11.606476+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-3  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "17519c914a5696ead2609c45c62422c72bb92e58df6462eed9239151d1f55350",
+ "params_sha256": "2a1f4783a5dbf48a7a1e2398a79243d7bc81544c26ac1efe20e032c7e31d5633",
+ "results_sha256": "ff4cd727e5bd4d3016489748faf8a92d69cf848a75398eaf1ee57c525a286994",
+ "results": {
+  "gauss": {
+   "by_m": {
+    "2": {
+     "trap_best_rel": 0.03211712,
+     "simp_best_rel": null
+    },
+    "3": {
+     "trap_best_rel": 1.76e-06,
+     "simp_best_rel": 1.106e-05
+    },
+    "4": {
+     "trap_best_rel": 0.00121886,
+     "simp_best_rel": null
+    },
+    "5": {
+     "trap_best_rel": 6.6e-07,
+     "simp_best_rel": 6.893e-05
+    },
+    "6": {
+     "trap_best_rel": 4.843e-05,
+     "simp_best_rel": null
+    },
+    "7": {
+     "trap_best_rel": 4e-08,
+     "simp_best_rel": 2.515e-05
+    },
+    "8": {
+     "trap_best_rel": 1.97e-06,
+     "simp_best_rel": null
+    },
+    "9": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": 6.893e-05
+    },
+    "10": {
+     "trap_best_rel": 8e-08,
+     "simp_best_rel": null
+    },
+    "11": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": 1.58e-06
+    },
+    "12": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": null
+    },
+    "13": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": 6.031e-05
+    },
+    "14": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": null
+    },
+    "15": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": 3e-08
+    },
+    "16": {
+     "trap_best_rel": 0.0,
+     "simp_best_rel": null
+    }
+   },
+   "m_trap": 5,
+   "m_simp": 15,
+   "ratio": 3.0
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson's rule integrates x^3 on [0, 1] exactly (1/4) with 5 nodes",
+   "observed": 0.25,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "Gaussian at 1e-6: Simpson needs at least 1.5 times as many nodes as the trapezoid",
+   "observed": {
+    "gauss": {
+     "by_m": {
+      "2": {
+       "trap_best_rel": 0.03211712,
+       "simp_best_rel": null
+      },
+      "3": {
+       "trap_best_rel": 1.76e-06,
+       "simp_best_rel": 1.106e-05
+      },
+      "4": {
+       "trap_best_rel": 0.00121886,
+       "simp_best_rel": null
+      },
+      "5": {
+       "trap_best_rel": 6.6e-07,
+       "simp_best_rel": 6.893e-05
+      },
+      "6": {
+       "trap_best_rel": 4.843e-05,
+       "simp_best_rel": null
+      },
+      "7": {
+       "trap_best_rel": 4e-08,
+       "simp_best_rel": 2.515e-05
+      },
+      "8": {
+       "trap_best_rel": 1.97e-06,
+       "simp_best_rel": null
+      },
+      "9": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 6.893e-05
+      },
+      "10": {
+       "trap_best_rel": 8e-08,
+       "simp_best_rel": null
+      },
+      "11": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 1.58e-06
+      },
+      "12": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": null
+      },
+      "13": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 6.031e-05
+      },
+      "14": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": null
+      },
+      "15": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 3e-08
+      },
+      "16": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": null
+      }
+     },
+     "m_trap": 5,
+     "m_simp": 15,
+     "ratio": 3.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "gauss": {
+     "by_m": {
+      "2": {
+       "trap_best_rel": 0.03211712,
+       "simp_best_rel": null
+      },
+      "3": {
+       "trap_best_rel": 1.76e-06,
+       "simp_best_rel": 1.106e-05
+      },
+      "4": {
+       "trap_best_rel": 0.00121886,
+       "simp_best_rel": null
+      },
+      "5": {
+       "trap_best_rel": 6.6e-07,
+       "simp_best_rel": 6.893e-05
+      },
+      "6": {
+       "trap_best_rel": 4.843e-05,
+       "simp_best_rel": null
+      },
+      "7": {
+       "trap_best_rel": 4e-08,
+       "simp_best_rel": 2.515e-05
+      },
+      "8": {
+       "trap_best_rel": 1.97e-06,
+       "simp_best_rel": null
+      },
+      "9": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 6.893e-05
+      },
+      "10": {
+       "trap_best_rel": 8e-08,
+       "simp_best_rel": null
+      },
+      "11": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 1.58e-06
+      },
+      "12": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": null
+      },
+      "13": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 6.031e-05
+      },
+      "14": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": null
+      },
+      "15": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": 3e-08
+      },
+      "16": {
+       "trap_best_rel": 0.0,
+       "simp_best_rel": null
+      }
+     },
+     "m_trap": 5,
+     "m_simp": 15,
+     "ratio": 3.0
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:18.740261+00:00",
+ "finished_utc": "2026-10-24T22:15:19.214041+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-6  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "9d7769a5430ba0ef45c94c754bb409da1067149ef627b0d94021d4316b407952",
+ "params_sha256": "b65298356ca6f1b444aa493774e5c9e2f9cb51e0b583b4d8b3b9cb0b39f09806",
+ "results_sha256": "71e025cf7855e65e454fa48e79e506e956648a1e93eb4cd8425816d34b3bba8f",
+ "results": {
+  "items": {
+   "traditions_pct": {
+    "type": "sum",
+    "sum": 100.0,
+    "printed": 100
+   },
+   "countries_pct": {
+    "type": "sum",
+    "sum": 100.0,
+    "printed": 100
+   },
+   "method_pct": {
+    "type": "sum",
+    "sum": 100.1,
+    "printed": 100
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83's percentage breakdowns each sum to 100 within 0.2",
+   "observed": {
+    "items": {
+     "traditions_pct": {
+      "type": "sum",
+      "sum": 100.0,
+      "printed": 100
+     },
+     "countries_pct": {
+      "type": "sum",
+      "sum": 100.0,
+      "printed": 100
+     },
+     "method_pct": {
+      "type": "sum",
+      "sum": 100.1,
+      "printed": 100
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "traditions_pct": {
+      "type": "sum",
+      "sum": 100.0,
+      "printed": 100
+     },
+     "countries_pct": {
+      "type": "sum",
+      "sum": 100.0,
+      "printed": 100
+     },
+     "method_pct": {
+      "type": "sum",
+      "sum": 100.1,
+      "printed": 100
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

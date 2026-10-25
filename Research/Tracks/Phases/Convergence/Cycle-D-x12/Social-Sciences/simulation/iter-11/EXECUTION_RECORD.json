@@ -1,0 +1,100 @@
+{
+ "sim_id": "SIM-CV-SOC-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:09.821813+00:00",
+ "finished_utc": "2026-10-24T22:15:10.280953+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-11  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "06121ccdf36a905b60a141a3313d4f5ae8c5fb70951384c585c893dc9d846421",
+ "params_sha256": "fd4dd9f7db335c415210679637fb0ad686659fa7bd33ac362e06b13342ddf1aa",
+ "results_sha256": "9b4bc08db70b5cc4eacd0342dc1b484ca4d670d38d32b17397c8b9a3adb1518e",
+ "results": {
+  "by_case": {
+   "mu0.5_s1.5_n50": {
+    "bound": 0.11181,
+    "mc": 0.7516,
+    "bound_le_mc_plus_3se": true
+   }
+  },
+  "theta": 2.0,
+  "omega": 0.33333333,
+  "reps": 20000
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the log-normal CDF at the truth with mu = 0 is exactly 1/2",
+   "observed": 0.5,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P69's bound never exceeds Monte Carlo Omega_n (3 SE) in any case",
+   "observed": {
+    "by_case": {
+     "mu0.5_s1.5_n50": {
+      "bound": 0.11181,
+      "mc": 0.7516,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 20000
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "replication of CVC: bound within 0.005 of 0.1118",
+   "observed": {
+    "by_case": {
+     "mu0.5_s1.5_n50": {
+      "bound": 0.11181,
+      "mc": 0.7516,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 20000
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "mu0.5_s1.5_n50": {
+      "bound": 0.11181,
+      "mc": 0.7516,
+      "bound_le_mc_plus_3se": true
+     }
+    },
+    "theta": 2.0,
+    "omega": 0.33333333,
+    "reps": 20000
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

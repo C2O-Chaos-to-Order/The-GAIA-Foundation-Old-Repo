@@ -1,0 +1,73 @@
+{
+ "sim_id": "SIM-CV-SOC-D",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:06.409726+00:00",
+ "finished_utc": "2026-10-24T22:15:06.465829+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-6  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "9d54d395f21eade8d59e0afb45fff711a2c0c34f13b523afae1e03a47f241e4b",
+ "params_sha256": "0d299b8bdaeab6f9496339569c32675e21013df913c4e39fa921b95437ba503a",
+ "results_sha256": "7893a1e6b1eebae75779dfb78d89dea56a81dbd947c2c5e78681f8d763a268bb",
+ "results": {
+  "Omega": {
+   "mu1.0_s0.3": 0.55795,
+   "mu0.5_s0.3": 0.55415
+  },
+  "n": 50,
+  "omega": 0.33333333,
+  "se_max": 0.00354
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "with omega = 0 the two estimates coincide, so Omega is exactly 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "overestimation with low dispersion: Omega > 0.5",
+   "observed": {
+    "Omega": {
+     "mu1.0_s0.3": 0.55795,
+     "mu0.5_s0.3": 0.55415
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Omega": {
+     "mu1.0_s0.3": 0.55795,
+     "mu0.5_s0.3": 0.55415
+    },
+    "n": 50,
+    "omega": 0.33333333,
+    "se_max": 0.00354
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

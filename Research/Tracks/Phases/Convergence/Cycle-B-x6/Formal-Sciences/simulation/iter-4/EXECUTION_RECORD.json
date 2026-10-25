@@ -1,0 +1,120 @@
+{
+ "sim_id": "SIM-CV-FOR-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:40.433968+00:00",
+ "finished_utc": "2026-10-24T20:44:40.443292+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "a03f959e17a45fc5d123eb0f0d496de422b457307425a7739cfd4976bb402b0d",
+ "params_sha256": "64ef733e0607dfa74be810faee2feb674e259d53da6a533043d9573beedb53f1",
+ "results_sha256": "9e69fd181378c10503f75c6f1a6fc4fbf1afa41823676b13c4684e5449be223b",
+ "results": {
+  "chains": {
+   "P74": {
+    "n": 2,
+    "tmix": {
+     "0.25": 186,
+     "0.01": 698
+    },
+    "lambda2": 0.99374218,
+    "t_rel": 159.8,
+    "d_at": {
+     "100": 0.4265,
+     "682": 0.011047
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P74's two-state chain: t_mix(1/4) = ceil(log(0.25/max pi)/log lambda2) = 186 (agent arithmetic before the run)",
+   "observed": {
+    "chains": {
+     "P74": {
+      "n": 2,
+      "tmix": {
+       "0.25": 186,
+       "0.01": 698
+      },
+      "lambda2": 0.99374218,
+      "t_rel": 159.8,
+      "d_at": {
+       "100": 0.4265,
+       "682": 0.011047
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "at 682 My the P74 chain is within 0.02 of stationarity in total variation",
+   "observed": {
+    "chains": {
+     "P74": {
+      "n": 2,
+      "tmix": {
+       "0.25": 186,
+       "0.01": 698
+      },
+      "lambda2": 0.99374218,
+      "t_rel": 159.8,
+      "d_at": {
+       "100": 0.4265,
+       "682": 0.011047
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "P74": {
+      "n": 2,
+      "tmix": {
+       "0.25": 186,
+       "0.01": 698
+      },
+      "lambda2": 0.99374218,
+      "t_rel": 159.8,
+      "d_at": {
+       "100": 0.4265,
+       "682": 0.011047
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

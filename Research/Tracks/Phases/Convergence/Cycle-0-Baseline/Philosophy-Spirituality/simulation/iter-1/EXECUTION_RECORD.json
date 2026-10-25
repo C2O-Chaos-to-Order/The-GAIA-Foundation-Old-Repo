@@ -1,0 +1,349 @@
+{
+ "sim_id": "SIM-CV-PHI-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:08:59.070020+00:00",
+ "finished_utc": "2026-10-24T20:08:59.083406+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-1  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "e553f702f413d1b956e0a00971a61e6afda2aa3ea2d65de9a08077d97f9b6767",
+ "params_sha256": "c84fcdb5e0f02660b96d4cf19e1139acbdeebf8a5650df91ced734abed86fca6",
+ "results_sha256": "17a7adbcddc92f46a14d2487a6ecbde66c07b19c5cae29b707aac532847db63b",
+ "results": {
+  "beta_means": {
+   "sceptic": {
+    "10": 0.193548,
+    "100": 0.471074,
+    "1000": 0.582762,
+    "5000": 0.593507
+   },
+   "flat": {
+    "10": 0.5,
+    "100": 0.558824,
+    "1000": 0.593812,
+    "5000": 0.595762
+   },
+   "enthusiast": {
+    "10": 0.806452,
+    "100": 0.628099,
+    "1000": 0.601371,
+    "5000": 0.597291
+   },
+   "confident_wrong": {
+    "10": 0.20297,
+    "100": 0.232727,
+    "1000": 0.397,
+    "5000": 0.529833
+   }
+  },
+  "spread": {
+   "10": 0.612904,
+   "100": 0.395372,
+   "1000": 0.204371,
+   "5000": 0.067458
+  },
+  "dogmatic": {
+   "mean_end": 0.4,
+   "mode": 0.4
+  },
+  "buried": {
+   "posterior_odds": {
+    "A": 0.1,
+    "B": 1.0,
+    "C": 9.0
+   },
+   "spread": 8.9
+  },
+  "freq_end": 0.5958
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "conjugate Beta posterior mean equals a numerical grid posterior mean within 1e-5",
+   "observed": [
+    0.59350727,
+    0.593507
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "full-support agents disagree by < 0.02 after 5000 observations",
+   "observed": {
+    "beta_means": {
+     "sceptic": {
+      "10": 0.193548,
+      "100": 0.471074,
+      "1000": 0.582762,
+      "5000": 0.593507
+     },
+     "flat": {
+      "10": 0.5,
+      "100": 0.558824,
+      "1000": 0.593812,
+      "5000": 0.595762
+     },
+     "enthusiast": {
+      "10": 0.806452,
+      "100": 0.628099,
+      "1000": 0.601371,
+      "5000": 0.597291
+     },
+     "confident_wrong": {
+      "10": 0.20297,
+      "100": 0.232727,
+      "1000": 0.397,
+      "5000": 0.529833
+     }
+    },
+    "spread": {
+     "10": 0.612904,
+     "100": 0.395372,
+     "1000": 0.204371,
+     "5000": 0.067458
+    },
+    "dogmatic": {
+     "mean_end": 0.4,
+     "mode": 0.4
+    },
+    "buried": {
+     "posterior_odds": {
+      "A": 0.1,
+      "B": 1.0,
+      "C": 9.0
+     },
+     "spread": 8.9
+    },
+    "freq_end": 0.5958
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "disagreement shrinks monotonically over checkpoints",
+   "observed": {
+    "beta_means": {
+     "sceptic": {
+      "10": 0.193548,
+      "100": 0.471074,
+      "1000": 0.582762,
+      "5000": 0.593507
+     },
+     "flat": {
+      "10": 0.5,
+      "100": 0.558824,
+      "1000": 0.593812,
+      "5000": 0.595762
+     },
+     "enthusiast": {
+      "10": 0.806452,
+      "100": 0.628099,
+      "1000": 0.601371,
+      "5000": 0.597291
+     },
+     "confident_wrong": {
+      "10": 0.20297,
+      "100": 0.232727,
+      "1000": 0.397,
+      "5000": 0.529833
+     }
+    },
+    "spread": {
+     "10": 0.612904,
+     "100": 0.395372,
+     "1000": 0.204371,
+     "5000": 0.067458
+    },
+    "dogmatic": {
+     "mean_end": 0.4,
+     "mode": 0.4
+    },
+    "buried": {
+     "posterior_odds": {
+      "A": 0.1,
+      "B": 1.0,
+      "C": 9.0
+     },
+     "spread": 8.9
+    },
+    "freq_end": 0.5958
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "the dogmatic agent ends at 0.4 (its closest support), at least 0.15 from the truth",
+   "observed": {
+    "beta_means": {
+     "sceptic": {
+      "10": 0.193548,
+      "100": 0.471074,
+      "1000": 0.582762,
+      "5000": 0.593507
+     },
+     "flat": {
+      "10": 0.5,
+      "100": 0.558824,
+      "1000": 0.593812,
+      "5000": 0.595762
+     },
+     "enthusiast": {
+      "10": 0.806452,
+      "100": 0.628099,
+      "1000": 0.601371,
+      "5000": 0.597291
+     },
+     "confident_wrong": {
+      "10": 0.20297,
+      "100": 0.232727,
+      "1000": 0.397,
+      "5000": 0.529833
+     }
+    },
+    "spread": {
+     "10": 0.612904,
+     "100": 0.395372,
+     "1000": 0.204371,
+     "5000": 0.067458
+    },
+    "dogmatic": {
+     "mean_end": 0.4,
+     "mode": 0.4
+    },
+    "buried": {
+     "posterior_odds": {
+      "A": 0.1,
+      "B": 1.0,
+      "C": 9.0
+     },
+     "spread": 8.9
+    },
+    "freq_end": 0.5958
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "observationally equivalent hypotheses: posterior-odds spread equals prior spread (8.9)",
+   "observed": {
+    "beta_means": {
+     "sceptic": {
+      "10": 0.193548,
+      "100": 0.471074,
+      "1000": 0.582762,
+      "5000": 0.593507
+     },
+     "flat": {
+      "10": 0.5,
+      "100": 0.558824,
+      "1000": 0.593812,
+      "5000": 0.595762
+     },
+     "enthusiast": {
+      "10": 0.806452,
+      "100": 0.628099,
+      "1000": 0.601371,
+      "5000": 0.597291
+     },
+     "confident_wrong": {
+      "10": 0.20297,
+      "100": 0.232727,
+      "1000": 0.397,
+      "5000": 0.529833
+     }
+    },
+    "spread": {
+     "10": 0.612904,
+     "100": 0.395372,
+     "1000": 0.204371,
+     "5000": 0.067458
+    },
+    "dogmatic": {
+     "mean_end": 0.4,
+     "mode": 0.4
+    },
+    "buried": {
+     "posterior_odds": {
+      "A": 0.1,
+      "B": 1.0,
+      "C": 9.0
+     },
+     "spread": 8.9
+    },
+    "freq_end": 0.5958
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "beta_means": {
+     "sceptic": {
+      "10": 0.193548,
+      "100": 0.471074,
+      "1000": 0.582762,
+      "5000": 0.593507
+     },
+     "flat": {
+      "10": 0.5,
+      "100": 0.558824,
+      "1000": 0.593812,
+      "5000": 0.595762
+     },
+     "enthusiast": {
+      "10": 0.806452,
+      "100": 0.628099,
+      "1000": 0.601371,
+      "5000": 0.597291
+     },
+     "confident_wrong": {
+      "10": 0.20297,
+      "100": 0.232727,
+      "1000": 0.397,
+      "5000": 0.529833
+     }
+    },
+    "spread": {
+     "10": 0.612904,
+     "100": 0.395372,
+     "1000": 0.204371,
+     "5000": 0.067458
+    },
+    "dogmatic": {
+     "mean_end": 0.4,
+     "mode": 0.4
+    },
+    "buried": {
+     "posterior_odds": {
+      "A": 0.1,
+      "B": 1.0,
+      "C": 9.0
+     },
+     "spread": 8.9
+    },
+    "freq_end": 0.5958
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

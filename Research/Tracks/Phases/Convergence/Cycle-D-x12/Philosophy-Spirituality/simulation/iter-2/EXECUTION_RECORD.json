@@ -1,0 +1,168 @@
+{
+ "sim_id": "SIM-CV-PHI-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:16.078949+00:00",
+ "finished_utc": "2026-10-24T22:15:16.578777+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-2  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "81493351e28f69afd02fff54ee13fb4e91d30625dc90c6ad23735b928439ae16",
+ "params_sha256": "4743ab5786c12e7d94f51f3ff48c6f4aa3b148076ead6a49203b6439bcda7849",
+ "results_sha256": "61f389ce32a311e262b021f3777474b709125104799809aae7ab259c6376a73c",
+ "results": {
+  "items": {
+   "religiosity_welch": {
+    "type": "t_welch",
+    "t": 5.637,
+    "df": 454.4,
+    "printed": {
+     "t": 5.395,
+     "df": 327
+    }
+   },
+   "religiosity_pooled": {
+    "type": "t_pooled",
+    "t": 5.346,
+    "d": 0.506,
+    "df": 462,
+    "printed": {
+     "d": 0.52
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "two-sided normal-limit p at t = 1.96 equals 0.05 within 1e-4",
+   "observed": 0.04999582,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P83's Welch religiosity t (5.395) recomputed within 0.1",
+   "observed": {
+    "items": {
+     "religiosity_welch": {
+      "type": "t_welch",
+      "t": 5.637,
+      "df": 454.4,
+      "printed": {
+       "t": 5.395,
+       "df": 327
+      }
+     },
+     "religiosity_pooled": {
+      "type": "t_pooled",
+      "t": 5.346,
+      "d": 0.506,
+      "df": 462,
+      "printed": {
+       "d": 0.52
+      }
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Welch df within 10 of the printed 327",
+   "observed": {
+    "items": {
+     "religiosity_welch": {
+      "type": "t_welch",
+      "t": 5.637,
+      "df": 454.4,
+      "printed": {
+       "t": 5.395,
+       "df": 327
+      }
+     },
+     "religiosity_pooled": {
+      "type": "t_pooled",
+      "t": 5.346,
+      "d": 0.506,
+      "df": 462,
+      "printed": {
+       "d": 0.52
+      }
+     }
+    }
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "d (0.52) within 0.02",
+   "observed": {
+    "items": {
+     "religiosity_welch": {
+      "type": "t_welch",
+      "t": 5.637,
+      "df": 454.4,
+      "printed": {
+       "t": 5.395,
+       "df": 327
+      }
+     },
+     "religiosity_pooled": {
+      "type": "t_pooled",
+      "t": 5.346,
+      "d": 0.506,
+      "df": 462,
+      "printed": {
+       "d": 0.52
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "items": {
+     "religiosity_welch": {
+      "type": "t_welch",
+      "t": 5.637,
+      "df": 454.4,
+      "printed": {
+       "t": 5.395,
+       "df": 327
+      }
+     },
+     "religiosity_pooled": {
+      "type": "t_pooled",
+      "t": 5.346,
+      "d": 0.506,
+      "df": 462,
+      "printed": {
+       "d": 0.52
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

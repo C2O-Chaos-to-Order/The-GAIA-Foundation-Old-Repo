@@ -1,0 +1,109 @@
+{
+ "sim_id": "SIM-CV-NAT-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:19:28.003991+00:00",
+ "finished_utc": "2026-10-24T22:19:31.430606+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-12  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "d23cfb19f0f01c161833edbe98fcc361f1d029d636983a165a60eb588e45ed6e",
+ "params_sha256": "03016ac58a0a5514ff465a877bc7ac8d67b9e2dc2ee297cd5d0c6f49f3ee1777",
+ "results_sha256": "e976cf947f854c926a1ef16f759e37fb014ada2d48df3d4dabfb6ce0ac976e45",
+ "results": {
+  "Kc": 1.0,
+  "N": 500,
+  "dist": "lorentz",
+  "width": 0.5,
+  "by_K": {
+   "0.5": {
+    "r_sim": 0.05143,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "3.0": {
+    "r_sim": 0.81672,
+    "r_selfconsistent": 0.8165,
+    "r_small_mu": 1.41421,
+    "r_lorentz_exact": 0.8165
+   }
+  },
+  "V1_r_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "identical frequencies with K = 1 synchronise from random phases: time-averaged r > 0.99 over the second half",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication (N 500): r < 0.15 at K 0.5 and within 0.05 of 0.8165 at K 3",
+   "observed": {
+    "Kc": 1.0,
+    "N": 500,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.05143,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "3.0": {
+      "r_sim": 0.81672,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.0,
+    "N": 500,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.05143,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "3.0": {
+      "r_sim": 0.81672,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

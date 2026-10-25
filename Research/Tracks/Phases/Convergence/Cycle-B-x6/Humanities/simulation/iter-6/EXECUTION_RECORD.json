@@ -1,0 +1,191 @@
+{
+ "sim_id": "SIM-CV-HUM-B",
+ "iteration": 6,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:48.690601+00:00",
+ "finished_utc": "2026-10-24T20:44:48.700014+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-6  (run from Humanities/simulation/)",
+ "spec_sha256": "b5f3ebd96eadfb053a504dc8c02c469f5252068b4f2060c82e970c813ff666f6",
+ "params_sha256": "db74c92ae6b56f2dfac64a77687ee08269800b182d9aea4dbd8f98633c61be92",
+ "results_sha256": "32195cc9ebf47739d98b8454623ef7ce6cf2b7ecf3f33841b3236e99b2405829",
+ "results": {
+  "cells": {
+   "shadowing_high": {
+    "rate": 0.09325,
+    "first_half": 0.05132,
+    "second_half": 0.13518
+   },
+   "shadowing_low": {
+    "rate": 0.46889,
+    "first_half": 0.33283,
+    "second_half": 0.60495
+   },
+   "interaction_high": {
+    "rate": 0.03045,
+    "first_half": 0.01595,
+    "second_half": 0.04495
+   },
+   "interaction_low": {
+    "rate": 0.22714,
+    "first_half": 0.13885,
+    "second_half": 0.31543
+   }
+  },
+  "logit_task_x_freq": -0.0862,
+  "logit_freq_shadowing": 2.15
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "without decay the simulated shadowing/low-frequency rate matches its analytic mean within 4 SE",
+   "observed": [
+    0.46889,
+    0.46699056
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "low-frequency words accommodate more than high-frequency words in both tasks",
+   "observed": {
+    "cells": {
+     "shadowing_high": {
+      "rate": 0.09325,
+      "first_half": 0.05132,
+      "second_half": 0.13518
+     },
+     "shadowing_low": {
+      "rate": 0.46889,
+      "first_half": 0.33283,
+      "second_half": 0.60495
+     },
+     "interaction_high": {
+      "rate": 0.03045,
+      "first_half": 0.01595,
+      "second_half": 0.04495
+     },
+     "interaction_low": {
+      "rate": 0.22714,
+      "first_half": 0.13885,
+      "second_half": 0.31543
+     }
+    },
+    "logit_task_x_freq": -0.0862,
+    "logit_freq_shadowing": 2.15
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the logit task x frequency interaction is near zero (|x| < 0.15)",
+   "observed": {
+    "cells": {
+     "shadowing_high": {
+      "rate": 0.09325,
+      "first_half": 0.05132,
+      "second_half": 0.13518
+     },
+     "shadowing_low": {
+      "rate": 0.46889,
+      "first_half": 0.33283,
+      "second_half": 0.60495
+     },
+     "interaction_high": {
+      "rate": 0.03045,
+      "first_half": 0.01595,
+      "second_half": 0.04495
+     },
+     "interaction_low": {
+      "rate": 0.22714,
+      "first_half": 0.13885,
+      "second_half": 0.31543
+     }
+    },
+    "logit_task_x_freq": -0.0862,
+    "logit_freq_shadowing": 2.15
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "order effect: second-half rate exceeds first-half in every cell",
+   "observed": {
+    "cells": {
+     "shadowing_high": {
+      "rate": 0.09325,
+      "first_half": 0.05132,
+      "second_half": 0.13518
+     },
+     "shadowing_low": {
+      "rate": 0.46889,
+      "first_half": 0.33283,
+      "second_half": 0.60495
+     },
+     "interaction_high": {
+      "rate": 0.03045,
+      "first_half": 0.01595,
+      "second_half": 0.04495
+     },
+     "interaction_low": {
+      "rate": 0.22714,
+      "first_half": 0.13885,
+      "second_half": 0.31543
+     }
+    },
+    "logit_task_x_freq": -0.0862,
+    "logit_freq_shadowing": 2.15
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cells": {
+     "shadowing_high": {
+      "rate": 0.09325,
+      "first_half": 0.05132,
+      "second_half": 0.13518
+     },
+     "shadowing_low": {
+      "rate": 0.46889,
+      "first_half": 0.33283,
+      "second_half": 0.60495
+     },
+     "interaction_high": {
+      "rate": 0.03045,
+      "first_half": 0.01595,
+      "second_half": 0.04495
+     },
+     "interaction_low": {
+      "rate": 0.22714,
+      "first_half": 0.13885,
+      "second_half": 0.31543
+     }
+    },
+    "logit_task_x_freq": -0.0862,
+    "logit_freq_shadowing": 2.15
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 3,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

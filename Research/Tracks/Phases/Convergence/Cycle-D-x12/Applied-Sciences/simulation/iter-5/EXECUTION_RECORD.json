@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-CV-APP-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:11.920679+00:00",
+ "finished_utc": "2026-10-24T22:15:11.925530+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-5  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "ef9006cd5c2dab1013a72599d2c0bdf8bb61895af03745a7c548a41cfb7c328a",
+ "params_sha256": "51278658f71f726d69624026820c64c1991adea77b9bf30734dab6f6aba56ca9",
+ "results_sha256": "0846cce425f21f18e776363b2e1d110c2043c94d2d8e904bda06cd2ea0aeaeb0",
+ "results": {
+  "exact": 0.25,
+  "rows": {
+   "65": {
+    "trap_err": 0.0,
+    "simp_err": 0.0
+   },
+   "129": {
+    "trap_err": 0.0,
+    "simp_err": 0.0
+   },
+   "257": {
+    "trap_err": 0.0,
+    "simp_err": 0.0
+   }
+  },
+  "order_trap": null,
+  "order_simp": null
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson's rule integrates x^3 on [0, 1] exactly (1/4) with 5 nodes",
+   "observed": 0.25,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "kink on a node (|x - 1/2|, odd node counts): trapezoid exact within 1e-14",
+   "observed": {
+    "exact": 0.25,
+    "rows": {
+     "65": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     },
+     "129": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     },
+     "257": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": null,
+    "order_simp": null
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 0.25,
+    "rows": {
+     "65": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     },
+     "129": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     },
+     "257": {
+      "trap_err": 0.0,
+      "simp_err": 0.0
+     }
+    },
+    "order_trap": null,
+    "order_simp": null
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,184 @@
+{
+ "sim_id": "SIM-CV-NAT-B",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:46:34.206902+00:00",
+ "finished_utc": "2026-10-24T20:46:40.572294+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-4  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "fa195c410b743d7eb26f009a286b2ee11beb214776851a719e1d0bc8e86783f5",
+ "params_sha256": "316976d274120f4d90a8de65ba5e6103ab5115a8bd0e7db010f563074fb9d812",
+ "results_sha256": "fab9328f10728fb21ae2f5ed9ab308e418d09522ec5895ed84d70d69c129b57b",
+ "results": {
+  "Kc": 1.0,
+  "N": 200,
+  "dist": "lorentz",
+  "width": 0.5,
+  "by_K": {
+   "0.5": {
+    "r_sim": 0.07672,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "0.8": {
+    "r_sim": 0.0688,
+    "r_selfconsistent": 0.0,
+    "r_small_mu": 0.0,
+    "r_lorentz_exact": 0.0
+   },
+   "1.5": {
+    "r_sim": 0.57737,
+    "r_selfconsistent": 0.57735,
+    "r_small_mu": 0.70711,
+    "r_lorentz_exact": 0.57735
+   },
+   "3.0": {
+    "r_sim": 0.81683,
+    "r_selfconsistent": 0.8165,
+    "r_small_mu": 1.41421,
+    "r_lorentz_exact": 0.8165
+   }
+  },
+  "V1_r_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "identical frequencies with K = 1 synchronise from random phases: time-averaged r > 0.99 over the second half",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N = 200: r below 0.15 at K = 0.5",
+   "observed": {
+    "Kc": 1.0,
+    "N": 200,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.07672,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.0688,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.57737,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.81683,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "N = 200: r at K = 3 within 0.05 of 0.8165",
+   "observed": {
+    "Kc": 1.0,
+    "N": 200,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.07672,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.0688,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.57737,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.81683,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.0,
+    "N": 200,
+    "dist": "lorentz",
+    "width": 0.5,
+    "by_K": {
+     "0.5": {
+      "r_sim": 0.07672,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "0.8": {
+      "r_sim": 0.0688,
+      "r_selfconsistent": 0.0,
+      "r_small_mu": 0.0,
+      "r_lorentz_exact": 0.0
+     },
+     "1.5": {
+      "r_sim": 0.57737,
+      "r_selfconsistent": 0.57735,
+      "r_small_mu": 0.70711,
+      "r_lorentz_exact": 0.57735
+     },
+     "3.0": {
+      "r_sim": 0.81683,
+      "r_selfconsistent": 0.8165,
+      "r_small_mu": 1.41421,
+      "r_lorentz_exact": 0.8165
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

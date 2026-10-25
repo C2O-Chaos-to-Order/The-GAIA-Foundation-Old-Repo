@@ -1,0 +1,184 @@
+{
+ "sim_id": "SIM-CV-APP-C",
+ "iteration": 9,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:46.358254+00:00",
+ "finished_utc": "2026-10-24T21:13:46.366891+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-9  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "2c600389b63126705ac263e60a0bb1829bf92ea259f45f1e9f7b650b700a4a4c",
+ "params_sha256": "8c3ef7a3e1e671426315e3ef8f722bbefade2821df8f61d08fa5b75352df3851",
+ "results_sha256": "0233bfd6253d097b8af57dae24e35b7a88edf464c153afe8a52ced79f1c994f0",
+ "results": {
+  "exact": 1.09861229,
+  "M2": 2.0,
+  "fprime_diff": 0.88888889,
+  "rows": {
+   "3": {
+    "T": 1.13015873,
+    "E": -0.03154644,
+    "abs_err": 0.03154644,
+    "rel_pct": 2.871481,
+    "bound": 0.14814815,
+    "asym": -0.03292181,
+    "overestimates": true
+   },
+   "6": {
+    "T": 1.10674603,
+    "E": -0.00813374,
+    "abs_err": 0.00813374,
+    "rel_pct": 0.740365,
+    "bound": 0.03703704,
+    "asym": -0.00823045,
+    "overestimates": true
+   }
+  },
+  "tol": {
+   "tol": 0.0001,
+   "N_bound": 116,
+   "N_asym": 55,
+   "N_actual": 55,
+   "evals_bound": 117,
+   "evals_actual": 56
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the trapezoidal rule integrates 2x + 1 on [0, 1] exactly (2) with N = 4",
+   "observed": 2.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication (deterministic) of P79's T_3 = 356/315 and T_6 = 2789/2520 within 1e-9",
+   "observed": {
+    "exact": 1.09861229,
+    "M2": 2.0,
+    "fprime_diff": 0.88888889,
+    "rows": {
+     "3": {
+      "T": 1.13015873,
+      "E": -0.03154644,
+      "abs_err": 0.03154644,
+      "rel_pct": 2.871481,
+      "bound": 0.14814815,
+      "asym": -0.03292181,
+      "overestimates": true
+     },
+     "6": {
+      "T": 1.10674603,
+      "E": -0.00813374,
+      "abs_err": 0.00813374,
+      "rel_pct": 0.740365,
+      "bound": 0.03703704,
+      "asym": -0.00823045,
+      "overestimates": true
+     }
+    },
+    "tol": {
+     "tol": 0.0001,
+     "N_bound": 116,
+     "N_asym": 55,
+     "N_actual": 55,
+     "evals_bound": 117,
+     "evals_actual": 56
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "P79's N = 116 from the bound",
+   "observed": {
+    "exact": 1.09861229,
+    "M2": 2.0,
+    "fprime_diff": 0.88888889,
+    "rows": {
+     "3": {
+      "T": 1.13015873,
+      "E": -0.03154644,
+      "abs_err": 0.03154644,
+      "rel_pct": 2.871481,
+      "bound": 0.14814815,
+      "asym": -0.03292181,
+      "overestimates": true
+     },
+     "6": {
+      "T": 1.10674603,
+      "E": -0.00813374,
+      "abs_err": 0.00813374,
+      "rel_pct": 0.740365,
+      "bound": 0.03703704,
+      "asym": -0.00823045,
+      "overestimates": true
+     }
+    },
+    "tol": {
+     "tol": 0.0001,
+     "N_bound": 116,
+     "N_asym": 55,
+     "N_actual": 55,
+     "evals_bound": 117,
+     "evals_actual": 56
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 1.09861229,
+    "M2": 2.0,
+    "fprime_diff": 0.88888889,
+    "rows": {
+     "3": {
+      "T": 1.13015873,
+      "E": -0.03154644,
+      "abs_err": 0.03154644,
+      "rel_pct": 2.871481,
+      "bound": 0.14814815,
+      "asym": -0.03292181,
+      "overestimates": true
+     },
+     "6": {
+      "T": 1.10674603,
+      "E": -0.00813374,
+      "abs_err": 0.00813374,
+      "rel_pct": 0.740365,
+      "bound": 0.03703704,
+      "asym": -0.00823045,
+      "overestimates": true
+     }
+    },
+    "tol": {
+     "tol": 0.0001,
+     "N_bound": 116,
+     "N_asym": 55,
+     "N_actual": 55,
+     "evals_bound": 117,
+     "evals_actual": 56
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

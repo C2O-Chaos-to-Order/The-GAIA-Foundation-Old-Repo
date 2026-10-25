@@ -1,0 +1,124 @@
+{
+ "sim_id": "SIM-CV-FOR-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:13.880678+00:00",
+ "finished_utc": "2026-10-24T22:14:13.896832+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-10  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "27b04e9295e7cb490364fe7aaa55961ccfc1fe972ee4ae9f1a4fc217191c0e21",
+ "params_sha256": "39107215b10385aaaf9a91fcb71adba370b9851c88cf08631228bda14f91409d",
+ "results_sha256": "d2620220d5cc0b03477ae00489bf648b7a1bf1637195ee3d1eda01dad60f0801",
+ "results": {
+  "riffle": {
+   "52": {
+    "d": {
+     "0": 1.0,
+     "1": 1.0,
+     "2": 1.0,
+     "3": 1.0,
+     "4": 1.0,
+     "5": 0.923733,
+     "6": 0.61355,
+     "7": 0.334061,
+     "8": 0.167159,
+     "9": 0.08542,
+     "10": 0.042946,
+     "11": 0.021502,
+     "12": 0.010755
+    },
+    "tmix": {
+     "0.5": 7,
+     "0.25": 8
+    },
+    "one_point_five_log2n": 8.5507
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication: 52 cards t_mix(1/2) = 7, t_mix(1/4) = 8",
+   "observed": {
+    "riffle": {
+     "52": {
+      "d": {
+       "0": 1.0,
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "4": 1.0,
+       "5": 0.923733,
+       "6": 0.61355,
+       "7": 0.334061,
+       "8": 0.167159,
+       "9": 0.08542,
+       "10": 0.042946,
+       "11": 0.021502,
+       "12": 0.010755
+      },
+      "tmix": {
+       "0.5": 7,
+       "0.25": 8
+      },
+      "one_point_five_log2n": 8.5507
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "riffle": {
+     "52": {
+      "d": {
+       "0": 1.0,
+       "1": 1.0,
+       "2": 1.0,
+       "3": 1.0,
+       "4": 1.0,
+       "5": 0.923733,
+       "6": 0.61355,
+       "7": 0.334061,
+       "8": 0.167159,
+       "9": 0.08542,
+       "10": 0.042946,
+       "11": 0.021502,
+       "12": 0.010755
+      },
+      "tmix": {
+       "0.5": 7,
+       "0.25": 8
+      },
+      "one_point_five_log2n": 8.5507
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

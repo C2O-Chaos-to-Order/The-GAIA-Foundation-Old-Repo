@@ -1,0 +1,601 @@
+{
+ "sim_id": "SIM-CV-FOR-A",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:23:06.877586+00:00",
+ "finished_utc": "2026-10-24T20:23:23.692865+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-2  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "99ae570c85a6236c3722e62d8534afd565845c9dd42c138f82a607d5eb3fc9d4",
+ "params_sha256": "78f38dc05400cf4d8f3fec1f37d3e80d6f3e09164e71c32f24c44d53f575a063",
+ "results_sha256": "ddfe1c09574b0899451f58b3d148096647f91054f2a8798e992196dbe2407cf6",
+ "results": {
+  "E": [
+   1.0,
+   0.0
+  ],
+  "V": {
+   "1": [
+    0.44,
+    0.56
+   ],
+   "50": [
+    0.99999999,
+    1e-08
+   ]
+  },
+  "lambda2": 0.7,
+  "err_n20": 0.00063834,
+  "ET_minus_E": 0.0,
+  "regular": {
+   "B": {
+    "exponent": null,
+    "bound": 2
+   }
+  },
+  "powers2": {
+   "B": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.51,
+     0.49
+    ]
+   ]
+  },
+  "wielandt": {
+   "7": {
+    "exponent": 37,
+    "bound": 37
+   },
+   "8": {
+    "exponent": 50,
+    "bound": 50
+   },
+   "9": {
+    "exponent": 65,
+    "bound": 65
+   }
+  },
+  "alt": {
+   "V_alt": [
+    1.0,
+    0.0
+   ],
+   "V_main": [
+    1.0,
+    0.0
+   ],
+   "max_diff": 0.0
+  },
+  "random_primitive": {
+   "3": {
+    "max_exponent": 5,
+    "mean_exponent": 3.337,
+    "bound": 5
+   },
+   "4": {
+    "max_exponent": 10,
+    "mean_exponent": 4.098,
+    "bound": 10
+   },
+   "5": {
+    "max_exponent": 14,
+    "mean_exponent": 4.484,
+    "bound": 17
+   },
+   "6": {
+    "max_exponent": 13,
+    "mean_exponent": 4.621,
+    "bound": 26
+   },
+   "7": {
+    "max_exponent": 13,
+    "mean_exponent": 4.706,
+    "bound": 37
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "E T = E within 1e-12, E sums to 1, rows of T sum to 1",
+   "observed": [
+    0.0,
+    1.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P73's B is not regular, yet both starts converge to the same limit (1, 0) (regularity sufficient, not necessary)",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "7": {
+      "exponent": 37,
+      "bound": 37
+     },
+     "8": {
+      "exponent": 50,
+      "bound": 50
+     },
+     "9": {
+      "exponent": 65,
+      "bound": 65
+     }
+    },
+    "alt": {
+     "V_alt": [
+      1.0,
+      0.0
+     ],
+     "V_main": [
+      1.0,
+      0.0
+     ],
+     "max_diff": 0.0
+    },
+    "random_primitive": {
+     "3": {
+      "max_exponent": 5,
+      "mean_exponent": 3.337,
+      "bound": 5
+     },
+     "4": {
+      "max_exponent": 10,
+      "mean_exponent": 4.098,
+      "bound": 10
+     },
+     "5": {
+      "max_exponent": 14,
+      "mean_exponent": 4.484,
+      "bound": 17
+     },
+     "6": {
+      "max_exponent": 13,
+      "mean_exponent": 4.621,
+      "bound": 26
+     },
+     "7": {
+      "max_exponent": 13,
+      "mean_exponent": 4.706,
+      "bound": 37
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the Wielandt matrix attains (n - 1)^2 + 1 for n = 7, 8, 9",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "7": {
+      "exponent": 37,
+      "bound": 37
+     },
+     "8": {
+      "exponent": 50,
+      "bound": 50
+     },
+     "9": {
+      "exponent": 65,
+      "bound": 65
+     }
+    },
+    "alt": {
+     "V_alt": [
+      1.0,
+      0.0
+     ],
+     "V_main": [
+      1.0,
+      0.0
+     ],
+     "max_diff": 0.0
+    },
+    "random_primitive": {
+     "3": {
+      "max_exponent": 5,
+      "mean_exponent": 3.337,
+      "bound": 5
+     },
+     "4": {
+      "max_exponent": 10,
+      "mean_exponent": 4.098,
+      "bound": 10
+     },
+     "5": {
+      "max_exponent": 14,
+      "mean_exponent": 4.484,
+      "bound": 17
+     },
+     "6": {
+      "max_exponent": 13,
+      "mean_exponent": 4.621,
+      "bound": 26
+     },
+     "7": {
+      "max_exponent": 13,
+      "mean_exponent": 4.706,
+      "bound": 37
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "no random primitive pattern (n = 3-7, 2000 each) exceeds the bound",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "7": {
+      "exponent": 37,
+      "bound": 37
+     },
+     "8": {
+      "exponent": 50,
+      "bound": 50
+     },
+     "9": {
+      "exponent": 65,
+      "bound": 65
+     }
+    },
+    "alt": {
+     "V_alt": [
+      1.0,
+      0.0
+     ],
+     "V_main": [
+      1.0,
+      0.0
+     ],
+     "max_diff": 0.0
+    },
+    "random_primitive": {
+     "3": {
+      "max_exponent": 5,
+      "mean_exponent": 3.337,
+      "bound": 5
+     },
+     "4": {
+      "max_exponent": 10,
+      "mean_exponent": 4.098,
+      "bound": 10
+     },
+     "5": {
+      "max_exponent": 14,
+      "mean_exponent": 4.484,
+      "bound": 17
+     },
+     "6": {
+      "max_exponent": 13,
+      "mean_exponent": 4.621,
+      "bound": 26
+     },
+     "7": {
+      "max_exponent": 13,
+      "mean_exponent": 4.706,
+      "bound": 37
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "for n >= 5 no random pattern reaches the bound (it is attained only by special matrices)",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "7": {
+      "exponent": 37,
+      "bound": 37
+     },
+     "8": {
+      "exponent": 50,
+      "bound": 50
+     },
+     "9": {
+      "exponent": 65,
+      "bound": 65
+     }
+    },
+    "alt": {
+     "V_alt": [
+      1.0,
+      0.0
+     ],
+     "V_main": [
+      1.0,
+      0.0
+     ],
+     "max_diff": 0.0
+    },
+    "random_primitive": {
+     "3": {
+      "max_exponent": 5,
+      "mean_exponent": 3.337,
+      "bound": 5
+     },
+     "4": {
+      "max_exponent": 10,
+      "mean_exponent": 4.098,
+      "bound": 10
+     },
+     "5": {
+      "max_exponent": 14,
+      "mean_exponent": 4.484,
+      "bound": 17
+     },
+     "6": {
+      "max_exponent": 13,
+      "mean_exponent": 4.621,
+      "bound": 26
+     },
+     "7": {
+      "max_exponent": 13,
+      "mean_exponent": 4.706,
+      "bound": 37
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "E": [
+     1.0,
+     0.0
+    ],
+    "V": {
+     "1": [
+      0.44,
+      0.56
+     ],
+     "50": [
+      0.99999999,
+      1e-08
+     ]
+    },
+    "lambda2": 0.7,
+    "err_n20": 0.00063834,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "7": {
+      "exponent": 37,
+      "bound": 37
+     },
+     "8": {
+      "exponent": 50,
+      "bound": 50
+     },
+     "9": {
+      "exponent": 65,
+      "bound": 65
+     }
+    },
+    "alt": {
+     "V_alt": [
+      1.0,
+      0.0
+     ],
+     "V_main": [
+      1.0,
+      0.0
+     ],
+     "max_diff": 0.0
+    },
+    "random_primitive": {
+     "3": {
+      "max_exponent": 5,
+      "mean_exponent": 3.337,
+      "bound": 5
+     },
+     "4": {
+      "max_exponent": 10,
+      "mean_exponent": 4.098,
+      "bound": 10
+     },
+     "5": {
+      "max_exponent": 14,
+      "mean_exponent": 4.484,
+      "bound": 17
+     },
+     "6": {
+      "max_exponent": 13,
+      "mean_exponent": 4.621,
+      "bound": 26
+     },
+     "7": {
+      "max_exponent": 13,
+      "mean_exponent": 4.706,
+      "bound": 37
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

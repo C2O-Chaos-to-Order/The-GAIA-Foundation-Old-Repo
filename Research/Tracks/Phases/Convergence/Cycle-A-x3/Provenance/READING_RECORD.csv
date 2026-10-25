@@ -1,0 +1,3 @@
+source_id,read_end_to_end,when,words,snapshot_sha256,note
+P74,yes,CVA,9170,aed048c1b9907c4e6434e2df461b9688fef314eb6165dad2ddf6a73bc37d4419,"Read end to end (significance, abstract, results, discussion, methods, figure captions, references; SI and Dryad data not read)."
+P75,yes,CVA,8740,6fba917b1613b1ed4d207c563af3ae71d6bc3798d7f9be3dcf16397c42a1d7f8,Read end to end (sections I-IV and both footnotes; wiki navigation and page-number markup skipped).

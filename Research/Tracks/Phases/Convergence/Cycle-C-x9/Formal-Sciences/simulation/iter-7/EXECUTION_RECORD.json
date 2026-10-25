@@ -1,0 +1,97 @@
+{
+ "sim_id": "SIM-CV-FOR-C",
+ "iteration": 7,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:34.787065+00:00",
+ "finished_utc": "2026-10-24T21:13:34.801165+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-7  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "7c3a34b81961cd6dfa69e72a9356597c1236a38178b8ebb35b2cdbdf9033f1f2",
+ "params_sha256": "643f4fdfb1a1d6777833662e290ff555e3bb786bfb24d0f698ef92ef0fe051d9",
+ "results_sha256": "783f0f2633045fe30b41135cd22c01f762d838e2d36c347623f315274bf4fa0c",
+ "results": {
+  "chains": {
+   "rot3": {
+    "n": 3,
+    "tmix": {
+     "0.25": null
+    },
+    "lambda2": 1.0,
+    "t_rel": null,
+    "d_at": {
+     "1": 0.666667,
+     "50": 0.666667,
+     "200": 0.666667
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "a chain whose rows already equal pi has d(1) = 0",
+   "observed": 0.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a periodic chain (deterministic 3-cycle) never mixes: d(t) stays at 2/3, t_mix(1/4) undefined within 200 steps",
+   "observed": {
+    "chains": {
+     "rot3": {
+      "n": 3,
+      "tmix": {
+       "0.25": null
+      },
+      "lambda2": 1.0,
+      "t_rel": null,
+      "d_at": {
+       "1": 0.666667,
+       "50": 0.666667,
+       "200": 0.666667
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "chains": {
+     "rot3": {
+      "n": 3,
+      "tmix": {
+       "0.25": null
+      },
+      "lambda2": 1.0,
+      "t_rel": null,
+      "d_at": {
+       "1": 0.666667,
+       "50": 0.666667,
+       "200": 0.666667
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,109 @@
+{
+ "sim_id": "SIM-CV-NAT-D",
+ "iteration": 11,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:19:22.293329+00:00",
+ "finished_utc": "2026-10-24T22:19:27.854457+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-11  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "e180b712d0ccd588ca824a12d2b0548d92d5e4ebde50a8d9c0d3379bf4ea73ce",
+ "params_sha256": "e178f9eefdc854d25826b8a5b71b2ef706e0364740e73e5aac337ecf7e8026fb",
+ "results_sha256": "72e64d9b181ff043107e3abd30db47660e9b164efc808235952362a441f5790d",
+ "results": {
+  "Kc": 1.595769,
+  "N": 1000,
+  "dist": "gauss",
+  "width": 1.0,
+  "by_K": {
+   "2.0": {
+    "r_sim": 0.71514,
+    "r_selfconsistent": 0.71517,
+    "r_small_mu": 0.89208,
+    "r_lorentz_exact": null
+   },
+   "2.5": {
+    "r_sim": 0.86982,
+    "r_selfconsistent": 0.86972,
+    "r_small_mu": 1.33423,
+    "r_lorentz_exact": null
+   }
+  },
+  "V1_r_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "identical frequencies with K = 1 synchronise from random phases: time-averaged r > 0.99 over the second half",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication (Gaussian, N 1000): r within 0.05 of self-consistency at K 2.0 and 2.5",
+   "observed": {
+    "Kc": 1.595769,
+    "N": 1000,
+    "dist": "gauss",
+    "width": 1.0,
+    "by_K": {
+     "2.0": {
+      "r_sim": 0.71514,
+      "r_selfconsistent": 0.71517,
+      "r_small_mu": 0.89208,
+      "r_lorentz_exact": null
+     },
+     "2.5": {
+      "r_sim": 0.86982,
+      "r_selfconsistent": 0.86972,
+      "r_small_mu": 1.33423,
+      "r_lorentz_exact": null
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.595769,
+    "N": 1000,
+    "dist": "gauss",
+    "width": 1.0,
+    "by_K": {
+     "2.0": {
+      "r_sim": 0.71514,
+      "r_selfconsistent": 0.71517,
+      "r_small_mu": 0.89208,
+      "r_lorentz_exact": null
+     },
+     "2.5": {
+      "r_sim": 0.86982,
+      "r_selfconsistent": 0.86972,
+      "r_small_mu": 1.33423,
+      "r_lorentz_exact": null
+     }
+    },
+    "V1_r_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

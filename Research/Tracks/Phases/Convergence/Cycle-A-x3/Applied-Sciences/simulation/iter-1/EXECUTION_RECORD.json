@@ -1,0 +1,382 @@
+{
+ "sim_id": "SIM-CV-APP-A",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:23:24.465585+00:00",
+ "finished_utc": "2026-10-24T20:23:25.004028+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-1  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "e0fb5884d25bf1a4736c4f43f60a8b7e2b6ba9d2d796fb4ea1926aa68fd4a251",
+ "params_sha256": "60a099b65cf5c6559af888e2a013798672e253b779ff3a9ef848b057d1b848d4",
+ "results_sha256": "37303020eecfe7b5409607b98c1e567391265933253f896f477398e894268383",
+ "results": {
+  "table": {
+   "trapezoid": {
+    "errors": {
+     "8": 0.05733941,
+     "16": 0.00612145,
+     "32": 0.0013709
+    },
+    "orders": [
+     3.2276,
+     2.1588
+    ],
+    "n_for_target": 11664,
+    "evals_for_target": 11665
+   },
+   "simpson": {
+    "errors": {
+     "8": 0.16301747,
+     "16": 0.0109512,
+     "32": 0.00021262
+    },
+    "orders": [
+     3.8959,
+     5.6867
+    ],
+    "n_for_target": 362,
+    "evals_for_target": 363
+   },
+   "gauss2": {
+    "errors": {
+     "8": 0.00772869,
+     "16": 0.00014411,
+     "32": 7.2e-06
+    },
+    "orders": [
+     5.7449,
+     4.3226
+    ],
+    "n_for_target": 164,
+    "evals_for_target": 328
+   }
+  },
+  "printed": null,
+  "eta": 0.399994,
+  "ahqs": {
+   "evals": 4455,
+   "error": 0.0
+  },
+  "reductions_pct": {},
+  "exact": 0.12937603,
+  "func": "f2",
+  "n_mode": "sub"
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson and 2-point Gauss integrate x^3 - 2x + 1 on [0, 1] exactly (0.25)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "trapezoid evaluations to 1e-8 within 10% of P70 Table 2's 2048",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.05733941,
+       "16": 0.00612145,
+       "32": 0.0013709
+      },
+      "orders": [
+       3.2276,
+       2.1588
+      ],
+      "n_for_target": 11664,
+      "evals_for_target": 11665
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.16301747,
+       "16": 0.0109512,
+       "32": 0.00021262
+      },
+      "orders": [
+       3.8959,
+       5.6867
+      ],
+      "n_for_target": 362,
+      "evals_for_target": 363
+     },
+     "gauss2": {
+      "errors": {
+       "8": 0.00772869,
+       "16": 0.00014411,
+       "32": 7.2e-06
+      },
+      "orders": [
+       5.7449,
+       4.3226
+      ],
+      "n_for_target": 164,
+      "evals_for_target": 328
+     }
+    },
+    "printed": null,
+    "eta": 0.399994,
+    "ahqs": {
+     "evals": 4455,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.12937603,
+    "func": "f2",
+    "n_mode": "sub"
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "Simpson evaluations within 10% of Table 2's 512",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.05733941,
+       "16": 0.00612145,
+       "32": 0.0013709
+      },
+      "orders": [
+       3.2276,
+       2.1588
+      ],
+      "n_for_target": 11664,
+      "evals_for_target": 11665
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.16301747,
+       "16": 0.0109512,
+       "32": 0.00021262
+      },
+      "orders": [
+       3.8959,
+       5.6867
+      ],
+      "n_for_target": 362,
+      "evals_for_target": 363
+     },
+     "gauss2": {
+      "errors": {
+       "8": 0.00772869,
+       "16": 0.00014411,
+       "32": 7.2e-06
+      },
+      "orders": [
+       5.7449,
+       4.3226
+      ],
+      "n_for_target": 164,
+      "evals_for_target": 328
+     }
+    },
+    "printed": null,
+    "eta": 0.399994,
+    "ahqs": {
+     "evals": 4455,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.12937603,
+    "func": "f2",
+    "n_mode": "sub"
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "Algorithm 1 as printed (eps 1e-8) within 25% of Table 2's hybrid count 247",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.05733941,
+       "16": 0.00612145,
+       "32": 0.0013709
+      },
+      "orders": [
+       3.2276,
+       2.1588
+      ],
+      "n_for_target": 11664,
+      "evals_for_target": 11665
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.16301747,
+       "16": 0.0109512,
+       "32": 0.00021262
+      },
+      "orders": [
+       3.8959,
+       5.6867
+      ],
+      "n_for_target": 362,
+      "evals_for_target": 363
+     },
+     "gauss2": {
+      "errors": {
+       "8": 0.00772869,
+       "16": 0.00014411,
+       "32": 7.2e-06
+      },
+      "orders": [
+       5.7449,
+       4.3226
+      ],
+      "n_for_target": 164,
+      "evals_for_target": 328
+     }
+    },
+    "printed": null,
+    "eta": 0.399994,
+    "ahqs": {
+     "evals": 4455,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.12937603,
+    "func": "f2",
+    "n_mode": "sub"
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "Algorithm 1 error at eps 1e-8 is below 1e-8",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.05733941,
+       "16": 0.00612145,
+       "32": 0.0013709
+      },
+      "orders": [
+       3.2276,
+       2.1588
+      ],
+      "n_for_target": 11664,
+      "evals_for_target": 11665
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.16301747,
+       "16": 0.0109512,
+       "32": 0.00021262
+      },
+      "orders": [
+       3.8959,
+       5.6867
+      ],
+      "n_for_target": 362,
+      "evals_for_target": 363
+     },
+     "gauss2": {
+      "errors": {
+       "8": 0.00772869,
+       "16": 0.00014411,
+       "32": 7.2e-06
+      },
+      "orders": [
+       5.7449,
+       4.3226
+      ],
+      "n_for_target": 164,
+      "evals_for_target": 328
+     }
+    },
+    "printed": null,
+    "eta": 0.399994,
+    "ahqs": {
+     "evals": 4455,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.12937603,
+    "func": "f2",
+    "n_mode": "sub"
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "table": {
+     "trapezoid": {
+      "errors": {
+       "8": 0.05733941,
+       "16": 0.00612145,
+       "32": 0.0013709
+      },
+      "orders": [
+       3.2276,
+       2.1588
+      ],
+      "n_for_target": 11664,
+      "evals_for_target": 11665
+     },
+     "simpson": {
+      "errors": {
+       "8": 0.16301747,
+       "16": 0.0109512,
+       "32": 0.00021262
+      },
+      "orders": [
+       3.8959,
+       5.6867
+      ],
+      "n_for_target": 362,
+      "evals_for_target": 363
+     },
+     "gauss2": {
+      "errors": {
+       "8": 0.00772869,
+       "16": 0.00014411,
+       "32": 7.2e-06
+      },
+      "orders": [
+       5.7449,
+       4.3226
+      ],
+      "n_for_target": 164,
+      "evals_for_target": 328
+     }
+    },
+    "printed": null,
+    "eta": 0.399994,
+    "ahqs": {
+     "evals": 4455,
+     "error": 0.0
+    },
+    "reductions_pct": {},
+    "exact": 0.12937603,
+    "func": "f2",
+    "n_mode": "sub"
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

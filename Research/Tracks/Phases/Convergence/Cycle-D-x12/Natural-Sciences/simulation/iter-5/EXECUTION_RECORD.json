@@ -1,0 +1,136 @@
+{
+ "sim_id": "SIM-CV-NAT-D",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:14:09.194879+00:00",
+ "finished_utc": "2026-10-24T22:14:59.272095+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-5  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "93d56515a3a674709fa6ae2203a8b248f268da3cffaaf28809e19d52a489a787",
+ "params_sha256": "6e005bf61a137fe1f08d962bb1e98cf58a295cf90061d1d0bc3943b277b2859a",
+ "results_sha256": "5b3e21a9b53afa59aef98813c3f9e24b8d8d005137c12547dbb0c76555de566d",
+ "results": {
+  "Kc": 1.595769,
+  "by_K": {
+   "1.596": {
+    "r_inf": 0.02132,
+    "by_N": {
+     "100": {
+      "r_mean": 0.36743,
+      "r_sqrtN": 3.6743,
+      "r_sd": 0.14183
+     },
+     "400": {
+      "r_mean": 0.30959,
+      "r_sqrtN": 6.1919,
+      "r_sd": 0.11299
+     },
+     "1600": {
+      "r_mean": 0.21289,
+      "r_sqrtN": 8.5157,
+      "r_sd": 0.09464
+     },
+     "6400": {
+      "r_mean": 0.16908,
+      "r_sqrtN": 13.5266,
+      "r_sd": 0.07785
+     }
+    }
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "uniform random phases (N = 100000) give r below 0.02 (expected ~ N^-1/2 = 0.003)",
+   "observed": 0.0014264,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "at K_c, the decay exponent a in r ~ N^-a (from N = 100 to 6400) lies in [0.15, 0.3]",
+   "observed": {
+    "Kc": 1.595769,
+    "by_K": {
+     "1.596": {
+      "r_inf": 0.02132,
+      "by_N": {
+       "100": {
+        "r_mean": 0.36743,
+        "r_sqrtN": 3.6743,
+        "r_sd": 0.14183
+       },
+       "400": {
+        "r_mean": 0.30959,
+        "r_sqrtN": 6.1919,
+        "r_sd": 0.11299
+       },
+       "1600": {
+        "r_mean": 0.21289,
+        "r_sqrtN": 8.5157,
+        "r_sd": 0.09464
+       },
+       "6400": {
+        "r_mean": 0.16908,
+        "r_sqrtN": 13.5266,
+        "r_sd": 0.07785
+       }
+      }
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "Kc": 1.595769,
+    "by_K": {
+     "1.596": {
+      "r_inf": 0.02132,
+      "by_N": {
+       "100": {
+        "r_mean": 0.36743,
+        "r_sqrtN": 3.6743,
+        "r_sd": 0.14183
+       },
+       "400": {
+        "r_mean": 0.30959,
+        "r_sqrtN": 6.1919,
+        "r_sd": 0.11299
+       },
+       "1600": {
+        "r_mean": 0.21289,
+        "r_sqrtN": 8.5157,
+        "r_sd": 0.09464
+       },
+       "6400": {
+        "r_mean": 0.16908,
+        "r_sqrtN": 13.5266,
+        "r_sd": 0.07785
+       }
+      }
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

@@ -1,0 +1,156 @@
+{
+ "sim_id": "SIM-CV-NAT-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:16:01.795610+00:00",
+ "finished_utc": "2026-10-24T21:19:52.619041+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-2  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "571b8cce17210522d46a4e14dd71fea0dff2f6d97886fd95a4dd06afbffd362a",
+ "params_sha256": "b8d0840f06cfc28a1fe888ff22eeef8ce1a356483b6ddb33804f0403dedef82e",
+ "results_sha256": "6ed5cccb40c27f2d1297bc77776e15daf6f34d84d6c518192eb586f413fb1c39",
+ "results": {
+  "by_case": {
+   "N4_K0.5": {
+    "max_lyap": 0.00476,
+    "frac_above_thr": 0.0,
+    "median": 0.00021
+   },
+   "N4_K0.8": {
+    "max_lyap": 0.01544,
+    "frac_above_thr": 0.0333,
+    "median": 1e-05
+   },
+   "N4_K1.1": {
+    "max_lyap": 0.00502,
+    "frac_above_thr": 0.0,
+    "median": -0.25065
+   },
+   "N4_K1.4": {
+    "max_lyap": 0.00129,
+    "frac_above_thr": 0.0,
+    "median": -0.84014
+   }
+  },
+  "thr": 0.01,
+  "V1_pair_identical": -1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "N = 2, identical frequencies, K = 1: the transverse exponent equals the analytic -K = -1 within 0.02",
+   "observed": -1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P76: chaos occurs at N = 4 - at least one of 120 random settings has a largest exponent above 0.01",
+   "observed": {
+    "by_case": {
+     "N4_K0.5": {
+      "max_lyap": 0.00476,
+      "frac_above_thr": 0.0,
+      "median": 0.00021
+     },
+     "N4_K0.8": {
+      "max_lyap": 0.01544,
+      "frac_above_thr": 0.0333,
+      "median": 1e-05
+     },
+     "N4_K1.1": {
+      "max_lyap": 0.00502,
+      "frac_above_thr": 0.0,
+      "median": -0.25065
+     },
+     "N4_K1.4": {
+      "max_lyap": 0.00129,
+      "frac_above_thr": 0.0,
+      "median": -0.84014
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "chaos is not typical: fewer than half the settings exceed 0.01 at every K",
+   "observed": {
+    "by_case": {
+     "N4_K0.5": {
+      "max_lyap": 0.00476,
+      "frac_above_thr": 0.0,
+      "median": 0.00021
+     },
+     "N4_K0.8": {
+      "max_lyap": 0.01544,
+      "frac_above_thr": 0.0333,
+      "median": 1e-05
+     },
+     "N4_K1.1": {
+      "max_lyap": 0.00502,
+      "frac_above_thr": 0.0,
+      "median": -0.25065
+     },
+     "N4_K1.4": {
+      "max_lyap": 0.00129,
+      "frac_above_thr": 0.0,
+      "median": -0.84014
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "N4_K0.5": {
+      "max_lyap": 0.00476,
+      "frac_above_thr": 0.0,
+      "median": 0.00021
+     },
+     "N4_K0.8": {
+      "max_lyap": 0.01544,
+      "frac_above_thr": 0.0333,
+      "median": 1e-05
+     },
+     "N4_K1.1": {
+      "max_lyap": 0.00502,
+      "frac_above_thr": 0.0,
+      "median": -0.25065
+     },
+     "N4_K1.4": {
+      "max_lyap": 0.00129,
+      "frac_above_thr": 0.0,
+      "median": -0.84014
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

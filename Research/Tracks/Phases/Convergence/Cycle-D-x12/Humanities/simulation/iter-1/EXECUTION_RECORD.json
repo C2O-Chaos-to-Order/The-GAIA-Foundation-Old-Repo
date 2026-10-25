@@ -1,0 +1,132 @@
+{
+ "sim_id": "SIM-CV-HUM-D",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:13.192165+00:00",
+ "finished_utc": "2026-10-24T22:15:13.201273+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-1  (run from Humanities/simulation/)",
+ "spec_sha256": "b712a95bd3ec92368bd36733fb2669f18ae2ebebef2873598dca708efa997db7",
+ "params_sha256": "066ffe80f2495c64cda04081c5ea4693348f8ade7d35fa47581e334472f0d593",
+ "results_sha256": "be6d90903faee2e0afb360335ca02a4a386a942827d18431f37231684417ec31",
+ "results": {
+  "by_x0": {
+   "0.3": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 3.776
+   },
+   "0.45": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 6.136
+   }
+  },
+  "N": 1000,
+  "c": 2.0,
+  "b": 0.05,
+  "se_max": 0.01118
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.2502454,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "corrected prestige design (selection b 0.05) with conformity c 2: a 30% standard variant is still lost with probability >= 0.9 (Hinskens: levelling need not go toward the standard)",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.776
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.136
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.05,
+    "se_max": 0.01118
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "a 45% standard variant wins more often than not",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.776
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.136
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.05,
+    "se_max": 0.01118
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.776
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 6.136
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.05,
+    "se_max": 0.01118
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

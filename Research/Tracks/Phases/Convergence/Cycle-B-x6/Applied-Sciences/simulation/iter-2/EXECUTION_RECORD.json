@@ -1,0 +1,160 @@
+{
+ "sim_id": "SIM-CV-APP-B",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:44:45.898100+00:00",
+ "finished_utc": "2026-10-24T20:44:45.906828+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-2  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "765c92dea318fcba880c992751e71ab60d4176bfebbe93ab4d1feb31e21a48c2",
+ "params_sha256": "6a56415c2d36a90627604a30f218ed935e811cfb36116811f0f1f3bf44063f63",
+ "results_sha256": "e8177ea563be0d3f970998d0793f20561bc00652365f9ee9b3b768f26158cb0c",
+ "results": {
+  "exact": 0.89386503,
+  "M2": 14.73715356,
+  "fprime_diff": -3.86911164,
+  "rows": {
+   "3": {
+    "T": 0.84384617,
+    "E": 0.05001886,
+    "abs_err": 0.05001886,
+    "rel_pct": 5.595796,
+    "bound": 0.23579446,
+    "asym": 0.05158816,
+    "overestimates": false
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the trapezoidal rule integrates 2x + 1 on [0, 1] exactly (2) with N = 4",
+   "observed": 2.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P79's T_3 = 0.84385 within 5e-6",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "P79's exact 0.89387 within 5e-6",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "P79's true error 0.05002 within 5e-6",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "P79's relative error 5.5959% within 5e-4",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 6,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 4,
+ "n_supported": 4,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

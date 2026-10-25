@@ -1,0 +1,156 @@
+{
+ "sim_id": "SIM-CV-HUM-C",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:47.692610+00:00",
+ "finished_utc": "2026-10-24T21:13:47.993123+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-5  (run from Humanities/simulation/)",
+ "spec_sha256": "2c9acb3539ad38cab662a5542cc44051098309decd21268b160f217831336762",
+ "params_sha256": "5d02a53a38eba42ebaae79b5293df0fe3bc4d6fbddf0ce843b8b3c8b30563571",
+ "results_sha256": "0dd8dac7605852cddee72aff30f94aab66c346b5cb1dfa97e14cd8385200529c",
+ "results": {
+  "by_x0": {
+   "0.3": {
+    "p_fix": 0.0,
+    "p_lost": 0.0,
+    "p_unresolved": 1.0,
+    "mean_gens": null
+   },
+   "0.4": {
+    "p_fix": 0.0,
+    "p_lost": 0.0,
+    "p_unresolved": 1.0,
+    "mean_gens": null
+   },
+   "0.45": {
+    "p_fix": 0.015,
+    "p_lost": 0.0,
+    "p_unresolved": 0.985,
+    "mean_gens": 11.6
+   }
+  },
+  "N": 1000,
+  "c": 2.0,
+  "b": 0.05,
+  "se_max": 0.01118
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.25006835,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "P82/Hinskens: levelling need not go toward the standard - a 30% standard variant with a 0.05 prestige bias is still lost with probability >= 0.9",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 0.0,
+      "p_unresolved": 1.0,
+      "mean_gens": null
+     },
+     "0.4": {
+      "p_fix": 0.0,
+      "p_lost": 0.0,
+      "p_unresolved": 1.0,
+      "mean_gens": null
+     },
+     "0.45": {
+      "p_fix": 0.015,
+      "p_lost": 0.0,
+      "p_unresolved": 0.985,
+      "mean_gens": 11.6
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.05,
+    "se_max": 0.01118
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "a 45% standard variant with the bias wins more often than not",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 0.0,
+      "p_unresolved": 1.0,
+      "mean_gens": null
+     },
+     "0.4": {
+      "p_fix": 0.0,
+      "p_lost": 0.0,
+      "p_unresolved": 1.0,
+      "mean_gens": null
+     },
+     "0.45": {
+      "p_fix": 0.015,
+      "p_lost": 0.0,
+      "p_unresolved": 0.985,
+      "mean_gens": 11.6
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.05,
+    "se_max": 0.01118
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 0.0,
+      "p_unresolved": 1.0,
+      "mean_gens": null
+     },
+     "0.4": {
+      "p_fix": 0.0,
+      "p_lost": 0.0,
+      "p_unresolved": 1.0,
+      "mean_gens": null
+     },
+     "0.45": {
+      "p_fix": 0.015,
+      "p_lost": 0.0,
+      "p_unresolved": 0.985,
+      "mean_gens": 11.6
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.05,
+    "se_max": 0.01118
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 4,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 2,
+ "n_supported": 0,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

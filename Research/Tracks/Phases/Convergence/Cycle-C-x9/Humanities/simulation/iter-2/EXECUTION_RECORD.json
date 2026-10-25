@@ -1,0 +1,278 @@
+{
+ "sim_id": "SIM-CV-HUM-C",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:13:47.205946+00:00",
+ "finished_utc": "2026-10-24T21:13:47.217443+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_hum.py iter-2  (run from Humanities/simulation/)",
+ "spec_sha256": "6693047ada35b90c1961747118d164199df570c9bb6a38752fdeb60b6753ffea",
+ "params_sha256": "b954ff783c788ff710285abe1ef0740d4a4d1c09220b0fe68456190c0c9da01b",
+ "results_sha256": "888535d6844bcbed3c469e839a93722a584ed16536feac5f6fa2b3a77c536c10",
+ "results": {
+  "by_x0": {
+   "0.07": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 2.034
+   },
+   "0.3": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 3.676
+   },
+   "0.45": {
+    "p_fix": 0.0,
+    "p_lost": 1.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 5.749
+   },
+   "0.55": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 5.753
+   },
+   "0.7": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 3.655
+   },
+   "0.93": {
+    "p_fix": 1.0,
+    "p_lost": 0.0,
+    "p_unresolved": 0.0,
+    "mean_gens": 2.033
+   }
+  },
+  "N": 1000,
+  "c": 2.0,
+  "b": 0.0,
+  "se_max": 0.01118
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "neutral copying is a martingale: mean share after 3 generations from x0 = 1/4 within 4 SE of 1/4",
+   "observed": 0.24996515,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "conformist copying (c = 2): majority variants (x0 >= 0.55) fix with probability >= 0.95 and minority variants (x0 <= 0.45) are lost with probability >= 0.95 (Trudgill's majority determinism)",
+   "observed": {
+    "by_x0": {
+     "0.07": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.034
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.676
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.749
+     },
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.753
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.655
+     },
+     "0.93": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.033
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "the 7% variant (cf. P82's Australians in pre-1881 New Zealand) never fixes",
+   "observed": {
+    "by_x0": {
+     "0.07": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.034
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.676
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.749
+     },
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.753
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.655
+     },
+     "0.93": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.033
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "levelling from a 70% majority completes within 2 generations on average (cf. P82's New Zealand 1840-1880)",
+   "observed": {
+    "by_x0": {
+     "0.07": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.034
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.676
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.749
+     },
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.753
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.655
+     },
+     "0.93": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.033
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Not supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_x0": {
+     "0.07": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.034
+     },
+     "0.3": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.676
+     },
+     "0.45": {
+      "p_fix": 0.0,
+      "p_lost": 1.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.749
+     },
+     "0.55": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 5.753
+     },
+     "0.7": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 3.655
+     },
+     "0.93": {
+      "p_fix": 1.0,
+      "p_lost": 0.0,
+      "p_unresolved": 0.0,
+      "mean_gens": 2.033
+     }
+    },
+    "N": 1000,
+    "c": 2.0,
+    "b": 0.0,
+    "se_max": 0.01118
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 5,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 3,
+ "n_supported": 2,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

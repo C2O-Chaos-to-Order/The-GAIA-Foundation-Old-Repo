@@ -1,0 +1,103 @@
+{
+ "sim_id": "SIM-CV-APP-D",
+ "iteration": 12,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:13.021306+00:00",
+ "finished_utc": "2026-10-24T22:15:13.030045+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-12  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "2b63298062969fb58b69e998125755d902b58c6642798ea33ce0bc7f3b274410",
+ "params_sha256": "b31ced3330205f5ea2c27dac96c76472e059fbd8e7fe65b13e54750353b77b12",
+ "results_sha256": "50a0567701ea6e5c476f4df9da428dc66392908b559c02812d2efce61d10c41c",
+ "results": {
+  "exact": 7.95492652,
+  "rows": {
+   "7": {
+    "trap_err": 0.0002826,
+    "simp_err": 0.0925763
+   },
+   "11": {
+    "trap_err": 0.0,
+    "simp_err": 0.0011371
+   },
+   "13": {
+    "trap_err": 0.0,
+    "simp_err": 9.42e-05
+   }
+  },
+  "order_trap": 34.4026,
+  "order_simp": 13.6616
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Simpson's rule integrates x^3 on [0, 1] exactly (1/4) with 5 nodes",
+   "observed": 0.25,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication: e^cos x error < 1e-6 already at 11 nodes",
+   "observed": {
+    "exact": 7.95492652,
+    "rows": {
+     "7": {
+      "trap_err": 0.0002826,
+      "simp_err": 0.0925763
+     },
+     "11": {
+      "trap_err": 0.0,
+      "simp_err": 0.0011371
+     },
+     "13": {
+      "trap_err": 0.0,
+      "simp_err": 9.42e-05
+     }
+    },
+    "order_trap": 34.4026,
+    "order_simp": 13.6616
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 7.95492652,
+    "rows": {
+     "7": {
+      "trap_err": 0.0002826,
+      "simp_err": 0.0925763
+     },
+     "11": {
+      "trap_err": 0.0,
+      "simp_err": 0.0011371
+     },
+     "13": {
+      "trap_err": 0.0,
+      "simp_err": 9.42e-05
+     }
+    },
+    "order_trap": 34.4026,
+    "order_simp": 13.6616
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

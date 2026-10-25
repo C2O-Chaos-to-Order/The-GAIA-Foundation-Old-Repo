@@ -1,0 +1,919 @@
+{
+ "sim_id": "SIM-CV-FOR-0",
+ "iteration": 1,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T20:08:58.059216+00:00",
+ "finished_utc": "2026-10-24T20:08:58.065907+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-1  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "d46f22ac79b0c3e81a7c606106f4e028feabbc87ce8814cd5a2987774c2d404f",
+ "params_sha256": "16e244e712cac265f6cb589de8c8dc4649ebcdf6fc83ee7d0e46831fd5b8ddd1",
+ "results_sha256": "1a3243ec2e4b1ed6b5171419f8191f76dbd62d6b57945bb333074066acf54d8a",
+ "results": {
+  "E": [
+   0.42857143,
+   0.57142857
+  ],
+  "V": {
+   "1": [
+    0.36,
+    0.64
+   ],
+   "2": [
+    0.408,
+    0.592
+   ],
+   "3": [
+    0.4224,
+    0.5776
+   ],
+   "20": [
+    0.42857143,
+    0.57142857
+   ],
+   "21": [
+    0.42857143,
+    0.57142857
+   ]
+  },
+  "lambda2": 0.3,
+  "err_n20": 0.0,
+  "ET_minus_E": 0.0,
+  "regular": {
+   "A": {
+    "exponent": 2,
+    "bound": 2
+   },
+   "B": {
+    "exponent": null,
+    "bound": 2
+   }
+  },
+  "powers2": {
+   "A": [
+    [
+     0.4,
+     0.6
+    ],
+    [
+     0.24,
+     0.76
+    ]
+   ],
+   "B": [
+    [
+     1.0,
+     0.0
+    ],
+    [
+     0.51,
+     0.49
+    ]
+   ]
+  },
+  "wielandt": {
+   "3": {
+    "exponent": 5,
+    "bound": 5
+   },
+   "4": {
+    "exponent": 10,
+    "bound": 10
+   },
+   "5": {
+    "exponent": 17,
+    "bound": 17
+   },
+   "6": {
+    "exponent": 26,
+    "bound": 26
+   }
+  },
+  "periodic": {
+   "E": [
+    0.5,
+    0.5
+   ],
+   "ET_minus_E": 0.0,
+   "V50": [
+    1.0,
+    0.0
+   ],
+   "V51": [
+    0.0,
+    1.0
+   ],
+   "converges": false
+  },
+  "degroot": {
+   "x_end": [
+    0.57142857,
+    0.57142857
+   ],
+   "weighted_mean": 0.57142857,
+   "spread": 0.0
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "E T = E within 1e-12, E sums to 1, rows of T sum to 1",
+   "observed": [
+    0.0,
+    1.0
+   ],
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "V1, V2, V3 equal P73's printed (.36,.64), (.408,.592), (.4224,.5776) within 1e-9",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H2",
+   "kind": "hypothesis",
+   "expect": "E = (3/7, 4/7) within 1e-9 and the error after 20 steps is below 1e-9 (|lambda2| = 0.3)",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H3",
+   "kind": "hypothesis",
+   "expect": "A is regular (A^2 = [[.40,.60],[.24,.76]]), B is not",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H4",
+   "kind": "hypothesis",
+   "expect": "the Wielandt matrix attains the bound (n - 1)^2 + 1 exactly for n = 3..6",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H5",
+   "kind": "hypothesis",
+   "expect": "periodic chain: ET = E is solvable (E = (.5,.5)) but V_n does not converge",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "H6",
+   "kind": "hypothesis",
+   "expect": "DeGroot averaging reaches consensus equal to the E-weighted mean (4/7)",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "E": [
+     0.42857143,
+     0.57142857
+    ],
+    "V": {
+     "1": [
+      0.36,
+      0.64
+     ],
+     "2": [
+      0.408,
+      0.592
+     ],
+     "3": [
+      0.4224,
+      0.5776
+     ],
+     "20": [
+      0.42857143,
+      0.57142857
+     ],
+     "21": [
+      0.42857143,
+      0.57142857
+     ]
+    },
+    "lambda2": 0.3,
+    "err_n20": 0.0,
+    "ET_minus_E": 0.0,
+    "regular": {
+     "A": {
+      "exponent": 2,
+      "bound": 2
+     },
+     "B": {
+      "exponent": null,
+      "bound": 2
+     }
+    },
+    "powers2": {
+     "A": [
+      [
+       0.4,
+       0.6
+      ],
+      [
+       0.24,
+       0.76
+      ]
+     ],
+     "B": [
+      [
+       1.0,
+       0.0
+      ],
+      [
+       0.51,
+       0.49
+      ]
+     ]
+    },
+    "wielandt": {
+     "3": {
+      "exponent": 5,
+      "bound": 5
+     },
+     "4": {
+      "exponent": 10,
+      "bound": 10
+     },
+     "5": {
+      "exponent": 17,
+      "bound": 17
+     },
+     "6": {
+      "exponent": 26,
+      "bound": 26
+     }
+    },
+    "periodic": {
+     "E": [
+      0.5,
+      0.5
+     ],
+     "ET_minus_E": 0.0,
+     "V50": [
+      1.0,
+      0.0
+     ],
+     "V51": [
+      0.0,
+      1.0
+     ],
+     "converges": false
+    },
+    "degroot": {
+     "x_end": [
+      0.57142857,
+      0.57142857
+     ],
+     "weighted_mean": 0.57142857,
+     "spread": 0.0
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 8,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 6,
+ "n_supported": 6,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

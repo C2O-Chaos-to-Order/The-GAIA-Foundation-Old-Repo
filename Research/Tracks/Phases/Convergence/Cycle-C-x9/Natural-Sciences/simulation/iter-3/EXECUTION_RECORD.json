@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-CV-NAT-C",
+ "iteration": 3,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T21:19:52.730901+00:00",
+ "finished_utc": "2026-10-24T21:21:12.339444+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_nat.py iter-3  (run from Natural-Sciences/simulation/)",
+ "spec_sha256": "1f840118ac097c487b68f1ad8847f433bc0f839b872276c8b91e3edde70ecfab",
+ "params_sha256": "29eb359df141f655a598ec5893e15b2d25dc223b1f1e93e381a9c185edc607bc",
+ "results_sha256": "b06c9ec5698e1a5b25dc04e5aba4ce71461bc006f1e2745b9f405015dc1fe760",
+ "results": {
+  "by_case": {
+   "N5_K0.8": {
+    "max_lyap": 0.01546,
+    "frac_above_thr": 0.05,
+    "median": -0.0007
+   },
+   "N5_K1.1": {
+    "max_lyap": 0.00349,
+    "frac_above_thr": 0.0,
+    "median": -0.00065
+   }
+  },
+  "thr": 0.01,
+  "V1_pair_identical": -1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "N = 2, identical frequencies, K = 1: the transverse exponent equals the analytic -K = -1 within 0.02",
+   "observed": -1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "N = 5: at least one of 40 random settings has a largest exponent above 0.01",
+   "observed": {
+    "by_case": {
+     "N5_K0.8": {
+      "max_lyap": 0.01546,
+      "frac_above_thr": 0.05,
+      "median": -0.0007
+     },
+     "N5_K1.1": {
+      "max_lyap": 0.00349,
+      "frac_above_thr": 0.0,
+      "median": -0.00065
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_case": {
+     "N5_K0.8": {
+      "max_lyap": 0.01546,
+      "frac_above_thr": 0.05,
+      "median": -0.0007
+     },
+     "N5_K1.1": {
+      "max_lyap": 0.00349,
+      "frac_above_thr": 0.0,
+      "median": -0.00065
+     }
+    },
+    "thr": 0.01,
+    "V1_pair_identical": -1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

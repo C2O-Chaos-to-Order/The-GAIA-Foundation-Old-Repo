@@ -1,0 +1,94 @@
+{
+ "sim_id": "SIM-CV-APP-D",
+ "iteration": 10,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-24T22:15:12.702753+00:00",
+ "finished_utc": "2026-10-24T22:15:12.712320+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_app.py iter-10  (run from Applied-Sciences/simulation/)",
+ "spec_sha256": "0227781575bcb863af95d9d387b0aa12ebbfcde0dfd78f00bb138744b1fec7fd",
+ "params_sha256": "8ff1806f92051ccd55b3e14c4dd606c8434350cdfaa46508e7a03447b40611ef",
+ "results_sha256": "e8177ea563be0d3f970998d0793f20561bc00652365f9ee9b3b768f26158cb0c",
+ "results": {
+  "exact": 0.89386503,
+  "M2": 14.73715356,
+  "fprime_diff": -3.86911164,
+  "rows": {
+   "3": {
+    "T": 0.84384617,
+    "E": 0.05001886,
+    "abs_err": 0.05001886,
+    "rel_pct": 5.595796,
+    "bound": 0.23579446,
+    "asym": 0.05158816,
+    "overestimates": false
+   }
+  }
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "the trapezoidal rule integrates 2x + 1 on [0, 1] exactly (2) with N = 4",
+   "observed": 2.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "replication of P79's second example: T_3 = 0.84385 within 5e-6",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "exact": 0.89386503,
+    "M2": 14.73715356,
+    "fprime_diff": -3.86911164,
+    "rows": {
+     "3": {
+      "T": 0.84384617,
+      "E": 0.05001886,
+      "abs_err": 0.05001886,
+      "rel_pct": 5.595796,
+      "bound": 0.23579446,
+      "asym": 0.05158816,
+      "overestimates": false
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
