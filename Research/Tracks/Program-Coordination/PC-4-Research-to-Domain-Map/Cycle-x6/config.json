@@ -1,0 +1,159 @@
+{
+  "cycle": "x6",
+  "work_queue": "../../../../WORK_QUEUE.md",
+  "judgment_map": "../judgments/map_x6.csv",
+  "clusters": "../judgments/clusters_x6.csv",
+  "nonreport_map": "../judgments/nonreport_x6.csv",
+  "tog24_map": "../judgments/tog24_x6.csv",
+  "suite_path": "/workspace/coord/zip/gaia_totality_suite_v0_1",
+  "map_kinds": [
+    "report",
+    "candidate",
+    "governance",
+    "level"
+  ],
+  "report_kinds": [
+    "report"
+  ],
+  "candidate_kinds": [
+    "candidate"
+  ],
+  "nonreport_kinds": [
+    "update",
+    "setting",
+    "gap",
+    "recommendation",
+    "afterwards"
+  ],
+  "queue_named_checks": true,
+  "named_examples": [
+    "PC-4",
+    "M-b8",
+    "M-b9"
+  ],
+  "dependency_check": true,
+  "sensitivity": true,
+  "iterations": {
+    "1": {
+      "variant": "charter",
+      "stem": true,
+      "k": 1
+    },
+    "2": {
+      "variant": "charter",
+      "stem": true,
+      "k": 3
+    },
+    "3": {
+      "variant": "charter",
+      "stem": true,
+      "k": 5
+    },
+    "4": {
+      "variant": "charter",
+      "stem": false,
+      "k": 1
+    },
+    "5": {
+      "variant": "charter",
+      "stem": false,
+      "k": 3
+    },
+    "6": {
+      "variant": "charter",
+      "stem": false,
+      "k": 5
+    }
+  },
+  "checks": [
+    {
+      "id": "X6-1",
+      "hypothesis": "Inventory still complete",
+      "metric": "inventory_gap",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-2",
+      "hypothesis": "Every row (reports, candidates, governance, levels and non-report items) passes integrity",
+      "metric": "problems",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-3",
+      "hypothesis": "With the pre-registered example rule (PC-4, b8, b9 name domains as examples for other items), no queue-named domain is missing",
+      "metric": "queue_named_missing",
+      "op": "eq",
+      "threshold": 0
+    },
+    {
+      "id": "X6-4",
+      "hypothesis": "All 9 b7 proposals and the 2 new candidate clusters pass the structural checks",
+      "metric": "clusters_ok",
+      "op": "eq",
+      "threshold": 11
+    },
+    {
+      "id": "X6-5",
+      "hypothesis": "Counting non-report work (updates, settings, gaps, recommendations, afterwards), at most 1 domain has no work of any kind",
+      "metric": "domains_no_work_any",
+      "op": "le",
+      "threshold": 1
+    },
+    {
+      "id": "X6-6",
+      "hypothesis": "At least one dependency gap exists: a domain that homes a report depends on a domain with no report at all",
+      "metric": "dependency_gaps",
+      "op": "ge",
+      "threshold": 1
+    },
+    {
+      "id": "X6-7",
+      "hypothesis": "At least 3 TOT domains are reached by no ToG section 6 governance domain (as primary or secondary)",
+      "metric": "tog24_unreached",
+      "op": "ge",
+      "threshold": 3
+    },
+    {
+      "id": "X6-8",
+      "hypothesis": "Reports with no domain stay at or below 1",
+      "metric": "reports_no_domain",
+      "op": "le",
+      "threshold": 1
+    },
+    {
+      "id": "X6-9a",
+      "hypothesis": "Top-1 agreement >= 0.35 (k = 1)",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.35,
+      "iterations": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "X6-9b",
+      "hypothesis": "Top-3 agreement >= 0.45 (k = 3)",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.45,
+      "iterations": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "X6-9c",
+      "hypothesis": "Top-5 agreement >= 0.60 (k = 5)",
+      "metric": "topk_primary_rate",
+      "op": "ge",
+      "threshold": 0.6,
+      "iterations": [
+        3,
+        6
+      ]
+    }
+  ]
+}
