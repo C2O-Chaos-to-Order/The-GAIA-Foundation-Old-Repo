@@ -1,0 +1,291 @@
+#!/usr/bin/env python3
+"""PC-1 Program Charter and Master Register Reconciliation: deterministic tooling.
+
+Reuses the PC-4 helpers (register and suite hash checks, TOT-id parsing, boundary scan).
+The owner-provided GAIA Totality Suite v0.1.0 is EXTERNAL and never filed here.
+Commands: run --cycle DIR --iter N | verify --cycle DIR | boundary | render --cycle DIR --iter N --out F
+"""
+import argparse, csv, json, os, re, shutil, sys, tempfile
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+sys.path.insert(0, os.path.join(ROOT, "..", "PC-4-Research-to-Domain-Map", "tools"))
+import pc4  # noqa: E402
+
+ROLES = {"independent", "ethics-rights", "security-privacy", "data-steward", "auditor", "community-rep"}
+UR_DOMAINS = {"EPI", "SCI", "ETH", "TEC", "OPS", "ALL"}
+HOME_TYPES = {"extend", "extend-planned", "new", "shared"}
+NEW_PREFIX = "GOVERNANCE/DOMAIN_STANDARDS/"
+
+def rd(path):
+    return open(path, encoding="utf-8").read()
+
+def ur_laws(repo):
+    laws = {}
+    for line in rd(os.path.join(repo, "GOVERNANCE/UNIVERSAL_REGULATION.md")).splitlines():
+        m = re.match(r"#### 5\.\d UR-([A-Z]+) .*· Laws? ([0-9, and]+)", line)
+        if m:
+            laws[m.group(1)] = sorted({int(x) for x in re.findall(r"\d", m.group(2))})
+    return laws
+
+def tog19_planned(repo):
+    t = rd(os.path.join(repo, "GOVERNANCE/TOTALITY_OF_GOVERNANCE_DRAFT_v0.1.0.md"))
+    sec = t.split("## 19.")[1].split("## 20.")[0]
+    return set(re.findall(r"`(GOVERNANCE/[^`]+)`", sec))
+
+def suite_crosswalk(suite):
+    rel = "04_EXISTING_REPOSITORY_COVERAGE_CROSSWALK.md"
+    pc4.verify_suite_file(suite, rel)
+    rows = []
+    for line in open(os.path.join(suite, rel), encoding="utf-8-sig"):
+        cells = [c.strip() for c in line.strip().split("|")]
+        if len(cells) >= 6 and "TOT-" in cells[3]:
+            rows.append((cells[1][:60], sorted(pc4.named_tots(cells[3]))))
+    return rows
+
+def collect_ids(paths, exclude=None):
+    ids = set()
+    for base in paths:
+        for dp, dns, fns in os.walk(base):
+            dns[:] = sorted(d for d in dns if d not in (".git", "__pycache__")
+                            and os.path.abspath(os.path.join(dp, d)) != exclude)
+            for fn in fns:
+                if fn.endswith((".md", ".csv", ".json", ".txt")):
+                    try:
+                        ids |= set(re.findall(r"GAIA-[A-Z0-9]+(?:-[A-Z0-9]+)*", rd(os.path.join(dp, fn))))
+                    except UnicodeDecodeError:
+                        pass
+    return ids
+
+def run(cycle_dir, it, outdir=None):
+    P = lambda p: os.path.normpath(os.path.join(cycle_dir, p))
+    cfg = json.load(open(os.path.join(cycle_dir, "config.json")))
+    icfg = cfg["iterations"][str(it)]
+    suite = os.environ.get("PC4_SUITE", cfg["suite_path"])
+    repo = P(cfg["repo_root"])
+    reg = pc4.load_register(suite)
+    reg_by = {r["stable_id"]: r for r in reg}
+    ids = [r["stable_id"] for r in reg]
+    wq = rd(P(cfg["work_queue"]))
+    items = {i["item_id"]: i for i in pc4.inventory(wq)}
+    problems = []
+    laws = ur_laws(repo)
+    planned = tog19_planned(repo)
+    # domain rows
+    drows = pc4.load_map(P(cfg["domains"]))
+    seen, rows_ok, anchors_bad, homes = {}, 0, [], {}
+    for r in drows:
+        d = r["stable_id"]
+        if d not in reg_by:
+            problems.append(f"unknown domain {d}"); continue
+        if d in seen:
+            problems.append(f"duplicate row {d}")
+        seen[d] = r
+        if r["owner"] != reg_by[d]["decision_authority"]:
+            problems.append(f"{d}: owner differs from the register's decision authority")
+        if r["label"] not in pc4.LABELS:
+            problems.append(f"{d}: bad label")
+        for role in pc4.split_ids(r["reviewer_roles"]):
+            if role not in ROLES and not role.startswith("specialist:"):
+                problems.append(f"{d}: unknown role {role}")
+        for u in pc4.split_ids(r["ur_domains"]):
+            if u not in UR_DOMAINS:
+                problems.append(f"{d}: unknown UR domain {u}")
+        ht, home = r["home_type"], r["canonical_home"]
+        if ht not in HOME_TYPES:
+            problems.append(f"{d}: bad home type {ht}")
+        if ht == "extend" and not os.path.exists(os.path.join(repo, home)):
+            problems.append(f"{d}: extend target missing {home}")
+        if ht == "extend-planned" and home not in planned:
+            problems.append(f"{d}: {home} is not a ToG section 19 planned file")
+        if ht in ("new", "shared") and not home.startswith(NEW_PREFIX):
+            problems.append(f"{d}: new home must be under {NEW_PREFIX}")
+        if r["domain_id"] != d:
+            problems.append(f"{d}: domain_id must keep the register stable ID")
+        if r["doc_id"] != "GAIA-GOV-TOT-" + d[-3:]:
+            problems.append(f"{d}: doc_id must be GAIA-GOV-TOT-{d[-3:]}")
+        homes.setdefault(home, []).append(d)
+        for a in [x.strip() for x in r["anchors"].split(";") if x.strip()]:
+            f, _, txt = a.partition("#")
+            fp = os.path.join(repo, f)
+            if not os.path.exists(fp) or (txt and txt not in rd(fp)):
+                anchors_bad.append(f"{d}: {a}")
+    rows_ok = sum(1 for d in ids if d in seen)
+    dup_homes = {h: ds for h, ds in homes.items() if len(ds) > 1}
+    # home-rule variants
+    rule = icfg.get("home_rule", "as_judged")
+    def eff(r):
+        if rule == "always_new":
+            return "new"
+        if rule == "no_planned" and r["home_type"] == "extend-planned":
+            return "new"
+        return r["home_type"]
+    eff_types = {d: eff(seen[d]) for d in ids if d in seen}
+    competing = [d for d in ids if d in seen and seen[d]["home_type"].startswith("extend") and eff_types[d] == "new"]
+    # IDs
+    others = collect_ids([repo, suite], exclude=os.path.abspath(ROOT))
+    collisions = sorted(r["doc_id"] for r in seen.values() if r["doc_id"] in others)
+    # b9
+    xw = suite_crosswalk(suite)
+    covered = set().union(*[set(t) for _, t in xw]) if xw else set()
+    b9_calc = sorted(d for d in ids if d not in covered)
+    b9_wq = sorted(pc4.named_tots(items["M-b9"]["text"]))
+    b9_sd = sorted(set(b9_calc) ^ set(b9_wq))
+    # waves
+    rm = {r["stable_id"]: r for r in pc4.load_map(P(cfg["roadmap"]))}
+    pw = {"P0": "1", "P1": "2", "P2": "3", "P3": "4"}
+    waves, mism = [], []
+    for d in ids:
+        rw_ = rm.get(d, {}).get("roadmap_wave", "")
+        if not rw_:
+            problems.append(f"{d}: no roadmap row")
+        imp = pw[reg_by[d]["priority"]]
+        mm = rw_ != imp
+        waves.append(dict(stable_id=d, priority=reg_by[d]["priority"], implied_wave=imp,
+                          roadmap_wave=rw_, mismatch=int(mm), basis=rm.get(d, {}).get("basis", "")))
+        if mm:
+            mism.append(d)
+    exp_missing = [d for d in cfg["expected_mismatches"] if d not in mism]
+    # audits
+    aud = list(csv.DictReader(open(os.path.join(repo, "GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.csv"), encoding="utf-8")))
+    amap = {r["audit_id"]: pc4.split_ids(r["domains"]) for r in pc4.load_map(P(cfg["audit_map"]))}
+    unm = [a["id"] for a in aud if not amap.get(a["id"])]
+    for a, ds in amap.items():
+        for d in ds:
+            if d not in reg_by:
+                problems.append(f"audit {a}: unknown domain {d}")
+    open_by = {d: [] for d in ids}
+    all_by = {d: [] for d in ids}
+    for a in aud:
+        for d in amap.get(a["id"], []):
+            if d in all_by:
+                all_by[d].append(a["id"])
+                if a["decision"] != "PASS":
+                    open_by[d].append(f"{a['id']}:{a['decision']}")
+    # PC-4 joins
+    cov = {r["stable_id"]: r for r in csv.DictReader(open(P(cfg["pc4_coverage"]), encoding="utf-8"))}
+    t24 = {d: [] for d in ids}
+    for r in csv.DictReader(open(P(cfg["pc4_tog24"]), encoding="utf-8")):
+        for d in [r["primary"]] + pc4.split_ids(r["secondary"]):
+            t24[d].append(r["tog_id"])
+    # joined table
+    joined = []
+    for d in ids:
+        r = seen.get(d, {})
+        urs = pc4.split_ids(r.get("ur_domains", ""))
+        lw = sorted({l for u in urs for l in (range(1, 8) if u == "ALL" else laws.get(u, []))})
+        joined.append(dict(stable_id=d, title=reg_by[d]["title"].split(":", 1)[-1].strip(),
+            priority=reg_by[d]["priority"], doc_id=r.get("doc_id", ""), home_type=r.get("home_type", ""),
+            effective_home_type=eff_types.get(d, ""), canonical_home=r.get("canonical_home", ""),
+            owner=r.get("owner", ""), reviewer_roles=r.get("reviewer_roles", ""),
+            ur_domains=" ".join(urs), ur_laws=" ".join(map(str, lw)),
+            tog6=" ".join(t24[d]), audit_items=" ".join(all_by[d]), audit_open=" ".join(open_by[d]),
+            pc4_primary_reports=cov[d]["primary_items"].replace(";", " "),
+            in_crosswalk_04=int(d in covered), roadmap_wave=next(w["roadmap_wave"] for w in waves if w["stable_id"] == d),
+            implied_wave=next(w["implied_wave"] for w in waves if w["stable_id"] == d),
+            label=r.get("label", ""), basis=r.get("basis", "")))
+    specialist = [d for d in ids if d in seen and any(x.startswith("specialist:") for x in pc4.split_ids(seen[d]["reviewer_roles"]))]
+    # boundary (current cycle excluded for determinism; full scan in VERIFICATION)
+    here = os.path.relpath(os.path.abspath(cycle_dir), ROOT)
+    bnd = pc4.boundary_scan(suite, ROOT, cfg["boundary_window"], exclude=(here + os.sep,))
+    out = outdir or os.path.join(cycle_dir, f"iter-{it}")
+    data = os.path.join(out, "data"); os.makedirs(data, exist_ok=True)
+    pc4.write_csv(os.path.join(data, "reconciliation.csv"), joined, list(joined[0].keys()))
+    pc4.write_csv(os.path.join(data, "waves.csv"), waves, list(waves[0].keys()))
+    pc4.write_csv(os.path.join(data, "crosswalk_04_rows.csv"),
+                  [dict(artifact=a, domains=" ".join(t)) for a, t in xw], ["artifact", "domains"])
+    ht_counts = {}
+    for v in eff_types.values():
+        ht_counts[v] = ht_counts.get(v, 0) + 1
+    metrics = dict(domain_rows_ok=rows_ok, problems=problems, anchors_unresolved=anchors_bad,
+        duplicate_homes=sorted(f"{h}: {' '.join(ds)}" for h, ds in dup_homes.items()),
+        id_collisions=collisions, b9_calculated=b9_calc, b9_work_queue=b9_wq,
+        b9_symmetric_difference=b9_sd, crosswalk_rows=len(xw),
+        wave_mismatches=mism, expected_mismatches_missing=exp_missing,
+        audit_items=len(aud), audit_unmapped=unm,
+        audit_open_items=sum(1 for a in aud if a["decision"] != "PASS"),
+        domains_with_open_audit_items=[d for d in ids if open_by[d]],
+        home_rule=rule, home_type_counts=dict(sorted(ht_counts.items())),
+        competing_sources_under_rule=competing,
+        specialist_role_domains=specialist,
+        domains_without_tog6=[d for d in ids if not t24[d]],
+        domains_without_audit_item=[d for d in ids if not all_by[d]],
+        boundary_overlaps=bnd)
+    checks = []
+    for c in cfg["checks"]:
+        if c.get("iterations") and it not in c["iterations"]:
+            continue
+        v = metrics
+        for p in c["metric"].split("."):
+            v = v[p]
+        if isinstance(v, (list, dict)):
+            v = len(v)
+        ok = {"eq": v == c["threshold"], "le": v <= c["threshold"], "ge": v >= c["threshold"]}[c["op"]]
+        checks.append(dict(id=c["id"], hypothesis=c["hypothesis"], metric=c["metric"], op=c["op"],
+                           threshold=c["threshold"], value=v, result="PASS" if ok else "FAIL"))
+    ins = {k: cfg[k] for k in ("work_queue", "domains", "audit_map", "roadmap", "pc4_coverage", "pc4_tog24")}
+    rec = dict(track="PC-1 Program Charter and Master Register Reconciliation", cycle=cfg["cycle"], iteration=it,
+               variant=icfg, inputs={k: dict(path=v, sha256=pc4.sha256(P(v))) for k, v in ins.items()},
+               suite="GAIA Totality Suite v0.1.0 (owner-provided, Proposed, not adopted; external, not filed)",
+               register_sha256=pc4.REG_SHA, metrics=metrics, checks=checks,
+               outputs={f"data/{n}": pc4.sha256(os.path.join(data, n)) for n in sorted(os.listdir(data))})
+    with open(os.path.join(out, "EXECUTION_RECORD.json"), "w", encoding="utf-8") as f:
+        json.dump(rec, f, indent=2, ensure_ascii=False); f.write("\n")
+    return rec
+
+def verify(cycle_dir):
+    cfg = json.load(open(os.path.join(cycle_dir, "config.json")))
+    res = []
+    for it in sorted(cfg["iterations"], key=int):
+        tmp = tempfile.mkdtemp()
+        try:
+            rec = run(cycle_dir, int(it), outdir=tmp)
+            orig = json.load(open(os.path.join(cycle_dir, f"iter-{it}", "EXECUTION_RECORD.json")))
+            res.append((int(it), rec == orig))
+        finally:
+            shutil.rmtree(tmp)
+    return res
+
+def render(cycle_dir, it):
+    rec = json.load(open(os.path.join(cycle_dir, f"iter-{it}", "EXECUTION_RECORD.json")))
+    m = rec["metrics"]; sh = lambda x: x.replace("GAIA-TOT-", "")
+    rows = list(csv.DictReader(open(os.path.join(cycle_dir, f"iter-{it}", "data", "reconciliation.csv"), encoding="utf-8")))
+    L = [f"_Generated by `tools/pc1.py render` from iter-{it} (home rule `{m['home_rule']}`)._\n",
+         "### Pre-registered checks\n\n| ID | Hypothesis | Value | Test | Result |\n|---|---|---|---|---|"]
+    for c in rec["checks"]:
+        L.append(f"| {c['id']} | {c['hypothesis']} | {c['value']} | {c['op']} {c['threshold']} | **{c['result']}** |")
+    L.append(f"\n### Gap b9\n\nRecomputed from the suite's crosswalk ({m['crosswalk_rows']} rows naming domains): {len(m['b9_calculated'])} domains in no specific row: " + ", ".join(sh(x) for x in m["b9_calculated"]) + f". Work Queue b9 lists {len(m['b9_work_queue'])}; difference: " + (", ".join(sh(x) for x in m["b9_symmetric_difference"]) or "none") + ".")
+    L.append("\n### Wave / priority mismatches\n\n| Domain | Priority | Implied wave | Roadmap wave |\n|---|---|---|---|")
+    for r in rows:
+        if r["roadmap_wave"] != r["implied_wave"]:
+            L.append(f"| {sh(r['stable_id'])} {r['title']} | {r['priority']} | {r['implied_wave']} | {r['roadmap_wave']} |")
+    L.append(f"\n### Summary\n\n- Home types: {m['home_type_counts']}\n- Audit v2: {m['audit_items']} items, {m['audit_open_items']} not PASS; domains with an open item: {len(m['domains_with_open_audit_items'])}; domains with no audit item: {len(m['domains_without_audit_item'])} ({', '.join(sh(x) for x in m['domains_without_audit_item'])})\n- Domains needing a reviewer qualification ToG §7.1 does not name: {len(m['specialist_role_domains'])} ({', '.join(sh(x) for x in m['specialist_role_domains'])})\n- Domains reached by no ToG §6 domain: {', '.join(sh(x) for x in m['domains_without_tog6']) or 'none'}")
+    L.append("\n### Proposed register (proposals; Wave 0 approval is the owner's alone)\n\n| Domain | Pri. | Doc ID | Home | Owner | Reviewer roles | UR (laws) | ToG §6 | Audit (open) | PC-4 primary reports | Label |\n|---|---|---|---|---|---|---|---|---|---|---|")
+    for r in rows:
+        L.append(f"| {sh(r['stable_id'])} {r['title']} | {r['priority']} | {r['doc_id']} | {r['home_type']}: `{r['canonical_home']}` | {r['owner'].split(' (')[0]} | {r['reviewer_roles']} | {r['ur_domains']} ({r['ur_laws']}) | {r['tog6'].replace('ToG6-', '')} | {r['audit_open'] or '—'} | {r['pc4_primary_reports'] or '—'} | {r['label']} |")
+    return "\n".join(L) + "\n"
+
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser(); sp = ap.add_subparsers(dest="cmd", required=True)
+    a = sp.add_parser("run"); a.add_argument("--cycle", required=True); a.add_argument("--iter", type=int, required=True)
+    b = sp.add_parser("verify"); b.add_argument("--cycle", required=True)
+    c = sp.add_parser("boundary"); c.add_argument("--window", type=int, default=80)
+    e = sp.add_parser("render"); e.add_argument("--cycle", required=True); e.add_argument("--iter", type=int, required=True); e.add_argument("--out", required=True)
+    g = ap.parse_args()
+    if g.cmd == "run":
+        rec = run(g.cycle, g.iter)
+        for c_ in rec["checks"]:
+            print(c_["id"], c_["result"], c_["value"])
+        for k in ("problems", "anchors_unresolved", "duplicate_homes", "id_collisions", "b9_symmetric_difference", "audit_unmapped", "boundary_overlaps"):
+            if rec["metrics"][k]:
+                print(k, rec["metrics"][k])
+    elif g.cmd == "verify":
+        ok = True
+        for it, same in verify(g.cycle):
+            print(f"iter-{it}: record identical={same}"); ok &= same
+        sys.exit(0 if ok else 1)
+    elif g.cmd == "boundary":
+        hits = pc4.boundary_scan(os.environ.get("PC4_SUITE", "/workspace/coord/zip/gaia_totality_suite_v0_1"), ROOT, g.window)
+        print(f"files sharing a {g.window}-character window with the suite: {len(hits)}", *hits, sep="\n  ")
+        sys.exit(1 if hits else 0)
+    else:
+        open(g.out, "w", encoding="utf-8").write(render(g.cycle, g.iter))
