@@ -1,0 +1,7 @@
+pair,shared_factors,only_first,only_second,jaccard,shared_factor_ids,shared_sources,cross_citations,connection_links
+SOUL-SPIRIT,6,4,1,0.545,F01;F02;F03;F04;F06;F12,1,1,6
+SOUL-SUBC,7,3,3,0.538,F01;F02;F03;F04;F05;F09;F11,1,0,3
+SOUL-CONS,7,3,2,0.583,F01;F02;F04;F05;F06;F09;F11,1,1,5
+SPIRIT-SUBC,5,2,5,0.417,F01;F02;F03;F04;F10,1,0,2
+SPIRIT-CONS,5,2,4,0.455,F01;F02;F04;F06;F10,1,0,4
+SUBC-CONS,8,2,1,0.727,F01;F02;F04;F05;F08;F09;F10;F11,4,1,8
