@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-TR-FOR-D",
+ "iteration": 4,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T01:29:26.467541+00:00",
+ "finished_utc": "2026-10-25T01:29:34.591882+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_for.py iter-4  (run from Formal-Sciences/simulation/)",
+ "spec_sha256": "9fecb1f2fbfaefc5d2ad14b83a23782e9c1cd4826a428c2128f46b8f698fbf2f",
+ "params_sha256": "40d2f92584929238e2fbe2c764a3428d9a0e87c03450f9164bb09f5be1a28736",
+ "results_sha256": "101edbc04126fa7ec3db8a6c3e638ea8e8db2aad1218ddf4f5ed1b2f33aab8cd",
+ "results": {
+  "by_number": {
+   "prop3": {
+    "max_ratio": 122.03225806,
+    "max_excess": 7504,
+    "argmax_excess": 62,
+    "head": [
+     2,
+     6,
+     6,
+     6,
+     6,
+     62,
+     62,
+     62,
+     62,
+     62
+    ]
+   }
+  },
+  "base": 4,
+  "digits": 400
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "Machin's formula in integer arithmetic gives pi = 3.14159265358979...",
+   "observed": "314159265358979",
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "TRC reading (lookahead tracks closeness to base-b fractions): prop3 in base 4 reaches d_n/n = 5",
+   "observed": {
+    "by_number": {
+     "prop3": {
+      "max_ratio": 122.03225806,
+      "max_excess": 7504,
+      "argmax_excess": 62,
+      "head": [
+       2,
+       6,
+       6,
+       6,
+       6,
+       62,
+       62,
+       62,
+       62,
+       62
+      ]
+     }
+    },
+    "base": 4,
+    "digits": 400
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "by_number": {
+     "prop3": {
+      "max_ratio": 122.03225806,
+      "max_excess": 7504,
+      "argmax_excess": 62,
+      "head": [
+       2,
+       6,
+       6,
+       6,
+       6,
+       62,
+       62,
+       62,
+       62,
+       62
+      ]
+     }
+    },
+    "base": 4,
+    "digits": 400
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
