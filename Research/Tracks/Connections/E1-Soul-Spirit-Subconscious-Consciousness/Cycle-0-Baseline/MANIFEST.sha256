@@ -10,4 +10,3 @@ ccd9446b13a89156f4713b67bc1ae0a542923b6b66c9242ef181a49e56d91e24  iter-1/data/pa
 517ff5ac2771d554abaef99edcbd2007a70919bcfdf1cd2d3b3dc96776c79f5e  ../judgments/claims_c0.csv
 4dc3046b63bbf026b01092448f4653bfc7d9646013efed35d69ea94633a9c7c9  ../judgments/factors_c0.csv
 234acab4083a92d588c5b94acf03a2ea94a676ac140e1f50ba329b0c10a01ae4  ../judgments/links_c0.csv
-758244e673e394f3dd8a14142db2a381b79b5dd72ce9bbd5bc7a87769b7704e1  ../tools/conn.py
