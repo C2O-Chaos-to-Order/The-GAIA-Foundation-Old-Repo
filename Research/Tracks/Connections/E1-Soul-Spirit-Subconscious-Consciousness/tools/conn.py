@@ -150,6 +150,7 @@ def run(cycle_dir, it, outdir=None):
         counts = {"as_judged": True, "strict": ep, "established_only": eo,
                   "no_method": r["kind"] != "method", "no_tradition": r["kind"] != "tradition",
                   "reviewed": f"{r['factor_id']}/{r['topic']}" not in dropped}[rule]
+        if icfg.get("drop_reviewed") and f"{r['factor_id']}/{r['topic']}" in dropped: counts = False
         fac_rows.append([r["factor_id"], r["factor"], r["kind"], r["topic"], ";".join(labs), ep, counts])
     wcsv(os.path.join(data, "factor_topic.csv"), ["factor_id", "factor", "kind", "topic", "basis_labels", "has_E_or_P_basis", "counted"], fac_rows)
     inc = {}
@@ -422,6 +423,45 @@ def run(cycle_dir, it, outdir=None):
         for r in [r for r in cl if r["kind"] != "census"] + lk: used2 |= {b for b in split(r["basis"]) if b in D["mlinks"]}
         m["main_links_not_used_substantive"] = sorted(set(m["main_links_among_topics"]) - used2)
         m["problems"] = sorted(problems)
+    # 3e x12 additions: consolidated document and yield census (behind config key)
+    x12 = cfg.get("x12")
+    if x12:
+        AB = {"Established": "E", "Plausible": "P", "Philosophical/Spiritual": "PS", "Hypothetical": "H"}
+        doc = open(P(x12["document"]), encoding="utf-8").read()
+        ids_doc = set(re.findall(r"\b(CN\d+-\d\d|CL-\d\d)\b", doc))
+        ids_j = {r["claim_id"] for r in cl} | {r["link_id"] for r in lk}
+        m["document_missing_ids"] = sorted(ids_j - ids_doc)
+        m["document_unknown_ids"] = sorted(ids_doc - ids_j)
+        lm = []
+        for what, cnt in (("Claims", m["claims_by_label"]), ("Links", m["links_by_label"])):
+            want = f"{what} by label: " + ", ".join(f"{AB[l]} {cnt[l]}" for l in LABELS)
+            if want not in doc: lm.append(f"{what}: expected '{want}'")
+        labj = {**{r["claim_id"]: AB[r["framework_label"]] for r in cl}, **{r["link_id"]: AB[r["framework_label"]] for r in lk}}
+        for mm in re.finditer(r"^\| (CN\d+-\d\d|CL-\d\d) \| (E|P|PS|H) \|", doc, re.M):
+            if labj.get(mm.group(1)) != mm.group(2): lm.append(f"{mm.group(1)}: document says {mm.group(2)}, judgment {labj.get(mm.group(1))}")
+        rows_doc = {mm.group(1) for mm in re.finditer(r"^\| (CN\d+-\d\d|CL-\d\d) \| (E|P|PS|H) \|", doc, re.M)}
+        m["document_items_without_register_row"] = sorted(ids_j - rows_doc)
+        m["document_label_mismatches"] = sorted(lm)
+        strip = lambda r: {k: v for k, v in r.items() if k not in ("anchor", "change_vs_prev", "tradition")} if r else r
+        hist, ylds, prevs = x12["history"], {}, None
+        for h in hist:
+            cur_ = {"claims": {r["claim_id"]: r for r in csvrows(P(h["claims"]))}, "links": {r["link_id"]: r for r in csvrows(P(h["links"]))},
+                    "factors": {(r["factor_id"], r["topic"]): r for r in csvrows(P(h["factors"]))}}
+            y = {}
+            for k in ("claims", "links", "factors"):
+                A_ = prevs[k] if prevs else {}
+                y[f"{k}_new"] = len(set(cur_[k]) - set(A_))
+                y[f"{k}_changed"] = sum(1 for i in set(cur_[k]) & set(A_) if strip(cur_[k][i]) != strip(A_[i]))
+                y[f"{k}_removed"] = len(set(A_) - set(cur_[k]))
+            y["evidence_claims_new"] = sum(1 for i in set(cur_["claims"]) - set(prevs["claims"] if prevs else {})
+                                           if cur_["claims"][i]["kind"] not in ("census", "framing", "owner"))
+            ylds[h["cycle"]] = y; prevs = cur_
+        m["yield_by_cycle"] = ylds
+        order = [h["cycle"] for h in hist]; k6 = order.index(x12["yield_from"])
+        ev = [ylds[c]["evidence_claims_new"] + ylds[c]["links_new"] for c in order[k6:]]
+        m["yield_nonincreasing_from"] = int(all(a >= b for a, b in zip(ev, ev[1:])))
+        last = ylds[order[-1]]
+        m["this_cycle_new_or_changed"] = sum(v for k, v in last.items() if k != "evidence_claims_new")
     # 4 boundary scan against the Totality Suite (this report's folder, plus this run's outputs)
     W = cfg["boundary_window"]; here = os.path.abspath(cycle_dir)
     bs = pc4.boundary_scan(cfg["suite_path"], ROOT, W, exclude=(os.path.relpath(here, ROOT) + os.sep,))
