@@ -382,6 +382,8 @@ def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it,
         m["unscheduled_under_proposal"] = [d for d in ids if not prop[d].isdigit()]
         cov = {r["stable_id"]: r for r in csv.DictReader(open(P(cfg["pc4_coverage"]), encoding="utf-8"))}
         m["pc4_no_primary_report"] = [d for d in ids if not cov[d]["primary_items"]]
+        if cfg.get("decisions"):
+            m.update(x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule if cfg.get("product_rules") else {}, prods if cfg.get("product_rules") else []))
     if "wave_proposals" in cfg:
         wp = {r["stable_id"] for r in pc4.load_map(P(cfg["wave_proposals"]))}
         m["mismatches_without_proposal"] = [d for d in mism if d not in wp]
@@ -390,6 +392,83 @@ def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it,
         m["boundary_own_outputs"] = own
         m["boundary_new_overlaps"] = [h for h in list(bnd) + own if h not in cfg["boundary_known"]]
     return m
+
+def scc(nodes, edges):
+    """Tarjan, iterative-safe for 45 nodes (recursion fine)."""
+    idx, low, st, on, out, c = {}, {}, [], set(), [], [0]
+    def go(v):
+        idx[v] = low[v] = c[0]; c[0] += 1; st.append(v); on.add(v)
+        for w in edges.get(v, []):
+            if w not in idx:
+                go(w); low[v] = min(low[v], low[w])
+            elif w in on:
+                low[v] = min(low[v], idx[w])
+        if low[v] == idx[v]:
+            comp = []
+            while True:
+                w = st.pop(); on.discard(w); comp.append(w)
+                if w == v:
+                    break
+            out.append(sorted(comp))
+    for v in nodes:
+        if v not in idx:
+            go(v)
+    return sorted(out, key=lambda x: (-len(x), x))
+
+def x9_metrics(cfg, P, seen, ids, problems, deps, mism, m, icfg, rule, prods):
+    x = {}
+    tiers = {r["stable_id"]: r["scope_tier"] for r in pc4.load_map(P(cfg["tiers"]))}
+    for d, t in tiers.items():
+        if t not in ("RL-1", "RL-2", "RL-3", "RL-4", "RL-5"):
+            problems.append(f"{d}: bad tier {t}")
+    x["domains_without_tier"] = [d for d in ids if d not in tiers]
+    wdom = set()
+    if icfg.get("w_overlay_rule", True):
+        for p_ in prods:
+            if "W" in [o.strip() for o in p_["overlays"].split("+")]:
+                wdom |= set(rule.get(("kind", p_["kind"]), []))
+                for o in p_["overlays"].split("+"):
+                    wdom |= set(rule.get(("overlay", o.strip()), []))
+    need, miss = {}, []
+    for d in ids:
+        t = int(tiers.get(d, "RL-2")[-1]); r = {"auditor"}
+        if t >= 3:
+            r |= {"ethics-rights", "community-rep"}
+        if t >= 5:
+            r.add("independent")
+        if d in wdom:
+            r.add("ethics-rights")
+        need[d] = sorted(r)
+        have = set(pc4.split_ids(seen[d]["reviewer_roles"])) if d in seen else set()
+        for role in sorted(r - have):
+            miss.append(f"{d}: {role}")
+    x["required_roles_missing"] = miss
+    x["required_roles_missing_by_role"] = {k: sum(1 for z in miss if z.endswith(": " + k)) for k in ("auditor", "ethics-rights", "community-rep", "independent")}
+    x["tier_counts"] = {t: sum(1 for v in tiers.values() if v == t) for t in sorted(set(tiers.values()))}
+    x["w_governing_domains"] = sorted(wdom)
+    cc = {r["home_type"] for r in pc4.load_map(P(cfg["change_control"]))}
+    x["home_types_without_rule"] = sorted({seen[d]["home_type"] for d in seen} - cc)
+    dec = pc4.load_map(P(cfg["decisions"]))
+    covered = set()
+    for r in dec:
+        if r["gate_state"] != "INDETERMINATE":
+            problems.append(f"{r['decision_id']}: gate state must be INDETERMINATE")
+        if r["authority"] != "KyleAlexanderSteen (repository owner)":
+            problems.append(f"{r['decision_id']}: authority must be the owner")
+        covered |= set(r["covers"].split())
+    issues = [f"wave:{d}" for d in mism] + [f"ur:{z.split(' ')[0]}" for z in m.get("ur_domain_inconsistent", [])] \
+        + [f"remedy:{z.split(':')[0]}" for z in m.get("open_remedy_mismatch", [])] + [f"notext:{d}" for d in m.get("domains_without_direct_anchor", [])] \
+        + [f"b9:{d}" for d in m.get("b9_calculated", [])] + ["b16", "reviewers", "cycles", "wave0"]
+    x["open_issues"] = len(issues)
+    x["open_issues_without_decision"] = [i for i in issues if i not in covered]
+    x["decisions"] = len(dec)
+    comps = scc(ids, deps)
+    cyc = [c for c in comps if len(c) > 1]
+    x["cyclic_components"] = [" ".join(c) for c in cyc]
+    x["largest_component"] = len(comps[0]) if comps else 0
+    x["intra_component_edges"] = sum(1 for d in ids for y in deps[d] if any(d in c and y in c for c in cyc))
+    x["acyclic_domains"] = [d for d in ids if not any(d in c for c in cyc)]
+    return x
 
 def verify(cycle_dir):
     cfg = json.load(open(os.path.join(cycle_dir, "config.json")))
@@ -455,7 +534,8 @@ if __name__ == "__main__":
         for k in ("problems", "anchors_unresolved", "duplicate_homes", "id_collisions", "b9_symmetric_difference", "audit_unmapped", "boundary_overlaps",
                   "prior_anchors_unreviewed", "anchors_unsupported", "domains_without_direct_anchor", "open_remedy_mismatch",
                   "authority_unclassified", "mismatches_without_proposal", "boundary_new_overlaps",
-                  "ur_criteria_unmapped", "ur_domain_inconsistent", "tog19_unassigned", "products_ungoverned", "open_remedy_unexplained", "draft_only_domains"):
+                  "ur_criteria_unmapped", "ur_domain_inconsistent", "tog19_unassigned", "products_ungoverned", "open_remedy_unexplained", "draft_only_domains",
+                  "domains_without_tier", "required_roles_missing_by_role", "home_types_without_rule", "open_issues_without_decision", "largest_component", "acyclic_domains"):
             if rec["metrics"].get(k):
                 print(k, rec["metrics"][k])
     elif g.cmd == "verify":
