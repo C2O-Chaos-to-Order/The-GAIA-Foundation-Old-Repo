@@ -1,0 +1,115 @@
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 2,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:01:37.825755+00:00",
+ "finished_utc": "2026-10-25T00:01:38.538449+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_soc.py iter-2  (run from Social-Sciences/simulation/)",
+ "spec_sha256": "4bdb1d2600311832f114a0be6d3b0922a7564dfb3b603bb4980701804f5957c1",
+ "params_sha256": "078426b1395ac38f77266add725e760b3c3331eaea009990b59b63719eb6f799",
+ "results_sha256": "528042ae2c2d856e1f2c85144e9b85abb49b32a6c6d24b966615d56a169df1d3",
+ "results": {
+  "cells": {
+   "rho0.17_up0.0": {
+    "rank_corr": 0.1636,
+    "up": 0.4147,
+    "down": 0.4115,
+    "stay": 0.1738
+   },
+   "rho0.27_up0.0": {
+    "rank_corr": 0.2581,
+    "up": 0.403,
+    "down": 0.4046,
+    "stay": 0.1924
+   },
+   "rho0.32_up0.0": {
+    "rank_corr": 0.3089,
+    "up": 0.3984,
+    "down": 0.399,
+    "stay": 0.2026
+   }
+  },
+  "n": 200000,
+  "K": 70,
+  "thr": 7.5
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "independent latent statuses give |rank correlation| < 0.01 (n 200,000)",
+   "observed": true,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "rank-rank correlation of 70 equal occupations within 0.01 of (6/pi) asin(rho/2) (0.1625, 0.2586, 0.3069)",
+   "observed": {
+    "cells": {
+     "rho0.17_up0.0": {
+      "rank_corr": 0.1636,
+      "up": 0.4147,
+      "down": 0.4115,
+      "stay": 0.1738
+     },
+     "rho0.27_up0.0": {
+      "rank_corr": 0.2581,
+      "up": 0.403,
+      "down": 0.4046,
+      "stay": 0.1924
+     },
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3089,
+      "up": 0.3984,
+      "down": 0.399,
+      "stay": 0.2026
+     }
+    }
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "cells": {
+     "rho0.17_up0.0": {
+      "rank_corr": 0.1636,
+      "up": 0.4147,
+      "down": 0.4115,
+      "stay": 0.1738
+     },
+     "rho0.27_up0.0": {
+      "rank_corr": 0.2581,
+      "up": 0.403,
+      "down": 0.4046,
+      "stay": 0.1924
+     },
+     "rho0.32_up0.0": {
+      "rank_corr": 0.3089,
+      "up": 0.3984,
+      "down": 0.399,
+      "stay": 0.2026
+     }
+    }
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}

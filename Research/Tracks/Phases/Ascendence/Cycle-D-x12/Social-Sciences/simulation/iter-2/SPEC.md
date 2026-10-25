@@ -1,0 +1,52 @@
+# SIM-AS-SOC-D - iteration 2 SPEC
+
+Written before execution. The parameters are the JSON block below (hashed as `params_sha256` in EXECUTION_RECORD.json; this file's bytes as `spec_sha256`).
+
+## Purpose
+Rank toy: rank correlation vs (6/pi) asin(rho/2)
+
+## Phase operationalization tested
+SOC Ascendence = upward and total intergenerational mobility (P87; P93 for women's educational mobility). ASD adds P96's US rank-based relative and absolute mobility.
+
+## Sources this run draws on
+P96 (Song, Massey, Rolf, Ferrie, Rothbaum & Xie 2020, 'Long-term decline in intergenerational mobility in the United States since the 1850s', PNAS 117:251-258, PMC6955340, CC BY-NC-ND; read in full in ASD, SI Appendix not read): father-son occupational rank-rank correlations rising from about 0.17 (1830 cohort) to 0.27 (1900) and 0.32 (1980); absolute upward mobility (>= 7.5 points on a 0-100 rank scale of 70 occupations) rising before 1900 and falling after 1940; the role of the farm-to-factory shift.
+
+## Refinement from previous iteration
+First iteration of this run family in this cycle.
+
+## Pre-registered checks
+| id | kind | expectation |
+|---|---|---|
+| V1 | validation | independent latent statuses give |rank correlation| < 0.01 |
+| H1 | hypothesis | rank-rank correlation of 70 equal occupations within 0.01 of (6/pi) asin(rho/2) (0.1625, 0.2586, 0.3069) |
+| R1 | reporting | values |
+
+Kinds: *validation* = code/analytic correctness (must Pass); *hypothesis* = substantive test that may go either way (Supported / Not supported; 'Not supported' is a finding, not an error); *reporting* = value recorded.
+
+## Limits
+Agent's toy. Statistical tolerance (owner standard, set before running): Monte Carlo validation checks use a band of 4 standard errors computed from the run itself; deterministic checks use explicit numerical bounds. Smoke test (seed 99, temporary directory, before this SPEC) used this exact configuration, so the outcome was seen in advance (disclosed); hypotheses and thresholds were written before the smoke test and not changed after it.
+
+## Parameters
+```json
+{
+ "sim_id": "SIM-AS-SOC-D",
+ "iteration": 2,
+ "kind": "rank_mobility",
+ "seed": 38302,
+ "n": 200000,
+ "rho_values": [
+  0.17,
+  0.27,
+  0.32
+ ],
+ "hyps": [
+  [
+   "rank-rank correlation of 70 equal occupations within 0.01 of (6/pi) asin(rho/2) (0.1625, 0.2586, 0.3069)",
+   "all(abs(o['cells'][k]['rank_corr'] - v) <= 0.01 for k, v in [('rho0.17_up0.0', 0.1625), ('rho0.27_up0.0', 0.2586), ('rho0.32_up0.0', 0.3069)])"
+  ]
+ ]
+}
+```
+
+## Command
+`python sim_soc.py iter-2` (run from `Social-Sciences/simulation/`)
