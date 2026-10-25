@@ -1,0 +1,91 @@
+{
+ "sim_id": "SIM-TR-PHI-B",
+ "iteration": 5,
+ "status": "executed",
+ "layout": "track run layout (data model 1.4.0)",
+ "started_utc": "2026-10-25T00:59:19.745968+00:00",
+ "finished_utc": "2026-10-25T00:59:19.862110+00:00",
+ "environment": {
+  "python": "3.13.5",
+  "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1"
+ },
+ "command": "python sim_phi.py iter-5  (run from Philosophy-Spirituality/simulation/)",
+ "spec_sha256": "d3196ae9f8d914df042066b7ca3c3d0f8aa7158889ccf6c3436e87fd995f170a",
+ "params_sha256": "c73540add3877938a8d1df20b1167faba999965e4edb3bc8627137d50f265ee2",
+ "results_sha256": "c21c427c57a627c1952dabc88c79925ab2c08f471411419d6016aa80846c8337",
+ "results": {
+  "scenarios": {
+   "essentialist": {
+    "0.0": 0.1112,
+    "0.4": 0.1316,
+    "0.8": 0.1519
+   },
+   "essentialist_thick": {
+    "0.0": 0.0712,
+    "0.4": 0.0866,
+    "0.8": 0.1042
+   }
+  },
+  "V1_identical": 1.0
+ },
+ "pre_registered_checks": [
+  {
+   "id": "V1",
+   "kind": "validation",
+   "expect": "w = 1, no noise, no scheme, no overlay: cross-tradition report correlation = 1 within 1e-9",
+   "observed": 1.0,
+   "result": "Pass"
+  },
+  {
+   "id": "H1",
+   "kind": "hypothesis",
+   "expect": "a lighter overlay (lam 0.5) gives higher agreement than lam 1 at d 0",
+   "observed": {
+    "scenarios": {
+     "essentialist": {
+      "0.0": 0.1112,
+      "0.4": 0.1316,
+      "0.8": 0.1519
+     },
+     "essentialist_thick": {
+      "0.0": 0.0712,
+      "0.4": 0.0866,
+      "0.8": 0.1042
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Supported"
+  },
+  {
+   "id": "R1",
+   "kind": "reporting",
+   "expect": "values",
+   "observed": {
+    "scenarios": {
+     "essentialist": {
+      "0.0": 0.1112,
+      "0.4": 0.1316,
+      "0.8": 0.1519
+     },
+     "essentialist_thick": {
+      "0.0": 0.0712,
+      "0.4": 0.0866,
+      "0.8": 0.1042
+     }
+    },
+    "V1_identical": 1.0
+   },
+   "result": "Reported"
+  }
+ ],
+ "n_checks": 3,
+ "n_validation": 1,
+ "n_validation_pass": 1,
+ "n_hypothesis": 1,
+ "n_supported": 1,
+ "n_reporting": 1,
+ "all_validation_passed": true
+}
