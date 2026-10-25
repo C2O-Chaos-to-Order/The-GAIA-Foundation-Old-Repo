@@ -11,7 +11,7 @@ Commands:
   verify     --cycle DIR                   (reruns every iteration in a temp dir)
 Standard library only.
 """
-import argparse, csv, hashlib, io, json, math, os, re, shutil, sys, tempfile
+import argparse, csv, hashlib, io, json, math, os, random, re, shutil, sys, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)                      # PC-4 folder
@@ -543,6 +543,71 @@ def run(cycle_dir, it, outdir=None):
             sens["with_nonreport_work"] = metrics["domains_no_work_any"]
         metrics["sensitivity_no_report_counts"] = {k: len(v) for k, v in sens.items()}
         metrics["sensitivity_no_report"] = sens
+    if cfg.get("baseline_map"):
+        bm = {r["item_id"]: r["primary"] for r in load_map(os.path.normpath(os.path.join(cycle_dir, cfg["baseline_map"])))}
+        ch = [f"{i['item_id']}: {bm.get(i['item_id'])} -> {jmap[i['item_id']]['primary']}"
+              for i in reports if i["item_id"] in jmap and bm.get(i["item_id"]) != jmap[i["item_id"]]["primary"]]
+        metrics["primaries_changed_since_baseline"] = ch
+        metrics["clusters_failed"] = len(cl_rows) - clusters_ok
+        reg_pri = {r["stable_id"]: r["priority"] for r in reg}
+        byp = {}
+        for d in no_report_primary:
+            byp.setdefault(reg_pri[d], []).append(d)
+        metrics["no_primary_by_priority"] = {k: byp[k] for k in sorted(byp)}
+        fills = {}
+        for i in items:
+            if i["kind"] in set(cfg.get("candidate_kinds", [])) and i["item_id"] in jmap:
+                pd = jmap[i["item_id"]]["primary"]
+                if pd in no_report_primary:
+                    fills.setdefault(pd, []).append(i["item_id"])
+        metrics["candidate_fills_primary"] = {k: fills[k] for k in sorted(fills)}
+    if icfg.get("permutations"):
+        rng = random.Random(icfg.get("seed", 0))
+        prims = [jmap[i["item_id"]]["primary"] for i in mitems]
+        tops = [[d for sc_, d in ranks[i["item_id"]][:k] if sc_ > 0] for i in mitems]
+        obs = sum(p in t for p, t in zip(prims, tops))
+        null = []
+        for _ in range(icfg["permutations"]):
+            sh_ = prims[:]
+            rng.shuffle(sh_)
+            null.append(sum(p in t for p, t in zip(sh_, tops)))
+        mu = sum(null) / len(null)
+        metrics["perm_null_mean_rate"] = round(mu / n, 4)
+        metrics["perm_null_max_rate"] = round(max(null) / n, 4)
+        metrics["perm_p"] = round((sum(x >= obs for x in null) + 1) / (len(null) + 1), 4)
+    if cfg.get("per_section"):
+        sec_r = {}
+        for r in rows_m:
+            sct = byid[r["item_id"]]["section"]
+            b = sec_r.setdefault(sct, [0, 0]); b[0] += r["hitk"]; b[1] += 1
+        metrics["topk_by_section"] = {k: [a, b, round(a / b, 4)] for k, (a, b) in sorted(sec_r.items())}
+    if cfg.get("similarity_scan"):
+        sc_cfg = cfg["similarity_scan"]
+        def clean(t):
+            return t.split("Sources:")[0] if sc_cfg.get("strip_sources") else t
+        rep = [i for i in reports if i["item_id"] in jmap]
+        docs_i = {i["item_id"]: clean(i["text"]) for i in rep}
+        rk_ = tfidf_rank([dict(item_id=i["item_id"], text=docs_i[i["item_id"]]) for i in rep], docs_i)
+        same = set()
+        if cpath:
+            for c in load_map(os.path.normpath(os.path.join(cycle_dir, cpath))):
+                mem = split_ids(c["members"])
+                for a_ in mem:
+                    for b_ in mem:
+                        same.add((a_, b_))
+        pairs, seen = [], set()
+        for a_ in sorted(rk_):
+            for scv, b_ in rk_[a_]:
+                if b_ == a_ or scv < sc_cfg["threshold"]:
+                    continue
+                key = tuple(sorted((a_, b_)))
+                if key in seen:
+                    continue
+                seen.add(key)
+                pairs.append(dict(a=key[0], b=key[1], cosine=scv, clustered=int(key in same)))
+        pairs.sort(key=lambda x: (-x["cosine"], x["a"], x["b"]))
+        metrics["similar_pairs"] = pairs
+        metrics["similar_pairs_unclustered"] = [f"{x['a']}~{x['b']} {x['cosine']}" for x in pairs if not x["clustered"]]
     if cfg.get("queue_named_checks"):
         metrics["queue_named_missing"] = qn_missing
         metrics["queue_named_not_primary"] = qn_not_primary
@@ -630,6 +695,12 @@ def render(cycle_dir, it):
         L.append("\n### Sensitivity: number of domains with no report under each counting rule\n\n| Rule | Domains with no report |\n|---|---|")
         for k, v in m["sensitivity_no_report_counts"].items():
             L.append(f"| {k} | {v} |")
+    if "perm_p" in m:
+        L.append(f"\nChance baseline ({rec['variant'].get('permutations')} permutations): null mean {m['perm_null_mean_rate']}, null max {m['perm_null_max_rate']}, p = {m['perm_p']}.")
+    if "similar_pairs" in m:
+        L.append("\n### Similar report pairs (cosine ≥ threshold)\n\n| A | B | Cosine | Already clustered |\n|---|---|---|---|")
+        for x in m["similar_pairs"]:
+            L.append(f"| {x['a']} | {x['b']} | {x['cosine']} | {'yes' if x['clustered'] else 'no'} |")
     if m.get("queue_named_not_primary"):
         L.append("\n### Tensions: the queue names a domain that is not the judged primary\n")
         for x in m["queue_named_not_primary"]:
