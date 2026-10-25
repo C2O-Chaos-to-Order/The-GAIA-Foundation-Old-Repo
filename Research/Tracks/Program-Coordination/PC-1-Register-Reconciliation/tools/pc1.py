@@ -168,12 +168,16 @@ def run(cycle_dir, it, outdir=None):
         for d in [r["primary"]] + pc4.split_ids(r["secondary"]):
             t24[d].append(r["tog_id"])
     # joined table
+    def title_of(d):
+        if cfg.get("title_style") == "short":
+            return re.sub(r"^GAIA-TOT-\d+-", "", os.path.basename(reg_by[d]["filename"])).replace(".md", "")
+        return reg_by[d]["title"].split(":", 1)[-1].strip()
     joined = []
     for d in ids:
         r = seen.get(d, {})
         urs = pc4.split_ids(r.get("ur_domains", ""))
         lw = sorted({l for u in urs for l in (range(1, 8) if u == "ALL" else laws.get(u, []))})
-        joined.append(dict(stable_id=d, title=reg_by[d]["title"].split(":", 1)[-1].strip(),
+        joined.append(dict(stable_id=d, title=title_of(d),
             priority=reg_by[d]["priority"], doc_id=r.get("doc_id", ""), home_type=r.get("home_type", ""),
             effective_home_type=eff_types.get(d, ""), canonical_home=r.get("canonical_home", ""),
             owner=r.get("owner", ""), reviewer_roles=r.get("reviewer_roles", ""),
@@ -210,6 +214,7 @@ def run(cycle_dir, it, outdir=None):
         domains_without_tog6=[d for d in ids if not t24[d]],
         domains_without_audit_item=[d for d in ids if not all_by[d]],
         boundary_overlaps=bnd)
+    metrics.update(extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd))
     checks = []
     for c in cfg["checks"]:
         if c.get("iterations") and it not in c["iterations"]:
@@ -231,6 +236,79 @@ def run(cycle_dir, it, outdir=None):
     with open(os.path.join(out, "EXECUTION_RECORD.json"), "w", encoding="utf-8") as f:
         json.dump(rec, f, indent=2, ensure_ascii=False); f.write("\n")
     return rec
+
+def _anchors(r):
+    return [x.strip() for x in r["anchors"].split(";") if x.strip()]
+
+def extra_metrics(cfg, P, repo, seen, ids, aud, mism, problems, suite, data, it, bnd):
+    """x3+ metrics; added only when the cycle config names their inputs (earlier records unchanged)."""
+    m = {}
+    if "anchor_review" in cfg:
+        rv = {(r["stable_id"], r["anchor"].strip()): r["support"] for r in pc4.load_map(P(cfg["anchor_review"]))}
+        for k, v in rv.items():
+            if v not in ("direct", "partial", "none"):
+                problems.append(f"{k[0]}: bad support value {v}")
+        prior = pc4.load_map(P(cfg["prior_domains"]))
+        m["prior_anchors_unreviewed"] = [f"{r['stable_id']}: {a}" for r in prior for a in _anchors(r) if (r["stable_id"], a) not in rv]
+        m["anchors_unsupported"] = [f"{d}: {a}" for d in ids if d in seen for a in _anchors(seen[d]) if rv.get((d, a), "none") == "none"]
+        m["domains_without_direct_anchor"] = [d for d in ids if d in seen and not any(rv.get((d, a)) == "direct" for a in _anchors(seen[d]))]
+        m["anchor_support_counts"] = {k: sum(1 for d in ids if d in seen for a in _anchors(seen[d]) if rv.get((d, a)) == k) for k in ("direct", "partial", "none")}
+        m["anchors_replaced"] = sorted(f"{r['stable_id']}: {a}" for r in prior for a in _anchors(r) if r["stable_id"] in seen and a not in _anchors(seen[r["stable_id"]]))
+    am = pc4.load_map(P(cfg["audit_map"]))
+    if am and "primary" in am[0]:
+        dec = {a["id"]: a["decision"] for a in aud}
+        home = {d: seen[d]["canonical_home"] for d in seen}
+        mis = []
+        for r in am:
+            pr = pc4.split_ids(r["primary"])
+            if len(pr) != 1 or pr[0] not in home:
+                problems.append(f"audit {r['audit_id']}: needs exactly one known primary domain")
+                continue
+            if pr[0] not in pc4.split_ids(r["domains"]):
+                problems.append(f"audit {r['audit_id']}: primary not in domains")
+            if dec.get(r["audit_id"]) != "PASS":
+                if r["remedy_home"] != home[pr[0]]:
+                    mis.append(f"{r['audit_id']}: {r['remedy_home'] or '(none)'} vs {home[pr[0]]}")
+            elif r["remedy_home"]:
+                problems.append(f"audit {r['audit_id']}: PASS item has a remedy home")
+        m["open_remedy_mismatch"] = mis
+        prim = {}
+        for r in am:
+            prim.setdefault(r["primary"], []).append(r["audit_id"])
+        m["primary_audit_load"] = {d: len(v) for d, v in sorted(prim.items())}
+    if "authority" in cfg:
+        RELS = {"parent", "companion", "subordinate", "evidence", "superseded-on-approval"}
+        au = {}
+        for r in pc4.load_map(P(cfg["authority"])):
+            if r["relation"] not in RELS:
+                problems.append(f"{r['stable_id']}: bad relation {r['relation']}")
+            au[(r["stable_id"], r["source"])] = r["relation"]
+        unc = []
+        for d in ids:
+            if d not in seen:
+                continue
+            for a in _anchors(seen[d]):
+                f = a.partition("#")[0]
+                if f != seen[d]["canonical_home"] and (d, f) not in au:
+                    unc.append(f"{d}: {f}")
+        m["authority_unclassified"] = sorted(set(unc))
+        cnt = {}
+        for v in au.values():
+            cnt[v] = cnt.get(v, 0) + 1
+        m["authority_relation_counts"] = dict(sorted(cnt.items()))
+        par = {}
+        for (d, f), v in au.items():
+            if v == "parent":
+                par.setdefault(f, []).append(d)
+        m["parent_sources"] = {f: len(v) for f, v in sorted(par.items())}
+    if "wave_proposals" in cfg:
+        wp = {r["stable_id"] for r in pc4.load_map(P(cfg["wave_proposals"]))}
+        m["mismatches_without_proposal"] = [d for d in mism if d not in wp]
+    if "boundary_known" in cfg:
+        own = [f"iter-{it}/data/{h}" for h in pc4.boundary_scan(suite, data, cfg["boundary_window"])]
+        m["boundary_own_outputs"] = own
+        m["boundary_new_overlaps"] = [h for h in list(bnd) + own if h not in cfg["boundary_known"]]
+    return m
 
 def verify(cycle_dir):
     cfg = json.load(open(os.path.join(cycle_dir, "config.json")))
@@ -275,8 +353,10 @@ if __name__ == "__main__":
         rec = run(g.cycle, g.iter)
         for c_ in rec["checks"]:
             print(c_["id"], c_["result"], c_["value"])
-        for k in ("problems", "anchors_unresolved", "duplicate_homes", "id_collisions", "b9_symmetric_difference", "audit_unmapped", "boundary_overlaps"):
-            if rec["metrics"][k]:
+        for k in ("problems", "anchors_unresolved", "duplicate_homes", "id_collisions", "b9_symmetric_difference", "audit_unmapped", "boundary_overlaps",
+                  "prior_anchors_unreviewed", "anchors_unsupported", "domains_without_direct_anchor", "open_remedy_mismatch",
+                  "authority_unclassified", "mismatches_without_proposal", "boundary_new_overlaps"):
+            if rec["metrics"].get(k):
                 print(k, rec["metrics"][k])
     elif g.cmd == "verify":
         ok = True
