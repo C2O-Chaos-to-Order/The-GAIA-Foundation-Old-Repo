@@ -7,7 +7,7 @@
 **Status:** Governing research plan. Does not claim that the seven reports or the simulation have been completed. The Matrix Hypothesis formalization and Totality Multiplication Protocol are specifications; their presence does not mark research or simulation as executed.  
 **Date:** 2026-10-23
 
-This file is the research-plan extension. It is to be followed together with `Research/README.md`. Neither file authorizes reconstruction of missing original reports or assertion of conclusions beyond available evidence.
+This file is the governing seven-report research-plan extension. It is to be followed together with `Research/README.md`. The proposed post-Earth Primary Elements ×5 → Secondary Elements ×10 → Tertiary Elements ×15 sequence is documented separately in [Research Plan Secondary Extension](RESEARCH_PLAN_SECONDARY_EXTENSION.md); that proposal does not change this plan's seven-report scope or authorize starting the later track before its readiness gate. Neither file authorizes reconstruction of missing original reports or assertion of conclusions beyond available evidence.
 
 ---
 
