@@ -197,9 +197,9 @@ Later pattern (semantics unresolved; preserve the source variants):
 
 Owner-specified transcription for this formalization:
 
-\\[\\mathcal M_0=(0,1,2,3,0)\\times(1,3,5,7,0)\\times(3,6,9,12,0)\\times(1)\\times(O)\\]
+\[\mathcal M_0=(0,1,2,3,0)\times(1,3,5,7,0)\times(3,6,9,12,0)\times(1)\times(O)\]
 
-The current Work Queue retains a final \\(0\\) instead of \\(O\\). This is recorded as a source-transcription discrepancy; the two symbols are not interchangeable.
+The current Work Queue retains a final \(0\) instead of \(O\). This is recorded as a source-transcription discrepancy; the two symbols are not interchangeable.
 
 - A = (0, 1, 2, 3, 0)
 - B = (1, 3, 5, 7, 0)
