@@ -195,6 +195,12 @@ The arithmetic is reproducible. The semantic role of each value remains undefine
 
 Later pattern (semantics unresolved; preserve the source variants):
 
+Owner-specified transcription for this formalization:
+
+\\[\\mathcal M_0=(0,1,2,3,0)\\times(1,3,5,7,0)\\times(3,6,9,12,0)\\times(1)\\times(O)\\]
+
+The current Work Queue retains a final \\(0\\) instead of \\(O\\). This is recorded as a source-transcription discrepancy; the two symbols are not interchangeable.
+
 - A = (0, 1, 2, 3, 0)
 - B = (1, 3, 5, 7, 0)
 - C = (3, 6, 9, 12, 0)
@@ -274,7 +280,7 @@ Across seven reports, preserve the report-level vector \(\mathbf T=(T_1,\ldots,T
 1. What does each term mean operationally, and which meanings are empirical, philosophical, spiritual, theological, symbolic, or speculative?
 2. Which terms overlap, and which distinctions prevent category errors?
 3. What relationships between Alchemy modes and Being domains are proposed, and what would count as evidence for or against each?
-4. How are the five phases defined — fixed sequence, recurring states, or something else?
+4. How are the six phases defined — fixed sequence, recurring states, or something else?
 5. What does each number and zero in the supplied vectors represent?
 6. Does the four-axis grid provide useful organization beyond the Triality, or does it introduce duplication or unsupported assumptions?
 7. How should ethical constraints apply when values conflict?
