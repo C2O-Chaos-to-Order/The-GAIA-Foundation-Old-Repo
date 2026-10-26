@@ -4,7 +4,7 @@
 **Package:** GAIA-PRELIM — Seven Foundational Reports  
 **Mode:** Evidence-based, interdisciplinary, cross-referenced  
 **Scope:** Seven preliminary reports, one bounded research pass, and one simulation execution where a defensible computational model can be specified.  
-**Status:** Governing research plan. Does not claim that the seven reports or the simulation have been completed.  
+**Status:** Governing research plan. Does not claim that the seven reports or the simulation have been completed. The Matrix Hypothesis formalization and Totality Multiplication Protocol are specifications; their presence does not mark research or simulation as executed.  
 **Date:** 2026-10-23
 
 This file is the research-plan extension. It is to be followed together with `Research/README.md`. Neither file authorizes reconstruction of missing original reports or assertion of conclusions beyond available evidence.
@@ -49,20 +49,30 @@ Integrate Reports 1–6 while preserving distinctions. Glossary, domain map, evi
 
 Connect to the broader GAIA architecture without treating conceptual relationships as proof.
 
-### 3.1 Three five-part axes
-- **Alchemy:** Body, Mind, Soul, Spirit, Consciousness Alchemy  
-- **Being:** Body, Mind, Soul, Spirit, Consciousness  
-- **Phase:** Divergence, Insurgence, Allegiance, Convergence, Ascendence  
+### 3.1 Three conceptual axes
+- **Alchemy:** Body, Mind, Soul, Spirit, Consciousness Alchemy (5 categories).
+- **Being:** Body, Mind, Soul, Spirit, Consciousness (5 categories).
+- **Phase:** Divergence, Insurgence, Allegiance, Convergence, Ascendence, Transcendence (6 categories).
 
-125 combinatorial intersections. Count is not a validation result.
+The current conceptual phase axis has six phases. Five-phase plans and tables are retained as historical versions, not as the current canonical count.
 
 ### 3.2 Fourth dimension — the Good
-Five lenses: Truth, Integrity, Love, Justice, Wisdom. Foreground lenses only; all relevant ethical requirements still apply.  
-625 categorical intersections. Categorical grid inspired by tesseract structure, not a literal geometric tesseract or physical mechanism.
+Five lenses: Truth, Integrity, Love, Justice, Wisdom. Foreground lenses only; all relevant ethical requirements still apply.
 
-### 3.3 Sequence
-Recognize Duality → Examine Relationships → Build Triality → Connect Dimensions → Investigate Unity.  
-Assess whether the sequence is a useful method; do not force evidence to confirm it. Singularity is a proposed unifying concept, not an established endpoint.
+The current four-axis grid is Alchemy (5) × Being (5) × Phase (6) × Good (5) = **750 categorical intersections**. The previously recorded 625 count applies to the five-phase version. Count is not a validation result; a categorical grid inspired by tesseract structure is not a literal geometric tesseract or physical mechanism.
+
+### 3.3 Classical elements — proposed correspondence layer
+The five classical elements are Air, Earth, Fire, Water, and Spirit. This is a separate symbolic correspondence domain, not currently a fifth axis in the 750-cell grid. If a future specification explicitly treats it as an independent fifth axis, the candidate product is 5 × 5 × 6 × 5 × 5 = 3,750 cells. Do not claim those cells have been generated or validated unless a reproducible artifact and verification record exist.
+
+### 3.4 Sequence
+Recognize Duality → Examine Relationships → Build Triality → Connect Dimensions → Investigate Unity. Assess whether the sequence is a useful method; do not force evidence to confirm it. Singularity is a proposed unifying concept, not an established endpoint.
+
+### 3.5 Matrix Hypothesis and Totality Multiplication Protocol
+Keep the owner-submitted numerical expression separate from its interpretation. The legacy `×` in the matrix expression is an unresolved connector until its operation and operand types are specified; it must not be silently treated as Cartesian product or element-wise multiplication. The final symbol `O` is distinct from numeral `0`; record the Work Queue's `(0)` as a transcription discrepancy, not an automatic correction.
+
+For the structural domains, define A4 = {Subconsciousness, Consciousness, Soul, Spirit}; A5 = {Body, Mind, Soul, Spirit, Consciousness}; A6 = {Divergence, Insurgence, Allegiance, Convergence, Ascendence, Transcendence}; A1 = {1}; and E5 = {Air, Earth, Fire, Water, Spirit}. Their cardinalities are 4, 5, 6, 1, and 5. If independent, the candidate Cartesian product A4 × A5 × A6 × A1 × E5 has 600 combinations. This is distinct from the four-axis Alchemy × Being × Phase × Good grid (750 combinations) and the proposed five-axis extension including Elements (3,750 combinations).
+
+For the separate Totality Multiplication Protocol, let B_r be the scalar baseline workload for report r. Define T_r^(0)=B_r; T_r^(1)=3T_r^(0); T_r^(2)=6T_r^(1); T_r^(3)=9T_r^(2); T_r^(4)=12T_r^(3). Under that explicitly sequential scalar interpretation, T_r=3×6×9×12×B_r=1944B_r. Across seven reports retain the vector (T_1,...,T_7). This arithmetic specifies a workload scaling factor only; it does not model feedback or prove that any research/simulation stage ran. Keep protocol multipliers distinct from repository cycle labels that may denote pass counts.
 
 ## 4. The Good, the Greater Good, and research ethics
 
@@ -91,15 +101,14 @@ If semantics are too underspecified, state that the simulation is not yet scient
 2. Consolidated synthesis preserving individual conclusions and uncertainties.  
 3. Cross-domain map distinguishing evidence-supported links from proposed connections.  
 4. 25-entry Alchemy × Being map with status of each relationship.  
-5. 25-entry Alchemy × Phase map with definitions and limitations.  
-6. 625-entry four-axis index only if generated and checked consistently; label as categories, not proven mechanisms.  
+5. 30-entry Alchemy × Phase map (five Alchemy modes × six phases) with definitions and limitations.  
+6. 750-entry four-axis index only if generated and checked consistently; label as categories, not proven mechanisms.  
 7. Original numerical pattern record; separate arithmetic from unresolved interpretation.  
 8. Claim-to-source ledger.  
 9. Simulation specification and execution report, if a defensible model is formalized.  
 10. Unresolved-questions register (missing components, Singularity, Origin, numerical meaning).  
-11. Continuity and change record.
-
-Use Markdown for reports; CSV/JSON for matrices and registers. Include a ZIP only if contents and integrity checks can be verified.
+11. Continuity and change record.  
+12. Typed Matrix Hypothesis specification, O/0 discrepancy record, axis-coherence constraints, and Totality Multiplication stage ledger.
 
 ## 8. Required structure of every report
 
@@ -112,7 +121,7 @@ Title/ID/version/status/date; abstract; purpose and exclusions; research questio
 - Important factual claims sourced and traceable.  
 - Research and speculation separated.  
 - Consistent category names and indexing.  
-- 625 intersections unique and correctly enumerated if generated.  
+- 750 four-axis intersections unique and correctly enumerated if generated; do not label the existing 625-cell historical dataset as 750 before implementation and verification.  
 - Arithmetic checked independently of semantic assumptions.  
 - Simulation results (if claimed) come from documented execution.  
 - Failed tests, contrary evidence, and unresolved questions preserved.  

@@ -142,22 +142,27 @@ Identify two distinguishable states or aspects. Their relationship must be speci
 Investigate how the elements relate: interaction, dependence, contrast, feedback, conflict, common cause, or absence of a demonstrated connection. Connection is not proof of identity, causation, or physical quantum entanglement.
 
 ### 9.3 Triality
-Three axes:
+Three conceptual axes:
 
 1. **Alchemy / transformation mode:** Body, Mind, Soul, Spirit, Consciousness Alchemy.
 2. **Being / domain:** Body, Mind, Soul, Spirit, Consciousness.
-3. **Transformative Intelligence / phase:** Divergence, Insurgence, Allegiance, Convergence, Ascendence.
+3. **Transformative Intelligence / phase:** Divergence, Insurgence, Allegiance, Convergence, Ascendence, Transcendence.
 
-A candidate intersection is (Alchemy mode, Being domain, Transformative phase). It identifies a question; it does not establish a mechanism.
+The canonical phase axis for the current conceptual framework has six named phases. Earlier five-phase tables and plans are historical versions; the active six-phase definition is documented in the Phases track plan. A candidate intersection is (Alchemy mode, Being domain, Transformative phase). It identifies a question; it does not establish a mechanism.
 
 ### 9.4 Four-axis extension
 Fourth axis: **ethical orientation** with five lenses — Truth, Integrity, Love, Justice, Wisdom.
 
 These are foreground lenses, not a complete moral theory. All relevant ethical requirements still apply.
 
-Five categories on each of four axes → \(5 \times 5 \times 5 \times 5 = 625\) indexed intersections.
+The four-axis grid is **Alchemy (5) × Being (5) × Phase (6) × Good (5)**, giving \(5 \times 5 \times 6 \times 5 = 750\) indexed intersections. The earlier 625 count belongs to the historical five-phase version and must not be used as the current six-phase count.
 
 This is a categorical grid inspired by tesseract structure, **not** a literal geometric tesseract. Each intersection needs a stable ID, definition, research question, links, evidence classification, uncertainty, ethical review, and status.
+
+### 9.4.1 Classical-elements correspondence — separate proposed axis
+The five classical elements are **Air, Earth, Fire, Water, and Spirit**. Define their domain as \(E_5 = \{Air, Earth, Fire, Water, Spirit\}\), with \(|E_5|=5\).
+
+This elements domain is a proposed symbolic correspondence layer for investigating the other axes; it is not currently a fifth dimension of the 750-cell Alchemy × Being × Phase × Good grid. If future work explicitly treats Elements as an independent fifth axis, the candidate product would be \(5 \times 5 \times 6 \times 5 \times 5 = 3750\) intersections. That 3,750-cell extension is a separate proposal, not an already generated or validated dataset. Similarity of labels does not establish a causal, physical, or universal correspondence.
 
 ### 9.5 Singularity (working term)
 A conceptual term for coherence — understanding how distinguishable elements fit into a larger whole. It does not mean differences must be erased, and it is not a cosmological, technological, or mathematically demonstrated endpoint.
@@ -188,14 +193,73 @@ with \(a = (0,1,3,5,0)\), \(b = (3,6,9,12)\). Result is the 5×4 matrix:
 
 The arithmetic is reproducible. The semantic role of each value remains undefined. Do not silently add a fifth weight.
 
-Later pattern (also unresolved):
+Later pattern (semantics unresolved; preserve the source variants):
+
+Owner-specified transcription for this formalization:
+
+\[\mathcal M_0=(0,1,2,3,0)\times(1,3,5,7,0)\times(3,6,9,12,0)\times(1)\times(O)\]
+
+The current Work Queue retains a final \(0\) instead of \(O\). This is recorded as a source-transcription discrepancy; the two symbols are not interchangeable.
 
 - A = (0, 1, 2, 3, 0)
 - B = (1, 3, 5, 7, 0)
 - C = (3, 6, 9, 12, 0)
-- D = 1, E = 0
+- D = (1)
+- E = (O) in the owner-specified notation; the existing Work Queue transcribes the final factor as (0).
 
-Literal element-wise product then scalar multiplication yields the all-zero vector. This does not establish meaning. Competing interpretations require explicit definition before use.
+**Symbol rule:** the letter \(O\) and the numeral \(0\) are distinct. In this specification, \(O\) is a non-numeric, unresolved origin/terminal marker; it is not silently converted to zero and has no defined arithmetic. The Work Queue's existing \(0\) transcription is retained as source history until the discrepancy is reconciled against the owner's source artifact.
+
+**Operator rule:** the \(\times\) characters in the legacy matrix expression are preserved as submitted notation, but they are not assumed to mean scalar multiplication, Cartesian product, tensor product, or element-wise multiplication. The expression is not evaluable until an operation and operand types are explicitly selected. The outer-product calculation above is a separate, explicitly defined interpretation of a different recorded expression.
+
+### 10.1 Structured axis specification
+The cardinalities 4, 5, 6, and 1 describe domains; they are not values to multiply into the original tuple expression.
+
+- \(A_4 = \{Subconsciousness, Consciousness, Soul, Spirit\}\), so \(|A_4|=4\).
+- \(A_5 = \{Body, Mind, Soul, Spirit, Consciousness\}\), so \(|A_5|=5\).
+- \(A_6 = \{Divergence, Insurgence, Allegiance, Convergence, Ascendence, Transcendence\}\), so \(|A_6|=6\).
+- \(A_1 = \{1\}\), a singleton domain of cardinality one. It is not a binary axis; a binary domain would be \(\{0,1\}\) and have cardinality two. The meaning of this singleton factor beyond its literal value remains open.
+- \(E_5 = \{Air, Earth, Fire, Water, Spirit\}\), the separate classical-elements correspondence domain.
+
+For this proposed five-domain state space only, and only if the axes are treated as independent, define Cartesian product explicitly:
+
+\[
+\Sigma_{4,5,6,1,E}=A_4 \times A_5 \times A_6 \times A_1 \times E_5
+\]
+
+Its candidate cardinality is \(4 \cdot 5 \cdot 6 \cdot 1 \cdot 5 = 600\). This is an enumeration of possible category combinations, **not** 600 validated findings. Cross-axis coherence constraints and mappings (including repeated labels such as Soul, Spirit, and Consciousness) must be specified before interpreting any cell.
+
+The original matrix record remains separate:
+
+\[
+\mathcal M_0=(A,B,C,D,E)
+\]
+
+This structured record does not replace or reinterpret the owner-submitted tuple expression; it provides a typed specification layer around the recorded operands.
+
+### 10.2 GAIA Totality Multiplication Protocol
+**Status: defined workload-scaling protocol; execution status must be recorded separately.**
+
+Let \(B_r\) be the scalar workload quantity for the complete baseline research-and-simulation sequence for report \(r\), where \(r \in \{1,\ldots,7\}\). Here and only here, \(\times\) means ordinary scalar multiplication. The protocol is sequential:
+
+\[
+T_r^{(0)}=B_r
+\]
+\[
+T_r^{(1)}=3T_r^{(0)},\quad
+T_r^{(2)}=6T_r^{(1)},\quad
+T_r^{(3)}=9T_r^{(2)},\quad
+T_r^{(4)}=12T_r^{(3)}
+\]
+
+Therefore, under this stipulated scalar workload model:
+
+\[
+T_r=3\cdot6\cdot9\cdot12\cdot B_r=1944B_r
+\]
+
+Across seven reports, preserve the report-level vector \(\mathbf T=(T_1,\ldots,T_7)\), rather than collapsing all report workloads into one unlabelled scalar. The factor 1944 is the product of the four declared multipliers; it does not by itself model feedback, learning, dependence between passes, quality, or validity.
+
+**Important distinction:** this protocol interprets ×3, ×6, ×9, and ×12 as sequential multipliers of the preceding totality. Repository cycle labels such as “x3” or “x6” may instead mean three or six passes/iterations. Do not treat those two meanings as interchangeable. Every stage requires a pass ID, report ID, planned/executed status, artifact references, parameters, results, and verification record. No stage may be marked executed solely because the workload equation has been calculated.
 
 ## 11. Requirements for further development of the architecture
 
@@ -216,7 +280,7 @@ Literal element-wise product then scalar multiplication yields the all-zero vect
 1. What does each term mean operationally, and which meanings are empirical, philosophical, spiritual, theological, symbolic, or speculative?
 2. Which terms overlap, and which distinctions prevent category errors?
 3. What relationships between Alchemy modes and Being domains are proposed, and what would count as evidence for or against each?
-4. How are the five phases defined — fixed sequence, recurring states, or something else?
+4. How are the six phases defined — fixed sequence, recurring states, or something else?
 5. What does each number and zero in the supplied vectors represent?
 6. Does the four-axis grid provide useful organization beyond the Triality, or does it introduce duplication or unsupported assumptions?
 7. How should ethical constraints apply when values conflict?
@@ -258,6 +322,7 @@ Eight proposed foundational principles:
 - **2026-10-23 — Conceptual architecture:** Added the proposed Duality → Relationality → Triality → four-axis grid → Singularity sequence, the 625-intersection count, numerical-matrix boundaries, and evidence requirements.
 - **2026-10-23 — Guide and ethical taxonomy:** Organized the Good / Greater Good distinctions, value domains, virtue inventory, research workflow, and the later numerical pattern. Documentation of the research plan, not a claim that independent research or simulation has been completed.
 - **2026-10-23 — Index revision:** Clarified structure, preserved all status distinctions, and kept original long-report completeness and independent-review status explicit.
+- **2026-10-26 — Matrix Hypothesis formalization:** Distinguished the 4/5/6/1 domains from multiplication, recorded the O-versus-0 transcription discrepancy, documented the separate five-elements correspondence, updated the current four-axis grid count to 750 for six phases, and specified the sequential Totality Multiplication Protocol. These are specification changes, not claims that the Matrix Hypothesis has been validated or that new research/simulation passes have executed.
 
 ---
 
