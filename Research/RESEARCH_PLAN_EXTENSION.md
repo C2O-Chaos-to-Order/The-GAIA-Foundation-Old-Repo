@@ -101,16 +101,14 @@ If semantics are too underspecified, state that the simulation is not yet scient
 2. Consolidated synthesis preserving individual conclusions and uncertainties.  
 3. Cross-domain map distinguishing evidence-supported links from proposed connections.  
 4. 25-entry Alchemy × Being map with status of each relationship.  
-5. 25-entry Alchemy × Phase map with definitions and limitations.  
-6. 625-entry four-axis index only if generated and checked consistently; label as categories, not proven mechanisms.  
+5. 30-entry Alchemy × Phase map (five Alchemy modes × six phases) with definitions and limitations.  
+6. 750-entry four-axis index only if generated and checked consistently; label as categories, not proven mechanisms.  
 7. Original numerical pattern record; separate arithmetic from unresolved interpretation.  
-11. Typed Matrix Hypothesis specification, O/0 discrepancy record, axis-coherence constraints, and Totality Multiplication stage ledger.
 8. Claim-to-source ledger.  
 9. Simulation specification and execution report, if a defensible model is formalized.  
 10. Unresolved-questions register (missing components, Singularity, Origin, numerical meaning).  
-11. Continuity and change record.
-
-Use Markdown for reports; CSV/JSON for matrices and registers. Include a ZIP only if contents and integrity checks can be verified.
+11. Continuity and change record.  
+12. Typed Matrix Hypothesis specification, O/0 discrepancy record, axis-coherence constraints, and Totality Multiplication stage ledger.
 
 ## 8. Required structure of every report
 
@@ -123,7 +121,7 @@ Title/ID/version/status/date; abstract; purpose and exclusions; research questio
 - Important factual claims sourced and traceable.  
 - Research and speculation separated.  
 - Consistent category names and indexing.  
-- 625 intersections unique and correctly enumerated if generated.  
+- 750 four-axis intersections unique and correctly enumerated if generated; do not label the existing 625-cell historical dataset as 750 before implementation and verification.  
 - Arithmetic checked independently of semantic assumptions.  
 - Simulation results (if claimed) come from documented execution.  
 - Failed tests, contrary evidence, and unresolved questions preserved.  
