@@ -316,12 +316,17 @@ Eight proposed foundational principles:
 7. Stewardship extends beyond the present.
 8. Accountability enables improvement.
 
-## 14. Change history
+## 14. Secondary Research Plan Extension
+
+The proposed post-Earth sequence **Primary Elements ×5 → Secondary Elements ×10 → Tertiary Elements ×15** is documented in [Research Plan Secondary Extension](RESEARCH_PLAN_SECONDARY_EXTENSION.md). Its taxonomy and operational meaning remain open; it is not an executed protocol and must not begin before the agreed Earth research track passes its readiness check.
+
+## 15. Change history
 
 - **2026-10-23 — Foundational Research Index:** Established the responsibility ladder, evidence distinctions, research lifecycle, report requirements, and traceability mandate.
 - **2026-10-23 — Conceptual architecture:** Added the proposed Duality → Relationality → Triality → four-axis grid → Singularity sequence, the 625-intersection count, numerical-matrix boundaries, and evidence requirements.
 - **2026-10-23 — Guide and ethical taxonomy:** Organized the Good / Greater Good distinctions, value domains, virtue inventory, research workflow, and the later numerical pattern. Documentation of the research plan, not a claim that independent research or simulation has been completed.
 - **2026-10-23 — Index revision:** Clarified structure, preserved all status distinctions, and kept original long-report completeness and independent-review status explicit.
+- **2026-10-26 — Secondary Research Plan Extension:** Added a linked proposal for the post-Earth Primary ×5, Secondary ×10, and Tertiary ×15 sequence. Element membership, the meaning of the multipliers, and the layer mapping remain explicitly unresolved; no execution or validation is claimed.
 - **2026-10-26 — Matrix Hypothesis formalization:** Distinguished the 4/5/6/1 domains from multiplication, recorded the O-versus-0 transcription discrepancy, documented the separate five-elements correspondence, updated the current four-axis grid count to 750 for six phases, and specified the sequential Totality Multiplication Protocol. These are specification changes, not claims that the Matrix Hypothesis has been validated or that new research/simulation passes have executed.
 
 ---
