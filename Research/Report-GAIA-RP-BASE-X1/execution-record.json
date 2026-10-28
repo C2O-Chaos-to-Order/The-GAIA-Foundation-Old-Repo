@@ -7,19 +7,72 @@
   "execution_status": "EXECUTED",
   "execution_type": "single deterministic software simulation pass containing eight synthetic test fixtures",
   "fixtures": [
-    {"id":"S01_complete_minimum","observed_result":"PASS_STAGE_CRITERIA","expected_result":"PASS_STAGE_CRITERIA","passed":true},
-    {"id":"S02_simulation_missing","observed_result":"BLOCKED_REQUIRED_SIMULATION","expected_result":"BLOCKED_REQUIRED_SIMULATION","passed":true},
-    {"id":"S03_executed_but_failed","observed_result":"REVISE_FAIL_CRITERION","expected_result":"REVISE_FAIL_CRITERION","passed":true},
-    {"id":"S04_pre_interlay_missing","observed_result":"BLOCKED_MISSING_INTERLAY","expected_result":"BLOCKED_MISSING_INTERLAY","passed":true},
-    {"id":"S05_extra_research_pass","observed_result":"FAIL_EXACT_RESEARCH_PASS_COUNT","expected_result":"FAIL_EXACT_RESEARCH_PASS_COUNT","passed":true},
-    {"id":"S06_planned_not_executed","observed_result":"BLOCKED_REQUIRED_SIMULATION","expected_result":"BLOCKED_REQUIRED_SIMULATION","passed":true},
-    {"id":"S07_failure_mislabeled_success","observed_result":"FAIL_FAILURE_HANDLING","expected_result":"FAIL_FAILURE_HANDLING","passed":true},
-    {"id":"S08_post_interlay_missing","observed_result":"BLOCKED_MISSING_INTERLAY","expected_result":"BLOCKED_MISSING_INTERLAY","passed":true}
+    {
+      "id": "S01_complete_minimum",
+      "observed_result": "PASS_STAGE_CRITERIA",
+      "expected_result": "PASS_STAGE_CRITERIA",
+      "passed": true
+    },
+    {
+      "id": "S02_simulation_missing",
+      "observed_result": "BLOCKED_REQUIRED_SIMULATION",
+      "expected_result": "BLOCKED_REQUIRED_SIMULATION",
+      "passed": true
+    },
+    {
+      "id": "S03_executed_but_failed",
+      "observed_result": "REVISE_FAIL_CRITERION",
+      "expected_result": "REVISE_FAIL_CRITERION",
+      "passed": true
+    },
+    {
+      "id": "S04_pre_interlay_missing",
+      "observed_result": "BLOCKED_MISSING_INTERLAY",
+      "expected_result": "BLOCKED_MISSING_INTERLAY",
+      "passed": true
+    },
+    {
+      "id": "S05_extra_research_pass",
+      "observed_result": "FAIL_EXACT_RESEARCH_PASS_COUNT",
+      "expected_result": "FAIL_EXACT_RESEARCH_PASS_COUNT",
+      "passed": true
+    },
+    {
+      "id": "S06_planned_not_executed",
+      "observed_result": "BLOCKED_REQUIRED_SIMULATION",
+      "expected_result": "BLOCKED_REQUIRED_SIMULATION",
+      "passed": true
+    },
+    {
+      "id": "S07_failure_mislabeled_success",
+      "observed_result": "FAIL_FAILURE_HANDLING",
+      "expected_result": "FAIL_FAILURE_HANDLING",
+      "passed": true
+    },
+    {
+      "id": "S08_post_interlay_missing",
+      "observed_result": "BLOCKED_MISSING_INTERLAY",
+      "expected_result": "BLOCKED_MISSING_INTERLAY",
+      "passed": true
+    }
   ],
-  "matrix_results": {"zodiac_alchemy":60,"alchemy_transformative_phase":30,"combined_cube_assumed":false},
+  "matrix_results": {
+    "zodiac_alchemy": 60,
+    "alchemy_transformative_phase": 30,
+    "combined_cube_assumed": false
+  },
   "acceptance_criteria": {
-    "AC-01":true,"AC-02":true,"AC-03":true,"AC-04":true,"AC-05":true,
-    "AC-06":true,"AC-07":true,"AC-08":true,"AC-09":true,"AC-10":true,"AC-11":true
+    "AC-01": true,
+    "AC-02": true,
+    "AC-03": true,
+    "AC-04": true,
+    "AC-05": true,
+    "AC-06": true,
+    "AC-07": true,
+    "AC-08": true,
+    "AC-09": true,
+    "AC-10": true,
+    "AC-11": true
   },
   "accepted": true,
   "fixture_count": 8,
@@ -30,6 +83,5 @@
     "No real GAIA system, field data, human subjects, physical process, or deployment was tested.",
     "The model encodes a subset of plan rules; it does not prove the entire Research Plan is complete, safe, valid, or optimal.",
     "The author/preparer executed this run; independent reproduction/review has not occurred."
-  ],
-  "script_sha256": "d6b27694e18d354604460dd764b12770306d672b79c10edc9916ce43061de34c"
+  ]
 }
