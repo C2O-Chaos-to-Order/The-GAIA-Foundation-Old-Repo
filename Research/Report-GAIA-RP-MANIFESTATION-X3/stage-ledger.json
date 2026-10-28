@@ -1,0 +1,98 @@
+{
+  "stable_id": "GAIA-RP-MANIFESTATION-X3-LEDGER",
+  "version": "1.0",
+  "date": "2026-10-28",
+  "stage": "Manifestation x3",
+  "governing_plan": {
+    "repository": "KyleAlexanderSteen/Research-for-The-GAIA-Foundation-Research",
+    "path": "The GAIA Research Plan/README.md",
+    "version": "1.4",
+    "commit": "13e0330cb64eaff9e54d08b74a97fa3f05b1f02d",
+    "authority_scope": "Current baseline-to-Manifestation sequence only; older Foundation seven-report extension retained unchanged."
+  },
+  "baseline_input": {
+    "stable_id": "GAIA-RP-BASE-X1",
+    "version": "1.0.2",
+    "path": "Research/Report-GAIA-RP-BASE-X1/REPORT.md"
+  },
+  "required_research_passes": 3,
+  "research_passes": [
+    {"id":"GAIA-RP-MANIFESTATION-X3-R1","path":"Research/Report-GAIA-RP-MANIFESTATION-X3/research-pass-1-requirements-traceability.md","status":"COMPLETE","focus":"Requirements-to-evidence traceability"},
+    {"id":"GAIA-RP-MANIFESTATION-X3-R2","path":"Research/Report-GAIA-RP-MANIFESTATION-X3/research-pass-2-simulation-verification-validation.md","status":"COMPLETE","focus":"Simulation verification, validation, and gate integrity"},
+    {"id":"GAIA-RP-MANIFESTATION-X3-R3","path":"Research/Report-GAIA-RP-MANIFESTATION-X3/research-pass-3-reproducibility-matrices-governance.md","status":"COMPLETE","focus":"Reproducibility, matrix applicability, governance boundaries"}
+  ],
+  "simulation_protocol": {
+    "path": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation-protocol.md",
+    "status": "REGISTERED BEFORE OFFICIAL EXECUTIONS",
+    "commit": "4849cbf925a0e64370cea66b7b0fb851e3574ff1"
+  },
+  "required_simulation_passes": 3,
+  "simulation_passes": [
+    {
+      "pass": 1,
+      "run_id": "GAIA-RP-MANIFESTATION-X3-SIM-001",
+      "model": "Requirements-to-evidence traceability gate v1.0.0",
+      "script": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_1_traceability.py",
+      "script_commit": "7a4bbb50d64312b8869d67d01075bed21e9495bd",
+      "script_sha256": "aa44d6d9e1dd05ef09800988d6fd4e1e02e31db5787355b9d2ebc7af3e30a717",
+      "record": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_1_record.json",
+      "record_commit": "9f0c8aecd297a6944cb9c35ada181b1eaab3153f",
+      "fixtures": 8,
+      "criteria_passed": 9,
+      "criteria_total": 9,
+      "execution_status": "EXECUTED",
+      "accepted": true
+    },
+    {
+      "pass": 2,
+      "run_id": "GAIA-RP-MANIFESTATION-X3-SIM-002",
+      "model": "Multiplier and stage-gate integrity v1.0.0",
+      "script": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_2_gate_integrity.py",
+      "script_commit": "d040cffe092f7b33d36becfdb0ffc4d0e2e98de0",
+      "script_sha256": "ace4315b9e1fc8eed17d5cd3968e8e7715ed178031e12c852be87dca3d22739a",
+      "record": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_2_record.json",
+      "record_commit": "b40a85178baf01020f7e1fb3bf7b67f0ca615007",
+      "fixtures": 9,
+      "criteria_passed": 10,
+      "criteria_total": 10,
+      "execution_status": "EXECUTED",
+      "accepted": true
+    },
+    {
+      "pass": 3,
+      "run_id": "GAIA-RP-MANIFESTATION-X3-SIM-003",
+      "model": "Matrix applicability and governance-status controls v1.0.0",
+      "script": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_3_matrix_governance.py",
+      "script_commit": "484a3a7648ece2543908228e5138b55ce80fdb91",
+      "script_sha256": "2a4001d7744418eb9a10bc9c6957ee6aad96ce0ab6c316b2eb8c0507e659fdc7",
+      "record": "Research/Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_3_record.json",
+      "record_commit": "108d07cd5ed2c9fc18bae5e8598696f5d221188b",
+      "fixtures": 9,
+      "criteria_passed": 10,
+      "criteria_total": 10,
+      "execution_status": "EXECUTED",
+      "accepted": true
+    }
+  ],
+  "totals": {
+    "research_passes_completed": 3,
+    "simulation_passes_executed": 3,
+    "synthetic_fixtures": 26,
+    "model_level_acceptance_checks_passed": 29,
+    "model_level_acceptance_checks_total": 29
+  },
+  "interlays": {
+    "pre_simulation_recorded_for_each_pass": true,
+    "post_simulation_recorded_for_each_pass": true,
+    "inapplicability_rationales_recorded": true,
+    "interlays_counted_as_passes": false
+  },
+  "stage_decision": {
+    "status": "PASS_FOR_DECLARED_METHODOLOGICAL_SCOPE",
+    "broader_scientific_conceptual_validity": "INDETERMINATE",
+    "independent_review": "NOT_PERFORMED",
+    "independent_reproduction": "NOT_PERFORMED",
+    "next_prescribed_stage": "Manifestation x6",
+    "started_next_stage": false
+  }
+}
