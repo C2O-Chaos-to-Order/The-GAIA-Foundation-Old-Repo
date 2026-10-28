@@ -2,7 +2,7 @@
 ## Baseline Research Report: The GAIA Research Plan
 
 **Stable ID:** GAIA-RP-BASE-X1  
-**Version:** 1.0.1  
+**Version:** 1.0.2  
 **Date:** 2026-10-28  
 **Stage:** Quintessential Baseline ×1 — research of the Research Plan itself  
 **Status:** COMPLETE FOR THE DECLARED BASELINE SCOPE  
@@ -22,7 +22,7 @@
 | Field | Record |
 |---|---|
 | Stable report ID | GAIA-RP-BASE-X1 |
-| Version | 1.0.1 |
+| Version | 1.0.2 |
 | Date | 2026-10-28 |
 | Source of authority examined | The GAIA Research Plan, Version 1.4, at the commit linked above |
 | Report type | Quintessential Baseline ×1 |
@@ -30,12 +30,12 @@
 | Research passes completed | 1: RP-BASE-R1 |
 | Required simulation passes | 1 |
 | Simulation passes executed | 1: GAIA-RP-BASE-SIM-001 |
-| Pre-simulation interlay | Recorded in Section 8 |
-| Post-simulation interlay | Recorded in Section 10 |
+| Pre-simulation interlay | Recorded in Section 7 |
+| Post-simulation interlay | Recorded in Section 9 |
 | Independent review | Not performed |
 | Independent reproduction | Not performed |
 | Empirical validation of GAIA's conceptual architecture | Not performed |
-| Revision history | v1.0 — initial baseline, bounded source review, and one executed procedural simulation pass |
+| Revision history | v1.0 — initial baseline and one executed procedural simulation pass; v1.0.1 — added explicit definitions and report-contract numbering; v1.0.2 — corrected the level of Section 4 and cross-references, and aligned the report metadata with the final 13-section structure |
 
 ### Status vocabulary used here
 
@@ -97,7 +97,7 @@ The two matrices specified by the plan are complementary, not interchangeable:
 
 The software model checks the two specified cardinalities and the rule against presuming an integrated cube. It does not instantiate the cells or establish the semantic validity of either matrix. The plan itself says that missing Zodiac definitions must not be invented; this report preserves that limit.
 
-### 4. Definitions and Claim Register
+## 4. Definitions and Claim Register
 
 ### Definitions for this baseline
 
@@ -180,7 +180,7 @@ The sources converge on process controls rather than any particular metaphysical
 4. Executed the model once, preserving its run identifier, fixture-level expected and observed results, criterion results, model version, hashes, and limitations.
 5. Compared the actual output to the declared expected behavior, recorded limitations, and kept procedural findings separate from claims about real-world validity.
 
-The executed script is provided as a companion artifact. Its SHA-256 digest is recorded in Section 9. The execution JSON is also retained. These artifacts document what ran; they do not constitute independent reproduction.
+The executed script is provided as a companion artifact. Its SHA-256 digest is recorded in Section 8. The execution JSON is also retained. These artifacts document what ran; they do not constitute independent reproduction.
 
 ## 7. Pre-Simulation Alchemy & Transformative Interlay
 
@@ -367,8 +367,8 @@ This is a governance/traceability issue, not evidence that either substantive fr
 | BASE-AC-07 | Test the matrix arithmetic without assuming a combined cube | Section 8.3 and execution JSON | PASS |
 | BASE-AC-08 | Include the 13 mandatory report-contract fields | all thirteen mandatory report-contract fields in numbered Sections 1–13 | PASS |
 | BASE-AC-09 | Distinguish process-test results from substantive scientific claims | Scope boundary, claim register, and Results | PASS |
-| BASE-AC-10 | Report independent-review and reproduction status accurately | Sections 7.1, 9, and 10 | PASS |
-| BASE-AC-11 | Record material gaps and repository handoff information | Results R-03 to R-06; Section 14 | PASS |
+| BASE-AC-10 | Report independent-review and reproduction status accurately | Sections 8.1, 10, and 11 | PASS |
+| BASE-AC-11 | Record material gaps and repository handoff information | Results R-03 to R-06; Section 13 | PASS |
 
 ### 11.2 Decision
 
@@ -399,7 +399,7 @@ No additional research or simulation pass is claimed in this report. Follow-on a
 | Intended canonical Foundation path | Research/Report-GAIA-RP-BASE-X1/ |
 | Source plan | KyleAlexanderSteen/Research-for-The-GAIA-Foundation-Research — The GAIA Research Plan, Version 1.4 |
 | Source plan commit | 13e0330cb64eaff9e54d08b74a97fa3f05b1f02d |
-| Report ID/version | GAIA-RP-BASE-X1 / v1.0 |
+| Report ID/version | GAIA-RP-BASE-X1 / v1.0.2 |
 | Research pass record | RP-BASE-R1 |
 | Simulation run | GAIA-RP-BASE-SIM-001 |
 | Simulation model | Procedural gate model v1.0.0 |
