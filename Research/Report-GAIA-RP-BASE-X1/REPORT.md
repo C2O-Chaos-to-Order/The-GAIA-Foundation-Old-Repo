@@ -2,7 +2,7 @@
 ## Baseline Research Report: The GAIA Research Plan
 
 **Stable ID:** GAIA-RP-BASE-X1  
-**Version:** 1.0  
+**Version:** 1.0.1  
 **Date:** 2026-10-28  
 **Stage:** Quintessential Baseline ×1 — research of the Research Plan itself  
 **Status:** COMPLETE FOR THE DECLARED BASELINE SCOPE  
@@ -22,7 +22,7 @@
 | Field | Record |
 |---|---|
 | Stable report ID | GAIA-RP-BASE-X1 |
-| Version | 1.0 |
+| Version | 1.0.1 |
 | Date | 2026-10-28 |
 | Source of authority examined | The GAIA Research Plan, Version 1.4, at the commit linked above |
 | Report type | Quintessential Baseline ×1 |
@@ -30,8 +30,8 @@
 | Research passes completed | 1: RP-BASE-R1 |
 | Required simulation passes | 1 |
 | Simulation passes executed | 1: GAIA-RP-BASE-SIM-001 |
-| Pre-simulation interlay | Recorded in Section 7 |
-| Post-simulation interlay | Recorded in Section 9 |
+| Pre-simulation interlay | Recorded in Section 8 |
+| Post-simulation interlay | Recorded in Section 10 |
 | Independent review | Not performed |
 | Independent reproduction | Not performed |
 | Empirical validation of GAIA's conceptual architecture | Not performed |
@@ -97,6 +97,23 @@ The two matrices specified by the plan are complementary, not interchangeable:
 
 The software model checks the two specified cardinalities and the rule against presuming an integrated cube. It does not instantiate the cells or establish the semantic validity of either matrix. The plan itself says that missing Zodiac definitions must not be invented; this report preserves that limit.
 
+### 4. Definitions and Claim Register
+
+### Definitions for this baseline
+
+| Term | Operational meaning in this report |
+|---|---|
+| Research Plan | The live, authoritative Version 1.4 document identified in Document Control |
+| Research pass | One distinct investigation with a scope, method, sources consulted, findings, uncertainty, and an outcome record |
+| Simulation pass | One actually executed run with a unique run ID, model/version, inputs, outputs, and criterion results |
+| Interlay | The mandatory pre-simulation planning or post-simulation interpretation record; neither counts as a pass |
+| Verification | Checking documented output against predefined criteria |
+| Validation | Assessing whether a model or result is fit for its intended use under relevant conditions |
+| Alchemy, Heart/Core, Zodiac, Transformative Phase | Proposed analytical categories from the source plan; not assumed to be established physical mechanisms |
+| Gate result | A recorded decision based on required work, evidence, and criteria; a passing software test is bounded to its model |
+
+These definitions scope the current test. They do not replace future domain-specific definitions or settle the meaning of the proposed conceptual architecture.
+
 ### Claim register
 
 | ID | Claim | Claim class | Status and basis |
@@ -109,7 +126,7 @@ The software model checks the two specified cardinalities and the rule against p
 | C-06 | Explicit criteria, uncertainty reporting, and traceability are worthwhile research-control practices. | Methodological | **Supported as process guidance** by the cited methodology sources; not proof that GAIA's entire framework will succeed |
 | C-07 | The Foundation repository contains an older research-plan extension that identifies itself as governing a seven-report framework. | Repository-governance observation | **OBSERVED; authority relationship unresolved.** This observation is recorded for provenance and governance, not used as evidence for GAIA's conceptual claims. |
 
-## 4. Research Record and Source Review
+## 5. Research Record and Source Review
 
 ### Research pass RP-BASE-R1
 
@@ -144,9 +161,9 @@ NIST calls for documented testing and evaluation, measures of uncertainty, compa
 
 The sources converge on process controls rather than any particular metaphysical worldview: make the method inspectable, connect criteria to evidence, disclose uncertainty, distinguish planned work from executed work, and keep model-level results bounded by model assumptions. The plan v1.4 is directionally aligned with these practices. The source review does not establish that the five Alchemies, six phases, Heart/Core, or Zodiac structure are complete, measurable, or universally applicable.
 
-## 5. Assumptions and Method
+## 6. Assumptions and Method
 
-### 5.1 Assumptions
+### 6.1 Assumptions
 
 - The live plan file identified by the Version 1.4 commit is the plan under test for this report.
 - The baseline multiplier is interpreted as one distinct research pass and one actually executed simulation pass.
@@ -155,21 +172,21 @@ The sources converge on process controls rather than any particular metaphysical
 - The two matrices are treated as categorical analytical instruments; their counts are not evidence of model accuracy or semantic validity.
 - An unexecuted simulation cannot satisfy the baseline simulation-pass requirement.
 
-### 5.2 Method
+### 6.2 Method
 
 1. Read the live Research Plan v1.4 and extracted its baseline pass requirements, mandatory workflow, matrix definitions, evidence classifications, report contract, and acceptance/gating rules.
-2. Reviewed five external methodology sources using the bounded inclusion approach described in Section 4.
+2. Reviewed five external methodology sources using the bounded inclusion approach described in Section 5.
 3. Defined an executable deterministic model for selected plan controls and prepared synthetic fixtures for pass, block, failure, and interlay cases.
 4. Executed the model once, preserving its run identifier, fixture-level expected and observed results, criterion results, model version, hashes, and limitations.
 5. Compared the actual output to the declared expected behavior, recorded limitations, and kept procedural findings separate from claims about real-world validity.
 
-The executed script is provided as a companion artifact. Its SHA-256 digest is recorded in Section 8. The execution JSON is also retained. These artifacts document what ran; they do not constitute independent reproduction.
+The executed script is provided as a companion artifact. Its SHA-256 digest is recorded in Section 9. The execution JSON is also retained. These artifacts document what ran; they do not constitute independent reproduction.
 
-## 6. Pre-Simulation Alchemy & Transformative Interlay
+## 7. Pre-Simulation Alchemy & Transformative Interlay
 
 This interlay was completed before the simulation execution. Its purpose was to translate the researched plan requirements into a bounded model and acceptance conditions.
 
-### 6.1 Applicability of the Five Alchemies
+### 7.1 Applicability of the Five Alchemies
 
 | Alchemy | Decision for this procedural model | Rationale |
 |---|---|---|
@@ -181,7 +198,7 @@ This interlay was completed before the simulation execution. Its purpose was to 
 
 These are applicability decisions for this specific software test, not general exclusions from later GAIA research. The other four categories remain part of the proposed architecture and require operational definitions in any research that actually uses them.
 
-### 6.2 Transformative phases considered
+### 7.2 Transformative phases considered
 
 | Phase | Treatment before the run |
 |---|---|
@@ -192,7 +209,7 @@ These are applicability decisions for this specific software test, not general e
 | Ascendence | Identify what these tests might inform next, while limiting generalization to the encoded logic and fixtures |
 | Transcendence | NOT APPLICABLE as a claim of system transcendence; the test supplies no evidence for such an inference |
 
-### 6.3 Predeclared simulation model and acceptance criteria
+### 7.3 Predeclared simulation model and acceptance criteria
 
 **Model:** GAIA Research Plan procedural gate model, version 1.0.0.  
 **Execution type:** one deterministic software execution containing eight synthetic fixtures.  
@@ -218,9 +235,9 @@ Predeclared acceptance checks:
 
 The criteria were encoded in the simulation artifact before that artifact was executed. No thresholds were changed after interpreting the returned result.
 
-## 7. Simulation Record
+## 8. Simulation Record
 
-### 7.1 Execution metadata
+### 8.1 Execution metadata
 
 | Field | Recorded value |
 |---|---|
@@ -238,7 +255,7 @@ The criteria were encoded in the simulation artifact before that artifact was ex
 | Physical / real-world system tested | No |
 | External independent execution | Not performed |
 
-### 7.2 Fixture results
+### 8.2 Fixture results
 
 | Fixture | Expected result | Observed result | Fixture check |
 |---|---|---|---|
@@ -253,7 +270,7 @@ The criteria were encoded in the simulation artifact before that artifact was ex
 
 The fixture count is eight. It is **one executed simulation pass**, not eight. The software execution produced 11 of 11 declared acceptance checks as true, and all eight fixture results matched their encoded expected result.
 
-### 7.3 Matrix calculation
+### 8.3 Matrix calculation
 
 The executed model calculated:
 
@@ -263,7 +280,7 @@ The executed model calculated:
 
 The result verifies these arithmetic and configuration controls inside the script. It does not populate 60 or 30 substantive cells, establish any cell's applicability, or demonstrate that the conceptual categories are valid.
 
-### 7.4 Execution artifacts and integrity
+### 8.4 Execution artifacts and integrity
 
 - Script: [simulate_plan.py](simulate_plan.py)
 - Execution record: [execution-record.json](execution-record.json)
@@ -272,11 +289,11 @@ The result verifies these arithmetic and configuration controls inside the scrip
 
 These digests identify the local artifacts used to document this run. They do not certify author identity, external custody, or independent reproducibility.
 
-## 8. Post-Simulation Alchemy & Transformative Interlay
+## 9. Post-Simulation Alchemy & Transformative Interlay
 
 This interlay was performed after inspecting the recorded simulation output. It preserves the distinction between a result that passed its procedural test and any broader conclusion.
 
-### 8.1 Five Alchemies applied to the results
+### 9.1 Five Alchemies applied to the results
 
 | Alchemy | Post-run treatment |
 |---|---|
@@ -286,7 +303,7 @@ This interlay was performed after inspecting the recorded simulation output. It 
 | Spirit | NOT APPLICABLE to executable results — no spiritual mechanism or agency was measured |
 | Consciousness | NOT APPLICABLE to executable results — no consciousness measure or inference is supported |
 
-### 8.2 Six Transformative phases applied to the results
+### 9.2 Six Transformative phases applied to the results
 
 | Phase | Post-run interpretation |
 |---|---|
@@ -299,7 +316,7 @@ This interlay was performed after inspecting the recorded simulation output. It 
 
 No failed or hypothetical real-world result was relabelled as successful. The post-simulation interlay is an interpretation record, not a second simulation, an independent verification, or implementation approval.
 
-## 9. Results and Synthesis
+## 10. Results and Synthesis
 
 ### Result R-01 — The bounded procedural model passed its declared tests
 
@@ -335,25 +352,25 @@ This is a governance/traceability issue, not evidence that either substantive fr
 
 **Status: NOT PERFORMED.** No independent reviewer or external reproduction of GAIA-RP-BASE-SIM-001 occurred. This report records an actual execution and a local artifact digest; neither is equivalent to independent verification, replication, or validation. Broader scientific hypotheses remain untested.
 
-## 10. Verification and Acceptance
+## 11. Verification and Acceptance
 
-### 10.1 Criterion-by-criterion result
+### 11.1 Criterion-by-criterion result
 
 | ID | Acceptance criterion | Evidence | Result |
 |---|---|---|---|
 | BASE-AC-01 | Identify the live plan and exact version under examination | Version 1.4 header and source commit linked in Document Control | PASS |
 | BASE-AC-02 | Record one distinct research pass, with method and sources | RP-BASE-R1 and references R1–R5 | PASS |
 | BASE-AC-03 | Execute exactly one baseline simulation pass and preserve its run ID | GAIA-RP-BASE-SIM-001; execution JSON | PASS |
-| BASE-AC-04 | Document the pre-simulation interlay and applicability decisions | Section 6 | PASS |
-| BASE-AC-05 | Document the post-simulation interlay with run/result links | Section 8 | PASS |
+| BASE-AC-04 | Document the pre-simulation interlay and applicability decisions | Section 7 | PASS |
+| BASE-AC-05 | Document the post-simulation interlay with run/result links | Section 9 | PASS |
 | BASE-AC-06 | Preserve expected/observed outputs, failures, and limits | Fixture table and execution record | PASS |
-| BASE-AC-07 | Test the matrix arithmetic without assuming a combined cube | Section 7.3 and execution JSON | PASS |
-| BASE-AC-08 | Include the 13 mandatory report-contract fields | Sections 1–11 plus limitations and handoff metadata in Sections 12–13 | PASS |
+| BASE-AC-07 | Test the matrix arithmetic without assuming a combined cube | Section 8.3 and execution JSON | PASS |
+| BASE-AC-08 | Include the 13 mandatory report-contract fields | all thirteen mandatory report-contract fields in numbered Sections 1–13 | PASS |
 | BASE-AC-09 | Distinguish process-test results from substantive scientific claims | Scope boundary, claim register, and Results | PASS |
 | BASE-AC-10 | Report independent-review and reproduction status accurately | Sections 7.1, 9, and 10 | PASS |
-| BASE-AC-11 | Record material gaps and repository handoff information | Results R-03 to R-06; Section 13 | PASS |
+| BASE-AC-11 | Record material gaps and repository handoff information | Results R-03 to R-06; Section 14 | PASS |
 
-### 10.2 Decision
+### 11.2 Decision
 
 **Baseline deliverable status: PASS for the declared procedural-baseline scope.** The required single research pass and single simulation pass occurred; both interlays and the required record are present; the model's predeclared checks passed. The pass is bounded to process behavior and this defined test scope.
 
@@ -363,7 +380,7 @@ This is a governance/traceability issue, not evidence that either substantive fr
 
 This is a stage-level decision about the deliverable, not an overall readiness PASS for every GAIA activity and not authorization to implement or deploy a system.
 
-## 11. Limitations and Next Actions
+## 12. Limitations and Next Actions
 
 1. **Resolve plan authority:** Record the owner's decision on the relationship between Research Plan v1.4 and the older Foundation Research Plan Extension. Do not overwrite history silently.
 2. **Operationalize each research pass:** Define the minimum evidence of distinctness and how supplementary research is logged outside the exact required multiplier bundle.
@@ -375,7 +392,7 @@ This is a stage-level decision about the deliverable, not an overall readiness P
 
 No additional research or simulation pass is claimed in this report. Follow-on activity is a recommendation, not an executed result.
 
-## 12. Foundation Handoff Metadata
+## 13. Foundation Handoff Metadata
 
 | Field | Record |
 |---|---|
