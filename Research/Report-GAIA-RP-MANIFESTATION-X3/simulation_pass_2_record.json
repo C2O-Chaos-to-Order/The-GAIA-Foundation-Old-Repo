@@ -1,0 +1,32 @@
+{
+  "run_id": "GAIA-RP-MANIFESTATION-X3-SIM-002",
+  "run_date": "2026-10-28",
+  "model": "Multiplier and stage-gate integrity",
+  "model_version": "1.0.0",
+  "execution_status": "EXECUTED",
+  "execution_type": "one deterministic software simulation run with nine synthetic fixtures",
+  "required_research_passes": 3,
+  "required_simulation_passes": 3,
+  "fixtures": [
+    {"id":"G01_complete_three_by_three","expected_result":"PASS_STAGE_CRITERIA","observed_result":"PASS_STAGE_CRITERIA","passed":true},
+    {"id":"G02_only_two_simulations","expected_result":"BLOCKED_SIMULATION_PASS_COUNT","observed_result":"BLOCKED_SIMULATION_PASS_COUNT","passed":true},
+    {"id":"G03_duplicate_simulation_id","expected_result":"FAIL_DUPLICATE_SIMULATION_ID","observed_result":"FAIL_DUPLICATE_SIMULATION_ID","passed":true},
+    {"id":"G04_unexecuted_run","expected_result":"BLOCKED_UNEXECUTED_SIMULATION","observed_result":"BLOCKED_UNEXECUTED_SIMULATION","passed":true},
+    {"id":"G05_executed_but_failed_criterion","expected_result":"FAIL_ACCEPTANCE_CRITERION","observed_result":"FAIL_ACCEPTANCE_CRITERION","passed":true},
+    {"id":"G06_missing_post_interlay","expected_result":"BLOCKED_MISSING_INTERLAY","observed_result":"BLOCKED_MISSING_INTERLAY","passed":true},
+    {"id":"G07_relabelled_research_scope","expected_result":"FAIL_NON_DISTINCT_RESEARCH_SCOPE","observed_result":"FAIL_NON_DISTINCT_RESEARCH_SCOPE","passed":true},
+    {"id":"G08_only_two_research_passes","expected_result":"BLOCKED_RESEARCH_PASS_COUNT","observed_result":"BLOCKED_RESEARCH_PASS_COUNT","passed":true},
+    {"id":"G09_indeterminate_is_not_pass","expected_result":"FAIL_ACCEPTANCE_CRITERION","observed_result":"FAIL_ACCEPTANCE_CRITERION","passed":true}
+  ],
+  "acceptance_criteria": {"AC-T2-01":true,"AC-T2-02":true,"AC-T2-03":true,"AC-T2-04":true,"AC-T2-05":true,"AC-T2-06":true,"AC-T2-07":true,"AC-T2-08":true,"AC-T2-09":true,"AC-T2-10":true},
+  "criterion_count": 10,
+  "criteria_passed": 10,
+  "fixture_count": 9,
+  "accepted": true,
+  "limitations": [
+    "Synthetic gate cases only; not a simulation of the GAIA intelligence itself.",
+    "The test encodes selected rules; it does not independently validate the full research plan.",
+    "A failed executed run is an attempt but does not satisfy its success criterion.",
+    "No independent reproduction or review performed."
+  ]
+}
