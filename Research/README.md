@@ -336,19 +336,3 @@ The proposed post-Earth sequence **Primary Elements ×5 → Secondary Elements �
 
 ---
 
-## Current Research-Plan Baseline Deliverable — 2026-10-28
-
-- **[GAIA-RP-BASE-X1 — Quintessential Baseline: The GAIA Research Plan](Report-GAIA-RP-BASE-X1/REPORT.md)** — v1.0.2. One bounded research pass and one actually executed procedural simulation pass of Research Plan v1.4. The procedural model passed 11/11 encoded acceptance checks across eight synthetic fixtures in a single execution. This is a process-control test, not validation of GAIA's underlying conceptual or scientific hypotheses.
-- [Simulation model](Report-GAIA-RP-BASE-X1/simulate_plan.py) and [execution record](Report-GAIA-RP-BASE-X1/execution-record.json).
-- **Status boundary:** internal baseline criteria passed for the declared scope; independent review/reproduction not performed; broader scientific validity remains indeterminate.
-- **Governance note:** the report records an unresolved authority relationship between the new Research Plan v1.4 in the separate [Research-for-The-GAIA-Foundation-Research repository](https://github.com/KyleAlexanderSteen/Research-for-The-GAIA-Foundation-Research/blob/main/The%20GAIA%20Research%20Plan/README.md) and the existing [Foundation Research Plan Extension](RESEARCH_PLAN_EXTENSION.md). No older plan was overwritten, deleted, or silently declared superseded.
-
-
-## Manifestation ×3 — Current Stage Deliverable (2026-10-28)
-
-- **[GAIA-RP-MANIFESTATION-X3 — Manifestation ×3 Research and Simulation Report](Report-GAIA-RP-MANIFESTATION-X3/REPORT.md)** — v1.0. Three distinct research passes and three actually executed simulation passes. 26 synthetic fixtures across three runs; 29/29 encoded model-level acceptance checks matched expected outcomes.
-- [**Stage ledger**](Report-GAIA-RP-MANIFESTATION-X3/stage-ledger.json) — canonical stage/pass accounting, run IDs, artifact paths, and limits.
-- [**Simulation protocol**](Report-GAIA-RP-MANIFESTATION-X3/simulation-protocol.md) — pre-execution specification for three separate simulations.
-- **Research records:** [Pass 1 — Traceability](Report-GAIA-RP-MANIFESTATION-X3/research-pass-1-requirements-traceability.md); [Pass 2 — Simulation V&V](Report-GAIA-RP-MANIFESTATION-X3/research-pass-2-simulation-verification-validation.md); [Pass 3 — Reproducibility, Matrices, and Governance](Report-GAIA-RP-MANIFESTATION-X3/research-pass-3-reproducibility-matrices-governance.md).
-- **Simulation scripts and records:** [Pass 1 model](Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_1_traceability.py) / [run record](Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_1_record.json); [Pass 2 model](Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_2_gate_integrity.py) / [run record](Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_2_record.json); [Pass 3 model](Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_3_matrix_governance.py) / [run record](Report-GAIA-RP-MANIFESTATION-X3/simulation_pass_3_record.json).
-- **Status boundary:** PASS for this stage's declared methodological scope. Broader scientific/conceptual validity remains INDETERMINATE; independent review/reproduction not performed. The report applies the new Research Plan v1.4 to this current sequence only and does not globally supersede the older seven-report extension.
