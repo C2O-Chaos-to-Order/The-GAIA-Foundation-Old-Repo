@@ -332,3 +332,13 @@ The proposed post-Earth sequence **Primary Elements ×5 → Secondary Elements �
 ---
 
 *Document purpose: research governance and navigation. This README establishes no claim that the research corpus is complete, that any open validation gate has passed, that the conceptual architecture is validated, or that implementation has been authorized.*
+
+
+---
+
+## Current Research-Plan Baseline Deliverable — 2026-10-28
+
+- **[GAIA-RP-BASE-X1 — Quintessential Baseline: The GAIA Research Plan](Report-GAIA-RP-BASE-X1/REPORT.md)** — v1.0. One bounded research pass and one actually executed procedural simulation pass of Research Plan v1.4. The procedural model passed 11/11 encoded acceptance checks across eight synthetic fixtures in a single execution. This is a process-control test, not validation of GAIA's underlying conceptual or scientific hypotheses.
+- [Simulation model](Report-GAIA-RP-BASE-X1/simulate_plan.py) and [execution record](Report-GAIA-RP-BASE-X1/execution-record.json).
+- **Status boundary:** internal baseline criteria passed for the declared scope; independent review/reproduction not performed; broader scientific validity remains indeterminate.
+- **Governance note:** the report records an unresolved authority relationship between the new Research Plan v1.4 in the separate [Research-for-The-GAIA-Foundation-Research repository](https://github.com/KyleAlexanderSteen/Research-for-The-GAIA-Foundation-Research/blob/main/The%20GAIA%20Research%20Plan/README.md) and the existing [Foundation Research Plan Extension](RESEARCH_PLAN_EXTENSION.md). No older plan was overwritten, deleted, or silently declared superseded.
