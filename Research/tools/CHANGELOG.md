@@ -1,6 +1,13 @@
 # gaia_tools change log
 
-## Unreleased — Wave 1 remediation N24 (2026-11-08)
+## Unreleased — Wave 1 N24 retirement (2026-11-09)
+
+- Owner decision (Kyle Steen, card t44s607, 2026-11-09): RETIRE the re-run paths instead of keeping the freshness repair. `gaia_tools.rerun.run_cycle`, `tracks.rerun`, and `phases.rerun` now refuse immediately with a `retired` error. Modules and CLI surfaces remain (less destructive than deletion) so callers get an explicit refusal rather than an ImportError.
+- Dated note: `N24_RERUN_RETIREMENT_2026-11-09.md`. Tests: `tests/test_w1_n24_rerun_freshness.py` rewritten to prove the retired paths refuse. The 2026-11-08 freshness-repair tests remain in git history.
+- Other commands (`validate`, `claimsource`, `maps`) are unchanged. `.github/` was not touched.
+
+## Unreleased — Wave 1 remediation N24 (2026-11-08) — superseded 2026-11-09 by retirement
+
 - `rerun`, `tracks rerun`, `phases rerun`: before each run the copied EXECUTION_RECORD.json (and, for `rerun`, every output the stored record lists) is deleted from the temporary copy, so a script that writes nothing can no longer be compared against the cached record. Rows gain `fresh_record` (and `outputs_present`/`expected_outputs` for `rerun`); `all_identical` requires them. Previously seven `pass` scripts reported "ALL IDENTICAL (7 runs)" with exit 0.
 - Tests: `tests/test_w1_n24_rerun_freshness.py` (stdlib unittest; scratch copies only). The genuine simulations need numpy/scipy and were not re-executed in this change.
 - The package version string is unchanged; no data-model change.

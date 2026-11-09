@@ -14,6 +14,7 @@ Usage:
 Research tooling only: no service, no deployment; it never modifies the records it checks (reruns use a temporary copy)."""
 import argparse, collections, glob, hashlib, json, os, re, shutil, subprocess, sys, tempfile
 from . import data as D
+from .retirement import RerunRetired, refuse_rerun
 from .claimsource import parse_phrases, phrase_found
 
 FIELDS = {"NAT": "Natural-Sciences", "FOR": "Formal-Sciences", "SOC": "Social-Sciences", "APP": "Applied-Sciences",
@@ -140,28 +141,9 @@ def claimsource(research_dir, cid, snapshots=None):
 
 
 def rerun(research_dir, cid, python=sys.executable):
-    cp = {c: p for c, p, _ in phase_cycles(research_dir)}[cid]
-    tmp = tempfile.mkdtemp(prefix="gaia-phase-rerun-"); dst = os.path.join(tmp, os.path.basename(cp))
-    shutil.copytree(cp, dst, ignore=shutil.ignore_patterns("__pycache__")); rep = []
-    for s in runs(cp, cid):
-        old = json.load(open(os.path.join(cp, s["execution_record"]))); sd = os.path.join(dst, os.path.dirname(s["directory"]))
-        rec_tmp = os.path.join(dst, s["execution_record"])
-        if os.path.isfile(rec_tmp):  # N24: never compare against the cached record
-            os.remove(rec_tmp)
-        p = subprocess.run([python, os.path.basename(s["script"]), f"iter-{s['iteration']}"], cwd=sd, capture_output=True, text=True)
-        fresh = os.path.isfile(rec_tmp); new = {}
-        if fresh:
-            try:
-                with open(rec_tmp) as fh: new = json.load(fh)
-            except ValueError: fresh, new = False, {}
-        row = dict(sim_id=s["sim_id"], iteration=s["iteration"], exit=p.returncode, fresh_record=fresh, results_identical=fresh and old["results_sha256"] == new.get("results_sha256"),
-                   checks_identical=fresh and [(c["id"], c["result"]) for c in old["pre_registered_checks"]] == [(c["id"], c["result"]) for c in new.get("pre_registered_checks", [])],
-                   params_identical=fresh and old["params_sha256"] == new.get("params_sha256"), spec_identical=fresh and old["spec_sha256"] == new.get("spec_sha256"))
-        if p.returncode: row["stderr_tail"] = p.stderr[-400:]
-        rep.append(row)
-    shutil.rmtree(tmp, ignore_errors=True)
-    ok = bool(rep) and all(r["exit"] == 0 and r["fresh_record"] and r["results_identical"] and r["checks_identical"] and r["params_identical"] and r["spec_identical"] for r in rep)
-    return dict(cycle=cid, n_runs=len(rep), all_identical=ok, runs=rep)
+    # Retired 2026-11-09 (owner Kyle Steen, card t44s607). The 2026-11-08
+    # freshness repair on this function is superseded; see retirement.py.
+    refuse_rerun("gaia_tools.phases.rerun")
 
 
 def maps(research_dir, out_dir, label):
@@ -246,7 +228,12 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if a.cmd == "validate": r = validate(a.research_dir)
     elif a.cmd == "claimsource": r = claimsource(a.research_dir, a.arg, a.snapshots)
-    elif a.cmd == "rerun": r = rerun(a.research_dir, a.arg, a.python)
+    elif a.cmd == "rerun":
+        try:
+            rerun(a.research_dir, a.arg, a.python)
+        except RerunRetired as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
     else:
         r = maps(a.research_dir, a.arg, a.version_label); print(json.dumps(dict(phase_claims_placed=r["phase_claims_placed"], phase_cycles=r["phase_cycles"], sims=r["sims"]))); return 0
     if a.out:

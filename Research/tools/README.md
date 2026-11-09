@@ -5,7 +5,7 @@ A small Python package used to check and map the research corpus. It is **resear
 | Module | Command | Purpose |
 |---|---|---|
 | `gaia_tools.validate` | `python -m gaia_tools.validate <Research> [--out f.json]` | JSON-Schema validation (data model 1.3.0, `gaia_tools/schemas/`) and cross-file rules V1–V6 (V3 resolves SIM citations across cycles); quality warnings Q1–Q4 |
-| `gaia_tools.rerun` | `python -m gaia_tools.rerun <Research> C<n> [--python P]` | re-executes a cycle's simulations in a temporary copy and compares output hashes, check results and params with the stored execution records |
+| `gaia_tools.rerun` | `python -m gaia_tools.rerun <Research> C<n>` | **retired 2026-11-09** (owner Kyle Steen, card t44s607): refuses with a `retired` error; not a scientific re-execution. See `N24_RERUN_RETIREMENT_2026-11-09.md`. |
 | `gaia_tools.claimsource` | `python -m gaia_tools.claimsource <Research> C<n> [--snapshots DIR]` | offline claim-source checks: K-resolve, K-access (full-text rule), K-sim (no Established claim on a Fail; 'not supported' wording) and optional K-phrase against local text snapshots (phrases are regular expressions with a literal fallback; a missing snapshot is Indeterminate, never Pass) |
 | `gaia_tools.maps` | `python -m gaia_tools.maps <Research> <out> --version-label "..."` | claim map, 625-cell matrix and Being × Lens projection, GAIA-centred link graph (JSON + Mermaid), cross-cycle changes, simulation index; link pressure includes Report-7 strict-rule downgrades |
 | `gaia_tools.data` | (library) | loaders for claims, sources, links, simulations and checks |
@@ -22,7 +22,7 @@ Versions: gaia_tools 0.4.0; data model 1.3.0 (changes in `CHANGELOG.md`); lens r
 ```
 python -m gaia_tools.tracks validate ..                       # all track cycles
 python -m gaia_tools.tracks claimsource .. TA --snapshots DIR  # one track cycle
-python -m gaia_tools.tracks rerun .. TA                        # re-execute and compare hashes
+python -m gaia_tools.tracks rerun .. TA                        # retired 2026-11-09: refuses with a 'retired' error
 python -m gaia_tools.maps_all .. ../Maps-and-Matrix/<version> --version-label "..."
 ```
 Research tooling only, as before.
@@ -31,7 +31,7 @@ Research tooling only, as before.
 ```
 python -m gaia_tools.phases validate ..                         # all phase cycles
 python -m gaia_tools.phases claimsource .. DV0 --snapshots DIR   # one phase cycle
-python -m gaia_tools.phases rerun .. DV0                         # re-execute and compare hashes
+python -m gaia_tools.phases rerun  # retired 2026-11-09: refuses .. DV0                         # re-execute and compare hashes
 python -m gaia_tools.phases maps .. ../Maps-and-Matrix/<version> --version-label "..."
 ```
 Research tooling only, as before.

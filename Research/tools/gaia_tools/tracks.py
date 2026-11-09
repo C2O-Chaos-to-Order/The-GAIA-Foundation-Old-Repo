@@ -12,6 +12,7 @@ Usage:
   python -m gaia_tools.tracks rerun <Research dir> <track cycle id> [--python PATH] [--out f.json]"""
 import argparse, glob, hashlib, json, os, re, shutil, subprocess, sys, tempfile
 from . import data as D
+from .retirement import RerunRetired, refuse_rerun
 from .claimsource import parse_phrases, phrase_found
 
 TOPICS = {"SOUL": "Soul", "SPIRIT": "Spirit", "SUBC": "Subconscious", "CONS": "Consciousness"}
@@ -145,29 +146,9 @@ def claimsource(research_dir, tid, snapshots=None):
 
 
 def rerun(research_dir, tid, python=sys.executable):
-    tc = {t: p for t, p, _ in track_cycles(research_dir)}; cp = tc[tid]
-    tmp = tempfile.mkdtemp(prefix="gaia-track-rerun-"); dst = os.path.join(tmp, os.path.basename(cp))
-    shutil.copytree(cp, dst, ignore=shutil.ignore_patterns("__pycache__")); rep = []
-    for s in runs(cp, tid):
-        old = json.load(open(os.path.join(cp, s["execution_record"]))); sd = os.path.join(dst, os.path.dirname(s["directory"]))
-        rec_tmp = os.path.join(dst, s["execution_record"])
-        if os.path.isfile(rec_tmp):  # N24: never compare against the cached record
-            os.remove(rec_tmp)
-        p = subprocess.run([python, os.path.basename(s["script"]), f"iter-{s['iteration']}"], cwd=sd, capture_output=True, text=True)
-        fresh = os.path.isfile(rec_tmp); new = {}
-        if fresh:
-            try:
-                with open(rec_tmp) as fh: new = json.load(fh)
-            except ValueError: fresh, new = False, {}
-        row = dict(sim_id=s["sim_id"], iteration=s["iteration"], exit=p.returncode,
-                   fresh_record=fresh, results_identical=fresh and old["results_sha256"] == new.get("results_sha256"),
-                   checks_identical=fresh and [(c["id"], c["result"]) for c in old["pre_registered_checks"]] == [(c["id"], c["result"]) for c in new.get("pre_registered_checks", [])],
-                   params_identical=fresh and old["params_sha256"] == new.get("params_sha256"), spec_identical=fresh and old["spec_sha256"] == new.get("spec_sha256"))
-        if p.returncode: row["stderr_tail"] = p.stderr[-400:]
-        rep.append(row)
-    shutil.rmtree(tmp, ignore_errors=True)
-    ok = bool(rep) and all(r["exit"] == 0 and r["fresh_record"] and r["results_identical"] and r["checks_identical"] and r["params_identical"] and r["spec_identical"] for r in rep)
-    return dict(track_cycle=tid, n_runs=len(rep), all_identical=ok, runs=rep)
+    # Retired 2026-11-09 (owner Kyle Steen, card t44s607). The 2026-11-08
+    # freshness repair on this function is superseded; see retirement.py.
+    refuse_rerun("gaia_tools.tracks.rerun")
 
 
 def main(argv=None):
@@ -176,12 +157,17 @@ def main(argv=None):
     a2 = sp.add_parser("claimsource"); a2.add_argument("research_dir"); a2.add_argument("cycle"); a2.add_argument("--snapshots"); a2.add_argument("--out")
     a3 = sp.add_parser("rerun"); a3.add_argument("research_dir"); a3.add_argument("cycle"); a3.add_argument("--python", default=sys.executable); a3.add_argument("--out")
     a = ap.parse_args(argv)
-    r = validate(a.research_dir) if a.cmd == "validate" else (claimsource(a.research_dir, a.cycle, a.snapshots) if a.cmd == "claimsource" else rerun(a.research_dir, a.cycle, a.python))
+    if a.cmd == "rerun":
+        try:
+            rerun(a.research_dir, a.cycle, a.python)
+        except RerunRetired as exc:
+            print(str(exc), file=sys.stderr)
+            return 2
+    r = validate(a.research_dir) if a.cmd == "validate" else claimsource(a.research_dir, a.cycle, a.snapshots)
     if a.out: open(a.out, "w", newline="\n").write(json.dumps(r, indent=1, ensure_ascii=False) + "\n")
     if a.cmd == "validate": print(f"{r['n_errors']} errors, {r['n_warnings']} warnings"); [print(*e) for e in r["errors"]]; return 1 if r["n_errors"] else 0
     if a.cmd == "claimsource": print(json.dumps(r["summary"]), "claims with a Fail:", r["n_fail"]); [print("FAIL", o["claim_id"], o["results"]) for o in r["claims"] if "Fail" in o["results"].values()]; return 1 if r["n_fail"] else 0
-    for x in r["runs"]: print(x["sim_id"], x["iteration"], "exit", x["exit"], "results", x["results_identical"], "checks", x["checks_identical"])
-    print("ALL IDENTICAL" if r["all_identical"] else "DIFFERENCES FOUND", f"({r['n_runs']} runs)"); return 0 if r["all_identical"] else 1
+    return 1
 
 
 if __name__ == "__main__":
