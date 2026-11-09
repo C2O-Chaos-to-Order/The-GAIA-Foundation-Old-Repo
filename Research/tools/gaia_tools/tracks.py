@@ -150,16 +150,23 @@ def rerun(research_dir, tid, python=sys.executable):
     shutil.copytree(cp, dst, ignore=shutil.ignore_patterns("__pycache__")); rep = []
     for s in runs(cp, tid):
         old = json.load(open(os.path.join(cp, s["execution_record"]))); sd = os.path.join(dst, os.path.dirname(s["directory"]))
+        rec_tmp = os.path.join(dst, s["execution_record"])
+        if os.path.isfile(rec_tmp):  # N24: never compare against the cached record
+            os.remove(rec_tmp)
         p = subprocess.run([python, os.path.basename(s["script"]), f"iter-{s['iteration']}"], cwd=sd, capture_output=True, text=True)
-        new = json.load(open(os.path.join(dst, s["execution_record"])))
+        fresh = os.path.isfile(rec_tmp); new = {}
+        if fresh:
+            try:
+                with open(rec_tmp) as fh: new = json.load(fh)
+            except ValueError: fresh, new = False, {}
         row = dict(sim_id=s["sim_id"], iteration=s["iteration"], exit=p.returncode,
-                   results_identical=old["results_sha256"] == new["results_sha256"],
-                   checks_identical=[(c["id"], c["result"]) for c in old["pre_registered_checks"]] == [(c["id"], c["result"]) for c in new["pre_registered_checks"]],
-                   params_identical=old["params_sha256"] == new["params_sha256"], spec_identical=old["spec_sha256"] == new["spec_sha256"])
+                   fresh_record=fresh, results_identical=fresh and old["results_sha256"] == new.get("results_sha256"),
+                   checks_identical=fresh and [(c["id"], c["result"]) for c in old["pre_registered_checks"]] == [(c["id"], c["result"]) for c in new.get("pre_registered_checks", [])],
+                   params_identical=fresh and old["params_sha256"] == new.get("params_sha256"), spec_identical=fresh and old["spec_sha256"] == new.get("spec_sha256"))
         if p.returncode: row["stderr_tail"] = p.stderr[-400:]
         rep.append(row)
     shutil.rmtree(tmp, ignore_errors=True)
-    ok = all(r["exit"] == 0 and r["results_identical"] and r["checks_identical"] and r["params_identical"] and r["spec_identical"] for r in rep)
+    ok = bool(rep) and all(r["exit"] == 0 and r["fresh_record"] and r["results_identical"] and r["checks_identical"] and r["params_identical"] and r["spec_identical"] for r in rep)
     return dict(track_cycle=tid, n_runs=len(rep), all_identical=ok, runs=rep)
 
 

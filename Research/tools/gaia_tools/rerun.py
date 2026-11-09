@@ -7,9 +7,22 @@ executed in report order (iterations in order), and for each run we compare:
   outputs_identical  - output SHA-256 map equal to the stored record
   checks_identical   - list of (check id, result) equal to the stored record
   params_identical   - params SHA-256 equal (iteration records only)
-Exit code 0 only if every run exits 0 and all comparisons hold. Archived runs are not re-executed."""
-import argparse, json, os, shutil, subprocess, sys, tempfile
+  fresh_record       - the run itself wrote a new EXECUTION_RECORD.json
+  outputs_present    - every output the new record lists exists and has the hash it claims
+Before each run, the copied execution record and every output listed in the stored record are
+deleted from the temporary copy, so a script that writes nothing cannot be compared against the
+cached record (Wave 1 remediation N24). Exit code 0 only if every run exits 0, regenerates its
+record and outputs, and all comparisons hold. Archived runs are not re-executed."""
+import argparse, hashlib, json, os, shutil, subprocess, sys, tempfile
 from . import data as D
+
+
+def _sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as fh:
+        for block in iter(lambda: fh.read(1 << 16), b""):
+            h.update(block)
+    return h.hexdigest()
 
 
 def run_cycle(research_dir, cycle_id, python=sys.executable, keep=False):
@@ -25,26 +38,51 @@ def run_cycle(research_dir, cycle_id, python=sys.executable, keep=False):
     runs.sort(key=lambda s: (s["report"], s["iteration"] or 0))
     rep = []
     for s in runs:
-        old = json.load(open(os.path.join(cp_orig, s["execution_record"])))
+        with open(os.path.join(cp_orig, s["execution_record"])) as fh:
+            old = json.load(fh)
+        record_tmp = os.path.join(cp_tmp, s["execution_record"])
+        rundir_tmp = os.path.dirname(record_tmp)
+        expected_outputs = sorted(old.get("outputs") or {})
+        # Remove cached evidence so only what this run writes can be compared.
+        for stale in [record_tmp] + [os.path.join(rundir_tmp, rel) for rel in expected_outputs]:
+            if os.path.isfile(stale):
+                os.remove(stale)
         script = os.path.join(cp_tmp, s["script"])
         if s["iteration"]:
             cmd, cwd = [python, os.path.basename(script), f"iter-{s['iteration']}"], os.path.dirname(script)
         else:
             cmd, cwd = [python, s["script"]], cp_tmp
         p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True)
-        new = json.load(open(os.path.join(cp_tmp, s["execution_record"])))
+        fresh_record = os.path.isfile(record_tmp)
+        new = {}
+        if fresh_record:
+            try:
+                with open(record_tmp) as fh:
+                    new = json.load(fh)
+            except ValueError:
+                fresh_record, new = False, {}
+        new_outputs = new.get("outputs") or {}
+        outputs_present = fresh_record and set(new_outputs) == set(expected_outputs) and all(
+            os.path.isfile(os.path.join(rundir_tmp, rel)) and _sha256(os.path.join(rundir_tmp, rel)) == digest
+            for rel, digest in new_outputs.items()
+        )
         row = dict(sim_id=s["sim_id"], iteration=s["iteration"], exit=p.returncode,
-                   outputs_identical=old["outputs"] == new["outputs"],
-                   checks_identical=[(c["id"], c["result"]) for c in old["pre_registered_checks"]] ==
-                                    [(c["id"], c["result"]) for c in new["pre_registered_checks"]],
-                   params_identical=(old.get("params_sha256") == new.get("params_sha256")) if "params_sha256" in old
-                                    else old.get("params") == new.get("params"))
+                   fresh_record=fresh_record, outputs_present=outputs_present,
+                   expected_outputs=len(expected_outputs),
+                   outputs_identical=fresh_record and old.get("outputs") == new.get("outputs"),
+                   checks_identical=fresh_record and
+                                    [(c["id"], c["result"]) for c in old.get("pre_registered_checks", [])] ==
+                                    [(c["id"], c["result"]) for c in new.get("pre_registered_checks", [])],
+                   params_identical=fresh_record and ((old.get("params_sha256") == new.get("params_sha256"))
+                                                      if "params_sha256" in old
+                                                      else old.get("params") == new.get("params")))
         if p.returncode:
             row["stderr_tail"] = p.stderr[-500:]
         rep.append(row)
     if not keep:
         shutil.rmtree(tmp, ignore_errors=True)
-    ok = all(r["exit"] == 0 and r["outputs_identical"] and r["checks_identical"] and r["params_identical"] for r in rep)
+    ok = bool(rep) and all(r["exit"] == 0 and r["fresh_record"] and r["outputs_present"] and r["outputs_identical"]
+                           and r["checks_identical"] and r["params_identical"] for r in rep)
     return dict(cycle=cycle_id, n_runs=len(rep), all_identical=ok, runs=rep)
 
 
@@ -57,7 +95,8 @@ def main(argv=None):
     if a.out:
         open(a.out, "w").write(json.dumps(r, indent=1) + "\n")
     for x in r["runs"]:
-        print(x["sim_id"], x["iteration"], "exit", x["exit"], "outputs", x["outputs_identical"], "checks", x["checks_identical"], "params", x["params_identical"])
+        print(x["sim_id"], x["iteration"], "exit", x["exit"], "fresh_record", x["fresh_record"],
+              "outputs_present", x["outputs_present"], "outputs", x["outputs_identical"], "checks", x["checks_identical"], "params", x["params_identical"])
     print("ALL IDENTICAL" if r["all_identical"] else "DIFFERENCES FOUND", f"({r['n_runs']} runs)")
     return 0 if r["all_identical"] else 1
 

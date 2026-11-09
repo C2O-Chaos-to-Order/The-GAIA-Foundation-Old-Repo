@@ -1,5 +1,10 @@
 # gaia_tools change log
 
+## Unreleased — Wave 1 remediation N24 (2026-11-08)
+- `rerun`, `tracks rerun`, `phases rerun`: before each run the copied EXECUTION_RECORD.json (and, for `rerun`, every output the stored record lists) is deleted from the temporary copy, so a script that writes nothing can no longer be compared against the cached record. Rows gain `fresh_record` (and `outputs_present`/`expected_outputs` for `rerun`); `all_identical` requires them. Previously seven `pass` scripts reported "ALL IDENTICAL (7 runs)" with exit 0.
+- Tests: `tests/test_w1_n24_rerun_freshness.py` (stdlib unittest; scratch copies only). The genuine simulations need numpy/scipy and were not re-executed in this change.
+- The package version string is unchanged; no data-model change.
+
 ## 0.6.0 — data model 1.5.0 (Phases track: Divergence Baseline, 2026-10-24)
 - New `gaia_tools.phases`: loader, `validate` (E1–E10, W1–W3), `claimsource` (K-resolve, K-access, K-sim, K-phrase), `rerun` and `maps` for `Research/Tracks/Phases/<Phase>/Cycle-<L>-<Baseline|xN>/` (five phases x six fields of knowledge). SIM citations `SIM-<PH>-<FIELD>-<L>/iter-k#check`; claims `<PH><L>-<FIELD>-nn`; sources `P01..`.
 - `phases maps` runs `maps_all.build` unchanged, then overlays the phase track: claim placement on the **Phase axis** (organisational, by report scope), `matrix/phase_x_field_30.csv`, `matrix/phase_x_lens_25.csv`, a `phase_claims_in_being_phase_lens_projection` column in `intersections_625.csv`, field/phase graph nodes and PL-* links, change-log rows, simulation index rows.
