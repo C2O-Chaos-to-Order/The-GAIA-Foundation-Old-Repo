@@ -1,4 +1,15 @@
-# The GAIA Foundation
+# The GAIA Foundation (historical corpus)
+
+**Current GitHub repository (dated 2026-11-10):** `C2O-Chaos-to-Order/The-GAIA-Foundation-Old-Repo`.
+
+This public repository holds a frozen research corpus. It is a historical predecessor, not an active UNIVERSALIS product source of truth, and not a current personal-account GAIA property.
+
+`main` HEAD is `91a05628ccf1569954e50a9112d4edbc4110c562` (2026-10-28 1:57:37 PM CT, America/Chicago). The earlier pin `bd3a085a62ba97fa46c242becefa35f4b0165369` (merge of pull request #37, 2026-10-25 7:35:14 AM CT, America/Chicago) is an ancestor of that HEAD, not the current tip.
+
+Current public UNIVERSALIS satellites and the UNIVERSALIS product/research repositories live under `C2O-Chaos-to-Order` (see the corrected repository table below). Archive, visibility, and branch-cleanup decisions for this old repository are **not** made by this README change.
+
+**The Foundation In Which GAIA Has Been Built Upon.**
+
 
 **The Foundation In Which GAIA Has Been Built Upon.**
 
@@ -9,11 +20,11 @@ This repository holds the foundational research corpus for GAIA and the governan
 ## Current status (2026-10-25)
 
 - **Every research gate is INDETERMINATE.** All internal checks pass or are reported, but no independent human review and no ethics review has been done. INDETERMINATE is never PASS. **The research and ethics gates stay INDETERMINATE until the required independent reviews (including an ethics review) and their evidence are complete.** Nothing in this README upgrades any gate.
-- **Merged into `main` means accepted by the owner, not verified.** See [`GOVERNANCE/GATE_AUTHORITY.md`](GOVERNANCE/GATE_AUTHORITY.md). The repository owner (@KyleAlexanderSteen) is the final authority for every gate.
+- **Merged into `main` means accepted by the owner, not verified.** See [`GOVERNANCE/GATE_AUTHORITY.md`](GOVERNANCE/GATE_AUTHORITY.md). The GitHub owner of this repository is now the `C2O-Chaos-to-Order` organization. Gate authority remains with the repository owner (see [`GOVERNANCE/GATE_AUTHORITY.md`](GOVERNANCE/GATE_AUTHORITY.md)).
 - **Implementation is not authorized.** Research, successful tests and technical capability do not grant permission to deploy (Universal Regulation, Law 7).
 - **Universal Regulation standard:** Proposed, not adopted, not implemented. Audit v2 gate: INDETERMINATE (see [`GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md`](GOVERNANCE/AUDIT_UNIVERSAL_REGULATION_v2.md)).
 
-## What is on `main` (as of commit `bd3a085a`, PR #37)
+## What is on `main` (current HEAD `91a05628`; table originally written against ancestor `bd3a085a`, PR #37)
 
 | Area | Path | Contents | Gate |
 |---|---|---|---|
@@ -54,44 +65,50 @@ Merged means accepted by the owner, not verified: every one of these stays INDET
 
 ## Work in progress (not on `main`; the owner reviews and merges)
 
-As of 2026-10-25 (`main` @ `bd3a085a`, PR #37) there were **no open research pull requests** before this README update (checked with the GitHub pull-request list). PR #28 (`research/work-queue-gaiadoc`) and PR #29 (`research/work-queue-phases-done`), listed here before, are both merged. This wording reconcile is on `research/authority-reconcile` until the owner merges it.
+As of 2026-10-25 (`main` @ `bd3a085a`, PR #37) there were **no open research pull requests** before that earlier README update (checked then with the GitHub pull-request list). That sentence is a 2026-10-25 observation, not a 2026-11-10 count. Current `main` is `91a05628ccf1569954e50a9112d4edbc4110c562`. The 2026-11-10 inventory listed one open draft on this repository (`#43`). PR #28 (`research/work-queue-gaiadoc`) and PR #29 (`research/work-queue-phases-done`), listed here before, are both merged. This wording reconcile is on `research/authority-reconcile` until the owner merges it.
 
 The full list of incoming reports is in [`Research/WORK_QUEUE.md`](Research/WORK_QUEUE.md).
 
 Branches already merged and kept for history: `research/cycle-0-baseline`, `cycle-1-x3`, `maps-c0-c1`, `cycle-2-x6`, `cycle-3-x9`, `cycle-4-x12`, `master-report`, `track-ssc-a-x3` … `track-ssc-d-x12`, `governance-universal-regulation`, `governance-audit-fixes`, `phase-divergence-c0` … `phase-divergence-x12`, `phase-insurgence-c0` … `phase-insurgence-x12`, `phase-allegiance-c0` … `phase-allegiance-x12`, `phase-convergence-c0` … `phase-convergence-x12`, `phase-ascendence-c0` … `phase-ascendence-x12`, `phase-transcendence-c0` … `phase-transcendence-x12`, `phase-synthesis`, `work-queue`, `work-queue-update`, `work-queue-indigenous`, `docs-reconcile-main`, `governance-totality`, `work-queue-program-coordination`, `work-queue-golden-age`, `gapcheck-totality`, `work-queue-gaiadoc` (PR #28), `work-queue-phases-done` (PR #29), `pc4-c0` … `pc4-x12` (PR #30), `pc1-c0` … `pc1-x12` (PR #31), `crosswalk-c0` … `crosswalk-x12` (PR #32), `connection-c0` … `connection-x12` (PR #33).
 
-## GAIA repositories (added 2026-10-25)
+## Related repositories (corrected 2026-11-10)
 
-The-GAIA-Foundation is the active source of truth. The-Official-GAIA-Encyclopedia is a backup only. The founding principle for every repository is [Truth with Integrity](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation/blob/main/PRINCIPLES.md): "A Truth That Is Never Twisted."
+This repository (`C2O-Chaos-to-Order/The-GAIA-Foundation-Old-Repo`) is a frozen historical corpus. It is **not** the active source of truth for the current UNIVERSALIS satellites. The founding principle text remains [Truth with Integrity](PRINCIPLES.md): "A Truth That Is Never Twisted."
+
+Current public UNIVERSALIS homes:
 
 | Repository | What it holds |
 |---|---|
-| [The-GAIA-Foundation](https://github.com/KyleAlexanderSteen/The-GAIA-Foundation) | Primary source: the research corpus (reports, tracks, cycles, Maps and Matrix v1–v43), governance and `PRINCIPLES.md`. Every research gate is INDETERMINATE |
-| [The-GAIA-Human-Knowledge](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Knowledge) | Human Subjects of Knowledge (H-K) |
-| [The-GAIA-Human-Capabilities](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Capabilities) | Human Capabilities (H-C) |
-| [The-GAIA-Human-Skills](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Skills) | Human Skills (H-S) |
-| [The-GAIA-Human-Powers](https://github.com/KyleAlexanderSteen/The-GAIA-Human-Powers) | Human Powers (H-P) |
-| [The-GAIA-Intelligence-Knowledge](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Knowledge) | Intelligence Subjects of Knowledge (I-K) |
-| [The-GAIA-Intelligence-Capabilities](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Capabilities) | Intelligence Capabilities (I-C) |
-| [The-GAIA-Intelligence-Skills](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Skills) | Intelligence Skills (I-S) |
-| [The-GAIA-Intelligence-Powers](https://github.com/KyleAlexanderSteen/The-GAIA-Intelligence-Powers) | Intelligence Powers (I-P) |
-| [The-GAIA-Ontology](https://github.com/KyleAlexanderSteen/The-GAIA-Ontology) | Master Ontology: the eight documents above compiled, with a shared source register |
-| [The-GAIA-Map-and-Matrix](https://github.com/KyleAlexanderSteen/The-GAIA-Map-and-Matrix) | Human–Intelligence Map and Matrix: v1.2 is the latest version mapping the Foundation's completed work across all ten repositories (v1.1 and v1.0 kept as prior versions) |
+| [The-GAIA-Foundation-Old-Repo](https://github.com/C2O-Chaos-to-Order/The-GAIA-Foundation-Old-Repo) | This historical corpus (reports, tracks, cycles, Maps and Matrix directories `v1/`–`v43`, governance and `PRINCIPLES.md`). Every research gate remains INDETERMINATE as stated above. |
+| [The-UNIVERSALIS-Human-Knowledge](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Human-Knowledge) | Human Subjects of Knowledge (H-K) |
+| [The-UNIVERSALIS-Human-Capabilities](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Human-Capabilities) | Human Capabilities (H-C) |
+| [The-UNIVERSALIS-Human-Skills](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Human-Skills) | Human Skills (H-S) |
+| [The-UNIVERSALIS-Human-Powers](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Human-Powers) | Human Powers (H-P) |
+| [The-UNIVERSALIS-Intelligence-Knowledge](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Intelligence-Knowledge) | Intelligence Subjects of Knowledge (I-K) |
+| [The-UNIVERSALIS-Intelligence-Capabilities](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Intelligence-Capabilities) | Intelligence Capabilities (I-C) |
+| [The-UNIVERSALIS-Intelligence-Skills](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Intelligence-Skills) | Intelligence Skills (I-S) |
+| [The-UNIVERSALIS-Intelligence-Powers](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Intelligence-Powers) | Intelligence Powers (I-P) |
+| [The-UNIVERSALIS-Ontology](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Ontology) | Master Ontology |
+| [The-UNIVERSALIS-Ecosystem](https://github.com/C2O-Chaos-to-Order/The-UNIVERSALIS-Ecosystem) | Public UNIVERSALIS product |
+| [Research-for-the-UNIVERSALIS-Ecosystem](https://github.com/C2O-Chaos-to-Order/Research-for-the-UNIVERSALIS-Ecosystem) | Public UNIVERSALIS research workspace |
 
-How they connect is recorded in Map and Matrix v1.2, the latest version (`v1.2/`, sheet `Foundation x Repositories`): explicit links carry an evidence path; inferred links are on the `Proposed` sheet, labelled Hypothetical, until the owner approves them.
+Maps and Matrix directories `v1/` through `v43/` are in this repository at [`Research/Maps-and-Matrix/`](Research/Maps-and-Matrix/). The 2026-11-10 inventory of 28 `C2O-Chaos-to-Order` repositories did not include a separate `The-GAIA-Map-and-Matrix` owner repository, so this table does not cite one. Personal-account `KyleAlexanderSteen/The-GAIA-*` URLs are not listed as current homes.
+
+
+How historical connections were recorded is described in the Maps and Matrix materials under [`Research/Maps-and-Matrix/`](Research/Maps-and-Matrix/) (directories `v1/` through `v43/` on this `main`). Earlier README text that called `v1.2` the latest version is treated as stale wording; this correction does not pick a current map version.
 
 ## Governance and safety
 
 - [`GOVERNANCE/README.md`](GOVERNANCE/README.md): index of the standard, audits, risk levels, gate authority and change log.
 - [`SECURITY.md`](SECURITY.md): how to report a vulnerability or an integrity problem privately (coordinated disclosure).
 - [`.github/CODEOWNERS`](.github/CODEOWNERS): the owner is the required reviewer for every path. This is enforced only once branch protection is on, and it is currently **off** (see the owner to-do below).
-- [`.github/workflows/verify.yml`](.github/workflows/verify.yml): manifest checks, `gaia_tools` tests and both validators on pull requests.
+- [`.github/workflows/verify.yml`](.github/workflows/verify.yml): manifest checks, `gaia_tools` tests and both validators, **started only by `workflow_dispatch`**. The YAML `on:` block does not declare `pull_request` or `push` (header comments dated 2026-10-24 record the pause). The previous README clause that said this workflow ran on pull requests did not match the YAML and is corrected here. The workflow file itself is not edited.
 - Agent commits are authored as **Grok Bot** with a `Co-authored-by` line for the owner, so they can be told apart from the owner's own commits (from 2026-10-24; earlier agent commits appear under the owner's name; see [`GOVERNANCE/AGENT_PUSH_LOG.md`](GOVERNANCE/AGENT_PUSH_LOG.md)).
 
 ## Owner to-do (settings and decisions only the owner can make)
 
 - **Licence:** All rights reserved (see [`LICENSE`](LICENSE)), chosen by Kyle on 2026-10-24. Third-party sources keep their own licences.
-- **TODO: branch protection for `main`.** Require a pull request and the owner's review, block force-pushes and deletion (audit item UR-L7-03). This is a repository setting. **Checked 2026-10-25 (read-only, GitHub API `GET /repos/KyleAlexanderSteen/The-GAIA-Foundation/branches/main`): `protected: false`, `protection.enabled: false`; `GET .../rules/branches/main` returned no rulesets. Branch protection is NOT active on `main`.** Nothing was changed; only the owner can turn it on.
+- **TODO: branch protection for `main`.** Require a pull request and the owner's review, block force-pushes and deletion (audit item UR-L7-03). This is a repository setting. **Checked 2026-10-25 (read-only, GitHub API `GET /repos/KyleAlexanderSteen/The-GAIA-Foundation/branches/main`; that was the repository name at the time of the check): `protected: false`, `protection.enabled: false`; `GET .../rules/branches/main` returned no rulesets. Branch protection is NOT active on `main`.** Nothing was changed; only the owner can turn it on.
 - **TODO: name independent reviewers,** including an ethics reviewer, so gates can move beyond INDETERMINATE (UR-L3-04, UR-L4-02).
 
 ## Key principles observed in this corpus
